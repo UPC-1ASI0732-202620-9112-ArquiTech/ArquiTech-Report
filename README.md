@@ -290,31 +290,31 @@ Particularmente, los supervisores de obra (quienes en muchos casos también cump
 
 Frente a este panorama, surge la necesidad de una solución digital adaptada a esta realidad: accesible, intuitiva, y enfocada en automatizar tareas críticas como el control de inventario, la gestión de personal, y la generación de reportes. Una herramienta que no solo ayude a optimizar procesos, sino que también facilite la toma de decisiones estratégicas, mejore la comunicación y permita a estas empresas competir en un mercado cada vez más exigente.
 
-What (¿Qué problema existe?)
+**What (¿Qué problema existe?)**
 
 El principal problema que enfrentan muchas pequeñas y medianas empresas del sector construcción es la falta de una herramienta digital centralizada que permita gestionar eficientemente sus obras. Actualmente, gran parte de la gestión operativa , como el control de inventario, la asistencia del personal, el avance del proyecto y la generación de reportes, se realiza de forma manual o desorganizada, utilizando hojas de cálculo, aplicaciones no integradas o canales de mensajería informal. Esta situación genera desorden, pérdida de información, errores administrativos y retrasos en la toma de decisiones.
 
-Why (¿Por qué es importante gestionar bien una obra?)
+**Why (¿Por qué es importante gestionar bien una obra?)**
 
 Porque una buena gestión de obra garantiza que los proyectos se desarrollen dentro del presupuesto, en el tiempo estimado y cumpliendo los estándares de calidad y seguridad. Cuando estos procesos no se administran adecuadamente, se corre el riesgo de incurrir en sobrecostos, retrasos, accidentes laborales, reclamos de los contratantes y una menor rentabilidad del proyecto. Además, una gestión eficiente fortalece la transparencia y la confianza entre los supervisores de obra y los contratantes, lo cual es clave para futuras oportunidades de negocio.
 
-When (¿Cuándo ocurre?)
+**When (¿Cuándo ocurre?)**
 
 Este problema ocurre principalmente durante las etapas de ejecución y supervisión de las obras, donde se requiere una coordinación constante entre personal, materiales, plazos y reportes. Sucede tanto al inicio del día (planificación y distribución de tareas), como durante el desarrollo del proyecto (seguimiento en campo) y al cierre del día (informes de avance).
 
-Where (¿Dónde sucede?)
+**Where (¿Dónde sucede?)**
 
 Principalmente en obras ubicadas en zonas urbanas y semiurbanas de Lima Metropolitana, como San Juan de Lurigancho, Villa El Salvador, Ate y San Martín de Porres. Estas áreas concentran una alta actividad de pequeñas y medianas empresas constructoras que aún no han adoptado herramientas digitales especializadas.
 
-Who (¿A quién afecta?)
+**Who (¿A quién afecta?)**
 
 Afecta directamente a los supervisores de obra, quienes deben cumplir múltiples roles en la gestión operativa, y a los contratantes de empresas privadas, quienes exigen cumplimiento de plazos, transparencia y seguridad en la ejecución del proyecto. También impacta a los trabajadores administrativos que deben organizar, comunicar y reportar toda la información relacionada con los avances de la obra.
 
-How (¿Cómo se manifiesta el problema?)
+**How (¿Cómo se manifiesta el problema?)**
 
 Se manifiesta mediante la falta de control en el inventario, errores en la asistencia de personal, demoras en la entrega de reportes, dificultades en la comunicación entre actores involucrados y poca capacidad para tomar decisiones basadas en datos. Además, el uso de canales informales como WhatsApp o Excel disperso impide centralizar la información y genera retrabajo.
 
-How much (¿Qué tan grave es?)
+**How much (¿Qué tan grave es?)**
 
 La gravedad del problema radica en que una gestión deficiente de los recursos puede generar consecuencias económicas y operativas para las empresas constructoras. Según Michue Francia (2025), las deficiencias y la falta de control sobre los suministros y proveedores tienen un impacto directo en la ejecución de los proyectos, ocasionando retrasos en los plazos de entrega, incrementos imprevistos de los costos y no conformidades técnicas en la obra. Estas situaciones pueden traducirse en pérdidas económicas, compras innecesarias por un inadecuado control de materiales, menor productividad del personal y descontento de los clientes.
 
@@ -324,9 +324,66 @@ Asimismo, las soluciones existentes en el mercado, como Procore o Buildertrend, 
 
 #### 1.2.2.1. Lean UX Problem Statements
 
+El estado actual del sector de la gestión de proyectos de construcción se caracteriza por el uso de herramientas poco integradas para administrar obras. Las pequeñas y medianas empresas constructoras, junto con sus supervisores, jefes de obra y personal administrativo, enfrentan dificultades para gestionar trabajadores, materiales, presupuestos, avances y tiempos de ejecución. Muchas de estas actividades se realizan mediante Excel, documentos físicos o canales de comunicación informales, generando desorganización, pérdida de información, retrasos y dificultades para tomar decisiones oportunamente.
+
+Las soluciones existentes no siempre se adaptan a las necesidades de este segmento, debido a sus costos, complejidad de uso o falta de adecuación a la realidad de las pequeñas y medianas empresas. Frente a esta brecha, Foundex, mediante ArquiTech, propone una solución digital accesible e intuitiva que permita centralizar la información de las obras, controlar sus principales recursos y realizar un seguimiento oportuno de los proyectos.
+
+Nuestro enfoque inicial estará dirigido a pequeñas y medianas empresas constructoras de Lima Metropolitana que actualmente utilizan herramientas no integradas para gestionar sus obras. Consideraremos como usuarios a los responsables de la supervisión y al personal administrativo. Sabremos que la solución es exitosa cuando los usuarios la utilicen de manera recurrente para registrar y consultar información, realizar seguimiento de avances y recursos, generar reportes y reducir la dependencia de herramientas dispersas.
+
+¿Cómo podríamos facilitar la gestión de proyectos de construcción para que las pequeñas y medianas empresas puedan centralizar la información de sus obras, controlar sus recursos y realizar un seguimiento oportuno de sus avances?
+
 #### 1.2.2.2. Lean UX Assumptions
 
+**Assumptions worksheet**
+
+**Business Assumptions:**
+
+1. **Creemos que nuestros clientes necesitan** reducir errores y pérdidas por desorganización en obra al momento de gestionar el inventario, personal y obreros.
+2. **Estas necesidades se pueden resolver con** un seguimiento personalizado para cada uno de estos aspectos del proyecto.
+3. **Mis clientes iniciales son** supervisores de obra de proyectos medianos de construcción.
+4. **El valor #1 que mi cliente quiere de mi servicio es** ahorrar tiempo y dinero al centralizar la gestión operativa al optimizar los procesos con una buena organización.
+5. **El cliente también puede obtener el beneficio adicional de** tener mayor visibilidad y control sobre recursos y personal en tiempo real y una mejor toma de decisiones gracias a datos precisos y actualizados.
+6. **Voy a adquirir la mayoría de mis clientes a través de** marketing digital localizado y pruebas gratuitas de 30 días con soporte personalizado para atraer usuarios.
+7. **Haré dinero a través de** suscripciones mensuales escalables.
+8. **Mi competencia principal en el mercado serán** otras aplicaciones de gestión de proyectos.
+9. **Los venceremos debido a que** nuestros planes tienen precios más bajos y son flexibles, nuestro enfoque es específico en operaciones diarias (inventario, personal, obreros) y la adaptación será rápida debido a la fácil implementación del sistema que cuenta con soporte localizado.
+10. **Mi mayor riesgo de producto es** la resistencia inicial a la adopción tecnológica en empresas acostumbradas a métodos manuales.
+11. **Resolveremos esto a través de** capacitaciones gratuitas y videos tutoriales que estarán disponibles en todo momento a través de la web de la empresa.
+
+**User Assumptions:**
+
+- **¿Quién es el usuario?**
+
+    Nuestros principales clientes serán los supervisores de obra y contratantes de empresas privadas que se encuentran en un rango de edad de 28 a 50 años que pueden ser de clase media-alta, estos quieren encontrar una manera eficiente de llevar la administración de sus proyectos de construcción para evitar pérdidas.
+
+- **¿Dónde encaja nuestro producto en su trabajo o vida?**
+
+    Nuestro producto encaja al momento de iniciar la supervisión de un aspecto del proyecto que se está administrando en ese momento o se quiere revisar el avance y buen manejo.
+
+- **¿Qué problemas tiene nuestro producto y cómo se pueden resolver?**
+
+    - La dependencia del internet en la obra para poder utilizar el aplicativo el cual se puede solucionar incluyendo un modo offline que sincronice datos al reconectarse a una red de internet. 
+    - El soporte técnico insuficiente para picos de demanda, en caso de un aumento repentino de usuarios se podría saturar el soporte técnico, frustrando a clientes que esperan respuestas rápidas. Este problema lo podremos solucionar creando una base de conocimientos con videos y guías para resolver dudas comunes y evitar un número masivo de consultas.
+
+- **¿Cómo y cuándo es usado nuestro producto?**
+
+    Nuestro producto puede ser usado al inicio del día para planificar (confirmar asistencia, revisar inventario), durante el día para monitorear (actualizar avances) y al final para generar y/o revisar reportes.
+
+- **¿Qué características son importantes?**
+
+    Nuestro producto debe contar con una interfaz intuitiva, fácil de usar y aprender por nuestros usuarios, también debe contar con una buena sincronización de datos para poder tener un buen seguimiento de los distintos aspectos de la obra.
+
+- **¿Cómo debe verse nuestro producto y cómo comportarse?**
+
+    La interfaz de nuestro producto debe ser intuitiva y resposive con un diseño que transmita confianza y profesionalismo y que sea de respuesta rápida.
+
 #### 1.2.2.3. Lean UX Hypothesis Statements
+
+Creemos que ofrecer una plataforma web centralizada para supervisores y asistentes administrativos que integre la gestión de inventario, personal y obreros resultará en una reducción del tiempo dedicado a tareas administrativas, y lo sabremos porque el tiempo promedio para generar reportes diarios disminuirá de 60 minutos a 15 minutos en las primeras cuatro semanas de uso.
+
+Creemos que proporcionar un modo offline que sincronice datos de inventario y asistencia una vez conectado para supervisores en obras sin internet resultará en un uso continuo en entornos remotos, y lo sabremos porque el 90% de las actualizaciones offline se sincronizará correctamente en las primeras 24 horas.
+
+Creemos que proporcionar un onboarding interactivo con videos cortos para supervisores y asistentes resultará en una curva de aprendizaje más corta, y lo sabremos porque el 75% de los nuevos usuarios realizarán al menos tres acciones clave (registrar asistencia, actualizar inventario, generar reporte) en su primera semana.
 
 #### 1.2.2.4. Lean UX Canvas
 
