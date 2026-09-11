@@ -387,6 +387,8 @@ Creemos que proporcionar un onboarding interactivo con videos cortos para superv
 
 #### 1.2.2.4. Lean UX Canvas
 
+![Lean UX Process](assets/chapter-1/Lean-UX-Canvas.png)
+
 ## 1.3. Segmentos objetivo
 
 # Capítulo II: Requirements Elicitation & Analysis
