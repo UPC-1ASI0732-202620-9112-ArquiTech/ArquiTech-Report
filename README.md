@@ -722,6 +722,16 @@ Para acceder a las secciones de maquinarias e incidentes debes presionar aquello
 
 ### 4.10.1. Relational/Non-Relational Database Diagram
 
+**Figura 76**
+*Database Diagram of ArquiTech*
+<p align="center">
+  <img src="assets/Database Diagram/database_diagram.png" alt="PB" width="1000">
+</p>
+
+*Nota.* Elaboración propia.  
+
+<hr>
+
 # Capítulo V: Product Implementation
 
 ## 5.1. Software Configuration Management
