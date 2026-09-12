@@ -411,6 +411,22 @@ Creemos que proporcionar un onboarding interactivo con videos cortos para superv
 
 ### 2.3.1. User Personas
 
+**Figura 22**  
+*User persona del segmento #1: Supervisor de Obra*  
+<p align="center">
+  <img src="assets/User Persona/Juan Carlos Zegarra.png" alt="PB" width="1000" align="center">
+</p>
+
+*Nota.* Elaboración propia.  
+
+**Figura 23**  
+*User persona del segmento #2: Contratista de Empresas privadas*  
+<p align="center">
+  <img src="assets/User Persona/VERONICA DELGADO.png" alt="PB" width="1000">
+</p>
+
+*Nota.* Elaboración propia.  
+
 ### 2.3.2. User Task Matrix
 
 ### 2.3.3. User Journey Mapping
