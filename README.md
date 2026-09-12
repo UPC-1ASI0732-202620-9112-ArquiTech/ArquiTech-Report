@@ -587,7 +587,7 @@ Para acceder a las secciones de maquinarias e incidentes debes presionar aquello
 
 **Figura 61**  
 <p align="center">
-  <img src="ASSETS/Web Applications/Mockup - Login.png" alt="PB" width="500">
+  <img src="assets/Web Applications/Mockup - Login.png" alt="PB" width="500">
 	
 <br>*Nota.* Elaboración propia. 
 </p>
@@ -595,7 +595,7 @@ Para acceder a las secciones de maquinarias e incidentes debes presionar aquello
 
 **Figura 62**  
 <p align="center">
-  <img src="ASSETS/Web Applications/Mockup - Projects.png" alt="PB" width="500">
+  <img src="assets/Web Applications/Mockup - Projects.png" alt="PB" width="500">
 	
 <br>*Nota.* Elaboración propia. 
 </p>
@@ -603,7 +603,7 @@ Para acceder a las secciones de maquinarias e incidentes debes presionar aquello
 
 **Figura 63**  
 <p align="center">
-  <img src="ASSETS/Web Applications/Mockup - Materials.png" alt="PB" width="500">
+  <img src="assets/Web Applications/Mockup - Materials.png" alt="PB" width="500">
 	
 <br>*Nota.* Elaboración propia. 
 </p>
@@ -611,7 +611,7 @@ Para acceder a las secciones de maquinarias e incidentes debes presionar aquello
 
 **Figura 64**  
 <p align="center">
-  <img src="ASSETS/Web Applications/Mockup - Workers.png" alt="PB" width="500">
+  <img src="assets/Web Applications/Mockup - Workers.png" alt="PB" width="500">
 	
 <br>*Nota.* Elaboración propia. 
 </p>
@@ -619,7 +619,7 @@ Para acceder a las secciones de maquinarias e incidentes debes presionar aquello
 
 **Figura 65**  
 <p align="center">
-  <img src="ASSETS/Web Applications/Mockup - Incidents.png" alt="PB" width="500">
+  <img src="assets/Web Applications/Mockup - Incidents.png" alt="PB" width="500">
 	
 <br>*Nota.* Elaboración propia. 
 </p>
@@ -627,7 +627,7 @@ Para acceder a las secciones de maquinarias e incidentes debes presionar aquello
 
 **Figura 66**  
 <p align="center">
-  <img src="ASSETS/Web Applications/Mockup - Machinery.png" alt="PB" width="500">
+  <img src="assets/Web Applications/Mockup - Machinery.png" alt="PB" width="500">
 	
 <br>*Nota.* Elaboración propia. 
 </p>
