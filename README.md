@@ -461,7 +461,29 @@ Creemos que proporcionar un onboarding interactivo con videos cortos para superv
 
 ### 4.3.1. Landing Page Wireframe
 
+
+**Desktop Web Browser**
+
+<p align="center">
+  <img src="assets/landing-page/Wireframe-Landing-Desktop.png" alt="PB" width="500">
+</p>
+
+**Mobile Web Browser**
+<p align="center">
+  <img src="assets/landing-page/Wireframe-Landing-Mobile.png" alt="PB" width="500">
+</p>
+
 ### 4.3.2. Landing Page Mock-up
+**Desktop Web Browser**
+
+<p align="center">
+  <img src="assets/landing-page/MockUp-Landing-Desktop.png" alt="PB" width="500">
+</p>
+
+**Mobile Web Browser**
+<p align="center">
+  <img src="assets/landing-page/MockUp-Landing-Mobile.png" alt="PB" width="500">
+</p>
 
 ## 4.4. Mobile Applications UX/UI Design
 
