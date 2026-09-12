@@ -585,6 +585,53 @@ Para acceder a las secciones de maquinarias e incidentes debes presionar aquello
 
 ### 4.6.3. Web Applications Mock-ups
 
+**Figura 61**  
+<p align="center">
+  <img src="ASSETS/Web Applications/Mockup - Login.png" alt="PB" width="500">
+	
+<br>*Nota.* Elaboración propia. 
+</p>
+<br>
+
+**Figura 62**  
+<p align="center">
+  <img src="ASSETS/Web Applications/Mockup - Projects.png" alt="PB" width="500">
+	
+<br>*Nota.* Elaboración propia. 
+</p>
+<br>
+
+**Figura 63**  
+<p align="center">
+  <img src="ASSETS/Web Applications/Mockup - Materials.png" alt="PB" width="500">
+	
+<br>*Nota.* Elaboración propia. 
+</p>
+<br>
+
+**Figura 64**  
+<p align="center">
+  <img src="ASSETS/Web Applications/Mockup - Workers.png" alt="PB" width="500">
+	
+<br>*Nota.* Elaboración propia. 
+</p>
+<br>
+
+**Figura 65**  
+<p align="center">
+  <img src="ASSETS/Web Applications/Mockup - Incidents.png" alt="PB" width="500">
+	
+<br>*Nota.* Elaboración propia. 
+</p>
+
+
+**Figura 66**  
+<p align="center">
+  <img src="ASSETS/Web Applications/Mockup - Machinery.png" alt="PB" width="500">
+	
+<br>*Nota.* Elaboración propia. 
+</p>
+
 ### 4.6.4. Web Applications User Flow Diagrams
 
 ## 4.7. Web Applications Prototyping
