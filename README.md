@@ -505,6 +505,49 @@ Creemos que proporcionar un onboarding interactivo con videos cortos para superv
 
 ### 4.6.1. Web Applications Wireframes
 
+**Figura 53**  
+<p align="center">
+  <img src="assets/Web Applications/Wireframe - Login.png" alt="PB" width="500">
+<br>*Nota.* Elaboración propia. 
+</p>
+<br>
+
+
+**Figura 54**
+<p align="center">
+  <img src="assets/Web Applications/Wireframe - Projects.png" alt="PB" width="500">
+<br>*Nota.* Elaboración propia. 
+</p>
+<br>
+
+**Figura 55**
+<p align="center">
+  <img src="assets/Web Applications/Wireframe - Materials.png" alt="PB" width="500">
+<br>*Nota.* Elaboración propia. 
+</p>
+<br>  
+
+**Figura 56**
+<p align="center">
+  <img src="assets/Web Applications/Wireframe - Workers.png" alt="PB" width="500">
+<br>*Nota.* Elaboración propia.  
+</p>
+<br>
+
+**Figura 57**
+<p align="center">
+  <img src="assets/Web Applications/Wireframe - Incidents.png" alt="PB" width="500">
+<br>*Nota.* Elaboración propia.  
+</p>
+<br>
+
+**Figura 58**
+<p align="center">
+  <img src="assets/Web Applications/Wireframe - Machinery.png" alt="PB" width="500">
+<br>*Nota.* Elaboración propia.  
+</p>
+<br>
+
 ### 4.6.2. Web Applications Wireflow Diagrams
 
 ### 4.6.3. Web Applications Mock-ups
