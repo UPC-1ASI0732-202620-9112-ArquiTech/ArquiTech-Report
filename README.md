@@ -708,9 +708,33 @@ Para acceder a las secciones de maquinarias e incidentes debes presionar aquello
 
 ### 4.8.1. Software Architecture Context Diagram
 
+**Figura 73**  
+*Software Architecture Context Diagram of ArquiTech*  
+<p align="center">
+  <img src="assets/Domain-Driven/Arquitech_DiagramaContexto.png" alt="PB" width="1000">
+</p>
+
+*Nota.* Elaboración propia.
+
 ### 4.8.2. Software Architecture Container Diagrams
 
+**Figura 74**  
+*Software Architecture Container Diagram of ArquiTech*  
+<p align="center">
+  <img src="assets/Domain-Driven/Arquitech_DiagramaContenedor.png" alt="PB" width="700">
+</p>
+
+*Nota.* Elaboración propia.
+
 ### 4.8.3. Software Architecture Components Diagrams
+
+**Figura 75**  
+*Software Architecture Components Diagram of ArquiTech*  
+<p align="center">
+  <img src="assets/Domain-Driven/ArquiTech_DiagramaComponentes.png" alt="PB" width="700">
+</p>
+
+*Nota.* Elaboración propia.
 
 ## 4.9. Software Object-Oriented Design
 
