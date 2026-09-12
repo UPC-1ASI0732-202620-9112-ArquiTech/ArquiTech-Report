@@ -556,9 +556,63 @@ Monitor pequeño: 1296x1781px
  
 ### 4.1.3. Mobile Style Guidelines
 
+Esta sección define los lineamientos visuales y de interacción que deberá seguir la versión móvil de Arquitech, tanto en iOS como en Android. Dado que nuestros usuarios principales (supervisores de obra) suelen operar la aplicación directamente en campo, muchas veces con conectividad limitada, bajo luz solar directa o mientras usan guantes de trabajo, el diseño móvil prioriza elementos táctiles grandes, alto contraste y flujos simples de una sola mano. Se mantiene la identidad visual ya definida para Arquitech (paleta de colores, logotipo y tono de comunicación), adaptando la tipografía, el espaciado y los componentes de interfaz a las convenciones nativas de cada plataforma, con el objetivo de que la aplicación se sienta familiar y fluida para el usuario sin importar su sistema operativo.
+
+Se mantiene la misma paleta de colores de marca (Sinopia \#C43508, Fulvous \#DE7F1A, Selective Yellow \#FFB627, Isabelline \#F8F5F1 y Jet \#2F2E2D), así como el color Green Pigment (\#2BBA51) para acciones de confirmación y guardado, garantizando consistencia visual entre la web y las aplicaciones móviles.
+
+
 #### 4.1.3.1. iOS Mobile Style Guidelines
 
+La versión iOS de Arquitech sigue las recomendaciones de las Apple Human Interface Guidelines (HIG), priorizando la claridad, la jerarquía visual y el uso de componentes nativos del sistema.
+
+* Tipografía:  
+	Se utiliza San Francisco (SF Pro Text / SF Pro Display), la tipografía del sistema de iOS, con soporte de Dynamic Type para que el usuario pueda ajustar el tamaño del texto desde la configuración de su dispositivo sin romper el diseño.
+
+* Íconos:  
+	Se emplean SF Symbols para los íconos de navegación y acciones, asegurando consistencia con el resto del ecosistema iOS y compatibilidad automática con distintos pesos y tamaños de texto.
+
+* Áreas táctiles:  
+	Todo elemento interactivo (botones, íconos, celdas de lista) respeta un tamaño mínimo de 44x44 pt, conforme a los estándares de accesibilidad táctil de Apple.
+
+* Navegación:  
+	Se utiliza un Tab Bar inferior para las secciones principales (Inicio, Reportes, Materiales, Perfil) y una Navigation Bar superior con títulos grandes (Large Titles) para reforzar la jerarquía dentro de cada sección.
+
+* Modo claro y oscuro:  
+	La interfaz soporta Light Mode y Dark Mode de forma nativa, adaptando el color Isabelline (\#F8F5F1) como fondo en modo claro y el color Jet (\#2F2E2D) como fondo en modo oscuro, sin perder el contraste de los colores de marca.
+
+* Safe Areas y márgenes:  
+	Se respetan los Safe Area Insets definidos por iOS para evitar que el contenido quede oculto detrás del notch, la Dynamic Island o la barra de gestos inferior.
+
+* Gestos:  
+	Se habilitan gestos nativos como el swipe-back para retroceder entre pantallas y el pull-to-refresh para actualizar reportes y listados.
+
 #### 4.1.3.2. Android Mobile Style Guidelines
+
+La versión Android de Arquitech se basa en los lineamientos de Material Design 3 (Material You) de Google, adaptados a la paleta de colores de la marca.
+
+* Tipografía:  
+	Se utiliza Roboto como tipografía principal del sistema, siguiendo la escala tipográfica de Material Design para títulos, subtítulos y cuerpo de texto.
+
+* Sistema de color Material:  
+	Los colores de marca se mapean a los tokens del sistema Material (primary, secondary, surface, background), utilizando Sinopia (\#C43508) como color primario, Fulvous (\#DE7F1A) como color secundario e Isabelline (\#F8F5F1) como superficie base, manteniendo el contraste mínimo exigido por las pautas de accesibilidad de Material Design.
+
+* Áreas táctiles:  
+	Todo elemento interactivo respeta un tamaño mínimo de 48x48 dp, conforme a los estándares de accesibilidad táctil de Android.
+
+* Navegación:  
+	Se utiliza una Bottom Navigation Bar para las secciones principales de la aplicación y un Navigation Drawer lateral para opciones secundarias (configuración, ayuda, cierre de sesión).
+
+* Elevación y feedback visual:  
+	Los componentes utilizan sombras (elevation) para indicar jerarquía entre superficies, y se aplica el efecto ripple en botones e íconos para dar retroalimentación táctil inmediata al usuario.
+
+* Botón de acción flotante (FAB):  
+	Se utiliza un Floating Action Button con el color Green Pigment (\#2BBA51) para la acción principal de cada pantalla, como "Nuevo reporte" o "Registrar asistencia".
+
+* Íconos adaptativos:  
+	Se emplean adaptive icons para el ícono de la aplicación, asegurando que se vea correctamente en las distintas formas de ícono (círculo, cuadrado, squircle) según el fabricante del dispositivo Android.
+
+* Botón de retroceso del sistema:  
+	La navegación respeta el comportamiento nativo del botón de retroceso (back) del sistema operativo, tanto físico como gestual, para mantener la coherencia con el resto de aplicaciones Android.
 
 ## 4.2. Information Architecture
 
