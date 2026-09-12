@@ -634,6 +634,74 @@ Para acceder a las secciones de maquinarias e incidentes debes presionar aquello
 
 ### 4.6.4. Web Applications User Flow Diagrams
 
+<ins>**Segmento 1: Supervisores de obra**</ins>
+
+**User Goal 1:** Gestionar y controlar materiales de construcción  
+**Descripción:** El supervisor desea registrar el ingreso, uso y nivel de materiales en obra para evitar desperdicios y garantizar continuidad en las actividades.
+
+**Figura 67**  
+*User flow 1*
+<p align="center">
+  <img src="assets/Web Applications/userflow1.png" alt="PB" width="500"> 
+	
+<br>*Nota.* Elaboración propia. 
+</p>  
+
+**User Goal 2:** Controlar la asistencia y roles de los trabajadores  
+**Descripción:** El supervisor debe tener control total sobre el personal: quién está presente, qué tarea cumple y qué rol desempeña.
+
+**Figura 68**  
+*User flow 2*
+<p align="center">
+<img src="assets/Web Applications/userflow2.png" alt="PB" width="500">
+	
+<br>*Nota.* Elaboración propia. 
+
+**User Goal 3:** Reportar incidencias en obra  
+**Descripción:** El supervisor reporta eventos importantes en campo (fallas de maquinaria, ausencias masivas, problemas logísticos).
+
+**Figura 69**  
+*User flow 3*
+<p align="center">
+<img src="assets/Web Applications/userflow3.png" alt="PB" width="500">
+
+<br>*Nota.* Elaboración propia.
+
+<ins>**Segmento Objetivo #2: Contratantes de Empresas Privadas**</ins>
+
+**User Goal 1:** Visualizar el estado y progreso de mis obras contratadas (solo lectura)  
+**Descripción:** El contratante necesita consultar las obras activas donde ha contratado los servicios, con acceso a información clara y actualizada.
+
+**Figura 70**  
+*User flow 4*
+<p align="center">
+<img src="assets/Web Applications/userflow4.png" alt="PB" width="500">
+
+<br>*Nota.* Elaboración propia.
+
+
+**User Goal 2:** Visualizar el uso y estado de la maquinaria asignada a la obra  
+**Descripción:** Permitir que el contratante consulte, en tiempo real y de forma clara, qué maquinarias están siendo utilizadas en sus obras, cuál es su estado operativo y cómo impactan en el avance del proyecto.
+
+**Figura 71**  
+*User flow 5*
+<p align="center">
+<img src="assets/Web Applications/userflow5.png" alt="PB" width="500">
+</p>
+
+*Nota.* Elaboración propia.
+
+**User Goal 3:** Ver detalles del consumo de materiales y reportes de avance (en modo solo lectura)  
+**Descripción:** El contratante desea evaluar cómo se están utilizando los recursos materiales y verificar si el avance reportado está alineado con lo esperado.
+
+**Figura 72**  
+*User flow 6*
+<p align="center">
+<img src="assets/Web Applications/userflow6.png" alt="PB" width="500">
+</p>
+
+*Nota.* Elaboración propia.
+
 ## 4.7. Web Applications Prototyping
 
 ## 4.8. Domain-Driven Software Architecture
