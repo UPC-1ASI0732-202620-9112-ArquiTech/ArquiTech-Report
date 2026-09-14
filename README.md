@@ -403,7 +403,7 @@ Creemos que proporcionar un onboarding interactivo con videos cortos para superv
 
 ### 2.2.1. Diseño de entrevistas
 
-Para el proceso de investigación de ArquiTech se diseñó un conjunto de entrevistas dirigido a representantes de los dos segmentos objetivo identificados: supervisores de obra** y **contratantes de empresas privadas.
+Para el proceso de investigación de ArquiTech se diseñó un conjunto de entrevistas dirigido a representantes de los dos segmentos objetivo identificados: **supervisores de obra** y **contratantes de empresas privadas**.
 
 El objetivo de estas entrevistas es comprender las actividades que actualmente realizan los participantes durante la gestión y seguimiento de proyectos de construcción, las herramientas que utilizan, las principales dificultades que enfrentan y sus necesidades respecto al acceso, organización y comunicación de la información de una obra.
 
@@ -415,103 +415,106 @@ Para mantener la consistencia del proceso de investigación, todos los participa
 
 **Introducción y contexto**
 
-- ¿Cuál es tu nombre?
+- ¿Cuál es su nombre y apellido?
 - ¿Cuántos años tiene?
 - ¿En qué distrito reside?
-- ¿Puedes contarme sobre tu rol como supervisor? ¿Qué haces en un día típico?
-- ¿Cuántos obreros y qué tipo de materiales gestionas en una obra promedio?
+- ¿Podría contarme sobre su rol como supervisor de obra y las actividades que realiza durante un día habitual de trabajo?
+- ¿Aproximadamente cuántos trabajadores y qué tipos de materiales suele gestionar en una obra?
 
 **Procesos actuales**
 
-- ¿Cómo confirmas la asistencia de los obreros cada día? ¿Qué haces si alguien falta?
-- ¿Cómo llevas el control del inventario de materiales? ¿Qué herramientas usas?
-- ¿Cómo registras los avances de la obra y preparas reportes? ¿Cuánto tiempo te toma?
+- ¿Cómo realiza actualmente el control de asistencia de los trabajadores? ¿Qué procedimiento sigue cuando alguien falta?
+- ¿Cómo lleva actualmente el control del inventario de materiales? ¿Qué herramientas o métodos utiliza?
+- ¿Cómo registra los avances de una obra y prepara los reportes correspondientes? ¿Cuánto tiempo suele dedicar a estas actividades?
+- ¿Cómo comparte actualmente la información relacionada con el avance de la obra con otras personas involucradas en el proyecto?
 
 **Puntos de dolor**
 
-- ¿Qué es lo más frustrante o lento en la gestión de obreros o materiales? Dame un ejemplo reciente.
-- ¿Alguna vez has tenido problemas por errores en inventario o reportes? ¿Qué pasó?
-- ¿Qué tan fácil o difícil es coordinar con otros roles, como asistentes administrativos?
+- ¿Qué actividades relacionadas con la gestión de trabajadores, materiales o avances considera más complicadas o demandantes? ¿Podría contarme un caso reciente?
+- ¿Ha tenido problemas relacionados con errores en el inventario, asistencia o reportes? ¿Qué ocurrió y cómo lo resolvió?
+- ¿Qué dificultades suele encontrar al coordinar con otros roles involucrados en la gestión de la obra, como asistentes administrativos o responsables del proyecto?
+- ¿Hay alguna información que normalmente necesite durante la obra y que resulte difícil obtener o mantener actualizada?
 
 **Necesidades y expectativas**
 
-- Si tuvieras una herramienta que centralizará asistencia, inventario y reportes ¿te ayudaría? ¿de qué manera?
-- ¿Qué tan importante es tener información en tiempo real desde la obra? ¿Por qué?
-- ¿Qué te haría confiar en una nueva plataforma digital? ¿Qué te preocuparía?
+- ¿Cómo considera que podría mejorarse actualmente la gestión de asistencia, inventario y reportes de una obra?
+- ¿Qué información considera más importante consultar durante la ejecución de una obra y con qué frecuencia necesita acceder a ella?
+- ¿Qué características debería tener una herramienta digital para resultarle útil en la gestión y seguimiento de una obra?
+- ¿Qué condiciones o características le generarían confianza al utilizar una nueva plataforma digital?
+- ¿Qué aspectos podrían dificultar o impedir que utilice una herramienta de este tipo?
 
 **Cierre**
 
-- ¿Hay algo que no hayamos tocado que te gustaría que una herramienta como esta resolviera?
-- ¿Estarías dispuesto a probar una plataforma como ArquiTech? ¿Qué necesitarías para convencerte?
+- ¿Hay algún problema o necesidad relacionada con la gestión de obras que no hayamos mencionado y que considere importante resolver?
+- ¿Qué condiciones tendrían que cumplirse para que considere probar una plataforma digital orientada a la gestión de una obra?
 
 #### Segmento objetivo #2: Contratantes de empresas privadas
 
 **Introducción y contexto**
 
-- ¿Cuál es tu nombre?
+- ¿Cuál es su nombre y apellido?
 - ¿Cuántos años tiene?
 - ¿En qué distrito reside?
-- ¿Qué tipo de proyectos de construcción contratas normalmente (ej. locales, edificios)?
-- ¿Cómo es el proceso para elegir una constructora? ¿Qué buscas en ellas?
+- ¿Qué tipo de proyectos de construcción suele contratar, por ejemplo, locales comerciales, oficinas, edificios u otros?
+- ¿Cómo realiza normalmente el proceso de selección de una empresa constructora? ¿Qué aspectos toma en cuenta para elegirla?
 
 **Procesos actuales**
 
-- ¿Cómo te mantienes informado sobre el avance de una obra? ¿Qué información recibes y con qué frecuencia?
-- ¿Qué herramientas o métodos usa la constructora para reportarte?
-- ¿Cómo verificas que se cumplan licencias, normas de seguridad o plazos?
+- ¿Cómo se mantiene informado actualmente sobre el avance de una obra que ha contratado?
+- ¿Qué tipo de información recibe sobre el proyecto y con qué frecuencia?
+- ¿Qué herramientas o medios utiliza normalmente la constructora para comunicarle el avance de la obra?
+- ¿Cómo verifica actualmente el cumplimiento de aspectos como plazos, licencias, normas de seguridad u otras condiciones del proyecto?
+- ¿Cómo realiza el seguimiento del uso de materiales y del personal involucrado en la obra?
 
 **Puntos de dolor**
 
-- ¿Qué problemas has tenido con constructoras en el pasado? Por ejemplo, retrasos o falta de claridad.
-- ¿Qué tan frustrante es no tener visibilidad completa sobre el uso de materiales o el personal en obra?
-- ¿Alguna vez has perdido dinero por demoras o errores en un proyecto? ¿Qué pasó?
+- ¿Qué dificultades ha experimentado anteriormente al trabajar con empresas constructoras? ¿Podría contarme algún caso?
+- ¿Qué nivel de visibilidad suele tener sobre el uso de materiales, el personal y el avance de una obra?
+- ¿Ha tenido alguna dificultad debido a información incompleta, desactualizada o poco clara durante un proyecto? ¿Qué ocurrió?
+- ¿Ha experimentado retrasos, errores o situaciones que hayan generado costos adicionales durante una obra? ¿Cómo afectaron al proyecto?
+- ¿Qué aspectos del seguimiento de una obra le generan actualmente mayor preocupación o incertidumbre?
 
 **Necesidades y expectativas**
 
-- Si pudieras acceder a una plataforma que te muestre en tiempo real el avance, materiales y personal de la obra, ¿cómo te ayudaría?
-- ¿Qué tan importante es para ti que la constructora use tecnología moderna? ¿Por qué?
-- ¿Qué características de una herramienta digital te harían confiar más en una constructora?
+- ¿Qué información considera más importante recibir durante el desarrollo de una obra?
+- ¿Con qué frecuencia considera necesario recibir información sobre el avance del proyecto?
+- ¿Qué aspectos podrían mejorar la forma en que una constructora comunica y presenta la información de una obra?
+- ¿Qué papel considera que pueden tener las herramientas digitales en el seguimiento de un proyecto de construcción?
+- ¿Qué características debería tener una herramienta digital para aumentar su confianza en la información proporcionada por una constructora?
+- ¿Qué aspectos podrían generarle desconfianza o dificultar el uso de una plataforma de este tipo?
 
 **Cierre**
 
-- ¿Hay algo que las constructoras podrían mejorar para darte más tranquilidad?
-- Si una constructora usará una plataforma como ArquiTech para reportarte, ¿influiría en tu decisión de contratarla? ¿Por qué?
+- ¿Qué considera que podrían mejorar las empresas constructoras para brindarle mayor tranquilidad durante el desarrollo de una obra?
+- ¿Qué condiciones deberían cumplirse para que el uso de una plataforma digital por parte de una constructora influya positivamente en su decisión de contratarla?
+- ¿Hay algún aspecto relacionado con el seguimiento de una obra que no hayamos mencionado y que considere importante?
 
 #### Preguntas complementarias de caracterización para ambos segmentos
 
-Las siguientes preguntas complementarias serán aplicadas a todos los entrevistados de ambos segmentos objetivo antes del desarrollo del guion principal correspondiente. Su propósito es recopilar características objetivas y subjetivas.
+Las siguientes preguntas complementarias serán aplicadas a todos los entrevistados de ambos segmentos objetivo antes del desarrollo del guion principal correspondiente. Su propósito es recopilar características objetivas y subjetivas que permitan comprender mejor el perfil, contexto, comportamiento y preferencias de los participantes.
 
 - ¿Con qué género se identifica?
 - ¿Cuál es su estado civil?
-- ¿Tiene responsabilidades familiares que influyan en su rutina o decisiones?
+- ¿Tiene responsabilidades familiares que influyan en su rutina o en la forma en que toma decisiones?
 - ¿Cuál es su ocupación o cargo actual?
-- ¿Cuántos años de experiencia tiene en el sector construcción o contratando
-  proyectos de construcción?
-- ¿Cómo describiría brevemente su forma de trabajar o tomar decisiones?
+- ¿Cuántos años de experiencia tiene en el sector construcción o contratando proyectos de construcción?
+- ¿Cómo describiría su forma habitual de trabajar o tomar decisiones?
 - ¿Qué habilidades considera más importantes para desarrollar sus actividades?
-- ¿Qué personas, empresas, marcas o referentes influyen en sus decisiones
-  relacionadas con proyectos de construcción?
-- ¿Qué dispositivo utiliza principalmente para actividades relacionadas con su
-  trabajo o proyectos: smartphone, laptop, tablet u otro?
-- ¿Qué aplicaciones o canales digitales utiliza con mayor frecuencia para
-  comunicarse o gestionar información?
-- ¿Qué navegador utiliza habitualmente?
-- ¿Cuál es su principal objetivo cuando participa en la gestión o seguimiento
-  de una obra?
-- ¿Cuál es la principal frustración que experimenta durante dicho proceso?
+- ¿Qué personas, empresas, marcas o referentes suelen influir en sus decisiones relacionadas con proyectos de construcción?
+- ¿Qué dispositivo utiliza principalmente para realizar actividades relacionadas con su trabajo o con el seguimiento de proyectos: smartphone, laptop, tablet u otro?
+- ¿Qué aplicaciones o canales digitales utiliza con mayor frecuencia para comunicarse o gestionar información relacionada con su trabajo?
+- ¿Qué navegador web utiliza habitualmente?
+- ¿Cuál es su principal objetivo cuando participa en la gestión o seguimiento de una obra?
+- ¿Cuál es la principal dificultad o frustración que experimenta durante dicho proceso?
 - ¿Podría contarme brevemente sobre su trayectoria y experiencia relacionada con proyectos de construcción?
 
 ### 2.2.2. Registro de entrevistas
 
 Como parte del proceso de investigación de ArquiTech, se realizaron entrevistas a representantes de los dos segmentos objetivo definidos: **supervisores de obra** y **contratantes de empresas privadas**. Se realizaron tres entrevistas por cada segmento, obteniendo un total de seis entrevistas.
 
-Todas las sesiones fueron registradas en video y posteriormente consolidadas en un único video de evidencia de Needfinding. Para cada participante se registra su información de identificación, un cuadro representativo de su participación en el video, el momento de inicio y duración de su entrevista, así como un resumen descriptivo de la información obtenida.
+Para cada participante se registra su información de identificación, edad, distrito de residencia, una captura correspondiente a su participación en la entrevista, el timing de inicio, la duración y el enlace del video correspondiente. Asimismo, se presenta un resumen descriptivo de las principales respuestas obtenidas durante la aplicación del guion de entrevistas y de las preguntas complementarias de caracterización.
 
-Los resúmenes consideran tanto las respuestas al guion principal como la información obtenida mediante las preguntas complementarias de caracterización. Esto permite identificar características demográficas, experiencia, personalidad, habilidades, influencias, hábitos tecnológicos, dispositivos, canales digitales, objetivos y frustraciones que serán utilizadas posteriormente para el análisis de entrevistas y la construcción de los User Personas.
-
-**Video consolidado de entrevistas:** [ENLACE DE MICROSOFT STREAM / CLIPCHAMP]
-
-**Nombre del video:** `upc-pre-202610-1asi0732-9112-Foundex-needfinding-sprint-1.mp4`
+Los resúmenes recogen información relacionada con las actividades de los participantes, procesos actuales, principales dificultades, necesidades, expectativas, características personales, tecnología utilizada, canales digitales, dispositivos, objetivos y frustraciones. Esta información será utilizada posteriormente como fuente para el análisis de entrevistas y la construcción de los arquetipos de usuario.
 
 ---
 
@@ -521,16 +524,14 @@ Los resúmenes consideran tanto las respuestas al guion principal como la inform
 
 **Datos del entrevistado**
 
-- **Nombres y apellidos:** [NOMBRE Y APELLIDOS]
-- **Edad:** [EDAD]
-- **Distrito de residencia:** [DISTRITO]
+- **Nombres y apellidos:** [NOMBRES Y APELLIDOS]
+- **Género:** [GÉNERO]
+- **Edad:** 61 años
 - **Segmento objetivo:** Supervisor de obra
-- **Fecha de entrevista:** [YYYY-MM-DD]
-- **Timing de inicio:** [00:00:00]
-- **Duración:** [00:00]
-- **Video:** [ENLACE DEL VIDEO CONSOLIDADO]
+- **Timing de inicio:** [HH:MM:SS]
+- **Duración:** [MM:SS]
+- **Video:** [ENLACE DEL VIDEO]
 
-**Figura X**  
 *Cuadro de video del entrevistado #1 del segmento Supervisores de obra.*
 
 <p align="center">
@@ -541,15 +542,19 @@ Los resúmenes consideran tanto las respuestas al guion principal como la inform
 
 **Resumen de la entrevista**
 
-[NOMBRE] explicó las principales responsabilidades que desempeña durante la supervisión de una obra y describió cómo organiza sus actividades diarias. Durante la entrevista se deberá registrar específicamente qué tareas realiza, con qué cantidad de trabajadores suele coordinar y qué tipos de materiales administra con mayor frecuencia.
+[NOMBRE] explicó que sus funciones diarias comprenden la supervisión del cumplimiento del expediente técnico, la coordinación con el residente de obra, el control de asistencia de los obreros mediante hojas de tareo y la gestión del inventario mediante hojas tipo Kardex y registros de movimientos de almacén. El avance de la obra se mide diariamente mediante metrados y posteriormente se consolida en reportes semanales y mensuales.
 
-En relación con el control del personal, deberá describirse el procedimiento que utiliza para registrar la asistencia y las acciones que realiza cuando se producen ausencias. También deberá indicarse de qué manera controla el inventario de materiales, qué herramientas utiliza y cómo registra entradas, salidas o requerimientos.
+Entre las principales dificultades que enfrenta se encuentran la ausencia de personal clave, los retrasos en la entrega de materiales y los errores producidos durante el registro del inventario. Asimismo, considera fundamental mantener una coordinación constante entre el personal de campo y los responsables administrativos.
 
-Respecto al seguimiento de la obra, deberá consignarse cómo registra los avances, con qué frecuencia prepara reportes y cuánto tiempo dedica aproximadamente a esas actividades. Se deberán registrar los principales problemas mencionados por el entrevistado, especialmente los relacionados con personal, materiales, inventario, reportes o coordinación entre las áreas operativas y administrativas.
+Respecto a sus necesidades, considera útil disponer de una herramienta digital que centralice la información relacionada con asistencia, inventario y reportes. Esta debería permitir registrar requerimientos, controlar el uso de maquinaria y combustible y generar reportes que permitan comparar el avance real de la obra con el uso de los recursos.
 
-Asimismo, el resumen deberá recoger su opinión respecto a disponer de una plataforma que centralice asistencia, inventario y reportes, la importancia que atribuye al acceso a información actualizada y las condiciones que le generarían confianza o preocupación al adoptar una nueva herramienta digital.
+Entre sus principales preocupaciones respecto al uso de una plataforma digital se encuentra la correcta implementación del sistema y la precisión con la que el personal registre los datos. Considera que una herramienta de este tipo debería ser confiable y permitir mantener actualizada la información de la obra.
 
-A partir de las preguntas complementarias, se deberá registrar su ocupación y trayectoria profesional, responsabilidades familiares cuando correspondan, características de su forma de trabajar o tomar decisiones, habilidades que considera relevantes, referentes o influencias, dispositivos que utiliza, aplicaciones y canales digitales habituales, navegador de preferencia, así como sus principales objetivos y frustraciones relacionadas con la supervisión de obras.
+También considera importante disponer de funcionalidades para el control independiente de tareo y planillas, generación de reportes valorizados y seguimiento monetario de materiales, maquinaria y mano de obra.
+
+En cuanto a su forma de trabajo, mantiene un enfoque orientado al control, seguimiento y cumplimiento de las actividades planificadas. Entre las habilidades necesarias para su actividad destacan la supervisión, coordinación, organización y control de recursos. Utiliza herramientas como hojas de cálculo y registros digitales para gestionar información relacionada con la obra, complementando la comunicación con otros responsables mediante canales digitales.
+
+Su principal objetivo es garantizar el cumplimiento técnico y operativo de la obra, manteniendo control sobre el personal, materiales y avance del proyecto. Sus principales frustraciones están relacionadas con los retrasos, errores de registro y falta de información actualizada.
 
 ---
 
@@ -557,16 +562,14 @@ A partir de las preguntas complementarias, se deberá registrar su ocupación y 
 
 **Datos del entrevistado**
 
-- **Nombres y apellidos:** [NOMBRE Y APELLIDOS]
-- **Edad:** [EDAD]
-- **Distrito de residencia:** [DISTRITO]
+- **Nombres y apellidos:** [NOMBRES Y APELLIDOS]
+- **Género:** [GÉNERO]
+- **Edad:** 55 años
 - **Segmento objetivo:** Supervisor de obra
-- **Fecha de entrevista:** [YYYY-MM-DD]
-- **Timing de inicio:** [00:00:00]
-- **Duración:** [00:00]
-- **Video:** [ENLACE DEL VIDEO CONSOLIDADO]
+- **Timing de inicio:** [HH:MM:SS]
+- **Duración:** [MM:SS]
+- **Video:** [ENLACE DEL VIDEO]
 
-**Figura X**  
 *Cuadro de video del entrevistado #2 del segmento Supervisores de obra.*
 
 <p align="center">
@@ -577,15 +580,19 @@ A partir de las preguntas complementarias, se deberá registrar su ocupación y 
 
 **Resumen de la entrevista**
 
-[NOMBRE] describió su experiencia en la supervisión de obras y las actividades que desarrolla durante una jornada habitual. En el resumen final deberá precisarse cuáles son sus principales responsabilidades, cómo coordina al equipo de trabajo y qué recursos o materiales debe controlar.
+[NOMBRE] explicó que sus principales responsabilidades están relacionadas con el control de calidad de los materiales, la verificación del uso adecuado de equipos de protección personal y la supervisión del cumplimiento de las funciones asignadas al equipo técnico. La cantidad de trabajadores y materiales utilizados depende de las actividades programadas para cada jornada.
 
-Se deberá explicar cómo registra actualmente la asistencia del personal, cómo gestiona las ausencias y qué medios utiliza para mantener actualizado el inventario. De igual manera, deberá detallarse cómo verifica el avance físico de una obra, cómo prepara la información que posteriormente se convierte en reportes y con qué frecuencia realiza estas actividades.
+El control de asistencia se realiza mediante una hoja de tareo gestionada por el asistente técnico y el maestro de obra. Las ausencias de personal y los retrasos en la llegada de materiales son considerados factores críticos debido al impacto que pueden generar sobre el avance del proyecto.
 
-El registro deberá recoger los principales problemas experimentados por el participante, incluyendo errores de inventario, retrasos de materiales, disponibilidad de trabajadores, actualización de registros o dificultades de coordinación con personal técnico y administrativo cuando estos sean mencionados.
+El inventario se controla mediante notas de entrada y salida registradas en Excel, mientras que los avances de la obra son valorizados físicamente y posteriormente incluidos en reportes semanales y mensuales. Los errores o retrasos en la actualización de estos registros pueden generar consecuencias negativas en la gestión de la obra.
 
-Asimismo, deberá documentarse su percepción acerca de centralizar la información de asistencia, materiales y reportes en una plataforma digital, así como sus expectativas sobre información en tiempo real, facilidad de uso, confiabilidad y correcta utilización del sistema.
+Respecto a la coordinación, considera necesario mantener una comunicación permanente entre técnicos, residentes, administrativos y responsables del almacén para asegurar el correcto desarrollo del proyecto.
 
-Finalmente, deberán incorporarse los datos provenientes de la caracterización complementaria: background profesional, personalidad o forma de tomar decisiones, habilidades, influencias, tecnología empleada, dispositivo preferido, aplicaciones y canales digitales, navegador, objetivos y frustraciones.
+Considera que una plataforma digital capaz de centralizar asistencia, inventario y reportes facilitaría considerablemente su trabajo, especialmente si permite consultar información actualizada, organizar requerimientos y consolidar reportes de forma eficiente. Sin embargo, considera que la utilidad de una plataforma depende también del correcto uso que realicen los responsables de ingresar la información.
+
+En cuanto a su forma de trabajo, mantiene un enfoque organizado y orientado al cumplimiento de los procedimientos establecidos. Entre las habilidades más relevantes para sus actividades se encuentran la supervisión, comunicación, coordinación y control de calidad. Utiliza herramientas digitales como Excel y distintos medios de comunicación para coordinar las actividades de la obra.
+
+Su principal objetivo es asegurar el correcto desarrollo de las actividades y mantener un adecuado nivel de calidad y control. Entre sus principales frustraciones se encuentran las ausencias de personal, retrasos de materiales y errores en la actualización de la información.
 
 ---
 
@@ -593,16 +600,14 @@ Finalmente, deberán incorporarse los datos provenientes de la caracterización 
 
 **Datos del entrevistado**
 
-- **Nombres y apellidos:** [NOMBRE Y APELLIDOS]
-- **Edad:** [EDAD]
-- **Distrito de residencia:** [DISTRITO]
+- **Nombres y apellidos:** [NOMBRES Y APELLIDOS]
+- **Género:** [GÉNERO]
+- **Edad:** 31 años
 - **Segmento objetivo:** Supervisor de obra
-- **Fecha de entrevista:** [YYYY-MM-DD]
-- **Timing de inicio:** [00:00:00]
-- **Duración:** [00:00]
-- **Video:** [ENLACE DEL VIDEO CONSOLIDADO]
+- **Timing de inicio:** [HH:MM:SS]
+- **Duración:** [MM:SS]
+- **Video:** [ENLACE DEL VIDEO]
 
-**Figura X**  
 *Cuadro de video del entrevistado #3 del segmento Supervisores de obra.*
 
 <p align="center">
@@ -613,15 +618,19 @@ Finalmente, deberán incorporarse los datos provenientes de la caracterización 
 
 **Resumen de la entrevista**
 
-[NOMBRE] explicó cómo organiza y supervisa las actividades que se desarrollan diariamente en una obra. El registro deberá indicar el tamaño aproximado del equipo con el que trabaja, los tipos de materiales que gestiona y la forma en que se comunica con otras áreas involucradas en el proyecto.
+[NOMBRE] explicó que su función principal consiste en organizar y supervisar las actividades diarias desarrolladas en obra, gestionar al personal obrero y mantener comunicación con el área administrativa al finalizar la jornada. Dependiendo del proyecto, suele trabajar con aproximadamente entre 10 y 18 trabajadores. Entre los materiales utilizados con mayor frecuencia se encuentran ladrillo, cemento, fierro y concreto premezclado.
 
-Deberá documentarse cómo controla la asistencia, mediante qué herramientas registra las incidencias o ausencias, cómo mantiene actualizado el inventario y qué dificultades encuentra al utilizar herramientas manuales o digitales durante el trabajo en campo.
+La asistencia se registra manualmente mediante firmas y las ausencias suelen comunicarse por WhatsApp. Sin embargo, pueden producirse retrasos en la actualización de esta información debido a la carga de trabajo diaria. El inventario es administrado mediante Excel o cuadernos físicos, aunque se presentan dificultades cuando no existe conectividad o los registros no son actualizados oportunamente.
 
-El resumen también deberá explicar cómo documenta el avance de las actividades, qué herramientas utiliza para generar reportes y cuáles son los principales factores que ocasionan retrasos, errores o trabajo adicional.
+El avance de la obra se documenta mediante fotografías y reportes elaborados en Word. Esta actividad puede retrasarse debido a la necesidad de atender otras responsabilidades durante la jornada, provocando que parte del trabajo administrativo sea realizado fuera del horario habitual.
 
-Se deberá recoger su valoración sobre la posibilidad de centralizar información de trabajadores, materiales y avances en ArquiTech, señalando qué beneficios espera obtener, qué información considera importante consultar en tiempo real y qué factores influirían en la adopción de la plataforma.
+Entre sus principales dificultades se encuentran los errores de inventario, como compras excesivas ocasionadas por registros duplicados, y los problemas de coordinación entre el personal de campo y el área administrativa. Considera poco práctico depender exclusivamente de papel o archivos de Excel en proyectos donde la información cambia constantemente.
 
-Finalmente, se incorporarán los resultados de la caracterización complementaria referentes a trayectoria, personalidad, habilidades, referentes, dispositivos, aplicaciones utilizadas, canales digitales, navegador, objetivos profesionales y principales frustraciones.
+Considera útil disponer de una herramienta digital que centralice la asistencia, inventario y reportes, ya que permitiría tomar decisiones utilizando información actualizada, facilitaría la coordinación y proporcionaría mayor visibilidad sobre el estado de la obra.
+
+Para confiar en una herramienta de este tipo considera fundamental que sea fácil de utilizar, intuitiva y que no requiera una capacitación técnica compleja. Entre las funcionalidades que considera valiosas se encuentran las alertas automáticas por ausencia de trabajadores o escasez de materiales y los reportes resumidos que puedan ser comprendidos por usuarios sin conocimientos técnicos especializados.
+
+Su forma de trabajo se caracteriza por ser dinámica y orientada a resolver los problemas que surgen durante las actividades diarias. Utiliza principalmente herramientas como Excel, Word y WhatsApp para gestionar y comunicar información. Su principal objetivo es mantener control sobre las actividades desarrolladas en obra y coordinar adecuadamente con las demás áreas. Sus principales frustraciones están relacionadas con la duplicidad de información, falta de actualización de registros y dificultades de comunicación entre campo y oficina.
 
 ---
 
@@ -631,16 +640,15 @@ Finalmente, se incorporarán los resultados de la caracterización complementari
 
 **Datos del entrevistado**
 
-- **Nombres y apellidos:** [NOMBRE Y APELLIDOS]
-- **Edad:** [EDAD]
-- **Distrito de residencia:** [DISTRITO]
+- **Nombres y apellidos:** [NOMBRES Y APELLIDOS]
+- **Género:** [GÉNERO]
+- **Edad:** 27 años
+- **Distrito de residencia:** Cercado de Lima
 - **Segmento objetivo:** Contratante de empresa privada
-- **Fecha de entrevista:** [YYYY-MM-DD]
-- **Timing de inicio:** [00:00:00]
-- **Duración:** [00:00]
-- **Video:** [ENLACE DEL VIDEO CONSOLIDADO]
+- **Timing de inicio:** [HH:MM:SS]
+- **Duración:** [MM:SS]
+- **Video:** [ENLACE DEL VIDEO]
 
-**Figura X**  
 *Cuadro de video del entrevistado #1 del segmento Contratantes de empresas privadas.*
 
 <p align="center">
@@ -651,17 +659,19 @@ Finalmente, se incorporarán los resultados de la caracterización complementari
 
 **Resumen de la entrevista**
 
-[NOMBRE] explicó qué tipos de proyectos de construcción suele contratar y cuáles son los principales criterios que utiliza para seleccionar una empresa constructora. El registro deberá indicar la importancia que atribuye a factores como experiencia, cumplimiento de plazos, costos, transparencia, calidad y antecedentes de trabajos anteriores.
+[NOMBRE], de 27 años y residente en Cercado de Lima, suele contratar proyectos de construcción relacionados con locales comerciales, oficinas y almacenes. Para seleccionar una constructora se basa principalmente en recomendaciones, experiencia previa, cumplimiento de plazos, precios razonables y evidencia de proyectos desarrollados anteriormente.
 
-También deberá describirse cómo recibe actualmente información acerca del avance de una obra, con qué frecuencia obtiene actualizaciones y qué herramientas o canales utiliza la constructora para mantenerlo informado.
+Actualmente recibe información sobre el avance de las obras mediante WhatsApp o correo electrónico, normalmente a través de fotografías y listados semanales. Sin embargo, considera que esta forma de comunicación suele ser informal y que la información proporcionada no siempre resulta suficientemente clara.
 
-El resumen deberá incluir el procedimiento utilizado por el participante para comprobar licencias, normas de seguridad, plazos u otras obligaciones asociadas a la ejecución de la obra, así como las dificultades que haya experimentado anteriormente con constructoras.
+Para verificar normas, licencias y otros requisitos del proyecto revisa documentación con el apoyo de un abogado y, en determinadas ocasiones, recurre a inspecciones externas.
 
-Se deberán documentar situaciones relacionadas con retrasos, falta de claridad, problemas de calidad, deficiencias de comunicación o pérdidas económicas cuando el entrevistado las mencione, así como el impacto que dichas situaciones hayan tenido sobre sus actividades.
+Entre las experiencias negativas que ha tenido se encuentran retrasos en las entregas, problemas con la calidad de los acabados y falta de transparencia en los reportes. En una experiencia anterior sufrió una pérdida aproximada de S/ 10 000 debido al retraso en la entrega de una obra, lo que afectó la apertura de un establecimiento y provocó pérdidas de ingresos.
 
-Asimismo, deberá recogerse su percepción acerca de disponer de una plataforma que permita consultar avances, materiales y personal, el valor que atribuye al uso de tecnología por parte de una constructora y las características que le generarían mayor confianza.
+Considera fundamental disponer de una mayor visibilidad sobre el avance de la obra, el uso de materiales y la asistencia del personal. Contar con información actualizada facilitaría la planificación de sus actividades y permitiría reducir el riesgo de pérdidas económicas.
 
-El registro se complementará con información sobre su ocupación, background, personalidad y toma de decisiones, habilidades, personas o marcas que influyen en sus decisiones, dispositivos, aplicaciones, canales digitales, navegador, objetivos y frustraciones.
+También valora positivamente que las constructoras utilicen tecnologías modernas, ya que considera que esto refleja profesionalismo y facilita la comunicación. Una herramienta digital le generaría mayor confianza si ofrece reportes actualizados, seguimiento de materiales y personal, información sobre cumplimiento de requisitos y una interfaz sencilla de utilizar.
+
+Su forma de tomar decisiones se encuentra orientada a reducir riesgos y comprobar la confiabilidad de los proveedores antes de contratarlos. Entre sus principales objetivos se encuentra recibir información clara y oportuna que le permita conocer el estado real del proyecto. Sus principales frustraciones son los retrasos, la falta de transparencia y la necesidad de solicitar constantemente actualizaciones a la constructora.
 
 ---
 
@@ -669,16 +679,15 @@ El registro se complementará con información sobre su ocupación, background, 
 
 **Datos del entrevistado**
 
-- **Nombres y apellidos:** [NOMBRE Y APELLIDOS]
-- **Edad:** [EDAD]
-- **Distrito de residencia:** [DISTRITO]
+- **Nombres y apellidos:** [NOMBRES Y APELLIDOS]
+- **Género:** [GÉNERO]
+- **Edad:** 35 años
+- **Distrito de residencia:** San Martín de Porres
 - **Segmento objetivo:** Contratante de empresa privada
-- **Fecha de entrevista:** [YYYY-MM-DD]
-- **Timing de inicio:** [00:00:00]
-- **Duración:** [00:00]
-- **Video:** [ENLACE DEL VIDEO CONSOLIDADO]
+- **Timing de inicio:** [HH:MM:SS]
+- **Duración:** [MM:SS]
+- **Video:** [ENLACE DEL VIDEO]
 
-**Figura X**  
 *Cuadro de video del entrevistado #2 del segmento Contratantes de empresas privadas.*
 
 <p align="center">
@@ -689,15 +698,19 @@ El registro se complementará con información sobre su ocupación, background, 
 
 **Resumen de la entrevista**
 
-[NOMBRE] describió su experiencia contratando proyectos de construcción y los criterios utilizados al evaluar empresas constructoras. El resumen deberá especificar qué aspectos considera indispensables antes de contratar, tales como experiencia, cumplimiento normativo, plazos, transparencia o control del presupuesto cuando sean mencionados.
+[NOMBRE], de 35 años y residente en San Martín de Porres, contrata proyectos relacionados con oficinas pequeñas, remodelaciones industriales y almacenes. Para seleccionar una constructora prioriza la experiencia específica, cumplimiento de normas y plazos, transparencia y control adecuado del presupuesto.
 
-Deberá explicarse cómo recibe actualmente reportes sobre el proyecto, qué herramientas se emplean, con qué frecuencia recibe información y si complementa estos reportes mediante visitas presenciales u otros mecanismos de seguimiento.
+Actualmente recibe informes sobre el avance de las obras aproximadamente cada 10 días mediante correo electrónico, complementados con fotografías y visitas quincenales. Para comunicaciones rápidas utiliza WhatsApp. Algunas constructoras proporcionan reportes con gráficos, aunque la mayoría continúa utilizando documentos básicos elaborados en Word o Excel.
 
-También deberán registrarse los procedimientos que utiliza para verificar licencias, seguridad y cumplimiento de las obligaciones de la empresa constructora. Las experiencias negativas mencionadas por el participante deberán documentarse señalando sus causas y consecuencias.
+Para verificar licencias y permisos cuenta con apoyo de su equipo legal y, en determinadas situaciones, solicita la participación de un ingeniero para supervisar aspectos relacionados con la seguridad. Sin embargo, considera que los reportes proporcionados por las constructoras suelen carecer de suficiente detalle y que la comunicación no siempre es proactiva.
 
-El resumen recogerá especialmente su percepción sobre la transparencia de los proyectos y la necesidad de disponer de información actualizada sobre avances, materiales y trabajadores. Asimismo, deberá registrar la relevancia que concede al uso de herramientas digitales y sus requisitos de confianza, facilidad de uso y seguridad.
+Entre sus experiencias negativas se encuentran retrasos ocasionados por una gestión deficiente de materiales o licencias, los cuales han generado pérdidas económicas de hasta S/ 15 000 relacionadas con penalidades y costos adicionales para acelerar la ejecución de los proyectos. También ha experimentado situaciones en las que se utilizaron materiales de calidad inferior sin que esta situación fuera comunicada oportunamente.
 
-La información obtenida mediante la caracterización complementaria deberá incorporar experiencia previa, personalidad, forma de tomar decisiones, habilidades, influencias, dispositivos utilizados, canales de interacción, aplicaciones, navegador, objetivos y frustraciones.
+Valora especialmente la transparencia y el control. Considera importante disponer de acceso actualizado al estado del proyecto, uso de materiales y personal presente en obra para poder tomar decisiones oportunas y reducir situaciones inesperadas.
+
+También considera importante que las constructoras utilicen tecnología moderna, ya que esto refleja organización y compromiso. Confía más en herramientas capaces de proporcionar reportes actualizados, registros detallados y mecanismos de seguimiento del cumplimiento de normas y licencias. La seguridad de los datos constituye también un aspecto importante para su confianza.
+
+Su forma de tomar decisiones se caracteriza por analizar previamente la experiencia, cumplimiento y confiabilidad de los proveedores. Utiliza principalmente correo electrónico, WhatsApp, documentos Word y hojas de cálculo para recibir y gestionar información. Su objetivo principal es mantener control sobre los proyectos contratados y reducir riesgos económicos. Sus principales frustraciones son la falta de detalle, poca transparencia y comunicación tardía sobre problemas relevantes.
 
 ---
 
@@ -705,16 +718,15 @@ La información obtenida mediante la caracterización complementaria deberá inc
 
 **Datos del entrevistado**
 
-- **Nombres y apellidos:** [NOMBRE Y APELLIDOS]
-- **Edad:** [EDAD]
-- **Distrito de residencia:** [DISTRITO]
+- **Nombres y apellidos:** [NOMBRES Y APELLIDOS]
+- **Género:** [GÉNERO]
+- **Edad:** 28 años
+- **Distrito de residencia:** San Juan de Miraflores
 - **Segmento objetivo:** Contratante de empresa privada
-- **Fecha de entrevista:** [YYYY-MM-DD]
-- **Timing de inicio:** [00:00:00]
-- **Duración:** [00:00]
-- **Video:** [ENLACE DEL VIDEO CONSOLIDADO]
+- **Timing de inicio:** [HH:MM:SS]
+- **Duración:** [MM:SS]
+- **Video:** [ENLACE DEL VIDEO]
 
-**Figura X**  
 *Cuadro de video del entrevistado #3 del segmento Contratantes de empresas privadas.*
 
 <p align="center">
@@ -725,307 +737,153 @@ La información obtenida mediante la caracterización complementaria deberá inc
 
 **Resumen de la entrevista**
 
-[NOMBRE] explicó los tipos de proyectos que suele contratar y las características que considera prioritarias al seleccionar una constructora. Deberán documentarse específicamente los criterios mencionados durante la entrevista y las experiencias previas que hayan influido en su forma de elegir proveedores.
+[NOMBRE], de 28 años y residente en San Juan de Miraflores, contrata principalmente remodelaciones, locales comerciales pequeños y edificaciones de hasta tres pisos. Para seleccionar una empresa constructora prioriza principalmente la experiencia, el cumplimiento de los plazos y la transparencia durante el desarrollo del proyecto.
 
-El registro deberá describir cómo recibe actualmente la información relacionada con el avance de una obra, los formatos y canales utilizados y las dificultades que encuentra para conocer el estado real del proyecto.
+Actualmente recibe reportes semanales mediante correo electrónico, principalmente en documentos Word o Excel, además de fotografías enviadas ocasionalmente por WhatsApp. Considera que el proceso actual es bastante informal y que sería conveniente contar con un mecanismo más estructurado para realizar el seguimiento de las obras.
 
-También se deberá indicar cómo verifica licencias y cumplimiento normativo, así como las situaciones problemáticas que haya experimentado debido a retrasos, planificación deficiente, información incompleta, materiales, personal u otros factores.
+Para verificar las licencias y el cumplimiento normativo solicita los documentos correspondientes mediante correo electrónico y realiza verificaciones mediante visitas puntuales de su equipo. Actualmente no dispone de una herramienta digital específica para realizar el seguimiento integral de los proyectos.
 
-El resumen deberá recoger su opinión respecto a disponer de información actualizada sobre avances, recursos y trabajadores, así como la importancia que atribuye a que una empresa constructora utilice herramientas digitales modernas.
+Entre sus principales frustraciones se encuentran la falta de comunicación proactiva, los informes incompletos y la poca visibilidad sobre el uso de materiales y el personal presente en obra. En una experiencia previa perdió un contrato y asumió penalidades debido a que una obra no pudo entregarse dentro del plazo previsto como consecuencia de problemas de planificación y comunicación.
 
-Finalmente, se documentarán las características obtenidas mediante las preguntas complementarias de caracterización: trayectoria, personalidad, habilidades, influencias, tecnología, dispositivos, canales digitales, aplicaciones utilizadas, navegador, objetivos y frustraciones.
+Considera que una plataforma que proporcione información actualizada sobre el avance, materiales y personal de la obra sería de gran utilidad y permitiría mejorar significativamente el seguimiento de los proyectos.
+
+También valora que las constructoras utilicen herramientas tecnológicas modernas, ya que considera que esto demuestra compromiso, organización y profesionalismo. Disponer de una plataforma de seguimiento influiría positivamente en su percepción de una empresa constructora al proporcionarle mayor confianza y sensación de control.
+
+Su forma de tomar decisiones está orientada a evaluar la experiencia, cumplimiento y transparencia de los proveedores antes de contratarlos. Para el seguimiento de sus proyectos utiliza principalmente correo electrónico, WhatsApp, Word y Excel. Su principal objetivo es mantener información suficiente para verificar que la obra se desarrolle según lo esperado. Sus principales frustraciones son la información incompleta, falta de comunicación y poca visibilidad sobre el estado real de los proyectos.
 
 ---
 
 ### 2.2.3. Análisis de entrevistas
 
-A partir de las entrevistas registradas se realizó un análisis independiente para cada uno de los segmentos objetivo de ArquiTech: supervisores de obra y contratantes de empresas privadas. El propósito fue identificar los patrones más frecuentes relacionados con sus procesos actuales, herramientas utilizadas, principales frustraciones, necesidades y expectativas.
+A partir de las entrevistas registradas se realizó un análisis independiente para cada uno de los segmentos objetivo de ArquiTech: supervisores de obra y contratantes de empresas privadas. El propósito del análisis es identificar, con sustento estadístico, las características objetivas y subjetivas más recurrentes de cada segmento que serán utilizadas posteriormente para la construcción de los arquetipos de usuario.
 
-Para cada segmento se consideraron tres entrevistas. Por ello, una característica identificada en un participante representa aproximadamente el 33.3 %, una característica presente en dos participantes representa el 66.7 %, y una coincidencia entre los tres participantes representa el 100 % del segmento analizado.
+Para cada segmento se consideran tres entrevistas. Por ello, una característica identificada en un participante representa el 33.3 %, una característica identificada en dos participantes representa el 66.7 % y una característica identificada en los tres participantes representa el 100 % del segmento analizado.
 
-Los resultados estadísticos presentados se obtienen a partir de la información registrada en las entrevistas y sirven como base para identificar las características más representativas que posteriormente serán utilizadas en la construcción de los User Personas y demás artefactos de Needfinding.
+Todos los resultados presentados en esta sección provienen directamente de las entrevistas registradas y de los resúmenes elaborados para cada participante.
 
+---
 
 #### Segmento objetivo #1: Supervisores de obra
 
-##### Herramientas y métodos utilizados actualmente
+##### Características objetivas
 
-Los resultados muestran una fuerte dependencia de mecanismos manuales y herramientas de propósito general para la gestión cotidiana de las obras. El 100 % de los supervisores entrevistados utiliza algún mecanismo manual para registrar la asistencia del personal, como hojas de tareo o firmas.
+Los tres participantes pertenecen al segmento de supervisores de obra y cuentan con experiencia práctica en actividades relacionadas con la supervisión y gestión de proyectos de construcción, lo que representa el 100 % del segmento analizado.
 
-En cuanto al control de materiales, el 66.7 % mencionó expresamente el uso de Excel, mientras que el resto utiliza otros mecanismos de registro, como Cardex o documentos de control de almacén. Asimismo, el 33.3 % manifestó utilizar WhatsApp como apoyo para comunicar incidencias relacionadas con el personal.
+En cuanto a la edad, dos de los tres participantes tienen más de 50 años, representando el 66.7 %, mientras que el 33.3 % restante se encuentra entre los 30 y 39 años.
 
-Ninguno de los participantes, equivalente al 0 %, señaló utilizar actualmente una plataforma digital especializada que centralice asistencia, inventario, avance y reportes de obra.
+Respecto a las herramientas y métodos empleados durante sus actividades, el 100 % utiliza mecanismos manuales para registrar la asistencia de los trabajadores, mediante hojas de tareo o firmas.
 
-**Figura X**  
-*Herramientas utilizadas por supervisores de obra*
+Para el control de materiales e inventario, el 66.7 % utiliza Excel, mientras que el 33.3 % utiliza mecanismos como Kardex y registros de movimientos de almacén. Asimismo, el 33.3 % utiliza WhatsApp para comunicar incidencias relacionadas con el personal.
 
-<!-- INSERTAR GRÁFICA AQUÍ:
-Control manual de asistencia: 100 %
-Excel: 66.7 %
-WhatsApp: 33.3 %
-Plataforma digital especializada: 0 %
--->
+Ninguno de los participantes indicó utilizar actualmente una plataforma digital especializada que centralice la asistencia, inventario, avance y reportes de obra, representando un 0 % del segmento.
 
-<p align="center">
-  <img src="assets/chapter-2/analysis/supervisores-herramientas.png"
-       alt="Herramientas utilizadas por supervisores de obra"
-       width="900">
-</p>
-
-*Nota.* Elaboración propia a partir de las entrevistas realizadas.
-
-Estos resultados evidencian que la gestión de información continúa dependiendo principalmente de mecanismos separados entre sí. Los registros físicos, hojas de cálculo y medios de comunicación utilizados no conforman un sistema centralizado, por lo que la información requiere ser consolidada posteriormente y puede presentar retrasos o inconsistencias.
-
-
-##### Frustraciones frecuentes en la supervisión de obras
-
-Los problemas relacionados con el control de inventario aparecen como la dificultad más recurrente. El 100 % de los participantes señaló situaciones relacionadas con errores, desactualización o dificultades para mantener un registro preciso de los materiales utilizados en obra.
-
-La ausencia o disponibilidad insuficiente de personal fue mencionada explícitamente por el 66.7 % de los participantes. De igual manera, el 66.7 % señaló que los retrasos asociados con materiales y proveedores afectan el desarrollo normal de las actividades.
-
-Por otro lado, el 66.7 % evidenció dificultades relacionadas con la coordinación entre el trabajo realizado en campo y las áreas administrativas. Esta situación puede ocasionar demoras en la transmisión de información y diferencias entre los registros operativos y administrativos.
-
-**Figura X**  
-*Frustraciones frecuentes en la supervisión de obras*
-
-<!-- INSERTAR GRÁFICA AQUÍ:
-Errores o desactualización del inventario: 100 %
-Falta o ausencia de personal: 66.7 %
-Retrasos relacionados con materiales: 66.7 %
-Problemas de coordinación campo-administración: 66.7 %
--->
-
-<p align="center">
-  <img src="assets/chapter-2/analysis/supervisores-frustraciones.png"
-       alt="Frustraciones frecuentes en la supervisión de obras"
-       width="900">
-</p>
-
-*Nota.* Elaboración propia a partir de las entrevistas realizadas.
-
-Los resultados permiten observar que las principales frustraciones se originan en actividades que requieren información constantemente actualizada. Un registro incorrecto del inventario, una ausencia no comunicada o un retraso en la disponibilidad de materiales puede alterar la planificación diaria y posteriormente afectar los reportes y el avance general de la obra.
-
-
-##### Necesidades principales detectadas en supervisores
-
-La necesidad con mayor coincidencia está relacionada con la centralización de la gestión operativa. El 100 % de los participantes manifestó interés en disponer de una herramienta que permita integrar información relacionada con asistencia, inventario y seguimiento de los avances o reportes.
-
-Del mismo modo, el 100 % considera importante disponer de información actualizada que facilite el seguimiento de lo ocurrido en la obra y reduzca la dependencia de registros dispersos.
-
-El 66.7 % manifestó además interés en ampliar el control hacia otros recursos de la obra, como maquinaria, combustible u otros elementos complementarios.
-
-Finalmente, la facilidad de adopción constituye una condición importante. El 100 % de los participantes manifestó directa o indirectamente preocupación por que una solución digital pueda utilizarse de forma sencilla, confiable y sin generar una carga operativa adicional.
-
-**Figura X**  
-*Necesidades principales detectadas en supervisores*
-
-<!-- INSERTAR GRÁFICA AQUÍ:
-Centralización de asistencia, inventario y reportes: 100 %
-Información actualizada para seguimiento: 100 %
-Facilidad de uso y confiabilidad: 100 %
-Control de maquinaria y otros recursos: 66.7 %
--->
-
-<p align="center">
-  <img src="assets/chapter-2/analysis/supervisores-necesidades.png"
-       alt="Necesidades principales detectadas en supervisores"
-       width="900">
-</p>
-
-*Nota.* Elaboración propia a partir de las entrevistas realizadas.
-
-En este segmento se evidencia, por tanto, una necesidad predominante de reducir la fragmentación de los procesos operativos. Los supervisores requieren controlar trabajadores, materiales y avances desde una fuente de información común que les permita consultar el estado de la obra y generar información de manera más oportuna.
-
-
-##### Características objetivas y subjetivas del segmento
-
-Además de los procesos y dificultades identificados, las preguntas complementarias de caracterización permiten determinar las características objetivas y subjetivas predominantes del segmento, tales como rango de edad, distrito, ocupación, experiencia, responsabilidades familiares, personalidad, habilidades, influencias, dispositivo preferido, canales digitales, navegador, objetivos y frustraciones.
-
-**Figura X**  
-*Características objetivas predominantes en supervisores de obra*
-
-<!-- INSERTAR GRÁFICA CON LOS PORCENTAJES OBTENIDOS
-DE LAS NUEVAS ENTREVISTAS:
-rango de edad, ocupación/background, distrito,
-situación familiar, dispositivo principal, etc.
--->
+*Cuadro estadístico de características objetivas del segmento Supervisores de obra.*
 
 <p align="center">
   <img src="assets/chapter-2/analysis/supervisores-caracteristicas-objetivas.png"
-       alt="Características objetivas predominantes en supervisores"
+       alt="Características objetivas de supervisores de obra"
        width="900">
 </p>
 
 *Nota.* Elaboración propia a partir de las entrevistas realizadas.
 
-**Figura X**  
-*Características subjetivas predominantes en supervisores de obra*
+Las características correspondientes a distrito de residencia, estado civil, responsabilidades familiares, dispositivo principal y navegador habitual deberán incorporarse cuando estos datos sean obtenidos mediante las nuevas entrevistas.
 
-<!-- INSERTAR GRÁFICA CON LOS PORCENTAJES OBTENIDOS
-DE LAS NUEVAS ENTREVISTAS:
-personalidad, habilidades, influencias, canales digitales,
-objetivos, frustraciones, etc.
--->
+##### Características subjetivas
+
+Los principales patrones subjetivos identificados se encuentran relacionados con las dificultades experimentadas durante la gestión diaria de una obra, sus objetivos y las expectativas frente al uso de herramientas digitales.
+
+Los problemas relacionados con errores, desactualización o dificultades en el control del inventario aparecen en el 100 % de las entrevistas.
+
+La ausencia o disponibilidad insuficiente de trabajadores fue mencionada por el 66.7 % de los participantes. De igual manera, el 66.7 % señaló problemas relacionados con retrasos en la disponibilidad o entrega de materiales.
+
+La coordinación entre los distintos responsables de la obra es considerada importante por el 100 % de los entrevistados. Sin embargo, las dificultades explícitas relacionadas con la comunicación entre campo y administración fueron reportadas por el 33.3 %.
+
+El 100 % manifestó interés en disponer de una herramienta digital que permita centralizar información relacionada con asistencia, inventario y reportes. Asimismo, el 66.7 % manifestó explícitamente la necesidad de disponer de información actualizada o en tiempo real.
+
+El 66.7 % expresó preocupación por el correcto registro de los datos y el uso adecuado de una eventual plataforma por parte del personal. Por otro lado, el 33.3 % señaló específicamente que la facilidad de uso y una baja necesidad de capacitación serían factores importantes para adoptar una solución digital.
+
+Finalmente, el 33.3 % manifestó interés explícito en ampliar el control hacia otros recursos utilizados en la obra, como maquinaria y combustible.
+
+*Cuadro estadístico de características subjetivas del segmento Supervisores de obra.*
 
 <p align="center">
   <img src="assets/chapter-2/analysis/supervisores-caracteristicas-subjetivas.png"
-       alt="Características subjetivas predominantes en supervisores"
+       alt="Características subjetivas de supervisores de obra"
        width="900">
 </p>
 
 *Nota.* Elaboración propia a partir de las entrevistas realizadas.
 
-Estas características complementarán los patrones operativos anteriormente identificados y permitirán construir un arquetipo sustentado directamente en la información recolectada.
+Los resultados muestran que el segmento de supervisores de obra se caracteriza principalmente por la necesidad de mantener control sobre trabajadores, materiales y avances del proyecto. La dependencia de mecanismos manuales y herramientas independientes dificulta mantener la información actualizada y centralizada.
 
+Las características correspondientes a personalidad, habilidades y marcas o referentes de influencia deberán incorporarse al análisis cuando sean obtenidas mediante las preguntas complementarias de las nuevas entrevistas.
+
+---
 
 #### Segmento objetivo #2: Contratantes de empresas privadas
 
-##### Herramientas y canales utilizados para el seguimiento de obras
+##### Características objetivas
 
-Los contratantes presentan una dependencia significativa de canales de comunicación convencionales para mantenerse informados sobre el desarrollo de sus proyectos.
+Los tres participantes cuentan con experiencia contratando proyectos de construcción para fines empresariales, lo que representa el 100 % del segmento.
 
-El 100 % de los participantes señaló utilizar correo electrónico para recibir información relacionada con la obra, mientras que el 100 % también manifestó utilizar WhatsApp como canal para comunicaciones, fotografías o actualizaciones rápidas.
+Respecto a la edad, dos participantes se encuentran entre los 20 y 29 años, equivalentes al 66.7 %, mientras que un participante se encuentra entre los 30 y 39 años, representando el 33.3 %.
 
-El 66.7 % recibe información mediante archivos Word o Excel y el **33.3 % indicó haber recibido en alguna oportunidad reportes o presentaciones con información visual más estructurada.
+En cuanto al distrito de residencia, los participantes se distribuyen entre Cercado de Lima, San Martín de Porres y San Juan de Miraflores. Al existir un participante por cada distrito, cada ubicación representa el 33.3 % del segmento.
 
-Sin embargo, ninguno de los entrevistados, equivalente al 0 %, indicó disponer actualmente de una plataforma digital especializada desde la cual pueda consultar directamente el estado general de sus proyectos.
+El 100 % utiliza correo electrónico para recibir información relacionada con los proyectos y el 100 % utiliza WhatsApp para recibir fotografías, actualizaciones o comunicaciones rápidas.
 
-**Figura X**  
-*Herramientas y canales utilizados para informar a contratantes*
+El 66.7 % recibe información mediante documentos Word o Excel, mientras que el 33.3 % ha recibido reportes con elementos visuales más estructurados.
 
-<!-- INSERTAR GRÁFICA AQUÍ:
-Correo electrónico: 100 %
-WhatsApp: 100 %
-Documentos Word/Excel: 66.7 %
-Reportes o presentaciones visuales: 33.3 %
-Plataforma digital especializada: 0 %
--->
+Asimismo, el 100 % realiza algún tipo de verificación de licencias, permisos o cumplimiento normativo mediante apoyo legal, técnico, documentación o visitas a la obra.
 
-<p align="center">
-  <img src="assets/chapter-2/analysis/contratantes-herramientas.png"
-       alt="Herramientas utilizadas para informar a contratantes"
-       width="900">
-</p>
+Ninguno de los entrevistados indicó disponer actualmente de una plataforma especializada desde la cual pueda realizar directamente el seguimiento integral de sus proyectos, representando un 0 % del segmento.
 
-*Nota.* Elaboración propia a partir de las entrevistas realizadas.
-
-Los resultados muestran que la información se distribuye entre distintos canales y documentos. Aunque estos medios permiten mantener cierto nivel de comunicación, no proporcionan necesariamente una visión centralizada ni una trazabilidad continua del proyecto.
-
-
-##### Frustraciones frecuentes reportadas por contratantes
-
-La falta de visibilidad sobre el estado de la obra aparece en el 100 % de los casos analizados. Los participantes manifestaron dificultades para conocer de forma directa y actualizada lo que sucede durante la ejecución del proyecto.
-
-Asimismo, el 100 % reportó experiencias relacionadas con retrasos o situaciones que no fueron comunicadas con la anticipación esperada. La falta de transparencia relacionada con materiales y recursos también estuvo presente en el 100 % de las entrevistas.
-
-Los problemas relacionados con la calidad de la ejecución o de los materiales aparecieron en el 66.7 % de los casos.
-
-Además, el 100 % de los participantes describió consecuencias económicas relacionadas con retrasos, problemas de planificación o deficiencias durante la ejecución de proyectos.
-
-**Figura X**  
-*Frustraciones frecuentes reportadas por contratantes*
-
-<!-- INSERTAR GRÁFICA AQUÍ:
-Falta de visibilidad del avance: 100 %
-Retrasos o problemas comunicados tardíamente: 100 %
-Falta de transparencia sobre materiales: 100 %
-Consecuencias económicas por problemas de ejecución: 100 %
-Problemas relacionados con calidad: 66.7 %
--->
-
-<p align="center">
-  <img src="assets/chapter-2/analysis/contratantes-frustraciones.png"
-       alt="Frustraciones frecuentes reportadas por contratantes"
-       width="900">
-</p>
-
-*Nota.* Elaboración propia a partir de las entrevistas realizadas.
-
-Estos resultados indican que el problema principal no se limita a recibir pocos reportes, sino a la dificultad de comprobar oportunamente el estado real de la obra. La ausencia de información clara y actualizada incrementa la incertidumbre y puede retrasar decisiones que afectan tanto la ejecución del proyecto como las actividades económicas del contratante.
-
-
-##### Necesidades principales detectadas en contratantes
-
-El 100 % de los participantes manifestó interés en contar con información actualizada acerca del avance de sus proyectos.
-
-También existe coincidencia absoluta respecto a la necesidad de mejorar la transparencia sobre los materiales utilizados: el 100 % considera relevante disponer de mayor visibilidad sobre este aspecto.
-
-De igual manera, el 100 % mostró interés en conocer información relacionada con el personal y los recursos involucrados en la obra.
-
-El cumplimiento de licencias, permisos o normativas también representa un aspecto relevante. El 66.7 % manifestó expresamente interés en contar con mecanismos que faciliten la verificación de este tipo de información.
-
-Finalmente, el 100 % relacionó el uso de herramientas digitales por parte de una constructora con una mayor percepción de organización, transparencia, profesionalismo o confianza.
-
-**Figura X**  
-*Necesidades principales detectadas en contratantes*
-
-<!-- INSERTAR GRÁFICA AQUÍ:
-Información actualizada del avance: 100 %
-Transparencia sobre materiales: 100 %
-Información sobre personal y recursos: 100 %
-Valoración del uso de tecnología: 100 %
-Visibilidad de licencias y cumplimiento normativo: 66.7 %
--->
-
-<p align="center">
-  <img src="assets/chapter-2/analysis/contratantes-necesidades.png"
-       alt="Necesidades principales detectadas en contratantes"
-       width="900">
-</p>
-
-*Nota.* Elaboración propia a partir de las entrevistas realizadas.
-
-Los resultados evidencian que los contratantes buscan principalmente reducir la incertidumbre durante el desarrollo de una obra. Para ello necesitan información clara, organizada y actualizada que les permita comprobar avances, conocer el uso de los recursos y detectar problemas antes de que estos produzcan consecuencias mayores.
-
-
-##### Características objetivas y subjetivas del segmento
-
-Las preguntas complementarias permitirán complementar estos patrones con las características necesarias para construir el User Persona correspondiente al segmento, incluyendo aspectos demográficos, experiencia previa, personalidad, habilidades, influencias, preferencias tecnológicas, dispositivos, canales digitales, navegador, objetivos y frustraciones.
-
-**Figura X**  
-*Características objetivas predominantes en contratantes de empresas privadas*
-
-<!-- INSERTAR GRÁFICA CON LOS PORCENTAJES OBTENIDOS
-DE LAS NUEVAS ENTREVISTAS:
-rango de edad, ocupación/background, distrito,
-situación familiar, dispositivo principal, etc.
--->
+*Cuadro estadístico de características objetivas del segmento Contratantes de empresas privadas.*
 
 <p align="center">
   <img src="assets/chapter-2/analysis/contratantes-caracteristicas-objetivas.png"
-       alt="Características objetivas predominantes en contratantes"
+       alt="Características objetivas de contratantes de empresas privadas"
        width="900">
 </p>
 
 *Nota.* Elaboración propia a partir de las entrevistas realizadas.
 
-**Figura X**  
-*Características subjetivas predominantes en contratantes de empresas privadas*
+Las características correspondientes a estado civil, responsabilidades familiares, dispositivo principal y navegador habitual deberán incorporarse cuando sean obtenidas mediante las nuevas entrevistas.
 
-<!-- INSERTAR GRÁFICA CON LOS PORCENTAJES OBTENIDOS
-DE LAS NUEVAS ENTREVISTAS:
-personalidad, habilidades, influencias, canales digitales,
-objetivos, frustraciones, etc.
--->
+##### Características subjetivas
+
+Los contratantes presentan características recurrentes relacionadas principalmente con la transparencia, el control del proyecto y la reducción de riesgos durante la contratación y ejecución de una obra.
+
+El 100 % considera importante la experiencia previa de la empresa constructora al momento de seleccionarla. Asimismo, el 100 % considera relevante el cumplimiento de los plazos y busca disponer de información clara y actualizada sobre el estado del proyecto.
+
+La falta de visibilidad suficiente sobre el desarrollo de la obra aparece en el 100 % de las entrevistas. De igual manera, el 100 % manifestó haber experimentado retrasos durante proyectos anteriores.
+
+Los tres participantes describieron consecuencias económicas derivadas de problemas durante la ejecución de una obra, representando el 100 % del segmento.
+
+La necesidad de disponer de mayor transparencia sobre materiales y recursos también aparece en el 100 % de las entrevistas. Los problemas relacionados específicamente con la calidad de acabados o materiales fueron reportados por el 66.7 %.
+
+El 100 % considera útil disponer de información actualizada sobre el avance, materiales y personal involucrado en la obra.
+
+Asimismo, el 100 % valora positivamente que una empresa constructora utilice herramientas digitales, relacionando su utilización con una mayor percepción de profesionalismo, organización, transparencia o confianza.
+
+El 66.7 % manifestó explícitamente interés en disponer de mecanismos que faciliten la consulta o validación de información relacionada con licencias, normas o cumplimiento de obligaciones.
+
+Finalmente, el 33.3 % manifestó explícitamente preocupación por la seguridad de los datos administrados mediante una plataforma digital.
+
+*Cuadro estadístico de características subjetivas del segmento Contratantes de empresas privadas.*
 
 <p align="center">
   <img src="assets/chapter-2/analysis/contratantes-caracteristicas-subjetivas.png"
-       alt="Características subjetivas predominantes en contratantes"
+       alt="Características subjetivas de contratantes de empresas privadas"
        width="900">
 </p>
 
 *Nota.* Elaboración propia a partir de las entrevistas realizadas.
 
-Estas características permitirán complementar el análisis funcional con información sobre el comportamiento y perfil de los participantes, asegurando que el arquetipo resultante represente patrones efectivamente encontrados en las entrevistas.
+Los resultados muestran que el segmento de contratantes de empresas privadas busca principalmente reducir la incertidumbre durante la ejecución de una obra mediante un mayor nivel de transparencia y acceso a información actualizada. Para este segmento resulta importante poder comprobar el avance del proyecto, conocer el uso de materiales y personal y detectar oportunamente situaciones que puedan producir retrasos o pérdidas económicas.
 
-
-#### Síntesis del análisis
-
-Los resultados permiten distinguir claramente las prioridades de ambos segmentos.
-
-En los supervisores de obra, el principal problema se concentra en la gestión operativa. El 100 % utiliza mecanismos manuales para controlar asistencia, el 100 % presenta dificultades relacionadas con el inventario y el 100 % muestra interés en centralizar la información necesaria para controlar la operación y realizar seguimiento del proyecto.
-
-Por otro lado, los contratantes de empresas privadas presentan una necesidad principalmente vinculada con la transparencia y el acceso a información. El 100 % utiliza correo electrónico y WhatsApp para mantenerse informado, el 100 % manifiesta falta de visibilidad suficiente sobre el avance y el 100 % considera importante mejorar la transparencia sobre materiales y disponer de información actualizada del proyecto.
+Las características correspondientes a personalidad, habilidades y marcas o referentes de influencia deberán incorporarse al análisis cuando sean obtenidas mediante las preguntas complementarias de las nuevas entrevistas.
 
 
 ## 2.3. Needfinding
