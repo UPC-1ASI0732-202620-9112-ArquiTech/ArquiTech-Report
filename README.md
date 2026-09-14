@@ -403,7 +403,7 @@ Creemos que proporcionar un onboarding interactivo con videos cortos para superv
 
 ### 2.2.1. Diseño de entrevistas
 
-Para el proceso de investigación de ArquiTech se diseñó un conjunto de entrevistas dirigido a representantes de los dos segmentos objetivo identificados: **supervisores de obra** y **contratantes de empresas privadas**.
+Para el proceso de investigación de ArquiTech se diseñó un conjunto de entrevistas dirigido a representantes de los dos segmentos objetivo identificados: supervisores de obra** y **contratantes de empresas privadas.
 
 El objetivo de estas entrevistas es comprender las actividades que actualmente realizan los participantes durante la gestión y seguimiento de proyectos de construcción, las herramientas que utilizan, las principales dificultades que enfrentan y sus necesidades respecto al acceso, organización y comunicación de la información de una obra.
 
@@ -479,7 +479,7 @@ Para mantener la consistencia del proceso de investigación, todos los participa
 
 #### Preguntas complementarias de caracterización para ambos segmentos
 
-Las siguientes preguntas complementarias serán aplicadas a todos los entrevistados de ambos segmentos objetivo antes del desarrollo del guion principal correspondiente. Su propósito es recopilar características objetivas y subjetivas necesarias para el posterior análisis de entrevistas y la construcción de los User Personas.
+Las siguientes preguntas complementarias serán aplicadas a todos los entrevistados de ambos segmentos objetivo antes del desarrollo del guion principal correspondiente. Su propósito es recopilar características objetivas y subjetivas.
 
 - ¿Con qué género se identifica?
 - ¿Cuál es su estado civil?
@@ -502,6 +502,240 @@ Las siguientes preguntas complementarias serán aplicadas a todos los entrevista
 - ¿Podría contarme brevemente sobre su trayectoria y experiencia relacionada con proyectos de construcción?
 
 ### 2.2.2. Registro de entrevistas
+
+Como parte del proceso de investigación de ArquiTech, se realizaron entrevistas a representantes de los dos segmentos objetivo definidos: **supervisores de obra** y **contratantes de empresas privadas**. Se realizaron tres entrevistas por cada segmento, obteniendo un total de seis entrevistas.
+
+Todas las sesiones fueron registradas en video y posteriormente consolidadas en un único video de evidencia de Needfinding. Para cada participante se registra su información de identificación, un cuadro representativo de su participación en el video, el momento de inicio y duración de su entrevista, así como un resumen descriptivo de la información obtenida.
+
+Los resúmenes consideran tanto las respuestas al guion principal como la información obtenida mediante las preguntas complementarias de caracterización. Esto permite identificar características demográficas, experiencia, personalidad, habilidades, influencias, hábitos tecnológicos, dispositivos, canales digitales, objetivos y frustraciones que serán utilizadas posteriormente para el análisis de entrevistas y la construcción de los User Personas.
+
+**Video consolidado de entrevistas:** [ENLACE DE MICROSOFT STREAM / CLIPCHAMP]
+
+**Nombre del video:** `upc-pre-202610-1asi0732-9112-Foundex-needfinding-sprint-1.mp4`
+
+---
+
+#### Segmento objetivo #1: Supervisores de obra
+
+##### Entrevista #1
+
+**Datos del entrevistado**
+
+- **Nombres y apellidos:** [NOMBRE Y APELLIDOS]
+- **Edad:** [EDAD]
+- **Distrito de residencia:** [DISTRITO]
+- **Segmento objetivo:** Supervisor de obra
+- **Fecha de entrevista:** [YYYY-MM-DD]
+- **Timing de inicio:** [00:00:00]
+- **Duración:** [00:00]
+- **Video:** [ENLACE DEL VIDEO CONSOLIDADO]
+
+**Figura X**  
+*Cuadro de video del entrevistado #1 del segmento Supervisores de obra.*
+
+<p align="center">
+  <img src="assets/chapter-2/interviews/interview-01.png" alt="Entrevista 1 - Supervisor de obra" width="900">
+</p>
+
+*Nota.* Elaboración propia a partir de la entrevista realizada.
+
+**Resumen de la entrevista**
+
+[NOMBRE] explicó las principales responsabilidades que desempeña durante la supervisión de una obra y describió cómo organiza sus actividades diarias. Durante la entrevista se deberá registrar específicamente qué tareas realiza, con qué cantidad de trabajadores suele coordinar y qué tipos de materiales administra con mayor frecuencia.
+
+En relación con el control del personal, deberá describirse el procedimiento que utiliza para registrar la asistencia y las acciones que realiza cuando se producen ausencias. También deberá indicarse de qué manera controla el inventario de materiales, qué herramientas utiliza y cómo registra entradas, salidas o requerimientos.
+
+Respecto al seguimiento de la obra, deberá consignarse cómo registra los avances, con qué frecuencia prepara reportes y cuánto tiempo dedica aproximadamente a esas actividades. Se deberán registrar los principales problemas mencionados por el entrevistado, especialmente los relacionados con personal, materiales, inventario, reportes o coordinación entre las áreas operativas y administrativas.
+
+Asimismo, el resumen deberá recoger su opinión respecto a disponer de una plataforma que centralice asistencia, inventario y reportes, la importancia que atribuye al acceso a información actualizada y las condiciones que le generarían confianza o preocupación al adoptar una nueva herramienta digital.
+
+A partir de las preguntas complementarias, se deberá registrar su ocupación y trayectoria profesional, responsabilidades familiares cuando correspondan, características de su forma de trabajar o tomar decisiones, habilidades que considera relevantes, referentes o influencias, dispositivos que utiliza, aplicaciones y canales digitales habituales, navegador de preferencia, así como sus principales objetivos y frustraciones relacionadas con la supervisión de obras.
+
+---
+
+##### Entrevista #2
+
+**Datos del entrevistado**
+
+- **Nombres y apellidos:** [NOMBRE Y APELLIDOS]
+- **Edad:** [EDAD]
+- **Distrito de residencia:** [DISTRITO]
+- **Segmento objetivo:** Supervisor de obra
+- **Fecha de entrevista:** [YYYY-MM-DD]
+- **Timing de inicio:** [00:00:00]
+- **Duración:** [00:00]
+- **Video:** [ENLACE DEL VIDEO CONSOLIDADO]
+
+**Figura X**  
+*Cuadro de video del entrevistado #2 del segmento Supervisores de obra.*
+
+<p align="center">
+  <img src="assets/chapter-2/interviews/interview-02.png" alt="Entrevista 2 - Supervisor de obra" width="900">
+</p>
+
+*Nota.* Elaboración propia a partir de la entrevista realizada.
+
+**Resumen de la entrevista**
+
+[NOMBRE] describió su experiencia en la supervisión de obras y las actividades que desarrolla durante una jornada habitual. En el resumen final deberá precisarse cuáles son sus principales responsabilidades, cómo coordina al equipo de trabajo y qué recursos o materiales debe controlar.
+
+Se deberá explicar cómo registra actualmente la asistencia del personal, cómo gestiona las ausencias y qué medios utiliza para mantener actualizado el inventario. De igual manera, deberá detallarse cómo verifica el avance físico de una obra, cómo prepara la información que posteriormente se convierte en reportes y con qué frecuencia realiza estas actividades.
+
+El registro deberá recoger los principales problemas experimentados por el participante, incluyendo errores de inventario, retrasos de materiales, disponibilidad de trabajadores, actualización de registros o dificultades de coordinación con personal técnico y administrativo cuando estos sean mencionados.
+
+Asimismo, deberá documentarse su percepción acerca de centralizar la información de asistencia, materiales y reportes en una plataforma digital, así como sus expectativas sobre información en tiempo real, facilidad de uso, confiabilidad y correcta utilización del sistema.
+
+Finalmente, deberán incorporarse los datos provenientes de la caracterización complementaria: background profesional, personalidad o forma de tomar decisiones, habilidades, influencias, tecnología empleada, dispositivo preferido, aplicaciones y canales digitales, navegador, objetivos y frustraciones.
+
+---
+
+##### Entrevista #3
+
+**Datos del entrevistado**
+
+- **Nombres y apellidos:** [NOMBRE Y APELLIDOS]
+- **Edad:** [EDAD]
+- **Distrito de residencia:** [DISTRITO]
+- **Segmento objetivo:** Supervisor de obra
+- **Fecha de entrevista:** [YYYY-MM-DD]
+- **Timing de inicio:** [00:00:00]
+- **Duración:** [00:00]
+- **Video:** [ENLACE DEL VIDEO CONSOLIDADO]
+
+**Figura X**  
+*Cuadro de video del entrevistado #3 del segmento Supervisores de obra.*
+
+<p align="center">
+  <img src="assets/chapter-2/interviews/interview-03.png" alt="Entrevista 3 - Supervisor de obra" width="900">
+</p>
+
+*Nota.* Elaboración propia a partir de la entrevista realizada.
+
+**Resumen de la entrevista**
+
+[NOMBRE] explicó cómo organiza y supervisa las actividades que se desarrollan diariamente en una obra. El registro deberá indicar el tamaño aproximado del equipo con el que trabaja, los tipos de materiales que gestiona y la forma en que se comunica con otras áreas involucradas en el proyecto.
+
+Deberá documentarse cómo controla la asistencia, mediante qué herramientas registra las incidencias o ausencias, cómo mantiene actualizado el inventario y qué dificultades encuentra al utilizar herramientas manuales o digitales durante el trabajo en campo.
+
+El resumen también deberá explicar cómo documenta el avance de las actividades, qué herramientas utiliza para generar reportes y cuáles son los principales factores que ocasionan retrasos, errores o trabajo adicional.
+
+Se deberá recoger su valoración sobre la posibilidad de centralizar información de trabajadores, materiales y avances en ArquiTech, señalando qué beneficios espera obtener, qué información considera importante consultar en tiempo real y qué factores influirían en la adopción de la plataforma.
+
+Finalmente, se incorporarán los resultados de la caracterización complementaria referentes a trayectoria, personalidad, habilidades, referentes, dispositivos, aplicaciones utilizadas, canales digitales, navegador, objetivos profesionales y principales frustraciones.
+
+---
+
+#### Segmento objetivo #2: Contratantes de empresas privadas
+
+##### Entrevista #4
+
+**Datos del entrevistado**
+
+- **Nombres y apellidos:** [NOMBRE Y APELLIDOS]
+- **Edad:** [EDAD]
+- **Distrito de residencia:** [DISTRITO]
+- **Segmento objetivo:** Contratante de empresa privada
+- **Fecha de entrevista:** [YYYY-MM-DD]
+- **Timing de inicio:** [00:00:00]
+- **Duración:** [00:00]
+- **Video:** [ENLACE DEL VIDEO CONSOLIDADO]
+
+**Figura X**  
+*Cuadro de video del entrevistado #1 del segmento Contratantes de empresas privadas.*
+
+<p align="center">
+  <img src="assets/chapter-2/interviews/interview-04.png" alt="Entrevista 4 - Contratante de empresa privada" width="900">
+</p>
+
+*Nota.* Elaboración propia a partir de la entrevista realizada.
+
+**Resumen de la entrevista**
+
+[NOMBRE] explicó qué tipos de proyectos de construcción suele contratar y cuáles son los principales criterios que utiliza para seleccionar una empresa constructora. El registro deberá indicar la importancia que atribuye a factores como experiencia, cumplimiento de plazos, costos, transparencia, calidad y antecedentes de trabajos anteriores.
+
+También deberá describirse cómo recibe actualmente información acerca del avance de una obra, con qué frecuencia obtiene actualizaciones y qué herramientas o canales utiliza la constructora para mantenerlo informado.
+
+El resumen deberá incluir el procedimiento utilizado por el participante para comprobar licencias, normas de seguridad, plazos u otras obligaciones asociadas a la ejecución de la obra, así como las dificultades que haya experimentado anteriormente con constructoras.
+
+Se deberán documentar situaciones relacionadas con retrasos, falta de claridad, problemas de calidad, deficiencias de comunicación o pérdidas económicas cuando el entrevistado las mencione, así como el impacto que dichas situaciones hayan tenido sobre sus actividades.
+
+Asimismo, deberá recogerse su percepción acerca de disponer de una plataforma que permita consultar avances, materiales y personal, el valor que atribuye al uso de tecnología por parte de una constructora y las características que le generarían mayor confianza.
+
+El registro se complementará con información sobre su ocupación, background, personalidad y toma de decisiones, habilidades, personas o marcas que influyen en sus decisiones, dispositivos, aplicaciones, canales digitales, navegador, objetivos y frustraciones.
+
+---
+
+##### Entrevista #5
+
+**Datos del entrevistado**
+
+- **Nombres y apellidos:** [NOMBRE Y APELLIDOS]
+- **Edad:** [EDAD]
+- **Distrito de residencia:** [DISTRITO]
+- **Segmento objetivo:** Contratante de empresa privada
+- **Fecha de entrevista:** [YYYY-MM-DD]
+- **Timing de inicio:** [00:00:00]
+- **Duración:** [00:00]
+- **Video:** [ENLACE DEL VIDEO CONSOLIDADO]
+
+**Figura X**  
+*Cuadro de video del entrevistado #2 del segmento Contratantes de empresas privadas.*
+
+<p align="center">
+  <img src="assets/chapter-2/interviews/interview-05.png" alt="Entrevista 5 - Contratante de empresa privada" width="900">
+</p>
+
+*Nota.* Elaboración propia a partir de la entrevista realizada.
+
+**Resumen de la entrevista**
+
+[NOMBRE] describió su experiencia contratando proyectos de construcción y los criterios utilizados al evaluar empresas constructoras. El resumen deberá especificar qué aspectos considera indispensables antes de contratar, tales como experiencia, cumplimiento normativo, plazos, transparencia o control del presupuesto cuando sean mencionados.
+
+Deberá explicarse cómo recibe actualmente reportes sobre el proyecto, qué herramientas se emplean, con qué frecuencia recibe información y si complementa estos reportes mediante visitas presenciales u otros mecanismos de seguimiento.
+
+También deberán registrarse los procedimientos que utiliza para verificar licencias, seguridad y cumplimiento de las obligaciones de la empresa constructora. Las experiencias negativas mencionadas por el participante deberán documentarse señalando sus causas y consecuencias.
+
+El resumen recogerá especialmente su percepción sobre la transparencia de los proyectos y la necesidad de disponer de información actualizada sobre avances, materiales y trabajadores. Asimismo, deberá registrar la relevancia que concede al uso de herramientas digitales y sus requisitos de confianza, facilidad de uso y seguridad.
+
+La información obtenida mediante la caracterización complementaria deberá incorporar experiencia previa, personalidad, forma de tomar decisiones, habilidades, influencias, dispositivos utilizados, canales de interacción, aplicaciones, navegador, objetivos y frustraciones.
+
+---
+
+##### Entrevista #6
+
+**Datos del entrevistado**
+
+- **Nombres y apellidos:** [NOMBRE Y APELLIDOS]
+- **Edad:** [EDAD]
+- **Distrito de residencia:** [DISTRITO]
+- **Segmento objetivo:** Contratante de empresa privada
+- **Fecha de entrevista:** [YYYY-MM-DD]
+- **Timing de inicio:** [00:00:00]
+- **Duración:** [00:00]
+- **Video:** [ENLACE DEL VIDEO CONSOLIDADO]
+
+**Figura X**  
+*Cuadro de video del entrevistado #3 del segmento Contratantes de empresas privadas.*
+
+<p align="center">
+  <img src="assets/chapter-2/interviews/interview-06.png" alt="Entrevista 6 - Contratante de empresa privada" width="900">
+</p>
+
+*Nota.* Elaboración propia a partir de la entrevista realizada.
+
+**Resumen de la entrevista**
+
+[NOMBRE] explicó los tipos de proyectos que suele contratar y las características que considera prioritarias al seleccionar una constructora. Deberán documentarse específicamente los criterios mencionados durante la entrevista y las experiencias previas que hayan influido en su forma de elegir proveedores.
+
+El registro deberá describir cómo recibe actualmente la información relacionada con el avance de una obra, los formatos y canales utilizados y las dificultades que encuentra para conocer el estado real del proyecto.
+
+También se deberá indicar cómo verifica licencias y cumplimiento normativo, así como las situaciones problemáticas que haya experimentado debido a retrasos, planificación deficiente, información incompleta, materiales, personal u otros factores.
+
+El resumen deberá recoger su opinión respecto a disponer de información actualizada sobre avances, recursos y trabajadores, así como la importancia que atribuye a que una empresa constructora utilice herramientas digitales modernas.
+
+Finalmente, se documentarán las características obtenidas mediante las preguntas complementarias de caracterización: trayectoria, personalidad, habilidades, influencias, tecnología, dispositivos, canales digitales, aplicaciones utilizadas, navegador, objetivos y frustraciones.
+
+---
 
 ### 2.2.3. Análisis de entrevistas
 
