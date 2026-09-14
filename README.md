@@ -403,6 +403,104 @@ Creemos que proporcionar un onboarding interactivo con videos cortos para superv
 
 ### 2.2.1. Diseño de entrevistas
 
+Para el proceso de investigación de ArquiTech se diseñó un conjunto de entrevistas dirigido a representantes de los dos segmentos objetivo identificados: **supervisores de obra** y **contratantes de empresas privadas**.
+
+El objetivo de estas entrevistas es comprender las actividades que actualmente realizan los participantes durante la gestión y seguimiento de proyectos de construcción, las herramientas que utilizan, las principales dificultades que enfrentan y sus necesidades respecto al acceso, organización y comunicación de la información de una obra.
+
+Las preguntas fueron organizadas en cuatro grupos principales: **introducción y contexto, procesos actuales, puntos de dolor, necesidades y expectativas**, además de preguntas de cierre. Esta estructura permite recopilar información relacionada con el contexto del participante, sus actividades habituales, problemas experimentados durante la ejecución o seguimiento de una obra y su percepción respecto al uso de herramientas digitales.
+
+Para mantener la consistencia del proceso de investigación, todos los participantes pertenecientes a un mismo segmento serán entrevistados utilizando el mismo conjunto de preguntas. De esta manera, las respuestas podrán ser posteriormente comparadas e interpretadas en el análisis de entrevistas para identificar patrones y características recurrentes dentro de cada segmento objetivo.
+
+#### Segmento objetivo #1: Supervisores de obra
+
+**Introducción y contexto**
+
+- ¿Cuál es tu nombre?
+- ¿Cuántos años tiene?
+- ¿En qué distrito reside?
+- ¿Puedes contarme sobre tu rol como supervisor? ¿Qué haces en un día típico?
+- ¿Cuántos obreros y qué tipo de materiales gestionas en una obra promedio?
+
+**Procesos actuales**
+
+- ¿Cómo confirmas la asistencia de los obreros cada día? ¿Qué haces si alguien falta?
+- ¿Cómo llevas el control del inventario de materiales? ¿Qué herramientas usas?
+- ¿Cómo registras los avances de la obra y preparas reportes? ¿Cuánto tiempo te toma?
+
+**Puntos de dolor**
+
+- ¿Qué es lo más frustrante o lento en la gestión de obreros o materiales? Dame un ejemplo reciente.
+- ¿Alguna vez has tenido problemas por errores en inventario o reportes? ¿Qué pasó?
+- ¿Qué tan fácil o difícil es coordinar con otros roles, como asistentes administrativos?
+
+**Necesidades y expectativas**
+
+- Si tuvieras una herramienta que centralizará asistencia, inventario y reportes ¿te ayudaría? ¿de qué manera?
+- ¿Qué tan importante es tener información en tiempo real desde la obra? ¿Por qué?
+- ¿Qué te haría confiar en una nueva plataforma digital? ¿Qué te preocuparía?
+
+**Cierre**
+
+- ¿Hay algo que no hayamos tocado que te gustaría que una herramienta como esta resolviera?
+- ¿Estarías dispuesto a probar una plataforma como ArquiTech? ¿Qué necesitarías para convencerte?
+
+#### Segmento objetivo #2: Contratantes de empresas privadas
+
+**Introducción y contexto**
+
+- ¿Cuál es tu nombre?
+- ¿Cuántos años tiene?
+- ¿En qué distrito reside?
+- ¿Qué tipo de proyectos de construcción contratas normalmente (ej. locales, edificios)?
+- ¿Cómo es el proceso para elegir una constructora? ¿Qué buscas en ellas?
+
+**Procesos actuales**
+
+- ¿Cómo te mantienes informado sobre el avance de una obra? ¿Qué información recibes y con qué frecuencia?
+- ¿Qué herramientas o métodos usa la constructora para reportarte?
+- ¿Cómo verificas que se cumplan licencias, normas de seguridad o plazos?
+
+**Puntos de dolor**
+
+- ¿Qué problemas has tenido con constructoras en el pasado? Por ejemplo, retrasos o falta de claridad.
+- ¿Qué tan frustrante es no tener visibilidad completa sobre el uso de materiales o el personal en obra?
+- ¿Alguna vez has perdido dinero por demoras o errores en un proyecto? ¿Qué pasó?
+
+**Necesidades y expectativas**
+
+- Si pudieras acceder a una plataforma que te muestre en tiempo real el avance, materiales y personal de la obra, ¿cómo te ayudaría?
+- ¿Qué tan importante es para ti que la constructora use tecnología moderna? ¿Por qué?
+- ¿Qué características de una herramienta digital te harían confiar más en una constructora?
+
+**Cierre**
+
+- ¿Hay algo que las constructoras podrían mejorar para darte más tranquilidad?
+- Si una constructora usará una plataforma como ArquiTech para reportarte, ¿influiría en tu decisión de contratarla? ¿Por qué?
+
+#### Preguntas complementarias de caracterización para ambos segmentos
+
+Las siguientes preguntas complementarias serán aplicadas a todos los entrevistados de ambos segmentos objetivo antes del desarrollo del guion principal correspondiente. Su propósito es recopilar características objetivas y subjetivas necesarias para el posterior análisis de entrevistas y la construcción de los User Personas.
+
+- ¿Con qué género se identifica?
+- ¿Cuál es su estado civil?
+- ¿Tiene responsabilidades familiares que influyan en su rutina o decisiones?
+- ¿Cuál es su ocupación o cargo actual?
+- ¿Cuántos años de experiencia tiene en el sector construcción o contratando
+  proyectos de construcción?
+- ¿Cómo describiría brevemente su forma de trabajar o tomar decisiones?
+- ¿Qué habilidades considera más importantes para desarrollar sus actividades?
+- ¿Qué personas, empresas, marcas o referentes influyen en sus decisiones
+  relacionadas con proyectos de construcción?
+- ¿Qué dispositivo utiliza principalmente para actividades relacionadas con su
+  trabajo o proyectos: smartphone, laptop, tablet u otro?
+- ¿Qué aplicaciones o canales digitales utiliza con mayor frecuencia para
+  comunicarse o gestionar información?
+- ¿Qué navegador utiliza habitualmente?
+- ¿Cuál es su principal objetivo cuando participa en la gestión o seguimiento
+  de una obra?
+- ¿Cuál es la principal frustración que experimenta durante dicho proceso?
+- ¿Podría contarme brevemente sobre su trayectoria y experiencia relacionada con proyectos de construcción?
+
 ### 2.2.2. Registro de entrevistas
 
 ### 2.2.3. Análisis de entrevistas
