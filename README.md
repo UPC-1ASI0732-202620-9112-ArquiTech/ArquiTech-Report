@@ -391,6 +391,72 @@ Creemos que proporcionar un onboarding interactivo con videos cortos para superv
 
 ## 1.3. Segmentos objetivo
 
+Para garantizar que nuestra solución tecnológica responda de manera efectiva a las necesidades presentes en la gestión de proyectos de construcción, hemos identificado y analizado dos segmentos clave que participan directamente en el desarrollo y seguimiento de las obras.
+
+A continuación, se detallan los perfiles estratégicos que integran el modelo de negocio de ArquiTech, profundizando en sus características demográficas, geográficas y psicográficas, así como en los principales problemas y necesidades que presentan dentro del dominio de la construcción.
+
+**Segmento objetivo #1: Supervisores de obra**
+
+Representa a los profesionales o responsables encargados de supervisar y coordinar las actividades realizadas durante la ejecución de una obra. Entre sus principales responsabilidades se encuentran el control del personal, la asistencia de los trabajadores, la gestión de materiales, el seguimiento del avance de la construcción y la comunicación con las áreas administrativas.
+
+Aspectos demográficos:
+
+- **Sexo:** Masculino y femenino.
+
+- **Rango de edad:** 28 años a más.
+
+- **Nivel socioeconómico:** Principalmente clase media.
+
+- **Ocupación:** Supervisores de obra, residentes de obra, jefes de obra, asistentes de obra y profesionales relacionados con la supervisión de proyectos de construcción.
+
+Aspectos geográficos:
+
+- **Nacionalidad:** Peruana.
+
+- **Zona geográfica:** Principalmente zonas urbanas de Lima Metropolitana y otros sectores con presencia de proyectos de construcción.
+
+Aspectos psicográficos:
+
+- **Dolor principal:** Dificultad para mantener actualizada y centralizada la información relacionada con la asistencia del personal, el inventario de materiales y el avance de la obra, debido al uso de diferentes medios como registros físicos, hojas de cálculo, documentos y aplicaciones de mensajería.
+
+- **Intereses:** Mejorar el control de las actividades realizadas en obra, reducir errores en el registro de información, optimizar el uso de materiales y facilitar la comunicación entre el personal de campo y las áreas administrativas.
+
+- **Actitudes:** Buscan soluciones prácticas, rápidas y fáciles de utilizar que puedan incorporarse a sus actividades diarias sin requerir conocimientos técnicos avanzados.
+
+- **Necesidades clave:** Contar con información centralizada sobre trabajadores, materiales y avances de obra, generar reportes de manera más eficiente y disponer de alertas que permitan identificar oportunamente ausencias de trabajadores o problemas con el abastecimiento de materiales.
+
+**Segmento objetivo #2: Contratantes de empresas privadas**
+
+Representa a las personas, empresarios, administradores o representantes de organizaciones privadas que contratan empresas constructoras para desarrollar proyectos como locales comerciales, oficinas, viviendas, remodelaciones u otras obras de infraestructura.
+
+Este segmento necesita conocer el estado de los proyectos contratados y verificar que la empresa constructora cumpla con los plazos, recursos y condiciones establecidas durante la ejecución de la obra.
+
+Aspectos demográficos:
+
+- **Sexo:** Masculino y femenino.
+
+- **Rango de edad:** 30 años a más.
+
+- **Nivel socioeconómico:** Principalmente clase media y media-alta.
+
+- **Ocupación:** Empresarios, administradores, propietarios de inmuebles, representantes de empresas privadas o responsables de la contratación y seguimiento de proyectos de construcción.
+
+Aspectos geográficos:
+
+- **Nacionalidad:** Peruana.
+
+- **Zona geográfica:** Principalmente zonas urbanas de Lima Metropolitana y otros sectores donde se desarrollen proyectos privados de construcción.
+
+Aspectos psicográficos:
+
+- **Dolor principal:** Falta de visibilidad constante sobre el avance real de la obra y dependencia de reportes proporcionados posteriormente por la empresa constructora, lo que puede generar incertidumbre respecto al cumplimiento del proyecto.
+
+- **Intereses:** Cumplimiento de los plazos establecidos, transparencia en el uso de materiales y recursos, seguimiento del avance del proyecto y reducción de riesgos económicos asociados a retrasos o errores.
+
+- **Actitudes:** Valoran la transparencia, la información clara y actualizada, y las herramientas que les permitan realizar seguimiento de sus proyectos sin tener que solicitar información constantemente a la constructora.
+
+- **Necesidades clave:** Visualizar el progreso de la obra, consultar información relacionada con materiales y personal, verificar el cumplimiento de los plazos establecidos y disponer de reportes comprensibles que faciliten la toma de decisiones.
+
 # Capítulo II: Requirements Elicitation & Analysis
 
 ## 2.1. Competidores
