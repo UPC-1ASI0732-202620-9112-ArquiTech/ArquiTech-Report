@@ -739,6 +739,295 @@ Finalmente, se documentarán las características obtenidas mediante las pregunt
 
 ### 2.2.3. Análisis de entrevistas
 
+A partir de las entrevistas registradas se realizó un análisis independiente para cada uno de los segmentos objetivo de ArquiTech: supervisores de obra y contratantes de empresas privadas. El propósito fue identificar los patrones más frecuentes relacionados con sus procesos actuales, herramientas utilizadas, principales frustraciones, necesidades y expectativas.
+
+Para cada segmento se consideraron tres entrevistas. Por ello, una característica identificada en un participante representa aproximadamente el 33.3 %, una característica presente en dos participantes representa el 66.7 %, y una coincidencia entre los tres participantes representa el 100 % del segmento analizado.
+
+Los resultados estadísticos presentados se obtienen a partir de la información registrada en las entrevistas y sirven como base para identificar las características más representativas que posteriormente serán utilizadas en la construcción de los User Personas y demás artefactos de Needfinding.
+
+
+#### Segmento objetivo #1: Supervisores de obra
+
+##### Herramientas y métodos utilizados actualmente
+
+Los resultados muestran una fuerte dependencia de mecanismos manuales y herramientas de propósito general para la gestión cotidiana de las obras. El 100 % de los supervisores entrevistados utiliza algún mecanismo manual para registrar la asistencia del personal, como hojas de tareo o firmas.
+
+En cuanto al control de materiales, el 66.7 % mencionó expresamente el uso de Excel, mientras que el resto utiliza otros mecanismos de registro, como Cardex o documentos de control de almacén. Asimismo, el 33.3 % manifestó utilizar WhatsApp como apoyo para comunicar incidencias relacionadas con el personal.
+
+Ninguno de los participantes, equivalente al 0 %, señaló utilizar actualmente una plataforma digital especializada que centralice asistencia, inventario, avance y reportes de obra.
+
+**Figura X**  
+*Herramientas utilizadas por supervisores de obra*
+
+<!-- INSERTAR GRÁFICA AQUÍ:
+Control manual de asistencia: 100 %
+Excel: 66.7 %
+WhatsApp: 33.3 %
+Plataforma digital especializada: 0 %
+-->
+
+<p align="center">
+  <img src="assets/chapter-2/analysis/supervisores-herramientas.png"
+       alt="Herramientas utilizadas por supervisores de obra"
+       width="900">
+</p>
+
+*Nota.* Elaboración propia a partir de las entrevistas realizadas.
+
+Estos resultados evidencian que la gestión de información continúa dependiendo principalmente de mecanismos separados entre sí. Los registros físicos, hojas de cálculo y medios de comunicación utilizados no conforman un sistema centralizado, por lo que la información requiere ser consolidada posteriormente y puede presentar retrasos o inconsistencias.
+
+
+##### Frustraciones frecuentes en la supervisión de obras
+
+Los problemas relacionados con el control de inventario aparecen como la dificultad más recurrente. El 100 % de los participantes señaló situaciones relacionadas con errores, desactualización o dificultades para mantener un registro preciso de los materiales utilizados en obra.
+
+La ausencia o disponibilidad insuficiente de personal fue mencionada explícitamente por el 66.7 % de los participantes. De igual manera, el 66.7 % señaló que los retrasos asociados con materiales y proveedores afectan el desarrollo normal de las actividades.
+
+Por otro lado, el 66.7 % evidenció dificultades relacionadas con la coordinación entre el trabajo realizado en campo y las áreas administrativas. Esta situación puede ocasionar demoras en la transmisión de información y diferencias entre los registros operativos y administrativos.
+
+**Figura X**  
+*Frustraciones frecuentes en la supervisión de obras*
+
+<!-- INSERTAR GRÁFICA AQUÍ:
+Errores o desactualización del inventario: 100 %
+Falta o ausencia de personal: 66.7 %
+Retrasos relacionados con materiales: 66.7 %
+Problemas de coordinación campo-administración: 66.7 %
+-->
+
+<p align="center">
+  <img src="assets/chapter-2/analysis/supervisores-frustraciones.png"
+       alt="Frustraciones frecuentes en la supervisión de obras"
+       width="900">
+</p>
+
+*Nota.* Elaboración propia a partir de las entrevistas realizadas.
+
+Los resultados permiten observar que las principales frustraciones se originan en actividades que requieren información constantemente actualizada. Un registro incorrecto del inventario, una ausencia no comunicada o un retraso en la disponibilidad de materiales puede alterar la planificación diaria y posteriormente afectar los reportes y el avance general de la obra.
+
+
+##### Necesidades principales detectadas en supervisores
+
+La necesidad con mayor coincidencia está relacionada con la centralización de la gestión operativa. El 100 % de los participantes manifestó interés en disponer de una herramienta que permita integrar información relacionada con asistencia, inventario y seguimiento de los avances o reportes.
+
+Del mismo modo, el 100 % considera importante disponer de información actualizada que facilite el seguimiento de lo ocurrido en la obra y reduzca la dependencia de registros dispersos.
+
+El 66.7 % manifestó además interés en ampliar el control hacia otros recursos de la obra, como maquinaria, combustible u otros elementos complementarios.
+
+Finalmente, la facilidad de adopción constituye una condición importante. El 100 % de los participantes manifestó directa o indirectamente preocupación por que una solución digital pueda utilizarse de forma sencilla, confiable y sin generar una carga operativa adicional.
+
+**Figura X**  
+*Necesidades principales detectadas en supervisores*
+
+<!-- INSERTAR GRÁFICA AQUÍ:
+Centralización de asistencia, inventario y reportes: 100 %
+Información actualizada para seguimiento: 100 %
+Facilidad de uso y confiabilidad: 100 %
+Control de maquinaria y otros recursos: 66.7 %
+-->
+
+<p align="center">
+  <img src="assets/chapter-2/analysis/supervisores-necesidades.png"
+       alt="Necesidades principales detectadas en supervisores"
+       width="900">
+</p>
+
+*Nota.* Elaboración propia a partir de las entrevistas realizadas.
+
+En este segmento se evidencia, por tanto, una necesidad predominante de reducir la fragmentación de los procesos operativos. Los supervisores requieren controlar trabajadores, materiales y avances desde una fuente de información común que les permita consultar el estado de la obra y generar información de manera más oportuna.
+
+
+##### Características objetivas y subjetivas del segmento
+
+Además de los procesos y dificultades identificados, las preguntas complementarias de caracterización permiten determinar las características objetivas y subjetivas predominantes del segmento, tales como rango de edad, distrito, ocupación, experiencia, responsabilidades familiares, personalidad, habilidades, influencias, dispositivo preferido, canales digitales, navegador, objetivos y frustraciones.
+
+**Figura X**  
+*Características objetivas predominantes en supervisores de obra*
+
+<!-- INSERTAR GRÁFICA CON LOS PORCENTAJES OBTENIDOS
+DE LAS NUEVAS ENTREVISTAS:
+rango de edad, ocupación/background, distrito,
+situación familiar, dispositivo principal, etc.
+-->
+
+<p align="center">
+  <img src="assets/chapter-2/analysis/supervisores-caracteristicas-objetivas.png"
+       alt="Características objetivas predominantes en supervisores"
+       width="900">
+</p>
+
+*Nota.* Elaboración propia a partir de las entrevistas realizadas.
+
+**Figura X**  
+*Características subjetivas predominantes en supervisores de obra*
+
+<!-- INSERTAR GRÁFICA CON LOS PORCENTAJES OBTENIDOS
+DE LAS NUEVAS ENTREVISTAS:
+personalidad, habilidades, influencias, canales digitales,
+objetivos, frustraciones, etc.
+-->
+
+<p align="center">
+  <img src="assets/chapter-2/analysis/supervisores-caracteristicas-subjetivas.png"
+       alt="Características subjetivas predominantes en supervisores"
+       width="900">
+</p>
+
+*Nota.* Elaboración propia a partir de las entrevistas realizadas.
+
+Estas características complementarán los patrones operativos anteriormente identificados y permitirán construir un arquetipo sustentado directamente en la información recolectada.
+
+
+#### Segmento objetivo #2: Contratantes de empresas privadas
+
+##### Herramientas y canales utilizados para el seguimiento de obras
+
+Los contratantes presentan una dependencia significativa de canales de comunicación convencionales para mantenerse informados sobre el desarrollo de sus proyectos.
+
+El 100 % de los participantes señaló utilizar correo electrónico para recibir información relacionada con la obra, mientras que el 100 % también manifestó utilizar WhatsApp como canal para comunicaciones, fotografías o actualizaciones rápidas.
+
+El 66.7 % recibe información mediante archivos Word o Excel y el **33.3 % indicó haber recibido en alguna oportunidad reportes o presentaciones con información visual más estructurada.
+
+Sin embargo, ninguno de los entrevistados, equivalente al 0 %, indicó disponer actualmente de una plataforma digital especializada desde la cual pueda consultar directamente el estado general de sus proyectos.
+
+**Figura X**  
+*Herramientas y canales utilizados para informar a contratantes*
+
+<!-- INSERTAR GRÁFICA AQUÍ:
+Correo electrónico: 100 %
+WhatsApp: 100 %
+Documentos Word/Excel: 66.7 %
+Reportes o presentaciones visuales: 33.3 %
+Plataforma digital especializada: 0 %
+-->
+
+<p align="center">
+  <img src="assets/chapter-2/analysis/contratantes-herramientas.png"
+       alt="Herramientas utilizadas para informar a contratantes"
+       width="900">
+</p>
+
+*Nota.* Elaboración propia a partir de las entrevistas realizadas.
+
+Los resultados muestran que la información se distribuye entre distintos canales y documentos. Aunque estos medios permiten mantener cierto nivel de comunicación, no proporcionan necesariamente una visión centralizada ni una trazabilidad continua del proyecto.
+
+
+##### Frustraciones frecuentes reportadas por contratantes
+
+La falta de visibilidad sobre el estado de la obra aparece en el 100 % de los casos analizados. Los participantes manifestaron dificultades para conocer de forma directa y actualizada lo que sucede durante la ejecución del proyecto.
+
+Asimismo, el 100 % reportó experiencias relacionadas con retrasos o situaciones que no fueron comunicadas con la anticipación esperada. La falta de transparencia relacionada con materiales y recursos también estuvo presente en el 100 % de las entrevistas.
+
+Los problemas relacionados con la calidad de la ejecución o de los materiales aparecieron en el 66.7 % de los casos.
+
+Además, el 100 % de los participantes describió consecuencias económicas relacionadas con retrasos, problemas de planificación o deficiencias durante la ejecución de proyectos.
+
+**Figura X**  
+*Frustraciones frecuentes reportadas por contratantes*
+
+<!-- INSERTAR GRÁFICA AQUÍ:
+Falta de visibilidad del avance: 100 %
+Retrasos o problemas comunicados tardíamente: 100 %
+Falta de transparencia sobre materiales: 100 %
+Consecuencias económicas por problemas de ejecución: 100 %
+Problemas relacionados con calidad: 66.7 %
+-->
+
+<p align="center">
+  <img src="assets/chapter-2/analysis/contratantes-frustraciones.png"
+       alt="Frustraciones frecuentes reportadas por contratantes"
+       width="900">
+</p>
+
+*Nota.* Elaboración propia a partir de las entrevistas realizadas.
+
+Estos resultados indican que el problema principal no se limita a recibir pocos reportes, sino a la dificultad de comprobar oportunamente el estado real de la obra. La ausencia de información clara y actualizada incrementa la incertidumbre y puede retrasar decisiones que afectan tanto la ejecución del proyecto como las actividades económicas del contratante.
+
+
+##### Necesidades principales detectadas en contratantes
+
+El 100 % de los participantes manifestó interés en contar con información actualizada acerca del avance de sus proyectos.
+
+También existe coincidencia absoluta respecto a la necesidad de mejorar la transparencia sobre los materiales utilizados: el 100 % considera relevante disponer de mayor visibilidad sobre este aspecto.
+
+De igual manera, el 100 % mostró interés en conocer información relacionada con el personal y los recursos involucrados en la obra.
+
+El cumplimiento de licencias, permisos o normativas también representa un aspecto relevante. El 66.7 % manifestó expresamente interés en contar con mecanismos que faciliten la verificación de este tipo de información.
+
+Finalmente, el 100 % relacionó el uso de herramientas digitales por parte de una constructora con una mayor percepción de organización, transparencia, profesionalismo o confianza.
+
+**Figura X**  
+*Necesidades principales detectadas en contratantes*
+
+<!-- INSERTAR GRÁFICA AQUÍ:
+Información actualizada del avance: 100 %
+Transparencia sobre materiales: 100 %
+Información sobre personal y recursos: 100 %
+Valoración del uso de tecnología: 100 %
+Visibilidad de licencias y cumplimiento normativo: 66.7 %
+-->
+
+<p align="center">
+  <img src="assets/chapter-2/analysis/contratantes-necesidades.png"
+       alt="Necesidades principales detectadas en contratantes"
+       width="900">
+</p>
+
+*Nota.* Elaboración propia a partir de las entrevistas realizadas.
+
+Los resultados evidencian que los contratantes buscan principalmente reducir la incertidumbre durante el desarrollo de una obra. Para ello necesitan información clara, organizada y actualizada que les permita comprobar avances, conocer el uso de los recursos y detectar problemas antes de que estos produzcan consecuencias mayores.
+
+
+##### Características objetivas y subjetivas del segmento
+
+Las preguntas complementarias permitirán complementar estos patrones con las características necesarias para construir el User Persona correspondiente al segmento, incluyendo aspectos demográficos, experiencia previa, personalidad, habilidades, influencias, preferencias tecnológicas, dispositivos, canales digitales, navegador, objetivos y frustraciones.
+
+**Figura X**  
+*Características objetivas predominantes en contratantes de empresas privadas*
+
+<!-- INSERTAR GRÁFICA CON LOS PORCENTAJES OBTENIDOS
+DE LAS NUEVAS ENTREVISTAS:
+rango de edad, ocupación/background, distrito,
+situación familiar, dispositivo principal, etc.
+-->
+
+<p align="center">
+  <img src="assets/chapter-2/analysis/contratantes-caracteristicas-objetivas.png"
+       alt="Características objetivas predominantes en contratantes"
+       width="900">
+</p>
+
+*Nota.* Elaboración propia a partir de las entrevistas realizadas.
+
+**Figura X**  
+*Características subjetivas predominantes en contratantes de empresas privadas*
+
+<!-- INSERTAR GRÁFICA CON LOS PORCENTAJES OBTENIDOS
+DE LAS NUEVAS ENTREVISTAS:
+personalidad, habilidades, influencias, canales digitales,
+objetivos, frustraciones, etc.
+-->
+
+<p align="center">
+  <img src="assets/chapter-2/analysis/contratantes-caracteristicas-subjetivas.png"
+       alt="Características subjetivas predominantes en contratantes"
+       width="900">
+</p>
+
+*Nota.* Elaboración propia a partir de las entrevistas realizadas.
+
+Estas características permitirán complementar el análisis funcional con información sobre el comportamiento y perfil de los participantes, asegurando que el arquetipo resultante represente patrones efectivamente encontrados en las entrevistas.
+
+
+#### Síntesis del análisis
+
+Los resultados permiten distinguir claramente las prioridades de ambos segmentos.
+
+En los supervisores de obra, el principal problema se concentra en la gestión operativa. El 100 % utiliza mecanismos manuales para controlar asistencia, el 100 % presenta dificultades relacionadas con el inventario y el 100 % muestra interés en centralizar la información necesaria para controlar la operación y realizar seguimiento del proyecto.
+
+Por otro lado, los contratantes de empresas privadas presentan una necesidad principalmente vinculada con la transparencia y el acceso a información. El 100 % utiliza correo electrónico y WhatsApp para mantenerse informado, el 100 % manifiesta falta de visibilidad suficiente sobre el avance y el 100 % considera importante mejorar la transparencia sobre materiales y disponer de información actualizada del proyecto.
+
+
 ## 2.3. Needfinding
 
 ### 2.3.1. User Personas
