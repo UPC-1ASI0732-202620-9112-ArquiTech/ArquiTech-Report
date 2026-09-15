@@ -1340,9 +1340,9 @@ Finalmente, considera que una empresa constructora que permita realizar un segui
 
 ### 2.2.3. Análisis de entrevistas
 
-A partir de las entrevistas registradas se realizó un análisis independiente de los dos segmentos objetivo de ArquiTech: **supervisores de obra** y **contratantes de empresas privadas**. El análisis busca identificar, mediante sustento estadístico, las características objetivas y subjetivas más representativas de cada segmento, tomando como fuente las respuestas y resúmenes documentados en el registro de entrevistas.
+A partir de las entrevistas registradas se realizó un análisis independiente de los dos segmentos objetivo de ArquiTech: supervisores de obra y contratantes de empresas privadas. El análisis busca identificar, mediante sustento estadístico, las características objetivas y subjetivas más representativas de cada segmento, tomando como fuente las respuestas y resúmenes documentados en el registro de entrevistas.
 
-Para cada segmento se consideraron tres participantes. En consecuencia, una característica identificada en un participante representa el **33.3 %** del segmento, una característica compartida por dos participantes representa el **66.7 %**, y una característica presente en los tres participantes representa el **100 %**.
+Para cada segmento se consideraron tres participantes. En consecuencia, una característica identificada en un participante representa el 33.3 % del segmento, una característica compartida por dos participantes representa el 66.7 %, y una característica presente en los tres participantes representa el 100 %.
 
 Las características analizadas comprenden aspectos demográficos y profesionales, experiencia, contexto familiar, preferencias tecnológicas, personalidad, habilidades, influencias, canales de interacción, objetivos, frustraciones, necesidades y expectativas. Estos resultados servirán posteriormente como base para la construcción de los User Personas y los demás artefactos de Needfinding.
 
@@ -1352,23 +1352,23 @@ Las características analizadas comprenden aspectos demográficos y profesionale
 
 ##### Características objetivas predominantes
 
-Las entrevistas muestran que el segmento está conformado por profesionales con experiencia directa en la supervisión y gestión de proyectos de construcción. El **100 %** de los participantes se desempeña como supervisor o supervisora de obra y participa directamente en actividades relacionadas con personal, materiales, avance y coordinación de los proyectos.
+Las entrevistas muestran que el segmento está conformado por profesionales con experiencia directa en la supervisión y gestión de proyectos de construcción. El 100 % de los participantes se desempeña como supervisor o supervisora de obra y participa directamente en actividades relacionadas con personal, materiales, avance y coordinación de los proyectos.
 
-Respecto al género, el **66.7 %** de los participantes se identifica con el género femenino y el **33.3 %** con el género masculino.
+Respecto al género, el 66.7 % de los participantes se identifica con el género femenino y el 33.3 % con el género masculino.
 
-En cuanto a la edad, el **66.7 %** tiene **55 años o más**, mientras que el **33.3 %** se encuentra alrededor de los 31 años. Esto evidencia la presencia predominante de profesionales con una trayectoria extensa, aunque también existe representación de perfiles más jóvenes con experiencia en herramientas digitales.
+En cuanto a la edad, el 66.7 % tiene 55 años o más, mientras que el 33.3 % se encuentra alrededor de los 31 años. Esto evidencia la presencia predominante de profesionales con una trayectoria extensa, aunque también existe representación de perfiles más jóvenes con experiencia en herramientas digitales.
 
-El **66.7 %** de los participantes se encuentra casado y tiene responsabilidades familiares, mientras que el **33.3 %** es soltero y no presenta personas económicamente dependientes.
+El 66.7 % de los participantes se encuentra casado y tiene responsabilidades familiares, mientras que el 33.3 % es soltero y no presenta personas económicamente dependientes.
 
-En relación con la experiencia profesional, el **66.7 %** cuenta con más de veinte años de experiencia en el sector construcción, mientras que el **33.3 %** cuenta con aproximadamente siete años de experiencia. En todos los casos, equivalente al **100 %**, la trayectoria está directamente relacionada con supervisión, construcción, edificaciones, remodelaciones o control técnico de obras.
+En relación con la experiencia profesional, el 66.7 % cuenta con más de veinte años de experiencia en el sector construcción, mientras que el 33.3 % cuenta con aproximadamente siete años de experiencia. En todos los casos, equivalente al 100 %, la trayectoria está directamente relacionada con supervisión, construcción, edificaciones, remodelaciones o control técnico de obras.
 
-Respecto al uso de tecnología, el **100 %** utiliza tanto smartphone como laptop durante sus actividades profesionales. El **66.7 %** manifiesta una preferencia principal por la laptop para revisar documentación o preparar reportes, mientras que el **33.3 %** destaca el smartphone como dispositivo preferido para las actividades realizadas directamente en campo.
+Respecto al uso de tecnología, el 100 % utiliza tanto smartphone como laptop durante sus actividades profesionales. El 66.7 % manifiesta una preferencia principal por la laptop para revisar documentación o preparar reportes, mientras que el 33.3 % destaca el smartphone como dispositivo preferido para las actividades realizadas directamente en campo.
 
-El **100 %** utiliza WhatsApp como canal de comunicación laboral y el **100 %** utiliza correo electrónico o herramientas equivalentes para compartir información y documentación. Asimismo, el **100 %** utiliza Google Chrome como navegador habitual.
+El 100 % utiliza WhatsApp como canal de comunicación laboral y el 100 % utiliza correo electrónico o herramientas equivalentes para compartir información y documentación. Asimismo, el 100 % utiliza Google Chrome como navegador habitual.
 
 Los distritos de residencia serán incorporados al análisis estadístico una vez que los tres participantes completen esta información durante las entrevistas. Este dato no se considera todavía dentro de los porcentajes para evitar incorporar información que no haya sido registrada.
 
-**Figura X**  
+Figura X  
 *Características objetivas predominantes en supervisores de obra*
 
 <!-- DATOS PARA LA GRÁFICA:
@@ -1404,25 +1404,25 @@ Los resultados objetivos permiten identificar un segmento profesional con experi
 
 Las respuestas también muestran patrones comunes relacionados con la forma de trabajar, las habilidades, objetivos, frustraciones y expectativas de los supervisores.
 
-El **100 %** considera fundamental disponer de información actualizada sobre el estado de la obra. Los tres participantes mencionaron problemas asociados con información desactualizada, inconsistencias en registros o dificultades para conocer oportunamente el estado del inventario, personal o avance.
+El 100 % considera fundamental disponer de información actualizada sobre el estado de la obra. Los tres participantes mencionaron problemas asociados con información desactualizada, inconsistencias en registros o dificultades para conocer oportunamente el estado del inventario, personal o avance.
 
-El **100 %** manifestó interés en centralizar información relacionada con asistencia, inventario, recursos, avance y reportes. La fragmentación entre registros físicos, hojas de cálculo, comunicaciones y documentos constituye una dificultad común dentro del segmento.
+El 100 % manifestó interés en centralizar información relacionada con asistencia, inventario, recursos, avance y reportes. La fragmentación entre registros físicos, hojas de cálculo, comunicaciones y documentos constituye una dificultad común dentro del segmento.
 
-Asimismo, el **100 %** considera importante que una herramienta digital sea sencilla y confiable. Los participantes señalaron que una solución demasiado compleja, lenta o difícil de utilizar podría convertirse en una barrera de adopción.
+Asimismo, el 100 % considera importante que una herramienta digital sea sencilla y confiable. Los participantes señalaron que una solución demasiado compleja, lenta o difícil de utilizar podría convertirse en una barrera de adopción.
 
-La coordinación y comunicación entre personas y áreas constituye otra característica representativa. El **100 %** reconoce la importancia de mantener una comunicación efectiva entre campo, administración, residentes, responsables técnicos y almacén.
+La coordinación y comunicación entre personas y áreas constituye otra característica representativa. El 100 % reconoce la importancia de mantener una comunicación efectiva entre campo, administración, residentes, responsables técnicos y almacén.
 
-En relación con las habilidades, el **100 %** menciona la comunicación o coordinación como una competencia relevante. El **66.7 %** destaca explícitamente habilidades relacionadas con organización y control, y el **66.7 %** menciona capacidades vinculadas con resolución de problemas o prevención de incidencias.
+En relación con las habilidades, el 100 % menciona la comunicación o coordinación como una competencia relevante. El 66.7 % destaca explícitamente habilidades relacionadas con organización y control, y el 66.7 % menciona capacidades vinculadas con resolución de problemas o prevención de incidencias.
 
-Respecto a la personalidad, los tres perfiles presentan una orientación hacia el control y resolución de situaciones operativas. El **100 %** evidencia una forma de trabajo orientada a comprobar información, prevenir problemas o reaccionar ante situaciones que puedan afectar el proyecto.
+Respecto a la personalidad, los tres perfiles presentan una orientación hacia el control y resolución de situaciones operativas. El 100 % evidencia una forma de trabajo orientada a comprobar información, prevenir problemas o reaccionar ante situaciones que puedan afectar el proyecto.
 
-En cuanto a influencias profesionales, **SENCICO** es mencionado por el **100 %** de los participantes como fuente o referente técnico. **CAPECO** aparece en el **66.7 %** de los casos y herramientas o productos asociados con **Microsoft** se encuentran presentes en el **100 %** de los perfiles tecnológicos. Autodesk aparece como herramienta o referencia tecnológica en el **66.7 %**.
+En cuanto a influencias profesionales, SENCICO es mencionado por el 100 % de los participantes como fuente o referente técnico. CAPECO aparece en el 66.7 % de los casos y herramientas o productos asociados con Microsoft se encuentran presentes en el 100 % de los perfiles tecnológicos. Autodesk aparece como herramienta o referencia tecnológica en el 66.7 %.
 
-El **100 %** tiene como objetivo mantener control sobre la ejecución de la obra y evitar que problemas relacionados con personal, materiales o información interrumpan el desarrollo de las actividades.
+El 100 % tiene como objetivo mantener control sobre la ejecución de la obra y evitar que problemas relacionados con personal, materiales o información interrumpan el desarrollo de las actividades.
 
-Finalmente, el **100 %** presenta frustraciones relacionadas con información que no se encuentra actualizada oportunamente, mientras que el **66.7 %** menciona directamente retrasos o problemas asociados con materiales y el **66.7 %** evidencia preocupación por la coordinación entre distintas áreas.
+Finalmente, el 100 % presenta frustraciones relacionadas con información que no se encuentra actualizada oportunamente, mientras que el 66.7 % menciona directamente retrasos o problemas asociados con materiales y el 66.7 % evidencia preocupación por la coordinación entre distintas áreas.
 
-**Figura X**  
+Figura X  
 *Características subjetivas predominantes en supervisores de obra*
 
 <!-- DATOS PARA LA GRÁFICA:
@@ -1451,7 +1451,7 @@ Retrasos/problemas de materiales: 66.7 %
 
 *Nota.* Elaboración propia a partir de las entrevistas realizadas.
 
-En conjunto, el segmento de supervisores se caracteriza por una orientación hacia el **control operativo, organización, disponibilidad de información y coordinación de recursos**. Los participantes necesitan mantener información actualizada sobre personal, materiales y avance, y muestran una percepción favorable hacia herramientas digitales siempre que estas simplifiquen el trabajo y no añadan complejidad a las actividades realizadas en campo.
+En conjunto, el segmento de supervisores se caracteriza por una orientación hacia el control operativo, organización, disponibilidad de información y coordinación de recursos. Los participantes necesitan mantener información actualizada sobre personal, materiales y avance, y muestran una percepción favorable hacia herramientas digitales siempre que estas simplifiquen el trabajo y no añadan complejidad a las actividades realizadas en campo.
 
 Estas características deberán reflejarse posteriormente en el User Persona correspondiente al segmento, especialmente en sus objetivos, habilidades, comportamiento tecnológico, necesidades y frustraciones.
 
@@ -1463,21 +1463,21 @@ Estas características deberán reflejarse posteriormente en el User Persona cor
 
 Los contratantes entrevistados desempeñan funciones administrativas o gerenciales desde las cuales participan directamente en la selección de constructoras y en el seguimiento de proyectos.
 
-Respecto al género, el **66.7 %** se identifica con el género femenino y el **33.3 %** con el género masculino.
+Respecto al género, el 66.7 % se identifica con el género femenino y el 33.3 % con el género masculino.
 
-En relación con la edad, el **66.7 %** tiene menos de 30 años, mientras que el **33.3 %** tiene 35 años. Esto representa un segmento predominantemente adulto joven que combina responsabilidades administrativas con seguimiento de proyectos de construcción.
+En relación con la edad, el 66.7 % tiene menos de 30 años, mientras que el 33.3 % tiene 35 años. Esto representa un segmento predominantemente adulto joven que combina responsabilidades administrativas con seguimiento de proyectos de construcción.
 
-El **66.7 %** tiene responsabilidades familiares, mientras que el **33.3 %** no presenta personas económicamente dependientes. Respecto al estado civil, los tres participantes presentan condiciones distintas: el **33.3 %** es soltero, el **33.3 %** casado y el **33.3 %** conviviente, por lo que no existe una situación civil predominante.
+El 66.7 % tiene responsabilidades familiares, mientras que el 33.3 % no presenta personas económicamente dependientes. Respecto al estado civil, los tres participantes presentan condiciones distintas: el 33.3 % es soltero, el 33.3 % casado y el 33.3 % conviviente, por lo que no existe una situación civil predominante.
 
-El **100 %** desarrolla funciones administrativas, gerenciales o de toma de decisiones dentro de una empresa. Asimismo, el **100 %** cuenta con experiencia previa contratando o realizando seguimiento a proyectos de construcción, con una experiencia comprendida aproximadamente entre cuatro y ocho años.
+El 100 % desarrolla funciones administrativas, gerenciales o de toma de decisiones dentro de una empresa. Asimismo, el 100 % cuenta con experiencia previa contratando o realizando seguimiento a proyectos de construcción, con una experiencia comprendida aproximadamente entre cuatro y ocho años.
 
-Los tres participantes residen en Lima Metropolitana, equivalente al **100 %** del segmento: Cercado de Lima, San Martín de Porres y San Juan de Miraflores.
+Los tres participantes residen en Lima Metropolitana, equivalente al 100 % del segmento: Cercado de Lima, San Martín de Porres y San Juan de Miraflores.
 
-En cuanto a tecnología, el **100 %** utiliza laptop y smartphone. El **100 %** utiliza la laptop para revisar documentos o realizar actividades profesionales relacionadas con el seguimiento de sus proyectos, mientras que el smartphone se utiliza principalmente para comunicaciones rápidas.
+En cuanto a tecnología, el 100 % utiliza laptop y smartphone. El 100 % utiliza la laptop para revisar documentos o realizar actividades profesionales relacionadas con el seguimiento de sus proyectos, mientras que el smartphone se utiliza principalmente para comunicaciones rápidas.
 
-El **100 %** utiliza WhatsApp y correo electrónico como canales de comunicación relacionados con los proyectos. Respecto al navegador, el **66.7 %** utiliza Google Chrome y el **33.3 %** utiliza Microsoft Edge.
+El 100 % utiliza WhatsApp y correo electrónico como canales de comunicación relacionados con los proyectos. Respecto al navegador, el 66.7 % utiliza Google Chrome y el 33.3 % utiliza Microsoft Edge.
 
-**Figura X**  
+Figura X  
 *Características objetivas predominantes en contratantes de empresas privadas*
 
 <!-- DATOS PARA LA GRÁFICA:
@@ -1513,27 +1513,27 @@ Los datos objetivos permiten identificar un segmento compuesto por personas con 
 
 Las entrevistas muestran una coincidencia significativa respecto a la importancia de disponer de información clara, actualizada y verificable durante la ejecución de los proyectos.
 
-El **100 %** considera la transparencia como una característica fundamental al trabajar con una empresa constructora. Los tres participantes relacionan una mayor transparencia con una mayor confianza y capacidad para tomar decisiones.
+El 100 % considera la transparencia como una característica fundamental al trabajar con una empresa constructora. Los tres participantes relacionan una mayor transparencia con una mayor confianza y capacidad para tomar decisiones.
 
-El **100 %** manifiesta la necesidad de acceder a información actualizada sobre el avance de la obra. Asimismo, los tres participantes consideran importante conocer información relacionada con materiales, personal, incidentes o situaciones que puedan afectar el desarrollo del proyecto.
+El 100 % manifiesta la necesidad de acceder a información actualizada sobre el avance de la obra. Asimismo, los tres participantes consideran importante conocer información relacionada con materiales, personal, incidentes o situaciones que puedan afectar el desarrollo del proyecto.
 
-La comunicación proactiva constituye otro patrón común. El **100 %** expresa frustración frente a problemas comunicados tardíamente o información incompleta, y considera importante conocer los riesgos antes de que estos produzcan consecuencias importantes.
+La comunicación proactiva constituye otro patrón común. El 100 % expresa frustración frente a problemas comunicados tardíamente o información incompleta, y considera importante conocer los riesgos antes de que estos produzcan consecuencias importantes.
 
-Respecto a la forma de tomar decisiones, el **100 %** presenta un comportamiento orientado a la reducción de riesgos. Los participantes revisan referencias, antecedentes, costos, cumplimiento o evidencia antes de elegir o continuar trabajando con una empresa constructora.
+Respecto a la forma de tomar decisiones, el 100 % presenta un comportamiento orientado a la reducción de riesgos. Los participantes revisan referencias, antecedentes, costos, cumplimiento o evidencia antes de elegir o continuar trabajando con una empresa constructora.
 
-El **100 %** considera que una herramienta digital de seguimiento podría mejorar su experiencia, especialmente si proporciona trazabilidad, evidencia y acceso directo a la información.
+El 100 % considera que una herramienta digital de seguimiento podría mejorar su experiencia, especialmente si proporciona trazabilidad, evidencia y acceso directo a la información.
 
-En relación con las habilidades, la negociación aparece en el **100 %** de los perfiles, mientras que las capacidades relacionadas con organización, planificación o control financiero están presentes en el **100 %** de los participantes.
+En relación con las habilidades, la negociación aparece en el 100 % de los perfiles, mientras que las capacidades relacionadas con organización, planificación o control financiero están presentes en el 100 % de los participantes.
 
-Las recomendaciones, referencias o antecedentes de terceros constituyen una influencia relevante en el **100 %** de los casos. Los participantes indicaron que consideran referencias de clientes, otros empresarios, equipos técnicos, asesores o experiencias anteriores antes de tomar decisiones.
+Las recomendaciones, referencias o antecedentes de terceros constituyen una influencia relevante en el 100 % de los casos. Los participantes indicaron que consideran referencias de clientes, otros empresarios, equipos técnicos, asesores o experiencias anteriores antes de tomar decisiones.
 
-En cuanto a los factores de confianza, el **100 %** valora que la información presentada incluya evidencia o mecanismos que permitan comprobar su procedencia. Los registros actualizados, fotografías, responsables identificados, historial de cambios o documentación constituyen elementos importantes para el segmento.
+En cuanto a los factores de confianza, el 100 % valora que la información presentada incluya evidencia o mecanismos que permitan comprobar su procedencia. Los registros actualizados, fotografías, responsables identificados, historial de cambios o documentación constituyen elementos importantes para el segmento.
 
-El cumplimiento de plazos constituye un objetivo o criterio de decisión para el **100 %** de los participantes. Asimismo, el **100 %** busca reducir la incertidumbre y evitar consecuencias económicas ocasionadas por retrasos, falta de planificación o comunicación tardía.
+El cumplimiento de plazos constituye un objetivo o criterio de decisión para el 100 % de los participantes. Asimismo, el 100 % busca reducir la incertidumbre y evitar consecuencias económicas ocasionadas por retrasos, falta de planificación o comunicación tardía.
 
-Como principal frustración, el **100 %** menciona situaciones relacionadas con información incompleta, poco clara o comunicada después de que el problema ya se ha producido.
+Como principal frustración, el 100 % menciona situaciones relacionadas con información incompleta, poco clara o comunicada después de que el problema ya se ha producido.
 
-**Figura X**  
+Figura X  
 *Características subjetivas predominantes en contratantes de empresas privadas*
 
 <!-- DATOS PARA LA GRÁFICA:
@@ -1561,7 +1561,7 @@ Información tardía o incompleta como frustración: 100 %
 
 *Nota.* Elaboración propia a partir de las entrevistas realizadas.
 
-El segmento de contratantes se caracteriza principalmente por una necesidad de **transparencia, visibilidad, reducción de riesgos y acceso oportuno a información verificable**. Los participantes valoran positivamente la tecnología cuando esta les permite conocer el estado real de una obra sin depender exclusivamente de reportes enviados manualmente por la constructora.
+El segmento de contratantes se caracteriza principalmente por una necesidad de transparencia, visibilidad, reducción de riesgos y acceso oportuno a información verificable. Los participantes valoran positivamente la tecnología cuando esta les permite conocer el estado real de una obra sin depender exclusivamente de reportes enviados manualmente por la constructora.
 
 Estas características deberán reflejarse posteriormente en el User Persona correspondiente al segmento, particularmente en su comportamiento orientado al análisis de riesgos, sus necesidades de información, sus factores de confianza, sus canales digitales y sus principales frustraciones.
 
@@ -1571,13 +1571,13 @@ Estas características deberán reflejarse posteriormente en el User Persona cor
 
 Los resultados permiten observar diferencias claras entre los dos segmentos objetivo.
 
-Los **supervisores de obra** presentan necesidades principalmente relacionadas con el **control operativo y la actualización de información**. El **100 %** busca disponer de información actualizada, el **100 %** considera necesaria una mejor centralización de datos y el **100 %** destaca la importancia de la coordinación entre los diferentes responsables del proyecto.
+Los supervisores de obra presentan necesidades principalmente relacionadas con el control operativo y la actualización de información. El 100 % busca disponer de información actualizada, el 100 % considera necesaria una mejor centralización de datos y el 100 % destaca la importancia de la coordinación entre los diferentes responsables del proyecto.
 
-En contraste, los **contratantes de empresas privadas** concentran sus necesidades en la **transparencia, visibilidad y reducción de incertidumbre**. El **100 %** considera importante contar con información actualizada, el **100 %** valora la transparencia y el **100 %** presenta preocupación por recibir información o alertas demasiado tarde.
+En contraste, los contratantes de empresas privadas concentran sus necesidades en la transparencia, visibilidad y reducción de incertidumbre. El 100 % considera importante contar con información actualizada, el 100 % valora la transparencia y el 100 % presenta preocupación por recibir información o alertas demasiado tarde.
 
 A nivel tecnológico, ambos segmentos utilizan dispositivos y herramientas digitales de uso cotidiano, pero con finalidades distintas. Los supervisores emplean principalmente estas herramientas para registrar, consolidar y comunicar información operativa, mientras que los contratantes las utilizan para recibir documentación, revisar el estado de sus proyectos y comunicarse con la constructora.
 
-En consecuencia, el arquetipo correspondiente al **supervisor de obra** deberá reflejar principalmente necesidades de eficiencia operativa, control, coordinación y reducción de registros fragmentados. Por otro lado, el arquetipo correspondiente al **contratante de empresa privada** deberá reflejar necesidades de transparencia, seguimiento, evidencia, confianza y reducción de riesgos.
+En consecuencia, el arquetipo correspondiente al supervisor de obra deberá reflejar principalmente necesidades de eficiencia operativa, control, coordinación y reducción de registros fragmentados. Por otro lado, el arquetipo correspondiente al contratante de empresa privada deberá reflejar necesidades de transparencia, seguimiento, evidencia, confianza y reducción de riesgos.
 
 La información obtenida en este análisis mantiene relación directa con los registros y resúmenes de las entrevistas y constituirá la base para la construcción de los User Personas y los demás artefactos de Needfinding.
 
