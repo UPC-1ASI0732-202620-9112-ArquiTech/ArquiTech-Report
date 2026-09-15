@@ -20,17 +20,17 @@
 
 **Integrantes**:
 
-Chacaliaza Minaya, Eduardo Fabian - 
+Chacaliaza Minaya, Eduardo Fabian - U202324129
 
-Espino Rossi, Victor Manuel - 
+Espino Rossi, Victor Manuel - U202411567
 
-Garcia Cerpa, Braden Raid - 
+Garcia Cerpa, Braden Raid - U202415618
 
 Mendoza Moreano, Mariel Lucero  - u20231a418
 
 Quispe Barzola, Fabricio Fabian - U202320442
 
-**Agosto, 2026**
+**Septiembre, 2026**
 
 </div>
 
@@ -39,8 +39,12 @@ Quispe Barzola, Fabricio Fabian - U202320442
 # Registro de Versiones del Informe
 
 | Versión | Fecha | Autor | Descripción de modificación |
-| :--- | :--- | :--- | :--- |
-| TB1 | 24/04/2025 | Mariel Lucero Mendoza Moreano<br><br>I2<br><br>I3<br><br>I4<br><br>I5 | blablabla |
+| :---: | :---: | :--- | :--- |
+| 1.0.0 | 14/09/2026 | Mendoza Moreano, Mariel Lucero | <span style="display:block; text-align:justify;">Elaboración de las secciones 1.1.1 Descripción de la Startup, 1.1.2 Perfiles de integrantes del equipo, 1.2.1 Antecedentes y problemática, 1.2.2 Lean UX Process, 2.3.1 User Personas, 2.3.2 User Task Matrix, 4.7 Web Applications Prototyping y 4.8 Domain-Driven Software Architecture.</span> |
+| 1.0.1 | 14/09/2026 | Chacaliaza Minaya, Eduardo Fabian | <span style="display:block; text-align:justify;">Elaboración de las secciones 1.3 Segmentos objetivo, 2.1.1 Análisis competitivo, 2.1.2 Estrategias y tácticas frente a competidores, 3.3 Product Backlog, 4.3 Landing Page UI Design y 4.4 Mobile Applications UX/UI Design.</span> |
+| 1.0.2 | 14/09/2026 | Quispe Barzola, Fabricio Fabian | <span style="display:block; text-align:justify;">Elaboración de las secciones 2.2.1 Diseño de entrevistas, 2.2.2 Registro de entrevistas, 2.2.3 Análisis de entrevistas, 3.2 User Stories, 4.9 Software Object-Oriented Design, 4.10 Database Design y 5.1 Software Configuration Management.</span> |
+| 1.0.3 | 14/09/2026 | Espino Rossi, Victor Manuel | <span style="display:block; text-align:justify;">Elaboración de las secciones 2.3.3 User Journey Mapping, 2.3.4 Empathy Mapping, 3.4 Impact Mapping, 4.5 Mobile Applications Prototyping, 4.6 Web Applications UX/UI Design y 5.2 Product Implementation & Deployment.</span> |
+| 1.0.4 | 14/09/2026 | Garcia Cerpa, Braden Raid | <span style="display:block; text-align:justify;">Elaboración de las secciones 2.3.5 As-is Scenario Mapping, 2.4 Ubiquitous Language, 3.1 To-Be Scenario Mapping, 4.1 Style Guidelines, 4.2 Information Architecture y 5.3 Video About-the-Product.</span> |
 
 # Project Report Collaboration Insights
 
@@ -242,15 +246,27 @@ A continuación, capturas del procesos, commits  y elaboración de nuestro proye
 
 # Student Outcome
 
-Student Outcome ABET: **ABET – EAC - Student Outcome 4** <br> Criterio: _La capacidad de reconocer responsabilidades éticas y profesionales en
-situaciones de ingeniería y hacer juicios informados, que deben considerar el
-impacto de las soluciones de ingeniería en contextos globales, económicos,
-ambientales y sociales._
+El curso contribuye al cumplimiento del siguiente Student Outcome ABET:
 
-| Criterio específico | Acciones realizadas | Conclusiones |
-| :--- | :--- | :--- |
-| Reconoce responsabilidad<br>ética y profesional en<br>situaciones de ingeniería<br>de software | Mendoza Moreano, Mariel Lucero<br>av1:<br>blablablabla.<br><br>Integrante 2<br>av1:<br>blablablabla<br><br>Integrante 3<br>av1:<br>blablabla<br><br>Integrante 4<br>av1:<br>blablablabla<br><br>Integrante 5<br>av1:<br>blablabla | av1:<br>blablablabla |
-| Emite juicios informados<br>considerando el impacto<br>de las soluciones de<br>ingeniería de software... | Mendoza Moreano, Mariel Lucero<br>av1:<br>blablabla<br><br>Integrante 2<br>av1:<br>blablablabla | av1:<br>blablbalbla |
+**ABET – EAC - Student Outcome 4**  
+Criterio: *La capacidad de reconocer responsabilidades éticas y profesionales en situaciones de ingeniería y hacer juicios informados, que deben considerar el impacto de las soluciones de ingeniería en contextos globales, económicos, ambientales y sociales.*
+
+<table style="width:100%; table-layout:fixed; border-collapse:collapse;">
+  <colgroup><col style="width:18%;"><col style="width:60%;"><col style="width:22%;"></colgroup>
+  <thead><tr><th align="center" style="text-align:center !important;">Criterio específico</th><th align="center" style="text-align:center !important;">Acciones realizadas</th><th align="center" style="text-align:center !important;">Conclusiones</th></tr></thead>
+  <tbody>
+    <tr>
+      <td valign="middle" style="text-align:justify; vertical-align:middle !important; padding:8px;"><strong>4.c.1 Reconoce responsabilidad ética y profesional en situaciones de ingeniería de software</strong></td>
+      <td style="text-align:justify; vertical-align:top; padding:8px;"><strong>Mendoza Moreano, Mariel Lucero</strong><br><strong>AV1:</strong> Participó en la elaboración de la descripción de la startup, perfiles de integrantes, antecedentes y problemática, Lean UX Process, User Personas, User Task Matrix, Web Applications Prototyping y Domain-Driven Software Architecture. Estas actividades permitieron identificar de manera responsable las necesidades de los usuarios, evitar diseñar funcionalidades basadas únicamente en supuestos y plantear una solución alineada con los problemas reales del dominio de construcción.<br><br><strong>Chacaliaza Minaya, Eduardo Fabian</strong><br><strong>AV1:</strong> Elaboró los segmentos objetivo, el análisis competitivo, las estrategias y tácticas frente a competidores, el Product Backlog, Landing Page UI Design y Mobile Applications UX/UI Design. Estas actividades implicaron documentar de manera transparente las fortalezas y limitaciones de ArquiTech frente a otras soluciones, priorizar requisitos de acuerdo con las necesidades de los usuarios y considerar criterios de claridad, accesibilidad y responsabilidad en el diseño de las interfaces.<br><br><strong>Quispe Barzola, Fabricio Fabian</strong><br><strong>AV1:</strong> Desarrolló el diseño, registro y análisis de entrevistas, User Stories, Software Object-Oriented Design, Database Design y Software Configuration Management. La realización de entrevistas permitió obtener información directamente de los segmentos objetivo y reducir decisiones basadas en suposiciones. Asimismo, la definición de requisitos, modelos de datos y prácticas de configuración contribuyó a una documentación responsable y trazable del sistema.<br><br><strong>Espino Rossi, Victor Manuel</strong><br><strong>AV1:</strong> Elaboró User Journey Mapping, Empathy Mapping, Impact Mapping, Mobile Applications Prototyping, Web Applications UX/UI Design y Product Implementation &amp; Deployment. Estas actividades permitieron representar de forma responsable las necesidades, frustraciones y experiencias de los usuarios, evitando que el diseño de la solución se centre únicamente en aspectos técnicos y considerando la experiencia de los distintos actores involucrados.<br><br><strong>Garcia Cerpa, Braden Raid</strong><br><strong>AV1:</strong> Elaboró As-is Scenario Mapping, Ubiquitous Language, To-Be Scenario Mapping, Style Guidelines, Information Architecture y Video About-the-Product. Estas actividades contribuyeron a mantener una comunicación clara y sin ambigüedades dentro del proyecto, así como a diseñar una experiencia comprensible y consistente para los usuarios, considerando principios de accesibilidad, claridad de información y comunicación responsable del producto.</td>
+      <td valign="middle" style="text-align:justify; vertical-align:middle !important; padding:8px;"><strong>AV1:</strong> Durante el desarrollo del primer avance, el equipo reconoció que la construcción de ArquiTech no debe limitarse a implementar funcionalidades, sino que requiere comprender las consecuencias de las decisiones tomadas durante el ciclo de vida del software. La investigación con usuarios, la definición responsable de requisitos, la documentación de decisiones y el diseño orientado a la accesibilidad permitieron reducir suposiciones y establecer una base ética para el desarrollo de la solución. El equipo concluye que la responsabilidad profesional implica mantener transparencia sobre las capacidades y limitaciones del producto, proteger la información gestionada y priorizar las necesidades reales de los usuarios.</td>
+    </tr>
+    <tr>
+      <td valign="middle" style="text-align:justify; vertical-align:middle !important; padding:8px;"><strong>4.c.2 Emite juicios informados considerando el impacto de las soluciones de ingeniería de software en contextos globales, económicos, ambientales y sociales</strong></td>
+      <td style="text-align:justify; vertical-align:top; padding:8px;"><strong>Mendoza Moreano, Mariel Lucero</strong><br><strong>AV1:</strong> Mediante el análisis de la problemática, Lean UX Process, User Personas y User Task Matrix, identificó cómo los procesos manuales utilizados actualmente pueden afectar la productividad y coordinación de las obras. Sus aportes permitieron considerar el impacto social de facilitar el trabajo de supervisores y personal administrativo, así como el impacto económico asociado a una mejor gestión del tiempo y de los recursos utilizados en los proyectos.<br><br><strong>Chacaliaza Minaya, Eduardo Fabian</strong><br><strong>AV1:</strong> A través del análisis de segmentos, competidores, estrategias competitivas y Product Backlog, evaluó el contexto económico en el que ArquiTech busca posicionarse. El análisis permitió reconocer la necesidad de ofrecer una solución accesible para pequeñas y medianas empresas constructoras, así como considerar el impacto económico de reducir errores de inventario, mejorar el seguimiento de proyectos y evitar el uso innecesario de recursos.<br><br><strong>Quispe Barzola, Fabricio Fabian</strong><br><strong>AV1:</strong> Mediante las entrevistas y el análisis de los datos obtenidos de los usuarios, identificó problemas relacionados con duplicidad de información, retrasos en reportes y dificultades de coordinación. Estos hallazgos permiten emitir juicios sobre el impacto social y económico de la solución, debido a que una gestión más eficiente puede reducir pérdidas de tiempo, errores administrativos y decisiones basadas en información desactualizada.<br><br><strong>Espino Rossi, Victor Manuel</strong><br><strong>AV1:</strong> Mediante User Journey Mapping, Empathy Mapping e Impact Mapping, analizó cómo la solución podría modificar la experiencia de los usuarios y generar cambios en la forma en que supervisores y contratantes acceden a la información. Estos artefactos permitieron considerar impactos sociales relacionados con la comunicación y transparencia entre los actores del proyecto, además de impactos económicos derivados de una toma de decisiones más oportuna.<br><br><strong>Garcia Cerpa, Braden Raid</strong><br><strong>AV1:</strong> A través del As-is Scenario Mapping y To-Be Scenario Mapping, comparó la situación actual con la experiencia propuesta mediante ArquiTech. Esta comparación permitió identificar posibles mejoras en la eficiencia operativa y en la reducción del uso de documentos físicos, considerando tanto el impacto económico como el ambiental asociado a la digitalización de procesos. Asimismo, las decisiones de Information Architecture y Style Guidelines contribuyeron a considerar el impacto social de ofrecer una plataforma comprensible y accesible para diferentes tipos de usuarios.</td>
+      <td valign="middle" style="text-align:justify; vertical-align:middle !important; padding:8px;"><strong>AV1:</strong> El equipo concluye que ArquiTech puede generar impactos positivos en diferentes dimensiones. En el contexto económico, puede contribuir a disminuir errores de inventario, duplicidad de compras y tiempo invertido en tareas administrativas. En el contexto social, puede mejorar la coordinación y transparencia entre supervisores, áreas administrativas y contratantes. Desde una perspectiva ambiental, la digitalización de registros y reportes puede reducir el uso de documentos físicos, aunque también deberá considerarse posteriormente el consumo de recursos tecnológicos asociado a la plataforma. En el contexto global, el equipo reconoce que una solución digital orientada al sector construcción debe considerar escalabilidad, protección de información, accesibilidad e internacionalización para poder adaptarse a distintos contextos y usuarios.</td>
+    </tr>
+  </tbody>
+</table>
 
 <div style="page-break-before: always;"></div>
 
@@ -260,29 +276,35 @@ ambientales y sociales._
 
 ### 1.1.1 Descripción de la Startup
 
+<div style="text-align: justify;">
+
 Foundex es una startup impulsada por jóvenes universitarios de la Universidad Peruana de Ciencias Aplicadas (UPC), orientada a facilitar la gestión eficiente de proyectos de construcción en pequeñas y medianas empresas constructoras, así como para el personal encargado de su administración. A través de ArquiTech, nuestra herramienta digital, los usuarios podrán gestionar solicitudes de servicios, monitorear el avance de las obras y controlar los gastos asociados a cada proyecto.
 
 La solución busca facilitar la administración y mejorar la transparencia de los procesos constructivos mediante la gestión de trabajadores, materiales, presupuestos y tiempos de ejecución, además del seguimiento en tiempo real del progreso de cada obra.
 
 En Foundex, consideramos que la digitalización de estos procesos es fundamental para agilizar la gestión de las obras, reducir los tiempos de ejecución, optimizar los recursos y facilitar la toma de decisiones informadas. Por ello, apostamos por la tecnología como una herramienta para transformar el sector de la construcción y permitir que las pequeñas y medianas empresas accedan a una gestión más organizada, eficiente y profesional.
 
-Misión: Brindar soluciones digitales innovadoras que permitan optimizar la gestión de proyectos de construcción en pequeñas y medianas empresas, facilitando la administración de recursos, el seguimiento de avances, el control de gastos y otros procesos relacionados, con el propósito de impulsar la eficiencia, la transparencia y la toma de decisiones estratégicas en el sector construcción.
+**Misión:** Brindar soluciones digitales innovadoras que permitan optimizar la gestión de proyectos de construcción en pequeñas y medianas empresas, facilitando la administración de recursos, el seguimiento de avances, el control de gastos y otros procesos relacionados, con el propósito de impulsar la eficiencia, la transparencia y la toma de decisiones estratégicas en el sector construcción.
 
-Visión: Ser la plataforma líder en Latinoamérica en la digitalización de procesos constructivos para pequeñas y medianas empresas, transformando la manera en que se gestionan las obras mediante una tecnología accesible, eficaz y enfocada en las necesidades de nuestros usuarios.
+**Visión:** Ser la plataforma líder en Latinoamérica en la digitalización de procesos constructivos para pequeñas y medianas empresas, transformando la manera en que se gestionan las obras mediante una tecnología accesible, eficaz y enfocada en las necesidades de nuestros usuarios.
+
+</div>
 
 ### 1.1.2. Perfiles de integrantes del equipo
 
 | Foto | Integrante |
-| :---: | :--- |
-| <img src="" width="120" alt="Alumno"> | Alumno — Código de Estudiante: . Blablabla |
-| <img src="" width="120" alt="Alumno">| Alumno — Código de Estudiante: .   |
-| <img src="" width="120" alt="Alumno"> | Alumno — Código de Estudiante: . Blablabla |
-| <img src="" width="120" alt="Alumno"> | Alumno — Código de Estudiante: . Blablabla |
-| <img src="" width="120" alt="Alumno"> | Alumno — Código de Estudiante: . Blablabla |
+| ----- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <img src="assets/team/Eduardo-Chacaliaza.png" width="220" style="width:220px; min-width:220px; height:auto;" alt="Eduardo Chacaliaza"> | <div style="text-align: justify;"><strong>Chacaliaza Minaya, Eduardo Fabian - U202324129</strong><br>Estudiante de Ingeniería de Software, interesado en el desarrollo de aplicaciones y soluciones tecnológicas orientadas a resolver necesidades reales de los usuarios. Me caracterizo por tener un enfoque analítico, capacidad para adaptarme a nuevos entornos y disposición para aprender nuevas tecnologías y herramientas de desarrollo. En este proyecto, busco contribuir en el análisis, diseño y definición de soluciones que mejoren la experiencia de los usuarios.</div> |
+| <img src="assets/team/Victor-Espino.png" width="220" style="width:220px; min-width:220px; height:auto;" alt="Victor Espino"> | <div style="text-align: justify;"><strong>Espino Rossi, Victor Manuel - U202411567</strong><br>Estudiante de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas, con interés en el desarrollo de aplicaciones, diseño de soluciones digitales y nuevas tecnologías. Me encuentro en constante aprendizaje y busco fortalecer mis conocimientos técnicos y habilidades de trabajo colaborativo. En este proyecto, aporto en la elaboración de artefactos de experiencia de usuario, prototipado y desarrollo de la solución.</div> |
+| <img src="assets/team/Braden-Garcia.png" width="220" style="width:220px; min-width:220px; height:auto;" alt="Braden Garcia"> | <div style="text-align: justify;"><strong>Garcia Cerpa, Braden Raid - U202415618</strong><br>Estudiante de Ingeniería de Software con interés en el desarrollo de soluciones tecnológicas orientadas a resolver problemas reales. Me caracterizo por mantener una actitud responsable, organizada y colaborativa durante el desarrollo de proyectos. Asimismo, busco fortalecer mis conocimientos en diseño de software, experiencia de usuario y desarrollo de aplicaciones, aportando ideas que contribuyan a obtener soluciones funcionales y de calidad.</div> |
+| <img src="assets/team/Mariel-Mendoza.jpeg" width="220" style="width:220px; min-width:220px; height:auto;" alt="Mariel Mendoza"> | <div style="text-align: justify;"><strong>Mendoza Moreano, Mariel Lucero - U20231A418</strong><br>Estudiante de Ingeniería de Software con interés en el análisis de problemas, diseño de soluciones centradas en el usuario y arquitectura de software. Me caracterizo por mantener una actitud responsable, organizada y orientada al aprendizaje continuo. En este proyecto, busco aportar en la definición de las necesidades de los usuarios, el diseño de la solución y la estructuración de los principales componentes de ArquiTech.</div> |
+| <img src="assets/team/Fabricio-Quispe.png" width="220" style="width:220px; min-width:220px; height:auto;" alt="Fabricio Quispe"> | <div style="text-align: justify;"><strong>Quispe Barzola, Fabricio Fabian - U202320442</strong><br>Estudiante de Ingeniería de Software con interés en el desarrollo de aplicaciones y soluciones tecnológicas orientadas a resolver problemas reales. Me caracterizo por tener disposición para aprender nuevas herramientas y tecnologías, así como por mantener un enfoque responsable y organizado durante el desarrollo de proyectos. Asimismo, busco fortalecer mis conocimientos en programación, diseño de software y buenas prácticas de desarrollo, contribuyendo activamente en el trabajo en equipo y en la elaboración de soluciones funcionales, eficientes y de calidad.</div> |
 
 ## 1.2. Solution Profile
 
 ### 1.2.1. Antecedentes y problemática
+
+<div style="text-align: justify;">
 
 En el contexto actual del sector construcción en Lima Metropolitana, muchas pequeñas y medianas empresas enfrentan dificultades al momento de administrar sus proyectos de forma eficiente. La mayoría de estos procesos, como la gestión de materiales, personal, presupuestos y avances de obra, aún se realizan de manera manual o a través de herramientas poco integradas, como hojas de cálculo, notas físicas o mensajería informal, lo que genera desorganización, pérdida de información y errores costosos.
 
@@ -319,6 +341,8 @@ Se manifiesta mediante la falta de control en el inventario, errores en la asist
 La gravedad del problema radica en que una gestión deficiente de los recursos puede generar consecuencias económicas y operativas para las empresas constructoras. Según Michue Francia (2025), las deficiencias y la falta de control sobre los suministros y proveedores tienen un impacto directo en la ejecución de los proyectos, ocasionando retrasos en los plazos de entrega, incrementos imprevistos de los costos y no conformidades técnicas en la obra. Estas situaciones pueden traducirse en pérdidas económicas, compras innecesarias por un inadecuado control de materiales, menor productividad del personal y descontento de los clientes.
 
 Asimismo, las soluciones existentes en el mercado, como Procore o Buildertrend, ofrecen funcionalidades para la gestión de proyectos de construcción, pero sus costos pueden representar una barrera de acceso para determinadas pequeñas y medianas empresas. Esto evidencia una oportunidad para desarrollar una solución digital accesible y adaptada a las necesidades de este segmento.
+
+</div>
 
 ### 1.2.2. Lean UX Process
 
@@ -645,13 +669,219 @@ Finalmente, en **What's the least amount of work we need to do to learn the next
 
 ## 1.3. Segmentos objetivo
 
+<div style="text-align: justify;">
+
+Para garantizar que nuestra solución tecnológica responda de manera efectiva a las necesidades presentes en la gestión de proyectos de construcción, se han identificado dos segmentos clave que participan directamente en el desarrollo, supervisión y seguimiento de las obras.
+
+A continuación, se describen los perfiles estratégicos asociados al dominio del problema de ArquiTech, considerando sus características demográficas, geográficas y psicográficas, así como los principales problemas, intereses y necesidades vinculados con la gestión de proyectos de construcción.
+
+### Segmento objetivo #1: Supervisores de obra
+
+Este segmento está conformado por los profesionales o responsables encargados de supervisar y coordinar las actividades realizadas durante la ejecución de una obra. Entre sus principales responsabilidades se encuentran el control del personal, el registro de asistencia de los trabajadores, la gestión de materiales, el seguimiento del avance de la construcción y la comunicación con las áreas administrativas.
+
+**Aspectos demográficos:**
+
+- **Sexo:** Masculino y femenino.
+- **Rango de edad:** 28 años a más.
+- **Nivel socioeconómico:** Principalmente clase media.
+- **Ocupación:** Supervisores de obra, residentes de obra, jefes de obra, asistentes de obra y profesionales relacionados con la supervisión y gestión de proyectos de construcción.
+
+**Aspectos geográficos:**
+
+- **Nacionalidad:** Peruana.
+- **Zona geográfica:** Principalmente zonas urbanas de Lima Metropolitana y otros sectores con presencia de proyectos de construcción.
+
+**Aspectos psicográficos:**
+
+- **Dolor principal:** Dificultad para mantener actualizada y centralizada la información relacionada con la asistencia del personal, el inventario de materiales y el avance de la obra, debido al uso de diferentes medios como registros físicos, hojas de cálculo, documentos y aplicaciones de mensajería.
+
+- **Intereses:** Mejorar el control de las actividades realizadas en obra, reducir errores en el registro de información, optimizar el uso de materiales y facilitar la comunicación entre el personal de campo y las áreas administrativas.
+
+- **Actitudes:** Buscan soluciones prácticas, ágiles y fáciles de utilizar que puedan incorporarse a sus actividades diarias sin requerir conocimientos técnicos avanzados.
+
+- **Necesidades clave:** Contar con información centralizada sobre trabajadores, materiales y avances de obra, generar reportes de manera más eficiente y disponer de alertas que permitan identificar oportunamente ausencias de trabajadores o problemas relacionados con el abastecimiento de materiales.
+
+### Segmento objetivo #2: Contratantes de empresas privadas
+
+Este segmento está conformado por personas, empresarios, administradores, propietarios de inmuebles o representantes de organizaciones privadas que contratan empresas constructoras para desarrollar proyectos como locales comerciales, oficinas, viviendas, remodelaciones u otras obras de infraestructura.
+
+Los integrantes de este segmento necesitan conocer el estado de los proyectos contratados y verificar que la empresa constructora cumpla con los plazos, recursos y condiciones establecidas durante la ejecución de la obra.
+
+**Aspectos demográficos:**
+
+- **Sexo:** Masculino y femenino.
+- **Rango de edad:** 30 años a más.
+- **Nivel socioeconómico:** Principalmente clase media y media-alta.
+- **Ocupación:** Empresarios, administradores, propietarios de inmuebles, representantes de empresas privadas o responsables de la contratación y seguimiento de proyectos de construcción.
+
+**Aspectos geográficos:**
+
+- **Nacionalidad:** Peruana.
+- **Zona geográfica:** Principalmente zonas urbanas de Lima Metropolitana y otros sectores donde se desarrollan proyectos privados de construcción.
+
+**Aspectos psicográficos:**
+
+- **Dolor principal:** Dificultad para obtener visibilidad constante y actualizada sobre el avance real de la obra, especialmente cuando la información se encuentra fragmentada o depende de reportes proporcionados posteriormente por la empresa constructora.
+
+- **Intereses:** Cumplimiento de los plazos establecidos, transparencia en el uso de materiales y recursos, seguimiento del avance del proyecto y reducción de riesgos económicos asociados a retrasos o errores.
+
+- **Actitudes:** Valoran la transparencia, la información clara y actualizada, y las herramientas que les permitan realizar seguimiento de sus proyectos sin depender constantemente de solicitudes de información a la constructora.
+
+- **Necesidades clave:** Visualizar el progreso de la obra, consultar información relacionada con materiales y personal, verificar el cumplimiento de los plazos establecidos y disponer de reportes comprensibles que faciliten la toma de decisiones.
+
+</div>
+
 # Capítulo II: Requirements Elicitation & Analysis
 
 ## 2.1. Competidores
 
 ### 2.1.1. Análisis competitivo
+Para poder conocer y analizar mejor a nuestros posibles competidores, realizamos el siguiente Landscape:
+
+<table style="background-color:transparent; border-collapse:collapse; width:100%; table-layout:fixed; font-family:Arial,sans-serif; font-size:12px; line-height:16px; color:inherit; border:1px solid currentColor;">
+  <colgroup>
+    <col style="width:12%;">
+    <col style="width:10%;">
+    <col style="width:10%;">
+    <col style="width:17%;">
+    <col style="width:17%;">
+    <col style="width:17%;">
+    <col style="width:17%;">
+  </colgroup>
+
+  <tr style="background-color:transparent; ">
+    <th colspan="7" style="background-color:transparent; color:inherit; border:1px solid currentColor; padding:0 7px; text-align:left; height:17px;">
+      Competitive Analysis Landscape
+    </th>
+  </tr>
+  <tr style="background-color:transparent; height:49px;">
+    <td colspan="2" style="background-color:transparent; color:inherit; border:1px solid currentColor; padding:0 7px; vertical-align:middle; text-align:center;">
+      ¿Por qué llevar a cabo este análisis?
+    </td>
+    <td colspan="5" style="background-color:transparent; color:inherit; border:1px solid currentColor; padding:0 7px; vertical-align:middle; text-align:justify;">Determinar las ventajas competitivas de ArquiTech frente a otras plataformas orientadas a la gestión de proyectos de construcción, con el objetivo de identificar oportunidades de diferenciación en la gestión de personal, materiales, avances y reportes. Este análisis permitirá reconocer las fortalezas y debilidades de nuestra propuesta y de los principales competidores, facilitando la definición de estrategias dirigidas a supervisores de obra y contratantes de empresas privadas.</td>
+  </tr>
+
+  <tr style="background-color:transparent; height:50px;">
+    <td colspan="3" style="background-color:transparent; color:inherit; border:1px solid currentColor; padding:0 7px; vertical-align:middle;">
+      &nbsp;
+    </td>
+    <td style="background-color:transparent; color:inherit; border:1px solid currentColor; padding:0 7px; vertical-align:middle; text-align:center;">ArquiTech<br><img src="assets/chapter-2/competitors/arquitech-logo.png" alt="Logo de ArquiTech" width="70" style="display:block; width:70px; max-width:100%; height:auto; margin:6px auto;"></td>
+    <td style="background-color:transparent; color:inherit; border:1px solid currentColor; padding:0 7px; vertical-align:middle; text-align:center;">Procore<br><img src="assets/chapter-2/competitors/procore-logo.png" alt="Logo de Procore" width="70" style="display:block; width:70px; max-width:100%; height:auto; margin:6px auto;"></td>
+    <td style="background-color:transparent; color:inherit; border:1px solid currentColor; padding:0 7px; vertical-align:middle; text-align:center;">Buildertrend<br><img src="assets/chapter-2/competitors/buildertrend-logo.png" alt="Logo de Buildertrend" width="70" style="display:block; width:70px; max-width:100%; height:auto; margin:6px auto;"></td>
+    <td style="background-color:transparent; color:inherit; border:1px solid currentColor; padding:0 7px; vertical-align:middle; text-align:center;">Buildwise<br><img src="assets/chapter-2/competitors/buildwise-logo.png" alt="Logo de Buildwise" width="70" style="display:block; width:70px; max-width:100%; height:auto; margin:6px auto;"></td>
+  </tr>
+
+  <tr style="background-color:transparent; height:65px;">
+    <td rowspan="2" style="background-color:transparent; color:inherit; border:1px solid currentColor; text-align:center; vertical-align:middle;">
+      <span>Perfil</span>
+    </td>
+    <td colspan="2" style="background-color:transparent; color:inherit; border:1px solid currentColor; padding:0 7px; vertical-align:middle; text-align:center;">Overview</td>
+    <td style="background-color:transparent; color:inherit; border:1px solid currentColor; padding:0 7px; vertical-align:middle; text-align:justify;">ArquiTech es una plataforma digital orientada a la gestión de proyectos de construcción. Permite centralizar información relacionada con asistencia del personal, inventario de materiales, avances de obra y reportes, facilitando la coordinación entre supervisores, áreas administrativas y contratantes.</td>
+    <td style="background-color:transparent; color:inherit; border:1px solid currentColor; padding:0 7px; vertical-align:middle; text-align:justify;">Procore es una plataforma integral para la gestión de proyectos de construcción que permite administrar procesos relacionados con proyectos, documentos, costos, recursos, calidad y seguridad.</td>
+    <td style="background-color:transparent; color:inherit; border:1px solid currentColor; padding:0 7px; vertical-align:middle; text-align:justify;">Buildertrend es una plataforma de gestión de construcción orientada principalmente a constructores de viviendas, remodeladores y contratistas. Integra herramientas relacionadas con planificación, presupuestos, clientes, pagos y seguimiento de proyectos.</td>
+    <td style="background-color:transparent; color:inherit; border:1px solid currentColor; padding:0 7px; vertical-align:middle; text-align:justify;">Buildwise es una plataforma orientada a la gestión de proyectos de construcción que facilita el seguimiento de presupuestos, costos, gastos, facturación y cambios producidos durante la ejecución de una obra.</td>
+  </tr>
+  <tr style="background-color:transparent; height:82px;">
+    <td colspan="2" style="background-color:transparent; color:inherit; border:1px solid currentColor; padding:0 7px; vertical-align:middle; text-align:center;">
+      Ventaja competitiva<br>¿Qué valor ofrece a los clientes?
+    </td>
+    <td style="background-color:transparent; color:inherit; border:1px solid currentColor; padding:0 7px; vertical-align:middle; text-align:justify;">Centraliza las principales actividades operativas de una obra en una solución sencilla y accesible. Busca reducir el uso de registros físicos y herramientas dispersas, facilitando la gestión cotidiana de pequeñas y medianas empresas constructoras.</td>
+    <td style="background-color:transparent; color:inherit; border:1px solid currentColor; padding:0 7px; vertical-align:middle; text-align:justify;">Plataforma robusta y escalable que integra múltiples procesos asociados a la construcción y permite gestionar proyectos de diferente complejidad desde una solución centralizada.</td>
+    <td style="background-color:transparent; color:inherit; border:1px solid currentColor; padding:0 7px; vertical-align:middle; text-align:justify;">Integra gestión de proyectos, clientes, presupuestos y operaciones dentro de una misma plataforma, con un enfoque especializado en construcción residencial y remodelaciones.</td>
+    <td style="background-color:transparent; color:inherit; border:1px solid currentColor; padding:0 7px; vertical-align:middle; text-align:justify;">Facilita el control financiero y administrativo de las obras mediante herramientas para seguimiento de costos, presupuestos, gastos y órdenes de cambio.</td>
+  </tr>
+
+  <tr style="background-color:transparent; height:66px;">
+    <td rowspan="2" style="background-color:transparent; color:inherit; border:1px solid currentColor; text-align:center; vertical-align:middle;">
+      <span>Perfil de Marketing</span>
+    </td>
+    <td colspan="2" style="background-color:transparent; color:inherit; border:1px solid currentColor; padding:0 7px; vertical-align:middle; text-align:center;">Mercado objetivo</td>
+    <td style="background-color:transparent; color:inherit; border:1px solid currentColor; padding:0 7px; vertical-align:middle; text-align:justify;">Supervisores de obra y contratantes de empresas privadas, principalmente vinculados con pequeñas y medianas empresas constructoras que necesitan mejorar el control y seguimiento de sus proyectos.</td>
+    <td style="background-color:transparent; color:inherit; border:1px solid currentColor; padding:0 7px; vertical-align:middle; text-align:justify;">Empresas constructoras, contratistas generales, gerentes de proyectos, desarrolladores inmobiliarios y organizaciones que gestionan proyectos de construcción.</td>
+    <td style="background-color:transparent; color:inherit; border:1px solid currentColor; padding:0 7px; vertical-align:middle; text-align:justify;">Constructores de viviendas, remodeladores, contratistas especializados y pequeñas y medianas empresas dedicadas principalmente a construcción residencial.</td>
+    <td style="background-color:transparent; color:inherit; border:1px solid currentColor; padding:0 7px; vertical-align:middle; text-align:justify;">Constructores, remodeladores y empresas que requieren herramientas digitales para gestionar presupuestos, costos y ejecución de proyectos.</td>
+  </tr>
+  <tr style="background-color:transparent; height:66px;">
+    <td colspan="2" style="background-color:transparent; color:inherit; border:1px solid currentColor; padding:0 7px; vertical-align:middle; text-align:center;">Estrategias de marketing</td>
+    <td style="background-color:transparent; color:inherit; border:1px solid currentColor; padding:0 7px; vertical-align:middle; text-align:justify;">Pruebas gratuitas, precios accesibles, demostraciones de la plataforma, contenido digital relacionado con la gestión eficiente de obras, presencia en redes sociales y atención personalizada a potenciales clientes.</td>
+    <td style="background-color:transparent; color:inherit; border:1px solid currentColor; padding:0 7px; vertical-align:middle; text-align:justify;">Marketing de contenidos, demostraciones empresariales, casos de éxito, participación en eventos del sector construcción y alianzas estratégicas con organizaciones relacionadas con la industria.</td>
+    <td style="background-color:transparent; color:inherit; border:1px solid currentColor; padding:0 7px; vertical-align:middle; text-align:justify;">Marketing digital, contenido educativo, recursos para empresas constructoras, demostraciones del producto, posicionamiento web y presencia en redes sociales.</td>
+    <td style="background-color:transparent; color:inherit; border:1px solid currentColor; padding:0 7px; vertical-align:middle; text-align:justify;">Marketing digital dirigido a constructores y remodeladores, demostraciones de funcionalidades y comunicación enfocada en la simplificación del control financiero de los proyectos.</td>
+  </tr>
+
+  <tr style="background-color:transparent; height:66px;">
+    <td rowspan="3" style="background-color:transparent; color:inherit; border:1px solid currentColor; text-align:center; vertical-align:middle;">
+      <span>Perfil de Producto</span>
+    </td>
+    <td colspan="2" style="background-color:transparent; color:inherit; border:1px solid currentColor; padding:0 7px; vertical-align:middle; text-align:center;">Productos &amp; Servicios</td>
+    <td style="background-color:transparent; color:inherit; border:1px solid currentColor; padding:0 7px; vertical-align:middle; text-align:justify;">Gestión de proyectos de construcción, registro de asistencia, gestión de personal, control de inventario y materiales, seguimiento del avance de obra, generación de reportes y alertas relacionadas con trabajadores o disponibilidad de materiales.</td>
+    <td style="background-color:transparent; color:inherit; border:1px solid currentColor; padding:0 7px; vertical-align:middle; text-align:justify;">Gestión de proyectos, administración financiera, documentos, planificación, calidad, seguridad, recursos y herramientas colaborativas para los participantes de una obra.</td>
+    <td style="background-color:transparent; color:inherit; border:1px solid currentColor; padding:0 7px; vertical-align:middle; text-align:justify;">Planificación de proyectos, presupuestos, gestión de clientes, facturación, pagos, órdenes de cambio, comunicación con clientes y generación de informes.</td>
+    <td style="background-color:transparent; color:inherit; border:1px solid currentColor; padding:0 7px; vertical-align:middle; text-align:justify;">Gestión de presupuestos, estimaciones, gastos, órdenes de cambio, facturación y seguimiento financiero de los proyectos de construcción.</td>
+  </tr>
+  <tr style="background-color:transparent; height:49px;">
+    <td colspan="2" style="background-color:transparent; color:inherit; border:1px solid currentColor; padding:0 7px; vertical-align:middle; text-align:center;">Precios &amp; Costos</td>
+    <td style="background-color:transparent; color:inherit; border:1px solid currentColor; padding:0 7px; vertical-align:middle; text-align:justify;">Modelo de suscripción orientado principalmente a pequeñas y medianas empresas constructoras, considerando un periodo de prueba que permita conocer las funcionalidades de la plataforma antes de contratar el servicio.</td>
+    <td style="background-color:transparent; color:inherit; border:1px solid currentColor; padding:0 7px; vertical-align:middle; text-align:justify;">Modelo de precios personalizado de acuerdo con las características de la empresa, el volumen de construcción y los productos o funcionalidades requeridos.</td>
+    <td style="background-color:transparent; color:inherit; border:1px solid currentColor; padding:0 7px; vertical-align:middle; text-align:justify;">Modelo de precios personalizado según las características, tamaño y necesidades particulares de cada empresa constructora.</td>
+    <td style="background-color:transparent; color:inherit; border:1px solid currentColor; padding:0 7px; vertical-align:middle; text-align:justify;">Modelo de costos asociado a las funcionalidades y necesidades de gestión de cada empresa o proyecto.</td>
+  </tr>
+  <tr style="background-color:transparent; height:66px;">
+    <td colspan="2" style="background-color:transparent; color:inherit; border:1px solid currentColor; padding:0 7px; vertical-align:middle; text-align:center;">
+      Canales de distribución<br>(Web y/o Móvil)
+    </td>
+    <td style="background-color:transparent; color:inherit; border:1px solid currentColor; padding:0 7px; vertical-align:middle; text-align:justify;">Landing Page, plataforma web y aplicación móvil orientada a supervisores, personal relacionado con la obra y contratantes responsables del seguimiento de los proyectos.</td>
+    <td style="background-color:transparent; color:inherit; border:1px solid currentColor; padding:0 7px; vertical-align:middle; text-align:justify;">Plataforma web, aplicación móvil, canales de venta empresarial e integraciones con plataformas y servicios externos.</td>
+    <td style="background-color:transparent; color:inherit; border:1px solid currentColor; padding:0 7px; vertical-align:middle; text-align:justify;">Plataforma web, aplicación móvil, canales digitales de venta y servicios de soporte y capacitación para sus clientes.</td>
+    <td style="background-color:transparent; color:inherit; border:1px solid currentColor; padding:0 7px; vertical-align:middle; text-align:justify;">Plataforma web para la administración y seguimiento de la información financiera y operativa de los proyectos.</td>
+  </tr>
+
+  <tr style="background-color:transparent; height:66px;">
+    <td rowspan="4" style="background-color:transparent; color:inherit; border:1px solid currentColor; text-align:center; vertical-align:middle;">
+      <span>Análisis SWOT</span>
+    </td>
+    <td colspan="2" style="background-color:transparent; color:inherit; border:1px solid currentColor; padding:0 7px; vertical-align:middle; text-align:center;">Fortalezas</td>
+    <td style="background-color:transparent; color:inherit; border:1px solid currentColor; padding:0 7px; vertical-align:middle; text-align:justify;">Enfoque en las necesidades de supervisores de obra; centralización de información; facilidad de uso; gestión de personal, materiales y avances desde una misma plataforma; orientación a pequeñas y medianas empresas constructoras.</td>
+    <td style="background-color:transparent; color:inherit; border:1px solid currentColor; padding:0 7px; vertical-align:middle; text-align:justify;">Marca consolidada; amplia variedad de funcionalidades; escalabilidad; capacidad de integración con otras soluciones y experiencia en proyectos de construcción de gran tamaño.</td>
+    <td style="background-color:transparent; color:inherit; border:1px solid currentColor; padding:0 7px; vertical-align:middle; text-align:justify;">Especialización en construcción residencial; integración de ventas y operaciones; variedad de herramientas de gestión y disponibilidad de recursos de capacitación.</td>
+    <td style="background-color:transparent; color:inherit; border:1px solid currentColor; padding:0 7px; vertical-align:middle; text-align:justify;">Enfoque en el control financiero de proyectos; administración de costos, presupuestos y gastos desde una solución centralizada.</td>
+  </tr>
+  <tr style="background-color:transparent; height:50px;">
+    <td colspan="2" style="background-color:transparent; color:inherit; border:1px solid currentColor; padding:0 7px; vertical-align:middle; text-align:center;">Debilidades</td>
+    <td style="background-color:transparent; color:inherit; border:1px solid currentColor; padding:0 7px; vertical-align:middle; text-align:justify;">Producto en etapa inicial; menor reconocimiento de marca; necesidad de incrementar la validación con usuarios reales y recursos más limitados en comparación con competidores internacionales consolidados.</td>
+    <td style="background-color:transparent; color:inherit; border:1px solid currentColor; padding:0 7px; vertical-align:middle; text-align:justify;">La amplitud de funcionalidades y complejidad de la plataforma puede resultar excesiva para pequeñas empresas que únicamente necesitan herramientas básicas para gestionar sus obras.</td>
+    <td style="background-color:transparent; color:inherit; border:1px solid currentColor; padding:0 7px; vertical-align:middle; text-align:justify;">Puede presentar una curva de aprendizaje inicial y disponer de funcionalidades que no sean necesarias para empresas constructoras pequeñas.</td>
+    <td style="background-color:transparent; color:inherit; border:1px solid currentColor; padding:0 7px; vertical-align:middle; text-align:justify;">Menor amplitud funcional en comparación con plataformas integrales y menor reconocimiento internacional frente a soluciones consolidadas.</td>
+  </tr>
+  <tr style="background-color:transparent; height:49px;">
+    <td colspan="2" style="background-color:transparent; color:inherit; border:1px solid currentColor; padding:0 7px; vertical-align:middle; text-align:center;">Oportunidades</td>
+    <td style="background-color:transparent; color:inherit; border:1px solid currentColor; padding:0 7px; vertical-align:middle; text-align:justify;">Crecimiento de la digitalización del sector construcción; necesidad de reemplazar procesos manuales; aumento del uso de dispositivos móviles y oportunidad de atender pequeñas y medianas empresas que buscan herramientas sencillas y accesibles.</td>
+    <td style="background-color:transparent; color:inherit; border:1px solid currentColor; padding:0 7px; vertical-align:middle; text-align:justify;">Expansión hacia nuevos mercados, incorporación de nuevas tecnologías y desarrollo de integraciones adicionales con servicios relacionados con la gestión de construcción.</td>
+    <td style="background-color:transparent; color:inherit; border:1px solid currentColor; padding:0 7px; vertical-align:middle; text-align:justify;">Crecimiento del mercado de construcción residencial, remodelaciones y aumento de la adopción de herramientas digitales por parte de contratistas y empresas constructoras.</td>
+    <td style="background-color:transparent; color:inherit; border:1px solid currentColor; padding:0 7px; vertical-align:middle; text-align:justify;">Incremento de la digitalización financiera y administrativa de pequeñas y medianas empresas relacionadas con el sector construcción.</td>
+  </tr>
+  <tr style="background-color:transparent; height:49px;">
+    <td colspan="2" style="background-color:transparent; color:inherit; border:1px solid currentColor; padding:0 7px; vertical-align:middle; text-align:center;">Amenazas</td>
+    <td style="background-color:transparent; color:inherit; border:1px solid currentColor; padding:0 7px; vertical-align:middle; text-align:justify;">Entrada de competidores internacionales con mayores recursos; resistencia al cambio de empresas acostumbradas a procesos manuales y aparición de nuevas soluciones digitales de gestión de construcción.</td>
+    <td style="background-color:transparent; color:inherit; border:1px solid currentColor; padding:0 7px; vertical-align:middle; text-align:justify;">Aparición de plataformas especializadas con menores costos y evolución constante de nuevas tecnologías aplicadas al sector construcción.</td>
+    <td style="background-color:transparent; color:inherit; border:1px solid currentColor; padding:0 7px; vertical-align:middle; text-align:justify;">Entrada de nuevos competidores con soluciones más económicas y funcionalidades especializadas para pequeñas empresas y contratistas.</td>
+    <td style="background-color:transparent; color:inherit; border:1px solid currentColor; padding:0 7px; vertical-align:middle; text-align:justify;">Competencia de plataformas integrales, herramientas financieras especializadas y nuevas soluciones digitales de menor costo.</td>
+  </tr>
+</table>
 
 ### 2.1.2. Estrategias y tácticas frente a competidores
+
+ArquiTech se diferenciará de competidores como Procore, Buildertrend y Buildwise mediante una propuesta enfocada en las necesidades operativas de pequeñas y medianas empresas constructoras. Frente a la amplia variedad de funcionalidades, escalabilidad y posicionamiento que poseen estas plataformas, nuestra estrategia será priorizar una solución más sencilla y especializada en actividades frecuentes de obra, como la gestión de personal, control de asistencia, inventario de materiales, seguimiento de avances y generación de reportes.
+
+Para aprovechar las debilidades identificadas en soluciones de mayor alcance, ArquiTech aplicará una estrategia de adopción simplificada. La plataforma contará con una interfaz intuitiva, recursos de capacitación breves y un periodo de prueba que permita conocer sus principales funcionalidades antes de contratar el servicio. De esta manera, se busca reducir la resistencia al cambio de empresas que todavía administran parte de sus operaciones mediante registros físicos, hojas de cálculo, documentos y aplicaciones de mensajería.
+
+Asimismo, ArquiTech aprovechará la oportunidad generada por la creciente digitalización del sector construcción mediante funcionalidades orientadas a problemas cotidianos de la obra. Entre ellas se consideran alertas relacionadas con la disponibilidad de materiales, registro y seguimiento de asistencia, actualización del progreso de los proyectos y centralización de información. Esta especialización permitirá brindar mayor utilidad a los supervisores de obra y, al mismo tiempo, ofrecer a los contratantes una mayor visibilidad sobre el estado de los proyectos.
+
+Como táctica comercial, se ofrecerán planes escalables de acuerdo con las necesidades de cada empresa, considerando factores como la cantidad de obras activas, usuarios y funcionalidades requeridas. Esto permitirá que pequeñas y medianas empresas comiencen utilizando las funciones necesarias para su operación y amplíen posteriormente el servicio conforme aumenten sus proyectos, evitando contratar desde el inicio una solución sobredimensionada.
+
+Para afrontar la amenaza representada por plataformas internacionales con mayor reconocimiento y recursos, ArquiTech buscará diferenciarse mediante una atención más cercana y adaptada al contexto de sus segmentos objetivo. Se brindará soporte mediante canales digitales, demostraciones de la plataforma y contenido educativo relacionado con la digitalización y gestión de obras. Para los supervisores de obra, la comunicación se enfocará en la centralización del personal, materiales y avances; mientras que para los contratantes de empresas privadas se destacará la transparencia, el seguimiento de los proyectos y el acceso a información actualizada.
+
+Finalmente, ArquiTech mantendrá un proceso de mejora continua basado en las necesidades identificadas en sus usuarios y en los cambios del sector construcción. Esto permitirá incorporar progresivamente nuevas funcionalidades sin perder el enfoque en facilidad de uso, accesibilidad y gestión centralizada, buscando construir una ventaja competitiva sostenible frente a soluciones de mayor complejidad.
 
 ## 2.2. Entrevistas
 
@@ -1432,6 +1662,66 @@ Las características correspondientes a personalidad, habilidades y marcas o ref
 
 ## 3.1. To-Be Scenario Mapping
 
+<ins>**To-Be Scenario Mapping del segmento #1: Supervisores de obra**</ins>  
+
+**Figura 36**   
+*To-Be Scenario Mapping del segmento #1*
+<p align="center">
+  <img src="assets/To-be/OS_To-be_S1.jpg" alt="PB" width="1000">
+</p>
+
+
+**Figura 37**   
+*Áreas positivas del To-Be Scenario Mapping para segmento #1*
+<p align="center">
+  <img src="assets/To-be/OS_To-be_S1_AP.jpg" alt="PB" width="1000">
+</p>
+
+
+**Figura 38**   
+*Áreas negativas del To-Be Scenario Mapping para segmento #1*
+<p align="center">
+  <img src="assets/To-be/OS_To-be_S1_AN.jpg" alt="PB" width="1000">
+</p>
+
+
+**Figura 39**   
+*Blank areas del To-Be Scenario Mapping para segmento #1*
+<p align="center">
+  <img src="assets/To-be/OS_To-be_S1_BA.jpg" alt="PB" width="1000">
+</p>
+  
+
+<ins>**To-Be Scenario Mapping para Segmento #2: Contratantes de Empresas Privadas**</ins>
+
+**Figura 40**   
+*To-Be Scenario Mapping para segmento #2*  
+<p align="center">
+  <img src="assets/To-be/OS_To-be_S2.jpg" alt="PB" width="1000">
+</p>
+
+
+**Figura 41**   
+*Áreas positivas del To-Be Scenario Mapping para segmento #2*
+<p align="center">
+  <img src="assets/To-be/OS_To-be_S2_AP.jpg" alt="PB" width="1000">
+</p>
+  
+
+**Figura 42**   
+*Áreas negativas del To-Be Scenario Mapping para segmento #2*
+<p align="center">
+  <img src="assets/To-be/OS_To-be_S2_AN.jpg" alt="PB" width="1000">
+</p>
+ 
+
+**Figura 43**   
+*Blank areas del To-Be Scenario Mapping para segmento #2*
+<p align="center">
+  <img src="assets/To-be/OS_To-be_S2_BA.jpg" alt="PB" width="1000">
+</p>
+
+
 ## 3.2. User Stories
 
 En esta sección se presentan los Epics, User Stories, Technical Stories y Spike Stories definidos para ArquiTech. Las historias funcionales representan las necesidades de los principales segmentos de usuario del producto digital: supervisores de obra, contratantes y visitantes de la Landing Page. Las Technical Stories representan capacidades técnicas necesarias para soportar dichas funcionalidades y utilizan el rol `Developer`. Finalmente, las Spike Stories representan actividades de investigación, análisis o validación técnica necesarias para reducir incertidumbre antes de realizar modificaciones o extensiones sobre el producto.
@@ -1547,33 +1837,418 @@ Esta estructura permite mantener trazabilidad entre el producto ya desarrollado 
 
 ## 4.1. Style Guidelines
 
+Esta sección ofrece la estructura que va contener nuestro diseño y los elementos visuales de nuestra aplicación llamada Arquitech. Se  presentarán recursos como tipografías del logo y del texto, las paletas de colores que se van a usar en nuestra aplicación y nuestro logo. Todo aquello con el propósito de garantizar una imagen visual coherente y que coincida con el objetivo principal de nuestra startup, que es la de brindar soluciones digitales innovadoras para optimizar la gestión de proyectos de construcción de pequeñas y medianas empresas. Esta sección se divide en General Style Guidelines, Web Style Guidelines y Mobile Style Guidelines y se mostrará la experiencia visual atractiva y accesible que les presentaremos a nuestros usuarios. Es necesario que el diseño sea coherente para facilitar la navegación y mejorar la experiencia del usuario, asegurando la funcionalidad, claridad y alineación con las características que representa Arquitech. 
+
 ### 4.1.1. General Style Guidelines
 
-### 4.1.2. Web Style Guidelines
+Se presentará el diseño conceptual para la landing page como para la aplicación, realizado con el objetivo de lograr una interfaz intuitiva, fácil de usar y mostrar una experiencia estética agradable y cómoda. Se usarán 5 colores, los cuales son el Jet, Sinopia, Fulvous, Selective Yellow y Isabelline. Algunos de estos colores serán usados para el logotipo y para la landing page y la aplicación se alternará entre los 5 colores. Estos colores reflejan nuestra intención de crear un entorno visual digital para mejorar procesos de construcción. A continuación, se detallarán los elementos visuales con mayor precisión.  
 
+<ins> **Branding e ícono:** </ins>  
+
+**Figura 46**   
+*Logo*  
+<p align="center">
+  <img src="assets/Style-Guidelines/A-logo.png" alt="PB" width="1000">
+</p>
+
+ 
+* Identidad:
+
+	Arquitech representa una fusión entre la construcción tradicional y la innovación tecnológica. La marca proyecta solidez, precisión y modernidad, dirigida a supervisores de obras y contratantes de pequeñas o medianas empresas privadas que valoran la optimización de procesos de las construcciones.
+
+* Paleta de Colores:
+
+	* \#C43508 (Sinopia): Es un color intenso y cálido y transmite fuerza y energía. También refleja estabilidad ya que representa solidez y firmeza.  
+	* \#DE7F1A (Fulvous): Transmite profundidad, energía y dinamismo.  
+	* \#FFB627 (Selective yellow): Aporta energía, innovación y enfoque en soluciones.  
+	* \#F8F5F1 (Isabelline): Sirve para usarlo como fondo ya que aporta neutralidad, elegancia y contraste.  
+	* \#2F2E2D (Jet): Representa seriedad, profesionalismo y sobriedad.
+
+* Simbolismo:
+
+	* Casco de construcción: Evidencia seguridad, ingeniería y trabajo profesional..  
+	* Engranaje: Representa tecnología, precisión, procesos y avance constante.  
+	* El combinar ambos iconos refuerza la idea de una startup que construye con inteligencia y eficiencia e integra lo físico con lo digital para optimizar procesos de construcción. 
+
+* Mensaje de la marca:
+
+	* Optimización y eficiencia: Comunica simplicidad y que la startup busca mejorar los procesos constructivos desde la planificación hasta la ejecución, busca eliminar lo innecesario,  maximizar recursos y entregar soluciones inteligentes y funcionales.  
+	* Precisión y confiabilidad: El logo refleja solidez y confianza que Arquitech le brindará a sus clientes. Además, refleja seguridad, calidad y resultados duraderos.  
+	* Claridad visual y profesionalismo: Representa lo funcional, lo directo y profesional. También, refuerza la idea de una empresa seria, accesible y alineada con las necesidades de la industria actualmente.
+
+* Aplicación del branding:
+
+	* Sitios web (landing page) y app: Interfaz limpia con los colores corporativos, iconos vectoriales y navegación intuitiva.  
+	* Redes sociales y presentaciones digitales: Plantillas visualmente coherentes con el mensaje de la startup.  
+	* Identidad visual corporativa: Uso estratégico del logo y la paleta de colores en material gráfico de la startup como las tarjetas de presentación, presentaciones empresariales, o imagen de perfil en aplicaciones de chats para contactar clientes. 
+
+<ins> **Tipografía** </ins>  
+La tipografía de Arquitech cumple un importante rol en la expresión de la identidad de nuestra marca y brinda una sensación de claridad visual, calidez, acompañamiento para nuestros usuarios. Nuestra empresa eligió una fuente tipográfica que combina lo amigable y lo fluido, asegurando al usuario comodidad y nitidez en la landing page y en la aplicación.  
+
+* Tipografía del Logo y Títulos:  
+	El logo de Arquitech que se eligió comunica claridad con varios valores clave como el profesionalismo y técnica, por lo que se ha utilizado la tipografía Anton Regular que pertenece a la Anton Font Family. Esta tipografía transmite un aspecto fuerte y serio, lo cual es ideal para una empresa de construcción que busca mejorar los procesos de las obras. Además, las letras son altas y gruesas, lo que da buena visibilidad al nombre de la empresa en el logo y en los títulos. Cabe agregar, que tiene un aire moderno, pero sin dejar de ser profesional.
+ 
+**Figura 47**  
+*Tipografía de logo y títulos*
+<p align="center">
+  <img src="assets/Style-Guidelines/font-demo1.png" alt="PB" width="1000">
+</p>
+ 
+
+* Tipografía de Texto Regular:  
+	Para el texto de la landing page y la aplicación se ha elegido la tipografía Futura que pertenece a Futura Font Family con el objetivo de que el usuario pueda obtener una cómoda y agradable lectura al visitar nuestras plataformas digitales. Además, esta tipografía representa modernidad, minimalismo, profesionalismo y seriedad. Aquello ayuda a la marca a representar tecnicismo, precisión y avances.
+
+**Figura 48**  
+*Tipografía de texto regular*
+<p align="center">
+  <img src="assets/Style-Guidelines/futura-font.png" alt="PB" width="1000">
+</p>
+
+
+<ins> **Colores** </ins>  
+	Es importante elegir los colores para las plataformas digitales  adecuadamente, ya que así se asegura que la experiencia del usuario sea placentera y agradable. Por ello, nos aseguramos que la paleta de colores seleccionada de Arquitech refleje la esencia de la startup en la landing page y en nuestra aplicación.  
+
+**Figura 49**  
+*Paleta de colores de ArquiTech*
+<p align="center">
+  <img src="assets/Style-Guidelines/color-pallete.png" alt="PB" width="1000">
+</p>
+
+	       
+<ins>**Espaciado**</ins>
+
+* Interlineado: 140%-160% para que los textos sean legibles.  
+* Padding en botones: Mínimo 12px vertical x 24px horizontal para accesibilidad táctil a nuestros usuarios.  
+* Margen entre secciones: 34px-64px para mantener un aire visual a los usuarios.  
+* Grid base: Utilizar un grid de 8px para dar consistencia.
+
+Esto transmite un espaciado limpio y estructurado, ya que se aprecia un orden, claridad y refleja la misión de Arquitech  de optimizar procesos, pero en lo visual.   
+
+<ins>**Tono de Comunicación y Lenguaje Aplicado**</ins>  
+
+* El tono de Arquitech es profesional, preciso, eficiente, tecnológico y accesible y confiable, diseñado para generar confianza, demostrando experiencia en el rubro de la construcción sin recurrir a un lenguaje complicado o inaccesible para nuestros usuarios.  
+* Arquitech acompaña a los clientes desde el inicio hasta el final del proceso constructivo, comunicando con claridad cómo la innovación tecnológica y la eficiencia operativa pueden realizar la diferencia en cada obra.  
+* El lenguaje se mantiene preciso y funcional, priorizando la acción. Se evita el exceso de tecnicismos y apuesta por una forma de comunicar que cualquiera dentro del sector pueda entender con facilidad.   
+* El estilo comunicativo está alineado con los principios de Arquitech que es innovar, optimizar y liderar.	
+
+### 4.1.2. Web Style Guidelines
+En esta sección, para nuestra aplicación de Arquitech, se ha decidido colocar como fuente  SF Pro Display y Poppins. Consideramos que estas fuentes son atractivas e ideales para títulos, encabezados y contenido de texto en cada sección, ya que brinda un estilo claro, moderno y profesional. Además, se ha usado la fuente Inter Regular para los botones, ya que está específicamente diseñada para interfaces digitales. Inter Regular posee un diseño limpio y permite una lectura rápida y concisa, lo cual es vital para elementos interactivos como los botones.  
+Los colores que hemos usado para Arquitech, son los mismos anteriormente mencionados. Se ha usado aquellos colores alternándose en cada sección de contenido para ofrecer a nuestros usuarios una experiencia visual agradable y alineada. Se usó el color Isabelline (\#F8F5F1) para el fondo ya que transmite una sensación de calidez, limpieza y simplicidad, lo que permite que los elementos visuales  y los textos puedan destacar sin generar distracción. También, se usó el color Jet (\#2F2E2D) en los iconos de botones de agregar para que se pueda resaltar aquellas opciones con mayor facilidad. Para los botones de registrar o que tienen la finalidad de guardar información se le colocó el color Green Pigment (\#2BBA51), ya que es un color que se suele usar para elementos que necesitan llamar la atención, dinamismo y resalta visualmente sobre fondos claros como el nuestro que usamos el color Isabelline. 
+
+La interfaz de Arquitech debe ser responsiva y se debe adaptar a diversos tamaños de pantalla a través de un diseño flexible. Por esta razón es importante saber el tamaño de la pantalla que vamos a utilizar y ajustar aquello en otros dispositivos.  
+Medidas para Web Responsive:  
+Monitor pequeño: 1296x1781px
+
+**Figura 50**  
+<p align="center">
+  <img src="assets/Style-Guidelines/web-responsive.png" alt="PB" width="1000">
+</p>
+
+
+**Figura 51**  
+<p align="center">
+  <img src="assets/Style-Guidelines/web-responsive2.png" alt="PB" width="1000">
+</p>
+
+
+**Figura 52**  
+<p align="center">
+  <img src="assets/Style-Guidelines/web-responsive3.png" alt="PB" width="1000">
+</p>
+ 
 ### 4.1.3. Mobile Style Guidelines
+
+Esta sección define los lineamientos visuales y de interacción que deberá seguir la versión móvil de Arquitech, tanto en iOS como en Android. Dado que nuestros usuarios principales (supervisores de obra) suelen operar la aplicación directamente en campo, muchas veces con conectividad limitada, bajo luz solar directa o mientras usan guantes de trabajo, el diseño móvil prioriza elementos táctiles grandes, alto contraste y flujos simples de una sola mano. Se mantiene la identidad visual ya definida para Arquitech (paleta de colores, logotipo y tono de comunicación), adaptando la tipografía, el espaciado y los componentes de interfaz a las convenciones nativas de cada plataforma, con el objetivo de que la aplicación se sienta familiar y fluida para el usuario sin importar su sistema operativo.
+
+Se mantiene la misma paleta de colores de marca (Sinopia \#C43508, Fulvous \#DE7F1A, Selective Yellow \#FFB627, Isabelline \#F8F5F1 y Jet \#2F2E2D), así como el color Green Pigment (\#2BBA51) para acciones de confirmación y guardado, garantizando consistencia visual entre la web y las aplicaciones móviles.
+
 
 #### 4.1.3.1. iOS Mobile Style Guidelines
 
+La versión iOS de Arquitech sigue las recomendaciones de las Apple Human Interface Guidelines (HIG), priorizando la claridad, la jerarquía visual y el uso de componentes nativos del sistema.
+
+* Tipografía:  
+	Se utiliza San Francisco (SF Pro Text / SF Pro Display), la tipografía del sistema de iOS, con soporte de Dynamic Type para que el usuario pueda ajustar el tamaño del texto desde la configuración de su dispositivo sin romper el diseño.
+
+* Íconos:  
+	Se emplean SF Symbols para los íconos de navegación y acciones, asegurando consistencia con el resto del ecosistema iOS y compatibilidad automática con distintos pesos y tamaños de texto.
+
+* Áreas táctiles:  
+	Todo elemento interactivo (botones, íconos, celdas de lista) respeta un tamaño mínimo de 44x44 pt, conforme a los estándares de accesibilidad táctil de Apple.
+
+* Navegación:  
+	Se utiliza un Tab Bar inferior para las secciones principales (Inicio, Reportes, Materiales, Perfil) y una Navigation Bar superior con títulos grandes (Large Titles) para reforzar la jerarquía dentro de cada sección.
+
+* Modo claro y oscuro:  
+	La interfaz soporta Light Mode y Dark Mode de forma nativa, adaptando el color Isabelline (\#F8F5F1) como fondo en modo claro y el color Jet (\#2F2E2D) como fondo en modo oscuro, sin perder el contraste de los colores de marca.
+
+* Safe Areas y márgenes:  
+	Se respetan los Safe Area Insets definidos por iOS para evitar que el contenido quede oculto detrás del notch, la Dynamic Island o la barra de gestos inferior.
+
+* Gestos:  
+	Se habilitan gestos nativos como el swipe-back para retroceder entre pantallas y el pull-to-refresh para actualizar reportes y listados.
+
 #### 4.1.3.2. Android Mobile Style Guidelines
+
+La versión Android de Arquitech se basa en los lineamientos de Material Design 3 (Material You) de Google, adaptados a la paleta de colores de la marca.
+
+* Tipografía:  
+	Se utiliza Roboto como tipografía principal del sistema, siguiendo la escala tipográfica de Material Design para títulos, subtítulos y cuerpo de texto.
+
+* Sistema de color Material:  
+	Los colores de marca se mapean a los tokens del sistema Material (primary, secondary, surface, background), utilizando Sinopia (\#C43508) como color primario, Fulvous (\#DE7F1A) como color secundario e Isabelline (\#F8F5F1) como superficie base, manteniendo el contraste mínimo exigido por las pautas de accesibilidad de Material Design.
+
+* Áreas táctiles:  
+	Todo elemento interactivo respeta un tamaño mínimo de 48x48 dp, conforme a los estándares de accesibilidad táctil de Android.
+
+* Navegación:  
+	Se utiliza una Bottom Navigation Bar para las secciones principales de la aplicación y un Navigation Drawer lateral para opciones secundarias (configuración, ayuda, cierre de sesión).
+
+* Elevación y feedback visual:  
+	Los componentes utilizan sombras (elevation) para indicar jerarquía entre superficies, y se aplica el efecto ripple en botones e íconos para dar retroalimentación táctil inmediata al usuario.
+
+* Botón de acción flotante (FAB):  
+	Se utiliza un Floating Action Button con el color Green Pigment (\#2BBA51) para la acción principal de cada pantalla, como "Nuevo reporte" o "Registrar asistencia".
+
+* Íconos adaptativos:  
+	Se emplean adaptive icons para el ícono de la aplicación, asegurando que se vea correctamente en las distintas formas de ícono (círculo, cuadrado, squircle) según el fabricante del dispositivo Android.
+
+* Botón de retroceso del sistema:  
+	La navegación respeta el comportamiento nativo del botón de retroceso (back) del sistema operativo, tanto físico como gestual, para mantener la coherencia con el resto de aplicaciones Android.
 
 ## 4.2. Information Architecture
 
 ### 4.2.1. Organization Systems
 
+En la arquitectura de información de Arquitech, se aplican distintos sistemas de organización para estructurar el contenido de manera clara y funcional, adaptada al contexto de los usuarios del sector construcción.
+
+<ins> **Organización Visual del Contenido** </ins>
+
+1. Jerárquica (Visual Hierarchy):
+
+	Se aplica principalmente en la vista general del dashboard, donde la información más importante y urgente se muestra primero (como reportes recientes, alertas de bajo inventario y resumen de avances).
+Esta jerarquía ayuda a que el usuario enfoque su atención en lo prioritario al momento de ingresar.
+
+
+2. Secuencial (Step-by-Step):
+
+	Se utiliza en procesos como la generación de reportes diarios, donde se guía al usuario paso a paso:
+
+	* Selección de obra
+
+	* Registro de asistencia
+
+	* Registro de materiales utilizados
+
+	* Observaciones finales
+
+	* Adjuntar evidencias
+
+	Esto evita errores y facilita la curva de aprendizaje.
+
+
+3. Matricial:
+
+	Se emplea para la vista comparativa de reportes semanales, permitiendo ver columnas con distintas métricas (avance físico, asistencia, materiales) por cada día, en una tabla ordenada que el usuario puede leer horizontal y verticalmente.
+
+
+<ins> **Esquemas de Categorización del Contenido** </ins>
+
+1. Por tópicos:
+
+	Toda la plataforma está organizada por módulos funcionales:
+
+	* Gestión de personal
+
+	* Control de materiales
+
+	* Reportes
+
+	* Configuración de perfil
+ 
+	Esto facilita al usuario identificar rápidamente dónde realizar cada acción.
+
+2. Cronológico:
+
+	En los módulos de reportes y asistencia, los datos se organizan por fecha para reflejar la progresión temporal de la obra.
+
+3. Alfabético:
+
+	Utilizado en listas de trabajadores, maquinaria o materiales para facilitar la búsqueda rápida y ordenada.
+
+4. Por audiencia:
+
+	* Los contratantes solo pueden ver y recibir reportes.
+
+	* Los supervisores pueden generar y editar.
+
+	* Los administrativos tienen permisos de configuración y visualización más avanzada.  
+
+	Esto mejora la experiencia personalizada según el rol.
+
 ### 4.2.2. Labeling Systems
+
+En Arquitech, se ha diseñado un sistema de etiquetado simple y funcional para evitar la sobrecarga cognitiva y facilitar la comprensión inmediata de la interfaz.
+
+* Principios utilizados:
+
+	* Simplicidad y claridad:
+
+		Se prioriza el uso de palabras clave cortas y comunes en obra (ej. "Reporte diario", "Materiales", "Asistencia", "Obreros", "Avance", "Notificaciones").
+
+	* Evitar ambigüedad:
+
+		Se evita el uso de términos técnicos complejos o jerga poco conocida. Por ejemplo, se prefiere "Registro de materiales" en lugar de "Logística de recursos".
+
+	* Consistencia visual:
+
+		Las etiquetas mantienen estilo uniforme en botones, menús y formularios, para que el usuario no dude sobre el significado de cada elemento.
+
+	* Asociaciones entre etiquetas:
+
+		* “Reporte” siempre se relaciona con acciones como “Generar”, “Visualizar”, “Descargar”, “Compartir”.
+		* “Materiales” se relaciona con “Entrada”, “Salida”, “Inventario”.
+		* “Obreros” se relaciona con “Asistencia”, “Tareas”, “Evaluación”.
 
 ### 4.2.3. SEO Tags and Meta Tags
 
+Aquí mostraremos los Meta Tagas y los SEO tags que hemos usado para poder desarrollar el landing page con el objetivo de que sea agradable para los usuarios.
+
+	<!DOCTYPE html>
+
+	<html lang="es">
+
+	</head>
+
+	  <meta charset="UTF-8" />
+
+ 	 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+ 	 <title\> Foundex | Tecnología IoT para Restaurantes Inteligentes</title>
+
+	  <meta name="description" content="Foundex ofrece una solución completa de sensores IoT y plataforma web para monitorear alimentos, mejorar la eficiencia operativa y elevar la atención al cliente en restaurantes." />
+
+ 	 <meta name="keywords" content="Foundex, IoT para restaurantes, monitoreo de alimentos, sensores de temperatura, gestión de inventario, eficiencia operativa, tecnología gastronómica" />
+
+	  <meta name="author" content="Equipo Foundex" />
+
+	  <meta name="robots" content="index, follow" />
+
+	  <meta property="og:title" content="Foundex | Tecnología IoT para Restaurantes Inteligentes" />
+
+	  <meta property="og:description" content="Descubre cómo Foundex ayuda a los dueños y trabajadores de restaurantes a optimizar la conservación de alimentos con sensores IoT y una plataforma web de gestión." />
+
+	  <meta property="og:image" content="https://foundex.com/img/logo.png" />
+
+	  <meta property="og:url" content="https://foundex.com/" />
+
+	  <meta property="og:type" content="website" />
+
+	  <meta name="twitter:card" content="summary_large_image" />
+
+	  <meta name="twitter:title" content="Foundex | Tecnología IoT para Restaurantes Inteligentes" />
+
+	  <meta name="twitter:description" content="Optimiza tu restaurante con Foundex: tecnología IoT, sensores y plataforma web para un mejor control alimentario." />
+
+	  <meta name="twitter:image" content="https://foundex.com/img/logo.png" />
+
+	  <link rel="icon" href="img/logo.png" type="image/x-icon" />
+
+	  <link rel="stylesheet" href="style.css" />
+
+	</head>
+
+
 ### 4.2.4. Searching Systems
+
+Dentro de la plataforma ArquiTech, los sistemas de búsqueda han sido diseñados para facilitar el acceso rápido y eficiente a información crítica relacionada con la gestión de obras. La aplicación contempla un volumen significativo de datos relacionados con proyectos, documentos técnicos, solicitudes, trabajadores, insumos y cronogramas. Por ello, se proyecta la implementación de un sistema de búsqueda integral que ayude a los usuarios a evitar pérdidas de tiempo y a mantener el control operativo en todo momento.  
+
+El sistema permitirá a los usuarios buscar información dentro de los distintos módulos del sistema, utilizando:
+
+* Palabras clave (términos técnicos, nombres de obra, actividades específicas, materiales).  
+* Filtros por categoría (tipo de documento, fase del proyecto, tipo de solicitud, tipo de personal).  
+* Rangos de fechas (fecha de emisión, entrega, modificación o supervisión).  
+* Códigos internos asignados a solicitudes, órdenes de servicio, contratistas o áreas constructivas.
+
+Este sistema será particularmente útil para:
+
+* Ahorrar tiempo en la localización de documentos, reportes o actividades específicas, sin necesidad de navegar por múltiples módulos manualmente.  
+* Encontrar rápidamente registros relacionados con avances de obra, observaciones, solicitudes de materiales o incidencias.  
+* Apoyar la toma de decisiones sobre ejecución, control de calidad o cumplimiento de cronogramas mediante el acceso inmediato a la información registrada.
+
+Una vez realizada una búsqueda, los resultados se presentarán de forma estructurada en tablas o tarjetas, con opciones para visualizar, editar o exportar la información según los permisos del usuario.
+
+### ***4.2.5. Navigation Systems***
+
+Los sistemas de navegación implementados en el proyecto ArquiTech han sido diseñados para garantizar una experiencia intuitiva, fluida y orientada a la consecución de objetivos por parte del usuario. Considerando que el público objetivo está conformado principalmente por supervisores de obra, contratistas y personal administrativo de empresas constructoras, se ha priorizado una arquitectura de navegación clara, jerárquica y adaptada al flujo natural de las actividades constructivas.
+
+<ins>**En la Landing Page**</ins>  
+La navegación en la landing page tiene una estructura lineal con anclajes internos y botones de acción, facilitando la exploración informativa en orden lógico. Las acciones de navegación se guían mediante:
+
+* Un menú fijo en la parte superior con enlaces directos a secciones como: “¿Qué es ArquiTech?”, “Beneficios”, “Funcionalidades”, “Casos de uso” y “Contacto”.  
+* Botones con anclas que desplazan suavemente al usuario dentro de la misma página, sin recarga.  
+* Llamados a la acción (“Conoce la plataforma”, “Solicita una demo”) que direccionan al formulario de contacto o a secciones específicas de interés.
+
+Este diseño permite que los visitantes comprendan rápidamente el propósito de la solución y se dirijan con claridad hacia la acción deseada.  
 
 ### 4.2.5. Navigation Systems
 
 ## 4.3. Landing Page UI Design
 
+<div style="text-align: justify;">
+
+La propuesta de interfaz de usuario del Landing Page de ArquiTech fue desarrollada tomando como base las decisiones establecidas previamente en los lineamientos visuales y en la arquitectura de información. La organización del contenido busca comunicar de manera clara la propuesta de valor de la plataforma, presentar sus principales funcionalidades y facilitar la navegación de los usuarios.
+
+El diseño considera una estructura visual jerárquica, una distribución ordenada de la información y una navegación sencilla, permitiendo que los usuarios comprendan rápidamente qué es ArquiTech, qué beneficios ofrece y cuáles son las principales acciones disponibles dentro del Landing Page.
+
+Asimismo, se mantiene coherencia con la identidad visual definida para el producto mediante el uso consistente de tipografías, componentes, espaciados, elementos gráficos y criterios de diseño responsive, buscando ofrecer una experiencia clara tanto en dispositivos de escritorio como en dispositivos móviles.
+
+</div>
+
 ### 4.3.1. Landing Page Wireframe
 
+<div style="text-align: justify;">
+
+Los wireframes del Landing Page permiten representar la estructura inicial de la interfaz, priorizando la distribución de contenido, jerarquía visual, navegación y disposición de los principales elementos antes de incorporar los estilos visuales definitivos.
+
+Para el diseño se consideraron versiones adaptadas tanto para navegadores de escritorio como para dispositivos móviles, con el objetivo de mantener una experiencia consistente y facilitar el acceso a la información desde diferentes tamaños de pantalla.
+
+</div>
+
+**Wireframe - Desktop Web Browser**
+
+<p align="center">
+  <img src="../assets/chapter-4/landing-page-wireframe-desktop.png" width="850" alt="Landing Page Wireframe Desktop">
+</p>
+
+
+**Wireframe - Mobile Web Browser**
+
+<p align="center">
+  <img src="../assets/chapter-4/landing-page-wireframe-mobile.png" width="320" alt="Landing Page Wireframe Mobile">
+</p>
+
 ### 4.3.2. Landing Page Mock-up
+
+<div style="text-align: justify;">
+
+Los mock-ups representan la propuesta visual de mayor fidelidad del Landing Page de ArquiTech. En esta etapa se aplican los lineamientos definidos en el sistema visual del producto, incluyendo tipografías, componentes, imágenes, espaciados y demás elementos gráficos.
+
+El objetivo es presentar una interfaz moderna, clara y coherente con la identidad de ArquiTech, manteniendo una experiencia consistente tanto en la versión de escritorio como en la versión móvil.
+
+</div>
+
+**Mock-up - Desktop Web Browser**
+
+<p align="center">
+  <img src="../assets/chapter-4/landing-page-mockup-desktop.png" width="850" alt="Landing Page Mock-up Desktop">
+</p>
+
+**Mock-up - Mobile Web Browser**
+
+<p align="center">
+  <img src="../assets/chapter-4/landing-page-mockup-mobile.png" width="320" alt="Landing Page Mock-up Mobile">
+</p>
 
 ## 4.4. Mobile Applications UX/UI Design
 
@@ -1652,6 +2327,16 @@ Esta estructura permite mantener trazabilidad entre el producto ya desarrollado 
 ### 5.2.8. Team Collaboration Insights
 
 ## 5.3. Video About-the-Product
+
+En esta sección, presentamos el Video About the Product, diseñado para captar la atención de los visitantes de nuestro Landing Page y los usuarios de nuestras aplicaciones, ofreciendo una visión clara y atractiva del modelo de negocio y las características principales de nuestra solución de software, Arquitech. Este video tiene como objetivo principal comunicar cómo nuestra plataforma facilita procesos clave como la creación de usuarios de manera eficiente y segura. Dirigido tanto a potenciales clientes interesados en conocer las capacidades de nuestro producto como a usuarios que desean realizar tareas relacionadas con la gestión de usuarios, el video adopta un tono profesional, innovador y accesible, alineado con la identidad de nuestra plataforma. A través de una demostración dinámica de las funcionalidades, el video resalta la facilidad de uso y la integración con una base de datos. Además, incluye un testimonio positivo de un usuario participante en las entrevistas de validación, reforzando la credibilidad y el valor de nuestra solución. Este contenido busca inspirar confianza y motivar a los espectadores a explorar y adoptar nuestra plataforma para optimizar sus procesos.
+
+**Figura 117**  
+*Video About-the-product*  
+<p align="center">
+  <img src="assets/About-the-product/abouttheproduct.jpg" alt="PB" width="1000">
+</p> 
+
+[https://www.youtube.com/watch?v=k3Z0771Au1Y](https://www.youtube.com/watch?v=k3Z0771Au1Y)
 
 
 # Conclusiones
