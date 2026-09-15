@@ -1350,25 +1350,359 @@ Esta estructura permite mantener trazabilidad entre el producto ya desarrollado 
 
 ## 4.1. Style Guidelines
 
+Esta sección ofrece la estructura que va contener nuestro diseño y los elementos visuales de nuestra aplicación llamada Arquitech. Se  presentarán recursos como tipografías del logo y del texto, las paletas de colores que se van a usar en nuestra aplicación y nuestro logo. Todo aquello con el propósito de garantizar una imagen visual coherente y que coincida con el objetivo principal de nuestra startup, que es la de brindar soluciones digitales innovadoras para optimizar la gestión de proyectos de construcción de pequeñas y medianas empresas. Esta sección se divide en General Style Guidelines, Web Style Guidelines y Mobile Style Guidelines y se mostrará la experiencia visual atractiva y accesible que les presentaremos a nuestros usuarios. Es necesario que el diseño sea coherente para facilitar la navegación y mejorar la experiencia del usuario, asegurando la funcionalidad, claridad y alineación con las características que representa Arquitech. 
+
 ### 4.1.1. General Style Guidelines
 
-### 4.1.2. Web Style Guidelines
+Se presentará el diseño conceptual para la landing page como para la aplicación, realizado con el objetivo de lograr una interfaz intuitiva, fácil de usar y mostrar una experiencia estética agradable y cómoda. Se usarán 5 colores, los cuales son el Jet, Sinopia, Fulvous, Selective Yellow y Isabelline. Algunos de estos colores serán usados para el logotipo y para la landing page y la aplicación se alternará entre los 5 colores. Estos colores reflejan nuestra intención de crear un entorno visual digital para mejorar procesos de construcción. A continuación, se detallarán los elementos visuales con mayor precisión.  
 
+<ins> **Branding e ícono:** </ins>  
+
+**Figura 46**   
+*Logo*  
+<p align="center">
+  <img src="assets/Style-Guidelines/A-logo.png" alt="PB" width="1000">
+</p>
+
+ 
+* Identidad:
+
+	Arquitech representa una fusión entre la construcción tradicional y la innovación tecnológica. La marca proyecta solidez, precisión y modernidad, dirigida a supervisores de obras y contratantes de pequeñas o medianas empresas privadas que valoran la optimización de procesos de las construcciones.
+
+* Paleta de Colores:
+
+	* \#C43508 (Sinopia): Es un color intenso y cálido y transmite fuerza y energía. También refleja estabilidad ya que representa solidez y firmeza.  
+	* \#DE7F1A (Fulvous): Transmite profundidad, energía y dinamismo.  
+	* \#FFB627 (Selective yellow): Aporta energía, innovación y enfoque en soluciones.  
+	* \#F8F5F1 (Isabelline): Sirve para usarlo como fondo ya que aporta neutralidad, elegancia y contraste.  
+	* \#2F2E2D (Jet): Representa seriedad, profesionalismo y sobriedad.
+
+* Simbolismo:
+
+	* Casco de construcción: Evidencia seguridad, ingeniería y trabajo profesional..  
+	* Engranaje: Representa tecnología, precisión, procesos y avance constante.  
+	* El combinar ambos iconos refuerza la idea de una startup que construye con inteligencia y eficiencia e integra lo físico con lo digital para optimizar procesos de construcción. 
+
+* Mensaje de la marca:
+
+	* Optimización y eficiencia: Comunica simplicidad y que la startup busca mejorar los procesos constructivos desde la planificación hasta la ejecución, busca eliminar lo innecesario,  maximizar recursos y entregar soluciones inteligentes y funcionales.  
+	* Precisión y confiabilidad: El logo refleja solidez y confianza que Arquitech le brindará a sus clientes. Además, refleja seguridad, calidad y resultados duraderos.  
+	* Claridad visual y profesionalismo: Representa lo funcional, lo directo y profesional. También, refuerza la idea de una empresa seria, accesible y alineada con las necesidades de la industria actualmente.
+
+* Aplicación del branding:
+
+	* Sitios web (landing page) y app: Interfaz limpia con los colores corporativos, iconos vectoriales y navegación intuitiva.  
+	* Redes sociales y presentaciones digitales: Plantillas visualmente coherentes con el mensaje de la startup.  
+	* Identidad visual corporativa: Uso estratégico del logo y la paleta de colores en material gráfico de la startup como las tarjetas de presentación, presentaciones empresariales, o imagen de perfil en aplicaciones de chats para contactar clientes. 
+
+<ins> **Tipografía** </ins>  
+La tipografía de Arquitech cumple un importante rol en la expresión de la identidad de nuestra marca y brinda una sensación de claridad visual, calidez, acompañamiento para nuestros usuarios. Nuestra empresa eligió una fuente tipográfica que combina lo amigable y lo fluido, asegurando al usuario comodidad y nitidez en la landing page y en la aplicación.  
+
+* Tipografía del Logo y Títulos:  
+	El logo de Arquitech que se eligió comunica claridad con varios valores clave como el profesionalismo y técnica, por lo que se ha utilizado la tipografía Anton Regular que pertenece a la Anton Font Family. Esta tipografía transmite un aspecto fuerte y serio, lo cual es ideal para una empresa de construcción que busca mejorar los procesos de las obras. Además, las letras son altas y gruesas, lo que da buena visibilidad al nombre de la empresa en el logo y en los títulos. Cabe agregar, que tiene un aire moderno, pero sin dejar de ser profesional.
+ 
+**Figura 47**  
+*Tipografía de logo y títulos*
+<p align="center">
+  <img src="assets/Style-Guidelines/font-demo1.png" alt="PB" width="1000">
+</p>
+ 
+
+* Tipografía de Texto Regular:  
+	Para el texto de la landing page y la aplicación se ha elegido la tipografía Futura que pertenece a Futura Font Family con el objetivo de que el usuario pueda obtener una cómoda y agradable lectura al visitar nuestras plataformas digitales. Además, esta tipografía representa modernidad, minimalismo, profesionalismo y seriedad. Aquello ayuda a la marca a representar tecnicismo, precisión y avances.
+
+**Figura 48**  
+*Tipografía de texto regular*
+<p align="center">
+  <img src="assets/Style-Guidelines/futura-font.png" alt="PB" width="1000">
+</p>
+
+
+<ins> **Colores** </ins>  
+	Es importante elegir los colores para las plataformas digitales  adecuadamente, ya que así se asegura que la experiencia del usuario sea placentera y agradable. Por ello, nos aseguramos que la paleta de colores seleccionada de Arquitech refleje la esencia de la startup en la landing page y en nuestra aplicación.  
+
+**Figura 49**  
+*Paleta de colores de ArquiTech*
+<p align="center">
+  <img src="assets/Style-Guidelines/color-pallete.png" alt="PB" width="1000">
+</p>
+
+	       
+<ins>**Espaciado**</ins>
+
+* Interlineado: 140%-160% para que los textos sean legibles.  
+* Padding en botones: Mínimo 12px vertical x 24px horizontal para accesibilidad táctil a nuestros usuarios.  
+* Margen entre secciones: 34px-64px para mantener un aire visual a los usuarios.  
+* Grid base: Utilizar un grid de 8px para dar consistencia.
+
+Esto transmite un espaciado limpio y estructurado, ya que se aprecia un orden, claridad y refleja la misión de Arquitech  de optimizar procesos, pero en lo visual.   
+
+<ins>**Tono de Comunicación y Lenguaje Aplicado**</ins>  
+
+* El tono de Arquitech es profesional, preciso, eficiente, tecnológico y accesible y confiable, diseñado para generar confianza, demostrando experiencia en el rubro de la construcción sin recurrir a un lenguaje complicado o inaccesible para nuestros usuarios.  
+* Arquitech acompaña a los clientes desde el inicio hasta el final del proceso constructivo, comunicando con claridad cómo la innovación tecnológica y la eficiencia operativa pueden realizar la diferencia en cada obra.  
+* El lenguaje se mantiene preciso y funcional, priorizando la acción. Se evita el exceso de tecnicismos y apuesta por una forma de comunicar que cualquiera dentro del sector pueda entender con facilidad.   
+* El estilo comunicativo está alineado con los principios de Arquitech que es innovar, optimizar y liderar.	
+
+### 4.1.2. Web Style Guidelines
+En esta sección, para nuestra aplicación de Arquitech, se ha decidido colocar como fuente  SF Pro Display y Poppins. Consideramos que estas fuentes son atractivas e ideales para títulos, encabezados y contenido de texto en cada sección, ya que brinda un estilo claro, moderno y profesional. Además, se ha usado la fuente Inter Regular para los botones, ya que está específicamente diseñada para interfaces digitales. Inter Regular posee un diseño limpio y permite una lectura rápida y concisa, lo cual es vital para elementos interactivos como los botones.  
+Los colores que hemos usado para Arquitech, son los mismos anteriormente mencionados. Se ha usado aquellos colores alternándose en cada sección de contenido para ofrecer a nuestros usuarios una experiencia visual agradable y alineada. Se usó el color Isabelline (\#F8F5F1) para el fondo ya que transmite una sensación de calidez, limpieza y simplicidad, lo que permite que los elementos visuales  y los textos puedan destacar sin generar distracción. También, se usó el color Jet (\#2F2E2D) en los iconos de botones de agregar para que se pueda resaltar aquellas opciones con mayor facilidad. Para los botones de registrar o que tienen la finalidad de guardar información se le colocó el color Green Pigment (\#2BBA51), ya que es un color que se suele usar para elementos que necesitan llamar la atención, dinamismo y resalta visualmente sobre fondos claros como el nuestro que usamos el color Isabelline. 
+
+La interfaz de Arquitech debe ser responsiva y se debe adaptar a diversos tamaños de pantalla a través de un diseño flexible. Por esta razón es importante saber el tamaño de la pantalla que vamos a utilizar y ajustar aquello en otros dispositivos.  
+Medidas para Web Responsive:  
+Monitor pequeño: 1296x1781px
+
+**Figura 50**  
+<p align="center">
+  <img src="assets/Style-Guidelines/web-responsive.png" alt="PB" width="1000">
+</p>
+
+
+**Figura 51**  
+<p align="center">
+  <img src="assets/Style-Guidelines/web-responsive2.png" alt="PB" width="1000">
+</p>
+
+
+**Figura 52**  
+<p align="center">
+  <img src="assets/Style-Guidelines/web-responsive3.png" alt="PB" width="1000">
+</p>
+ 
 ### 4.1.3. Mobile Style Guidelines
+
+Esta sección define los lineamientos visuales y de interacción que deberá seguir la versión móvil de Arquitech, tanto en iOS como en Android. Dado que nuestros usuarios principales (supervisores de obra) suelen operar la aplicación directamente en campo, muchas veces con conectividad limitada, bajo luz solar directa o mientras usan guantes de trabajo, el diseño móvil prioriza elementos táctiles grandes, alto contraste y flujos simples de una sola mano. Se mantiene la identidad visual ya definida para Arquitech (paleta de colores, logotipo y tono de comunicación), adaptando la tipografía, el espaciado y los componentes de interfaz a las convenciones nativas de cada plataforma, con el objetivo de que la aplicación se sienta familiar y fluida para el usuario sin importar su sistema operativo.
+
+Se mantiene la misma paleta de colores de marca (Sinopia \#C43508, Fulvous \#DE7F1A, Selective Yellow \#FFB627, Isabelline \#F8F5F1 y Jet \#2F2E2D), así como el color Green Pigment (\#2BBA51) para acciones de confirmación y guardado, garantizando consistencia visual entre la web y las aplicaciones móviles.
+
 
 #### 4.1.3.1. iOS Mobile Style Guidelines
 
+La versión iOS de Arquitech sigue las recomendaciones de las Apple Human Interface Guidelines (HIG), priorizando la claridad, la jerarquía visual y el uso de componentes nativos del sistema.
+
+* Tipografía:  
+	Se utiliza San Francisco (SF Pro Text / SF Pro Display), la tipografía del sistema de iOS, con soporte de Dynamic Type para que el usuario pueda ajustar el tamaño del texto desde la configuración de su dispositivo sin romper el diseño.
+
+* Íconos:  
+	Se emplean SF Symbols para los íconos de navegación y acciones, asegurando consistencia con el resto del ecosistema iOS y compatibilidad automática con distintos pesos y tamaños de texto.
+
+* Áreas táctiles:  
+	Todo elemento interactivo (botones, íconos, celdas de lista) respeta un tamaño mínimo de 44x44 pt, conforme a los estándares de accesibilidad táctil de Apple.
+
+* Navegación:  
+	Se utiliza un Tab Bar inferior para las secciones principales (Inicio, Reportes, Materiales, Perfil) y una Navigation Bar superior con títulos grandes (Large Titles) para reforzar la jerarquía dentro de cada sección.
+
+* Modo claro y oscuro:  
+	La interfaz soporta Light Mode y Dark Mode de forma nativa, adaptando el color Isabelline (\#F8F5F1) como fondo en modo claro y el color Jet (\#2F2E2D) como fondo en modo oscuro, sin perder el contraste de los colores de marca.
+
+* Safe Areas y márgenes:  
+	Se respetan los Safe Area Insets definidos por iOS para evitar que el contenido quede oculto detrás del notch, la Dynamic Island o la barra de gestos inferior.
+
+* Gestos:  
+	Se habilitan gestos nativos como el swipe-back para retroceder entre pantallas y el pull-to-refresh para actualizar reportes y listados.
+
 #### 4.1.3.2. Android Mobile Style Guidelines
+
+La versión Android de Arquitech se basa en los lineamientos de Material Design 3 (Material You) de Google, adaptados a la paleta de colores de la marca.
+
+* Tipografía:  
+	Se utiliza Roboto como tipografía principal del sistema, siguiendo la escala tipográfica de Material Design para títulos, subtítulos y cuerpo de texto.
+
+* Sistema de color Material:  
+	Los colores de marca se mapean a los tokens del sistema Material (primary, secondary, surface, background), utilizando Sinopia (\#C43508) como color primario, Fulvous (\#DE7F1A) como color secundario e Isabelline (\#F8F5F1) como superficie base, manteniendo el contraste mínimo exigido por las pautas de accesibilidad de Material Design.
+
+* Áreas táctiles:  
+	Todo elemento interactivo respeta un tamaño mínimo de 48x48 dp, conforme a los estándares de accesibilidad táctil de Android.
+
+* Navegación:  
+	Se utiliza una Bottom Navigation Bar para las secciones principales de la aplicación y un Navigation Drawer lateral para opciones secundarias (configuración, ayuda, cierre de sesión).
+
+* Elevación y feedback visual:  
+	Los componentes utilizan sombras (elevation) para indicar jerarquía entre superficies, y se aplica el efecto ripple en botones e íconos para dar retroalimentación táctil inmediata al usuario.
+
+* Botón de acción flotante (FAB):  
+	Se utiliza un Floating Action Button con el color Green Pigment (\#2BBA51) para la acción principal de cada pantalla, como "Nuevo reporte" o "Registrar asistencia".
+
+* Íconos adaptativos:  
+	Se emplean adaptive icons para el ícono de la aplicación, asegurando que se vea correctamente en las distintas formas de ícono (círculo, cuadrado, squircle) según el fabricante del dispositivo Android.
+
+* Botón de retroceso del sistema:  
+	La navegación respeta el comportamiento nativo del botón de retroceso (back) del sistema operativo, tanto físico como gestual, para mantener la coherencia con el resto de aplicaciones Android.
 
 ## 4.2. Information Architecture
 
 ### 4.2.1. Organization Systems
 
+En la arquitectura de información de Arquitech, se aplican distintos sistemas de organización para estructurar el contenido de manera clara y funcional, adaptada al contexto de los usuarios del sector construcción.
+
+<ins> **Organización Visual del Contenido** </ins>
+
+1. Jerárquica (Visual Hierarchy):
+
+	Se aplica principalmente en la vista general del dashboard, donde la información más importante y urgente se muestra primero (como reportes recientes, alertas de bajo inventario y resumen de avances).
+Esta jerarquía ayuda a que el usuario enfoque su atención en lo prioritario al momento de ingresar.
+
+
+2. Secuencial (Step-by-Step):
+
+	Se utiliza en procesos como la generación de reportes diarios, donde se guía al usuario paso a paso:
+
+	* Selección de obra
+
+	* Registro de asistencia
+
+	* Registro de materiales utilizados
+
+	* Observaciones finales
+
+	* Adjuntar evidencias
+
+	Esto evita errores y facilita la curva de aprendizaje.
+
+
+3. Matricial:
+
+	Se emplea para la vista comparativa de reportes semanales, permitiendo ver columnas con distintas métricas (avance físico, asistencia, materiales) por cada día, en una tabla ordenada que el usuario puede leer horizontal y verticalmente.
+
+
+<ins> **Esquemas de Categorización del Contenido** </ins>
+
+1. Por tópicos:
+
+	Toda la plataforma está organizada por módulos funcionales:
+
+	* Gestión de personal
+
+	* Control de materiales
+
+	* Reportes
+
+	* Configuración de perfil
+ 
+	Esto facilita al usuario identificar rápidamente dónde realizar cada acción.
+
+2. Cronológico:
+
+	En los módulos de reportes y asistencia, los datos se organizan por fecha para reflejar la progresión temporal de la obra.
+
+3. Alfabético:
+
+	Utilizado en listas de trabajadores, maquinaria o materiales para facilitar la búsqueda rápida y ordenada.
+
+4. Por audiencia:
+
+	* Los contratantes solo pueden ver y recibir reportes.
+
+	* Los supervisores pueden generar y editar.
+
+	* Los administrativos tienen permisos de configuración y visualización más avanzada.  
+
+	Esto mejora la experiencia personalizada según el rol.
+
 ### 4.2.2. Labeling Systems
+
+En Arquitech, se ha diseñado un sistema de etiquetado simple y funcional para evitar la sobrecarga cognitiva y facilitar la comprensión inmediata de la interfaz.
+
+* Principios utilizados:
+
+	* Simplicidad y claridad:
+
+		Se prioriza el uso de palabras clave cortas y comunes en obra (ej. "Reporte diario", "Materiales", "Asistencia", "Obreros", "Avance", "Notificaciones").
+
+	* Evitar ambigüedad:
+
+		Se evita el uso de términos técnicos complejos o jerga poco conocida. Por ejemplo, se prefiere "Registro de materiales" en lugar de "Logística de recursos".
+
+	* Consistencia visual:
+
+		Las etiquetas mantienen estilo uniforme en botones, menús y formularios, para que el usuario no dude sobre el significado de cada elemento.
+
+	* Asociaciones entre etiquetas:
+
+		* “Reporte” siempre se relaciona con acciones como “Generar”, “Visualizar”, “Descargar”, “Compartir”.
+		* “Materiales” se relaciona con “Entrada”, “Salida”, “Inventario”.
+		* “Obreros” se relaciona con “Asistencia”, “Tareas”, “Evaluación”.
 
 ### 4.2.3. SEO Tags and Meta Tags
 
+Aquí mostraremos los Meta Tagas y los SEO tags que hemos usado para poder desarrollar el landing page con el objetivo de que sea agradable para los usuarios.
+
+	<!DOCTYPE html>
+
+	<html lang="es">
+
+	</head>
+
+	  <meta charset="UTF-8" />
+
+ 	 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+ 	 <title\> Foundex | Tecnología IoT para Restaurantes Inteligentes</title>
+
+	  <meta name="description" content="Foundex ofrece una solución completa de sensores IoT y plataforma web para monitorear alimentos, mejorar la eficiencia operativa y elevar la atención al cliente en restaurantes." />
+
+ 	 <meta name="keywords" content="Foundex, IoT para restaurantes, monitoreo de alimentos, sensores de temperatura, gestión de inventario, eficiencia operativa, tecnología gastronómica" />
+
+	  <meta name="author" content="Equipo Foundex" />
+
+	  <meta name="robots" content="index, follow" />
+
+	  <meta property="og:title" content="Foundex | Tecnología IoT para Restaurantes Inteligentes" />
+
+	  <meta property="og:description" content="Descubre cómo Foundex ayuda a los dueños y trabajadores de restaurantes a optimizar la conservación de alimentos con sensores IoT y una plataforma web de gestión." />
+
+	  <meta property="og:image" content="https://foundex.com/img/logo.png" />
+
+	  <meta property="og:url" content="https://foundex.com/" />
+
+	  <meta property="og:type" content="website" />
+
+	  <meta name="twitter:card" content="summary_large_image" />
+
+	  <meta name="twitter:title" content="Foundex | Tecnología IoT para Restaurantes Inteligentes" />
+
+	  <meta name="twitter:description" content="Optimiza tu restaurante con Foundex: tecnología IoT, sensores y plataforma web para un mejor control alimentario." />
+
+	  <meta name="twitter:image" content="https://foundex.com/img/logo.png" />
+
+	  <link rel="icon" href="img/logo.png" type="image/x-icon" />
+
+	  <link rel="stylesheet" href="style.css" />
+
+	</head>
+
+
 ### 4.2.4. Searching Systems
+
+Dentro de la plataforma ArquiTech, los sistemas de búsqueda han sido diseñados para facilitar el acceso rápido y eficiente a información crítica relacionada con la gestión de obras. La aplicación contempla un volumen significativo de datos relacionados con proyectos, documentos técnicos, solicitudes, trabajadores, insumos y cronogramas. Por ello, se proyecta la implementación de un sistema de búsqueda integral que ayude a los usuarios a evitar pérdidas de tiempo y a mantener el control operativo en todo momento.  
+
+El sistema permitirá a los usuarios buscar información dentro de los distintos módulos del sistema, utilizando:
+
+* Palabras clave (términos técnicos, nombres de obra, actividades específicas, materiales).  
+* Filtros por categoría (tipo de documento, fase del proyecto, tipo de solicitud, tipo de personal).  
+* Rangos de fechas (fecha de emisión, entrega, modificación o supervisión).  
+* Códigos internos asignados a solicitudes, órdenes de servicio, contratistas o áreas constructivas.
+
+Este sistema será particularmente útil para:
+
+* Ahorrar tiempo en la localización de documentos, reportes o actividades específicas, sin necesidad de navegar por múltiples módulos manualmente.  
+* Encontrar rápidamente registros relacionados con avances de obra, observaciones, solicitudes de materiales o incidencias.  
+* Apoyar la toma de decisiones sobre ejecución, control de calidad o cumplimiento de cronogramas mediante el acceso inmediato a la información registrada.
+
+Una vez realizada una búsqueda, los resultados se presentarán de forma estructurada en tablas o tarjetas, con opciones para visualizar, editar o exportar la información según los permisos del usuario.
+
+### ***4.2.5. Navigation Systems***
+
+Los sistemas de navegación implementados en el proyecto ArquiTech han sido diseñados para garantizar una experiencia intuitiva, fluida y orientada a la consecución de objetivos por parte del usuario. Considerando que el público objetivo está conformado principalmente por supervisores de obra, contratistas y personal administrativo de empresas constructoras, se ha priorizado una arquitectura de navegación clara, jerárquica y adaptada al flujo natural de las actividades constructivas.
+
+<ins>**En la Landing Page**</ins>  
+La navegación en la landing page tiene una estructura lineal con anclajes internos y botones de acción, facilitando la exploración informativa en orden lógico. Las acciones de navegación se guían mediante:
+
+* Un menú fijo en la parte superior con enlaces directos a secciones como: “¿Qué es ArquiTech?”, “Beneficios”, “Funcionalidades”, “Casos de uso” y “Contacto”.  
+* Botones con anclas que desplazan suavemente al usuario dentro de la misma página, sin recarga.  
+* Llamados a la acción (“Conoce la plataforma”, “Solicita una demo”) que direccionan al formulario de contacto o a secciones específicas de interés.
+
+Este diseño permite que los visitantes comprendan rápidamente el propósito de la solución y se dirijan con claridad hacia la acción deseada.  
 
 ### 4.2.5. Navigation Systems
 
