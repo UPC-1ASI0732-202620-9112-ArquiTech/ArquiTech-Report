@@ -346,78 +346,326 @@ Asimismo, las soluciones existentes en el mercado, como Procore o Buildertrend, 
 
 ### 1.2.2. Lean UX Process
 
+En esta sección se aplica el Lean UX Process con el propósito de identificar las principales suposiciones relacionadas con el problema de negocio, los usuarios, sus necesidades y las posibles soluciones asociadas a ArquiTech.
+
+El proceso comienza con la definición del Lean UX Problem Statement, continúa con la declaración de las Business Assumptions y User Assumptions, posteriormente prioriza las suposiciones de acuerdo con su nivel de riesgo e incertidumbre y finalmente las transforma en Hypothesis Statements que puedan ser sometidos a validación mediante experimentos.
+
 #### 1.2.2.1. Lean UX Problem Statements
 
-<div style="text-align: justify;">
+**Domain**
 
-El estado actual del sector de la gestión de proyectos de construcción se caracteriza por el uso de herramientas poco integradas para administrar obras. Las pequeñas y medianas empresas constructoras, junto con sus supervisores, jefes de obra y personal administrativo, enfrentan dificultades para gestionar trabajadores, materiales, presupuestos, avances y tiempos de ejecución. Muchas de estas actividades se realizan mediante hojas de cálculo, documentos físicos o canales de comunicación informales, lo que puede generar desorganización, pérdida de información, retrasos y dificultades para tomar decisiones oportunamente.
+ArquiTech se desarrolla dentro del dominio de la gestión y seguimiento de proyectos de construcción. Dentro de este contexto se realizan actividades relacionadas con el control de trabajadores, materiales, inventario, actividades, avance de obra, incidencias y elaboración de reportes.
 
-Las soluciones existentes no siempre se adaptan a las necesidades de este segmento, ya que pueden presentar barreras relacionadas con el costo, la complejidad de uso o un alcance mayor al requerido por pequeñas y medianas empresas. Frente a esta brecha, Foundex, mediante ArquiTech, propone una solución digital accesible e intuitiva que permita centralizar la información de las obras, gestionar trabajadores, materiales, presupuestos y avances, y realizar un seguimiento oportuno de los proyectos.
+**Customer Segments**
 
-Nuestro enfoque inicial estará dirigido a pequeñas y medianas empresas constructoras de Lima Metropolitana que actualmente utilizan herramientas no integradas para gestionar sus obras. Consideraremos como usuarios principales a los supervisores de obra, responsables de la gestión operativa, y al personal administrativo encargado de registrar, organizar y comunicar la información de los proyectos.
+Para la formulación inicial del problema se consideran responsables de la supervisión y gestión cotidiana de las obras, así como personas responsables de contratar proyectos de construcción y realizar seguimiento de su ejecución.
 
-Sabremos que la solución está generando valor cuando los usuarios la utilicen de manera recurrente para registrar y consultar información, realizar seguimiento de trabajadores, materiales y avances, generar reportes y reducir la dependencia de herramientas dispersas utilizadas durante la gestión de las obras.
+La caracterización y análisis detallado de los segmentos objetivo se desarrolla posteriormente en la sección 1.3 del presente informe.
 
-**¿Cómo podríamos facilitar la gestión de proyectos de construcción para que las pequeñas y medianas empresas puedan centralizar la información de sus obras, gestionar sus recursos y realizar un seguimiento oportuno de sus avances mediante una plataforma accesible e intuitiva?**
+**Pain Points**
 
-</div>
+Actualmente, la gestión y seguimiento de una obra puede involucrar diferentes mecanismos y herramientas para registrar, consultar y comunicar información.
+
+Entre los principales problemas identificados se encuentran:
+
+- Información distribuida entre hojas de cálculo, documentos físicos o digitales, correo electrónico, aplicaciones de mensajería y otros registros.
+- Dificultad para mantener actualizado el inventario y conocer oportunamente la disponibilidad de materiales.
+- Uso de mecanismos manuales para registrar y consultar información de trabajadores.
+- Duplicación de trabajo al registrar o consolidar información procedente de diferentes fuentes.
+- Tiempo y esfuerzo necesarios para reunir información antes de elaborar reportes.
+- Dificultades para mantener información consistente entre las actividades realizadas en campo y la información utilizada para el seguimiento del proyecto.
+- Falta de visibilidad oportuna sobre el estado de las obras.
+- Comunicación tardía de retrasos, incidencias o problemas que pueden afectar el desarrollo del proyecto.
+- Dificultad para conocer de manera continua información relacionada con materiales, personal, actividades y avances.
+- Falta de trazabilidad respecto a cuándo se registró determinada información y quién fue responsable de hacerlo.
+
+**Gap**
+
+Las herramientas utilizadas actualmente permiten resolver determinadas actividades de manera independiente, pero no siempre proporcionan un entorno integrado para mantener y consultar la información relevante de una obra.
+
+Los responsables de supervisión pueden depender de hojas de tareo, Kardex, hojas de cálculo, documentos, fotografías, correo electrónico y aplicaciones de mensajería para desarrollar diferentes actividades de gestión.
+
+De manera similar, quienes realizan seguimiento de una obra pueden depender de reportes periódicos, fotografías, mensajes, correos electrónicos y visitas presenciales para conocer el estado del proyecto.
+
+Esta fragmentación representa una oportunidad para facilitar la centralización, actualización, consulta y trazabilidad de la información asociada con una obra.
+
+**Vision / Strategy**
+
+Foundex, mediante ArquiTech, busca facilitar la gestión y seguimiento de proyectos de construcción a través de una solución digital que centralice información relevante de cada obra y permita a los usuarios acceder a ella de acuerdo con sus responsabilidades.
+
+La estrategia consiste en facilitar el registro y actualización de información operativa y proporcionar mayor visibilidad sobre el estado de las obras, disminuyendo progresivamente la dependencia de herramientas, documentos y canales de comunicación dispersos.
+
+**Initial Segment**
+
+El enfoque inicial estará dirigido a responsables de supervisión de obras que actualmente utilizan diferentes registros y herramientas para controlar información operativa y a responsables de proyectos contratados que dependen de reportes, mensajes, fotografías o visitas para conocer el estado de una obra.
+
+**Measurable Criteria**
+
+Sabremos que ArquiTech contribuye a resolver el problema cuando observemos que:
+
+- Los responsables de supervisión utilizan recurrentemente ArquiTech para registrar y consultar información relacionada con sus obras.
+- Los usuarios requieren menos fuentes independientes para obtener información relacionada con trabajadores, materiales, actividades y avances.
+- La información registrada puede ser consultada posteriormente sin necesidad de volver a recopilarla desde diferentes medios.
+- Las personas encargadas del seguimiento utilizan ArquiTech para consultar el estado de sus proyectos.
+- Los usuarios pueden identificar responsables y fechas asociadas con las actualizaciones de información.
+- Los usuarios disminuyen su dependencia de reportes, documentos o mensajes aislados para conocer el estado de una obra.
+
+**Problem Statement**
+
+El estado actual de la gestión y seguimiento de proyectos de construcción se caracteriza por el uso de diferentes herramientas y mecanismos para registrar, consultar y comunicar información relacionada con las obras.
+
+Los responsables de supervisar una obra necesitan controlar trabajadores, materiales, actividades y avances durante la ejecución del proyecto. Sin embargo, gran parte de esta información puede encontrarse distribuida entre registros físicos, hojas de cálculo, documentos digitales, fotografías, correo electrónico y aplicaciones de mensajería, dificultando mantener una fuente de información actualizada y consistente.
+
+Por otro lado, quienes contratan y realizan seguimiento de proyectos de construcción necesitan conocer si las obras avanzan según lo previsto, pero pueden depender de reportes periódicos, fotografías, mensajes y visitas presenciales para obtener dicha información. Esto puede ocasionar una detección tardía de retrasos, incidencias o problemas asociados con los recursos y actividades de la obra.
+
+Las alternativas actuales permiten resolver partes específicas del proceso, pero no siempre facilitan la centralización y trazabilidad de la información. ArquiTech busca abordar esta brecha proporcionando un entorno digital que facilite el registro, consulta y seguimiento de información relevante de las obras.
+
+Inicialmente, ArquiTech se enfocará en usuarios que actualmente dependen de herramientas y canales de información independientes. Sabremos que la propuesta genera valor cuando estos usuarios incorporen recurrentemente ArquiTech en sus actividades y disminuyan la dependencia de fuentes dispersas para gestionar o conocer el estado de una obra.
+
+**How Might We**
+
+> ¿Cómo podríamos facilitar la gestión y el seguimiento de proyectos de construcción para que los responsables de una obra mantengan información actualizada y quienes realizan su seguimiento puedan conocer oportunamente su estado, reduciendo la dependencia de herramientas y canales de información dispersos?
 
 #### 1.2.2.2. Lean UX Assumptions
 
-**Assumptions worksheet**
+##### Assumptions Worksheet
 
-**Business Assumptions:**
+##### Business Assumptions
 
-1. **Creemos que nuestros clientes necesitan** reducir errores y pérdidas por desorganización en obra al momento de gestionar el inventario, personal y obreros.
-2. **Estas necesidades se pueden resolver con** un seguimiento personalizado para cada uno de estos aspectos del proyecto.
-3. **Mis clientes iniciales son** supervisores de obra de proyectos medianos de construcción.
-4. **El valor #1 que mi cliente quiere de mi servicio es** ahorrar tiempo y dinero al centralizar la gestión operativa al optimizar los procesos con una buena organización.
-5. **El cliente también puede obtener el beneficio adicional de** tener mayor visibilidad y control sobre recursos y personal en tiempo real y una mejor toma de decisiones gracias a datos precisos y actualizados.
-6. **Voy a adquirir la mayoría de mis clientes a través de** marketing digital localizado y pruebas gratuitas de 30 días con soporte personalizado para atraer usuarios.
-7. **Haré dinero a través de** suscripciones mensuales escalables.
-8. **Mi competencia principal en el mercado serán** otras aplicaciones de gestión de proyectos.
-9. **Los venceremos debido a que** nuestros planes tienen precios más bajos y son flexibles, nuestro enfoque es específico en operaciones diarias (inventario, personal, obreros) y la adaptación será rápida debido a la fácil implementación del sistema que cuenta con soporte localizado.
-10. **Mi mayor riesgo de producto es** la resistencia inicial a la adopción tecnológica en empresas acostumbradas a métodos manuales.
-11. **Resolveremos esto a través de** capacitaciones gratuitas y videos tutoriales que estarán disponibles en todo momento a través de la web de la empresa.
+1. **Creemos que nuestros clientes necesitan**
 
-**User Assumptions:**
+   Disponer de información organizada, actualizada y accesible sobre las obras para reducir errores, retrasos, pérdida de información y dificultades de coordinación durante la gestión y seguimiento de los proyectos.
 
-- **¿Quién es el usuario?**
+2. **Estas necesidades se pueden resolver con**
 
-    Nuestros principales clientes serán los supervisores de obra y contratantes de empresas privadas que se encuentran en un rango de edad de 28 a 50 años que pueden ser de clase media-alta, estos quieren encontrar una manera eficiente de llevar la administración de sus proyectos de construcción para evitar pérdidas.
+   Un mecanismo centralizado que facilite el registro, consulta y seguimiento de información relacionada con trabajadores, materiales, actividades, avances e incidencias de cada obra.
 
-- **¿Dónde encaja nuestro producto en su trabajo o vida?**
+3. **Nuestros clientes iniciales son**
 
-    Nuestro producto encaja al momento de iniciar la supervisión de un aspecto del proyecto que se está administrando en ese momento o se quiere revisar el avance y buen manejo.
+   Organizaciones y responsables vinculados con proyectos de construcción que actualmente utilizan registros manuales, hojas de cálculo, documentos, correo electrónico, aplicaciones de mensajería y reportes independientes para gestionar o realizar seguimiento de sus obras.
 
-- **¿Qué problemas tiene nuestro producto y cómo se pueden resolver?**
+4. **El valor #1 que nuestros clientes quieren obtener de nuestro servicio es**
 
-    - La dependencia del internet en la obra para poder utilizar el aplicativo el cual se puede solucionar incluyendo un modo offline que sincronice datos al reconectarse a una red de internet. 
-    - El soporte técnico insuficiente para picos de demanda, en caso de un aumento repentino de usuarios se podría saturar el soporte técnico, frustrando a clientes que esperan respuestas rápidas. Este problema lo podremos solucionar creando una base de conocimientos con videos y guías para resolver dudas comunes y evitar un número masivo de consultas.
+   Disponer de información confiable y actualizada que facilite el control y seguimiento de una obra y permita identificar oportunamente situaciones que puedan afectar su ejecución.
 
-- **¿Cómo y cuándo es usado nuestro producto?**
+5. **Los clientes también pueden obtener los siguientes beneficios adicionales**
 
-    Nuestro producto puede ser usado al inicio del día para planificar (confirmar asistencia, revisar inventario), durante el día para monitorear (actualizar avances) y al final para generar y/o revisar reportes.
+   - Reducir el tiempo utilizado para recopilar información procedente de diferentes fuentes.
+   - Mejorar la visibilidad sobre materiales, trabajadores, actividades y avances.
+   - Facilitar la coordinación entre las personas involucradas en una obra.
+   - Incrementar la transparencia durante el seguimiento del proyecto.
+   - Disponer de mayor trazabilidad sobre los registros y actualizaciones realizadas.
+   - Facilitar la elaboración y consulta de reportes.
+   - Detectar con mayor anticipación incidencias, retrasos o necesidades de recursos.
 
-- **¿Qué características son importantes?**
+6. **Adquiriremos la mayoría de nuestros clientes a través de**
 
-    Nuestro producto debe contar con una interfaz intuitiva, fácil de usar y aprender por nuestros usuarios, también debe contar con una buena sincronización de datos para poder tener un buen seguimiento de los distintos aspectos de la obra.
+   Contacto con empresas y profesionales relacionados con el sector construcción, marketing digital dirigido, demostraciones de ArquiTech y periodos de prueba o pilotos que permitan comprobar la utilidad de la solución en proyectos reales.
 
-- **¿Cómo debe verse nuestro producto y cómo comportarse?**
+7. **Generaremos ingresos mediante**
 
-    La interfaz de nuestro producto debe ser intuitiva y responsive con un diseño que transmita confianza y profesionalismo y que sea de respuesta rápida.
+   Planes de suscripción periódica escalables de acuerdo con las necesidades y el nivel de uso de ArquiTech.
+
+8. **Nuestra principal competencia en el mercado será**
+
+   Otras plataformas orientadas a la gestión y seguimiento de proyectos de construcción, además de las herramientas y procedimientos que actualmente utilizan los usuarios para resolver estas necesidades, como hojas de cálculo, documentos físicos, correo electrónico, aplicaciones de mensajería y otros mecanismos de registro y comunicación.
+
+9. **Creemos que podremos diferenciarnos debido a**
+
+   Un enfoque centrado en las actividades cotidianas de gestión y seguimiento de una obra, proporcionando una experiencia sencilla de adoptar y orientada a centralizar información relevante para los usuarios.
+
+10. **Nuestro mayor riesgo de producto es**
+
+    Que los usuarios continúen utilizando sus herramientas y procedimientos actuales porque consideren que registrar información en una nueva plataforma requiere más esfuerzo que el beneficio obtenido.
+
+11. **Creemos que podemos reducir este riesgo mediante**
+
+    Flujos sencillos para las tareas frecuentes, una incorporación inicial clara, retroalimentación continua con usuarios y pruebas que permitan identificar y reducir dificultades durante la utilización de ArquiTech.
+
+12. **Otras suposiciones que, de resultar falsas, podrían causar que el proyecto fracase son**
+
+    - Los usuarios consideran suficientemente problemático trabajar con información distribuida entre diferentes registros y herramientas.
+    - Los responsables de supervisión están dispuestos a incorporar una solución digital si esta facilita sus actividades actuales.
+    - Las personas que realizan seguimiento de una obra consideran valioso disponer de acceso más directo y frecuente a información del proyecto.
+    - Los usuarios confiarán en información digital cuando puedan identificar responsables, fechas de actualización y evidencias asociadas.
+    - Los responsables registrarán información con suficiente frecuencia para mantener los datos actualizados.
+    - Los usuarios cuentan con dispositivos adecuados para utilizar ArquiTech durante sus actividades habituales.
+    - Las condiciones de conectividad permitirán realizar las principales actividades o será posible mitigar su impacto sobre las tareas críticas.
+    - Los clientes estarán dispuestos a pagar por ArquiTech si la solución demuestra suficiente valor frente a sus procedimientos actuales.
+
+##### User Assumptions
+
+1. **¿Quién es el usuario?**
+
+   Uno de los principales usuarios de ArquiTech es el **supervisor de obra**, responsable de organizar y supervisar las actividades diarias del proyecto, controlar trabajadores y recursos, verificar materiales y realizar seguimiento del avance.
+
+   Otro usuario es el **contratante de una empresa privada**, quien necesita realizar seguimiento de una obra contratada y consultar información relacionada con avance, materiales, personal, incidencias y otros aspectos relevantes del proyecto.
+
+2. **¿Dónde encaja nuestro producto en su trabajo o vida?**
+
+   Para el supervisor de obra, ArquiTech se integra en las actividades cotidianas de planificación, registro, supervisión y seguimiento. Puede ser utilizado para revisar recursos y actividades, actualizar información durante la jornada y consultar información cuando sea necesario.
+
+   Para el contratante, ArquiTech se integra en las actividades de seguimiento del proyecto, permitiéndole consultar el estado de la obra cuando lo requiera y complementar la información recibida mediante reportes o comunicaciones de la empresa responsable.
+
+3. **¿Qué problemas resuelve nuestro producto?**
+
+   Para los supervisores de obra, ArquiTech busca reducir:
+
+   - La dispersión de información entre registros físicos y herramientas digitales independientes.
+   - Las dificultades para mantener actualizado el inventario.
+   - La duplicación de trabajo al registrar o consolidar información.
+   - La dificultad para conocer oportunamente la disponibilidad de trabajadores y materiales.
+   - El esfuerzo necesario para reunir información y elaborar reportes.
+   - Los problemas de coordinación ocasionados por información desactualizada.
+
+   Para los contratantes, ArquiTech busca reducir:
+
+   - La falta de visibilidad sobre el estado de una obra.
+   - La dependencia de reportes periódicos y solicitudes constantes de información.
+   - El conocimiento tardío de retrasos, incidencias o problemas.
+   - La falta de claridad sobre materiales, personal y actividades desarrolladas.
+   - La dificultad para comprobar cuándo determinada información fue actualizada y quién fue responsable del registro.
+
+4. **¿Cuándo y cómo es usado nuestro producto?**
+
+   Los supervisores pueden utilizar ArquiTech durante diferentes momentos de la jornada. Al inicio pueden revisar recursos y actividades; durante la ejecución pueden registrar o actualizar trabajadores, materiales, tareas, incidencias y avances; y posteriormente pueden consultar información consolidada o generar reportes.
+
+   Los contratantes pueden utilizar ArquiTech cuando necesiten conocer el estado de una obra, revisar su avance, consultar información sobre recursos e incidencias y comprobar si existen situaciones que puedan afectar el proyecto.
+
+5. **¿Qué características son importantes?**
+
+   Consideramos inicialmente importantes las siguientes características:
+
+   - Gestión y consulta de materiales e inventario.
+   - Gestión y consulta de trabajadores.
+   - Registro y seguimiento de actividades o tareas.
+   - Registro y consulta del avance de obra.
+   - Consulta de información relevante para el seguimiento del proyecto.
+   - Registro y consulta de incidencias.
+   - Generación y consulta de reportes.
+   - Alertas ante eventos relevantes.
+   - Identificación de responsables y fechas de actualización.
+   - Historial o trazabilidad de los registros realizados.
+   - Permisos diferenciados de acuerdo con las responsabilidades del usuario.
+   - Capacidad de mantener disponibles determinadas operaciones críticas ante condiciones limitadas de conectividad.
+
+6. **¿Cómo debe verse nuestro producto y cómo debe comportarse?**
+
+   ArquiTech debe presentar una interfaz clara, consistente, responsive y sencilla de utilizar tanto desde dispositivos móviles como desde computadoras.
+
+   Para los supervisores debe facilitar el registro de información durante las actividades realizadas en campo y evitar pasos o registros innecesarios.
+
+   Para los contratantes debe priorizar una presentación comprensible del estado de las obras, permitiendo identificar con facilidad información relacionada con avances, materiales, personal e incidencias.
+
+   El sistema debe comunicar claramente los estados de las operaciones, las fechas de actualización y los responsables de los registros. Asimismo, debe transmitir confianza, proteger la información y mantener tiempos de respuesta adecuados.
+
+##### Assumption Prioritization
+
+Una vez declaradas las Business Assumptions y User Assumptions, las suposiciones se priorizan considerando dos factores principales: el impacto que tendría para ArquiTech que una suposición resultara falsa y el nivel de incertidumbre que todavía existe alrededor de ella.
+
+Las suposiciones con mayor riesgo e incertidumbre deben validarse antes que aquellas para las cuales ya existe mayor evidencia o cuyo impacto sobre la propuesta de valor es menor.
+
+| Suposición | Riesgo | Incertidumbre | Prioridad |
+|---|---|---|---|
+| Los usuarios registrarán información con suficiente frecuencia para mantener ArquiTech actualizado y útil. | Alto | Alto | Crítica |
+| Los usuarios incorporarán ArquiTech en sus actividades habituales si la solución reduce la dependencia de herramientas dispersas. | Alto | Medio | Alta |
+| Los contratantes utilizarán directamente la información disponible en ArquiTech para realizar seguimiento de las obras. | Alto | Medio | Alta |
+| La trazabilidad de responsables y fechas aumentará la confianza de los usuarios en la información disponible. | Alto | Medio | Alta |
+| Los clientes estarán dispuestos a pagar una suscripción si ArquiTech demuestra suficiente valor frente a sus procedimientos actuales. | Alto | Alto | Crítica |
+| Las limitaciones de conectividad pueden gestionarse sin impedir la realización de las principales tareas de los usuarios. | Medio | Medio | Media |
+| Una experiencia sencilla permitirá que nuevos usuarios aprendan las principales tareas sin requerir capacitación extensa. | Medio | Medio | Media |
+
+Las suposiciones priorizadas sirven como base para formular los Hypothesis Statements y determinar posteriormente qué aspectos requieren validación mediante experimentos.
 
 #### 1.2.2.3. Lean UX Hypothesis Statements
 
-Creemos que ofrecer una plataforma web centralizada para supervisores y asistentes administrativos que integre la gestión de inventario, personal y obreros resultará en una reducción del tiempo dedicado a tareas administrativas, y lo sabremos porque el tiempo promedio para generar reportes diarios disminuirá de 60 minutos a 15 minutos en las primeras cuatro semanas de uso.
+Los Hypothesis Statements convierten las principales suposiciones en afirmaciones que pueden ser comprobadas mediante evidencia.
 
-Creemos que proporcionar un modo offline que sincronice datos de inventario y asistencia una vez conectado para supervisores en obras sin internet resultará en un uso continuo en entornos remotos, y lo sabremos porque el 90% de las actualizaciones offline se sincronizará correctamente en las primeras 24 horas.
+Cada hipótesis se concentra en una característica o experiencia específica para facilitar su posterior validación.
 
-Creemos que proporcionar un onboarding interactivo con videos cortos para supervisores y asistentes resultará en una curva de aprendizaje más corta, y lo sabremos porque el 75% de los nuevos usuarios realizarán al menos tres acciones clave (registrar asistencia, actualizar inventario, generar reporte) en su primera semana.
+##### Hypothesis Statement 1 — Gestión de materiales e inventario
+
+Creemos que proporcionar un mecanismo centralizado para registrar y consultar movimientos de materiales a los supervisores de obra logrará facilitar la actualización del inventario y reducir la dependencia de registros independientes.
+
+Sabremos que esto es cierto cuando observemos que los supervisores pueden registrar y consultar el estado de los materiales utilizando menos tiempo y menos fuentes de información que mediante su proceso actual.
+
+##### Hypothesis Statement 2 — Gestión de trabajadores
+
+Creemos que proporcionar un mecanismo centralizado para registrar y consultar información de trabajadores a los supervisores de obra logrará facilitar el control del personal asociado con cada obra y reducir la dependencia de registros manuales independientes.
+
+Sabremos que esto es cierto cuando observemos que los supervisores pueden registrar y consultar información de los trabajadores con menor esfuerzo que mediante sus mecanismos actuales.
+
+##### Hypothesis Statement 3 — Seguimiento de actividades y avance
+
+Creemos que proporcionar un mecanismo para registrar y actualizar actividades y avances a los supervisores de obra logrará facilitar el mantenimiento de información oportuna sobre el estado del proyecto.
+
+Sabremos que esto es cierto cuando observemos que los supervisores actualizan recurrentemente las actividades de una obra y pueden conocer su estado sin recopilar nuevamente información procedente de distintos registros.
+
+##### Hypothesis Statement 4 — Consulta del estado de la obra
+
+Creemos que proporcionar acceso directo a información actualizada sobre avance, materiales, personal e incidencias a los contratantes logrará reducir la incertidumbre y aumentar la transparencia durante la ejecución de una obra.
+
+Sabremos que esto es cierto cuando observemos que los contratantes pueden conocer el estado de sus proyectos mediante ArquiTech y requieren menos solicitudes adicionales de actualización mediante correo electrónico, aplicaciones de mensajería u otros medios.
+
+##### Hypothesis Statement 5 — Trazabilidad de la información
+
+Creemos que proporcionar información sobre responsables, fechas de actualización e historial de los registros a supervisores y contratantes logrará aumentar su confianza en la información disponible en ArquiTech.
+
+Sabremos que esto es cierto cuando observemos que los usuarios utilizan estos elementos para identificar el origen y vigencia de la información y pueden evaluar su confiabilidad sin requerir verificaciones adicionales.
+
+##### Hypothesis Statement 6 — Generación de reportes
+
+Creemos que proporcionar reportes generados a partir de la información previamente registrada en ArquiTech a los responsables de supervisión logrará reducir el esfuerzo necesario para recopilar y consolidar información sobre el estado de una obra.
+
+Sabremos que esto es cierto cuando observemos que, después de establecer una línea base del procedimiento actual, los usuarios pueden obtener la información necesaria para un reporte utilizando menos tiempo y menos fuentes independientes.
+
+##### Hypothesis Statement 7 — Alertas sobre eventos relevantes
+
+Creemos que proporcionar alertas sobre incidencias o eventos relevantes a supervisores y contratantes logrará facilitar que conozcan oportunamente situaciones que requieren su atención.
+
+Sabremos que esto es cierto cuando observemos que los usuarios identifican eventos relevantes mediante las alertas antes de recurrir a la revisión manual de diferentes registros o canales de comunicación.
+
+##### Hypothesis Statement 8 — Uso en condiciones de conectividad limitada
+
+Creemos que permitir que determinadas operaciones críticas permanezcan disponibles durante interrupciones temporales de conectividad para los supervisores de obra logrará reducir el impacto de la dependencia de Internet durante las actividades realizadas en campo.
+
+Sabremos que esto es cierto cuando observemos que, en escenarios de conectividad limitada, los supervisores pueden completar las tareas críticas definidas y conservar la información necesaria hasta que pueda sincronizarse correctamente.
+
+##### Hypothesis Statement 9 — Facilidad de adopción
+
+Creemos que proporcionar una experiencia sencilla y una orientación inicial breve a nuevos usuarios logrará que puedan aprender a realizar las principales tareas de ArquiTech sin requerir una capacitación extensa.
+
+Sabremos que esto es cierto cuando observemos que usuarios nuevos pueden completar de manera independiente las principales tareas correspondientes a sus responsabilidades después de recibir una orientación inicial breve.
 
 #### 1.2.2.4. Lean UX Canvas
 
-![Lean UX Process](assets/chapter-1/Lean-UX-Canvas.png)
+El Lean UX Canvas de ArquiTech consolida los principales elementos definidos previamente durante el Lean UX Process, integrando el problema de negocio, los resultados esperados, los usuarios, sus beneficios, las ideas de solución, las hipótesis y los principales aspectos que deben validarse mediante experimentación.
+
+El canvas se encuentra organizado en ocho bloques. El **Business Problem** reúne los principales problemas relacionados con la fragmentación, actualización y trazabilidad de la información de las obras. Los **Business Outcomes** representan los cambios de comportamiento que permitirían evidenciar que ArquiTech está generando valor, como un mayor uso recurrente de la plataforma y una menor dependencia de fuentes de información externas.
+
+En **Users & Customers** se consideran inicialmente dos roles principales: el **Supervisor de obra**, responsable de gestionar y actualizar información operativa del proyecto, y el **Contratante de empresa privada**, interesado en realizar seguimiento y disponer de mayor visibilidad sobre el estado de la obra. Los **User Benefits** representan los resultados que ambos usuarios esperan alcanzar, como reducir trabajo duplicado, consultar información actualizada, detectar incidencias oportunamente y obtener mayor transparencia.
+
+Las **Solution Ideas** plantean posibles mecanismos para alcanzar dichos beneficios, incluyendo gestión de materiales, trabajadores, actividades y avances, seguimiento para el contratante, trazabilidad, reportes, alertas, soporte ante conectividad limitada y orientación inicial para nuevos usuarios.
+
+A partir de la relación entre los Business Outcomes, Users, User Benefits y Solution Ideas se formularon las **Hypotheses** del canvas. Estas hipótesis permiten expresar qué cambios se espera conseguir mediante cada solución y sirven como base para determinar los aspectos que requieren validación.
+
+En **What's the most important thing we need to learn first?** se identifican las suposiciones de mayor riesgo asociadas con las hipótesis. El principal aprendizaje requerido consiste en comprobar si los supervisores incorporarán ArquiTech de manera recurrente en sus actividades y mantendrán actualizada la información de las obras, debido a que el valor de funcionalidades como reportes, alertas, trazabilidad y seguimiento para el contratante depende directamente de la disponibilidad de información confiable y actualizada.
+
+Finalmente, en **What's the least amount of work we need to do to learn the next most important thing?** se plantea un experimento de alcance reducido orientado a validar dicha suposición antes de realizar una implementación de mayor alcance. El experimento contempla establecer una línea base del procedimiento actual, utilizar un prototipo limitado con tareas representativas, observar el comportamiento de los supervisores y comparar el esfuerzo requerido con sus procedimientos habituales.
+
+**Figura 1**  
+*Lean UX Canvas de ArquiTech.*
+
+<p align="center">
+  <img src="assets/chapter-1/Lean-UX-Canvas.png"
+       alt="Lean UX Canvas de ArquiTech"
+       width="1000">
+</p>
+
+*Nota.* Elaboración propia en Miro a partir de los Lean UX Problem Statements, Lean UX Assumptions y Lean UX Hypothesis Statements definidos para ArquiTech. 
+
+**Enlace al Lean UX Canvas en Miro:**  
+[https://miro.com/app/board/uXjVHncj1ew=/?share_link_id=890507134570](https://miro.com/app/board/uXjVHncj1ew=/?share_link_id=890507134570)
 
 ## 1.3. Segmentos objetivo
 
@@ -639,13 +887,15 @@ Finalmente, ArquiTech mantendrá un proceso de mejora continua basado en las nec
 
 ### 2.2.1. Diseño de entrevistas
 
-Para el proceso de investigación de ArquiTech se diseñó un conjunto de entrevistas dirigido a representantes de los dos segmentos objetivo identificados: **supervisores de obra** y **contratantes de empresas privadas**.
+Para el proceso de investigación de ArquiTech se diseñó un conjunto de entrevistas dirigido a representantes de los dos segmentos objetivo identificados: supervisores de obra y contratantes de empresas privadas.
 
 El objetivo de estas entrevistas es comprender las actividades que actualmente realizan los participantes durante la gestión y seguimiento de proyectos de construcción, las herramientas que utilizan, las principales dificultades que enfrentan y sus necesidades respecto al acceso, organización y comunicación de la información de una obra.
 
-Las preguntas fueron organizadas en cuatro grupos principales: **introducción y contexto, procesos actuales, puntos de dolor, necesidades y expectativas**, además de preguntas de cierre. Esta estructura permite recopilar información relacionada con el contexto del participante, sus actividades habituales, problemas experimentados durante la ejecución o seguimiento de una obra y su percepción respecto al uso de herramientas digitales.
+Las preguntas fueron organizadas en cuatro grupos principales: introducción y contexto, procesos actuales, puntos de dolor, necesidades y expectativas, además de preguntas de cierre. Esta estructura permite recopilar información relacionada con el contexto del participante, sus actividades habituales, problemas experimentados durante la ejecución o seguimiento de una obra y su percepción respecto al uso de herramientas digitales.
 
-Para mantener la consistencia del proceso de investigación, todos los participantes pertenecientes a un mismo segmento serán entrevistados utilizando el mismo conjunto de preguntas. De esta manera, las respuestas podrán ser posteriormente comparadas e interpretadas en el análisis de entrevistas para identificar patrones y características recurrentes dentro de cada segmento objetivo.
+Para mantener la consistencia del proceso de investigación, todos los participantes pertenecientes a un mismo segmento serán entrevistados utilizando el mismo conjunto base de preguntas y variables de investigación. Durante la ejecución de las entrevistas, las preguntas podrán ser reformuladas ligeramente o acompañadas de preguntas de seguimiento con el propósito de mantener un flujo conversacional natural, sin modificar la información que se busca recopilar. De esta manera, las respuestas podrán ser posteriormente comparadas e interpretadas para identificar patrones y características recurrentes dentro de cada segmento objetivo.
+
+Antes de iniciar cada entrevista, se informará al participante sobre el propósito académico de la investigación y se solicitará su consentimiento para participar y para registrar la sesión en video.
 
 #### Segmento objetivo #1: Supervisores de obra
 
@@ -727,7 +977,9 @@ Para mantener la consistencia del proceso de investigación, todos los participa
 
 #### Preguntas complementarias de caracterización para ambos segmentos
 
-Las siguientes preguntas complementarias serán aplicadas a todos los entrevistados de ambos segmentos objetivo antes del desarrollo del guion principal correspondiente. Su propósito es recopilar características objetivas y subjetivas que permitan comprender mejor el perfil, contexto, comportamiento y preferencias de los participantes.
+Las siguientes preguntas complementarias serán integradas de manera natural dentro del flujo de las entrevistas de ambos segmentos objetivo. Su propósito es recopilar características objetivas y subjetivas que permitan comprender mejor el perfil, contexto, comportamiento y preferencias de los participantes.
+
+Aunque estas preguntas se presentan de manera agrupada en el diseño de entrevistas para facilitar su documentación, durante la ejecución de las entrevistas podrán ubicarse en distintos momentos de la conversación con el propósito de mantener una secuencia coherente y natural, sin alterar la información que se busca recopilar.
 
 - ¿Con qué género se identifica?
 - ¿Cuál es su estado civil?
@@ -772,16 +1024,16 @@ Esta información servirá posteriormente como fuente para el análisis estadís
 
 **Datos del entrevistado**
 
-- **Nombres y apellidos:** [NOMBRES Y APELLIDOS]
+- **Nombres y apellidos:** Alvaro Cristian Gonzales Yupanqui
 - **Edad:** 61 años
-- **Distrito de residencia:** [DISTRITO]
+- **Distrito de residencia:** San Juan de Lurigancho
 - **Segmento objetivo:** Supervisor de obra
-- **Fecha de entrevista:** [DD/MM/AAAA]
-- **Timing de inicio:** [HH:MM:SS]
-- **Duración:** [MM:SS]
-- **Video consolidado:** [ENLACE PRIVADO DE MICROSOFT STREAM]
+- **Fecha de entrevista:** 14/09/26
+- **Timing de inicio:** 00:00
+- **Duración:** 07:24
+- **Video consolidado:** [Entrevista1-Segmento1-Diseño](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202320442_upc_edu_pe/IQBsTLNNide4S4_-1cUwXRg4AdC35tmBxErwlBtYPznmQzk?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=u12fcE)
 
-**Figura X**  
+**Figura 1**  
 *Cuadro de video del entrevistado #1 del segmento Supervisores de obra.*
 
 <p align="center">
@@ -794,7 +1046,7 @@ Esta información servirá posteriormente como fuente para el análisis estadís
 
 **Resumen de la entrevista**
 
-[NOMBRE] es un supervisor de obra de 61 años, identificado con el género masculino, casado y con responsabilidades familiares que influyen en la organización de su tiempo. Cuenta con más de treinta años de experiencia en el sector construcción y ha participado principalmente en edificaciones, ampliaciones y proyectos de infraestructura, desempeñando actividades relacionadas con supervisión, control técnico y administración de recursos.
+Alvaro Cristian Gonzales Yupanqui es un supervisor de obra de 61 años, identificado con el género masculino, casado y con responsabilidades familiares que influyen en la organización de su tiempo. Cuenta con más de treinta años de experiencia en el sector construcción y ha participado principalmente en edificaciones, ampliaciones y proyectos de infraestructura, desempeñando actividades relacionadas con supervisión, control técnico y administración de recursos.
 
 Durante una jornada habitual inicia revisando las actividades programadas y verificando la disponibilidad del personal y los materiales necesarios. También comprueba que los trabajos sean ejecutados de acuerdo con el expediente técnico, coordina con el residente de obra y realiza seguimiento de metrados, calidad y avance. Dependiendo de la magnitud del proyecto, trabaja con diferentes cuadrillas y gestiona materiales como cemento, acero, agregados, ladrillo y concreto.
 
@@ -822,16 +1074,16 @@ Finalmente, considera que una solución digital también debería permitir compa
 
 **Datos del entrevistado**
 
-- **Nombres y apellidos:** [NOMBRES Y APELLIDOS]
+- **Nombres y apellidos:** Juan José Meza Huanacune
 - **Edad:** 55 años
-- **Distrito de residencia:** [DISTRITO]
+- **Distrito de residencia:** San Juan de Lurigancho
 - **Segmento objetivo:** Supervisora de obra
 - **Fecha de entrevista:** [DD/MM/AAAA]
 - **Timing de inicio:** [HH:MM:SS]
 - **Duración:** [MM:SS]
 - **Video consolidado:** [ENLACE PRIVADO DE MICROSOFT STREAM]
 
-**Figura X**  
+**Figura 2**  
 *Cuadro de video del entrevistado #2 del segmento Supervisores de obra.*
 
 <p align="center">
@@ -844,7 +1096,7 @@ Finalmente, considera que una solución digital también debería permitir compa
 
 **Resumen de la entrevista**
 
-[NOMBRE] es una ingeniera civil de 55 años que se identifica con el género femenino, es casada y tiene responsabilidades familiares. Cuenta con aproximadamente veinticinco años de experiencia en construcción y ha trabajado supervisando distintas etapas de proyectos, especialmente en actividades relacionadas con control de calidad, seguridad y ejecución de trabajos.
+Juan José Meza Huanacune es una ingeniera civil de 55 años que se identifica con el género femenino, es casada y tiene responsabilidades familiares. Cuenta con aproximadamente veinticinco años de experiencia en construcción y ha trabajado supervisando distintas etapas de proyectos, especialmente en actividades relacionadas con control de calidad, seguridad y ejecución de trabajos.
 
 Durante una jornada habitual revisa las actividades programadas, verifica la calidad de los materiales y las condiciones de seguridad, supervisa el uso adecuado de equipos de protección personal y comprueba el cumplimiento de las funciones asignadas al equipo técnico. La cantidad de trabajadores y materiales que debe gestionar varía de acuerdo con las actividades programadas para cada jornada.
 
@@ -1086,69 +1338,244 @@ Finalmente, considera que una empresa constructora que permita realizar un segui
 
 ### 2.2.3. Análisis de entrevistas
 
-A partir de las entrevistas registradas se realizó un análisis independiente para cada uno de los segmentos objetivo de ArquiTech: supervisores de obra y contratantes de empresas privadas. El propósito del análisis es identificar, con sustento estadístico, las características objetivas y subjetivas más recurrentes de cada segmento que serán utilizadas posteriormente para la construcción de los arquetipos de usuario.
+A partir de las entrevistas registradas se realizó un análisis independiente de los dos segmentos objetivo de ArquiTech: supervisores de obra y contratantes de empresas privadas. El análisis busca identificar, mediante sustento estadístico, las características objetivas y subjetivas más representativas de cada segmento, tomando como fuente las respuestas y resúmenes documentados en el registro de entrevistas.
 
-Para cada segmento se consideran tres entrevistas. Por ello, una característica identificada en un participante representa el 33.3 %, una característica identificada en dos participantes representa el 66.7 % y una característica identificada en los tres participantes representa el 100 % del segmento analizado.
+Para cada segmento se consideraron tres participantes. En consecuencia, una característica identificada en un participante representa el 33.3 % del segmento, una característica compartida por dos participantes representa el 66.7 %, y una característica presente en los tres participantes representa el 100 %.
 
-Todos los resultados presentados en esta sección provienen directamente de las entrevistas registradas y de los resúmenes elaborados para cada participante.
+Las características analizadas comprenden aspectos demográficos y profesionales, experiencia, contexto familiar, preferencias tecnológicas, personalidad, habilidades, influencias, canales de interacción, objetivos, frustraciones, necesidades y expectativas. Estos resultados servirán posteriormente como base para la construcción de los User Personas y los demás artefactos de Needfinding.
 
 ---
 
 #### Segmento objetivo #1: Supervisores de obra
 
-##### Características objetivas
+##### Características objetivas predominantes
 
-Los tres participantes pertenecen al segmento de supervisores de obra y cuentan con experiencia práctica en actividades relacionadas con la supervisión y gestión de proyectos de construcción, lo que representa el 100 % del segmento analizado.
+Las entrevistas muestran que el segmento está conformado por profesionales con experiencia directa en la supervisión y gestión de proyectos de construcción. El 100 % de los participantes se desempeña como supervisor o supervisora de obra y participa directamente en actividades relacionadas con personal, materiales, avance y coordinación de los proyectos.
 
-En cuanto a la edad, dos de los tres participantes tienen más de 50 años, representando el 66.7 %, mientras que el 33.3 % restante se encuentra entre los 30 y 39 años.
+Respecto al género, el 66.7 % de los participantes se identifica con el género femenino y el 33.3 % con el género masculino.
 
-Respecto a las herramientas y métodos empleados durante sus actividades, el 100 % utiliza mecanismos manuales para registrar la asistencia de los trabajadores, mediante hojas de tareo o firmas.
+En cuanto a la edad, el 66.7 % tiene 55 años o más, mientras que el 33.3 % se encuentra alrededor de los 31 años. Esto evidencia la presencia predominante de profesionales con una trayectoria extensa, aunque también existe representación de perfiles más jóvenes con experiencia en herramientas digitales.
 
-Para el control de materiales e inventario, el 66.7 % utiliza Excel, mientras que el 33.3 % utiliza mecanismos como Kardex y registros de movimientos de almacén. Asimismo, el 33.3 % utiliza WhatsApp para comunicar incidencias relacionadas con el personal.
+El 66.7 % de los participantes se encuentra casado y tiene responsabilidades familiares, mientras que el 33.3 % es soltero y no presenta personas económicamente dependientes.
 
-Ninguno de los participantes indicó utilizar actualmente una plataforma digital especializada que centralice la asistencia, inventario, avance y reportes de obra, representando un 0 % del segmento.
+En relación con la experiencia profesional, el 66.7 % cuenta con más de veinte años de experiencia en el sector construcción, mientras que el 33.3 % cuenta con aproximadamente siete años de experiencia. En todos los casos, equivalente al 100 %, la trayectoria está directamente relacionada con supervisión, construcción, edificaciones, remodelaciones o control técnico de obras.
 
-*Cuadro estadístico de características objetivas del segmento Supervisores de obra.*
+Respecto al uso de tecnología, el 100 % utiliza tanto smartphone como laptop durante sus actividades profesionales. El 66.7 % manifiesta una preferencia principal por la laptop para revisar documentación o preparar reportes, mientras que el 33.3 % destaca el smartphone como dispositivo preferido para las actividades realizadas directamente en campo.
+
+El 100 % utiliza WhatsApp como canal de comunicación laboral y el 100 % utiliza correo electrónico o herramientas equivalentes para compartir información y documentación. Asimismo, el 100 % utiliza Google Chrome como navegador habitual.
+
+Los distritos de residencia serán incorporados al análisis estadístico una vez que los tres participantes completen esta información durante las entrevistas. Este dato no se considera todavía dentro de los porcentajes para evitar incorporar información que no haya sido registrada.
+
+Figura X  
+*Características objetivas predominantes en supervisores de obra*
+
+<!-- DATOS PARA LA GRÁFICA:
+
+Rol de supervisor/a de obra: 100 %
+Uso de laptop: 100 %
+Uso de smartphone: 100 %
+Uso de WhatsApp: 100 %
+Uso de correo electrónico: 100 %
+Uso de Google Chrome: 100 %
+55 años o más: 66.7 %
+Género femenino: 66.7 %
+Casados/as: 66.7 %
+Con responsabilidades familiares: 66.7 %
+Más de 20 años de experiencia: 66.7 %
+Preferencia principal por laptop: 66.7 %
+
+-->
 
 <p align="center">
   <img src="assets/chapter-2/analysis/supervisores-caracteristicas-objetivas.png"
-       alt="Características objetivas de supervisores de obra"
+       alt="Características objetivas predominantes en supervisores de obra"
        width="900">
 </p>
 
 *Nota.* Elaboración propia a partir de las entrevistas realizadas.
 
-Las características correspondientes a distrito de residencia, estado civil, responsabilidades familiares, dispositivo principal y navegador habitual deberán incorporarse cuando estos datos sean obtenidos mediante las nuevas entrevistas.
+Los resultados objetivos permiten identificar un segmento profesional con experiencia significativa en el sector, acostumbrado a combinar herramientas tradicionales de gestión con dispositivos y canales digitales de uso general. La laptop y el smartphone forman parte de las herramientas habituales de los tres participantes, aunque la elección del dispositivo depende del contexto de trabajo: la laptop se utiliza principalmente para documentación y reportes, mientras que el smartphone facilita la comunicación y el trabajo en campo.
 
-##### Características subjetivas
+---
 
-Los principales patrones subjetivos identificados se encuentran relacionados con las dificultades experimentadas durante la gestión diaria de una obra, sus objetivos y las expectativas frente al uso de herramientas digitales.
+##### Características subjetivas predominantes
 
-Los problemas relacionados con errores, desactualización o dificultades en el control del inventario aparecen en el 100 % de las entrevistas.
+Las respuestas también muestran patrones comunes relacionados con la forma de trabajar, las habilidades, objetivos, frustraciones y expectativas de los supervisores.
 
-La ausencia o disponibilidad insuficiente de trabajadores fue mencionada por el 66.7 % de los participantes. De igual manera, el 66.7 % señaló problemas relacionados con retrasos en la disponibilidad o entrega de materiales.
+El 100 % considera fundamental disponer de información actualizada sobre el estado de la obra. Los tres participantes mencionaron problemas asociados con información desactualizada, inconsistencias en registros o dificultades para conocer oportunamente el estado del inventario, personal o avance.
 
-La coordinación entre los distintos responsables de la obra es considerada importante por el 100 % de los entrevistados. Sin embargo, las dificultades explícitas relacionadas con la comunicación entre campo y administración fueron reportadas por el 33.3 %.
+El 100 % manifestó interés en centralizar información relacionada con asistencia, inventario, recursos, avance y reportes. La fragmentación entre registros físicos, hojas de cálculo, comunicaciones y documentos constituye una dificultad común dentro del segmento.
 
-El 100 % manifestó interés en disponer de una herramienta digital que permita centralizar información relacionada con asistencia, inventario y reportes. Asimismo, el 66.7 % manifestó explícitamente la necesidad de disponer de información actualizada o en tiempo real.
+Asimismo, el 100 % considera importante que una herramienta digital sea sencilla y confiable. Los participantes señalaron que una solución demasiado compleja, lenta o difícil de utilizar podría convertirse en una barrera de adopción.
 
-El 66.7 % expresó preocupación por el correcto registro de los datos y el uso adecuado de una eventual plataforma por parte del personal. Por otro lado, el 33.3 % señaló específicamente que la facilidad de uso y una baja necesidad de capacitación serían factores importantes para adoptar una solución digital.
+La coordinación y comunicación entre personas y áreas constituye otra característica representativa. El 100 % reconoce la importancia de mantener una comunicación efectiva entre campo, administración, residentes, responsables técnicos y almacén.
 
-Finalmente, el 33.3 % manifestó interés explícito en ampliar el control hacia otros recursos utilizados en la obra, como maquinaria y combustible.
+En relación con las habilidades, el 100 % menciona la comunicación o coordinación como una competencia relevante. El 66.7 % destaca explícitamente habilidades relacionadas con organización y control, y el 66.7 % menciona capacidades vinculadas con resolución de problemas o prevención de incidencias.
 
-*Cuadro estadístico de características subjetivas del segmento Supervisores de obra.*
+Respecto a la personalidad, los tres perfiles presentan una orientación hacia el control y resolución de situaciones operativas. El 100 % evidencia una forma de trabajo orientada a comprobar información, prevenir problemas o reaccionar ante situaciones que puedan afectar el proyecto.
+
+En cuanto a influencias profesionales, SENCICO es mencionado por el 100 % de los participantes como fuente o referente técnico. CAPECO aparece en el 66.7 % de los casos y herramientas o productos asociados con Microsoft se encuentran presentes en el 100 % de los perfiles tecnológicos. Autodesk aparece como herramienta o referencia tecnológica en el 66.7 %.
+
+El 100 % tiene como objetivo mantener control sobre la ejecución de la obra y evitar que problemas relacionados con personal, materiales o información interrumpan el desarrollo de las actividades.
+
+Finalmente, el 100 % presenta frustraciones relacionadas con información que no se encuentra actualizada oportunamente, mientras que el 66.7 % menciona directamente retrasos o problemas asociados con materiales y el 66.7 % evidencia preocupación por la coordinación entre distintas áreas.
+
+Figura X  
+*Características subjetivas predominantes en supervisores de obra*
+
+<!-- DATOS PARA LA GRÁFICA:
+
+Valora información actualizada: 100 %
+Busca centralización de la información: 100 %
+Prioriza comunicación y coordinación: 100 %
+Prefiere herramientas simples y confiables: 100 %
+Orientación al control y resolución de problemas: 100 %
+Información desactualizada como frustración: 100 %
+SENCICO como referente: 100 %
+Uso/influencia de herramientas Microsoft: 100 %
+Organización y control como habilidades relevantes: 66.7 %
+Resolución o prevención de problemas: 66.7 %
+CAPECO como referente: 66.7 %
+Autodesk como herramienta o referente: 66.7 %
+Retrasos/problemas de materiales: 66.7 %
+
+-->
 
 <p align="center">
   <img src="assets/chapter-2/analysis/supervisores-caracteristicas-subjetivas.png"
-       alt="Características subjetivas de supervisores de obra"
+       alt="Características subjetivas predominantes en supervisores de obra"
        width="900">
 </p>
 
 *Nota.* Elaboración propia a partir de las entrevistas realizadas.
 
-Los resultados muestran que el segmento de supervisores de obra se caracteriza principalmente por la necesidad de mantener control sobre trabajadores, materiales y avances del proyecto. La dependencia de mecanismos manuales y herramientas independientes dificulta mantener la información actualizada y centralizada.
+En conjunto, el segmento de supervisores se caracteriza por una orientación hacia el control operativo, organización, disponibilidad de información y coordinación de recursos. Los participantes necesitan mantener información actualizada sobre personal, materiales y avance, y muestran una percepción favorable hacia herramientas digitales siempre que estas simplifiquen el trabajo y no añadan complejidad a las actividades realizadas en campo.
 
-Las características correspondientes a personalidad, habilidades y marcas o referentes de influencia deberán incorporarse al análisis cuando sean obtenidas mediante las preguntas complementarias de las nuevas entrevistas.
+Estas características deberán reflejarse posteriormente en el User Persona correspondiente al segmento, especialmente en sus objetivos, habilidades, comportamiento tecnológico, necesidades y frustraciones.
+
+---
+
+#### Segmento objetivo #2: Contratantes de empresas privadas
+
+##### Características objetivas predominantes
+
+Los contratantes entrevistados desempeñan funciones administrativas o gerenciales desde las cuales participan directamente en la selección de constructoras y en el seguimiento de proyectos.
+
+Respecto al género, el 66.7 % se identifica con el género femenino y el 33.3 % con el género masculino.
+
+En relación con la edad, el 66.7 % tiene menos de 30 años, mientras que el 33.3 % tiene 35 años. Esto representa un segmento predominantemente adulto joven que combina responsabilidades administrativas con seguimiento de proyectos de construcción.
+
+El 66.7 % tiene responsabilidades familiares, mientras que el 33.3 % no presenta personas económicamente dependientes. Respecto al estado civil, los tres participantes presentan condiciones distintas: el 33.3 % es soltero, el 33.3 % casado y el 33.3 % conviviente, por lo que no existe una situación civil predominante.
+
+El 100 % desarrolla funciones administrativas, gerenciales o de toma de decisiones dentro de una empresa. Asimismo, el 100 % cuenta con experiencia previa contratando o realizando seguimiento a proyectos de construcción, con una experiencia comprendida aproximadamente entre cuatro y ocho años.
+
+Los tres participantes residen en Lima Metropolitana, equivalente al 100 % del segmento: Cercado de Lima, San Martín de Porres y San Juan de Miraflores.
+
+En cuanto a tecnología, el 100 % utiliza laptop y smartphone. El 100 % utiliza la laptop para revisar documentos o realizar actividades profesionales relacionadas con el seguimiento de sus proyectos, mientras que el smartphone se utiliza principalmente para comunicaciones rápidas.
+
+El 100 % utiliza WhatsApp y correo electrónico como canales de comunicación relacionados con los proyectos. Respecto al navegador, el 66.7 % utiliza Google Chrome y el 33.3 % utiliza Microsoft Edge.
+
+Figura X  
+*Características objetivas predominantes en contratantes de empresas privadas*
+
+<!-- DATOS PARA LA GRÁFICA:
+
+Residencia en Lima Metropolitana: 100 %
+Funciones administrativas o gerenciales: 100 %
+Experiencia previa contratando proyectos: 100 %
+Uso de laptop: 100 %
+Uso de smartphone: 100 %
+Uso de WhatsApp: 100 %
+Uso de correo electrónico: 100 %
+Laptop para revisión documental: 100 %
+Género femenino: 66.7 %
+Menores de 30 años: 66.7 %
+Con responsabilidades familiares: 66.7 %
+Google Chrome como navegador: 66.7 %
+
+-->
+
+<p align="center">
+  <img src="assets/chapter-2/analysis/contratantes-caracteristicas-objetivas.png"
+       alt="Características objetivas predominantes en contratantes de empresas privadas"
+       width="900">
+</p>
+
+*Nota.* Elaboración propia a partir de las entrevistas realizadas.
+
+Los datos objetivos permiten identificar un segmento compuesto por personas con responsabilidades administrativas y capacidad de decisión, que utilizan habitualmente herramientas digitales convencionales para revisar documentación y comunicarse con las constructoras. Todos los participantes poseen experiencia previa con proyectos de construcción, lo que les permite evaluar aspectos como cumplimiento de plazos, presupuesto, calidad y transparencia.
+
+---
+
+##### Características subjetivas predominantes
+
+Las entrevistas muestran una coincidencia significativa respecto a la importancia de disponer de información clara, actualizada y verificable durante la ejecución de los proyectos.
+
+El 100 % considera la transparencia como una característica fundamental al trabajar con una empresa constructora. Los tres participantes relacionan una mayor transparencia con una mayor confianza y capacidad para tomar decisiones.
+
+El 100 % manifiesta la necesidad de acceder a información actualizada sobre el avance de la obra. Asimismo, los tres participantes consideran importante conocer información relacionada con materiales, personal, incidentes o situaciones que puedan afectar el desarrollo del proyecto.
+
+La comunicación proactiva constituye otro patrón común. El 100 % expresa frustración frente a problemas comunicados tardíamente o información incompleta, y considera importante conocer los riesgos antes de que estos produzcan consecuencias importantes.
+
+Respecto a la forma de tomar decisiones, el 100 % presenta un comportamiento orientado a la reducción de riesgos. Los participantes revisan referencias, antecedentes, costos, cumplimiento o evidencia antes de elegir o continuar trabajando con una empresa constructora.
+
+El 100 % considera que una herramienta digital de seguimiento podría mejorar su experiencia, especialmente si proporciona trazabilidad, evidencia y acceso directo a la información.
+
+En relación con las habilidades, la negociación aparece en el 100 % de los perfiles, mientras que las capacidades relacionadas con organización, planificación o control financiero están presentes en el 100 % de los participantes.
+
+Las recomendaciones, referencias o antecedentes de terceros constituyen una influencia relevante en el 100 % de los casos. Los participantes indicaron que consideran referencias de clientes, otros empresarios, equipos técnicos, asesores o experiencias anteriores antes de tomar decisiones.
+
+En cuanto a los factores de confianza, el 100 % valora que la información presentada incluya evidencia o mecanismos que permitan comprobar su procedencia. Los registros actualizados, fotografías, responsables identificados, historial de cambios o documentación constituyen elementos importantes para el segmento.
+
+El cumplimiento de plazos constituye un objetivo o criterio de decisión para el 100 % de los participantes. Asimismo, el 100 % busca reducir la incertidumbre y evitar consecuencias económicas ocasionadas por retrasos, falta de planificación o comunicación tardía.
+
+Como principal frustración, el 100 % menciona situaciones relacionadas con información incompleta, poco clara o comunicada después de que el problema ya se ha producido.
+
+Figura X  
+*Características subjetivas predominantes en contratantes de empresas privadas*
+
+<!-- DATOS PARA LA GRÁFICA:
+
+Valora la transparencia: 100 %
+Necesita información actualizada: 100 %
+Busca comunicación proactiva: 100 %
+Orientación a reducción de riesgos: 100 %
+Valoración positiva del seguimiento digital: 100 %
+Negociación como habilidad relevante: 100 %
+Organización/planificación/control financiero: 100 %
+Referencias externas influyen en decisiones: 100 %
+Valora evidencia y trazabilidad: 100 %
+Cumplimiento de plazos como prioridad: 100 %
+Busca reducir incertidumbre: 100 %
+Información tardía o incompleta como frustración: 100 %
+
+-->
+
+<p align="center">
+  <img src="assets/chapter-2/analysis/contratantes-caracteristicas-subjetivas.png"
+       alt="Características subjetivas predominantes en contratantes de empresas privadas"
+       width="900">
+</p>
+
+*Nota.* Elaboración propia a partir de las entrevistas realizadas.
+
+El segmento de contratantes se caracteriza principalmente por una necesidad de transparencia, visibilidad, reducción de riesgos y acceso oportuno a información verificable. Los participantes valoran positivamente la tecnología cuando esta les permite conocer el estado real de una obra sin depender exclusivamente de reportes enviados manualmente por la constructora.
+
+Estas características deberán reflejarse posteriormente en el User Persona correspondiente al segmento, particularmente en su comportamiento orientado al análisis de riesgos, sus necesidades de información, sus factores de confianza, sus canales digitales y sus principales frustraciones.
+
+---
+
+#### Síntesis del análisis
+
+Los resultados permiten observar diferencias claras entre los dos segmentos objetivo.
+
+Los supervisores de obra presentan necesidades principalmente relacionadas con el control operativo y la actualización de información. El 100 % busca disponer de información actualizada, el 100 % considera necesaria una mejor centralización de datos y el 100 % destaca la importancia de la coordinación entre los diferentes responsables del proyecto.
+
+En contraste, los contratantes de empresas privadas concentran sus necesidades en la transparencia, visibilidad y reducción de incertidumbre. El 100 % considera importante contar con información actualizada, el 100 % valora la transparencia y el 100 % presenta preocupación por recibir información o alertas demasiado tarde.
+
+A nivel tecnológico, ambos segmentos utilizan dispositivos y herramientas digitales de uso cotidiano, pero con finalidades distintas. Los supervisores emplean principalmente estas herramientas para registrar, consolidar y comunicar información operativa, mientras que los contratantes las utilizan para recibir documentación, revisar el estado de sus proyectos y comunicarse con la constructora.
+
+En consecuencia, el arquetipo correspondiente al supervisor de obra deberá reflejar principalmente necesidades de eficiencia operativa, control, coordinación y reducción de registros fragmentados. Por otro lado, el arquetipo correspondiente al contratante de empresa privada deberá reflejar necesidades de transparencia, seguimiento, evidencia, confianza y reducción de riesgos.
 
 ---
 
