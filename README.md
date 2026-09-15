@@ -1235,6 +1235,66 @@ Las características correspondientes a personalidad, habilidades y marcas o ref
 
 ## 3.1. To-Be Scenario Mapping
 
+<ins>**To-Be Scenario Mapping del segmento #1: Supervisores de obra**</ins>  
+
+**Figura 36**   
+*To-Be Scenario Mapping del segmento #1*
+<p align="center">
+  <img src="assets/To-be/OS_To-be_S1.jpg" alt="PB" width="1000">
+</p>
+
+
+**Figura 37**   
+*Áreas positivas del To-Be Scenario Mapping para segmento #1*
+<p align="center">
+  <img src="assets/To-be/OS_To-be_S1_AP.jpg" alt="PB" width="1000">
+</p>
+
+
+**Figura 38**   
+*Áreas negativas del To-Be Scenario Mapping para segmento #1*
+<p align="center">
+  <img src="assets/To-be/OS_To-be_S1_AN.jpg" alt="PB" width="1000">
+</p>
+
+
+**Figura 39**   
+*Blank areas del To-Be Scenario Mapping para segmento #1*
+<p align="center">
+  <img src="assets/To-be/OS_To-be_S1_BA.jpg" alt="PB" width="1000">
+</p>
+  
+
+<ins>**To-Be Scenario Mapping para Segmento #2: Contratantes de Empresas Privadas**</ins>
+
+**Figura 40**   
+*To-Be Scenario Mapping para segmento #2*  
+<p align="center">
+  <img src="assets/To-be/OS_To-be_S2.jpg" alt="PB" width="1000">
+</p>
+
+
+**Figura 41**   
+*Áreas positivas del To-Be Scenario Mapping para segmento #2*
+<p align="center">
+  <img src="assets/To-be/OS_To-be_S2_AP.jpg" alt="PB" width="1000">
+</p>
+  
+
+**Figura 42**   
+*Áreas negativas del To-Be Scenario Mapping para segmento #2*
+<p align="center">
+  <img src="assets/To-be/OS_To-be_S2_AN.jpg" alt="PB" width="1000">
+</p>
+ 
+
+**Figura 43**   
+*Blank areas del To-Be Scenario Mapping para segmento #2*
+<p align="center">
+  <img src="assets/To-be/OS_To-be_S2_BA.jpg" alt="PB" width="1000">
+</p>
+
+
 ## 3.2. User Stories
 
 En esta sección se presentan los Epics, User Stories, Technical Stories y Spike Stories definidos para ArquiTech. Las historias funcionales representan las necesidades de los principales segmentos de usuario del producto digital: supervisores de obra, contratantes y visitantes de la Landing Page. Las Technical Stories representan capacidades técnicas necesarias para soportar dichas funcionalidades y utilizan el rol `Developer`. Finalmente, las Spike Stories representan actividades de investigación, análisis o validación técnica necesarias para reducir incertidumbre antes de realizar modificaciones o extensiones sobre el producto.
