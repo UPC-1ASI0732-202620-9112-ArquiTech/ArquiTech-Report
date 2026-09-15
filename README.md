@@ -20,17 +20,17 @@
 
 **Integrantes**:
 
-Chacaliaza Minaya, Eduardo Fabian - 
+Chacaliaza Minaya, Eduardo Fabian - U202324129
 
-Espino Rossi, Victor Manuel - 
+Espino Rossi, Victor Manuel - U202411567
 
-Garcia Cerpa, Braden Raid - 
+Garcia Cerpa, Braden Raid - U202415618
 
 Mendoza Moreano, Mariel Lucero  - u20231a418
 
-Quispe Barzola, Fabricio Fabian
+Quispe Barzola, Fabricio Fabian - U202320442
 
-**Agosto, 2026**
+**Septiembre, 2026**
 
 </div>
 
@@ -39,8 +39,12 @@ Quispe Barzola, Fabricio Fabian
 # Registro de Versiones del Informe
 
 | Versión | Fecha | Autor | Descripción de modificación |
-| :--- | :--- | :--- | :--- |
-| TB1 | 24/04/2025 | Mariel Lucero Mendoza Moreano<br><br>I2<br><br>I3<br><br>I4<br><br>I5 | blablabla |
+| :---: | :---: | :--- | :--- |
+| 1.0.0 | 14/09/2026 | Mendoza Moreano, Mariel Lucero | <span style="display:block; text-align:justify;">Elaboración de las secciones 1.1.1 Descripción de la Startup, 1.1.2 Perfiles de integrantes del equipo, 1.2.1 Antecedentes y problemática, 1.2.2 Lean UX Process, 2.3.1 User Personas, 2.3.2 User Task Matrix, 4.7 Web Applications Prototyping y 4.8 Domain-Driven Software Architecture.</span> |
+| 1.0.1 | 14/09/2026 | Chacaliaza Minaya, Eduardo Fabian | <span style="display:block; text-align:justify;">Elaboración de las secciones 1.3 Segmentos objetivo, 2.1.1 Análisis competitivo, 2.1.2 Estrategias y tácticas frente a competidores, 3.3 Product Backlog, 4.3 Landing Page UI Design y 4.4 Mobile Applications UX/UI Design.</span> |
+| 1.0.2 | 14/09/2026 | Quispe Barzola, Fabricio Fabian | <span style="display:block; text-align:justify;">Elaboración de las secciones 2.2.1 Diseño de entrevistas, 2.2.2 Registro de entrevistas, 2.2.3 Análisis de entrevistas, 3.2 User Stories, 4.9 Software Object-Oriented Design, 4.10 Database Design y 5.1 Software Configuration Management.</span> |
+| 1.0.3 | 14/09/2026 | Espino Rossi, Victor Manuel | <span style="display:block; text-align:justify;">Elaboración de las secciones 2.3.3 User Journey Mapping, 2.3.4 Empathy Mapping, 3.4 Impact Mapping, 4.5 Mobile Applications Prototyping, 4.6 Web Applications UX/UI Design y 5.2 Product Implementation & Deployment.</span> |
+| 1.0.4 | 14/09/2026 | Garcia Cerpa, Braden Raid | <span style="display:block; text-align:justify;">Elaboración de las secciones 2.3.5 As-is Scenario Mapping, 2.4 Ubiquitous Language, 3.1 To-Be Scenario Mapping, 4.1 Style Guidelines, 4.2 Information Architecture y 5.3 Video About-the-Product.</span> |
 
 # Project Report Collaboration Insights
 
@@ -242,15 +246,27 @@ A continuación, capturas del procesos, commits  y elaboración de nuestro proye
 
 # Student Outcome
 
-Student Outcome ABET: **ABET – EAC - Student Outcome 4** <br> Criterio: _La capacidad de reconocer responsabilidades éticas y profesionales en
-situaciones de ingeniería y hacer juicios informados, que deben considerar el
-impacto de las soluciones de ingeniería en contextos globales, económicos,
-ambientales y sociales._
+El curso contribuye al cumplimiento del siguiente Student Outcome ABET:
 
-| Criterio específico | Acciones realizadas | Conclusiones |
-| :--- | :--- | :--- |
-| Reconoce responsabilidad<br>ética y profesional en<br>situaciones de ingeniería<br>de software | Mendoza Moreano, Mariel Lucero<br>av1:<br>blablablabla.<br><br>Integrante 2<br>av1:<br>blablablabla<br><br>Integrante 3<br>av1:<br>blablabla<br><br>Integrante 4<br>av1:<br>blablablabla<br><br>Integrante 5<br>av1:<br>blablabla | av1:<br>blablablabla |
-| Emite juicios informados<br>considerando el impacto<br>de las soluciones de<br>ingeniería de software... | Mendoza Moreano, Mariel Lucero<br>av1:<br>blablabla<br><br>Integrante 2<br>av1:<br>blablablabla | av1:<br>blablbalbla |
+**ABET – EAC - Student Outcome 4**  
+Criterio: *La capacidad de reconocer responsabilidades éticas y profesionales en situaciones de ingeniería y hacer juicios informados, que deben considerar el impacto de las soluciones de ingeniería en contextos globales, económicos, ambientales y sociales.*
+
+<table style="width:100%; table-layout:fixed; border-collapse:collapse;">
+  <colgroup><col style="width:18%;"><col style="width:60%;"><col style="width:22%;"></colgroup>
+  <thead><tr><th align="center" style="text-align:center !important;">Criterio específico</th><th align="center" style="text-align:center !important;">Acciones realizadas</th><th align="center" style="text-align:center !important;">Conclusiones</th></tr></thead>
+  <tbody>
+    <tr>
+      <td valign="middle" style="text-align:justify; vertical-align:middle !important; padding:8px;"><strong>4.c.1 Reconoce responsabilidad ética y profesional en situaciones de ingeniería de software</strong></td>
+      <td style="text-align:justify; vertical-align:top; padding:8px;"><strong>Mendoza Moreano, Mariel Lucero</strong><br><strong>AV1:</strong> Participó en la elaboración de la descripción de la startup, perfiles de integrantes, antecedentes y problemática, Lean UX Process, User Personas, User Task Matrix, Web Applications Prototyping y Domain-Driven Software Architecture. Estas actividades permitieron identificar de manera responsable las necesidades de los usuarios, evitar diseñar funcionalidades basadas únicamente en supuestos y plantear una solución alineada con los problemas reales del dominio de construcción.<br><br><strong>Chacaliaza Minaya, Eduardo Fabian</strong><br><strong>AV1:</strong> Elaboró los segmentos objetivo, el análisis competitivo, las estrategias y tácticas frente a competidores, el Product Backlog, Landing Page UI Design y Mobile Applications UX/UI Design. Estas actividades implicaron documentar de manera transparente las fortalezas y limitaciones de ArquiTech frente a otras soluciones, priorizar requisitos de acuerdo con las necesidades de los usuarios y considerar criterios de claridad, accesibilidad y responsabilidad en el diseño de las interfaces.<br><br><strong>Quispe Barzola, Fabricio Fabian</strong><br><strong>AV1:</strong> Desarrolló el diseño, registro y análisis de entrevistas, User Stories, Software Object-Oriented Design, Database Design y Software Configuration Management. La realización de entrevistas permitió obtener información directamente de los segmentos objetivo y reducir decisiones basadas en suposiciones. Asimismo, la definición de requisitos, modelos de datos y prácticas de configuración contribuyó a una documentación responsable y trazable del sistema.<br><br><strong>Espino Rossi, Victor Manuel</strong><br><strong>AV1:</strong> Elaboró User Journey Mapping, Empathy Mapping, Impact Mapping, Mobile Applications Prototyping, Web Applications UX/UI Design y Product Implementation &amp; Deployment. Estas actividades permitieron representar de forma responsable las necesidades, frustraciones y experiencias de los usuarios, evitando que el diseño de la solución se centre únicamente en aspectos técnicos y considerando la experiencia de los distintos actores involucrados.<br><br><strong>Garcia Cerpa, Braden Raid</strong><br><strong>AV1:</strong> Elaboró As-is Scenario Mapping, Ubiquitous Language, To-Be Scenario Mapping, Style Guidelines, Information Architecture y Video About-the-Product. Estas actividades contribuyeron a mantener una comunicación clara y sin ambigüedades dentro del proyecto, así como a diseñar una experiencia comprensible y consistente para los usuarios, considerando principios de accesibilidad, claridad de información y comunicación responsable del producto.</td>
+      <td valign="middle" style="text-align:justify; vertical-align:middle !important; padding:8px;"><strong>AV1:</strong> Durante el desarrollo del primer avance, el equipo reconoció que la construcción de ArquiTech no debe limitarse a implementar funcionalidades, sino que requiere comprender las consecuencias de las decisiones tomadas durante el ciclo de vida del software. La investigación con usuarios, la definición responsable de requisitos, la documentación de decisiones y el diseño orientado a la accesibilidad permitieron reducir suposiciones y establecer una base ética para el desarrollo de la solución. El equipo concluye que la responsabilidad profesional implica mantener transparencia sobre las capacidades y limitaciones del producto, proteger la información gestionada y priorizar las necesidades reales de los usuarios.</td>
+    </tr>
+    <tr>
+      <td valign="middle" style="text-align:justify; vertical-align:middle !important; padding:8px;"><strong>4.c.2 Emite juicios informados considerando el impacto de las soluciones de ingeniería de software en contextos globales, económicos, ambientales y sociales</strong></td>
+      <td style="text-align:justify; vertical-align:top; padding:8px;"><strong>Mendoza Moreano, Mariel Lucero</strong><br><strong>AV1:</strong> Mediante el análisis de la problemática, Lean UX Process, User Personas y User Task Matrix, identificó cómo los procesos manuales utilizados actualmente pueden afectar la productividad y coordinación de las obras. Sus aportes permitieron considerar el impacto social de facilitar el trabajo de supervisores y personal administrativo, así como el impacto económico asociado a una mejor gestión del tiempo y de los recursos utilizados en los proyectos.<br><br><strong>Chacaliaza Minaya, Eduardo Fabian</strong><br><strong>AV1:</strong> A través del análisis de segmentos, competidores, estrategias competitivas y Product Backlog, evaluó el contexto económico en el que ArquiTech busca posicionarse. El análisis permitió reconocer la necesidad de ofrecer una solución accesible para pequeñas y medianas empresas constructoras, así como considerar el impacto económico de reducir errores de inventario, mejorar el seguimiento de proyectos y evitar el uso innecesario de recursos.<br><br><strong>Quispe Barzola, Fabricio Fabian</strong><br><strong>AV1:</strong> Mediante las entrevistas y el análisis de los datos obtenidos de los usuarios, identificó problemas relacionados con duplicidad de información, retrasos en reportes y dificultades de coordinación. Estos hallazgos permiten emitir juicios sobre el impacto social y económico de la solución, debido a que una gestión más eficiente puede reducir pérdidas de tiempo, errores administrativos y decisiones basadas en información desactualizada.<br><br><strong>Espino Rossi, Victor Manuel</strong><br><strong>AV1:</strong> Mediante User Journey Mapping, Empathy Mapping e Impact Mapping, analizó cómo la solución podría modificar la experiencia de los usuarios y generar cambios en la forma en que supervisores y contratantes acceden a la información. Estos artefactos permitieron considerar impactos sociales relacionados con la comunicación y transparencia entre los actores del proyecto, además de impactos económicos derivados de una toma de decisiones más oportuna.<br><br><strong>Garcia Cerpa, Braden Raid</strong><br><strong>AV1:</strong> A través del As-is Scenario Mapping y To-Be Scenario Mapping, comparó la situación actual con la experiencia propuesta mediante ArquiTech. Esta comparación permitió identificar posibles mejoras en la eficiencia operativa y en la reducción del uso de documentos físicos, considerando tanto el impacto económico como el ambiental asociado a la digitalización de procesos. Asimismo, las decisiones de Information Architecture y Style Guidelines contribuyeron a considerar el impacto social de ofrecer una plataforma comprensible y accesible para diferentes tipos de usuarios.</td>
+      <td valign="middle" style="text-align:justify; vertical-align:middle !important; padding:8px;"><strong>AV1:</strong> El equipo concluye que ArquiTech puede generar impactos positivos en diferentes dimensiones. En el contexto económico, puede contribuir a disminuir errores de inventario, duplicidad de compras y tiempo invertido en tareas administrativas. En el contexto social, puede mejorar la coordinación y transparencia entre supervisores, áreas administrativas y contratantes. Desde una perspectiva ambiental, la digitalización de registros y reportes puede reducir el uso de documentos físicos, aunque también deberá considerarse posteriormente el consumo de recursos tecnológicos asociado a la plataforma. En el contexto global, el equipo reconoce que una solución digital orientada al sector construcción debe considerar escalabilidad, protección de información, accesibilidad e internacionalización para poder adaptarse a distintos contextos y usuarios.</td>
+    </tr>
+  </tbody>
+</table>
 
 <div style="page-break-before: always;"></div>
 
