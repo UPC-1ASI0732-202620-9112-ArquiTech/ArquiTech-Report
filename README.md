@@ -38,13 +38,13 @@ Quispe Barzola, Fabricio Fabian - U202320442
 
 # Registro de Versiones del Informe
 
-| Versión | Fecha | Autor | Descripción de modificación |
-| :---: | :---: | :--- | :--- |
-| 1.0.0 | 14/09/2026 | Mendoza Moreano, Mariel Lucero | <span style="display:block; text-align:justify;">Elaboración de las secciones 1.1.1 Descripción de la Startup, 1.1.2 Perfiles de integrantes del equipo, 1.2.1 Antecedentes y problemática, 1.2.2 Lean UX Process, 2.3.1 User Personas, 2.3.2 User Task Matrix, 4.7 Web Applications Prototyping y 4.8 Domain-Driven Software Architecture.</span> |
-| 1.0.1 | 14/09/2026 | Chacaliaza Minaya, Eduardo Fabian | <span style="display:block; text-align:justify;">Elaboración de las secciones 1.3 Segmentos objetivo, 2.1.1 Análisis competitivo, 2.1.2 Estrategias y tácticas frente a competidores, 3.3 Product Backlog, 4.3 Landing Page UI Design y 4.4 Mobile Applications UX/UI Design.</span> |
-| 1.0.2 | 14/09/2026 | Quispe Barzola, Fabricio Fabian | <span style="display:block; text-align:justify;">Elaboración de las secciones 2.2.1 Diseño de entrevistas, 2.2.2 Registro de entrevistas, 2.2.3 Análisis de entrevistas, 3.2 User Stories, 4.9 Software Object-Oriented Design, 4.10 Database Design y 5.1 Software Configuration Management.</span> |
-| 1.0.3 | 14/09/2026 | Espino Rossi, Victor Manuel | <span style="display:block; text-align:justify;">Elaboración de las secciones 2.3.3 User Journey Mapping, 2.3.4 Empathy Mapping, 3.4 Impact Mapping, 4.5 Mobile Applications Prototyping, 4.6 Web Applications UX/UI Design y 5.2 Product Implementation & Deployment.</span> |
-| 1.0.4 | 14/09/2026 | Garcia Cerpa, Braden Raid | <span style="display:block; text-align:justify;">Elaboración de las secciones 2.3.5 As-is Scenario Mapping, 2.4 Ubiquitous Language, 3.1 To-Be Scenario Mapping, 4.1 Style Guidelines, 4.2 Information Architecture y 5.3 Video About-the-Product.</span> |
+| Versión |   Fecha    | Autor                             | Descripción de modificación                                                                                                                                                                                                                                                                                                                        |
+| :-----: | :--------: | :-------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|  1.0.0  | 14/09/2026 | Mendoza Moreano, Mariel Lucero    | <span style="display:block; text-align:justify;">Elaboración de las secciones 1.1.1 Descripción de la Startup, 1.1.2 Perfiles de integrantes del equipo, 1.2.1 Antecedentes y problemática, 1.2.2 Lean UX Process, 2.3.1 User Personas, 2.3.2 User Task Matrix, 4.7 Web Applications Prototyping y 4.8 Domain-Driven Software Architecture.</span> |
+|  1.0.1  | 14/09/2026 | Chacaliaza Minaya, Eduardo Fabian | <span style="display:block; text-align:justify;">Elaboración de las secciones 1.3 Segmentos objetivo, 2.1.1 Análisis competitivo, 2.1.2 Estrategias y tácticas frente a competidores, 3.3 Product Backlog, 4.3 Landing Page UI Design y 4.4 Mobile Applications UX/UI Design.</span>                                                               |
+|  1.0.2  | 14/09/2026 | Quispe Barzola, Fabricio Fabian   | <span style="display:block; text-align:justify;">Elaboración de las secciones 2.2.1 Diseño de entrevistas, 2.2.2 Registro de entrevistas, 2.2.3 Análisis de entrevistas, 3.2 User Stories, 4.9 Software Object-Oriented Design, 4.10 Database Design y 5.1 Software Configuration Management.</span>                                               |
+|  1.0.3  | 14/09/2026 | Espino Rossi, Victor Manuel       | <span style="display:block; text-align:justify;">Elaboración de las secciones 2.3.3 User Journey Mapping, 2.3.4 Empathy Mapping, 3.4 Impact Mapping, 4.5 Mobile Applications Prototyping, 4.6 Web Applications UX/UI Design y 5.2 Product Implementation & Deployment.</span>                                                                      |
+|  1.0.4  | 14/09/2026 | Garcia Cerpa, Braden Raid         | <span style="display:block; text-align:justify;">Elaboración de las secciones 2.3.5 As-is Scenario Mapping, 2.4 Ubiquitous Language, 3.1 To-Be Scenario Mapping, 4.1 Style Guidelines, 4.2 Information Architecture y 5.3 Video About-the-Product.</span>                                                                                          |
 
 # Project Report Collaboration Insights
 
@@ -227,7 +227,7 @@ A continuación, capturas del procesos, commits y elaboración de nuestro proyec
 El curso contribuye al cumplimiento del siguiente Student Outcome ABET:
 
 **ABET – EAC - Student Outcome 4**  
-Criterio: *La capacidad de reconocer responsabilidades éticas y profesionales en situaciones de ingeniería y hacer juicios informados, que deben considerar el impacto de las soluciones de ingeniería en contextos globales, económicos, ambientales y sociales.*
+Criterio: _La capacidad de reconocer responsabilidades éticas y profesionales en situaciones de ingeniería y hacer juicios informados, que deben considerar el impacto de las soluciones de ingeniería en contextos globales, económicos, ambientales y sociales._
 
 <table style="width:100%; table-layout:fixed; border-collapse:collapse;">
   <colgroup><col style="width:18%;"><col style="width:60%;"><col style="width:22%;"></colgroup>
@@ -270,13 +270,13 @@ En Foundex, consideramos que la digitalización de estos procesos es fundamental
 
 ### 1.1.2. Perfiles de integrantes del equipo
 
-| Foto | Integrante |
-| ----- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <img src="assets/team/Eduardo-Chacaliaza.png" width="220" style="width:220px; min-width:220px; height:auto;" alt="Eduardo Chacaliaza"> | <div style="text-align: justify;"><strong>Chacaliaza Minaya, Eduardo Fabian - U202324129</strong><br>Estudiante de Ingeniería de Software, interesado en el desarrollo de aplicaciones y soluciones tecnológicas orientadas a resolver necesidades reales de los usuarios. Me caracterizo por tener un enfoque analítico, capacidad para adaptarme a nuevos entornos y disposición para aprender nuevas tecnologías y herramientas de desarrollo. En este proyecto, busco contribuir en el análisis, diseño y definición de soluciones que mejoren la experiencia de los usuarios.</div> |
-| <img src="assets/team/Victor-Espino.png" width="220" style="width:220px; min-width:220px; height:auto;" alt="Victor Espino"> | <div style="text-align: justify;"><strong>Espino Rossi, Victor Manuel - U202411567</strong><br>Estudiante de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas, con interés en el desarrollo de aplicaciones, diseño de soluciones digitales y nuevas tecnologías. Me encuentro en constante aprendizaje y busco fortalecer mis conocimientos técnicos y habilidades de trabajo colaborativo. En este proyecto, aporto en la elaboración de artefactos de experiencia de usuario, prototipado y desarrollo de la solución.</div> |
-| <img src="assets/team/Braden-Garcia.png" width="220" style="width:220px; min-width:220px; height:auto;" alt="Braden Garcia"> | <div style="text-align: justify;"><strong>Garcia Cerpa, Braden Raid - U202415618</strong><br>Estudiante de Ingeniería de Software con interés en el desarrollo de soluciones tecnológicas orientadas a resolver problemas reales. Me caracterizo por mantener una actitud responsable, organizada y colaborativa durante el desarrollo de proyectos. Asimismo, busco fortalecer mis conocimientos en diseño de software, experiencia de usuario y desarrollo de aplicaciones, aportando ideas que contribuyan a obtener soluciones funcionales y de calidad.</div> |
-| <img src="assets/team/Mariel-Mendoza.jpeg" width="220" style="width:220px; min-width:220px; height:auto;" alt="Mariel Mendoza"> | <div style="text-align: justify;"><strong>Mendoza Moreano, Mariel Lucero - U20231A418</strong><br>Estudiante de Ingeniería de Software con interés en el análisis de problemas, diseño de soluciones centradas en el usuario y arquitectura de software. Me caracterizo por mantener una actitud responsable, organizada y orientada al aprendizaje continuo. En este proyecto, busco aportar en la definición de las necesidades de los usuarios, el diseño de la solución y la estructuración de los principales componentes de ArquiTech.</div> |
-| <img src="assets/team/Fabricio-Quispe.png" width="220" style="width:220px; min-width:220px; height:auto;" alt="Fabricio Quispe"> | <div style="text-align: justify;"><strong>Quispe Barzola, Fabricio Fabian - U202320442</strong><br>Estudiante de Ingeniería de Software con interés en el desarrollo de aplicaciones y soluciones tecnológicas orientadas a resolver problemas reales. Me caracterizo por tener disposición para aprender nuevas herramientas y tecnologías, así como por mantener un enfoque responsable y organizado durante el desarrollo de proyectos. Asimismo, busco fortalecer mis conocimientos en programación, diseño de software y buenas prácticas de desarrollo, contribuyendo activamente en el trabajo en equipo y en la elaboración de soluciones funcionales, eficientes y de calidad.</div> |
+| Foto                                                                                                                                   | Integrante                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| -------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <img src="assets/team/Eduardo-Chacaliaza.png" width="220" style="width:220px; min-width:220px; height:auto;" alt="Eduardo Chacaliaza"> | <div style="text-align: justify;"><strong>Chacaliaza Minaya, Eduardo Fabian - U202324129</strong><br>Estudiante de Ingeniería de Software, interesado en el desarrollo de aplicaciones y soluciones tecnológicas orientadas a resolver necesidades reales de los usuarios. Me caracterizo por tener un enfoque analítico, capacidad para adaptarme a nuevos entornos y disposición para aprender nuevas tecnologías y herramientas de desarrollo. En este proyecto, busco contribuir en el análisis, diseño y definición de soluciones que mejoren la experiencia de los usuarios.</div>                                                                                                      |
+| <img src="assets/team/Victor-Espino.png" width="220" style="width:220px; min-width:220px; height:auto;" alt="Victor Espino">           | <div style="text-align: justify;"><strong>Espino Rossi, Victor Manuel - U202411567</strong><br>Estudiante de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas, con interés en el desarrollo de aplicaciones, diseño de soluciones digitales y nuevas tecnologías. Me encuentro en constante aprendizaje y busco fortalecer mis conocimientos técnicos y habilidades de trabajo colaborativo. En este proyecto, aporto en la elaboración de artefactos de experiencia de usuario, prototipado y desarrollo de la solución.</div>                                                                                                                                         |
+| <img src="assets/team/Braden-Garcia.png" width="220" style="width:220px; min-width:220px; height:auto;" alt="Braden Garcia">           | <div style="text-align: justify;"><strong>Garcia Cerpa, Braden Raid - U202415618</strong><br>Estudiante de Ingeniería de Software con interés en el desarrollo de soluciones tecnológicas orientadas a resolver problemas reales. Me caracterizo por mantener una actitud responsable, organizada y colaborativa durante el desarrollo de proyectos. Asimismo, busco fortalecer mis conocimientos en diseño de software, experiencia de usuario y desarrollo de aplicaciones, aportando ideas que contribuyan a obtener soluciones funcionales y de calidad.</div>                                                                                                                            |
+| <img src="assets/team/Mariel-Mendoza.jpeg" width="220" style="width:220px; min-width:220px; height:auto;" alt="Mariel Mendoza">        | <div style="text-align: justify;"><strong>Mendoza Moreano, Mariel Lucero - U20231A418</strong><br>Estudiante de Ingeniería de Software con interés en el análisis de problemas, diseño de soluciones centradas en el usuario y arquitectura de software. Me caracterizo por mantener una actitud responsable, organizada y orientada al aprendizaje continuo. En este proyecto, busco aportar en la definición de las necesidades de los usuarios, el diseño de la solución y la estructuración de los principales componentes de ArquiTech.</div>                                                                                                                                            |
+| <img src="assets/team/Fabricio-Quispe.png" width="220" style="width:220px; min-width:220px; height:auto;" alt="Fabricio Quispe">       | <div style="text-align: justify;"><strong>Quispe Barzola, Fabricio Fabian - U202320442</strong><br>Estudiante de Ingeniería de Software con interés en el desarrollo de aplicaciones y soluciones tecnológicas orientadas a resolver problemas reales. Me caracterizo por tener disposición para aprender nuevas herramientas y tecnologías, así como por mantener un enfoque responsable y organizado durante el desarrollo de proyectos. Asimismo, busco fortalecer mis conocimientos en programación, diseño de software y buenas prácticas de desarrollo, contribuyendo activamente en el trabajo en equipo y en la elaboración de soluciones funcionales, eficientes y de calidad.</div> |
 
 ## 1.2. Solution Profile
 
@@ -425,7 +425,6 @@ Inicialmente, ArquiTech se enfocará en usuarios que actualmente dependen de her
    Disponer de información confiable y actualizada que facilite el control y seguimiento de una obra y permita identificar oportunamente situaciones que puedan afectar su ejecución.
 
 5. **Los clientes también pueden obtener los siguientes beneficios adicionales**
-
    - Reducir el tiempo utilizado para recopilar información procedente de diferentes fuentes.
    - Mejorar la visibilidad sobre materiales, trabajadores, actividades y avances.
    - Facilitar la coordinación entre las personas involucradas en una obra.
@@ -459,7 +458,6 @@ Inicialmente, ArquiTech se enfocará en usuarios que actualmente dependen de her
     Flujos sencillos para las tareas frecuentes, una incorporación inicial clara, retroalimentación continua con usuarios y pruebas que permitan identificar y reducir dificultades durante la utilización de ArquiTech.
 
 12. **Otras suposiciones que, de resultar falsas, podrían causar que el proyecto fracase son**
-
     - Los usuarios consideran suficientemente problemático trabajar con información distribuida entre diferentes registros y herramientas.
     - Los responsables de supervisión están dispuestos a incorporar una solución digital si esta facilita sus actividades actuales.
     - Las personas que realizan seguimiento de una obra consideran valioso disponer de acceso más directo y frecuente a información del proyecto.
@@ -486,7 +484,6 @@ Inicialmente, ArquiTech se enfocará en usuarios que actualmente dependen de her
 3. **¿Qué problemas resuelve nuestro producto?**
 
    Para los supervisores de obra, ArquiTech busca reducir:
-
    - La dispersión de información entre registros físicos y herramientas digitales independientes.
    - Las dificultades para mantener actualizado el inventario.
    - La duplicación de trabajo al registrar o consolidar información.
@@ -495,7 +492,6 @@ Inicialmente, ArquiTech se enfocará en usuarios que actualmente dependen de her
    - Los problemas de coordinación ocasionados por información desactualizada.
 
    Para los contratantes, ArquiTech busca reducir:
-
    - La falta de visibilidad sobre el estado de una obra.
    - La dependencia de reportes periódicos y solicitudes constantes de información.
    - El conocimiento tardío de retrasos, incidencias o problemas.
@@ -511,7 +507,6 @@ Inicialmente, ArquiTech se enfocará en usuarios que actualmente dependen de her
 5. **¿Qué características son importantes?**
 
    Consideramos inicialmente importantes las siguientes características:
-
    - Gestión y consulta de materiales e inventario.
    - Gestión y consulta de trabajadores.
    - Registro y seguimiento de actividades o tareas.
@@ -541,15 +536,15 @@ Una vez declaradas las Business Assumptions y User Assumptions, las suposiciones
 
 Las suposiciones con mayor riesgo e incertidumbre deben validarse antes que aquellas para las cuales ya existe mayor evidencia o cuyo impacto sobre la propuesta de valor es menor.
 
-| Suposición | Riesgo | Incertidumbre | Prioridad |
-|---|---|---|---|
-| Los usuarios registrarán información con suficiente frecuencia para mantener ArquiTech actualizado y útil. | Alto | Alto | Crítica |
-| Los usuarios incorporarán ArquiTech en sus actividades habituales si la solución reduce la dependencia de herramientas dispersas. | Alto | Medio | Alta |
-| Los contratantes utilizarán directamente la información disponible en ArquiTech para realizar seguimiento de las obras. | Alto | Medio | Alta |
-| La trazabilidad de responsables y fechas aumentará la confianza de los usuarios en la información disponible. | Alto | Medio | Alta |
-| Los clientes estarán dispuestos a pagar una suscripción si ArquiTech demuestra suficiente valor frente a sus procedimientos actuales. | Alto | Alto | Crítica |
-| Las limitaciones de conectividad pueden gestionarse sin impedir la realización de las principales tareas de los usuarios. | Medio | Medio | Media |
-| Una experiencia sencilla permitirá que nuevos usuarios aprendan las principales tareas sin requerir capacitación extensa. | Medio | Medio | Media |
+| Suposición                                                                                                                            | Riesgo | Incertidumbre | Prioridad |
+| ------------------------------------------------------------------------------------------------------------------------------------- | ------ | ------------- | --------- |
+| Los usuarios registrarán información con suficiente frecuencia para mantener ArquiTech actualizado y útil.                            | Alto   | Alto          | Crítica   |
+| Los usuarios incorporarán ArquiTech en sus actividades habituales si la solución reduce la dependencia de herramientas dispersas.     | Alto   | Medio         | Alta      |
+| Los contratantes utilizarán directamente la información disponible en ArquiTech para realizar seguimiento de las obras.               | Alto   | Medio         | Alta      |
+| La trazabilidad de responsables y fechas aumentará la confianza de los usuarios en la información disponible.                         | Alto   | Medio         | Alta      |
+| Los clientes estarán dispuestos a pagar una suscripción si ArquiTech demuestra suficiente valor frente a sus procedimientos actuales. | Alto   | Alto          | Crítica   |
+| Las limitaciones de conectividad pueden gestionarse sin impedir la realización de las principales tareas de los usuarios.             | Medio  | Medio         | Media     |
+| Una experiencia sencilla permitirá que nuevos usuarios aprendan las principales tareas sin requerir capacitación extensa.             | Medio  | Medio         | Media     |
 
 Las suposiciones priorizadas sirven como base para formular los Hypothesis Statements y determinar posteriormente qué aspectos requieren validación mediante experimentos.
 
@@ -634,7 +629,7 @@ En **What's the most important thing we need to learn first?** se identifican la
 Finalmente, en **What's the least amount of work we need to do to learn the next most important thing?** se plantea un experimento de alcance reducido orientado a validar dicha suposición antes de realizar una implementación de mayor alcance. El experimento contempla establecer una línea base del procedimiento actual, utilizar un prototipo limitado con tareas representativas, observar el comportamiento de los supervisores y comparar el esfuerzo requerido con sus procedimientos habituales.
 
 **Figura 1**  
-*Lean UX Canvas de ArquiTech.*
+_Lean UX Canvas de ArquiTech._
 
 <p align="center">
   <img src="assets/chapter-1/Lean-UX-Canvas.png"
@@ -642,7 +637,7 @@ Finalmente, en **What's the least amount of work we need to do to learn the next
        width="1000">
 </p>
 
-*Nota.* Elaboración propia en Miro a partir de los Lean UX Problem Statements, Lean UX Assumptions y Lean UX Hypothesis Statements definidos para ArquiTech. 
+_Nota._ Elaboración propia en Miro a partir de los Lean UX Problem Statements, Lean UX Assumptions y Lean UX Hypothesis Statements definidos para ArquiTech.
 
 **Enlace al Lean UX Canvas en Miro:**  
 [https://miro.com/app/board/uXjVHncj1ew=/?share_link_id=890507134570](https://miro.com/app/board/uXjVHncj1ew=/?share_link_id=890507134570)
@@ -716,6 +711,7 @@ Los integrantes de este segmento necesitan conocer el estado de los proyectos co
 ## 2.1. Competidores
 
 ### 2.1.1. Análisis competitivo
+
 Para poder conocer y analizar mejor a nuestros posibles competidores, realizamos el siguiente Landscape:
 
 <table style="background-color:transparent; border-collapse:collapse; width:100%; table-layout:fixed; font-family:Arial,sans-serif; font-size:12px; line-height:16px; color:inherit; border:1px solid currentColor;">
@@ -1014,7 +1010,7 @@ Esta información servirá posteriormente como fuente para el análisis estadís
 - **Video consolidado:** [Entrevista1-Segmento1-Diseño](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202320442_upc_edu_pe/IQBsTLNNide4S4_-1cUwXRg4AdC35tmBxErwlBtYPznmQzk?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=u12fcE)
 
 **Figura 1**  
-*Cuadro de video del entrevistado #1 del segmento Supervisores de obra.*
+_Cuadro de video del entrevistado #1 del segmento Supervisores de obra._
 
 <p align="center">
   <img src="assets/chapter-2/interviews/interview-01.png"
@@ -1022,7 +1018,7 @@ Esta información servirá posteriormente como fuente para el análisis estadís
        width="900">
 </p>
 
-*Nota.* Elaboración propia a partir de la entrevista realizada.
+_Nota._ Elaboración propia a partir de la entrevista realizada.
 
 **Resumen de la entrevista**
 
@@ -1064,7 +1060,7 @@ Finalmente, considera que una solución digital también debería permitir compa
 - **Video consolidado:** [ENLACE PRIVADO DE MICROSOFT STREAM]
 
 **Figura 2**  
-*Cuadro de video del entrevistado #2 del segmento Supervisores de obra.*
+_Cuadro de video del entrevistado #2 del segmento Supervisores de obra._
 
 <p align="center">
   <img src="assets/chapter-2/interviews/interview-02.png"
@@ -1072,7 +1068,7 @@ Finalmente, considera que una solución digital también debería permitir compa
        width="900">
 </p>
 
-*Nota.* Elaboración propia a partir de la entrevista realizada.
+_Nota._ Elaboración propia a partir de la entrevista realizada.
 
 **Resumen de la entrevista**
 
@@ -1114,7 +1110,7 @@ Finalmente, considera importante que una plataforma permita realizar seguimiento
 - **Video consolidado:** [ENLACE PRIVADO DE MICROSOFT STREAM]
 
 **Figura X**  
-*Cuadro de video del entrevistado #3 del segmento Supervisores de obra.*
+_Cuadro de video del entrevistado #3 del segmento Supervisores de obra._
 
 <p align="center">
   <img src="assets/chapter-2/interviews/interview-03.png"
@@ -1122,7 +1118,7 @@ Finalmente, considera importante que una plataforma permita realizar seguimiento
        width="900">
 </p>
 
-*Nota.* Elaboración propia a partir de la entrevista realizada.
+_Nota._ Elaboración propia a partir de la entrevista realizada.
 
 **Resumen de la entrevista**
 
@@ -1168,7 +1164,7 @@ Finalmente, considera que sería útil recibir alertas automáticas ante eventos
 - **Video consolidado:** [ENLACE PRIVADO DE MICROSOFT STREAM]
 
 **Figura X**  
-*Cuadro de video del entrevistado #1 del segmento Contratantes de empresas privadas.*
+_Cuadro de video del entrevistado #1 del segmento Contratantes de empresas privadas._
 
 <p align="center">
   <img src="assets/chapter-2/interviews/interview-04.png"
@@ -1176,7 +1172,7 @@ Finalmente, considera que sería útil recibir alertas automáticas ante eventos
        width="900">
 </p>
 
-*Nota.* Elaboración propia a partir de la entrevista realizada.
+_Nota._ Elaboración propia a partir de la entrevista realizada.
 
 **Resumen de la entrevista**
 
@@ -1220,7 +1216,7 @@ Finalmente, considera que una empresa constructora que utilice herramientas digi
 - **Video consolidado:** [ENLACE PRIVADO DE MICROSOFT STREAM]
 
 **Figura X**  
-*Cuadro de video del entrevistado #2 del segmento Contratantes de empresas privadas.*
+_Cuadro de video del entrevistado #2 del segmento Contratantes de empresas privadas._
 
 <p align="center">
   <img src="assets/chapter-2/interviews/interview-05.png"
@@ -1228,7 +1224,7 @@ Finalmente, considera que una empresa constructora que utilice herramientas digi
        width="900">
 </p>
 
-*Nota.* Elaboración propia a partir de la entrevista realizada.
+_Nota._ Elaboración propia a partir de la entrevista realizada.
 
 **Resumen de la entrevista**
 
@@ -1274,7 +1270,7 @@ Finalmente, considera que una plataforma de seguimiento podría influir positiva
 - **Video consolidado:** [ENLACE PRIVADO DE MICROSOFT STREAM]
 
 **Figura X**  
-*Cuadro de video del entrevistado #3 del segmento Contratantes de empresas privadas.*
+_Cuadro de video del entrevistado #3 del segmento Contratantes de empresas privadas._
 
 <p align="center">
   <img src="assets/chapter-2/interviews/interview-06.png"
@@ -1282,7 +1278,7 @@ Finalmente, considera que una plataforma de seguimiento podría influir positiva
        width="900">
 </p>
 
-*Nota.* Elaboración propia a partir de la entrevista realizada.
+_Nota._ Elaboración propia a partir de la entrevista realizada.
 
 **Resumen de la entrevista**
 
@@ -1347,7 +1343,7 @@ El 100 % utiliza WhatsApp como canal de comunicación laboral y el 100 % utiliza
 Los distritos de residencia serán incorporados al análisis estadístico una vez que los tres participantes completen esta información durante las entrevistas. Este dato no se considera todavía dentro de los porcentajes para evitar incorporar información que no haya sido registrada.
 
 Figura X  
-*Características objetivas predominantes en supervisores de obra*
+_Características objetivas predominantes en supervisores de obra_
 
 <!-- DATOS PARA LA GRÁFICA:
 
@@ -1372,7 +1368,7 @@ Preferencia principal por laptop: 66.7 %
        width="900">
 </p>
 
-*Nota.* Elaboración propia a partir de las entrevistas realizadas.
+_Nota._ Elaboración propia a partir de las entrevistas realizadas.
 
 Los resultados objetivos permiten identificar un segmento profesional con experiencia significativa en el sector, acostumbrado a combinar herramientas tradicionales de gestión con dispositivos y canales digitales de uso general. La laptop y el smartphone forman parte de las herramientas habituales de los tres participantes, aunque la elección del dispositivo depende del contexto de trabajo: la laptop se utiliza principalmente para documentación y reportes, mientras que el smartphone facilita la comunicación y el trabajo en campo.
 
@@ -1401,7 +1397,7 @@ El 100 % tiene como objetivo mantener control sobre la ejecución de la obra y e
 Finalmente, el 100 % presenta frustraciones relacionadas con información que no se encuentra actualizada oportunamente, mientras que el 66.7 % menciona directamente retrasos o problemas asociados con materiales y el 66.7 % evidencia preocupación por la coordinación entre distintas áreas.
 
 Figura X  
-*Características subjetivas predominantes en supervisores de obra*
+_Características subjetivas predominantes en supervisores de obra_
 
 <!-- DATOS PARA LA GRÁFICA:
 
@@ -1427,7 +1423,7 @@ Retrasos/problemas de materiales: 66.7 %
        width="900">
 </p>
 
-*Nota.* Elaboración propia a partir de las entrevistas realizadas.
+_Nota._ Elaboración propia a partir de las entrevistas realizadas.
 
 En conjunto, el segmento de supervisores se caracteriza por una orientación hacia el control operativo, organización, disponibilidad de información y coordinación de recursos. Los participantes necesitan mantener información actualizada sobre personal, materiales y avance, y muestran una percepción favorable hacia herramientas digitales siempre que estas simplifiquen el trabajo y no añadan complejidad a las actividades realizadas en campo.
 
@@ -1456,7 +1452,7 @@ En cuanto a tecnología, el 100 % utiliza laptop y smartphone. El 100 % utiliza 
 El 100 % utiliza WhatsApp y correo electrónico como canales de comunicación relacionados con los proyectos. Respecto al navegador, el 66.7 % utiliza Google Chrome y el 33.3 % utiliza Microsoft Edge.
 
 Figura X  
-*Características objetivas predominantes en contratantes de empresas privadas*
+_Características objetivas predominantes en contratantes de empresas privadas_
 
 <!-- DATOS PARA LA GRÁFICA:
 
@@ -1481,7 +1477,7 @@ Google Chrome como navegador: 66.7 %
        width="900">
 </p>
 
-*Nota.* Elaboración propia a partir de las entrevistas realizadas.
+_Nota._ Elaboración propia a partir de las entrevistas realizadas.
 
 Los datos objetivos permiten identificar un segmento compuesto por personas con responsabilidades administrativas y capacidad de decisión, que utilizan habitualmente herramientas digitales convencionales para revisar documentación y comunicarse con las constructoras. Todos los participantes poseen experiencia previa con proyectos de construcción, lo que les permite evaluar aspectos como cumplimiento de plazos, presupuesto, calidad y transparencia.
 
@@ -1512,7 +1508,7 @@ El cumplimiento de plazos constituye un objetivo o criterio de decisión para el
 Como principal frustración, el 100 % menciona situaciones relacionadas con información incompleta, poco clara o comunicada después de que el problema ya se ha producido.
 
 Figura X  
-*Características subjetivas predominantes en contratantes de empresas privadas*
+_Características subjetivas predominantes en contratantes de empresas privadas_
 
 <!-- DATOS PARA LA GRÁFICA:
 
@@ -1537,7 +1533,7 @@ Información tardía o incompleta como frustración: 100 %
        width="900">
 </p>
 
-*Nota.* Elaboración propia a partir de las entrevistas realizadas.
+_Nota._ Elaboración propia a partir de las entrevistas realizadas.
 
 El segmento de contratantes se caracteriza principalmente por una necesidad de transparencia, visibilidad, reducción de riesgos y acceso oportuno a información verificable. Los participantes valoran positivamente la tecnología cuando esta les permite conocer el estado real de una obra sin depender exclusivamente de reportes enviados manualmente por la constructora.
 
@@ -1561,40 +1557,41 @@ La información obtenida en este análisis mantiene relación directa con los re
 
 ---
 
-
 ## 2.3. Needfinding
 
 ### 2.3.1. User Personas
 
 **Figura 22**  
-*User persona del segmento #1: Supervisor de Obra*  
+_User persona del segmento #1: Supervisor de Obra_
+
 <p align="center">
   <img src="assets/User Persona/Juan Carlos Zegarra.png" alt="PB" width="1000" align="center">
 </p>
 
-*Nota.* Elaboración propia.  
+_Nota._ Elaboración propia.
 
 **Figura 23**  
-*User persona del segmento #2: Contratista de Empresas privadas*  
+_User persona del segmento #2: Contratista de Empresas privadas_
+
 <p align="center">
   <img src="assets/User Persona/VERONICA DELGADO.png" alt="PB" width="1000">
 </p>
 
-*Nota.* Elaboración propia.  
+_Nota._ Elaboración propia.
 
 ### 2.3.2. User Task Matrix
 
-| Área | Tarea | Juan Carlos Zegarra |  | Verónica Delgado |  |
-| :---- | :---- | ----- | ----- | ----- | ----- |
-|  |  | Frecuencia | Importancia | Frecuencia | Importancia |
-| Supervisión de Avances | Monitorear el avance de la obra en tiempo real | Diaria | Alta | \- | \- |
-| Supervisión de Avances | Revisar reportes semanales detallados con métricas personalizadas | \- | \- | Semanal | Alta |
-| Gestión de Materiales y Personal | Verificar el uso de materiales y evitar desperdicio | Diaria | Alta | \- | \- |
-| Gestión de Materiales y Personal | Supervisar la asistencia de obreros y detectar ausencias | \- | \- | Diaria | Alta |
-| Cumplimiento de Normas y Licencias | Validar que las licencias estén en orden y vigentes | Mensual | Media | \- | \- |
-| Cumplimiento de Normas y Licencias | Recibir alertas sobre vencimientos de licencias | \- | \- | Según vencimientos | Alta |
-| Comunicación y Reportes | Compartir avances con stakeholders (ej. cliente, equipo legal) | Semanal | Alta | \- | \- |
-| Comunicación y Reportes | Recibir notificaciones de problemas críticos (ej. bajo inventario) | \- | \- | Inmediata (alertas) | Alta |
+| Área                               | Tarea                                                              | Juan Carlos Zegarra |             | Verónica Delgado    |             |
+| :--------------------------------- | :----------------------------------------------------------------- | ------------------- | ----------- | ------------------- | ----------- |
+|                                    |                                                                    | Frecuencia          | Importancia | Frecuencia          | Importancia |
+| Supervisión de Avances             | Monitorear el avance de la obra en tiempo real                     | Diaria              | Alta        | \-                  | \-          |
+| Supervisión de Avances             | Revisar reportes semanales detallados con métricas personalizadas  | \-                  | \-          | Semanal             | Alta        |
+| Gestión de Materiales y Personal   | Verificar el uso de materiales y evitar desperdicio                | Diaria              | Alta        | \-                  | \-          |
+| Gestión de Materiales y Personal   | Supervisar la asistencia de obreros y detectar ausencias           | \-                  | \-          | Diaria              | Alta        |
+| Cumplimiento de Normas y Licencias | Validar que las licencias estén en orden y vigentes                | Mensual             | Media       | \-                  | \-          |
+| Cumplimiento de Normas y Licencias | Recibir alertas sobre vencimientos de licencias                    | \-                  | \-          | Según vencimientos  | Alta        |
+| Comunicación y Reportes            | Compartir avances con stakeholders (ej. cliente, equipo legal)     | Semanal             | Alta        | \-                  | \-          |
+| Comunicación y Reportes            | Recibir notificaciones de problemas críticos (ej. bajo inventario) | \-                  | \-          | Inmediata (alertas) | Alta        |
 
 ### 2.3.3. User Journey Mapping
 
@@ -1638,65 +1635,68 @@ _Nota._ Elaboración propia.
 
 ## 3.1. To-Be Scenario Mapping
 
-<ins>**To-Be Scenario Mapping del segmento #1: Supervisores de obra**</ins>  
+<ins>**To-Be Scenario Mapping del segmento #1: Supervisores de obra**</ins>
 
-**Figura 36**   
-*To-Be Scenario Mapping del segmento #1*
+**Figura 36**  
+_To-Be Scenario Mapping del segmento #1_
+
 <p align="center">
   <img src="assets/To-be/OS_To-be_S1.jpg" alt="PB" width="1000">
 </p>
 
+**Figura 37**  
+_Áreas positivas del To-Be Scenario Mapping para segmento #1_
 
-**Figura 37**   
-*Áreas positivas del To-Be Scenario Mapping para segmento #1*
 <p align="center">
   <img src="assets/To-be/OS_To-be_S1_AP.jpg" alt="PB" width="1000">
 </p>
 
+**Figura 38**  
+_Áreas negativas del To-Be Scenario Mapping para segmento #1_
 
-**Figura 38**   
-*Áreas negativas del To-Be Scenario Mapping para segmento #1*
 <p align="center">
   <img src="assets/To-be/OS_To-be_S1_AN.jpg" alt="PB" width="1000">
 </p>
 
+**Figura 39**  
+_Blank areas del To-Be Scenario Mapping para segmento #1_
 
-**Figura 39**   
-*Blank areas del To-Be Scenario Mapping para segmento #1*
 <p align="center">
   <img src="assets/To-be/OS_To-be_S1_BA.jpg" alt="PB" width="1000">
 </p>
-  
+
 
 <ins>**To-Be Scenario Mapping para Segmento #2: Contratantes de Empresas Privadas**</ins>
 
-**Figura 40**   
-*To-Be Scenario Mapping para segmento #2*  
+**Figura 40**  
+_To-Be Scenario Mapping para segmento #2_
+
 <p align="center">
   <img src="assets/To-be/OS_To-be_S2.jpg" alt="PB" width="1000">
 </p>
 
+**Figura 41**  
+_Áreas positivas del To-Be Scenario Mapping para segmento #2_
 
-**Figura 41**   
-*Áreas positivas del To-Be Scenario Mapping para segmento #2*
 <p align="center">
   <img src="assets/To-be/OS_To-be_S2_AP.jpg" alt="PB" width="1000">
 </p>
-  
 
-**Figura 42**   
-*Áreas negativas del To-Be Scenario Mapping para segmento #2*
+
+**Figura 42**  
+_Áreas negativas del To-Be Scenario Mapping para segmento #2_
+
 <p align="center">
   <img src="assets/To-be/OS_To-be_S2_AN.jpg" alt="PB" width="1000">
 </p>
- 
 
-**Figura 43**   
-*Blank areas del To-Be Scenario Mapping para segmento #2*
+
+**Figura 43**  
+_Blank areas del To-Be Scenario Mapping para segmento #2_
+
 <p align="center">
   <img src="assets/To-be/OS_To-be_S2_BA.jpg" alt="PB" width="1000">
 </p>
-
 
 ## 3.2. User Stories
 
@@ -1708,96 +1708,96 @@ Los Acceptance Criteria se expresan mediante la estructura Given-When-Then (Dado
 
 La numeración conserva la trazabilidad con el backlog del proyecto reutilizado. Por este motivo existen saltos entre algunos identificadores, correspondientes a historias previamente eliminadas, fusionadas o reclasificadas.
 
-| Story ID | User | Priority | Epic | Title | Description | Acceptance Criteria |
-|---|---|---|---|---|---|---|
-| EP01 | — | Alta | — | Gestión de inventarios y materiales | Agrupa las funcionalidades relacionadas con materiales, movimientos de inventario y maquinaria utilizada en los proyectos. | — |
-| HU01 | Supervisor de obra | Alta | EP01 | Registrar entrada de materiales | Como supervisor de obra, deseo registrar la entrada de materiales para mantener actualizado el inventario de una obra. | AC1: Dado que el supervisor gestiona un proyecto válido, cuando registra una entrada de material con datos válidos, entonces el sistema almacena el movimiento y actualiza la disponibilidad del material.<br><br>AC2: Dado que la información requerida para la entrada es inválida o incompleta, cuando el supervisor intenta registrar el movimiento, entonces el sistema rechaza la operación y conserva el inventario sin modificaciones. |
-| HU02 | Supervisor de obra | Alta | EP01 | Registrar uso o salida de materiales | Como supervisor de obra, deseo registrar los materiales utilizados en una obra para mantener actualizado el stock disponible. | AC1: Dado que un material posee stock suficiente, cuando el supervisor registra una cantidad utilizada válida, entonces el sistema descuenta dicha cantidad y registra la salida correspondiente.<br><br>AC2: Dado que la cantidad solicitada supera el stock disponible, cuando el supervisor intenta registrar la salida, entonces el sistema rechaza la operación y conserva el stock existente. |
-| HU04 | Supervisor de obra | Alta | EP01 | Consultar historial de movimientos de materiales | Como supervisor de obra, deseo consultar las entradas y salidas de materiales para realizar seguimiento de los movimientos del inventario. | AC1: Dado que existen movimientos asociados al proyecto, cuando el supervisor consulta el historial, entonces el sistema presenta las entradas y salidas registradas con su información correspondiente.<br><br>AC2: Dado que el proyecto no posee movimientos registrados, cuando el supervisor consulta el historial, entonces el sistema devuelve un resultado vacío sin alterar la información existente. |
-| HU05 | Supervisor de obra | Alta | EP01 | Registrar maquinaria | Como supervisor de obra, deseo registrar maquinaria asociada a una obra para mantener control sobre los recursos utilizados en el proyecto. | AC1: Dado que el proyecto existe, cuando el supervisor registra una maquinaria con información válida, entonces el sistema almacena la maquinaria asociada al proyecto.<br><br>AC2: Dado que los datos de la maquinaria no cumplen las condiciones requeridas, cuando se solicita su registro, entonces el sistema rechaza la operación y no crea el recurso. |
-| HU28 | Supervisor de obra | Alta | EP01 | Consultar materiales | Como supervisor de obra, deseo consultar los materiales registrados en una obra para conocer su disponibilidad e información asociada. | AC1: Dado que existen materiales registrados, cuando el supervisor consulta los materiales de una obra, entonces el sistema devuelve la información correspondiente a los materiales disponibles.<br><br>AC2: Dado que no existen materiales asociados, cuando el supervisor realiza la consulta, entonces el sistema devuelve un resultado vacío sin generar modificaciones. |
-| HU29 | Supervisor de obra | Alta | EP01 | Actualizar información de materiales | Como supervisor de obra, deseo actualizar la información de un material para mantener correctos los datos del inventario. | AC1: Dado que el material existe, cuando el supervisor proporciona nuevos datos válidos, entonces el sistema actualiza la información del material.<br><br>AC2: Dado que el material no existe o los nuevos datos son inválidos, cuando se solicita la actualización, entonces el sistema rechaza la operación y conserva la información previa. |
-| HU30 | Supervisor de obra | Alta | EP01 | Consultar maquinaria | Como supervisor de obra, deseo consultar la maquinaria registrada en una obra para conocer los recursos disponibles y su estado. | AC1: Dado que existe maquinaria asociada al proyecto, cuando el supervisor realiza la consulta, entonces el sistema devuelve la información de las maquinarias registradas.<br><br>AC2: Dado que no existe maquinaria asociada, cuando el supervisor realiza la consulta, entonces el sistema devuelve un resultado vacío. |
-| HU31 | Supervisor de obra | Alta | EP01 | Actualizar información de maquinaria | Como supervisor de obra, deseo actualizar la información de una maquinaria para mantener vigente su información operativa. | AC1: Dado que la maquinaria existe, cuando el supervisor proporciona información válida, entonces el sistema actualiza sus datos.<br><br>AC2: Dado que la maquinaria no existe o la información es inválida, cuando se solicita la actualización, entonces el sistema rechaza la operación y conserva la información existente. |
-| HU40 | Contratante | Alta | EP01 | Consultar materiales de una obra | Como contratante, deseo consultar los materiales asociados a una obra para conocer los recursos registrados en el proyecto. | AC1: Dado que el contratante tiene acceso al proyecto, cuando consulta sus materiales, entonces el sistema devuelve los materiales asociados al proyecto.<br><br>AC2: Dado que no existen materiales registrados, cuando el contratante realiza la consulta, entonces el sistema devuelve un resultado vacío. |
-| HU41 | Contratante | Alta | EP01 | Consultar maquinaria de una obra | Como contratante, deseo consultar la maquinaria asociada a una obra para conocer los recursos utilizados en el proyecto. | AC1: Dado que el contratante tiene acceso al proyecto, cuando consulta la maquinaria, entonces el sistema devuelve los recursos de maquinaria asociados.<br><br>AC2: Dado que no existe maquinaria registrada, cuando se realiza la consulta, entonces el sistema devuelve un resultado vacío. |
-| HU47 | Supervisor de obra | Alta | EP01 | Eliminar material | Como supervisor de obra, deseo eliminar un material que ya no debe formar parte del registro para mantener actualizado el inventario. | AC1: Dado que el material existe y puede eliminarse, cuando el supervisor solicita su eliminación, entonces el sistema elimina el material registrado.<br><br>AC2: Dado que el material no existe, cuando se solicita su eliminación, entonces el sistema rechaza la operación y no modifica el inventario. |
-| HU48 | Supervisor de obra | Alta | EP01 | Eliminar maquinaria | Como supervisor de obra, deseo eliminar una maquinaria que ya no debe permanecer registrada para mantener actualizados los recursos de la obra. | AC1: Dado que la maquinaria existe, cuando el supervisor solicita su eliminación, entonces el sistema elimina el registro correspondiente.<br><br>AC2: Dado que la maquinaria no existe, cuando se solicita su eliminación, entonces el sistema informa que el recurso no se encuentra disponible y no realiza modificaciones. |
-| EP02 | — | Alta | — | Gestión de trabajadores y tareas | Agrupa las funcionalidades relacionadas con trabajadores y las actividades asignadas durante la ejecución de los proyectos. | — |
-| HU06 | Supervisor de obra | Alta | EP02 | Registrar trabajadores | Como supervisor de obra, deseo registrar trabajadores para mantener actualizada la información del personal asociado a las obras. | AC1: Dado que existe un proyecto válido, cuando el supervisor registra un trabajador con información válida, entonces el sistema almacena al trabajador asociado al proyecto.<br><br>AC2: Dado que la información del trabajador es inválida o incompleta, cuando se solicita su registro, entonces el sistema rechaza la operación y no crea el trabajador. |
-| HU07 | Supervisor de obra | Alta | EP02 | Asignar tareas a trabajadores | Como supervisor de obra, deseo asignar tareas a los trabajadores para organizar las actividades necesarias durante la ejecución de la obra. | AC1: Dado que el trabajador está registrado, cuando el supervisor crea una tarea válida asociada al trabajador, entonces el sistema registra la tarea y su asignación.<br><br>AC2: Dado que el trabajador no existe o la información de la tarea es inválida, cuando se intenta realizar la asignación, entonces el sistema rechaza la operación. |
-| HU08 | Supervisor de obra | Alta | EP02 | Consultar tareas | Como supervisor de obra, deseo consultar las tareas registradas para conocer sus responsables, fechas y estado de ejecución. | AC1: Dado que existen tareas registradas, cuando el supervisor consulta las tareas, entonces el sistema devuelve la información correspondiente a cada actividad.<br><br>AC2: Dado que no existen tareas asociadas, cuando se realiza la consulta, entonces el sistema devuelve un resultado vacío. |
-| HU10 | Supervisor de obra | Alta | EP02 | Consultar trabajadores de una obra | Como supervisor de obra, deseo consultar los trabajadores asociados a una obra para conocer el personal participante en el proyecto. | AC1: Dado que existen trabajadores asociados al proyecto, cuando el supervisor realiza la consulta, entonces el sistema devuelve la información del personal registrado.<br><br>AC2: Dado que el proyecto no posee trabajadores registrados, cuando se realiza la consulta, entonces el sistema devuelve un resultado vacío. |
-| HU32 | Supervisor de obra | Alta | EP02 | Actualizar información de trabajadores | Como supervisor de obra, deseo actualizar la información de un trabajador para mantener correctos los datos del personal. | AC1: Dado que el trabajador existe, cuando el supervisor proporciona datos válidos actualizados, entonces el sistema modifica la información correspondiente.<br><br>AC2: Dado que el trabajador no existe o los datos son inválidos, cuando se solicita la modificación, entonces el sistema rechaza la operación y conserva los datos previos. |
-| HU42 | Contratante | Alta | EP02 | Consultar trabajadores de una obra | Como contratante, deseo consultar los trabajadores asociados a una obra para conocer el personal registrado en el proyecto. | AC1: Dado que el contratante posee acceso al proyecto, cuando consulta los trabajadores, entonces el sistema devuelve el personal asociado a la obra.<br><br>AC2: Dado que no existen trabajadores registrados, cuando se realiza la consulta, entonces el sistema devuelve un resultado vacío. |
-| HU43 | Contratante | Alta | EP02 | Consultar tareas de una obra | Como contratante, deseo consultar las tareas asociadas a una obra para conocer las actividades registradas y su estado. | AC1: Dado que existen tareas asociadas al proyecto, cuando el contratante las consulta, entonces el sistema devuelve sus datos y estado actual.<br><br>AC2: Dado que no existen tareas asociadas, cuando el contratante realiza la consulta, entonces el sistema devuelve un resultado vacío. |
-| HU49 | Supervisor de obra | Alta | EP02 | Eliminar trabajador | Como supervisor de obra, deseo eliminar el registro de un trabajador que ya no corresponde a la obra para mantener actualizado el personal del proyecto. | AC1: Dado que el trabajador existe y puede eliminarse, cuando el supervisor solicita su eliminación, entonces el sistema elimina el registro correspondiente.<br><br>AC2: Dado que el trabajador no existe, cuando se solicita su eliminación, entonces el sistema rechaza la operación y conserva los datos existentes. |
-| HU50 | Supervisor de obra | Alta | EP02 | Eliminar tarea | Como supervisor de obra, deseo eliminar una tarea que ya no corresponde al plan de trabajo para mantener actualizadas las actividades de la obra. | AC1: Dado que la tarea existe, cuando el supervisor solicita su eliminación, entonces el sistema elimina la tarea registrada.<br><br>AC2: Dado que la tarea no existe, cuando se solicita su eliminación, entonces el sistema no modifica las tareas existentes. |
-| HU53 | Supervisor de obra | Alta | EP02 | Actualizar tarea | Como supervisor de obra, deseo actualizar la información y estado de una tarea para reflejar correctamente el avance de las actividades. | AC1: Dado que la tarea existe, cuando el supervisor proporciona información válida actualizada, entonces el sistema modifica los datos y estado de la tarea.<br><br>AC2: Dado que la tarea no existe o los nuevos datos son inválidos, cuando se solicita la actualización, entonces el sistema rechaza la operación y conserva la información anterior. |
-| EP03 | — | Alta | — | Gestión de proyectos | Agrupa las funcionalidades necesarias para registrar y consultar proyectos de construcción y sus responsables. | — |
-| HU09 | Supervisor de obra | Alta | EP03 | Registrar proyecto de construcción | Como supervisor de obra, deseo registrar un proyecto para gestionar la información correspondiente a una nueva obra. | AC1: Dado que los responsables y la información del proyecto son válidos, cuando el supervisor registra el proyecto, entonces el sistema almacena la nueva obra con sus datos correspondientes.<br><br>AC2: Dado que la información obligatoria es inválida o incompleta, cuando se intenta registrar el proyecto, entonces el sistema rechaza la operación y no crea el proyecto. |
-| HU22 | Supervisor de obra | Alta | EP03 | Consultar proyectos bajo supervisión | Como supervisor de obra, deseo consultar los proyectos asociados a mi gestión para realizar seguimiento de las obras bajo mi responsabilidad. | AC1: Dado que existen proyectos asociados al supervisor, cuando este consulta sus proyectos, entonces el sistema devuelve las obras correspondientes.<br><br>AC2: Dado que no existen proyectos asociados, cuando el supervisor realiza la consulta, entonces el sistema informa que no existen proyectos registrados para dicho usuario. |
-| HU33 | Contratante | Alta | EP03 | Consultar proyectos contratados | Como contratante, deseo consultar los proyectos asociados a mi participación para realizar seguimiento de las obras contratadas. | AC1: Dado que existen proyectos asociados al contratante, cuando este consulta sus proyectos, entonces el sistema devuelve las obras correspondientes.<br><br>AC2: Dado que no existen proyectos asociados, cuando se realiza la consulta, entonces el sistema devuelve un resultado sin proyectos disponibles. |
-| EP04 | — | Media | — | Landing Page y comunicación | Agrupa las historias relacionadas con la presentación pública de ArquiTech, sus características, propuesta de valor y canales de comunicación. | — |
-| HU11 | Visitante | Media | EP04 | Conocer ArquiTech | Como visitante, deseo conocer la propuesta de ArquiTech para comprender el propósito de la solución y los problemas que busca resolver. | AC1: Dado que el visitante accede al contenido público de ArquiTech, cuando consulta la información de la solución, entonces el sistema presenta su propósito y propuesta de valor.<br><br>AC2: Dado que el visitante desea obtener mayor contexto sobre la solución, cuando consulta la información institucional, entonces el sistema presenta información que permite comprender el enfoque de ArquiTech. |
-| HU12 | Visitante | Media | EP04 | Consultar medios de contacto | Como visitante, deseo conocer los medios de contacto de ArquiTech para disponer de canales mediante los cuales comunicarme con el equipo responsable. | AC1: Dado que el visitante desea contactar a ArquiTech, cuando consulta la información de contacto, entonces el sistema proporciona los medios de comunicación disponibles.<br><br>AC2: Dado que el visitante consulta la información pública de contacto, cuando revisa los datos disponibles, entonces el sistema mantiene accesible información de contacto comprensible y vigente. |
-| HU13 | Visitante | Media | EP04 | Explorar características y beneficios | Como visitante, deseo conocer las principales características y beneficios de ArquiTech para evaluar si la solución responde a mis necesidades. | AC1: Dado que el visitante desea conocer las capacidades de ArquiTech, cuando consulta la información del producto, entonces el sistema presenta sus principales características.<br><br>AC2: Dado que el visitante evalúa el valor de la solución, cuando consulta sus beneficios, entonces el sistema presenta información sobre los resultados que ArquiTech busca aportar a la gestión de obras. |
-| HU34 | Visitante | Media | EP04 | Acceder a la plataforma desde la Landing Page | Como visitante, deseo acceder a la plataforma de ArquiTech desde el sitio público para comenzar a utilizar el producto digital. | AC1: Dado que el visitante decide utilizar ArquiTech, cuando solicita acceder a la plataforma, entonces el sistema lo dirige al punto de acceso de la aplicación web.<br><br>AC2: Dado que el visitante accede al producto digital, cuando se completa la navegación desde el sitio público, entonces la aplicación web queda disponible para continuar con el proceso de autenticación. |
-| EP05 | — | Media | — | Perfil, preferencias y accesibilidad | Agrupa las funcionalidades relacionadas con información personal, preferencias de visualización, accesibilidad e idioma del producto. | — |
-| HU16 | Usuario registrado | Media | EP05 | Actualizar información del perfil | Como usuario registrado, deseo actualizar la información de mi perfil para mantener mis datos personales configurados de acuerdo con mis preferencias. | AC1: Dado que el usuario posee información de perfil disponible, cuando proporciona nuevos datos válidos, entonces el sistema conserva la información actualizada.<br><br>AC2: Dado que el usuario vuelve a utilizar el producto desde el mismo entorno, cuando consulta su configuración de perfil, entonces el sistema recupera la información previamente conservada. |
-| HU19 | Usuario registrado | Media | EP05 | Configurar preferencias de accesibilidad | Como usuario registrado, deseo configurar preferencias de accesibilidad para adaptar la experiencia de uso a mis necesidades. | AC1: Dado que el usuario requiere una configuración visual diferente, cuando modifica una preferencia de accesibilidad disponible, entonces el sistema aplica la configuración seleccionada.<br><br>AC2: Dado que una preferencia ha sido configurada, cuando el usuario continúa utilizando el producto, entonces el sistema mantiene la configuración aplicable al entorno actual. |
-| HU46 | Usuario del producto digital | Media | EP05 | Cambiar idioma del producto | Como usuario del producto digital, deseo cambiar el idioma disponible para comprender el contenido de ArquiTech en el idioma de mi preferencia. | AC1: Dado que el contenido dispone de traducciones compatibles, cuando el usuario selecciona otro idioma, entonces el sistema presenta el contenido traducido al idioma seleccionado.<br><br>AC2: Dado que el usuario cambia el idioma durante su interacción, cuando continúa utilizando el producto, entonces el sistema conserva el contexto funcional disponible. |
-| EP06 | — | Alta | — | Incidencias y reportes | Agrupa las funcionalidades relacionadas con el registro y seguimiento de incidencias y con la generación y consulta de reportes de proyecto. | — |
-| HU20 | Contratante | Alta | EP06 | Consultar reporte semanal de una obra | Como contratante, deseo consultar un reporte semanal de una obra para conocer los principales acontecimientos y avances registrados durante la semana. | AC1: Dado que existen datos correspondientes a la semana actual, cuando el contratante consulta el reporte de un proyecto, entonces el sistema consolida la información principal del proyecto, tareas completadas, entradas y salidas de materiales e incidencias registradas.<br><br>AC2: Dado que alguna categoría no posee registros durante la semana, cuando se genera el reporte, entonces el sistema presenta la información disponible sin impedir la consulta del reporte. |
-| HU35 | Supervisor de obra | Alta | EP06 | Registrar incidencia | Como supervisor de obra, deseo registrar una incidencia ocurrida durante la ejecución del proyecto para mantener evidencia de los problemas de la obra. | AC1: Dado que existe un proyecto válido, cuando el supervisor registra una incidencia con información válida, entonces el sistema almacena la incidencia asociada a la obra.<br><br>AC2: Dado que la información requerida es inválida o incompleta, cuando se intenta registrar una incidencia, entonces el sistema rechaza la operación y no crea el registro. |
-| HU36 | Supervisor de obra | Alta | EP06 | Actualizar incidencia | Como supervisor de obra, deseo actualizar una incidencia para mantener vigente su información, severidad y estado. | AC1: Dado que la incidencia existe, cuando el supervisor proporciona información válida actualizada, entonces el sistema modifica los datos de la incidencia.<br><br>AC2: Dado que la incidencia no existe o los datos son inválidos, cuando se solicita la actualización, entonces el sistema rechaza la operación y conserva la información anterior. |
-| HU37 | Supervisor de obra | Alta | EP06 | Consultar incidencias | Como supervisor de obra, deseo consultar las incidencias registradas para realizar seguimiento de los problemas ocurridos en una obra. | AC1: Dado que existen incidencias registradas, cuando el supervisor las consulta, entonces el sistema devuelve su información, severidad y estado.<br><br>AC2: Dado que no existen incidencias, cuando se realiza la consulta, entonces el sistema devuelve un resultado vacío. |
-| HU39 | Contratante | Alta | EP06 | Consultar incidencias de una obra | Como contratante, deseo consultar las incidencias de una obra para conocer los problemas registrados durante la ejecución del proyecto. | AC1: Dado que existen incidencias asociadas al proyecto, cuando el contratante las consulta, entonces el sistema devuelve la información disponible.<br><br>AC2: Dado que no existen incidencias registradas, cuando el contratante realiza la consulta, entonces el sistema devuelve un resultado vacío. |
-| HU51 | Supervisor de obra | Alta | EP06 | Eliminar incidencia | Como supervisor de obra, deseo eliminar una incidencia registrada incorrectamente para mantener consistente la información del proyecto. | AC1: Dado que la incidencia existe y puede eliminarse, cuando el supervisor solicita su eliminación, entonces el sistema elimina el registro correspondiente.<br><br>AC2: Dado que la incidencia no existe, cuando se solicita su eliminación, entonces el sistema no modifica la información disponible. |
-| HU52 | Contratante | Alta | EP06 | Descargar reporte semanal | Como contratante, deseo descargar el reporte semanal de una obra para conservar una copia de la información consolidada del proyecto. | AC1: Dado que el reporte semanal ha sido generado con información disponible, cuando el contratante solicita su descarga, entonces el sistema genera un documento que contiene la información del reporte.<br><br>AC2: Dado que el proceso de generación concluye correctamente, cuando el documento es producido, entonces el sistema proporciona el reporte en un formato portable para su conservación. |
-| EP07 | — | Alta | — | Autenticación y seguridad | Agrupa las funcionalidades relacionadas con autenticación, autorización, sesión y acceso a recursos según el rol del usuario. | — |
-| HU23 | Usuario registrado | Alta | EP07 | Iniciar sesión de forma segura | Como usuario registrado, deseo iniciar sesión de forma segura para acceder a las funcionalidades correspondientes a mi cuenta. | AC1: Dado que el usuario proporciona credenciales válidas, cuando solicita iniciar sesión, entonces el sistema autentica al usuario y establece una sesión válida.<br><br>AC2: Dado que las credenciales proporcionadas son inválidas, cuando el usuario intenta iniciar sesión, entonces el sistema rechaza la autenticación y no establece una sesión. |
-| HU27 | Usuario registrado | Alta | EP07 | Acceder a funcionalidades según el rol | Como usuario registrado, deseo acceder únicamente a las funcionalidades autorizadas para mi rol para utilizar ArquiTech de acuerdo con mis responsabilidades. | AC1: Dado que el usuario se encuentra autenticado con un rol autorizado, cuando solicita acceder a una funcionalidad permitida, entonces el sistema concede el acceso.<br><br>AC2: Dado que el rol del usuario no posee autorización, cuando solicita acceder a una funcionalidad restringida, entonces el sistema impide el acceso al recurso. |
-| HU44 | Usuario registrado | Alta | EP07 | Cerrar sesión | Como usuario registrado, deseo cerrar mi sesión para finalizar de forma segura el acceso a mi cuenta. | AC1: Dado que existe una sesión autenticada, cuando el usuario solicita finalizarla, entonces el sistema elimina la información utilizada para mantener la sesión activa.<br><br>AC2: Dado que la sesión ha finalizado, cuando se intenta acceder nuevamente a un recurso protegido, entonces el sistema requiere una nueva autenticación. |
-| EP08 | — | Alta | — | Integración y evolución técnica | Agrupa capacidades y actividades técnicas transversales necesarias para integrar, validar, documentar y evolucionar los componentes reutilizados de ArquiTech. | — |
-| TS01 | Developer | Alta | EP01 | Implementar servicio para registrar entradas de materiales | Como Developer, deseo disponer de servicios REST para registrar entradas de materiales y mantener actualizado el inventario del proyecto. | AC1: Dado que una solicitud autenticada contiene información válida de una entrada, cuando el servicio procesa la solicitud, entonces crea el registro y devuelve la información resultante.<br><br>AC2: Dado que la solicitud contiene información inválida, cuando el servicio la procesa, entonces devuelve una respuesta de error y no modifica el inventario. |
-| TS02 | Developer | Alta | EP01 | Implementar servicio para registrar uso de materiales | Como Developer, deseo disponer de un servicio REST para registrar salidas de materiales y actualizar el stock disponible. | AC1: Dado que existe stock suficiente, cuando el servicio recibe una solicitud válida de salida, entonces registra el movimiento y actualiza el stock.<br><br>AC2: Dado que no existe stock suficiente, cuando el servicio procesa la solicitud, entonces devuelve una respuesta de error y conserva el stock anterior. |
-| TS03 | Developer | Alta | EP01 | Validar disponibilidad de stock | Como Developer, deseo validar la disponibilidad de materiales antes de procesar una salida para mantener la consistencia del inventario. | AC1: Dado que la cantidad solicitada es menor o igual al stock disponible, cuando se procesa la operación, entonces la validación permite continuar con la salida.<br><br>AC2: Dado que la cantidad solicitada supera el stock disponible, cuando se ejecuta la validación, entonces la operación es rechazada antes de modificar los datos. |
-| TS04 | Developer | Alta | EP01 | Implementar consulta de movimientos de materiales | Como Developer, deseo disponer de servicios REST para consultar movimientos de materiales y recuperar el historial del inventario. | AC1: Dado que existen movimientos almacenados, cuando se realiza una solicitud de consulta válida, entonces el servicio devuelve los movimientos correspondientes.<br><br>AC2: Dado que no existen movimientos para el criterio solicitado, cuando se realiza la consulta, entonces el servicio devuelve una colección vacía válida. |
-| TS05 | Developer | Alta | EP01 | Implementar registro de maquinaria | Como Developer, deseo disponer de un servicio REST para registrar maquinaria asociada a proyectos. | AC1: Dado que la solicitud contiene información válida, cuando el servicio procesa el registro, entonces crea la maquinaria y devuelve el recurso creado.<br><br>AC2: Dado que la solicitud contiene datos incompatibles o inválidos, cuando se procesa, entonces el servicio devuelve una respuesta de error y no crea la maquinaria. |
-| TS24 | Developer | Alta | EP01 | Implementar consulta de materiales | Como Developer, deseo disponer de servicios REST para recuperar los materiales registrados. | AC1: Dado que existen materiales almacenados, cuando se realiza una solicitud de consulta válida, entonces el servicio devuelve los recursos correspondientes.<br><br>AC2: Dado que no existen materiales, cuando se realiza la consulta, entonces el servicio devuelve una colección vacía válida. |
-| TS25 | Developer | Alta | EP01 | Implementar actualización de materiales | Como Developer, deseo disponer de un servicio REST para actualizar materiales existentes. | AC1: Dado que el material existe y la solicitud contiene datos válidos, cuando el servicio procesa la actualización, entonces modifica el recurso y devuelve su nueva información.<br><br>AC2: Dado que el material no existe o la solicitud es inválida, cuando se procesa la actualización, entonces el servicio devuelve una respuesta de error y no altera el recurso. |
-| TS26 | Developer | Alta | EP01 | Implementar consulta de maquinaria | Como Developer, deseo disponer de servicios REST para recuperar la maquinaria registrada. | AC1: Dado que existen recursos de maquinaria, cuando se realiza una solicitud válida, entonces el servicio devuelve los recursos correspondientes.<br><br>AC2: Dado que un identificador solicitado no corresponde a una maquinaria existente, cuando se realiza la consulta individual, entonces el servicio devuelve una respuesta indicando que el recurso no existe. |
-| TS27 | Developer | Alta | EP01 | Implementar actualización de maquinaria | Como Developer, deseo disponer de un servicio REST para actualizar la información de maquinaria existente. | AC1: Dado que la maquinaria existe y los datos son válidos, cuando se procesa la solicitud de actualización, entonces el servicio modifica y devuelve el recurso actualizado.<br><br>AC2: Dado que la maquinaria no existe o los datos son inválidos, cuando se procesa la solicitud, entonces el servicio devuelve una respuesta de error sin alterar la información existente. |
-| TS34 | Developer | Alta | EP01 | Implementar eliminación de materiales | Como Developer, deseo disponer de un servicio REST para eliminar materiales cuando la operación se encuentre autorizada. | AC1: Dado que el material existe, cuando se procesa una solicitud válida de eliminación, entonces el servicio elimina el recurso y devuelve una respuesta satisfactoria.<br><br>AC2: Dado que el material no existe, cuando se solicita su eliminación, entonces el servicio devuelve una respuesta de error y no modifica otros recursos. |
-| TS35 | Developer | Alta | EP01 | Implementar eliminación de maquinaria | Como Developer, deseo disponer de un servicio REST para eliminar registros de maquinaria existentes. | AC1: Dado que la maquinaria existe, cuando el servicio procesa una solicitud válida de eliminación, entonces elimina el recurso y confirma la operación.<br><br>AC2: Dado que la maquinaria no existe, cuando se solicita su eliminación, entonces el servicio devuelve una respuesta indicando que el recurso no se encuentra disponible. |
-| TS06 | Developer | Alta | EP02 | Implementar registro de trabajadores | Como Developer, deseo disponer de un servicio REST para registrar trabajadores asociados a proyectos. | AC1: Dado que la solicitud posee información válida de un trabajador, cuando el servicio procesa el registro, entonces crea y devuelve el trabajador correspondiente.<br><br>AC2: Dado que la información enviada es inválida, cuando se procesa la solicitud, entonces el servicio rechaza el registro y no crea el recurso. |
-| TS07 | Developer | Alta | EP02 | Implementar gestión de creación y asignación de tareas | Como Developer, deseo disponer de servicios REST para crear tareas y asociarlas al personal correspondiente. | AC1: Dado que los recursos asociados son válidos, cuando se procesa una solicitud de creación de tarea, entonces el servicio almacena la tarea con su información correspondiente.<br><br>AC2: Dado que los datos de la tarea o sus referencias no son válidos, cuando se procesa la solicitud, entonces el servicio rechaza la operación. |
-| TS08 | Developer | Alta | EP02 | Implementar consulta de tareas | Como Developer, deseo disponer de servicios REST para recuperar las tareas registradas. | AC1: Dado que existen tareas registradas, cuando se realiza una solicitud válida, entonces el servicio devuelve las tareas correspondientes.<br><br>AC2: Dado que no existen tareas para el criterio solicitado, cuando se realiza la consulta, entonces el servicio devuelve una colección vacía válida. |
-| TS10 | Developer | Alta | EP02 | Implementar consulta de trabajadores | Como Developer, deseo disponer de servicios REST para recuperar trabajadores y permitir su asociación con los proyectos. | AC1: Dado que existen trabajadores registrados, cuando se realiza una solicitud válida, entonces el servicio devuelve la información correspondiente.<br><br>AC2: Dado que el trabajador solicitado no existe, cuando se realiza una consulta individual, entonces el servicio devuelve una respuesta indicando que el recurso no se encuentra disponible. |
-| TS28 | Developer | Alta | EP02 | Implementar actualización de trabajadores | Como Developer, deseo disponer de un servicio REST para modificar información de trabajadores existentes. | AC1: Dado que el trabajador existe y los datos son válidos, cuando el servicio procesa la actualización, entonces modifica y devuelve el recurso actualizado.<br><br>AC2: Dado que el trabajador no existe o la información es inválida, cuando se procesa la solicitud, entonces el servicio devuelve una respuesta de error. |
-| TS29 | Developer | Alta | EP02 | Implementar actualización de tareas | Como Developer, deseo disponer de un servicio REST para actualizar los datos y estado de una tarea. | AC1: Dado que la tarea existe, cuando se procesa una actualización válida, entonces el servicio modifica y devuelve la información actualizada.<br><br>AC2: Dado que la tarea no existe o los datos son inválidos, cuando se solicita la actualización, entonces el servicio devuelve una respuesta de error y conserva la información anterior. |
-| TS36 | Developer | Alta | EP02 | Implementar eliminación de trabajadores | Como Developer, deseo disponer de un servicio REST para eliminar trabajadores existentes cuando corresponda. | AC1: Dado que el trabajador existe, cuando se procesa una solicitud válida de eliminación, entonces el servicio elimina el recurso.<br><br>AC2: Dado que el trabajador no existe, cuando se solicita su eliminación, entonces el servicio devuelve una respuesta de error sin modificar otros trabajadores. |
-| TS37 | Developer | Alta | EP02 | Implementar eliminación de tareas | Como Developer, deseo disponer de un servicio REST para eliminar tareas que ya no deban mantenerse registradas. | AC1: Dado que la tarea existe, cuando se procesa una solicitud válida de eliminación, entonces el servicio elimina la tarea.<br><br>AC2: Dado que la tarea no existe, cuando se procesa la solicitud, entonces el servicio devuelve una respuesta indicando que el recurso solicitado no se encuentra disponible. |
-| TS09 | Developer | Alta | EP03 | Implementar registro de proyectos | Como Developer, deseo disponer de un servicio REST para registrar proyectos de construcción. | AC1: Dado que la solicitud contiene información válida del proyecto y sus responsables, cuando el servicio procesa el registro, entonces crea el proyecto y devuelve el recurso creado.<br><br>AC2: Dado que la información requerida es inválida, cuando se procesa la solicitud, entonces el servicio rechaza la operación y no crea el proyecto. |
-| TS13 | Developer | Alta | EP03 | Implementar consulta de proyectos | Como Developer, deseo disponer de servicios REST para recuperar proyectos registrados y permitir su consulta según el usuario correspondiente. | AC1: Dado que existen proyectos compatibles con el criterio solicitado, cuando se realiza la consulta, entonces el servicio devuelve los proyectos correspondientes.<br><br>AC2: Dado que no existen proyectos compatibles, cuando se realiza la consulta, entonces el servicio devuelve un resultado válido sin proyectos disponibles. |
-| TS11 | Developer | Alta | EP06 | Implementar consulta de incidencias | Como Developer, deseo disponer de servicios REST para recuperar las incidencias registradas y permitir su seguimiento. | AC1: Dado que existen incidencias almacenadas, cuando se realiza una solicitud de consulta válida, entonces el servicio devuelve los recursos correspondientes.<br><br>AC2: Dado que no existen incidencias, cuando se realiza la consulta, entonces el servicio devuelve una colección vacía válida. |
-| TS30 | Developer | Alta | EP06 | Implementar registro de incidencias | Como Developer, deseo disponer de un servicio REST para registrar incidencias asociadas a proyectos. | AC1: Dado que la solicitud contiene información válida, cuando el servicio procesa el registro, entonces crea la incidencia y devuelve el recurso correspondiente.<br><br>AC2: Dado que la información de la incidencia es inválida, cuando se procesa la solicitud, entonces el servicio devuelve una respuesta de error y no crea el recurso. |
-| TS31 | Developer | Alta | EP06 | Implementar actualización de incidencias | Como Developer, deseo disponer de un servicio REST para actualizar la información y estado de incidencias existentes. | AC1: Dado que la incidencia existe y los datos son válidos, cuando el servicio procesa la actualización, entonces modifica y devuelve la incidencia actualizada.<br><br>AC2: Dado que la incidencia no existe o los datos son inválidos, cuando se solicita la actualización, entonces el servicio devuelve una respuesta de error. |
-| TS38 | Developer | Alta | EP06 | Implementar eliminación de incidencias | Como Developer, deseo disponer de un servicio REST para eliminar incidencias cuando corresponda. | AC1: Dado que la incidencia existe, cuando el servicio procesa una solicitud válida de eliminación, entonces elimina el recurso y confirma la operación.<br><br>AC2: Dado que la incidencia no existe, cuando se solicita su eliminación, entonces el servicio devuelve una respuesta de error sin modificar otros registros. |
-| TS14 | Developer | Alta | EP07 | Implementar autenticación mediante JWT | Como Developer, deseo generar tokens de autenticación para identificar de manera segura las solicitudes realizadas por usuarios autenticados. | AC1: Dado que las credenciales son válidas, cuando el servicio procesa una solicitud de autenticación, entonces genera un token asociado al usuario autenticado y devuelve la información necesaria para establecer la sesión.<br><br>AC2: Dado que las credenciales son inválidas, cuando se procesa la solicitud, entonces el servicio rechaza la autenticación y no genera un token válido. |
-| TS15 | Developer | Alta | EP07 | Implementar gestión de roles y permisos | Como Developer, deseo disponer de roles y permisos diferenciados para controlar las operaciones autorizadas a cada tipo de usuario. | AC1: Dado que un usuario posee un rol registrado, cuando se evalúa una operación protegida, entonces el sistema considera las autorizaciones correspondientes al rol.<br><br>AC2: Dado que el rol no posee autorización para la operación solicitada, cuando se evalúa el acceso, entonces el sistema rechaza la operación. |
-| TS16 | Developer | Alta | EP07 | Integrar autenticación entre frontend y backend | Como Developer, deseo integrar el cliente web con el servicio de autenticación para mantener una sesión coherente entre ambos componentes. | AC1: Dado que el backend devuelve una autenticación válida, cuando el frontend procesa la respuesta, entonces conserva la información necesaria para las siguientes solicitudes autenticadas.<br><br>AC2: Dado que el servicio de autenticación devuelve una respuesta inválida o de error, cuando el frontend la procesa, entonces no establece una sesión autenticada. |
-| TS17 | Developer | Alta | EP07 | Implementar gestión de sesión | Como Developer, deseo gestionar el estado de autenticación en el cliente para mantener la sesión del usuario durante el uso autorizado de la aplicación. | AC1: Dado que existe una autenticación válida, cuando el usuario continúa utilizando recursos protegidos, entonces el cliente conserva la información necesaria para identificar la sesión.<br><br>AC2: Dado que la sesión se finaliza, cuando se procesa el cierre, entonces el cliente elimina la información utilizada para identificar la sesión. |
-| TS20 | Developer | Alta | EP07 | Validar JWT en solicitudes protegidas | Como Developer, deseo validar los tokens enviados en solicitudes protegidas para rechazar accesos no autenticados o con tokens inválidos. | AC1: Dado que una solicitud contiene un token válido, cuando el backend procesa el recurso protegido, entonces permite continuar con la autenticación de la solicitud.<br><br>AC2: Dado que el token es inválido, inexistente o no puede validarse, cuando se procesa la solicitud, entonces el sistema rechaza el acceso al recurso protegido. |
-| TS21 | Developer | Alta | EP07 | Proteger rutas y funcionalidades según rol | Como Developer, deseo proteger los recursos del producto según el rol del usuario para impedir accesos no autorizados. | AC1: Dado que un usuario autenticado posee el rol requerido, cuando solicita acceder a un recurso protegido, entonces el sistema permite continuar con el acceso.<br><br>AC2: Dado que el usuario no posee el rol requerido, cuando solicita acceder al recurso, entonces el sistema impide la operación. |
-| TS32 | Developer | Media | EP07 | Implementar servicio de registro de usuarios | Como Developer, deseo disponer de un servicio REST de registro de usuarios para permitir la creación técnica de cuentas con la información correspondiente. | AC1: Dado que una solicitud de registro contiene información válida y no duplicada, cuando el servicio la procesa, entonces crea el usuario y devuelve la información permitida del recurso creado.<br><br>AC2: Dado que la solicitud contiene información inválida o incompatible con una cuenta existente, cuando se procesa, entonces el servicio rechaza la creación. |
-| TS33 | Developer | Media | EP07 | Implementar consulta de usuarios | Como Developer, deseo disponer de servicios REST para recuperar información de usuarios requerida por otras funcionalidades del producto. | AC1: Dado que el usuario solicitado existe, cuando se realiza una consulta válida, entonces el servicio devuelve la información permitida del usuario.<br><br>AC2: Dado que el usuario solicitado no existe, cuando se realiza la consulta, entonces el servicio devuelve una respuesta indicando que el recurso no se encuentra disponible. |
-| TS39 | Developer | Media | EP08 | Documentar la API REST mediante OpenAPI | Como Developer, deseo disponer de documentación OpenAPI de los servicios REST para facilitar la comprensión y validación de los contratos expuestos por el backend. | AC1: Dado que los controladores REST se encuentran disponibles, cuando se genera la documentación de la API, entonces se describen los recursos y operaciones expuestos por el backend.<br><br>AC2: Dado que se modifica un contrato REST documentado, cuando se actualiza la definición correspondiente, entonces la documentación refleja el contrato vigente. |
-| SP-01 | Developer | Alta | EP08 | Analizar compatibilidad de contratos REST entre frontend y backend | Como Developer, deseo analizar los contratos utilizados por el frontend y los expuestos por el backend para determinar las incompatibilidades que deben resolverse antes de extender el producto. | AC1: Dado que existen servicios consumidos por el frontend y endpoints expuestos por el backend, cuando se comparan rutas, parámetros, payloads y respuestas, entonces se produce una matriz de compatibilidad con los hallazgos identificados y las acciones recomendadas. |
-| SP-02 | Developer | Alta | EP07 | Validar estrategia de autorización por roles | Como Developer, deseo validar el comportamiento de autenticación y autorización por roles para determinar si la estrategia existente protege correctamente los recursos antes de incorporar nuevas funcionalidades. | AC1: Dado que existen los roles Supervisor y Contratante y recursos protegidos asociados, cuando se ejecutan pruebas de acceso permitido y denegado, entonces se documentan los resultados, riesgos encontrados y recomendaciones técnicas. |
-| SP-03 | Developer | Media | EP05 | Evaluar persistencia de perfil y preferencias de accesibilidad | Como Developer, deseo evaluar la estrategia utilizada para conservar la información de perfil y las preferencias de accesibilidad para determinar si resulta adecuada para la evolución del producto. | AC1: Dado que el producto conserva información de perfil y preferencias en el entorno del cliente, cuando se evalúan persistencia, seguridad, alcance y recuperación de la información, entonces se documenta una conclusión técnica y una recomendación para el siguiente incremento. |
-| SP-04 | Developer | Alta | EP08 | Validar despliegue integrado de los componentes de ArquiTech | Como Developer, deseo validar la integración desplegada entre Landing Page, Frontend Web App y Backend Web App para determinar si los tres componentes pueden utilizarse como línea base del nuevo ciclo de desarrollo. | AC1: Dado que existen los tres componentes desplegables del producto, cuando se ejecuta una prueba de navegación e integración de extremo a extremo, entonces se documentan el resultado de la prueba, las dependencias encontradas, los problemas detectados y las acciones requeridas antes de continuar con nuevas funcionalidades. |
+| Story ID | User                         | Priority | Epic | Title                                                              | Description                                                                                                                                                                                                             | Acceptance Criteria                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| -------- | ---------------------------- | -------- | ---- | ------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| EP01     | —                            | Alta     | —    | Gestión de inventarios y materiales                                | Agrupa las funcionalidades relacionadas con materiales, movimientos de inventario y maquinaria utilizada en los proyectos.                                                                                              | —                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| HU01     | Supervisor de obra           | Alta     | EP01 | Registrar entrada de materiales                                    | Como supervisor de obra, deseo registrar la entrada de materiales para mantener actualizado el inventario de una obra.                                                                                                  | AC1: Dado que el supervisor gestiona un proyecto válido, cuando registra una entrada de material con datos válidos, entonces el sistema almacena el movimiento y actualiza la disponibilidad del material.<br><br>AC2: Dado que la información requerida para la entrada es inválida o incompleta, cuando el supervisor intenta registrar el movimiento, entonces el sistema rechaza la operación y conserva el inventario sin modificaciones.                                       |
+| HU02     | Supervisor de obra           | Alta     | EP01 | Registrar uso o salida de materiales                               | Como supervisor de obra, deseo registrar los materiales utilizados en una obra para mantener actualizado el stock disponible.                                                                                           | AC1: Dado que un material posee stock suficiente, cuando el supervisor registra una cantidad utilizada válida, entonces el sistema descuenta dicha cantidad y registra la salida correspondiente.<br><br>AC2: Dado que la cantidad solicitada supera el stock disponible, cuando el supervisor intenta registrar la salida, entonces el sistema rechaza la operación y conserva el stock existente.                                                                                  |
+| HU04     | Supervisor de obra           | Alta     | EP01 | Consultar historial de movimientos de materiales                   | Como supervisor de obra, deseo consultar las entradas y salidas de materiales para realizar seguimiento de los movimientos del inventario.                                                                              | AC1: Dado que existen movimientos asociados al proyecto, cuando el supervisor consulta el historial, entonces el sistema presenta las entradas y salidas registradas con su información correspondiente.<br><br>AC2: Dado que el proyecto no posee movimientos registrados, cuando el supervisor consulta el historial, entonces el sistema devuelve un resultado vacío sin alterar la información existente.                                                                        |
+| HU05     | Supervisor de obra           | Alta     | EP01 | Registrar maquinaria                                               | Como supervisor de obra, deseo registrar maquinaria asociada a una obra para mantener control sobre los recursos utilizados en el proyecto.                                                                             | AC1: Dado que el proyecto existe, cuando el supervisor registra una maquinaria con información válida, entonces el sistema almacena la maquinaria asociada al proyecto.<br><br>AC2: Dado que los datos de la maquinaria no cumplen las condiciones requeridas, cuando se solicita su registro, entonces el sistema rechaza la operación y no crea el recurso.                                                                                                                        |
+| HU28     | Supervisor de obra           | Alta     | EP01 | Consultar materiales                                               | Como supervisor de obra, deseo consultar los materiales registrados en una obra para conocer su disponibilidad e información asociada.                                                                                  | AC1: Dado que existen materiales registrados, cuando el supervisor consulta los materiales de una obra, entonces el sistema devuelve la información correspondiente a los materiales disponibles.<br><br>AC2: Dado que no existen materiales asociados, cuando el supervisor realiza la consulta, entonces el sistema devuelve un resultado vacío sin generar modificaciones.                                                                                                        |
+| HU29     | Supervisor de obra           | Alta     | EP01 | Actualizar información de materiales                               | Como supervisor de obra, deseo actualizar la información de un material para mantener correctos los datos del inventario.                                                                                               | AC1: Dado que el material existe, cuando el supervisor proporciona nuevos datos válidos, entonces el sistema actualiza la información del material.<br><br>AC2: Dado que el material no existe o los nuevos datos son inválidos, cuando se solicita la actualización, entonces el sistema rechaza la operación y conserva la información previa.                                                                                                                                     |
+| HU30     | Supervisor de obra           | Alta     | EP01 | Consultar maquinaria                                               | Como supervisor de obra, deseo consultar la maquinaria registrada en una obra para conocer los recursos disponibles y su estado.                                                                                        | AC1: Dado que existe maquinaria asociada al proyecto, cuando el supervisor realiza la consulta, entonces el sistema devuelve la información de las maquinarias registradas.<br><br>AC2: Dado que no existe maquinaria asociada, cuando el supervisor realiza la consulta, entonces el sistema devuelve un resultado vacío.                                                                                                                                                           |
+| HU31     | Supervisor de obra           | Alta     | EP01 | Actualizar información de maquinaria                               | Como supervisor de obra, deseo actualizar la información de una maquinaria para mantener vigente su información operativa.                                                                                              | AC1: Dado que la maquinaria existe, cuando el supervisor proporciona información válida, entonces el sistema actualiza sus datos.<br><br>AC2: Dado que la maquinaria no existe o la información es inválida, cuando se solicita la actualización, entonces el sistema rechaza la operación y conserva la información existente.                                                                                                                                                      |
+| HU40     | Contratante                  | Alta     | EP01 | Consultar materiales de una obra                                   | Como contratante, deseo consultar los materiales asociados a una obra para conocer los recursos registrados en el proyecto.                                                                                             | AC1: Dado que el contratante tiene acceso al proyecto, cuando consulta sus materiales, entonces el sistema devuelve los materiales asociados al proyecto.<br><br>AC2: Dado que no existen materiales registrados, cuando el contratante realiza la consulta, entonces el sistema devuelve un resultado vacío.                                                                                                                                                                        |
+| HU41     | Contratante                  | Alta     | EP01 | Consultar maquinaria de una obra                                   | Como contratante, deseo consultar la maquinaria asociada a una obra para conocer los recursos utilizados en el proyecto.                                                                                                | AC1: Dado que el contratante tiene acceso al proyecto, cuando consulta la maquinaria, entonces el sistema devuelve los recursos de maquinaria asociados.<br><br>AC2: Dado que no existe maquinaria registrada, cuando se realiza la consulta, entonces el sistema devuelve un resultado vacío.                                                                                                                                                                                       |
+| HU47     | Supervisor de obra           | Alta     | EP01 | Eliminar material                                                  | Como supervisor de obra, deseo eliminar un material que ya no debe formar parte del registro para mantener actualizado el inventario.                                                                                   | AC1: Dado que el material existe y puede eliminarse, cuando el supervisor solicita su eliminación, entonces el sistema elimina el material registrado.<br><br>AC2: Dado que el material no existe, cuando se solicita su eliminación, entonces el sistema rechaza la operación y no modifica el inventario.                                                                                                                                                                          |
+| HU48     | Supervisor de obra           | Alta     | EP01 | Eliminar maquinaria                                                | Como supervisor de obra, deseo eliminar una maquinaria que ya no debe permanecer registrada para mantener actualizados los recursos de la obra.                                                                         | AC1: Dado que la maquinaria existe, cuando el supervisor solicita su eliminación, entonces el sistema elimina el registro correspondiente.<br><br>AC2: Dado que la maquinaria no existe, cuando se solicita su eliminación, entonces el sistema informa que el recurso no se encuentra disponible y no realiza modificaciones.                                                                                                                                                       |
+| EP02     | —                            | Alta     | —    | Gestión de trabajadores y tareas                                   | Agrupa las funcionalidades relacionadas con trabajadores y las actividades asignadas durante la ejecución de los proyectos.                                                                                             | —                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| HU06     | Supervisor de obra           | Alta     | EP02 | Registrar trabajadores                                             | Como supervisor de obra, deseo registrar trabajadores para mantener actualizada la información del personal asociado a las obras.                                                                                       | AC1: Dado que existe un proyecto válido, cuando el supervisor registra un trabajador con información válida, entonces el sistema almacena al trabajador asociado al proyecto.<br><br>AC2: Dado que la información del trabajador es inválida o incompleta, cuando se solicita su registro, entonces el sistema rechaza la operación y no crea el trabajador.                                                                                                                         |
+| HU07     | Supervisor de obra           | Alta     | EP02 | Asignar tareas a trabajadores                                      | Como supervisor de obra, deseo asignar tareas a los trabajadores para organizar las actividades necesarias durante la ejecución de la obra.                                                                             | AC1: Dado que el trabajador está registrado, cuando el supervisor crea una tarea válida asociada al trabajador, entonces el sistema registra la tarea y su asignación.<br><br>AC2: Dado que el trabajador no existe o la información de la tarea es inválida, cuando se intenta realizar la asignación, entonces el sistema rechaza la operación.                                                                                                                                    |
+| HU08     | Supervisor de obra           | Alta     | EP02 | Consultar tareas                                                   | Como supervisor de obra, deseo consultar las tareas registradas para conocer sus responsables, fechas y estado de ejecución.                                                                                            | AC1: Dado que existen tareas registradas, cuando el supervisor consulta las tareas, entonces el sistema devuelve la información correspondiente a cada actividad.<br><br>AC2: Dado que no existen tareas asociadas, cuando se realiza la consulta, entonces el sistema devuelve un resultado vacío.                                                                                                                                                                                  |
+| HU10     | Supervisor de obra           | Alta     | EP02 | Consultar trabajadores de una obra                                 | Como supervisor de obra, deseo consultar los trabajadores asociados a una obra para conocer el personal participante en el proyecto.                                                                                    | AC1: Dado que existen trabajadores asociados al proyecto, cuando el supervisor realiza la consulta, entonces el sistema devuelve la información del personal registrado.<br><br>AC2: Dado que el proyecto no posee trabajadores registrados, cuando se realiza la consulta, entonces el sistema devuelve un resultado vacío.                                                                                                                                                         |
+| HU32     | Supervisor de obra           | Alta     | EP02 | Actualizar información de trabajadores                             | Como supervisor de obra, deseo actualizar la información de un trabajador para mantener correctos los datos del personal.                                                                                               | AC1: Dado que el trabajador existe, cuando el supervisor proporciona datos válidos actualizados, entonces el sistema modifica la información correspondiente.<br><br>AC2: Dado que el trabajador no existe o los datos son inválidos, cuando se solicita la modificación, entonces el sistema rechaza la operación y conserva los datos previos.                                                                                                                                     |
+| HU42     | Contratante                  | Alta     | EP02 | Consultar trabajadores de una obra                                 | Como contratante, deseo consultar los trabajadores asociados a una obra para conocer el personal registrado en el proyecto.                                                                                             | AC1: Dado que el contratante posee acceso al proyecto, cuando consulta los trabajadores, entonces el sistema devuelve el personal asociado a la obra.<br><br>AC2: Dado que no existen trabajadores registrados, cuando se realiza la consulta, entonces el sistema devuelve un resultado vacío.                                                                                                                                                                                      |
+| HU43     | Contratante                  | Alta     | EP02 | Consultar tareas de una obra                                       | Como contratante, deseo consultar las tareas asociadas a una obra para conocer las actividades registradas y su estado.                                                                                                 | AC1: Dado que existen tareas asociadas al proyecto, cuando el contratante las consulta, entonces el sistema devuelve sus datos y estado actual.<br><br>AC2: Dado que no existen tareas asociadas, cuando el contratante realiza la consulta, entonces el sistema devuelve un resultado vacío.                                                                                                                                                                                        |
+| HU49     | Supervisor de obra           | Alta     | EP02 | Eliminar trabajador                                                | Como supervisor de obra, deseo eliminar el registro de un trabajador que ya no corresponde a la obra para mantener actualizado el personal del proyecto.                                                                | AC1: Dado que el trabajador existe y puede eliminarse, cuando el supervisor solicita su eliminación, entonces el sistema elimina el registro correspondiente.<br><br>AC2: Dado que el trabajador no existe, cuando se solicita su eliminación, entonces el sistema rechaza la operación y conserva los datos existentes.                                                                                                                                                             |
+| HU50     | Supervisor de obra           | Alta     | EP02 | Eliminar tarea                                                     | Como supervisor de obra, deseo eliminar una tarea que ya no corresponde al plan de trabajo para mantener actualizadas las actividades de la obra.                                                                       | AC1: Dado que la tarea existe, cuando el supervisor solicita su eliminación, entonces el sistema elimina la tarea registrada.<br><br>AC2: Dado que la tarea no existe, cuando se solicita su eliminación, entonces el sistema no modifica las tareas existentes.                                                                                                                                                                                                                     |
+| HU53     | Supervisor de obra           | Alta     | EP02 | Actualizar tarea                                                   | Como supervisor de obra, deseo actualizar la información y estado de una tarea para reflejar correctamente el avance de las actividades.                                                                                | AC1: Dado que la tarea existe, cuando el supervisor proporciona información válida actualizada, entonces el sistema modifica los datos y estado de la tarea.<br><br>AC2: Dado que la tarea no existe o los nuevos datos son inválidos, cuando se solicita la actualización, entonces el sistema rechaza la operación y conserva la información anterior.                                                                                                                             |
+| EP03     | —                            | Alta     | —    | Gestión de proyectos                                               | Agrupa las funcionalidades necesarias para registrar y consultar proyectos de construcción y sus responsables.                                                                                                          | —                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| HU09     | Supervisor de obra           | Alta     | EP03 | Registrar proyecto de construcción                                 | Como supervisor de obra, deseo registrar un proyecto para gestionar la información correspondiente a una nueva obra.                                                                                                    | AC1: Dado que los responsables y la información del proyecto son válidos, cuando el supervisor registra el proyecto, entonces el sistema almacena la nueva obra con sus datos correspondientes.<br><br>AC2: Dado que la información obligatoria es inválida o incompleta, cuando se intenta registrar el proyecto, entonces el sistema rechaza la operación y no crea el proyecto.                                                                                                   |
+| HU22     | Supervisor de obra           | Alta     | EP03 | Consultar proyectos bajo supervisión                               | Como supervisor de obra, deseo consultar los proyectos asociados a mi gestión para realizar seguimiento de las obras bajo mi responsabilidad.                                                                           | AC1: Dado que existen proyectos asociados al supervisor, cuando este consulta sus proyectos, entonces el sistema devuelve las obras correspondientes.<br><br>AC2: Dado que no existen proyectos asociados, cuando el supervisor realiza la consulta, entonces el sistema informa que no existen proyectos registrados para dicho usuario.                                                                                                                                            |
+| HU33     | Contratante                  | Alta     | EP03 | Consultar proyectos contratados                                    | Como contratante, deseo consultar los proyectos asociados a mi participación para realizar seguimiento de las obras contratadas.                                                                                        | AC1: Dado que existen proyectos asociados al contratante, cuando este consulta sus proyectos, entonces el sistema devuelve las obras correspondientes.<br><br>AC2: Dado que no existen proyectos asociados, cuando se realiza la consulta, entonces el sistema devuelve un resultado sin proyectos disponibles.                                                                                                                                                                      |
+| EP04     | —                            | Media    | —    | Landing Page y comunicación                                        | Agrupa las historias relacionadas con la presentación pública de ArquiTech, sus características, propuesta de valor y canales de comunicación.                                                                          | —                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| HU11     | Visitante                    | Media    | EP04 | Conocer ArquiTech                                                  | Como visitante, deseo conocer la propuesta de ArquiTech para comprender el propósito de la solución y los problemas que busca resolver.                                                                                 | AC1: Dado que el visitante accede al contenido público de ArquiTech, cuando consulta la información de la solución, entonces el sistema presenta su propósito y propuesta de valor.<br><br>AC2: Dado que el visitante desea obtener mayor contexto sobre la solución, cuando consulta la información institucional, entonces el sistema presenta información que permite comprender el enfoque de ArquiTech.                                                                         |
+| HU12     | Visitante                    | Media    | EP04 | Consultar medios de contacto                                       | Como visitante, deseo conocer los medios de contacto de ArquiTech para disponer de canales mediante los cuales comunicarme con el equipo responsable.                                                                   | AC1: Dado que el visitante desea contactar a ArquiTech, cuando consulta la información de contacto, entonces el sistema proporciona los medios de comunicación disponibles.<br><br>AC2: Dado que el visitante consulta la información pública de contacto, cuando revisa los datos disponibles, entonces el sistema mantiene accesible información de contacto comprensible y vigente.                                                                                               |
+| HU13     | Visitante                    | Media    | EP04 | Explorar características y beneficios                              | Como visitante, deseo conocer las principales características y beneficios de ArquiTech para evaluar si la solución responde a mis necesidades.                                                                         | AC1: Dado que el visitante desea conocer las capacidades de ArquiTech, cuando consulta la información del producto, entonces el sistema presenta sus principales características.<br><br>AC2: Dado que el visitante evalúa el valor de la solución, cuando consulta sus beneficios, entonces el sistema presenta información sobre los resultados que ArquiTech busca aportar a la gestión de obras.                                                                                 |
+| HU34     | Visitante                    | Media    | EP04 | Acceder a la plataforma desde la Landing Page                      | Como visitante, deseo acceder a la plataforma de ArquiTech desde el sitio público para comenzar a utilizar el producto digital.                                                                                         | AC1: Dado que el visitante decide utilizar ArquiTech, cuando solicita acceder a la plataforma, entonces el sistema lo dirige al punto de acceso de la aplicación web.<br><br>AC2: Dado que el visitante accede al producto digital, cuando se completa la navegación desde el sitio público, entonces la aplicación web queda disponible para continuar con el proceso de autenticación.                                                                                             |
+| EP05     | —                            | Media    | —    | Perfil, preferencias y accesibilidad                               | Agrupa las funcionalidades relacionadas con información personal, preferencias de visualización, accesibilidad e idioma del producto.                                                                                   | —                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| HU16     | Usuario registrado           | Media    | EP05 | Actualizar información del perfil                                  | Como usuario registrado, deseo actualizar la información de mi perfil para mantener mis datos personales configurados de acuerdo con mis preferencias.                                                                  | AC1: Dado que el usuario posee información de perfil disponible, cuando proporciona nuevos datos válidos, entonces el sistema conserva la información actualizada.<br><br>AC2: Dado que el usuario vuelve a utilizar el producto desde el mismo entorno, cuando consulta su configuración de perfil, entonces el sistema recupera la información previamente conservada.                                                                                                             |
+| HU19     | Usuario registrado           | Media    | EP05 | Configurar preferencias de accesibilidad                           | Como usuario registrado, deseo configurar preferencias de accesibilidad para adaptar la experiencia de uso a mis necesidades.                                                                                           | AC1: Dado que el usuario requiere una configuración visual diferente, cuando modifica una preferencia de accesibilidad disponible, entonces el sistema aplica la configuración seleccionada.<br><br>AC2: Dado que una preferencia ha sido configurada, cuando el usuario continúa utilizando el producto, entonces el sistema mantiene la configuración aplicable al entorno actual.                                                                                                 |
+| HU46     | Usuario del producto digital | Media    | EP05 | Cambiar idioma del producto                                        | Como usuario del producto digital, deseo cambiar el idioma disponible para comprender el contenido de ArquiTech en el idioma de mi preferencia.                                                                         | AC1: Dado que el contenido dispone de traducciones compatibles, cuando el usuario selecciona otro idioma, entonces el sistema presenta el contenido traducido al idioma seleccionado.<br><br>AC2: Dado que el usuario cambia el idioma durante su interacción, cuando continúa utilizando el producto, entonces el sistema conserva el contexto funcional disponible.                                                                                                                |
+| EP06     | —                            | Alta     | —    | Incidencias y reportes                                             | Agrupa las funcionalidades relacionadas con el registro y seguimiento de incidencias y con la generación y consulta de reportes de proyecto.                                                                            | —                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| HU20     | Contratante                  | Alta     | EP06 | Consultar reporte semanal de una obra                              | Como contratante, deseo consultar un reporte semanal de una obra para conocer los principales acontecimientos y avances registrados durante la semana.                                                                  | AC1: Dado que existen datos correspondientes a la semana actual, cuando el contratante consulta el reporte de un proyecto, entonces el sistema consolida la información principal del proyecto, tareas completadas, entradas y salidas de materiales e incidencias registradas.<br><br>AC2: Dado que alguna categoría no posee registros durante la semana, cuando se genera el reporte, entonces el sistema presenta la información disponible sin impedir la consulta del reporte. |
+| HU35     | Supervisor de obra           | Alta     | EP06 | Registrar incidencia                                               | Como supervisor de obra, deseo registrar una incidencia ocurrida durante la ejecución del proyecto para mantener evidencia de los problemas de la obra.                                                                 | AC1: Dado que existe un proyecto válido, cuando el supervisor registra una incidencia con información válida, entonces el sistema almacena la incidencia asociada a la obra.<br><br>AC2: Dado que la información requerida es inválida o incompleta, cuando se intenta registrar una incidencia, entonces el sistema rechaza la operación y no crea el registro.                                                                                                                     |
+| HU36     | Supervisor de obra           | Alta     | EP06 | Actualizar incidencia                                              | Como supervisor de obra, deseo actualizar una incidencia para mantener vigente su información, severidad y estado.                                                                                                      | AC1: Dado que la incidencia existe, cuando el supervisor proporciona información válida actualizada, entonces el sistema modifica los datos de la incidencia.<br><br>AC2: Dado que la incidencia no existe o los datos son inválidos, cuando se solicita la actualización, entonces el sistema rechaza la operación y conserva la información anterior.                                                                                                                              |
+| HU37     | Supervisor de obra           | Alta     | EP06 | Consultar incidencias                                              | Como supervisor de obra, deseo consultar las incidencias registradas para realizar seguimiento de los problemas ocurridos en una obra.                                                                                  | AC1: Dado que existen incidencias registradas, cuando el supervisor las consulta, entonces el sistema devuelve su información, severidad y estado.<br><br>AC2: Dado que no existen incidencias, cuando se realiza la consulta, entonces el sistema devuelve un resultado vacío.                                                                                                                                                                                                      |
+| HU39     | Contratante                  | Alta     | EP06 | Consultar incidencias de una obra                                  | Como contratante, deseo consultar las incidencias de una obra para conocer los problemas registrados durante la ejecución del proyecto.                                                                                 | AC1: Dado que existen incidencias asociadas al proyecto, cuando el contratante las consulta, entonces el sistema devuelve la información disponible.<br><br>AC2: Dado que no existen incidencias registradas, cuando el contratante realiza la consulta, entonces el sistema devuelve un resultado vacío.                                                                                                                                                                            |
+| HU51     | Supervisor de obra           | Alta     | EP06 | Eliminar incidencia                                                | Como supervisor de obra, deseo eliminar una incidencia registrada incorrectamente para mantener consistente la información del proyecto.                                                                                | AC1: Dado que la incidencia existe y puede eliminarse, cuando el supervisor solicita su eliminación, entonces el sistema elimina el registro correspondiente.<br><br>AC2: Dado que la incidencia no existe, cuando se solicita su eliminación, entonces el sistema no modifica la información disponible.                                                                                                                                                                            |
+| HU52     | Contratante                  | Alta     | EP06 | Descargar reporte semanal                                          | Como contratante, deseo descargar el reporte semanal de una obra para conservar una copia de la información consolidada del proyecto.                                                                                   | AC1: Dado que el reporte semanal ha sido generado con información disponible, cuando el contratante solicita su descarga, entonces el sistema genera un documento que contiene la información del reporte.<br><br>AC2: Dado que el proceso de generación concluye correctamente, cuando el documento es producido, entonces el sistema proporciona el reporte en un formato portable para su conservación.                                                                           |
+| EP07     | —                            | Alta     | —    | Autenticación y seguridad                                          | Agrupa las funcionalidades relacionadas con autenticación, autorización, sesión y acceso a recursos según el rol del usuario.                                                                                           | —                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| HU23     | Usuario registrado           | Alta     | EP07 | Iniciar sesión de forma segura                                     | Como usuario registrado, deseo iniciar sesión de forma segura para acceder a las funcionalidades correspondientes a mi cuenta.                                                                                          | AC1: Dado que el usuario proporciona credenciales válidas, cuando solicita iniciar sesión, entonces el sistema autentica al usuario y establece una sesión válida.<br><br>AC2: Dado que las credenciales proporcionadas son inválidas, cuando el usuario intenta iniciar sesión, entonces el sistema rechaza la autenticación y no establece una sesión.                                                                                                                             |
+| HU27     | Usuario registrado           | Alta     | EP07 | Acceder a funcionalidades según el rol                             | Como usuario registrado, deseo acceder únicamente a las funcionalidades autorizadas para mi rol para utilizar ArquiTech de acuerdo con mis responsabilidades.                                                           | AC1: Dado que el usuario se encuentra autenticado con un rol autorizado, cuando solicita acceder a una funcionalidad permitida, entonces el sistema concede el acceso.<br><br>AC2: Dado que el rol del usuario no posee autorización, cuando solicita acceder a una funcionalidad restringida, entonces el sistema impide el acceso al recurso.                                                                                                                                      |
+| HU44     | Usuario registrado           | Alta     | EP07 | Cerrar sesión                                                      | Como usuario registrado, deseo cerrar mi sesión para finalizar de forma segura el acceso a mi cuenta.                                                                                                                   | AC1: Dado que existe una sesión autenticada, cuando el usuario solicita finalizarla, entonces el sistema elimina la información utilizada para mantener la sesión activa.<br><br>AC2: Dado que la sesión ha finalizado, cuando se intenta acceder nuevamente a un recurso protegido, entonces el sistema requiere una nueva autenticación.                                                                                                                                           |
+| EP08     | —                            | Alta     | —    | Integración y evolución técnica                                    | Agrupa capacidades y actividades técnicas transversales necesarias para integrar, validar, documentar y evolucionar los componentes reutilizados de ArquiTech.                                                          | —                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| TS01     | Developer                    | Alta     | EP01 | Implementar servicio para registrar entradas de materiales         | Como Developer, deseo disponer de servicios REST para registrar entradas de materiales y mantener actualizado el inventario del proyecto.                                                                               | AC1: Dado que una solicitud autenticada contiene información válida de una entrada, cuando el servicio procesa la solicitud, entonces crea el registro y devuelve la información resultante.<br><br>AC2: Dado que la solicitud contiene información inválida, cuando el servicio la procesa, entonces devuelve una respuesta de error y no modifica el inventario.                                                                                                                   |
+| TS02     | Developer                    | Alta     | EP01 | Implementar servicio para registrar uso de materiales              | Como Developer, deseo disponer de un servicio REST para registrar salidas de materiales y actualizar el stock disponible.                                                                                               | AC1: Dado que existe stock suficiente, cuando el servicio recibe una solicitud válida de salida, entonces registra el movimiento y actualiza el stock.<br><br>AC2: Dado que no existe stock suficiente, cuando el servicio procesa la solicitud, entonces devuelve una respuesta de error y conserva el stock anterior.                                                                                                                                                              |
+| TS03     | Developer                    | Alta     | EP01 | Validar disponibilidad de stock                                    | Como Developer, deseo validar la disponibilidad de materiales antes de procesar una salida para mantener la consistencia del inventario.                                                                                | AC1: Dado que la cantidad solicitada es menor o igual al stock disponible, cuando se procesa la operación, entonces la validación permite continuar con la salida.<br><br>AC2: Dado que la cantidad solicitada supera el stock disponible, cuando se ejecuta la validación, entonces la operación es rechazada antes de modificar los datos.                                                                                                                                         |
+| TS04     | Developer                    | Alta     | EP01 | Implementar consulta de movimientos de materiales                  | Como Developer, deseo disponer de servicios REST para consultar movimientos de materiales y recuperar el historial del inventario.                                                                                      | AC1: Dado que existen movimientos almacenados, cuando se realiza una solicitud de consulta válida, entonces el servicio devuelve los movimientos correspondientes.<br><br>AC2: Dado que no existen movimientos para el criterio solicitado, cuando se realiza la consulta, entonces el servicio devuelve una colección vacía válida.                                                                                                                                                 |
+| TS05     | Developer                    | Alta     | EP01 | Implementar registro de maquinaria                                 | Como Developer, deseo disponer de un servicio REST para registrar maquinaria asociada a proyectos.                                                                                                                      | AC1: Dado que la solicitud contiene información válida, cuando el servicio procesa el registro, entonces crea la maquinaria y devuelve el recurso creado.<br><br>AC2: Dado que la solicitud contiene datos incompatibles o inválidos, cuando se procesa, entonces el servicio devuelve una respuesta de error y no crea la maquinaria.                                                                                                                                               |
+| TS24     | Developer                    | Alta     | EP01 | Implementar consulta de materiales                                 | Como Developer, deseo disponer de servicios REST para recuperar los materiales registrados.                                                                                                                             | AC1: Dado que existen materiales almacenados, cuando se realiza una solicitud de consulta válida, entonces el servicio devuelve los recursos correspondientes.<br><br>AC2: Dado que no existen materiales, cuando se realiza la consulta, entonces el servicio devuelve una colección vacía válida.                                                                                                                                                                                  |
+| TS25     | Developer                    | Alta     | EP01 | Implementar actualización de materiales                            | Como Developer, deseo disponer de un servicio REST para actualizar materiales existentes.                                                                                                                               | AC1: Dado que el material existe y la solicitud contiene datos válidos, cuando el servicio procesa la actualización, entonces modifica el recurso y devuelve su nueva información.<br><br>AC2: Dado que el material no existe o la solicitud es inválida, cuando se procesa la actualización, entonces el servicio devuelve una respuesta de error y no altera el recurso.                                                                                                           |
+| TS26     | Developer                    | Alta     | EP01 | Implementar consulta de maquinaria                                 | Como Developer, deseo disponer de servicios REST para recuperar la maquinaria registrada.                                                                                                                               | AC1: Dado que existen recursos de maquinaria, cuando se realiza una solicitud válida, entonces el servicio devuelve los recursos correspondientes.<br><br>AC2: Dado que un identificador solicitado no corresponde a una maquinaria existente, cuando se realiza la consulta individual, entonces el servicio devuelve una respuesta indicando que el recurso no existe.                                                                                                             |
+| TS27     | Developer                    | Alta     | EP01 | Implementar actualización de maquinaria                            | Como Developer, deseo disponer de un servicio REST para actualizar la información de maquinaria existente.                                                                                                              | AC1: Dado que la maquinaria existe y los datos son válidos, cuando se procesa la solicitud de actualización, entonces el servicio modifica y devuelve el recurso actualizado.<br><br>AC2: Dado que la maquinaria no existe o los datos son inválidos, cuando se procesa la solicitud, entonces el servicio devuelve una respuesta de error sin alterar la información existente.                                                                                                     |
+| TS34     | Developer                    | Alta     | EP01 | Implementar eliminación de materiales                              | Como Developer, deseo disponer de un servicio REST para eliminar materiales cuando la operación se encuentre autorizada.                                                                                                | AC1: Dado que el material existe, cuando se procesa una solicitud válida de eliminación, entonces el servicio elimina el recurso y devuelve una respuesta satisfactoria.<br><br>AC2: Dado que el material no existe, cuando se solicita su eliminación, entonces el servicio devuelve una respuesta de error y no modifica otros recursos.                                                                                                                                           |
+| TS35     | Developer                    | Alta     | EP01 | Implementar eliminación de maquinaria                              | Como Developer, deseo disponer de un servicio REST para eliminar registros de maquinaria existentes.                                                                                                                    | AC1: Dado que la maquinaria existe, cuando el servicio procesa una solicitud válida de eliminación, entonces elimina el recurso y confirma la operación.<br><br>AC2: Dado que la maquinaria no existe, cuando se solicita su eliminación, entonces el servicio devuelve una respuesta indicando que el recurso no se encuentra disponible.                                                                                                                                           |
+| TS06     | Developer                    | Alta     | EP02 | Implementar registro de trabajadores                               | Como Developer, deseo disponer de un servicio REST para registrar trabajadores asociados a proyectos.                                                                                                                   | AC1: Dado que la solicitud posee información válida de un trabajador, cuando el servicio procesa el registro, entonces crea y devuelve el trabajador correspondiente.<br><br>AC2: Dado que la información enviada es inválida, cuando se procesa la solicitud, entonces el servicio rechaza el registro y no crea el recurso.                                                                                                                                                        |
+| TS07     | Developer                    | Alta     | EP02 | Implementar gestión de creación y asignación de tareas             | Como Developer, deseo disponer de servicios REST para crear tareas y asociarlas al personal correspondiente.                                                                                                            | AC1: Dado que los recursos asociados son válidos, cuando se procesa una solicitud de creación de tarea, entonces el servicio almacena la tarea con su información correspondiente.<br><br>AC2: Dado que los datos de la tarea o sus referencias no son válidos, cuando se procesa la solicitud, entonces el servicio rechaza la operación.                                                                                                                                           |
+| TS08     | Developer                    | Alta     | EP02 | Implementar consulta de tareas                                     | Como Developer, deseo disponer de servicios REST para recuperar las tareas registradas.                                                                                                                                 | AC1: Dado que existen tareas registradas, cuando se realiza una solicitud válida, entonces el servicio devuelve las tareas correspondientes.<br><br>AC2: Dado que no existen tareas para el criterio solicitado, cuando se realiza la consulta, entonces el servicio devuelve una colección vacía válida.                                                                                                                                                                            |
+| TS10     | Developer                    | Alta     | EP02 | Implementar consulta de trabajadores                               | Como Developer, deseo disponer de servicios REST para recuperar trabajadores y permitir su asociación con los proyectos.                                                                                                | AC1: Dado que existen trabajadores registrados, cuando se realiza una solicitud válida, entonces el servicio devuelve la información correspondiente.<br><br>AC2: Dado que el trabajador solicitado no existe, cuando se realiza una consulta individual, entonces el servicio devuelve una respuesta indicando que el recurso no se encuentra disponible.                                                                                                                           |
+| TS28     | Developer                    | Alta     | EP02 | Implementar actualización de trabajadores                          | Como Developer, deseo disponer de un servicio REST para modificar información de trabajadores existentes.                                                                                                               | AC1: Dado que el trabajador existe y los datos son válidos, cuando el servicio procesa la actualización, entonces modifica y devuelve el recurso actualizado.<br><br>AC2: Dado que el trabajador no existe o la información es inválida, cuando se procesa la solicitud, entonces el servicio devuelve una respuesta de error.                                                                                                                                                       |
+| TS29     | Developer                    | Alta     | EP02 | Implementar actualización de tareas                                | Como Developer, deseo disponer de un servicio REST para actualizar los datos y estado de una tarea.                                                                                                                     | AC1: Dado que la tarea existe, cuando se procesa una actualización válida, entonces el servicio modifica y devuelve la información actualizada.<br><br>AC2: Dado que la tarea no existe o los datos son inválidos, cuando se solicita la actualización, entonces el servicio devuelve una respuesta de error y conserva la información anterior.                                                                                                                                     |
+| TS36     | Developer                    | Alta     | EP02 | Implementar eliminación de trabajadores                            | Como Developer, deseo disponer de un servicio REST para eliminar trabajadores existentes cuando corresponda.                                                                                                            | AC1: Dado que el trabajador existe, cuando se procesa una solicitud válida de eliminación, entonces el servicio elimina el recurso.<br><br>AC2: Dado que el trabajador no existe, cuando se solicita su eliminación, entonces el servicio devuelve una respuesta de error sin modificar otros trabajadores.                                                                                                                                                                          |
+| TS37     | Developer                    | Alta     | EP02 | Implementar eliminación de tareas                                  | Como Developer, deseo disponer de un servicio REST para eliminar tareas que ya no deban mantenerse registradas.                                                                                                         | AC1: Dado que la tarea existe, cuando se procesa una solicitud válida de eliminación, entonces el servicio elimina la tarea.<br><br>AC2: Dado que la tarea no existe, cuando se procesa la solicitud, entonces el servicio devuelve una respuesta indicando que el recurso solicitado no se encuentra disponible.                                                                                                                                                                    |
+| TS09     | Developer                    | Alta     | EP03 | Implementar registro de proyectos                                  | Como Developer, deseo disponer de un servicio REST para registrar proyectos de construcción.                                                                                                                            | AC1: Dado que la solicitud contiene información válida del proyecto y sus responsables, cuando el servicio procesa el registro, entonces crea el proyecto y devuelve el recurso creado.<br><br>AC2: Dado que la información requerida es inválida, cuando se procesa la solicitud, entonces el servicio rechaza la operación y no crea el proyecto.                                                                                                                                  |
+| TS13     | Developer                    | Alta     | EP03 | Implementar consulta de proyectos                                  | Como Developer, deseo disponer de servicios REST para recuperar proyectos registrados y permitir su consulta según el usuario correspondiente.                                                                          | AC1: Dado que existen proyectos compatibles con el criterio solicitado, cuando se realiza la consulta, entonces el servicio devuelve los proyectos correspondientes.<br><br>AC2: Dado que no existen proyectos compatibles, cuando se realiza la consulta, entonces el servicio devuelve un resultado válido sin proyectos disponibles.                                                                                                                                              |
+| TS11     | Developer                    | Alta     | EP06 | Implementar consulta de incidencias                                | Como Developer, deseo disponer de servicios REST para recuperar las incidencias registradas y permitir su seguimiento.                                                                                                  | AC1: Dado que existen incidencias almacenadas, cuando se realiza una solicitud de consulta válida, entonces el servicio devuelve los recursos correspondientes.<br><br>AC2: Dado que no existen incidencias, cuando se realiza la consulta, entonces el servicio devuelve una colección vacía válida.                                                                                                                                                                                |
+| TS30     | Developer                    | Alta     | EP06 | Implementar registro de incidencias                                | Como Developer, deseo disponer de un servicio REST para registrar incidencias asociadas a proyectos.                                                                                                                    | AC1: Dado que la solicitud contiene información válida, cuando el servicio procesa el registro, entonces crea la incidencia y devuelve el recurso correspondiente.<br><br>AC2: Dado que la información de la incidencia es inválida, cuando se procesa la solicitud, entonces el servicio devuelve una respuesta de error y no crea el recurso.                                                                                                                                      |
+| TS31     | Developer                    | Alta     | EP06 | Implementar actualización de incidencias                           | Como Developer, deseo disponer de un servicio REST para actualizar la información y estado de incidencias existentes.                                                                                                   | AC1: Dado que la incidencia existe y los datos son válidos, cuando el servicio procesa la actualización, entonces modifica y devuelve la incidencia actualizada.<br><br>AC2: Dado que la incidencia no existe o los datos son inválidos, cuando se solicita la actualización, entonces el servicio devuelve una respuesta de error.                                                                                                                                                  |
+| TS38     | Developer                    | Alta     | EP06 | Implementar eliminación de incidencias                             | Como Developer, deseo disponer de un servicio REST para eliminar incidencias cuando corresponda.                                                                                                                        | AC1: Dado que la incidencia existe, cuando el servicio procesa una solicitud válida de eliminación, entonces elimina el recurso y confirma la operación.<br><br>AC2: Dado que la incidencia no existe, cuando se solicita su eliminación, entonces el servicio devuelve una respuesta de error sin modificar otros registros.                                                                                                                                                        |
+| TS14     | Developer                    | Alta     | EP07 | Implementar autenticación mediante JWT                             | Como Developer, deseo generar tokens de autenticación para identificar de manera segura las solicitudes realizadas por usuarios autenticados.                                                                           | AC1: Dado que las credenciales son válidas, cuando el servicio procesa una solicitud de autenticación, entonces genera un token asociado al usuario autenticado y devuelve la información necesaria para establecer la sesión.<br><br>AC2: Dado que las credenciales son inválidas, cuando se procesa la solicitud, entonces el servicio rechaza la autenticación y no genera un token válido.                                                                                       |
+| TS15     | Developer                    | Alta     | EP07 | Implementar gestión de roles y permisos                            | Como Developer, deseo disponer de roles y permisos diferenciados para controlar las operaciones autorizadas a cada tipo de usuario.                                                                                     | AC1: Dado que un usuario posee un rol registrado, cuando se evalúa una operación protegida, entonces el sistema considera las autorizaciones correspondientes al rol.<br><br>AC2: Dado que el rol no posee autorización para la operación solicitada, cuando se evalúa el acceso, entonces el sistema rechaza la operación.                                                                                                                                                          |
+| TS16     | Developer                    | Alta     | EP07 | Integrar autenticación entre frontend y backend                    | Como Developer, deseo integrar el cliente web con el servicio de autenticación para mantener una sesión coherente entre ambos componentes.                                                                              | AC1: Dado que el backend devuelve una autenticación válida, cuando el frontend procesa la respuesta, entonces conserva la información necesaria para las siguientes solicitudes autenticadas.<br><br>AC2: Dado que el servicio de autenticación devuelve una respuesta inválida o de error, cuando el frontend la procesa, entonces no establece una sesión autenticada.                                                                                                             |
+| TS17     | Developer                    | Alta     | EP07 | Implementar gestión de sesión                                      | Como Developer, deseo gestionar el estado de autenticación en el cliente para mantener la sesión del usuario durante el uso autorizado de la aplicación.                                                                | AC1: Dado que existe una autenticación válida, cuando el usuario continúa utilizando recursos protegidos, entonces el cliente conserva la información necesaria para identificar la sesión.<br><br>AC2: Dado que la sesión se finaliza, cuando se procesa el cierre, entonces el cliente elimina la información utilizada para identificar la sesión.                                                                                                                                |
+| TS20     | Developer                    | Alta     | EP07 | Validar JWT en solicitudes protegidas                              | Como Developer, deseo validar los tokens enviados en solicitudes protegidas para rechazar accesos no autenticados o con tokens inválidos.                                                                               | AC1: Dado que una solicitud contiene un token válido, cuando el backend procesa el recurso protegido, entonces permite continuar con la autenticación de la solicitud.<br><br>AC2: Dado que el token es inválido, inexistente o no puede validarse, cuando se procesa la solicitud, entonces el sistema rechaza el acceso al recurso protegido.                                                                                                                                      |
+| TS21     | Developer                    | Alta     | EP07 | Proteger rutas y funcionalidades según rol                         | Como Developer, deseo proteger los recursos del producto según el rol del usuario para impedir accesos no autorizados.                                                                                                  | AC1: Dado que un usuario autenticado posee el rol requerido, cuando solicita acceder a un recurso protegido, entonces el sistema permite continuar con el acceso.<br><br>AC2: Dado que el usuario no posee el rol requerido, cuando solicita acceder al recurso, entonces el sistema impide la operación.                                                                                                                                                                            |
+| TS32     | Developer                    | Media    | EP07 | Implementar servicio de registro de usuarios                       | Como Developer, deseo disponer de un servicio REST de registro de usuarios para permitir la creación técnica de cuentas con la información correspondiente.                                                             | AC1: Dado que una solicitud de registro contiene información válida y no duplicada, cuando el servicio la procesa, entonces crea el usuario y devuelve la información permitida del recurso creado.<br><br>AC2: Dado que la solicitud contiene información inválida o incompatible con una cuenta existente, cuando se procesa, entonces el servicio rechaza la creación.                                                                                                            |
+| TS33     | Developer                    | Media    | EP07 | Implementar consulta de usuarios                                   | Como Developer, deseo disponer de servicios REST para recuperar información de usuarios requerida por otras funcionalidades del producto.                                                                               | AC1: Dado que el usuario solicitado existe, cuando se realiza una consulta válida, entonces el servicio devuelve la información permitida del usuario.<br><br>AC2: Dado que el usuario solicitado no existe, cuando se realiza la consulta, entonces el servicio devuelve una respuesta indicando que el recurso no se encuentra disponible.                                                                                                                                         |
+| TS39     | Developer                    | Media    | EP08 | Documentar la API REST mediante OpenAPI                            | Como Developer, deseo disponer de documentación OpenAPI de los servicios REST para facilitar la comprensión y validación de los contratos expuestos por el backend.                                                     | AC1: Dado que los controladores REST se encuentran disponibles, cuando se genera la documentación de la API, entonces se describen los recursos y operaciones expuestos por el backend.<br><br>AC2: Dado que se modifica un contrato REST documentado, cuando se actualiza la definición correspondiente, entonces la documentación refleja el contrato vigente.                                                                                                                     |
+| SP-01    | Developer                    | Alta     | EP08 | Analizar compatibilidad de contratos REST entre frontend y backend | Como Developer, deseo analizar los contratos utilizados por el frontend y los expuestos por el backend para determinar las incompatibilidades que deben resolverse antes de extender el producto.                       | AC1: Dado que existen servicios consumidos por el frontend y endpoints expuestos por el backend, cuando se comparan rutas, parámetros, payloads y respuestas, entonces se produce una matriz de compatibilidad con los hallazgos identificados y las acciones recomendadas.                                                                                                                                                                                                          |
+| SP-02    | Developer                    | Alta     | EP07 | Validar estrategia de autorización por roles                       | Como Developer, deseo validar el comportamiento de autenticación y autorización por roles para determinar si la estrategia existente protege correctamente los recursos antes de incorporar nuevas funcionalidades.     | AC1: Dado que existen los roles Supervisor y Contratante y recursos protegidos asociados, cuando se ejecutan pruebas de acceso permitido y denegado, entonces se documentan los resultados, riesgos encontrados y recomendaciones técnicas.                                                                                                                                                                                                                                          |
+| SP-03    | Developer                    | Media    | EP05 | Evaluar persistencia de perfil y preferencias de accesibilidad     | Como Developer, deseo evaluar la estrategia utilizada para conservar la información de perfil y las preferencias de accesibilidad para determinar si resulta adecuada para la evolución del producto.                   | AC1: Dado que el producto conserva información de perfil y preferencias en el entorno del cliente, cuando se evalúan persistencia, seguridad, alcance y recuperación de la información, entonces se documenta una conclusión técnica y una recomendación para el siguiente incremento.                                                                                                                                                                                               |
+| SP-04    | Developer                    | Alta     | EP08 | Validar despliegue integrado de los componentes de ArquiTech       | Como Developer, deseo validar la integración desplegada entre Landing Page, Frontend Web App y Backend Web App para determinar si los tres componentes pueden utilizarse como línea base del nuevo ciclo de desarrollo. | AC1: Dado que existen los tres componentes desplegables del producto, cuando se ejecuta una prueba de navegación e integración de extremo a extremo, entonces se documentan el resultado de la prueba, las dependencias encontradas, los problemas detectados y las acciones requeridas antes de continuar con nuevas funcionalidades.                                                                                                                                               |
 
 La definición anterior constituye la línea base funcional y técnica del producto reutilizado. Las User Stories representan comportamientos con interacción directa de los usuarios finales; las Technical Stories representan capacidades técnicas, principalmente servicios REST, autenticación, autorización e integración; y las Spike Stories formalizan las investigaciones que deben realizarse para reducir incertidumbre antes de evolucionar el sistema.
 
@@ -1813,121 +1813,120 @@ Esta estructura permite mantener trazabilidad entre el producto ya desarrollado 
 
 ## 4.1. Style Guidelines
 
-Esta sección ofrece la estructura que va contener nuestro diseño y los elementos visuales de nuestra aplicación llamada Arquitech. Se  presentarán recursos como tipografías del logo y del texto, las paletas de colores que se van a usar en nuestra aplicación y nuestro logo. Todo aquello con el propósito de garantizar una imagen visual coherente y que coincida con el objetivo principal de nuestra startup, que es la de brindar soluciones digitales innovadoras para optimizar la gestión de proyectos de construcción de pequeñas y medianas empresas. Esta sección se divide en General Style Guidelines, Web Style Guidelines y Mobile Style Guidelines y se mostrará la experiencia visual atractiva y accesible que les presentaremos a nuestros usuarios. Es necesario que el diseño sea coherente para facilitar la navegación y mejorar la experiencia del usuario, asegurando la funcionalidad, claridad y alineación con las características que representa Arquitech. 
+Esta sección ofrece la estructura que va contener nuestro diseño y los elementos visuales de nuestra aplicación llamada Arquitech. Se presentarán recursos como tipografías del logo y del texto, las paletas de colores que se van a usar en nuestra aplicación y nuestro logo. Todo aquello con el propósito de garantizar una imagen visual coherente y que coincida con el objetivo principal de nuestra startup, que es la de brindar soluciones digitales innovadoras para optimizar la gestión de proyectos de construcción de pequeñas y medianas empresas. Esta sección se divide en General Style Guidelines, Web Style Guidelines y Mobile Style Guidelines y se mostrará la experiencia visual atractiva y accesible que les presentaremos a nuestros usuarios. Es necesario que el diseño sea coherente para facilitar la navegación y mejorar la experiencia del usuario, asegurando la funcionalidad, claridad y alineación con las características que representa Arquitech.
 
 ### 4.1.1. General Style Guidelines
 
-Se presentará el diseño conceptual para la landing page como para la aplicación, realizado con el objetivo de lograr una interfaz intuitiva, fácil de usar y mostrar una experiencia estética agradable y cómoda. Se usarán 5 colores, los cuales son el Jet, Sinopia, Fulvous, Selective Yellow y Isabelline. Algunos de estos colores serán usados para el logotipo y para la landing page y la aplicación se alternará entre los 5 colores. Estos colores reflejan nuestra intención de crear un entorno visual digital para mejorar procesos de construcción. A continuación, se detallarán los elementos visuales con mayor precisión.  
+Se presentará el diseño conceptual para la landing page como para la aplicación, realizado con el objetivo de lograr una interfaz intuitiva, fácil de usar y mostrar una experiencia estética agradable y cómoda. Se usarán 5 colores, los cuales son el Jet, Sinopia, Fulvous, Selective Yellow y Isabelline. Algunos de estos colores serán usados para el logotipo y para la landing page y la aplicación se alternará entre los 5 colores. Estos colores reflejan nuestra intención de crear un entorno visual digital para mejorar procesos de construcción. A continuación, se detallarán los elementos visuales con mayor precisión.
 
-<ins> **Branding e ícono:** </ins>  
+<ins> **Branding e ícono:** </ins>
 
-**Figura 46**   
-*Logo*  
+**Figura 46**  
+_Logo_
+
 <p align="center">
   <img src="assets/Style-Guidelines/A-logo.png" alt="PB" width="1000">
 </p>
 
- 
-* Identidad:
+- Identidad:
 
-	Arquitech representa una fusión entre la construcción tradicional y la innovación tecnológica. La marca proyecta solidez, precisión y modernidad, dirigida a supervisores de obras y contratantes de pequeñas o medianas empresas privadas que valoran la optimización de procesos de las construcciones.
+  Arquitech representa una fusión entre la construcción tradicional y la innovación tecnológica. La marca proyecta solidez, precisión y modernidad, dirigida a supervisores de obras y contratantes de pequeñas o medianas empresas privadas que valoran la optimización de procesos de las construcciones.
 
-* Paleta de Colores:
+- Paleta de Colores:
+  - \#C43508 (Sinopia): Es un color intenso y cálido y transmite fuerza y energía. También refleja estabilidad ya que representa solidez y firmeza.
+  - \#DE7F1A (Fulvous): Transmite profundidad, energía y dinamismo.
+  - \#FFB627 (Selective yellow): Aporta energía, innovación y enfoque en soluciones.
+  - \#F8F5F1 (Isabelline): Sirve para usarlo como fondo ya que aporta neutralidad, elegancia y contraste.
+  - \#2F2E2D (Jet): Representa seriedad, profesionalismo y sobriedad.
 
-	* \#C43508 (Sinopia): Es un color intenso y cálido y transmite fuerza y energía. También refleja estabilidad ya que representa solidez y firmeza.  
-	* \#DE7F1A (Fulvous): Transmite profundidad, energía y dinamismo.  
-	* \#FFB627 (Selective yellow): Aporta energía, innovación y enfoque en soluciones.  
-	* \#F8F5F1 (Isabelline): Sirve para usarlo como fondo ya que aporta neutralidad, elegancia y contraste.  
-	* \#2F2E2D (Jet): Representa seriedad, profesionalismo y sobriedad.
+- Simbolismo:
+  - Casco de construcción: Evidencia seguridad, ingeniería y trabajo profesional..
+  - Engranaje: Representa tecnología, precisión, procesos y avance constante.
+  - El combinar ambos iconos refuerza la idea de una startup que construye con inteligencia y eficiencia e integra lo físico con lo digital para optimizar procesos de construcción.
 
-* Simbolismo:
+- Mensaje de la marca:
+  - Optimización y eficiencia: Comunica simplicidad y que la startup busca mejorar los procesos constructivos desde la planificación hasta la ejecución, busca eliminar lo innecesario, maximizar recursos y entregar soluciones inteligentes y funcionales.
+  - Precisión y confiabilidad: El logo refleja solidez y confianza que Arquitech le brindará a sus clientes. Además, refleja seguridad, calidad y resultados duraderos.
+  - Claridad visual y profesionalismo: Representa lo funcional, lo directo y profesional. También, refuerza la idea de una empresa seria, accesible y alineada con las necesidades de la industria actualmente.
 
-	* Casco de construcción: Evidencia seguridad, ingeniería y trabajo profesional..  
-	* Engranaje: Representa tecnología, precisión, procesos y avance constante.  
-	* El combinar ambos iconos refuerza la idea de una startup que construye con inteligencia y eficiencia e integra lo físico con lo digital para optimizar procesos de construcción. 
-
-* Mensaje de la marca:
-
-	* Optimización y eficiencia: Comunica simplicidad y que la startup busca mejorar los procesos constructivos desde la planificación hasta la ejecución, busca eliminar lo innecesario,  maximizar recursos y entregar soluciones inteligentes y funcionales.  
-	* Precisión y confiabilidad: El logo refleja solidez y confianza que Arquitech le brindará a sus clientes. Además, refleja seguridad, calidad y resultados duraderos.  
-	* Claridad visual y profesionalismo: Representa lo funcional, lo directo y profesional. También, refuerza la idea de una empresa seria, accesible y alineada con las necesidades de la industria actualmente.
-
-* Aplicación del branding:
-
-	* Sitios web (landing page) y app: Interfaz limpia con los colores corporativos, iconos vectoriales y navegación intuitiva.  
-	* Redes sociales y presentaciones digitales: Plantillas visualmente coherentes con el mensaje de la startup.  
-	* Identidad visual corporativa: Uso estratégico del logo y la paleta de colores en material gráfico de la startup como las tarjetas de presentación, presentaciones empresariales, o imagen de perfil en aplicaciones de chats para contactar clientes. 
+- Aplicación del branding:
+  - Sitios web (landing page) y app: Interfaz limpia con los colores corporativos, iconos vectoriales y navegación intuitiva.
+  - Redes sociales y presentaciones digitales: Plantillas visualmente coherentes con el mensaje de la startup.
+  - Identidad visual corporativa: Uso estratégico del logo y la paleta de colores en material gráfico de la startup como las tarjetas de presentación, presentaciones empresariales, o imagen de perfil en aplicaciones de chats para contactar clientes.
 
 <ins> **Tipografía** </ins>  
-La tipografía de Arquitech cumple un importante rol en la expresión de la identidad de nuestra marca y brinda una sensación de claridad visual, calidez, acompañamiento para nuestros usuarios. Nuestra empresa eligió una fuente tipográfica que combina lo amigable y lo fluido, asegurando al usuario comodidad y nitidez en la landing page y en la aplicación.  
+La tipografía de Arquitech cumple un importante rol en la expresión de la identidad de nuestra marca y brinda una sensación de claridad visual, calidez, acompañamiento para nuestros usuarios. Nuestra empresa eligió una fuente tipográfica que combina lo amigable y lo fluido, asegurando al usuario comodidad y nitidez en la landing page y en la aplicación.
 
-* Tipografía del Logo y Títulos:  
-	El logo de Arquitech que se eligió comunica claridad con varios valores clave como el profesionalismo y técnica, por lo que se ha utilizado la tipografía Anton Regular que pertenece a la Anton Font Family. Esta tipografía transmite un aspecto fuerte y serio, lo cual es ideal para una empresa de construcción que busca mejorar los procesos de las obras. Además, las letras son altas y gruesas, lo que da buena visibilidad al nombre de la empresa en el logo y en los títulos. Cabe agregar, que tiene un aire moderno, pero sin dejar de ser profesional.
- 
+- Tipografía del Logo y Títulos:  
+  El logo de Arquitech que se eligió comunica claridad con varios valores clave como el profesionalismo y técnica, por lo que se ha utilizado la tipografía Anton Regular que pertenece a la Anton Font Family. Esta tipografía transmite un aspecto fuerte y serio, lo cual es ideal para una empresa de construcción que busca mejorar los procesos de las obras. Además, las letras son altas y gruesas, lo que da buena visibilidad al nombre de la empresa en el logo y en los títulos. Cabe agregar, que tiene un aire moderno, pero sin dejar de ser profesional.
+
 **Figura 47**  
-*Tipografía de logo y títulos*
+_Tipografía de logo y títulos_
+
 <p align="center">
   <img src="assets/Style-Guidelines/font-demo1.png" alt="PB" width="1000">
 </p>
- 
 
-* Tipografía de Texto Regular:  
-	Para el texto de la landing page y la aplicación se ha elegido la tipografía Futura que pertenece a Futura Font Family con el objetivo de que el usuario pueda obtener una cómoda y agradable lectura al visitar nuestras plataformas digitales. Además, esta tipografía representa modernidad, minimalismo, profesionalismo y seriedad. Aquello ayuda a la marca a representar tecnicismo, precisión y avances.
+
+- Tipografía de Texto Regular:  
+  Para el texto de la landing page y la aplicación se ha elegido la tipografía Futura que pertenece a Futura Font Family con el objetivo de que el usuario pueda obtener una cómoda y agradable lectura al visitar nuestras plataformas digitales. Además, esta tipografía representa modernidad, minimalismo, profesionalismo y seriedad. Aquello ayuda a la marca a representar tecnicismo, precisión y avances.
 
 **Figura 48**  
-*Tipografía de texto regular*
+_Tipografía de texto regular_
+
 <p align="center">
   <img src="assets/Style-Guidelines/futura-font.png" alt="PB" width="1000">
 </p>
 
-
 <ins> **Colores** </ins>  
-	Es importante elegir los colores para las plataformas digitales  adecuadamente, ya que así se asegura que la experiencia del usuario sea placentera y agradable. Por ello, nos aseguramos que la paleta de colores seleccionada de Arquitech refleje la esencia de la startup en la landing page y en nuestra aplicación.  
+ Es importante elegir los colores para las plataformas digitales adecuadamente, ya que así se asegura que la experiencia del usuario sea placentera y agradable. Por ello, nos aseguramos que la paleta de colores seleccionada de Arquitech refleje la esencia de la startup en la landing page y en nuestra aplicación.
 
 **Figura 49**  
-*Paleta de colores de ArquiTech*
+_Paleta de colores de ArquiTech_
+
 <p align="center">
   <img src="assets/Style-Guidelines/color-pallete.png" alt="PB" width="1000">
 </p>
 
-	       
 <ins>**Espaciado**</ins>
 
-* Interlineado: 140%-160% para que los textos sean legibles.  
-* Padding en botones: Mínimo 12px vertical x 24px horizontal para accesibilidad táctil a nuestros usuarios.  
-* Margen entre secciones: 34px-64px para mantener un aire visual a los usuarios.  
-* Grid base: Utilizar un grid de 8px para dar consistencia.
+- Interlineado: 140%-160% para que los textos sean legibles.
+- Padding en botones: Mínimo 12px vertical x 24px horizontal para accesibilidad táctil a nuestros usuarios.
+- Margen entre secciones: 34px-64px para mantener un aire visual a los usuarios.
+- Grid base: Utilizar un grid de 8px para dar consistencia.
 
-Esto transmite un espaciado limpio y estructurado, ya que se aprecia un orden, claridad y refleja la misión de Arquitech  de optimizar procesos, pero en lo visual.   
+Esto transmite un espaciado limpio y estructurado, ya que se aprecia un orden, claridad y refleja la misión de Arquitech de optimizar procesos, pero en lo visual.
 
-<ins>**Tono de Comunicación y Lenguaje Aplicado**</ins>  
+<ins>**Tono de Comunicación y Lenguaje Aplicado**</ins>
 
-* El tono de Arquitech es profesional, preciso, eficiente, tecnológico y accesible y confiable, diseñado para generar confianza, demostrando experiencia en el rubro de la construcción sin recurrir a un lenguaje complicado o inaccesible para nuestros usuarios.  
-* Arquitech acompaña a los clientes desde el inicio hasta el final del proceso constructivo, comunicando con claridad cómo la innovación tecnológica y la eficiencia operativa pueden realizar la diferencia en cada obra.  
-* El lenguaje se mantiene preciso y funcional, priorizando la acción. Se evita el exceso de tecnicismos y apuesta por una forma de comunicar que cualquiera dentro del sector pueda entender con facilidad.   
-* El estilo comunicativo está alineado con los principios de Arquitech que es innovar, optimizar y liderar.	
+- El tono de Arquitech es profesional, preciso, eficiente, tecnológico y accesible y confiable, diseñado para generar confianza, demostrando experiencia en el rubro de la construcción sin recurrir a un lenguaje complicado o inaccesible para nuestros usuarios.
+- Arquitech acompaña a los clientes desde el inicio hasta el final del proceso constructivo, comunicando con claridad cómo la innovación tecnológica y la eficiencia operativa pueden realizar la diferencia en cada obra.
+- El lenguaje se mantiene preciso y funcional, priorizando la acción. Se evita el exceso de tecnicismos y apuesta por una forma de comunicar que cualquiera dentro del sector pueda entender con facilidad.
+- El estilo comunicativo está alineado con los principios de Arquitech que es innovar, optimizar y liderar.
 
 ### 4.1.2. Web Style Guidelines
-En esta sección, para nuestra aplicación de Arquitech, se ha decidido colocar como fuente  SF Pro Display y Poppins. Consideramos que estas fuentes son atractivas e ideales para títulos, encabezados y contenido de texto en cada sección, ya que brinda un estilo claro, moderno y profesional. Además, se ha usado la fuente Inter Regular para los botones, ya que está específicamente diseñada para interfaces digitales. Inter Regular posee un diseño limpio y permite una lectura rápida y concisa, lo cual es vital para elementos interactivos como los botones.  
-Los colores que hemos usado para Arquitech, son los mismos anteriormente mencionados. Se ha usado aquellos colores alternándose en cada sección de contenido para ofrecer a nuestros usuarios una experiencia visual agradable y alineada. Se usó el color Isabelline (\#F8F5F1) para el fondo ya que transmite una sensación de calidez, limpieza y simplicidad, lo que permite que los elementos visuales  y los textos puedan destacar sin generar distracción. También, se usó el color Jet (\#2F2E2D) en los iconos de botones de agregar para que se pueda resaltar aquellas opciones con mayor facilidad. Para los botones de registrar o que tienen la finalidad de guardar información se le colocó el color Green Pigment (\#2BBA51), ya que es un color que se suele usar para elementos que necesitan llamar la atención, dinamismo y resalta visualmente sobre fondos claros como el nuestro que usamos el color Isabelline. 
+
+En esta sección, para nuestra aplicación de Arquitech, se ha decidido colocar como fuente SF Pro Display y Poppins. Consideramos que estas fuentes son atractivas e ideales para títulos, encabezados y contenido de texto en cada sección, ya que brinda un estilo claro, moderno y profesional. Además, se ha usado la fuente Inter Regular para los botones, ya que está específicamente diseñada para interfaces digitales. Inter Regular posee un diseño limpio y permite una lectura rápida y concisa, lo cual es vital para elementos interactivos como los botones.  
+Los colores que hemos usado para Arquitech, son los mismos anteriormente mencionados. Se ha usado aquellos colores alternándose en cada sección de contenido para ofrecer a nuestros usuarios una experiencia visual agradable y alineada. Se usó el color Isabelline (\#F8F5F1) para el fondo ya que transmite una sensación de calidez, limpieza y simplicidad, lo que permite que los elementos visuales y los textos puedan destacar sin generar distracción. También, se usó el color Jet (\#2F2E2D) en los iconos de botones de agregar para que se pueda resaltar aquellas opciones con mayor facilidad. Para los botones de registrar o que tienen la finalidad de guardar información se le colocó el color Green Pigment (\#2BBA51), ya que es un color que se suele usar para elementos que necesitan llamar la atención, dinamismo y resalta visualmente sobre fondos claros como el nuestro que usamos el color Isabelline.
 
 La interfaz de Arquitech debe ser responsiva y se debe adaptar a diversos tamaños de pantalla a través de un diseño flexible. Por esta razón es importante saber el tamaño de la pantalla que vamos a utilizar y ajustar aquello en otros dispositivos.  
 Medidas para Web Responsive:  
 Monitor pequeño: 1296x1781px
 
-**Figura 50**  
+**Figura 50**
+
 <p align="center">
   <img src="assets/Style-Guidelines/web-responsive.png" alt="PB" width="1000">
 </p>
 
+**Figura 51**
 
-**Figura 51**  
 <p align="center">
   <img src="assets/Style-Guidelines/web-responsive2.png" alt="PB" width="1000">
 </p>
 
+**Figura 52**
 
-**Figura 52**  
 <p align="center">
   <img src="assets/Style-Guidelines/web-responsive3.png" alt="PB" width="1000">
 </p>
@@ -1938,59 +1937,58 @@ Esta sección define los lineamientos visuales y de interacción que deberá seg
 
 Se mantiene la misma paleta de colores de marca (Sinopia \#C43508, Fulvous \#DE7F1A, Selective Yellow \#FFB627, Isabelline \#F8F5F1 y Jet \#2F2E2D), así como el color Green Pigment (\#2BBA51) para acciones de confirmación y guardado, garantizando consistencia visual entre la web y las aplicaciones móviles.
 
-
 #### 4.1.3.1. iOS Mobile Style Guidelines
 
 La versión iOS de Arquitech sigue las recomendaciones de las Apple Human Interface Guidelines (HIG), priorizando la claridad, la jerarquía visual y el uso de componentes nativos del sistema.
 
-* Tipografía:  
-	Se utiliza San Francisco (SF Pro Text / SF Pro Display), la tipografía del sistema de iOS, con soporte de Dynamic Type para que el usuario pueda ajustar el tamaño del texto desde la configuración de su dispositivo sin romper el diseño.
+- Tipografía:  
+  Se utiliza San Francisco (SF Pro Text / SF Pro Display), la tipografía del sistema de iOS, con soporte de Dynamic Type para que el usuario pueda ajustar el tamaño del texto desde la configuración de su dispositivo sin romper el diseño.
 
-* Íconos:  
-	Se emplean SF Symbols para los íconos de navegación y acciones, asegurando consistencia con el resto del ecosistema iOS y compatibilidad automática con distintos pesos y tamaños de texto.
+- Íconos:  
+  Se emplean SF Symbols para los íconos de navegación y acciones, asegurando consistencia con el resto del ecosistema iOS y compatibilidad automática con distintos pesos y tamaños de texto.
 
-* Áreas táctiles:  
-	Todo elemento interactivo (botones, íconos, celdas de lista) respeta un tamaño mínimo de 44x44 pt, conforme a los estándares de accesibilidad táctil de Apple.
+- Áreas táctiles:  
+  Todo elemento interactivo (botones, íconos, celdas de lista) respeta un tamaño mínimo de 44x44 pt, conforme a los estándares de accesibilidad táctil de Apple.
 
-* Navegación:  
-	Se utiliza un Tab Bar inferior para las secciones principales (Inicio, Reportes, Materiales, Perfil) y una Navigation Bar superior con títulos grandes (Large Titles) para reforzar la jerarquía dentro de cada sección.
+- Navegación:  
+  Se utiliza un Tab Bar inferior para las secciones principales (Inicio, Reportes, Materiales, Perfil) y una Navigation Bar superior con títulos grandes (Large Titles) para reforzar la jerarquía dentro de cada sección.
 
-* Modo claro y oscuro:  
-	La interfaz soporta Light Mode y Dark Mode de forma nativa, adaptando el color Isabelline (\#F8F5F1) como fondo en modo claro y el color Jet (\#2F2E2D) como fondo en modo oscuro, sin perder el contraste de los colores de marca.
+- Modo claro y oscuro:  
+  La interfaz soporta Light Mode y Dark Mode de forma nativa, adaptando el color Isabelline (\#F8F5F1) como fondo en modo claro y el color Jet (\#2F2E2D) como fondo en modo oscuro, sin perder el contraste de los colores de marca.
 
-* Safe Areas y márgenes:  
-	Se respetan los Safe Area Insets definidos por iOS para evitar que el contenido quede oculto detrás del notch, la Dynamic Island o la barra de gestos inferior.
+- Safe Areas y márgenes:  
+  Se respetan los Safe Area Insets definidos por iOS para evitar que el contenido quede oculto detrás del notch, la Dynamic Island o la barra de gestos inferior.
 
-* Gestos:  
-	Se habilitan gestos nativos como el swipe-back para retroceder entre pantallas y el pull-to-refresh para actualizar reportes y listados.
+- Gestos:  
+  Se habilitan gestos nativos como el swipe-back para retroceder entre pantallas y el pull-to-refresh para actualizar reportes y listados.
 
 #### 4.1.3.2. Android Mobile Style Guidelines
 
 La versión Android de Arquitech se basa en los lineamientos de Material Design 3 (Material You) de Google, adaptados a la paleta de colores de la marca.
 
-* Tipografía:  
-	Se utiliza Roboto como tipografía principal del sistema, siguiendo la escala tipográfica de Material Design para títulos, subtítulos y cuerpo de texto.
+- Tipografía:  
+  Se utiliza Roboto como tipografía principal del sistema, siguiendo la escala tipográfica de Material Design para títulos, subtítulos y cuerpo de texto.
 
-* Sistema de color Material:  
-	Los colores de marca se mapean a los tokens del sistema Material (primary, secondary, surface, background), utilizando Sinopia (\#C43508) como color primario, Fulvous (\#DE7F1A) como color secundario e Isabelline (\#F8F5F1) como superficie base, manteniendo el contraste mínimo exigido por las pautas de accesibilidad de Material Design.
+- Sistema de color Material:  
+  Los colores de marca se mapean a los tokens del sistema Material (primary, secondary, surface, background), utilizando Sinopia (\#C43508) como color primario, Fulvous (\#DE7F1A) como color secundario e Isabelline (\#F8F5F1) como superficie base, manteniendo el contraste mínimo exigido por las pautas de accesibilidad de Material Design.
 
-* Áreas táctiles:  
-	Todo elemento interactivo respeta un tamaño mínimo de 48x48 dp, conforme a los estándares de accesibilidad táctil de Android.
+- Áreas táctiles:  
+  Todo elemento interactivo respeta un tamaño mínimo de 48x48 dp, conforme a los estándares de accesibilidad táctil de Android.
 
-* Navegación:  
-	Se utiliza una Bottom Navigation Bar para las secciones principales de la aplicación y un Navigation Drawer lateral para opciones secundarias (configuración, ayuda, cierre de sesión).
+- Navegación:  
+  Se utiliza una Bottom Navigation Bar para las secciones principales de la aplicación y un Navigation Drawer lateral para opciones secundarias (configuración, ayuda, cierre de sesión).
 
-* Elevación y feedback visual:  
-	Los componentes utilizan sombras (elevation) para indicar jerarquía entre superficies, y se aplica el efecto ripple en botones e íconos para dar retroalimentación táctil inmediata al usuario.
+- Elevación y feedback visual:  
+  Los componentes utilizan sombras (elevation) para indicar jerarquía entre superficies, y se aplica el efecto ripple en botones e íconos para dar retroalimentación táctil inmediata al usuario.
 
-* Botón de acción flotante (FAB):  
-	Se utiliza un Floating Action Button con el color Green Pigment (\#2BBA51) para la acción principal de cada pantalla, como "Nuevo reporte" o "Registrar asistencia".
+- Botón de acción flotante (FAB):  
+  Se utiliza un Floating Action Button con el color Green Pigment (\#2BBA51) para la acción principal de cada pantalla, como "Nuevo reporte" o "Registrar asistencia".
 
-* Íconos adaptativos:  
-	Se emplean adaptive icons para el ícono de la aplicación, asegurando que se vea correctamente en las distintas formas de ícono (círculo, cuadrado, squircle) según el fabricante del dispositivo Android.
+- Íconos adaptativos:  
+  Se emplean adaptive icons para el ícono de la aplicación, asegurando que se vea correctamente en las distintas formas de ícono (círculo, cuadrado, squircle) según el fabricante del dispositivo Android.
 
-* Botón de retroceso del sistema:  
-	La navegación respeta el comportamiento nativo del botón de retroceso (back) del sistema operativo, tanto físico como gestual, para mantener la coherencia con el resto de aplicaciones Android.
+- Botón de retroceso del sistema:  
+  La navegación respeta el comportamiento nativo del botón de retroceso (back) del sistema operativo, tanto físico como gestual, para mantener la coherencia con el resto de aplicaciones Android.
 
 ## 4.2. Information Architecture
 
@@ -2000,172 +1998,164 @@ En la arquitectura de información de Arquitech, se aplican distintos sistemas d
 
 <ins> **Organización Visual del Contenido** </ins>
 
-1. Jerárquica (Visual Hierarchy):
+1.  Jerárquica (Visual Hierarchy):
 
-	Se aplica principalmente en la vista general del dashboard, donde la información más importante y urgente se muestra primero (como reportes recientes, alertas de bajo inventario y resumen de avances).
-Esta jerarquía ayuda a que el usuario enfoque su atención en lo prioritario al momento de ingresar.
+        Se aplica principalmente en la vista general del dashboard, donde la información más importante y urgente se muestra primero (como reportes recientes, alertas de bajo inventario y resumen de avances).
 
+    Esta jerarquía ayuda a que el usuario enfoque su atención en lo prioritario al momento de ingresar.
 
-2. Secuencial (Step-by-Step):
+2.  Secuencial (Step-by-Step):
 
-	Se utiliza en procesos como la generación de reportes diarios, donde se guía al usuario paso a paso:
+    Se utiliza en procesos como la generación de reportes diarios, donde se guía al usuario paso a paso:
+    - Selección de obra
 
-	* Selección de obra
+    - Registro de asistencia
 
-	* Registro de asistencia
+    - Registro de materiales utilizados
 
-	* Registro de materiales utilizados
+    - Observaciones finales
 
-	* Observaciones finales
+    - Adjuntar evidencias
 
-	* Adjuntar evidencias
+    Esto evita errores y facilita la curva de aprendizaje.
 
-	Esto evita errores y facilita la curva de aprendizaje.
+3.  Matricial:
 
-
-3. Matricial:
-
-	Se emplea para la vista comparativa de reportes semanales, permitiendo ver columnas con distintas métricas (avance físico, asistencia, materiales) por cada día, en una tabla ordenada que el usuario puede leer horizontal y verticalmente.
-
+    Se emplea para la vista comparativa de reportes semanales, permitiendo ver columnas con distintas métricas (avance físico, asistencia, materiales) por cada día, en una tabla ordenada que el usuario puede leer horizontal y verticalmente.
 
 <ins> **Esquemas de Categorización del Contenido** </ins>
 
 1. Por tópicos:
 
-	Toda la plataforma está organizada por módulos funcionales:
+   Toda la plataforma está organizada por módulos funcionales:
+   - Gestión de personal
 
-	* Gestión de personal
+   - Control de materiales
 
-	* Control de materiales
+   - Reportes
 
-	* Reportes
+   - Configuración de perfil
 
-	* Configuración de perfil
- 
-	Esto facilita al usuario identificar rápidamente dónde realizar cada acción.
+   Esto facilita al usuario identificar rápidamente dónde realizar cada acción.
 
 2. Cronológico:
 
-	En los módulos de reportes y asistencia, los datos se organizan por fecha para reflejar la progresión temporal de la obra.
+   En los módulos de reportes y asistencia, los datos se organizan por fecha para reflejar la progresión temporal de la obra.
 
 3. Alfabético:
 
-	Utilizado en listas de trabajadores, maquinaria o materiales para facilitar la búsqueda rápida y ordenada.
+   Utilizado en listas de trabajadores, maquinaria o materiales para facilitar la búsqueda rápida y ordenada.
 
 4. Por audiencia:
+   - Los contratantes solo pueden ver y recibir reportes.
 
-	* Los contratantes solo pueden ver y recibir reportes.
+   - Los supervisores pueden generar y editar.
 
-	* Los supervisores pueden generar y editar.
+   - Los administrativos tienen permisos de configuración y visualización más avanzada.
 
-	* Los administrativos tienen permisos de configuración y visualización más avanzada.  
-
-	Esto mejora la experiencia personalizada según el rol.
+   Esto mejora la experiencia personalizada según el rol.
 
 ### 4.2.2. Labeling Systems
 
 En Arquitech, se ha diseñado un sistema de etiquetado simple y funcional para evitar la sobrecarga cognitiva y facilitar la comprensión inmediata de la interfaz.
 
-* Principios utilizados:
+- Principios utilizados:
+  - Simplicidad y claridad:
 
-	* Simplicidad y claridad:
+    Se prioriza el uso de palabras clave cortas y comunes en obra (ej. "Reporte diario", "Materiales", "Asistencia", "Obreros", "Avance", "Notificaciones").
 
-		Se prioriza el uso de palabras clave cortas y comunes en obra (ej. "Reporte diario", "Materiales", "Asistencia", "Obreros", "Avance", "Notificaciones").
+  - Evitar ambigüedad:
 
-	* Evitar ambigüedad:
+    Se evita el uso de términos técnicos complejos o jerga poco conocida. Por ejemplo, se prefiere "Registro de materiales" en lugar de "Logística de recursos".
 
-		Se evita el uso de términos técnicos complejos o jerga poco conocida. Por ejemplo, se prefiere "Registro de materiales" en lugar de "Logística de recursos".
+  - Consistencia visual:
 
-	* Consistencia visual:
+    Las etiquetas mantienen estilo uniforme en botones, menús y formularios, para que el usuario no dude sobre el significado de cada elemento.
 
-		Las etiquetas mantienen estilo uniforme en botones, menús y formularios, para que el usuario no dude sobre el significado de cada elemento.
-
-	* Asociaciones entre etiquetas:
-
-		* “Reporte” siempre se relaciona con acciones como “Generar”, “Visualizar”, “Descargar”, “Compartir”.
-		* “Materiales” se relaciona con “Entrada”, “Salida”, “Inventario”.
-		* “Obreros” se relaciona con “Asistencia”, “Tareas”, “Evaluación”.
+  - Asociaciones entre etiquetas:
+    - “Reporte” siempre se relaciona con acciones como “Generar”, “Visualizar”, “Descargar”, “Compartir”.
+    - “Materiales” se relaciona con “Entrada”, “Salida”, “Inventario”.
+    - “Obreros” se relaciona con “Asistencia”, “Tareas”, “Evaluación”.
 
 ### 4.2.3. SEO Tags and Meta Tags
 
 Aquí mostraremos los Meta Tagas y los SEO tags que hemos usado para poder desarrollar el landing page con el objetivo de que sea agradable para los usuarios.
 
-	<!DOCTYPE html>
+    <!DOCTYPE html>
 
-	<html lang="es">
+    <html lang="es">
 
-	</head>
+    </head>
 
-	  <meta charset="UTF-8" />
+      <meta charset="UTF-8" />
 
  	 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
- 	 <title\> Foundex | Tecnología IoT para Restaurantes Inteligentes</title>
+<title\> Foundex | Tecnología IoT para Restaurantes Inteligentes</title>
 
-	  <meta name="description" content="Foundex ofrece una solución completa de sensores IoT y plataforma web para monitorear alimentos, mejorar la eficiencia operativa y elevar la atención al cliente en restaurantes." />
+      <meta name="description" content="Foundex ofrece una solución completa de sensores IoT y plataforma web para monitorear alimentos, mejorar la eficiencia operativa y elevar la atención al cliente en restaurantes." />
 
  	 <meta name="keywords" content="Foundex, IoT para restaurantes, monitoreo de alimentos, sensores de temperatura, gestión de inventario, eficiencia operativa, tecnología gastronómica" />
 
-	  <meta name="author" content="Equipo Foundex" />
+      <meta name="author" content="Equipo Foundex" />
 
-	  <meta name="robots" content="index, follow" />
+      <meta name="robots" content="index, follow" />
 
-	  <meta property="og:title" content="Foundex | Tecnología IoT para Restaurantes Inteligentes" />
+      <meta property="og:title" content="Foundex | Tecnología IoT para Restaurantes Inteligentes" />
 
-	  <meta property="og:description" content="Descubre cómo Foundex ayuda a los dueños y trabajadores de restaurantes a optimizar la conservación de alimentos con sensores IoT y una plataforma web de gestión." />
+      <meta property="og:description" content="Descubre cómo Foundex ayuda a los dueños y trabajadores de restaurantes a optimizar la conservación de alimentos con sensores IoT y una plataforma web de gestión." />
 
-	  <meta property="og:image" content="https://foundex.com/img/logo.png" />
+      <meta property="og:image" content="https://foundex.com/img/logo.png" />
 
-	  <meta property="og:url" content="https://foundex.com/" />
+      <meta property="og:url" content="https://foundex.com/" />
 
-	  <meta property="og:type" content="website" />
+      <meta property="og:type" content="website" />
 
-	  <meta name="twitter:card" content="summary_large_image" />
+      <meta name="twitter:card" content="summary_large_image" />
 
-	  <meta name="twitter:title" content="Foundex | Tecnología IoT para Restaurantes Inteligentes" />
+      <meta name="twitter:title" content="Foundex | Tecnología IoT para Restaurantes Inteligentes" />
 
-	  <meta name="twitter:description" content="Optimiza tu restaurante con Foundex: tecnología IoT, sensores y plataforma web para un mejor control alimentario." />
+      <meta name="twitter:description" content="Optimiza tu restaurante con Foundex: tecnología IoT, sensores y plataforma web para un mejor control alimentario." />
 
-	  <meta name="twitter:image" content="https://foundex.com/img/logo.png" />
+      <meta name="twitter:image" content="https://foundex.com/img/logo.png" />
 
-	  <link rel="icon" href="img/logo.png" type="image/x-icon" />
+      <link rel="icon" href="img/logo.png" type="image/x-icon" />
 
-	  <link rel="stylesheet" href="style.css" />
+      <link rel="stylesheet" href="style.css" />
 
-	</head>
-
+    </head>
 
 ### 4.2.4. Searching Systems
 
-Dentro de la plataforma ArquiTech, los sistemas de búsqueda han sido diseñados para facilitar el acceso rápido y eficiente a información crítica relacionada con la gestión de obras. La aplicación contempla un volumen significativo de datos relacionados con proyectos, documentos técnicos, solicitudes, trabajadores, insumos y cronogramas. Por ello, se proyecta la implementación de un sistema de búsqueda integral que ayude a los usuarios a evitar pérdidas de tiempo y a mantener el control operativo en todo momento.  
+Dentro de la plataforma ArquiTech, los sistemas de búsqueda han sido diseñados para facilitar el acceso rápido y eficiente a información crítica relacionada con la gestión de obras. La aplicación contempla un volumen significativo de datos relacionados con proyectos, documentos técnicos, solicitudes, trabajadores, insumos y cronogramas. Por ello, se proyecta la implementación de un sistema de búsqueda integral que ayude a los usuarios a evitar pérdidas de tiempo y a mantener el control operativo en todo momento.
 
 El sistema permitirá a los usuarios buscar información dentro de los distintos módulos del sistema, utilizando:
 
-* Palabras clave (términos técnicos, nombres de obra, actividades específicas, materiales).  
-* Filtros por categoría (tipo de documento, fase del proyecto, tipo de solicitud, tipo de personal).  
-* Rangos de fechas (fecha de emisión, entrega, modificación o supervisión).  
-* Códigos internos asignados a solicitudes, órdenes de servicio, contratistas o áreas constructivas.
+- Palabras clave (términos técnicos, nombres de obra, actividades específicas, materiales).
+- Filtros por categoría (tipo de documento, fase del proyecto, tipo de solicitud, tipo de personal).
+- Rangos de fechas (fecha de emisión, entrega, modificación o supervisión).
+- Códigos internos asignados a solicitudes, órdenes de servicio, contratistas o áreas constructivas.
 
 Este sistema será particularmente útil para:
 
-* Ahorrar tiempo en la localización de documentos, reportes o actividades específicas, sin necesidad de navegar por múltiples módulos manualmente.  
-* Encontrar rápidamente registros relacionados con avances de obra, observaciones, solicitudes de materiales o incidencias.  
-* Apoyar la toma de decisiones sobre ejecución, control de calidad o cumplimiento de cronogramas mediante el acceso inmediato a la información registrada.
+- Ahorrar tiempo en la localización de documentos, reportes o actividades específicas, sin necesidad de navegar por múltiples módulos manualmente.
+- Encontrar rápidamente registros relacionados con avances de obra, observaciones, solicitudes de materiales o incidencias.
+- Apoyar la toma de decisiones sobre ejecución, control de calidad o cumplimiento de cronogramas mediante el acceso inmediato a la información registrada.
 
 Una vez realizada una búsqueda, los resultados se presentarán de forma estructurada en tablas o tarjetas, con opciones para visualizar, editar o exportar la información según los permisos del usuario.
 
-### ***4.2.5. Navigation Systems***
+### **_4.2.5. Navigation Systems_**
 
 Los sistemas de navegación implementados en el proyecto ArquiTech han sido diseñados para garantizar una experiencia intuitiva, fluida y orientada a la consecución de objetivos por parte del usuario. Considerando que el público objetivo está conformado principalmente por supervisores de obra, contratistas y personal administrativo de empresas constructoras, se ha priorizado una arquitectura de navegación clara, jerárquica y adaptada al flujo natural de las actividades constructivas.
 
 <ins>**En la Landing Page**</ins>  
 La navegación en la landing page tiene una estructura lineal con anclajes internos y botones de acción, facilitando la exploración informativa en orden lógico. Las acciones de navegación se guían mediante:
 
-* Un menú fijo en la parte superior con enlaces directos a secciones como: “¿Qué es ArquiTech?”, “Beneficios”, “Funcionalidades”, “Casos de uso” y “Contacto”.  
-* Botones con anclas que desplazan suavemente al usuario dentro de la misma página, sin recarga.  
-* Llamados a la acción (“Conoce la plataforma”, “Solicita una demo”) que direccionan al formulario de contacto o a secciones específicas de interés.
+- Un menú fijo en la parte superior con enlaces directos a secciones como: “¿Qué es ArquiTech?”, “Beneficios”, “Funcionalidades”, “Casos de uso” y “Contacto”.
+- Botones con anclas que desplazan suavemente al usuario dentro de la misma página, sin recarga.
+- Llamados a la acción (“Conoce la plataforma”, “Solicita una demo”) que direccionan al formulario de contacto o a secciones específicas de interés.
 
-Este diseño permite que los visitantes comprendan rápidamente el propósito de la solución y se dirijan con claridad hacia la acción deseada.  
+Este diseño permite que los visitantes comprendan rápidamente el propósito de la solución y se dirijan con claridad hacia la acción deseada.
 
 ### 4.2.5. Navigation Systems
 
@@ -2196,7 +2186,6 @@ Para el diseño se consideraron versiones adaptadas tanto para navegadores de es
 <p align="center">
   <img src="../assets/chapter-4/landing-page-wireframe-desktop.png" width="850" alt="Landing Page Wireframe Desktop">
 </p>
-
 
 **Wireframe - Mobile Web Browser**
 
@@ -2246,6 +2235,70 @@ El objetivo es presentar una interfaz moderna, clara y coherente con la identida
 
 ### 4.6.1. Web Applications Wireframes
 
+<div style="text-align: justify;">
+A continuación, se presentan los wireframes correspondientes a la aplicación web de ArquiTech, diseñados para ofrecer una interfaz clara y estructurada para la gestión administrativa de los proyectos.
+</div>
+
+<br>
+
+_Wireframe Web - Inicio de Sesión (Login)_
+
+<p align="center">
+  <img src="assets/chapter-4/web-application-wireframes/wireframe-login.png" width="850" alt="Wireframe Login">
+</p>
+
+_Nota. Elaboración propia._
+
+<br>
+
+_Wireframe Web - Gestión de Proyectos_
+
+<p align="center">
+  <img src="assets/chapter-4/web-application-wireframes/wireframe-project.png" width="850" alt="Wireframe Proyectos">
+</p>
+
+_Nota. Elaboración propia._
+
+<br>
+
+_Wireframe Web - Inventario de Materiales_
+
+<p align="center">
+  <img src="assets/chapter-4/web-application-wireframes/wireframe-materials.png" width="850" alt="Wireframe Materiales">
+</p>
+
+_Nota. Elaboración propia._
+
+<br>
+
+_Wireframe Web - Control de Trabajadores_
+
+<p align="center">
+  <img src="assets/chapter-4/web-application-wireframes/wireframe-workers.png" width="850" alt="Wireframe Trabajadores">
+</p>
+
+_Nota. Elaboración propia._
+
+<br>
+
+_Wireframe Web - Registro de Incidentes_
+
+<p align="center">
+  <img src="assets/chapter-4/web-application-wireframes/wireframe-incidents.png" width="850" alt="Wireframe Incidentes">
+</p>
+
+_Nota. Elaboración propia._
+
+<br>
+
+_Wireframe Web - Gestión de Maquinaria_
+
+<p align="center">
+  <img src="assets/chapter-4/web-application-wireframes/wireframe-machinery.png" width="850" alt="Wireframe Maquinaria">
+</p>
+
+_Nota. Elaboración propia._
+
 ### 4.6.2. Web Applications Wireflow Diagrams
 
 ### 4.6.3. Web Applications Mock-ups
@@ -2275,7 +2328,7 @@ El Class Diagram de ArquiTech representa la estructura estática del dominio de 
 El modelo se encuentra compuesto por las clases `User`, `Project`, `ProjectMember`, `Material`, `MaterialMovement`, `Machinery`, `Worker`, `Attendance`, `Task`, `Incident` y `Report`.
 
 **Figura X**  
-*Class Diagram de ArquiTech*
+_Class Diagram de ArquiTech_
 
 <p align="center">
   <img src="assets/chapter-4/software-object-oriented-design/class-diagram.png"
@@ -2283,7 +2336,7 @@ El modelo se encuentra compuesto por las clases `User`, `Project`, `ProjectMembe
        width="1100">
 </p>
 
-*Nota.* Elaboración propia.
+_Nota._ Elaboración propia.
 
 La clase `User` representa a los usuarios que acceden a ArquiTech, principalmente supervisores de obra y contratantes de empresas privadas. Los usuarios pueden participar en diferentes proyectos, relación que se representa mediante la clase asociativa `ProjectMember`.
 
@@ -2316,222 +2369,222 @@ El Class Dictionary complementa el Class Diagram mediante la descripción de las
 
 Representa a los usuarios registrados en ArquiTech que participan en el seguimiento o gestión de los proyectos.
 
-| Atributo | Tipo | Descripción |
-| --- | --- | --- |
-| userId | int | Identificador único del usuario. |
-| email | string | Correo electrónico utilizado para acceder a la plataforma. |
-| passwordHash | string | Representación cifrada de la contraseña del usuario. |
-| fullName | string | Nombre completo del usuario. |
-| role | UserRole | Rol del usuario dentro de ArquiTech: Supervisor o Contratante. |
-| createdAt | datetime | Fecha y hora de creación de la cuenta. |
+| Atributo     | Tipo     | Descripción                                                    |
+| ------------ | -------- | -------------------------------------------------------------- |
+| userId       | int      | Identificador único del usuario.                               |
+| email        | string   | Correo electrónico utilizado para acceder a la plataforma.     |
+| passwordHash | string   | Representación cifrada de la contraseña del usuario.           |
+| fullName     | string   | Nombre completo del usuario.                                   |
+| role         | UserRole | Rol del usuario dentro de ArquiTech: Supervisor o Contratante. |
+| createdAt    | datetime | Fecha y hora de creación de la cuenta.                         |
 
-| Método | Retorno | Descripción |
-| --- | --- | --- |
-| updateProfile(fullName, email) | void | Actualiza la información personal del usuario. |
-| changePassword(passwordHash) | void | Actualiza la contraseña almacenada del usuario. |
-| hasRole(role) | bool | Verifica si el usuario posee un determinado rol. |
+| Método                         | Retorno | Descripción                                      |
+| ------------------------------ | ------- | ------------------------------------------------ |
+| updateProfile(fullName, email) | void    | Actualiza la información personal del usuario.   |
+| changePassword(passwordHash)   | void    | Actualiza la contraseña almacenada del usuario.  |
+| hasRole(role)                  | bool    | Verifica si el usuario posee un determinado rol. |
 
 #### Clase `Project`
 
 Representa una obra o proyecto de construcción gestionado mediante ArquiTech.
 
-| Atributo | Tipo | Descripción |
-| --- | --- | --- |
-| projectId | int | Identificador único del proyecto. |
-| name | string | Nombre del proyecto. |
-| startDate | date | Fecha de inicio del proyecto. |
-| endDate | date | Fecha estimada de finalización. |
-| budget | decimal | Presupuesto asignado al proyecto. |
-| status | ProjectStatus | Estado actual del proyecto. |
-| progress | decimal | Porcentaje de avance registrado. |
-| createdAt | datetime | Fecha de creación del proyecto en la plataforma. |
+| Atributo  | Tipo          | Descripción                                      |
+| --------- | ------------- | ------------------------------------------------ |
+| projectId | int           | Identificador único del proyecto.                |
+| name      | string        | Nombre del proyecto.                             |
+| startDate | date          | Fecha de inicio del proyecto.                    |
+| endDate   | date          | Fecha estimada de finalización.                  |
+| budget    | decimal       | Presupuesto asignado al proyecto.                |
+| status    | ProjectStatus | Estado actual del proyecto.                      |
+| progress  | decimal       | Porcentaje de avance registrado.                 |
+| createdAt | datetime      | Fecha de creación del proyecto en la plataforma. |
 
-| Método | Retorno | Descripción |
-| --- | --- | --- |
-| updateInformation(name, dates, budget) | void | Actualiza los datos generales del proyecto. |
-| updateStatus(status) | void | Modifica el estado del proyecto. |
-| updateProgress(progress) | void | Actualiza el porcentaje de avance. |
-| isActive() | bool | Determina si el proyecto se encuentra activo. |
+| Método                                 | Retorno | Descripción                                   |
+| -------------------------------------- | ------- | --------------------------------------------- |
+| updateInformation(name, dates, budget) | void    | Actualiza los datos generales del proyecto.   |
+| updateStatus(status)                   | void    | Modifica el estado del proyecto.              |
+| updateProgress(progress)               | void    | Actualiza el porcentaje de avance.            |
+| isActive()                             | bool    | Determina si el proyecto se encuentra activo. |
 
 #### Clase `ProjectMember`
 
 Representa la asociación entre un usuario y un proyecto.
 
-| Atributo | Tipo | Descripción |
-| --- | --- | --- |
-| projectMemberId | int | Identificador único de la asociación. |
-| projectId | int | Identificador del proyecto relacionado. |
-| userId | int | Identificador del usuario relacionado. |
-| joinedAt | datetime | Fecha en que el usuario fue asociado al proyecto. |
+| Atributo        | Tipo     | Descripción                                       |
+| --------------- | -------- | ------------------------------------------------- |
+| projectMemberId | int      | Identificador único de la asociación.             |
+| projectId       | int      | Identificador del proyecto relacionado.           |
+| userId          | int      | Identificador del usuario relacionado.            |
+| joinedAt        | datetime | Fecha en que el usuario fue asociado al proyecto. |
 
-| Método | Retorno | Descripción |
-| --- | --- | --- |
-| assignToProject(userId, projectId) | void | Asocia un usuario con un proyecto. |
-| removeFromProject() | void | Elimina la asociación del usuario con el proyecto. |
+| Método                             | Retorno | Descripción                                        |
+| ---------------------------------- | ------- | -------------------------------------------------- |
+| assignToProject(userId, projectId) | void    | Asocia un usuario con un proyecto.                 |
+| removeFromProject()                | void    | Elimina la asociación del usuario con el proyecto. |
 
 #### Clase `Material`
 
 Representa un material disponible dentro del inventario de un proyecto.
 
-| Atributo | Tipo | Descripción |
-| --- | --- | --- |
-| materialId | int | Identificador único del material. |
-| projectId | int | Proyecto al que pertenece el material. |
-| name | string | Nombre del material. |
-| unit | string | Unidad utilizada para medir el material. |
-| currentStock | decimal | Cantidad disponible actualmente. |
-| minimumStock | decimal | Cantidad mínima recomendada. |
-| lastUpdated | datetime | Fecha de la última actualización del stock. |
+| Atributo     | Tipo     | Descripción                                 |
+| ------------ | -------- | ------------------------------------------- |
+| materialId   | int      | Identificador único del material.           |
+| projectId    | int      | Proyecto al que pertenece el material.      |
+| name         | string   | Nombre del material.                        |
+| unit         | string   | Unidad utilizada para medir el material.    |
+| currentStock | decimal  | Cantidad disponible actualmente.            |
+| minimumStock | decimal  | Cantidad mínima recomendada.                |
+| lastUpdated  | datetime | Fecha de la última actualización del stock. |
 
-| Método | Retorno | Descripción |
-| --- | --- | --- |
-| registerEntry(quantity) | void | Incrementa el stock por una entrada de material. |
-| registerUsage(quantity) | void | Reduce el stock por utilización del material. |
-| hasAvailableStock(quantity) | bool | Verifica si existe cantidad suficiente para una salida. |
-| isBelowMinimum() | bool | Indica si el stock se encuentra por debajo del mínimo definido. |
+| Método                      | Retorno | Descripción                                                     |
+| --------------------------- | ------- | --------------------------------------------------------------- |
+| registerEntry(quantity)     | void    | Incrementa el stock por una entrada de material.                |
+| registerUsage(quantity)     | void    | Reduce el stock por utilización del material.                   |
+| hasAvailableStock(quantity) | bool    | Verifica si existe cantidad suficiente para una salida.         |
+| isBelowMinimum()            | bool    | Indica si el stock se encuentra por debajo del mínimo definido. |
 
 #### Clase `MaterialMovement`
 
 Representa una transacción de entrada o utilización de un material.
 
-| Atributo | Tipo | Descripción |
-| --- | --- | --- |
-| movementId | int | Identificador único del movimiento. |
-| materialId | int | Material relacionado con el movimiento. |
-| registeredByUserId | int | Usuario que registra el movimiento. |
-| type | MovementType | Tipo de movimiento: Entry o Usage. |
-| quantity | decimal | Cantidad involucrada. |
-| supplier | string | Proveedor relacionado cuando se registra una entrada. |
-| occurredAt | datetime | Fecha y hora del movimiento. |
+| Atributo           | Tipo         | Descripción                                           |
+| ------------------ | ------------ | ----------------------------------------------------- |
+| movementId         | int          | Identificador único del movimiento.                   |
+| materialId         | int          | Material relacionado con el movimiento.               |
+| registeredByUserId | int          | Usuario que registra el movimiento.                   |
+| type               | MovementType | Tipo de movimiento: Entry o Usage.                    |
+| quantity           | decimal      | Cantidad involucrada.                                 |
+| supplier           | string       | Proveedor relacionado cuando se registra una entrada. |
+| occurredAt         | datetime     | Fecha y hora del movimiento.                          |
 
-| Método | Retorno | Descripción |
-| --- | --- | --- |
-| registerMovement(type, quantity) | void | Registra un movimiento de material. |
-| validateQuantity() | bool | Verifica que la cantidad ingresada sea válida. |
+| Método                           | Retorno | Descripción                                    |
+| -------------------------------- | ------- | ---------------------------------------------- |
+| registerMovement(type, quantity) | void    | Registra un movimiento de material.            |
+| validateQuantity()               | bool    | Verifica que la cantidad ingresada sea válida. |
 
 #### Clase `Machinery`
 
 Representa una maquinaria o equipo asignado a un proyecto.
 
-| Atributo | Tipo | Descripción |
-| --- | --- | --- |
-| machineryId | int | Identificador único de la maquinaria. |
-| projectId | int | Proyecto al que se encuentra asignada. |
-| name | string | Nombre o tipo de maquinaria. |
-| serialNumber | string | Número de serie o código identificador. |
-| status | MachineryStatus | Estado operativo de la maquinaria. |
-| description | string | Información complementaria de la maquinaria. |
+| Atributo     | Tipo            | Descripción                                  |
+| ------------ | --------------- | -------------------------------------------- |
+| machineryId  | int             | Identificador único de la maquinaria.        |
+| projectId    | int             | Proyecto al que se encuentra asignada.       |
+| name         | string          | Nombre o tipo de maquinaria.                 |
+| serialNumber | string          | Número de serie o código identificador.      |
+| status       | MachineryStatus | Estado operativo de la maquinaria.           |
+| description  | string          | Información complementaria de la maquinaria. |
 
-| Método | Retorno | Descripción |
-| --- | --- | --- |
-| updateInformation(name, description) | void | Actualiza la información de la maquinaria. |
-| updateStatus(status) | void | Modifica su estado operativo. |
-| isOperational() | bool | Comprueba si la maquinaria se encuentra operativa. |
+| Método                               | Retorno | Descripción                                        |
+| ------------------------------------ | ------- | -------------------------------------------------- |
+| updateInformation(name, description) | void    | Actualiza la información de la maquinaria.         |
+| updateStatus(status)                 | void    | Modifica su estado operativo.                      |
+| isOperational()                      | bool    | Comprueba si la maquinaria se encuentra operativa. |
 
 #### Clase `Worker`
 
 Representa a un trabajador asignado a un proyecto de construcción.
 
-| Atributo | Tipo | Descripción |
-| --- | --- | --- |
-| workerId | int | Identificador único del trabajador. |
-| projectId | int | Proyecto en el que participa. |
-| fullName | string | Nombre completo del trabajador. |
-| role | string | Rol desempeñado dentro de la obra. |
-| specialty | string | Especialidad del trabajador. |
-| hireDate | date | Fecha de incorporación. |
-| active | bool | Indica si continúa activo en el proyecto. |
+| Atributo  | Tipo   | Descripción                               |
+| --------- | ------ | ----------------------------------------- |
+| workerId  | int    | Identificador único del trabajador.       |
+| projectId | int    | Proyecto en el que participa.             |
+| fullName  | string | Nombre completo del trabajador.           |
+| role      | string | Rol desempeñado dentro de la obra.        |
+| specialty | string | Especialidad del trabajador.              |
+| hireDate  | date   | Fecha de incorporación.                   |
+| active    | bool   | Indica si continúa activo en el proyecto. |
 
-| Método | Retorno | Descripción |
-| --- | --- | --- |
-| updateInformation(fullName, role, specialty) | void | Actualiza la información del trabajador. |
-| deactivate() | void | Marca al trabajador como inactivo. |
-| isActive() | bool | Indica si continúa asignado al proyecto. |
+| Método                                       | Retorno | Descripción                              |
+| -------------------------------------------- | ------- | ---------------------------------------- |
+| updateInformation(fullName, role, specialty) | void    | Actualiza la información del trabajador. |
+| deactivate()                                 | void    | Marca al trabajador como inactivo.       |
+| isActive()                                   | bool    | Indica si continúa asignado al proyecto. |
 
 #### Clase `Attendance`
 
 Representa un registro diario de asistencia de un trabajador.
 
-| Atributo | Tipo | Descripción |
-| --- | --- | --- |
-| attendanceId | int | Identificador único del registro. |
-| workerId | int | Trabajador asociado. |
-| date | date | Fecha correspondiente al registro. |
-| checkInTime | datetime | Hora de ingreso registrada. |
-| checkOutTime | datetime | Hora de salida registrada. |
-| status | AttendanceStatus | Estado de asistencia del trabajador. |
+| Atributo     | Tipo             | Descripción                          |
+| ------------ | ---------------- | ------------------------------------ |
+| attendanceId | int              | Identificador único del registro.    |
+| workerId     | int              | Trabajador asociado.                 |
+| date         | date             | Fecha correspondiente al registro.   |
+| checkInTime  | datetime         | Hora de ingreso registrada.          |
+| checkOutTime | datetime         | Hora de salida registrada.           |
+| status       | AttendanceStatus | Estado de asistencia del trabajador. |
 
-| Método | Retorno | Descripción |
-| --- | --- | --- |
-| recordCheckIn(time) | void | Registra la hora de ingreso. |
-| recordCheckOut(time) | void | Registra la hora de salida. |
-| correctAttendance(checkIn, checkOut) | void | Corrige un registro de asistencia. |
-| markAbsent() | void | Registra la ausencia del trabajador. |
+| Método                               | Retorno | Descripción                          |
+| ------------------------------------ | ------- | ------------------------------------ |
+| recordCheckIn(time)                  | void    | Registra la hora de ingreso.         |
+| recordCheckOut(time)                 | void    | Registra la hora de salida.          |
+| correctAttendance(checkIn, checkOut) | void    | Corrige un registro de asistencia.   |
+| markAbsent()                         | void    | Registra la ausencia del trabajador. |
 
 #### Clase `Task`
 
 Representa una actividad asignada a un trabajador dentro de un proyecto.
 
-| Atributo | Tipo | Descripción |
-| --- | --- | --- |
-| taskId | int | Identificador único de la tarea. |
-| projectId | int | Proyecto al que pertenece. |
-| workerId | int | Trabajador asignado a la tarea. |
-| title | string | Nombre de la tarea. |
-| description | string | Descripción detallada de la actividad. |
-| status | TaskStatus | Estado de ejecución de la tarea. |
-| dueDate | datetime | Fecha límite de la tarea. |
-| createdAt | datetime | Fecha en que fue registrada. |
+| Atributo    | Tipo       | Descripción                            |
+| ----------- | ---------- | -------------------------------------- |
+| taskId      | int        | Identificador único de la tarea.       |
+| projectId   | int        | Proyecto al que pertenece.             |
+| workerId    | int        | Trabajador asignado a la tarea.        |
+| title       | string     | Nombre de la tarea.                    |
+| description | string     | Descripción detallada de la actividad. |
+| status      | TaskStatus | Estado de ejecución de la tarea.       |
+| dueDate     | datetime   | Fecha límite de la tarea.              |
+| createdAt   | datetime   | Fecha en que fue registrada.           |
 
-| Método | Retorno | Descripción |
-| --- | --- | --- |
-| assignWorker(workerId) | void | Asigna la tarea a un trabajador. |
-| updateStatus(status) | void | Modifica el estado de la tarea. |
-| updateInformation(title, description, dueDate) | void | Modifica la información de la tarea. |
-| isCompleted() | bool | Verifica si la tarea se encuentra finalizada. |
+| Método                                         | Retorno | Descripción                                   |
+| ---------------------------------------------- | ------- | --------------------------------------------- |
+| assignWorker(workerId)                         | void    | Asigna la tarea a un trabajador.              |
+| updateStatus(status)                           | void    | Modifica el estado de la tarea.               |
+| updateInformation(title, description, dueDate) | void    | Modifica la información de la tarea.          |
+| isCompleted()                                  | bool    | Verifica si la tarea se encuentra finalizada. |
 
 #### Clase `Incident`
 
 Representa una incidencia ocurrida durante el desarrollo de una obra.
 
-| Atributo | Tipo | Descripción |
-| --- | --- | --- |
-| incidentId | int | Identificador único de la incidencia. |
-| projectId | int | Proyecto relacionado. |
-| reportedByUserId | int | Usuario que registró la incidencia. |
-| type | string | Categoría de la incidencia. |
-| description | string | Descripción de lo sucedido. |
-| severity | IncidentSeverity | Nivel de severidad registrado. |
-| status | IncidentStatus | Estado actual de la incidencia. |
-| reportedAt | datetime | Fecha y hora en que fue registrada. |
-| resolvedAt | datetime | Fecha y hora de resolución, cuando corresponda. |
+| Atributo         | Tipo             | Descripción                                     |
+| ---------------- | ---------------- | ----------------------------------------------- |
+| incidentId       | int              | Identificador único de la incidencia.           |
+| projectId        | int              | Proyecto relacionado.                           |
+| reportedByUserId | int              | Usuario que registró la incidencia.             |
+| type             | string           | Categoría de la incidencia.                     |
+| description      | string           | Descripción de lo sucedido.                     |
+| severity         | IncidentSeverity | Nivel de severidad registrado.                  |
+| status           | IncidentStatus   | Estado actual de la incidencia.                 |
+| reportedAt       | datetime         | Fecha y hora en que fue registrada.             |
+| resolvedAt       | datetime         | Fecha y hora de resolución, cuando corresponda. |
 
-| Método | Retorno | Descripción |
-| --- | --- | --- |
-| updateInformation(type, description, severity) | void | Actualiza la información registrada. |
-| updateStatus(status) | void | Cambia el estado de la incidencia. |
-| resolve() | void | Marca la incidencia como resuelta. |
-| isResolved() | bool | Comprueba si la incidencia fue solucionada. |
+| Método                                         | Retorno | Descripción                                 |
+| ---------------------------------------------- | ------- | ------------------------------------------- |
+| updateInformation(type, description, severity) | void    | Actualiza la información registrada.        |
+| updateStatus(status)                           | void    | Cambia el estado de la incidencia.          |
+| resolve()                                      | void    | Marca la incidencia como resuelta.          |
+| isResolved()                                   | bool    | Comprueba si la incidencia fue solucionada. |
 
 #### Clase `Report`
 
 Representa un reporte generado a partir de la información de un proyecto.
 
-| Atributo | Tipo | Descripción |
-| --- | --- | --- |
-| reportId | int | Identificador único del reporte. |
-| projectId | int | Proyecto sobre el cual se genera. |
-| generatedByUserId | int | Usuario responsable de la generación. |
-| type | ReportType | Tipo de reporte. |
-| generatedAt | datetime | Fecha y hora de generación. |
-| filePath | string | Ubicación del archivo generado. |
-| summary | string | Resumen general del reporte. |
+| Atributo          | Tipo       | Descripción                           |
+| ----------------- | ---------- | ------------------------------------- |
+| reportId          | int        | Identificador único del reporte.      |
+| projectId         | int        | Proyecto sobre el cual se genera.     |
+| generatedByUserId | int        | Usuario responsable de la generación. |
+| type              | ReportType | Tipo de reporte.                      |
+| generatedAt       | datetime   | Fecha y hora de generación.           |
+| filePath          | string     | Ubicación del archivo generado.       |
+| summary           | string     | Resumen general del reporte.          |
 
-| Método | Retorno | Descripción |
-| --- | --- | --- |
-| generate() | Report | Genera el reporte utilizando los datos del proyecto. |
-| export(format) | File | Exporta el reporte en el formato indicado. |
-| getSummary() | string | Retorna el resumen del reporte. |
+| Método         | Retorno | Descripción                                          |
+| -------------- | ------- | ---------------------------------------------------- |
+| generate()     | Report  | Genera el reporte utilizando los datos del proyecto. |
+| export(format) | File    | Exporta el reporte en el formato indicado.           |
+| getSummary()   | string  | Retorna el resumen del reporte.                      |
 
 ---
 
@@ -2548,7 +2601,7 @@ El Relational Database Diagram representa las tablas necesarias para persistir l
 Las principales tablas consideradas son `users`, `projects`, `project_members`, `materials`, `material_movements`, `machineries`, `workers`, `attendances`, `tasks`, `incidents` y `reports`.
 
 **Figura X**  
-*Relational Database Diagram de ArquiTech*
+_Relational Database Diagram de ArquiTech_
 
 <p align="center">
   <img src="assets/chapter-4/database-design/database-diagram.png"
@@ -2556,7 +2609,7 @@ Las principales tablas consideradas son `users`, `projects`, `project_members`, 
        width="1100">
 </p>
 
-*Nota.* Elaboración propia.
+_Nota._ Elaboración propia.
 
 La tabla `users` almacena la información de autenticación y perfil de los usuarios de ArquiTech. La relación entre los usuarios y los proyectos se representa mediante `project_members`, permitiendo que múltiples usuarios puedan participar en un mismo proyecto y que un usuario pueda estar relacionado con diferentes proyectos.
 
@@ -2576,19 +2629,19 @@ Las principales relaciones del modelo son de tipo uno a muchos y muchos a muchos
 
 #### Estructura propuesta de tablas
 
-| Tabla | Campos principales |
-| --- | --- |
-| `users` | `user_id PK`, `email`, `password_hash`, `full_name`, `role`, `created_at` |
-| `projects` | `project_id PK`, `name`, `start_date`, `end_date`, `budget`, `status`, `progress`, `created_at` |
-| `project_members` | `project_member_id PK`, `project_id FK`, `user_id FK`, `joined_at` |
-| `materials` | `material_id PK`, `project_id FK`, `name`, `unit`, `current_stock`, `minimum_stock`, `last_updated` |
-| `material_movements` | `movement_id PK`, `material_id FK`, `registered_by_user_id FK`, `type`, `quantity`, `supplier`, `occurred_at` |
-| `machineries` | `machinery_id PK`, `project_id FK`, `name`, `serial_number`, `status`, `description` |
-| `workers` | `worker_id PK`, `project_id FK`, `full_name`, `role`, `specialty`, `hire_date`, `active` |
-| `attendances` | `attendance_id PK`, `worker_id FK`, `date`, `check_in_time`, `check_out_time`, `status` |
-| `tasks` | `task_id PK`, `project_id FK`, `worker_id FK`, `title`, `description`, `status`, `due_date`, `created_at` |
-| `incidents` | `incident_id PK`, `project_id FK`, `reported_by_user_id FK`, `type`, `description`, `severity`, `status`, `reported_at`, `resolved_at` |
-| `reports` | `report_id PK`, `project_id FK`, `generated_by_user_id FK`, `type`, `generated_at`, `file_path`, `summary` |
+| Tabla                | Campos principales                                                                                                                     |
+| -------------------- | -------------------------------------------------------------------------------------------------------------------------------------- |
+| `users`              | `user_id PK`, `email`, `password_hash`, `full_name`, `role`, `created_at`                                                              |
+| `projects`           | `project_id PK`, `name`, `start_date`, `end_date`, `budget`, `status`, `progress`, `created_at`                                        |
+| `project_members`    | `project_member_id PK`, `project_id FK`, `user_id FK`, `joined_at`                                                                     |
+| `materials`          | `material_id PK`, `project_id FK`, `name`, `unit`, `current_stock`, `minimum_stock`, `last_updated`                                    |
+| `material_movements` | `movement_id PK`, `material_id FK`, `registered_by_user_id FK`, `type`, `quantity`, `supplier`, `occurred_at`                          |
+| `machineries`        | `machinery_id PK`, `project_id FK`, `name`, `serial_number`, `status`, `description`                                                   |
+| `workers`            | `worker_id PK`, `project_id FK`, `full_name`, `role`, `specialty`, `hire_date`, `active`                                               |
+| `attendances`        | `attendance_id PK`, `worker_id FK`, `date`, `check_in_time`, `check_out_time`, `status`                                                |
+| `tasks`              | `task_id PK`, `project_id FK`, `worker_id FK`, `title`, `description`, `status`, `due_date`, `created_at`                              |
+| `incidents`          | `incident_id PK`, `project_id FK`, `reported_by_user_id FK`, `type`, `description`, `severity`, `status`, `reported_at`, `resolved_at` |
+| `reports`            | `report_id PK`, `project_id FK`, `generated_by_user_id FK`, `type`, `generated_at`, `file_path`, `summary`                             |
 
 # Capítulo V: Product Implementation
 
@@ -2625,13 +2678,13 @@ Las principales relaciones del modelo son de tipo uno a muchos y muchos a muchos
 En esta sección, presentamos el Video About the Product, diseñado para captar la atención de los visitantes de nuestro Landing Page y los usuarios de nuestras aplicaciones, ofreciendo una visión clara y atractiva del modelo de negocio y las características principales de nuestra solución de software, Arquitech. Este video tiene como objetivo principal comunicar cómo nuestra plataforma facilita procesos clave como la creación de usuarios de manera eficiente y segura. Dirigido tanto a potenciales clientes interesados en conocer las capacidades de nuestro producto como a usuarios que desean realizar tareas relacionadas con la gestión de usuarios, el video adopta un tono profesional, innovador y accesible, alineado con la identidad de nuestra plataforma. A través de una demostración dinámica de las funcionalidades, el video resalta la facilidad de uso y la integración con una base de datos. Además, incluye un testimonio positivo de un usuario participante en las entrevistas de validación, reforzando la credibilidad y el valor de nuestra solución. Este contenido busca inspirar confianza y motivar a los espectadores a explorar y adoptar nuestra plataforma para optimizar sus procesos.
 
 **Figura 117**  
-*Video About-the-product*  
+_Video About-the-product_
+
 <p align="center">
   <img src="assets/About-the-product/abouttheproduct.jpg" alt="PB" width="1000">
-</p> 
+</p>
 
 [https://www.youtube.com/watch?v=k3Z0771Au1Y](https://www.youtube.com/watch?v=k3Z0771Au1Y)
-
 
 # Conclusiones
 
