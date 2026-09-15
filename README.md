@@ -724,10 +724,10 @@ Las siguientes preguntas complementarias serán aplicadas a todos los entrevista
 - ¿Tiene responsabilidades familiares que influyan en su rutina o en la forma en que toma decisiones?
 - ¿Cuál es su ocupación o cargo actual?
 - ¿Cuántos años de experiencia tiene en el sector construcción o contratando proyectos de construcción?
-- ¿Cómo describiría su forma habitual de trabajar o tomar decisiones?
+- ¿Cómo describiría su personalidad y su forma habitual de trabajar o tomar decisiones?
 - ¿Qué habilidades considera más importantes para desarrollar sus actividades?
 - ¿Qué personas, empresas, marcas o referentes suelen influir en sus decisiones relacionadas con proyectos de construcción?
-- ¿Qué dispositivo utiliza principalmente para realizar actividades relacionadas con su trabajo o con el seguimiento de proyectos: smartphone, laptop, tablet u otro?
+- ¿Qué dispositivo utiliza principalmente para realizar actividades relacionadas con su trabajo o con el seguimiento de proyectos: smartphone, laptop, tablet u otro? ¿Cuál prefiere utilizar y por qué?
 - ¿Qué aplicaciones o canales digitales utiliza con mayor frecuencia para comunicarse o gestionar información relacionada con su trabajo?
 - ¿Qué navegador web utiliza habitualmente?
 - ¿Cuál es su principal objetivo cuando participa en la gestión o seguimiento de una obra?
@@ -736,11 +736,23 @@ Las siguientes preguntas complementarias serán aplicadas a todos los entrevista
 
 ### 2.2.2. Registro de entrevistas
 
-Como parte del proceso de investigación de ArquiTech, se realizaron entrevistas a representantes de los dos segmentos objetivo definidos: **supervisores de obra** y **contratantes de empresas privadas**. Se realizaron tres entrevistas por cada segmento, obteniendo un total de seis entrevistas.
+Como parte del proceso de investigación de ArquiTech, se contemplan entrevistas a representantes de los dos segmentos objetivo definidos: supervisores de obra y contratantes de empresas privadas. Para esta etapa se consideran tres participantes por cada segmento, obteniendo un total de seis entrevistas.
 
-Para cada participante se registra su información de identificación, edad, distrito de residencia, una captura correspondiente a su participación en la entrevista, el timing de inicio, la duración y el enlace del video correspondiente. Asimismo, se presenta un resumen descriptivo de las principales respuestas obtenidas durante la aplicación del guion de entrevistas y de las preguntas complementarias de caracterización.
+Cada entrevista será registrada en video como evidencia del proceso de investigación. Posteriormente, las seis entrevistas serán consolidadas en un único video editado de Needfinding, utilizando Clipchamp y publicándolo en Microsoft Stream mediante un enlace privado. Para cada participante se registran sus nombres y apellidos, edad, distrito de residencia, segmento objetivo, fecha de entrevista, un cuadro representativo del video, el timing exacto en el que inicia su participación dentro del video consolidado y la duración correspondiente.
 
-Los resúmenes recogen información relacionada con las actividades de los participantes, procesos actuales, principales dificultades, necesidades, expectativas, características personales, tecnología utilizada, canales digitales, dispositivos, objetivos y frustraciones. Esta información será utilizada posteriormente como fuente para el análisis de entrevistas y la construcción de los arquetipos de usuario.
+El video consolidado incluirá una pantalla inicial de presentación, elementos visuales relacionados con la identidad de Foundex y ArquiTech, una secuencia coherente entre entrevistas y títulos que identifiquen al participante, el segmento objetivo y la fecha de realización de cada entrevista. La edición considerará aproximadamente entre tres y cinco minutos por participante.
+
+Los resúmenes presentados para cada entrevista recogen las principales respuestas obtenidas mediante el guion principal y las preguntas complementarias de caracterización. Se consideran tanto características objetivas como subjetivas, incluyendo información demográfica, ocupación, trayectoria, personalidad, habilidades, marcas e influencias, tecnología utilizada, dispositivos de preferencia, canales digitales de interacción, navegador, objetivos, frustraciones, procesos actuales, dificultades, necesidades y expectativas.
+
+Esta información servirá posteriormente como fuente para el análisis estadístico de entrevistas y para la construcción de los User Personas, manteniendo trazabilidad entre las características incorporadas en los arquetipos y la información obtenida durante las entrevistas.
+
+**Video consolidado de Needfinding:** [ENLACE PRIVADO DE MICROSOFT STREAM]
+
+**Nombre del video:** `upc-pre-202610-1asi0732-9112-Foundex-needfinding-sprint-1.mp4`
+
+**Formato:** `.mp4`
+
+**Duración total:** [HH:MM:SS]
 
 ---
 
@@ -751,36 +763,48 @@ Los resúmenes recogen información relacionada con las actividades de los parti
 **Datos del entrevistado**
 
 - **Nombres y apellidos:** [NOMBRES Y APELLIDOS]
-- **Género:** [GÉNERO]
 - **Edad:** 61 años
+- **Distrito de residencia:** [DISTRITO]
 - **Segmento objetivo:** Supervisor de obra
+- **Fecha de entrevista:** [DD/MM/AAAA]
 - **Timing de inicio:** [HH:MM:SS]
 - **Duración:** [MM:SS]
-- **Video:** [ENLACE DEL VIDEO]
+- **Video consolidado:** [ENLACE PRIVADO DE MICROSOFT STREAM]
 
+**Figura X**  
 *Cuadro de video del entrevistado #1 del segmento Supervisores de obra.*
 
 <p align="center">
-  <img src="assets/chapter-2/interviews/interview-01.png" alt="Entrevista 1 - Supervisor de obra" width="900">
+  <img src="assets/chapter-2/interviews/interview-01.png"
+       alt="Entrevista 1 - Supervisor de obra"
+       width="900">
 </p>
 
 *Nota.* Elaboración propia a partir de la entrevista realizada.
 
 **Resumen de la entrevista**
 
-[NOMBRE] explicó que sus funciones diarias comprenden la supervisión del cumplimiento del expediente técnico, la coordinación con el residente de obra, el control de asistencia de los obreros mediante hojas de tareo y la gestión del inventario mediante hojas tipo Kardex y registros de movimientos de almacén. El avance de la obra se mide diariamente mediante metrados y posteriormente se consolida en reportes semanales y mensuales.
+[NOMBRE] es un supervisor de obra de 61 años, identificado con el género masculino, casado y con responsabilidades familiares que influyen en la organización de su tiempo. Cuenta con más de treinta años de experiencia en el sector construcción y ha participado principalmente en edificaciones, ampliaciones y proyectos de infraestructura, desempeñando actividades relacionadas con supervisión, control técnico y administración de recursos.
 
-Entre las principales dificultades que enfrenta se encuentran la ausencia de personal clave, los retrasos en la entrega de materiales y los errores producidos durante el registro del inventario. Asimismo, considera fundamental mantener una coordinación constante entre el personal de campo y los responsables administrativos.
+Durante una jornada habitual inicia revisando las actividades programadas y verificando la disponibilidad del personal y los materiales necesarios. También comprueba que los trabajos sean ejecutados de acuerdo con el expediente técnico, coordina con el residente de obra y realiza seguimiento de metrados, calidad y avance. Dependiendo de la magnitud del proyecto, trabaja con diferentes cuadrillas y gestiona materiales como cemento, acero, agregados, ladrillo y concreto.
 
-Respecto a sus necesidades, considera útil disponer de una herramienta digital que centralice la información relacionada con asistencia, inventario y reportes. Esta debería permitir registrar requerimientos, controlar el uso de maquinaria y combustible y generar reportes que permitan comparar el avance real de la obra con el uso de los recursos.
+Para controlar la asistencia utiliza hojas de tareo en las que se registra la presencia y las horas trabajadas. Cuando algún trabajador falta, la situación es comunicada al responsable de la cuadrilla y se evalúa si es necesario realizar un reemplazo. El inventario se controla mediante Kardex y registros de movimientos de almacén, utilizados para registrar entradas y salidas de materiales.
 
-Entre sus principales preocupaciones respecto al uso de una plataforma digital se encuentra la correcta implementación del sistema y la precisión con la que el personal registre los datos. Considera que una herramienta de este tipo debería ser confiable y permitir mantener actualizada la información de la obra.
+El avance es medido principalmente mediante metrados diarios y posteriormente consolidado en reportes semanales y mensuales. La preparación y revisión de estos documentos puede tomar varias horas debido a que la información proviene de diferentes registros. Para compartirla con otros responsables utiliza reuniones, reportes, correo electrónico y WhatsApp.
 
-También considera importante disponer de funcionalidades para el control independiente de tareo y planillas, generación de reportes valorizados y seguimiento monetario de materiales, maquinaria y mano de obra.
+Entre sus principales dificultades se encuentra mantener actualizada toda la información operativa. Indicó que la ausencia de trabajadores o los retrasos de proveedores pueden modificar inmediatamente la planificación. También ha experimentado inconsistencias entre el stock registrado y el stock físico cuando las salidas de materiales no son registradas oportunamente. Asimismo, considera que pueden producirse diferencias entre campo y administración cuando la información no se comunica a tiempo.
 
-En cuanto a su forma de trabajo, mantiene un enfoque orientado al control, seguimiento y cumplimiento de las actividades planificadas. Entre las habilidades necesarias para su actividad destacan la supervisión, coordinación, organización y control de recursos. Utiliza herramientas como hojas de cálculo y registros digitales para gestionar información relacionada con la obra, complementando la comunicación con otros responsables mediante canales digitales.
+Su principal objetivo es lograr que la obra sea ejecutada de acuerdo con el expediente técnico, dentro de los plazos establecidos y utilizando adecuadamente los recursos. Su principal frustración es trabajar con información desactualizada o detectar demasiado tarde la falta de algún material o recurso.
 
-Su principal objetivo es garantizar el cumplimiento técnico y operativo de la obra, manteniendo control sobre el personal, materiales y avance del proyecto. Sus principales frustraciones están relacionadas con los retrasos, errores de registro y falta de información actualizada.
+Considera que la gestión podría mejorarse mediante la centralización de asistencia, inventario, metrados y reportes. Necesita consultar diariamente información relacionada con avance, stock y disponibilidad de personal. Espera que una herramienta digital sea sencilla, confiable y evite la duplicación de trabajo. También considera valiosas funciones relacionadas con el control de maquinaria y combustible y con la generación de reportes valorizados.
+
+Respecto a la adopción de tecnología, considera importante que existan permisos diferenciados para los usuarios, registros confiables y trazabilidad sobre quién realiza cada actualización. Una herramienta excesivamente complicada o que requiera más tiempo de registro que el procedimiento actual constituiría una barrera para su utilización.
+
+En cuanto a sus características personales, se describe como una persona metódica y cuidadosa que prefiere verificar la información antes de tomar decisiones. Considera especialmente importantes las habilidades de organización, supervisión, comunicación, interpretación de documentación técnica, control de recursos y resolución de imprevistos.
+
+Entre sus principales influencias profesionales menciona las buenas prácticas difundidas por CAPECO y SENCICO, además de la experiencia de otros ingenieros con los que ha trabajado. En cuanto a tecnología, utiliza smartphone y laptop, aunque prefiere la laptop para revisar documentos y elaborar reportes. Emplea principalmente WhatsApp, correo electrónico y herramientas de Microsoft Office, y utiliza Google Chrome como navegador habitual.
+
+Finalmente, considera que una solución digital también debería permitir comparar automáticamente lo planificado con lo ejecutado y con los recursos consumidos. Estaría dispuesto a probar una plataforma orientada a la gestión de obras siempre que sea fácil de implementar y reduzca efectivamente el trabajo administrativo.
 
 ---
 
@@ -789,36 +813,48 @@ Su principal objetivo es garantizar el cumplimiento técnico y operativo de la o
 **Datos del entrevistado**
 
 - **Nombres y apellidos:** [NOMBRES Y APELLIDOS]
-- **Género:** [GÉNERO]
 - **Edad:** 55 años
-- **Segmento objetivo:** Supervisor de obra
+- **Distrito de residencia:** [DISTRITO]
+- **Segmento objetivo:** Supervisora de obra
+- **Fecha de entrevista:** [DD/MM/AAAA]
 - **Timing de inicio:** [HH:MM:SS]
 - **Duración:** [MM:SS]
-- **Video:** [ENLACE DEL VIDEO]
+- **Video consolidado:** [ENLACE PRIVADO DE MICROSOFT STREAM]
 
+**Figura X**  
 *Cuadro de video del entrevistado #2 del segmento Supervisores de obra.*
 
 <p align="center">
-  <img src="assets/chapter-2/interviews/interview-02.png" alt="Entrevista 2 - Supervisor de obra" width="900">
+  <img src="assets/chapter-2/interviews/interview-02.png"
+       alt="Entrevista 2 - Supervisora de obra"
+       width="900">
 </p>
 
 *Nota.* Elaboración propia a partir de la entrevista realizada.
 
 **Resumen de la entrevista**
 
-[NOMBRE] explicó que sus principales responsabilidades están relacionadas con el control de calidad de los materiales, la verificación del uso adecuado de equipos de protección personal y la supervisión del cumplimiento de las funciones asignadas al equipo técnico. La cantidad de trabajadores y materiales utilizados depende de las actividades programadas para cada jornada.
+[NOMBRE] es una ingeniera civil de 55 años que se identifica con el género femenino, es casada y tiene responsabilidades familiares. Cuenta con aproximadamente veinticinco años de experiencia en construcción y ha trabajado supervisando distintas etapas de proyectos, especialmente en actividades relacionadas con control de calidad, seguridad y ejecución de trabajos.
 
-El control de asistencia se realiza mediante una hoja de tareo gestionada por el asistente técnico y el maestro de obra. Las ausencias de personal y los retrasos en la llegada de materiales son considerados factores críticos debido al impacto que pueden generar sobre el avance del proyecto.
+Durante una jornada habitual revisa las actividades programadas, verifica la calidad de los materiales y las condiciones de seguridad, supervisa el uso adecuado de equipos de protección personal y comprueba el cumplimiento de las funciones asignadas al equipo técnico. La cantidad de trabajadores y materiales que debe gestionar varía de acuerdo con las actividades programadas para cada jornada.
 
-El inventario se controla mediante notas de entrada y salida registradas en Excel, mientras que los avances de la obra son valorizados físicamente y posteriormente incluidos en reportes semanales y mensuales. Los errores o retrasos en la actualización de estos registros pueden generar consecuencias negativas en la gestión de la obra.
+El control de asistencia se realiza mediante hojas de tareo administradas principalmente por el asistente técnico y el maestro de obra. Cuando se produce una ausencia, esta debe comunicarse inmediatamente debido a que puede afectar una actividad crítica del proyecto.
 
-Respecto a la coordinación, considera necesario mantener una comunicación permanente entre técnicos, residentes, administrativos y responsables del almacén para asegurar el correcto desarrollo del proyecto.
+Para el control del inventario se utilizan notas de entrada y salida que posteriormente son registradas en Excel. El avance se controla mediante valorizaciones físicas y reportes semanales y mensuales. La información es compartida mediante reuniones, correo electrónico, documentos digitales y WhatsApp.
 
-Considera que una plataforma digital capaz de centralizar asistencia, inventario y reportes facilitaría considerablemente su trabajo, especialmente si permite consultar información actualizada, organizar requerimientos y consolidar reportes de forma eficiente. Sin embargo, considera que la utilidad de una plataforma depende también del correcto uso que realicen los responsables de ingresar la información.
+Entre las principales dificultades menciona la coordinación de recursos y la necesidad de mantener actualizada la información. Los retrasos en el registro de entradas o salidas pueden generar diferencias en el inventario. Asimismo, considera fundamental que técnicos, residentes, personal administrativo y responsables de almacén trabajen utilizando información consistente.
 
-En cuanto a su forma de trabajo, mantiene un enfoque organizado y orientado al cumplimiento de los procedimientos establecidos. Entre las habilidades más relevantes para sus actividades se encuentran la supervisión, comunicación, coordinación y control de calidad. Utiliza herramientas digitales como Excel y distintos medios de comunicación para coordinar las actividades de la obra.
+La información que considera más difícil de mantener actualizada es el inventario y el estado de los requerimientos de materiales. Su principal objetivo es asegurar que las actividades sean desarrolladas correctamente y con el nivel de calidad requerido, mientras que sus principales frustraciones están relacionadas con los retrasos en materiales y las inconsistencias en los registros.
 
-Su principal objetivo es asegurar el correcto desarrollo de las actividades y mantener un adecuado nivel de calidad y control. Entre sus principales frustraciones se encuentran las ausencias de personal, retrasos de materiales y errores en la actualización de la información.
+Considera que la gestión podría mejorar mediante una herramienta que integre asistencia, almacén, requerimientos y reportes. Necesita consultar diariamente información relacionada con avance, materiales y disponibilidad del personal. Espera que una plataforma digital sea integral pero sencilla y que permita generar diferentes tipos de reportes según las necesidades de cada responsable.
+
+Para confiar en una herramienta digital considera necesario que la información esté protegida, que los responsables de cada registro estén identificados y que pueda verificarse cuándo se actualizó cada dato. Una interfaz complicada o la falta de orientación inicial al personal podrían dificultar su adopción.
+
+Se describe como una persona organizada, preventiva y rigurosa con los procedimientos. Entre sus principales habilidades reconoce la comunicación, liderazgo, coordinación, control de calidad e interpretación de documentación técnica.
+
+Entre sus referentes profesionales se encuentran SENCICO, CAPECO y las normas técnicas aplicables al sector construcción. Utiliza principalmente laptop y smartphone, aunque prefiere la laptop para actividades documentales. Entre sus herramientas y canales digitales habituales se encuentran Excel, Outlook y WhatsApp, y utiliza Google Chrome como navegador.
+
+Finalmente, considera importante que una plataforma permita realizar seguimiento al estado de los requerimientos de materiales, identificando si se encuentran pendientes, aprobados o atendidos. Estaría dispuesta a utilizar una solución digital si facilita las actividades y centraliza la información relevante de la obra.
 
 ---
 
@@ -827,36 +863,50 @@ Su principal objetivo es asegurar el correcto desarrollo de las actividades y ma
 **Datos del entrevistado**
 
 - **Nombres y apellidos:** [NOMBRES Y APELLIDOS]
-- **Género:** [GÉNERO]
 - **Edad:** 31 años
-- **Segmento objetivo:** Supervisor de obra
+- **Distrito de residencia:** [DISTRITO]
+- **Segmento objetivo:** Supervisora de obra
+- **Fecha de entrevista:** [DD/MM/AAAA]
 - **Timing de inicio:** [HH:MM:SS]
 - **Duración:** [MM:SS]
-- **Video:** [ENLACE DEL VIDEO]
+- **Video consolidado:** [ENLACE PRIVADO DE MICROSOFT STREAM]
 
+**Figura X**  
 *Cuadro de video del entrevistado #3 del segmento Supervisores de obra.*
 
 <p align="center">
-  <img src="assets/chapter-2/interviews/interview-03.png" alt="Entrevista 3 - Supervisor de obra" width="900">
+  <img src="assets/chapter-2/interviews/interview-03.png"
+       alt="Entrevista 3 - Supervisora de obra"
+       width="900">
 </p>
 
 *Nota.* Elaboración propia a partir de la entrevista realizada.
 
 **Resumen de la entrevista**
 
-[NOMBRE] explicó que su función principal consiste en organizar y supervisar las actividades diarias desarrolladas en obra, gestionar al personal obrero y mantener comunicación con el área administrativa al finalizar la jornada. Dependiendo del proyecto, suele trabajar con aproximadamente entre 10 y 18 trabajadores. Entre los materiales utilizados con mayor frecuencia se encuentran ladrillo, cemento, fierro y concreto premezclado.
+[NOMBRE] es una ingeniera civil de 31 años que se identifica con el género femenino y es soltera. No tiene personas que dependan económicamente de ella. Cuenta con aproximadamente siete años de experiencia en el sector construcción y ha participado principalmente en proyectos de edificaciones y remodelaciones.
 
-La asistencia se registra manualmente mediante firmas y las ausencias suelen comunicarse por WhatsApp. Sin embargo, pueden producirse retrasos en la actualización de esta información debido a la carga de trabajo diaria. El inventario es administrado mediante Excel o cuadernos físicos, aunque se presentan dificultades cuando no existe conectividad o los registros no son actualizados oportunamente.
+Su jornada habitual comprende la organización de actividades, supervisión de cuadrillas, revisión de materiales y coordinación con el área administrativa al finalizar el día. Dependiendo del proyecto, suele trabajar con aproximadamente entre diez y dieciocho trabajadores y gestionar materiales como ladrillo, cemento, fierro y concreto premezclado.
 
-El avance de la obra se documenta mediante fotografías y reportes elaborados en Word. Esta actividad puede retrasarse debido a la necesidad de atender otras responsabilidades durante la jornada, provocando que parte del trabajo administrativo sea realizado fuera del horario habitual.
+La asistencia del personal se registra mediante firmas y las ausencias suelen comunicarse a través de WhatsApp. Para controlar el inventario utiliza Excel y, en determinadas situaciones, cuadernos físicos. El avance de la obra es documentado mediante fotografías y posteriormente se elaboran reportes en Word.
 
-Entre sus principales dificultades se encuentran los errores de inventario, como compras excesivas ocasionadas por registros duplicados, y los problemas de coordinación entre el personal de campo y el área administrativa. Considera poco práctico depender exclusivamente de papel o archivos de Excel en proyectos donde la información cambia constantemente.
+La información relacionada con la obra es compartida mediante WhatsApp, correo electrónico y documentos digitales compartidos. Una de sus principales dificultades es mantener toda la información actualizada mientras desarrolla actividades en campo.
 
-Considera útil disponer de una herramienta digital que centralice la asistencia, inventario y reportes, ya que permitiría tomar decisiones utilizando información actualizada, facilitaría la coordinación y proporcionaría mayor visibilidad sobre el estado de la obra.
+Ha experimentado situaciones de compras duplicadas debido a que los registros de inventario no fueron actualizados oportunamente. También identifica dificultades en la coordinación entre campo y administración, debido a que la información generada en obra no siempre llega inmediatamente a la oficina.
 
-Para confiar en una herramienta de este tipo considera fundamental que sea fácil de utilizar, intuitiva y que no requiera una capacitación técnica compleja. Entre las funcionalidades que considera valiosas se encuentran las alertas automáticas por ausencia de trabajadores o escasez de materiales y los reportes resumidos que puedan ser comprendidos por usuarios sin conocimientos técnicos especializados.
+La información que necesita con mayor rapidez se encuentra relacionada con stock de materiales, ausencias del personal y avance de las actividades. Su principal objetivo es mantener organizadas las operaciones y evitar interrupciones innecesarias, mientras que sus principales frustraciones son registrar repetidamente la misma información y trabajar con datos desactualizados.
 
-Su forma de trabajo se caracteriza por ser dinámica y orientada a resolver los problemas que surgen durante las actividades diarias. Utiliza principalmente herramientas como Excel, Word y WhatsApp para gestionar y comunicar información. Su principal objetivo es mantener control sobre las actividades desarrolladas en obra y coordinar adecuadamente con las demás áreas. Sus principales frustraciones están relacionadas con la duplicidad de información, falta de actualización de registros y dificultades de comunicación entre campo y oficina.
+Considera que la gestión podría mejorar mediante una herramienta que pueda utilizar directamente desde el smartphone y que centralice la información de obra. Entre las características que considera especialmente importantes se encuentran las alertas por ausencias o niveles bajos de materiales, reportes resumidos y una interfaz sencilla.
+
+Para confiar en una solución digital espera que sea intuitiva, confiable y que almacene adecuadamente la información. Entre las posibles barreras identifica la dependencia de una buena conexión a Internet y un rendimiento lento de la aplicación.
+
+Se describe como una persona práctica, dinámica y orientada a resolver problemas. Considera importantes las habilidades de organización, comunicación, resolución de problemas y manejo de herramientas digitales.
+
+Entre sus influencias se encuentran contenidos técnicos de **SENCICO**, experiencias compartidas por colegas y comunidades profesionales. También utiliza herramientas de Microsoft Office y Autodesk.
+
+Utiliza smartphone y laptop. En actividades realizadas directamente en campo prefiere el smartphone, mientras que para preparar reportes prefiere la laptop. Sus aplicaciones y canales más utilizados son WhatsApp, Excel, Word y Google Drive. Su navegador habitual es Google Chrome.
+
+Finalmente, considera que sería útil recibir alertas automáticas ante eventos relevantes. Estaría dispuesta a utilizar una plataforma de gestión siempre que pueda emplearla fácilmente durante las actividades desarrolladas en campo.
 
 ---
 
@@ -867,37 +917,50 @@ Su forma de trabajo se caracteriza por ser dinámica y orientada a resolver los 
 **Datos del entrevistado**
 
 - **Nombres y apellidos:** [NOMBRES Y APELLIDOS]
-- **Género:** [GÉNERO]
 - **Edad:** 27 años
 - **Distrito de residencia:** Cercado de Lima
 - **Segmento objetivo:** Contratante de empresa privada
+- **Fecha de entrevista:** [DD/MM/AAAA]
 - **Timing de inicio:** [HH:MM:SS]
 - **Duración:** [MM:SS]
-- **Video:** [ENLACE DEL VIDEO]
+- **Video consolidado:** [ENLACE PRIVADO DE MICROSOFT STREAM]
 
+**Figura X**  
 *Cuadro de video del entrevistado #1 del segmento Contratantes de empresas privadas.*
 
 <p align="center">
-  <img src="assets/chapter-2/interviews/interview-04.png" alt="Entrevista 4 - Contratante de empresa privada" width="900">
+  <img src="assets/chapter-2/interviews/interview-04.png"
+       alt="Entrevista 4 - Contratante de empresa privada"
+       width="900">
 </p>
 
 *Nota.* Elaboración propia a partir de la entrevista realizada.
 
 **Resumen de la entrevista**
 
-[NOMBRE], de 27 años y residente en Cercado de Lima, suele contratar proyectos de construcción relacionados con locales comerciales, oficinas y almacenes. Para seleccionar una constructora se basa principalmente en recomendaciones, experiencia previa, cumplimiento de plazos, precios razonables y evidencia de proyectos desarrollados anteriormente.
+[NOMBRE] es una administradora de un pequeño negocio comercial de 27 años, residente en Cercado de Lima. Se identifica con el género femenino, es soltera y no tiene hijos ni personas que dependan económicamente de ella. Cuenta con aproximadamente cuatro años de experiencia contratando proyectos relacionados con remodelaciones y adecuaciones de locales comerciales.
 
-Actualmente recibe información sobre el avance de las obras mediante WhatsApp o correo electrónico, normalmente a través de fotografías y listados semanales. Sin embargo, considera que esta forma de comunicación suele ser informal y que la información proporcionada no siempre resulta suficientemente clara.
+Suele contratar principalmente remodelaciones de locales comerciales, oficinas y pequeños almacenes. Para seleccionar una empresa constructora revisa recomendaciones, trabajos anteriores, presupuesto y cumplimiento de plazos.
 
-Para verificar normas, licencias y otros requisitos del proyecto revisa documentación con el apoyo de un abogado y, en determinadas ocasiones, recurre a inspecciones externas.
+Actualmente se mantiene informada sobre sus proyectos mediante WhatsApp y correo electrónico. Recibe principalmente fotografías y listados semanales, aunque considera que esta información puede ser informal y no siempre permite determinar con claridad cuánto se ha avanzado.
 
-Entre las experiencias negativas que ha tenido se encuentran retrasos en las entregas, problemas con la calidad de los acabados y falta de transparencia en los reportes. En una experiencia anterior sufrió una pérdida aproximada de S/ 10 000 debido al retraso en la entrega de una obra, lo que afectó la apertura de un establecimiento y provocó pérdidas de ingresos.
+Para verificar licencias y condiciones normativas revisa la documentación con apoyo de un abogado y, cuando lo considera necesario, contrata inspecciones externas. En relación con materiales y personal, depende principalmente de la información proporcionada por la constructora y de las visitas realizadas a la obra.
 
-Considera fundamental disponer de una mayor visibilidad sobre el avance de la obra, el uso de materiales y la asistencia del personal. Contar con información actualizada facilitaría la planificación de sus actividades y permitiría reducir el riesgo de pérdidas económicas.
+Entre sus experiencias negativas menciona retrasos, acabados con una calidad menor a la esperada y reportes poco claros. En una experiencia previa, el retraso en una obra ocasionó aproximadamente S/ 10 000 de pérdidas debido a que no pudo abrir un negocio en la fecha programada.
 
-También valora positivamente que las constructoras utilicen tecnologías modernas, ya que considera que esto refleja profesionalismo y facilita la comunicación. Una herramienta digital le generaría mayor confianza si ofrece reportes actualizados, seguimiento de materiales y personal, información sobre cumplimiento de requisitos y una interfaz sencilla de utilizar.
+Su principal objetivo es que los proyectos finalicen dentro del plazo y presupuesto establecidos. Su principal frustración es no conocer con claridad lo que está ocurriendo durante la ejecución hasta que aparece un problema.
 
-Su forma de tomar decisiones se encuentra orientada a reducir riesgos y comprobar la confiabilidad de los proveedores antes de contratarlos. Entre sus principales objetivos se encuentra recibir información clara y oportuna que le permita conocer el estado real del proyecto. Sus principales frustraciones son los retrasos, la falta de transparencia y la necesidad de solicitar constantemente actualizaciones a la constructora.
+Considera especialmente importante disponer de información sobre avance, materiales, personal e incidentes. Le gustaría poder consultar esta información cuando la necesite y recibir adicionalmente un resumen semanal.
+
+Considera que las constructoras deberían comunicar los problemas con mayor claridad y anticipación. Una herramienta digital podría permitirle consultar directamente la información sin solicitar actualizaciones constantemente. Para confiar en una plataforma espera disponer de reportes claros, fotografías, seguimiento de materiales y personal e información sobre licencias. Los datos desactualizados o la falta de trazabilidad sobre el origen de la información le generarían desconfianza.
+
+Se describe como una persona práctica que compara alternativas y revisa referencias antes de tomar decisiones, debido a que busca reducir riesgos. Considera importantes las habilidades de organización, negociación y revisión de presupuestos.
+
+Entre sus principales influencias se encuentran las recomendaciones de otros empresarios, referencias de clientes anteriores y el portafolio de trabajos realizados por las constructoras.
+
+Utiliza smartphone y laptop. Prefiere el smartphone para comunicaciones rápidas y la laptop para revisar documentos. Entre sus principales canales y aplicaciones digitales se encuentran WhatsApp, Gmail y Google Drive. Su navegador habitual es Google Chrome.
+
+Finalmente, considera que una empresa constructora que utilice herramientas digitales para ofrecer mayor transparencia y organización generaría mayor confianza e influiría positivamente en su decisión de contratación.
 
 ---
 
@@ -906,37 +969,52 @@ Su forma de tomar decisiones se encuentra orientada a reducir riesgos y comproba
 **Datos del entrevistado**
 
 - **Nombres y apellidos:** [NOMBRES Y APELLIDOS]
-- **Género:** [GÉNERO]
 - **Edad:** 35 años
 - **Distrito de residencia:** San Martín de Porres
 - **Segmento objetivo:** Contratante de empresa privada
+- **Fecha de entrevista:** [DD/MM/AAAA]
 - **Timing de inicio:** [HH:MM:SS]
 - **Duración:** [MM:SS]
-- **Video:** [ENLACE DEL VIDEO]
+- **Video consolidado:** [ENLACE PRIVADO DE MICROSOFT STREAM]
 
+**Figura X**  
 *Cuadro de video del entrevistado #2 del segmento Contratantes de empresas privadas.*
 
 <p align="center">
-  <img src="assets/chapter-2/interviews/interview-05.png" alt="Entrevista 5 - Contratante de empresa privada" width="900">
+  <img src="assets/chapter-2/interviews/interview-05.png"
+       alt="Entrevista 5 - Contratante de empresa privada"
+       width="900">
 </p>
 
 *Nota.* Elaboración propia a partir de la entrevista realizada.
 
 **Resumen de la entrevista**
 
-[NOMBRE], de 35 años y residente en San Martín de Porres, contrata proyectos relacionados con oficinas pequeñas, remodelaciones industriales y almacenes. Para seleccionar una constructora prioriza la experiencia específica, cumplimiento de normas y plazos, transparencia y control adecuado del presupuesto.
+[NOMBRE] es un gerente de operaciones de 35 años, residente en San Martín de Porres. Se identifica con el género masculino, es casado y tiene responsabilidades familiares, aspecto que influye en la organización de sus horarios y en la precaución con la que evalúa decisiones que pueden representar riesgos económicos.
 
-Actualmente recibe informes sobre el avance de las obras aproximadamente cada 10 días mediante correo electrónico, complementados con fotografías y visitas quincenales. Para comunicaciones rápidas utiliza WhatsApp. Algunas constructoras proporcionan reportes con gráficos, aunque la mayoría continúa utilizando documentos básicos elaborados en Word o Excel.
+Cuenta con aproximadamente ocho años de experiencia participando en proyectos relacionados con remodelaciones industriales, oficinas y almacenes. Para seleccionar una empresa constructora considera principalmente la experiencia específica, el cumplimiento normativo, la transparencia, el presupuesto y los plazos.
 
-Para verificar licencias y permisos cuenta con apoyo de su equipo legal y, en determinadas situaciones, solicita la participación de un ingeniero para supervisar aspectos relacionados con la seguridad. Sin embargo, considera que los reportes proporcionados por las constructoras suelen carecer de suficiente detalle y que la comunicación no siempre es proactiva.
+Actualmente recibe reportes sobre el avance mediante correo electrónico aproximadamente cada diez días. Esta información se complementa con fotografías y visitas quincenales, mientras que para las comunicaciones rápidas utiliza WhatsApp. Algunas constructoras proporcionan gráficos, aunque una parte importante continúa utilizando documentos básicos elaborados en Word o Excel.
 
-Entre sus experiencias negativas se encuentran retrasos ocasionados por una gestión deficiente de materiales o licencias, los cuales han generado pérdidas económicas de hasta S/ 15 000 relacionadas con penalidades y costos adicionales para acelerar la ejecución de los proyectos. También ha experimentado situaciones en las que se utilizaron materiales de calidad inferior sin que esta situación fuera comunicada oportunamente.
+Para verificar licencias y normas de seguridad recurre al equipo legal de su empresa y, cuando es necesario, solicita la participación de un ingeniero especializado. A pesar de ello, no cuenta con visibilidad directa y permanente sobre los materiales y personal, por lo que depende en gran medida de los reportes y visitas.
 
-Valora especialmente la transparencia y el control. Considera importante disponer de acceso actualizado al estado del proyecto, uso de materiales y personal presente en obra para poder tomar decisiones oportunas y reducir situaciones inesperadas.
+Entre las principales dificultades que ha experimentado se encuentran una planificación deficiente de materiales, retrasos y comunicación tardía de los problemas. También ha recibido reportes que ya no representaban adecuadamente la situación actual de la obra.
 
-También considera importante que las constructoras utilicen tecnología moderna, ya que esto refleja organización y compromiso. Confía más en herramientas capaces de proporcionar reportes actualizados, registros detallados y mecanismos de seguimiento del cumplimiento de normas y licencias. La seguridad de los datos constituye también un aspecto importante para su confianza.
+En determinados proyectos, las penalidades y acciones necesarias para acelerar la ejecución han generado aproximadamente S/ 15 000 de costos adicionales. También ha experimentado situaciones en las que se utilizaron materiales de calidad inferior a la acordada.
 
-Su forma de tomar decisiones se caracteriza por analizar previamente la experiencia, cumplimiento y confiabilidad de los proveedores. Utiliza principalmente correo electrónico, WhatsApp, documentos Word y hojas de cálculo para recibir y gestionar información. Su objetivo principal es mantener control sobre los proyectos contratados y reducir riesgos económicos. Sus principales frustraciones son la falta de detalle, poca transparencia y comunicación tardía sobre problemas relevantes.
+Su principal objetivo es que los proyectos sean ejecutados dentro del presupuesto y cronograma establecidos. Su principal frustración es enterarse tarde de riesgos que podrían haber sido gestionados previamente.
+
+Considera indispensable consultar información sobre avance, presupuesto, materiales, personal, incidentes y licencias. Para él, la información crítica debería estar disponible permanentemente.
+
+Considera que una plataforma digital podría aportar trazabilidad y permitirle consultar información sin esperar al siguiente reporte por correo. Para confiar en una herramienta de este tipo considera necesarios mecanismos de seguridad, historial de cambios, registros detallados y responsables claramente identificados. La posibilidad de que cualquier usuario modifique información o la presencia de datos desactualizados le generarían desconfianza.
+
+Se describe como una persona analítica que evalúa costos, riesgos e impacto sobre el cronograma antes de tomar decisiones. Entre las habilidades que considera más importantes se encuentran planificación, negociación, análisis presupuestal y gestión de riesgos.
+
+Sus decisiones están influenciadas principalmente por su equipo técnico, asesores legales, otros gerentes y referencias proporcionadas por empresas que hayan trabajado anteriormente con una constructora.
+
+Utiliza laptop y smartphone, aunque prefiere la laptop para desarrollar sus actividades profesionales. Entre sus herramientas y canales digitales se encuentran Outlook, Microsoft Teams, WhatsApp y Excel. Su navegador habitual es Microsoft Edge.
+
+Finalmente, considera que una plataforma de seguimiento podría influir positivamente en su decisión de contratar una constructora, debido a que representaría una señal de mayor organización y madurez en sus procesos. También considera valioso disponer de alertas automáticas ante eventos críticos.
 
 ---
 
@@ -945,37 +1023,54 @@ Su forma de tomar decisiones se caracteriza por analizar previamente la experien
 **Datos del entrevistado**
 
 - **Nombres y apellidos:** [NOMBRES Y APELLIDOS]
-- **Género:** [GÉNERO]
 - **Edad:** 28 años
 - **Distrito de residencia:** San Juan de Miraflores
 - **Segmento objetivo:** Contratante de empresa privada
+- **Fecha de entrevista:** [DD/MM/AAAA]
 - **Timing de inicio:** [HH:MM:SS]
 - **Duración:** [MM:SS]
-- **Video:** [ENLACE DEL VIDEO]
+- **Video consolidado:** [ENLACE PRIVADO DE MICROSOFT STREAM]
 
+**Figura X**  
 *Cuadro de video del entrevistado #3 del segmento Contratantes de empresas privadas.*
 
 <p align="center">
-  <img src="assets/chapter-2/interviews/interview-06.png" alt="Entrevista 6 - Contratante de empresa privada" width="900">
+  <img src="assets/chapter-2/interviews/interview-06.png"
+       alt="Entrevista 6 - Contratante de empresa privada"
+       width="900">
 </p>
 
 *Nota.* Elaboración propia a partir de la entrevista realizada.
 
 **Resumen de la entrevista**
 
-[NOMBRE], de 28 años y residente en San Juan de Miraflores, contrata principalmente remodelaciones, locales comerciales pequeños y edificaciones de hasta tres pisos. Para seleccionar una empresa constructora prioriza principalmente la experiencia, el cumplimiento de los plazos y la transparencia durante el desarrollo del proyecto.
+[NOMBRE] es una administradora de una pequeña empresa de 28 años, residente en San Juan de Miraflores. Se identifica con el género femenino, es conviviente y tiene responsabilidades familiares, ya que contribuye económicamente en su hogar. Esta situación influye en la precaución con la que toma decisiones financieras.
 
-Actualmente recibe reportes semanales mediante correo electrónico, principalmente en documentos Word o Excel, además de fotografías enviadas ocasionalmente por WhatsApp. Considera que el proceso actual es bastante informal y que sería conveniente contar con un mecanismo más estructurado para realizar el seguimiento de las obras.
+Cuenta con aproximadamente cinco años de experiencia contratando remodelaciones y adecuaciones de locales. Los proyectos que suele contratar incluyen remodelaciones, pequeños locales comerciales y edificaciones de hasta tres pisos.
 
-Para verificar las licencias y el cumplimiento normativo solicita los documentos correspondientes mediante correo electrónico y realiza verificaciones mediante visitas puntuales de su equipo. Actualmente no dispone de una herramienta digital específica para realizar el seguimiento integral de los proyectos.
+Para seleccionar una empresa constructora considera principalmente la experiencia, cumplimiento de plazos, presupuesto y transparencia. Actualmente recibe reportes semanales por correo electrónico y fotografías ocasionales mediante WhatsApp. Los reportes son elaborados principalmente en Word o Excel.
 
-Entre sus principales frustraciones se encuentran la falta de comunicación proactiva, los informes incompletos y la poca visibilidad sobre el uso de materiales y el personal presente en obra. En una experiencia previa perdió un contrato y asumió penalidades debido a que una obra no pudo entregarse dentro del plazo previsto como consecuencia de problemas de planificación y comunicación.
+Para verificar licencias y cumplimiento normativo solicita la documentación mediante correo electrónico y complementa este proceso con verificaciones presenciales de su equipo. No obstante, reconoce que no tiene capacidad para verificar directamente y de manera continua el uso de materiales y el personal presente en obra, por lo que depende en gran medida de la información proporcionada por la constructora.
 
-Considera que una plataforma que proporcione información actualizada sobre el avance, materiales y personal de la obra sería de gran utilidad y permitiría mejorar significativamente el seguimiento de los proyectos.
+Entre las principales dificultades que ha experimentado se encuentran la comunicación poco proactiva, informes incompletos y poca claridad sobre el uso de materiales. También ha experimentado situaciones en las que se comunicaron retrasos después de que estos ya habían afectado considerablemente el cronograma.
 
-También valora que las constructoras utilicen herramientas tecnológicas modernas, ya que considera que esto demuestra compromiso, organización y profesionalismo. Disponer de una plataforma de seguimiento influiría positivamente en su percepción de una empresa constructora al proporcionarle mayor confianza y sensación de control.
+En una experiencia anterior, problemas relacionados con planificación y comunicación impidieron entregar una obra dentro del plazo establecido, lo que ocasionó la pérdida de un contrato y el pago de una penalidad.
 
-Su forma de tomar decisiones está orientada a evaluar la experiencia, cumplimiento y transparencia de los proveedores antes de contratarlos. Para el seguimiento de sus proyectos utiliza principalmente correo electrónico, WhatsApp, Word y Excel. Su principal objetivo es mantener información suficiente para verificar que la obra se desarrolle según lo esperado. Sus principales frustraciones son la información incompleta, falta de comunicación y poca visibilidad sobre el estado real de los proyectos.
+Su principal objetivo es comprobar que la obra avance de acuerdo con lo acordado. Su mayor frustración es recibir información sobre los problemas cuando estos ya han ocurrido y existen menos posibilidades de corregirlos.
+
+Considera especialmente importante disponer de información sobre avance, materiales, personal, incidentes, retrasos y actividades pendientes. Le gustaría poder consultar estos datos en cualquier momento y recibir, además, un resumen semanal del estado general del proyecto.
+
+Considera que la comunicación podría mejorar mediante la centralización de la información y el envío de avisos cuando ocurra algún evento importante. Una herramienta digital podría proporcionarle una visión más estructurada y reducir su dependencia de mensajes aislados.
+
+Para confiar en una plataforma considera importante disponer de evidencias, fechas de actualización, responsables identificados y reportes comprensibles. Una plataforma complicada o con datos desactualizados disminuiría su disposición a utilizarla.
+
+Se describe como una persona organizada y precavida que prefiere conocer los problemas con anticipación antes de tomar decisiones. Considera importantes las habilidades de organización, control de gastos, comunicación y negociación.
+
+Sus decisiones están influenciadas principalmente por recomendaciones de personas conocidas, referencias de otros clientes y evidencia de trabajos anteriores desarrollados por la constructora.
+
+Utiliza laptop y smartphone, prefiriendo la laptop para la revisión de documentos. Sus principales herramientas y canales digitales son correo electrónico, WhatsApp, Excel y Google Drive. Utiliza Google Chrome como navegador habitual.
+
+Finalmente, considera que una empresa constructora que permita realizar un seguimiento transparente mediante una plataforma digital generaría mayor confianza e influiría positivamente en su decisión de contratación. También considera útil contar con alertas automáticas ante eventos importantes sin necesidad de revisar constantemente el sistema.
 
 ---
 
