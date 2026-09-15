@@ -1126,9 +1126,9 @@ Finalmente, considera importante que una plataforma permita realizar seguimiento
 
 **Datos del entrevistado**
 
-- **Nombres y apellidos:** [NOMBRES Y APELLIDOS]
+- **Nombres y apellidos:** Álvaro Salazar
 - **Edad:** 31 años
-- **Distrito de residencia:** [DISTRITO]
+- **Distrito de residencia:** Callao
 - **Segmento objetivo:** Supervisora de obra
 - **Fecha de entrevista:** [DD/MM/AAAA]
 - **Timing de inicio:** [HH:MM:SS]
@@ -1148,7 +1148,7 @@ Finalmente, considera importante que una plataforma permita realizar seguimiento
 
 **Resumen de la entrevista**
 
-[NOMBRE] es una ingeniera civil de 31 años que se identifica con el género femenino y es soltera. No tiene personas que dependan económicamente de ella. Cuenta con aproximadamente siete años de experiencia en el sector construcción y ha participado principalmente en proyectos de edificaciones y remodelaciones.
+Álvaro Salazar es una ingeniera civil de 31 años que se identifica con el género femenino y es soltera. No tiene personas que dependan económicamente de ella. Cuenta con aproximadamente siete años de experiencia en el sector construcción y ha participado principalmente en proyectos de edificaciones y remodelaciones.
 
 Su jornada habitual comprende la organización de actividades, supervisión de cuadrillas, revisión de materiales y coordinación con el área administrativa al finalizar el día. Dependiendo del proyecto, suele trabajar con aproximadamente entre diez y dieciocho trabajadores y gestionar materiales como ladrillo, cemento, fierro y concreto premezclado.
 
