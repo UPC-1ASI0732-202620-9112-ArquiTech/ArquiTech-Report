@@ -1374,9 +1374,60 @@ Esta estructura permite mantener trazabilidad entre el producto ya desarrollado 
 
 ## 4.3. Landing Page UI Design
 
+<div style="text-align: justify;">
+
+La propuesta de interfaz de usuario del Landing Page de ArquiTech fue desarrollada tomando como base las decisiones establecidas previamente en los lineamientos visuales y en la arquitectura de información. La organización del contenido busca comunicar de manera clara la propuesta de valor de la plataforma, presentar sus principales funcionalidades y facilitar la navegación de los usuarios.
+
+El diseño considera una estructura visual jerárquica, una distribución ordenada de la información y una navegación sencilla, permitiendo que los usuarios comprendan rápidamente qué es ArquiTech, qué beneficios ofrece y cuáles son las principales acciones disponibles dentro del Landing Page.
+
+Asimismo, se mantiene coherencia con la identidad visual definida para el producto mediante el uso consistente de tipografías, componentes, espaciados, elementos gráficos y criterios de diseño responsive, buscando ofrecer una experiencia clara tanto en dispositivos de escritorio como en dispositivos móviles.
+
+</div>
+
 ### 4.3.1. Landing Page Wireframe
 
+<div style="text-align: justify;">
+
+Los wireframes del Landing Page permiten representar la estructura inicial de la interfaz, priorizando la distribución de contenido, jerarquía visual, navegación y disposición de los principales elementos antes de incorporar los estilos visuales definitivos.
+
+Para el diseño se consideraron versiones adaptadas tanto para navegadores de escritorio como para dispositivos móviles, con el objetivo de mantener una experiencia consistente y facilitar el acceso a la información desde diferentes tamaños de pantalla.
+
+</div>
+
+**Wireframe - Desktop Web Browser**
+
+<p align="center">
+  <img src="../assets/chapter-4/landing-page-wireframe-desktop.png" width="850" alt="Landing Page Wireframe Desktop">
+</p>
+
+
+**Wireframe - Mobile Web Browser**
+
+<p align="center">
+  <img src="../assets/chapter-4/landing-page-wireframe-mobile.png" width="320" alt="Landing Page Wireframe Mobile">
+</p>
+
 ### 4.3.2. Landing Page Mock-up
+
+<div style="text-align: justify;">
+
+Los mock-ups representan la propuesta visual de mayor fidelidad del Landing Page de ArquiTech. En esta etapa se aplican los lineamientos definidos en el sistema visual del producto, incluyendo tipografías, componentes, imágenes, espaciados y demás elementos gráficos.
+
+El objetivo es presentar una interfaz moderna, clara y coherente con la identidad de ArquiTech, manteniendo una experiencia consistente tanto en la versión de escritorio como en la versión móvil.
+
+</div>
+
+**Mock-up - Desktop Web Browser**
+
+<p align="center">
+  <img src="../assets/chapter-4/landing-page-mockup-desktop.png" width="850" alt="Landing Page Mock-up Desktop">
+</p>
+
+**Mock-up - Mobile Web Browser**
+
+<p align="center">
+  <img src="../assets/chapter-4/landing-page-mockup-mobile.png" width="320" alt="Landing Page Mock-up Mobile">
+</p>
 
 ## 4.4. Mobile Applications UX/UI Design
 
