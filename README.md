@@ -20,19 +20,11 @@
 
 **Integrantes**:
 
-<<<<<<< HEAD
-Chacaliaza Minaya, Eduardo Fabian -
-
-Espino Rossi, Victor Manuel -
-
-Garcia Cerpa, Braden Raid -
-=======
 Chacaliaza Minaya, Eduardo Fabian - U202324129
 
 Espino Rossi, Victor Manuel - U202411567
 
 Garcia Cerpa, Braden Raid - U202415618
->>>>>>> origin/main
 
 Mendoza Moreano, Mariel Lucero - u20231a418
 
@@ -46,11 +38,6 @@ Quispe Barzola, Fabricio Fabian - U202320442
 
 # Registro de Versiones del Informe
 
-<<<<<<< HEAD
-| Versión | Fecha      | Autor                                                                 | Descripción de modificación |
-| :------ | :--------- | :-------------------------------------------------------------------- | :-------------------------- |
-| TB1     | 24/04/2025 | Mariel Lucero Mendoza Moreano<br><br>I2<br><br>I3<br><br>I4<br><br>I5 | blablabla                   |
-=======
 | Versión | Fecha | Autor | Descripción de modificación |
 | :---: | :---: | :--- | :--- |
 | 1.0.0 | 14/09/2026 | Mendoza Moreano, Mariel Lucero | <span style="display:block; text-align:justify;">Elaboración de las secciones 1.1.1 Descripción de la Startup, 1.1.2 Perfiles de integrantes del equipo, 1.2.1 Antecedentes y problemática, 1.2.2 Lean UX Process, 2.3.1 User Personas, 2.3.2 User Task Matrix, 4.7 Web Applications Prototyping y 4.8 Domain-Driven Software Architecture.</span> |
@@ -58,7 +45,6 @@ Quispe Barzola, Fabricio Fabian - U202320442
 | 1.0.2 | 14/09/2026 | Quispe Barzola, Fabricio Fabian | <span style="display:block; text-align:justify;">Elaboración de las secciones 2.2.1 Diseño de entrevistas, 2.2.2 Registro de entrevistas, 2.2.3 Análisis de entrevistas, 3.2 User Stories, 4.9 Software Object-Oriented Design, 4.10 Database Design y 5.1 Software Configuration Management.</span> |
 | 1.0.3 | 14/09/2026 | Espino Rossi, Victor Manuel | <span style="display:block; text-align:justify;">Elaboración de las secciones 2.3.3 User Journey Mapping, 2.3.4 Empathy Mapping, 3.4 Impact Mapping, 4.5 Mobile Applications Prototyping, 4.6 Web Applications UX/UI Design y 5.2 Product Implementation & Deployment.</span> |
 | 1.0.4 | 14/09/2026 | Garcia Cerpa, Braden Raid | <span style="display:block; text-align:justify;">Elaboración de las secciones 2.3.5 As-is Scenario Mapping, 2.4 Ubiquitous Language, 3.1 To-Be Scenario Mapping, 4.1 Style Guidelines, 4.2 Information Architecture y 5.3 Video About-the-Product.</span> |
->>>>>>> origin/main
 
 # Project Report Collaboration Insights
 
@@ -240,12 +226,6 @@ A continuación, capturas del procesos, commits y elaboración de nuestro proyec
 
 El curso contribuye al cumplimiento del siguiente Student Outcome ABET:
 
-<<<<<<< HEAD
-| Criterio específico                                                                                      | Acciones realizadas                                                                                                                                                                                                               | Conclusiones         |
-| :------------------------------------------------------------------------------------------------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------------------- |
-| Reconoce responsabilidad<br>ética y profesional en<br>situaciones de ingeniería<br>de software           | Mendoza Moreano, Mariel Lucero<br>av1:<br>blablablabla.<br><br>Integrante 2<br>av1:<br>blablablabla<br><br>Integrante 3<br>av1:<br>blablabla<br><br>Integrante 4<br>av1:<br>blablablabla<br><br>Integrante 5<br>av1:<br>blablabla | av1:<br>blablablabla |
-| Emite juicios informados<br>considerando el impacto<br>de las soluciones de<br>ingeniería de software... | Mendoza Moreano, Mariel Lucero<br>av1:<br>blablabla<br><br>Integrante 2<br>av1:<br>blablablabla                                                                                                                                   | av1:<br>blablbalbla  |
-=======
 **ABET – EAC - Student Outcome 4**  
 Criterio: *La capacidad de reconocer responsabilidades éticas y profesionales en situaciones de ingeniería y hacer juicios informados, que deben considerar el impacto de las soluciones de ingeniería en contextos globales, económicos, ambientales y sociales.*
 
@@ -265,7 +245,6 @@ Criterio: *La capacidad de reconocer responsabilidades éticas y profesionales e
     </tr>
   </tbody>
 </table>
->>>>>>> origin/main
 
 <div style="page-break-before: always;"></div>
 
@@ -291,15 +270,6 @@ En Foundex, consideramos que la digitalización de estos procesos es fundamental
 
 ### 1.1.2. Perfiles de integrantes del equipo
 
-<<<<<<< HEAD
-|                 Foto                  | Integrante                                 |
-| :-----------------------------------: | :----------------------------------------- |
-| <img src="" width="120" alt="Alumno"> | Alumno — Código de Estudiante: . Blablabla |
-| <img src="" width="120" alt="Alumno"> | Alumno — Código de Estudiante: .           |
-| <img src="" width="120" alt="Alumno"> | Alumno — Código de Estudiante: . Blablabla |
-| <img src="" width="120" alt="Alumno"> | Alumno — Código de Estudiante: . Blablabla |
-| <img src="" width="120" alt="Alumno"> | Alumno — Código de Estudiante: . Blablabla |
-=======
 | Foto | Integrante |
 | ----- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | <img src="assets/team/Eduardo-Chacaliaza.png" width="220" style="width:220px; min-width:220px; height:auto;" alt="Eduardo Chacaliaza"> | <div style="text-align: justify;"><strong>Chacaliaza Minaya, Eduardo Fabian - U202324129</strong><br>Estudiante de Ingeniería de Software, interesado en el desarrollo de aplicaciones y soluciones tecnológicas orientadas a resolver necesidades reales de los usuarios. Me caracterizo por tener un enfoque analítico, capacidad para adaptarme a nuevos entornos y disposición para aprender nuevas tecnologías y herramientas de desarrollo. En este proyecto, busco contribuir en el análisis, diseño y definición de soluciones que mejoren la experiencia de los usuarios.</div> |
@@ -307,7 +277,6 @@ En Foundex, consideramos que la digitalización de estos procesos es fundamental
 | <img src="assets/team/Braden-Garcia.png" width="220" style="width:220px; min-width:220px; height:auto;" alt="Braden Garcia"> | <div style="text-align: justify;"><strong>Garcia Cerpa, Braden Raid - U202415618</strong><br>Estudiante de Ingeniería de Software con interés en el desarrollo de soluciones tecnológicas orientadas a resolver problemas reales. Me caracterizo por mantener una actitud responsable, organizada y colaborativa durante el desarrollo de proyectos. Asimismo, busco fortalecer mis conocimientos en diseño de software, experiencia de usuario y desarrollo de aplicaciones, aportando ideas que contribuyan a obtener soluciones funcionales y de calidad.</div> |
 | <img src="assets/team/Mariel-Mendoza.jpeg" width="220" style="width:220px; min-width:220px; height:auto;" alt="Mariel Mendoza"> | <div style="text-align: justify;"><strong>Mendoza Moreano, Mariel Lucero - U20231A418</strong><br>Estudiante de Ingeniería de Software con interés en el análisis de problemas, diseño de soluciones centradas en el usuario y arquitectura de software. Me caracterizo por mantener una actitud responsable, organizada y orientada al aprendizaje continuo. En este proyecto, busco aportar en la definición de las necesidades de los usuarios, el diseño de la solución y la estructuración de los principales componentes de ArquiTech.</div> |
 | <img src="assets/team/Fabricio-Quispe.png" width="220" style="width:220px; min-width:220px; height:auto;" alt="Fabricio Quispe"> | <div style="text-align: justify;"><strong>Quispe Barzola, Fabricio Fabian - U202320442</strong><br>Estudiante de Ingeniería de Software con interés en el desarrollo de aplicaciones y soluciones tecnológicas orientadas a resolver problemas reales. Me caracterizo por tener disposición para aprender nuevas herramientas y tecnologías, así como por mantener un enfoque responsable y organizado durante el desarrollo de proyectos. Asimismo, busco fortalecer mis conocimientos en programación, diseño de software y buenas prácticas de desarrollo, contribuyendo activamente en el trabajo en equipo y en la elaboración de soluciones funcionales, eficientes y de calidad.</div> |
->>>>>>> origin/main
 
 ## 1.2. Solution Profile
 
@@ -445,33 +414,18 @@ Inicialmente, ArquiTech se enfocará en usuarios que actualmente dependen de her
 
 2. **Estas necesidades se pueden resolver con**
 
-<<<<<<< HEAD
-  Nuestros principales clientes serán los supervisores de obra y contratantes de empresas privadas que se encuentran en un rango de edad de 28 a 50 años que pueden ser de clase media-alta, estos quieren encontrar una manera eficiente de llevar la administración de sus proyectos de construcción para evitar pérdidas.
-=======
    Un mecanismo centralizado que facilite el registro, consulta y seguimiento de información relacionada con trabajadores, materiales, actividades, avances e incidencias de cada obra.
->>>>>>> origin/main
 
 3. **Nuestros clientes iniciales son**
 
-<<<<<<< HEAD
-  Nuestro producto encaja al momento de iniciar la supervisión de un aspecto del proyecto que se está administrando en ese momento o se quiere revisar el avance y buen manejo.
-
-- **¿Qué problemas tiene nuestro producto y cómo se pueden resolver?**
-  - La dependencia del internet en la obra para poder utilizar el aplicativo el cual se puede solucionar incluyendo un modo offline que sincronice datos al reconectarse a una red de internet.
-  - El soporte técnico insuficiente para picos de demanda, en caso de un aumento repentino de usuarios se podría saturar el soporte técnico, frustrando a clientes que esperan respuestas rápidas. Este problema lo podremos solucionar creando una base de conocimientos con videos y guías para resolver dudas comunes y evitar un número masivo de consultas.
-=======
    Organizaciones y responsables vinculados con proyectos de construcción que actualmente utilizan registros manuales, hojas de cálculo, documentos, correo electrónico, aplicaciones de mensajería y reportes independientes para gestionar o realizar seguimiento de sus obras.
 
 4. **El valor #1 que nuestros clientes quieren obtener de nuestro servicio es**
 
    Disponer de información confiable y actualizada que facilite el control y seguimiento de una obra y permita identificar oportunamente situaciones que puedan afectar su ejecución.
->>>>>>> origin/main
 
 5. **Los clientes también pueden obtener los siguientes beneficios adicionales**
 
-<<<<<<< HEAD
-  Nuestro producto puede ser usado al inicio del día para planificar (confirmar asistencia, revisar inventario), durante el día para monitorear (actualizar avances) y al final para generar y/o revisar reportes.
-=======
    - Reducir el tiempo utilizado para recopilar información procedente de diferentes fuentes.
    - Mejorar la visibilidad sobre materiales, trabajadores, actividades y avances.
    - Facilitar la coordinación entre las personas involucradas en una obra.
@@ -479,21 +433,13 @@ Inicialmente, ArquiTech se enfocará en usuarios que actualmente dependen de her
    - Disponer de mayor trazabilidad sobre los registros y actualizaciones realizadas.
    - Facilitar la elaboración y consulta de reportes.
    - Detectar con mayor anticipación incidencias, retrasos o necesidades de recursos.
->>>>>>> origin/main
 
 6. **Adquiriremos la mayoría de nuestros clientes a través de**
 
-<<<<<<< HEAD
-  Nuestro producto debe contar con una interfaz intuitiva, fácil de usar y aprender por nuestros usuarios, también debe contar con una buena sincronización de datos para poder tener un buen seguimiento de los distintos aspectos de la obra.
-=======
    Contacto con empresas y profesionales relacionados con el sector construcción, marketing digital dirigido, demostraciones de ArquiTech y periodos de prueba o pilotos que permitan comprobar la utilidad de la solución en proyectos reales.
->>>>>>> origin/main
 
 7. **Generaremos ingresos mediante**
 
-<<<<<<< HEAD
-  La interfaz de nuestro producto debe ser intuitiva y resposive con un diseño que transmita confianza y profesionalismo y que sea de respuesta rápida.
-=======
    Planes de suscripción periódica escalables de acuerdo con las necesidades y el nivel de uso de ArquiTech.
 
 8. **Nuestra principal competencia en el mercado será**
@@ -606,7 +552,6 @@ Las suposiciones con mayor riesgo e incertidumbre deben validarse antes que aque
 | Una experiencia sencilla permitirá que nuevos usuarios aprendan las principales tareas sin requerir capacitación extensa. | Medio | Medio | Media |
 
 Las suposiciones priorizadas sirven como base para formular los Hypothesis Statements y determinar posteriormente qué aspectos requieren validación mediante experimentos.
->>>>>>> origin/main
 
 #### 1.2.2.3. Lean UX Hypothesis Statements
 
@@ -856,7 +801,7 @@ Para poder conocer y analizar mejor a nuestros posibles competidores, realizamos
   </tr>
   <tr style="background-color:transparent; height:49px;">
     <td colspan="2" style="background-color:transparent; color:inherit; border:1px solid currentColor; padding:0 7px; vertical-align:middle; text-align:center;">Precios &amp; Costos</td>
-    <td style="background-color:transparent; color:inherit; border:1px solid currentColor; padding:0 7px; vertical-align:middle; text-align:justify;">Modelo de suscripción orientado principalmente a pequeñas y medianas empresas constructoras, considerando un periodo de prueba que permita conocer las funcionalidades de la plataforma antes de contratar el servicio.</td>
+    <td style="background-color:transparent; color:inherit; border:1px solid currentColor; padding:0 7px; vertical-align:middle; text-align:justify;">Modelo de suscripción orientado principalmente a pequeñas y medianas empresas constructoras, brindando acceso a las principales funcionalidades de ArquiTech.</td>
     <td style="background-color:transparent; color:inherit; border:1px solid currentColor; padding:0 7px; vertical-align:middle; text-align:justify;">Modelo de precios personalizado de acuerdo con las características de la empresa, el volumen de construcción y los productos o funcionalidades requeridos.</td>
     <td style="background-color:transparent; color:inherit; border:1px solid currentColor; padding:0 7px; vertical-align:middle; text-align:justify;">Modelo de precios personalizado según las características, tamaño y necesidades particulares de cada empresa constructora.</td>
     <td style="background-color:transparent; color:inherit; border:1px solid currentColor; padding:0 7px; vertical-align:middle; text-align:justify;">Modelo de costos asociado a las funcionalidades y necesidades de gestión de cada empresa o proyecto.</td>
@@ -2677,8 +2622,6 @@ Las principales relaciones del modelo son de tipo uno a muchos y muchos a muchos
 
 ## 5.3. Video About-the-Product
 
-<<<<<<< HEAD
-=======
 En esta sección, presentamos el Video About the Product, diseñado para captar la atención de los visitantes de nuestro Landing Page y los usuarios de nuestras aplicaciones, ofreciendo una visión clara y atractiva del modelo de negocio y las características principales de nuestra solución de software, Arquitech. Este video tiene como objetivo principal comunicar cómo nuestra plataforma facilita procesos clave como la creación de usuarios de manera eficiente y segura. Dirigido tanto a potenciales clientes interesados en conocer las capacidades de nuestro producto como a usuarios que desean realizar tareas relacionadas con la gestión de usuarios, el video adopta un tono profesional, innovador y accesible, alineado con la identidad de nuestra plataforma. A través de una demostración dinámica de las funcionalidades, el video resalta la facilidad de uso y la integración con una base de datos. Además, incluye un testimonio positivo de un usuario participante en las entrevistas de validación, reforzando la credibilidad y el valor de nuestra solución. Este contenido busca inspirar confianza y motivar a los espectadores a explorar y adoptar nuestra plataforma para optimizar sus procesos.
 
 **Figura 117**  
@@ -2690,7 +2633,6 @@ En esta sección, presentamos el Video About the Product, diseñado para captar 
 [https://www.youtube.com/watch?v=k3Z0771Au1Y](https://www.youtube.com/watch?v=k3Z0771Au1Y)
 
 
->>>>>>> origin/main
 # Conclusiones
 
 # Bibliografia
