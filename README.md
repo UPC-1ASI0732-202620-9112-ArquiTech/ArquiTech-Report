@@ -276,29 +276,35 @@ Criterio: *La capacidad de reconocer responsabilidades éticas y profesionales e
 
 ### 1.1.1 Descripción de la Startup
 
+<div style="text-align: justify;">
+
 Foundex es una startup impulsada por jóvenes universitarios de la Universidad Peruana de Ciencias Aplicadas (UPC), orientada a facilitar la gestión eficiente de proyectos de construcción en pequeñas y medianas empresas constructoras, así como para el personal encargado de su administración. A través de ArquiTech, nuestra herramienta digital, los usuarios podrán gestionar solicitudes de servicios, monitorear el avance de las obras y controlar los gastos asociados a cada proyecto.
 
 La solución busca facilitar la administración y mejorar la transparencia de los procesos constructivos mediante la gestión de trabajadores, materiales, presupuestos y tiempos de ejecución, además del seguimiento en tiempo real del progreso de cada obra.
 
 En Foundex, consideramos que la digitalización de estos procesos es fundamental para agilizar la gestión de las obras, reducir los tiempos de ejecución, optimizar los recursos y facilitar la toma de decisiones informadas. Por ello, apostamos por la tecnología como una herramienta para transformar el sector de la construcción y permitir que las pequeñas y medianas empresas accedan a una gestión más organizada, eficiente y profesional.
 
-Misión: Brindar soluciones digitales innovadoras que permitan optimizar la gestión de proyectos de construcción en pequeñas y medianas empresas, facilitando la administración de recursos, el seguimiento de avances, el control de gastos y otros procesos relacionados, con el propósito de impulsar la eficiencia, la transparencia y la toma de decisiones estratégicas en el sector construcción.
+**Misión:** Brindar soluciones digitales innovadoras que permitan optimizar la gestión de proyectos de construcción en pequeñas y medianas empresas, facilitando la administración de recursos, el seguimiento de avances, el control de gastos y otros procesos relacionados, con el propósito de impulsar la eficiencia, la transparencia y la toma de decisiones estratégicas en el sector construcción.
 
-Visión: Ser la plataforma líder en Latinoamérica en la digitalización de procesos constructivos para pequeñas y medianas empresas, transformando la manera en que se gestionan las obras mediante una tecnología accesible, eficaz y enfocada en las necesidades de nuestros usuarios.
+**Visión:** Ser la plataforma líder en Latinoamérica en la digitalización de procesos constructivos para pequeñas y medianas empresas, transformando la manera en que se gestionan las obras mediante una tecnología accesible, eficaz y enfocada en las necesidades de nuestros usuarios.
+
+</div>
 
 ### 1.1.2. Perfiles de integrantes del equipo
 
 | Foto | Integrante |
-| :---: | :--- |
-| <img src="" width="120" alt="Alumno"> | Alumno — Código de Estudiante: . Blablabla |
-| <img src="" width="120" alt="Alumno">| Alumno — Código de Estudiante: .   |
-| <img src="" width="120" alt="Alumno"> | Alumno — Código de Estudiante: . Blablabla |
-| <img src="" width="120" alt="Alumno"> | Alumno — Código de Estudiante: . Blablabla |
-| <img src="" width="120" alt="Alumno"> | Alumno — Código de Estudiante: . Blablabla |
+| ----- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <img src="assets/team/Eduardo-Chacaliaza.png" width="220" style="width:220px; min-width:220px; height:auto;" alt="Eduardo Chacaliaza"> | <div style="text-align: justify;"><strong>Chacaliaza Minaya, Eduardo Fabian - U202324129</strong><br>Estudiante de Ingeniería de Software, interesado en el desarrollo de aplicaciones y soluciones tecnológicas orientadas a resolver necesidades reales de los usuarios. Me caracterizo por tener un enfoque analítico, capacidad para adaptarme a nuevos entornos y disposición para aprender nuevas tecnologías y herramientas de desarrollo. En este proyecto, busco contribuir en el análisis, diseño y definición de soluciones que mejoren la experiencia de los usuarios.</div> |
+| <img src="assets/team/Victor-Espino.png" width="220" style="width:220px; min-width:220px; height:auto;" alt="Victor Espino"> | <div style="text-align: justify;"><strong>Espino Rossi, Victor Manuel - U202411567</strong><br>Estudiante de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas, con interés en el desarrollo de aplicaciones, diseño de soluciones digitales y nuevas tecnologías. Me encuentro en constante aprendizaje y busco fortalecer mis conocimientos técnicos y habilidades de trabajo colaborativo. En este proyecto, aporto en la elaboración de artefactos de experiencia de usuario, prototipado y desarrollo de la solución.</div> |
+| <img src="assets/team/Braden-Garcia.png" width="220" style="width:220px; min-width:220px; height:auto;" alt="Braden Garcia"> | <div style="text-align: justify;"><strong>Garcia Cerpa, Braden Raid - U202415618</strong><br>Estudiante de Ingeniería de Software con interés en el desarrollo de soluciones tecnológicas orientadas a resolver problemas reales. Me caracterizo por mantener una actitud responsable, organizada y colaborativa durante el desarrollo de proyectos. Asimismo, busco fortalecer mis conocimientos en diseño de software, experiencia de usuario y desarrollo de aplicaciones, aportando ideas que contribuyan a obtener soluciones funcionales y de calidad.</div> |
+| <img src="assets/team/Mariel-Mendoza.jpeg" width="220" style="width:220px; min-width:220px; height:auto;" alt="Mariel Mendoza"> | <div style="text-align: justify;"><strong>Mendoza Moreano, Mariel Lucero - U20231A418</strong><br>Estudiante de Ingeniería de Software con interés en el análisis de problemas, diseño de soluciones centradas en el usuario y arquitectura de software. Me caracterizo por mantener una actitud responsable, organizada y orientada al aprendizaje continuo. En este proyecto, busco aportar en la definición de las necesidades de los usuarios, el diseño de la solución y la estructuración de los principales componentes de ArquiTech.</div> |
+| <img src="assets/team/Fabricio-Quispe.png" width="220" style="width:220px; min-width:220px; height:auto;" alt="Fabricio Quispe"> | <div style="text-align: justify;"><strong>Quispe Barzola, Fabricio Fabian - U202320442</strong><br>Estudiante de Ingeniería de Software con interés en el desarrollo de aplicaciones y soluciones tecnológicas orientadas a resolver problemas reales. Me caracterizo por tener disposición para aprender nuevas herramientas y tecnologías, así como por mantener un enfoque responsable y organizado durante el desarrollo de proyectos. Asimismo, busco fortalecer mis conocimientos en programación, diseño de software y buenas prácticas de desarrollo, contribuyendo activamente en el trabajo en equipo y en la elaboración de soluciones funcionales, eficientes y de calidad.</div> |
 
 ## 1.2. Solution Profile
 
 ### 1.2.1. Antecedentes y problemática
+
+<div style="text-align: justify;">
 
 En el contexto actual del sector construcción en Lima Metropolitana, muchas pequeñas y medianas empresas enfrentan dificultades al momento de administrar sus proyectos de forma eficiente. La mayoría de estos procesos, como la gestión de materiales, personal, presupuestos y avances de obra, aún se realizan de manera manual o a través de herramientas poco integradas, como hojas de cálculo, notas físicas o mensajería informal, lo que genera desorganización, pérdida de información y errores costosos.
 
@@ -336,17 +342,25 @@ La gravedad del problema radica en que una gestión deficiente de los recursos p
 
 Asimismo, las soluciones existentes en el mercado, como Procore o Buildertrend, ofrecen funcionalidades para la gestión de proyectos de construcción, pero sus costos pueden representar una barrera de acceso para determinadas pequeñas y medianas empresas. Esto evidencia una oportunidad para desarrollar una solución digital accesible y adaptada a las necesidades de este segmento.
 
+</div>
+
 ### 1.2.2. Lean UX Process
 
 #### 1.2.2.1. Lean UX Problem Statements
 
-El estado actual del sector de la gestión de proyectos de construcción se caracteriza por el uso de herramientas poco integradas para administrar obras. Las pequeñas y medianas empresas constructoras, junto con sus supervisores, jefes de obra y personal administrativo, enfrentan dificultades para gestionar trabajadores, materiales, presupuestos, avances y tiempos de ejecución. Muchas de estas actividades se realizan mediante Excel, documentos físicos o canales de comunicación informales, generando desorganización, pérdida de información, retrasos y dificultades para tomar decisiones oportunamente.
+<div style="text-align: justify;">
 
-Las soluciones existentes no siempre se adaptan a las necesidades de este segmento, debido a sus costos, complejidad de uso o falta de adecuación a la realidad de las pequeñas y medianas empresas. Frente a esta brecha, Foundex, mediante ArquiTech, propone una solución digital accesible e intuitiva que permita centralizar la información de las obras, controlar sus principales recursos y realizar un seguimiento oportuno de los proyectos.
+El estado actual del sector de la gestión de proyectos de construcción se caracteriza por el uso de herramientas poco integradas para administrar obras. Las pequeñas y medianas empresas constructoras, junto con sus supervisores, jefes de obra y personal administrativo, enfrentan dificultades para gestionar trabajadores, materiales, presupuestos, avances y tiempos de ejecución. Muchas de estas actividades se realizan mediante hojas de cálculo, documentos físicos o canales de comunicación informales, lo que puede generar desorganización, pérdida de información, retrasos y dificultades para tomar decisiones oportunamente.
 
-Nuestro enfoque inicial estará dirigido a pequeñas y medianas empresas constructoras de Lima Metropolitana que actualmente utilizan herramientas no integradas para gestionar sus obras. Consideraremos como usuarios a los responsables de la supervisión y al personal administrativo. Sabremos que la solución es exitosa cuando los usuarios la utilicen de manera recurrente para registrar y consultar información, realizar seguimiento de avances y recursos, generar reportes y reducir la dependencia de herramientas dispersas.
+Las soluciones existentes no siempre se adaptan a las necesidades de este segmento, ya que pueden presentar barreras relacionadas con el costo, la complejidad de uso o un alcance mayor al requerido por pequeñas y medianas empresas. Frente a esta brecha, Foundex, mediante ArquiTech, propone una solución digital accesible e intuitiva que permita centralizar la información de las obras, gestionar trabajadores, materiales, presupuestos y avances, y realizar un seguimiento oportuno de los proyectos.
 
-¿Cómo podríamos facilitar la gestión de proyectos de construcción para que las pequeñas y medianas empresas puedan centralizar la información de sus obras, controlar sus recursos y realizar un seguimiento oportuno de sus avances?
+Nuestro enfoque inicial estará dirigido a pequeñas y medianas empresas constructoras de Lima Metropolitana que actualmente utilizan herramientas no integradas para gestionar sus obras. Consideraremos como usuarios principales a los supervisores de obra, responsables de la gestión operativa, y al personal administrativo encargado de registrar, organizar y comunicar la información de los proyectos.
+
+Sabremos que la solución está generando valor cuando los usuarios la utilicen de manera recurrente para registrar y consultar información, realizar seguimiento de trabajadores, materiales y avances, generar reportes y reducir la dependencia de herramientas dispersas utilizadas durante la gestión de las obras.
+
+**¿Cómo podríamos facilitar la gestión de proyectos de construcción para que las pequeñas y medianas empresas puedan centralizar la información de sus obras, gestionar sus recursos y realizar un seguimiento oportuno de sus avances mediante una plataforma accesible e intuitiva?**
+
+</div>
 
 #### 1.2.2.2. Lean UX Assumptions
 
@@ -507,10 +521,10 @@ Para poder conocer y analizar mejor a nuestros posibles competidores, realizamos
     <td colspan="3" style="background-color:transparent; color:inherit; border:1px solid currentColor; padding:0 7px; vertical-align:middle;">
       &nbsp;
     </td>
-    <td style="background-color:transparent; color:inherit; border:1px solid currentColor; padding:0 7px; vertical-align:middle; text-align:center;">ArquiTech<br><img src="assets/chapter-2/arquitech-logo.png" alt="Logo de ArquiTech" width="70" style="display:block; width:70px; max-width:100%; height:auto; margin:6px auto;"></td>
-    <td style="background-color:transparent; color:inherit; border:1px solid currentColor; padding:0 7px; vertical-align:middle; text-align:center;">Procore<br><img src="assets/chapter-2/procore-logo.png" alt="Logo de Procore" width="70" style="display:block; width:70px; max-width:100%; height:auto; margin:6px auto;"></td>
-    <td style="background-color:transparent; color:inherit; border:1px solid currentColor; padding:0 7px; vertical-align:middle; text-align:center;">Buildertrend<br><img src="assets/chapter-2/buildertrend-logo.png" alt="Logo de Buildertrend" width="70" style="display:block; width:70px; max-width:100%; height:auto; margin:6px auto;"></td>
-    <td style="background-color:transparent; color:inherit; border:1px solid currentColor; padding:0 7px; vertical-align:middle; text-align:center;">Buildwise<br><img src="assets/chapter-2/buildwise-logo.png" alt="Logo de Buildwise" width="70" style="display:block; width:70px; max-width:100%; height:auto; margin:6px auto;"></td>
+    <td style="background-color:transparent; color:inherit; border:1px solid currentColor; padding:0 7px; vertical-align:middle; text-align:center;">ArquiTech<br><img src="assets/chapter-2/competitors/arquitech-logo.png" alt="Logo de ArquiTech" width="70" style="display:block; width:70px; max-width:100%; height:auto; margin:6px auto;"></td>
+    <td style="background-color:transparent; color:inherit; border:1px solid currentColor; padding:0 7px; vertical-align:middle; text-align:center;">Procore<br><img src="assets/chapter-2/competitors/procore-logo.png" alt="Logo de Procore" width="70" style="display:block; width:70px; max-width:100%; height:auto; margin:6px auto;"></td>
+    <td style="background-color:transparent; color:inherit; border:1px solid currentColor; padding:0 7px; vertical-align:middle; text-align:center;">Buildertrend<br><img src="assets/chapter-2/competitors/buildertrend-logo.png" alt="Logo de Buildertrend" width="70" style="display:block; width:70px; max-width:100%; height:auto; margin:6px auto;"></td>
+    <td style="background-color:transparent; color:inherit; border:1px solid currentColor; padding:0 7px; vertical-align:middle; text-align:center;">Buildwise<br><img src="assets/chapter-2/competitors/buildwise-logo.png" alt="Logo de Buildwise" width="70" style="display:block; width:70px; max-width:100%; height:auto; margin:6px auto;"></td>
   </tr>
 
   <tr style="background-color:transparent; height:65px;">
