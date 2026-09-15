@@ -2173,27 +2173,28 @@ Asimismo, se mantiene coherencia con la identidad visual definida para el produc
 
 ### 4.3.1. Landing Page Wireframe
 
-<div style="text-align: justify;">
-
-Los wireframes del Landing Page permiten representar la estructura inicial de la interfaz, priorizando la distribución de contenido, jerarquía visual, navegación y disposición de los principales elementos antes de incorporar los estilos visuales definitivos.
-
-Para el diseño se consideraron versiones adaptadas tanto para navegadores de escritorio como para dispositivos móviles, con el objetivo de mantener una experiencia consistente y facilitar el acceso a la información desde diferentes tamaños de pantalla.
-
-</div>
-
-**Wireframe - Desktop Web Browser**
+**Desktop Web Browser**
 
 <p align="center">
-  <img src="../assets/chapter-4/landing-page-wireframe-desktop.png" width="850" alt="Landing Page Wireframe Desktop">
+  <img src="assets/landing-page/Wireframe-Landing-Desktop.png" alt="PB" width="500">
 </p>
 
-**Wireframe - Mobile Web Browser**
-
+**Mobile Web Browser**
 <p align="center">
-  <img src="../assets/chapter-4/landing-page-wireframe-mobile.png" width="320" alt="Landing Page Wireframe Mobile">
+  <img src="assets/landing-page/Wireframe-Landing-Mobile.png" alt="PB" width="500">
 </p>
 
 ### 4.3.2. Landing Page Mock-up
+**Desktop Web Browser**
+
+<p align="center">
+  <img src="assets/landing-page/MockUp-Landing-Desktop.png" alt="PB" width="500">
+</p>
+
+**Mobile Web Browser**
+<p align="center">
+  <img src="assets/landing-page/MockUp-Landing-Mobile.png" alt="PB" width="500">
+</p>
 
 <div style="text-align: justify;">
 
@@ -2235,75 +2236,202 @@ El objetivo es presentar una interfaz moderna, clara y coherente con la identida
 
 ### 4.6.1. Web Applications Wireframes
 
-<div style="text-align: justify;">
-A continuación, se presentan los wireframes correspondientes a la aplicación web de ArquiTech, diseñados para ofrecer una interfaz clara y estructurada para la gestión administrativa de los proyectos.
-</div>
-
+**Figura 53**  
+<p align="center">
+  <img src="assets/Web Applications/Wireframe - Login.png" alt="PB" width="500">
+<br>*Nota.* Elaboración propia. 
+</p>
 <br>
 
-_Wireframe Web - Inicio de Sesión (Login)_
 
+**Figura 54**
 <p align="center">
-  <img src="assets/chapter-4/web-application-wireframes/wireframe-login.png" width="850" alt="Wireframe Login">
+  <img src="assets/Web Applications/Wireframe - Projects.png" alt="PB" width="500">
+<br>*Nota.* Elaboración propia. 
 </p>
-
-_Nota. Elaboración propia._
-
 <br>
 
-_Wireframe Web - Gestión de Proyectos_
-
+**Figura 55**
 <p align="center">
-  <img src="assets/chapter-4/web-application-wireframes/wireframe-project.png" width="850" alt="Wireframe Proyectos">
+  <img src="assets/Web Applications/Wireframe - Materials.png" alt="PB" width="500">
+<br>*Nota.* Elaboración propia. 
 </p>
+<br>  
 
-_Nota. Elaboración propia._
-
+**Figura 56**
+<p align="center">
+  <img src="assets/Web Applications/Wireframe - Workers.png" alt="PB" width="500">
+<br>*Nota.* Elaboración propia.  
+</p>
 <br>
 
-_Wireframe Web - Inventario de Materiales_
-
+**Figura 57**
 <p align="center">
-  <img src="assets/chapter-4/web-application-wireframes/wireframe-materials.png" width="850" alt="Wireframe Materiales">
+  <img src="assets/Web Applications/Wireframe - Incidents.png" alt="PB" width="500">
+<br>*Nota.* Elaboración propia.  
 </p>
-
-_Nota. Elaboración propia._
-
 <br>
 
-_Wireframe Web - Control de Trabajadores_
-
+**Figura 58**
 <p align="center">
-  <img src="assets/chapter-4/web-application-wireframes/wireframe-workers.png" width="850" alt="Wireframe Trabajadores">
+  <img src="assets/Web Applications/Wireframe - Machinery.png" alt="PB" width="500">
+<br>*Nota.* Elaboración propia.  
 </p>
-
-_Nota. Elaboración propia._
-
 <br>
-
-_Wireframe Web - Registro de Incidentes_
-
-<p align="center">
-  <img src="assets/chapter-4/web-application-wireframes/wireframe-incidents.png" width="850" alt="Wireframe Incidentes">
-</p>
-
-_Nota. Elaboración propia._
-
-<br>
-
-_Wireframe Web - Gestión de Maquinaria_
-
-<p align="center">
-  <img src="assets/chapter-4/web-application-wireframes/wireframe-machinery.png" width="850" alt="Wireframe Maquinaria">
-</p>
-
-_Nota. Elaboración propia._
 
 ### 4.6.2. Web Applications Wireflow Diagrams
 
+**Segmento #2: Contratantes de empresa privadas** 
+<br>
+**User Goal 1: Supervisión de Materiales y personal de obra**
+<br>
+Como usuario, quiero poder ver la lista de proyectos que posee mi empresa con sus respectivos reportes de materiales y trabajadores para poder obtener un mejor control y supervisión de materiales y personal de cada obra.
+
+**Wire:** 
+<br>
+**Figura 59**
+<p align="center">
+  <img src="assets/Web Applications/wire1.png" alt="PB" width="500">
+<br>*Nota.* Elaboración propia.  
+</p>
+<br>
+Para poder obtener los reportes anteriormente dichos que brinda Arquitech a cada usuario, debes primero acceder a la app web mediante el login. Luego, podrás observar la lista de trabajadores y materiales cuando presiones “ver detalles” en la página de listado de proyectos. Esto te dirigirá a la sección de materiales donde puedes visualizar campos como la cantidad de materiales, el stock, el precio, el estado del pago, el nombre del material, etc. En cuanto a la sección de trabajadores, logras acceder con la barra lateral donde se muestra aquella sección y se detalla el nombre del trabajador, su rol y la fecha de cuando fue contratado.
+<br><br>
+
+
+**Segmento #1: Supervisores de obra** 
+<br>
+**User Goal 1: Gestión de maquinarias y accidentes** 
+<br>
+Como usuario quiero tener detallado las maquinarias que se usan por cada proyecto y que incidentes suelen ocurrir en las obras para tener una visión panorámica más acertada sobre lo seguro que son las obras y asegurarse de que se cuenta con las máquinas necesarias.
+
+**Wireflow:** <br>
+**Figura 60**
+<p align="center">
+  <img src="assets/Web Applications/wireflow2.png" alt="PB" width="500">
+<br>*Nota.* Elaboración propia.  
+</p>
+<br>
+Para acceder a las secciones de maquinarias e incidentes debes presionar aquellos botones con los respectivos nombres. En la sección Incidentes, verás un detallado de una lista de los incidentes ocurridos en cada obra,  así podrás estar informado de la fecha en la que ocurrió aquel incidente, el tipo de incidente que ocurrió, la severidad del incidente y el estado de resolución de aquello. Por otro lado, en la sección de Maquinarias, puedes visualizar el nombre de la maquinaria que posee cada obra, la licencia de la maquinaria, la fecha de registro de la maquinaria asignada a la obra y el estado de funcionamiento de aquella. 
+
 ### 4.6.3. Web Applications Mock-ups
 
+**Figura 61**  
+<p align="center">
+  <img src="assets/Web Applications/Mockup - Login.png" alt="PB" width="500">
+	
+<br>*Nota.* Elaboración propia. 
+</p>
+<br>
+
+**Figura 62**  
+<p align="center">
+  <img src="assets/Web Applications/Mockup - Projects.png" alt="PB" width="500">
+	
+<br>*Nota.* Elaboración propia. 
+</p>
+<br>
+
+**Figura 63**  
+<p align="center">
+  <img src="assets/Web Applications/Mockup - Materials.png" alt="PB" width="500">
+	
+<br>*Nota.* Elaboración propia. 
+</p>
+<br>
+
+**Figura 64**  
+<p align="center">
+  <img src="assets/Web Applications/Mockup - Workers.png" alt="PB" width="500">
+	
+<br>*Nota.* Elaboración propia. 
+</p>
+<br>
+
+**Figura 65**  
+<p align="center">
+  <img src="assets/Web Applications/Mockup - Incidents.png" alt="PB" width="500">
+	
+<br>*Nota.* Elaboración propia. 
+</p>
+
+
+**Figura 66**  
+<p align="center">
+  <img src="assets/Web Applications/Mockup - Machinery.png" alt="PB" width="500">
+	
+<br>*Nota.* Elaboración propia. 
+</p>
+
 ### 4.6.4. Web Applications User Flow Diagrams
+
+<ins>**Segmento 1: Supervisores de obra**</ins>
+
+**User Goal 1:** Gestionar y controlar materiales de construcción  
+**Descripción:** El supervisor desea registrar el ingreso, uso y nivel de materiales en obra para evitar desperdicios y garantizar continuidad en las actividades.
+
+**Figura 67**  
+*User flow 1*
+<p align="center">
+  <img src="assets/Web Applications/userflow1.png" alt="PB" width="500"> 
+	
+<br>*Nota.* Elaboración propia. 
+</p>  
+
+**User Goal 2:** Controlar la asistencia y roles de los trabajadores  
+**Descripción:** El supervisor debe tener control total sobre el personal: quién está presente, qué tarea cumple y qué rol desempeña.
+
+**Figura 68**  
+*User flow 2*
+<p align="center">
+<img src="assets/Web Applications/userflow2.png" alt="PB" width="500">
+	
+<br>*Nota.* Elaboración propia. 
+
+**User Goal 3:** Reportar incidencias en obra  
+**Descripción:** El supervisor reporta eventos importantes en campo (fallas de maquinaria, ausencias masivas, problemas logísticos).
+
+**Figura 69**  
+*User flow 3*
+<p align="center">
+<img src="assets/Web Applications/userflow3.png" alt="PB" width="500">
+
+<br>*Nota.* Elaboración propia.
+
+<ins>**Segmento Objetivo #2: Contratantes de Empresas Privadas**</ins>
+
+**User Goal 1:** Visualizar el estado y progreso de mis obras contratadas (solo lectura)  
+**Descripción:** El contratante necesita consultar las obras activas donde ha contratado los servicios, con acceso a información clara y actualizada.
+
+**Figura 70**  
+*User flow 4*
+<p align="center">
+<img src="assets/Web Applications/userflow4.png" alt="PB" width="500">
+
+<br>*Nota.* Elaboración propia.
+
+
+**User Goal 2:** Visualizar el uso y estado de la maquinaria asignada a la obra  
+**Descripción:** Permitir que el contratante consulte, en tiempo real y de forma clara, qué maquinarias están siendo utilizadas en sus obras, cuál es su estado operativo y cómo impactan en el avance del proyecto.
+
+**Figura 71**  
+*User flow 5*
+<p align="center">
+<img src="assets/Web Applications/userflow5.png" alt="PB" width="500">
+</p>
+
+*Nota.* Elaboración propia.
+
+**User Goal 3:** Ver detalles del consumo de materiales y reportes de avance (en modo solo lectura)  
+**Descripción:** El contratante desea evaluar cómo se están utilizando los recursos materiales y verificar si el avance reportado está alineado con lo esperado.
+
+**Figura 72**  
+*User flow 6*
+<p align="center">
+<img src="assets/Web Applications/userflow6.png" alt="PB" width="500">
+</p>
+
+*Nota.* Elaboración propia.
 
 ## 4.7. Web Applications Prototyping
 
@@ -2311,9 +2439,33 @@ _Nota. Elaboración propia._
 
 ### 4.8.1. Software Architecture Context Diagram
 
+**Figura 73**  
+*Software Architecture Context Diagram of ArquiTech*  
+<p align="center">
+  <img src="assets/Domain-Driven/Arquitech_DiagramaContexto.png" alt="PB" width="1000">
+</p>
+
+*Nota.* Elaboración propia.
+
 ### 4.8.2. Software Architecture Container Diagrams
 
+**Figura 74**  
+*Software Architecture Container Diagram of ArquiTech*  
+<p align="center">
+  <img src="assets/Domain-Driven/Arquitech_DiagramaContenedor.png" alt="PB" width="700">
+</p>
+
+*Nota.* Elaboración propia.
+
 ### 4.8.3. Software Architecture Components Diagrams
+
+**Figura 75**  
+*Software Architecture Components Diagram of ArquiTech*  
+<p align="center">
+  <img src="assets/Domain-Driven/ArquiTech_DiagramaComponentes.png" alt="PB" width="700">
+</p>
+
+*Nota.* Elaboración propia.
 
 ## 4.9. Software Object-Oriented Design
 
@@ -2596,52 +2748,15 @@ El modelo utiliza claves primarias para identificar cada registro y claves forá
 
 ### 4.10.1. Relational/Non-Relational Database Diagram
 
-El Relational Database Diagram representa las tablas necesarias para persistir la información correspondiente a las entidades definidas en el diseño orientado a objetos.
-
-Las principales tablas consideradas son `users`, `projects`, `project_members`, `materials`, `material_movements`, `machineries`, `workers`, `attendances`, `tasks`, `incidents` y `reports`.
-
-**Figura X**  
-_Relational Database Diagram de ArquiTech_
-
+**Figura 76**
+*Database Diagram of ArquiTech*
 <p align="center">
-  <img src="assets/chapter-4/database-design/database-diagram.png"
-       alt="Relational Database Diagram de ArquiTech"
-       width="1100">
+  <img src="assets/Database Diagram/database_diagram.png" alt="PB" width="1000">
 </p>
 
-_Nota._ Elaboración propia.
+*Nota.* Elaboración propia.  
 
-La tabla `users` almacena la información de autenticación y perfil de los usuarios de ArquiTech. La relación entre los usuarios y los proyectos se representa mediante `project_members`, permitiendo que múltiples usuarios puedan participar en un mismo proyecto y que un usuario pueda estar relacionado con diferentes proyectos.
-
-`projects` constituye la tabla central del modelo y se relaciona con los distintos recursos utilizados durante la ejecución de una obra.
-
-`materials` almacena el inventario actual de materiales correspondiente a cada proyecto, mientras que `material_movements` conserva el historial de entradas y usos realizados. Esta separación permite mantener el stock actual y, al mismo tiempo, preservar la trazabilidad de las operaciones.
-
-`machineries` almacena la información de la maquinaria asignada a cada proyecto.
-
-`workers` registra al personal involucrado en una obra. Los registros diarios de asistencia se almacenan mediante `attendances`, mientras que las actividades asignadas a los trabajadores son gestionadas mediante `tasks`.
-
-`incidents` mantiene el historial de acontecimientos relevantes registrados durante el desarrollo de un proyecto y permite realizar seguimiento de su estado hasta su resolución.
-
-Finalmente, `reports` almacena la información de los reportes generados para cada proyecto.
-
-Las principales relaciones del modelo son de tipo uno a muchos y muchos a muchos. La relación muchos a muchos existente entre usuarios y proyectos se resuelve mediante la tabla intermedia `project_members`.
-
-#### Estructura propuesta de tablas
-
-| Tabla                | Campos principales                                                                                                                     |
-| -------------------- | -------------------------------------------------------------------------------------------------------------------------------------- |
-| `users`              | `user_id PK`, `email`, `password_hash`, `full_name`, `role`, `created_at`                                                              |
-| `projects`           | `project_id PK`, `name`, `start_date`, `end_date`, `budget`, `status`, `progress`, `created_at`                                        |
-| `project_members`    | `project_member_id PK`, `project_id FK`, `user_id FK`, `joined_at`                                                                     |
-| `materials`          | `material_id PK`, `project_id FK`, `name`, `unit`, `current_stock`, `minimum_stock`, `last_updated`                                    |
-| `material_movements` | `movement_id PK`, `material_id FK`, `registered_by_user_id FK`, `type`, `quantity`, `supplier`, `occurred_at`                          |
-| `machineries`        | `machinery_id PK`, `project_id FK`, `name`, `serial_number`, `status`, `description`                                                   |
-| `workers`            | `worker_id PK`, `project_id FK`, `full_name`, `role`, `specialty`, `hire_date`, `active`                                               |
-| `attendances`        | `attendance_id PK`, `worker_id FK`, `date`, `check_in_time`, `check_out_time`, `status`                                                |
-| `tasks`              | `task_id PK`, `project_id FK`, `worker_id FK`, `title`, `description`, `status`, `due_date`, `created_at`                              |
-| `incidents`          | `incident_id PK`, `project_id FK`, `reported_by_user_id FK`, `type`, `description`, `severity`, `status`, `reported_at`, `resolved_at` |
-| `reports`            | `report_id PK`, `project_id FK`, `generated_by_user_id FK`, `type`, `generated_at`, `file_path`, `summary`                             |
+<hr>
 
 # Capítulo V: Product Implementation
 
