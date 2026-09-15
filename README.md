@@ -1665,12 +1665,17 @@ _Blank areas del To-Be Scenario Mapping para segmento #1_
   <img src="assets/To-be/OS_To-be_S1_BA.jpg" alt="PB" width="1000">
 </p>
 
-
+Nuestros principales clientes serán los supervisores de obra y contratantes de empresas privadas que se encuentran en un rango de edad de 28 a 50 años que pueden ser de clase media-alta, estos quieren encontrar una manera eficiente de llevar la administración de sus proyectos de construcción para evitar pérdidas.
 <ins>**To-Be Scenario Mapping para Segmento #2: Contratantes de Empresas Privadas**</ins>
 
 **Figura 40**  
 _To-Be Scenario Mapping para segmento #2_
 
+Nuestro producto encaja al momento de iniciar la supervisión de un aspecto del proyecto que se está administrando en ese momento o se quiere revisar el avance y buen manejo.
+
+- **¿Qué problemas tiene nuestro producto y cómo se pueden resolver?**
+  - La dependencia del internet en la obra para poder utilizar el aplicativo el cual se puede solucionar incluyendo un modo offline que sincronice datos al reconectarse a una red de internet.
+  - El soporte técnico insuficiente para picos de demanda, en caso de un aumento repentino de usuarios se podría saturar el soporte técnico, frustrando a clientes que esperan respuestas rápidas. Este problema lo podremos solucionar creando una base de conocimientos con videos y guías para resolver dudas comunes y evitar un número masivo de consultas.
 <p align="center">
   <img src="assets/To-be/OS_To-be_S2.jpg" alt="PB" width="1000">
 </p>
@@ -1683,6 +1688,7 @@ _Áreas positivas del To-Be Scenario Mapping para segmento #2_
 </p>
 
 
+Nuestro producto puede ser usado al inicio del día para planificar (confirmar asistencia, revisar inventario), durante el día para monitorear (actualizar avances) y al final para generar y/o revisar reportes.
 **Figura 42**  
 _Áreas negativas del To-Be Scenario Mapping para segmento #2_
 
@@ -1690,9 +1696,12 @@ _Áreas negativas del To-Be Scenario Mapping para segmento #2_
   <img src="assets/To-be/OS_To-be_S2_AN.jpg" alt="PB" width="1000">
 </p>
 
+Nuestro producto debe contar con una interfaz intuitiva, fácil de usar y aprender por nuestros usuarios, también debe contar con una buena sincronización de datos para poder tener un buen seguimiento de los distintos aspectos de la obra.
 
 **Figura 43**  
 _Blank areas del To-Be Scenario Mapping para segmento #2_
+
+La interfaz de nuestro producto debe ser intuitiva y resposive con un diseño que transmita confianza y profesionalismo y que sea de respuesta rápida.
 
 <p align="center">
   <img src="assets/To-be/OS_To-be_S2_BA.jpg" alt="PB" width="1000">
@@ -1881,6 +1890,13 @@ _Tipografía de texto regular_
 <ins> **Colores** </ins>  
  Es importante elegir los colores para las plataformas digitales adecuadamente, ya que así se asegura que la experiencia del usuario sea placentera y agradable. Por ello, nos aseguramos que la paleta de colores seleccionada de Arquitech refleje la esencia de la startup en la landing page y en nuestra aplicación.
 
+_Impact Mapping de ArquiTech_
+
+![Impact Mapping de ArquiTech](assets/chapter-3/impact-mapping/impact-map-final.png)
+
+_Nota_. Elaboración propia.
+
+# Capítulo IV: Product Design
 **Figura 49**  
 _Paleta de colores de ArquiTech_
 
