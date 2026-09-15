@@ -1676,9 +1676,9 @@ Nuestro producto encaja al momento de iniciar la supervisión de un aspecto del 
 - **¿Qué problemas tiene nuestro producto y cómo se pueden resolver?**
   - La dependencia del internet en la obra para poder utilizar el aplicativo el cual se puede solucionar incluyendo un modo offline que sincronice datos al reconectarse a una red de internet.
   - El soporte técnico insuficiente para picos de demanda, en caso de un aumento repentino de usuarios se podría saturar el soporte técnico, frustrando a clientes que esperan respuestas rápidas. Este problema lo podremos solucionar creando una base de conocimientos con videos y guías para resolver dudas comunes y evitar un número masivo de consultas.
-<p align="center">
-  <img src="assets/To-be/OS_To-be_S2.jpg" alt="PB" width="1000">
-</p>
+  <p align="center">
+    <img src="assets/To-be/OS_To-be_S2.jpg" alt="PB" width="1000">
+  </p>
 
 **Figura 41**  
 _Áreas positivas del To-Be Scenario Mapping para segmento #2_
@@ -1686,7 +1686,6 @@ _Áreas positivas del To-Be Scenario Mapping para segmento #2_
 <p align="center">
   <img src="assets/To-be/OS_To-be_S2_AP.jpg" alt="PB" width="1000">
 </p>
-
 
 Nuestro producto puede ser usado al inicio del día para planificar (confirmar asistencia, revisar inventario), durante el día para monitorear (actualizar avances) y al final para generar y/o revisar reportes.
 **Figura 42**  
@@ -1876,7 +1875,6 @@ _Tipografía de logo y títulos_
   <img src="assets/Style-Guidelines/font-demo1.png" alt="PB" width="1000">
 </p>
 
-
 - Tipografía de Texto Regular:  
   Para el texto de la landing page y la aplicación se ha elegido la tipografía Futura que pertenece a Futura Font Family con el objetivo de que el usuario pueda obtener una cómoda y agradable lectura al visitar nuestras plataformas digitales. Además, esta tipografía representa modernidad, minimalismo, profesionalismo y seriedad. Aquello ayuda a la marca a representar tecnicismo, precisión y avances.
 
@@ -1897,6 +1895,7 @@ _Impact Mapping de ArquiTech_
 _Nota_. Elaboración propia.
 
 # Capítulo IV: Product Design
+
 **Figura 49**  
 _Paleta de colores de ArquiTech_
 
@@ -2196,11 +2195,13 @@ Asimismo, se mantiene coherencia con la identidad visual definida para el produc
 </p>
 
 **Mobile Web Browser**
+
 <p align="center">
   <img src="assets/landing-page/Wireframe-Landing-Mobile.png" alt="PB" width="500">
 </p>
 
 ### 4.3.2. Landing Page Mock-up
+
 **Desktop Web Browser**
 
 <p align="center">
@@ -2208,6 +2209,7 @@ Asimismo, se mantiene coherencia con la identidad visual definida para el produc
 </p>
 
 **Mobile Web Browser**
+
 <p align="center">
   <img src="assets/landing-page/MockUp-Landing-Mobile.png" alt="PB" width="500">
 </p>
@@ -2252,15 +2254,16 @@ El objetivo es presentar una interfaz moderna, clara y coherente con la identida
 
 ### 4.6.1. Web Applications Wireframes
 
-**Figura 53**  
+**Figura 53**
+
 <p align="center">
   <img src="assets/Web Applications/Wireframe - Login.png" alt="PB" width="500">
 <br>*Nota.* Elaboración propia. 
 </p>
 <br>
 
-
 **Figura 54**
+
 <p align="center">
   <img src="assets/Web Applications/Wireframe - Projects.png" alt="PB" width="500">
 <br>*Nota.* Elaboración propia. 
@@ -2268,13 +2271,15 @@ El objetivo es presentar una interfaz moderna, clara y coherente con la identida
 <br>
 
 **Figura 55**
+
 <p align="center">
   <img src="assets/Web Applications/Wireframe - Materials.png" alt="PB" width="500">
 <br>*Nota.* Elaboración propia. 
 </p>
-<br>  
+<br>
 
 **Figura 56**
+
 <p align="center">
   <img src="assets/Web Applications/Wireframe - Workers.png" alt="PB" width="500">
 <br>*Nota.* Elaboración propia.  
@@ -2282,6 +2287,7 @@ El objetivo es presentar una interfaz moderna, clara y coherente con la identida
 <br>
 
 **Figura 57**
+
 <p align="center">
   <img src="assets/Web Applications/Wireframe - Incidents.png" alt="PB" width="500">
 <br>*Nota.* Elaboración propia.  
@@ -2289,6 +2295,7 @@ El objetivo es presentar una interfaz moderna, clara y coherente con la identida
 <br>
 
 **Figura 58**
+
 <p align="center">
   <img src="assets/Web Applications/Wireframe - Machinery.png" alt="PB" width="500">
 <br>*Nota.* Elaboración propia.  
@@ -2297,15 +2304,16 @@ El objetivo es presentar una interfaz moderna, clara y coherente con la identida
 
 ### 4.6.2. Web Applications Wireflow Diagrams
 
-**Segmento #2: Contratantes de empresa privadas** 
+**Segmento #2: Contratantes de empresa privadas**
 <br>
 **User Goal 1: Supervisión de Materiales y personal de obra**
 <br>
 Como usuario, quiero poder ver la lista de proyectos que posee mi empresa con sus respectivos reportes de materiales y trabajadores para poder obtener un mejor control y supervisión de materiales y personal de cada obra.
 
-**Wire:** 
+**Wire:**
 <br>
 **Figura 59**
+
 <p align="center">
   <img src="assets/Web Applications/wire1.png" alt="PB" width="500">
 <br>*Nota.* Elaboración propia.  
@@ -2314,25 +2322,26 @@ Como usuario, quiero poder ver la lista de proyectos que posee mi empresa con su
 Para poder obtener los reportes anteriormente dichos que brinda Arquitech a cada usuario, debes primero acceder a la app web mediante el login. Luego, podrás observar la lista de trabajadores y materiales cuando presiones “ver detalles” en la página de listado de proyectos. Esto te dirigirá a la sección de materiales donde puedes visualizar campos como la cantidad de materiales, el stock, el precio, el estado del pago, el nombre del material, etc. En cuanto a la sección de trabajadores, logras acceder con la barra lateral donde se muestra aquella sección y se detalla el nombre del trabajador, su rol y la fecha de cuando fue contratado.
 <br><br>
 
-
-**Segmento #1: Supervisores de obra** 
+**Segmento #1: Supervisores de obra**
 <br>
-**User Goal 1: Gestión de maquinarias y accidentes** 
+**User Goal 1: Gestión de maquinarias y accidentes**
 <br>
 Como usuario quiero tener detallado las maquinarias que se usan por cada proyecto y que incidentes suelen ocurrir en las obras para tener una visión panorámica más acertada sobre lo seguro que son las obras y asegurarse de que se cuenta con las máquinas necesarias.
 
 **Wireflow:** <br>
 **Figura 60**
+
 <p align="center">
   <img src="assets/Web Applications/wireflow2.png" alt="PB" width="500">
 <br>*Nota.* Elaboración propia.  
 </p>
 <br>
-Para acceder a las secciones de maquinarias e incidentes debes presionar aquellos botones con los respectivos nombres. En la sección Incidentes, verás un detallado de una lista de los incidentes ocurridos en cada obra,  así podrás estar informado de la fecha en la que ocurrió aquel incidente, el tipo de incidente que ocurrió, la severidad del incidente y el estado de resolución de aquello. Por otro lado, en la sección de Maquinarias, puedes visualizar el nombre de la maquinaria que posee cada obra, la licencia de la maquinaria, la fecha de registro de la maquinaria asignada a la obra y el estado de funcionamiento de aquella. 
+Para acceder a las secciones de maquinarias e incidentes debes presionar aquellos botones con los respectivos nombres. En la sección Incidentes, verás un detallado de una lista de los incidentes ocurridos en cada obra,  así podrás estar informado de la fecha en la que ocurrió aquel incidente, el tipo de incidente que ocurrió, la severidad del incidente y el estado de resolución de aquello. Por otro lado, en la sección de Maquinarias, puedes visualizar el nombre de la maquinaria que posee cada obra, la licencia de la maquinaria, la fecha de registro de la maquinaria asignada a la obra y el estado de funcionamiento de aquella.
 
 ### 4.6.3. Web Applications Mock-ups
 
-**Figura 61**  
+**Figura 61**
+
 <p align="center">
   <img src="assets/Web Applications/Mockup - Login.png" alt="PB" width="500">
 	
@@ -2340,7 +2349,8 @@ Para acceder a las secciones de maquinarias e incidentes debes presionar aquello
 </p>
 <br>
 
-**Figura 62**  
+**Figura 62**
+
 <p align="center">
   <img src="assets/Web Applications/Mockup - Projects.png" alt="PB" width="500">
 	
@@ -2348,7 +2358,8 @@ Para acceder a las secciones de maquinarias e incidentes debes presionar aquello
 </p>
 <br>
 
-**Figura 63**  
+**Figura 63**
+
 <p align="center">
   <img src="assets/Web Applications/Mockup - Materials.png" alt="PB" width="500">
 	
@@ -2356,7 +2367,8 @@ Para acceder a las secciones de maquinarias e incidentes debes presionar aquello
 </p>
 <br>
 
-**Figura 64**  
+**Figura 64**
+
 <p align="center">
   <img src="assets/Web Applications/Mockup - Workers.png" alt="PB" width="500">
 	
@@ -2364,15 +2376,16 @@ Para acceder a las secciones de maquinarias e incidentes debes presionar aquello
 </p>
 <br>
 
-**Figura 65**  
+**Figura 65**
+
 <p align="center">
   <img src="assets/Web Applications/Mockup - Incidents.png" alt="PB" width="500">
 	
 <br>*Nota.* Elaboración propia. 
 </p>
 
+**Figura 66**
 
-**Figura 66**  
 <p align="center">
   <img src="assets/Web Applications/Mockup - Machinery.png" alt="PB" width="500">
 	
@@ -2387,32 +2400,35 @@ Para acceder a las secciones de maquinarias e incidentes debes presionar aquello
 **Descripción:** El supervisor desea registrar el ingreso, uso y nivel de materiales en obra para evitar desperdicios y garantizar continuidad en las actividades.
 
 **Figura 67**  
-*User flow 1*
+_User flow 1_
+
 <p align="center">
   <img src="assets/Web Applications/userflow1.png" alt="PB" width="500"> 
 	
 <br>*Nota.* Elaboración propia. 
-</p>  
+</p>
 
 **User Goal 2:** Controlar la asistencia y roles de los trabajadores  
 **Descripción:** El supervisor debe tener control total sobre el personal: quién está presente, qué tarea cumple y qué rol desempeña.
 
 **Figura 68**  
-*User flow 2*
+_User flow 2_
+
 <p align="center">
 <img src="assets/Web Applications/userflow2.png" alt="PB" width="500">
 	
-<br>*Nota.* Elaboración propia. 
+<br>*Nota.* Elaboración propia.
 
 **User Goal 3:** Reportar incidencias en obra  
 **Descripción:** El supervisor reporta eventos importantes en campo (fallas de maquinaria, ausencias masivas, problemas logísticos).
 
 **Figura 69**  
-*User flow 3*
+_User flow 3_
+
 <p align="center">
 <img src="assets/Web Applications/userflow3.png" alt="PB" width="500">
 
-<br>*Nota.* Elaboración propia.
+<br>_Nota._ Elaboración propia.
 
 <ins>**Segmento Objetivo #2: Contratantes de Empresas Privadas**</ins>
 
@@ -2420,34 +2436,36 @@ Para acceder a las secciones de maquinarias e incidentes debes presionar aquello
 **Descripción:** El contratante necesita consultar las obras activas donde ha contratado los servicios, con acceso a información clara y actualizada.
 
 **Figura 70**  
-*User flow 4*
+_User flow 4_
+
 <p align="center">
 <img src="assets/Web Applications/userflow4.png" alt="PB" width="500">
 
-<br>*Nota.* Elaboración propia.
-
+<br>_Nota._ Elaboración propia.
 
 **User Goal 2:** Visualizar el uso y estado de la maquinaria asignada a la obra  
 **Descripción:** Permitir que el contratante consulte, en tiempo real y de forma clara, qué maquinarias están siendo utilizadas en sus obras, cuál es su estado operativo y cómo impactan en el avance del proyecto.
 
 **Figura 71**  
-*User flow 5*
+_User flow 5_
+
 <p align="center">
 <img src="assets/Web Applications/userflow5.png" alt="PB" width="500">
 </p>
 
-*Nota.* Elaboración propia.
+_Nota._ Elaboración propia.
 
 **User Goal 3:** Ver detalles del consumo de materiales y reportes de avance (en modo solo lectura)  
 **Descripción:** El contratante desea evaluar cómo se están utilizando los recursos materiales y verificar si el avance reportado está alineado con lo esperado.
 
 **Figura 72**  
-*User flow 6*
+_User flow 6_
+
 <p align="center">
 <img src="assets/Web Applications/userflow6.png" alt="PB" width="500">
 </p>
 
-*Nota.* Elaboración propia.
+_Nota._ Elaboración propia.
 
 ## 4.7. Web Applications Prototyping
 
@@ -2456,32 +2474,35 @@ Para acceder a las secciones de maquinarias e incidentes debes presionar aquello
 ### 4.8.1. Software Architecture Context Diagram
 
 **Figura 73**  
-*Software Architecture Context Diagram of ArquiTech*  
+_Software Architecture Context Diagram of ArquiTech_
+
 <p align="center">
   <img src="assets/Domain-Driven/Arquitech_DiagramaContexto.png" alt="PB" width="1000">
 </p>
 
-*Nota.* Elaboración propia.
+_Nota._ Elaboración propia.
 
 ### 4.8.2. Software Architecture Container Diagrams
 
 **Figura 74**  
-*Software Architecture Container Diagram of ArquiTech*  
+_Software Architecture Container Diagram of ArquiTech_
+
 <p align="center">
   <img src="assets/Domain-Driven/Arquitech_DiagramaContenedor.png" alt="PB" width="700">
 </p>
 
-*Nota.* Elaboración propia.
+_Nota._ Elaboración propia.
 
 ### 4.8.3. Software Architecture Components Diagrams
 
 **Figura 75**  
-*Software Architecture Components Diagram of ArquiTech*  
+_Software Architecture Components Diagram of ArquiTech_
+
 <p align="center">
   <img src="assets/Domain-Driven/ArquiTech_DiagramaComponentes.png" alt="PB" width="700">
 </p>
 
-*Nota.* Elaboración propia.
+_Nota._ Elaboración propia.
 
 ## 4.9. Software Object-Oriented Design
 
@@ -2765,12 +2786,13 @@ El modelo utiliza claves primarias para identificar cada registro y claves forá
 ### 4.10.1. Relational/Non-Relational Database Diagram
 
 **Figura 76**
-*Database Diagram of ArquiTech*
+_Database Diagram of ArquiTech_
+
 <p align="center">
   <img src="assets/Database Diagram/database_diagram.png" alt="PB" width="1000">
 </p>
 
-*Nota.* Elaboración propia.  
+_Nota._ Elaboración propia.
 
 <hr>
 
@@ -2789,6 +2811,71 @@ El modelo utiliza claves primarias para identificar cada registro y claves forá
 ## 5.2. Product Implementation & Deployment
 
 ### 5.2.1. Sprint Backlogs
+
+<div style="text-align: justify;">
+Para el control y seguimiento de las actividades del proyecto ArquiTech, se definieron y asignaron las tareas a través del backlog. Dado que este primer sprint se enfoca en la fase de concepción, diseño UX/UI y documentación de la arquitectura, una gran parte de las actividades corresponde a la configuración y documentación del proyecto. Las tareas orientadas a diseño, infraestructura y despliegue se han vinculado a las Epics, User Stories y Spike Stories correspondientes definidas en el Product Backlog. A continuación, se presenta la estructura detallada del Sprint Backlog.
+</div>
+
+<br>
+
+_Vista del Sprint Backlog en Jira - Parte 1 (Fases de Setup, Análisis y UX)_
+
+<p align="center">
+  <img src="assets/chapter-5/sprint-backlog/jira-backlog-1.png" width="950" alt="Sprint Backlog Jira 1">
+</p>
+<p align="center"><em>*Nota.* Elaboración propia (Tablero de Jira Cloud).</em></p>
+
+<br>
+
+_Vista del Sprint Backlog en Jira - Parte 2 (Fases de Diseño, Arquitectura y Despliegue)_
+
+<p align="center">
+  <img src="assets/chapter-5/sprint-backlog/jira-backlog-2.png" width="950" alt="Sprint Backlog Jira 2">
+</p>
+<p align="center"><em>*Nota.* Elaboración propia (Tablero de Jira Cloud).</em></p>
+
+<br>
+
+**Sprint #1 - Sprint Backlog (Fase de Documentación y Diseño)**
+
+| User Story Id | User Story Title                | Work-Item/Task Id | Work-Item/Task Title           | Description                                        | Estimation (Hours) | Assigned To        | Status |
+| :------------ | :------------------------------ | :---------------- | :----------------------------- | :------------------------------------------------- | :----------------- | :----------------- | :----- |
+| **-**         | Project Setup                   | **ARQDE-9**       | GitHub Setup                   | Configuración del repositorio y ramas principales. | 2                  | Eduardo Chacaliaza | Done   |
+| **-**         | Project Setup                   | **ARQDE-10**      | Invite Team Members            | Asignación de accesos a herramientas de gestión.   | 1                  | Eduardo Chacaliaza | Done   |
+| **-**         | Project Setup                   | **ARQDE-11**      | Create Project Report...       | Creación del entorno y estructura para el informe. | 1                  | Mariel Mendoza     | Done   |
+| **-**         | Project Documentation           | **ARQDE-13**      | 1.1.1 Startup Description      | Redacción del perfil y misión de la startup.       | 2                  | Mariel Mendoza     | Done   |
+| **-**         | Project Documentation           | **ARQDE-14**      | 1.1.2 Team Member Profiles     | Redacción de perfiles técnicos del equipo.         | 2                  | Eduardo Chacaliaza | Done   |
+| **-**         | Project Documentation           | **ARQDE-16**      | 1.2.1. Antecedentes y...       | Análisis del problema y contexto a resolver.       | 3                  | Mariel Mendoza     | Done   |
+| **-**         | Project Documentation           | **ARQDE-17**      | 1.2.2. Lean UX Process         | Planteamiento de la metodología Lean y Canvas.     | 3                  | Mariel Mendoza     | Done   |
+| **-**         | Project Documentation           | **ARQDE-18**      | 1.3. Segmentos objetivo        | Definición de los segmentos de usuarios.           | 3                  | Eduardo Chacaliaza | Done   |
+| **-**         | Project Documentation           | **ARQDE-20**      | 2.1.1. Análisis competitivo    | Investigación de competidores y mercado.           | 4                  | Eduardo Chacaliaza | Done   |
+| **-**         | Project Documentation           | **ARQDE-21**      | 2.1.2. Estrat. y tácticas...   | Definición de ventajas competitivas.               | 3                  | Eduardo Chacaliaza | Done   |
+| **-**         | Project Documentation           | **ARQDE-23**      | 2.2.1. Diseño de entrevistas   | Redacción del guion de preguntas (Needfinding).    | 2                  | Fabricio Quispe    | Done   |
+| **-**         | Project Documentation           | **ARQDE-24**      | 2.2.2. Registro de entrevistas | Grabación y transcripción de entrevistas.          | 5                  | Fabricio Quispe    | Done   |
+| **-**         | Project Documentation           | **ARQDE-25**      | 2.2.3. Análisis de entrevistas | Resumen de insights y hallazgos clave.             | 3                  | Fabricio Quispe    | Done   |
+| **-**         | Project Documentation           | **ARQDE-27**      | 2.3.1. User Personas           | Diseño de arquetipos de usuario.                   | 4                  | Mariel Mendoza     | Done   |
+| **-**         | Project Documentation           | **ARQDE-28**      | 2.3.2. User Task Matrix        | Matriz de tareas frecuentes de los usuarios.       | 3                  | Mariel Mendoza     | Done   |
+| **-**         | Project Documentation           | **ARQDE-29**      | 2.3.3. User Journey Mapping    | Mapeo del recorrido de los perfiles.               | 4                  | Victor Espino      | Done   |
+| **-**         | Project Documentation           | **ARQDE-30**      | 2.3.4. Empathy Mapping         | Creación de mapas de empatía.                      | 3                  | Victor Espino      | Done   |
+| **-**         | Project Documentation           | **ARQDE-31**      | 2.3.5. As-is Scenario Mapping  | Diagramación del escenario actual.                 | 3                  | Braden Garcia      | Done   |
+| **-**         | Project Documentation           | **ARQDE-32**      | 2.4. Ubiquitous Language       | Documentación de la terminología del negocio.      | 2                  | Braden Garcia      | Done   |
+| **-**         | Project Documentation           | **ARQDE-33**      | 3.1. To-Be Scenario Mapping    | Diagramación del escenario propuesto.              | 3                  | Braden Garcia      | Done   |
+| **-**         | Project Documentation           | **ARQDE-34**      | 3.2. User Stories              | Redacción técnica de las historias de usuario.     | 5                  | Fabricio Quispe    | Done   |
+| **-**         | Project Documentation           | **ARQDE-35**      | 3.3. Product Backlog           | Estructuración inicial del backlog ágil.           | 3                  | Eduardo Chacaliaza | Done   |
+| **-**         | Project Documentation           | **ARQDE-36**      | 3.4. Impact Mapping            | Alineación de funcionalidades y negocio.           | 4                  | Victor Espino      | Done   |
+| **EP04**      | Landing Page y comunicación     | **ARQDE-39**      | 4.1. Style Guidelines          | Definición de identidad visual (UI) corporativa.   | 3                  | Braden Garcia      | Done   |
+| **EP08**      | Integración y evolución técnica | **ARQDE-43**      | 4.2. Information Architecture  | Creación del mapa de sitio web/móvil.              | 3                  | Braden Garcia      | Done   |
+| **HU11**      | Conocer ArquiTech               | **ARQDE-50**      | 4.3. Landing Page UI Design    | Diseño de interfaz de la página de aterrizaje.     | 4                  | Eduardo Chacaliaza | Done   |
+| **EP01**      | Gestión de inventarios y mat.   | **ARQDE-49**      | 4.4. Mobile App UX/UI Design   | Diseño de pantallas para la aplicación móvil.      | 6                  | Eduardo Chacaliaza | Done   |
+| **EP01**      | Gestión de inventarios y mat.   | **ARQDE-59**      | 4.5. Mobile App Prototyping    | Interacciones del prototipo móvil en Figma.        | 3                  | Victor Espino      | Done   |
+| **EP02**      | Gestión de trabajadores y tar.  | **ARQDE-61**      | 4.6. Web App UX/UI Design      | Diseño de mockups de la aplicación web.            | 8                  | Victor Espino      | Done   |
+| **EP02**      | Gestión de trabajadores y tar.  | **ARQDE-66**      | 4.7. Web App Prototyping       | Interacciones y flujos del prototipo web.          | 3                  | Mariel Mendoza     | Done   |
+| **EP08**      | Integración y evolución técnica | **ARQDE-67**      | 4.8. Domain-Driven Arch.       | Diseño de arquitectura impulsada por el dominio.   | 4                  | Mariel Mendoza     | Done   |
+| **EP08**      | Integración y evolución técnica | **ARQDE-71**      | 4.9. Object-Oriented Design    | Elaboración de diagramas de clases y objetos.      | 5                  | Fabricio Quispe    | Done   |
+| **EP08**      | Integración y evolución técnica | **ARQDE-74**      | 4.10. Database Design          | Modelado de la base de datos relacional.           | 5                  | Fabricio Quispe    | Done   |
+| **EP08**      | Integración y evolución técnica | **ARQDE-76**      | 5.1. Config Management         | Definición de ramas y control de versiones.        | 2                  | Fabricio Quispe    | Done   |
+| **SP-04**     | Validar despliegue integrado    | **ARQDE-81**      | 5.2. Impl. & Deployment        | Evidencias de implementación y despliegue.         | 4                  | Victor Espino      | Done   |
+| **EP04**      | Landing Page y comunicación     | **ARQDE-89**      | 5.3. Video About-the-Product   | Grabación y edición del video pitch.               | 6                  | Braden Garcia      | Done   |
 
 ### 5.2.2. Implemented Landing Page Evidence
 
