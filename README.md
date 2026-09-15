@@ -1588,7 +1588,35 @@ La información obtenida en este análisis mantiene relación directa con los re
 
 ### 2.3.1. User Personas
 
+**Figura 22**  
+*User persona del segmento #1: Supervisor de Obra*  
+<p align="center">
+  <img src="assets/User Persona/Juan Carlos Zegarra.png" alt="PB" width="1000" align="center">
+</p>
+
+*Nota.* Elaboración propia.  
+
+**Figura 23**  
+*User persona del segmento #2: Contratista de Empresas privadas*  
+<p align="center">
+  <img src="assets/User Persona/VERONICA DELGADO.png" alt="PB" width="1000">
+</p>
+
+*Nota.* Elaboración propia.  
+
 ### 2.3.2. User Task Matrix
+
+| Área | Tarea | Juan Carlos Zegarra |  | Verónica Delgado |  |
+| :---- | :---- | ----- | ----- | ----- | ----- |
+|  |  | Frecuencia | Importancia | Frecuencia | Importancia |
+| Supervisión de Avances | Monitorear el avance de la obra en tiempo real | Diaria | Alta | \- | \- |
+| Supervisión de Avances | Revisar reportes semanales detallados con métricas personalizadas | \- | \- | Semanal | Alta |
+| Gestión de Materiales y Personal | Verificar el uso de materiales y evitar desperdicio | Diaria | Alta | \- | \- |
+| Gestión de Materiales y Personal | Supervisar la asistencia de obreros y detectar ausencias | \- | \- | Diaria | Alta |
+| Cumplimiento de Normas y Licencias | Validar que las licencias estén en orden y vigentes | Mensual | Media | \- | \- |
+| Cumplimiento de Normas y Licencias | Recibir alertas sobre vencimientos de licencias | \- | \- | Según vencimientos | Alta |
+| Comunicación y Reportes | Compartir avances con stakeholders (ej. cliente, equipo legal) | Semanal | Alta | \- | \- |
+| Comunicación y Reportes | Recibir notificaciones de problemas críticos (ej. bajo inventario) | \- | \- | Inmediata (alertas) | Alta |
 
 ### 2.3.3. User Journey Mapping
 
