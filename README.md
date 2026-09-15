@@ -14,19 +14,27 @@
 
 **Informe deL Trabajo Final**
 
-**Startup**: Foundex 
+**Startup**: Foundex
 
 **Producto**: ArquiTech
 
 **Integrantes**:
 
+<<<<<<< HEAD
+Chacaliaza Minaya, Eduardo Fabian -
+
+Espino Rossi, Victor Manuel -
+
+Garcia Cerpa, Braden Raid -
+=======
 Chacaliaza Minaya, Eduardo Fabian - U202324129
 
 Espino Rossi, Victor Manuel - U202411567
 
 Garcia Cerpa, Braden Raid - U202415618
+>>>>>>> origin/main
 
-Mendoza Moreano, Mariel Lucero  - u20231a418
+Mendoza Moreano, Mariel Lucero - u20231a418
 
 Quispe Barzola, Fabricio Fabian - U202320442
 
@@ -38,6 +46,11 @@ Quispe Barzola, Fabricio Fabian - U202320442
 
 # Registro de Versiones del Informe
 
+<<<<<<< HEAD
+| Versión | Fecha      | Autor                                                                 | Descripción de modificación |
+| :------ | :--------- | :-------------------------------------------------------------------- | :-------------------------- |
+| TB1     | 24/04/2025 | Mariel Lucero Mendoza Moreano<br><br>I2<br><br>I3<br><br>I4<br><br>I5 | blablabla                   |
+=======
 | Versión | Fecha | Autor | Descripción de modificación |
 | :---: | :---: | :--- | :--- |
 | 1.0.0 | 14/09/2026 | Mendoza Moreano, Mariel Lucero | <span style="display:block; text-align:justify;">Elaboración de las secciones 1.1.1 Descripción de la Startup, 1.1.2 Perfiles de integrantes del equipo, 1.2.1 Antecedentes y problemática, 1.2.2 Lean UX Process, 2.3.1 User Personas, 2.3.2 User Task Matrix, 4.7 Web Applications Prototyping y 4.8 Domain-Driven Software Architecture.</span> |
@@ -45,10 +58,11 @@ Quispe Barzola, Fabricio Fabian - U202320442
 | 1.0.2 | 14/09/2026 | Quispe Barzola, Fabricio Fabian | <span style="display:block; text-align:justify;">Elaboración de las secciones 2.2.1 Diseño de entrevistas, 2.2.2 Registro de entrevistas, 2.2.3 Análisis de entrevistas, 3.2 User Stories, 4.9 Software Object-Oriented Design, 4.10 Database Design y 5.1 Software Configuration Management.</span> |
 | 1.0.3 | 14/09/2026 | Espino Rossi, Victor Manuel | <span style="display:block; text-align:justify;">Elaboración de las secciones 2.3.3 User Journey Mapping, 2.3.4 Empathy Mapping, 3.4 Impact Mapping, 4.5 Mobile Applications Prototyping, 4.6 Web Applications UX/UI Design y 5.2 Product Implementation & Deployment.</span> |
 | 1.0.4 | 14/09/2026 | Garcia Cerpa, Braden Raid | <span style="display:block; text-align:justify;">Elaboración de las secciones 2.3.5 As-is Scenario Mapping, 2.4 Ubiquitous Language, 3.1 To-Be Scenario Mapping, 4.1 Style Guidelines, 4.2 Information Architecture y 5.3 Video About-the-Product.</span> |
+>>>>>>> origin/main
 
 # Project Report Collaboration Insights
 
-A continuación, capturas del procesos, commits  y elaboración de nuestro proyecto en cada entrega.
+A continuación, capturas del procesos, commits y elaboración de nuestro proyecto en cada entrega.
 
 **Entrega Nº1: TB1**
 
@@ -60,181 +74,159 @@ A continuación, capturas del procesos, commits  y elaboración de nuestro proye
 
 ### [Capítulo I: Introducción](#capítulo-i-introducción)
 
-* [1.1. Startup Profile](#11-startup-profile)
+- [1.1. Startup Profile](#11-startup-profile)
+  - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
 
-    - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
+  - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
 
-    - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
+- [1.2. Solution Profile](#12-solution-profile)
+  - [1.2.1. Antecedentes y problemática](#121-antecedentes-y-problemática)
 
-* [1.2. Solution Profile](#12-solution-profile)
+  - [1.2.2. Lean UX Process](#122-lean-ux-process)
+    - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
 
-    - [1.2.1. Antecedentes y problemática](#121-antecedentes-y-problemática)
+    - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
 
-    - [1.2.2. Lean UX Process](#122-lean-ux-process)
+    - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
 
-        - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
+    - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
 
-        - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
-
-        - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
-
-        - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
-
-* [1.3. Segmentos objetivo](#13-segmentos-objetivo)
-
+- [1.3. Segmentos objetivo](#13-segmentos-objetivo)
 
 ### [Capítulo II: Requirements Elicitation & Analysis](#capítulo-ii-requirements-elicitation--analysis)
 
-* [2.1. Competidores](#21-competidores)
+- [2.1. Competidores](#21-competidores)
+  - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
 
-    - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
+  - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
 
-    - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
+- [2.2. Entrevistas](#22-entrevistas)
+  - [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
 
-* [2.2. Entrevistas](#22-entrevistas)
+  - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
 
-    - [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
+  - [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
 
-    - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
+- [2.3. Needfinding](#23-needfinding)
+  - [2.3.1. User Personas](#231-user-personas)
 
-    - [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
+  - [2.3.2. User Task Matrix](#232-user-task-matrix)
 
-* [2.3. Needfinding](#23-needfinding)
+  - [2.3.3. User Journey Mapping](#233-user-journey-mapping)
 
-    - [2.3.1. User Personas](#231-user-personas)
+  - [2.3.4. Empathy Mapping](#234-empathy-mapping)
 
-    - [2.3.2. User Task Matrix](#232-user-task-matrix)
+  - [2.3.5. As-is Scenario Mapping](#235-as-is-scenario-mapping)
 
-    - [2.3.3. User Journey Mapping](#233-user-journey-mapping)
-
-    - [2.3.4. Empathy Mapping](#234-empathy-mapping)
-
-    - [2.3.5. As-is Scenario Mapping](#235-as-is-scenario-mapping)
-
-* [2.4. Ubiquitous Language](#24-ubiquitous-language)
-
+- [2.4. Ubiquitous Language](#24-ubiquitous-language)
 
 ### [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
 
-* [3.1. To-Be Scenario Mapping](#31-to-be-scenario-mapping)
+- [3.1. To-Be Scenario Mapping](#31-to-be-scenario-mapping)
 
-* [3.2. User Stories](#32-user-stories)
+- [3.2. User Stories](#32-user-stories)
 
-* [3.3. Product Backlog](#33-product-backlog)
+- [3.3. Product Backlog](#33-product-backlog)
 
-* [3.4. Impact Mapping](#34-impact-mapping)
-
+- [3.4. Impact Mapping](#34-impact-mapping)
 
 ### [Capítulo IV: Product Design](#capítulo-iv-product-design)
 
-* [4.1. Style Guidelines](#41-style-guidelines)
+- [4.1. Style Guidelines](#41-style-guidelines)
+  - [4.1.1. General Style Guidelines](#411-general-style-guidelines)
 
-    - [4.1.1. General Style Guidelines](#411-general-style-guidelines)
+  - [4.1.2. Web Style Guidelines](#412-web-style-guidelines)
 
-    - [4.1.2. Web Style Guidelines](#412-web-style-guidelines)
+  - [4.1.3. Mobile Style Guidelines](#413-mobile-style-guidelines)
+    - [4.1.3.1. iOS Mobile Style Guidelines](#4131-ios-mobile-style-guidelines)
 
-    - [4.1.3. Mobile Style Guidelines](#413-mobile-style-guidelines)
+    - [4.1.3.2. Android Mobile Style Guidelines](#4132-android-mobile-style-guidelines)
 
-        - [4.1.3.1. iOS Mobile Style Guidelines](#4131-ios-mobile-style-guidelines)
+- [4.2. Information Architecture](#42-information-architecture)
+  - [4.2.1. Organization Systems](#421-organization-systems)
 
-        - [4.1.3.2. Android Mobile Style Guidelines](#4132-android-mobile-style-guidelines)
+  - [4.2.2. Labeling Systems](#422-labeling-systems)
 
-* [4.2. Information Architecture](#42-information-architecture)
+  - [4.2.3. SEO Tags and Meta Tags](#423-seo-tags-and-meta-tags)
 
-    - [4.2.1. Organization Systems](#421-organization-systems)
+  - [4.2.4. Searching Systems](#424-searching-systems)
 
-    - [4.2.2. Labeling Systems](#422-labeling-systems)
+  - [4.2.5. Navigation Systems](#425-navigation-systems)
 
-    - [4.2.3. SEO Tags and Meta Tags](#423-seo-tags-and-meta-tags)
+- [4.3. Landing Page UI Design](#43-landing-page-ui-design)
+  - [4.3.1. Landing Page Wireframe](#431-landing-page-wireframe)
 
-    - [4.2.4. Searching Systems](#424-searching-systems)
+  - [4.3.2. Landing Page Mock-up](#432-landing-page-mock-up)
 
-    - [4.2.5. Navigation Systems](#425-navigation-systems)
+- [4.4. Mobile Applications UX/UI Design](#44-mobile-applications-uxui-design)
+  - [4.4.1. Mobile Applications Wireframes](#441-mobile-applications-wireframes)
 
-* [4.3. Landing Page UI Design](#43-landing-page-ui-design)
+  - [4.4.2. Mobile Applications Wireflow Diagrams](#442-mobile-applications-wireflow-diagrams)
 
-    - [4.3.1. Landing Page Wireframe](#431-landing-page-wireframe)
+  - [4.4.3. Mobile Applications Mock-ups](#443-mobile-applications-mock-ups)
 
-    - [4.3.2. Landing Page Mock-up](#432-landing-page-mock-up)
+  - [4.4.4. Mobile Applications User Flow Diagrams](#444-mobile-applications-user-flow-diagrams)
 
-* [4.4. Mobile Applications UX/UI Design](#44-mobile-applications-uxui-design)
+- [4.5. Mobile Applications Prototyping](#45-mobile-applications-prototyping)
+  - [4.5.1. Android Mobile Applications Prototyping](#451-android-mobile-applications-prototyping)
 
-    - [4.4.1. Mobile Applications Wireframes](#441-mobile-applications-wireframes)
+  - [4.5.2. iOS Mobile Applications Prototyping](#452-ios-mobile-applications-prototyping)
 
-    - [4.4.2. Mobile Applications Wireflow Diagrams](#442-mobile-applications-wireflow-diagrams)
+- [4.6. Web Applications UX/UI Design](#46-web-applications-uxui-design)
+  - [4.6.1. Web Applications Wireframes](#461-web-applications-wireframes)
 
-    - [4.4.3. Mobile Applications Mock-ups](#443-mobile-applications-mock-ups)
+  - [4.6.2. Web Applications Wireflow Diagrams](#462-web-applications-wireflow-diagrams)
 
-    - [4.4.4. Mobile Applications User Flow Diagrams](#444-mobile-applications-user-flow-diagrams)
+  - [4.6.3. Web Applications Mock-ups](#463-web-applications-mock-ups)
 
-* [4.5. Mobile Applications Prototyping](#45-mobile-applications-prototyping)
+  - [4.6.4. Web Applications User Flow Diagrams](#464-web-applications-user-flow-diagrams)
 
-    - [4.5.1. Android Mobile Applications Prototyping](#451-android-mobile-applications-prototyping)
+- [4.7. Web Applications Prototyping](#47-web-applications-prototyping)
 
-    - [4.5.2. iOS Mobile Applications Prototyping](#452-ios-mobile-applications-prototyping)
+- [4.8. Domain-Driven Software Architecture](#48-domain-driven-software-architecture)
+  - [4.8.1. Software Architecture Context Diagram](#481-software-architecture-context-diagram)
 
-* [4.6. Web Applications UX/UI Design](#46-web-applications-uxui-design)
+  - [4.8.2. Software Architecture Container Diagrams](#482-software-architecture-container-diagrams)
 
-    - [4.6.1. Web Applications Wireframes](#461-web-applications-wireframes)
+  - [4.8.3. Software Architecture Components Diagrams](#483-software-architecture-components-diagrams)
 
-    - [4.6.2. Web Applications Wireflow Diagrams](#462-web-applications-wireflow-diagrams)
+- [4.9. Software Object-Oriented Design](#49-software-object-oriented-design)
+  - [4.9.1. Class Diagrams](#491-class-diagrams)
 
-    - [4.6.3. Web Applications Mock-ups](#463-web-applications-mock-ups)
+  - [4.9.2. Class Dictionary](#492-class-dictionary)
 
-    - [4.6.4. Web Applications User Flow Diagrams](#464-web-applications-user-flow-diagrams)
-
-* [4.7. Web Applications Prototyping](#47-web-applications-prototyping)
-
-* [4.8. Domain-Driven Software Architecture](#48-domain-driven-software-architecture)
-
-    - [4.8.1. Software Architecture Context Diagram](#481-software-architecture-context-diagram)
-
-    - [4.8.2. Software Architecture Container Diagrams](#482-software-architecture-container-diagrams)
-
-    - [4.8.3. Software Architecture Components Diagrams](#483-software-architecture-components-diagrams)
-
-* [4.9. Software Object-Oriented Design](#49-software-object-oriented-design)
-
-    - [4.9.1. Class Diagrams](#491-class-diagrams)
-
-    - [4.9.2. Class Dictionary](#492-class-dictionary)
-
-* [4.10. Database Design](#410-database-design)
-
-    - [4.10.1. Relational/Non-Relational Database Diagram](#4101-relationalnon-relational-database-diagram)
-
+- [4.10. Database Design](#410-database-design)
+  - [4.10.1. Relational/Non-Relational Database Diagram](#4101-relationalnon-relational-database-diagram)
 
 ### [Capítulo V: Product Implementation](#capítulo-v-product-implementation)
 
-* [5.1. Software Configuration Management](#51-software-configuration-management)
+- [5.1. Software Configuration Management](#51-software-configuration-management)
+  - [5.1.1. Software Development Environment Configuration](#511-software-development-environment-configuration)
 
-    - [5.1.1. Software Development Environment Configuration](#511-software-development-environment-configuration)
+  - [5.1.2. Source Code Management](#512-source-code-management)
 
-    - [5.1.2. Source Code Management](#512-source-code-management)
+  - [5.1.3. Source Code Style Guide & Conventions](#513-source-code-style-guide--conventions)
 
-    - [5.1.3. Source Code Style Guide & Conventions](#513-source-code-style-guide--conventions)
+  - [5.1.4. Software Deployment Configuration](#514-software-deployment-configuration)
 
-    - [5.1.4. Software Deployment Configuration](#514-software-deployment-configuration)
+- [5.2. Product Implementation & Deployment](#52-product-implementation--deployment)
+  - [5.2.1. Sprint Backlogs](#521-sprint-backlogs)
 
-* [5.2. Product Implementation & Deployment](#52-product-implementation--deployment)
+  - [5.2.2. Implemented Landing Page Evidence](#522-implemented-landing-page-evidence)
 
-    - [5.2.1. Sprint Backlogs](#521-sprint-backlogs)
+  - [5.2.3. Implemented Frontend-Web Application Evidence](#523-implemented-frontend-web-application-evidence)
 
-    - [5.2.2. Implemented Landing Page Evidence](#522-implemented-landing-page-evidence)
+  - [5.2.4. Acuerdo de Servicio - SaaS](#524-acuerdo-de-servicio---saas)
 
-    - [5.2.3. Implemented Frontend-Web Application Evidence](#523-implemented-frontend-web-application-evidence)
+  - [5.2.5. Implemented Native-Mobile Application Evidence](#525-implemented-native-mobile-application-evidence)
 
-    - [5.2.4. Acuerdo de Servicio - SaaS](#524-acuerdo-de-servicio---saas)
+  - [5.2.6. Implemented RESTful API and/or Serverless Backend Evidence](#526-implemented-restful-api-andor-serverless-backend-evidence)
 
-    - [5.2.5. Implemented Native-Mobile Application Evidence](#525-implemented-native-mobile-application-evidence)
+  - [5.2.7. RESTful API documentation](#527-restful-api-documentation)
 
-    - [5.2.6. Implemented RESTful API and/or Serverless Backend Evidence](#526-implemented-restful-api-andor-serverless-backend-evidence)
+  - [5.2.8. Team Collaboration Insights](#528-team-collaboration-insights)
 
-    - [5.2.7. RESTful API documentation](#527-restful-api-documentation)
-
-    - [5.2.8. Team Collaboration Insights](#528-team-collaboration-insights)
-
-* [5.3. Video About-the-Product](#53-video-about-the-product)
+- [5.3. Video About-the-Product](#53-video-about-the-product)
 
 ### [Conclusion](#conclusiones)
 
@@ -248,6 +240,12 @@ A continuación, capturas del procesos, commits  y elaboración de nuestro proye
 
 El curso contribuye al cumplimiento del siguiente Student Outcome ABET:
 
+<<<<<<< HEAD
+| Criterio específico                                                                                      | Acciones realizadas                                                                                                                                                                                                               | Conclusiones         |
+| :------------------------------------------------------------------------------------------------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------------------- |
+| Reconoce responsabilidad<br>ética y profesional en<br>situaciones de ingeniería<br>de software           | Mendoza Moreano, Mariel Lucero<br>av1:<br>blablablabla.<br><br>Integrante 2<br>av1:<br>blablablabla<br><br>Integrante 3<br>av1:<br>blablabla<br><br>Integrante 4<br>av1:<br>blablablabla<br><br>Integrante 5<br>av1:<br>blablabla | av1:<br>blablablabla |
+| Emite juicios informados<br>considerando el impacto<br>de las soluciones de<br>ingeniería de software... | Mendoza Moreano, Mariel Lucero<br>av1:<br>blablabla<br><br>Integrante 2<br>av1:<br>blablablabla                                                                                                                                   | av1:<br>blablbalbla  |
+=======
 **ABET – EAC - Student Outcome 4**  
 Criterio: *La capacidad de reconocer responsabilidades éticas y profesionales en situaciones de ingeniería y hacer juicios informados, que deben considerar el impacto de las soluciones de ingeniería en contextos globales, económicos, ambientales y sociales.*
 
@@ -267,6 +265,7 @@ Criterio: *La capacidad de reconocer responsabilidades éticas y profesionales e
     </tr>
   </tbody>
 </table>
+>>>>>>> origin/main
 
 <div style="page-break-before: always;"></div>
 
@@ -292,6 +291,15 @@ En Foundex, consideramos que la digitalización de estos procesos es fundamental
 
 ### 1.1.2. Perfiles de integrantes del equipo
 
+<<<<<<< HEAD
+|                 Foto                  | Integrante                                 |
+| :-----------------------------------: | :----------------------------------------- |
+| <img src="" width="120" alt="Alumno"> | Alumno — Código de Estudiante: . Blablabla |
+| <img src="" width="120" alt="Alumno"> | Alumno — Código de Estudiante: .           |
+| <img src="" width="120" alt="Alumno"> | Alumno — Código de Estudiante: . Blablabla |
+| <img src="" width="120" alt="Alumno"> | Alumno — Código de Estudiante: . Blablabla |
+| <img src="" width="120" alt="Alumno"> | Alumno — Código de Estudiante: . Blablabla |
+=======
 | Foto | Integrante |
 | ----- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | <img src="assets/team/Eduardo-Chacaliaza.png" width="220" style="width:220px; min-width:220px; height:auto;" alt="Eduardo Chacaliaza"> | <div style="text-align: justify;"><strong>Chacaliaza Minaya, Eduardo Fabian - U202324129</strong><br>Estudiante de Ingeniería de Software, interesado en el desarrollo de aplicaciones y soluciones tecnológicas orientadas a resolver necesidades reales de los usuarios. Me caracterizo por tener un enfoque analítico, capacidad para adaptarme a nuevos entornos y disposición para aprender nuevas tecnologías y herramientas de desarrollo. En este proyecto, busco contribuir en el análisis, diseño y definición de soluciones que mejoren la experiencia de los usuarios.</div> |
@@ -299,6 +307,7 @@ En Foundex, consideramos que la digitalización de estos procesos es fundamental
 | <img src="assets/team/Braden-Garcia.png" width="220" style="width:220px; min-width:220px; height:auto;" alt="Braden Garcia"> | <div style="text-align: justify;"><strong>Garcia Cerpa, Braden Raid - U202415618</strong><br>Estudiante de Ingeniería de Software con interés en el desarrollo de soluciones tecnológicas orientadas a resolver problemas reales. Me caracterizo por mantener una actitud responsable, organizada y colaborativa durante el desarrollo de proyectos. Asimismo, busco fortalecer mis conocimientos en diseño de software, experiencia de usuario y desarrollo de aplicaciones, aportando ideas que contribuyan a obtener soluciones funcionales y de calidad.</div> |
 | <img src="assets/team/Mariel-Mendoza.jpeg" width="220" style="width:220px; min-width:220px; height:auto;" alt="Mariel Mendoza"> | <div style="text-align: justify;"><strong>Mendoza Moreano, Mariel Lucero - U20231A418</strong><br>Estudiante de Ingeniería de Software con interés en el análisis de problemas, diseño de soluciones centradas en el usuario y arquitectura de software. Me caracterizo por mantener una actitud responsable, organizada y orientada al aprendizaje continuo. En este proyecto, busco aportar en la definición de las necesidades de los usuarios, el diseño de la solución y la estructuración de los principales componentes de ArquiTech.</div> |
 | <img src="assets/team/Fabricio-Quispe.png" width="220" style="width:220px; min-width:220px; height:auto;" alt="Fabricio Quispe"> | <div style="text-align: justify;"><strong>Quispe Barzola, Fabricio Fabian - U202320442</strong><br>Estudiante de Ingeniería de Software con interés en el desarrollo de aplicaciones y soluciones tecnológicas orientadas a resolver problemas reales. Me caracterizo por tener disposición para aprender nuevas herramientas y tecnologías, así como por mantener un enfoque responsable y organizado durante el desarrollo de proyectos. Asimismo, busco fortalecer mis conocimientos en programación, diseño de software y buenas prácticas de desarrollo, contribuyendo activamente en el trabajo en equipo y en la elaboración de soluciones funcionales, eficientes y de calidad.</div> |
+>>>>>>> origin/main
 
 ## 1.2. Solution Profile
 
@@ -436,18 +445,33 @@ Inicialmente, ArquiTech se enfocará en usuarios que actualmente dependen de her
 
 2. **Estas necesidades se pueden resolver con**
 
+<<<<<<< HEAD
+  Nuestros principales clientes serán los supervisores de obra y contratantes de empresas privadas que se encuentran en un rango de edad de 28 a 50 años que pueden ser de clase media-alta, estos quieren encontrar una manera eficiente de llevar la administración de sus proyectos de construcción para evitar pérdidas.
+=======
    Un mecanismo centralizado que facilite el registro, consulta y seguimiento de información relacionada con trabajadores, materiales, actividades, avances e incidencias de cada obra.
+>>>>>>> origin/main
 
 3. **Nuestros clientes iniciales son**
 
+<<<<<<< HEAD
+  Nuestro producto encaja al momento de iniciar la supervisión de un aspecto del proyecto que se está administrando en ese momento o se quiere revisar el avance y buen manejo.
+
+- **¿Qué problemas tiene nuestro producto y cómo se pueden resolver?**
+  - La dependencia del internet en la obra para poder utilizar el aplicativo el cual se puede solucionar incluyendo un modo offline que sincronice datos al reconectarse a una red de internet.
+  - El soporte técnico insuficiente para picos de demanda, en caso de un aumento repentino de usuarios se podría saturar el soporte técnico, frustrando a clientes que esperan respuestas rápidas. Este problema lo podremos solucionar creando una base de conocimientos con videos y guías para resolver dudas comunes y evitar un número masivo de consultas.
+=======
    Organizaciones y responsables vinculados con proyectos de construcción que actualmente utilizan registros manuales, hojas de cálculo, documentos, correo electrónico, aplicaciones de mensajería y reportes independientes para gestionar o realizar seguimiento de sus obras.
 
 4. **El valor #1 que nuestros clientes quieren obtener de nuestro servicio es**
 
    Disponer de información confiable y actualizada que facilite el control y seguimiento de una obra y permita identificar oportunamente situaciones que puedan afectar su ejecución.
+>>>>>>> origin/main
 
 5. **Los clientes también pueden obtener los siguientes beneficios adicionales**
 
+<<<<<<< HEAD
+  Nuestro producto puede ser usado al inicio del día para planificar (confirmar asistencia, revisar inventario), durante el día para monitorear (actualizar avances) y al final para generar y/o revisar reportes.
+=======
    - Reducir el tiempo utilizado para recopilar información procedente de diferentes fuentes.
    - Mejorar la visibilidad sobre materiales, trabajadores, actividades y avances.
    - Facilitar la coordinación entre las personas involucradas en una obra.
@@ -455,13 +479,21 @@ Inicialmente, ArquiTech se enfocará en usuarios que actualmente dependen de her
    - Disponer de mayor trazabilidad sobre los registros y actualizaciones realizadas.
    - Facilitar la elaboración y consulta de reportes.
    - Detectar con mayor anticipación incidencias, retrasos o necesidades de recursos.
+>>>>>>> origin/main
 
 6. **Adquiriremos la mayoría de nuestros clientes a través de**
 
+<<<<<<< HEAD
+  Nuestro producto debe contar con una interfaz intuitiva, fácil de usar y aprender por nuestros usuarios, también debe contar con una buena sincronización de datos para poder tener un buen seguimiento de los distintos aspectos de la obra.
+=======
    Contacto con empresas y profesionales relacionados con el sector construcción, marketing digital dirigido, demostraciones de ArquiTech y periodos de prueba o pilotos que permitan comprobar la utilidad de la solución en proyectos reales.
+>>>>>>> origin/main
 
 7. **Generaremos ingresos mediante**
 
+<<<<<<< HEAD
+  La interfaz de nuestro producto debe ser intuitiva y resposive con un diseño que transmita confianza y profesionalismo y que sea de respuesta rápida.
+=======
    Planes de suscripción periódica escalables de acuerdo con las necesidades y el nivel de uso de ArquiTech.
 
 8. **Nuestra principal competencia en el mercado será**
@@ -574,6 +606,7 @@ Las suposiciones con mayor riesgo e incertidumbre deben validarse antes que aque
 | Una experiencia sencilla permitirá que nuevos usuarios aprendan las principales tareas sin requerir capacitación extensa. | Medio | Medio | Media |
 
 Las suposiciones priorizadas sirven como base para formular los Hypothesis Statements y determinar posteriormente qué aspectos requieren validación mediante experimentos.
+>>>>>>> origin/main
 
 #### 1.2.2.3. Lean UX Hypothesis Statements
 
@@ -1620,7 +1653,37 @@ La información obtenida en este análisis mantiene relación directa con los re
 
 ### 2.3.3. User Journey Mapping
 
+_User Journey Mapping del segmento #1: Supervisor de Obra_
+
+<img src="assets/journey-mapping/user-journey-mapping-segmento1.png" width="800">
+
+_Nota._ Elaboración propia.
+
+_User Journey Mapping del segmento #2: Contratista de Empresas privadas_
+
+<img src="assets/journey-mapping/user-journey-mapping-segmento2.png" width="800">
+
+_Nota._ Elaboración propia.
+
 ### 2.3.4. Empathy Mapping
+
+**Figura 26**
+_Empathy Mapping del segmento #1: Supervisor de Obra_
+
+<p align="center">
+  <img src="assets/ermpathy-mapping/empathy-mapping-segmento1.png" width="800">
+</p>
+
+_Nota._ Elaboración propia.
+
+**Figura 27**
+_Empathy Mapping del segmento #2: Contratista de Empresas privadas_
+
+<p align="center">
+  <img src="assets/ermpathy-mapping/empathy-mapping-segmento2.png" width="800">
+</p>
+
+_Nota._ Elaboración propia.
 
 ### 2.3.5. As-is Scenario Mapping
 
@@ -2614,6 +2677,8 @@ Las principales relaciones del modelo son de tipo uno a muchos y muchos a muchos
 
 ## 5.3. Video About-the-Product
 
+<<<<<<< HEAD
+=======
 En esta sección, presentamos el Video About the Product, diseñado para captar la atención de los visitantes de nuestro Landing Page y los usuarios de nuestras aplicaciones, ofreciendo una visión clara y atractiva del modelo de negocio y las características principales de nuestra solución de software, Arquitech. Este video tiene como objetivo principal comunicar cómo nuestra plataforma facilita procesos clave como la creación de usuarios de manera eficiente y segura. Dirigido tanto a potenciales clientes interesados en conocer las capacidades de nuestro producto como a usuarios que desean realizar tareas relacionadas con la gestión de usuarios, el video adopta un tono profesional, innovador y accesible, alineado con la identidad de nuestra plataforma. A través de una demostración dinámica de las funcionalidades, el video resalta la facilidad de uso y la integración con una base de datos. Además, incluye un testimonio positivo de un usuario participante en las entrevistas de validación, reforzando la credibilidad y el valor de nuestra solución. Este contenido busca inspirar confianza y motivar a los espectadores a explorar y adoptar nuestra plataforma para optimizar sus procesos.
 
 **Figura 117**  
@@ -2625,6 +2690,7 @@ En esta sección, presentamos el Video About the Product, diseñado para captar 
 [https://www.youtube.com/watch?v=k3Z0771Au1Y](https://www.youtube.com/watch?v=k3Z0771Au1Y)
 
 
+>>>>>>> origin/main
 # Conclusiones
 
 # Bibliografia
