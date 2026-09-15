@@ -575,7 +575,6 @@ Las suposiciones con mayor riesgo e incertidumbre deben validarse antes que aque
 
 Las suposiciones priorizadas sirven como base para formular los Hypothesis Statements y determinar posteriormente qué aspectos requieren validación mediante experimentos.
 
-
 #### 1.2.2.3. Lean UX Hypothesis Statements
 
 Los Hypothesis Statements convierten las principales suposiciones en afirmaciones que pueden ser comprobadas mediante evidencia.
@@ -656,7 +655,7 @@ En **What's the most important thing we need to learn first?** se identifican la
 
 Finalmente, en **What's the least amount of work we need to do to learn the next most important thing?** se plantea un experimento de alcance reducido orientado a validar dicha suposición antes de realizar una implementación de mayor alcance. El experimento contempla establecer una línea base del procedimiento actual, utilizar un prototipo limitado con tareas representativas, observar el comportamiento de los supervisores y comparar el esfuerzo requerido con sus procedimientos habituales.
 
-**Figura X**  
+**Figura 1**  
 *Lean UX Canvas de ArquiTech.*
 
 <p align="center">
@@ -665,7 +664,7 @@ Finalmente, en **What's the least amount of work we need to do to learn the next
        width="1000">
 </p>
 
-*Nota.* Elaboración propia en Miro a partir de los Lean UX Problem Statements, Lean UX Assumptions y Lean UX Hypothesis Statements definidos para ArquiTech.
+*Nota.* Elaboración propia en Miro a partir de los Lean UX Problem Statements, Lean UX Assumptions y Lean UX Hypothesis Statements definidos para ArquiTech. 
 
 **Enlace al Lean UX Canvas en Miro:**  
 [https://miro.com/app/board/uXjVHncj1ew=/?share_link_id=890507134570](https://miro.com/app/board/uXjVHncj1ew=/?share_link_id=890507134570)
@@ -890,13 +889,15 @@ Finalmente, ArquiTech mantendrá un proceso de mejora continua basado en las nec
 
 ### 2.2.1. Diseño de entrevistas
 
-Para el proceso de investigación de ArquiTech se diseñó un conjunto de entrevistas dirigido a representantes de los dos segmentos objetivo identificados: **supervisores de obra** y **contratantes de empresas privadas**.
+Para el proceso de investigación de ArquiTech se diseñó un conjunto de entrevistas dirigido a representantes de los dos segmentos objetivo identificados: supervisores de obra y contratantes de empresas privadas.
 
 El objetivo de estas entrevistas es comprender las actividades que actualmente realizan los participantes durante la gestión y seguimiento de proyectos de construcción, las herramientas que utilizan, las principales dificultades que enfrentan y sus necesidades respecto al acceso, organización y comunicación de la información de una obra.
 
-Las preguntas fueron organizadas en cuatro grupos principales: **introducción y contexto, procesos actuales, puntos de dolor, necesidades y expectativas**, además de preguntas de cierre. Esta estructura permite recopilar información relacionada con el contexto del participante, sus actividades habituales, problemas experimentados durante la ejecución o seguimiento de una obra y su percepción respecto al uso de herramientas digitales.
+Las preguntas fueron organizadas en cuatro grupos principales: introducción y contexto, procesos actuales, puntos de dolor, necesidades y expectativas, además de preguntas de cierre. Esta estructura permite recopilar información relacionada con el contexto del participante, sus actividades habituales, problemas experimentados durante la ejecución o seguimiento de una obra y su percepción respecto al uso de herramientas digitales.
 
-Para mantener la consistencia del proceso de investigación, todos los participantes pertenecientes a un mismo segmento serán entrevistados utilizando el mismo conjunto de preguntas. De esta manera, las respuestas podrán ser posteriormente comparadas e interpretadas en el análisis de entrevistas para identificar patrones y características recurrentes dentro de cada segmento objetivo.
+Para mantener la consistencia del proceso de investigación, todos los participantes pertenecientes a un mismo segmento serán entrevistados utilizando el mismo conjunto base de preguntas y variables de investigación. Durante la ejecución de las entrevistas, las preguntas podrán ser reformuladas ligeramente o acompañadas de preguntas de seguimiento con el propósito de mantener un flujo conversacional natural, sin modificar la información que se busca recopilar. De esta manera, las respuestas podrán ser posteriormente comparadas e interpretadas para identificar patrones y características recurrentes dentro de cada segmento objetivo.
+
+Antes de iniciar cada entrevista, se informará al participante sobre el propósito académico de la investigación y se solicitará su consentimiento para participar y para registrar la sesión en video.
 
 #### Segmento objetivo #1: Supervisores de obra
 
@@ -978,7 +979,9 @@ Para mantener la consistencia del proceso de investigación, todos los participa
 
 #### Preguntas complementarias de caracterización para ambos segmentos
 
-Las siguientes preguntas complementarias serán aplicadas a todos los entrevistados de ambos segmentos objetivo antes del desarrollo del guion principal correspondiente. Su propósito es recopilar características objetivas y subjetivas que permitan comprender mejor el perfil, contexto, comportamiento y preferencias de los participantes.
+Las siguientes preguntas complementarias serán integradas de manera natural dentro del flujo de las entrevistas de ambos segmentos objetivo. Su propósito es recopilar características objetivas y subjetivas que permitan comprender mejor el perfil, contexto, comportamiento y preferencias de los participantes.
+
+Aunque estas preguntas se presentan de manera agrupada en el diseño de entrevistas para facilitar su documentación, durante la ejecución de las entrevistas podrán ubicarse en distintos momentos de la conversación con el propósito de mantener una secuencia coherente y natural, sin alterar la información que se busca recopilar.
 
 - ¿Con qué género se identifica?
 - ¿Cuál es su estado civil?
@@ -1023,16 +1026,16 @@ Esta información servirá posteriormente como fuente para el análisis estadís
 
 **Datos del entrevistado**
 
-- **Nombres y apellidos:** [NOMBRES Y APELLIDOS]
+- **Nombres y apellidos:** Alvaro Cristian Gonzales Yupanqui
 - **Edad:** 61 años
-- **Distrito de residencia:** [DISTRITO]
+- **Distrito de residencia:** San Juan de Lurigancho
 - **Segmento objetivo:** Supervisor de obra
-- **Fecha de entrevista:** [DD/MM/AAAA]
-- **Timing de inicio:** [HH:MM:SS]
-- **Duración:** [MM:SS]
-- **Video consolidado:** [ENLACE PRIVADO DE MICROSOFT STREAM]
+- **Fecha de entrevista:** 14/09/26
+- **Timing de inicio:** 00:00
+- **Duración:** 07:24
+- **Video consolidado:** [Entrevista1-Segmento1-Diseño](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202320442_upc_edu_pe/IQBsTLNNide4S4_-1cUwXRg4AdC35tmBxErwlBtYPznmQzk?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=u12fcE)
 
-**Figura X**  
+**Figura 1**  
 *Cuadro de video del entrevistado #1 del segmento Supervisores de obra.*
 
 <p align="center">
@@ -1045,7 +1048,7 @@ Esta información servirá posteriormente como fuente para el análisis estadís
 
 **Resumen de la entrevista**
 
-[NOMBRE] es un supervisor de obra de 61 años, identificado con el género masculino, casado y con responsabilidades familiares que influyen en la organización de su tiempo. Cuenta con más de treinta años de experiencia en el sector construcción y ha participado principalmente en edificaciones, ampliaciones y proyectos de infraestructura, desempeñando actividades relacionadas con supervisión, control técnico y administración de recursos.
+Alvaro Cristian Gonzales Yupanqui es un supervisor de obra de 61 años, identificado con el género masculino, casado y con responsabilidades familiares que influyen en la organización de su tiempo. Cuenta con más de treinta años de experiencia en el sector construcción y ha participado principalmente en edificaciones, ampliaciones y proyectos de infraestructura, desempeñando actividades relacionadas con supervisión, control técnico y administración de recursos.
 
 Durante una jornada habitual inicia revisando las actividades programadas y verificando la disponibilidad del personal y los materiales necesarios. También comprueba que los trabajos sean ejecutados de acuerdo con el expediente técnico, coordina con el residente de obra y realiza seguimiento de metrados, calidad y avance. Dependiendo de la magnitud del proyecto, trabaja con diferentes cuadrillas y gestiona materiales como cemento, acero, agregados, ladrillo y concreto.
 
@@ -1073,16 +1076,16 @@ Finalmente, considera que una solución digital también debería permitir compa
 
 **Datos del entrevistado**
 
-- **Nombres y apellidos:** [NOMBRES Y APELLIDOS]
+- **Nombres y apellidos:** Juan José Meza Huanacune
 - **Edad:** 55 años
-- **Distrito de residencia:** [DISTRITO]
+- **Distrito de residencia:** San Juan de Lurigancho
 - **Segmento objetivo:** Supervisora de obra
 - **Fecha de entrevista:** [DD/MM/AAAA]
 - **Timing de inicio:** [HH:MM:SS]
 - **Duración:** [MM:SS]
 - **Video consolidado:** [ENLACE PRIVADO DE MICROSOFT STREAM]
 
-**Figura X**  
+**Figura 2**  
 *Cuadro de video del entrevistado #2 del segmento Supervisores de obra.*
 
 <p align="center">
@@ -1095,7 +1098,7 @@ Finalmente, considera que una solución digital también debería permitir compa
 
 **Resumen de la entrevista**
 
-[NOMBRE] es una ingeniera civil de 55 años que se identifica con el género femenino, es casada y tiene responsabilidades familiares. Cuenta con aproximadamente veinticinco años de experiencia en construcción y ha trabajado supervisando distintas etapas de proyectos, especialmente en actividades relacionadas con control de calidad, seguridad y ejecución de trabajos.
+Juan José Meza Huanacune es una ingeniera civil de 55 años que se identifica con el género femenino, es casada y tiene responsabilidades familiares. Cuenta con aproximadamente veinticinco años de experiencia en construcción y ha trabajado supervisando distintas etapas de proyectos, especialmente en actividades relacionadas con control de calidad, seguridad y ejecución de trabajos.
 
 Durante una jornada habitual revisa las actividades programadas, verifica la calidad de los materiales y las condiciones de seguridad, supervisa el uso adecuado de equipos de protección personal y comprueba el cumplimiento de las funciones asignadas al equipo técnico. La cantidad de trabajadores y materiales que debe gestionar varía de acuerdo con las actividades programadas para cada jornada.
 
@@ -1337,69 +1340,244 @@ Finalmente, considera que una empresa constructora que permita realizar un segui
 
 ### 2.2.3. Análisis de entrevistas
 
-A partir de las entrevistas registradas se realizó un análisis independiente para cada uno de los segmentos objetivo de ArquiTech: supervisores de obra y contratantes de empresas privadas. El propósito del análisis es identificar, con sustento estadístico, las características objetivas y subjetivas más recurrentes de cada segmento que serán utilizadas posteriormente para la construcción de los arquetipos de usuario.
+A partir de las entrevistas registradas se realizó un análisis independiente de los dos segmentos objetivo de ArquiTech: supervisores de obra y contratantes de empresas privadas. El análisis busca identificar, mediante sustento estadístico, las características objetivas y subjetivas más representativas de cada segmento, tomando como fuente las respuestas y resúmenes documentados en el registro de entrevistas.
 
-Para cada segmento se consideran tres entrevistas. Por ello, una característica identificada en un participante representa el 33.3 %, una característica identificada en dos participantes representa el 66.7 % y una característica identificada en los tres participantes representa el 100 % del segmento analizado.
+Para cada segmento se consideraron tres participantes. En consecuencia, una característica identificada en un participante representa el 33.3 % del segmento, una característica compartida por dos participantes representa el 66.7 %, y una característica presente en los tres participantes representa el 100 %.
 
-Todos los resultados presentados en esta sección provienen directamente de las entrevistas registradas y de los resúmenes elaborados para cada participante.
+Las características analizadas comprenden aspectos demográficos y profesionales, experiencia, contexto familiar, preferencias tecnológicas, personalidad, habilidades, influencias, canales de interacción, objetivos, frustraciones, necesidades y expectativas. Estos resultados servirán posteriormente como base para la construcción de los User Personas y los demás artefactos de Needfinding.
 
 ---
 
 #### Segmento objetivo #1: Supervisores de obra
 
-##### Características objetivas
+##### Características objetivas predominantes
 
-Los tres participantes pertenecen al segmento de supervisores de obra y cuentan con experiencia práctica en actividades relacionadas con la supervisión y gestión de proyectos de construcción, lo que representa el 100 % del segmento analizado.
+Las entrevistas muestran que el segmento está conformado por profesionales con experiencia directa en la supervisión y gestión de proyectos de construcción. El 100 % de los participantes se desempeña como supervisor o supervisora de obra y participa directamente en actividades relacionadas con personal, materiales, avance y coordinación de los proyectos.
 
-En cuanto a la edad, dos de los tres participantes tienen más de 50 años, representando el 66.7 %, mientras que el 33.3 % restante se encuentra entre los 30 y 39 años.
+Respecto al género, el 66.7 % de los participantes se identifica con el género femenino y el 33.3 % con el género masculino.
 
-Respecto a las herramientas y métodos empleados durante sus actividades, el 100 % utiliza mecanismos manuales para registrar la asistencia de los trabajadores, mediante hojas de tareo o firmas.
+En cuanto a la edad, el 66.7 % tiene 55 años o más, mientras que el 33.3 % se encuentra alrededor de los 31 años. Esto evidencia la presencia predominante de profesionales con una trayectoria extensa, aunque también existe representación de perfiles más jóvenes con experiencia en herramientas digitales.
 
-Para el control de materiales e inventario, el 66.7 % utiliza Excel, mientras que el 33.3 % utiliza mecanismos como Kardex y registros de movimientos de almacén. Asimismo, el 33.3 % utiliza WhatsApp para comunicar incidencias relacionadas con el personal.
+El 66.7 % de los participantes se encuentra casado y tiene responsabilidades familiares, mientras que el 33.3 % es soltero y no presenta personas económicamente dependientes.
 
-Ninguno de los participantes indicó utilizar actualmente una plataforma digital especializada que centralice la asistencia, inventario, avance y reportes de obra, representando un 0 % del segmento.
+En relación con la experiencia profesional, el 66.7 % cuenta con más de veinte años de experiencia en el sector construcción, mientras que el 33.3 % cuenta con aproximadamente siete años de experiencia. En todos los casos, equivalente al 100 %, la trayectoria está directamente relacionada con supervisión, construcción, edificaciones, remodelaciones o control técnico de obras.
 
-*Cuadro estadístico de características objetivas del segmento Supervisores de obra.*
+Respecto al uso de tecnología, el 100 % utiliza tanto smartphone como laptop durante sus actividades profesionales. El 66.7 % manifiesta una preferencia principal por la laptop para revisar documentación o preparar reportes, mientras que el 33.3 % destaca el smartphone como dispositivo preferido para las actividades realizadas directamente en campo.
+
+El 100 % utiliza WhatsApp como canal de comunicación laboral y el 100 % utiliza correo electrónico o herramientas equivalentes para compartir información y documentación. Asimismo, el 100 % utiliza Google Chrome como navegador habitual.
+
+Los distritos de residencia serán incorporados al análisis estadístico una vez que los tres participantes completen esta información durante las entrevistas. Este dato no se considera todavía dentro de los porcentajes para evitar incorporar información que no haya sido registrada.
+
+Figura X  
+*Características objetivas predominantes en supervisores de obra*
+
+<!-- DATOS PARA LA GRÁFICA:
+
+Rol de supervisor/a de obra: 100 %
+Uso de laptop: 100 %
+Uso de smartphone: 100 %
+Uso de WhatsApp: 100 %
+Uso de correo electrónico: 100 %
+Uso de Google Chrome: 100 %
+55 años o más: 66.7 %
+Género femenino: 66.7 %
+Casados/as: 66.7 %
+Con responsabilidades familiares: 66.7 %
+Más de 20 años de experiencia: 66.7 %
+Preferencia principal por laptop: 66.7 %
+
+-->
 
 <p align="center">
   <img src="assets/chapter-2/analysis/supervisores-caracteristicas-objetivas.png"
-       alt="Características objetivas de supervisores de obra"
+       alt="Características objetivas predominantes en supervisores de obra"
        width="900">
 </p>
 
 *Nota.* Elaboración propia a partir de las entrevistas realizadas.
 
-Las características correspondientes a distrito de residencia, estado civil, responsabilidades familiares, dispositivo principal y navegador habitual deberán incorporarse cuando estos datos sean obtenidos mediante las nuevas entrevistas.
+Los resultados objetivos permiten identificar un segmento profesional con experiencia significativa en el sector, acostumbrado a combinar herramientas tradicionales de gestión con dispositivos y canales digitales de uso general. La laptop y el smartphone forman parte de las herramientas habituales de los tres participantes, aunque la elección del dispositivo depende del contexto de trabajo: la laptop se utiliza principalmente para documentación y reportes, mientras que el smartphone facilita la comunicación y el trabajo en campo.
 
-##### Características subjetivas
+---
 
-Los principales patrones subjetivos identificados se encuentran relacionados con las dificultades experimentadas durante la gestión diaria de una obra, sus objetivos y las expectativas frente al uso de herramientas digitales.
+##### Características subjetivas predominantes
 
-Los problemas relacionados con errores, desactualización o dificultades en el control del inventario aparecen en el 100 % de las entrevistas.
+Las respuestas también muestran patrones comunes relacionados con la forma de trabajar, las habilidades, objetivos, frustraciones y expectativas de los supervisores.
 
-La ausencia o disponibilidad insuficiente de trabajadores fue mencionada por el 66.7 % de los participantes. De igual manera, el 66.7 % señaló problemas relacionados con retrasos en la disponibilidad o entrega de materiales.
+El 100 % considera fundamental disponer de información actualizada sobre el estado de la obra. Los tres participantes mencionaron problemas asociados con información desactualizada, inconsistencias en registros o dificultades para conocer oportunamente el estado del inventario, personal o avance.
 
-La coordinación entre los distintos responsables de la obra es considerada importante por el 100 % de los entrevistados. Sin embargo, las dificultades explícitas relacionadas con la comunicación entre campo y administración fueron reportadas por el 33.3 %.
+El 100 % manifestó interés en centralizar información relacionada con asistencia, inventario, recursos, avance y reportes. La fragmentación entre registros físicos, hojas de cálculo, comunicaciones y documentos constituye una dificultad común dentro del segmento.
 
-El 100 % manifestó interés en disponer de una herramienta digital que permita centralizar información relacionada con asistencia, inventario y reportes. Asimismo, el 66.7 % manifestó explícitamente la necesidad de disponer de información actualizada o en tiempo real.
+Asimismo, el 100 % considera importante que una herramienta digital sea sencilla y confiable. Los participantes señalaron que una solución demasiado compleja, lenta o difícil de utilizar podría convertirse en una barrera de adopción.
 
-El 66.7 % expresó preocupación por el correcto registro de los datos y el uso adecuado de una eventual plataforma por parte del personal. Por otro lado, el 33.3 % señaló específicamente que la facilidad de uso y una baja necesidad de capacitación serían factores importantes para adoptar una solución digital.
+La coordinación y comunicación entre personas y áreas constituye otra característica representativa. El 100 % reconoce la importancia de mantener una comunicación efectiva entre campo, administración, residentes, responsables técnicos y almacén.
 
-Finalmente, el 33.3 % manifestó interés explícito en ampliar el control hacia otros recursos utilizados en la obra, como maquinaria y combustible.
+En relación con las habilidades, el 100 % menciona la comunicación o coordinación como una competencia relevante. El 66.7 % destaca explícitamente habilidades relacionadas con organización y control, y el 66.7 % menciona capacidades vinculadas con resolución de problemas o prevención de incidencias.
 
-*Cuadro estadístico de características subjetivas del segmento Supervisores de obra.*
+Respecto a la personalidad, los tres perfiles presentan una orientación hacia el control y resolución de situaciones operativas. El 100 % evidencia una forma de trabajo orientada a comprobar información, prevenir problemas o reaccionar ante situaciones que puedan afectar el proyecto.
+
+En cuanto a influencias profesionales, SENCICO es mencionado por el 100 % de los participantes como fuente o referente técnico. CAPECO aparece en el 66.7 % de los casos y herramientas o productos asociados con Microsoft se encuentran presentes en el 100 % de los perfiles tecnológicos. Autodesk aparece como herramienta o referencia tecnológica en el 66.7 %.
+
+El 100 % tiene como objetivo mantener control sobre la ejecución de la obra y evitar que problemas relacionados con personal, materiales o información interrumpan el desarrollo de las actividades.
+
+Finalmente, el 100 % presenta frustraciones relacionadas con información que no se encuentra actualizada oportunamente, mientras que el 66.7 % menciona directamente retrasos o problemas asociados con materiales y el 66.7 % evidencia preocupación por la coordinación entre distintas áreas.
+
+Figura X  
+*Características subjetivas predominantes en supervisores de obra*
+
+<!-- DATOS PARA LA GRÁFICA:
+
+Valora información actualizada: 100 %
+Busca centralización de la información: 100 %
+Prioriza comunicación y coordinación: 100 %
+Prefiere herramientas simples y confiables: 100 %
+Orientación al control y resolución de problemas: 100 %
+Información desactualizada como frustración: 100 %
+SENCICO como referente: 100 %
+Uso/influencia de herramientas Microsoft: 100 %
+Organización y control como habilidades relevantes: 66.7 %
+Resolución o prevención de problemas: 66.7 %
+CAPECO como referente: 66.7 %
+Autodesk como herramienta o referente: 66.7 %
+Retrasos/problemas de materiales: 66.7 %
+
+-->
 
 <p align="center">
   <img src="assets/chapter-2/analysis/supervisores-caracteristicas-subjetivas.png"
-       alt="Características subjetivas de supervisores de obra"
+       alt="Características subjetivas predominantes en supervisores de obra"
        width="900">
 </p>
 
 *Nota.* Elaboración propia a partir de las entrevistas realizadas.
 
-Los resultados muestran que el segmento de supervisores de obra se caracteriza principalmente por la necesidad de mantener control sobre trabajadores, materiales y avances del proyecto. La dependencia de mecanismos manuales y herramientas independientes dificulta mantener la información actualizada y centralizada.
+En conjunto, el segmento de supervisores se caracteriza por una orientación hacia el control operativo, organización, disponibilidad de información y coordinación de recursos. Los participantes necesitan mantener información actualizada sobre personal, materiales y avance, y muestran una percepción favorable hacia herramientas digitales siempre que estas simplifiquen el trabajo y no añadan complejidad a las actividades realizadas en campo.
 
-Las características correspondientes a personalidad, habilidades y marcas o referentes de influencia deberán incorporarse al análisis cuando sean obtenidas mediante las preguntas complementarias de las nuevas entrevistas.
+Estas características deberán reflejarse posteriormente en el User Persona correspondiente al segmento, especialmente en sus objetivos, habilidades, comportamiento tecnológico, necesidades y frustraciones.
+
+---
+
+#### Segmento objetivo #2: Contratantes de empresas privadas
+
+##### Características objetivas predominantes
+
+Los contratantes entrevistados desempeñan funciones administrativas o gerenciales desde las cuales participan directamente en la selección de constructoras y en el seguimiento de proyectos.
+
+Respecto al género, el 66.7 % se identifica con el género femenino y el 33.3 % con el género masculino.
+
+En relación con la edad, el 66.7 % tiene menos de 30 años, mientras que el 33.3 % tiene 35 años. Esto representa un segmento predominantemente adulto joven que combina responsabilidades administrativas con seguimiento de proyectos de construcción.
+
+El 66.7 % tiene responsabilidades familiares, mientras que el 33.3 % no presenta personas económicamente dependientes. Respecto al estado civil, los tres participantes presentan condiciones distintas: el 33.3 % es soltero, el 33.3 % casado y el 33.3 % conviviente, por lo que no existe una situación civil predominante.
+
+El 100 % desarrolla funciones administrativas, gerenciales o de toma de decisiones dentro de una empresa. Asimismo, el 100 % cuenta con experiencia previa contratando o realizando seguimiento a proyectos de construcción, con una experiencia comprendida aproximadamente entre cuatro y ocho años.
+
+Los tres participantes residen en Lima Metropolitana, equivalente al 100 % del segmento: Cercado de Lima, San Martín de Porres y San Juan de Miraflores.
+
+En cuanto a tecnología, el 100 % utiliza laptop y smartphone. El 100 % utiliza la laptop para revisar documentos o realizar actividades profesionales relacionadas con el seguimiento de sus proyectos, mientras que el smartphone se utiliza principalmente para comunicaciones rápidas.
+
+El 100 % utiliza WhatsApp y correo electrónico como canales de comunicación relacionados con los proyectos. Respecto al navegador, el 66.7 % utiliza Google Chrome y el 33.3 % utiliza Microsoft Edge.
+
+Figura X  
+*Características objetivas predominantes en contratantes de empresas privadas*
+
+<!-- DATOS PARA LA GRÁFICA:
+
+Residencia en Lima Metropolitana: 100 %
+Funciones administrativas o gerenciales: 100 %
+Experiencia previa contratando proyectos: 100 %
+Uso de laptop: 100 %
+Uso de smartphone: 100 %
+Uso de WhatsApp: 100 %
+Uso de correo electrónico: 100 %
+Laptop para revisión documental: 100 %
+Género femenino: 66.7 %
+Menores de 30 años: 66.7 %
+Con responsabilidades familiares: 66.7 %
+Google Chrome como navegador: 66.7 %
+
+-->
+
+<p align="center">
+  <img src="assets/chapter-2/analysis/contratantes-caracteristicas-objetivas.png"
+       alt="Características objetivas predominantes en contratantes de empresas privadas"
+       width="900">
+</p>
+
+*Nota.* Elaboración propia a partir de las entrevistas realizadas.
+
+Los datos objetivos permiten identificar un segmento compuesto por personas con responsabilidades administrativas y capacidad de decisión, que utilizan habitualmente herramientas digitales convencionales para revisar documentación y comunicarse con las constructoras. Todos los participantes poseen experiencia previa con proyectos de construcción, lo que les permite evaluar aspectos como cumplimiento de plazos, presupuesto, calidad y transparencia.
+
+---
+
+##### Características subjetivas predominantes
+
+Las entrevistas muestran una coincidencia significativa respecto a la importancia de disponer de información clara, actualizada y verificable durante la ejecución de los proyectos.
+
+El 100 % considera la transparencia como una característica fundamental al trabajar con una empresa constructora. Los tres participantes relacionan una mayor transparencia con una mayor confianza y capacidad para tomar decisiones.
+
+El 100 % manifiesta la necesidad de acceder a información actualizada sobre el avance de la obra. Asimismo, los tres participantes consideran importante conocer información relacionada con materiales, personal, incidentes o situaciones que puedan afectar el desarrollo del proyecto.
+
+La comunicación proactiva constituye otro patrón común. El 100 % expresa frustración frente a problemas comunicados tardíamente o información incompleta, y considera importante conocer los riesgos antes de que estos produzcan consecuencias importantes.
+
+Respecto a la forma de tomar decisiones, el 100 % presenta un comportamiento orientado a la reducción de riesgos. Los participantes revisan referencias, antecedentes, costos, cumplimiento o evidencia antes de elegir o continuar trabajando con una empresa constructora.
+
+El 100 % considera que una herramienta digital de seguimiento podría mejorar su experiencia, especialmente si proporciona trazabilidad, evidencia y acceso directo a la información.
+
+En relación con las habilidades, la negociación aparece en el 100 % de los perfiles, mientras que las capacidades relacionadas con organización, planificación o control financiero están presentes en el 100 % de los participantes.
+
+Las recomendaciones, referencias o antecedentes de terceros constituyen una influencia relevante en el 100 % de los casos. Los participantes indicaron que consideran referencias de clientes, otros empresarios, equipos técnicos, asesores o experiencias anteriores antes de tomar decisiones.
+
+En cuanto a los factores de confianza, el 100 % valora que la información presentada incluya evidencia o mecanismos que permitan comprobar su procedencia. Los registros actualizados, fotografías, responsables identificados, historial de cambios o documentación constituyen elementos importantes para el segmento.
+
+El cumplimiento de plazos constituye un objetivo o criterio de decisión para el 100 % de los participantes. Asimismo, el 100 % busca reducir la incertidumbre y evitar consecuencias económicas ocasionadas por retrasos, falta de planificación o comunicación tardía.
+
+Como principal frustración, el 100 % menciona situaciones relacionadas con información incompleta, poco clara o comunicada después de que el problema ya se ha producido.
+
+Figura X  
+*Características subjetivas predominantes en contratantes de empresas privadas*
+
+<!-- DATOS PARA LA GRÁFICA:
+
+Valora la transparencia: 100 %
+Necesita información actualizada: 100 %
+Busca comunicación proactiva: 100 %
+Orientación a reducción de riesgos: 100 %
+Valoración positiva del seguimiento digital: 100 %
+Negociación como habilidad relevante: 100 %
+Organización/planificación/control financiero: 100 %
+Referencias externas influyen en decisiones: 100 %
+Valora evidencia y trazabilidad: 100 %
+Cumplimiento de plazos como prioridad: 100 %
+Busca reducir incertidumbre: 100 %
+Información tardía o incompleta como frustración: 100 %
+
+-->
+
+<p align="center">
+  <img src="assets/chapter-2/analysis/contratantes-caracteristicas-subjetivas.png"
+       alt="Características subjetivas predominantes en contratantes de empresas privadas"
+       width="900">
+</p>
+
+*Nota.* Elaboración propia a partir de las entrevistas realizadas.
+
+El segmento de contratantes se caracteriza principalmente por una necesidad de transparencia, visibilidad, reducción de riesgos y acceso oportuno a información verificable. Los participantes valoran positivamente la tecnología cuando esta les permite conocer el estado real de una obra sin depender exclusivamente de reportes enviados manualmente por la constructora.
+
+Estas características deberán reflejarse posteriormente en el User Persona correspondiente al segmento, particularmente en su comportamiento orientado al análisis de riesgos, sus necesidades de información, sus factores de confianza, sus canales digitales y sus principales frustraciones.
+
+---
+
+#### Síntesis del análisis
+
+Los resultados permiten observar diferencias claras entre los dos segmentos objetivo.
+
+Los supervisores de obra presentan necesidades principalmente relacionadas con el control operativo y la actualización de información. El 100 % busca disponer de información actualizada, el 100 % considera necesaria una mejor centralización de datos y el 100 % destaca la importancia de la coordinación entre los diferentes responsables del proyecto.
+
+En contraste, los contratantes de empresas privadas concentran sus necesidades en la transparencia, visibilidad y reducción de incertidumbre. El 100 % considera importante contar con información actualizada, el 100 % valora la transparencia y el 100 % presenta preocupación por recibir información o alertas demasiado tarde.
+
+A nivel tecnológico, ambos segmentos utilizan dispositivos y herramientas digitales de uso cotidiano, pero con finalidades distintas. Los supervisores emplean principalmente estas herramientas para registrar, consolidar y comunicar información operativa, mientras que los contratantes las utilizan para recibir documentación, revisar el estado de sus proyectos y comunicarse con la constructora.
+
+En consecuencia, el arquetipo correspondiente al supervisor de obra deberá reflejar principalmente necesidades de eficiencia operativa, control, coordinación y reducción de registros fragmentados. Por otro lado, el arquetipo correspondiente al contratante de empresa privada deberá reflejar necesidades de transparencia, seguimiento, evidencia, confianza y reducción de riesgos.
 
 ---
 
@@ -1485,6 +1663,66 @@ Las características correspondientes a personalidad, habilidades y marcas o ref
 # Capítulo III: Requirements Specification
 
 ## 3.1. To-Be Scenario Mapping
+
+<ins>**To-Be Scenario Mapping del segmento #1: Supervisores de obra**</ins>  
+
+**Figura 36**   
+*To-Be Scenario Mapping del segmento #1*
+<p align="center">
+  <img src="assets/To-be/OS_To-be_S1.jpg" alt="PB" width="1000">
+</p>
+
+
+**Figura 37**   
+*Áreas positivas del To-Be Scenario Mapping para segmento #1*
+<p align="center">
+  <img src="assets/To-be/OS_To-be_S1_AP.jpg" alt="PB" width="1000">
+</p>
+
+
+**Figura 38**   
+*Áreas negativas del To-Be Scenario Mapping para segmento #1*
+<p align="center">
+  <img src="assets/To-be/OS_To-be_S1_AN.jpg" alt="PB" width="1000">
+</p>
+
+
+**Figura 39**   
+*Blank areas del To-Be Scenario Mapping para segmento #1*
+<p align="center">
+  <img src="assets/To-be/OS_To-be_S1_BA.jpg" alt="PB" width="1000">
+</p>
+  
+
+<ins>**To-Be Scenario Mapping para Segmento #2: Contratantes de Empresas Privadas**</ins>
+
+**Figura 40**   
+*To-Be Scenario Mapping para segmento #2*  
+<p align="center">
+  <img src="assets/To-be/OS_To-be_S2.jpg" alt="PB" width="1000">
+</p>
+
+
+**Figura 41**   
+*Áreas positivas del To-Be Scenario Mapping para segmento #2*
+<p align="center">
+  <img src="assets/To-be/OS_To-be_S2_AP.jpg" alt="PB" width="1000">
+</p>
+  
+
+**Figura 42**   
+*Áreas negativas del To-Be Scenario Mapping para segmento #2*
+<p align="center">
+  <img src="assets/To-be/OS_To-be_S2_AN.jpg" alt="PB" width="1000">
+</p>
+ 
+
+**Figura 43**   
+*Blank areas del To-Be Scenario Mapping para segmento #2*
+<p align="center">
+  <img src="assets/To-be/OS_To-be_S2_BA.jpg" alt="PB" width="1000">
+</p>
+
 
 ## 3.2. User Stories
 
