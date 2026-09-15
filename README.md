@@ -462,8 +462,152 @@ Aspectos psicográficos:
 ## 2.1. Competidores
 
 ### 2.1.1. Análisis competitivo
+Para poder conocer y analizar mejor a nuestros posibles competidores, realizamos el siguiente Landscape:
+
+<table style="background-color:transparent; border-collapse:collapse; width:100%; table-layout:fixed; font-family:Arial,sans-serif; font-size:12px; line-height:16px; color:inherit; border:1px solid currentColor;">
+  <colgroup>
+    <col style="width:12%;">
+    <col style="width:10%;">
+    <col style="width:10%;">
+    <col style="width:17%;">
+    <col style="width:17%;">
+    <col style="width:17%;">
+    <col style="width:17%;">
+  </colgroup>
+
+  <tr style="background-color:transparent; ">
+    <th colspan="7" style="background-color:transparent; color:inherit; border:1px solid currentColor; padding:0 7px; text-align:left; height:17px;">
+      Competitive Analysis Landscape
+    </th>
+  </tr>
+  <tr style="background-color:transparent; height:49px;">
+    <td colspan="2" style="background-color:transparent; color:inherit; border:1px solid currentColor; padding:0 7px; vertical-align:middle; text-align:center;">
+      ¿Por qué llevar a cabo este análisis?
+    </td>
+    <td colspan="5" style="background-color:transparent; color:inherit; border:1px solid currentColor; padding:0 7px; vertical-align:middle; text-align:justify;">Determinar las ventajas competitivas de ArquiTech frente a otras plataformas orientadas a la gestión de proyectos de construcción, con el objetivo de identificar oportunidades de diferenciación en la gestión de personal, materiales, avances y reportes. Este análisis permitirá reconocer las fortalezas y debilidades de nuestra propuesta y de los principales competidores, facilitando la definición de estrategias dirigidas a supervisores de obra y contratantes de empresas privadas.</td>
+  </tr>
+
+  <tr style="background-color:transparent; height:50px;">
+    <td colspan="3" style="background-color:transparent; color:inherit; border:1px solid currentColor; padding:0 7px; vertical-align:middle;">
+      &nbsp;
+    </td>
+    <td style="background-color:transparent; color:inherit; border:1px solid currentColor; padding:0 7px; vertical-align:middle; text-align:center;">ArquiTech<br><img src="assets/chapter-2/arquitech-logo.png" alt="Logo de ArquiTech" width="70" style="display:block; width:70px; max-width:100%; height:auto; margin:6px auto;"></td>
+    <td style="background-color:transparent; color:inherit; border:1px solid currentColor; padding:0 7px; vertical-align:middle; text-align:center;">Procore<br><img src="assets/chapter-2/procore-logo.png" alt="Logo de Procore" width="70" style="display:block; width:70px; max-width:100%; height:auto; margin:6px auto;"></td>
+    <td style="background-color:transparent; color:inherit; border:1px solid currentColor; padding:0 7px; vertical-align:middle; text-align:center;">Buildertrend<br><img src="assets/chapter-2/buildertrend-logo.png" alt="Logo de Buildertrend" width="70" style="display:block; width:70px; max-width:100%; height:auto; margin:6px auto;"></td>
+    <td style="background-color:transparent; color:inherit; border:1px solid currentColor; padding:0 7px; vertical-align:middle; text-align:center;">Buildwise<br><img src="assets/chapter-2/buildwise-logo.png" alt="Logo de Buildwise" width="70" style="display:block; width:70px; max-width:100%; height:auto; margin:6px auto;"></td>
+  </tr>
+
+  <tr style="background-color:transparent; height:65px;">
+    <td rowspan="2" style="background-color:transparent; color:inherit; border:1px solid currentColor; text-align:center; vertical-align:middle;">
+      <span>Perfil</span>
+    </td>
+    <td colspan="2" style="background-color:transparent; color:inherit; border:1px solid currentColor; padding:0 7px; vertical-align:middle; text-align:center;">Overview</td>
+    <td style="background-color:transparent; color:inherit; border:1px solid currentColor; padding:0 7px; vertical-align:middle; text-align:justify;">ArquiTech es una plataforma digital orientada a la gestión de proyectos de construcción. Permite centralizar información relacionada con asistencia del personal, inventario de materiales, avances de obra y reportes, facilitando la coordinación entre supervisores, áreas administrativas y contratantes.</td>
+    <td style="background-color:transparent; color:inherit; border:1px solid currentColor; padding:0 7px; vertical-align:middle; text-align:justify;">Procore es una plataforma integral para la gestión de proyectos de construcción que permite administrar procesos relacionados con proyectos, documentos, costos, recursos, calidad y seguridad.</td>
+    <td style="background-color:transparent; color:inherit; border:1px solid currentColor; padding:0 7px; vertical-align:middle; text-align:justify;">Buildertrend es una plataforma de gestión de construcción orientada principalmente a constructores de viviendas, remodeladores y contratistas. Integra herramientas relacionadas con planificación, presupuestos, clientes, pagos y seguimiento de proyectos.</td>
+    <td style="background-color:transparent; color:inherit; border:1px solid currentColor; padding:0 7px; vertical-align:middle; text-align:justify;">Buildwise es una plataforma orientada a la gestión de proyectos de construcción que facilita el seguimiento de presupuestos, costos, gastos, facturación y cambios producidos durante la ejecución de una obra.</td>
+  </tr>
+  <tr style="background-color:transparent; height:82px;">
+    <td colspan="2" style="background-color:transparent; color:inherit; border:1px solid currentColor; padding:0 7px; vertical-align:middle; text-align:center;">
+      Ventaja competitiva<br>¿Qué valor ofrece a los clientes?
+    </td>
+    <td style="background-color:transparent; color:inherit; border:1px solid currentColor; padding:0 7px; vertical-align:middle; text-align:justify;">Centraliza las principales actividades operativas de una obra en una solución sencilla y accesible. Busca reducir el uso de registros físicos y herramientas dispersas, facilitando la gestión cotidiana de pequeñas y medianas empresas constructoras.</td>
+    <td style="background-color:transparent; color:inherit; border:1px solid currentColor; padding:0 7px; vertical-align:middle; text-align:justify;">Plataforma robusta y escalable que integra múltiples procesos asociados a la construcción y permite gestionar proyectos de diferente complejidad desde una solución centralizada.</td>
+    <td style="background-color:transparent; color:inherit; border:1px solid currentColor; padding:0 7px; vertical-align:middle; text-align:justify;">Integra gestión de proyectos, clientes, presupuestos y operaciones dentro de una misma plataforma, con un enfoque especializado en construcción residencial y remodelaciones.</td>
+    <td style="background-color:transparent; color:inherit; border:1px solid currentColor; padding:0 7px; vertical-align:middle; text-align:justify;">Facilita el control financiero y administrativo de las obras mediante herramientas para seguimiento de costos, presupuestos, gastos y órdenes de cambio.</td>
+  </tr>
+
+  <tr style="background-color:transparent; height:66px;">
+    <td rowspan="2" style="background-color:transparent; color:inherit; border:1px solid currentColor; text-align:center; vertical-align:middle;">
+      <span>Perfil de Marketing</span>
+    </td>
+    <td colspan="2" style="background-color:transparent; color:inherit; border:1px solid currentColor; padding:0 7px; vertical-align:middle; text-align:center;">Mercado objetivo</td>
+    <td style="background-color:transparent; color:inherit; border:1px solid currentColor; padding:0 7px; vertical-align:middle; text-align:justify;">Supervisores de obra y contratantes de empresas privadas, principalmente vinculados con pequeñas y medianas empresas constructoras que necesitan mejorar el control y seguimiento de sus proyectos.</td>
+    <td style="background-color:transparent; color:inherit; border:1px solid currentColor; padding:0 7px; vertical-align:middle; text-align:justify;">Empresas constructoras, contratistas generales, gerentes de proyectos, desarrolladores inmobiliarios y organizaciones que gestionan proyectos de construcción.</td>
+    <td style="background-color:transparent; color:inherit; border:1px solid currentColor; padding:0 7px; vertical-align:middle; text-align:justify;">Constructores de viviendas, remodeladores, contratistas especializados y pequeñas y medianas empresas dedicadas principalmente a construcción residencial.</td>
+    <td style="background-color:transparent; color:inherit; border:1px solid currentColor; padding:0 7px; vertical-align:middle; text-align:justify;">Constructores, remodeladores y empresas que requieren herramientas digitales para gestionar presupuestos, costos y ejecución de proyectos.</td>
+  </tr>
+  <tr style="background-color:transparent; height:66px;">
+    <td colspan="2" style="background-color:transparent; color:inherit; border:1px solid currentColor; padding:0 7px; vertical-align:middle; text-align:center;">Estrategias de marketing</td>
+    <td style="background-color:transparent; color:inherit; border:1px solid currentColor; padding:0 7px; vertical-align:middle; text-align:justify;">Pruebas gratuitas, precios accesibles, demostraciones de la plataforma, contenido digital relacionado con la gestión eficiente de obras, presencia en redes sociales y atención personalizada a potenciales clientes.</td>
+    <td style="background-color:transparent; color:inherit; border:1px solid currentColor; padding:0 7px; vertical-align:middle; text-align:justify;">Marketing de contenidos, demostraciones empresariales, casos de éxito, participación en eventos del sector construcción y alianzas estratégicas con organizaciones relacionadas con la industria.</td>
+    <td style="background-color:transparent; color:inherit; border:1px solid currentColor; padding:0 7px; vertical-align:middle; text-align:justify;">Marketing digital, contenido educativo, recursos para empresas constructoras, demostraciones del producto, posicionamiento web y presencia en redes sociales.</td>
+    <td style="background-color:transparent; color:inherit; border:1px solid currentColor; padding:0 7px; vertical-align:middle; text-align:justify;">Marketing digital dirigido a constructores y remodeladores, demostraciones de funcionalidades y comunicación enfocada en la simplificación del control financiero de los proyectos.</td>
+  </tr>
+
+  <tr style="background-color:transparent; height:66px;">
+    <td rowspan="3" style="background-color:transparent; color:inherit; border:1px solid currentColor; text-align:center; vertical-align:middle;">
+      <span>Perfil de Producto</span>
+    </td>
+    <td colspan="2" style="background-color:transparent; color:inherit; border:1px solid currentColor; padding:0 7px; vertical-align:middle; text-align:center;">Productos &amp; Servicios</td>
+    <td style="background-color:transparent; color:inherit; border:1px solid currentColor; padding:0 7px; vertical-align:middle; text-align:justify;">Gestión de proyectos de construcción, registro de asistencia, gestión de personal, control de inventario y materiales, seguimiento del avance de obra, generación de reportes y alertas relacionadas con trabajadores o disponibilidad de materiales.</td>
+    <td style="background-color:transparent; color:inherit; border:1px solid currentColor; padding:0 7px; vertical-align:middle; text-align:justify;">Gestión de proyectos, administración financiera, documentos, planificación, calidad, seguridad, recursos y herramientas colaborativas para los participantes de una obra.</td>
+    <td style="background-color:transparent; color:inherit; border:1px solid currentColor; padding:0 7px; vertical-align:middle; text-align:justify;">Planificación de proyectos, presupuestos, gestión de clientes, facturación, pagos, órdenes de cambio, comunicación con clientes y generación de informes.</td>
+    <td style="background-color:transparent; color:inherit; border:1px solid currentColor; padding:0 7px; vertical-align:middle; text-align:justify;">Gestión de presupuestos, estimaciones, gastos, órdenes de cambio, facturación y seguimiento financiero de los proyectos de construcción.</td>
+  </tr>
+  <tr style="background-color:transparent; height:49px;">
+    <td colspan="2" style="background-color:transparent; color:inherit; border:1px solid currentColor; padding:0 7px; vertical-align:middle; text-align:center;">Precios &amp; Costos</td>
+    <td style="background-color:transparent; color:inherit; border:1px solid currentColor; padding:0 7px; vertical-align:middle; text-align:justify;">Modelo de suscripción orientado principalmente a pequeñas y medianas empresas constructoras, considerando un periodo de prueba que permita conocer las funcionalidades de la plataforma antes de contratar el servicio.</td>
+    <td style="background-color:transparent; color:inherit; border:1px solid currentColor; padding:0 7px; vertical-align:middle; text-align:justify;">Modelo de precios personalizado de acuerdo con las características de la empresa, el volumen de construcción y los productos o funcionalidades requeridos.</td>
+    <td style="background-color:transparent; color:inherit; border:1px solid currentColor; padding:0 7px; vertical-align:middle; text-align:justify;">Modelo de precios personalizado según las características, tamaño y necesidades particulares de cada empresa constructora.</td>
+    <td style="background-color:transparent; color:inherit; border:1px solid currentColor; padding:0 7px; vertical-align:middle; text-align:justify;">Modelo de costos asociado a las funcionalidades y necesidades de gestión de cada empresa o proyecto.</td>
+  </tr>
+  <tr style="background-color:transparent; height:66px;">
+    <td colspan="2" style="background-color:transparent; color:inherit; border:1px solid currentColor; padding:0 7px; vertical-align:middle; text-align:center;">
+      Canales de distribución<br>(Web y/o Móvil)
+    </td>
+    <td style="background-color:transparent; color:inherit; border:1px solid currentColor; padding:0 7px; vertical-align:middle; text-align:justify;">Landing Page, plataforma web y aplicación móvil orientada a supervisores, personal relacionado con la obra y contratantes responsables del seguimiento de los proyectos.</td>
+    <td style="background-color:transparent; color:inherit; border:1px solid currentColor; padding:0 7px; vertical-align:middle; text-align:justify;">Plataforma web, aplicación móvil, canales de venta empresarial e integraciones con plataformas y servicios externos.</td>
+    <td style="background-color:transparent; color:inherit; border:1px solid currentColor; padding:0 7px; vertical-align:middle; text-align:justify;">Plataforma web, aplicación móvil, canales digitales de venta y servicios de soporte y capacitación para sus clientes.</td>
+    <td style="background-color:transparent; color:inherit; border:1px solid currentColor; padding:0 7px; vertical-align:middle; text-align:justify;">Plataforma web para la administración y seguimiento de la información financiera y operativa de los proyectos.</td>
+  </tr>
+
+  <tr style="background-color:transparent; height:66px;">
+    <td rowspan="4" style="background-color:transparent; color:inherit; border:1px solid currentColor; text-align:center; vertical-align:middle;">
+      <span>Análisis SWOT</span>
+    </td>
+    <td colspan="2" style="background-color:transparent; color:inherit; border:1px solid currentColor; padding:0 7px; vertical-align:middle; text-align:center;">Fortalezas</td>
+    <td style="background-color:transparent; color:inherit; border:1px solid currentColor; padding:0 7px; vertical-align:middle; text-align:justify;">Enfoque en las necesidades de supervisores de obra; centralización de información; facilidad de uso; gestión de personal, materiales y avances desde una misma plataforma; orientación a pequeñas y medianas empresas constructoras.</td>
+    <td style="background-color:transparent; color:inherit; border:1px solid currentColor; padding:0 7px; vertical-align:middle; text-align:justify;">Marca consolidada; amplia variedad de funcionalidades; escalabilidad; capacidad de integración con otras soluciones y experiencia en proyectos de construcción de gran tamaño.</td>
+    <td style="background-color:transparent; color:inherit; border:1px solid currentColor; padding:0 7px; vertical-align:middle; text-align:justify;">Especialización en construcción residencial; integración de ventas y operaciones; variedad de herramientas de gestión y disponibilidad de recursos de capacitación.</td>
+    <td style="background-color:transparent; color:inherit; border:1px solid currentColor; padding:0 7px; vertical-align:middle; text-align:justify;">Enfoque en el control financiero de proyectos; administración de costos, presupuestos y gastos desde una solución centralizada.</td>
+  </tr>
+  <tr style="background-color:transparent; height:50px;">
+    <td colspan="2" style="background-color:transparent; color:inherit; border:1px solid currentColor; padding:0 7px; vertical-align:middle; text-align:center;">Debilidades</td>
+    <td style="background-color:transparent; color:inherit; border:1px solid currentColor; padding:0 7px; vertical-align:middle; text-align:justify;">Producto en etapa inicial; menor reconocimiento de marca; necesidad de incrementar la validación con usuarios reales y recursos más limitados en comparación con competidores internacionales consolidados.</td>
+    <td style="background-color:transparent; color:inherit; border:1px solid currentColor; padding:0 7px; vertical-align:middle; text-align:justify;">La amplitud de funcionalidades y complejidad de la plataforma puede resultar excesiva para pequeñas empresas que únicamente necesitan herramientas básicas para gestionar sus obras.</td>
+    <td style="background-color:transparent; color:inherit; border:1px solid currentColor; padding:0 7px; vertical-align:middle; text-align:justify;">Puede presentar una curva de aprendizaje inicial y disponer de funcionalidades que no sean necesarias para empresas constructoras pequeñas.</td>
+    <td style="background-color:transparent; color:inherit; border:1px solid currentColor; padding:0 7px; vertical-align:middle; text-align:justify;">Menor amplitud funcional en comparación con plataformas integrales y menor reconocimiento internacional frente a soluciones consolidadas.</td>
+  </tr>
+  <tr style="background-color:transparent; height:49px;">
+    <td colspan="2" style="background-color:transparent; color:inherit; border:1px solid currentColor; padding:0 7px; vertical-align:middle; text-align:center;">Oportunidades</td>
+    <td style="background-color:transparent; color:inherit; border:1px solid currentColor; padding:0 7px; vertical-align:middle; text-align:justify;">Crecimiento de la digitalización del sector construcción; necesidad de reemplazar procesos manuales; aumento del uso de dispositivos móviles y oportunidad de atender pequeñas y medianas empresas que buscan herramientas sencillas y accesibles.</td>
+    <td style="background-color:transparent; color:inherit; border:1px solid currentColor; padding:0 7px; vertical-align:middle; text-align:justify;">Expansión hacia nuevos mercados, incorporación de nuevas tecnologías y desarrollo de integraciones adicionales con servicios relacionados con la gestión de construcción.</td>
+    <td style="background-color:transparent; color:inherit; border:1px solid currentColor; padding:0 7px; vertical-align:middle; text-align:justify;">Crecimiento del mercado de construcción residencial, remodelaciones y aumento de la adopción de herramientas digitales por parte de contratistas y empresas constructoras.</td>
+    <td style="background-color:transparent; color:inherit; border:1px solid currentColor; padding:0 7px; vertical-align:middle; text-align:justify;">Incremento de la digitalización financiera y administrativa de pequeñas y medianas empresas relacionadas con el sector construcción.</td>
+  </tr>
+  <tr style="background-color:transparent; height:49px;">
+    <td colspan="2" style="background-color:transparent; color:inherit; border:1px solid currentColor; padding:0 7px; vertical-align:middle; text-align:center;">Amenazas</td>
+    <td style="background-color:transparent; color:inherit; border:1px solid currentColor; padding:0 7px; vertical-align:middle; text-align:justify;">Entrada de competidores internacionales con mayores recursos; resistencia al cambio de empresas acostumbradas a procesos manuales y aparición de nuevas soluciones digitales de gestión de construcción.</td>
+    <td style="background-color:transparent; color:inherit; border:1px solid currentColor; padding:0 7px; vertical-align:middle; text-align:justify;">Aparición de plataformas especializadas con menores costos y evolución constante de nuevas tecnologías aplicadas al sector construcción.</td>
+    <td style="background-color:transparent; color:inherit; border:1px solid currentColor; padding:0 7px; vertical-align:middle; text-align:justify;">Entrada de nuevos competidores con soluciones más económicas y funcionalidades especializadas para pequeñas empresas y contratistas.</td>
+    <td style="background-color:transparent; color:inherit; border:1px solid currentColor; padding:0 7px; vertical-align:middle; text-align:justify;">Competencia de plataformas integrales, herramientas financieras especializadas y nuevas soluciones digitales de menor costo.</td>
+  </tr>
+</table>
 
 ### 2.1.2. Estrategias y tácticas frente a competidores
+
+ArquiTech se diferenciará de competidores como Procore, Buildertrend y Buildwise mediante una propuesta enfocada en las necesidades operativas de pequeñas y medianas empresas constructoras. Frente a la amplia variedad de funcionalidades, escalabilidad y posicionamiento que poseen estas plataformas, nuestra estrategia será priorizar una solución más sencilla y especializada en actividades frecuentes de obra, como la gestión de personal, control de asistencia, inventario de materiales, seguimiento de avances y generación de reportes.
+
+Para aprovechar las debilidades identificadas en soluciones de mayor alcance, ArquiTech aplicará una estrategia de adopción simplificada. La plataforma contará con una interfaz intuitiva, recursos de capacitación breves y un periodo de prueba que permita conocer sus principales funcionalidades antes de contratar el servicio. De esta manera, se busca reducir la resistencia al cambio de empresas que todavía administran parte de sus operaciones mediante registros físicos, hojas de cálculo, documentos y aplicaciones de mensajería.
+
+Asimismo, ArquiTech aprovechará la oportunidad generada por la creciente digitalización del sector construcción mediante funcionalidades orientadas a problemas cotidianos de la obra. Entre ellas se consideran alertas relacionadas con la disponibilidad de materiales, registro y seguimiento de asistencia, actualización del progreso de los proyectos y centralización de información. Esta especialización permitirá brindar mayor utilidad a los supervisores de obra y, al mismo tiempo, ofrecer a los contratantes una mayor visibilidad sobre el estado de los proyectos.
+
+Como táctica comercial, se ofrecerán planes escalables de acuerdo con las necesidades de cada empresa, considerando factores como la cantidad de obras activas, usuarios y funcionalidades requeridas. Esto permitirá que pequeñas y medianas empresas comiencen utilizando las funciones necesarias para su operación y amplíen posteriormente el servicio conforme aumenten sus proyectos, evitando contratar desde el inicio una solución sobredimensionada.
+
+Para afrontar la amenaza representada por plataformas internacionales con mayor reconocimiento y recursos, ArquiTech buscará diferenciarse mediante una atención más cercana y adaptada al contexto de sus segmentos objetivo. Se brindará soporte mediante canales digitales, demostraciones de la plataforma y contenido educativo relacionado con la digitalización y gestión de obras. Para los supervisores de obra, la comunicación se enfocará en la centralización del personal, materiales y avances; mientras que para los contratantes de empresas privadas se destacará la transparencia, el seguimiento de los proyectos y el acceso a información actualizada.
+
+Finalmente, ArquiTech mantendrá un proceso de mejora continua basado en las necesidades identificadas en sus usuarios y en los cambios del sector construcción. Esto permitirá incorporar progresivamente nuevas funcionalidades sin perder el enfoque en facilidad de uso, accesibilidad y gestión centralizada, buscando construir una ventaja competitiva sostenible frente a soluciones de mayor complejidad.
 
 ## 2.2. Entrevistas
 
