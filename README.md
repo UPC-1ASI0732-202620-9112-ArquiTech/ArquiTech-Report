@@ -2944,13 +2944,276 @@ Las principales relaciones del modelo son de tipo uno a muchos y muchos a muchos
 
 ## 5.1. Software Configuration Management
 
+Esta sección define las herramientas, prácticas de control de versiones, convenciones de código y procesos de despliegue utilizados para mantener de forma trazable los productos de ArquiTech. La implementación técnica se reutiliza de los repositorios de `osFoundex`, mientras que el informe del curso actual se administra en un repositorio independiente de la organización del curso.
+
 ### 5.1.1. Software Development Environment Configuration
+
+#### Project Management y Requirements Management
+
+- **[Trello](https://trello.com/):** permite organizar el Product Backlog, planificar los sprints, asignar responsables y dar seguimiento al estado de las actividades y requisitos del proyecto.
+- **[GitHub](https://github.com/):** centraliza los repositorios, el historial de cambios, las revisiones mediante Pull Requests y la trazabilidad entre cambios e incidencias.
+
+#### Product UX/UI Design
+
+- **[Figma](https://www.figma.com/):** se utiliza para elaborar y compartir wireframes, mock-ups, prototipos y especificaciones visuales de la experiencia de usuario.
+
+#### Software Development
+
+- **[WebStorm](https://www.jetbrains.com/webstorm/):** entorno de desarrollo para la Landing Page y el Frontend Web Application basados en Angular y TypeScript.
+- **[IntelliJ IDEA](https://www.jetbrains.com/idea/):** entorno de desarrollo para el Backend y los Web Services implementados con Java y Spring Boot.
+- **[Angular](https://angular.dev/):** framework basado en componentes. El Frontend Web Application reutilizado emplea Angular 19.2; la Landing Page ubicada en la rama `develop` emplea Angular 20.
+- **[TypeScript](https://www.typescriptlang.org/):** lenguaje utilizado por las aplicaciones Angular. El Frontend Web Application emplea TypeScript 5.7 y la Landing Page emplea TypeScript 5.8.
+- **[Angular Material](https://material.angular.dev/):** biblioteca de componentes de interfaz utilizada por el Frontend Web Application, en su línea de versión 19.2.
+- **[npm](https://www.npmjs.com/):** gestor de dependencias y ejecutor de scripts para los proyectos Angular.
+- **[Java](https://www.oracle.com/java/technologies/downloads/#java17):** lenguaje del Backend; el proyecto de la rama `develop` está configurado para Java 17.
+- **[Spring Boot](https://spring.io/projects/spring-boot):** framework del Backend, configurado en la versión 3.5.0 con Spring Web, Spring Data JPA, Spring Validation y Spring Security.
+- **[Apache Maven](https://maven.apache.org/):** herramienta de construcción y gestión de dependencias del Backend.
+- **[MySQL](https://www.mysql.com/):** sistema gestor de base de datos relacional utilizado por el Backend mediante MySQL Connector/J y Spring Data JPA.
+
+#### Software Testing
+
+- **[Jasmine](https://jasmine.github.io/):** framework de pruebas unitarias declarado en los proyectos Angular.
+- **[Karma](https://karma-runner.github.io/):** test runner configurado por Angular para ejecutar las pruebas de Jasmine en un navegador.
+- **[Spring Boot Test](https://docs.spring.io/spring-boot/reference/testing/index.html):** dependencia de pruebas del Backend para pruebas unitarias y de integración del contexto Spring.
+
+#### Software Deployment
+
+- **[Netlify](https://www.netlify.com/):** plataforma usada en el proyecto reutilizado para publicar la Landing Page y el Frontend Web Application como sitios estáticos.
+- **[GitHub Pages](https://pages.github.com/):** alternativa documentada y activa para publicar la Landing Page desde GitHub.
+- **[Railway](https://railway.com/):** plataforma documentada para desplegar el Backend Spring Boot y su conexión con MySQL mediante configuración externa.
+
+#### Software Documentation
+
+- **[OpenAPI](https://www.openapis.org/) y [Swagger UI](https://swagger.io/tools/swagger-ui/):** documentación interactiva de la API generada por `springdoc-openapi` 2.8.8 en el Backend.
+- **[Markdown](https://www.markdownguide.org/) y [GitHub README](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes):** formato y medio utilizados para mantener el Project Report y la documentación técnica junto con su historial de versiones.
+- **[Git](https://git-scm.com/):** sistema distribuido de control de versiones utilizado durante todo el ciclo de vida del software.
 
 ### 5.1.2. Source Code Management
 
+El equipo utiliza Git para el control de versiones y GitHub para alojar y revisar los cambios. El Project Report del curso actual no debe confundirse con el informe reutilizado: el documento vigente se mantiene en la organización `UPC-1ASI0732-202620-9112-ArquiTech`, mientras que la base técnica procede de `osFoundex`.
+
+Repositorios administrados o utilizados como referencia:
+
+- **Project Report actual:** [ArquiTech-Report](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-Report)
+- **Project Report reutilizado:** [ArquiTech_ProjectReport](https://github.com/osFoundex/ArquiTech_ProjectReport)
+- **Landing Page reutilizada:** [ArquiTech_LandingPage](https://github.com/osFoundex/ArquiTech_LandingPage)
+- **Frontend Web Application reutilizado:** [ArquiTech_FrontendWebApp](https://github.com/osFoundex/ArquiTech_FrontendWebApp)
+- **Backend / Web Services reutilizado:** [Arquitech_BackendWebApp](https://github.com/osFoundex/Arquitech_BackendWebApp)
+
+#### GitFlow
+
+El flujo de trabajo se basa en GitFlow. Las ramas persistentes y temporales cumplen los siguientes propósitos:
+
+- **`main`:** contiene versiones estables y aptas para producción. Los releases se identifican con etiquetas de versión.
+- **`develop`:** integra el trabajo aprobado y representa el estado de la siguiente versión. Las ramas `main` y `develop` existen en los repositorios reutilizados de Landing Page, Frontend y Backend.
+- **`feature/*`:** nace desde `develop`, aísla una funcionalidad y vuelve a `develop` mediante Pull Request después de su revisión. Ejemplos: `feature/project-management`, `feature/material-inventory` y `feature/user-authentication`.
+- **`release/*`:** nace desde `develop` para estabilizar una versión sin incorporar nuevas funcionalidades; al finalizar se integra en `main` y `develop`. Ejemplo: `release/1.0.0`.
+- **`hotfix/*`:** nace desde `main` para corregir un defecto urgente de producción; luego se integra en `main` y `develop`. Ejemplo: `hotfix/1.0.1`.
+
+Los nombres de ramas se escriben en inglés. Los nombres descriptivos de `feature/*` usan `kebab-case`, mientras que `release/*` y `hotfix/*` usan una versión válida.
+
+#### Semantic Versioning
+
+Las versiones siguen [Semantic Versioning 2.0.0](https://semver.org/) con el formato `MAJOR.MINOR.PATCH`:
+
+- `MAJOR` cambia cuando se introducen modificaciones incompatibles.
+- `MINOR` cambia cuando se agregan funcionalidades compatibles.
+- `PATCH` cambia cuando se corrigen defectos de forma compatible.
+
+Por ejemplo, `1.1.0` identifica una nueva funcionalidad compatible y `1.0.1` una corrección compatible. En `main`, cada release estable debe etiquetarse como `v<version>`, por ejemplo, `v1.0.0`.
+
+#### Conventional Commits
+
+Los mensajes de commit se redactan en inglés y siguen [Conventional Commits](https://www.conventionalcommits.org/) con la estructura:
+
+```text
+<type>(<scope>): <description>
+```
+
+Se utilizan los tipos `feat`, `fix`, `docs`, `style`, `refactor`, `test` y `chore`. El `scope` identifica el área afectada y la descripción se escribe de forma breve, imperativa y sin punto final.
+
+```text
+feat(projects): add project creation form
+fix(inventory): correct material stock calculation
+docs(report): update software configuration management
+```
+
 ### 5.1.3. Source Code Style Guide & Conventions
 
+Las convenciones se aplican a las tecnologías presentes en los repositorios reutilizados. Toda nomenclatura de código se escribe en inglés y emplea nombres descriptivos que expresen intención.
+
+#### Convenciones generales
+
+- Usar `camelCase` para variables, funciones y métodos.
+- Usar `PascalCase` para clases, interfaces y componentes.
+- Usar `UPPER_SNAKE_CASE` para constantes.
+- Usar `kebab-case` para nombres de archivos y componentes web cuando corresponda.
+- Evitar abreviaturas ambiguas y nombres genéricos como `data`, `item` o `temp` cuando el dominio permita un nombre más preciso.
+
+#### HTML
+
+- Utilizar HTML5 y su declaración `<!DOCTYPE html>`.
+- Preferir etiquetas semánticas como `header`, `nav`, `main`, `section`, `article` y `footer`.
+- Escribir etiquetas y atributos en minúsculas, con valores entre comillas.
+- Incluir atributos de accesibilidad, como `alt` en imágenes y etiquetas asociadas a controles de formulario.
+- Evitar estilos inline cuando puedan mantenerse en los archivos de estilo del componente.
+
+#### CSS
+
+- Nombrar las clases en minúsculas y con guiones, por ejemplo, `project-card` y `material-list`.
+- Organizar los estilos por componente y mantener selectores con baja especificidad.
+- Evitar `!important`, salvo cuando exista una necesidad documentada que no pueda resolverse mediante la cascada.
+- Agrupar reglas relacionadas y reutilizar variables o estilos comunes para mantener consistencia visual.
+
+#### TypeScript
+
+- Usar `camelCase` en variables y funciones, `PascalCase` en clases e interfaces y `UPPER_SNAKE_CASE` en constantes globales.
+- Declarar tipos apropiados para propiedades, parámetros y valores de retorno; evitar `any` salvo integración justificada con datos sin tipo.
+- Preferir `const` cuando no exista reasignación y `let` cuando sea necesaria; no usar `var`.
+- Mantener funciones pequeñas, responsabilidades claras e importaciones ordenadas.
+
+#### Angular
+
+- Nombrar los archivos de componentes y servicios en `kebab-case` y con el sufijo que identifica su responsabilidad:
+
+```text
+project-list.component.ts
+project-list.component.html
+project-list.component.css
+project.service.ts
+```
+
+- Nombrar las clases de componentes en `PascalCase` con el sufijo `Component`, por ejemplo, `ProjectListComponent`.
+- Nombrar los servicios en `PascalCase` con el sufijo `Service`, por ejemplo, `ProjectService`.
+- Agrupar componentes, servicios, modelos y rutas por feature; mantener la lógica de acceso a datos fuera de los componentes.
+
+#### Java
+
+- Usar `PascalCase` para clases, records y enums; `camelCase` para variables y métodos; y `UPPER_SNAKE_CASE` para constantes.
+- Escribir los packages completamente en minúsculas y organizarlos de acuerdo con los bounded contexts y responsabilidades del proyecto.
+- Mantener una clase pública principal por archivo y usar nombres que representen conceptos del dominio.
+
+#### Spring Boot
+
+- Emplear los sufijos `Controller`, `Service`, `Repository`, `Entity`, `Resource` y `Assembler` para hacer explícita la responsabilidad de cada clase.
+- Diseñar recursos REST con sustantivos plurales y una versión de API, por ejemplo, `/api/v1/users` y `/api/v1/projects`.
+- Utilizar los verbos HTTP y códigos de estado de acuerdo con la operación ejecutada.
+- Validar las entradas y centralizar el manejo de errores; los controladores no deben contener reglas de negocio ni acceso directo a persistencia.
+- Proporcionar secretos, credenciales y configuración específica del entorno mediante variables de entorno; nunca incluirlos en el código fuente.
+
+#### Gherkin
+
+- Organizar las especificaciones con `Feature`, `Scenario`, `Given`, `When` y `Then`.
+- Redactar escenarios y pasos en inglés, con lenguaje claro y centrado en el comportamiento observable.
+- Evitar detalles de implementación y mantener cada escenario independiente y verificable.
+
+```gherkin
+Feature: Project management
+  Scenario: Contractor creates a project with valid information
+    Given the contractor is authenticated
+    When the contractor submits the project information
+    Then the project is added to the project list
+```
+
+#### Comentarios
+
+Los comentarios deben explicar decisiones, restricciones o comportamientos que no sean evidentes a partir del código. Se evitan comentarios redundantes que solo repitan una instrucción, así como código comentado que deba eliminarse o recuperarse desde el historial de Git.
+
 ### 5.1.4. Software Deployment Configuration
+
+Antes de desplegar, los cambios deben superar la revisión, la construcción y las pruebas correspondientes. Los valores sensibles no se almacenan en el repositorio ni se escriben en esta documentación.
+
+#### Landing Page
+
+La Landing Page reutilizada se encuentra en [ArquiTech_LandingPage](https://github.com/osFoundex/ArquiTech_LandingPage). Su rama `develop` contiene un proyecto Angular 20 administrado con npm; por ello, su instalación y construcción se realizan con los scripts declarados en `package.json`:
+
+```bash
+git clone https://github.com/osFoundex/ArquiTech_LandingPage.git
+cd ArquiTech_LandingPage
+git checkout develop
+npm install
+npm run build
+```
+
+El resultado optimizado se genera dentro de `dist/` según la configuración de Angular. El proyecto reutilizado documenta dos publicaciones que se mantienen accesibles:
+
+- **GitHub Pages:** [https://osfoundex.github.io/ArquiTech_LandingPage/](https://osfoundex.github.io/ArquiTech_LandingPage/)
+- **Netlify:** [https://incredible-meringue-eb1ec4.netlify.app/](https://incredible-meringue-eb1ec4.netlify.app/)
+
+Para GitHub Pages se publica el contenido construido en la fuente configurada en el repositorio. En Netlify se vincula el repositorio, se define `npm run build` como Build command y se selecciona como Publish directory la carpeta de salida generada dentro de `dist/`.
+
+#### Frontend Web Application
+
+El Frontend reutilizado se encuentra en [ArquiTech_FrontendWebApp](https://github.com/osFoundex/ArquiTech_FrontendWebApp). La rama `develop` declara Angular 19.2, TypeScript 5.7, Angular Material 19.2 y los scripts `build` y `test`:
+
+```bash
+git clone https://github.com/osFoundex/ArquiTech_FrontendWebApp.git
+cd ArquiTech_FrontendWebApp
+git checkout develop
+npm install
+npm test -- --watch=false
+npm run build
+```
+
+`npm run build` ejecuta `ng build` y utiliza por defecto la configuración de producción. De forma explícita también puede ejecutarse:
+
+```bash
+npx ng build --configuration production
+```
+
+La salida se genera en `dist/arquitech`, tal como establece `angular.json`. En Netlify se configura `npm run build` como Build command y `dist/arquitech/browser` como Publish directory para el builder de aplicación de Angular. El despliegue reutilizado se encuentra en [https://precious-bavarois-d27735.netlify.app/](https://precious-bavarois-d27735.netlify.app/).
+
+#### Backend / Web Services
+
+El Backend reutilizado se encuentra en [Arquitech_BackendWebApp](https://github.com/osFoundex/Arquitech_BackendWebApp). El módulo Maven está ubicado en `arquitech-back-end` y su rama `develop` incluye Maven Wrapper, Java 17, Spring Boot 3.5.0, MySQL Connector/J, Spring Security y `springdoc-openapi`.
+
+En Linux o macOS:
+
+```bash
+git clone https://github.com/osFoundex/Arquitech_BackendWebApp.git
+cd Arquitech_BackendWebApp/arquitech-back-end
+./mvnw test
+./mvnw clean package
+```
+
+En Windows:
+
+```powershell
+git clone https://github.com/osFoundex/Arquitech_BackendWebApp.git
+cd Arquitech_BackendWebApp\arquitech-back-end
+mvnw.cmd test
+mvnw.cmd clean package
+```
+
+El comando `test` ejecuta las pruebas configuradas con Spring Boot Test. `clean package` recompila el proyecto, ejecuta las pruebas y genera el artefacto JAR dentro de `target/`. Railway puede construir el servicio desde el repositorio o ejecutar el JAR generado, exponer el puerto asignado por la plataforma y conectarlo con una instancia MySQL.
+
+La configuración de producción se proporciona mediante variables de entorno. Como mínimo se administran nombres como los siguientes, sin registrar sus valores en Git:
+
+```text
+DATABASE_URL
+PROD_DB_USERNAME
+PROD_DB_PASSWORD
+```
+
+Estas variables se asignan a las propiedades de datasource de Spring Boot en la configuración del entorno de Railway. Cualquier clave JWT, token u otro secreto también debe mantenerse exclusivamente en el gestor de variables de la plataforma. `springdoc-openapi` genera la especificación OpenAPI y Swagger UI permite consultar y probar los endpoints una vez desplegado el servicio. Las URLs históricas de Railway y Swagger documentadas por el proyecto reutilizado no se consignan como enlaces activos porque actualmente no responden con la interfaz de la API.
+
+#### Flujo de promoción
+
+```text
+Development
+↓
+feature/*
+↓
+develop
+↓
+Testing and Verification
+↓
+release/*
+↓
+main
+↓
+Production Deployment
+```
 
 ## 5.2. Product Implementation & Deployment
 
