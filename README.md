@@ -2103,8 +2103,6 @@ En la arquitectura de información de Arquitech, se aplican distintos sistemas d
 
     - Registro de asistencia
 
-# Capítulo III: Requirements Specification
-
     - Registro de materiales utilizados
 
     - Observaciones finales
@@ -3029,13 +3027,6 @@ _Vista del Sprint Backlog en Jira - Parte 2 (Fases de Diseño, Arquitectura y De
 En esta sección se evidencian los avances correspondientes a la implementación de la Landing Page de ArquiTech. La página fue estructurada y desarrollada utilizando el framework Angular (TypeScript, HTML5 y CSS3) como línea base del producto, y ha sido configurada en su respectivo repositorio para el control de versiones y despliegue continuo.
 </div>
 
-<br>
-
-- **Enlace al Repositorio (GitHub):** https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-LandingPage
-- **Enlace de Despliegue (Producción):** https://arquitech-landing-3av90tuf7-mermermer147-6937.vercel.app
-
-<br>
-
 **Execution Evidence (Capturas de Pantalla)**
 
 <div style="text-align: justify;">
@@ -3053,19 +3044,22 @@ _Vista de la Landing Page implementada (Sección Inicio)_
 
 <br>
 
-**Development Evidence (Registro de Commits)**
+### 5.2.3. Implemented Frontend-Web Application Evidence
 
 <div style="text-align: justify;">
-A continuación, se presenta el registro de commits que evidencia la integración del código base de la Landing Page en el repositorio oficial del equipo, aplicando las convenciones de control de versiones.
+Esta sección evidencia la implementación de la Frontend Web Application de ArquiTech, el entorno principal para supervisores y contratantes. A continuación, se presenta el software en ejecución en su entorno de producción, evidenciando las vistas principales con datos dinámicos y soporte i18n.
 </div>
 
 <br>
 
-| Repository                      | Branch | Commit Id | Commit Message                                         | Commit Message Body                                                | Commited on (Date) |
-| :------------------------------ | :----- | :-------- | :----------------------------------------------------- | :----------------------------------------------------------------- | :----------------- |
-| `Foundex/ArquiTech-LandingPage` | `main` | `b8d0eee` | feat(landing-page): add initial arquitech landing page | Integración inicial del código base de la Landing Page en Angular. | 14/09/2026         |
+_Vista de la Aplicación Web en Producción (Módulo de Materiales)_
 
-### 5.2.3. Implemented Frontend-Web Application Evidence
+<p align="center">
+  <img src="assets/chapter-5/implemented/webapp-execution.png" width="850" alt="Web App Implementada">
+</p>
+<p align="center"><em>*Nota.* Elaboración propia (Software en ejecución).</em></p>
+
+<br>
 
 ### 5.2.4. Acuerdo de Servicio - SaaS
 
