@@ -24,7 +24,7 @@ Chacaliaza Minaya, Eduardo Fabian - U202324129
 
 Espino Rossi, Victor Manuel - U202411567
 
-Garcia Cerpa, Braden Raid - U202415618
+Garcia Cerpa, Braden Raid - u202415618
 
 Mendoza Moreano, Mariel Lucero - u20231a418
 
@@ -2026,6 +2026,88 @@ En la arquitectura de información de Arquitech, se aplican distintos sistemas d
 
     - Registro de asistencia
 
+<ins>**As-Is Scenario Mapping del segmento #1: Supervisores de Obra**</ins>
+
+**Figura 28**  
+*As-Is Scenario Mapping para segmento #1*  
+<p align="center">
+  <img src="assets/As-is/OS_As-is_S1.jpg" alt="PB" width="1000">
+</p>
+
+
+**Figura 29**  
+*Áreas positivas del As-Is Scenario Mapping para segmento #1*  
+<p align="center">
+  <img src="assets/As-is/OS_As-is_S1_AP.jpg" alt="PB" width="1000">
+</p>
+
+
+**Figura 30**   
+*Áreas negativas del As-Is Scenario Mapping para segmento #1*
+<p align="center">
+  <img src="assets/As-is/OS_As-is_S1_AN.jpg" alt="PB" width="1000">
+</p>
+  
+
+**Figura 31**   
+*Blank areas del As-Is Scenario Mapping para segmento \#1*
+<p align="center">
+  <img src="assets/As-is/OS_As-is_S1_BA.jpg" alt="PB" width="1000">
+</p>
+  
+
+<ins>**As-Is Scenario Mapping para Segmento \# 2: Contratantes de Empresas Privadas**</ins>  
+
+**Figura 32**   
+*As-Is Scenario Mapping para segmento #2*  
+<p align="center">
+  <img src="assets/As-is/OS_As-is_S2.jpg" alt="PB" width="1000">
+</p>
+  
+
+**Figura 33**   
+*Áreas positivas del As-Is Scenario Mapping para segmento #2*  
+<p align="center">
+  <img src="assets/As-is/OS_As-is_S2_AP.jpg" alt="PB" width="1000">
+</p>
+
+
+**Figura 34**   
+*Áreas negativas del As-Is Scenario Mapping para segmento #2*  
+<p align="center">
+  <img src="assets/As-is/OS_As-is_S2_AN.jpg" alt="PB" width="1000">
+</p>
+  
+
+**Figura 35**   
+*Blank areas del As-Is Scenario Mapping para segmento #2*  
+<p align="center">
+  <img src="assets/As-is/OS_As-is_S2_BA.jpg" alt="PB" width="1000">
+</p>
+
+
+## 2.4. Ubiquitous Language
+
+# 
+
+| Término (Inglés) | Término (Español) | Definición |
+| :---- | :---- | :---- |
+| Construction Site | Obra de construcción | Lugar físico donde se ejecuta un proyecto de construcción, gestionado por supervisores y equipos operativos. |
+| Supervisor | Supervisor | Persona responsable de coordinar y controlar las actividades diarias en la obra, incluyendo personal, materiales y cumplimiento de plazos. |
+| Contractor | Contratante | Empresa o persona que encarga una obra y espera su ejecución conforme a los estándares, plazos y regulaciones establecidos. |
+| Resource | Recurso | Elemento necesario para el desarrollo de la obra, como materiales de construcción, maquinaria o personal. |
+| Attendance | Asistencia | Registro diario de la presencia del personal obrero o técnico en la obra. |
+| Offline Mode | Modo sin conexión | Funcionalidad que permite usar la aplicación sin {acceso a internet, sincronizando los datos al reconectarse. |
+| Progress Report | Reporte de avance | Documento o visualización que resume el estado actual del proyecto, incluyendo tareas realizadas, tiempos y uso de recursos. |
+| Workforce | Mano de obra / Personal | Grupo de trabajadores (obreros y técnicos) que participan activamente en la ejecución de la obra. |
+| Material Entry | Registro de materiales | Acción de añadir nuevos materiales o equipos al inventario dentro del sistema. |
+| Stock Update	 | Actualización de stock | Modificación de las cantidades de materiales disponibles, ya sea por consumo o nueva adquisición. |
+| Construction Budget | Presupuesto de obra | Estimación financiera que define los costos proyectados del proyecto, incluyendo materiales, personal y otros gastos. |
+| Work Order | Orden de trabajo | Documento o instrucción digital que detalla tareas a realizar por el personal en obra. |
+| Company Profile | Perfil de la empresa | Información registrada sobre la empresa constructora: nombre, contacto, tipo de proyectos, etc. |
+| Onboarding | Introducción / Capacitación inicial | Proceso mediante el cual nuevos usuarios aprenden a usar la plataforma por medio de videos y tutoriales guiados. |
+
+# Capítulo III: Requirements Specification
     - Registro de materiales utilizados
 
     - Observaciones finales
