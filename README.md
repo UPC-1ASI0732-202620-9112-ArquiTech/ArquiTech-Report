@@ -302,11 +302,11 @@ En Foundex, consideramos que la digitalización de estos procesos es fundamental
 
 | Foto                                                                                                                                   | Integrante                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 | -------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <img src="assets/team/Eduardo-Chacaliaza.png" width="220" style="width:220px; min-width:220px; height:auto;" alt="Eduardo Chacaliaza"> | <div style="text-align: justify;"><strong>Chacaliaza Minaya, Eduardo Fabian - U202324129</strong><br>Estudiante de Ingeniería de Software, interesado en el desarrollo de aplicaciones y soluciones tecnológicas orientadas a resolver necesidades reales de los usuarios. Me caracterizo por tener un enfoque analítico, capacidad para adaptarme a nuevos entornos y disposición para aprender nuevas tecnologías y herramientas de desarrollo. En este proyecto, busco contribuir en el análisis, diseño y definición de soluciones que mejoren la experiencia de los usuarios.</div>                                                                                                      |
-| <img src="assets/team/Victor-Espino.png" width="220" style="width:220px; min-width:220px; height:auto;" alt="Victor Espino">           | <div style="text-align: justify;"><strong>Espino Rossi, Victor Manuel - U202411567</strong><br>Estudiante de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas, con interés en el desarrollo de aplicaciones, diseño de soluciones digitales y nuevas tecnologías. Me encuentro en constante aprendizaje y busco fortalecer mis conocimientos técnicos y habilidades de trabajo colaborativo. En este proyecto, aporto en la elaboración de artefactos de experiencia de usuario, prototipado y desarrollo de la solución.</div>                                                                                                                                         |
-| <img src="assets/team/Braden-Garcia.png" width="220" style="width:220px; min-width:220px; height:auto;" alt="Braden Garcia">           | <div style="text-align: justify;"><strong>Garcia Cerpa, Braden Raid - U202415618</strong><br>Estudiante de Ingeniería de Software con interés en el desarrollo de soluciones tecnológicas orientadas a resolver problemas reales. Me caracterizo por mantener una actitud responsable, organizada y colaborativa durante el desarrollo de proyectos. Asimismo, busco fortalecer mis conocimientos en diseño de software, experiencia de usuario y desarrollo de aplicaciones, aportando ideas que contribuyan a obtener soluciones funcionales y de calidad.</div>                                                                                                                            |
-| <img src="assets/team/Mariel-Mendoza.jpeg" width="220" style="width:220px; min-width:220px; height:auto;" alt="Mariel Mendoza">        | <div style="text-align: justify;"><strong>Mendoza Moreano, Mariel Lucero - U20231A418</strong><br>Estudiante de Ingeniería de Software con interés en el análisis de problemas, diseño de soluciones centradas en el usuario y arquitectura de software. Me caracterizo por mantener una actitud responsable, organizada y orientada al aprendizaje continuo. En este proyecto, busco aportar en la definición de las necesidades de los usuarios, el diseño de la solución y la estructuración de los principales componentes de ArquiTech.</div>                                                                                                                                            |
-| <img src="assets/team/Fabricio-Quispe.png" width="220" style="width:220px; min-width:220px; height:auto;" alt="Fabricio Quispe">       | <div style="text-align: justify;"><strong>Quispe Barzola, Fabricio Fabian - U202320442</strong><br>Estudiante de Ingeniería de Software con interés en el desarrollo de aplicaciones y soluciones tecnológicas orientadas a resolver problemas reales. Me caracterizo por tener disposición para aprender nuevas herramientas y tecnologías, así como por mantener un enfoque responsable y organizado durante el desarrollo de proyectos. Asimismo, busco fortalecer mis conocimientos en programación, diseño de software y buenas prácticas de desarrollo, contribuyendo activamente en el trabajo en equipo y en la elaboración de soluciones funcionales, eficientes y de calidad.</div> |
+| <img src="assets/chapter-1/team/Eduardo-Chacaliaza.png" width="220" style="width:220px; min-width:220px; height:auto;" alt="Eduardo Chacaliaza"> | <div style="text-align: justify;"><strong>Chacaliaza Minaya, Eduardo Fabian - U202324129</strong><br>Estudiante de Ingeniería de Software, interesado en el desarrollo de aplicaciones y soluciones tecnológicas orientadas a resolver necesidades reales de los usuarios. Me caracterizo por tener un enfoque analítico, capacidad para adaptarme a nuevos entornos y disposición para aprender nuevas tecnologías y herramientas de desarrollo. En este proyecto, busco contribuir en el análisis, diseño y definición de soluciones que mejoren la experiencia de los usuarios.</div>                                                                                                      |
+| <img src="assets/chapter-1/team/Victor-Espino.png" width="220" style="width:220px; min-width:220px; height:auto;" alt="Victor Espino">           | <div style="text-align: justify;"><strong>Espino Rossi, Victor Manuel - U202411567</strong><br>Estudiante de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas, con interés en el desarrollo de aplicaciones, diseño de soluciones digitales y nuevas tecnologías. Me encuentro en constante aprendizaje y busco fortalecer mis conocimientos técnicos y habilidades de trabajo colaborativo. En este proyecto, aporto en la elaboración de artefactos de experiencia de usuario, prototipado y desarrollo de la solución.</div>                                                                                                                                         |
+| <img src="assets/chapter-1/team/Braden-Garcia.png" width="220" style="width:220px; min-width:220px; height:auto;" alt="Braden Garcia">           | <div style="text-align: justify;"><strong>Garcia Cerpa, Braden Raid - U202415618</strong><br>Estudiante de Ingeniería de Software con interés en el desarrollo de soluciones tecnológicas orientadas a resolver problemas reales. Me caracterizo por mantener una actitud responsable, organizada y colaborativa durante el desarrollo de proyectos. Asimismo, busco fortalecer mis conocimientos en diseño de software, experiencia de usuario y desarrollo de aplicaciones, aportando ideas que contribuyan a obtener soluciones funcionales y de calidad.</div>                                                                                                                            |
+| <img src="assets/chapter-1/team/Mariel-Mendoza.jpeg" width="220" style="width:220px; min-width:220px; height:auto;" alt="Mariel Mendoza">        | <div style="text-align: justify;"><strong>Mendoza Moreano, Mariel Lucero - U20231A418</strong><br>Estudiante de Ingeniería de Software con interés en el análisis de problemas, diseño de soluciones centradas en el usuario y arquitectura de software. Me caracterizo por mantener una actitud responsable, organizada y orientada al aprendizaje continuo. En este proyecto, busco aportar en la definición de las necesidades de los usuarios, el diseño de la solución y la estructuración de los principales componentes de ArquiTech.</div>                                                                                                                                            |
+| <img src="assets/chapter-1/team/Fabricio-Quispe.png" width="220" style="width:220px; min-width:220px; height:auto;" alt="Fabricio Quispe">       | <div style="text-align: justify;"><strong>Quispe Barzola, Fabricio Fabian - U202320442</strong><br>Estudiante de Ingeniería de Software con interés en el desarrollo de aplicaciones y soluciones tecnológicas orientadas a resolver problemas reales. Me caracterizo por tener disposición para aprender nuevas herramientas y tecnologías, así como por mantener un enfoque responsable y organizado durante el desarrollo de proyectos. Asimismo, busco fortalecer mis conocimientos en programación, diseño de software y buenas prácticas de desarrollo, contribuyendo activamente en el trabajo en equipo y en la elaboración de soluciones funcionales, eficientes y de calidad.</div> |
 
 ## 1.2. Solution Profile
 
@@ -2579,7 +2579,7 @@ La información obtenida en este análisis mantiene relación directa con los re
 _User persona del segmento #1: Supervisor de Obra_
 
 <p align="center">
-  <img src="assets/User Persona/Juan Carlos Zegarra.png" alt="PB" width="1000" align="center">
+  <img src="assets/chapter-2/User Persona/Juan Carlos Zegarra.png" alt="PB" width="1000" align="center">
 </p>
 
 _Nota._ Elaboración propia.
@@ -2588,7 +2588,7 @@ _Nota._ Elaboración propia.
 _User persona del segmento #2: Contratista de Empresas privadas_
 
 <p align="center">
-  <img src="assets/User Persona/VERONICA DELGADO.png" alt="PB" width="1000">
+  <img src="assets/chapter-2/User Persona/VERONICA DELGADO.png" alt="PB" width="1000">
 </p>
 
 _Nota._ Elaboración propia.
@@ -2611,13 +2611,13 @@ _Nota._ Elaboración propia.
 
 _User Journey Mapping del segmento #1: Supervisor de Obra_
 
-<img src="assets/journey-mapping/user-journey-mapping-segmento1.png" width="800">
+<img src="assets/chapter-2/journey-mapping/user-journey-mapping-segmento1.png" width="800">
 
 _Nota._ Elaboración propia.
 
 _User Journey Mapping del segmento #2: Contratista de Empresas privadas_
 
-<img src="assets/journey-mapping/user-journey-mapping-segmento2.png" width="800">
+<img src="assets/chapter-2/journey-mapping/user-journey-mapping-segmento2.png" width="800">
 
 _Nota._ Elaboración propia.
 
@@ -2627,7 +2627,7 @@ _Nota._ Elaboración propia.
 _Empathy Mapping del segmento #1: Supervisor de Obra_
 
 <p align="center">
-  <img src="assets/ermpathy-mapping/empathy-mapping-segmento1.png" width="800">
+  <img src="assets/chapter-2/ermpathy-mapping/empathy-mapping-segmento1.png" width="800">
 </p>
 
 _Nota._ Elaboración propia.
@@ -2636,7 +2636,7 @@ _Nota._ Elaboración propia.
 _Empathy Mapping del segmento #2: Contratista de Empresas privadas_
 
 <p align="center">
-  <img src="assets/ermpathy-mapping/empathy-mapping-segmento2.png" width="800">
+  <img src="assets/chapter-2/ermpathy-mapping/empathy-mapping-segmento2.png" width="800">
 </p>
 
 _Nota._ Elaboración propia.
@@ -2649,28 +2649,28 @@ _Nota._ Elaboración propia.
 _As-Is Scenario Mapping para segmento #1_
 
 <p align="center">
-  <img src="assets/As-is/OS_As-is_S1.jpg" alt="PB" width="1000">
+  <img src="assets/chapter-2/As-is/OS_As-is_S1.jpg" alt="PB" width="1000">
 </p>
 
 **Figura 17**  
 _Áreas positivas del As-Is Scenario Mapping para segmento #1_
 
 <p align="center">
-  <img src="assets/As-is/OS_As-is_S1_AP.jpg" alt="PB" width="1000">
+  <img src="assets/chapter-2/As-is/OS_As-is_S1_AP.jpg" alt="PB" width="1000">
 </p>
 
 **Figura 18**  
 _Áreas negativas del As-Is Scenario Mapping para segmento #1_
 
 <p align="center">
-  <img src="assets/As-is/OS_As-is_S1_AN.jpg" alt="PB" width="1000">
+  <img src="assets/chapter-2/As-is/OS_As-is_S1_AN.jpg" alt="PB" width="1000">
 </p>
 
 **Figura 19**  
 _Blank areas del As-Is Scenario Mapping para segmento \#1_
 
 <p align="center">
-  <img src="assets/As-is/OS_As-is_S1_BA.jpg" alt="PB" width="1000">
+  <img src="assets/chapter-2/As-is/OS_As-is_S1_BA.jpg" alt="PB" width="1000">
 </p>
 
 <ins>**As-Is Scenario Mapping para Segmento \# 2: Contratantes de Empresas Privadas**</ins>
@@ -2679,28 +2679,28 @@ _Blank areas del As-Is Scenario Mapping para segmento \#1_
 _As-Is Scenario Mapping para segmento #2_
 
 <p align="center">
-  <img src="assets/As-is/OS_As-is_S2.jpg" alt="PB" width="1000">
+  <img src="assets/chapter-2/As-is/OS_As-is_S2.jpg" alt="PB" width="1000">
 </p>
 
 **Figura 21**  
 _Áreas positivas del As-Is Scenario Mapping para segmento #2_
 
 <p align="center">
-  <img src="assets/As-is/OS_As-is_S2_AP.jpg" alt="PB" width="1000">
+  <img src="assets/chapter-2/As-is/OS_As-is_S2_AP.jpg" alt="PB" width="1000">
 </p>
 
 **Figura 22**  
 _Áreas negativas del As-Is Scenario Mapping para segmento #2_
 
 <p align="center">
-  <img src="assets/As-is/OS_As-is_S2_AN.jpg" alt="PB" width="1000">
+  <img src="assets/chapter-2/As-is/OS_As-is_S2_AN.jpg" alt="PB" width="1000">
 </p>
 
 **Figura 23**  
 _Blank areas del As-Is Scenario Mapping para segmento #2_
 
 <p align="center">
-  <img src="assets/As-is/OS_As-is_S2_BA.jpg" alt="PB" width="1000">
+  <img src="assets/chapter-2/As-is/OS_As-is_S2_BA.jpg" alt="PB" width="1000">
 </p>
 
 ## 2.4. Ubiquitous Language
@@ -2732,21 +2732,21 @@ _Blank areas del As-Is Scenario Mapping para segmento #2_
 _To-Be Scenario Mapping del segmento #1_
 
 <p align="center">
-  <img src="assets/To-be/OS_To-be_S1.jpg" alt="PB" width="1000">
+  <img src="assets/chapter-3/To-be/OS_To-be_S1.jpg" alt="PB" width="1000">
 </p>
 
 **Figura 25**  
 _Áreas positivas del To-Be Scenario Mapping para segmento #1_
 
 <p align="center">
-  <img src="assets/To-be/OS_To-be_S1_AP.jpg" alt="PB" width="1000">
+  <img src="assets/chapter-3/To-be/OS_To-be_S1_AP.jpg" alt="PB" width="1000">
 </p>
 
 **Figura 26**  
 _Áreas negativas del To-Be Scenario Mapping para segmento #1_
 
 <p align="center">
-  <img src="assets/To-be/OS_To-be_S1_AN.jpg" alt="PB" width="1000">
+  <img src="assets/chapter-3/To-be/OS_To-be_S1_AN.jpg" alt="PB" width="1000">
 </p>
 
 **Figura 27**
@@ -3020,14 +3020,14 @@ Nuestro producto encaja al momento de iniciar la supervisión de un aspecto del 
   - La dependencia del internet en la obra para poder utilizar el aplicativo el cual se puede solucionar incluyendo un modo offline que sincronice datos al reconectarse a una red de internet.
   - El soporte técnico insuficiente para picos de demanda, en caso de un aumento repentino de usuarios se podría saturar el soporte técnico, frustrando a clientes que esperan respuestas rápidas. Este problema lo podremos solucionar creando una base de conocimientos con videos y guías para resolver dudas comunes y evitar un número masivo de consultas.
   <p align="center">
-    <img src="assets/To-be/OS_To-be_S2.jpg" alt="PB" width="1000">
+    <img src="assets/chapter-3/To-be/OS_To-be_S2.jpg" alt="PB" width="1000">
   </p>
 
 **Figura 47**  
 _Áreas positivas del To-Be Scenario Mapping para segmento #2_
 
 <p align="center">
-  <img src="assets/To-be/OS_To-be_S2_AP.jpg" alt="PB" width="1000">
+  <img src="assets/chapter-3/To-be/OS_To-be_S2_AP.jpg" alt="PB" width="1000">
 </p>
 
 <p align="justify">
@@ -3039,7 +3039,7 @@ Nuestro producto puede ser usado al inicio del día para planificar (confirmar a
 _Áreas negativas del To-Be Scenario Mapping para segmento #2_
 
 <p align="center">
-  <img src="assets/To-be/OS_To-be_S2_AN.jpg" alt="PB" width="1000">
+  <img src="assets/chapter-3/To-be/OS_To-be_S2_AN.jpg" alt="PB" width="1000">
 </p>
 
 <p align="justify">
@@ -3057,7 +3057,7 @@ Nuestro producto debe contar con una interfaz intuitiva, fácil de usar y aprend
 _User flow 1_
 
 <p align="center">
-  <img src="assets/Web Applications/userflow1.png" alt="PB" width="500"> 
+  <img src="assets/chapter-4/Web Applications/userflow1.png" alt="PB" width="500">
 	
 <br>*Nota.* Elaboración propia. 
 </p>
@@ -3069,7 +3069,7 @@ _User flow 1_
 _User flow 2_
 
 <p align="center">
-<img src="assets/Web Applications/userflow2.png" alt="PB" width="500">
+<img src="assets/chapter-4/Web Applications/userflow2.png" alt="PB" width="500">
 	
 <br>*Nota.* Elaboración propia.
 
@@ -3080,7 +3080,7 @@ _User flow 2_
 _User flow 3_
 
 <p align="center">
-<img src="assets/Web Applications/userflow3.png" alt="PB" width="500">
+<img src="assets/chapter-4/Web Applications/userflow3.png" alt="PB" width="500">
 
 <br>_Nota._ Elaboración propia.
 
@@ -3093,7 +3093,7 @@ _User flow 3_
 _User flow 4_
 
 <p align="center">
-<img src="assets/Web Applications/userflow4.png" alt="PB" width="500">
+<img src="assets/chapter-4/Web Applications/userflow4.png" alt="PB" width="500">
 
 <br>_Nota._ Elaboración propia.
 
@@ -3104,7 +3104,7 @@ _User flow 4_
 _User flow 5_
 
 <p align="center">
-<img src="assets/Web Applications/userflow5.png" alt="PB" width="500">
+<img src="assets/chapter-4/Web Applications/userflow5.png" alt="PB" width="500">
 </p>
 
 _Nota._ Elaboración propia.
@@ -3116,7 +3116,7 @@ _Nota._ Elaboración propia.
 _User flow 6_
 
 <p align="center">
-<img src="assets/Web Applications/userflow6.png" alt="PB" width="500">
+<img src="assets/chapter-4/Web Applications/userflow6.png" alt="PB" width="500">
 </p>
 
 _Nota._ Elaboración propia.
@@ -3130,7 +3130,7 @@ La interfaz de nuestro producto debe ser intuitiva y resposive con un diseño qu
 </p>
 
 <p align="center">
-  <img src="assets/To-be/OS_To-be_S2_BA.jpg" alt="PB" width="1000">
+  <img src="assets/chapter-3/To-be/OS_To-be_S2_BA.jpg" alt="PB" width="1000">
 </p>
 
 ## 3.2. User Stories
@@ -3300,7 +3300,7 @@ Se presentará el diseño conceptual para la landing page como para la aplicaci�
 _Logo_
 
 <p align="center">
-  <img src="assets/Style-Guidelines/A-logo.png" alt="PB" width="1000">
+  <img src="assets/chapter-4/Style-Guidelines/A-logo.png" alt="PB" width="1000">
 </p>
 
 - Identidad:
@@ -3343,7 +3343,7 @@ La tipografía de Arquitech cumple un importante rol en la expresión de la iden
 _Tipografía de logo y títulos_
 
 <p align="center">
-  <img src="assets/Style-Guidelines/font-demo1.png" alt="PB" width="1000">
+  <img src="assets/chapter-4/Style-Guidelines/font-demo1.png" alt="PB" width="1000">
 </p>
 
 - Tipografía de Texto Regular:  
@@ -3353,7 +3353,7 @@ _Tipografía de logo y títulos_
 _Tipografía de texto regular_
 
 <p align="center">
-  <img src="assets/Style-Guidelines/futura-font.png" alt="PB" width="1000">
+  <img src="assets/chapter-4/Style-Guidelines/futura-font.png" alt="PB" width="1000">
 </p>
 
 <ins> **Colores** </ins>  
@@ -3365,7 +3365,7 @@ _Nota_. Elaboración propia.
 _Paleta de colores de ArquiTech_
 
 <p align="center">
-  <img src="assets/Style-Guidelines/color-pallete.png" alt="PB" width="1000">
+  <img src="assets/chapter-4/Style-Guidelines/color-pallete.png" alt="PB" width="1000">
 </p>
 
 <ins>**Espaciado**</ins>
@@ -3408,19 +3408,19 @@ Monitor pequeño: 1296x1781px
 **Figura 59**
 
 <p align="center">
-  <img src="assets/Style-Guidelines/web-responsive.png" alt="PB" width="1000">
+  <img src="assets/chapter-4/Style-Guidelines/web-responsive.png" alt="PB" width="1000">
 </p>
 
 **Figura 60**
 
 <p align="center">
-  <img src="assets/Style-Guidelines/web-responsive2.png" alt="PB" width="1000">
+  <img src="assets/chapter-4/Style-Guidelines/web-responsive2.png" alt="PB" width="1000">
 </p>
 
 **Figura 61**
 
 <p align="center">
-  <img src="assets/Style-Guidelines/web-responsive3.png" alt="PB" width="1000">
+  <img src="assets/chapter-4/Style-Guidelines/web-responsive3.png" alt="PB" width="1000">
 </p>
  
 ### 4.1.3. Mobile Style Guidelines
@@ -3736,13 +3736,13 @@ Asimismo, se mantiene coherencia con la identidad visual definida para el produc
 **Desktop Web Browser**
 
 <p align="center">
-  <img src="assets/landing-page/Wireframe-Landing-Desktop.png" alt="PB" width="500">
+  <img src="assets/chapter-4/landing-page/Wireframe-Landing-Desktop.png" alt="PB" width="500">
 </p>
 
 **Mobile Web Browser**
 
 <p align="center">
-  <img src="assets/landing-page/Wireframe-Landing-Mobile.png" alt="PB" width="500">
+  <img src="assets/chapter-4/landing-page/Wireframe-Landing-Mobile.png" alt="PB" width="500">
 </p>
 
 ### 4.3.2. Landing Page Mock-up
@@ -3750,13 +3750,13 @@ Asimismo, se mantiene coherencia con la identidad visual definida para el produc
 **Desktop Web Browser**
 
 <p align="center">
-  <img src="assets/landing-page/MockUp-Landing-Desktop.png" alt="PB" width="500">
+  <img src="assets/chapter-4/landing-page/MockUp-Landing-Desktop.png" alt="PB" width="500">
 </p>
 
 **Mobile Web Browser**
 
 <p align="center">
-  <img src="assets/landing-page/MockUp-Landing-Mobile.png" alt="PB" width="500">
+  <img src="assets/chapter-4/landing-page/MockUp-Landing-Mobile.png" alt="PB" width="500">
 </p>
 
 ## 4.4. Mobile Applications UX/UI Design
@@ -4115,7 +4115,7 @@ _Prototipo de Alta Fidelidad - Vistas Principales iOS_
 **Figura 82**
 
 <p align="center">
-  <img src="assets/Web Applications/Wireframe - Login.png" alt="PB" width="500">
+  <img src="assets/chapter-4/Web Applications/Wireframe - Login.png" alt="PB" width="500">
 <br>*Nota.* Elaboración propia. 
 </p>
 <br>
@@ -4123,7 +4123,7 @@ _Prototipo de Alta Fidelidad - Vistas Principales iOS_
 **Figura 83**
 
 <p align="center">
-  <img src="assets/Web Applications/Wireframe - Projects.png" alt="PB" width="500">
+  <img src="assets/chapter-4/Web Applications/Wireframe - Projects.png" alt="PB" width="500">
 <br>*Nota.* Elaboración propia. 
 </p>
 <br>
@@ -4131,7 +4131,7 @@ _Prototipo de Alta Fidelidad - Vistas Principales iOS_
 **Figura 84**
 
 <p align="center">
-  <img src="assets/Web Applications/Wireframe - Materials.png" alt="PB" width="500">
+  <img src="assets/chapter-4/Web Applications/Wireframe - Materials.png" alt="PB" width="500">
 <br>*Nota.* Elaboración propia. 
 </p>
 <br>
@@ -4139,7 +4139,7 @@ _Prototipo de Alta Fidelidad - Vistas Principales iOS_
 **Figura 85**
 
 <p align="center">
-  <img src="assets/Web Applications/Wireframe - Workers.png" alt="PB" width="500">
+  <img src="assets/chapter-4/Web Applications/Wireframe - Workers.png" alt="PB" width="500">
 <br>*Nota.* Elaboración propia.  
 </p>
 <br>
@@ -4147,7 +4147,7 @@ _Prototipo de Alta Fidelidad - Vistas Principales iOS_
 **Figura 86**
 
 <p align="center">
-  <img src="assets/Web Applications/Wireframe - Incidents.png" alt="PB" width="500">
+  <img src="assets/chapter-4/Web Applications/Wireframe - Incidents.png" alt="PB" width="500">
 <br>*Nota.* Elaboración propia.  
 </p>
 <br>
@@ -4155,7 +4155,7 @@ _Prototipo de Alta Fidelidad - Vistas Principales iOS_
 **Figura 87**
 
 <p align="center">
-  <img src="assets/Web Applications/Wireframe - Machinery.png" alt="PB" width="500">
+  <img src="assets/chapter-4/Web Applications/Wireframe - Machinery.png" alt="PB" width="500">
 <br>*Nota.* Elaboración propia.  
 </p>
 <br>
@@ -4177,7 +4177,7 @@ Como usuario, quiero poder ver la lista de proyectos que posee mi empresa con su
 **Figura 88**
 
 <p align="center">
-  <img src="assets/Web Applications/wire1.png" alt="PB" width="500">
+  <img src="assets/chapter-4/Web Applications/wire1.png" alt="PB" width="500">
 <br>*Nota.* Elaboración propia.  
 </p>
 <br>
@@ -4202,7 +4202,7 @@ Como usuario quiero tener detallado las maquinarias que se usan por cada proyect
 **Figura 89**
 
 <p align="center">
-  <img src="assets/Web Applications/wireflow2.png" alt="PB" width="500">
+  <img src="assets/chapter-4/Web Applications/wireflow2.png" alt="PB" width="500">
 <br>*Nota.* Elaboración propia.  
 </p>
 <br>
@@ -4217,7 +4217,7 @@ Para acceder a las secciones de maquinarias e incidentes debes presionar aquello
 **Figura 90**
 
 <p align="center">
-  <img src="assets/Web Applications/Mockup - Login.png" alt="PB" width="500">
+  <img src="assets/chapter-4/Web Applications/Mockup - Login.png" alt="PB" width="500">
 	
 <br>*Nota.* Elaboración propia. 
 </p>
@@ -4226,7 +4226,7 @@ Para acceder a las secciones de maquinarias e incidentes debes presionar aquello
 **Figura 91**
 
 <p align="center">
-  <img src="assets/Web Applications/Mockup - Projects.png" alt="PB" width="500">
+  <img src="assets/chapter-4/Web Applications/Mockup - Projects.png" alt="PB" width="500">
 	
 <br>*Nota.* Elaboración propia. 
 </p>
@@ -4235,7 +4235,7 @@ Para acceder a las secciones de maquinarias e incidentes debes presionar aquello
 **Figura 92**
 
 <p align="center">
-  <img src="assets/Web Applications/Mockup - Materials.png" alt="PB" width="500">
+  <img src="assets/chapter-4/Web Applications/Mockup - Materials.png" alt="PB" width="500">
 	
 <br>*Nota.* Elaboración propia. 
 </p>
@@ -4244,7 +4244,7 @@ Para acceder a las secciones de maquinarias e incidentes debes presionar aquello
 **Figura 93**
 
 <p align="center">
-  <img src="assets/Web Applications/Mockup - Workers.png" alt="PB" width="500">
+  <img src="assets/chapter-4/Web Applications/Mockup - Workers.png" alt="PB" width="500">
 	
 <br>*Nota.* Elaboración propia. 
 </p>
@@ -4253,7 +4253,7 @@ Para acceder a las secciones de maquinarias e incidentes debes presionar aquello
 **Figura 94**
 
 <p align="center">
-  <img src="assets/Web Applications/Mockup - Incidents.png" alt="PB" width="500">
+  <img src="assets/chapter-4/Web Applications/Mockup - Incidents.png" alt="PB" width="500">
 	
 <br>*Nota.* Elaboración propia. 
 </p>
@@ -4261,7 +4261,7 @@ Para acceder a las secciones de maquinarias e incidentes debes presionar aquello
 **Figura 95**
 
 <p align="center">
-  <img src="assets/Web Applications/Mockup - Machinery.png" alt="PB" width="500">
+  <img src="assets/chapter-4/Web Applications/Mockup - Machinery.png" alt="PB" width="500">
 	
 <br>*Nota.* Elaboración propia. 
 </p>
@@ -4277,7 +4277,7 @@ Para acceder a las secciones de maquinarias e incidentes debes presionar aquello
 _User flow 1_
 
 <p align="center">
-  <img src="assets/Web Applications/userflow1.png" alt="PB" width="500"> 
+  <img src="assets/chapter-4/Web Applications/userflow1.png" alt="PB" width="500">
 	
 <br>*Nota.* Elaboración propia. 
 </p>
@@ -4289,7 +4289,7 @@ _User flow 1_
 _User flow 2_
 
 <p align="center">
-<img src="assets/Web Applications/userflow2.png" alt="PB" width="500">
+<img src="assets/chapter-4/Web Applications/userflow2.png" alt="PB" width="500">
 	
 <br>*Nota.* Elaboración propia.
 
@@ -4300,7 +4300,7 @@ _User flow 2_
 _User flow 3_
 
 <p align="center">
-<img src="assets/Web Applications/userflow3.png" alt="PB" width="500">
+<img src="assets/chapter-4/Web Applications/userflow3.png" alt="PB" width="500">
 
 <br>_Nota._ Elaboración propia.
 
@@ -4313,7 +4313,7 @@ _User flow 3_
 _User flow 4_
 
 <p align="center">
-<img src="assets/Web Applications/userflow4.png" alt="PB" width="500">
+<img src="assets/chapter-4/Web Applications/userflow4.png" alt="PB" width="500">
 
 <br>_Nota._ Elaboración propia.
 
@@ -4324,7 +4324,7 @@ _User flow 4_
 _User flow 5_
 
 <p align="center">
-<img src="assets/Web Applications/userflow5.png" alt="PB" width="500">
+<img src="assets/chapter-4/Web Applications/userflow5.png" alt="PB" width="500">
 </p>
 
 _Nota._ Elaboración propia.
@@ -4336,7 +4336,7 @@ _Nota._ Elaboración propia.
 _User flow 6_
 
 <p align="center">
-<img src="assets/Web Applications/userflow6.png" alt="PB" width="500">
+<img src="assets/chapter-4/Web Applications/userflow6.png" alt="PB" width="500">
 </p>
 
 _Nota._ Elaboración propia.
@@ -4347,7 +4347,7 @@ _Nota._ Elaboración propia.
 _Video of Web Applications Prototype of ArquiTech_
 
 <p align="center">
-  <img src="assets/Web Applications/wwb-prototyping.jpeg" alt="PB" width="500">
+  <img src="assets/chapter-4/Web Applications/wwb-prototyping.jpeg" alt="PB" width="500">
 </p>
 
 _Nota._ Elaboración propia. Link del video: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20231a418_upc_edu_pe/IQAZBSS8VPO-Sr1Da7xkzDxSAWar5iNcGeT-RkKH8l7VM8s?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=YXHzf3](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20231a418_upc_edu_pe/IQAZBSS8VPO-Sr1Da7xkzDxSAWar5iNcGeT-RkKH8l7VM8s?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=YXHzf3)
@@ -4360,7 +4360,7 @@ _Nota._ Elaboración propia. Link del video: [https://upcedupe-my.sharepoint.com
 _Software Architecture Context Diagram of ArquiTech_
 
 <p align="center">
-  <img src="assets/Domain-Driven/Arquitech_DiagramaContexto.png" alt="PB" width="1000">
+  <img src="assets/chapter-4/Domain-Driven/Arquitech_DiagramaContexto.png" alt="PB" width="1000">
 </p>
 
 _Nota._ Elaboración propia.
@@ -4371,7 +4371,7 @@ _Nota._ Elaboración propia.
 _Software Architecture Container Diagram of ArquiTech_
 
 <p align="center">
-  <img src="assets/Domain-Driven/Arquitech_DiagramaContenedor.png" alt="PB" width="700">
+  <img src="assets/chapter-4/Domain-Driven/Arquitech_DiagramaContenedor.png" alt="PB" width="700">
 </p>
 
 _Nota._ Elaboración propia.
@@ -4382,7 +4382,7 @@ _Nota._ Elaboración propia.
 _Software Architecture Components Diagram of ArquiTech_
 
 <p align="center">
-  <img src="assets/Domain-Driven/ArquiTech_DiagramaComponentes.png" alt="PB" width="700">
+  <img src="assets/chapter-4/Domain-Driven/ArquiTech_DiagramaComponentes.png" alt="PB" width="700">
 </p>
 
 _Nota._ Elaboración propia.
@@ -5375,7 +5375,7 @@ En esta sección, presentamos el Video About the Product, diseñado para captar 
 _Video About-the-product_
 
 <p align="center">
-  <img src="assets/About-the-product/abouttheproduct.jpg" alt="PB" width="1000">
+  <img src="assets/chapter-5/About-the-product/abouttheproduct.jpg" alt="PB" width="1000">
 </p>
 
 [https://www.youtube.com/watch?v=k3Z0771Au1Y](https://www.youtube.com/watch?v=k3Z0771Au1Y)
