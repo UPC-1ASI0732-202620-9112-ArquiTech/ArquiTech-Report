@@ -48,7 +48,11 @@ Quispe Barzola, Fabricio Fabian - U202320442
 
 # Project Report Collaboration Insights
 
+<p align="justify">
+
 A continuación, capturas del procesos, commits y elaboración de nuestro proyecto en cada entrega.
+
+</p>
 
 **Entrega Nº1: TB1**
 
@@ -222,10 +226,18 @@ A continuación, capturas del procesos, commits y elaboración de nuestro proyec
 
 # Student Outcome
 
+<p align="justify">
+
 El curso contribuye al cumplimiento del siguiente Student Outcome ABET:
 
+</p>
+
 **ABET – EAC - Student Outcome 4**  
+<p align="justify">
+
 Criterio: _La capacidad de reconocer responsabilidades éticas y profesionales en situaciones de ingeniería y hacer juicios informados, que deben considerar el impacto de las soluciones de ingeniería en contextos globales, económicos, ambientales y sociales._
+
+</p>
 
 <table style="width:100%; table-layout:fixed; border-collapse:collapse;">
   <colgroup><col style="width:18%;"><col style="width:60%;"><col style="width:22%;"></colgroup>
@@ -254,15 +266,35 @@ Criterio: _La capacidad de reconocer responsabilidades éticas y profesionales e
 
 <div style="text-align: justify;">
 
+<p align="justify">
+
 Foundex es una startup impulsada por jóvenes universitarios de la Universidad Peruana de Ciencias Aplicadas (UPC), orientada a facilitar la gestión eficiente de proyectos de construcción en pequeñas y medianas empresas constructoras, así como para el personal encargado de su administración. A través de ArquiTech, nuestra herramienta digital, los usuarios podrán gestionar solicitudes de servicios, monitorear el avance de las obras y controlar los gastos asociados a cada proyecto.
+
+</p>
+
+<p align="justify">
 
 La solución busca facilitar la administración y mejorar la transparencia de los procesos constructivos mediante la gestión de trabajadores, materiales, presupuestos y tiempos de ejecución, además del seguimiento en tiempo real del progreso de cada obra.
 
+</p>
+
+<p align="justify">
+
 En Foundex, consideramos que la digitalización de estos procesos es fundamental para agilizar la gestión de las obras, reducir los tiempos de ejecución, optimizar los recursos y facilitar la toma de decisiones informadas. Por ello, apostamos por la tecnología como una herramienta para transformar el sector de la construcción y permitir que las pequeñas y medianas empresas accedan a una gestión más organizada, eficiente y profesional.
+
+</p>
+
+<p align="justify">
 
 **Misión:** Brindar soluciones digitales innovadoras que permitan optimizar la gestión de proyectos de construcción en pequeñas y medianas empresas, facilitando la administración de recursos, el seguimiento de avances, el control de gastos y otros procesos relacionados, con el propósito de impulsar la eficiencia, la transparencia y la toma de decisiones estratégicas en el sector construcción.
 
+</p>
+
+<p align="justify">
+
 **Visión:** Ser la plataforma líder en Latinoamérica en la digitalización de procesos constructivos para pequeñas y medianas empresas, transformando la manera en que se gestionan las obras mediante una tecnología accesible, eficaz y enfocada en las necesidades de nuestros usuarios.
+
+</p>
 
 </div>
 
@@ -282,65 +314,133 @@ En Foundex, consideramos que la digitalización de estos procesos es fundamental
 
 <div style="text-align: justify;">
 
+<p align="justify">
+
 En el contexto actual del sector construcción en Lima Metropolitana, muchas pequeñas y medianas empresas enfrentan dificultades al momento de administrar sus proyectos de forma eficiente. La mayoría de estos procesos, como la gestión de materiales, personal, presupuestos y avances de obra, aún se realizan de manera manual o a través de herramientas poco integradas, como hojas de cálculo, notas físicas o mensajería informal, lo que genera desorganización, pérdida de información y errores costosos.
+
+</p>
+
+<p align="justify">
 
 Particularmente, los supervisores de obra (quienes en muchos casos también cumplen funciones de jefes de obra) se enfrentan a múltiples retos. Deben coordinar equipos, controlar recursos, reportar avances y tomar decisiones en tiempo real, todo esto con herramientas limitadas y en entornos que no siempre cuentan con buena conectividad. Por otro lado, los contratantes de empresas privadas necesitan transparencia, cumplimiento normativo y visibilidad del progreso de la obra, pero suelen recibir información fragmentada y poco clara, lo que puede generar desconfianza y retrasos en los pagos o decisiones.
 
+</p>
+
+<p align="justify">
+
 Frente a este panorama, surge la necesidad de una solución digital adaptada a esta realidad: accesible, intuitiva, y enfocada en automatizar tareas críticas como el control de inventario, la gestión de personal, y la generación de reportes. Una herramienta que no solo ayude a optimizar procesos, sino que también facilite la toma de decisiones estratégicas, mejore la comunicación y permita a estas empresas competir en un mercado cada vez más exigente.
+
+</p>
 
 **What (¿Qué problema existe?)**
 
+<p align="justify">
+
 El principal problema que enfrentan muchas pequeñas y medianas empresas del sector construcción es la falta de una herramienta digital centralizada que permita gestionar eficientemente sus obras. Actualmente, gran parte de la gestión operativa , como el control de inventario, la asistencia del personal, el avance del proyecto y la generación de reportes, se realiza de forma manual o desorganizada, utilizando hojas de cálculo, aplicaciones no integradas o canales de mensajería informal. Esta situación genera desorden, pérdida de información, errores administrativos y retrasos en la toma de decisiones.
+
+</p>
 
 **Why (¿Por qué es importante gestionar bien una obra?)**
 
+<p align="justify">
+
 Porque una buena gestión de obra garantiza que los proyectos se desarrollen dentro del presupuesto, en el tiempo estimado y cumpliendo los estándares de calidad y seguridad. Cuando estos procesos no se administran adecuadamente, se corre el riesgo de incurrir en sobrecostos, retrasos, accidentes laborales, reclamos de los contratantes y una menor rentabilidad del proyecto. Además, una gestión eficiente fortalece la transparencia y la confianza entre los supervisores de obra y los contratantes, lo cual es clave para futuras oportunidades de negocio.
+
+</p>
 
 **When (¿Cuándo ocurre?)**
 
+<p align="justify">
+
 Este problema ocurre principalmente durante las etapas de ejecución y supervisión de las obras, donde se requiere una coordinación constante entre personal, materiales, plazos y reportes. Sucede tanto al inicio del día (planificación y distribución de tareas), como durante el desarrollo del proyecto (seguimiento en campo) y al cierre del día (informes de avance).
+
+</p>
 
 **Where (¿Dónde sucede?)**
 
+<p align="justify">
+
 Principalmente en obras ubicadas en zonas urbanas y semiurbanas de Lima Metropolitana, como San Juan de Lurigancho, Villa El Salvador, Ate y San Martín de Porres. Estas áreas concentran una alta actividad de pequeñas y medianas empresas constructoras que aún no han adoptado herramientas digitales especializadas.
+
+</p>
 
 **Who (¿A quién afecta?)**
 
+<p align="justify">
+
 Afecta directamente a los supervisores de obra, quienes deben cumplir múltiples roles en la gestión operativa, y a los contratantes de empresas privadas, quienes exigen cumplimiento de plazos, transparencia y seguridad en la ejecución del proyecto. También impacta a los trabajadores administrativos que deben organizar, comunicar y reportar toda la información relacionada con los avances de la obra.
+
+</p>
 
 **How (¿Cómo se manifiesta el problema?)**
 
+<p align="justify">
+
 Se manifiesta mediante la falta de control en el inventario, errores en la asistencia de personal, demoras en la entrega de reportes, dificultades en la comunicación entre actores involucrados y poca capacidad para tomar decisiones basadas en datos. Además, el uso de canales informales como WhatsApp o Excel disperso impide centralizar la información y genera retrabajo.
+
+</p>
 
 **How much (¿Qué tan grave es?)**
 
+<p align="justify">
+
 La gravedad del problema radica en que una gestión deficiente de los recursos puede generar consecuencias económicas y operativas para las empresas constructoras. Según Michue Francia (2025), las deficiencias y la falta de control sobre los suministros y proveedores tienen un impacto directo en la ejecución de los proyectos, ocasionando retrasos en los plazos de entrega, incrementos imprevistos de los costos y no conformidades técnicas en la obra. Estas situaciones pueden traducirse en pérdidas económicas, compras innecesarias por un inadecuado control de materiales, menor productividad del personal y descontento de los clientes.
 
+</p>
+
+<p align="justify">
+
 Asimismo, las soluciones existentes en el mercado, como Procore o Buildertrend, ofrecen funcionalidades para la gestión de proyectos de construcción, pero sus costos pueden representar una barrera de acceso para determinadas pequeñas y medianas empresas. Esto evidencia una oportunidad para desarrollar una solución digital accesible y adaptada a las necesidades de este segmento.
+
+</p>
 
 </div>
 
 ### 1.2.2. Lean UX Process
 
+<p align="justify">
+
 En esta sección se aplica el Lean UX Process con el propósito de identificar las principales suposiciones relacionadas con el problema de negocio, los usuarios, sus necesidades y las posibles soluciones asociadas a ArquiTech.
+
+</p>
 
 #### 1.2.2.1. Lean UX Problem Statements
 
 **Domain**
 
+<p align="justify">
+
 ArquiTech se desarrolla dentro del dominio de la gestión y seguimiento de proyectos de construcción. Dentro de este contexto se realizan actividades relacionadas con el control de trabajadores, materiales, inventario, actividades, avance de obra, incidencias y elaboración de reportes.
+
+</p>
 
 **Customer Segments**
 
+<p align="justify">
+
 Para la formulación inicial del problema se consideran responsables de la supervisión y gestión cotidiana de las obras, así como personas responsables de contratar proyectos de construcción y realizar seguimiento de su ejecución.
+
+</p>
+
+<p align="justify">
 
 La caracterización y análisis detallado de los segmentos objetivo se desarrolla posteriormente en la sección 1.3 del presente informe.
 
+</p>
+
 **Pain Points**
+
+<p align="justify">
 
 Actualmente, la gestión y seguimiento de una obra puede involucrar diferentes mecanismos y herramientas para registrar, consultar y comunicar información.
 
+</p>
+
+<p align="justify">
+
 Entre los principales problemas identificados se encuentran:
+
+</p>
 
 - Información distribuida entre hojas de cálculo, documentos físicos o digitales, correo electrónico, aplicaciones de mensajería y otros registros.
 - Dificultad para mantener actualizado el inventario y conocer oportunamente la disponibilidad de materiales.
@@ -355,27 +455,59 @@ Entre los principales problemas identificados se encuentran:
 
 **Gap**
 
+<p align="justify">
+
 Las herramientas utilizadas actualmente permiten resolver determinadas actividades de manera independiente, pero no siempre proporcionan un entorno integrado para mantener y consultar la información relevante de una obra.
+
+</p>
+
+<p align="justify">
 
 Los responsables de supervisión pueden depender de hojas de tareo, Kardex, hojas de cálculo, documentos, fotografías, correo electrónico y aplicaciones de mensajería para desarrollar diferentes actividades de gestión.
 
+</p>
+
+<p align="justify">
+
 De manera similar, quienes realizan seguimiento de una obra pueden depender de reportes periódicos, fotografías, mensajes, correos electrónicos y visitas presenciales para conocer el estado del proyecto.
+
+</p>
+
+<p align="justify">
 
 Esta fragmentación representa una oportunidad para facilitar la centralización, actualización, consulta y trazabilidad de la información asociada con una obra.
 
+</p>
+
 **Vision / Strategy**
+
+<p align="justify">
 
 Foundex, mediante ArquiTech, busca facilitar la gestión y seguimiento de proyectos de construcción a través de una solución digital que centralice información relevante de cada obra y permita a los usuarios acceder a ella de acuerdo con sus responsabilidades.
 
+</p>
+
+<p align="justify">
+
 La estrategia consiste en facilitar el registro y actualización de información operativa y proporcionar mayor visibilidad sobre el estado de las obras, disminuyendo progresivamente la dependencia de herramientas, documentos y canales de comunicación dispersos.
+
+</p>
 
 **Initial Segment**
 
+<p align="justify">
+
 El enfoque inicial estará dirigido a responsables de supervisión de obras que actualmente utilizan diferentes registros y herramientas para controlar información operativa y a responsables de proyectos contratados que dependen de reportes, mensajes, fotografías o visitas para conocer el estado de una obra.
+
+</p>
 
 **Measurable Criteria**
 
+<p align="justify">
+
 Sabremos que ArquiTech contribuye a resolver el problema cuando observemos que:
+
+</p>
 
 - Los responsables de supervisión utilizan recurrentemente ArquiTech para registrar y consultar información relacionada con sus obras.
 - Los usuarios requieren menos fuentes independientes para obtener información relacionada con trabajadores, materiales, actividades y avances.
@@ -386,19 +518,43 @@ Sabremos que ArquiTech contribuye a resolver el problema cuando observemos que:
 
 **Problem Statement**
 
+<p align="justify">
+
 El estado actual de la gestión y seguimiento de proyectos de construcción se caracteriza por el uso de diferentes herramientas y mecanismos para registrar, consultar y comunicar información relacionada con las obras.
+
+</p>
+
+<p align="justify">
 
 Los responsables de supervisar una obra necesitan controlar trabajadores, materiales, actividades y avances durante la ejecución del proyecto. Sin embargo, gran parte de esta información puede encontrarse distribuida entre registros físicos, hojas de cálculo, documentos digitales, fotografías, correo electrónico y aplicaciones de mensajería, dificultando mantener una fuente de información actualizada y consistente.
 
+</p>
+
+<p align="justify">
+
 Por otro lado, quienes contratan y realizan seguimiento de proyectos de construcción necesitan conocer si las obras avanzan según lo previsto, pero pueden depender de reportes periódicos, fotografías, mensajes y visitas presenciales para obtener dicha información. Esto puede ocasionar una detección tardía de retrasos, incidencias o problemas asociados con los recursos y actividades de la obra.
+
+</p>
+
+<p align="justify">
 
 Las alternativas actuales permiten resolver partes específicas del proceso, pero no siempre facilitan la centralización y trazabilidad de la información. ArquiTech busca abordar esta brecha proporcionando un entorno digital que facilite el registro, consulta y seguimiento de información relevante de las obras.
 
+</p>
+
+<p align="justify">
+
 Inicialmente, ArquiTech se enfocará en usuarios que actualmente dependen de herramientas y canales de información independientes. Sabremos que la propuesta genera valor cuando estos usuarios incorporen recurrentemente ArquiTech en sus actividades y disminuyan la dependencia de fuentes dispersas para gestionar o conocer el estado de una obra.
+
+</p>
 
 **How Might We**
 
+> <p align="justify">
+> 
 > ¿Cómo podríamos facilitar la gestión y el seguimiento de proyectos de construcción para que los responsables de una obra mantengan información actualizada y quienes realizan su seguimiento puedan conocer oportunamente su estado, reduciendo la dependencia de herramientas y canales de información dispersos?
+> 
+> </p>
 
 #### 1.2.2.2. Lean UX Assumptions
 
@@ -530,9 +686,17 @@ Inicialmente, ArquiTech se enfocará en usuarios que actualmente dependen de her
 
 ##### Assumption Prioritization
 
+<p align="justify">
+
 Una vez declaradas las Business Assumptions y User Assumptions, las suposiciones se priorizan considerando dos factores principales: el impacto que tendría para ArquiTech que una suposición resultara falsa y el nivel de incertidumbre que todavía existe alrededor de ella.
 
+</p>
+
+<p align="justify">
+
 Las suposiciones con mayor riesgo e incertidumbre deben validarse antes que aquellas para las cuales ya existe mayor evidencia o cuyo impacto sobre la propuesta de valor es menor.
+
+</p>
 
 | Suposición                                                                                                                            | Riesgo | Incertidumbre | Prioridad |
 | ------------------------------------------------------------------------------------------------------------------------------------- | ------ | ------------- | --------- |
@@ -544,87 +708,207 @@ Las suposiciones con mayor riesgo e incertidumbre deben validarse antes que aque
 | Las limitaciones de conectividad pueden gestionarse sin impedir la realización de las principales tareas de los usuarios.             | Medio  | Medio         | Media     |
 | Una experiencia sencilla permitirá que nuevos usuarios aprendan las principales tareas sin requerir capacitación extensa.             | Medio  | Medio         | Media     |
 
+<p align="justify">
+
 Las suposiciones priorizadas sirven como base para formular los Hypothesis Statements y determinar posteriormente qué aspectos requieren validación mediante experimentos.
+
+</p>
 
 #### 1.2.2.3. Lean UX Hypothesis Statements
 
+<p align="justify">
+
 Los Hypothesis Statements convierten las principales suposiciones en afirmaciones que pueden ser comprobadas mediante evidencia.
+
+</p>
+
+<p align="justify">
 
 Cada hipótesis se concentra en una característica o experiencia específica para facilitar su posterior validación.
 
+</p>
+
 ##### Hypothesis Statement 1 — Gestión de materiales e inventario
+
+<p align="justify">
 
 Creemos que proporcionar un mecanismo centralizado para registrar y consultar movimientos de materiales a los supervisores de obra logrará facilitar la actualización del inventario y reducir la dependencia de registros independientes.
 
+</p>
+
+<p align="justify">
+
 Sabremos que esto es cierto cuando observemos que los supervisores pueden registrar y consultar el estado de los materiales utilizando menos tiempo y menos fuentes de información que mediante su proceso actual.
+
+</p>
 
 ##### Hypothesis Statement 2 — Gestión de trabajadores
 
+<p align="justify">
+
 Creemos que proporcionar un mecanismo centralizado para registrar y consultar información de trabajadores a los supervisores de obra logrará facilitar el control del personal asociado con cada obra y reducir la dependencia de registros manuales independientes.
+
+</p>
+
+<p align="justify">
 
 Sabremos que esto es cierto cuando observemos que los supervisores pueden registrar y consultar información de los trabajadores con menor esfuerzo que mediante sus mecanismos actuales.
 
+</p>
+
 ##### Hypothesis Statement 3 — Seguimiento de actividades y avance
+
+<p align="justify">
 
 Creemos que proporcionar un mecanismo para registrar y actualizar actividades y avances a los supervisores de obra logrará facilitar el mantenimiento de información oportuna sobre el estado del proyecto.
 
+</p>
+
+<p align="justify">
+
 Sabremos que esto es cierto cuando observemos que los supervisores actualizan recurrentemente las actividades de una obra y pueden conocer su estado sin recopilar nuevamente información procedente de distintos registros.
+
+</p>
 
 ##### Hypothesis Statement 4 — Consulta del estado de la obra
 
+<p align="justify">
+
 Creemos que proporcionar acceso directo a información actualizada sobre avance, materiales, personal e incidencias a los contratantes logrará reducir la incertidumbre y aumentar la transparencia durante la ejecución de una obra.
+
+</p>
+
+<p align="justify">
 
 Sabremos que esto es cierto cuando observemos que los contratantes pueden conocer el estado de sus proyectos mediante ArquiTech y requieren menos solicitudes adicionales de actualización mediante correo electrónico, aplicaciones de mensajería u otros medios.
 
+</p>
+
 ##### Hypothesis Statement 5 — Trazabilidad de la información
+
+<p align="justify">
 
 Creemos que proporcionar información sobre responsables, fechas de actualización e historial de los registros a supervisores y contratantes logrará aumentar su confianza en la información disponible en ArquiTech.
 
+</p>
+
+<p align="justify">
+
 Sabremos que esto es cierto cuando observemos que los usuarios utilizan estos elementos para identificar el origen y vigencia de la información y pueden evaluar su confiabilidad sin requerir verificaciones adicionales.
+
+</p>
 
 ##### Hypothesis Statement 6 — Generación de reportes
 
+<p align="justify">
+
 Creemos que proporcionar reportes generados a partir de la información previamente registrada en ArquiTech a los responsables de supervisión logrará reducir el esfuerzo necesario para recopilar y consolidar información sobre el estado de una obra.
+
+</p>
+
+<p align="justify">
 
 Sabremos que esto es cierto cuando observemos que, después de establecer una línea base del procedimiento actual, los usuarios pueden obtener la información necesaria para un reporte utilizando menos tiempo y menos fuentes independientes.
 
+</p>
+
 ##### Hypothesis Statement 7 — Alertas sobre eventos relevantes
+
+<p align="justify">
 
 Creemos que proporcionar alertas sobre incidencias o eventos relevantes a supervisores y contratantes logrará facilitar que conozcan oportunamente situaciones que requieren su atención.
 
+</p>
+
+<p align="justify">
+
 Sabremos que esto es cierto cuando observemos que los usuarios identifican eventos relevantes mediante las alertas antes de recurrir a la revisión manual de diferentes registros o canales de comunicación.
+
+</p>
 
 ##### Hypothesis Statement 8 — Uso en condiciones de conectividad limitada
 
+<p align="justify">
+
 Creemos que permitir que determinadas operaciones críticas permanezcan disponibles durante interrupciones temporales de conectividad para los supervisores de obra logrará reducir el impacto de la dependencia de Internet durante las actividades realizadas en campo.
+
+</p>
+
+<p align="justify">
 
 Sabremos que esto es cierto cuando observemos que, en escenarios de conectividad limitada, los supervisores pueden completar las tareas críticas definidas y conservar la información necesaria hasta que pueda sincronizarse correctamente.
 
+</p>
+
 ##### Hypothesis Statement 9 — Facilidad de adopción
+
+<p align="justify">
 
 Creemos que proporcionar una experiencia sencilla y una orientación inicial breve a nuevos usuarios logrará que puedan aprender a realizar las principales tareas de ArquiTech sin requerir una capacitación extensa.
 
+</p>
+
+<p align="justify">
+
 Sabremos que esto es cierto cuando observemos que usuarios nuevos pueden completar de manera independiente las principales tareas correspondientes a sus responsabilidades después de recibir una orientación inicial breve.
+
+</p>
 
 #### 1.2.2.4. Lean UX Canvas
 
+<p align="justify">
+
 El Lean UX Canvas de ArquiTech consolida los principales elementos definidos previamente durante el Lean UX Process, integrando el problema de negocio, los resultados esperados, los usuarios, sus beneficios, las ideas de solución, las hipótesis y los principales aspectos que deben validarse mediante experimentación.
+
+</p>
+
+<p align="justify">
 
 El canvas se encuentra organizado en ocho bloques. El **Business Problem** reúne los principales problemas relacionados con la fragmentación, actualización y trazabilidad de la información de las obras. Los **Business Outcomes** representan los cambios de comportamiento que permitirían evidenciar que ArquiTech está generando valor, como un mayor uso recurrente de la plataforma y una menor dependencia de fuentes de información externas.
 
+</p>
+
+<p align="justify">
+
 En **Users & Customers** se consideran inicialmente dos roles principales: el **Supervisor de obra**, responsable de gestionar y actualizar información operativa del proyecto, y el **Contratante de empresa privada**, interesado en realizar seguimiento y disponer de mayor visibilidad sobre el estado de la obra.
+
+</p>
+
+<p align="justify">
 
 Para facilitar la interpretación visual del canvas, se utilizó una diferenciación por colores en las tarjetas asociadas directamente con estos usuarios. Las tarjetas de color **verde** corresponden al **Supervisor de obra**, mientras que las tarjetas de color **azul** corresponden al **Contratante de empresa privada**. Esta convención se mantiene principalmente en los bloques **Users & Customers** y **User Benefits**, permitiendo identificar con mayor facilidad qué necesidades y beneficios corresponden a cada tipo de usuario.
 
+</p>
+
+<p align="justify">
+
 Los **User Benefits** representan los resultados que ambos usuarios esperan alcanzar. Para el Supervisor de obra se consideran beneficios como reducir el trabajo duplicado, consultar información centralizada, conocer oportunamente la disponibilidad de materiales y trabajadores y detectar incidencias con mayor anticipación. Para el Contratante de empresa privada se consideran beneficios relacionados con una mayor visibilidad del proyecto, menor dependencia de solicitudes constantes de información, detección oportuna de problemas y mayor transparencia durante la ejecución de la obra.
+
+</p>
+
+<p align="justify">
 
 Las **Solution Ideas** plantean posibles mecanismos para alcanzar dichos beneficios, incluyendo gestión de materiales, trabajadores, actividades y avances, seguimiento para el contratante, trazabilidad, reportes, alertas, soporte ante conectividad limitada y orientación inicial para nuevos usuarios.
 
+</p>
+
+<p align="justify">
+
 A partir de la relación entre los Business Outcomes, Users, User Benefits y Solution Ideas se formularon las **Hypotheses** del canvas. Estas hipótesis permiten expresar qué cambios se espera conseguir mediante cada solución y sirven como base para determinar los aspectos que requieren validación.
+
+</p>
+
+<p align="justify">
 
 En **What's the most important thing we need to learn first?** se identifican las suposiciones de mayor riesgo asociadas con las hipótesis. El principal aprendizaje requerido consiste en comprobar si los supervisores incorporarán ArquiTech de manera recurrente en sus actividades y mantendrán actualizada la información de las obras, debido a que el valor de funcionalidades como reportes, alertas, trazabilidad y seguimiento para el contratante depende directamente de la disponibilidad de información confiable y actualizada.
 
+</p>
+
+<p align="justify">
+
 Finalmente, en **What's the least amount of work we need to do to learn the next most important thing?** se plantea un experimento de alcance reducido orientado a validar dicha suposición antes de realizar una implementación de mayor alcance. El experimento contempla establecer una línea base del procedimiento actual, utilizar un prototipo limitado con tareas representativas, observar el comportamiento de los supervisores y comparar el esfuerzo requerido con sus procedimientos habituales.
+
+</p>
 
 **Figura 1**  
 _Lean UX Canvas de ArquiTech._
@@ -644,13 +928,25 @@ _Nota._ Elaboración propia en Miro a partir de los Lean UX Problem Statements, 
 
 <div style="text-align: justify;">
 
+<p align="justify">
+
 Para garantizar que nuestra solución tecnológica responda de manera efectiva a las necesidades presentes en la gestión de proyectos de construcción, se han identificado dos segmentos clave que participan directamente en el desarrollo, supervisión y seguimiento de las obras.
+
+</p>
+
+<p align="justify">
 
 A continuación, se describen los perfiles estratégicos asociados al dominio del problema de ArquiTech, considerando sus características demográficas, geográficas y psicográficas, así como los principales problemas, intereses y necesidades vinculados con la gestión de proyectos de construcción.
 
+</p>
+
 ### Segmento objetivo #1: Supervisores de obra
 
+<p align="justify">
+
 Este segmento está conformado por los profesionales o responsables encargados de supervisar y coordinar las actividades realizadas durante la ejecución de una obra. Entre sus principales responsabilidades se encuentran el control del personal, el registro de asistencia de los trabajadores, la gestión de materiales, el seguimiento del avance de la construcción y la comunicación con las áreas administrativas.
+
+</p>
 
 **Aspectos demográficos:**
 
@@ -676,9 +972,17 @@ Este segmento está conformado por los profesionales o responsables encargados d
 
 ### Segmento objetivo #2: Contratantes de empresas privadas
 
+<p align="justify">
+
 Este segmento está conformado por personas, empresarios, administradores, propietarios de inmuebles o representantes de organizaciones privadas que contratan empresas constructoras para desarrollar proyectos como locales comerciales, oficinas, viviendas, remodelaciones u otras obras de infraestructura.
 
+</p>
+
+<p align="justify">
+
 Los integrantes de este segmento necesitan conocer el estado de los proyectos contratados y verificar que la empresa constructora cumpla con los plazos, recursos y condiciones establecidas durante la ejecución de la obra.
+
+</p>
 
 **Aspectos demográficos:**
 
@@ -710,7 +1014,11 @@ Los integrantes de este segmento necesitan conocer el estado de los proyectos co
 
 ### 2.1.1. Análisis competitivo
 
+<p align="justify">
+
 Para poder conocer y analizar mejor a nuestros posibles competidores, realizamos el siguiente Landscape:
+
+</p>
 
 <table style="background-color:transparent; border-collapse:collapse; width:100%; table-layout:fixed; font-family:Arial,sans-serif; font-size:12px; line-height:16px; color:inherit; border:1px solid currentColor;">
   <colgroup>
@@ -845,31 +1153,75 @@ Para poder conocer y analizar mejor a nuestros posibles competidores, realizamos
 
 ### 2.1.2. Estrategias y tácticas frente a competidores
 
+<p align="justify">
+
 ArquiTech se diferenciará de competidores como Procore, Buildertrend y Buildwise mediante una propuesta enfocada en las necesidades operativas de pequeñas y medianas empresas constructoras. Frente a la amplia variedad de funcionalidades, escalabilidad y posicionamiento que poseen estas plataformas, nuestra estrategia será priorizar una solución más sencilla y especializada en actividades frecuentes de obra, como la gestión de personal, control de asistencia, inventario de materiales, seguimiento de avances y generación de reportes.
+
+</p>
+
+<p align="justify">
 
 Para aprovechar las debilidades identificadas en soluciones de mayor alcance, ArquiTech aplicará una estrategia de adopción simplificada. La plataforma contará con una interfaz intuitiva, recursos de capacitación breves y un periodo de prueba que permita conocer sus principales funcionalidades antes de contratar el servicio. De esta manera, se busca reducir la resistencia al cambio de empresas que todavía administran parte de sus operaciones mediante registros físicos, hojas de cálculo, documentos y aplicaciones de mensajería.
 
+</p>
+
+<p align="justify">
+
 Asimismo, ArquiTech aprovechará la oportunidad generada por la creciente digitalización del sector construcción mediante funcionalidades orientadas a problemas cotidianos de la obra. Entre ellas se consideran alertas relacionadas con la disponibilidad de materiales, registro y seguimiento de asistencia, actualización del progreso de los proyectos y centralización de información. Esta especialización permitirá brindar mayor utilidad a los supervisores de obra y, al mismo tiempo, ofrecer a los contratantes una mayor visibilidad sobre el estado de los proyectos.
+
+</p>
+
+<p align="justify">
 
 Como táctica comercial, se ofrecerán planes escalables de acuerdo con las necesidades de cada empresa, considerando factores como la cantidad de obras activas, usuarios y funcionalidades requeridas. Esto permitirá que pequeñas y medianas empresas comiencen utilizando las funciones necesarias para su operación y amplíen posteriormente el servicio conforme aumenten sus proyectos, evitando contratar desde el inicio una solución sobredimensionada.
 
+</p>
+
+<p align="justify">
+
 Para afrontar la amenaza representada por plataformas internacionales con mayor reconocimiento y recursos, ArquiTech buscará diferenciarse mediante una atención más cercana y adaptada al contexto de sus segmentos objetivo. Se brindará soporte mediante canales digitales, demostraciones de la plataforma y contenido educativo relacionado con la digitalización y gestión de obras. Para los supervisores de obra, la comunicación se enfocará en la centralización del personal, materiales y avances; mientras que para los contratantes de empresas privadas se destacará la transparencia, el seguimiento de los proyectos y el acceso a información actualizada.
 
+</p>
+
+<p align="justify">
+
 Finalmente, ArquiTech mantendrá un proceso de mejora continua basado en las necesidades identificadas en sus usuarios y en los cambios del sector construcción. Esto permitirá incorporar progresivamente nuevas funcionalidades sin perder el enfoque en facilidad de uso, accesibilidad y gestión centralizada, buscando construir una ventaja competitiva sostenible frente a soluciones de mayor complejidad.
+
+</p>
 
 ## 2.2. Entrevistas
 
 ### 2.2.1. Diseño de entrevistas
 
+<p align="justify">
+
 Para el proceso de investigación de ArquiTech se diseñó un conjunto de entrevistas dirigido a representantes de los dos segmentos objetivo identificados: supervisores de obra y contratantes de empresas privadas.
+
+</p>
+
+<p align="justify">
 
 El objetivo de estas entrevistas es comprender las actividades que actualmente realizan los participantes durante la gestión y seguimiento de proyectos de construcción, las herramientas que utilizan, las principales dificultades que enfrentan y sus necesidades respecto al acceso, organización y comunicación de la información de una obra.
 
+</p>
+
+<p align="justify">
+
 Las preguntas fueron organizadas en cuatro grupos principales: introducción y contexto, procesos actuales, puntos de dolor, necesidades y expectativas, además de preguntas de cierre. Esta estructura permite recopilar información relacionada con el contexto del participante, sus actividades habituales, problemas experimentados durante la ejecución o seguimiento de una obra y su percepción respecto al uso de herramientas digitales.
+
+</p>
+
+<p align="justify">
 
 Para mantener la consistencia del proceso de investigación, todos los participantes pertenecientes a un mismo segmento serán entrevistados utilizando el mismo conjunto base de preguntas y variables de investigación. Durante la ejecución de las entrevistas, las preguntas podrán ser reformuladas ligeramente o acompañadas de preguntas de seguimiento con el propósito de mantener un flujo conversacional natural, sin modificar la información que se busca recopilar. De esta manera, las respuestas podrán ser posteriormente comparadas e interpretadas para identificar patrones y características recurrentes dentro de cada segmento objetivo.
 
+</p>
+
+<p align="justify">
+
 Antes de iniciar cada entrevista, se informará al participante sobre el propósito académico de la investigación y se solicitará su consentimiento para participar y para registrar la sesión en video.
+
+</p>
 
 #### Segmento objetivo #1: Supervisores de obra
 
@@ -951,9 +1303,17 @@ Antes de iniciar cada entrevista, se informará al participante sobre el propós
 
 #### Preguntas complementarias de caracterización para ambos segmentos
 
+<p align="justify">
+
 Las siguientes preguntas complementarias serán integradas de manera natural dentro del flujo de las entrevistas de ambos segmentos objetivo. Su propósito es recopilar características objetivas y subjetivas que permitan comprender mejor el perfil, contexto, comportamiento y preferencias de los participantes.
 
+</p>
+
+<p align="justify">
+
 Aunque estas preguntas se presentan de manera agrupada en el diseño de entrevistas para facilitar su documentación, durante la ejecución de las entrevistas podrán ubicarse en distintos momentos de la conversación con el propósito de mantener una secuencia coherente y natural, sin alterar la información que se busca recopilar.
+
+</p>
 
 - ¿Con qué género se identifica?
 - ¿Cuál es su estado civil?
@@ -972,15 +1332,35 @@ Aunque estas preguntas se presentan de manera agrupada en el diseño de entrevis
 
 ### 2.2.2. Registro de entrevistas
 
+<p align="justify">
+
 Como parte del proceso de investigación de ArquiTech, se contemplan entrevistas a representantes de los dos segmentos objetivo definidos: supervisores de obra y contratantes de empresas privadas. Para esta etapa se consideran tres participantes por cada segmento, obteniendo un total de seis entrevistas.
+
+</p>
+
+<p align="justify">
 
 Cada entrevista será registrada en video como evidencia del proceso de investigación. Posteriormente, las seis entrevistas serán consolidadas en un único video editado de Entrevistas, utilizando Clipchamp y publicándolo en Microsoft Stream mediante un enlace privado. Para cada participante se registran sus nombres y apellidos, edad, distrito de residencia, segmento objetivo, fecha de entrevista, un cuadro representativo del video, el timing exacto en el que inicia su participación dentro del video consolidado y la duración correspondiente.
 
+</p>
+
+<p align="justify">
+
 El video consolidado incluirá una pantalla inicial de presentación, elementos visuales relacionados con la identidad de Foundex y ArquiTech, una secuencia coherente entre entrevistas y títulos que identifiquen al participante, el segmento objetivo y la fecha de realización de cada entrevista. La edición considerará aproximadamente entre tres y cinco minutos por participante.
+
+</p>
+
+<p align="justify">
 
 Los resúmenes presentados para cada entrevista recogen las principales respuestas obtenidas mediante el guion principal y las preguntas complementarias de caracterización. Se consideran tanto características objetivas como subjetivas, incluyendo información demográfica, ocupación, trayectoria, personalidad, habilidades, marcas e influencias, tecnología utilizada, dispositivos de preferencia, canales digitales de interacción, navegador, objetivos, frustraciones, procesos actuales, dificultades, necesidades y expectativas.
 
+</p>
+
+<p align="justify">
+
 Esta información servirá posteriormente como fuente para el análisis estadístico de entrevistas y para la construcción de los User Personas, manteniendo trazabilidad entre las características incorporadas en los arquetipos y la información obtenida durante las entrevistas.
+
+</p>
 
 **Video consolidado de Needfinding:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202320442_upc_edu_pe/IQDWnJj67oWOTaeKQVq4DaOPAXX9DFuqJ-kxtlCUQ-2Lsos?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=8BvJOp
 
@@ -994,17 +1374,41 @@ Esta información servirá posteriormente como fuente para el análisis estadís
 
 #### Segmento objetivo #1: Supervisores de obra
 
+<p align="justify">
+
 En esta sección se presentan los Epics, User Stories, Technical Stories y Spike Stories definidos para ArquiTech a partir de los requisitos identificados durante el proceso de Requirements Elicitation & Analysis y de las capacidades del producto reutilizado como línea base.
+
+</p>
+
+<p align="justify">
 
 Las historias funcionales representan las necesidades de los principales segmentos de usuario del producto digital: supervisores de obra, contratantes y visitantes de la Landing Page. Las Technical Stories representan capacidades técnicas necesarias para soportar las funcionalidades del producto y utilizan el rol `Developer`. Finalmente, las Spike Stories representan actividades de investigación, análisis o validación técnica orientadas a reducir incertidumbre antes de realizar modificaciones o extensiones sobre la solución.
 
+</p>
+
+<p align="justify">
+
 Debido a que ArquiTech reutiliza los productos digitales desarrollados previamente por Foundex, se conserva la trazabilidad con el alcance funcional, la arquitectura y la numeración del backlog existente. La inclusión de una User Story representa un requisito identificado para el producto y no constituye por sí misma evidencia de que la funcionalidad ya se encuentre implementada. Las evidencias de implementación se documentan posteriormente en las secciones correspondientes al desarrollo y despliegue del producto.
+
+</p>
+
+<p align="justify">
 
 Dentro del contexto de ArquiTech se mantiene un lenguaje ubicuo consistente empleando términos como Proyecto, Supervisor de Obra, Contratante, Material, Movimiento de Material, Trabajador, Asistencia, Tarea, Maquinaria, Incidencia, Avance de Obra y Reporte Semanal. Estos términos se utilizan de manera uniforme en las historias y representan conceptos propios del dominio de gestión y seguimiento de obras de construcción.
 
+</p>
+
+<p align="justify">
+
 Los Acceptance Criteria se expresan mediante la estructura Given-When-Then (Dado-Cuando-Entonces), utilizando tiempo presente y tercera persona. Los criterios describen condiciones verificables y evitan depender de detalles específicos de la interfaz de usuario. Para las historias relacionadas con APIs REST, los criterios representan escenarios de interacción request/response. Para las Spike Stories, los criterios establecen resultados verificables que determinan cuándo la investigación o validación se considera completada.
 
+</p>
+
+<p align="justify">
+
 La numeración conserva la trazabilidad con el backlog del proyecto reutilizado. Por este motivo existen saltos entre algunos identificadores, correspondientes a historias previamente eliminadas, fusionadas o reclasificadas. Las nuevas historias incorporadas para cubrir requisitos ya identificados en el dominio continúan la numeración existente.
+
+</p>
 
 | Story ID | User                         | Priority | Epic | Title                                                              | Description                                                                                                                                                                                                                     | Acceptance Criteria                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
 | -------- | ---------------------------- | -------- | ---- | ------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -1119,7 +1523,7 @@ La numeración conserva la trazabilidad con el backlog del proyecto reutilizado.
 - **Duración:** 07:24
 - **Video consolidado:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202320442_upc_edu_pe/IQDWnJj67oWOTaeKQVq4DaOPAXX9DFuqJ-kxtlCUQ-2Lsos?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=8BvJOp
 
-**Figura 1**  
+**Figura 2**  
 _Cuadro de video del entrevistado #1 del segmento Supervisores de obra._
 
 <p align="center">
@@ -1132,27 +1536,71 @@ _Nota._ Elaboración propia a partir de la entrevista realizada.
 
 **Resumen de la entrevista**
 
+<p align="justify">
+
 Alvaro Cristian Gonzales Yupanqui es un supervisor de obra de 61 años, identificado con el género masculino, casado y con responsabilidades familiares que influyen en la organización de su tiempo. Cuenta con más de treinta años de experiencia en el sector construcción y ha participado principalmente en edificaciones, ampliaciones y proyectos de infraestructura, desempeñando actividades relacionadas con supervisión, control técnico y administración de recursos.
+
+</p>
+
+<p align="justify">
 
 Durante una jornada habitual inicia revisando las actividades programadas y verificando la disponibilidad del personal y los materiales necesarios. También comprueba que los trabajos sean ejecutados de acuerdo con el expediente técnico, coordina con el residente de obra y realiza seguimiento de metrados, calidad y avance. Dependiendo de la magnitud del proyecto, trabaja con diferentes cuadrillas y gestiona materiales como cemento, acero, agregados, ladrillo y concreto.
 
+</p>
+
+<p align="justify">
+
 Para controlar la asistencia utiliza hojas de tareo en las que se registra la presencia y las horas trabajadas. Cuando algún trabajador falta, la situación es comunicada al responsable de la cuadrilla y se evalúa si es necesario realizar un reemplazo. El inventario se controla mediante Kardex y registros de movimientos de almacén, utilizados para registrar entradas y salidas de materiales.
+
+</p>
+
+<p align="justify">
 
 El avance es medido principalmente mediante metrados diarios y posteriormente consolidado en reportes semanales y mensuales. La preparación y revisión de estos documentos puede tomar varias horas debido a que la información proviene de diferentes registros. Para compartirla con otros responsables utiliza reuniones, reportes, correo electrónico y WhatsApp.
 
+</p>
+
+<p align="justify">
+
 Entre sus principales dificultades se encuentra mantener actualizada toda la información operativa. Indicó que la ausencia de trabajadores o los retrasos de proveedores pueden modificar inmediatamente la planificación. También ha experimentado inconsistencias entre el stock registrado y el stock físico cuando las salidas de materiales no son registradas oportunamente. Asimismo, considera que pueden producirse diferencias entre campo y administración cuando la información no se comunica a tiempo.
+
+</p>
+
+<p align="justify">
 
 Su principal objetivo es lograr que la obra sea ejecutada de acuerdo con el expediente técnico, dentro de los plazos establecidos y utilizando adecuadamente los recursos. Su principal frustración es trabajar con información desactualizada o detectar demasiado tarde la falta de algún material o recurso.
 
+</p>
+
+<p align="justify">
+
 Considera que la gestión podría mejorarse mediante la centralización de asistencia, inventario, metrados y reportes. Necesita consultar diariamente información relacionada con avance, stock y disponibilidad de personal. Espera que una herramienta digital sea sencilla, confiable y evite la duplicación de trabajo. También considera valiosas funciones relacionadas con el control de maquinaria y combustible y con la generación de reportes valorizados.
+
+</p>
+
+<p align="justify">
 
 Respecto a la adopción de tecnología, considera importante que existan permisos diferenciados para los usuarios, registros confiables y trazabilidad sobre quién realiza cada actualización. Una herramienta excesivamente complicada o que requiera más tiempo de registro que el procedimiento actual constituiría una barrera para su utilización.
 
+</p>
+
+<p align="justify">
+
 En cuanto a sus características personales, se describe como una persona metódica y cuidadosa que prefiere verificar la información antes de tomar decisiones. Considera especialmente importantes las habilidades de organización, supervisión, comunicación, interpretación de documentación técnica, control de recursos y resolución de imprevistos.
+
+</p>
+
+<p align="justify">
 
 Entre sus principales influencias profesionales menciona las buenas prácticas difundidas por CAPECO y SENCICO, además de la experiencia de otros ingenieros con los que ha trabajado. En cuanto a tecnología, utiliza smartphone y laptop, aunque prefiere la laptop para revisar documentos y elaborar reportes. Emplea principalmente WhatsApp, correo electrónico y herramientas de Microsoft Office, y utiliza Google Chrome como navegador habitual.
 
+</p>
+
+<p align="justify">
+
 Finalmente, considera que una solución digital también debería permitir comparar automáticamente lo planificado con lo ejecutado y con los recursos consumidos. Estaría dispuesto a probar una plataforma orientada a la gestión de obras siempre que sea fácil de implementar y reduzca efectivamente el trabajo administrativo.
+
+</p>
 
 ---
 
@@ -1169,7 +1617,7 @@ Finalmente, considera que una solución digital también debería permitir compa
 - **Duración:** 05:42
 - **Video consolidado:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202320442_upc_edu_pe/IQDWnJj67oWOTaeKQVq4DaOPAXX9DFuqJ-kxtlCUQ-2Lsos?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=8BvJOp
 
-**Figura 2**  
+**Figura 3**  
 _Cuadro de video del entrevistado #2 del segmento Supervisores de obra._
 
 <p align="center">
@@ -1182,27 +1630,71 @@ _Nota._ Elaboración propia a partir de la entrevista realizada.
 
 **Resumen de la entrevista**
 
+<p align="justify">
+
 Juan José Meza Huanacune es una ingeniera civil de 55 años que se identifica con el género femenino, es casada y tiene responsabilidades familiares. Cuenta con aproximadamente veinticinco años de experiencia en construcción y ha trabajado supervisando distintas etapas de proyectos, especialmente en actividades relacionadas con control de calidad, seguridad y ejecución de trabajos.
+
+</p>
+
+<p align="justify">
 
 Durante una jornada habitual revisa las actividades programadas, verifica la calidad de los materiales y las condiciones de seguridad, supervisa el uso adecuado de equipos de protección personal y comprueba el cumplimiento de las funciones asignadas al equipo técnico. La cantidad de trabajadores y materiales que debe gestionar varía de acuerdo con las actividades programadas para cada jornada.
 
+</p>
+
+<p align="justify">
+
 El control de asistencia se realiza mediante hojas de tareo administradas principalmente por el asistente técnico y el maestro de obra. Cuando se produce una ausencia, esta debe comunicarse inmediatamente debido a que puede afectar una actividad crítica del proyecto.
+
+</p>
+
+<p align="justify">
 
 Para el control del inventario se utilizan notas de entrada y salida que posteriormente son registradas en Excel. El avance se controla mediante valorizaciones físicas y reportes semanales y mensuales. La información es compartida mediante reuniones, correo electrónico, documentos digitales y WhatsApp.
 
+</p>
+
+<p align="justify">
+
 Entre las principales dificultades menciona la coordinación de recursos y la necesidad de mantener actualizada la información. Los retrasos en el registro de entradas o salidas pueden generar diferencias en el inventario. Asimismo, considera fundamental que técnicos, residentes, personal administrativo y responsables de almacén trabajen utilizando información consistente.
+
+</p>
+
+<p align="justify">
 
 La información que considera más difícil de mantener actualizada es el inventario y el estado de los requerimientos de materiales. Su principal objetivo es asegurar que las actividades sean desarrolladas correctamente y con el nivel de calidad requerido, mientras que sus principales frustraciones están relacionadas con los retrasos en materiales y las inconsistencias en los registros.
 
+</p>
+
+<p align="justify">
+
 Considera que la gestión podría mejorar mediante una herramienta que integre asistencia, almacén, requerimientos y reportes. Necesita consultar diariamente información relacionada con avance, materiales y disponibilidad del personal. Espera que una plataforma digital sea integral pero sencilla y que permita generar diferentes tipos de reportes según las necesidades de cada responsable.
+
+</p>
+
+<p align="justify">
 
 Para confiar en una herramienta digital considera necesario que la información esté protegida, que los responsables de cada registro estén identificados y que pueda verificarse cuándo se actualizó cada dato. Una interfaz complicada o la falta de orientación inicial al personal podrían dificultar su adopción.
 
+</p>
+
+<p align="justify">
+
 Se describe como una persona organizada, preventiva y rigurosa con los procedimientos. Entre sus principales habilidades reconoce la comunicación, liderazgo, coordinación, control de calidad e interpretación de documentación técnica.
+
+</p>
+
+<p align="justify">
 
 Entre sus referentes profesionales se encuentran SENCICO, CAPECO y las normas técnicas aplicables al sector construcción. Utiliza principalmente laptop y smartphone, aunque prefiere la laptop para actividades documentales. Entre sus herramientas y canales digitales habituales se encuentran Excel, Outlook y WhatsApp, y utiliza Google Chrome como navegador.
 
+</p>
+
+<p align="justify">
+
 Finalmente, considera importante que una plataforma permita realizar seguimiento al estado de los requerimientos de materiales, identificando si se encuentran pendientes, aprobados o atendidos. Estaría dispuesta a utilizar una solución digital si facilita las actividades y centraliza la información relevante de la obra.
+
+</p>
 
 ---
 
@@ -1219,7 +1711,7 @@ Finalmente, considera importante que una plataforma permita realizar seguimiento
 - **Duración:** 06:30
 - **Video consolidado:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202320442_upc_edu_pe/IQDWnJj67oWOTaeKQVq4DaOPAXX9DFuqJ-kxtlCUQ-2Lsos?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=8BvJOp
 
-**Figura 3**  
+**Figura 4**  
 _Cuadro de video del entrevistado #3 del segmento Supervisores de obra._
 
 <p align="center">
@@ -1232,29 +1724,77 @@ _Nota._ Elaboración propia a partir de la entrevista realizada.
 
 **Resumen de la entrevista**
 
+<p align="justify">
+
 Álvaro Salazar es una ingeniera civil de 31 años que se identifica con el género femenino y es soltera. No tiene personas que dependan económicamente de ella. Cuenta con aproximadamente siete años de experiencia en el sector construcción y ha participado principalmente en proyectos de edificaciones y remodelaciones.
+
+</p>
+
+<p align="justify">
 
 Su jornada habitual comprende la organización de actividades, supervisión de cuadrillas, revisión de materiales y coordinación con el área administrativa al finalizar el día. Dependiendo del proyecto, suele trabajar con aproximadamente entre diez y dieciocho trabajadores y gestionar materiales como ladrillo, cemento, fierro y concreto premezclado.
 
+</p>
+
+<p align="justify">
+
 La asistencia del personal se registra mediante firmas y las ausencias suelen comunicarse a través de WhatsApp. Para controlar el inventario utiliza Excel y, en determinadas situaciones, cuadernos físicos. El avance de la obra es documentado mediante fotografías y posteriormente se elaboran reportes en Word.
+
+</p>
+
+<p align="justify">
 
 La información relacionada con la obra es compartida mediante WhatsApp, correo electrónico y documentos digitales compartidos. Una de sus principales dificultades es mantener toda la información actualizada mientras desarrolla actividades en campo.
 
+</p>
+
+<p align="justify">
+
 Ha experimentado situaciones de compras duplicadas debido a que los registros de inventario no fueron actualizados oportunamente. También identifica dificultades en la coordinación entre campo y administración, debido a que la información generada en obra no siempre llega inmediatamente a la oficina.
+
+</p>
+
+<p align="justify">
 
 La información que necesita con mayor rapidez se encuentra relacionada con stock de materiales, ausencias del personal y avance de las actividades. Su principal objetivo es mantener organizadas las operaciones y evitar interrupciones innecesarias, mientras que sus principales frustraciones son registrar repetidamente la misma información y trabajar con datos desactualizados.
 
+</p>
+
+<p align="justify">
+
 Considera que la gestión podría mejorar mediante una herramienta que pueda utilizar directamente desde el smartphone y que centralice la información de obra. Entre las características que considera especialmente importantes se encuentran las alertas por ausencias o niveles bajos de materiales, reportes resumidos y una interfaz sencilla.
+
+</p>
+
+<p align="justify">
 
 Para confiar en una solución digital espera que sea intuitiva, confiable y que almacene adecuadamente la información. Entre las posibles barreras identifica la dependencia de una buena conexión a Internet y un rendimiento lento de la aplicación.
 
+</p>
+
+<p align="justify">
+
 Se describe como una persona práctica, dinámica y orientada a resolver problemas. Considera importantes las habilidades de organización, comunicación, resolución de problemas y manejo de herramientas digitales.
+
+</p>
+
+<p align="justify">
 
 Entre sus influencias se encuentran contenidos técnicos de **SENCICO**, experiencias compartidas por colegas y comunidades profesionales. También utiliza herramientas de Microsoft Office y Autodesk.
 
+</p>
+
+<p align="justify">
+
 Utiliza smartphone y laptop. En actividades realizadas directamente en campo prefiere el smartphone, mientras que para preparar reportes prefiere la laptop. Sus aplicaciones y canales más utilizados son WhatsApp, Excel, Word y Google Drive. Su navegador habitual es Google Chrome.
 
+</p>
+
+<p align="justify">
+
 Finalmente, considera que sería útil recibir alertas automáticas ante eventos relevantes. Estaría dispuesta a utilizar una plataforma de gestión siempre que pueda emplearla fácilmente durante las actividades desarrolladas en campo.
+
+</p>
 
 ---
 
@@ -1273,7 +1813,7 @@ Finalmente, considera que sería útil recibir alertas automáticas ante eventos
 - **Duración:** 06:22
 - **Video consolidado:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202320442_upc_edu_pe/IQDWnJj67oWOTaeKQVq4DaOPAXX9DFuqJ-kxtlCUQ-2Lsos?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=8BvJOp
 
-**Figura 4**  
+**Figura 5**  
 _Cuadro de video del entrevistado #1 del segmento Contratantes de empresas privadas._
 
 <p align="center">
@@ -1286,29 +1826,77 @@ _Nota._ Elaboración propia a partir de la entrevista realizada.
 
 **Resumen de la entrevista**
 
+<p align="justify">
+
 Yul Nuñez es una administradora de un pequeño negocio comercial de 27 años, residente en Cercado de Lima. Se identifica con el género femenino, es soltera y no tiene hijos ni personas que dependan económicamente de ella. Cuenta con aproximadamente cuatro años de experiencia contratando proyectos relacionados con remodelaciones y adecuaciones de locales comerciales.
+
+</p>
+
+<p align="justify">
 
 Suele contratar principalmente remodelaciones de locales comerciales, oficinas y pequeños almacenes. Para seleccionar una empresa constructora revisa recomendaciones, trabajos anteriores, presupuesto y cumplimiento de plazos.
 
+</p>
+
+<p align="justify">
+
 Actualmente se mantiene informada sobre sus proyectos mediante WhatsApp y correo electrónico. Recibe principalmente fotografías y listados semanales, aunque considera que esta información puede ser informal y no siempre permite determinar con claridad cuánto se ha avanzado.
+
+</p>
+
+<p align="justify">
 
 Para verificar licencias y condiciones normativas revisa la documentación con apoyo de un abogado y, cuando lo considera necesario, contrata inspecciones externas. En relación con materiales y personal, depende principalmente de la información proporcionada por la constructora y de las visitas realizadas a la obra.
 
+</p>
+
+<p align="justify">
+
 Entre sus experiencias negativas menciona retrasos, acabados con una calidad menor a la esperada y reportes poco claros. En una experiencia previa, el retraso en una obra ocasionó aproximadamente S/ 10 000 de pérdidas debido a que no pudo abrir un negocio en la fecha programada.
+
+</p>
+
+<p align="justify">
 
 Su principal objetivo es que los proyectos finalicen dentro del plazo y presupuesto establecidos. Su principal frustración es no conocer con claridad lo que está ocurriendo durante la ejecución hasta que aparece un problema.
 
+</p>
+
+<p align="justify">
+
 Considera especialmente importante disponer de información sobre avance, materiales, personal e incidentes. Le gustaría poder consultar esta información cuando la necesite y recibir adicionalmente un resumen semanal.
+
+</p>
+
+<p align="justify">
 
 Considera que las constructoras deberían comunicar los problemas con mayor claridad y anticipación. Una herramienta digital podría permitirle consultar directamente la información sin solicitar actualizaciones constantemente. Para confiar en una plataforma espera disponer de reportes claros, fotografías, seguimiento de materiales y personal e información sobre licencias. Los datos desactualizados o la falta de trazabilidad sobre el origen de la información le generarían desconfianza.
 
+</p>
+
+<p align="justify">
+
 Se describe como una persona práctica que compara alternativas y revisa referencias antes de tomar decisiones, debido a que busca reducir riesgos. Considera importantes las habilidades de organización, negociación y revisión de presupuestos.
+
+</p>
+
+<p align="justify">
 
 Entre sus principales influencias se encuentran las recomendaciones de otros empresarios, referencias de clientes anteriores y el portafolio de trabajos realizados por las constructoras.
 
+</p>
+
+<p align="justify">
+
 Utiliza smartphone y laptop. Prefiere el smartphone para comunicaciones rápidas y la laptop para revisar documentos. Entre sus principales canales y aplicaciones digitales se encuentran WhatsApp, Gmail y Google Drive. Su navegador habitual es Google Chrome.
 
+</p>
+
+<p align="justify">
+
 Finalmente, considera que una empresa constructora que utilice herramientas digitales para ofrecer mayor transparencia y organización generaría mayor confianza e influiría positivamente en su decisión de contratación.
+
+</p>
 
 ---
 
@@ -1325,7 +1913,7 @@ Finalmente, considera que una empresa constructora que utilice herramientas digi
 - **Duración:** 06:24
 - **Video consolidado:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202320442_upc_edu_pe/IQDWnJj67oWOTaeKQVq4DaOPAXX9DFuqJ-kxtlCUQ-2Lsos?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=8BvJOp
 
-**Figura 5**  
+**Figura 6**  
 _Cuadro de video del entrevistado #2 del segmento Contratantes de empresas privadas._
 
 <p align="center">
@@ -1338,31 +1926,83 @@ _Nota._ Elaboración propia a partir de la entrevista realizada.
 
 **Resumen de la entrevista**
 
+<p align="justify">
+
 Gerardo Rojas Quispe es un gerente de operaciones de 35 años, residente en San Martín de Porres. Se identifica con el género masculino, es casado y tiene responsabilidades familiares, aspecto que influye en la organización de sus horarios y en la precaución con la que evalúa decisiones que pueden representar riesgos económicos.
+
+</p>
+
+<p align="justify">
 
 Cuenta con aproximadamente ocho años de experiencia participando en proyectos relacionados con remodelaciones industriales, oficinas y almacenes. Para seleccionar una empresa constructora considera principalmente la experiencia específica, el cumplimiento normativo, la transparencia, el presupuesto y los plazos.
 
+</p>
+
+<p align="justify">
+
 Actualmente recibe reportes sobre el avance mediante correo electrónico aproximadamente cada diez días. Esta información se complementa con fotografías y visitas quincenales, mientras que para las comunicaciones rápidas utiliza WhatsApp. Algunas constructoras proporcionan gráficos, aunque una parte importante continúa utilizando documentos básicos elaborados en Word o Excel.
+
+</p>
+
+<p align="justify">
 
 Para verificar licencias y normas de seguridad recurre al equipo legal de su empresa y, cuando es necesario, solicita la participación de un ingeniero especializado. A pesar de ello, no cuenta con visibilidad directa y permanente sobre los materiales y personal, por lo que depende en gran medida de los reportes y visitas.
 
+</p>
+
+<p align="justify">
+
 Entre las principales dificultades que ha experimentado se encuentran una planificación deficiente de materiales, retrasos y comunicación tardía de los problemas. También ha recibido reportes que ya no representaban adecuadamente la situación actual de la obra.
+
+</p>
+
+<p align="justify">
 
 En determinados proyectos, las penalidades y acciones necesarias para acelerar la ejecución han generado aproximadamente S/ 15 000 de costos adicionales. También ha experimentado situaciones en las que se utilizaron materiales de calidad inferior a la acordada.
 
+</p>
+
+<p align="justify">
+
 Su principal objetivo es que los proyectos sean ejecutados dentro del presupuesto y cronograma establecidos. Su principal frustración es enterarse tarde de riesgos que podrían haber sido gestionados previamente.
+
+</p>
+
+<p align="justify">
 
 Considera indispensable consultar información sobre avance, presupuesto, materiales, personal, incidentes y licencias. Para él, la información crítica debería estar disponible permanentemente.
 
+</p>
+
+<p align="justify">
+
 Considera que una plataforma digital podría aportar trazabilidad y permitirle consultar información sin esperar al siguiente reporte por correo. Para confiar en una herramienta de este tipo considera necesarios mecanismos de seguridad, historial de cambios, registros detallados y responsables claramente identificados. La posibilidad de que cualquier usuario modifique información o la presencia de datos desactualizados le generarían desconfianza.
+
+</p>
+
+<p align="justify">
 
 Se describe como una persona analítica que evalúa costos, riesgos e impacto sobre el cronograma antes de tomar decisiones. Entre las habilidades que considera más importantes se encuentran planificación, negociación, análisis presupuestal y gestión de riesgos.
 
+</p>
+
+<p align="justify">
+
 Sus decisiones están influenciadas principalmente por su equipo técnico, asesores legales, otros gerentes y referencias proporcionadas por empresas que hayan trabajado anteriormente con una constructora.
+
+</p>
+
+<p align="justify">
 
 Utiliza laptop y smartphone, aunque prefiere la laptop para desarrollar sus actividades profesionales. Entre sus herramientas y canales digitales se encuentran Outlook, Microsoft Teams, WhatsApp y Excel. Su navegador habitual es Microsoft Edge.
 
+</p>
+
+<p align="justify">
+
 Finalmente, considera que una plataforma de seguimiento podría influir positivamente en su decisión de contratar una constructora, debido a que representaría una señal de mayor organización y madurez en sus procesos. También considera valioso disponer de alertas automáticas ante eventos críticos.
+
+</p>
 
 ---
 
@@ -1379,7 +2019,7 @@ Finalmente, considera que una plataforma de seguimiento podría influir positiva
 - **Duración:** 06:12
 - **Video consolidado:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202320442_upc_edu_pe/IQDWnJj67oWOTaeKQVq4DaOPAXX9DFuqJ-kxtlCUQ-2Lsos?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=8BvJOp
 
-**Figura 6**  
+**Figura 7**  
 _Cuadro de video del entrevistado #3 del segmento Contratantes de empresas privadas._
 
 <p align="center">
@@ -1392,43 +2032,111 @@ _Nota._ Elaboración propia a partir de la entrevista realizada.
 
 **Resumen de la entrevista**
 
+<p align="justify">
+
 Delicia Aguilar Vega es una administradora de una pequeña empresa de 28 años, residente en San Juan de Miraflores. Se identifica con el género femenino, es conviviente y tiene responsabilidades familiares, ya que contribuye económicamente en su hogar. Esta situación influye en la precaución con la que toma decisiones financieras.
+
+</p>
+
+<p align="justify">
 
 Cuenta con aproximadamente cinco años de experiencia contratando remodelaciones y adecuaciones de locales. Los proyectos que suele contratar incluyen remodelaciones, pequeños locales comerciales y edificaciones de hasta tres pisos.
 
+</p>
+
+<p align="justify">
+
 Para seleccionar una empresa constructora considera principalmente la experiencia, cumplimiento de plazos, presupuesto y transparencia. Actualmente recibe reportes semanales por correo electrónico y fotografías ocasionales mediante WhatsApp. Los reportes son elaborados principalmente en Word o Excel.
+
+</p>
+
+<p align="justify">
 
 Para verificar licencias y cumplimiento normativo solicita la documentación mediante correo electrónico y complementa este proceso con verificaciones presenciales de su equipo. No obstante, reconoce que no tiene capacidad para verificar directamente y de manera continua el uso de materiales y el personal presente en obra, por lo que depende en gran medida de la información proporcionada por la constructora.
 
+</p>
+
+<p align="justify">
+
 Entre las principales dificultades que ha experimentado se encuentran la comunicación poco proactiva, informes incompletos y poca claridad sobre el uso de materiales. También ha experimentado situaciones en las que se comunicaron retrasos después de que estos ya habían afectado considerablemente el cronograma.
+
+</p>
+
+<p align="justify">
 
 En una experiencia anterior, problemas relacionados con planificación y comunicación impidieron entregar una obra dentro del plazo establecido, lo que ocasionó la pérdida de un contrato y el pago de una penalidad.
 
+</p>
+
+<p align="justify">
+
 Su principal objetivo es comprobar que la obra avance de acuerdo con lo acordado. Su mayor frustración es recibir información sobre los problemas cuando estos ya han ocurrido y existen menos posibilidades de corregirlos.
+
+</p>
+
+<p align="justify">
 
 Considera especialmente importante disponer de información sobre avance, materiales, personal, incidentes, retrasos y actividades pendientes. Le gustaría poder consultar estos datos en cualquier momento y recibir, además, un resumen semanal del estado general del proyecto.
 
+</p>
+
+<p align="justify">
+
 Considera que la comunicación podría mejorar mediante la centralización de la información y el envío de avisos cuando ocurra algún evento importante. Una herramienta digital podría proporcionarle una visión más estructurada y reducir su dependencia de mensajes aislados.
+
+</p>
+
+<p align="justify">
 
 Para confiar en una plataforma considera importante disponer de evidencias, fechas de actualización, responsables identificados y reportes comprensibles. Una plataforma complicada o con datos desactualizados disminuiría su disposición a utilizarla.
 
+</p>
+
+<p align="justify">
+
 Se describe como una persona organizada y precavida que prefiere conocer los problemas con anticipación antes de tomar decisiones. Considera importantes las habilidades de organización, control de gastos, comunicación y negociación.
+
+</p>
+
+<p align="justify">
 
 Sus decisiones están influenciadas principalmente por recomendaciones de personas conocidas, referencias de otros clientes y evidencia de trabajos anteriores desarrollados por la constructora.
 
+</p>
+
+<p align="justify">
+
 Utiliza laptop y smartphone, prefiriendo la laptop para la revisión de documentos. Sus principales herramientas y canales digitales son correo electrónico, WhatsApp, Excel y Google Drive. Utiliza Google Chrome como navegador habitual.
 
+</p>
+
+<p align="justify">
+
 Finalmente, considera que una empresa constructora que permita realizar un seguimiento transparente mediante una plataforma digital generaría mayor confianza e influiría positivamente en su decisión de contratación. También considera útil contar con alertas automáticas ante eventos importantes sin necesidad de revisar constantemente el sistema.
+
+</p>
 
 ---
 
 ### 2.2.3. Análisis de entrevistas
 
+<p align="justify">
+
 A partir de las entrevistas registradas se realizó un análisis independiente de los dos segmentos objetivo de ArquiTech: supervisores de obra y contratantes de empresas privadas. El análisis busca identificar, mediante sustento estadístico, las características objetivas y subjetivas más representativas de cada segmento, tomando como fuente las respuestas y resúmenes documentados en el registro de entrevistas.
+
+</p>
+
+<p align="justify">
 
 Para cada segmento se consideraron tres participantes. En consecuencia, una característica identificada en un participante representa el 33.3 % del segmento, una característica compartida por dos participantes representa el 66.7 %, y una característica presente en los tres participantes representa el 100 %.
 
+</p>
+
+<p align="justify">
+
 Las características analizadas comprenden aspectos demográficos y profesionales, experiencia, contexto familiar, preferencias tecnológicas, personalidad, habilidades, influencias, canales de interacción, objetivos, frustraciones, necesidades y expectativas. Estos resultados servirán posteriormente como base para la construcción de los User Personas y los demás artefactos de Needfinding.
+
+</p>
 
 ---
 
@@ -1436,23 +2144,55 @@ Las características analizadas comprenden aspectos demográficos y profesionale
 
 ##### Características objetivas predominantes
 
+<p align="justify">
+
 Las entrevistas muestran que el segmento está conformado por profesionales con experiencia directa en la supervisión y gestión de proyectos de construcción. El 100 % de los participantes se desempeña como supervisor o supervisora de obra y participa directamente en actividades relacionadas con personal, materiales, avance y coordinación de los proyectos.
+
+</p>
+
+<p align="justify">
 
 Respecto al género, el 66.7 % de los participantes se identifica con el género femenino y el 33.3 % con el género masculino.
 
+</p>
+
+<p align="justify">
+
 En cuanto a la edad, el 66.7 % tiene 55 años o más, mientras que el 33.3 % se encuentra alrededor de los 31 años. Esto evidencia la presencia predominante de profesionales con una trayectoria extensa, aunque también existe representación de perfiles más jóvenes con experiencia en herramientas digitales.
+
+</p>
+
+<p align="justify">
 
 El 66.7 % de los participantes se encuentra casado y tiene responsabilidades familiares, mientras que el 33.3 % es soltero y no presenta personas económicamente dependientes.
 
+</p>
+
+<p align="justify">
+
 En relación con la experiencia profesional, el 66.7 % cuenta con más de veinte años de experiencia en el sector construcción, mientras que el 33.3 % cuenta con aproximadamente siete años de experiencia. En todos los casos, equivalente al 100 %, la trayectoria está directamente relacionada con supervisión, construcción, edificaciones, remodelaciones o control técnico de obras.
+
+</p>
+
+<p align="justify">
 
 Respecto al uso de tecnología, el 100 % utiliza tanto smartphone como laptop durante sus actividades profesionales. El 66.7 % manifiesta una preferencia principal por la laptop para revisar documentación o preparar reportes, mientras que el 33.3 % destaca el smartphone como dispositivo preferido para las actividades realizadas directamente en campo.
 
+</p>
+
+<p align="justify">
+
 El 100 % utiliza WhatsApp como canal de comunicación laboral y el 100 % utiliza correo electrónico o herramientas equivalentes para compartir información y documentación. Asimismo, el 100 % utiliza Google Chrome como navegador habitual.
+
+</p>
+
+<p align="justify">
 
 Los distritos de residencia serán incorporados al análisis estadístico una vez que los tres participantes completen esta información durante las entrevistas. Este dato no se considera todavía dentro de los porcentajes para evitar incorporar información que no haya sido registrada.
 
-Figura X  
+</p>
+
+Figura 8  
 _Características objetivas predominantes en supervisores de obra_
 
 <!-- DATOS PARA LA GRÁFICA:
@@ -1480,33 +2220,77 @@ Preferencia principal por laptop: 66.7 %
 
 _Nota._ Elaboración propia a partir de las entrevistas realizadas.
 
+<p align="justify">
+
 Los resultados objetivos permiten identificar un segmento profesional con experiencia significativa en el sector, acostumbrado a combinar herramientas tradicionales de gestión con dispositivos y canales digitales de uso general. La laptop y el smartphone forman parte de las herramientas habituales de los tres participantes, aunque la elección del dispositivo depende del contexto de trabajo: la laptop se utiliza principalmente para documentación y reportes, mientras que el smartphone facilita la comunicación y el trabajo en campo.
+
+</p>
 
 ---
 
 ##### Características subjetivas predominantes
 
+<p align="justify">
+
 Las respuestas también muestran patrones comunes relacionados con la forma de trabajar, las habilidades, objetivos, frustraciones y expectativas de los supervisores.
+
+</p>
+
+<p align="justify">
 
 El 100 % considera fundamental disponer de información actualizada sobre el estado de la obra. Los tres participantes mencionaron problemas asociados con información desactualizada, inconsistencias en registros o dificultades para conocer oportunamente el estado del inventario, personal o avance.
 
+</p>
+
+<p align="justify">
+
 El 100 % manifestó interés en centralizar información relacionada con asistencia, inventario, recursos, avance y reportes. La fragmentación entre registros físicos, hojas de cálculo, comunicaciones y documentos constituye una dificultad común dentro del segmento.
+
+</p>
+
+<p align="justify">
 
 Asimismo, el 100 % considera importante que una herramienta digital sea sencilla y confiable. Los participantes señalaron que una solución demasiado compleja, lenta o difícil de utilizar podría convertirse en una barrera de adopción.
 
+</p>
+
+<p align="justify">
+
 La coordinación y comunicación entre personas y áreas constituye otra característica representativa. El 100 % reconoce la importancia de mantener una comunicación efectiva entre campo, administración, residentes, responsables técnicos y almacén.
+
+</p>
+
+<p align="justify">
 
 En relación con las habilidades, el 100 % menciona la comunicación o coordinación como una competencia relevante. El 66.7 % destaca explícitamente habilidades relacionadas con organización y control, y el 66.7 % menciona capacidades vinculadas con resolución de problemas o prevención de incidencias.
 
+</p>
+
+<p align="justify">
+
 Respecto a la personalidad, los tres perfiles presentan una orientación hacia el control y resolución de situaciones operativas. El 100 % evidencia una forma de trabajo orientada a comprobar información, prevenir problemas o reaccionar ante situaciones que puedan afectar el proyecto.
+
+</p>
+
+<p align="justify">
 
 En cuanto a influencias profesionales, SENCICO es mencionado por el 100 % de los participantes como fuente o referente técnico. CAPECO aparece en el 66.7 % de los casos y herramientas o productos asociados con Microsoft se encuentran presentes en el 100 % de los perfiles tecnológicos. Autodesk aparece como herramienta o referencia tecnológica en el 66.7 %.
 
+</p>
+
+<p align="justify">
+
 El 100 % tiene como objetivo mantener control sobre la ejecución de la obra y evitar que problemas relacionados con personal, materiales o información interrumpan el desarrollo de las actividades.
+
+</p>
+
+<p align="justify">
 
 Finalmente, el 100 % presenta frustraciones relacionadas con información que no se encuentra actualizada oportunamente, mientras que el 66.7 % menciona directamente retrasos o problemas asociados con materiales y el 66.7 % evidencia preocupación por la coordinación entre distintas áreas.
 
-Figura X  
+</p>
+
+Figura 9  
 _Características subjetivas predominantes en supervisores de obra_
 
 <!-- DATOS PARA LA GRÁFICA:
@@ -1535,9 +2319,17 @@ Retrasos/problemas de materiales: 66.7 %
 
 _Nota._ Elaboración propia a partir de las entrevistas realizadas.
 
+<p align="justify">
+
 En conjunto, el segmento de supervisores se caracteriza por una orientación hacia el control operativo, organización, disponibilidad de información y coordinación de recursos. Los participantes necesitan mantener información actualizada sobre personal, materiales y avance, y muestran una percepción favorable hacia herramientas digitales siempre que estas simplifiquen el trabajo y no añadan complejidad a las actividades realizadas en campo.
 
+</p>
+
+<p align="justify">
+
 Estas características deberán reflejarse posteriormente en el User Persona correspondiente al segmento, especialmente en sus objetivos, habilidades, comportamiento tecnológico, necesidades y frustraciones.
+
+</p>
 
 ---
 
@@ -1545,23 +2337,55 @@ Estas características deberán reflejarse posteriormente en el User Persona cor
 
 ##### Características objetivas predominantes
 
+<p align="justify">
+
 Los contratantes entrevistados desempeñan funciones administrativas o gerenciales desde las cuales participan directamente en la selección de constructoras y en el seguimiento de proyectos.
+
+</p>
+
+<p align="justify">
 
 Respecto al género, el 66.7 % se identifica con el género femenino y el 33.3 % con el género masculino.
 
+</p>
+
+<p align="justify">
+
 En relación con la edad, el 66.7 % tiene menos de 30 años, mientras que el 33.3 % tiene 35 años. Esto representa un segmento predominantemente adulto joven que combina responsabilidades administrativas con seguimiento de proyectos de construcción.
+
+</p>
+
+<p align="justify">
 
 El 66.7 % tiene responsabilidades familiares, mientras que el 33.3 % no presenta personas económicamente dependientes. Respecto al estado civil, los tres participantes presentan condiciones distintas: el 33.3 % es soltero, el 33.3 % casado y el 33.3 % conviviente, por lo que no existe una situación civil predominante.
 
+</p>
+
+<p align="justify">
+
 El 100 % desarrolla funciones administrativas, gerenciales o de toma de decisiones dentro de una empresa. Asimismo, el 100 % cuenta con experiencia previa contratando o realizando seguimiento a proyectos de construcción, con una experiencia comprendida aproximadamente entre cuatro y ocho años.
+
+</p>
+
+<p align="justify">
 
 Los tres participantes residen en Lima Metropolitana, equivalente al 100 % del segmento: Cercado de Lima, San Martín de Porres y San Juan de Miraflores.
 
+</p>
+
+<p align="justify">
+
 En cuanto a tecnología, el 100 % utiliza laptop y smartphone. El 100 % utiliza la laptop para revisar documentos o realizar actividades profesionales relacionadas con el seguimiento de sus proyectos, mientras que el smartphone se utiliza principalmente para comunicaciones rápidas.
+
+</p>
+
+<p align="justify">
 
 El 100 % utiliza WhatsApp y correo electrónico como canales de comunicación relacionados con los proyectos. Respecto al navegador, el 66.7 % utiliza Google Chrome y el 33.3 % utiliza Microsoft Edge.
 
-Figura X  
+</p>
+
+Figura 10  
 _Características objetivas predominantes en contratantes de empresas privadas_
 
 <!-- DATOS PARA LA GRÁFICA:
@@ -1589,35 +2413,83 @@ Google Chrome como navegador: 66.7 %
 
 _Nota._ Elaboración propia a partir de las entrevistas realizadas.
 
+<p align="justify">
+
 Los datos objetivos permiten identificar un segmento compuesto por personas con responsabilidades administrativas y capacidad de decisión, que utilizan habitualmente herramientas digitales convencionales para revisar documentación y comunicarse con las constructoras. Todos los participantes poseen experiencia previa con proyectos de construcción, lo que les permite evaluar aspectos como cumplimiento de plazos, presupuesto, calidad y transparencia.
+
+</p>
 
 ---
 
 ##### Características subjetivas predominantes
 
+<p align="justify">
+
 Las entrevistas muestran una coincidencia significativa respecto a la importancia de disponer de información clara, actualizada y verificable durante la ejecución de los proyectos.
+
+</p>
+
+<p align="justify">
 
 El 100 % considera la transparencia como una característica fundamental al trabajar con una empresa constructora. Los tres participantes relacionan una mayor transparencia con una mayor confianza y capacidad para tomar decisiones.
 
+</p>
+
+<p align="justify">
+
 El 100 % manifiesta la necesidad de acceder a información actualizada sobre el avance de la obra. Asimismo, los tres participantes consideran importante conocer información relacionada con materiales, personal, incidentes o situaciones que puedan afectar el desarrollo del proyecto.
+
+</p>
+
+<p align="justify">
 
 La comunicación proactiva constituye otro patrón común. El 100 % expresa frustración frente a problemas comunicados tardíamente o información incompleta, y considera importante conocer los riesgos antes de que estos produzcan consecuencias importantes.
 
+</p>
+
+<p align="justify">
+
 Respecto a la forma de tomar decisiones, el 100 % presenta un comportamiento orientado a la reducción de riesgos. Los participantes revisan referencias, antecedentes, costos, cumplimiento o evidencia antes de elegir o continuar trabajando con una empresa constructora.
+
+</p>
+
+<p align="justify">
 
 El 100 % considera que una herramienta digital de seguimiento podría mejorar su experiencia, especialmente si proporciona trazabilidad, evidencia y acceso directo a la información.
 
+</p>
+
+<p align="justify">
+
 En relación con las habilidades, la negociación aparece en el 100 % de los perfiles, mientras que las capacidades relacionadas con organización, planificación o control financiero están presentes en el 100 % de los participantes.
+
+</p>
+
+<p align="justify">
 
 Las recomendaciones, referencias o antecedentes de terceros constituyen una influencia relevante en el 100 % de los casos. Los participantes indicaron que consideran referencias de clientes, otros empresarios, equipos técnicos, asesores o experiencias anteriores antes de tomar decisiones.
 
+</p>
+
+<p align="justify">
+
 En cuanto a los factores de confianza, el 100 % valora que la información presentada incluya evidencia o mecanismos que permitan comprobar su procedencia. Los registros actualizados, fotografías, responsables identificados, historial de cambios o documentación constituyen elementos importantes para el segmento.
+
+</p>
+
+<p align="justify">
 
 El cumplimiento de plazos constituye un objetivo o criterio de decisión para el 100 % de los participantes. Asimismo, el 100 % busca reducir la incertidumbre y evitar consecuencias económicas ocasionadas por retrasos, falta de planificación o comunicación tardía.
 
+</p>
+
+<p align="justify">
+
 Como principal frustración, el 100 % menciona situaciones relacionadas con información incompleta, poco clara o comunicada después de que el problema ya se ha producido.
 
-Figura X  
+</p>
+
+Figura 11  
 _Características subjetivas predominantes en contratantes de empresas privadas_
 
 <!-- DATOS PARA LA GRÁFICA:
@@ -1645,25 +2517,57 @@ Información tardía o incompleta como frustración: 100 %
 
 _Nota._ Elaboración propia a partir de las entrevistas realizadas.
 
+<p align="justify">
+
 El segmento de contratantes se caracteriza principalmente por una necesidad de transparencia, visibilidad, reducción de riesgos y acceso oportuno a información verificable. Los participantes valoran positivamente la tecnología cuando esta les permite conocer el estado real de una obra sin depender exclusivamente de reportes enviados manualmente por la constructora.
 
+</p>
+
+<p align="justify">
+
 Estas características deberán reflejarse posteriormente en el User Persona correspondiente al segmento, particularmente en su comportamiento orientado al análisis de riesgos, sus necesidades de información, sus factores de confianza, sus canales digitales y sus principales frustraciones.
+
+</p>
 
 ---
 
 #### Síntesis del análisis
 
+<p align="justify">
+
 Los resultados permiten observar diferencias claras entre los dos segmentos objetivo.
+
+</p>
+
+<p align="justify">
 
 Los supervisores de obra presentan necesidades principalmente relacionadas con el control operativo y la actualización de información. El 100 % busca disponer de información actualizada, el 100 % considera necesaria una mejor centralización de datos y el 100 % destaca la importancia de la coordinación entre los diferentes responsables del proyecto.
 
+</p>
+
+<p align="justify">
+
 En contraste, los contratantes de empresas privadas concentran sus necesidades en la transparencia, visibilidad y reducción de incertidumbre. El 100 % considera importante contar con información actualizada, el 100 % valora la transparencia y el 100 % presenta preocupación por recibir información o alertas demasiado tarde.
+
+</p>
+
+<p align="justify">
 
 A nivel tecnológico, ambos segmentos utilizan dispositivos y herramientas digitales de uso cotidiano, pero con finalidades distintas. Los supervisores emplean principalmente estas herramientas para registrar, consolidar y comunicar información operativa, mientras que los contratantes las utilizan para recibir documentación, revisar el estado de sus proyectos y comunicarse con la constructora.
 
+</p>
+
+<p align="justify">
+
 En consecuencia, el arquetipo correspondiente al supervisor de obra deberá reflejar principalmente necesidades de eficiencia operativa, control, coordinación y reducción de registros fragmentados. Por otro lado, el arquetipo correspondiente al contratante de empresa privada deberá reflejar necesidades de transparencia, seguimiento, evidencia, confianza y reducción de riesgos.
 
+</p>
+
+<p align="justify">
+
 La información obtenida en este análisis mantiene relación directa con los registros y resúmenes de las entrevistas y constituirá la base para la construcción de los User Personas y los demás artefactos de Needfinding.
+
+</p>
 
 ---
 
@@ -1671,7 +2575,7 @@ La información obtenida en este análisis mantiene relación directa con los re
 
 ### 2.3.1. User Personas
 
-**Figura 22**  
+**Figura 12**  
 _User persona del segmento #1: Supervisor de Obra_
 
 <p align="center">
@@ -1680,7 +2584,7 @@ _User persona del segmento #1: Supervisor de Obra_
 
 _Nota._ Elaboración propia.
 
-**Figura 23**  
+**Figura 13**  
 _User persona del segmento #2: Contratista de Empresas privadas_
 
 <p align="center">
@@ -1719,7 +2623,7 @@ _Nota._ Elaboración propia.
 
 ### 2.3.4. Empathy Mapping
 
-**Figura 26**
+**Figura 14**
 _Empathy Mapping del segmento #1: Supervisor de Obra_
 
 <p align="center">
@@ -1728,7 +2632,7 @@ _Empathy Mapping del segmento #1: Supervisor de Obra_
 
 _Nota._ Elaboración propia.
 
-**Figura 27**
+**Figura 15**
 _Empathy Mapping del segmento #2: Contratista de Empresas privadas_
 
 <p align="center">
@@ -1741,28 +2645,28 @@ _Nota._ Elaboración propia.
 
 <ins>**As-Is Scenario Mapping del segmento #1: Supervisores de Obra**</ins>
 
-**Figura 28**  
+**Figura 16**  
 _As-Is Scenario Mapping para segmento #1_
 
 <p align="center">
   <img src="assets/As-is/OS_As-is_S1.jpg" alt="PB" width="1000">
 </p>
 
-**Figura 29**  
+**Figura 17**  
 _Áreas positivas del As-Is Scenario Mapping para segmento #1_
 
 <p align="center">
   <img src="assets/As-is/OS_As-is_S1_AP.jpg" alt="PB" width="1000">
 </p>
 
-**Figura 30**  
+**Figura 18**  
 _Áreas negativas del As-Is Scenario Mapping para segmento #1_
 
 <p align="center">
   <img src="assets/As-is/OS_As-is_S1_AN.jpg" alt="PB" width="1000">
 </p>
 
-**Figura 31**  
+**Figura 19**  
 _Blank areas del As-Is Scenario Mapping para segmento \#1_
 
 <p align="center">
@@ -1771,28 +2675,28 @@ _Blank areas del As-Is Scenario Mapping para segmento \#1_
 
 <ins>**As-Is Scenario Mapping para Segmento \# 2: Contratantes de Empresas Privadas**</ins>
 
-**Figura 32**  
+**Figura 20**  
 _As-Is Scenario Mapping para segmento #2_
 
 <p align="center">
   <img src="assets/As-is/OS_As-is_S2.jpg" alt="PB" width="1000">
 </p>
 
-**Figura 33**  
+**Figura 21**  
 _Áreas positivas del As-Is Scenario Mapping para segmento #2_
 
 <p align="center">
   <img src="assets/As-is/OS_As-is_S2_AP.jpg" alt="PB" width="1000">
 </p>
 
-**Figura 34**  
+**Figura 22**  
 _Áreas negativas del As-Is Scenario Mapping para segmento #2_
 
 <p align="center">
   <img src="assets/As-is/OS_As-is_S2_AN.jpg" alt="PB" width="1000">
 </p>
 
-**Figura 35**  
+**Figura 23**  
 _Blank areas del As-Is Scenario Mapping para segmento #2_
 
 <p align="center">
@@ -1824,28 +2728,28 @@ _Blank areas del As-Is Scenario Mapping para segmento #2_
 
 <ins>**To-Be Scenario Mapping del segmento #1: Supervisores de obra**</ins>
 
-**Figura 36**  
+**Figura 24**  
 _To-Be Scenario Mapping del segmento #1_
 
 <p align="center">
   <img src="assets/To-be/OS_To-be_S1.jpg" alt="PB" width="1000">
 </p>
 
-**Figura 37**  
+**Figura 25**  
 _Áreas positivas del To-Be Scenario Mapping para segmento #1_
 
 <p align="center">
   <img src="assets/To-be/OS_To-be_S1_AP.jpg" alt="PB" width="1000">
 </p>
 
-**Figura 38**  
+**Figura 26**  
 _Áreas negativas del To-Be Scenario Mapping para segmento #1_
 
 <p align="center">
   <img src="assets/To-be/OS_To-be_S1_AN.jpg" alt="PB" width="1000">
 </p>
 
-**Figura XX**
+**Figura 27**
 
 <p align="center">
   <img src="assets/chapter-4/mobile-application-wireframes/mobile-wireframe-login.png" alt="Mobile Wireframe Login" width="300">
@@ -1854,7 +2758,7 @@ _Áreas negativas del To-Be Scenario Mapping para segmento #1_
 
 <br>
 
-**Figura XX**
+**Figura 28**
 
 <p align="center">
   <img src="assets/chapter-4/mobile-application-wireframes/mobile-wireframe-projects.png" alt="Mobile Wireframe Projects" width="300">
@@ -1863,7 +2767,7 @@ _Áreas negativas del To-Be Scenario Mapping para segmento #1_
 
 <br>
 
-**Figura XX**
+**Figura 29**
 
 <p align="center">
   <img src="assets/chapter-4/mobile-application-wireframes/mobile-wireframe-workers.png" alt="Mobile Wireframe Workers" width="300">
@@ -1872,7 +2776,7 @@ _Áreas negativas del To-Be Scenario Mapping para segmento #1_
 
 <br>
 
-**Figura XX**
+**Figura 30**
 
 <p align="center">
   <img src="assets/chapter-4/mobile-application-wireframes/mobile-wireframe-materials.png" alt="Mobile Wireframe Materials" width="300">
@@ -1881,7 +2785,7 @@ _Áreas negativas del To-Be Scenario Mapping para segmento #1_
 
 <br>
 
-**Figura XX**
+**Figura 31**
 
 <p align="center">
   <img src="assets/chapter-4/mobile-application-wireframes/mobile-wireframe-incidents.png" alt="Mobile Wireframe Incidents" width="300">
@@ -1890,7 +2794,7 @@ _Áreas negativas del To-Be Scenario Mapping para segmento #1_
 
 <br>
 
-**Figura XX**
+**Figura 32**
 
 <p align="center">
   <img src="assets/chapter-4/mobile-application-wireframes/mobile-wireframe-machinery.png" alt="Mobile Wireframe Machinery" width="300">
@@ -1903,11 +2807,15 @@ _Áreas negativas del To-Be Scenario Mapping para segmento #1_
 
 **User Goal 1: Supervisión de materiales y personal de obra**
 
+<p align="justify">
+
 Como usuario, quiero poder visualizar desde la aplicación móvil la lista de proyectos que posee mi empresa junto con la información de materiales y trabajadores asociados, para mantener un mejor control y supervisión de los recursos y del personal de cada obra.
+
+</p>
 
 **Wireflow:**
 
-**Figura XX**
+**Figura 33**
 
 <p align="center">
 
@@ -1917,18 +2825,26 @@ Como usuario, quiero poder visualizar desde la aplicación móvil la lista de pr
 
 </p>
 
+<p align="justify">
+
 Para obtener la información de materiales y trabajadores que brinda ArquiTech desde la aplicación móvil, el usuario debe acceder primero mediante la pantalla de inicio de sesión. Luego, puede visualizar la lista de proyectos asociados a su empresa desde la pantalla principal de proyectos. A partir de esta vista, el usuario puede dirigirse a la sección de materiales, donde se muestran datos como la cantidad registrada, el stock disponible, el precio y el proveedor. Del mismo modo, puede acceder a la sección de trabajadores, donde se presenta información como el nombre del trabajador, su rol, la fecha de contratación y el proyecto al que se encuentra asociado.
+
+</p>
 
 
 **Segmento #1: Supervisores de obra**
 
 **User Goal 1: Gestión de maquinarias e incidentes**
 
+<p align="justify">
+
 Como usuario, quiero consultar desde la aplicación móvil las maquinarias utilizadas en los proyectos y los incidentes registrados durante la ejecución de las obras, para mantener una visión general sobre la disponibilidad de los equipos y las situaciones que pueden afectar la seguridad y el desarrollo del proyecto.
+
+</p>
 
 **Wireflow:**
 
-**Figura XX**
+**Figura 34**
 
 <p align="center">
 
@@ -1938,11 +2854,15 @@ Como usuario, quiero consultar desde la aplicación móvil las maquinarias utili
 
 </p>
 
+<p align="justify">
+
 Para acceder a las secciones de maquinarias e incidentes desde la aplicación móvil, el supervisor debe iniciar sesión y acceder a la pantalla principal de proyectos. Desde esta vista, puede dirigirse a la sección de incidentes para consultar información como la fecha en la que ocurrió cada evento, su tipo, nivel de severidad y estado de resolución. Asimismo, puede acceder a la sección de maquinaria para visualizar los equipos registrados, incluyendo datos como el nombre de la maquinaria, su licencia o placa, la fecha de registro y su estado de funcionamiento.
+
+</p>
 
 ### 4.4.3. Mobile Applications Mock-ups
 
-**Figura XX**
+**Figura 35**
 
 <p align="center">
   <img src="assets/chapter-4/mobile-application-mockups/mobile-mockup-login.png" alt="Mobile Mockup Login" width="300">
@@ -1951,7 +2871,7 @@ Para acceder a las secciones de maquinarias e incidentes desde la aplicación m�
 
 <br>
 
-**Figura XX**
+**Figura 36**
 
 <p align="center">
   <img src="assets/chapter-4/mobile-application-mockups/mobile-mockup-projects.png" alt="Mobile Mockup Projects" width="300">
@@ -1960,7 +2880,7 @@ Para acceder a las secciones de maquinarias e incidentes desde la aplicación m�
 
 <br>
 
-**Figura XX**
+**Figura 37**
 
 <p align="center">
   <img src="assets/chapter-4/mobile-application-mockups/mobile-mockup-workers.png" alt="Mobile Mockup Workers" width="300">
@@ -1969,7 +2889,7 @@ Para acceder a las secciones de maquinarias e incidentes desde la aplicación m�
 
 <br>
 
-**Figura XX**
+**Figura 38**
 
 <p align="center">
   <img src="assets/chapter-4/mobile-application-mockups/mobile-mockup-materials.png" alt="Mobile Mockup Materials" width="300">
@@ -1978,7 +2898,7 @@ Para acceder a las secciones de maquinarias e incidentes desde la aplicación m�
 
 <br>
 
-**Figura XX**
+**Figura 39**
 
 <p align="center">
   <img src="assets/chapter-4/mobile-application-mockups/mobile-mockup-incidents.png" alt="Mobile Mockup Incidents" width="300">
@@ -1987,7 +2907,7 @@ Para acceder a las secciones de maquinarias e incidentes desde la aplicación m�
 
 <br>
 
-**Figura XX**
+**Figura 40**
 
 <p align="center">
   <img src="assets/chapter-4/mobile-application-mockups/mobile-mockup-machinery.png" alt="Mobile Mockup Machinery" width="300">
@@ -2001,7 +2921,7 @@ Para acceder a las secciones de maquinarias e incidentes desde la aplicación m�
 **User Goal 1:** Gestionar y controlar materiales de construcción  
 **Descripción:** El supervisor desea consultar y controlar desde la aplicación móvil la disponibilidad, stock y demás información de los materiales asociados a una obra para mantener un mejor control de los recursos utilizados durante el desarrollo del proyecto.
 
-**Figura XX**  
+**Figura 41**  
 *Mobile User Flow 1*
 
 <p align="center">
@@ -2016,7 +2936,7 @@ Para acceder a las secciones de maquinarias e incidentes desde la aplicación m�
 **User Goal 2:** Controlar la asistencia y roles de los trabajadores  
 **Descripción:** El supervisor necesita consultar y gestionar desde la aplicación móvil la información de los trabajadores asignados a la obra, incluyendo sus roles, asistencia, tareas y responsabilidades dentro del proyecto.
 
-**Figura XX**  
+**Figura 42**  
 *Mobile User Flow 2*
 
 <p align="center">
@@ -2031,7 +2951,7 @@ Para acceder a las secciones de maquinarias e incidentes desde la aplicación m�
 **User Goal 3:** Consultar incidencias en obra  
 **Descripción:** El supervisor desea consultar desde la aplicación móvil los incidentes registrados durante la ejecución de la obra para conocer su tipo, fecha, nivel de severidad y estado de resolución.
 
-**Figura XX**  
+**Figura 43**  
 *Mobile User Flow 3*
 
 <p align="center">
@@ -2047,7 +2967,7 @@ Para acceder a las secciones de maquinarias e incidentes desde la aplicación m�
 **User Goal 1:** Visualizar el estado y progreso de mis obras contratadas
 **Descripción:** El contratante necesita consultar desde la aplicación móvil las obras asociadas a su empresa, con acceso a información clara y actualizada sobre el estado general de cada proyecto.
 
-**Figura XX**  
+**Figura 44**  
 *Mobile User Flow 4*
 
 <p align="center">
@@ -2062,7 +2982,7 @@ Para acceder a las secciones de maquinarias e incidentes desde la aplicación m�
 **User Goal 2:** Visualizar el uso y estado de la maquinaria asignada a la obra  
 **Descripción:** El contratante desea consultar desde la aplicación móvil las maquinarias asociadas a sus obras para conocer los equipos disponibles, su identificación, fecha de registro y estado operativo.
 
-**Figura XX**  
+**Figura 45**  
 *Mobile User Flow 5*
 
 <p align="center">
@@ -2077,7 +2997,7 @@ Para acceder a las secciones de maquinarias e incidentes desde la aplicación m�
 **User Goal 3:** Ver detalles del consumo y disponibilidad de materiales 
 **Descripción:** El contratante desea consultar desde la aplicación móvil la información de los materiales asociados a las obras para evaluar la cantidad registrada, el stock disponible, los proveedores y el uso de los recursos del proyecto.
 
-**Figura XX**  
+**Figura 46**  
 *Mobile User Flow 6*
 
 <p align="center">
@@ -2090,7 +3010,11 @@ Para acceder a las secciones de maquinarias e incidentes desde la aplicación m�
 
 ## 4.5. Mobile Applications Prototyping
 
+<p align="justify">
+
 Nuestro producto encaja al momento de iniciar la supervisión de un aspecto del proyecto que se está administrando en ese momento o se quiere revisar el avance y buen manejo.
+
+</p>
 
 - **¿Qué problemas tiene nuestro producto y cómo se pueden resolver?**
   - La dependencia del internet en la obra para poder utilizar el aplicativo el cual se puede solucionar incluyendo un modo offline que sincronice datos al reconectarse a una red de internet.
@@ -2099,29 +3023,37 @@ Nuestro producto encaja al momento de iniciar la supervisión de un aspecto del 
     <img src="assets/To-be/OS_To-be_S2.jpg" alt="PB" width="1000">
   </p>
 
-**Figura 41**  
+**Figura 47**  
 _Áreas positivas del To-Be Scenario Mapping para segmento #2_
 
 <p align="center">
   <img src="assets/To-be/OS_To-be_S2_AP.jpg" alt="PB" width="1000">
 </p>
 
+<p align="justify">
+
 Nuestro producto puede ser usado al inicio del día para planificar (confirmar asistencia, revisar inventario), durante el día para monitorear (actualizar avances) y al final para generar y/o revisar reportes.
-**Figura 42**  
+
+</p>
+**Figura 48**  
 _Áreas negativas del To-Be Scenario Mapping para segmento #2_
 
 <p align="center">
   <img src="assets/To-be/OS_To-be_S2_AN.jpg" alt="PB" width="1000">
 </p>
 
+<p align="justify">
+
 Nuestro producto debe contar con una interfaz intuitiva, fácil de usar y aprender por nuestros usuarios, también debe contar con una buena sincronización de datos para poder tener un buen seguimiento de los distintos aspectos de la obra.
+
+</p>
 
 <ins>**Segmento 1: Supervisores de obra**</ins>
 
 **User Goal 1:** Gestionar y controlar materiales de construcción  
 **Descripción:** El supervisor desea registrar el ingreso, uso y nivel de materiales en obra para evitar desperdicios y garantizar continuidad en las actividades.
 
-**Figura 67**  
+**Figura 49**  
 _User flow 1_
 
 <p align="center">
@@ -2133,7 +3065,7 @@ _User flow 1_
 **User Goal 2:** Controlar la asistencia y roles de los trabajadores  
 **Descripción:** El supervisor debe tener control total sobre el personal: quién está presente, qué tarea cumple y qué rol desempeña.
 
-**Figura 68**  
+**Figura 50**  
 _User flow 2_
 
 <p align="center">
@@ -2144,7 +3076,7 @@ _User flow 2_
 **User Goal 3:** Reportar incidencias en obra  
 **Descripción:** El supervisor reporta eventos importantes en campo (fallas de maquinaria, ausencias masivas, problemas logísticos).
 
-**Figura 69**  
+**Figura 51**  
 _User flow 3_
 
 <p align="center">
@@ -2157,7 +3089,7 @@ _User flow 3_
 **User Goal 1:** Visualizar el estado y progreso de mis obras contratadas (solo lectura)  
 **Descripción:** El contratante necesita consultar las obras activas donde ha contratado los servicios, con acceso a información clara y actualizada.
 
-**Figura 70**  
+**Figura 52**  
 _User flow 4_
 
 <p align="center">
@@ -2168,7 +3100,7 @@ _User flow 4_
 **User Goal 2:** Visualizar el uso y estado de la maquinaria asignada a la obra  
 **Descripción:** Permitir que el contratante consulte, en tiempo real y de forma clara, qué maquinarias están siendo utilizadas en sus obras, cuál es su estado operativo y cómo impactan en el avance del proyecto.
 
-**Figura 71**  
+**Figura 53**  
 _User flow 5_
 
 <p align="center">
@@ -2180,7 +3112,7 @@ _Nota._ Elaboración propia.
 **User Goal 3:** Ver detalles del consumo de materiales y reportes de avance (en modo solo lectura)  
 **Descripción:** El contratante desea evaluar cómo se están utilizando los recursos materiales y verificar si el avance reportado está alineado con lo esperado.
 
-**Figura 72**  
+**Figura 54**  
 _User flow 6_
 
 <p align="center">
@@ -2191,7 +3123,11 @@ _Nota._ Elaboración propia.
 
 ## 4.7. Web Applications Prototyping
 
+<p align="justify">
+
 La interfaz de nuestro producto debe ser intuitiva y resposive con un diseño que transmita confianza y profesionalismo y que sea de respuesta rápida.
+
+</p>
 
 <p align="center">
   <img src="assets/To-be/OS_To-be_S2_BA.jpg" alt="PB" width="1000">
@@ -2199,13 +3135,29 @@ La interfaz de nuestro producto debe ser intuitiva y resposive con un diseño qu
 
 ## 3.2. User Stories
 
+<p align="justify">
+
 En esta sección se presentan los Epics, User Stories, Technical Stories y Spike Stories definidos para ArquiTech. Las historias funcionales representan las necesidades de los principales segmentos de usuario del producto digital: supervisores de obra, contratantes y visitantes de la Landing Page. Las Technical Stories representan capacidades técnicas necesarias para soportar dichas funcionalidades y utilizan el rol `Developer`. Finalmente, las Spike Stories representan actividades de investigación, análisis o validación técnica necesarias para reducir incertidumbre antes de realizar modificaciones o extensiones sobre el producto.
+
+</p>
+
+<p align="justify">
 
 Dentro del contexto de ArquiTech se mantiene un lenguaje ubicuo consistente empleando términos como Proyecto, Supervisor de Obra, Contratante, Material, Movimiento de Material, Trabajador, Tarea, Maquinaria, Incidencia y Reporte Semanal. Estos términos se utilizan de manera uniforme en las historias y representan conceptos propios del dominio de gestión y seguimiento de obras de construcción.
 
+</p>
+
+<p align="justify">
+
 Los Acceptance Criteria se expresan mediante la estructura Given-When-Then (Dado-Cuando-Entonces), utilizando tiempo presente y tercera persona. Para las historias relacionadas con APIs REST, los criterios representan escenarios de interacción request/response. Para las Spike Stories, los criterios establecen los resultados verificables que determinan la finalización de la investigación.
 
+</p>
+
+<p align="justify">
+
 La numeración conserva la trazabilidad con el backlog del proyecto reutilizado. Por este motivo existen saltos entre algunos identificadores, correspondientes a historias previamente eliminadas, fusionadas o reclasificadas.
+
+</p>
 
 | Story ID | User                         | Priority | Epic | Title                                                              | Description                                                                                                                                                                                                             | Acceptance Criteria                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
 | -------- | ---------------------------- | -------- | ---- | ------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -2298,11 +3250,23 @@ La numeración conserva la trazabilidad con el backlog del proyecto reutilizado.
 | SP-03    | Developer                    | Media    | EP05 | Evaluar persistencia de perfil y preferencias de accesibilidad     | Como Developer, deseo evaluar la estrategia utilizada para conservar la información de perfil y las preferencias de accesibilidad para determinar si resulta adecuada para la evolución del producto.                   | AC1: Dado que el producto conserva información de perfil y preferencias en el entorno del cliente, cuando se evalúan persistencia, seguridad, alcance y recuperación de la información, entonces se documenta una conclusión técnica y una recomendación para el siguiente incremento.                                                                                                                                                                                               |
 | SP-04    | Developer                    | Alta     | EP08 | Validar despliegue integrado de los componentes de ArquiTech       | Como Developer, deseo validar la integración desplegada entre Landing Page, Frontend Web App y Backend Web App para determinar si los tres componentes pueden utilizarse como línea base del nuevo ciclo de desarrollo. | AC1: Dado que existen los tres componentes desplegables del producto, cuando se ejecuta una prueba de navegación e integración de extremo a extremo, entonces se documentan el resultado de la prueba, las dependencias encontradas, los problemas detectados y las acciones requeridas antes de continuar con nuevas funcionalidades.                                                                                                                                               |
 
+<p align="justify">
+
 La definición anterior constituye la línea base funcional y técnica del producto reutilizado. Las User Stories representan comportamientos con interacción directa de los usuarios finales; las Technical Stories representan capacidades técnicas, principalmente servicios REST, autenticación, autorización e integración; y las Spike Stories formalizan las investigaciones que deben realizarse para reducir incertidumbre antes de evolucionar el sistema.
+
+</p>
+
+<p align="justify">
 
 Las historias heredadas que correspondían únicamente a detalles de implementación, manejo genérico de errores, conexión frontend-backend o correcciones de código no se mantienen como User Stories independientes. Esos elementos se encuentran representados como Technical Stories cuando constituyen una capacidad técnica verificable o, cuando corresponda, deben gestionarse posteriormente como Work-items del Sprint Backlog. Asimismo, funcionalidades previamente separadas pero que representan un mismo objetivo de usuario se consolidan mediante sus Acceptance Criteria, evitando duplicidad en el Product Backlog.
 
+</p>
+
+<p align="justify">
+
 Esta estructura permite mantener trazabilidad entre el producto ya desarrollado —Landing Page, Frontend Web App y Backend Web App— y el trabajo que se realice durante el curso actual. Las nuevas funcionalidades que se deriven posteriormente del Needfinding, de los experimentos o de las hipótesis validadas deberán incorporarse como nuevas User Stories, Technical Stories o Spike Stories sin alterar artificialmente el alcance de la línea base reutilizada.
+
+</p>
 
 ## 3.3. Product Backlog
 
@@ -2316,15 +3280,23 @@ _Impact Mapping de ArquiTech_
 
 ## 4.1. Style Guidelines
 
+<p align="justify">
+
 Esta sección ofrece la estructura que va contener nuestro diseño y los elementos visuales de nuestra aplicación llamada Arquitech. Se presentarán recursos como tipografías del logo y del texto, las paletas de colores que se van a usar en nuestra aplicación y nuestro logo. Todo aquello con el propósito de garantizar una imagen visual coherente y que coincida con el objetivo principal de nuestra startup, que es la de brindar soluciones digitales innovadoras para optimizar la gestión de proyectos de construcción de pequeñas y medianas empresas. Esta sección se divide en General Style Guidelines, Web Style Guidelines y Mobile Style Guidelines y se mostrará la experiencia visual atractiva y accesible que les presentaremos a nuestros usuarios. Es necesario que el diseño sea coherente para facilitar la navegación y mejorar la experiencia del usuario, asegurando la funcionalidad, claridad y alineación con las características que representa Arquitech.
+
+</p>
 
 ### 4.1.1. General Style Guidelines
 
+<p align="justify">
+
 Se presentará el diseño conceptual para la landing page como para la aplicación, realizado con el objetivo de lograr una interfaz intuitiva, fácil de usar y mostrar una experiencia estética agradable y cómoda. Se usarán 5 colores, los cuales son el Jet, Sinopia, Fulvous, Selective Yellow y Isabelline. Algunos de estos colores serán usados para el logotipo y para la landing page y la aplicación se alternará entre los 5 colores. Estos colores reflejan nuestra intención de crear un entorno visual digital para mejorar procesos de construcción. A continuación, se detallarán los elementos visuales con mayor precisión.
+
+</p>
 
 <ins> **Branding e ícono:** </ins>
 
-**Figura 46**  
+**Figura 55**  
 _Logo_
 
 <p align="center">
@@ -2358,12 +3330,16 @@ _Logo_
   - Identidad visual corporativa: Uso estratégico del logo y la paleta de colores en material gráfico de la startup como las tarjetas de presentación, presentaciones empresariales, o imagen de perfil en aplicaciones de chats para contactar clientes.
 
 <ins> **Tipografía** </ins>  
+<p align="justify">
+
 La tipografía de Arquitech cumple un importante rol en la expresión de la identidad de nuestra marca y brinda una sensación de claridad visual, calidez, acompañamiento para nuestros usuarios. Nuestra empresa eligió una fuente tipográfica que combina lo amigable y lo fluido, asegurando al usuario comodidad y nitidez en la landing page y en la aplicación.
+
+</p>
 
 - Tipografía del Logo y Títulos:  
   El logo de Arquitech que se eligió comunica claridad con varios valores clave como el profesionalismo y técnica, por lo que se ha utilizado la tipografía Anton Regular que pertenece a la Anton Font Family. Esta tipografía transmite un aspecto fuerte y serio, lo cual es ideal para una empresa de construcción que busca mejorar los procesos de las obras. Además, las letras son altas y gruesas, lo que da buena visibilidad al nombre de la empresa en el logo y en los títulos. Cabe agregar, que tiene un aire moderno, pero sin dejar de ser profesional.
 
-**Figura 47**  
+**Figura 56**  
 _Tipografía de logo y títulos_
 
 <p align="center">
@@ -2373,7 +3349,7 @@ _Tipografía de logo y títulos_
 - Tipografía de Texto Regular:  
   Para el texto de la landing page y la aplicación se ha elegido la tipografía Futura que pertenece a Futura Font Family con el objetivo de que el usuario pueda obtener una cómoda y agradable lectura al visitar nuestras plataformas digitales. Además, esta tipografía representa modernidad, minimalismo, profesionalismo y seriedad. Aquello ayuda a la marca a representar tecnicismo, precisión y avances.
 
-**Figura 48**  
+**Figura 57**  
 _Tipografía de texto regular_
 
 <p align="center">
@@ -2385,7 +3361,7 @@ _Tipografía de texto regular_
 
 _Nota_. Elaboración propia.
 
-**Figura 49**  
+**Figura 58**  
 _Paleta de colores de ArquiTech_
 
 <p align="center">
@@ -2399,7 +3375,11 @@ _Paleta de colores de ArquiTech_
 - Margen entre secciones: 34px-64px para mantener un aire visual a los usuarios.
 - Grid base: Utilizar un grid de 8px para dar consistencia.
 
+<p align="justify">
+
 Esto transmite un espaciado limpio y estructurado, ya que se aprecia un orden, claridad y refleja la misión de Arquitech de optimizar procesos, pero en lo visual.
+
+</p>
 
 <ins>**Tono de Comunicación y Lenguaje Aplicado**</ins>
 
@@ -2410,26 +3390,34 @@ Esto transmite un espaciado limpio y estructurado, ya que se aprecia un orden, c
 
 ### 4.1.2. Web Style Guidelines
 
+<p align="justify">
+
 En esta sección, para nuestra aplicación de Arquitech, se ha decidido colocar como fuente SF Pro Display y Poppins. Consideramos que estas fuentes son atractivas e ideales para títulos, encabezados y contenido de texto en cada sección, ya que brinda un estilo claro, moderno y profesional. Además, se ha usado la fuente Inter Regular para los botones, ya que está específicamente diseñada para interfaces digitales. Inter Regular posee un diseño limpio y permite una lectura rápida y concisa, lo cual es vital para elementos interactivos como los botones.  
 Los colores que hemos usado para Arquitech, son los mismos anteriormente mencionados. Se ha usado aquellos colores alternándose en cada sección de contenido para ofrecer a nuestros usuarios una experiencia visual agradable y alineada. Se usó el color Isabelline (\#F8F5F1) para el fondo ya que transmite una sensación de calidez, limpieza y simplicidad, lo que permite que los elementos visuales y los textos puedan destacar sin generar distracción. También, se usó el color Jet (\#2F2E2D) en los iconos de botones de agregar para que se pueda resaltar aquellas opciones con mayor facilidad. Para los botones de registrar o que tienen la finalidad de guardar información se le colocó el color Green Pigment (\#2BBA51), ya que es un color que se suele usar para elementos que necesitan llamar la atención, dinamismo y resalta visualmente sobre fondos claros como el nuestro que usamos el color Isabelline.
 
+</p>
+
+<p align="justify">
+
 La interfaz de Arquitech debe ser responsiva y se debe adaptar a diversos tamaños de pantalla a través de un diseño flexible. Por esta razón es importante saber el tamaño de la pantalla que vamos a utilizar y ajustar aquello en otros dispositivos.  
+
+</p>
 Medidas para Web Responsive:  
 Monitor pequeño: 1296x1781px
 
-**Figura 50**
+**Figura 59**
 
 <p align="center">
   <img src="assets/Style-Guidelines/web-responsive.png" alt="PB" width="1000">
 </p>
 
-**Figura 51**
+**Figura 60**
 
 <p align="center">
   <img src="assets/Style-Guidelines/web-responsive2.png" alt="PB" width="1000">
 </p>
 
-**Figura 52**
+**Figura 61**
 
 <p align="center">
   <img src="assets/Style-Guidelines/web-responsive3.png" alt="PB" width="1000">
@@ -2437,13 +3425,25 @@ Monitor pequeño: 1296x1781px
  
 ### 4.1.3. Mobile Style Guidelines
 
+<p align="justify">
+
 Esta sección define los lineamientos visuales y de interacción que deberá seguir la versión móvil de Arquitech, tanto en iOS como en Android. Dado que nuestros usuarios principales (supervisores de obra) suelen operar la aplicación directamente en campo, muchas veces con conectividad limitada, bajo luz solar directa o mientras usan guantes de trabajo, el diseño móvil prioriza elementos táctiles grandes, alto contraste y flujos simples de una sola mano. Se mantiene la identidad visual ya definida para Arquitech (paleta de colores, logotipo y tono de comunicación), adaptando la tipografía, el espaciado y los componentes de interfaz a las convenciones nativas de cada plataforma, con el objetivo de que la aplicación se sienta familiar y fluida para el usuario sin importar su sistema operativo.
+
+</p>
+
+<p align="justify">
 
 Se mantiene la misma paleta de colores de marca (Sinopia \#C43508, Fulvous \#DE7F1A, Selective Yellow \#FFB627, Isabelline \#F8F5F1 y Jet \#2F2E2D), así como el color Green Pigment (\#2BBA51) para acciones de confirmación y guardado, garantizando consistencia visual entre la web y las aplicaciones móviles.
 
+</p>
+
 #### 4.1.3.1. iOS Mobile Style Guidelines
 
+<p align="justify">
+
 La versión iOS de Arquitech sigue las recomendaciones de las Apple Human Interface Guidelines (HIG), priorizando la claridad, la jerarquía visual y el uso de componentes nativos del sistema.
+
+</p>
 
 - Tipografía:  
   Se utiliza San Francisco (SF Pro Text / SF Pro Display), la tipografía del sistema de iOS, con soporte de Dynamic Type para que el usuario pueda ajustar el tamaño del texto desde la configuración de su dispositivo sin romper el diseño.
@@ -2468,7 +3468,11 @@ La versión iOS de Arquitech sigue las recomendaciones de las Apple Human Interf
 
 #### 4.1.3.2. Android Mobile Style Guidelines
 
+<p align="justify">
+
 La versión Android de Arquitech se basa en los lineamientos de Material Design 3 (Material You) de Google, adaptados a la paleta de colores de la marca.
+
+</p>
 
 - Tipografía:  
   Se utiliza Roboto como tipografía principal del sistema, siguiendo la escala tipográfica de Material Design para títulos, subtítulos y cuerpo de texto.
@@ -2498,7 +3502,11 @@ La versión Android de Arquitech se basa en los lineamientos de Material Design 
 
 ### 4.2.1. Organization Systems
 
+<p align="justify">
+
 En la arquitectura de información de Arquitech, se aplican distintos sistemas de organización para estructurar el contenido de manera clara y funcional, adaptada al contexto de los usuarios del sector construcción.
+
+</p>
 
 <ins> **Organización Visual del Contenido** </ins>
 
@@ -2561,7 +3569,11 @@ En la arquitectura de información de Arquitech, se aplican distintos sistemas d
 
 ### 4.2.2. Labeling Systems
 
+<p align="justify">
+
 En Arquitech, se ha diseñado un sistema de etiquetado simple y funcional para evitar la sobrecarga cognitiva y facilitar la comprensión inmediata de la interfaz.
+
+</p>
 
 - Principios utilizados:
   - Simplicidad y claridad:
@@ -2583,7 +3595,11 @@ En Arquitech, se ha diseñado un sistema de etiquetado simple y funcional para e
 
 ### 4.2.3. SEO Tags and Meta Tags
 
+<p align="justify">
+
 Aquí mostraremos los Meta Tagas y los SEO tags que hemos usado para poder desarrollar el landing page con el objetivo de que sea agradable para los usuarios.
+
+</p>
 
     <!DOCTYPE html>
 
@@ -2631,35 +3647,63 @@ Aquí mostraremos los Meta Tagas y los SEO tags que hemos usado para poder desar
 
 ### 4.2.4. Searching Systems
 
+<p align="justify">
+
 Dentro de la plataforma ArquiTech, los sistemas de búsqueda han sido diseñados para facilitar el acceso rápido y eficiente a información crítica relacionada con la gestión de obras. La aplicación contempla un volumen significativo de datos relacionados con proyectos, documentos técnicos, solicitudes, trabajadores, insumos y cronogramas. Por ello, se proyecta la implementación de un sistema de búsqueda integral que ayude a los usuarios a evitar pérdidas de tiempo y a mantener el control operativo en todo momento.
 
+</p>
+
+<p align="justify">
+
 El sistema permitirá a los usuarios buscar información dentro de los distintos módulos del sistema, utilizando:
+
+</p>
 
 - Palabras clave (términos técnicos, nombres de obra, actividades específicas, materiales).
 - Filtros por categoría (tipo de documento, fase del proyecto, tipo de solicitud, tipo de personal).
 - Rangos de fechas (fecha de emisión, entrega, modificación o supervisión).
 - Códigos internos asignados a solicitudes, órdenes de servicio, contratistas o áreas constructivas.
 
+<p align="justify">
+
 Este sistema será particularmente útil para:
+
+</p>
 
 - Ahorrar tiempo en la localización de documentos, reportes o actividades específicas, sin necesidad de navegar por múltiples módulos manualmente.
 - Encontrar rápidamente registros relacionados con avances de obra, observaciones, solicitudes de materiales o incidencias.
 - Apoyar la toma de decisiones sobre ejecución, control de calidad o cumplimiento de cronogramas mediante el acceso inmediato a la información registrada.
 
+<p align="justify">
+
 Una vez realizada una búsqueda, los resultados se presentarán de forma estructurada en tablas o tarjetas, con opciones para visualizar, editar o exportar la información según los permisos del usuario.
+
+</p>
 
 ### **_4.2.5. Navigation Systems_**
 
+<p align="justify">
+
 Los sistemas de navegación implementados en el proyecto ArquiTech han sido diseñados para garantizar una experiencia intuitiva, fluida y orientada a la consecución de objetivos por parte del usuario. Considerando que el público objetivo está conformado principalmente por supervisores de obra, contratistas y personal administrativo de empresas constructoras, se ha priorizado una arquitectura de navegación clara, jerárquica y adaptada al flujo natural de las actividades constructivas.
 
+</p>
+
 <ins>**En la Landing Page**</ins>  
+<p align="justify">
+
 La navegación en la landing page tiene una estructura lineal con anclajes internos y botones de acción, facilitando la exploración informativa en orden lógico. Las acciones de navegación se guían mediante:
+
+</p>
 
 - Un menú fijo en la parte superior con enlaces directos a secciones como: “¿Qué es ArquiTech?”, “Beneficios”, “Funcionalidades”, “Casos de uso” y “Contacto”.
 - Botones con anclas que desplazan suavemente al usuario dentro de la misma página, sin recarga.
 - Llamados a la acción (“Conoce la plataforma”, “Solicita una demo”) que direccionan al formulario de contacto o a secciones específicas de interés.
 
+<p align="justify">
+
 Este diseño permite que los visitantes comprendan rápidamente el propósito de la solución y se dirijan con claridad hacia la acción deseada.
+
+</p>
 
 ### 4.2.5. Navigation Systems
 
@@ -2667,11 +3711,23 @@ Este diseño permite que los visitantes comprendan rápidamente el propósito de
 
 <div style="text-align: justify;">
 
+<p align="justify">
+
 La propuesta de interfaz de usuario del Landing Page de ArquiTech fue desarrollada tomando como base las decisiones establecidas previamente en los lineamientos visuales y en la arquitectura de información. La organización del contenido busca comunicar de manera clara la propuesta de valor de la plataforma, presentar sus principales funcionalidades y facilitar la navegación de los usuarios.
+
+</p>
+
+<p align="justify">
 
 El diseño considera una estructura visual jerárquica, una distribución ordenada de la información y una navegación sencilla, permitiendo que los usuarios comprendan rápidamente qué es ArquiTech, qué beneficios ofrece y cuáles son las principales acciones disponibles dentro del Landing Page.
 
+</p>
+
+<p align="justify">
+
 Asimismo, se mantiene coherencia con la identidad visual definida para el producto mediante el uso consistente de tipografías, componentes, espaciados, elementos gráficos y criterios de diseño responsive, buscando ofrecer una experiencia clara tanto en dispositivos de escritorio como en dispositivos móviles.
+
+</p>
 
 </div>
 
@@ -2707,7 +3763,7 @@ Asimismo, se mantiene coherencia con la identidad visual definida para el produc
 
 ### 4.4.1. Mobile Applications Wireframes
 
-**Figura XX**  
+**Figura 62**  
 *Mobile Wireframe Login*
 
 <p align="center">
@@ -2719,7 +3775,7 @@ Asimismo, se mantiene coherencia con la identidad visual definida para el produc
 </p>
 
 
-**Figura XX**  
+**Figura 63**  
 *Mobile Wireframe Projects*
 
 <p align="center">
@@ -2730,7 +3786,7 @@ Asimismo, se mantiene coherencia con la identidad visual definida para el produc
 
 </p>
 
-**Figura XX**  
+**Figura 64**  
 *Mobile Wireframe Workers*
 
 <p align="center">
@@ -2742,7 +3798,7 @@ Asimismo, se mantiene coherencia con la identidad visual definida para el produc
 </p>
 
 
-**Figura XX**  
+**Figura 65**  
 *Mobile Wireframe Materials*
 
 <p align="center">
@@ -2754,7 +3810,7 @@ Asimismo, se mantiene coherencia con la identidad visual definida para el produc
 </p>
 
 
-**Figura XX**  
+**Figura 66**  
 *Mobile Wireframe Incidents*
 
 <p align="center">
@@ -2766,7 +3822,7 @@ Asimismo, se mantiene coherencia con la identidad visual definida para el produc
 </p>
 
 
-**Figura XX**  
+**Figura 67**  
 *Mobile Wireframe Machinery*
 
 <p align="center">
@@ -2783,11 +3839,15 @@ Asimismo, se mantiene coherencia con la identidad visual definida para el produc
 
 **User Goal 1: Supervisión de materiales y personal de obra**
 
+<p align="justify">
+
 Como usuario, quiero poder visualizar desde la aplicación móvil la lista de proyectos que posee mi empresa junto con la información de materiales y trabajadores asociados, para mantener un mejor control y supervisión de los recursos y del personal de cada obra.
+
+</p>
 
 **Wireflow:**
 
-**Figura XX**
+**Figura 68**
 
 <p align="center">
 
@@ -2797,17 +3857,25 @@ Como usuario, quiero poder visualizar desde la aplicación móvil la lista de pr
 
 </p>
 
+<p align="justify">
+
 Para obtener la información de materiales y trabajadores que brinda ArquiTech desde la aplicación móvil, el usuario debe acceder primero mediante la pantalla de inicio de sesión. Luego, puede visualizar la lista de proyectos asociados a su empresa desde la pantalla principal de proyectos. A partir de esta vista, el usuario puede dirigirse a la sección de materiales, donde se muestran datos como la cantidad registrada, el stock disponible, el precio y el proveedor. Del mismo modo, puede acceder a la sección de trabajadores, donde se presenta información como el nombre del trabajador, su rol, la fecha de contratación y el proyecto al que se encuentra asociado.
+
+</p>
 
 **Segmento #1: Supervisores de obra**
 
 **User Goal 1: Gestión de maquinarias e incidentes**
 
+<p align="justify">
+
 Como usuario, quiero consultar desde la aplicación móvil las maquinarias utilizadas en los proyectos y los incidentes registrados durante la ejecución de las obras, para mantener una visión general sobre la disponibilidad de los equipos y las situaciones que pueden afectar la seguridad y el desarrollo del proyecto.
+
+</p>
 
 **Wireflow:**
 
-**Figura XX**
+**Figura 69**
 
 <p align="center">
 
@@ -2817,12 +3885,16 @@ Como usuario, quiero consultar desde la aplicación móvil las maquinarias utili
 
 </p>
 
+<p align="justify">
+
 Para acceder a las secciones de maquinarias e incidentes desde la aplicación móvil, el supervisor debe iniciar sesión y acceder a la pantalla principal de proyectos. Desde esta vista, puede dirigirse a la sección de incidentes para consultar información como la fecha en la que ocurrió cada evento, su tipo, nivel de severidad y estado de resolución. Asimismo, puede acceder a la sección de maquinaria para visualizar los equipos registrados, incluyendo datos como el nombre de la maquinaria, su licencia o placa, la fecha de registro y su estado de funcionamiento.
+
+</p>
 
 
 ### 4.4.3. Mobile Applications Mock-ups
 
-**Figura XX**  
+**Figura 70**  
 *Mobile Mock-up Login*
 
 <p align="center">
@@ -2833,7 +3905,7 @@ Para acceder a las secciones de maquinarias e incidentes desde la aplicación m�
 
 </p>
 
-**Figura XX**  
+**Figura 71**  
 *Mobile Mock-up Projects*
 
 <p align="center">
@@ -2844,7 +3916,7 @@ Para acceder a las secciones de maquinarias e incidentes desde la aplicación m�
 
 </p>
 
-**Figura XX**  
+**Figura 72**  
 *Mobile Mock-up Workers*
 
 <p align="center">
@@ -2855,7 +3927,7 @@ Para acceder a las secciones de maquinarias e incidentes desde la aplicación m�
 
 </p>
 
-**Figura XX**  
+**Figura 73**  
 *Mobile Mock-up Materials*
 
 <p align="center">
@@ -2866,7 +3938,7 @@ Para acceder a las secciones de maquinarias e incidentes desde la aplicación m�
 
 </p>
 
-**Figura XX**  
+**Figura 74**  
 *Mobile Mock-up Incidents*
 
 <p align="center">
@@ -2877,7 +3949,7 @@ Para acceder a las secciones de maquinarias e incidentes desde la aplicación m�
 
 </p>
 
-**Figura XX**  
+**Figura 75**  
 *Mobile Mock-up Machinery*
 
 <p align="center">
@@ -2895,7 +3967,7 @@ Para acceder a las secciones de maquinarias e incidentes desde la aplicación m�
 **User Goal 1:** Gestionar y controlar materiales de construcción  
 **Descripción:** El supervisor desea consultar y controlar desde la aplicación móvil la disponibilidad, stock y demás información de los materiales asociados a una obra para mantener un mejor control de los recursos utilizados durante el desarrollo del proyecto.
 
-**Figura XX**  
+**Figura 76**  
 *Mobile User Flow 1*
 
 <p align="center">
@@ -2909,7 +3981,7 @@ Para acceder a las secciones de maquinarias e incidentes desde la aplicación m�
 **User Goal 2:** Controlar la asistencia y roles de los trabajadores  
 **Descripción:** El supervisor necesita consultar y gestionar desde la aplicación móvil la información de los trabajadores asignados a la obra, incluyendo sus roles, asistencia, tareas y responsabilidades dentro del proyecto.
 
-**Figura XX**  
+**Figura 77**  
 *Mobile User Flow 2*
 
 <p align="center">
@@ -2923,7 +3995,7 @@ Para acceder a las secciones de maquinarias e incidentes desde la aplicación m�
 **User Goal 3:** Consultar incidencias en obra  
 **Descripción:** El supervisor desea consultar desde la aplicación móvil los incidentes registrados durante la ejecución de la obra para conocer su tipo, fecha, nivel de severidad y estado de resolución.
 
-**Figura XX**  
+**Figura 78**  
 *Mobile User Flow 3*
 
 <p align="center">
@@ -2939,7 +4011,7 @@ Para acceder a las secciones de maquinarias e incidentes desde la aplicación m�
 **User Goal 1:** Visualizar el estado y progreso de mis obras contratadas (solo lectura)  
 **Descripción:** El contratante necesita consultar desde la aplicación móvil las obras asociadas a su empresa, con acceso a información clara y actualizada sobre el estado general de cada proyecto.
 
-**Figura XX**  
+**Figura 79**  
 *Mobile User Flow 4*
 
 <p align="center">
@@ -2953,7 +4025,7 @@ Para acceder a las secciones de maquinarias e incidentes desde la aplicación m�
 **User Goal 2:** Visualizar el uso y estado de la maquinaria asignada a la obra  
 **Descripción:** El contratante desea consultar desde la aplicación móvil las maquinarias asociadas a sus obras para conocer los equipos disponibles, su identificación, fecha de registro y estado operativo.
 
-**Figura XX**  
+**Figura 80**  
 *Mobile User Flow 5*
 
 <p align="center">
@@ -2967,7 +4039,7 @@ Para acceder a las secciones de maquinarias e incidentes desde la aplicación m�
 **User Goal 3:** Ver detalles del consumo y disponibilidad de materiales (solo lectura)  
 **Descripción:** El contratante desea consultar desde la aplicación móvil la información de los materiales asociados a las obras para evaluar la cantidad registrada, el stock disponible, los proveedores y el uso de los recursos del proyecto.
 
-**Figura XX**  
+**Figura 81**  
 *Mobile User Flow 6*
 
 <p align="center">
@@ -2981,13 +4053,21 @@ Para acceder a las secciones de maquinarias e incidentes desde la aplicación m�
 ### 4.5. Mobile Applications Prototyping
 
 <div style="text-align: justify;">
+<p align="justify">
+
 En esta sección se presentan los prototipos de alta fidelidad para la aplicación móvil de ArquiTech. Estos diseños reflejan la interfaz de usuario (UI) y la experiencia de usuario (UX) proyectada para ser la herramienta principal de los supervisores de obra. Se ha mantenido la identidad visual de la marca (colores corporativos e iconografía) y se han adaptado los componentes visuales para operar de manera nativa y fluida en los dos ecosistemas móviles predominantes: Android e iOS.
+
+</p>
 </div>
 
 #### 4.5.1. Android Mobile Applications Prototyping
 
 <div style="text-align: justify;">
+<p align="justify">
+
 El prototipo para el sistema operativo Android ha sido estructurado tomando como referencia los lineamientos de diseño de <em>Material Design</em>. Se prioriza una navegación ágil mediante un <em>Bottom Navigation Bar</em>, permitiendo al usuario acceder de manera intuitiva a la gestión de Proyectos, Trabajadores, Materiales, Incidentes y Maquinaria, adaptándose a las resoluciones estándar de los dispositivos Android en campo.
+
+</p>
 </div>
 
 <br>
@@ -3008,7 +4088,11 @@ _Prototipo de Alta Fidelidad - Vistas Principales Android_
 #### 4.5.2. iOS Mobile Applications Prototyping
 
 <div style="text-align: justify;">
+<p align="justify">
+
 El prototipo para iOS fue diseñado adaptando la interfaz a las <em>Human Interface Guidelines</em> de Apple. Se mantiene la consistencia funcional y gráfica de ArquiTech, pero integrando elementos característicos del ecosistema iOS, como la barra de estado superior nativa y los comportamientos de transición, garantizando una experiencia de uso familiar y eficiente para los supervisores que operan desde un iPhone.
+
+</p>
 </div>
 
 <br>
@@ -3028,7 +4112,7 @@ _Prototipo de Alta Fidelidad - Vistas Principales iOS_
 
 ### 4.6.1. Web Applications Wireframes
 
-**Figura 53**
+**Figura 82**
 
 <p align="center">
   <img src="assets/Web Applications/Wireframe - Login.png" alt="PB" width="500">
@@ -3036,7 +4120,7 @@ _Prototipo de Alta Fidelidad - Vistas Principales iOS_
 </p>
 <br>
 
-**Figura 54**
+**Figura 83**
 
 <p align="center">
   <img src="assets/Web Applications/Wireframe - Projects.png" alt="PB" width="500">
@@ -3044,7 +4128,7 @@ _Prototipo de Alta Fidelidad - Vistas Principales iOS_
 </p>
 <br>
 
-**Figura 55**
+**Figura 84**
 
 <p align="center">
   <img src="assets/Web Applications/Wireframe - Materials.png" alt="PB" width="500">
@@ -3052,7 +4136,7 @@ _Prototipo de Alta Fidelidad - Vistas Principales iOS_
 </p>
 <br>
 
-**Figura 56**
+**Figura 85**
 
 <p align="center">
   <img src="assets/Web Applications/Wireframe - Workers.png" alt="PB" width="500">
@@ -3060,7 +4144,7 @@ _Prototipo de Alta Fidelidad - Vistas Principales iOS_
 </p>
 <br>
 
-**Figura 57**
+**Figura 86**
 
 <p align="center">
   <img src="assets/Web Applications/Wireframe - Incidents.png" alt="PB" width="500">
@@ -3068,7 +4152,7 @@ _Prototipo de Alta Fidelidad - Vistas Principales iOS_
 </p>
 <br>
 
-**Figura 58**
+**Figura 87**
 
 <p align="center">
   <img src="assets/Web Applications/Wireframe - Machinery.png" alt="PB" width="500">
@@ -3082,39 +4166,55 @@ _Prototipo de Alta Fidelidad - Vistas Principales iOS_
 <br>
 **User Goal 1: Supervisión de Materiales y personal de obra**
 <br>
+<p align="justify">
+
 Como usuario, quiero poder ver la lista de proyectos que posee mi empresa con sus respectivos reportes de materiales y trabajadores para poder obtener un mejor control y supervisión de materiales y personal de cada obra.
+
+</p>
 
 **Wire:**
 <br>
-**Figura 59**
+**Figura 88**
 
 <p align="center">
   <img src="assets/Web Applications/wire1.png" alt="PB" width="500">
 <br>*Nota.* Elaboración propia.  
 </p>
 <br>
+<p align="justify">
+
 Para poder obtener los reportes anteriormente dichos que brinda Arquitech a cada usuario, debes primero acceder a la app web mediante el login. Luego, podrás observar la lista de trabajadores y materiales cuando presiones “ver detalles” en la página de listado de proyectos. Esto te dirigirá a la sección de materiales donde puedes visualizar campos como la cantidad de materiales, el stock, el precio, el estado del pago, el nombre del material, etc. En cuanto a la sección de trabajadores, logras acceder con la barra lateral donde se muestra aquella sección y se detalla el nombre del trabajador, su rol y la fecha de cuando fue contratado.
+
+</p>
 <br><br>
 
 **Segmento #1: Supervisores de obra**
 <br>
 **User Goal 1: Gestión de maquinarias y accidentes**
 <br>
+<p align="justify">
+
 Como usuario quiero tener detallado las maquinarias que se usan por cada proyecto y que incidentes suelen ocurrir en las obras para tener una visión panorámica más acertada sobre lo seguro que son las obras y asegurarse de que se cuenta con las máquinas necesarias.
 
+</p>
+
 **Wireflow:** <br>
-**Figura 60**
+**Figura 89**
 
 <p align="center">
   <img src="assets/Web Applications/wireflow2.png" alt="PB" width="500">
 <br>*Nota.* Elaboración propia.  
 </p>
 <br>
+<p align="justify">
+
 Para acceder a las secciones de maquinarias e incidentes debes presionar aquellos botones con los respectivos nombres. En la sección Incidentes, verás un detallado de una lista de los incidentes ocurridos en cada obra,  así podrás estar informado de la fecha en la que ocurrió aquel incidente, el tipo de incidente que ocurrió, la severidad del incidente y el estado de resolución de aquello. Por otro lado, en la sección de Maquinarias, puedes visualizar el nombre de la maquinaria que posee cada obra, la licencia de la maquinaria, la fecha de registro de la maquinaria asignada a la obra y el estado de funcionamiento de aquella.
+
+</p>
 
 ### 4.6.3. Web Applications Mock-ups
 
-**Figura 61**
+**Figura 90**
 
 <p align="center">
   <img src="assets/Web Applications/Mockup - Login.png" alt="PB" width="500">
@@ -3123,7 +4223,7 @@ Para acceder a las secciones de maquinarias e incidentes debes presionar aquello
 </p>
 <br>
 
-**Figura 62**
+**Figura 91**
 
 <p align="center">
   <img src="assets/Web Applications/Mockup - Projects.png" alt="PB" width="500">
@@ -3132,7 +4232,7 @@ Para acceder a las secciones de maquinarias e incidentes debes presionar aquello
 </p>
 <br>
 
-**Figura 63**
+**Figura 92**
 
 <p align="center">
   <img src="assets/Web Applications/Mockup - Materials.png" alt="PB" width="500">
@@ -3141,7 +4241,7 @@ Para acceder a las secciones de maquinarias e incidentes debes presionar aquello
 </p>
 <br>
 
-**Figura 64**
+**Figura 93**
 
 <p align="center">
   <img src="assets/Web Applications/Mockup - Workers.png" alt="PB" width="500">
@@ -3150,7 +4250,7 @@ Para acceder a las secciones de maquinarias e incidentes debes presionar aquello
 </p>
 <br>
 
-**Figura 65**
+**Figura 94**
 
 <p align="center">
   <img src="assets/Web Applications/Mockup - Incidents.png" alt="PB" width="500">
@@ -3158,7 +4258,7 @@ Para acceder a las secciones de maquinarias e incidentes debes presionar aquello
 <br>*Nota.* Elaboración propia. 
 </p>
 
-**Figura 66**
+**Figura 95**
 
 <p align="center">
   <img src="assets/Web Applications/Mockup - Machinery.png" alt="PB" width="500">
@@ -3173,7 +4273,7 @@ Para acceder a las secciones de maquinarias e incidentes debes presionar aquello
 **User Goal 1:** Gestionar y controlar materiales de construcción  
 **Descripción:** El supervisor desea registrar el ingreso, uso y nivel de materiales en obra para evitar desperdicios y garantizar continuidad en las actividades.
 
-**Figura 67**  
+**Figura 96**  
 _User flow 1_
 
 <p align="center">
@@ -3185,7 +4285,7 @@ _User flow 1_
 **User Goal 2:** Controlar la asistencia y roles de los trabajadores  
 **Descripción:** El supervisor debe tener control total sobre el personal: quién está presente, qué tarea cumple y qué rol desempeña.
 
-**Figura 68**  
+**Figura 97**  
 _User flow 2_
 
 <p align="center">
@@ -3196,7 +4296,7 @@ _User flow 2_
 **User Goal 3:** Reportar incidencias en obra  
 **Descripción:** El supervisor reporta eventos importantes en campo (fallas de maquinaria, ausencias masivas, problemas logísticos).
 
-**Figura 69**  
+**Figura 98**  
 _User flow 3_
 
 <p align="center">
@@ -3209,7 +4309,7 @@ _User flow 3_
 **User Goal 1:** Visualizar el estado y progreso de mis obras contratadas (solo lectura)  
 **Descripción:** El contratante necesita consultar las obras activas donde ha contratado los servicios, con acceso a información clara y actualizada.
 
-**Figura 70**  
+**Figura 99**  
 _User flow 4_
 
 <p align="center">
@@ -3220,7 +4320,7 @@ _User flow 4_
 **User Goal 2:** Visualizar el uso y estado de la maquinaria asignada a la obra  
 **Descripción:** Permitir que el contratante consulte, en tiempo real y de forma clara, qué maquinarias están siendo utilizadas en sus obras, cuál es su estado operativo y cómo impactan en el avance del proyecto.
 
-**Figura 71**  
+**Figura 100**  
 _User flow 5_
 
 <p align="center">
@@ -3232,7 +4332,7 @@ _Nota._ Elaboración propia.
 **User Goal 3:** Ver detalles del consumo de materiales y reportes de avance (en modo solo lectura)  
 **Descripción:** El contratante desea evaluar cómo se están utilizando los recursos materiales y verificar si el avance reportado está alineado con lo esperado.
 
-**Figura 72**  
+**Figura 101**  
 _User flow 6_
 
 <p align="center">
@@ -3243,7 +4343,7 @@ _Nota._ Elaboración propia.
 
 ## 4.7. Web Applications Prototyping
 
-**Figura 72**  
+**Figura 102**  
 _Video of Web Applications Prototype of ArquiTech_
 
 <p align="center">
@@ -3256,7 +4356,7 @@ _Nota._ Elaboración propia. Link del video: [https://upcedupe-my.sharepoint.com
 
 ### 4.8.1. Software Architecture Context Diagram
 
-**Figura 73**  
+**Figura 103**  
 _Software Architecture Context Diagram of ArquiTech_
 
 <p align="center">
@@ -3267,7 +4367,7 @@ _Nota._ Elaboración propia.
 
 ### 4.8.2. Software Architecture Container Diagrams
 
-**Figura 74**  
+**Figura 104**  
 _Software Architecture Container Diagram of ArquiTech_
 
 <p align="center">
@@ -3278,7 +4378,7 @@ _Nota._ Elaboración propia.
 
 ### 4.8.3. Software Architecture Components Diagrams
 
-**Figura 75**  
+**Figura 105**  
 _Software Architecture Components Diagram of ArquiTech_
 
 <p align="center">
@@ -3289,17 +4389,33 @@ _Nota._ Elaboración propia.
 
 ## 4.9. Software Object-Oriented Design
 
+<p align="justify">
+
 El diseño orientado a objetos de ArquiTech representa las principales entidades del dominio relacionadas con la gestión y seguimiento de proyectos de construcción. El modelo fue elaborado considerando los requisitos funcionales identificados, las necesidades obtenidas durante el proceso de Needfinding y las funcionalidades definidas mediante las User Stories.
+
+</p>
+
+<p align="justify">
 
 El diseño busca representar de manera coherente las responsabilidades de cada entidad, sus atributos, operaciones y relaciones. Entre los principales conceptos considerados se encuentran los usuarios de la plataforma, proyectos, materiales, movimientos de inventario, maquinaria, trabajadores, asistencia, tareas, incidencias y reportes.
 
+</p>
+
 ### 4.9.1. Class Diagrams
+
+<p align="justify">
 
 El Class Diagram de ArquiTech representa la estructura estática del dominio de la aplicación y las relaciones existentes entre sus principales clases.
 
+</p>
+
+<p align="justify">
+
 El modelo se encuentra compuesto por las clases `User`, `Project`, `ProjectMember`, `Material`, `MaterialMovement`, `Machinery`, `Worker`, `Attendance`, `Task`, `Incident` y `Report`.
 
-**Figura X**  
+</p>
+
+**Figura 106**  
 _Class Diagram de ArquiTech_
 
 <p align="center">
@@ -3310,21 +4426,53 @@ _Class Diagram de ArquiTech_
 
 _Nota._ Elaboración propia.
 
+<p align="justify">
+
 La clase `User` representa a los usuarios que acceden a ArquiTech, principalmente supervisores de obra y contratantes de empresas privadas. Los usuarios pueden participar en diferentes proyectos, relación que se representa mediante la clase asociativa `ProjectMember`.
+
+</p>
+
+<p align="justify">
 
 La clase `Project` constituye la entidad central del modelo y representa una obra administrada mediante ArquiTech. A partir de un proyecto se organizan los materiales, maquinaria, trabajadores, tareas, incidencias y reportes asociados.
 
+</p>
+
+<p align="justify">
+
 La gestión de materiales se representa mediante `Material` y `MaterialMovement`. `Material` mantiene información acerca del stock disponible de un recurso, mientras que `MaterialMovement` registra las entradas y usos realizados, permitiendo conservar la trazabilidad del inventario.
+
+</p>
+
+<p align="justify">
 
 `Machinery` representa los equipos o maquinarias asignados a una obra, incluyendo su identificación y estado operativo.
 
+</p>
+
+<p align="justify">
+
 La gestión de personal se representa mediante `Worker`, que almacena la información de los trabajadores asignados a cada proyecto. `Attendance` conserva los registros diarios de asistencia, mientras que `Task` representa las actividades asignadas a los trabajadores y su estado de ejecución.
+
+</p>
+
+<p align="justify">
 
 `Incident` permite registrar acontecimientos relevantes ocurridos durante la ejecución de la obra, manteniendo información sobre su descripción, severidad, estado y resolución.
 
+</p>
+
+<p align="justify">
+
 Finalmente, `Report` representa los reportes generados a partir de la información registrada en el proyecto, permitiendo consolidar datos relacionados con avance, materiales, trabajadores, tareas e incidencias.
 
+</p>
+
+<p align="justify">
+
 Las principales relaciones del modelo son las siguientes:
+
+</p>
 
 - Un `User` puede participar en múltiples `Project` y un `Project` puede contar con múltiples usuarios mediante `ProjectMember`.
 - Un `Project` puede contener múltiples `Material`, `Machinery`, `Worker`, `Task`, `Incident` y `Report`.
@@ -3335,11 +4483,19 @@ Las principales relaciones del modelo son las siguientes:
 
 ### 4.9.2. Class Dictionary
 
+<p align="justify">
+
 El Class Dictionary complementa el Class Diagram mediante la descripción de las responsabilidades, atributos y operaciones correspondientes a cada una de las clases identificadas en el dominio de ArquiTech.
+
+</p>
 
 #### Clase `User`
 
+<p align="justify">
+
 Representa a los usuarios registrados en ArquiTech que participan en el seguimiento o gestión de los proyectos.
+
+</p>
 
 | Atributo     | Tipo     | Descripción                                                    |
 | ------------ | -------- | -------------------------------------------------------------- |
@@ -3358,7 +4514,11 @@ Representa a los usuarios registrados en ArquiTech que participan en el seguimie
 
 #### Clase `Project`
 
+<p align="justify">
+
 Representa una obra o proyecto de construcción gestionado mediante ArquiTech.
+
+</p>
 
 | Atributo  | Tipo          | Descripción                                      |
 | --------- | ------------- | ------------------------------------------------ |
@@ -3380,7 +4540,11 @@ Representa una obra o proyecto de construcción gestionado mediante ArquiTech.
 
 #### Clase `ProjectMember`
 
+<p align="justify">
+
 Representa la asociación entre un usuario y un proyecto.
+
+</p>
 
 | Atributo        | Tipo     | Descripción                                       |
 | --------------- | -------- | ------------------------------------------------- |
@@ -3396,7 +4560,11 @@ Representa la asociación entre un usuario y un proyecto.
 
 #### Clase `Material`
 
+<p align="justify">
+
 Representa un material disponible dentro del inventario de un proyecto.
+
+</p>
 
 | Atributo     | Tipo     | Descripción                                 |
 | ------------ | -------- | ------------------------------------------- |
@@ -3417,7 +4585,11 @@ Representa un material disponible dentro del inventario de un proyecto.
 
 #### Clase `MaterialMovement`
 
+<p align="justify">
+
 Representa una transacción de entrada o utilización de un material.
+
+</p>
 
 | Atributo           | Tipo         | Descripción                                           |
 | ------------------ | ------------ | ----------------------------------------------------- |
@@ -3436,7 +4608,11 @@ Representa una transacción de entrada o utilización de un material.
 
 #### Clase `Machinery`
 
+<p align="justify">
+
 Representa una maquinaria o equipo asignado a un proyecto.
+
+</p>
 
 | Atributo     | Tipo            | Descripción                                  |
 | ------------ | --------------- | -------------------------------------------- |
@@ -3455,7 +4631,11 @@ Representa una maquinaria o equipo asignado a un proyecto.
 
 #### Clase `Worker`
 
+<p align="justify">
+
 Representa a un trabajador asignado a un proyecto de construcción.
+
+</p>
 
 | Atributo  | Tipo   | Descripción                               |
 | --------- | ------ | ----------------------------------------- |
@@ -3475,7 +4655,11 @@ Representa a un trabajador asignado a un proyecto de construcción.
 
 #### Clase `Attendance`
 
+<p align="justify">
+
 Representa un registro diario de asistencia de un trabajador.
+
+</p>
 
 | Atributo     | Tipo             | Descripción                          |
 | ------------ | ---------------- | ------------------------------------ |
@@ -3495,7 +4679,11 @@ Representa un registro diario de asistencia de un trabajador.
 
 #### Clase `Task`
 
+<p align="justify">
+
 Representa una actividad asignada a un trabajador dentro de un proyecto.
+
+</p>
 
 | Atributo    | Tipo       | Descripción                            |
 | ----------- | ---------- | -------------------------------------- |
@@ -3517,7 +4705,11 @@ Representa una actividad asignada a un trabajador dentro de un proyecto.
 
 #### Clase `Incident`
 
+<p align="justify">
+
 Representa una incidencia ocurrida durante el desarrollo de una obra.
+
+</p>
 
 | Atributo         | Tipo             | Descripción                                     |
 | ---------------- | ---------------- | ----------------------------------------------- |
@@ -3540,7 +4732,11 @@ Representa una incidencia ocurrida durante el desarrollo de una obra.
 
 #### Clase `Report`
 
+<p align="justify">
+
 Representa un reporte generado a partir de la información de un proyecto.
+
+</p>
 
 | Atributo          | Tipo       | Descripción                           |
 | ----------------- | ---------- | ------------------------------------- |
@@ -3562,17 +4758,33 @@ Representa un reporte generado a partir de la información de un proyecto.
 
 ## 4.10. Database Design
 
+<p align="justify">
+
 El diseño de base de datos de ArquiTech se plantea mediante un modelo relacional debido a la naturaleza estructurada de la información gestionada y a la necesidad de mantener relaciones consistentes entre proyectos, usuarios, trabajadores, materiales, tareas e incidencias.
+
+</p>
+
+<p align="justify">
 
 El modelo utiliza claves primarias para identificar cada registro y claves foráneas para mantener la integridad referencial entre las entidades relacionadas.
 
+</p>
+
 ### 4.10.1. Relational/Non-Relational Database Diagram
+
+<p align="justify">
 
 El Relational Database Diagram representa las tablas necesarias para persistir la información correspondiente a las entidades definidas en el diseño orientado a objetos.
 
+</p>
+
+<p align="justify">
+
 Las principales tablas consideradas son `users`, `projects`, `project_members`, `materials`, `material_movements`, `machineries`, `workers`, `attendances`, `tasks`, `incidents` y `reports`.
 
-**Figura X**  
+</p>
+
+**Figura 107**  
 _Relational Database Diagram de ArquiTech_
 
 <p align="center">
@@ -3583,21 +4795,53 @@ _Relational Database Diagram de ArquiTech_
 
 _Nota._ Elaboración propia.
 
+<p align="justify">
+
 La tabla `users` almacena la información de autenticación y perfil de los usuarios de ArquiTech. La relación entre los usuarios y los proyectos se representa mediante `project_members`, permitiendo que múltiples usuarios puedan participar en un mismo proyecto y que un usuario pueda estar relacionado con diferentes proyectos.
+
+</p>
+
+<p align="justify">
 
 `projects` constituye la tabla central del modelo y se relaciona con los distintos recursos utilizados durante la ejecución de una obra.
 
+</p>
+
+<p align="justify">
+
 `materials` almacena el inventario actual de materiales correspondiente a cada proyecto, mientras que `material_movements` conserva el historial de entradas y usos realizados. Esta separación permite mantener el stock actual y, al mismo tiempo, preservar la trazabilidad de las operaciones.
+
+</p>
+
+<p align="justify">
 
 `machineries` almacena la información de la maquinaria asignada a cada proyecto.
 
+</p>
+
+<p align="justify">
+
 `workers` registra al personal involucrado en una obra. Los registros diarios de asistencia se almacenan mediante `attendances`, mientras que las actividades asignadas a los trabajadores son gestionadas mediante `tasks`.
+
+</p>
+
+<p align="justify">
 
 `incidents` mantiene el historial de acontecimientos relevantes registrados durante el desarrollo de un proyecto y permite realizar seguimiento de su estado hasta su resolución.
 
+</p>
+
+<p align="justify">
+
 Finalmente, `reports` almacena la información de los reportes generados para cada proyecto.
 
+</p>
+
+<p align="justify">
+
 Las principales relaciones del modelo son de tipo uno a muchos y muchos a muchos. La relación muchos a muchos existente entre usuarios y proyectos se resuelve mediante la tabla intermedia `project_members`.
+
+</p>
 
 #### Estructura propuesta de tablas
 
@@ -3619,7 +4863,11 @@ Las principales relaciones del modelo son de tipo uno a muchos y muchos a muchos
 
 ## 5.1. Software Configuration Management
 
+<p align="justify">
+
 Esta sección define las herramientas, prácticas de control de versiones, convenciones de código y procesos de despliegue utilizados para mantener de forma trazable los productos de ArquiTech. La implementación técnica se reutiliza de los repositorios de `osFoundex`, mientras que el informe del curso actual se administra en un repositorio independiente de la organización del curso.
+
+</p>
 
 ### 5.1.1. Software Development Environment Configuration
 
@@ -3665,9 +4913,17 @@ Esta sección define las herramientas, prácticas de control de versiones, conve
 
 ### 5.1.2. Source Code Management
 
+<p align="justify">
+
 El equipo utiliza Git para el control de versiones y GitHub para alojar y revisar los cambios. El Project Report del curso actual no debe confundirse con el informe reutilizado: el documento vigente se mantiene en la organización `UPC-1ASI0732-202620-9112-ArquiTech`, mientras que la base técnica procede de `osFoundex`.
 
+</p>
+
+<p align="justify">
+
 Repositorios administrados o utilizados como referencia:
+
+</p>
 
 - **Project Report actual:** [ArquiTech-Report](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-Report)
 - **Project Report reutilizado:** [ArquiTech_ProjectReport](https://github.com/osFoundex/ArquiTech_ProjectReport)
@@ -3677,7 +4933,11 @@ Repositorios administrados o utilizados como referencia:
 
 #### GitFlow
 
+<p align="justify">
+
 El flujo de trabajo se basa en GitFlow. Las ramas persistentes y temporales cumplen los siguientes propósitos:
+
+</p>
 
 - **`main`:** contiene versiones estables y aptas para producción. Los releases se identifican con etiquetas de versión.
 - **`develop`:** integra el trabajo aprobado y representa el estado de la siguiente versión. Las ramas `main` y `develop` existen en los repositorios reutilizados de Landing Page, Frontend y Backend.
@@ -3685,27 +4945,47 @@ El flujo de trabajo se basa en GitFlow. Las ramas persistentes y temporales cump
 - **`release/*`:** nace desde `develop` para estabilizar una versión sin incorporar nuevas funcionalidades; al finalizar se integra en `main` y `develop`. Ejemplo: `release/1.0.0`.
 - **`hotfix/*`:** nace desde `main` para corregir un defecto urgente de producción; luego se integra en `main` y `develop`. Ejemplo: `hotfix/1.0.1`.
 
+<p align="justify">
+
 Los nombres de ramas se escriben en inglés. Los nombres descriptivos de `feature/*` usan `kebab-case`, mientras que `release/*` y `hotfix/*` usan una versión válida.
+
+</p>
 
 #### Semantic Versioning
 
+<p align="justify">
+
 Las versiones siguen [Semantic Versioning 2.0.0](https://semver.org/) con el formato `MAJOR.MINOR.PATCH`:
+
+</p>
 
 - `MAJOR` cambia cuando se introducen modificaciones incompatibles.
 - `MINOR` cambia cuando se agregan funcionalidades compatibles.
 - `PATCH` cambia cuando se corrigen defectos de forma compatible.
 
+<p align="justify">
+
 Por ejemplo, `1.1.0` identifica una nueva funcionalidad compatible y `1.0.1` una corrección compatible. En `main`, cada release estable debe etiquetarse como `v<version>`, por ejemplo, `v1.0.0`.
+
+</p>
 
 #### Conventional Commits
 
+<p align="justify">
+
 Los mensajes de commit se redactan en inglés y siguen [Conventional Commits](https://www.conventionalcommits.org/) con la estructura:
+
+</p>
 
 ```text
 <type>(<scope>): <description>
 ```
 
+<p align="justify">
+
 Se utilizan los tipos `feat`, `fix`, `docs`, `style`, `refactor`, `test` y `chore`. El `scope` identifica el área afectada y la descripción se escribe de forma breve, imperativa y sin punto final.
+
+</p>
 
 ```text
 feat(projects): add project creation form
@@ -3715,7 +4995,11 @@ docs(report): update software configuration management
 
 ### 5.1.3. Source Code Style Guide & Conventions
 
+<p align="justify">
+
 Las convenciones se aplican a las tecnologías presentes en los repositorios reutilizados. Toda nomenclatura de código se escribe en inglés y emplea nombres descriptivos que expresen intención.
+
+</p>
 
 #### Convenciones generales
 
@@ -3792,15 +5076,27 @@ Feature: Project management
 
 #### Comentarios
 
+<p align="justify">
+
 Los comentarios deben explicar decisiones, restricciones o comportamientos que no sean evidentes a partir del código. Se evitan comentarios redundantes que solo repitan una instrucción, así como código comentado que deba eliminarse o recuperarse desde el historial de Git.
+
+</p>
 
 ### 5.1.4. Software Deployment Configuration
 
+<p align="justify">
+
 Antes de desplegar, los cambios deben superar la revisión, la construcción y las pruebas correspondientes. Los valores sensibles no se almacenan en el repositorio ni se escriben en esta documentación.
+
+</p>
 
 #### Landing Page
 
+<p align="justify">
+
 La Landing Page reutilizada se encuentra en [ArquiTech_LandingPage](https://github.com/osFoundex/ArquiTech_LandingPage). Su rama `develop` contiene un proyecto Angular 20 administrado con npm; por ello, su instalación y construcción se realizan con los scripts declarados en `package.json`:
+
+</p>
 
 ```bash
 git clone https://github.com/osFoundex/ArquiTech_LandingPage.git
@@ -3810,16 +5106,28 @@ npm install
 npm run build
 ```
 
+<p align="justify">
+
 El resultado optimizado se genera dentro de `dist/` según la configuración de Angular. El proyecto reutilizado documenta dos publicaciones que se mantienen accesibles:
+
+</p>
 
 - **GitHub Pages:** [https://osfoundex.github.io/ArquiTech_LandingPage/](https://osfoundex.github.io/ArquiTech_LandingPage/)
 - **Netlify:** [https://incredible-meringue-eb1ec4.netlify.app/](https://incredible-meringue-eb1ec4.netlify.app/)
 
+<p align="justify">
+
 Para GitHub Pages se publica el contenido construido en la fuente configurada en el repositorio. En Netlify se vincula el repositorio, se define `npm run build` como Build command y se selecciona como Publish directory la carpeta de salida generada dentro de `dist/`.
+
+</p>
 
 #### Frontend Web Application
 
+<p align="justify">
+
 El Frontend reutilizado se encuentra en [ArquiTech_FrontendWebApp](https://github.com/osFoundex/ArquiTech_FrontendWebApp). La rama `develop` declara Angular 19.2, TypeScript 5.7, Angular Material 19.2 y los scripts `build` y `test`:
+
+</p>
 
 ```bash
 git clone https://github.com/osFoundex/ArquiTech_FrontendWebApp.git
@@ -3830,19 +5138,35 @@ npm test -- --watch=false
 npm run build
 ```
 
+<p align="justify">
+
 `npm run build` ejecuta `ng build` y utiliza por defecto la configuración de producción. De forma explícita también puede ejecutarse:
+
+</p>
 
 ```bash
 npx ng build --configuration production
 ```
 
+<p align="justify">
+
 La salida se genera en `dist/arquitech`, tal como establece `angular.json`. En Netlify se configura `npm run build` como Build command y `dist/arquitech/browser` como Publish directory para el builder de aplicación de Angular. El despliegue reutilizado se encuentra en [https://precious-bavarois-d27735.netlify.app/](https://precious-bavarois-d27735.netlify.app/).
+
+</p>
 
 #### Backend / Web Services
 
+<p align="justify">
+
 El Backend reutilizado se encuentra en [Arquitech_BackendWebApp](https://github.com/osFoundex/Arquitech_BackendWebApp). El módulo Maven está ubicado en `arquitech-back-end` y su rama `develop` incluye Maven Wrapper, Java 17, Spring Boot 3.5.0, MySQL Connector/J, Spring Security y `springdoc-openapi`.
 
+</p>
+
+<p align="justify">
+
 En Linux o macOS:
+
+</p>
 
 ```bash
 git clone https://github.com/osFoundex/Arquitech_BackendWebApp.git
@@ -3851,7 +5175,11 @@ cd Arquitech_BackendWebApp/arquitech-back-end
 ./mvnw clean package
 ```
 
+<p align="justify">
+
 En Windows:
+
+</p>
 
 ```powershell
 git clone https://github.com/osFoundex/Arquitech_BackendWebApp.git
@@ -3860,9 +5188,17 @@ mvnw.cmd test
 mvnw.cmd clean package
 ```
 
+<p align="justify">
+
 El comando `test` ejecuta las pruebas configuradas con Spring Boot Test. `clean package` recompila el proyecto, ejecuta las pruebas y genera el artefacto JAR dentro de `target/`. Railway puede construir el servicio desde el repositorio o ejecutar el JAR generado, exponer el puerto asignado por la plataforma y conectarlo con una instancia MySQL.
 
+</p>
+
+<p align="justify">
+
 La configuración de producción se proporciona mediante variables de entorno. Como mínimo se administran nombres como los siguientes, sin registrar sus valores en Git:
+
+</p>
 
 ```text
 DATABASE_URL
@@ -3870,7 +5206,11 @@ PROD_DB_USERNAME
 PROD_DB_PASSWORD
 ```
 
+<p align="justify">
+
 Estas variables se asignan a las propiedades de datasource de Spring Boot en la configuración del entorno de Railway. Cualquier clave JWT, token u otro secreto también debe mantenerse exclusivamente en el gestor de variables de la plataforma. `springdoc-openapi` genera la especificación OpenAPI y Swagger UI permite consultar y probar los endpoints una vez desplegado el servicio. Las URLs históricas de Railway y Swagger documentadas por el proyecto reutilizado no se consignan como enlaces activos porque actualmente no responden con la interfaz de la API.
+
+</p>
 
 #### Flujo de promoción
 
@@ -3895,7 +5235,11 @@ Production Deployment
 ### 5.2.1. Sprint Backlogs
 
 <div style="text-align: justify;">
+<p align="justify">
+
 Para el control y seguimiento de las actividades del proyecto ArquiTech, se definieron y asignaron las tareas a través del backlog. Dado que este primer sprint se enfoca en la fase de concepción, diseño UX/UI y documentación de la arquitectura, una gran parte de las actividades corresponde a la configuración y documentación del proyecto. Las tareas orientadas a diseño, infraestructura y despliegue se han vinculado a las Epics, User Stories y Spike Stories correspondientes definidas en el Product Backlog. A continuación, se presenta la estructura detallada del Sprint Backlog.
+
+</p>
 </div>
 
 <br>
@@ -3962,13 +5306,21 @@ _Vista del Sprint Backlog en Jira - Parte 2 (Fases de Diseño, Arquitectura y De
 ### 5.2.2. Implemented Landing Page Evidence
 
 <div style="text-align: justify;">
+<p align="justify">
+
 En esta sección se evidencian los avances correspondientes a la implementación de la Landing Page de ArquiTech. La página fue estructurada y desarrollada utilizando el framework Angular (TypeScript, HTML5 y CSS3) como línea base del producto, y ha sido configurada en su respectivo repositorio para el control de versiones y despliegue continuo.
+
+</p>
 </div>
 
 **Execution Evidence (Capturas de Pantalla)**
 
 <div style="text-align: justify;">
+<p align="justify">
+
 A continuación, se presenta la evidencia visual del software en ejecución, demostrando la integración de la propuesta de diseño y la identidad visual de ArquiTech en el entorno de producción.
+
+</p>
 </div>
 
 <br>
@@ -3985,7 +5337,11 @@ _Vista de la Landing Page implementada (Sección Inicio)_
 ### 5.2.3. Implemented Frontend-Web Application Evidence
 
 <div style="text-align: justify;">
+<p align="justify">
+
 Esta sección evidencia la implementación de la Frontend Web Application de ArquiTech, el entorno principal para supervisores y contratantes. A continuación, se presenta el software en ejecución en su entorno de producción, evidenciando las vistas principales con datos dinámicos y soporte i18n.
+
+</p>
 </div>
 
 <br>
@@ -4009,9 +5365,13 @@ _Vista de la Aplicación Web en Producción (Módulo de Materiales)_
 
 ## 5.3. Video About-the-Product
 
+<p align="justify">
+
 En esta sección, presentamos el Video About the Product, diseñado para captar la atención de los visitantes de nuestro Landing Page y los usuarios de nuestras aplicaciones, ofreciendo una visión clara y atractiva del modelo de negocio y las características principales de nuestra solución de software, Arquitech. Este video tiene como objetivo principal comunicar cómo nuestra plataforma facilita procesos clave como la creación de usuarios de manera eficiente y segura. Dirigido tanto a potenciales clientes interesados en conocer las capacidades de nuestro producto como a usuarios que desean realizar tareas relacionadas con la gestión de usuarios, el video adopta un tono profesional, innovador y accesible, alineado con la identidad de nuestra plataforma. A través de una demostración dinámica de las funcionalidades, el video resalta la facilidad de uso y la integración con una base de datos. Además, incluye un testimonio positivo de un usuario participante en las entrevistas de validación, reforzando la credibilidad y el valor de nuestra solución. Este contenido busca inspirar confianza y motivar a los espectadores a explorar y adoptar nuestra plataforma para optimizar sus procesos.
 
-**Figura 117**  
+</p>
+
+**Figura 108**  
 _Video About-the-product_
 
 <p align="center">
