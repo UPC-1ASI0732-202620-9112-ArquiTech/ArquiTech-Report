@@ -1894,6 +1894,10 @@ Esta estructura permite mantener trazabilidad entre el producto ya desarrollado 
 
 ## 3.4. Impact Mapping
 
+_Impact Mapping de ArquiTech_
+
+![Impact Mapping de ArquiTech](assets/chapter-3/impact-mapping/impact-map-final.png)
+
 # Capítulo IV: Product Design
 
 ## 4.1. Style Guidelines
@@ -1964,10 +1968,6 @@ _Tipografía de texto regular_
 
 <ins> **Colores** </ins>  
  Es importante elegir los colores para las plataformas digitales adecuadamente, ya que así se asegura que la experiencia del usuario sea placentera y agradable. Por ello, nos aseguramos que la paleta de colores seleccionada de Arquitech refleje la esencia de la startup en la landing page y en nuestra aplicación.
-
-_Impact Mapping de ArquiTech_
-
-![Impact Mapping de ArquiTech](assets/chapter-3/impact-mapping/impact-map-final.png)
 
 _Nota_. Elaboración propia.
 
