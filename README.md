@@ -1971,8 +1971,6 @@ _Impact Mapping de ArquiTech_
 
 _Nota_. Elaboración propia.
 
-# Capítulo IV: Product Design
-
 **Figura 49**  
 _Paleta de colores de ArquiTech_
 
