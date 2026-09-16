@@ -202,15 +202,13 @@ A continuación, capturas del procesos, commits y elaboración de nuestro proyec
 
   - [5.2.3. Implemented Frontend-Web Application Evidence](#523-implemented-frontend-web-application-evidence)
 
-  - [5.2.4. Acuerdo de Servicio - SaaS](#524-acuerdo-de-servicio---saas)
+  - [5.2.4. Implemented Native-Mobile Application Evidence](#524-implemented-native-mobile-application-evidence)
 
-  - [5.2.5. Implemented Native-Mobile Application Evidence](#525-implemented-native-mobile-application-evidence)
+  - [5.2.5. Implemented RESTful API and/or Serverless Backend Evidence](#525-implemented-restful-api-andor-serverless-backend-evidence)
 
-  - [5.2.6. Implemented RESTful API and/or Serverless Backend Evidence](#526-implemented-restful-api-andor-serverless-backend-evidence)
+  - [5.2.6. RESTful API documentation](#526-restful-api-documentation)
 
-  - [5.2.7. RESTful API documentation](#527-restful-api-documentation)
-
-  - [5.2.8. Team Collaboration Insights](#528-team-collaboration-insights)
+  - [5.2.7. Team Collaboration Insights](#527-team-collaboration-insights)
 
 - [5.3. Video About-the-Product](#53-video-about-the-product)
 
@@ -3322,15 +3320,13 @@ _Vista de la Aplicación Web en Producción (Módulo de Materiales)_
 
 <br>
 
-### 5.2.4. Acuerdo de Servicio - SaaS
+### 5.2.4. Implemented Native-Mobile Application Evidence
 
-### 5.2.5. Implemented Native-Mobile Application Evidence
+### 5.2.5. Implemented RESTful API and/or Serverless Backend Evidence
 
-### 5.2.6. Implemented RESTful API and/or Serverless Backend Evidence
+### 5.2.6. RESTful API documentation
 
-### 5.2.7. RESTful API documentation
-
-### 5.2.8. Team Collaboration Insights
+### 5.2.7. Team Collaboration Insights
 
 ## 5.3. Video About-the-Product
 
