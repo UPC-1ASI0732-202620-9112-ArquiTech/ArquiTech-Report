@@ -1632,80 +1632,81 @@ _Nota._ Elaboración propia.
 <ins>**As-Is Scenario Mapping del segmento #1: Supervisores de Obra**</ins>
 
 **Figura 28**  
-*As-Is Scenario Mapping para segmento #1*  
+_As-Is Scenario Mapping para segmento #1_
+
 <p align="center">
   <img src="assets/As-is/OS_As-is_S1.jpg" alt="PB" width="1000">
 </p>
 
-
 **Figura 29**  
-*Áreas positivas del As-Is Scenario Mapping para segmento #1*  
+_Áreas positivas del As-Is Scenario Mapping para segmento #1_
+
 <p align="center">
   <img src="assets/As-is/OS_As-is_S1_AP.jpg" alt="PB" width="1000">
 </p>
 
+**Figura 30**  
+_Áreas negativas del As-Is Scenario Mapping para segmento #1_
 
-**Figura 30**   
-*Áreas negativas del As-Is Scenario Mapping para segmento #1*
 <p align="center">
   <img src="assets/As-is/OS_As-is_S1_AN.jpg" alt="PB" width="1000">
 </p>
-  
 
-**Figura 31**   
-*Blank areas del As-Is Scenario Mapping para segmento \#1*
+**Figura 31**  
+_Blank areas del As-Is Scenario Mapping para segmento \#1_
+
 <p align="center">
   <img src="assets/As-is/OS_As-is_S1_BA.jpg" alt="PB" width="1000">
 </p>
-  
 
-<ins>**As-Is Scenario Mapping para Segmento \# 2: Contratantes de Empresas Privadas**</ins>  
+<ins>**As-Is Scenario Mapping para Segmento \# 2: Contratantes de Empresas Privadas**</ins>
 
-**Figura 32**   
-*As-Is Scenario Mapping para segmento #2*  
+**Figura 32**  
+_As-Is Scenario Mapping para segmento #2_
+
 <p align="center">
   <img src="assets/As-is/OS_As-is_S2.jpg" alt="PB" width="1000">
 </p>
-  
 
-**Figura 33**   
-*Áreas positivas del As-Is Scenario Mapping para segmento #2*  
+**Figura 33**  
+_Áreas positivas del As-Is Scenario Mapping para segmento #2_
+
 <p align="center">
   <img src="assets/As-is/OS_As-is_S2_AP.jpg" alt="PB" width="1000">
 </p>
 
+**Figura 34**  
+_Áreas negativas del As-Is Scenario Mapping para segmento #2_
 
-**Figura 34**   
-*Áreas negativas del As-Is Scenario Mapping para segmento #2*  
 <p align="center">
   <img src="assets/As-is/OS_As-is_S2_AN.jpg" alt="PB" width="1000">
 </p>
-  
 
-**Figura 35**   
-*Blank areas del As-Is Scenario Mapping para segmento #2*  
+**Figura 35**  
+_Blank areas del As-Is Scenario Mapping para segmento #2_
+
 <p align="center">
   <img src="assets/As-is/OS_As-is_S2_BA.jpg" alt="PB" width="1000">
 </p>
 
 ## 2.4. Ubiquitous Language
 
-| Término (Inglés) | Término (Español) | Definición |
-| :---- | :---- | :---- |
-| Construction Site | Obra de construcción | Lugar físico donde se ejecuta un proyecto de construcción, gestionado por supervisores y equipos operativos. |
-| Supervisor | Supervisor | Persona responsable de coordinar y controlar las actividades diarias en la obra, incluyendo personal, materiales y cumplimiento de plazos. |
-| Contractor | Contratante | Empresa o persona que encarga una obra y espera su ejecución conforme a los estándares, plazos y regulaciones establecidos. |
-| Resource | Recurso | Elemento necesario para el desarrollo de la obra, como materiales de construcción, maquinaria o personal. |
-| Attendance | Asistencia | Registro diario de la presencia del personal obrero o técnico en la obra. |
-| Offline Mode | Modo sin conexión | Funcionalidad que permite usar la aplicación sin {acceso a internet, sincronizando los datos al reconectarse. |
-| Progress Report | Reporte de avance | Documento o visualización que resume el estado actual del proyecto, incluyendo tareas realizadas, tiempos y uso de recursos. |
-| Workforce | Mano de obra / Personal | Grupo de trabajadores (obreros y técnicos) que participan activamente en la ejecución de la obra. |
-| Material Entry | Registro de materiales | Acción de añadir nuevos materiales o equipos al inventario dentro del sistema. |
-| Stock Update	 | Actualización de stock | Modificación de las cantidades de materiales disponibles, ya sea por consumo o nueva adquisición. |
-| Construction Budget | Presupuesto de obra | Estimación financiera que define los costos proyectados del proyecto, incluyendo materiales, personal y otros gastos. |
-| Work Order | Orden de trabajo | Documento o instrucción digital que detalla tareas a realizar por el personal en obra. |
-| Company Profile | Perfil de la empresa | Información registrada sobre la empresa constructora: nombre, contacto, tipo de proyectos, etc. |
-| Onboarding | Introducción / Capacitación inicial | Proceso mediante el cual nuevos usuarios aprenden a usar la plataforma por medio de videos y tutoriales guiados. |
+| Término (Inglés)    | Término (Español)                   | Definición                                                                                                                                 |
+| :------------------ | :---------------------------------- | :----------------------------------------------------------------------------------------------------------------------------------------- |
+| Construction Site   | Obra de construcción                | Lugar físico donde se ejecuta un proyecto de construcción, gestionado por supervisores y equipos operativos.                               |
+| Supervisor          | Supervisor                          | Persona responsable de coordinar y controlar las actividades diarias en la obra, incluyendo personal, materiales y cumplimiento de plazos. |
+| Contractor          | Contratante                         | Empresa o persona que encarga una obra y espera su ejecución conforme a los estándares, plazos y regulaciones establecidos.                |
+| Resource            | Recurso                             | Elemento necesario para el desarrollo de la obra, como materiales de construcción, maquinaria o personal.                                  |
+| Attendance          | Asistencia                          | Registro diario de la presencia del personal obrero o técnico en la obra.                                                                  |
+| Offline Mode        | Modo sin conexión                   | Funcionalidad que permite usar la aplicación sin {acceso a internet, sincronizando los datos al reconectarse.                              |
+| Progress Report     | Reporte de avance                   | Documento o visualización que resume el estado actual del proyecto, incluyendo tareas realizadas, tiempos y uso de recursos.               |
+| Workforce           | Mano de obra / Personal             | Grupo de trabajadores (obreros y técnicos) que participan activamente en la ejecución de la obra.                                          |
+| Material Entry      | Registro de materiales              | Acción de añadir nuevos materiales o equipos al inventario dentro del sistema.                                                             |
+| Stock Update        | Actualización de stock              | Modificación de las cantidades de materiales disponibles, ya sea por consumo o nueva adquisición.                                          |
+| Construction Budget | Presupuesto de obra                 | Estimación financiera que define los costos proyectados del proyecto, incluyendo materiales, personal y otros gastos.                      |
+| Work Order          | Orden de trabajo                    | Documento o instrucción digital que detalla tareas a realizar por el personal en obra.                                                     |
+| Company Profile     | Perfil de la empresa                | Información registrada sobre la empresa constructora: nombre, contacto, tipo de proyectos, etc.                                            |
+| Onboarding          | Introducción / Capacitación inicial | Proceso mediante el cual nuevos usuarios aprenden a usar la plataforma por medio de videos y tutoriales guiados.                           |
 
 # Capítulo III: Requirements Specification
 
@@ -2103,6 +2104,7 @@ En la arquitectura de información de Arquitech, se aplican distintos sistemas d
     - Registro de asistencia
 
 # Capítulo III: Requirements Specification
+
     - Registro de materiales utilizados
 
     - Observaciones finales
@@ -2527,12 +2529,13 @@ _Nota._ Elaboración propia.
 ## 4.7. Web Applications Prototyping
 
 **Figura 72**  
-*Video of Web Applications Prototype of ArquiTech*
+_Video of Web Applications Prototype of ArquiTech_
+
 <p align="center">
   <img src="assets/Web Applications/wwb-prototyping.jpeg" alt="PB" width="500">
 </p>
 
-*Nota.* Elaboración propia. Link del video: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20231a418_upc_edu_pe/IQAZBSS8VPO-Sr1Da7xkzDxSAWar5iNcGeT-RkKH8l7VM8s?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=YXHzf3](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20231a418_upc_edu_pe/IQAZBSS8VPO-Sr1Da7xkzDxSAWar5iNcGeT-RkKH8l7VM8s?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=YXHzf3)
+_Nota._ Elaboración propia. Link del video: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20231a418_upc_edu_pe/IQAZBSS8VPO-Sr1Da7xkzDxSAWar5iNcGeT-RkKH8l7VM8s?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=YXHzf3](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20231a418_upc_edu_pe/IQAZBSS8VPO-Sr1Da7xkzDxSAWar5iNcGeT-RkKH8l7VM8s?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=YXHzf3)
 
 ## 4.8. Domain-Driven Software Architecture
 
@@ -2943,6 +2946,46 @@ _Vista del Sprint Backlog en Jira - Parte 2 (Fases de Diseño, Arquitectura y De
 | **EP04**      | Landing Page y comunicación     | **ARQDE-89**      | 5.3. Video About-the-Product   | Grabación y edición del video pitch.               | 6                  | Braden Garcia      | Done   |
 
 ### 5.2.2. Implemented Landing Page Evidence
+
+<div style="text-align: justify;">
+En esta sección se evidencian los avances correspondientes a la implementación de la Landing Page de ArquiTech. La página fue estructurada y desarrollada utilizando el framework Angular (TypeScript, HTML5 y CSS3) como línea base del producto, y ha sido configurada en su respectivo repositorio para el control de versiones y despliegue continuo.
+</div>
+
+<br>
+
+- **Enlace al Repositorio (GitHub):** https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-LandingPage
+- **Enlace de Despliegue (Producción):** https://arquitech-landing-3av90tuf7-mermermer147-6937.vercel.app
+
+<br>
+
+**Execution Evidence (Capturas de Pantalla)**
+
+<div style="text-align: justify;">
+A continuación, se presenta la evidencia visual del software en ejecución, demostrando la integración de la propuesta de diseño y la identidad visual de ArquiTech en el entorno de producción.
+</div>
+
+<br>
+
+_Vista de la Landing Page implementada (Sección Inicio)_
+
+<p align="center">
+  <img src="assets/chapter-5/implemented/landing-page-execution.png" width="850" alt="Landing Page Implementada">
+</p>
+<p align="center"><em>*Nota.* Elaboración propia (Software en ejecución).</em></p>
+
+<br>
+
+**Development Evidence (Registro de Commits)**
+
+<div style="text-align: justify;">
+A continuación, se presenta el registro de commits que evidencia la integración del código base de la Landing Page en el repositorio oficial del equipo, aplicando las convenciones de control de versiones.
+</div>
+
+<br>
+
+| Repository                      | Branch | Commit Id | Commit Message                                         | Commit Message Body                                                | Commited on (Date) |
+| :------------------------------ | :----- | :-------- | :----------------------------------------------------- | :----------------------------------------------------------------- | :----------------- |
+| `Foundex/ArquiTech-LandingPage` | `main` | `b8d0eee` | feat(landing-page): add initial arquitech landing page | Integración inicial del código base de la Landing Page en Angular. | 14/09/2026         |
 
 ### 5.2.3. Implemented Frontend-Web Application Evidence
 
