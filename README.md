@@ -976,7 +976,7 @@ Aunque estas preguntas se presentan de manera agrupada en el diseño de entrevis
 
 Como parte del proceso de investigación de ArquiTech, se contemplan entrevistas a representantes de los dos segmentos objetivo definidos: supervisores de obra y contratantes de empresas privadas. Para esta etapa se consideran tres participantes por cada segmento, obteniendo un total de seis entrevistas.
 
-Cada entrevista será registrada en video como evidencia del proceso de investigación. Posteriormente, las seis entrevistas serán consolidadas en un único video editado de Needfinding, utilizando Clipchamp y publicándolo en Microsoft Stream mediante un enlace privado. Para cada participante se registran sus nombres y apellidos, edad, distrito de residencia, segmento objetivo, fecha de entrevista, un cuadro representativo del video, el timing exacto en el que inicia su participación dentro del video consolidado y la duración correspondiente.
+Cada entrevista será registrada en video como evidencia del proceso de investigación. Posteriormente, las seis entrevistas serán consolidadas en un único video editado de Entrevistas, utilizando Clipchamp y publicándolo en Microsoft Stream mediante un enlace privado. Para cada participante se registran sus nombres y apellidos, edad, distrito de residencia, segmento objetivo, fecha de entrevista, un cuadro representativo del video, el timing exacto en el que inicia su participación dentro del video consolidado y la duración correspondiente.
 
 El video consolidado incluirá una pantalla inicial de presentación, elementos visuales relacionados con la identidad de Foundex y ArquiTech, una secuencia coherente entre entrevistas y títulos que identifiquen al participante, el segmento objetivo y la fecha de realización de cada entrevista. La edición considerará aproximadamente entre tres y cinco minutos por participante.
 
@@ -984,13 +984,13 @@ Los resúmenes presentados para cada entrevista recogen las principales respuest
 
 Esta información servirá posteriormente como fuente para el análisis estadístico de entrevistas y para la construcción de los User Personas, manteniendo trazabilidad entre las características incorporadas en los arquetipos y la información obtenida durante las entrevistas.
 
-**Video consolidado de Needfinding:** [ENLACE PRIVADO DE MICROSOFT STREAM]
+**Video consolidado de Needfinding:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202320442_upc_edu_pe/IQDWnJj67oWOTaeKQVq4DaOPAXX9DFuqJ-kxtlCUQ-2Lsos?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=8BvJOp
 
-**Nombre del video:** `upc-pre-202610-1asi0732-9112-Foundex-needfinding-sprint-1.mp4`
+**Nombre del video:** `upc-pre-202620-1asi0732-9112-Foundex-needfinding-interviews.mp4`
 
 **Formato:** `.mp4`
 
-**Duración total:** [HH:MM:SS]
+**Duración total:** 38:31
 
 ---
 
@@ -1007,7 +1007,7 @@ Esta información servirá posteriormente como fuente para el análisis estadís
 - **Fecha de entrevista:** 14/09/26
 - **Timing de inicio:** 00:00
 - **Duración:** 07:24
-- **Video consolidado:** [Entrevista1-Segmento1-Diseño](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202320442_upc_edu_pe/IQBsTLNNide4S4_-1cUwXRg4AdC35tmBxErwlBtYPznmQzk?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=u12fcE)
+- **Video consolidado:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202320442_upc_edu_pe/IQDWnJj67oWOTaeKQVq4DaOPAXX9DFuqJ-kxtlCUQ-2Lsos?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=8BvJOp
 
 **Figura 1**  
 _Cuadro de video del entrevistado #1 del segmento Supervisores de obra._
@@ -1054,10 +1054,10 @@ Finalmente, considera que una solución digital también debería permitir compa
 - **Edad:** 55 años
 - **Distrito de residencia:** San Juan de Lurigancho
 - **Segmento objetivo:** Supervisora de obra
-- **Fecha de entrevista:** [DD/MM/AAAA]
-- **Timing de inicio:** [HH:MM:SS]
-- **Duración:** [MM:SS]
-- **Video consolidado:** [ENLACE PRIVADO DE MICROSOFT STREAM]
+- **Fecha de entrevista:** 14/09/26
+- **Timing de inicio:** 07:24
+- **Duración:** 05:42
+- **Video consolidado:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202320442_upc_edu_pe/IQDWnJj67oWOTaeKQVq4DaOPAXX9DFuqJ-kxtlCUQ-2Lsos?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=8BvJOp
 
 **Figura 2**  
 _Cuadro de video del entrevistado #2 del segmento Supervisores de obra._
@@ -1104,13 +1104,13 @@ Finalmente, considera importante que una plataforma permita realizar seguimiento
 - **Edad:** 31 años
 - **Distrito de residencia:** Callao
 - **Segmento objetivo:** Supervisora de obra
-- **Fecha de entrevista:** [DD/MM/AAAA]
-- **Timing de inicio:** [HH:MM:SS]
-- **Duración:** [MM:SS]
-- **Video consolidado:** [ENLACE PRIVADO DE MICROSOFT STREAM]
+- **Fecha de entrevista:** 14/09/26
+- **Timing de inicio:** 13:07
+- **Duración:** 06:30
+- **Video consolidado:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202320442_upc_edu_pe/IQDWnJj67oWOTaeKQVq4DaOPAXX9DFuqJ-kxtlCUQ-2Lsos?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=8BvJOp
 
-**Figura X**  
-_Cuadro de video del entrevistado #3 del segmento Supervisores de obra._
+**Figura 3**  
+*Cuadro de video del entrevistado #3 del segmento Supervisores de obra.*
 
 <p align="center">
   <img src="assets/chapter-2/interviews/interview-03.png"
@@ -1154,17 +1154,17 @@ Finalmente, considera que sería útil recibir alertas automáticas ante eventos
 
 **Datos del entrevistado**
 
-- **Nombres y apellidos:** [NOMBRES Y APELLIDOS]
+- **Nombres y apellidos:** Yul Nuñez
 - **Edad:** 27 años
 - **Distrito de residencia:** Cercado de Lima
 - **Segmento objetivo:** Contratante de empresa privada
-- **Fecha de entrevista:** [DD/MM/AAAA]
-- **Timing de inicio:** [HH:MM:SS]
-- **Duración:** [MM:SS]
-- **Video consolidado:** [ENLACE PRIVADO DE MICROSOFT STREAM]
+- **Fecha de entrevista:** 14/09/26
+- **Timing de inicio:** 19:38
+- **Duración:** 06:22
+- **Video consolidado:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202320442_upc_edu_pe/IQDWnJj67oWOTaeKQVq4DaOPAXX9DFuqJ-kxtlCUQ-2Lsos?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=8BvJOp
 
-**Figura X**  
-_Cuadro de video del entrevistado #1 del segmento Contratantes de empresas privadas._
+**Figura 4**  
+*Cuadro de video del entrevistado #1 del segmento Contratantes de empresas privadas.*
 
 <p align="center">
   <img src="assets/chapter-2/interviews/interview-04.png"
@@ -1176,7 +1176,7 @@ _Nota._ Elaboración propia a partir de la entrevista realizada.
 
 **Resumen de la entrevista**
 
-[NOMBRE] es una administradora de un pequeño negocio comercial de 27 años, residente en Cercado de Lima. Se identifica con el género femenino, es soltera y no tiene hijos ni personas que dependan económicamente de ella. Cuenta con aproximadamente cuatro años de experiencia contratando proyectos relacionados con remodelaciones y adecuaciones de locales comerciales.
+Yul Nuñez es una administradora de un pequeño negocio comercial de 27 años, residente en Cercado de Lima. Se identifica con el género femenino, es soltera y no tiene hijos ni personas que dependan económicamente de ella. Cuenta con aproximadamente cuatro años de experiencia contratando proyectos relacionados con remodelaciones y adecuaciones de locales comerciales.
 
 Suele contratar principalmente remodelaciones de locales comerciales, oficinas y pequeños almacenes. Para seleccionar una empresa constructora revisa recomendaciones, trabajos anteriores, presupuesto y cumplimiento de plazos.
 
@@ -1206,17 +1206,17 @@ Finalmente, considera que una empresa constructora que utilice herramientas digi
 
 **Datos del entrevistado**
 
-- **Nombres y apellidos:** [NOMBRES Y APELLIDOS]
+- **Nombres y apellidos:** Gerardo Rojas Quispe
 - **Edad:** 35 años
 - **Distrito de residencia:** San Martín de Porres
 - **Segmento objetivo:** Contratante de empresa privada
-- **Fecha de entrevista:** [DD/MM/AAAA]
-- **Timing de inicio:** [HH:MM:SS]
-- **Duración:** [MM:SS]
-- **Video consolidado:** [ENLACE PRIVADO DE MICROSOFT STREAM]
+- **Fecha de entrevista:** 14/09/26
+- **Timing de inicio:** 25:55
+- **Duración:** 06:24
+- **Video consolidado:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202320442_upc_edu_pe/IQDWnJj67oWOTaeKQVq4DaOPAXX9DFuqJ-kxtlCUQ-2Lsos?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=8BvJOp
 
-**Figura X**  
-_Cuadro de video del entrevistado #2 del segmento Contratantes de empresas privadas._
+**Figura 5**  
+*Cuadro de video del entrevistado #2 del segmento Contratantes de empresas privadas.*
 
 <p align="center">
   <img src="assets/chapter-2/interviews/interview-05.png"
@@ -1228,7 +1228,7 @@ _Nota._ Elaboración propia a partir de la entrevista realizada.
 
 **Resumen de la entrevista**
 
-[NOMBRE] es un gerente de operaciones de 35 años, residente en San Martín de Porres. Se identifica con el género masculino, es casado y tiene responsabilidades familiares, aspecto que influye en la organización de sus horarios y en la precaución con la que evalúa decisiones que pueden representar riesgos económicos.
+Gerardo Rojas Quispe es un gerente de operaciones de 35 años, residente en San Martín de Porres. Se identifica con el género masculino, es casado y tiene responsabilidades familiares, aspecto que influye en la organización de sus horarios y en la precaución con la que evalúa decisiones que pueden representar riesgos económicos.
 
 Cuenta con aproximadamente ocho años de experiencia participando en proyectos relacionados con remodelaciones industriales, oficinas y almacenes. Para seleccionar una empresa constructora considera principalmente la experiencia específica, el cumplimiento normativo, la transparencia, el presupuesto y los plazos.
 
@@ -1260,17 +1260,17 @@ Finalmente, considera que una plataforma de seguimiento podría influir positiva
 
 **Datos del entrevistado**
 
-- **Nombres y apellidos:** [NOMBRES Y APELLIDOS]
+- **Nombres y apellidos:** Delicia Aguilar Vega
 - **Edad:** 28 años
 - **Distrito de residencia:** San Juan de Miraflores
 - **Segmento objetivo:** Contratante de empresa privada
-- **Fecha de entrevista:** [DD/MM/AAAA]
-- **Timing de inicio:** [HH:MM:SS]
-- **Duración:** [MM:SS]
-- **Video consolidado:** [ENLACE PRIVADO DE MICROSOFT STREAM]
+- **Fecha de entrevista:** 14/09/26
+- **Timing de inicio:** 32:19
+- **Duración:** 06:12
+- **Video consolidado:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202320442_upc_edu_pe/IQDWnJj67oWOTaeKQVq4DaOPAXX9DFuqJ-kxtlCUQ-2Lsos?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=8BvJOp
 
-**Figura X**  
-_Cuadro de video del entrevistado #3 del segmento Contratantes de empresas privadas._
+**Figura 6**  
+*Cuadro de video del entrevistado #3 del segmento Contratantes de empresas privadas.*
 
 <p align="center">
   <img src="assets/chapter-2/interviews/interview-06.png"
@@ -1282,7 +1282,7 @@ _Nota._ Elaboración propia a partir de la entrevista realizada.
 
 **Resumen de la entrevista**
 
-[NOMBRE] es una administradora de una pequeña empresa de 28 años, residente en San Juan de Miraflores. Se identifica con el género femenino, es conviviente y tiene responsabilidades familiares, ya que contribuye económicamente en su hogar. Esta situación influye en la precaución con la que toma decisiones financieras.
+Delicia Aguilar Vega es una administradora de una pequeña empresa de 28 años, residente en San Juan de Miraflores. Se identifica con el género femenino, es conviviente y tiene responsabilidades familiares, ya que contribuye económicamente en su hogar. Esta situación influye en la precaución con la que toma decisiones financieras.
 
 Cuenta con aproximadamente cinco años de experiencia contratando remodelaciones y adecuaciones de locales. Los proyectos que suele contratar incluyen remodelaciones, pequeños locales comerciales y edificaciones de hasta tres pisos.
 
