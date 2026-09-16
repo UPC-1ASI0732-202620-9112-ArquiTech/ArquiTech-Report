@@ -1352,6 +1352,100 @@ Esta estructura permite mantener trazabilidad entre el producto ya desarrollado 
 
 ### 4.1.1. General Style Guidelines
 
+Se presentará el diseño conceptual para la landing page como para la aplicación, realizado con el objetivo de lograr una interfaz intuitiva, fácil de usar y mostrar una experiencia estética agradable y cómoda. Se usarán 5 colores, los cuales son el Jet, Sinopia, Fulvous, Selective Yellow y Isabelline. Algunos de estos colores serán usados para el logotipo y para la landing page y la aplicación se alternará entre los 5 colores. Estos colores reflejan nuestra intención de crear un entorno visual digital para mejorar procesos de construcción. A continuación, se detallarán los elementos visuales con mayor precisión.
+
+<ins> **Branding e ícono:** </ins>
+
+**Figura 46**  
+_Logo_
+
+<p align="center">
+  <img src="assets/Style-Guidelines/A-logo.png" alt="PB" width="1000">
+</p>
+
+- Identidad:
+
+  Arquitech representa una fusión entre la construcción tradicional y la innovación tecnológica. La marca proyecta solidez, precisión y modernidad, dirigida a supervisores de obras y contratantes de pequeñas o medianas empresas privadas que valoran la optimización de procesos de las construcciones.
+
+- Paleta de Colores:
+  - \#C43508 (Sinopia): Es un color intenso y cálido y transmite fuerza y energía. También refleja estabilidad ya que representa solidez y firmeza.
+  - \#DE7F1A (Fulvous): Transmite profundidad, energía y dinamismo.
+  - \#FFB627 (Selective yellow): Aporta energía, innovación y enfoque en soluciones.
+  - \#F8F5F1 (Isabelline): Sirve para usarlo como fondo ya que aporta neutralidad, elegancia y contraste.
+  - \#2F2E2D (Jet): Representa seriedad, profesionalismo y sobriedad.
+
+- Simbolismo:
+  - Casco de construcción: Evidencia seguridad, ingeniería y trabajo profesional..
+  - Engranaje: Representa tecnología, precisión, procesos y avance constante.
+  - El combinar ambos iconos refuerza la idea de una startup que construye con inteligencia y eficiencia e integra lo físico con lo digital para optimizar procesos de construcción.
+
+- Mensaje de la marca:
+  - Optimización y eficiencia: Comunica simplicidad y que la startup busca mejorar los procesos constructivos desde la planificación hasta la ejecución, busca eliminar lo innecesario, maximizar recursos y entregar soluciones inteligentes y funcionales.
+  - Precisión y confiabilidad: El logo refleja solidez y confianza que Arquitech le brindará a sus clientes. Además, refleja seguridad, calidad y resultados duraderos.
+  - Claridad visual y profesionalismo: Representa lo funcional, lo directo y profesional. También, refuerza la idea de una empresa seria, accesible y alineada con las necesidades de la industria actualmente.
+
+- Aplicación del branding:
+  - Sitios web (landing page) y app: Interfaz limpia con los colores corporativos, iconos vectoriales y navegación intuitiva.
+  - Redes sociales y presentaciones digitales: Plantillas visualmente coherentes con el mensaje de la startup.
+  - Identidad visual corporativa: Uso estratégico del logo y la paleta de colores en material gráfico de la startup como las tarjetas de presentación, presentaciones empresariales, o imagen de perfil en aplicaciones de chats para contactar clientes.
+
+<ins> **Tipografía** </ins>  
+La tipografía de Arquitech cumple un importante rol en la expresión de la identidad de nuestra marca y brinda una sensación de claridad visual, calidez, acompañamiento para nuestros usuarios. Nuestra empresa eligió una fuente tipográfica que combina lo amigable y lo fluido, asegurando al usuario comodidad y nitidez en la landing page y en la aplicación.
+
+- Tipografía del Logo y Títulos:  
+  El logo de Arquitech que se eligió comunica claridad con varios valores clave como el profesionalismo y técnica, por lo que se ha utilizado la tipografía Anton Regular que pertenece a la Anton Font Family. Esta tipografía transmite un aspecto fuerte y serio, lo cual es ideal para una empresa de construcción que busca mejorar los procesos de las obras. Además, las letras son altas y gruesas, lo que da buena visibilidad al nombre de la empresa en el logo y en los títulos. Cabe agregar, que tiene un aire moderno, pero sin dejar de ser profesional.
+
+**Figura 47**  
+_Tipografía de logo y títulos_
+
+<p align="center">
+  <img src="assets/Style-Guidelines/font-demo1.png" alt="PB" width="1000">
+</p>
+
+- Tipografía de Texto Regular:  
+  Para el texto de la landing page y la aplicación se ha elegido la tipografía Futura que pertenece a Futura Font Family con el objetivo de que el usuario pueda obtener una cómoda y agradable lectura al visitar nuestras plataformas digitales. Además, esta tipografía representa modernidad, minimalismo, profesionalismo y seriedad. Aquello ayuda a la marca a representar tecnicismo, precisión y avances.
+
+**Figura 48**  
+_Tipografía de texto regular_
+
+<p align="center">
+  <img src="assets/Style-Guidelines/futura-font.png" alt="PB" width="1000">
+</p>
+
+<ins> **Colores** </ins>  
+ Es importante elegir los colores para las plataformas digitales adecuadamente, ya que así se asegura que la experiencia del usuario sea placentera y agradable. Por ello, nos aseguramos que la paleta de colores seleccionada de Arquitech refleje la esencia de la startup en la landing page y en nuestra aplicación.
+
+_Impact Mapping de ArquiTech_
+
+![Impact Mapping de ArquiTech](assets/chapter-3/impact-mapping/impact-map-final.png)
+
+_Nota_. Elaboración propia.
+
+# Capítulo IV: Product Design
+
+**Figura 49**  
+_Paleta de colores de ArquiTech_
+
+<p align="center">
+  <img src="assets/Style-Guidelines/color-pallete.png" alt="PB" width="1000">
+</p>
+
+<ins>**Espaciado**</ins>
+
+- Interlineado: 140%-160% para que los textos sean legibles.
+- Padding en botones: Mínimo 12px vertical x 24px horizontal para accesibilidad táctil a nuestros usuarios.
+- Margen entre secciones: 34px-64px para mantener un aire visual a los usuarios.
+- Grid base: Utilizar un grid de 8px para dar consistencia.
+
+Esto transmite un espaciado limpio y estructurado, ya que se aprecia un orden, claridad y refleja la misión de Arquitech de optimizar procesos, pero en lo visual.
+
+<ins>**Tono de Comunicación y Lenguaje Aplicado**</ins>
+
+- El tono de Arquitech es profesional, preciso, eficiente, tecnológico y accesible y confiable, diseñado para generar confianza, demostrando experiencia en el rubro de la construcción sin recurrir a un lenguaje complicado o inaccesible para nuestros usuarios.
+- Arquitech acompaña a los clientes desde el inicio hasta el final del proceso constructivo, comunicando con claridad cómo la innovación tecnológica y la eficiencia operativa pueden realizar la diferencia en cada obra.
+- El lenguaje se mantiene preciso y funcional, priorizando la acción. Se evita el exceso de tecnicismos y apuesta por una forma de comunicar que cualquiera dentro del sector pueda entender con facilidad.
+- El estilo comunicativo está alineado con los principios de Arquitech que es innovar, optimizar y liderar.
+
 ### 4.1.2. Web Style Guidelines
 
 ### 4.1.3. Mobile Style Guidelines
@@ -1363,6 +1457,68 @@ Esta estructura permite mantener trazabilidad entre el producto ya desarrollado 
 ## 4.2. Information Architecture
 
 ### 4.2.1. Organization Systems
+
+En la arquitectura de información de Arquitech, se aplican distintos sistemas de organización para estructurar el contenido de manera clara y funcional, adaptada al contexto de los usuarios del sector construcción.
+
+<ins> **Organización Visual del Contenido** </ins>
+
+1.  Jerárquica (Visual Hierarchy):
+
+        Se aplica principalmente en la vista general del dashboard, donde la información más importante y urgente se muestra primero (como reportes recientes, alertas de bajo inventario y resumen de avances).
+
+    Esta jerarquía ayuda a que el usuario enfoque su atención en lo prioritario al momento de ingresar.
+
+2.  Secuencial (Step-by-Step):
+
+    Se utiliza en procesos como la generación de reportes diarios, donde se guía al usuario paso a paso:
+    - Selección de obra
+
+    - Registro de asistencia
+
+# Capítulo III: Requirements Specification
+    - Registro de materiales utilizados
+
+    - Observaciones finales
+
+    - Adjuntar evidencias
+
+    Esto evita errores y facilita la curva de aprendizaje.
+
+3.  Matricial:
+
+    Se emplea para la vista comparativa de reportes semanales, permitiendo ver columnas con distintas métricas (avance físico, asistencia, materiales) por cada día, en una tabla ordenada que el usuario puede leer horizontal y verticalmente.
+
+<ins> **Esquemas de Categorización del Contenido** </ins>
+
+1. Por tópicos:
+
+   Toda la plataforma está organizada por módulos funcionales:
+   - Gestión de personal
+
+   - Control de materiales
+
+   - Reportes
+
+   - Configuración de perfil
+
+   Esto facilita al usuario identificar rápidamente dónde realizar cada acción.
+
+2. Cronológico:
+
+   En los módulos de reportes y asistencia, los datos se organizan por fecha para reflejar la progresión temporal de la obra.
+
+3. Alfabético:
+
+   Utilizado en listas de trabajadores, maquinaria o materiales para facilitar la búsqueda rápida y ordenada.
+
+4. Por audiencia:
+   - Los contratantes solo pueden ver y recibir reportes.
+
+   - Los supervisores pueden generar y editar.
+
+   - Los administrativos tienen permisos de configuración y visualización más avanzada.
+
+   Esto mejora la experiencia personalizada según el rol.
 
 ### 4.2.2. Labeling Systems
 
@@ -1433,11 +1589,248 @@ El objetivo es presentar una interfaz moderna, clara y coherente con la identida
 
 ### 4.4.1. Mobile Applications Wireframes
 
+**Figura XX**
+
+<p align="center">
+  <img src="assets/chapter-4/mobile-application-wireframes/mobile-wireframe-login.png" alt="Mobile Wireframe Login" width="300">
+<br><i>Nota.</i> Elaboración propia.
+</p>
+
+<br>
+
+**Figura XX**
+
+<p align="center">
+  <img src="assets/chapter-4/mobile-application-wireframes/mobile-wireframe-projects.png" alt="Mobile Wireframe Projects" width="300">
+<br><i>Nota.</i> Elaboración propia.
+</p>
+
+<br>
+
+**Figura XX**
+
+<p align="center">
+  <img src="assets/chapter-4/mobile-application-wireframes/mobile-wireframe-workers.png" alt="Mobile Wireframe Workers" width="300">
+<br><i>Nota.</i> Elaboración propia.
+</p>
+
+<br>
+
+**Figura XX**
+
+<p align="center">
+  <img src="assets/chapter-4/mobile-application-wireframes/mobile-wireframe-materials.png" alt="Mobile Wireframe Materials" width="300">
+<br><i>Nota.</i> Elaboración propia.
+</p>
+
+<br>
+
+**Figura XX**
+
+<p align="center">
+  <img src="assets/chapter-4/mobile-application-wireframes/mobile-wireframe-incidents.png" alt="Mobile Wireframe Incidents" width="300">
+<br><i>Nota.</i> Elaboración propia.
+</p>
+
+<br>
+
+**Figura XX**
+
+<p align="center">
+  <img src="assets/chapter-4/mobile-application-wireframes/mobile-wireframe-machinery.png" alt="Mobile Wireframe Machinery" width="300">
+<br><i>Nota.</i> Elaboración propia.
+</p>
+
 ### 4.4.2. Mobile Applications Wireflow Diagrams
+
+**Segmento #2: Contratantes de empresas privadas**
+
+**User Goal 1: Supervisión de materiales y personal de obra**
+
+Como usuario, quiero poder visualizar desde la aplicación móvil la lista de proyectos que posee mi empresa junto con la información de materiales y trabajadores asociados, para mantener un mejor control y supervisión de los recursos y del personal de cada obra.
+
+**Wireflow:**
+
+**Figura XX**
+
+<p align="center">
+
+  <img src="assets/chapter-4/mobile-application-wireflows/mobile-wireflow-materials-workers.png" alt="Mobile Wireflow Materials and Workers" width="700">
+
+<br>*Nota.* Elaboración propia.
+
+</p>
+
+Para obtener la información de materiales y trabajadores que brinda ArquiTech desde la aplicación móvil, el usuario debe acceder primero mediante la pantalla de inicio de sesión. Luego, puede visualizar la lista de proyectos asociados a su empresa desde la pantalla principal de proyectos. A partir de esta vista, el usuario puede dirigirse a la sección de materiales, donde se muestran datos como la cantidad registrada, el stock disponible, el precio y el proveedor. Del mismo modo, puede acceder a la sección de trabajadores, donde se presenta información como el nombre del trabajador, su rol, la fecha de contratación y el proyecto al que se encuentra asociado.
+
+
+**Segmento #1: Supervisores de obra**
+
+**User Goal 1: Gestión de maquinarias e incidentes**
+
+Como usuario, quiero consultar desde la aplicación móvil las maquinarias utilizadas en los proyectos y los incidentes registrados durante la ejecución de las obras, para mantener una visión general sobre la disponibilidad de los equipos y las situaciones que pueden afectar la seguridad y el desarrollo del proyecto.
+
+**Wireflow:**
+
+**Figura XX**
+
+<p align="center">
+
+  <img src="assets/chapter-4/mobile-application-wireflows/mobile-wireflow-machinery-incidents.png" alt="Mobile Wireflow Machinery and Incidents" width="700">
+
+<br>*Nota.* Elaboración propia.
+
+</p>
+
+Para acceder a las secciones de maquinarias e incidentes desde la aplicación móvil, el supervisor debe iniciar sesión y acceder a la pantalla principal de proyectos. Desde esta vista, puede dirigirse a la sección de incidentes para consultar información como la fecha en la que ocurrió cada evento, su tipo, nivel de severidad y estado de resolución. Asimismo, puede acceder a la sección de maquinaria para visualizar los equipos registrados, incluyendo datos como el nombre de la maquinaria, su licencia o placa, la fecha de registro y su estado de funcionamiento.
 
 ### 4.4.3. Mobile Applications Mock-ups
 
+**Figura XX**
+
+<p align="center">
+  <img src="assets/chapter-4/mobile-application-mockups/mobile-mockup-login.png" alt="Mobile Mockup Login" width="300">
+<br><i>Nota.</i> Elaboración propia.
+</p>
+
+<br>
+
+**Figura XX**
+
+<p align="center">
+  <img src="assets/chapter-4/mobile-application-mockups/mobile-mockup-projects.png" alt="Mobile Mockup Projects" width="300">
+<br><i>Nota.</i> Elaboración propia.
+</p>
+
+<br>
+
+**Figura XX**
+
+<p align="center">
+  <img src="assets/chapter-4/mobile-application-mockups/mobile-mockup-workers.png" alt="Mobile Mockup Workers" width="300">
+<br><i>Nota.</i> Elaboración propia.
+</p>
+
+<br>
+
+**Figura XX**
+
+<p align="center">
+  <img src="assets/chapter-4/mobile-application-mockups/mobile-mockup-materials.png" alt="Mobile Mockup Materials" width="300">
+<br><i>Nota.</i> Elaboración propia.
+</p>
+
+<br>
+
+**Figura XX**
+
+<p align="center">
+  <img src="assets/chapter-4/mobile-application-mockups/mobile-mockup-incidents.png" alt="Mobile Mockup Incidents" width="300">
+<br><i>Nota.</i> Elaboración propia.
+</p>
+
+<br>
+
+**Figura XX**
+
+<p align="center">
+  <img src="assets/chapter-4/mobile-application-mockups/mobile-mockup-machinery.png" alt="Mobile Mockup Machinery" width="300">
+<br><i>Nota.</i> Elaboración propia.
+</p>
+
 ### 4.4.4. Mobile Applications User Flow Diagrams
+
+**Segmento 1: Supervisores de obra**
+
+**User Goal 1:** Gestionar y controlar materiales de construcción  
+**Descripción:** El supervisor desea consultar y controlar desde la aplicación móvil la disponibilidad, stock y demás información de los materiales asociados a una obra para mantener un mejor control de los recursos utilizados durante el desarrollo del proyecto.
+
+**Figura XX**  
+*Mobile User Flow 1*
+
+<p align="center">
+
+  <img src="assets/chapter-4/mobile-application-userflows/mobile-userflow1-materials.png" alt="Mobile User Flow Materials" width="700">
+
+<br>*Nota.* Elaboración propia.
+
+</p>
+
+
+**User Goal 2:** Controlar la asistencia y roles de los trabajadores  
+**Descripción:** El supervisor necesita consultar y gestionar desde la aplicación móvil la información de los trabajadores asignados a la obra, incluyendo sus roles, asistencia, tareas y responsabilidades dentro del proyecto.
+
+**Figura XX**  
+*Mobile User Flow 2*
+
+<p align="center">
+
+  <img src="assets/chapter-4/mobile-application-userflows/mobile-userflow2-workers.png" alt="Mobile User Flow Workers" width="700">
+
+<br>*Nota.* Elaboración propia.
+
+</p>
+
+
+**User Goal 3:** Consultar incidencias en obra  
+**Descripción:** El supervisor desea consultar desde la aplicación móvil los incidentes registrados durante la ejecución de la obra para conocer su tipo, fecha, nivel de severidad y estado de resolución.
+
+**Figura XX**  
+*Mobile User Flow 3*
+
+<p align="center">
+
+  <img src="assets/chapter-4/mobile-application-userflows/mobile-userflow3-incidents.png" alt="Mobile User Flow Incidents" width="700">
+
+<br>*Nota.* Elaboración propia.
+
+</p>
+
+**Segmento Objetivo #2: Contratantes de Empresas Privadas**
+
+**User Goal 1:** Visualizar el estado y progreso de mis obras contratadas
+**Descripción:** El contratante necesita consultar desde la aplicación móvil las obras asociadas a su empresa, con acceso a información clara y actualizada sobre el estado general de cada proyecto.
+
+**Figura XX**  
+*Mobile User Flow 4*
+
+<p align="center">
+
+  <img src="assets/chapter-4/mobile-application-userflows/mobile-userflow4-projects.png" alt="Mobile User Flow Projects" width="700">
+
+<br>*Nota.* Elaboración propia.
+
+</p>
+
+
+**User Goal 2:** Visualizar el uso y estado de la maquinaria asignada a la obra  
+**Descripción:** El contratante desea consultar desde la aplicación móvil las maquinarias asociadas a sus obras para conocer los equipos disponibles, su identificación, fecha de registro y estado operativo.
+
+**Figura XX**  
+*Mobile User Flow 5*
+
+<p align="center">
+
+  <img src="assets/chapter-4/mobile-application-userflows/mobile-userflow5-machinery.png" alt="Mobile User Flow Machinery" width="700">
+
+<br>*Nota.* Elaboración propia.
+
+</p>
+
+
+**User Goal 3:** Ver detalles del consumo y disponibilidad de materiales 
+**Descripción:** El contratante desea consultar desde la aplicación móvil la información de los materiales asociados a las obras para evaluar la cantidad registrada, el stock disponible, los proveedores y el uso de los recursos del proyecto.
+
+**Figura XX**  
+*Mobile User Flow 6*
+
+<p align="center">
+
+  <img src="assets/chapter-4/mobile-application-userflows/mobile-userflow6-materials-readonly.png" alt="Mobile User Flow Materials Read Only" width="700">
+
+<br>*Nota.* Elaboración propia.
+
+</p>
 
 ## 4.5. Mobile Applications Prototyping
 
@@ -1454,6 +1847,79 @@ El objetivo es presentar una interfaz moderna, clara y coherente con la identida
 ### 4.6.3. Web Applications Mock-ups
 
 ### 4.6.4. Web Applications User Flow Diagrams
+
+<ins>**Segmento 1: Supervisores de obra**</ins>
+
+**User Goal 1:** Gestionar y controlar materiales de construcción  
+**Descripción:** El supervisor desea registrar el ingreso, uso y nivel de materiales en obra para evitar desperdicios y garantizar continuidad en las actividades.
+
+**Figura 67**  
+_User flow 1_
+
+<p align="center">
+  <img src="assets/Web Applications/userflow1.png" alt="PB" width="500"> 
+	
+<br>*Nota.* Elaboración propia. 
+</p>
+
+**User Goal 2:** Controlar la asistencia y roles de los trabajadores  
+**Descripción:** El supervisor debe tener control total sobre el personal: quién está presente, qué tarea cumple y qué rol desempeña.
+
+**Figura 68**  
+_User flow 2_
+
+<p align="center">
+<img src="assets/Web Applications/userflow2.png" alt="PB" width="500">
+	
+<br>*Nota.* Elaboración propia.
+
+**User Goal 3:** Reportar incidencias en obra  
+**Descripción:** El supervisor reporta eventos importantes en campo (fallas de maquinaria, ausencias masivas, problemas logísticos).
+
+**Figura 69**  
+_User flow 3_
+
+<p align="center">
+<img src="assets/Web Applications/userflow3.png" alt="PB" width="500">
+
+<br>_Nota._ Elaboración propia.
+
+<ins>**Segmento Objetivo #2: Contratantes de Empresas Privadas**</ins>
+
+**User Goal 1:** Visualizar el estado y progreso de mis obras contratadas (solo lectura)  
+**Descripción:** El contratante necesita consultar las obras activas donde ha contratado los servicios, con acceso a información clara y actualizada.
+
+**Figura 70**  
+_User flow 4_
+
+<p align="center">
+<img src="assets/Web Applications/userflow4.png" alt="PB" width="500">
+
+<br>_Nota._ Elaboración propia.
+
+**User Goal 2:** Visualizar el uso y estado de la maquinaria asignada a la obra  
+**Descripción:** Permitir que el contratante consulte, en tiempo real y de forma clara, qué maquinarias están siendo utilizadas en sus obras, cuál es su estado operativo y cómo impactan en el avance del proyecto.
+
+**Figura 71**  
+_User flow 5_
+
+<p align="center">
+<img src="assets/Web Applications/userflow5.png" alt="PB" width="500">
+</p>
+
+_Nota._ Elaboración propia.
+
+**User Goal 3:** Ver detalles del consumo de materiales y reportes de avance (en modo solo lectura)  
+**Descripción:** El contratante desea evaluar cómo se están utilizando los recursos materiales y verificar si el avance reportado está alineado con lo esperado.
+
+**Figura 72**  
+_User flow 6_
+
+<p align="center">
+<img src="assets/Web Applications/userflow6.png" alt="PB" width="500">
+</p>
+
+_Nota._ Elaboración propia.
 
 ## 4.7. Web Applications Prototyping
 
