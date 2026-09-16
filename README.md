@@ -2707,19 +2707,282 @@ Asimismo, se mantiene coherencia con la identidad visual definida para el produc
 
 ### 4.4.1. Mobile Applications Wireframes
 
+**Figura XX**  
+*Mobile Wireframe Login*
+
+<p align="center">
+
+  <img src="assets/chapter-4/mobile-application-wireframes/mobile-wireframe-login.png" alt="Mobile Wireframe Login" width="300">
+
+<br>*Nota.* Elaboración propia.
+
+</p>
+
+
+**Figura XX**  
+*Mobile Wireframe Projects*
+
+<p align="center">
+
+  <img src="assets/chapter-4/mobile-application-wireframes/mobile-wireframe-projects.png" alt="Mobile Wireframe Projects" width="300">
+
+<br>*Nota.* Elaboración propia.
+
+</p>
+
+**Figura XX**  
+*Mobile Wireframe Workers*
+
+<p align="center">
+
+  <img src="assets/chapter-4/mobile-application-wireframes/mobile-wireframe-workers.png" alt="Mobile Wireframe Workers" width="300">
+
+<br>*Nota.* Elaboración propia.
+
+</p>
+
+
+**Figura XX**  
+*Mobile Wireframe Materials*
+
+<p align="center">
+
+  <img src="assets/chapter-4/mobile-application-wireframes/mobile-wireframe-materials.png" alt="Mobile Wireframe Materials" width="300">
+
+<br>*Nota.* Elaboración propia.
+
+</p>
+
+
+**Figura XX**  
+*Mobile Wireframe Incidents*
+
+<p align="center">
+
+  <img src="assets/chapter-4/mobile-application-wireframes/mobile-wireframe-incidents.png" alt="Mobile Wireframe Incidents" width="300">
+
+<br>*Nota.* Elaboración propia.
+
+</p>
+
+
+**Figura XX**  
+*Mobile Wireframe Machinery*
+
+<p align="center">
+
+  <img src="assets/chapter-4/mobile-application-wireframes/mobile-wireframe-machinery.png" alt="Mobile Wireframe Machinery" width="300">
+
+<br>*Nota.* Elaboración propia.
+
+</p>
+
 ### 4.4.2. Mobile Applications Wireflow Diagrams
+
+**Segmento #2: Contratantes de empresas privadas**
+
+**User Goal 1: Supervisión de materiales y personal de obra**
+
+Como usuario, quiero poder visualizar desde la aplicación móvil la lista de proyectos que posee mi empresa junto con la información de materiales y trabajadores asociados, para mantener un mejor control y supervisión de los recursos y del personal de cada obra.
+
+**Wireflow:**
+
+**Figura XX**
+
+<p align="center">
+
+  <img src="assets/chapter-4/mobile-application-wireflows/mobile-wireflow-materials-workers.png" alt="Mobile Wireflow Materials and Workers" width="700">
+
+<br>*Nota.* Elaboración propia.
+
+</p>
+
+Para obtener la información de materiales y trabajadores que brinda ArquiTech desde la aplicación móvil, el usuario debe acceder primero mediante la pantalla de inicio de sesión. Luego, puede visualizar la lista de proyectos asociados a su empresa desde la pantalla principal de proyectos. A partir de esta vista, el usuario puede dirigirse a la sección de materiales, donde se muestran datos como la cantidad registrada, el stock disponible, el precio y el proveedor. Del mismo modo, puede acceder a la sección de trabajadores, donde se presenta información como el nombre del trabajador, su rol, la fecha de contratación y el proyecto al que se encuentra asociado.
+
+**Segmento #1: Supervisores de obra**
+
+**User Goal 1: Gestión de maquinarias e incidentes**
+
+Como usuario, quiero consultar desde la aplicación móvil las maquinarias utilizadas en los proyectos y los incidentes registrados durante la ejecución de las obras, para mantener una visión general sobre la disponibilidad de los equipos y las situaciones que pueden afectar la seguridad y el desarrollo del proyecto.
+
+**Wireflow:**
+
+**Figura XX**
+
+<p align="center">
+
+  <img src="assets/chapter-4/mobile-application-wireflows/mobile-wireflow-machinery-incidents.png" alt="Mobile Wireflow Machinery and Incidents" width="700">
+
+<br>*Nota.* Elaboración propia.
+
+</p>
+
+Para acceder a las secciones de maquinarias e incidentes desde la aplicación móvil, el supervisor debe iniciar sesión y acceder a la pantalla principal de proyectos. Desde esta vista, puede dirigirse a la sección de incidentes para consultar información como la fecha en la que ocurrió cada evento, su tipo, nivel de severidad y estado de resolución. Asimismo, puede acceder a la sección de maquinaria para visualizar los equipos registrados, incluyendo datos como el nombre de la maquinaria, su licencia o placa, la fecha de registro y su estado de funcionamiento.
+
 
 ### 4.4.3. Mobile Applications Mock-ups
 
+**Figura XX**  
+*Mobile Mock-up Login*
+
+<p align="center">
+
+  <img src="assets/chapter-4/mobile-application-mockups/mobile-mockup-login.png" alt="Mobile Mockup Login" width="300">
+
+<br>*Nota.* Elaboración propia.
+
+</p>
+
+**Figura XX**  
+*Mobile Mock-up Projects*
+
+<p align="center">
+
+  <img src="assets/chapter-4/mobile-application-mockups/mobile-mockup-projects.png" alt="Mobile Mockup Projects" width="300">
+
+<br>*Nota.* Elaboración propia.
+
+</p>
+
+**Figura XX**  
+*Mobile Mock-up Workers*
+
+<p align="center">
+
+  <img src="assets/chapter-4/mobile-application-mockups/mobile-mockup-workers.png" alt="Mobile Mockup Workers" width="300">
+
+<br>*Nota.* Elaboración propia.
+
+</p>
+
+**Figura XX**  
+*Mobile Mock-up Materials*
+
+<p align="center">
+
+  <img src="assets/chapter-4/mobile-application-mockups/mobile-mockup-materials.png" alt="Mobile Mockup Materials" width="300">
+
+<br>*Nota.* Elaboración propia.
+
+</p>
+
+**Figura XX**  
+*Mobile Mock-up Incidents*
+
+<p align="center">
+
+  <img src="assets/chapter-4/mobile-application-mockups/mobile-mockup-incidents.png" alt="Mobile Mockup Incidents" width="300">
+
+<br>*Nota.* Elaboración propia.
+
+</p>
+
+**Figura XX**  
+*Mobile Mock-up Machinery*
+
+<p align="center">
+
+  <img src="assets/chapter-4/mobile-application-mockups/mobile-mockup-machinery.png" alt="Mobile Mockup Machinery" width="300">
+
+<br>*Nota.* Elaboración propia.
+
+</p>
+
 ### 4.4.4. Mobile Applications User Flow Diagrams
+
+**Segmento 1: Supervisores de obra**
+
+**User Goal 1:** Gestionar y controlar materiales de construcción  
+**Descripción:** El supervisor desea consultar y controlar desde la aplicación móvil la disponibilidad, stock y demás información de los materiales asociados a una obra para mantener un mejor control de los recursos utilizados durante el desarrollo del proyecto.
+
+**Figura XX**  
+*Mobile User Flow 1*
+
+<p align="center">
+
+  <img src="assets/chapter-4/mobile-application-userflows/mobile-userflow1-materials.png" alt="Mobile User Flow Materials" width="700">
+
+<br>*Nota.* Elaboración propia.
+
+</p>
+
+**User Goal 2:** Controlar la asistencia y roles de los trabajadores  
+**Descripción:** El supervisor necesita consultar y gestionar desde la aplicación móvil la información de los trabajadores asignados a la obra, incluyendo sus roles, asistencia, tareas y responsabilidades dentro del proyecto.
+
+**Figura XX**  
+*Mobile User Flow 2*
+
+<p align="center">
+
+  <img src="assets/chapter-4/mobile-application-userflows/mobile-userflow2-workers.png" alt="Mobile User Flow Workers" width="700">
+
+<br>*Nota.* Elaboración propia.
+
+</p>
+
+**User Goal 3:** Consultar incidencias en obra  
+**Descripción:** El supervisor desea consultar desde la aplicación móvil los incidentes registrados durante la ejecución de la obra para conocer su tipo, fecha, nivel de severidad y estado de resolución.
+
+**Figura XX**  
+*Mobile User Flow 3*
+
+<p align="center">
+
+  <img src="assets/chapter-4/mobile-application-userflows/mobile-userflow3-incidents.png" alt="Mobile User Flow Incidents" width="700">
+
+<br>*Nota.* Elaboración propia.
+
+</p>
+
+**Segmento Objetivo #2: Contratantes de Empresas Privadas**
+
+**User Goal 1:** Visualizar el estado y progreso de mis obras contratadas (solo lectura)  
+**Descripción:** El contratante necesita consultar desde la aplicación móvil las obras asociadas a su empresa, con acceso a información clara y actualizada sobre el estado general de cada proyecto.
+
+**Figura XX**  
+*Mobile User Flow 4*
+
+<p align="center">
+
+  <img src="assets/chapter-4/mobile-application-userflows/mobile-userflow4-projects.png" alt="Mobile User Flow Projects" width="700">
+
+<br>*Nota.* Elaboración propia.
+
+</p>
+
+**User Goal 2:** Visualizar el uso y estado de la maquinaria asignada a la obra  
+**Descripción:** El contratante desea consultar desde la aplicación móvil las maquinarias asociadas a sus obras para conocer los equipos disponibles, su identificación, fecha de registro y estado operativo.
+
+**Figura XX**  
+*Mobile User Flow 5*
+
+<p align="center">
+
+  <img src="assets/chapter-4/mobile-application-userflows/mobile-userflow5-machinery.png" alt="Mobile User Flow Machinery" width="700">
+
+<br>*Nota.* Elaboración propia.
+
+</p>
+
+**User Goal 3:** Ver detalles del consumo y disponibilidad de materiales (solo lectura)  
+**Descripción:** El contratante desea consultar desde la aplicación móvil la información de los materiales asociados a las obras para evaluar la cantidad registrada, el stock disponible, los proveedores y el uso de los recursos del proyecto.
+
+**Figura XX**  
+*Mobile User Flow 6*
+
+<p align="center">
+
+  <img src="assets/chapter-4/mobile-application-userflows/mobile-userflow6-materials-readonly.png" alt="Mobile User Flow Materials Read Only" width="700">
+
+<br>*Nota.* Elaboración propia.
+
+</p>
 
 ### 4.5. Mobile Applications Prototyping
 
 <div style="text-align: justify;">
 En esta sección se presentan los prototipos de alta fidelidad para la aplicación móvil de ArquiTech. Estos diseños reflejan la interfaz de usuario (UI) y la experiencia de usuario (UX) proyectada para ser la herramienta principal de los supervisores de obra. Se ha mantenido la identidad visual de la marca (colores corporativos e iconografía) y se han adaptado los componentes visuales para operar de manera nativa y fluida en los dos ecosistemas móviles predominantes: Android e iOS.
 </div>
-
-<br>
 
 #### 4.5.1. Android Mobile Applications Prototyping
 
