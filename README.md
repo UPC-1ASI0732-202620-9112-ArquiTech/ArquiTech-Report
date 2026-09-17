@@ -5322,6 +5322,10 @@ _Vista de la Aplicación Web en Producción (Módulo de Materiales)_
 
 ### 5.2.4. Implemented Native-Mobile Application Evidence
 
+<div style="text-align: justify;">
+Para el presente hito del proyecto (línea base o <em>As-Is Software Project</em>), la aplicación móvil nativa de ArquiTech se encuentra en fase de diseño y prototipado de alta fidelidad (evidenciado en la sección 4.5). Su desarrollo e implementación a nivel de código fuente (Frontend Mobile) está planificado para los próximos sprints del ciclo, por lo que actualmente no se cuenta con un ejecutable en entornos de producción.
+</div>
+
 ### 5.2.5. Implemented RESTful API and/or Serverless Backend Evidence
 
 ### 5.2.6. RESTful API documentation
