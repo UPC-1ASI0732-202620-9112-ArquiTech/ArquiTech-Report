@@ -40,11 +40,11 @@ Quispe Barzola, Fabricio Fabian - U202320442
 
 | Versión |   Fecha    | Autor                             | Descripción de modificación                                                                                                                                                                                                                                                                                                                        |
 | :-----: | :--------: | :-------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-|  1.0.0  | 14/09/2026 | Mendoza Moreano, Mariel Lucero    | <span style="display:block; text-align:justify;">Elaboración de las secciones 1.1.1 Descripción de la Startup, 1.1.2 Perfiles de integrantes del equipo, 1.2.1 Antecedentes y problemática, 1.2.2 Lean UX Process, 2.3.1 User Personas, 2.3.2 User Task Matrix, 4.7 Web Applications Prototyping y 4.8 Domain-Driven Software Architecture.</span> |
-|  1.0.1  | 14/09/2026 | Chacaliaza Minaya, Eduardo Fabian | <span style="display:block; text-align:justify;">Elaboración de las secciones 1.3 Segmentos objetivo, 2.1.1 Análisis competitivo, 2.1.2 Estrategias y tácticas frente a competidores, 3.3 Product Backlog, 4.3 Landing Page UI Design y 4.4 Mobile Applications UX/UI Design.</span>                                                               |
-|  1.0.2  | 14/09/2026 | Quispe Barzola, Fabricio Fabian   | <span style="display:block; text-align:justify;">Elaboración de las secciones 2.2.1 Diseño de entrevistas, 2.2.2 Registro de entrevistas, 2.2.3 Análisis de entrevistas, 3.2 User Stories, 4.9 Software Object-Oriented Design, 4.10 Database Design y 5.1 Software Configuration Management.</span>                                               |
-|  1.0.3  | 14/09/2026 | Espino Rossi, Victor Manuel       | <span style="display:block; text-align:justify;">Elaboración de las secciones 2.3.3 User Journey Mapping, 2.3.4 Empathy Mapping, 3.4 Impact Mapping, 4.5 Mobile Applications Prototyping, 4.6 Web Applications UX/UI Design y 5.2 Product Implementation & Deployment.</span>                                                                      |
-|  1.0.4  | 14/09/2026 | Garcia Cerpa, Braden Raid         | <span style="display:block; text-align:justify;">Elaboración de las secciones 2.3.5 As-is Scenario Mapping, 2.4 Ubiquitous Language, 3.1 To-Be Scenario Mapping, 4.1 Style Guidelines, 4.2 Information Architecture y 5.3 Video About-the-Product.</span>                                                                                          |
+|  1.0  | 14/09/2026 | Mendoza Moreano, Mariel Lucero    | <span style="display:block; text-align:justify;">Elaboración de las secciones 1.1.1 Descripción de la Startup, 1.1.2 Perfiles de integrantes del equipo, 1.2.1 Antecedentes y problemática, 1.2.2 Lean UX Process, 2.3.1 User Personas, 2.3.2 User Task Matrix, 4.7 Web Applications Prototyping y 4.8 Domain-Driven Software Architecture.</span> |
+|  1.1  | 14/09/2026 | Chacaliaza Minaya, Eduardo Fabian | <span style="display:block; text-align:justify;">Elaboración de las secciones 1.3 Segmentos objetivo, 2.1.1 Análisis competitivo, 2.1.2 Estrategias y tácticas frente a competidores, 3.3 Product Backlog, 4.3 Landing Page UI Design y 4.4 Mobile Applications UX/UI Design.</span>                                                               |
+|  1.2  | 14/09/2026 | Quispe Barzola, Fabricio Fabian   | <span style="display:block; text-align:justify;">Elaboración de las secciones 2.2.1 Diseño de entrevistas, 2.2.2 Registro de entrevistas, 2.2.3 Análisis de entrevistas, 3.2 User Stories, 4.9 Software Object-Oriented Design, 4.10 Database Design y 5.1 Software Configuration Management.</span>                                               |
+|  1.3  | 14/09/2026 | Espino Rossi, Victor Manuel       | <span style="display:block; text-align:justify;">Elaboración de las secciones 2.3.3 User Journey Mapping, 2.3.4 Empathy Mapping, 3.4 Impact Mapping, 4.5 Mobile Applications Prototyping, 4.6 Web Applications UX/UI Design y 5.2 Product Implementation & Deployment.</span>                                                                      |
+|  1.4  | 14/09/2026 | Garcia Cerpa, Braden Raid         | <span style="display:block; text-align:justify;">Elaboración de las secciones 2.3.5 As-is Scenario Mapping, 2.4 Ubiquitous Language, 3.1 To-Be Scenario Mapping, 4.1 Style Guidelines, 4.2 Information Architecture y 5.3 Video About-the-Product.</span>                                                                                          |
 
 # Project Report Collaboration Insights
 
@@ -232,7 +232,8 @@ El curso contribuye al cumplimiento del siguiente Student Outcome ABET:
 
 </p>
 
-**ABET – EAC - Student Outcome 4**  
+**ABET – EAC - Student Outcome 4**
+
 <p align="justify">
 
 Criterio: _La capacidad de reconocer responsabilidades éticas y profesionales en situaciones de ingeniería y hacer juicios informados, que deben considerar el impacto de las soluciones de ingeniería en contextos globales, económicos, ambientales y sociales._
@@ -300,8 +301,8 @@ En Foundex, consideramos que la digitalización de estos procesos es fundamental
 
 ### 1.1.2. Perfiles de integrantes del equipo
 
-| Foto                                                                                                                                   | Integrante                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
-| -------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Foto                                                                                                                                             | Integrante                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| ------------------------------------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | <img src="assets/chapter-1/team/Eduardo-Chacaliaza.png" width="220" style="width:220px; min-width:220px; height:auto;" alt="Eduardo Chacaliaza"> | <div style="text-align: justify;"><strong>Chacaliaza Minaya, Eduardo Fabian - U202324129</strong><br>Estudiante de Ingeniería de Software, interesado en el desarrollo de aplicaciones y soluciones tecnológicas orientadas a resolver necesidades reales de los usuarios. Me caracterizo por tener un enfoque analítico, capacidad para adaptarme a nuevos entornos y disposición para aprender nuevas tecnologías y herramientas de desarrollo. En este proyecto, busco contribuir en el análisis, diseño y definición de soluciones que mejoren la experiencia de los usuarios.</div>                                                                                                      |
 | <img src="assets/chapter-1/team/Victor-Espino.png" width="220" style="width:220px; min-width:220px; height:auto;" alt="Victor Espino">           | <div style="text-align: justify;"><strong>Espino Rossi, Victor Manuel - U202411567</strong><br>Estudiante de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas, con interés en el desarrollo de aplicaciones, diseño de soluciones digitales y nuevas tecnologías. Me encuentro en constante aprendizaje y busco fortalecer mis conocimientos técnicos y habilidades de trabajo colaborativo. En este proyecto, aporto en la elaboración de artefactos de experiencia de usuario, prototipado y desarrollo de la solución.</div>                                                                                                                                         |
 | <img src="assets/chapter-1/team/Braden-Garcia.png" width="220" style="width:220px; min-width:220px; height:auto;" alt="Braden Garcia">           | <div style="text-align: justify;"><strong>Garcia Cerpa, Braden Raid - U202415618</strong><br>Estudiante de Ingeniería de Software con interés en el desarrollo de soluciones tecnológicas orientadas a resolver problemas reales. Me caracterizo por mantener una actitud responsable, organizada y colaborativa durante el desarrollo de proyectos. Asimismo, busco fortalecer mis conocimientos en diseño de software, experiencia de usuario y desarrollo de aplicaciones, aportando ideas que contribuyan a obtener soluciones funcionales y de calidad.</div>                                                                                                                            |
@@ -551,9 +552,9 @@ Inicialmente, ArquiTech se enfocará en usuarios que actualmente dependen de her
 **How Might We**
 
 > <p align="justify">
-> 
+>
 > ¿Cómo podríamos facilitar la gestión y el seguimiento de proyectos de construcción para que los responsables de una obra mantengan información actualizada y quienes realizan su seguimiento puedan conocer oportunamente su estado, reduciendo la dependencia de herramientas y canales de información dispersos?
-> 
+>
 > </p>
 
 #### 1.2.2.2. Lean UX Assumptions
@@ -2821,7 +2822,7 @@ Como usuario, quiero poder visualizar desde la aplicación móvil la lista de pr
 
   <img src="assets/chapter-4/mobile-application-wireflows/mobile-wireflow-materials-workers.png" alt="Mobile Wireflow Materials and Workers" width="700">
 
-<br>*Nota.* Elaboración propia.
+<br>_Nota._ Elaboración propia.
 
 </p>
 
@@ -2830,7 +2831,6 @@ Como usuario, quiero poder visualizar desde la aplicación móvil la lista de pr
 Para obtener la información de materiales y trabajadores que brinda ArquiTech desde la aplicación móvil, el usuario debe acceder primero mediante la pantalla de inicio de sesión. Luego, puede visualizar la lista de proyectos asociados a su empresa desde la pantalla principal de proyectos. A partir de esta vista, el usuario puede dirigirse a la sección de materiales, donde se muestran datos como la cantidad registrada, el stock disponible, el precio y el proveedor. Del mismo modo, puede acceder a la sección de trabajadores, donde se presenta información como el nombre del trabajador, su rol, la fecha de contratación y el proyecto al que se encuentra asociado.
 
 </p>
-
 
 **Segmento #1: Supervisores de obra**
 
@@ -2850,7 +2850,7 @@ Como usuario, quiero consultar desde la aplicación móvil las maquinarias utili
 
   <img src="assets/chapter-4/mobile-application-wireflows/mobile-wireflow-machinery-incidents.png" alt="Mobile Wireflow Machinery and Incidents" width="700">
 
-<br>*Nota.* Elaboración propia.
+<br>_Nota._ Elaboración propia.
 
 </p>
 
@@ -2922,43 +2922,41 @@ Para acceder a las secciones de maquinarias e incidentes desde la aplicación m�
 **Descripción:** El supervisor desea consultar y controlar desde la aplicación móvil la disponibilidad, stock y demás información de los materiales asociados a una obra para mantener un mejor control de los recursos utilizados durante el desarrollo del proyecto.
 
 **Figura 41**  
-*Mobile User Flow 1*
+_Mobile User Flow 1_
 
 <p align="center">
 
   <img src="assets/chapter-4/mobile-application-userflows/mobile-userflow1-materials.png" alt="Mobile User Flow Materials" width="700">
 
-<br>*Nota.* Elaboración propia.
+<br>_Nota._ Elaboración propia.
 
 </p>
-
 
 **User Goal 2:** Controlar la asistencia y roles de los trabajadores  
 **Descripción:** El supervisor necesita consultar y gestionar desde la aplicación móvil la información de los trabajadores asignados a la obra, incluyendo sus roles, asistencia, tareas y responsabilidades dentro del proyecto.
 
 **Figura 42**  
-*Mobile User Flow 2*
+_Mobile User Flow 2_
 
 <p align="center">
 
   <img src="assets/chapter-4/mobile-application-userflows/mobile-userflow2-workers.png" alt="Mobile User Flow Workers" width="700">
 
-<br>*Nota.* Elaboración propia.
+<br>_Nota._ Elaboración propia.
 
 </p>
-
 
 **User Goal 3:** Consultar incidencias en obra  
 **Descripción:** El supervisor desea consultar desde la aplicación móvil los incidentes registrados durante la ejecución de la obra para conocer su tipo, fecha, nivel de severidad y estado de resolución.
 
 **Figura 43**  
-*Mobile User Flow 3*
+_Mobile User Flow 3_
 
 <p align="center">
 
   <img src="assets/chapter-4/mobile-application-userflows/mobile-userflow3-incidents.png" alt="Mobile User Flow Incidents" width="700">
 
-<br>*Nota.* Elaboración propia.
+<br>_Nota._ Elaboración propia.
 
 </p>
 
@@ -2968,43 +2966,41 @@ Para acceder a las secciones de maquinarias e incidentes desde la aplicación m�
 **Descripción:** El contratante necesita consultar desde la aplicación móvil las obras asociadas a su empresa, con acceso a información clara y actualizada sobre el estado general de cada proyecto.
 
 **Figura 44**  
-*Mobile User Flow 4*
+_Mobile User Flow 4_
 
 <p align="center">
 
   <img src="assets/chapter-4/mobile-application-userflows/mobile-userflow4-projects.png" alt="Mobile User Flow Projects" width="700">
 
-<br>*Nota.* Elaboración propia.
+<br>_Nota._ Elaboración propia.
 
 </p>
-
 
 **User Goal 2:** Visualizar el uso y estado de la maquinaria asignada a la obra  
 **Descripción:** El contratante desea consultar desde la aplicación móvil las maquinarias asociadas a sus obras para conocer los equipos disponibles, su identificación, fecha de registro y estado operativo.
 
 **Figura 45**  
-*Mobile User Flow 5*
+_Mobile User Flow 5_
 
 <p align="center">
 
   <img src="assets/chapter-4/mobile-application-userflows/mobile-userflow5-machinery.png" alt="Mobile User Flow Machinery" width="700">
 
-<br>*Nota.* Elaboración propia.
+<br>_Nota._ Elaboración propia.
 
 </p>
 
-
-**User Goal 3:** Ver detalles del consumo y disponibilidad de materiales 
+**User Goal 3:** Ver detalles del consumo y disponibilidad de materiales
 **Descripción:** El contratante desea consultar desde la aplicación móvil la información de los materiales asociados a las obras para evaluar la cantidad registrada, el stock disponible, los proveedores y el uso de los recursos del proyecto.
 
 **Figura 46**  
-*Mobile User Flow 6*
+_Mobile User Flow 6_
 
 <p align="center">
 
   <img src="assets/chapter-4/mobile-application-userflows/mobile-userflow6-materials-readonly.png" alt="Mobile User Flow Materials Read Only" width="700">
 
-<br>*Nota.* Elaboración propia.
+<br>_Nota._ Elaboración propia.
 
 </p>
 
@@ -3329,7 +3325,8 @@ _Logo_
   - Redes sociales y presentaciones digitales: Plantillas visualmente coherentes con el mensaje de la startup.
   - Identidad visual corporativa: Uso estratégico del logo y la paleta de colores en material gráfico de la startup como las tarjetas de presentación, presentaciones empresariales, o imagen de perfil en aplicaciones de chats para contactar clientes.
 
-<ins> **Tipografía** </ins>  
+<ins> **Tipografía** </ins>
+
 <p align="justify">
 
 La tipografía de Arquitech cumple un importante rol en la expresión de la identidad de nuestra marca y brinda una sensación de claridad visual, calidez, acompañamiento para nuestros usuarios. Nuestra empresa eligió una fuente tipográfica que combina lo amigable y lo fluido, asegurando al usuario comodidad y nitidez en la landing page y en la aplicación.
@@ -3399,7 +3396,7 @@ Los colores que hemos usado para Arquitech, son los mismos anteriormente mencion
 
 <p align="justify">
 
-La interfaz de Arquitech debe ser responsiva y se debe adaptar a diversos tamaños de pantalla a través de un diseño flexible. Por esta razón es importante saber el tamaño de la pantalla que vamos a utilizar y ajustar aquello en otros dispositivos.  
+La interfaz de Arquitech debe ser responsiva y se debe adaptar a diversos tamaños de pantalla a través de un diseño flexible. Por esta razón es importante saber el tamaño de la pantalla que vamos a utilizar y ajustar aquello en otros dispositivos.
 
 </p>
 Medidas para Web Responsive:  
@@ -3707,7 +3704,8 @@ Los sistemas de navegación implementados en el proyecto ArquiTech han sido dise
 
 </p>
 
-<ins>**En la Landing Page**</ins>  
+<ins>**En la Landing Page**</ins>
+
 <p align="justify">
 
 La navegación en la landing page tiene una estructura lineal con anclajes internos y botones de acción, facilitando la exploración informativa en orden lógico. Las acciones de navegación se guían mediante:
@@ -3781,72 +3779,68 @@ Asimismo, se mantiene coherencia con la identidad visual definida para el produc
 ### 4.4.1. Mobile Applications Wireframes
 
 **Figura 62**  
-*Mobile Wireframe Login*
+_Mobile Wireframe Login_
 
 <p align="center">
 
   <img src="assets/chapter-4/mobile-application-wireframes/mobile-wireframe-login.png" alt="Mobile Wireframe Login" width="300">
 
-<br>*Nota.* Elaboración propia.
+<br>_Nota._ Elaboración propia.
 
 </p>
 
-
 **Figura 63**  
-*Mobile Wireframe Projects*
+_Mobile Wireframe Projects_
 
 <p align="center">
 
   <img src="assets/chapter-4/mobile-application-wireframes/mobile-wireframe-projects.png" alt="Mobile Wireframe Projects" width="300">
 
-<br>*Nota.* Elaboración propia.
+<br>_Nota._ Elaboración propia.
 
 </p>
 
 **Figura 64**  
-*Mobile Wireframe Workers*
+_Mobile Wireframe Workers_
 
 <p align="center">
 
   <img src="assets/chapter-4/mobile-application-wireframes/mobile-wireframe-workers.png" alt="Mobile Wireframe Workers" width="300">
 
-<br>*Nota.* Elaboración propia.
+<br>_Nota._ Elaboración propia.
 
 </p>
 
-
 **Figura 65**  
-*Mobile Wireframe Materials*
+_Mobile Wireframe Materials_
 
 <p align="center">
 
   <img src="assets/chapter-4/mobile-application-wireframes/mobile-wireframe-materials.png" alt="Mobile Wireframe Materials" width="300">
 
-<br>*Nota.* Elaboración propia.
+<br>_Nota._ Elaboración propia.
 
 </p>
 
-
 **Figura 66**  
-*Mobile Wireframe Incidents*
+_Mobile Wireframe Incidents_
 
 <p align="center">
 
   <img src="assets/chapter-4/mobile-application-wireframes/mobile-wireframe-incidents.png" alt="Mobile Wireframe Incidents" width="300">
 
-<br>*Nota.* Elaboración propia.
+<br>_Nota._ Elaboración propia.
 
 </p>
 
-
 **Figura 67**  
-*Mobile Wireframe Machinery*
+_Mobile Wireframe Machinery_
 
 <p align="center">
 
   <img src="assets/chapter-4/mobile-application-wireframes/mobile-wireframe-machinery.png" alt="Mobile Wireframe Machinery" width="300">
 
-<br>*Nota.* Elaboración propia.
+<br>_Nota._ Elaboración propia.
 
 </p>
 
@@ -3870,7 +3864,7 @@ Como usuario, quiero poder visualizar desde la aplicación móvil la lista de pr
 
   <img src="assets/chapter-4/mobile-application-wireflows/mobile-wireflow-materials-workers.png" alt="Mobile Wireflow Materials and Workers" width="700">
 
-<br>*Nota.* Elaboración propia.
+<br>_Nota._ Elaboración propia.
 
 </p>
 
@@ -3898,7 +3892,7 @@ Como usuario, quiero consultar desde la aplicación móvil las maquinarias utili
 
   <img src="assets/chapter-4/mobile-application-wireflows/mobile-wireflow-machinery-incidents.png" alt="Mobile Wireflow Machinery and Incidents" width="700">
 
-<br>*Nota.* Elaboración propia.
+<br>_Nota._ Elaboración propia.
 
 </p>
 
@@ -3908,72 +3902,71 @@ Para acceder a las secciones de maquinarias e incidentes desde la aplicación m�
 
 </p>
 
-
 ### 4.4.3. Mobile Applications Mock-ups
 
 **Figura 70**  
-*Mobile Mock-up Login*
+_Mobile Mock-up Login_
 
 <p align="center">
 
   <img src="assets/chapter-4/mobile-application-mockups/mobile-mockup-login.png" alt="Mobile Mockup Login" width="300">
 
-<br>*Nota.* Elaboración propia.
+<br>_Nota._ Elaboración propia.
 
 </p>
 
 **Figura 71**  
-*Mobile Mock-up Projects*
+_Mobile Mock-up Projects_
 
 <p align="center">
 
   <img src="assets/chapter-4/mobile-application-mockups/mobile-mockup-projects.png" alt="Mobile Mockup Projects" width="300">
 
-<br>*Nota.* Elaboración propia.
+<br>_Nota._ Elaboración propia.
 
 </p>
 
 **Figura 72**  
-*Mobile Mock-up Workers*
+_Mobile Mock-up Workers_
 
 <p align="center">
 
   <img src="assets/chapter-4/mobile-application-mockups/mobile-mockup-workers.png" alt="Mobile Mockup Workers" width="300">
 
-<br>*Nota.* Elaboración propia.
+<br>_Nota._ Elaboración propia.
 
 </p>
 
 **Figura 73**  
-*Mobile Mock-up Materials*
+_Mobile Mock-up Materials_
 
 <p align="center">
 
   <img src="assets/chapter-4/mobile-application-mockups/mobile-mockup-materials.png" alt="Mobile Mockup Materials" width="300">
 
-<br>*Nota.* Elaboración propia.
+<br>_Nota._ Elaboración propia.
 
 </p>
 
 **Figura 74**  
-*Mobile Mock-up Incidents*
+_Mobile Mock-up Incidents_
 
 <p align="center">
 
   <img src="assets/chapter-4/mobile-application-mockups/mobile-mockup-incidents.png" alt="Mobile Mockup Incidents" width="300">
 
-<br>*Nota.* Elaboración propia.
+<br>_Nota._ Elaboración propia.
 
 </p>
 
 **Figura 75**  
-*Mobile Mock-up Machinery*
+_Mobile Mock-up Machinery_
 
 <p align="center">
 
   <img src="assets/chapter-4/mobile-application-mockups/mobile-mockup-machinery.png" alt="Mobile Mockup Machinery" width="300">
 
-<br>*Nota.* Elaboración propia.
+<br>_Nota._ Elaboración propia.
 
 </p>
 
@@ -3985,13 +3978,13 @@ Para acceder a las secciones de maquinarias e incidentes desde la aplicación m�
 **Descripción:** El supervisor desea consultar y controlar desde la aplicación móvil la disponibilidad, stock y demás información de los materiales asociados a una obra para mantener un mejor control de los recursos utilizados durante el desarrollo del proyecto.
 
 **Figura 76**  
-*Mobile User Flow 1*
+_Mobile User Flow 1_
 
 <p align="center">
 
   <img src="assets/chapter-4/mobile-application-userflows/mobile-userflow1-materials.png" alt="Mobile User Flow Materials" width="700">
 
-<br>*Nota.* Elaboración propia.
+<br>_Nota._ Elaboración propia.
 
 </p>
 
@@ -3999,13 +3992,13 @@ Para acceder a las secciones de maquinarias e incidentes desde la aplicación m�
 **Descripción:** El supervisor necesita consultar y gestionar desde la aplicación móvil la información de los trabajadores asignados a la obra, incluyendo sus roles, asistencia, tareas y responsabilidades dentro del proyecto.
 
 **Figura 77**  
-*Mobile User Flow 2*
+_Mobile User Flow 2_
 
 <p align="center">
 
   <img src="assets/chapter-4/mobile-application-userflows/mobile-userflow2-workers.png" alt="Mobile User Flow Workers" width="700">
 
-<br>*Nota.* Elaboración propia.
+<br>_Nota._ Elaboración propia.
 
 </p>
 
@@ -4013,13 +4006,13 @@ Para acceder a las secciones de maquinarias e incidentes desde la aplicación m�
 **Descripción:** El supervisor desea consultar desde la aplicación móvil los incidentes registrados durante la ejecución de la obra para conocer su tipo, fecha, nivel de severidad y estado de resolución.
 
 **Figura 78**  
-*Mobile User Flow 3*
+_Mobile User Flow 3_
 
 <p align="center">
 
   <img src="assets/chapter-4/mobile-application-userflows/mobile-userflow3-incidents.png" alt="Mobile User Flow Incidents" width="700">
 
-<br>*Nota.* Elaboración propia.
+<br>_Nota._ Elaboración propia.
 
 </p>
 
@@ -4029,13 +4022,13 @@ Para acceder a las secciones de maquinarias e incidentes desde la aplicación m�
 **Descripción:** El contratante necesita consultar desde la aplicación móvil las obras asociadas a su empresa, con acceso a información clara y actualizada sobre el estado general de cada proyecto.
 
 **Figura 79**  
-*Mobile User Flow 4*
+_Mobile User Flow 4_
 
 <p align="center">
 
   <img src="assets/chapter-4/mobile-application-userflows/mobile-userflow4-projects.png" alt="Mobile User Flow Projects" width="700">
 
-<br>*Nota.* Elaboración propia.
+<br>_Nota._ Elaboración propia.
 
 </p>
 
@@ -4043,13 +4036,13 @@ Para acceder a las secciones de maquinarias e incidentes desde la aplicación m�
 **Descripción:** El contratante desea consultar desde la aplicación móvil las maquinarias asociadas a sus obras para conocer los equipos disponibles, su identificación, fecha de registro y estado operativo.
 
 **Figura 80**  
-*Mobile User Flow 5*
+_Mobile User Flow 5_
 
 <p align="center">
 
   <img src="assets/chapter-4/mobile-application-userflows/mobile-userflow5-machinery.png" alt="Mobile User Flow Machinery" width="700">
 
-<br>*Nota.* Elaboración propia.
+<br>_Nota._ Elaboración propia.
 
 </p>
 
@@ -4057,13 +4050,13 @@ Para acceder a las secciones de maquinarias e incidentes desde la aplicación m�
 **Descripción:** El contratante desea consultar desde la aplicación móvil la información de los materiales asociados a las obras para evaluar la cantidad registrada, el stock disponible, los proveedores y el uso de los recursos del proyecto.
 
 **Figura 81**  
-*Mobile User Flow 6*
+_Mobile User Flow 6_
 
 <p align="center">
 
   <img src="assets/chapter-4/mobile-application-userflows/mobile-userflow6-materials-readonly.png" alt="Mobile User Flow Materials Read Only" width="700">
 
-<br>*Nota.* Elaboración propia.
+<br>_Nota._ Elaboración propia.
 
 </p>
 
@@ -4183,6 +4176,7 @@ _Prototipo de Alta Fidelidad - Vistas Principales iOS_
 <br>
 **User Goal 1: Supervisión de Materiales y personal de obra**
 <br>
+
 <p align="justify">
 
 Como usuario, quiero poder ver la lista de proyectos que posee mi empresa con sus respectivos reportes de materiales y trabajadores para poder obtener un mejor control y supervisión de materiales y personal de cada obra.
@@ -4209,6 +4203,7 @@ Para poder obtener los reportes anteriormente dichos que brinda Arquitech a cada
 <br>
 **User Goal 1: Gestión de maquinarias y accidentes**
 <br>
+
 <p align="justify">
 
 Como usuario quiero tener detallado las maquinarias que se usan por cada proyecto y que incidentes suelen ocurrir en las obras para tener una visión panorámica más acertada sobre lo seguro que son las obras y asegurarse de que se cuenta con las máquinas necesarias.
@@ -4225,7 +4220,7 @@ Como usuario quiero tener detallado las maquinarias que se usan por cada proyect
 <br>
 <p align="justify">
 
-Para acceder a las secciones de maquinarias e incidentes debes presionar aquellos botones con los respectivos nombres. En la sección Incidentes, verás un detallado de una lista de los incidentes ocurridos en cada obra,  así podrás estar informado de la fecha en la que ocurrió aquel incidente, el tipo de incidente que ocurrió, la severidad del incidente y el estado de resolución de aquello. Por otro lado, en la sección de Maquinarias, puedes visualizar el nombre de la maquinaria que posee cada obra, la licencia de la maquinaria, la fecha de registro de la maquinaria asignada a la obra y el estado de funcionamiento de aquella.
+Para acceder a las secciones de maquinarias e incidentes debes presionar aquellos botones con los respectivos nombres. En la sección Incidentes, verás un detallado de una lista de los incidentes ocurridos en cada obra, así podrás estar informado de la fecha en la que ocurrió aquel incidente, el tipo de incidente que ocurrió, la severidad del incidente y el estado de resolución de aquello. Por otro lado, en la sección de Maquinarias, puedes visualizar el nombre de la maquinaria que posee cada obra, la licencia de la maquinaria, la fecha de registro de la maquinaria asignada a la obra y el estado de funcionamiento de aquella.
 
 </p>
 
@@ -5252,73 +5247,43 @@ Production Deployment
 ### 5.2.1. Sprint Backlogs
 
 <div style="text-align: justify;">
-<p align="justify">
-
-Para el control y seguimiento de las actividades del proyecto ArquiTech, se definieron y asignaron las tareas a través del backlog. Dado que este primer sprint se enfoca en la fase de concepción, diseño UX/UI y documentación de la arquitectura, una gran parte de las actividades corresponde a la configuración y documentación del proyecto. Las tareas orientadas a diseño, infraestructura y despliegue se han vinculado a las Epics, User Stories y Spike Stories correspondientes definidas en el Product Backlog. A continuación, se presenta la estructura detallada del Sprint Backlog.
-
-</p>
+Para el control y seguimiento de las actividades del proyecto ArquiTech, se definieron y asignaron las tareas a través de nuestro Sprint Backlog gestionado en Trello. Este primer sprint se enfoca en el desarrollo del Producto Mínimo Viable (MVP), abarcando la implementación de la autenticación, la gestión de proyectos y el control base de materiales y trabajadores, a la par de las actividades de diseño y documentación arquitectónica.
 </div>
 
 <br>
 
-_Vista del Sprint Backlog en Jira - Parte 1 (Fases de Setup, Análisis y UX)_
+_Tablero del Sprint Backlog (Trello)_
 
 <p align="center">
-  <img src="assets/chapter-5/sprint-backlog/jira-backlog-1.png" width="950" alt="Sprint Backlog Jira 1">
+  <img src="assets/chapter-5/implemented/sprint-backlog-trello.png" width="850" alt="Sprint Backlog Trello">
 </p>
-<p align="center"><em>*Nota.* Elaboración propia (Tablero de Jira Cloud).</em></p>
+<p align="center"><em>*Nota.* Elaboración propia.</em></p>
 
 <br>
 
-_Vista del Sprint Backlog en Jira - Parte 2 (Fases de Diseño, Arquitectura y Despliegue)_
+**Sprint #1 - Detalle de Tareas**
 
-<p align="center">
-  <img src="assets/chapter-5/sprint-backlog/jira-backlog-2.png" width="950" alt="Sprint Backlog Jira 2">
-</p>
-<p align="center"><em>*Nota.* Elaboración propia (Tablero de Jira Cloud).</em></p>
-
-<br>
-
-**Sprint #1 - Sprint Backlog (Fase de Documentación y Diseño)**
-
-| User Story Id | User Story Title                | Work-Item/Task Id | Work-Item/Task Title           | Description                                        | Estimation (Hours) | Assigned To        | Status |
-| :------------ | :------------------------------ | :---------------- | :----------------------------- | :------------------------------------------------- | :----------------- | :----------------- | :----- |
-| **-**         | Project Setup                   | **ARQDE-9**       | GitHub Setup                   | Configuración del repositorio y ramas principales. | 2                  | Eduardo Chacaliaza | Done   |
-| **-**         | Project Setup                   | **ARQDE-10**      | Invite Team Members            | Asignación de accesos a herramientas de gestión.   | 1                  | Eduardo Chacaliaza | Done   |
-| **-**         | Project Setup                   | **ARQDE-11**      | Create Project Report...       | Creación del entorno y estructura para el informe. | 1                  | Mariel Mendoza     | Done   |
-| **-**         | Project Documentation           | **ARQDE-13**      | 1.1.1 Startup Description      | Redacción del perfil y misión de la startup.       | 2                  | Mariel Mendoza     | Done   |
-| **-**         | Project Documentation           | **ARQDE-14**      | 1.1.2 Team Member Profiles     | Redacción de perfiles técnicos del equipo.         | 2                  | Eduardo Chacaliaza | Done   |
-| **-**         | Project Documentation           | **ARQDE-16**      | 1.2.1. Antecedentes y...       | Análisis del problema y contexto a resolver.       | 3                  | Mariel Mendoza     | Done   |
-| **-**         | Project Documentation           | **ARQDE-17**      | 1.2.2. Lean UX Process         | Planteamiento de la metodología Lean y Canvas.     | 3                  | Mariel Mendoza     | Done   |
-| **-**         | Project Documentation           | **ARQDE-18**      | 1.3. Segmentos objetivo        | Definición de los segmentos de usuarios.           | 3                  | Eduardo Chacaliaza | Done   |
-| **-**         | Project Documentation           | **ARQDE-20**      | 2.1.1. Análisis competitivo    | Investigación de competidores y mercado.           | 4                  | Eduardo Chacaliaza | Done   |
-| **-**         | Project Documentation           | **ARQDE-21**      | 2.1.2. Estrat. y tácticas...   | Definición de ventajas competitivas.               | 3                  | Eduardo Chacaliaza | Done   |
-| **-**         | Project Documentation           | **ARQDE-23**      | 2.2.1. Diseño de entrevistas   | Redacción del guion de preguntas (Needfinding).    | 2                  | Fabricio Quispe    | Done   |
-| **-**         | Project Documentation           | **ARQDE-24**      | 2.2.2. Registro de entrevistas | Grabación y transcripción de entrevistas.          | 5                  | Fabricio Quispe    | Done   |
-| **-**         | Project Documentation           | **ARQDE-25**      | 2.2.3. Análisis de entrevistas | Resumen de insights y hallazgos clave.             | 3                  | Fabricio Quispe    | Done   |
-| **-**         | Project Documentation           | **ARQDE-27**      | 2.3.1. User Personas           | Diseño de arquetipos de usuario.                   | 4                  | Mariel Mendoza     | Done   |
-| **-**         | Project Documentation           | **ARQDE-28**      | 2.3.2. User Task Matrix        | Matriz de tareas frecuentes de los usuarios.       | 3                  | Mariel Mendoza     | Done   |
-| **-**         | Project Documentation           | **ARQDE-29**      | 2.3.3. User Journey Mapping    | Mapeo del recorrido de los perfiles.               | 4                  | Victor Espino      | Done   |
-| **-**         | Project Documentation           | **ARQDE-30**      | 2.3.4. Empathy Mapping         | Creación de mapas de empatía.                      | 3                  | Victor Espino      | Done   |
-| **-**         | Project Documentation           | **ARQDE-31**      | 2.3.5. As-is Scenario Mapping  | Diagramación del escenario actual.                 | 3                  | Braden Garcia      | Done   |
-| **-**         | Project Documentation           | **ARQDE-32**      | 2.4. Ubiquitous Language       | Documentación de la terminología del negocio.      | 2                  | Braden Garcia      | Done   |
-| **-**         | Project Documentation           | **ARQDE-33**      | 3.1. To-Be Scenario Mapping    | Diagramación del escenario propuesto.              | 3                  | Braden Garcia      | Done   |
-| **-**         | Project Documentation           | **ARQDE-34**      | 3.2. User Stories              | Redacción técnica de las historias de usuario.     | 5                  | Fabricio Quispe    | Done   |
-| **-**         | Project Documentation           | **ARQDE-35**      | 3.3. Product Backlog           | Estructuración inicial del backlog ágil.           | 3                  | Eduardo Chacaliaza | Done   |
-| **-**         | Project Documentation           | **ARQDE-36**      | 3.4. Impact Mapping            | Alineación de funcionalidades y negocio.           | 4                  | Victor Espino      | Done   |
-| **EP04**      | Landing Page y comunicación     | **ARQDE-39**      | 4.1. Style Guidelines          | Definición de identidad visual (UI) corporativa.   | 3                  | Braden Garcia      | Done   |
-| **EP08**      | Integración y evolución técnica | **ARQDE-43**      | 4.2. Information Architecture  | Creación del mapa de sitio web/móvil.              | 3                  | Braden Garcia      | Done   |
-| **HU11**      | Conocer ArquiTech               | **ARQDE-50**      | 4.3. Landing Page UI Design    | Diseño de interfaz de la página de aterrizaje.     | 4                  | Eduardo Chacaliaza | Done   |
-| **EP01**      | Gestión de inventarios y mat.   | **ARQDE-49**      | 4.4. Mobile App UX/UI Design   | Diseño de pantallas para la aplicación móvil.      | 6                  | Eduardo Chacaliaza | Done   |
-| **EP01**      | Gestión de inventarios y mat.   | **ARQDE-59**      | 4.5. Mobile App Prototyping    | Interacciones del prototipo móvil en Figma.        | 3                  | Victor Espino      | Done   |
-| **EP02**      | Gestión de trabajadores y tar.  | **ARQDE-61**      | 4.6. Web App UX/UI Design      | Diseño de mockups de la aplicación web.            | 8                  | Victor Espino      | Done   |
-| **EP02**      | Gestión de trabajadores y tar.  | **ARQDE-66**      | 4.7. Web App Prototyping       | Interacciones y flujos del prototipo web.          | 3                  | Mariel Mendoza     | Done   |
-| **EP08**      | Integración y evolución técnica | **ARQDE-67**      | 4.8. Domain-Driven Arch.       | Diseño de arquitectura impulsada por el dominio.   | 4                  | Mariel Mendoza     | Done   |
-| **EP08**      | Integración y evolución técnica | **ARQDE-71**      | 4.9. Object-Oriented Design    | Elaboración de diagramas de clases y objetos.      | 5                  | Fabricio Quispe    | Done   |
-| **EP08**      | Integración y evolución técnica | **ARQDE-74**      | 4.10. Database Design          | Modelado de la base de datos relacional.           | 5                  | Fabricio Quispe    | Done   |
-| **EP08**      | Integración y evolución técnica | **ARQDE-76**      | 5.1. Config Management         | Definición de ramas y control de versiones.        | 2                  | Fabricio Quispe    | Done   |
-| **SP-04**     | Validar despliegue integrado    | **ARQDE-81**      | 5.2. Impl. & Deployment        | Evidencias de implementación y despliegue.         | 4                  | Victor Espino      | Done   |
-| **EP04**      | Landing Page y comunicación     | **ARQDE-89**      | 5.3. Video About-the-Product   | Grabación y edición del video pitch.               | 6                  | Braden Garcia      | Done   |
+| User Story Id | User Story Title                     | Work-Item/Task | Description                                    | Assigned To        | Status |
+| :------------ | :----------------------------------- | :------------- | :--------------------------------------------- | :----------------- | :----- |
+| **HU23**      | Iniciar sesión de forma segura       | **TS14**       | Backend: Implementar auth JWT                  | Fabricio Quispe    | Doing  |
+| **HU23**      | Iniciar sesión de forma segura       | **TS16**       | Frontend: Integrar Auth y pantalla Login       | Victor Espino      | Doing  |
+| **HU09**      | Registrar proyecto de construcción   | **TS09**       | Backend: API para crear proyectos              | Fabricio Quispe    | Doing  |
+| **HU09**      | Registrar proyecto de construcción   | **Front**      | Frontend: Formulario de nuevo proyecto         | Eduardo Chacaliaza | Doing  |
+| **HU22**      | Consultar proyectos bajo supervisión | **TS13**       | Backend: API Consulta Proyectos                | Fabricio Quispe    | To Do  |
+| **HU22**      | Consultar proyectos bajo supervisión | **Front**      | Frontend: Vista Dashboard de Proyectos         | Eduardo Chacaliaza | To Do  |
+| **HU01**      | Registrar entrada de materiales      | **TS01**       | Backend: API para registrar entradas           | Mariel Mendoza     | To Do  |
+| **HU01**      | Registrar entrada de materiales      | **Front**      | Frontend: Vista de ingreso de materiales       | Victor Espino      | To Do  |
+| **HU28**      | Consultar materiales                 | **TS24**       | Backend: API Consulta Materiales               | Mariel Mendoza     | To Do  |
+| **HU28**      | Consultar materiales                 | **Front**      | Frontend: Tabla de visualización de materiales | Victor Espino      | To Do  |
+| **HU06**      | Registrar trabajadores               | **TS06**       | Backend: API Registro de Trabajadores          | Mariel Mendoza     | To Do  |
+| **HU06**      | Registrar trabajadores               | **Front**      | Frontend: Formulario de nuevo trabajador       | Eduardo Chacaliaza | To Do  |
+| **HU10**      | Consultar trabajadores de una obra   | **TS10**       | Backend: API Consulta Trabajadores             | Mariel Mendoza     | To Do  |
+| **HU10**      | Consultar trabajadores de una obra   | **Front**      | Frontend: Tabla de visualización de personal   | Eduardo Chacaliaza | To Do  |
+| **-**         | Project Documentation & Design       | **Docs**       | Grabar y editar Video About-the-Product        | Braden Garcia      | Done   |
+| **-**         | Project Documentation & Design       | **Docs**       | Information Architecture & Style Guidelines    | Braden Garcia      | Done   |
+| **-**         | Project Setup                        | **Config**     | GitHub Setup (Repositorios y ramas)            | Eduardo Chacaliaza | Done   |
+| **-**         | Project Setup                        | **Config**     | Invite Team Members                            | Eduardo Chacaliaza | Done   |
+| **-**         | Project Setup                        | **Config**     | Create Project Report                          | Mariel Mendoza     | Done   |
 
 ### 5.2.2. Implemented Landing Page Evidence
 
@@ -5373,6 +5338,10 @@ _Vista de la Aplicación Web en Producción (Módulo de Materiales)_
 <br>
 
 ### 5.2.4. Implemented Native-Mobile Application Evidence
+
+<div style="text-align: justify;">
+Para el presente hito del proyecto (línea base o <em>As-Is Software Project</em>), la aplicación móvil nativa de ArquiTech se encuentra en fase de diseño y prototipado de alta fidelidad (evidenciado en la sección 4.5). Su desarrollo e implementación a nivel de código fuente (Frontend Mobile) está planificado para los próximos sprints del ciclo, por lo que actualmente no se cuenta con un ejecutable en entornos de producción.
+</div>
 
 ### 5.2.5. Implemented RESTful API and/or Serverless Backend Evidence
 
