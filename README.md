@@ -3597,53 +3597,72 @@ En Arquitech, se ha diseñado un sistema de etiquetado simple y funcional para e
 
 <p align="justify">
 
-Aquí mostraremos los Meta Tagas y los SEO tags que hemos usado para poder desarrollar el landing page con el objetivo de que sea agradable para los usuarios.
+En esta sección se presentan los meta tags y los SEO tags utilizados en la Landing Page de ArquiTech. Su propósito es que los motores de búsqueda indexen correctamente el sitio y que, al compartir el enlace por redes sociales o mensajería, se muestre una vista previa clara con el nombre, la descripción y el logo de la startup. El contenido de las etiquetas comunica la propuesta de valor del producto, que es la gestión y el seguimiento digital de obras de construcción para pequeñas y medianas empresas, y utiliza el vocabulario definido en el Ubiquitous Language y en los sistemas de etiquetado de la sección 4.2.2, de modo que los términos que encuentra el usuario en el buscador sean los mismos que verá dentro de la plataforma.
 
 </p>
 
-    <!DOCTYPE html>
+<ins>**Criterios aplicados**</ins>
 
-    <html lang="es">
+- Título descriptivo: incluye el nombre de la marca y la propuesta de valor en menos de 60 caracteres, para que no se corte en los resultados de búsqueda.
+- Descripción orientada al usuario: resume en una sola frase qué resuelve ArquiTech y a quién está dirigido, dentro del límite recomendado de 160 caracteres.
+- Palabras clave del dominio: se emplean los términos que los segmentos objetivo utilizan realmente, como gestión de obras, control de inventario, asistencia de personal, avance e incidencias.
+- Open Graph y Twitter Card: garantizan que el enlace compartido con contratantes o supervisores muestre título, descripción e imagen de marca.
+- Idioma y localización: se declara el español y la localización es_PE, coherente con el alcance del proyecto en Lima Metropolitana.
 
-    </head>
+<ins>**Implementación**</ins>
 
-      <meta charset="UTF-8" />
+```html
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
- 	 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ArquiTech | Gestión y seguimiento digital de obras</title>
 
-<title\> Foundex | Tecnología IoT para Restaurantes Inteligentes</title>
+    <meta
+      name="description"
+      content="ArquiTech centraliza materiales, personal, avance e incidencias de cada obra. Registro en campo para supervisores y seguimiento con reportes para contratantes."
+    />
+    <meta
+      name="keywords"
+      content="ArquiTech, Foundex, gestión de obras, software de construcción, control de inventario de obra, registro de asistencia, seguimiento de avance, reportes de obra, incidencias en obra, PYMES constructoras, Lima, Perú"
+    />
+    <meta name="author" content="Equipo Foundex" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://osfoundex.github.io/ArquiTech_LandingPage/" />
 
-      <meta name="description" content="Foundex ofrece una solución completa de sensores IoT y plataforma web para monitorear alimentos, mejorar la eficiencia operativa y elevar la atención al cliente en restaurantes." />
+    <meta property="og:title" content="ArquiTech | Gestión y seguimiento digital de obras" />
+    <meta
+      property="og:description"
+      content="Una sola fuente de información para cada obra: materiales, trabajadores, asistencia, avance e incidencias, con reportes y trazabilidad para el contratante."
+    />
+    <meta property="og:image" content="https://osfoundex.github.io/ArquiTech_LandingPage/assets/images/logo.png" />
+    <meta property="og:url" content="https://osfoundex.github.io/ArquiTech_LandingPage/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="ArquiTech" />
+    <meta property="og:locale" content="es_PE" />
 
- 	 <meta name="keywords" content="Foundex, IoT para restaurantes, monitoreo de alimentos, sensores de temperatura, gestión de inventario, eficiencia operativa, tecnología gastronómica" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="ArquiTech | Gestión y seguimiento digital de obras" />
+    <meta
+      name="twitter:description"
+      content="Plataforma de Foundex para controlar materiales, asistencia, avance e incidencias de obra desde el celular, con reportes en línea para el contratante."
+    />
+    <meta name="twitter:image" content="https://osfoundex.github.io/ArquiTech_LandingPage/assets/images/logo.png" />
 
-      <meta name="author" content="Equipo Foundex" />
+    <link rel="icon" href="assets/images/logo.png" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+</html>
+```
+<br>*Nota.* Elaboración propia. Las URLs absolutas corresponden al despliegue de la Landing Page en GitHub Pages, indicado en la sección 5.2.2.
 
-      <meta name="robots" content="index, follow" />
+<p align="justify">
 
-      <meta property="og:title" content="Foundex | Tecnología IoT para Restaurantes Inteligentes" />
+De forma complementaria, la estructura semántica de la Landing Page acompaña a estas etiquetas: se utiliza un único encabezado de primer nivel con el nombre y la propuesta de valor del producto, encabezados de segundo nivel para las secciones de funcionalidades, segmentos y contacto, y texto alternativo descriptivo en cada imagen. Esta jerarquía es la misma que sostiene la navegación lineal con anclas descrita en la sección 4.2.5, por lo que la organización del contenido resulta comprensible tanto para el usuario como para los motores de búsqueda.
 
-      <meta property="og:description" content="Descubre cómo Foundex ayuda a los dueños y trabajadores de restaurantes a optimizar la conservación de alimentos con sensores IoT y una plataforma web de gestión." />
-
-      <meta property="og:image" content="https://foundex.com/img/logo.png" />
-
-      <meta property="og:url" content="https://foundex.com/" />
-
-      <meta property="og:type" content="website" />
-
-      <meta name="twitter:card" content="summary_large_image" />
-
-      <meta name="twitter:title" content="Foundex | Tecnología IoT para Restaurantes Inteligentes" />
-
-      <meta name="twitter:description" content="Optimiza tu restaurante con Foundex: tecnología IoT, sensores y plataforma web para un mejor control alimentario." />
-
-      <meta name="twitter:image" content="https://foundex.com/img/logo.png" />
-
-      <link rel="icon" href="img/logo.png" type="image/x-icon" />
-
-      <link rel="stylesheet" href="style.css" />
-
-    </head>
+</p>
 
 ### 4.2.4. Searching Systems
 
@@ -3680,7 +3699,7 @@ Una vez realizada una búsqueda, los resultados se presentarán de forma estruct
 
 </p>
 
-### **_4.2.5. Navigation Systems_**
+### 4.2.5. Navigation Systems
 
 <p align="justify">
 
@@ -3704,8 +3723,6 @@ La navegación en la landing page tiene una estructura lineal con anclajes inter
 Este diseño permite que los visitantes comprendan rápidamente el propósito de la solución y se dirijan con claridad hacia la acción deseada.
 
 </p>
-
-### 4.2.5. Navigation Systems
 
 ## 4.3. Landing Page UI Design
 
