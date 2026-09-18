@@ -2623,404 +2623,61 @@ _Blank areas del As-Is Scenario Mapping para segmento #2_
 
 ## 3.1. To-Be Scenario Mapping
 
-<ins>**To-Be Scenario Mapping del segmento #1: Supervisores de obra**</ins>
+<ins>*To-Be Scenario Mapping del segmento #1: Supervisores de obra*</ins>  
 
-**Figura 24**  
-_To-Be Scenario Mapping del segmento #1_
-
+*Figura 36*   
+To-Be Scenario Mapping del segmento #1
 <p align="center">
   <img src="assets/chapter-3/To-be/OS_To-be_S1.jpg" alt="PB" width="1000">
 </p>
 
-**Figura 25**  
-_Áreas positivas del To-Be Scenario Mapping para segmento #1_
 
+*Figura 37*   
+Áreas positivas del To-Be Scenario Mapping para segmento #1
 <p align="center">
   <img src="assets/chapter-3/To-be/OS_To-be_S1_AP.jpg" alt="PB" width="1000">
 </p>
 
-**Figura 26**  
-_Áreas negativas del To-Be Scenario Mapping para segmento #1_
 
+*Figura 38*   
+Áreas negativas del To-Be Scenario Mapping para segmento #1
 <p align="center">
   <img src="assets/chapter-3/To-be/OS_To-be_S1_AN.jpg" alt="PB" width="1000">
 </p>
 
-**Figura 27**
 
+*Figura 39*   
+Blank areas del To-Be Scenario Mapping para segmento #1
 <p align="center">
-  <img src="assets/chapter-4/mobile-application-wireframes/mobile-wireframe-login.png" alt="Mobile Wireframe Login" width="300">
-<br><i>Nota.</i> Elaboración propia.
+  <img src="assets/chapter-3/To-be/OS_To-be_S1_BA.jpg" alt="PB" width="1000">
 </p>
+  
 
-<br>
+<ins>*To-Be Scenario Mapping para Segmento #2: Contratantes de Empresas Privadas*</ins>
 
-**Figura 28**
-
+*Figura 40*   
+To-Be Scenario Mapping para segmento #2  
 <p align="center">
-  <img src="assets/chapter-4/mobile-application-wireframes/mobile-wireframe-projects.png" alt="Mobile Wireframe Projects" width="300">
-<br><i>Nota.</i> Elaboración propia.
+  <img src="assets/chapter-3/To-be/OS_To-be_S2.jpg" alt="PB" width="1000">
 </p>
 
-<br>
 
-**Figura 29**
-
-<p align="center">
-  <img src="assets/chapter-4/mobile-application-wireframes/mobile-wireframe-workers.png" alt="Mobile Wireframe Workers" width="300">
-<br><i>Nota.</i> Elaboración propia.
-</p>
-
-<br>
-
-**Figura 30**
-
-<p align="center">
-  <img src="assets/chapter-4/mobile-application-wireframes/mobile-wireframe-materials.png" alt="Mobile Wireframe Materials" width="300">
-<br><i>Nota.</i> Elaboración propia.
-</p>
-
-<br>
-
-**Figura 31**
-
-<p align="center">
-  <img src="assets/chapter-4/mobile-application-wireframes/mobile-wireframe-incidents.png" alt="Mobile Wireframe Incidents" width="300">
-<br><i>Nota.</i> Elaboración propia.
-</p>
-
-<br>
-
-**Figura 32**
-
-<p align="center">
-  <img src="assets/chapter-4/mobile-application-wireframes/mobile-wireframe-machinery.png" alt="Mobile Wireframe Machinery" width="300">
-<br><i>Nota.</i> Elaboración propia.
-</p>
-
-### 4.4.2. Mobile Applications Wireflow Diagrams
-
-**Segmento #2: Contratantes de empresas privadas**
-
-**User Goal 1: Supervisión de materiales y personal de obra**
-
-<p align="justify">
-
-Como usuario, quiero poder visualizar desde la aplicación móvil la lista de proyectos que posee mi empresa junto con la información de materiales y trabajadores asociados, para mantener un mejor control y supervisión de los recursos y del personal de cada obra.
-
-</p>
-
-**Wireflow:**
-
-**Figura 33**
-
-<p align="center">
-
-  <img src="assets/chapter-4/mobile-application-wireflows/mobile-wireflow-materials-workers.png" alt="Mobile Wireflow Materials and Workers" width="700">
-
-<br>_Nota._ Elaboración propia.
-
-</p>
-
-<p align="justify">
-
-Para obtener la información de materiales y trabajadores que brinda ArquiTech desde la aplicación móvil, el usuario debe acceder primero mediante la pantalla de inicio de sesión. Luego, puede visualizar la lista de proyectos asociados a su empresa desde la pantalla principal de proyectos. A partir de esta vista, el usuario puede dirigirse a la sección de materiales, donde se muestran datos como la cantidad registrada, el stock disponible, el precio y el proveedor. Del mismo modo, puede acceder a la sección de trabajadores, donde se presenta información como el nombre del trabajador, su rol, la fecha de contratación y el proyecto al que se encuentra asociado.
-
-</p>
-
-**Segmento #1: Supervisores de obra**
-
-**User Goal 1: Gestión de maquinarias e incidentes**
-
-<p align="justify">
-
-Como usuario, quiero consultar desde la aplicación móvil las maquinarias utilizadas en los proyectos y los incidentes registrados durante la ejecución de las obras, para mantener una visión general sobre la disponibilidad de los equipos y las situaciones que pueden afectar la seguridad y el desarrollo del proyecto.
-
-</p>
-
-**Wireflow:**
-
-**Figura 34**
-
-<p align="center">
-
-  <img src="assets/chapter-4/mobile-application-wireflows/mobile-wireflow-machinery-incidents.png" alt="Mobile Wireflow Machinery and Incidents" width="700">
-
-<br>_Nota._ Elaboración propia.
-
-</p>
-
-<p align="justify">
-
-Para acceder a las secciones de maquinarias e incidentes desde la aplicación móvil, el supervisor debe iniciar sesión y acceder a la pantalla principal de proyectos. Desde esta vista, puede dirigirse a la sección de incidentes para consultar información como la fecha en la que ocurrió cada evento, su tipo, nivel de severidad y estado de resolución. Asimismo, puede acceder a la sección de maquinaria para visualizar los equipos registrados, incluyendo datos como el nombre de la maquinaria, su licencia o placa, la fecha de registro y su estado de funcionamiento.
-
-</p>
-
-### 4.4.3. Mobile Applications Mock-ups
-
-**Figura 35**
-
-<p align="center">
-  <img src="assets/chapter-4/mobile-application-mockups/mobile-mockup-login.png" alt="Mobile Mockup Login" width="300">
-<br><i>Nota.</i> Elaboración propia.
-</p>
-
-<br>
-
-**Figura 36**
-
-<p align="center">
-  <img src="assets/chapter-4/mobile-application-mockups/mobile-mockup-projects.png" alt="Mobile Mockup Projects" width="300">
-<br><i>Nota.</i> Elaboración propia.
-</p>
-
-<br>
-
-**Figura 37**
-
-<p align="center">
-  <img src="assets/chapter-4/mobile-application-mockups/mobile-mockup-workers.png" alt="Mobile Mockup Workers" width="300">
-<br><i>Nota.</i> Elaboración propia.
-</p>
-
-<br>
-
-**Figura 38**
-
-<p align="center">
-  <img src="assets/chapter-4/mobile-application-mockups/mobile-mockup-materials.png" alt="Mobile Mockup Materials" width="300">
-<br><i>Nota.</i> Elaboración propia.
-</p>
-
-<br>
-
-**Figura 39**
-
-<p align="center">
-  <img src="assets/chapter-4/mobile-application-mockups/mobile-mockup-incidents.png" alt="Mobile Mockup Incidents" width="300">
-<br><i>Nota.</i> Elaboración propia.
-</p>
-
-<br>
-
-**Figura 40**
-
-<p align="center">
-  <img src="assets/chapter-4/mobile-application-mockups/mobile-mockup-machinery.png" alt="Mobile Mockup Machinery" width="300">
-<br><i>Nota.</i> Elaboración propia.
-</p>
-
-### 4.4.4. Mobile Applications User Flow Diagrams
-
-**Segmento 1: Supervisores de obra**
-
-**User Goal 1:** Gestionar y controlar materiales de construcción  
-**Descripción:** El supervisor desea consultar y controlar desde la aplicación móvil la disponibilidad, stock y demás información de los materiales asociados a una obra para mantener un mejor control de los recursos utilizados durante el desarrollo del proyecto.
-
-**Figura 41**  
-_Mobile User Flow 1_
-
-<p align="center">
-
-  <img src="assets/chapter-4/mobile-application-userflows/mobile-userflow1-materials.png" alt="Mobile User Flow Materials" width="700">
-
-<br>_Nota._ Elaboración propia.
-
-</p>
-
-**User Goal 2:** Controlar la asistencia y roles de los trabajadores  
-**Descripción:** El supervisor necesita consultar y gestionar desde la aplicación móvil la información de los trabajadores asignados a la obra, incluyendo sus roles, asistencia, tareas y responsabilidades dentro del proyecto.
-
-**Figura 42**  
-_Mobile User Flow 2_
-
-<p align="center">
-
-  <img src="assets/chapter-4/mobile-application-userflows/mobile-userflow2-workers.png" alt="Mobile User Flow Workers" width="700">
-
-<br>_Nota._ Elaboración propia.
-
-</p>
-
-**User Goal 3:** Consultar incidencias en obra  
-**Descripción:** El supervisor desea consultar desde la aplicación móvil los incidentes registrados durante la ejecución de la obra para conocer su tipo, fecha, nivel de severidad y estado de resolución.
-
-**Figura 43**  
-_Mobile User Flow 3_
-
-<p align="center">
-
-  <img src="assets/chapter-4/mobile-application-userflows/mobile-userflow3-incidents.png" alt="Mobile User Flow Incidents" width="700">
-
-<br>_Nota._ Elaboración propia.
-
-</p>
-
-**Segmento Objetivo #2: Contratantes de Empresas Privadas**
-
-**User Goal 1:** Visualizar el estado y progreso de mis obras contratadas
-**Descripción:** El contratante necesita consultar desde la aplicación móvil las obras asociadas a su empresa, con acceso a información clara y actualizada sobre el estado general de cada proyecto.
-
-**Figura 44**  
-_Mobile User Flow 4_
-
-<p align="center">
-
-  <img src="assets/chapter-4/mobile-application-userflows/mobile-userflow4-projects.png" alt="Mobile User Flow Projects" width="700">
-
-<br>_Nota._ Elaboración propia.
-
-</p>
-
-**User Goal 2:** Visualizar el uso y estado de la maquinaria asignada a la obra  
-**Descripción:** El contratante desea consultar desde la aplicación móvil las maquinarias asociadas a sus obras para conocer los equipos disponibles, su identificación, fecha de registro y estado operativo.
-
-**Figura 45**  
-_Mobile User Flow 5_
-
-<p align="center">
-
-  <img src="assets/chapter-4/mobile-application-userflows/mobile-userflow5-machinery.png" alt="Mobile User Flow Machinery" width="700">
-
-<br>_Nota._ Elaboración propia.
-
-</p>
-
-**User Goal 3:** Ver detalles del consumo y disponibilidad de materiales
-**Descripción:** El contratante desea consultar desde la aplicación móvil la información de los materiales asociados a las obras para evaluar la cantidad registrada, el stock disponible, los proveedores y el uso de los recursos del proyecto.
-
-**Figura 46**  
-_Mobile User Flow 6_
-
-<p align="center">
-
-  <img src="assets/chapter-4/mobile-application-userflows/mobile-userflow6-materials-readonly.png" alt="Mobile User Flow Materials Read Only" width="700">
-
-<br>_Nota._ Elaboración propia.
-
-</p>
-
-## 4.5. Mobile Applications Prototyping
-
-<p align="justify">
-
-Nuestro producto encaja al momento de iniciar la supervisión de un aspecto del proyecto que se está administrando en ese momento o se quiere revisar el avance y buen manejo.
-
-</p>
-
-- **¿Qué problemas tiene nuestro producto y cómo se pueden resolver?**
-  - La dependencia del internet en la obra para poder utilizar el aplicativo el cual se puede solucionar incluyendo un modo offline que sincronice datos al reconectarse a una red de internet.
-  - El soporte técnico insuficiente para picos de demanda, en caso de un aumento repentino de usuarios se podría saturar el soporte técnico, frustrando a clientes que esperan respuestas rápidas. Este problema lo podremos solucionar creando una base de conocimientos con videos y guías para resolver dudas comunes y evitar un número masivo de consultas.
-  <p align="center">
-    <img src="assets/chapter-3/To-be/OS_To-be_S2.jpg" alt="PB" width="1000">
-  </p>
-
-**Figura 47**  
-_Áreas positivas del To-Be Scenario Mapping para segmento #2_
-
+*Figura 41*   
+Áreas positivas del To-Be Scenario Mapping para segmento #2
 <p align="center">
   <img src="assets/chapter-3/To-be/OS_To-be_S2_AP.jpg" alt="PB" width="1000">
 </p>
+  
 
-<p align="justify">
-
-Nuestro producto puede ser usado al inicio del día para planificar (confirmar asistencia, revisar inventario), durante el día para monitorear (actualizar avances) y al final para generar y/o revisar reportes.
-
-</p>
-**Figura 48**  
-_Áreas negativas del To-Be Scenario Mapping para segmento #2_
-
+*Figura 42*   
+Áreas negativas del To-Be Scenario Mapping para segmento #2
 <p align="center">
   <img src="assets/chapter-3/To-be/OS_To-be_S2_AN.jpg" alt="PB" width="1000">
 </p>
+ 
 
-<p align="justify">
-
-Nuestro producto debe contar con una interfaz intuitiva, fácil de usar y aprender por nuestros usuarios, también debe contar con una buena sincronización de datos para poder tener un buen seguimiento de los distintos aspectos de la obra.
-
-</p>
-
-<ins>**Segmento 1: Supervisores de obra**</ins>
-
-**User Goal 1:** Gestionar y controlar materiales de construcción  
-**Descripción:** El supervisor desea registrar el ingreso, uso y nivel de materiales en obra para evitar desperdicios y garantizar continuidad en las actividades.
-
-**Figura 49**  
-_User flow 1_
-
-<p align="center">
-  <img src="assets/chapter-4/Web Applications/userflow1.png" alt="PB" width="500">
-	
-<br>*Nota.* Elaboración propia. 
-</p>
-
-**User Goal 2:** Controlar la asistencia y roles de los trabajadores  
-**Descripción:** El supervisor debe tener control total sobre el personal: quién está presente, qué tarea cumple y qué rol desempeña.
-
-**Figura 50**  
-_User flow 2_
-
-<p align="center">
-<img src="assets/chapter-4/Web Applications/userflow2.png" alt="PB" width="500">
-	
-<br>*Nota.* Elaboración propia.
-
-**User Goal 3:** Reportar incidencias en obra  
-**Descripción:** El supervisor reporta eventos importantes en campo (fallas de maquinaria, ausencias masivas, problemas logísticos).
-
-**Figura 51**  
-_User flow 3_
-
-<p align="center">
-<img src="assets/chapter-4/Web Applications/userflow3.png" alt="PB" width="500">
-
-<br>_Nota._ Elaboración propia.
-
-<ins>**Segmento Objetivo #2: Contratantes de Empresas Privadas**</ins>
-
-**User Goal 1:** Visualizar el estado y progreso de mis obras contratadas (solo lectura)  
-**Descripción:** El contratante necesita consultar las obras activas donde ha contratado los servicios, con acceso a información clara y actualizada.
-
-**Figura 52**  
-_User flow 4_
-
-<p align="center">
-<img src="assets/chapter-4/Web Applications/userflow4.png" alt="PB" width="500">
-
-<br>_Nota._ Elaboración propia.
-
-**User Goal 2:** Visualizar el uso y estado de la maquinaria asignada a la obra  
-**Descripción:** Permitir que el contratante consulte, en tiempo real y de forma clara, qué maquinarias están siendo utilizadas en sus obras, cuál es su estado operativo y cómo impactan en el avance del proyecto.
-
-**Figura 53**  
-_User flow 5_
-
-<p align="center">
-<img src="assets/chapter-4/Web Applications/userflow5.png" alt="PB" width="500">
-</p>
-
-_Nota._ Elaboración propia.
-
-**User Goal 3:** Ver detalles del consumo de materiales y reportes de avance (en modo solo lectura)  
-**Descripción:** El contratante desea evaluar cómo se están utilizando los recursos materiales y verificar si el avance reportado está alineado con lo esperado.
-
-**Figura 54**  
-_User flow 6_
-
-<p align="center">
-<img src="assets/chapter-4/Web Applications/userflow6.png" alt="PB" width="500">
-</p>
-
-_Nota._ Elaboración propia.
-
-## 4.7. Web Applications Prototyping
-
-<p align="justify">
-
-La interfaz de nuestro producto debe ser intuitiva y resposive con un diseño que transmita confianza y profesionalismo y que sea de respuesta rápida.
-
-</p>
-
+*Figura 43*   
+Blank areas del To-Be Scenario Mapping para segmento #2
 <p align="center">
   <img src="assets/chapter-3/To-be/OS_To-be_S2_BA.jpg" alt="PB" width="1000">
 </p>
@@ -3029,7 +2686,7 @@ La interfaz de nuestro producto debe ser intuitiva y resposive con un diseño qu
 
 <p align="justify">
 
-En esta sección se presentan los Epics, User Stories, Technical Stories y Spike Stories definidos para ArquiTech. Las historias funcionales representan las necesidades de los principales segmentos de usuario del producto digital: supervisores de obra, contratantes y visitantes de la Landing Page. Las Technical Stories representan capacidades técnicas necesarias para soportar dichas funcionalidades y utilizan el rol `Developer`. Finalmente, las Spike Stories representan actividades de investigación, análisis o validación técnica necesarias para reducir incertidumbre antes de realizar modificaciones o extensiones sobre el producto.
+En esta sección se presentan los Epics, User Stories, Technical Stories y Spike Stories definidos para ArquiTech. Las historias funcionales representan las necesidades de los principales segmentos de usuario del producto digital: supervisores de obra, contratantes y visitantes de la Landing Page. Las Technical Stories representan capacidades técnicas necesarias para soportar dichas funcionalidades y utilizan el rol Developer. Finalmente, las Spike Stories representan actividades de investigación, análisis o validación técnica necesarias para reducir incertidumbre antes de realizar modificaciones o extensiones sobre el producto.
 
 </p>
 
@@ -3041,13 +2698,7 @@ Dentro del contexto de ArquiTech se mantiene un lenguaje ubicuo consistente empl
 
 <p align="justify">
 
-Los Acceptance Criteria se expresan mediante la estructura Given-When-Then (Dado-Cuando-Entonces), utilizando tiempo presente y tercera persona. Para las historias relacionadas con APIs REST, los criterios representan escenarios de interacción request/response. Para las Spike Stories, los criterios establecen los resultados verificables que determinan la finalización de la investigación.
-
-</p>
-
-<p align="justify">
-
-La numeración conserva la trazabilidad con el backlog del proyecto reutilizado. Por este motivo existen saltos entre algunos identificadores, correspondientes a historias previamente eliminadas, fusionadas o reclasificadas.
+Los Acceptance Criteria se expresan mediante la estructura Given-When-Then (Dado-Cuando-Entonces), utilizando tiempo presente y tercera persona. Para las historias relacionadas con APIs REST, los criterios representan escenarios verificables de interacción request/response. Para las Spike Stories, los criterios establecen los resultados, documentación y conclusiones técnicas necesarias para determinar cuándo la investigación puede considerarse completada.
 
 </p>
 
@@ -3082,14 +2733,14 @@ La numeración conserva la trazabilidad con el backlog del proyecto reutilizado.
 | HU22     | Supervisor de obra           | Alta     | EP03 | Consultar proyectos bajo supervisión                               | Como supervisor de obra, deseo consultar los proyectos asociados a mi gestión para realizar seguimiento de las obras bajo mi responsabilidad.                                                                           | AC1: Dado que existen proyectos asociados al supervisor, cuando este consulta sus proyectos, entonces el sistema devuelve las obras correspondientes.<br><br>AC2: Dado que no existen proyectos asociados, cuando el supervisor realiza la consulta, entonces el sistema informa que no existen proyectos registrados para dicho usuario.                                                                                                                                            |
 | HU33     | Contratante                  | Alta     | EP03 | Consultar proyectos contratados                                    | Como contratante, deseo consultar los proyectos asociados a mi participación para realizar seguimiento de las obras contratadas.                                                                                        | AC1: Dado que existen proyectos asociados al contratante, cuando este consulta sus proyectos, entonces el sistema devuelve las obras correspondientes.<br><br>AC2: Dado que no existen proyectos asociados, cuando se realiza la consulta, entonces el sistema devuelve un resultado sin proyectos disponibles.                                                                                                                                                                      |
 | EP04     | —                            | Media    | —    | Landing Page y comunicación                                        | Agrupa las historias relacionadas con la presentación pública de ArquiTech, sus características, propuesta de valor y canales de comunicación.                                                                          | —                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
-| HU11     | Visitante                    | Media    | EP04 | Conocer ArquiTech                                                  | Como visitante, deseo conocer la propuesta de ArquiTech para comprender el propósito de la solución y los problemas que busca resolver.                                                                                 | AC1: Dado que el visitante accede al contenido público de ArquiTech, cuando consulta la información de la solución, entonces el sistema presenta su propósito y propuesta de valor.<br><br>AC2: Dado que el visitante desea obtener mayor contexto sobre la solución, cuando consulta la información institucional, entonces el sistema presenta información que permite comprender el enfoque de ArquiTech.                                                                         |
-| HU12     | Visitante                    | Media    | EP04 | Consultar medios de contacto                                       | Como visitante, deseo conocer los medios de contacto de ArquiTech para disponer de canales mediante los cuales comunicarme con el equipo responsable.                                                                   | AC1: Dado que el visitante desea contactar a ArquiTech, cuando consulta la información de contacto, entonces el sistema proporciona los medios de comunicación disponibles.<br><br>AC2: Dado que el visitante consulta la información pública de contacto, cuando revisa los datos disponibles, entonces el sistema mantiene accesible información de contacto comprensible y vigente.                                                                                               |
-| HU13     | Visitante                    | Media    | EP04 | Explorar características y beneficios                              | Como visitante, deseo conocer las principales características y beneficios de ArquiTech para evaluar si la solución responde a mis necesidades.                                                                         | AC1: Dado que el visitante desea conocer las capacidades de ArquiTech, cuando consulta la información del producto, entonces el sistema presenta sus principales características.<br><br>AC2: Dado que el visitante evalúa el valor de la solución, cuando consulta sus beneficios, entonces el sistema presenta información sobre los resultados que ArquiTech busca aportar a la gestión de obras.                                                                                 |
+| HU11     | Visitante                    | Media    | EP04 | Conocer ArquiTech                                                  | Como visitante, deseo conocer la propuesta de ArquiTech para comprender el propósito de la solución y los problemas que busca resolver.                                                                                 | AC1: Dado que el visitante accede al contenido público de ArquiTech, cuando consulta la información de la solución, entonces el sistema presenta el propósito y la propuesta de valor de ArquiTech.<br><br>AC2: Dado que el visitante desea conocer el alcance de la solución, cuando consulta la información del producto, entonces el sistema presenta los principales problemas que aborda y los segmentos de usuario a los que está dirigido.                                                                         |
+| HU12     | Visitante                    | Media    | EP04 | Consultar medios de contacto                                       | Como visitante, deseo conocer los medios de contacto de ArquiTech para disponer de canales mediante los cuales comunicarme con el equipo responsable.                                                                   | AC1: Dado que el visitante desea contactar a ArquiTech, cuando consulta la información de contacto, entonces el sistema presenta los canales de comunicación disponibles.<br><br>AC2: Dado que existen medios de contacto registrados, cuando el visitante consulta dicha información, entonces el sistema presenta los datos necesarios para utilizar cada canal disponible.                                                                                               |
+| HU13     | Visitante                    | Media    | EP04 | Explorar características y beneficios                              | Como visitante, deseo conocer las principales características y beneficios de ArquiTech para evaluar si la solución responde a mis necesidades.                                                                         | AC1: Dado que el visitante desea conocer las capacidades de ArquiTech, cuando consulta la información del producto, entonces el sistema presenta sus principales características funcionales.<br><br>AC2: Dado que el visitante desea evaluar la propuesta de valor, cuando consulta los beneficios de ArquiTech, entonces el sistema presenta los beneficios asociados con la gestión y seguimiento de obras de construcción.                                                                                 |
 | HU34     | Visitante                    | Media    | EP04 | Acceder a la plataforma desde la Landing Page                      | Como visitante, deseo acceder a la plataforma de ArquiTech desde el sitio público para comenzar a utilizar el producto digital.                                                                                         | AC1: Dado que el visitante decide utilizar ArquiTech, cuando solicita acceder a la plataforma, entonces el sistema lo dirige al punto de acceso de la aplicación web.<br><br>AC2: Dado que el visitante accede al producto digital, cuando se completa la navegación desde el sitio público, entonces la aplicación web queda disponible para continuar con el proceso de autenticación.                                                                                             |
 | EP05     | —                            | Media    | —    | Perfil, preferencias y accesibilidad                               | Agrupa las funcionalidades relacionadas con información personal, preferencias de visualización, accesibilidad e idioma del producto.                                                                                   | —                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 | HU16     | Usuario registrado           | Media    | EP05 | Actualizar información del perfil                                  | Como usuario registrado, deseo actualizar la información de mi perfil para mantener mis datos personales configurados de acuerdo con mis preferencias.                                                                  | AC1: Dado que el usuario posee información de perfil disponible, cuando proporciona nuevos datos válidos, entonces el sistema conserva la información actualizada.<br><br>AC2: Dado que el usuario vuelve a utilizar el producto desde el mismo entorno, cuando consulta su configuración de perfil, entonces el sistema recupera la información previamente conservada.                                                                                                             |
 | HU19     | Usuario registrado           | Media    | EP05 | Configurar preferencias de accesibilidad                           | Como usuario registrado, deseo configurar preferencias de accesibilidad para adaptar la experiencia de uso a mis necesidades.                                                                                           | AC1: Dado que el usuario requiere una configuración visual diferente, cuando modifica una preferencia de accesibilidad disponible, entonces el sistema aplica la configuración seleccionada.<br><br>AC2: Dado que una preferencia ha sido configurada, cuando el usuario continúa utilizando el producto, entonces el sistema mantiene la configuración aplicable al entorno actual.                                                                                                 |
-| HU46     | Usuario del producto digital | Media    | EP05 | Cambiar idioma del producto                                        | Como usuario del producto digital, deseo cambiar el idioma disponible para comprender el contenido de ArquiTech en el idioma de mi preferencia.                                                                         | AC1: Dado que el contenido dispone de traducciones compatibles, cuando el usuario selecciona otro idioma, entonces el sistema presenta el contenido traducido al idioma seleccionado.<br><br>AC2: Dado que el usuario cambia el idioma durante su interacción, cuando continúa utilizando el producto, entonces el sistema conserva el contexto funcional disponible.                                                                                                                |
+| HU46     | Usuario registrado           | Media    | EP05 | Cambiar idioma del producto                                        | Como usuario registrado, deseo cambiar el idioma disponible para comprender el contenido de ArquiTech en el idioma de mi preferencia.                                                                         | AC1: Dado que el producto dispone de más de un idioma compatible, cuando el usuario selecciona un idioma disponible, entonces el sistema presenta el contenido traducido al idioma seleccionado.<br><br>AC2: Dado que el usuario ha seleccionado un idioma compatible, cuando continúa utilizando el producto durante la misma sesión, entonces el sistema conserva el idioma seleccionado.                                                                                                                |
 | EP06     | —                            | Alta     | —    | Incidencias y reportes                                             | Agrupa las funcionalidades relacionadas con el registro y seguimiento de incidencias y con la generación y consulta de reportes de proyecto.                                                                            | —                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 | HU20     | Contratante                  | Alta     | EP06 | Consultar reporte semanal de una obra                              | Como contratante, deseo consultar un reporte semanal de una obra para conocer los principales acontecimientos y avances registrados durante la semana.                                                                  | AC1: Dado que existen datos correspondientes a la semana actual, cuando el contratante consulta el reporte de un proyecto, entonces el sistema consolida la información principal del proyecto, tareas completadas, entradas y salidas de materiales e incidencias registradas.<br><br>AC2: Dado que alguna categoría no posee registros durante la semana, cuando se genera el reporte, entonces el sistema presenta la información disponible sin impedir la consulta del reporte. |
 | HU35     | Supervisor de obra           | Alta     | EP06 | Registrar incidencia                                               | Como supervisor de obra, deseo registrar una incidencia ocurrida durante la ejecución del proyecto para mantener evidencia de los problemas de la obra.                                                                 | AC1: Dado que existe un proyecto válido, cuando el supervisor registra una incidencia con información válida, entonces el sistema almacena la incidencia asociada a la obra.<br><br>AC2: Dado que la información requerida es inválida o incompleta, cuando se intenta registrar una incidencia, entonces el sistema rechaza la operación y no crea el registro.                                                                                                                     |
@@ -3137,30 +2788,83 @@ La numeración conserva la trazabilidad con el backlog del proyecto reutilizado.
 | TS32     | Developer                    | Media    | EP07 | Implementar servicio de registro de usuarios                       | Como Developer, deseo disponer de un servicio REST de registro de usuarios para permitir la creación técnica de cuentas con la información correspondiente.                                                             | AC1: Dado que una solicitud de registro contiene información válida y no duplicada, cuando el servicio la procesa, entonces crea el usuario y devuelve la información permitida del recurso creado.<br><br>AC2: Dado que la solicitud contiene información inválida o incompatible con una cuenta existente, cuando se procesa, entonces el servicio rechaza la creación.                                                                                                            |
 | TS33     | Developer                    | Media    | EP07 | Implementar consulta de usuarios                                   | Como Developer, deseo disponer de servicios REST para recuperar información de usuarios requerida por otras funcionalidades del producto.                                                                               | AC1: Dado que el usuario solicitado existe, cuando se realiza una consulta válida, entonces el servicio devuelve la información permitida del usuario.<br><br>AC2: Dado que el usuario solicitado no existe, cuando se realiza la consulta, entonces el servicio devuelve una respuesta indicando que el recurso no se encuentra disponible.                                                                                                                                         |
 | TS39     | Developer                    | Media    | EP08 | Documentar la API REST mediante OpenAPI                            | Como Developer, deseo disponer de documentación OpenAPI de los servicios REST para facilitar la comprensión y validación de los contratos expuestos por el backend.                                                     | AC1: Dado que los controladores REST se encuentran disponibles, cuando se genera la documentación de la API, entonces se describen los recursos y operaciones expuestos por el backend.<br><br>AC2: Dado que se modifica un contrato REST documentado, cuando se actualiza la definición correspondiente, entonces la documentación refleja el contrato vigente.                                                                                                                     |
-| SP-01    | Developer                    | Alta     | EP08 | Analizar compatibilidad de contratos REST entre frontend y backend | Como Developer, deseo analizar los contratos utilizados por el frontend y los expuestos por el backend para determinar las incompatibilidades que deben resolverse antes de extender el producto.                       | AC1: Dado que existen servicios consumidos por el frontend y endpoints expuestos por el backend, cuando se comparan rutas, parámetros, payloads y respuestas, entonces se produce una matriz de compatibilidad con los hallazgos identificados y las acciones recomendadas.                                                                                                                                                                                                          |
-| SP-02    | Developer                    | Alta     | EP07 | Validar estrategia de autorización por roles                       | Como Developer, deseo validar el comportamiento de autenticación y autorización por roles para determinar si la estrategia existente protege correctamente los recursos antes de incorporar nuevas funcionalidades.     | AC1: Dado que existen los roles Supervisor y Contratante y recursos protegidos asociados, cuando se ejecutan pruebas de acceso permitido y denegado, entonces se documentan los resultados, riesgos encontrados y recomendaciones técnicas.                                                                                                                                                                                                                                          |
-| SP-03    | Developer                    | Media    | EP05 | Evaluar persistencia de perfil y preferencias de accesibilidad     | Como Developer, deseo evaluar la estrategia utilizada para conservar la información de perfil y las preferencias de accesibilidad para determinar si resulta adecuada para la evolución del producto.                   | AC1: Dado que el producto conserva información de perfil y preferencias en el entorno del cliente, cuando se evalúan persistencia, seguridad, alcance y recuperación de la información, entonces se documenta una conclusión técnica y una recomendación para el siguiente incremento.                                                                                                                                                                                               |
-| SP-04    | Developer                    | Alta     | EP08 | Validar despliegue integrado de los componentes de ArquiTech       | Como Developer, deseo validar la integración desplegada entre Landing Page, Frontend Web App y Backend Web App para determinar si los tres componentes pueden utilizarse como línea base del nuevo ciclo de desarrollo. | AC1: Dado que existen los tres componentes desplegables del producto, cuando se ejecuta una prueba de navegación e integración de extremo a extremo, entonces se documentan el resultado de la prueba, las dependencias encontradas, los problemas detectados y las acciones requeridas antes de continuar con nuevas funcionalidades.                                                                                                                                               |
-
-<p align="justify">
-
-La definición anterior constituye la línea base funcional y técnica del producto reutilizado. Las User Stories representan comportamientos con interacción directa de los usuarios finales; las Technical Stories representan capacidades técnicas, principalmente servicios REST, autenticación, autorización e integración; y las Spike Stories formalizan las investigaciones que deben realizarse para reducir incertidumbre antes de evolucionar el sistema.
-
-</p>
-
-<p align="justify">
-
-Las historias heredadas que correspondían únicamente a detalles de implementación, manejo genérico de errores, conexión frontend-backend o correcciones de código no se mantienen como User Stories independientes. Esos elementos se encuentran representados como Technical Stories cuando constituyen una capacidad técnica verificable o, cuando corresponda, deben gestionarse posteriormente como Work-items del Sprint Backlog. Asimismo, funcionalidades previamente separadas pero que representan un mismo objetivo de usuario se consolidan mediante sus Acceptance Criteria, evitando duplicidad en el Product Backlog.
-
-</p>
-
-<p align="justify">
-
-Esta estructura permite mantener trazabilidad entre el producto ya desarrollado —Landing Page, Frontend Web App y Backend Web App— y el trabajo que se realice durante el curso actual. Las nuevas funcionalidades que se deriven posteriormente del Needfinding, de los experimentos o de las hipótesis validadas deberán incorporarse como nuevas User Stories, Technical Stories o Spike Stories sin alterar artificialmente el alcance de la línea base reutilizada.
-
-</p>
+| SP-01    | Developer                    | Alta     | EP08 | Analizar compatibilidad de contratos REST entre frontend y backend | Como Developer, deseo analizar los contratos utilizados por el frontend y los expuestos por el backend para determinar las incompatibilidades que deben resolverse antes de extender el producto.                       | AC1: Dado que existen servicios consumidos por el frontend y endpoints expuestos por el backend, cuando se comparan sus rutas, parámetros, payloads y respuestas, entonces se genera una matriz de compatibilidad con los resultados identificados.<br><br>AC2: Dado que la comparación ha finalizado, cuando se analizan las incompatibilidades encontradas, entonces se documentan los problemas detectados y las acciones técnicas recomendadas para resolverlos.                                                                                                                                                                                                          |
+| SP-02    | Developer                    | Alta     | EP07 | Validar estrategia de autorización por roles                       | Como Developer, deseo validar el comportamiento de autenticación y autorización por roles para determinar si la estrategia existente protege correctamente los recursos antes de incorporar nuevas funcionalidades.     | AC1: Dado que existen los roles Supervisor y Contratante y recursos protegidos asociados, cuando se ejecutan pruebas de acceso permitido y denegado, entonces se documentan los resultados obtenidos para cada rol.<br><br>AC2: Dado que las pruebas de autorización han finalizado, cuando se analizan sus resultados, entonces se documentan los riesgos encontrados y las recomendaciones técnicas necesarias para mantener o modificar la estrategia de autorización.                                                                                                                                                                                                                                          |
+| SP-03    | Developer                    | Media    | EP05 | Evaluar persistencia de perfil y preferencias de accesibilidad     | Como Developer, deseo evaluar la estrategia utilizada para conservar la información de perfil y las preferencias de accesibilidad para determinar si resulta adecuada para la evolución del producto.                   | AC1: Dado que el producto conserva información de perfil y preferencias del usuario, cuando se evalúan los mecanismos de persistencia, seguridad, alcance y recuperación de la información, entonces se documentan los resultados obtenidos.<br><br>AC2: Dado que la evaluación ha finalizado, cuando se analizan los resultados, entonces se documenta una conclusión técnica y una recomendación sobre la estrategia de persistencia que debe utilizarse en los siguientes incrementos.                                                                                                                                                                                               |
+| SP-04    | Developer                    | Alta     | EP08 | Validar despliegue integrado de los componentes de ArquiTech       | Como Developer, deseo validar la integración desplegada entre Landing Page, Frontend Web App y Backend Web App para determinar si los tres componentes pueden utilizarse como línea base del nuevo ciclo de desarrollo. | AC1: Dado que los componentes desplegados de ArquiTech se encuentran disponibles, cuando se ejecuta una prueba de navegación e integración de extremo a extremo, entonces se documenta el resultado de la comunicación entre los componentes.<br><br>AC2: Dado que la prueba de integración ha finalizado, cuando se analizan los resultados obtenidos, entonces se documentan las dependencias, problemas detectados y acciones requeridas antes de continuar con nuevas funcionalidades.                                                                                                                                               |
 
 ## 3.3. Product Backlog
+
+<p align="justify">
+
+En esta sección se presenta el Product Backlog de ArquiTech, conformado por las User Stories definidas para las principales funcionalidades del producto. Las historias se encuentran ordenadas de acuerdo con el valor que aportan al negocio y a las necesidades de los segmentos objetivo. Asimismo, cada historia cuenta con una estimación expresada mediante Story Points utilizando la escala 1, 2, 3, 5 y 8.
+
+</p>
+
+| # Orden | User Story Id | Título | Descripción | Story Points |
+| ------- | ------------- | ------ | ----------- | ------------ |
+| 1 | HU11 | Conocer ArquiTech | Como visitante, deseo conocer la propuesta de ArquiTech para comprender el propósito de la solución y los problemas que busca resolver. | 1 |
+| 2 | HU13 | Explorar características y beneficios | Como visitante, deseo conocer las principales características y beneficios de ArquiTech para evaluar si la solución responde a mis necesidades. | 1 |
+| 3 | HU12 | Consultar medios de contacto | Como visitante, deseo conocer los medios de contacto de ArquiTech para disponer de canales mediante los cuales comunicarme con el equipo responsable. | 1 |
+| 4 | HU34 | Acceder a la plataforma desde la Landing Page | Como visitante, deseo acceder a la plataforma de ArquiTech desde el sitio público para comenzar a utilizar el producto digital. | 1 |
+| 5 | HU09 | Registrar proyecto de construcción | Como supervisor de obra, deseo registrar un proyecto para gestionar la información correspondiente a una nueva obra. | 3 |
+| 6 | HU22 | Consultar proyectos bajo supervisión | Como supervisor de obra, deseo consultar los proyectos asociados a mi gestión para realizar seguimiento de las obras bajo mi responsabilidad. | 2 |
+| 7 | HU28 | Consultar materiales | Como supervisor de obra, deseo consultar los materiales registrados en una obra para conocer su disponibilidad e información asociada. | 2 |
+| 8 | HU01 | Registrar entrada de materiales | Como supervisor de obra, deseo registrar la entrada de materiales para mantener actualizado el inventario de una obra. | 2 |
+| 9 | HU02 | Registrar uso o salida de materiales | Como supervisor de obra, deseo registrar los materiales utilizados en una obra para mantener actualizado el stock disponible. | 2 |
+| 10 | HU04 | Consultar historial de movimientos de materiales | Como supervisor de obra, deseo consultar las entradas y salidas de materiales para realizar seguimiento de los movimientos del inventario. | 5 |
+| 11 | HU10 | Consultar trabajadores de una obra | Como supervisor de obra, deseo consultar los trabajadores asociados a una obra para conocer el personal participante en el proyecto. | 3 |
+| 12 | HU06 | Registrar trabajadores | Como supervisor de obra, deseo registrar trabajadores para mantener actualizada la información del personal asociado a las obras. | 3 |
+| 13 | HU07 | Asignar tareas a trabajadores | Como supervisor de obra, deseo asignar tareas a los trabajadores para organizar las actividades necesarias durante la ejecución de la obra. | 3 |
+| 14 | HU08 | Consultar tareas | Como supervisor de obra, deseo consultar las tareas registradas para conocer sus responsables, fechas y estado de ejecución. | 2 |
+| 15 | HU30 | Consultar maquinaria | Como supervisor de obra, deseo consultar la maquinaria registrada en una obra para conocer los recursos disponibles y su estado. | 2 |
+| 16 | HU05 | Registrar maquinaria | Como supervisor de obra, deseo registrar maquinaria asociada a una obra para mantener control sobre los recursos utilizados en el proyecto. | 2 |
+| 17 | HU35 | Registrar incidencia | Como supervisor de obra, deseo registrar una incidencia ocurrida durante la ejecución del proyecto para mantener evidencia de los problemas de la obra. | 3 |
+| 18 | HU37 | Consultar incidencias | Como supervisor de obra, deseo consultar las incidencias registradas para realizar seguimiento de los problemas ocurridos en una obra. | 2 |
+| 19 | HU33 | Consultar proyectos contratados | Como contratante, deseo consultar los proyectos asociados a mi participación para realizar seguimiento de las obras contratadas. | 2 |
+| 20 | HU40 | Consultar materiales de una obra | Como contratante, deseo consultar los materiales asociados a una obra para conocer los recursos registrados en el proyecto. | 2 |
+| 21 | HU41 | Consultar maquinaria de una obra | Como contratante, deseo consultar la maquinaria asociada a una obra para conocer los recursos utilizados en el proyecto. | 2 |
+| 22 | HU42 | Consultar trabajadores de una obra | Como contratante, deseo consultar los trabajadores asociados a una obra para conocer el personal registrado en el proyecto. | 2 |
+| 23 | HU43 | Consultar tareas de una obra | Como contratante, deseo consultar las tareas asociadas a una obra para conocer las actividades registradas y su estado. | 2 |
+| 24 | HU39 | Consultar incidencias de una obra | Como contratante, deseo consultar las incidencias de una obra para conocer los problemas registrados durante la ejecución del proyecto. | 2 |
+| 25 | HU20 | Consultar reporte semanal de una obra | Como contratante, deseo consultar un reporte semanal de una obra para conocer los principales acontecimientos y avances registrados durante la semana. | 5 |
+| 26 | HU52 | Descargar reporte semanal | Como contratante, deseo descargar el reporte semanal de una obra para conservar una copia de la información consolidada del proyecto. | 3 |
+| 27 | HU29 | Actualizar información de materiales | Como supervisor de obra, deseo actualizar la información de un material para mantener correctos los datos del inventario. | 3 |
+| 28 | HU31 | Actualizar información de maquinaria | Como supervisor de obra, deseo actualizar la información de una maquinaria para mantener vigente su información operativa. | 3 |
+| 29 | HU32 | Actualizar información de trabajadores | Como supervisor de obra, deseo actualizar la información de un trabajador para mantener correctos los datos del personal. | 3 |
+| 30 | HU53 | Actualizar tarea | Como supervisor de obra, deseo actualizar la información y estado de una tarea para reflejar correctamente el avance de las actividades. | 3 |
+| 31 | HU36 | Actualizar incidencia | Como supervisor de obra, deseo actualizar una incidencia para mantener vigente su información, severidad y estado. | 3 |
+| 32 | HU47 | Eliminar material | Como supervisor de obra, deseo eliminar un material que ya no debe formar parte del registro para mantener actualizado el inventario. | 2 |
+| 33 | HU48 | Eliminar maquinaria | Como supervisor de obra, deseo eliminar una maquinaria que ya no debe permanecer registrada para mantener actualizados los recursos de la obra. | 2 |
+| 34 | HU49 | Eliminar trabajador | Como supervisor de obra, deseo eliminar el registro de un trabajador que ya no corresponde a la obra para mantener actualizado el personal del proyecto. | 2 |
+| 35 | HU50 | Eliminar tarea | Como supervisor de obra, deseo eliminar una tarea que ya no corresponde al plan de trabajo para mantener actualizadas las actividades de la obra. | 2 |
+| 36 | HU51 | Eliminar incidencia | Como supervisor de obra, deseo eliminar una incidencia registrada incorrectamente para mantener consistente la información del proyecto. | 2 |
+| 37 | HU23 | Iniciar sesión de forma segura | Como usuario registrado, deseo iniciar sesión de forma segura para acceder a las funcionalidades correspondientes a mi cuenta. | 3 |
+| 38 | HU27 | Acceder a funcionalidades según el rol | Como usuario registrado, deseo acceder únicamente a las funcionalidades autorizadas para mi rol para utilizar ArquiTech de acuerdo con mis responsabilidades. | 5 |
+| 39 | HU44 | Cerrar sesión | Como usuario registrado, deseo cerrar mi sesión para finalizar de forma segura el acceso a mi cuenta. | 1 |
+| 40 | HU16 | Actualizar información del perfil | Como usuario registrado, deseo actualizar la información de mi perfil para mantener mis datos personales configurados de acuerdo con mis preferencias. | 2 |
+| 41 | HU19 | Configurar preferencias de accesibilidad | Como usuario registrado, deseo configurar preferencias de accesibilidad para adaptar la experiencia de uso a mis necesidades. | 2 |
+| 42 | HU46 | Cambiar idioma del producto | Como usuario registrado, deseo cambiar el idioma disponible para comprender el contenido de ArquiTech en el idioma de mi preferencia. | 2 |
+
+<p align="justify">
+
+El Product Backlog se mantiene registrado en una herramienta de gestión de proyectos, permitiendo visualizar y administrar la priorización y estimación de las User Stories definidas para ArquiTech.
+
+</p>
+
+**Figura XX**  
+*Product Backlog de ArquiTech*
+
+<p align="center">
+
+  <img src="assets/chapter-3/product-backlog/product-backlog.png" alt="Product Backlog de ArquiTech" width="850">
+
+<br>*Nota.* Elaboración propia.
+
+</p>
+
+**Enlace al Product Backlog:**  
+[Product Backlog de ArquiTech](PEGAR_AQUI_URL_PUBLICA_DEL_PRODUCT_BACKLOG)
 
 ## 3.4. Impact Mapping
 
