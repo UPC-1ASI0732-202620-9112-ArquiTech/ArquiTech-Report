@@ -69,7 +69,7 @@ Asimismo, se realizaron integraciones progresivas de los cambios desarrollados p
 </p>
 
 **Figura 1**  
-*Analíticas de colaboración durante la entrega AV1*
+_Analíticas de colaboración durante la entrega AV1_
 
 <p align="center">
 
@@ -78,7 +78,7 @@ Asimismo, se realizaron integraciones progresivas de los cambios desarrollados p
 </p>
 
 **Figura 2**  
-*Commits realizados durante la entrega AV1*
+_Commits realizados durante la entrega AV1_
 
 <p align="center">
 
@@ -5162,43 +5162,77 @@ Production Deployment
 ### 5.2.1. Sprint Backlogs
 
 <div style="text-align: justify;">
-Para el control y seguimiento de las actividades del proyecto ArquiTech, se definieron y asignaron las tareas a través de nuestro Sprint Backlog gestionado en Trello. Este primer sprint se enfoca en el desarrollo del Producto Mínimo Viable (MVP), abarcando la implementación de la autenticación, la gestión de proyectos y el control base de materiales y trabajadores, a la par de las actividades de diseño y documentación arquitectónica.
+<p align="justify">
+
+Para el control y seguimiento de las actividades del proyecto ArquiTech, el equipo gestiona el Sprint Backlog mediante un tablero Kanban en Trello, organizado en las listas Sprint Backlog, To Do, Doing y Done. Cada tarjeta del tablero representa una User Story del Product Backlog, y las Technical Stories y Work-Items necesarios para completarla se registran como ítems de checklist dentro de la tarjeta correspondiente. De esta manera se mantiene la trazabilidad entre cada historia definida en la sección 3.2 y las tareas técnicas que la implementan.
+
+</p>
 </div>
 
 <br>
 
-_Tablero del Sprint Backlog (Trello)_
+**Sprint #1 — Sprint Goal**
 
-<p align="center">
-  <img src="assets/chapter-5/implemented/sprint-backlog-trello.png" width="850" alt="Sprint Backlog Trello">
+<div style="text-align: justify;">
+<p align="justify">
+
+Habilitar el flujo base de ArquiTech sobre los componentes reutilizados, permitiendo que un Supervisor de obra acceda de forma autenticada, registre y consulte proyectos, y gestione la información de materiales y trabajadores asociados a una obra.
+
 </p>
-<p align="center"><em>*Nota.* Elaboración propia.</em></p>
+</div>
 
 <br>
 
-**Sprint #1 - Detalle de Tareas**
+_Vista del Sprint Backlog en Trello_
 
-| User Story Id | User Story Title                     | Work-Item/Task | Description                                    | Assigned To        | Status |
-| :------------ | :----------------------------------- | :------------- | :--------------------------------------------- | :----------------- | :----- |
-| **HU23**      | Iniciar sesión de forma segura       | **TS14**       | Backend: Implementar auth JWT                  | Fabricio Quispe    | Doing  |
-| **HU23**      | Iniciar sesión de forma segura       | **TS16**       | Frontend: Integrar Auth y pantalla Login       | Victor Espino      | Doing  |
-| **HU09**      | Registrar proyecto de construcción   | **TS09**       | Backend: API para crear proyectos              | Fabricio Quispe    | Doing  |
-| **HU09**      | Registrar proyecto de construcción   | **Front**      | Frontend: Formulario de nuevo proyecto         | Eduardo Chacaliaza | Doing  |
-| **HU22**      | Consultar proyectos bajo supervisión | **TS13**       | Backend: API Consulta Proyectos                | Fabricio Quispe    | To Do  |
-| **HU22**      | Consultar proyectos bajo supervisión | **Front**      | Frontend: Vista Dashboard de Proyectos         | Eduardo Chacaliaza | To Do  |
-| **HU01**      | Registrar entrada de materiales      | **TS01**       | Backend: API para registrar entradas           | Mariel Mendoza     | To Do  |
-| **HU01**      | Registrar entrada de materiales      | **Front**      | Frontend: Vista de ingreso de materiales       | Victor Espino      | To Do  |
-| **HU28**      | Consultar materiales                 | **TS24**       | Backend: API Consulta Materiales               | Mariel Mendoza     | To Do  |
-| **HU28**      | Consultar materiales                 | **Front**      | Frontend: Tabla de visualización de materiales | Victor Espino      | To Do  |
-| **HU06**      | Registrar trabajadores               | **TS06**       | Backend: API Registro de Trabajadores          | Mariel Mendoza     | To Do  |
-| **HU06**      | Registrar trabajadores               | **Front**      | Frontend: Formulario de nuevo trabajador       | Eduardo Chacaliaza | To Do  |
-| **HU10**      | Consultar trabajadores de una obra   | **TS10**       | Backend: API Consulta Trabajadores             | Mariel Mendoza     | To Do  |
-| **HU10**      | Consultar trabajadores de una obra   | **Front**      | Frontend: Tabla de visualización de personal   | Eduardo Chacaliaza | To Do  |
-| **-**         | Project Documentation & Design       | **Docs**       | Grabar y editar Video About-the-Product        | Braden Garcia      | Done   |
-| **-**         | Project Documentation & Design       | **Docs**       | Information Architecture & Style Guidelines    | Braden Garcia      | Done   |
-| **-**         | Project Setup                        | **Config**     | GitHub Setup (Repositorios y ramas)            | Eduardo Chacaliaza | Done   |
-| **-**         | Project Setup                        | **Config**     | Invite Team Members                            | Eduardo Chacaliaza | Done   |
-| **-**         | Project Setup                        | **Config**     | Create Project Report                          | Mariel Mendoza     | Done   |
+<p align="center">
+  <img src="assets/chapter-5/sprint-backlog/trello-sprint-backlog.png" width="950" alt="Sprint Backlog Trello">
+</p>
+<p align="center"><em>*Nota.* Elaboración propia (Tablero de Trello).</em></p>
+
+<br>
+
+**Sprint #1 - Sprint Backlog**
+
+| User Story Id | User Story Title                     | Work-Item/Task Id | Work-Item/Task Title                             | Description                                                                 | Estimation (Hours) | Assigned To        | Status         |
+| :------------ | :----------------------------------- | :---------------- | :----------------------------------------------- | :-------------------------------------------------------------------------- | :----------------- | :----------------- | :------------- |
+| **HU23**      | Iniciar sesión de forma segura       | **TS14**          | Backend: Implementar auth JWT                    | Generación y emisión de tokens JWT para sesiones autenticadas.              | —                  | Fabricio Quispe    | Done           |
+| **HU23**      | Iniciar sesión de forma segura       | **TS16**          | Frontend: Integrar Auth y pantalla Login         | Integración del cliente web con el servicio de autenticación.               | —                  | Victor Espino      | Done           |
+| **HU22**      | Consultar proyectos bajo supervisión | **TS13**          | Backend: API Consulta Proyectos                  | Servicio REST para recuperar los proyectos asociados al supervisor.         | —                  | Fabricio Quispe    | Done           |
+| **HU22**      | Consultar proyectos bajo supervisión | **ARQ-16**        | Frontend: Vista Dashboard de Proyectos           | Listado de proyectos con navegación al detalle de cada obra.                | —                  | Eduardo Chacaliaza | Done           |
+| **HU28**      | Consultar materiales                 | **TS24**          | Backend: API Consulta Materiales                 | Servicio REST para recuperar los materiales registrados en una obra.        | —                  | Mariel Mendoza     | Done           |
+| **HU28**      | Consultar materiales                 | **ARQ-21**        | Frontend: Tabla de visualización de materiales   | Tabla paginada con la información de materiales del proyecto.               | —                  | Victor Espino      | Done           |
+| **HU10**      | Consultar trabajadores de una obra   | **TS10**          | Backend: API Consulta Trabajadores               | Servicio REST para recuperar el personal asociado a una obra.               | —                  | Mariel Mendoza     | Done           |
+| **HU10**      | Consultar trabajadores de una obra   | **ARQ-20**        | Frontend: Tabla de visualización de personal     | Tabla paginada con la información de trabajadores del proyecto.             | —                  | Eduardo Chacaliaza | Done           |
+| **HU09**      | Registrar proyecto de construcción   | **TS09**          | Backend: API para crear proyectos                | Servicio REST para registrar nuevos proyectos de construcción.              | —                  | Fabricio Quispe    | In Progress    |
+| **HU09**      | Registrar proyecto de construcción   | **ARQ-29**        | Frontend: Formulario de nuevo proyecto           | Formulario de alta de proyecto con validación de datos obligatorios.        | —                  | Eduardo Chacaliaza | In Progress    |
+| **HU01**      | Registrar entrada de materiales      | **TS01**          | Backend: API para registrar entradas             | Servicio REST para registrar entradas y actualizar el inventario.           | —                  | Mariel Mendoza     | To Do          |
+| **HU01**      | Registrar entrada de materiales      | **ARQ-18**        | Frontend: Vista de ingreso de materiales         | Formulario de registro de entrada de materiales a la obra.                  | —                  | Victor Espino      | To Do          |
+| **HU06**      | Registrar trabajadores               | **TS06**          | Backend: API Registro de Trabajadores            | Servicio REST para registrar trabajadores asociados a un proyecto.          | —                  | Mariel Mendoza     | To Do          |
+| **HU06**      | Registrar trabajadores               | **ARQ-23**        | Frontend: Formulario de nuevo trabajador         | Formulario de alta de personal con rol y fecha de contratación.             | —                  | Eduardo Chacaliaza | To Do          |
+| **HU27**      | Acceder a funcionalidades según rol  | **TS15**          | Backend: Autorización por roles                  | Evaluación de permisos diferenciados sobre los recursos protegidos.         | —                  | Por asignar        | Sprint Backlog |
+| **HU27**      | Acceder a funcionalidades según rol  | **TS21**          | Frontend: Proteger rutas según rol               | Control de acceso a las rutas del cliente web según el rol autenticado.     | —                  | Por asignar        | Sprint Backlog |
+| **HU44**      | Cerrar sesión                        | **TS17**          | Frontend: Gestión de sesión                      | Cierre de sesión y limpieza de la información de autenticación del cliente. | —                  | Por asignar        | Sprint Backlog |
+| **HU33**      | Consultar proyectos contratados      | **TS13**          | Backend: API Consulta Proyectos (Contratante)    | Consulta de proyectos filtrada por el rol Contratante.                      | —                  | Por asignar        | Sprint Backlog |
+| **HU33**      | Consultar proyectos contratados      | **ARQ-37**        | Frontend: Vista de proyectos contratados         | Listado de obras contratadas visible para el rol Contratante.               | —                  | Por asignar        | Sprint Backlog |
+| **HU02**      | Registrar uso o salida de materiales | **TS02**          | Backend: API para registrar salida de materiales | Servicio REST que descuenta stock y registra la salida del material.        | —                  | Por asignar        | Sprint Backlog |
+| **HU02**      | Registrar uso o salida de materiales | **ARQ-38**        | Frontend: Formulario de salida de materiales     | Formulario de registro de consumo de materiales en obra.                    | —                  | Por asignar        | Sprint Backlog |
+| **HU40**      | Consultar materiales de una obra     | **TS24**          | Backend: API Consulta Materiales (Contratante)   | Consulta de materiales filtrada por el rol Contratante.                     | —                  | Por asignar        | Sprint Backlog |
+| **HU40**      | Consultar materiales de una obra     | **ARQ-39**        | Frontend: Vista de materiales para contratante   | Vista de solo lectura de los materiales de la obra contratada.              | —                  | Por asignar        | Sprint Backlog |
+| **HU07**      | Asignar tareas a trabajadores        | **TS07**          | Backend: API Creación y Asignación de Tareas     | Servicio REST para crear tareas y asignarlas a un trabajador.               | —                  | Por asignar        | Sprint Backlog |
+| **HU07**      | Asignar tareas a trabajadores        | **ARQ-40**        | Frontend: Formulario de asignación de tareas     | Formulario de creación de tarea con responsable y fechas.                   | —                  | Por asignar        | Sprint Backlog |
+| **HU08**      | Consultar tareas                     | **TS08**          | Backend: API Consulta de Tareas                  | Servicio REST para recuperar las tareas registradas y su estado.            | —                  | Por asignar        | Sprint Backlog |
+| **HU08**      | Consultar tareas                     | **ARQ-41**        | Frontend: Vista de tareas                        | Tabla de tareas con responsable, fechas y estado de ejecución.              | —                  | Por asignar        | Sprint Backlog |
+
+<br>
+
+<div style="text-align: justify;">
+<p align="justify">
+
+Al cierre del periodo reportado, cuatro User Stories se encuentran en estado Done (HU23, HU22, HU28 y HU10), verificadas mediante la ejecución del producto desplegado según se evidencia en la sección 5.2.3. La historia HU09 se encuentra en progreso, mientras que las historias restantes permanecen en To Do y Sprint Backlog para su desarrollo en el siguiente incremento. Las historias HU33 y HU40 reutilizan los servicios TS13 y TS24 respectivamente, incorporando las restricciones de autorización correspondientes al rol Contratante.
+
+</p>
+</div>
 
 ### 5.2.2. Implemented Landing Page Evidence
 
