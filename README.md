@@ -40,11 +40,11 @@ Quispe Barzola, Fabricio Fabian - U202320442
 
 | Versión |   Fecha    | Autor                             | Descripción de modificación                                                                                                                                                                                                                                                                                                                        |
 | :-----: | :--------: | :-------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-|  1.0  | 14/09/2026 | Mendoza Moreano, Mariel Lucero    | <span style="display:block; text-align:justify;">Elaboración de las secciones 1.1.1 Descripción de la Startup, 1.1.2 Perfiles de integrantes del equipo, 1.2.1 Antecedentes y problemática, 1.2.2 Lean UX Process, 2.3.1 User Personas, 2.3.2 User Task Matrix, 4.7 Web Applications Prototyping y 4.8 Domain-Driven Software Architecture.</span> |
-|  1.1  | 14/09/2026 | Chacaliaza Minaya, Eduardo Fabian | <span style="display:block; text-align:justify;">Elaboración de las secciones 1.3 Segmentos objetivo, 2.1.1 Análisis competitivo, 2.1.2 Estrategias y tácticas frente a competidores, 3.3 Product Backlog, 4.3 Landing Page UI Design y 4.4 Mobile Applications UX/UI Design.</span>                                                               |
-|  1.2  | 14/09/2026 | Quispe Barzola, Fabricio Fabian   | <span style="display:block; text-align:justify;">Elaboración de las secciones 2.2.1 Diseño de entrevistas, 2.2.2 Registro de entrevistas, 2.2.3 Análisis de entrevistas, 3.2 User Stories, 4.9 Software Object-Oriented Design, 4.10 Database Design y 5.1 Software Configuration Management.</span>                                               |
-|  1.3  | 14/09/2026 | Espino Rossi, Victor Manuel       | <span style="display:block; text-align:justify;">Elaboración de las secciones 2.3.3 User Journey Mapping, 2.3.4 Empathy Mapping, 3.4 Impact Mapping, 4.5 Mobile Applications Prototyping, 4.6 Web Applications UX/UI Design y 5.2 Product Implementation & Deployment.</span>                                                                      |
-|  1.4  | 14/09/2026 | Garcia Cerpa, Braden Raid         | <span style="display:block; text-align:justify;">Elaboración de las secciones 2.3.5 As-is Scenario Mapping, 2.4 Ubiquitous Language, 3.1 To-Be Scenario Mapping, 4.1 Style Guidelines, 4.2 Information Architecture y 5.3 Video About-the-Product.</span>                                                                                          |
+|   1.0   | 14/09/2026 | Mendoza Moreano, Mariel Lucero    | <span style="display:block; text-align:justify;">Elaboración de las secciones 1.1.1 Descripción de la Startup, 1.1.2 Perfiles de integrantes del equipo, 1.2.1 Antecedentes y problemática, 1.2.2 Lean UX Process, 2.3.1 User Personas, 2.3.2 User Task Matrix, 4.7 Web Applications Prototyping y 4.8 Domain-Driven Software Architecture.</span> |
+|   1.1   | 14/09/2026 | Chacaliaza Minaya, Eduardo Fabian | <span style="display:block; text-align:justify;">Elaboración de las secciones 1.3 Segmentos objetivo, 2.1.1 Análisis competitivo, 2.1.2 Estrategias y tácticas frente a competidores, 3.3 Product Backlog, 4.3 Landing Page UI Design y 4.4 Mobile Applications UX/UI Design.</span>                                                               |
+|   1.2   | 14/09/2026 | Quispe Barzola, Fabricio Fabian   | <span style="display:block; text-align:justify;">Elaboración de las secciones 2.2.1 Diseño de entrevistas, 2.2.2 Registro de entrevistas, 2.2.3 Análisis de entrevistas, 3.2 User Stories, 4.9 Software Object-Oriented Design, 4.10 Database Design y 5.1 Software Configuration Management.</span>                                               |
+|   1.3   | 14/09/2026 | Espino Rossi, Victor Manuel       | <span style="display:block; text-align:justify;">Elaboración de las secciones 2.3.3 User Journey Mapping, 2.3.4 Empathy Mapping, 3.4 Impact Mapping, 4.5 Mobile Applications Prototyping, 4.6 Web Applications UX/UI Design y 5.2 Product Implementation & Deployment.</span>                                                                      |
+|   1.4   | 14/09/2026 | Garcia Cerpa, Braden Raid         | <span style="display:block; text-align:justify;">Elaboración de las secciones 2.3.5 As-is Scenario Mapping, 2.4 Ubiquitous Language, 3.1 To-Be Scenario Mapping, 4.1 Style Guidelines, 4.2 Information Architecture y 5.3 Video About-the-Product.</span>                                                                                          |
 
 # Project Report Collaboration Insights
 
@@ -3627,33 +3627,52 @@ En esta sección se presentan los meta tags y los SEO tags utilizados en la Land
     />
     <meta name="author" content="Equipo Foundex" />
     <meta name="robots" content="index, follow" />
-    <link rel="canonical" href="https://osfoundex.github.io/ArquiTech_LandingPage/" />
+    <link
+      rel="canonical"
+      href="https://osfoundex.github.io/ArquiTech_LandingPage/"
+    />
 
-    <meta property="og:title" content="ArquiTech | Gestión y seguimiento digital de obras" />
+    <meta
+      property="og:title"
+      content="ArquiTech | Gestión y seguimiento digital de obras"
+    />
     <meta
       property="og:description"
       content="Una sola fuente de información para cada obra: materiales, trabajadores, asistencia, avance e incidencias, con reportes y trazabilidad para el contratante."
     />
-    <meta property="og:image" content="https://osfoundex.github.io/ArquiTech_LandingPage/assets/images/logo.png" />
-    <meta property="og:url" content="https://osfoundex.github.io/ArquiTech_LandingPage/" />
+    <meta
+      property="og:image"
+      content="https://osfoundex.github.io/ArquiTech_LandingPage/assets/images/logo.png"
+    />
+    <meta
+      property="og:url"
+      content="https://osfoundex.github.io/ArquiTech_LandingPage/"
+    />
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content="ArquiTech" />
     <meta property="og:locale" content="es_PE" />
 
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="ArquiTech | Gestión y seguimiento digital de obras" />
+    <meta
+      name="twitter:title"
+      content="ArquiTech | Gestión y seguimiento digital de obras"
+    />
     <meta
       name="twitter:description"
       content="Plataforma de Foundex para controlar materiales, asistencia, avance e incidencias de obra desde el celular, con reportes en línea para el contratante."
     />
-    <meta name="twitter:image" content="https://osfoundex.github.io/ArquiTech_LandingPage/assets/images/logo.png" />
+    <meta
+      name="twitter:image"
+      content="https://osfoundex.github.io/ArquiTech_LandingPage/assets/images/logo.png"
+    />
 
     <link rel="icon" href="assets/images/logo.png" type="image/x-icon" />
     <link rel="stylesheet" href="style.css" />
   </head>
 </html>
 ```
-<br>*Nota.* Elaboración propia. Las URLs absolutas corresponden al despliegue de la Landing Page en GitHub Pages, indicado en la sección 5.2.2.
+
+<br>_Nota._ Elaboración propia. Las URLs absolutas corresponden al despliegue de la Landing Page en GitHub Pages, indicado en la sección 5.2.2.
 
 <p align="justify">
 
@@ -5348,6 +5367,19 @@ Para el presente hito del proyecto (línea base o <em>As-Is Software Project</em
 ### 5.2.6. RESTful API documentation
 
 ### 5.2.7. Team Collaboration Insights
+
+<div style="text-align: justify;">
+A continuación, se presentan las evidencias del trabajo colaborativo del equipo Foundex a nivel de código fuente. El registro de métricas y commits extraído de GitHub demuestra la participación técnica y activa de todos los integrantes durante el desarrollo e integración de la línea base del proyecto.
+</div>
+
+<br>
+
+_Evidencias de Commits y Contribuciones del Equipo en GitHub_
+
+<p align="center">
+  <img src="assets/chapter-5/implemented/github-commits.png" width="850" alt="GitHub Team Commits Evidence">
+</p>
+<p align="center"><em>*Nota.* Elaboración propia (Registro de control de versiones).</em></p>
 
 ## 5.3. Video About-the-Product
 
