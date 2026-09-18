@@ -5007,6 +5007,116 @@ Para el presente hito del proyecto (línea base o <em>As-Is Software Project</em
 
 ### 5.2.5. Implemented RESTful API and/or Serverless Backend Evidence
 
+<div style="text-align: justify;">
+<p align="justify">
+
+En esta sección se evidencia la implementación y el despliegue de la Backend Web Application de ArquiTech, correspondiente al servicio REST que soporta las funcionalidades del producto. El backend está construido con Java 17 y Spring Boot 3.5.0, utiliza Spring Data JPA sobre una base de datos MySQL y Spring Security con autenticación basada en tokens JWT. El servicio se encuentra desplegado en la plataforma Railway, con integración continua desde el repositorio del equipo en GitHub.
+
+</p>
+</div>
+
+<br>
+
+**Configuración del despliegue**
+
+| Elemento                   | Valor                                                  |
+| :------------------------- | :----------------------------------------------------- |
+| Repositorio                | `UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-Backend` |
+| Rama desplegada            | `main`                                                 |
+| Directorio raíz del módulo | `arquitech-back-end`                                   |
+| Plataforma                 | Railway                                                |
+| Base de datos              | MySQL (servicio administrado en el mismo proyecto)     |
+| URL del servicio           | `https://arquitech-backend-production.up.railway.app`  |
+
+<br>
+
+<div style="text-align: justify;">
+<p align="justify">
+
+La configuración sensible del servicio no se encuentra versionada en el repositorio. Los parámetros de conexión a la base de datos y la clave de firma de los tokens JWT se administran exclusivamente mediante variables de entorno definidas en la plataforma de despliegue (`DATABASE_URL`, `PROD_DB_USERNAME`, `PROD_DB_PASSWORD` y `JWT_SECRET`), de acuerdo con lo establecido en la sección 5.1.4.
+
+</p>
+</div>
+
+<br>
+
+_Servicios desplegados, conexión con la base de datos y variables de entorno configuradas_
+
+<p align="center">
+  <img src="assets/chapter-5/backend/railway-servicios-variables.png" width="900" alt="Servicios desplegados y variables de entorno">
+</p>
+<p align="center"><em>*Nota.* Elaboración propia (Panel de despliegue del proyecto).</em></p>
+
+<br>
+
+<div style="text-align: justify;">
+<p align="justify">
+
+En la figura anterior se observan los dos servicios que componen el despliegue —la Backend Web Application y la instancia de MySQL— ambos en estado operativo, junto con la relación de dependencia entre ellos y las cuatro variables de entorno definidas para el servicio.
+
+</p>
+</div>
+
+<br>
+
+_Configuración de origen del servicio y despliegue automático desde GitHub_
+
+<p align="center">
+  <img src="assets/chapter-5/backend/railway-source.png" width="900" alt="Configuración de origen del servicio">
+</p>
+<p align="center"><em>*Nota.* Elaboración propia (Panel de despliegue del proyecto).</em></p>
+
+<br>
+
+**Validación funcional del servicio desplegado**
+
+<div style="text-align: justify;">
+<p align="justify">
+
+Con el propósito de verificar que el servicio desplegado se encuentra operativo y que los mecanismos de autenticación y autorización funcionan según lo esperado, se ejecutaron solicitudes HTTP contra la URL de producción. Las pruebas se realizaron sobre la API en ejecución y sus resultados son reproducibles contra el mismo endpoint. La siguiente tabla resume las operaciones verificadas:
+
+</p>
+</div>
+
+| Endpoint                               | Método | Autenticación    | Código de respuesta | Resultado observado                                            |
+| :------------------------------------- | :----: | :--------------- | :-----------------: | :------------------------------------------------------------- |
+| `/api/v1/authentication/sign-up`       |  POST  | No requerida     |       **201**       | Usuario creado; devuelve id, nombre, correo y rol asignado     |
+| `/api/v1/authentication/sign-in`       |  POST  | No requerida     |       **200**       | Autenticación correcta; devuelve token JWT y datos del usuario |
+| `/api/v1/workers`                      |  GET   | Sin token        |       **401**       | Acceso denegado al recurso protegido                           |
+| `/api/v1/workers`                      |  GET   | Con token válido |       **200**       | Acceso permitido; devuelve la colección de trabajadores        |
+| `/api/v1/users`                        |  GET   | Con token válido |       **200**       | Devuelve la información de los usuarios registrados            |
+| `/api/v1/projects/supervisor/{userId}` |  GET   | Con token válido |       **200**       | Devuelve la respuesta correspondiente al supervisor consultado |
+
+<br>
+
+<div style="text-align: justify;">
+<p align="justify">
+
+El contraste entre las dos solicitudes realizadas sobre `/api/v1/workers` constituye la evidencia principal del mecanismo de seguridad implementado: ante el mismo endpoint y el mismo servicio, la solicitud sin token es rechazada con código 401, mientras que la solicitud que incluye un token JWT válido obtenido previamente mediante `sign-in` es procesada correctamente con código 200. Esto verifica el comportamiento descrito en las Technical Stories **TS14 – Implementar autenticación mediante JWT** y **TS20 – Validar JWT en solicitudes protegidas**.
+
+</p>
+</div>
+
+<br>
+
+<div style="text-align: justify;">
+<p align="justify">
+
+Asimismo, la consulta `GET /api/v1/projects/supervisor/{userId}` devuelve una respuesta informativa cuando el supervisor consultado no posee proyectos asociados, comportamiento que corresponde al segundo criterio de aceptación de la User Story **HU22 – Consultar proyectos bajo supervisión**.
+
+</p>
+</div>
+
+<br>
+
+<div style="text-align: justify;">
+<p align="justify">
+
+La documentación completa de los recursos expuestos por el servicio, así como la interfaz interactiva utilizada para ejecutar las solicitudes de verificación, se presenta en la sección 5.2.6. Los hallazgos técnicos identificados durante la validación del comportamiento de autorización sobre los distintos métodos HTTP se documentan como resultado de la Spike Story **SP-02 – Validar estrategia de autorización por roles**.
+
+</p>
+</div>
+
 ### 5.2.6. RESTful API documentation
 
 <div style="text-align: justify;"> <p align="justify">
@@ -5105,6 +5215,31 @@ _Video About-the-product_
 [https://www.youtube.com/watch?v=k3Z0771Au1Y](https://www.youtube.com/watch?v=k3Z0771Au1Y)
 
 # Conclusiones
+
+## Conclusiones y recomendaciones
+
+A partir del desarrollo del primer avance de ArquiTech, se concluye que el Problem Statement planteado inicialmente mantiene correspondencia con las dificultades identificadas durante la investigación de los segmentos objetivo. Las entrevistas realizadas evidenciaron que los supervisores de obra trabajan con información distribuida entre hojas de cálculo, documentos físicos, correo electrónico, aplicaciones de mensajería y otros registros, lo que dificulta mantener actualizada la información relacionada con materiales, trabajadores y avance de obra. De manera similar, los contratantes manifestaron depender principalmente de reportes, fotografías, mensajes y visitas para conocer el estado de sus proyectos, generándose dificultades relacionadas con información desactualizada, poca visibilidad y comunicación tardía de problemas.
+
+Los resultados obtenidos permitieron encontrar evidencia inicial a favor de varias de las assumptions formuladas durante el Lean UX Process. En el segmento de supervisores de obra, los tres participantes manifestaron la necesidad de disponer de información actualizada, centralizar los registros y mejorar la coordinación entre los responsables del proyecto. Asimismo, los participantes señalaron que una solución digital debe ser sencilla, confiable y evitar incrementar el esfuerzo requerido para registrar información. En el segmento de contratantes, los tres participantes coincidieron en valorar la transparencia, el acceso a información actualizada, la comunicación anticipada de problemas y la existencia de evidencias y trazabilidad sobre los registros de la obra.
+
+Estos hallazgos proporcionan sustento inicial a las Hypothesis Statements relacionadas con la gestión centralizada de materiales y trabajadores, el seguimiento de actividades y avances, la consulta del estado de las obras y la trazabilidad de la información. En particular, las entrevistas muestran que los supervisores experimentan dificultades para mantener actualizado el inventario, consolidar reportes y coordinar información entre campo y administración, mientras que los contratantes necesitan conocer oportunamente el avance, los materiales, el personal y las incidencias del proyecto. Por lo tanto, las funcionalidades propuestas por ArquiTech mantienen relación directa con necesidades identificadas en los usuarios entrevistados.
+
+Sin embargo, durante este avance todavía no es posible considerar validadas definitivamente las Hypothesis Statements ni sus criterios de éxito. Las entrevistas realizadas corresponden principalmente a la etapa de Needfinding y permiten conocer los problemas, comportamientos y expectativas de los usuarios, pero todavía será necesario ejecutar posteriores experimentos y sesiones de validación para comprobar si los usuarios utilizan recurrentemente ArquiTech, si disminuyen realmente su dependencia de herramientas dispersas, si las funcionalidades propuestas reducen el esfuerzo requerido y si la trazabilidad incrementa su confianza en la información disponible. De igual manera, todavía debe comprobarse la disposición de los potenciales clientes a pagar por el servicio y la viabilidad del modelo de suscripción planteado.
+
+La especificación de requisitos permitió transformar los hallazgos de investigación en User Stories, Technical Stories, Spike Stories y un Product Backlog priorizado. De esta manera, necesidades como el control de materiales, trabajadores, tareas, incidencias, proyectos, reportes y acceso diferenciado según el rol fueron representadas mediante funcionalidades verificables. Los artefactos de Needfinding, To-Be Scenario Mapping e Impact Mapping también permitieron mantener una relación entre los problemas identificados, los objetivos de los usuarios y las funcionalidades propuestas para ArquiTech.
+
+En relación con el diseño del producto, se definieron los principales lineamientos visuales, arquitectura de información, wireframes, mock-ups, prototipos y modelos de arquitectura y datos necesarios para representar la solución. Asimismo, se estableció una línea base técnica mediante la Landing Page, la Frontend Web Application, la documentación de la API REST y los componentes asociados con la gestión de proyectos. La aplicación móvil, por su parte, se encuentra actualmente representada mediante diseño y prototipado, por lo que su implementación deberá continuar durante los siguientes incrementos.
+
+Como resultado general del AV1, ArquiTech cuenta con una base de investigación, requisitos, diseño y desarrollo que mantiene trazabilidad con las principales necesidades identificadas en supervisores de obra y contratantes de empresas privadas. No obstante, el valor real de la propuesta dependerá de comprobar mediante experimentación y validación que las funcionalidades implementadas producen los cambios de comportamiento planteados en el Lean UX Process y que los beneficios esperados pueden medirse mediante criterios objetivos.
+
+### Recomendaciones
+
+* Continuar con la validación de las Hypothesis Statements mediante tareas y escenarios representativos con usuarios de ambos segmentos, utilizando métricas que permitan comparar el proceso actual con el uso de ArquiTech.
+* Priorizar la comprobación de las assumptions consideradas críticas, especialmente la frecuencia con la que los supervisores estarían dispuestos a mantener actualizada la información, la facilidad de adopción de la plataforma y la disposición de los clientes a pagar por el servicio.
+* Continuar la integración entre Landing Page, Frontend Web Application y Backend, verificando los contratos de la API REST, autenticación, autorización y permisos correspondientes a supervisores y contratantes.
+* Implementar progresivamente la aplicación móvil a partir del prototipo definido, considerando especialmente las condiciones de trabajo en campo y las posibles limitaciones de conectividad identificadas durante las entrevistas.
+* Validar con usuarios la facilidad de uso, claridad de la información, accesibilidad y trazabilidad de los registros antes de ampliar el alcance funcional del producto.
+* Mantener actualizado el Product Backlog utilizando los resultados obtenidos en futuras validaciones y experimentos, repriorizando las historias cuando la evidencia obtenida demuestre nuevas necesidades o cambios en las assumptions inicialmente planteadas.
 
 # Bibliografia
 
