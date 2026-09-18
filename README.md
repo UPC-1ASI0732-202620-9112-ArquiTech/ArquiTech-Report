@@ -4999,6 +4999,116 @@ Para el presente hito del proyecto (línea base o <em>As-Is Software Project</em
 
 ### 5.2.5. Implemented RESTful API and/or Serverless Backend Evidence
 
+<div style="text-align: justify;">
+<p align="justify">
+
+En esta sección se evidencia la implementación y el despliegue de la Backend Web Application de ArquiTech, correspondiente al servicio REST que soporta las funcionalidades del producto. El backend está construido con Java 17 y Spring Boot 3.5.0, utiliza Spring Data JPA sobre una base de datos MySQL y Spring Security con autenticación basada en tokens JWT. El servicio se encuentra desplegado en la plataforma Railway, con integración continua desde el repositorio del equipo en GitHub.
+
+</p>
+</div>
+
+<br>
+
+**Configuración del despliegue**
+
+| Elemento                   | Valor                                                  |
+| :------------------------- | :----------------------------------------------------- |
+| Repositorio                | `UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-Backend` |
+| Rama desplegada            | `main`                                                 |
+| Directorio raíz del módulo | `arquitech-back-end`                                   |
+| Plataforma                 | Railway                                                |
+| Base de datos              | MySQL (servicio administrado en el mismo proyecto)     |
+| URL del servicio           | `https://arquitech-backend-production.up.railway.app`  |
+
+<br>
+
+<div style="text-align: justify;">
+<p align="justify">
+
+La configuración sensible del servicio no se encuentra versionada en el repositorio. Los parámetros de conexión a la base de datos y la clave de firma de los tokens JWT se administran exclusivamente mediante variables de entorno definidas en la plataforma de despliegue (`DATABASE_URL`, `PROD_DB_USERNAME`, `PROD_DB_PASSWORD` y `JWT_SECRET`), de acuerdo con lo establecido en la sección 5.1.4.
+
+</p>
+</div>
+
+<br>
+
+_Servicios desplegados, conexión con la base de datos y variables de entorno configuradas_
+
+<p align="center">
+  <img src="assets/chapter-5/backend/railway-servicios-variables.png" width="900" alt="Servicios desplegados y variables de entorno">
+</p>
+<p align="center"><em>*Nota.* Elaboración propia (Panel de despliegue del proyecto).</em></p>
+
+<br>
+
+<div style="text-align: justify;">
+<p align="justify">
+
+En la figura anterior se observan los dos servicios que componen el despliegue —la Backend Web Application y la instancia de MySQL— ambos en estado operativo, junto con la relación de dependencia entre ellos y las cuatro variables de entorno definidas para el servicio.
+
+</p>
+</div>
+
+<br>
+
+_Configuración de origen del servicio y despliegue automático desde GitHub_
+
+<p align="center">
+  <img src="assets/chapter-5/backend/railway-source.png" width="900" alt="Configuración de origen del servicio">
+</p>
+<p align="center"><em>*Nota.* Elaboración propia (Panel de despliegue del proyecto).</em></p>
+
+<br>
+
+**Validación funcional del servicio desplegado**
+
+<div style="text-align: justify;">
+<p align="justify">
+
+Con el propósito de verificar que el servicio desplegado se encuentra operativo y que los mecanismos de autenticación y autorización funcionan según lo esperado, se ejecutaron solicitudes HTTP contra la URL de producción. Las pruebas se realizaron sobre la API en ejecución y sus resultados son reproducibles contra el mismo endpoint. La siguiente tabla resume las operaciones verificadas:
+
+</p>
+</div>
+
+| Endpoint                               | Método | Autenticación    | Código de respuesta | Resultado observado                                            |
+| :------------------------------------- | :----: | :--------------- | :-----------------: | :------------------------------------------------------------- |
+| `/api/v1/authentication/sign-up`       |  POST  | No requerida     |       **201**       | Usuario creado; devuelve id, nombre, correo y rol asignado     |
+| `/api/v1/authentication/sign-in`       |  POST  | No requerida     |       **200**       | Autenticación correcta; devuelve token JWT y datos del usuario |
+| `/api/v1/workers`                      |  GET   | Sin token        |       **401**       | Acceso denegado al recurso protegido                           |
+| `/api/v1/workers`                      |  GET   | Con token válido |       **200**       | Acceso permitido; devuelve la colección de trabajadores        |
+| `/api/v1/users`                        |  GET   | Con token válido |       **200**       | Devuelve la información de los usuarios registrados            |
+| `/api/v1/projects/supervisor/{userId}` |  GET   | Con token válido |       **200**       | Devuelve la respuesta correspondiente al supervisor consultado |
+
+<br>
+
+<div style="text-align: justify;">
+<p align="justify">
+
+El contraste entre las dos solicitudes realizadas sobre `/api/v1/workers` constituye la evidencia principal del mecanismo de seguridad implementado: ante el mismo endpoint y el mismo servicio, la solicitud sin token es rechazada con código 401, mientras que la solicitud que incluye un token JWT válido obtenido previamente mediante `sign-in` es procesada correctamente con código 200. Esto verifica el comportamiento descrito en las Technical Stories **TS14 – Implementar autenticación mediante JWT** y **TS20 – Validar JWT en solicitudes protegidas**.
+
+</p>
+</div>
+
+<br>
+
+<div style="text-align: justify;">
+<p align="justify">
+
+Asimismo, la consulta `GET /api/v1/projects/supervisor/{userId}` devuelve una respuesta informativa cuando el supervisor consultado no posee proyectos asociados, comportamiento que corresponde al segundo criterio de aceptación de la User Story **HU22 – Consultar proyectos bajo supervisión**.
+
+</p>
+</div>
+
+<br>
+
+<div style="text-align: justify;">
+<p align="justify">
+
+La documentación completa de los recursos expuestos por el servicio, así como la interfaz interactiva utilizada para ejecutar las solicitudes de verificación, se presenta en la sección 5.2.6. Los hallazgos técnicos identificados durante la validación del comportamiento de autorización sobre los distintos métodos HTTP se documentan como resultado de la Spike Story **SP-02 – Validar estrategia de autorización por roles**.
+
+</p>
+</div>
+
 ### 5.2.6. RESTful API documentation
 
 <div style="text-align: justify;"> <p align="justify">
