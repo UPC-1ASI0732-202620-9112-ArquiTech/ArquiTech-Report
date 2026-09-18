@@ -2864,7 +2864,7 @@ El Product Backlog se mantiene registrado en una herramienta de gestión de proy
 </p>
 
 **Enlace al Product Backlog:**  
-[Product Backlog de ArquiTech](PEGAR_AQUI_URL_PUBLICA_DEL_PRODUCT_BACKLOG)
+[Product Backlog de ArquiTech](https://trello.com/invite/b/6aacb78e51a68075302ced48/ATTIfad677b0a497f17bfc7aac0e8c6a297cB0B7787A/arquitech-product-backlog)
 
 ## 3.4. Impact Mapping
 
