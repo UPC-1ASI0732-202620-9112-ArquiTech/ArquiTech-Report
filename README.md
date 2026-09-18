@@ -96,7 +96,7 @@ _Commits realizados durante la entrega AV1_
 
 ## Tabla de contenido
 
-### [Capítulo I: Introducción](#capítulo-i-introducción)
+### [Capítulo I: Introducción](#capítulo-i-introducción-1)
 
 - [1.1. Startup Profile](#11-startup-profile)
   - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
@@ -117,7 +117,7 @@ _Commits realizados durante la entrega AV1_
 
 - [1.3. Segmentos objetivo](#13-segmentos-objetivo)
 
-### [Capítulo II: Requirements Elicitation & Analysis](#capítulo-ii-requirements-elicitation--analysis)
+### [Capítulo II: Requirements Elicitation & Analysis](#capítulo-ii-requirements-elicitation--analysis-1)
 
 - [2.1. Competidores](#21-competidores)
   - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
@@ -144,7 +144,7 @@ _Commits realizados durante la entrega AV1_
 
 - [2.4. Ubiquitous Language](#24-ubiquitous-language)
 
-### [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
+### [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification-1)
 
 - [3.1. To-Be Scenario Mapping](#31-to-be-scenario-mapping)
 
@@ -154,7 +154,7 @@ _Commits realizados durante la entrega AV1_
 
 - [3.4. Impact Mapping](#34-impact-mapping)
 
-### [Capítulo IV: Product Design](#capítulo-iv-product-design)
+### [Capítulo IV: Product Design](#capítulo-iv-product-design-1)
 
 - [4.1. Style Guidelines](#41-style-guidelines)
   - [4.1.1. General Style Guidelines](#411-general-style-guidelines)
@@ -222,7 +222,7 @@ _Commits realizados durante la entrega AV1_
 - [4.10. Database Design](#410-database-design)
   - [4.10.1. Relational/Non-Relational Database Diagram](#4101-relationalnon-relational-database-diagram)
 
-### [Capítulo V: Product Implementation](#capítulo-v-product-implementation)
+### [Capítulo V: Product Implementation](#capítulo-v-product-implementation-1)
 
 - [5.1. Software Configuration Management](#51-software-configuration-management)
   - [5.1.1. Software Development Environment Configuration](#511-software-development-environment-configuration)
@@ -254,7 +254,7 @@ _Commits realizados durante la entrega AV1_
 
 ### [Bibliografía](#bibliografia)
 
-### [Anexos](#anexo)
+### [Anexos](#anexos-1)
 
 <div style="page-break-before: always;"></div>
 
@@ -945,7 +945,7 @@ Finalmente, en **What's the least amount of work we need to do to learn the next
 
 </p>
 
-**Figura 1**  
+**Figura 3**  
 _Lean UX Canvas de ArquiTech._
 
 <p align="center">
@@ -1420,7 +1420,7 @@ Esta información servirá posteriormente como fuente para el análisis estadís
 - **Duración:** 07:24
 - **Video consolidado:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202320442_upc_edu_pe/IQDWnJj67oWOTaeKQVq4DaOPAXX9DFuqJ-kxtlCUQ-2Lsos?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=8BvJOp
 
-**Figura 2**  
+**Figura 4**  
 _Cuadro de video del entrevistado #1 del segmento Supervisores de obra._
 
 <p align="center">
@@ -1514,7 +1514,7 @@ Finalmente, considera que una solución digital también debería permitir compa
 - **Duración:** 05:42
 - **Video consolidado:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202320442_upc_edu_pe/IQDWnJj67oWOTaeKQVq4DaOPAXX9DFuqJ-kxtlCUQ-2Lsos?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=8BvJOp
 
-**Figura 3**  
+**Figura 5**  
 _Cuadro de video del entrevistado #2 del segmento Supervisores de obra._
 
 <p align="center">
@@ -1608,7 +1608,7 @@ Finalmente, considera importante que una plataforma permita realizar seguimiento
 - **Duración:** 06:30
 - **Video consolidado:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202320442_upc_edu_pe/IQDWnJj67oWOTaeKQVq4DaOPAXX9DFuqJ-kxtlCUQ-2Lsos?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=8BvJOp
 
-**Figura 4**  
+**Figura 6**  
 _Cuadro de video del entrevistado #3 del segmento Supervisores de obra._
 
 <p align="center">
@@ -1710,7 +1710,7 @@ Finalmente, considera que sería útil recibir alertas automáticas ante eventos
 - **Duración:** 06:22
 - **Video consolidado:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202320442_upc_edu_pe/IQDWnJj67oWOTaeKQVq4DaOPAXX9DFuqJ-kxtlCUQ-2Lsos?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=8BvJOp
 
-**Figura 5**  
+**Figura 7**  
 _Cuadro de video del entrevistado #1 del segmento Contratantes de empresas privadas._
 
 <p align="center">
@@ -1810,7 +1810,7 @@ Finalmente, considera que una empresa constructora que utilice herramientas digi
 - **Duración:** 06:24
 - **Video consolidado:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202320442_upc_edu_pe/IQDWnJj67oWOTaeKQVq4DaOPAXX9DFuqJ-kxtlCUQ-2Lsos?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=8BvJOp
 
-**Figura 6**  
+**Figura 8**  
 _Cuadro de video del entrevistado #2 del segmento Contratantes de empresas privadas._
 
 <p align="center">
@@ -1916,7 +1916,7 @@ Finalmente, considera que una plataforma de seguimiento podría influir positiva
 - **Duración:** 06:12
 - **Video consolidado:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202320442_upc_edu_pe/IQDWnJj67oWOTaeKQVq4DaOPAXX9DFuqJ-kxtlCUQ-2Lsos?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=8BvJOp
 
-**Figura 7**  
+**Figura 9**  
 _Cuadro de video del entrevistado #3 del segmento Contratantes de empresas privadas._
 
 <p align="center">
@@ -2089,7 +2089,7 @@ Los distritos de residencia serán incorporados al análisis estadístico una ve
 
 </p>
 
-Figura 8  
+Figura 10  
 _Características objetivas predominantes en supervisores de obra_
 
 <!-- DATOS PARA LA GRÁFICA:
@@ -2187,7 +2187,7 @@ Finalmente, el 100 % presenta frustraciones relacionadas con información que no
 
 </p>
 
-Figura 9  
+Figura 11  
 _Características subjetivas predominantes en supervisores de obra_
 
 <!-- DATOS PARA LA GRÁFICA:
@@ -2282,7 +2282,7 @@ El 100 % utiliza WhatsApp y correo electrónico como canales de comunicación re
 
 </p>
 
-Figura 10  
+Figura 12  
 _Características objetivas predominantes en contratantes de empresas privadas_
 
 <!-- DATOS PARA LA GRÁFICA:
@@ -2386,7 +2386,7 @@ Como principal frustración, el 100 % menciona situaciones relacionadas con info
 
 </p>
 
-Figura 11  
+Figura 13  
 _Características subjetivas predominantes en contratantes de empresas privadas_
 
 <!-- DATOS PARA LA GRÁFICA:
@@ -2472,7 +2472,7 @@ La información obtenida en este análisis mantiene relación directa con los re
 
 ### 2.3.1. User Personas
 
-**Figura 12**  
+**Figura 14**  
 _User persona del segmento #1: Supervisor de Obra_
 
 <p align="center">
@@ -2481,7 +2481,7 @@ _User persona del segmento #1: Supervisor de Obra_
 
 _Nota._ Elaboración propia.
 
-**Figura 13**  
+**Figura 15**  
 _User persona del segmento #2: Contratista de Empresas privadas_
 
 <p align="center">
@@ -2508,19 +2508,23 @@ _Nota._ Elaboración propia.
 
 _User Journey Mapping del segmento #1: Supervisor de Obra_
 
+<p align="center">
 <img src="assets/chapter-2/journey-mapping/user-journey-mapping-segmento1.png" width="800">
+</p>
 
 _Nota._ Elaboración propia.
 
 _User Journey Mapping del segmento #2: Contratista de Empresas privadas_
 
+<p align="center">
 <img src="assets/chapter-2/journey-mapping/user-journey-mapping-segmento2.png" width="800">
+</p>
 
 _Nota._ Elaboración propia.
 
 ### 2.3.4. Empathy Mapping
 
-**Figura 14**
+**Figura 16**
 _Empathy Mapping del segmento #1: Supervisor de Obra_
 
 <p align="center">
@@ -2529,7 +2533,7 @@ _Empathy Mapping del segmento #1: Supervisor de Obra_
 
 _Nota._ Elaboración propia.
 
-**Figura 15**
+**Figura 17**
 _Empathy Mapping del segmento #2: Contratista de Empresas privadas_
 
 <p align="center">
@@ -2542,28 +2546,28 @@ _Nota._ Elaboración propia.
 
 <ins>**As-Is Scenario Mapping del segmento #1: Supervisores de Obra**</ins>
 
-**Figura 16**  
+**Figura 18**  
 _As-Is Scenario Mapping para segmento #1_
 
 <p align="center">
   <img src="assets/chapter-2/As-is/OS_As-is_S1.jpg" alt="PB" width="1000">
 </p>
 
-**Figura 17**  
+**Figura 19**  
 _Áreas positivas del As-Is Scenario Mapping para segmento #1_
 
 <p align="center">
   <img src="assets/chapter-2/As-is/OS_As-is_S1_AP.jpg" alt="PB" width="1000">
 </p>
 
-**Figura 18**  
+**Figura 20**  
 _Áreas negativas del As-Is Scenario Mapping para segmento #1_
 
 <p align="center">
   <img src="assets/chapter-2/As-is/OS_As-is_S1_AN.jpg" alt="PB" width="1000">
 </p>
 
-**Figura 19**  
+**Figura 21**  
 _Blank areas del As-Is Scenario Mapping para segmento \#1_
 
 <p align="center">
@@ -2572,28 +2576,28 @@ _Blank areas del As-Is Scenario Mapping para segmento \#1_
 
 <ins>**As-Is Scenario Mapping para Segmento \# 2: Contratantes de Empresas Privadas**</ins>
 
-**Figura 20**  
+**Figura 22**  
 _As-Is Scenario Mapping para segmento #2_
 
 <p align="center">
   <img src="assets/chapter-2/As-is/OS_As-is_S2.jpg" alt="PB" width="1000">
 </p>
 
-**Figura 21**  
+**Figura 23**  
 _Áreas positivas del As-Is Scenario Mapping para segmento #2_
 
 <p align="center">
   <img src="assets/chapter-2/As-is/OS_As-is_S2_AP.jpg" alt="PB" width="1000">
 </p>
 
-**Figura 22**  
+**Figura 24**  
 _Áreas negativas del As-Is Scenario Mapping para segmento #2_
 
 <p align="center">
   <img src="assets/chapter-2/As-is/OS_As-is_S2_AN.jpg" alt="PB" width="1000">
 </p>
 
-**Figura 23**  
+**Figura 25**  
 _Blank areas del As-Is Scenario Mapping para segmento #2_
 
 <p align="center">
@@ -2625,28 +2629,28 @@ _Blank areas del As-Is Scenario Mapping para segmento #2_
 
 <ins>_To-Be Scenario Mapping del segmento #1: Supervisores de obra_</ins>
 
-_Figura 36_  
+_Figura 26_  
 To-Be Scenario Mapping del segmento #1
 
 <p align="center">
   <img src="assets/chapter-3/To-be/OS_To-be_S1.jpg" alt="PB" width="1000">
 </p>
 
-_Figura 37_  
+_Figura 27_  
 Áreas positivas del To-Be Scenario Mapping para segmento #1
 
 <p align="center">
   <img src="assets/chapter-3/To-be/OS_To-be_S1_AP.jpg" alt="PB" width="1000">
 </p>
 
-_Figura 38_  
+_Figura 28_  
 Áreas negativas del To-Be Scenario Mapping para segmento #1
 
 <p align="center">
   <img src="assets/chapter-3/To-be/OS_To-be_S1_AN.jpg" alt="PB" width="1000">
 </p>
 
-_Figura 39_  
+_Figura 29_  
 Blank areas del To-Be Scenario Mapping para segmento #1
 
 <p align="center">
@@ -2655,28 +2659,28 @@ Blank areas del To-Be Scenario Mapping para segmento #1
 
 <ins>_To-Be Scenario Mapping para Segmento #2: Contratantes de Empresas Privadas_</ins>
 
-_Figura 40_  
+_Figura 30_  
 To-Be Scenario Mapping para segmento #2
 
 <p align="center">
   <img src="assets/chapter-3/To-be/OS_To-be_S2.jpg" alt="PB" width="1000">
 </p>
 
-_Figura 41_  
+_Figura 31_  
 Áreas positivas del To-Be Scenario Mapping para segmento #2
 
 <p align="center">
   <img src="assets/chapter-3/To-be/OS_To-be_S2_AP.jpg" alt="PB" width="1000">
 </p>
 
-_Figura 42_  
+_Figura 32_  
 Áreas negativas del To-Be Scenario Mapping para segmento #2
 
 <p align="center">
   <img src="assets/chapter-3/To-be/OS_To-be_S2_AN.jpg" alt="PB" width="1000">
 </p>
 
-_Figura 43_  
+_Figura 33_  
 Blank areas del To-Be Scenario Mapping para segmento #2
 
 <p align="center">
@@ -2853,7 +2857,7 @@ El Product Backlog se mantiene registrado en una herramienta de gestión de proy
 
 </p>
 
-**Figura XX**  
+**Figura 34**  
 _Product Backlog de ArquiTech_
 
 <p align="center">
@@ -2871,7 +2875,11 @@ _Product Backlog de ArquiTech_
 
 _Impact Mapping de ArquiTech_
 
+<div align="center">
+
 ![Impact Mapping de ArquiTech](assets/chapter-3/impact-mapping/impact-map-final.png)
+
+</div>
 
 # Capítulo IV: Product Design
 
@@ -2893,7 +2901,7 @@ Se presentará el diseño conceptual para la landing page como para la aplicaci�
 
 <ins> **Branding e ícono:** </ins>
 
-**Figura 55**  
+**Figura 35**  
 _Logo_
 
 <p align="center">
@@ -2937,7 +2945,7 @@ La tipografía de Arquitech cumple un importante rol en la expresión de la iden
 - Tipografía del Logo y Títulos:  
   El logo de Arquitech que se eligió comunica claridad con varios valores clave como el profesionalismo y técnica, por lo que se ha utilizado la tipografía Anton Regular que pertenece a la Anton Font Family. Esta tipografía transmite un aspecto fuerte y serio, lo cual es ideal para una empresa de construcción que busca mejorar los procesos de las obras. Además, las letras son altas y gruesas, lo que da buena visibilidad al nombre de la empresa en el logo y en los títulos. Cabe agregar, que tiene un aire moderno, pero sin dejar de ser profesional.
 
-**Figura 56**  
+**Figura 36**  
 _Tipografía de logo y títulos_
 
 <p align="center">
@@ -2947,7 +2955,7 @@ _Tipografía de logo y títulos_
 - Tipografía de Texto Regular:  
   Para el texto de la landing page y la aplicación se ha elegido la tipografía Futura que pertenece a Futura Font Family con el objetivo de que el usuario pueda obtener una cómoda y agradable lectura al visitar nuestras plataformas digitales. Además, esta tipografía representa modernidad, minimalismo, profesionalismo y seriedad. Aquello ayuda a la marca a representar tecnicismo, precisión y avances.
 
-**Figura 57**  
+**Figura 37**  
 _Tipografía de texto regular_
 
 <p align="center">
@@ -2959,7 +2967,7 @@ _Tipografía de texto regular_
 
 _Nota_. Elaboración propia.
 
-**Figura 58**  
+**Figura 38**  
 _Paleta de colores de ArquiTech_
 
 <p align="center">
@@ -3003,19 +3011,19 @@ La interfaz de Arquitech debe ser responsiva y se debe adaptar a diversos tamañ
 Medidas para Web Responsive:  
 Monitor pequeño: 1296x1781px
 
-**Figura 59**
+**Figura 39**
 
 <p align="center">
   <img src="assets/chapter-4/Style-Guidelines/web-responsive.png" alt="PB" width="1000">
 </p>
 
-**Figura 60**
+**Figura 40**
 
 <p align="center">
   <img src="assets/chapter-4/Style-Guidelines/web-responsive2.png" alt="PB" width="1000">
 </p>
 
-**Figura 61**
+**Figura 41**
 
 <p align="center">
   <img src="assets/chapter-4/Style-Guidelines/web-responsive3.png" alt="PB" width="1000">
@@ -3398,7 +3406,7 @@ Asimismo, se mantiene coherencia con la identidad visual definida para el produc
 
 ### 4.4.1. Mobile Applications Wireframes
 
-**Figura 62**  
+**Figura 42**  
 _Mobile Wireframe Login_
 
 <p align="center">
@@ -3409,7 +3417,7 @@ _Mobile Wireframe Login_
 
 </p>
 
-**Figura 63**  
+**Figura 43**  
 _Mobile Wireframe Projects_
 
 <p align="center">
@@ -3420,7 +3428,7 @@ _Mobile Wireframe Projects_
 
 </p>
 
-**Figura 64**  
+**Figura 44**  
 _Mobile Wireframe Workers_
 
 <p align="center">
@@ -3431,7 +3439,7 @@ _Mobile Wireframe Workers_
 
 </p>
 
-**Figura 65**  
+**Figura 45**  
 _Mobile Wireframe Materials_
 
 <p align="center">
@@ -3442,7 +3450,7 @@ _Mobile Wireframe Materials_
 
 </p>
 
-**Figura 66**  
+**Figura 46**  
 _Mobile Wireframe Incidents_
 
 <p align="center">
@@ -3453,7 +3461,7 @@ _Mobile Wireframe Incidents_
 
 </p>
 
-**Figura 67**  
+**Figura 47**  
 _Mobile Wireframe Machinery_
 
 <p align="center">
@@ -3478,7 +3486,7 @@ Como usuario, quiero poder visualizar desde la aplicación móvil la lista de pr
 
 **Wireflow:**
 
-**Figura 68**
+**Figura 48**
 
 <p align="center">
 
@@ -3506,7 +3514,7 @@ Como usuario, quiero consultar desde la aplicación móvil las maquinarias utili
 
 **Wireflow:**
 
-**Figura 69**
+**Figura 49**
 
 <p align="center">
 
@@ -3524,7 +3532,7 @@ Para acceder a las secciones de maquinarias e incidentes desde la aplicación m�
 
 ### 4.4.3. Mobile Applications Mock-ups
 
-**Figura 70**  
+**Figura 50**  
 _Mobile Mock-up Login_
 
 <p align="center">
@@ -3535,7 +3543,7 @@ _Mobile Mock-up Login_
 
 </p>
 
-**Figura 71**  
+**Figura 51**  
 _Mobile Mock-up Projects_
 
 <p align="center">
@@ -3546,7 +3554,7 @@ _Mobile Mock-up Projects_
 
 </p>
 
-**Figura 72**  
+**Figura 52**  
 _Mobile Mock-up Workers_
 
 <p align="center">
@@ -3557,7 +3565,7 @@ _Mobile Mock-up Workers_
 
 </p>
 
-**Figura 73**  
+**Figura 53**  
 _Mobile Mock-up Materials_
 
 <p align="center">
@@ -3568,7 +3576,7 @@ _Mobile Mock-up Materials_
 
 </p>
 
-**Figura 74**  
+**Figura 54**  
 _Mobile Mock-up Incidents_
 
 <p align="center">
@@ -3579,7 +3587,7 @@ _Mobile Mock-up Incidents_
 
 </p>
 
-**Figura 75**  
+**Figura 55**  
 _Mobile Mock-up Machinery_
 
 <p align="center">
@@ -3597,7 +3605,7 @@ _Mobile Mock-up Machinery_
 **User Goal 1:** Gestionar y controlar materiales de construcción  
 **Descripción:** El supervisor desea consultar y controlar desde la aplicación móvil la disponibilidad, stock y demás información de los materiales asociados a una obra para mantener un mejor control de los recursos utilizados durante el desarrollo del proyecto.
 
-**Figura 76**  
+**Figura 56**  
 _Mobile User Flow 1_
 
 <p align="center">
@@ -3611,7 +3619,7 @@ _Mobile User Flow 1_
 **User Goal 2:** Controlar la asistencia y roles de los trabajadores  
 **Descripción:** El supervisor necesita consultar y gestionar desde la aplicación móvil la información de los trabajadores asignados a la obra, incluyendo sus roles, asistencia, tareas y responsabilidades dentro del proyecto.
 
-**Figura 77**  
+**Figura 57**  
 _Mobile User Flow 2_
 
 <p align="center">
@@ -3625,7 +3633,7 @@ _Mobile User Flow 2_
 **User Goal 3:** Consultar incidencias en obra  
 **Descripción:** El supervisor desea consultar desde la aplicación móvil los incidentes registrados durante la ejecución de la obra para conocer su tipo, fecha, nivel de severidad y estado de resolución.
 
-**Figura 78**  
+**Figura 58**  
 _Mobile User Flow 3_
 
 <p align="center">
@@ -3641,7 +3649,7 @@ _Mobile User Flow 3_
 **User Goal 1:** Visualizar el estado y progreso de mis obras contratadas (solo lectura)  
 **Descripción:** El contratante necesita consultar desde la aplicación móvil las obras asociadas a su empresa, con acceso a información clara y actualizada sobre el estado general de cada proyecto.
 
-**Figura 79**  
+**Figura 59**  
 _Mobile User Flow 4_
 
 <p align="center">
@@ -3655,7 +3663,7 @@ _Mobile User Flow 4_
 **User Goal 2:** Visualizar el uso y estado de la maquinaria asignada a la obra  
 **Descripción:** El contratante desea consultar desde la aplicación móvil las maquinarias asociadas a sus obras para conocer los equipos disponibles, su identificación, fecha de registro y estado operativo.
 
-**Figura 80**  
+**Figura 60**  
 _Mobile User Flow 5_
 
 <p align="center">
@@ -3669,7 +3677,7 @@ _Mobile User Flow 5_
 **User Goal 3:** Ver detalles del consumo y disponibilidad de materiales (solo lectura)  
 **Descripción:** El contratante desea consultar desde la aplicación móvil la información de los materiales asociados a las obras para evaluar la cantidad registrada, el stock disponible, los proveedores y el uso de los recursos del proyecto.
 
-**Figura 81**  
+**Figura 61**  
 _Mobile User Flow 6_
 
 <p align="center">
@@ -3742,7 +3750,7 @@ _Prototipo de Alta Fidelidad - Vistas Principales iOS_
 
 ### 4.6.1. Web Applications Wireframes
 
-**Figura 82**
+**Figura 62**
 
 <p align="center">
   <img src="assets/chapter-4/Web Applications/Wireframe - Login.png" alt="PB" width="500">
@@ -3750,7 +3758,7 @@ _Prototipo de Alta Fidelidad - Vistas Principales iOS_
 </p>
 <br>
 
-**Figura 83**
+**Figura 63**
 
 <p align="center">
   <img src="assets/chapter-4/Web Applications/Wireframe - Projects.png" alt="PB" width="500">
@@ -3758,7 +3766,7 @@ _Prototipo de Alta Fidelidad - Vistas Principales iOS_
 </p>
 <br>
 
-**Figura 84**
+**Figura 64**
 
 <p align="center">
   <img src="assets/chapter-4/Web Applications/Wireframe - Materials.png" alt="PB" width="500">
@@ -3766,7 +3774,7 @@ _Prototipo de Alta Fidelidad - Vistas Principales iOS_
 </p>
 <br>
 
-**Figura 85**
+**Figura 65**
 
 <p align="center">
   <img src="assets/chapter-4/Web Applications/Wireframe - Workers.png" alt="PB" width="500">
@@ -3774,7 +3782,7 @@ _Prototipo de Alta Fidelidad - Vistas Principales iOS_
 </p>
 <br>
 
-**Figura 86**
+**Figura 66**
 
 <p align="center">
   <img src="assets/chapter-4/Web Applications/Wireframe - Incidents.png" alt="PB" width="500">
@@ -3782,7 +3790,7 @@ _Prototipo de Alta Fidelidad - Vistas Principales iOS_
 </p>
 <br>
 
-**Figura 87**
+**Figura 67**
 
 <p align="center">
   <img src="assets/chapter-4/Web Applications/Wireframe - Machinery.png" alt="PB" width="500">
@@ -3805,7 +3813,7 @@ Como usuario, quiero poder ver la lista de proyectos que posee mi empresa con su
 
 **Wire:**
 <br>
-**Figura 88**
+**Figura 68**
 
 <p align="center">
   <img src="assets/chapter-4/Web Applications/wire1.png" alt="PB" width="500">
@@ -3831,7 +3839,7 @@ Como usuario quiero tener detallado las maquinarias que se usan por cada proyect
 </p>
 
 **Wireflow:** <br>
-**Figura 89**
+**Figura 69**
 
 <p align="center">
   <img src="assets/chapter-4/Web Applications/wireflow2.png" alt="PB" width="500">
@@ -3846,7 +3854,7 @@ Para acceder a las secciones de maquinarias e incidentes debes presionar aquello
 
 ### 4.6.3. Web Applications Mock-ups
 
-**Figura 90**
+**Figura 70**
 
 <p align="center">
   <img src="assets/chapter-4/Web Applications/Mockup - Login.png" alt="PB" width="500">
@@ -3855,7 +3863,7 @@ Para acceder a las secciones de maquinarias e incidentes debes presionar aquello
 </p>
 <br>
 
-**Figura 91**
+**Figura 71**
 
 <p align="center">
   <img src="assets/chapter-4/Web Applications/Mockup - Projects.png" alt="PB" width="500">
@@ -3864,7 +3872,7 @@ Para acceder a las secciones de maquinarias e incidentes debes presionar aquello
 </p>
 <br>
 
-**Figura 92**
+**Figura 72**
 
 <p align="center">
   <img src="assets/chapter-4/Web Applications/Mockup - Materials.png" alt="PB" width="500">
@@ -3873,7 +3881,7 @@ Para acceder a las secciones de maquinarias e incidentes debes presionar aquello
 </p>
 <br>
 
-**Figura 93**
+**Figura 73**
 
 <p align="center">
   <img src="assets/chapter-4/Web Applications/Mockup - Workers.png" alt="PB" width="500">
@@ -3882,7 +3890,7 @@ Para acceder a las secciones de maquinarias e incidentes debes presionar aquello
 </p>
 <br>
 
-**Figura 94**
+**Figura 74**
 
 <p align="center">
   <img src="assets/chapter-4/Web Applications/Mockup - Incidents.png" alt="PB" width="500">
@@ -3890,7 +3898,7 @@ Para acceder a las secciones de maquinarias e incidentes debes presionar aquello
 <br>*Nota.* Elaboración propia. 
 </p>
 
-**Figura 95**
+**Figura 75**
 
 <p align="center">
   <img src="assets/chapter-4/Web Applications/Mockup - Machinery.png" alt="PB" width="500">
@@ -3905,7 +3913,7 @@ Para acceder a las secciones de maquinarias e incidentes debes presionar aquello
 **User Goal 1:** Gestionar y controlar materiales de construcción  
 **Descripción:** El supervisor desea registrar el ingreso, uso y nivel de materiales en obra para evitar desperdicios y garantizar continuidad en las actividades.
 
-**Figura 96**  
+**Figura 76**  
 _User flow 1_
 
 <p align="center">
@@ -3917,7 +3925,7 @@ _User flow 1_
 **User Goal 2:** Controlar la asistencia y roles de los trabajadores  
 **Descripción:** El supervisor debe tener control total sobre el personal: quién está presente, qué tarea cumple y qué rol desempeña.
 
-**Figura 97**  
+**Figura 77**  
 _User flow 2_
 
 <p align="center">
@@ -3928,7 +3936,7 @@ _User flow 2_
 **User Goal 3:** Reportar incidencias en obra  
 **Descripción:** El supervisor reporta eventos importantes en campo (fallas de maquinaria, ausencias masivas, problemas logísticos).
 
-**Figura 98**  
+**Figura 78**  
 _User flow 3_
 
 <p align="center">
@@ -3941,7 +3949,7 @@ _User flow 3_
 **User Goal 1:** Visualizar el estado y progreso de mis obras contratadas (solo lectura)  
 **Descripción:** El contratante necesita consultar las obras activas donde ha contratado los servicios, con acceso a información clara y actualizada.
 
-**Figura 99**  
+**Figura 79**  
 _User flow 4_
 
 <p align="center">
@@ -3952,7 +3960,7 @@ _User flow 4_
 **User Goal 2:** Visualizar el uso y estado de la maquinaria asignada a la obra  
 **Descripción:** Permitir que el contratante consulte, en tiempo real y de forma clara, qué maquinarias están siendo utilizadas en sus obras, cuál es su estado operativo y cómo impactan en el avance del proyecto.
 
-**Figura 100**  
+**Figura 80**  
 _User flow 5_
 
 <p align="center">
@@ -3964,7 +3972,7 @@ _Nota._ Elaboración propia.
 **User Goal 3:** Ver detalles del consumo de materiales y reportes de avance (en modo solo lectura)  
 **Descripción:** El contratante desea evaluar cómo se están utilizando los recursos materiales y verificar si el avance reportado está alineado con lo esperado.
 
-**Figura 101**  
+**Figura 81**  
 _User flow 6_
 
 <p align="center">
@@ -3975,7 +3983,7 @@ _Nota._ Elaboración propia.
 
 ## 4.7. Web Applications Prototyping
 
-**Figura 102**  
+**Figura 82**  
 _Video of Web Applications Prototype of ArquiTech_
 
 <p align="center">
@@ -3988,7 +3996,7 @@ _Nota._ Elaboración propia. Link del video: [https://upcedupe-my.sharepoint.com
 
 ### 4.8.1. Software Architecture Context Diagram
 
-**Figura 103**  
+**Figura 83**  
 _Software Architecture Context Diagram of ArquiTech_
 
 <p align="center">
@@ -3999,7 +4007,7 @@ _Nota._ Elaboración propia.
 
 ### 4.8.2. Software Architecture Container Diagrams
 
-**Figura 104**  
+**Figura 84**  
 _Software Architecture Container Diagram of ArquiTech_
 
 <p align="center">
@@ -4010,7 +4018,7 @@ _Nota._ Elaboración propia.
 
 ### 4.8.3. Software Architecture Components Diagrams
 
-**Figura 105**  
+**Figura 85**  
 _Software Architecture Components Diagram of ArquiTech_
 
 <p align="center">
@@ -4047,7 +4055,7 @@ El modelo se encuentra compuesto por las clases `User`, `Project`, `ProjectMembe
 
 </p>
 
-**Figura 106**  
+**Figura 86**  
 _Class Diagram de ArquiTech_
 
 <p align="center">
@@ -4416,7 +4424,7 @@ Las principales tablas consideradas son `users`, `projects`, `project_members`, 
 
 </p>
 
-**Figura 107**  
+**Figura 87**  
 _Relational Database Diagram de ArquiTech_
 
 <p align="center">
@@ -5087,7 +5095,7 @@ En esta sección, presentamos el Video About the Product, diseñado para captar 
 
 </p>
 
-**Figura 108**  
+**Figura 88**  
 _Video About-the-product_
 
 <p align="center">
@@ -5100,4 +5108,17 @@ _Video About-the-product_
 
 # Bibliografia
 
-# Anexo
+# Anexos
+
+## Anexo A. Videos de Exposiciones
+
+### AV1 - Avance 1
+
+<p align="justify">
+
+Como parte de la evidencia correspondiente a la entrega AV1, se adjunta el video de exposición del proyecto ArquiTech, en el cual se presentan los principales avances desarrollados durante esta etapa del proyecto.
+
+</p>
+
+**Video de exposición AV1:**  
+[Exposición AV1 - ArquiTech](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202324129_upc_edu_pe/IQAteMEhdDXvRII5ZZIUJt5HARPw9vKVyiVNZ9BKVGfd1Ow?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=334kqs)
