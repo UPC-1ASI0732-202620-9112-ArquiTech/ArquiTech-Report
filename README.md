@@ -50,11 +50,45 @@ Quispe Barzola, Fabricio Fabian - U202320442
 
 <p align="justify">
 
-A continuación, capturas del procesos, commits y elaboración de nuestro proyecto en cada entrega.
+Para la elaboración del Project Report de ArquiTech se utilizó un repositorio compartido en GitHub, en el cual los integrantes del equipo realizaron sus contribuciones mediante ramas individuales, commits y procesos de integración. Este mecanismo permitió mantener la trazabilidad de los cambios efectuados durante el desarrollo del informe y organizar de manera colaborativa las actividades correspondientes a cada entrega.
 
 </p>
 
-**Entrega Nº1: TB1**
+## Entrega Nº1: AV1
+
+<p align="justify">
+
+Durante el desarrollo de la entrega AV1, los integrantes del equipo trabajaron de manera colaborativa en la elaboración y actualización de las diferentes secciones del Project Report. Las actividades fueron distribuidas entre los miembros del equipo, quienes realizaron sus aportes mediante ramas de trabajo y commits asociados a los capítulos y secciones asignadas.
+
+</p>
+
+<p align="justify">
+
+Asimismo, se realizaron integraciones progresivas de los cambios desarrollados por cada integrante hacia el repositorio principal. Las siguientes evidencias muestran la participación del equipo y el historial de commits realizados durante la preparación de la entrega AV1.
+
+</p>
+
+**Figura 1**  
+*Analíticas de colaboración durante la entrega AV1*
+
+<p align="center">
+
+  <img src="assets/project-report-collaboration-insights/av1-contributors.png" alt="Analíticas de colaboración durante AV1" width="850">
+
+</p>
+
+**Figura 2**  
+*Commits realizados durante la entrega AV1*
+
+<p align="center">
+
+  <img src="assets/project-report-collaboration-insights/av1-commits-1.png" alt="Commits realizados durante AV1 - Parte 1" width="850">
+
+<br><br>
+
+  <img src="assets/project-report-collaboration-insights/av1-commits-2.png" alt="Commits realizados durante AV1 - Parte 2" width="850">
+
+</p>
 
 <div style="page-break-before: always;"></div>
 
