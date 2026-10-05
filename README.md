@@ -5398,6 +5398,105 @@ _Prueba de integración del servicio de reporte semanal_
 <p align="center"><em>*Nota.* Elaboración propia (Código fuente de las pruebas, Frontend Web Application).</em></p>
 <br>
 
+### 6.1.3. Core Behavior-Driven Development
+
+### 6.1.4. Core System Tests
+
+<div style="text-align: justify;">
+<p align="justify">
+Las pruebas de sistema se implementaron con Playwright y recorren la aplicación completa en Chromium, desde el inicio de sesión hasta la verificación del resultado en pantalla. Ambas validan el segundo criterio de aceptación (AC2) de User Stories de registro: que la aplicación bloquee un dato inválido, muestre el mensaje correspondiente y luego acepte el dato corregido. Las pruebas se ejecutaron desde Visual Studio Code con la extensión Playwright Test for VS Code y desde la terminal con `npx playwright test`.
+ 
+</p>
+</div>
+ 
+| ID | Archivo | Escenario | Pasos principales | Resultado esperado | Historia |
+| --- | --- | --- | --- | --- | --- |
+| E2E-01 | `tests/test-1.spec.ts` | El supervisor no puede registrar una salida de material mayor al stock | Inicia sesión como supervisor, entra a *Torre Residencial Norte*, registra una salida de 50 varillas de *Fierro corrugado 3/8"* (stock 40) y luego corrige a 10 | Se muestra "The quantity exceeds the available stock (40)."; con 10 unidades se registra la salida y el stock baja a 30 | HU02 AC2 · TS03 |
+| E2E-02 | `tests/test-2.spec.ts` | El supervisor no puede registrar maquinaria con una placa repetida en la misma obra | Inicia sesión, entra a *Maquinaria*, intenta registrar "Mezcladora nueva" con la placa `MIX123` (ya existente) y luego corrige a `MIX999` | Se muestra "A machine with that plate already exists on this site."; con `MIX999` la máquina se registra y aparece en la tabla | HU05 AC2 |
+ 
+<br>
+ 
+**Figura 99**  
+_Prueba E2E-01 en Visual Studio Code con la extensión de Playwright_
+ 
+<p align="center">
+  <img src="assets/chapter-6/testing/e2e-vscode-test-1.jpg" width="850" alt="test-1.spec.ts en VS Code">
+</p>
+<p align="center"><em>*Nota.* Elaboración propia (Ejecución en Visual Studio Code).</em></p>
+<br>
+
+**Figura 100**  
+_Prueba E2E-02 en Visual Studio Code con la extensión de Playwright_
+
+<p align="center">
+  <img src="assets/chapter-6/testing/e2e-vscode-test-2.jpg" width="850" alt="test-2.spec.ts en VS Code">
+</p>
+<p align="center"><em>*Nota.* Elaboración propia (Ejecución en Visual Studio Code).</em></p>
+<br>
+
+**Figura 101**  
+_Resultado de la ejecución desde el Test Explorer: 2 pruebas exitosas_
+
+<p align="center">
+  <img src="assets/chapter-6/testing/e2e-vscode-resultados.jpg" width="850" alt="Test Results en VS Code">
+</p>
+<p align="center"><em>*Nota.* Elaboración propia (Ejecución en Visual Studio Code).</em></p>
+<br>
+
+**Figura 102**  
+_Ejecución de las pruebas de sistema por terminal con npx playwright test_
+
+<p align="center">
+  <img src="assets/chapter-6/testing/e2e-terminal.jpg" width="850" alt="npx playwright test">
+</p>
+<p align="center"><em>*Nota.* Elaboración propia (Terminal integrada de Visual Studio Code).</em></p>
+<br>
+
+**Figura 103**  
+_Reporte HTML de Playwright con el resumen de la ejecución_
+
+<p align="center">
+  <img src="assets/chapter-6/testing/e2e-reporte.jpg" width="850" alt="Reporte HTML de Playwright">
+</p>
+<p align="center"><em>*Nota.* Elaboración propia (Reporte generado por Playwright).</em></p>
+<br>
+
+**Figura 104**  
+_Pasos ejecutados en la prueba E2E-01_
+
+<p align="center">
+  <img src="assets/chapter-6/testing/e2e-reporte-test-1.jpg" width="850" alt="Pasos de E2E-01">
+</p>
+<p align="center"><em>*Nota.* Elaboración propia (Reporte generado por Playwright).</em></p>
+<br>
+
+**Figura 105**  
+_Pasos ejecutados en la prueba E2E-02_
+
+<p align="center">
+  <img src="assets/chapter-6/testing/e2e-reporte-test-2.jpg" width="850" alt="Pasos de E2E-02">
+</p>
+<p align="center"><em>*Nota.* Elaboración propia (Reporte generado por Playwright).</em></p>
+<br>
+
+**Figura 106**  
+_Estado final de la prueba E2E-01: salida registrada y stock de Fierro corrugado en 30_
+
+<p align="center">
+  <img src="assets/chapter-6/testing/e2e-test-1-pantalla-final.png" width="850" alt="Pantalla final E2E-01">
+</p>
+<p align="center"><em>*Nota.* Elaboración propia (Captura automática de Playwright).</em></p>
+<br>
+
+**Figura 107**  
+_Estado final de la prueba E2E-02: maquinaria MIX999 registrada_
+
+<p align="center">
+  <img src="assets/chapter-6/testing/e2e-test-2-pantalla-final.png" width="850" alt="Pantalla final E2E-02">
+</p>
+<p align="center"><em>*Nota.* Elaboración propia (Captura automática de Playwright).</em></p>
+<br>
+
 # Conclusiones
 
 ## Conclusiones y recomendaciones
