@@ -5497,6 +5497,26 @@ _Estado final de la prueba E2E-02: maquinaria MIX999 registrada_
 <p align="center"><em>*Nota.* Elaboración propia (Captura automática de Playwright).</em></p>
 <br>
 
+# Capítulo VII: DevOps Practices
+
+## 7.1. Continuous Integration
+
+### 7.1.1. Tools and Practices
+
+### 7.1.2. Build & Test Suite Pipeline Components
+
+## 7.2. Continuous Delivery
+
+### 7.2.1. Tools and Practices
+
+### 7.2.2. Stages Deployment Pipeline Components
+
+## 7.3 Continuous Deployment
+
+### 7.3.1. Tools and Practices
+
+### 7.3.2. Production Deployment Pipeline Components
+
 # Conclusiones
 
 ## Conclusiones y recomendaciones
