@@ -250,6 +250,14 @@ _Commits realizados durante la entrega AV1_
 
 - [5.3. Video About-the-Product](#53-video-about-the-product)
 
+### [Capítulo VI: Product Verification & Validation](#capítulo-vi-product-verification--validation)
+
+- [6.1. Testing Suites & Validation](#61-testing-suites--validation)
+  - [6.1.1. Core Entities Unit Tests](#611-core-entities-unit-tests)
+  - [6.1.2. Core Integration Tests](#612-core-integration-tests)
+  - [6.1.3. Core Behavior-Driven Development](#613-core-behavior-driven-development)
+  - [6.1.4. Core System Tests](#614-core-system-tests)
+
 ### [Conclusion](#conclusiones)
 
 ### [Bibliografía](#bibliografia)
@@ -5214,6 +5222,181 @@ _Video About-the-product_
 </p>
 
 [https://www.youtube.com/watch?v=k3Z0771Au1Y](https://www.youtube.com/watch?v=k3Z0771Au1Y)
+
+# Capítulo VI: Product Verification & Validation
+
+## 6.1. Testing Suites & Validation
+
+<div style="text-align: justify;">
+<p align="justify">
+En esta sección se documentan las pruebas automatizadas de la Frontend Web Application de ArquiTech. Las pruebas se organizan en tres niveles: pruebas unitarias sobre las entidades de dominio y utilidades compartidas, pruebas de integración entre servicios, guards e interceptor HTTP, y pruebas de sistema (end-to-end) que recorren la aplicación en un navegador real como lo haría un supervisor de obra. Cada caso se relaciona con las User Stories (HU) y Technical Stories (TS) del Product Backlog.
+ 
+</p>
+</div>
+ 
+| Nivel | Herramienta | Suites | Casos | Resultado | Duración |
+| --- | --- | --- | --- | --- | --- |
+| Unitarias e integración | Jasmine + Karma (Chrome Headless) | 8 | 26 | 26 / 26 exitosos | ≈ 2.8 s |
+| Sistema (E2E) | Playwright (Chromium) | 2 | 2 | 2 / 2 exitosos | ≈ 4.3 s |
+ 
+<br>
+ 
+<div style="text-align: justify;">
+<p align="justify">
+Las pruebas unitarias y de integración se ejecutan con `npm run test:ci` (o `ng test --watch=false --browsers=ChromeHeadlessCI --code-coverage` para obtener la cobertura). Las pruebas de sistema se ejecutan con `npx playwright test`, que levanta automáticamente la aplicación con `npm start` en `http://localhost:4200`, o desde la extensión Playwright Test for VS Code.
+ 
+</p>
+</div>
+
+**Figura 89**  
+_Reporte de Jasmine con los 26 casos ejecutados_
+
+<p align="center">
+  <img src="assets/chapter-6/testing/unit-jasmine-resumen.png" width="850" alt="Reporte de Jasmine">
+</p>
+<p align="center"><em>*Nota.* Elaboración propia (Reporte de Jasmine en el navegador).</em></p>
+<br>
+
+**Figura 90**  
+_Ejecución de las pruebas unitarias e integración en consola con resumen de cobertura_
+
+<p align="center">
+  <img src="assets/chapter-6/testing/unit-consola-ng-test.png" width="850" alt="Consola ng test">
+</p>
+<p align="center"><em>*Nota.* Elaboración propia (Ejecución de ng test en Chrome Headless).</em></p>
+<br>
+
+### 6.1.1. Core Entities Unit Tests
+
+<div style="text-align: justify;">
+<p align="justify">
+Las pruebas unitarias verifican las reglas de negocio que viven en las entidades del dominio (`User`, `Material`, `Task`) y en las utilidades compartidas que usan los formularios y tablas (`form-validators`, `TableState`). Estas pruebas no dependen del backend ni del navegador más allá del runner de Karma, por lo que se ejecutan en milisegundos.
+ 
+</p>
+</div>
+ 
+| ID | Suite | Caso | Qué verifica | Historia |
+| --- | --- | --- | --- | --- |
+| UT-04 | `User` | Normaliza el rol | `ROLE_SUPERVISOR`, `CONTRACTOR`, `ROLE_CONTRATANTE` y `supervisor` se mapean al enum `UserRole` | HU27 · TS16 |
+| UT-05 | `User` | Iniciales y verificación de rol | Iniciales de nombre y apellido, `hasRole()` e `isSupervisor` | HU16 |
+| UT-06 | `User` | Respaldo sin nombre | Si el API solo envía `username`, se usa como correo y nombre visible | HU23 |
+| UT-07 | `Material` | Salida solo con stock disponible | `hasAvailableStock()` acepta cantidades positivas hasta el stock y rechaza 0 o mayores | HU02 AC2 · TS03 |
+| UT-08 | `Material` | Stock bajo el mínimo | `isBelowMinimum()` detecta stock menor al mínimo | HU28 |
+| UT-09 | `Task` | Tarea vencida | `isOverdue()` es verdadero si la fecha límite pasó y no está completada | HU08 |
+| UT-10 | `Task` | Estado desconocido | Un estado no reconocido se convierte en `PENDING` | HU08 |
+| UT-19 | `form validators` | RUC peruano | Acepta 11 dígitos con prefijo válido y rechaza formatos inválidos | HU01 AC2 · HU29 |
+| UT-20 | `form validators` | Rango de fechas | La fecha fin no puede ser anterior a la de inicio | HU09 AC2 |
+| UT-21 | `form validators` | Cantidad mayor al stock | `maxStockValidator` rechaza cantidades que superan el stock disponible | HU02 AC2 |
+| UT-22 | `form validators` | Fecha futura | `notFutureDateValidator` acepta hoy y rechaza mañana | HU01 · HU05 · HU06 · HU35 |
+| UT-23 | `TableState` | Orden y paginación | Ordena alfabéticamente y pagina de 5 en 5 | HU10 · HU28 · HU37 |
+| UT-24 | `TableState` | Búsqueda sin tildes | Busca ignorando mayúsculas y tildes | HU10 · HU28 · HU37 |
+| UT-25 | `TableState` | Filtros por categoría | Aplica, cuenta y limpia filtros | HU04 · HU37 |
+| UT-26 | `TableState` | Sin coincidencias | El rango mostrado queda en 0–0 (estado vacío) | HU28 AC2 |
+ 
+<br>
+ 
+**Figura 91**  
+_Prueba unitaria de la entidad User_
+ 
+<p align="center">
+  <img src="assets/chapter-6/testing/unit-user-entity-spec.png" width="750" alt="user.entity.spec.ts">
+</p>
+<p align="center"><em>*Nota.* Elaboración propia (Código fuente de las pruebas, Frontend Web Application).</em></p>
+<br>
+
+**Figura 92**  
+_Prueba unitaria de la entidad Material_
+
+<p align="center">
+  <img src="assets/chapter-6/testing/unit-material-entity-spec.png" width="750" alt="material.entity.spec.ts">
+</p>
+<p align="center"><em>*Nota.* Elaboración propia (Código fuente de las pruebas, Frontend Web Application).</em></p>
+<br>
+
+**Figura 93**  
+_Prueba unitaria de la entidad Task_
+
+<p align="center">
+  <img src="assets/chapter-6/testing/unit-task-entity-spec.png" width="750" alt="task.entity.spec.ts">
+</p>
+<p align="center"><em>*Nota.* Elaboración propia (Código fuente de las pruebas, Frontend Web Application).</em></p>
+<br>
+<div style="text-align: justify;">
+<p align="justify">
+La cobertura obtenida es de 46.99 % en sentencias, 39.47 % en ramas, 51.56 % en funciones y 50.93 % en líneas. Las entidades `User`, `Material` y `Task` alcanzan 100 % de cobertura de líneas. Los componentes y páginas aún no cuentan con pruebas, por lo que se plantea como mejora para los siguientes sprints.
+ 
+</p>
+</div>
+
+**Figura 94**  
+_Reporte de cobertura de código (Istanbul)_
+
+<p align="center">
+  <img src="assets/chapter-6/testing/unit-cobertura.png" width="850" alt="Reporte de cobertura">
+</p>
+<p align="center"><em>*Nota.* Elaboración propia (Reporte generado por karma-coverage).</em></p>
+<br>
+
+### 6.1.2. Core Integration Tests
+
+<div style="text-align: justify;">
+<p align="justify">
+Las pruebas de integración verifican que varias piezas de la aplicación funcionen juntas usando `TestBed` de Angular: el `HttpClient` real con el interceptor que simula el contrato REST `/api/v1`, los guards de navegación con `SessionService` y el `WeeklyReportService` consolidando datos de tareas, materiales e incidencias. Estas pruebas comprueban que el frontend respete los mismos códigos HTTP y reglas de negocio que el backend Spring Boot.
+ 
+</p>
+</div>
+ 
+| ID | Suite | Caso | Qué verifica | Historia |
+| --- | --- | --- | --- | --- |
+| UT-01 | `auth guards` | Sin sesión | Sin token, `authGuard` redirige a `/login?returnUrl=...` | HU44 AC2 · TS21 |
+| UT-02 | `auth guards` | Sesión válida y token vencido | Con JWT vigente permite el acceso; con uno vencido redirige y limpia la sesión | TS17 · TS21 |
+| UT-03 | `auth guards` | Rol no permitido | Un Contratante en una ruta de Supervisor es enviado a `/unauthorized` | HU27 AC2 · TS21 |
+| UT-11 | `WeeklyReportService` | Semana seleccionada | Consolida solo las tareas, movimientos e incidencias de la semana | HU20 AC1 |
+| UT-12 | `WeeklyReportService` | Semana sin registros | Devuelve las categorías vacías sin error | HU20 AC2 |
+| UT-13 | `mockBackendInterceptor` | Petición sin token | `GET /workers` sin `Authorization` responde 401 | TS20 |
+| UT-14 | `mockBackendInterceptor` | Credenciales inválidas | `POST /authentication/sign-in` con contraseña incorrecta responde 401 | HU23 AC2 |
+| UT-15 | `mockBackendInterceptor` | Contratante sin escritura | `POST /workers` con token de Contratante responde 403 | HU27 · TS15 |
+| UT-16 | `mockBackendInterceptor` | Salida mayor al stock | `POST /materials/3/use` falla con `INSUFFICIENT_STOCK` y el stock no cambia | HU02 AC2 · TS03 |
+| UT-17 | `mockBackendInterceptor` | Registro inexistente | `DELETE /incidents/9999` responde 404 | HU51 AC2 |
+| UT-18 | `mockBackendInterceptor` | Obras del contratante | `GET /projects` devuelve solo las obras del contratante autenticado | HU33 |
+ 
+<br>
+ 
+**Figura 95**  
+_Prueba de integración del contrato REST (mockBackendInterceptor)_
+ 
+<p align="center">
+  <img src="assets/chapter-6/testing/integration-mock-backend-spec.png" width="750" alt="mock-backend.interceptor.spec.ts">
+</p>
+<p align="center"><em>*Nota.* Elaboración propia (Código fuente de las pruebas, Frontend Web Application).</em></p>
+<br>
+
+**Figura 96**  
+_Resultado de la suite mockBackendInterceptor_
+
+<p align="center">
+  <img src="assets/chapter-6/testing/integration-mock-backend-resultado.png" width="850" alt="Resultado mockBackendInterceptor">
+</p>
+<p align="center"><em>*Nota.* Elaboración propia (Reporte de Jasmine en el navegador).</em></p>
+<br>
+
+**Figura 97**  
+_Prueba de integración de los guards de autenticación y rol_
+
+<p align="center">
+  <img src="assets/chapter-6/testing/integration-auth-guards-spec.png" width="750" alt="auth.guards.spec.ts">
+</p>
+<p align="center"><em>*Nota.* Elaboración propia (Código fuente de las pruebas, Frontend Web Application).</em></p>
+<br>
+
+**Figura 98**  
+_Prueba de integración del servicio de reporte semanal_
+
+<p align="center">
+  <img src="assets/chapter-6/testing/integration-weekly-report-spec.png" width="750" alt="weekly-report.service.spec.ts">
+</p>
+<p align="center"><em>*Nota.* Elaboración propia (Código fuente de las pruebas, Frontend Web Application).</em></p>
+<br>
 
 # Conclusiones
 
