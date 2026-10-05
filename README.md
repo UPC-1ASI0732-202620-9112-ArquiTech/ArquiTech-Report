@@ -4538,6 +4538,7 @@ Esta sección define las herramientas, prácticas de control de versiones, conve
 - **[Jasmine](https://jasmine.github.io/):** framework de pruebas unitarias declarado en los proyectos Angular.
 - **[Karma](https://karma-runner.github.io/):** test runner configurado por Angular para ejecutar las pruebas de Jasmine en un navegador.
 - **[Spring Boot Test](https://docs.spring.io/spring-boot/reference/testing/index.html):** dependencia de pruebas del Backend para pruebas unitarias y de integración del contexto Spring.
+- **[Playwright](https://playwright.dev/):** framework de pruebas end-to-end utilizado para las pruebas de sistema de la Frontend Web Application, ejecutadas en Chromium desde la terminal y desde la extensión Playwright Test for VS Code.
 
 #### Software Deployment
 
@@ -5234,12 +5235,12 @@ Como resultado general del AV1, ArquiTech cuenta con una base de investigación,
 
 ### Recomendaciones
 
-* Continuar con la validación de las Hypothesis Statements mediante tareas y escenarios representativos con usuarios de ambos segmentos, utilizando métricas que permitan comparar el proceso actual con el uso de ArquiTech.
-* Priorizar la comprobación de las assumptions consideradas críticas, especialmente la frecuencia con la que los supervisores estarían dispuestos a mantener actualizada la información, la facilidad de adopción de la plataforma y la disposición de los clientes a pagar por el servicio.
-* Continuar la integración entre Landing Page, Frontend Web Application y Backend, verificando los contratos de la API REST, autenticación, autorización y permisos correspondientes a supervisores y contratantes.
-* Implementar progresivamente la aplicación móvil a partir del prototipo definido, considerando especialmente las condiciones de trabajo en campo y las posibles limitaciones de conectividad identificadas durante las entrevistas.
-* Validar con usuarios la facilidad de uso, claridad de la información, accesibilidad y trazabilidad de los registros antes de ampliar el alcance funcional del producto.
-* Mantener actualizado el Product Backlog utilizando los resultados obtenidos en futuras validaciones y experimentos, repriorizando las historias cuando la evidencia obtenida demuestre nuevas necesidades o cambios en las assumptions inicialmente planteadas.
+- Continuar con la validación de las Hypothesis Statements mediante tareas y escenarios representativos con usuarios de ambos segmentos, utilizando métricas que permitan comparar el proceso actual con el uso de ArquiTech.
+- Priorizar la comprobación de las assumptions consideradas críticas, especialmente la frecuencia con la que los supervisores estarían dispuestos a mantener actualizada la información, la facilidad de adopción de la plataforma y la disposición de los clientes a pagar por el servicio.
+- Continuar la integración entre Landing Page, Frontend Web Application y Backend, verificando los contratos de la API REST, autenticación, autorización y permisos correspondientes a supervisores y contratantes.
+- Implementar progresivamente la aplicación móvil a partir del prototipo definido, considerando especialmente las condiciones de trabajo en campo y las posibles limitaciones de conectividad identificadas durante las entrevistas.
+- Validar con usuarios la facilidad de uso, claridad de la información, accesibilidad y trazabilidad de los registros antes de ampliar el alcance funcional del producto.
+- Mantener actualizado el Product Backlog utilizando los resultados obtenidos en futuras validaciones y experimentos, repriorizando las historias cuando la evidencia obtenida demuestre nuevas necesidades o cambios en las assumptions inicialmente planteadas.
 
 # Bibliografia
 
