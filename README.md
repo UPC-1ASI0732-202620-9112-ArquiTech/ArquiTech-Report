@@ -5229,22 +5229,24 @@ _Video About-the-product_
 
 <div style="text-align: justify;">
 <p align="justify">
+
 En esta sección se documentan las pruebas automatizadas de la Frontend Web Application de ArquiTech. Las pruebas se organizan en tres niveles: pruebas unitarias sobre las entidades de dominio y utilidades compartidas, pruebas de integración entre servicios, guards e interceptor HTTP, y pruebas de sistema (end-to-end) que recorren la aplicación en un navegador real como lo haría un supervisor de obra. Cada caso se relaciona con las User Stories (HU) y Technical Stories (TS) del Product Backlog.
- 
+
 </p>
 </div>
- 
-| Nivel | Herramienta | Suites | Casos | Resultado | Duración |
-| --- | --- | --- | --- | --- | --- |
-| Unitarias e integración | Jasmine + Karma (Chrome Headless) | 8 | 26 | 26 / 26 exitosos | ≈ 2.8 s |
-| Sistema (E2E) | Playwright (Chromium) | 2 | 2 | 2 / 2 exitosos | ≈ 4.3 s |
- 
+
+| Nivel                   | Herramienta                       | Suites | Casos | Resultado        | Duración |
+| ----------------------- | --------------------------------- | ------ | ----- | ---------------- | -------- |
+| Unitarias e integración | Jasmine + Karma (Chrome Headless) | 8      | 26    | 26 / 26 exitosos | ≈ 2.8 s  |
+| Sistema (E2E)           | Playwright (Chromium)             | 2      | 2     | 2 / 2 exitosos   | ≈ 4.3 s  |
+
 <br>
- 
+
 <div style="text-align: justify;">
 <p align="justify">
+
 Las pruebas unitarias y de integración se ejecutan con `npm run test:ci` (o `ng test --watch=false --browsers=ChromeHeadlessCI --code-coverage` para obtener la cobertura). Las pruebas de sistema se ejecutan con `npx playwright test`, que levanta automáticamente la aplicación con `npm start` en `http://localhost:4200`, o desde la extensión Playwright Test for VS Code.
- 
+
 </p>
 </div>
 
@@ -5255,6 +5257,7 @@ _Reporte de Jasmine con los 26 casos ejecutados_
   <img src="assets/chapter-6/testing/unit-jasmine-resumen.png" width="850" alt="Reporte de Jasmine">
 </p>
 <p align="center"><em>*Nota.* Elaboración propia (Reporte de Jasmine en el navegador).</em></p>
+
 <br>
 
 **Figura 90**  
@@ -5264,44 +5267,47 @@ _Ejecución de las pruebas unitarias e integración en consola con resumen de co
   <img src="assets/chapter-6/testing/unit-consola-ng-test.png" width="850" alt="Consola ng test">
 </p>
 <p align="center"><em>*Nota.* Elaboración propia (Ejecución de ng test en Chrome Headless).</em></p>
+
 <br>
 
 ### 6.1.1. Core Entities Unit Tests
 
 <div style="text-align: justify;">
 <p align="justify">
+
 Las pruebas unitarias verifican las reglas de negocio que viven en las entidades del dominio (`User`, `Material`, `Task`) y en las utilidades compartidas que usan los formularios y tablas (`form-validators`, `TableState`). Estas pruebas no dependen del backend ni del navegador más allá del runner de Karma, por lo que se ejecutan en milisegundos.
- 
+
 </p>
 </div>
- 
-| ID | Suite | Caso | Qué verifica | Historia |
-| --- | --- | --- | --- | --- |
-| UT-04 | `User` | Normaliza el rol | `ROLE_SUPERVISOR`, `CONTRACTOR`, `ROLE_CONTRATANTE` y `supervisor` se mapean al enum `UserRole` | HU27 · TS16 |
-| UT-05 | `User` | Iniciales y verificación de rol | Iniciales de nombre y apellido, `hasRole()` e `isSupervisor` | HU16 |
-| UT-06 | `User` | Respaldo sin nombre | Si el API solo envía `username`, se usa como correo y nombre visible | HU23 |
-| UT-07 | `Material` | Salida solo con stock disponible | `hasAvailableStock()` acepta cantidades positivas hasta el stock y rechaza 0 o mayores | HU02 AC2 · TS03 |
-| UT-08 | `Material` | Stock bajo el mínimo | `isBelowMinimum()` detecta stock menor al mínimo | HU28 |
-| UT-09 | `Task` | Tarea vencida | `isOverdue()` es verdadero si la fecha límite pasó y no está completada | HU08 |
-| UT-10 | `Task` | Estado desconocido | Un estado no reconocido se convierte en `PENDING` | HU08 |
-| UT-19 | `form validators` | RUC peruano | Acepta 11 dígitos con prefijo válido y rechaza formatos inválidos | HU01 AC2 · HU29 |
-| UT-20 | `form validators` | Rango de fechas | La fecha fin no puede ser anterior a la de inicio | HU09 AC2 |
-| UT-21 | `form validators` | Cantidad mayor al stock | `maxStockValidator` rechaza cantidades que superan el stock disponible | HU02 AC2 |
-| UT-22 | `form validators` | Fecha futura | `notFutureDateValidator` acepta hoy y rechaza mañana | HU01 · HU05 · HU06 · HU35 |
-| UT-23 | `TableState` | Orden y paginación | Ordena alfabéticamente y pagina de 5 en 5 | HU10 · HU28 · HU37 |
-| UT-24 | `TableState` | Búsqueda sin tildes | Busca ignorando mayúsculas y tildes | HU10 · HU28 · HU37 |
-| UT-25 | `TableState` | Filtros por categoría | Aplica, cuenta y limpia filtros | HU04 · HU37 |
-| UT-26 | `TableState` | Sin coincidencias | El rango mostrado queda en 0–0 (estado vacío) | HU28 AC2 |
- 
+
+| ID    | Suite             | Caso                             | Qué verifica                                                                                    | Historia                  |
+| ----- | ----------------- | -------------------------------- | ----------------------------------------------------------------------------------------------- | ------------------------- |
+| UT-04 | `User`            | Normaliza el rol                 | `ROLE_SUPERVISOR`, `CONTRACTOR`, `ROLE_CONTRATANTE` y `supervisor` se mapean al enum `UserRole` | HU27 · TS16               |
+| UT-05 | `User`            | Iniciales y verificación de rol  | Iniciales de nombre y apellido, `hasRole()` e `isSupervisor`                                    | HU16                      |
+| UT-06 | `User`            | Respaldo sin nombre              | Si el API solo envía `username`, se usa como correo y nombre visible                            | HU23                      |
+| UT-07 | `Material`        | Salida solo con stock disponible | `hasAvailableStock()` acepta cantidades positivas hasta el stock y rechaza 0 o mayores          | HU02 AC2 · TS03           |
+| UT-08 | `Material`        | Stock bajo el mínimo             | `isBelowMinimum()` detecta stock menor al mínimo                                                | HU28                      |
+| UT-09 | `Task`            | Tarea vencida                    | `isOverdue()` es verdadero si la fecha límite pasó y no está completada                         | HU08                      |
+| UT-10 | `Task`            | Estado desconocido               | Un estado no reconocido se convierte en `PENDING`                                               | HU08                      |
+| UT-19 | `form validators` | RUC peruano                      | Acepta 11 dígitos con prefijo válido y rechaza formatos inválidos                               | HU01 AC2 · HU29           |
+| UT-20 | `form validators` | Rango de fechas                  | La fecha fin no puede ser anterior a la de inicio                                               | HU09 AC2                  |
+| UT-21 | `form validators` | Cantidad mayor al stock          | `maxStockValidator` rechaza cantidades que superan el stock disponible                          | HU02 AC2                  |
+| UT-22 | `form validators` | Fecha futura                     | `notFutureDateValidator` acepta hoy y rechaza mañana                                            | HU01 · HU05 · HU06 · HU35 |
+| UT-23 | `TableState`      | Orden y paginación               | Ordena alfabéticamente y pagina de 5 en 5                                                       | HU10 · HU28 · HU37        |
+| UT-24 | `TableState`      | Búsqueda sin tildes              | Busca ignorando mayúsculas y tildes                                                             | HU10 · HU28 · HU37        |
+| UT-25 | `TableState`      | Filtros por categoría            | Aplica, cuenta y limpia filtros                                                                 | HU04 · HU37               |
+| UT-26 | `TableState`      | Sin coincidencias                | El rango mostrado queda en 0–0 (estado vacío)                                                   | HU28 AC2                  |
+
 <br>
- 
+
 **Figura 91**  
 _Prueba unitaria de la entidad User_
- 
+
 <p align="center">
   <img src="assets/chapter-6/testing/unit-user-entity-spec.png" width="750" alt="user.entity.spec.ts">
 </p>
 <p align="center"><em>*Nota.* Elaboración propia (Código fuente de las pruebas, Frontend Web Application).</em></p>
+
 <br>
 
 **Figura 92**  
@@ -5311,6 +5317,7 @@ _Prueba unitaria de la entidad Material_
   <img src="assets/chapter-6/testing/unit-material-entity-spec.png" width="750" alt="material.entity.spec.ts">
 </p>
 <p align="center"><em>*Nota.* Elaboración propia (Código fuente de las pruebas, Frontend Web Application).</em></p>
+
 <br>
 
 **Figura 93**  
@@ -5320,11 +5327,14 @@ _Prueba unitaria de la entidad Task_
   <img src="assets/chapter-6/testing/unit-task-entity-spec.png" width="750" alt="task.entity.spec.ts">
 </p>
 <p align="center"><em>*Nota.* Elaboración propia (Código fuente de las pruebas, Frontend Web Application).</em></p>
+
 <br>
+
 <div style="text-align: justify;">
 <p align="justify">
+
 La cobertura obtenida es de 46.99 % en sentencias, 39.47 % en ramas, 51.56 % en funciones y 50.93 % en líneas. Las entidades `User`, `Material` y `Task` alcanzan 100 % de cobertura de líneas. Los componentes y páginas aún no cuentan con pruebas, por lo que se plantea como mejora para los siguientes sprints.
- 
+
 </p>
 </div>
 
@@ -5335,40 +5345,43 @@ _Reporte de cobertura de código (Istanbul)_
   <img src="assets/chapter-6/testing/unit-cobertura.png" width="850" alt="Reporte de cobertura">
 </p>
 <p align="center"><em>*Nota.* Elaboración propia (Reporte generado por karma-coverage).</em></p>
+
 <br>
 
 ### 6.1.2. Core Integration Tests
 
 <div style="text-align: justify;">
 <p align="justify">
+
 Las pruebas de integración verifican que varias piezas de la aplicación funcionen juntas usando `TestBed` de Angular: el `HttpClient` real con el interceptor que simula el contrato REST `/api/v1`, los guards de navegación con `SessionService` y el `WeeklyReportService` consolidando datos de tareas, materiales e incidencias. Estas pruebas comprueban que el frontend respete los mismos códigos HTTP y reglas de negocio que el backend Spring Boot.
- 
+
 </p>
 </div>
- 
-| ID | Suite | Caso | Qué verifica | Historia |
-| --- | --- | --- | --- | --- |
-| UT-01 | `auth guards` | Sin sesión | Sin token, `authGuard` redirige a `/login?returnUrl=...` | HU44 AC2 · TS21 |
-| UT-02 | `auth guards` | Sesión válida y token vencido | Con JWT vigente permite el acceso; con uno vencido redirige y limpia la sesión | TS17 · TS21 |
-| UT-03 | `auth guards` | Rol no permitido | Un Contratante en una ruta de Supervisor es enviado a `/unauthorized` | HU27 AC2 · TS21 |
-| UT-11 | `WeeklyReportService` | Semana seleccionada | Consolida solo las tareas, movimientos e incidencias de la semana | HU20 AC1 |
-| UT-12 | `WeeklyReportService` | Semana sin registros | Devuelve las categorías vacías sin error | HU20 AC2 |
-| UT-13 | `mockBackendInterceptor` | Petición sin token | `GET /workers` sin `Authorization` responde 401 | TS20 |
-| UT-14 | `mockBackendInterceptor` | Credenciales inválidas | `POST /authentication/sign-in` con contraseña incorrecta responde 401 | HU23 AC2 |
-| UT-15 | `mockBackendInterceptor` | Contratante sin escritura | `POST /workers` con token de Contratante responde 403 | HU27 · TS15 |
-| UT-16 | `mockBackendInterceptor` | Salida mayor al stock | `POST /materials/3/use` falla con `INSUFFICIENT_STOCK` y el stock no cambia | HU02 AC2 · TS03 |
-| UT-17 | `mockBackendInterceptor` | Registro inexistente | `DELETE /incidents/9999` responde 404 | HU51 AC2 |
-| UT-18 | `mockBackendInterceptor` | Obras del contratante | `GET /projects` devuelve solo las obras del contratante autenticado | HU33 |
- 
+
+| ID    | Suite                    | Caso                          | Qué verifica                                                                   | Historia        |
+| ----- | ------------------------ | ----------------------------- | ------------------------------------------------------------------------------ | --------------- |
+| UT-01 | `auth guards`            | Sin sesión                    | Sin token, `authGuard` redirige a `/login?returnUrl=...`                       | HU44 AC2 · TS21 |
+| UT-02 | `auth guards`            | Sesión válida y token vencido | Con JWT vigente permite el acceso; con uno vencido redirige y limpia la sesión | TS17 · TS21     |
+| UT-03 | `auth guards`            | Rol no permitido              | Un Contratante en una ruta de Supervisor es enviado a `/unauthorized`          | HU27 AC2 · TS21 |
+| UT-11 | `WeeklyReportService`    | Semana seleccionada           | Consolida solo las tareas, movimientos e incidencias de la semana              | HU20 AC1        |
+| UT-12 | `WeeklyReportService`    | Semana sin registros          | Devuelve las categorías vacías sin error                                       | HU20 AC2        |
+| UT-13 | `mockBackendInterceptor` | Petición sin token            | `GET /workers` sin `Authorization` responde 401                                | TS20            |
+| UT-14 | `mockBackendInterceptor` | Credenciales inválidas        | `POST /authentication/sign-in` con contraseña incorrecta responde 401          | HU23 AC2        |
+| UT-15 | `mockBackendInterceptor` | Contratante sin escritura     | `POST /workers` con token de Contratante responde 403                          | HU27 · TS15     |
+| UT-16 | `mockBackendInterceptor` | Salida mayor al stock         | `POST /materials/3/use` falla con `INSUFFICIENT_STOCK` y el stock no cambia    | HU02 AC2 · TS03 |
+| UT-17 | `mockBackendInterceptor` | Registro inexistente          | `DELETE /incidents/9999` responde 404                                          | HU51 AC2        |
+| UT-18 | `mockBackendInterceptor` | Obras del contratante         | `GET /projects` devuelve solo las obras del contratante autenticado            | HU33            |
+
 <br>
- 
+
 **Figura 95**  
 _Prueba de integración del contrato REST (mockBackendInterceptor)_
- 
+
 <p align="center">
   <img src="assets/chapter-6/testing/integration-mock-backend-spec.png" width="750" alt="mock-backend.interceptor.spec.ts">
 </p>
 <p align="center"><em>*Nota.* Elaboración propia (Código fuente de las pruebas, Frontend Web Application).</em></p>
+
 <br>
 
 **Figura 96**  
@@ -5378,6 +5391,7 @@ _Resultado de la suite mockBackendInterceptor_
   <img src="assets/chapter-6/testing/integration-mock-backend-resultado.png" width="850" alt="Resultado mockBackendInterceptor">
 </p>
 <p align="center"><em>*Nota.* Elaboración propia (Reporte de Jasmine en el navegador).</em></p>
+
 <br>
 
 **Figura 97**  
@@ -5387,6 +5401,7 @@ _Prueba de integración de los guards de autenticación y rol_
   <img src="assets/chapter-6/testing/integration-auth-guards-spec.png" width="750" alt="auth.guards.spec.ts">
 </p>
 <p align="center"><em>*Nota.* Elaboración propia (Código fuente de las pruebas, Frontend Web Application).</em></p>
+
 <br>
 
 **Figura 98**  
@@ -5396,105 +5411,94 @@ _Prueba de integración del servicio de reporte semanal_
   <img src="assets/chapter-6/testing/integration-weekly-report-spec.png" width="750" alt="weekly-report.service.spec.ts">
 </p>
 <p align="center"><em>*Nota.* Elaboración propia (Código fuente de las pruebas, Frontend Web Application).</em></p>
+
 <br>
 
 ### 6.1.3. Core Behavior-Driven Development
+
+<!-- PENDIENTE: el enunciado pide escenarios BDD con Cucumber, SpecFlow o similar (archivos .feature en Gherkin). El frontend todavía no los tiene. -->
 
 ### 6.1.4. Core System Tests
 
 <div style="text-align: justify;">
 <p align="justify">
-Las pruebas de sistema se implementaron con Playwright y recorren la aplicación completa en Chromium, desde el inicio de sesión hasta la verificación del resultado en pantalla. Ambas validan el segundo criterio de aceptación (AC2) de User Stories de registro: que la aplicación bloquee un dato inválido, muestre el mensaje correspondiente y luego acepte el dato corregido. Las pruebas se ejecutaron desde Visual Studio Code con la extensión Playwright Test for VS Code y desde la terminal con `npx playwright test`.
- 
+Las pruebas de sistema se implementaron con Playwright y recorren la aplicación completa en Chromium, desde el inicio de sesión hasta la verificación del resultado en pantalla. Cubren los flujos principales del rol Supervisor (autenticación, gestión de personal y asistencia, flujo de materiales, asignación y cierre de tareas, creación de proyectos) y la restricción de permisos del rol Contratista. Las pruebas se ejecutaron desde Visual Studio Code con la extensión Playwright Test for VS Code y desde la terminal con `npx playwright test`.
+
 </p>
 </div>
- 
-| ID | Archivo | Escenario | Pasos principales | Resultado esperado | Historia |
-| --- | --- | --- | --- | --- | --- |
-| E2E-01 | `tests/test-1.spec.ts` | El supervisor no puede registrar una salida de material mayor al stock | Inicia sesión como supervisor, entra a *Torre Residencial Norte*, registra una salida de 50 varillas de *Fierro corrugado 3/8"* (stock 40) y luego corrige a 10 | Se muestra "The quantity exceeds the available stock (40)."; con 10 unidades se registra la salida y el stock baja a 30 | HU02 AC2 · TS03 |
-| E2E-02 | `tests/test-2.spec.ts` | El supervisor no puede registrar maquinaria con una placa repetida en la misma obra | Inicia sesión, entra a *Maquinaria*, intenta registrar "Mezcladora nueva" con la placa `MIX123` (ya existente) y luego corrige a `MIX999` | Se muestra "A machine with that plate already exists on this site."; con `MIX999` la máquina se registra y aparece en la tabla | HU05 AC2 |
- 
-<br>
- 
-**Figura 99**  
-_Prueba E2E-01 en Visual Studio Code con la extensión de Playwright_
- 
-<p align="center">
-  <img src="assets/chapter-6/testing/e2e-vscode-test-1.jpg" width="850" alt="test-1.spec.ts en VS Code">
-</p>
-<p align="center"><em>*Nota.* Elaboración propia (Ejecución en Visual Studio Code).</em></p>
+
+| ID     | Archivo                          | Escenario                                                    | Pasos principales                                                                                                                                                                                        | Resultado esperado                                                                                                                 | Historia |
+| ------ | -------------------------------- | ------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- | -------- |
+| E2E-01 | `auth-login-supervisor.spec.ts`  | Inicio de sesión del supervisor                              | Abre la aplicación, verifica el logo de ArquiTech, ingresa correo y contraseña del supervisor y confirma con Enter                                                                                       | Redirige a `/#/projects` tras un login exitoso                                                                                     | HU23     |
+| E2E-02 | `projects-create.spec.ts`        | Creación de un nuevo proyecto                                | Inicia sesión, abre "Nuevo proyecto", completa nombre, ubicación, contratista, fecha de fin, presupuesto y progreso, y guarda                                                                            | El proyecto queda creado y visible en `/#/projects`                                                                                | HU01     |
+| E2E-03 | `attendance-register.spec.ts`    | Registro de personal y asistencia                            | Inicia sesión, crea un trabajador (cargo, especialidad, fecha de contratación) y luego registra su asistencia como "Presente" con una nota                                                               | La asistencia aparece en `/#/projects/:id/attendance` con el trabajador, el estado "Presente" y la nota                            | HU06     |
+| E2E-04 | `materials-flow.spec.ts`         | Flujo completo de un material (alta, entrada y uso de stock) | Inicia sesión, crea el material "Cemento E2E Playwright" (unidad, stock mínimo, precio, proveedor, RUC), registra una entrada de 10 bolsas y luego un uso de 5 bolsas                                    | El stock disponible pasa de 20 a 30 (entrada) y de 30 a 25 (uso); el historial muestra ambos movimientos con sus deltas (+10 / -5) | HU02     |
+| E2E-05 | `tasks-complete.spec.ts`         | Asignación y cierre de una tarea                             | Inicia sesión, busca al trabajador creado, le asigna una tarea (título, descripción, fecha límite) y luego la marca como completada desde la pestaña Tareas                                              | La tarea cambia a estado "Completada" y el botón "Completar" deja de estar disponible para ese registro                            | HU08     |
+| E2E-06 | `permissions-contractor.spec.ts` | Restricción de permisos del rol Contratista                  | Inicia sesión como contratista, abre un proyecto y verifica la ausencia de controles de edición (crear/editar/eliminar proyecto, material, personal, tareas; asignar tarea; generar PDF) y cierra sesión | Ninguno de los botones de escritura/edición está presente para el rol Contratista (count = 0 en cada caso)                         | HU27     |
+
 <br>
 
-**Figura 100**  
-_Prueba E2E-02 en Visual Studio Code con la extensión de Playwright_
+**Figura 108**  
+_Prueba E2E-01: inicio de sesión del supervisor_
 
 <p align="center">
-  <img src="assets/chapter-6/testing/e2e-vscode-test-2.jpg" width="850" alt="test-2.spec.ts en VS Code">
+  <img src="assets/chapter-6/testing/e2e-auth-login-spec.jpg" width="750" alt="auth-login-supervisor.spec.ts">
 </p>
-<p align="center"><em>*Nota.* Elaboración propia (Ejecución en Visual Studio Code).</em></p>
+<p align="center"><em>*Nota.* Elaboración propia (Código fuente de la prueba, Frontend Web Application).</em></p>
 <br>
 
-**Figura 101**  
-_Resultado de la ejecución desde el Test Explorer: 2 pruebas exitosas_
+**Figura 109**  
+_Construcción de la prueba E2E-01 con el grabador (Codegen/Inspector) de Playwright_
 
 <p align="center">
-  <img src="assets/chapter-6/testing/e2e-vscode-resultados.jpg" width="850" alt="Test Results en VS Code">
+  <img src="assets/chapter-6/testing/e2e-auth-login-codegen.jpg" width="850" alt="Playwright Inspector - Codegen">
 </p>
-<p align="center"><em>*Nota.* Elaboración propia (Ejecución en Visual Studio Code).</em></p>
+<p align="center"><em>*Nota.* Elaboración propia (Grabación interactiva con Playwright Inspector).</em></p>
 <br>
 
-**Figura 102**  
-_Ejecución de las pruebas de sistema por terminal con npx playwright test_
+**Figura 110**  
+_Prueba E2E-02: creación de un nuevo proyecto_
 
 <p align="center">
-  <img src="assets/chapter-6/testing/e2e-terminal.jpg" width="850" alt="npx playwright test">
+  <img src="assets/chapter-6/testing/e2e-projects-create-spec.jpg" width="750" alt="projects-create.spec.ts">
 </p>
-<p align="center"><em>*Nota.* Elaboración propia (Terminal integrada de Visual Studio Code).</em></p>
+<p align="center"><em>*Nota.* Elaboración propia (Código fuente de la prueba, Frontend Web Application).</em></p>
 <br>
 
-**Figura 103**  
-_Reporte HTML de Playwright con el resumen de la ejecución_
+**Figura 111**  
+_Prueba E2E-03: registro de personal y asistencia_
 
 <p align="center">
-  <img src="assets/chapter-6/testing/e2e-reporte.jpg" width="850" alt="Reporte HTML de Playwright">
+  <img src="assets/chapter-6/testing/e2e-attendance-register-spec.jpg" width="750" alt="attendance-register.spec.ts">
 </p>
-<p align="center"><em>*Nota.* Elaboración propia (Reporte generado por Playwright).</em></p>
+<p align="center"><em>*Nota.* Elaboración propia (Código fuente de la prueba, Frontend Web Application).</em></p>
 <br>
 
-**Figura 104**  
-_Pasos ejecutados en la prueba E2E-01_
+**Figura 112**  
+_Prueba E2E-04: flujo completo de un material (alta, entrada y uso de stock)_
 
 <p align="center">
-  <img src="assets/chapter-6/testing/e2e-reporte-test-1.jpg" width="850" alt="Pasos de E2E-01">
+  <img src="assets/chapter-6/testing/e2e-materials-flow-spec.jpg" width="750" alt="materials-flow.spec.ts">
 </p>
-<p align="center"><em>*Nota.* Elaboración propia (Reporte generado por Playwright).</em></p>
+<p align="center"><em>*Nota.* Elaboración propia (Código fuente de la prueba, Frontend Web Application).</em></p>
 <br>
 
-**Figura 105**  
-_Pasos ejecutados en la prueba E2E-02_
+**Figura 113**  
+_Prueba E2E-05: asignación y cierre de una tarea_
 
 <p align="center">
-  <img src="assets/chapter-6/testing/e2e-reporte-test-2.jpg" width="850" alt="Pasos de E2E-02">
+  <img src="assets/chapter-6/testing/e2e-tasks-complete-spec.jpg" width="750" alt="tasks-complete.spec.ts">
 </p>
-<p align="center"><em>*Nota.* Elaboración propia (Reporte generado por Playwright).</em></p>
+<p align="center"><em>*Nota.* Elaboración propia (Código fuente de la prueba, Frontend Web Application).</em></p>
 <br>
 
-**Figura 106**  
-_Estado final de la prueba E2E-01: salida registrada y stock de Fierro corrugado en 30_
+**Figura 114**  
+_Prueba E2E-06: restricción de permisos del rol Contratista_
 
 <p align="center">
-  <img src="assets/chapter-6/testing/e2e-test-1-pantalla-final.png" width="850" alt="Pantalla final E2E-01">
+  <img src="assets/chapter-6/testing/e2e-permissions-contractor-spec.jpg" width="750" alt="permissions-contractor.spec.ts">
 </p>
-<p align="center"><em>*Nota.* Elaboración propia (Captura automática de Playwright).</em></p>
-<br>
-
-**Figura 107**  
-_Estado final de la prueba E2E-02: maquinaria MIX999 registrada_
-
-<p align="center">
-  <img src="assets/chapter-6/testing/e2e-test-2-pantalla-final.png" width="850" alt="Pantalla final E2E-02">
-</p>
-<p align="center"><em>*Nota.* Elaboración propia (Captura automática de Playwright).</em></p>
+<p align="center"><em>*Nota.* Elaboración propia (Código fuente de la prueba, Frontend Web Application).</em></p>
 <br>
 
 # Capítulo VII: DevOps Practices
