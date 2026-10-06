@@ -5503,17 +5503,57 @@ _Estado final de la prueba E2E-02: maquinaria MIX999 registrada_
 
 ### 7.1.1. Tools and Practices
 
+<div style="text-align: justify;">
+
+El equipo adopta **GitHub Actions** como herramienta de integración continua, por su integración nativa con los repositorios del proyecto (`ArquiTech-FrontendWeb` y el backend en Spring Boot) y por no requerir infraestructura adicional.
+
+La práctica de CI definida consiste en ejecutar automáticamente, ante cada `push` o `pull request` dirigido a la rama principal, los siguientes pasos:
+
+**Frontend (`ArquiTech-FrontendWeb`):**
+
+- Instalación de dependencias (`npm ci`).
+- Ejecución de pruebas unitarias e de integración con Jasmine/Karma (`ng test --code-coverage`), descritas en la sección 6.1.1 y 6.1.2.
+- Ejecución de pruebas de sistema end-to-end con Playwright (`npx playwright test`), descritas en la sección 6.1.4.
+- Compilación de producción (`ng build`) para validar que el proyecto no tenga errores de build.
+
+**Backend (Spring Boot):**
+
+- Ejecución de pruebas unitarias e de integración con Spring Boot Test / JUnit (`mvn test`).
+- Empaquetado del artefacto (`mvn package`) para validar la compilación.
+
+Un `pull request` solo puede fusionarse a la rama principal si todos los pasos anteriores finalizan sin errores, lo que constituye el criterio de aceptación de la integración continua del proyecto.
+
+</div>
+
 ### 7.1.2. Build & Test Suite Pipeline Components
 
 ## 7.2. Continuous Delivery
 
 ### 7.2.1. Tools and Practices
 
+<div style="text-align: justify;">
+
+Para la entrega continua, el equipo utiliza **Netlify** para el frontend y **Railway** para el backend, ambos configurados para generar _preview deployments_ automáticos a partir de cada `pull request` abierto contra la rama principal.
+
+La práctica definida es la siguiente: cada vez que se abre o actualiza un `pull request`, Netlify y Railway generan un entorno de vista previa con una URL única, lo que permite al equipo y a los interesados (stakeholders) validar los cambios de una funcionalidad antes de que sea aprobada e integrada a la rama principal, sin afectar el entorno de producción.
+
+Esta práctica asegura que el software se mantenga en un estado desplegable en todo momento (uno de los principios base de Continuous Delivery), dado que cada cambio pasa primero por un entorno de staging equivalente al de producción antes de ser aceptado.
+
+</div>
+
 ### 7.2.2. Stages Deployment Pipeline Components
 
 ## 7.3 Continuous Deployment
 
 ### 7.3.1. Tools and Practices
+
+<div style="text-align: justify;">
+
+El despliegue a producción se automatiza mediante la integración directa de **Netlify** y **Railway** con la rama principal del repositorio: todo _merge_ a dicha rama dispara, sin intervención manual, un nuevo despliegue del frontend (Netlify) y del backend (Railway) al ambiente de producción.
+
+La práctica de Continuous Deployment adoptada por el equipo es: una vez que un `pull request` pasa por integración continua (7.1) y es validado en su entorno de preview (7.2), su fusión a la rama principal resulta automáticamente en la publicación de esos cambios en producción, sin pasos de aprobación manual adicionales ni intervención de un operador.
+
+</div>
 
 ### 7.3.2. Production Deployment Pipeline Components
 
