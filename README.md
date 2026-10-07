@@ -5694,63 +5694,137 @@ _Nota._ Captura de la ejecución de las pruebas con Playwright. La terminal mues
 
 # Capítulo VII: DevOps Practices
 
+Este capítulo documenta la integración, entrega y despliegue de ArquiTech a partir de las configuraciones y resultados disponibles. La integración continua verifica los cambios; la entrega continua prepara una versión validada para su publicación; el despliegue continuo automatiza su puesta en producción. La evidencia permite distinguir las corridas de pruebas, la configuración de las plataformas y la publicación de una versión concreta.
+
 ## 7.1. Continuous Integration
+
+La integración continua se implementa mediante GitHub Actions en los repositorios del backend, frontend y landing. Las corridas consultadas el 07/10/2026 muestran resultados aprobados; sus ramas, eventos y commits se identifican en 7.1.2.
 
 ### 7.1.1. Tools and Practices
 
-<div style="text-align: justify;">
+GitHub Actions ejecuta la preparación del entorno, la instalación de dependencias, las pruebas y la construcción del producto. Las configuraciones revisadas se activan ante cambios en la rama principal y ante solicitudes de integración dirigidas a esa rama. Así, la verificación puede realizarse antes de aceptar una contribución y repetirse después de incorporarla.
 
-El equipo adopta **GitHub Actions** como herramienta de integración continua, por su integración nativa con los repositorios del proyecto (`ArquiTech-FrontendWeb` y el backend en Spring Boot) y por no requerir infraestructura adicional.
+| Producto     | Entorno de ejecución | Proceso documentado                                                        | Resultado disponible                                                      |
+| ------------ | -------------------- | -------------------------------------------------------------------------- | ------------------------------------------------------------------------- |
+| Backend      | Ubuntu y Java 17     | Preparación del proyecto y validación del ciclo de construcción con Maven  | Job «Test and package» aprobado en main y en una solicitud de integración |
+| Frontend Web | Ubuntu y Node.js 20  | Instalación reproducible de dependencias, pruebas y construcción           | Job «Test and build» aprobado en una solicitud dirigida a main            |
+| Landing Page | Ubuntu y Node.js 20  | Instalación de dependencias, pruebas en Chrome sin interfaz y construcción | Job «Test and build» aprobado en main y en una solicitud de integración   |
 
-La práctica de CI definida consiste en ejecutar automáticamente, ante cada `push` o `pull request` dirigido a la rama principal, los siguientes pasos:
+Las dependencias se preparan a partir de las versiones registradas por cada proyecto y se utiliza caché para reutilizar descargas. En el backend, la validación se realiza dentro del módulo de la aplicación; en frontend y landing, la secuencia conserva las pruebas antes de la construcción.
 
-**Frontend (`ArquiTech-FrontendWeb`):**
-
-- Instalación de dependencias (`npm ci`).
-- Ejecución de pruebas unitarias e de integración con Jasmine/Karma (`ng test --code-coverage`), descritas en la sección 6.1.1 y 6.1.2.
-- Ejecución de pruebas de sistema end-to-end con Playwright (`npx playwright test`), descritas en la sección 6.1.4.
-- Compilación de producción (`ng build`) para validar que el proyecto no tenga errores de build.
-
-**Backend (Spring Boot):**
-
-- Ejecución de pruebas unitarias e de integración con Spring Boot Test / JUnit (`mvn test`).
-- Empaquetado del artefacto (`mvn package`) para validar la compilación.
-
-Un `pull request` solo puede fusionarse a la rama principal si todos los pasos anteriores finalizan sin errores, lo que constituye el criterio de aceptación de la integración continua del proyecto.
-
-</div>
+Los resultados del capítulo VI mantienen su alcance: 6.1.2 presenta siete pruebas de integración del backend; 6.1.3 presenta dos escenarios BDD de HU02 con Cucumber; 6.1.4 presenta tres pruebas Playwright en navegador desde el repositorio móvil. Estos resultados no se suman automáticamente a las cantidades de una corrida de CI, ni permiten afirmar que Playwright o la aplicación nativa Flutter estén incluidos en los pipelines examinados.
 
 ### 7.1.2. Build & Test Suite Pipeline Components
 
+Los componentes observados permiten relacionar el evento que inicia la verificación con los resultados de cada etapa.
+
+| Componente             | Backend                                          | Frontend Web                                     | Landing Page                                     |
+| ---------------------- | ------------------------------------------------ | ------------------------------------------------ | ------------------------------------------------ |
+| Inicio                 | Push a main o pull request dirigido a main       | Push a main o pull request dirigido a main       | Push a main o pull request dirigido a main       |
+| Obtención del proyecto | Recuperación de la versión asociada a la corrida | Recuperación de la versión asociada a la corrida | Recuperación de la versión asociada a la corrida |
+| Entorno                | Java 17 y Maven                                  | Node.js 20 y dependencias npm                    | Node.js 20 y dependencias npm                    |
+| Verificación           | Validación Maven de pruebas y construcción       | Suite automatizada del frontend                  | Suite de pruebas en Chrome sin interfaz          |
+| Construcción           | Empaquetado del backend dentro de la validación  | Construcción de la aplicación web                | Construcción del sitio de presentación           |
+| Resultado              | Job «Test and package» aprobado                  | Job «Test and build» aprobado                    | Job «Test and build» aprobado                    |
+
+**Registro de corridas verificadas**
+
+Las fechas y horas de la tabla se expresan en horario de Lima. El commit corresponde al identificado por GitHub en cada corrida. Las versiones de CI de esta tabla complementan las versiones de código previamente registradas en el Anexo B.
+
+| Repositorio           | Evento       | Rama asociada     | Commit   | Fecha y hora, Lima  | Resultado y enlace                                                                                               |
+| --------------------- | ------------ | ----------------- | -------- | ------------------- | ---------------------------------------------------------------------------------------------------------------- |
+| Arquitech-Backend     | Push         | main              | 19980dee | 07/10/2026 00:47:19 | [Aprobada](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/Arquitech-Backend/actions/runs/37578056023)     |
+| Arquitech-Backend     | Pull request | feature/devops-ci | c7498786 | 07/10/2026 00:39:45 | [Aprobada](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/Arquitech-Backend/actions/runs/37577420741)     |
+| ArquiTech-FrontendWeb | Pull request | feature/devops-ci | 851a4bb0 | 07/10/2026 00:39:44 | [Aprobada](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendWeb/actions/runs/37577419115) |
+| ArquiTech-LandingPage | Push         | main              | 844f69d4 | 07/10/2026 00:47:15 | [Aprobada](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-LandingPage/actions/runs/37578050850) |
+| ArquiTech-LandingPage | Pull request | feature/devops-ci | 0905f726 | 07/10/2026 00:39:47 | [Aprobada](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-LandingPage/actions/runs/37577423687) |
+
+En las corridas más recientes consultadas se observaron aprobados los pasos de preparación, pruebas y construcción. La corrida del frontend corresponde a una solicitud de integración: su resultado no se presenta como una ejecución sobre main. El backend y la landing sí cuentan con corridas aprobadas iniciadas por push a main.
+
+La aprobación de una corrida evidencia la ejecución del pipeline correspondiente. La obligatoriedad de sus verificaciones antes de aceptar un cambio depende de las reglas de protección del repositorio; esa configuración no se acredita únicamente con el resultado exitoso de un job.
+
 ## 7.2. Continuous Delivery
+
+La entrega continua comprende preparar y validar una versión antes de promoverla a producción. Las construcciones aprobadas en CI aportan una parte de este proceso; el entorno de validación y la decisión de promoción deben corresponder a la misma versión.
 
 ### 7.2.1. Tools and Practices
 
-<div style="text-align: justify;">
+ArquiTech dispone de publicaciones web en GitHub Pages y Netlify, y de un backend alojado en Railway. Para la validación previa a producción se plantea un entorno de vista previa del frontend y un entorno de pruebas del backend, con configuración y datos separados de producción.
 
-Para la entrega continua, el equipo utiliza **Netlify** para el frontend y **Railway** para el backend, ambos configurados para generar _preview deployments_ automáticos a partir de cada `pull request` abierto contra la rama principal.
-
-La práctica definida es la siguiente: cada vez que se abre o actualiza un `pull request`, Netlify y Railway generan un entorno de vista previa con una URL única, lo que permite al equipo y a los interesados (stakeholders) validar los cambios de una funcionalidad antes de que sea aprobada e integrada a la rama principal, sin afectar el entorno de producción.
-
-Esta práctica asegura que el software se mantenga en un estado desplegable en todo momento (uno de los principios base de Continuous Delivery), dado que cada cambio pasa primero por un entorno de staging equivalente al de producción antes de ser aceptado.
-
-</div>
+Las evidencias disponibles muestran CI aprobada y configuración de servicios de producción. No se ha documentado una URL de preview o staging asociada a una versión concreta ni la generación automática de un entorno de pruebas por cada solicitud de integración. Por ello, esa parte de la entrega continua se mantiene como proceso previsto.
 
 ### 7.2.2. Stages Deployment Pipeline Components
 
-## 7.3 Continuous Deployment
+| Etapa                      | Propósito y salida                                                  | Evidencia disponible                                                     | Estado documental                                  |
+| -------------------------- | ------------------------------------------------------------------- | ------------------------------------------------------------------------ | -------------------------------------------------- |
+| Integración y construcción | Obtener una versión con pruebas y construcción aprobadas            | Corridas enlazadas en 7.1.2                                              | Acreditado para las corridas registradas           |
+| Preview del frontend       | Presentar el cambio en una URL aislada para revisar sus flujos      | No se dispone de una URL identificada como preview                       | Pendiente de evidencia                             |
+| Staging del backend        | Validar la API con configuración y datos de pruebas                 | Las capturas de Railway muestran producción                              | Pendiente de evidencia de staging                  |
+| Validación del incremento  | Comprobar los criterios de aceptación sobre la versión candidata    | Pruebas documentadas en 6.1; falta vincularlas con un entorno de staging | Evidencia parcial                                  |
+| Promoción                  | Publicar la versión validada y registrar su relación con producción | Configuración de origen del backend y despliegue de Pages                | Falta correlacionar versión validada y publicación |
+
+Las capturas de producción no se utilizan como evidencia de staging. La trazabilidad de la entrega debe identificar la versión candidata, el entorno de validación, los resultados y la versión promovida, conservando la separación de datos entre pruebas y producción.
+
+## 7.3. Continuous Deployment
+
+El despliegue continuo automatiza la publicación a partir de cambios aceptados. La documentación distingue la configuración que habilita esa automatización del registro que demuestra la publicación de un commit específico.
 
 ### 7.3.1. Tools and Practices
 
-<div style="text-align: justify;">
+La captura de configuración de Railway muestra que el servicio del backend está conectado a GitHub, utiliza el directorio raíz del módulo del backend y tiene main como rama de producción. La opción de despliegue automático ante cambios en GitHub aparece activada.
 
-El despliegue a producción se automatiza mediante la integración directa de **Netlify** y **Railway** con la rama principal del repositorio: todo _merge_ a dicha rama dispara, sin intervención manual, un nuevo despliegue del frontend (Netlify) y del backend (Railway) al ambiente de producción.
+En la misma captura, la opción **Wait for CI** aparece desactivada. Por tanto, la configuración fotografiada no demuestra que Railway espere la aprobación de GitHub Actions antes de desplegar. Las corridas CI aprobadas de 7.1 aportan verificación del proyecto, pero no acreditan por sí solas una dependencia obligatoria entre CI y el despliegue.
 
-La práctica de Continuous Deployment adoptada por el equipo es: una vez que un `pull request` pasa por integración continua (7.1) y es validado en su entorno de preview (7.2), su fusión a la rama principal resulta automáticamente en la publicación de esos cambios en producción, sin pasos de aprobación manual adicionales ni intervención de un operador.
-
-</div>
+La landing cuenta además con un registro exitoso de construcción y despliegue mediante GitHub Pages. Para el frontend alojado en Netlify se dispone de la URL publicada; no se documenta con esa URL el evento de automatización ni el commit del release.
 
 ### 7.3.2. Production Deployment Pipeline Components
+
+| Componente                              | Evidencia observada                                                                | Alcance                                                                               |
+| --------------------------------------- | ---------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------- |
+| Origen del backend                      | Repositorio GitHub conectado y directorio del módulo configurado en Railway        | Identifica el origen de construcción del servicio                                     |
+| Rama de producción                      | Main seleccionada en Railway                                                       | Identifica la rama vinculada a producción en la captura                               |
+| Automatización del backend              | Despliegue automático activado; Wait for CI desactivado                            | Acredita la configuración fotografiada, sin acreditar una condición obligatoria de CI |
+| Servicios y variables                   | Backend y MySQL en estado Online, con variables sensibles ocultas                  | Evidencia configuración y estado al momento de la captura                             |
+| Publicación de la landing               | Corrida «pages build and deployment» aprobada                                      | Acredita el despliegue registrado en GitHub Pages                                     |
+| Frontend en Netlify                     | URL pública consultada                                                             | Acredita disponibilidad HTTP en la fecha de consulta                                  |
+| Correspondencia entre versión y release | Falta registro que vincule el commit validado con el release de Netlify o Railway  | Pendiente de trazabilidad completa                                                    |
+| Recuperación                            | No se dispone de una ejecución documentada de recuperación de una versión anterior | Pendiente de evidencia                                                                |
+
+**Figura 111**  
+_Origen, rama y configuración de despliegue del backend en Railway_
+
+<p align="center">
+  <img src="assets/chapter-5/backend/railway-source.png" width="1000" alt="Railway: backend conectado a main, despliegue automático activado y Wait for CI desactivado">
+</p>
+
+_Nota._ Captura de configuración incluida en las evidencias del backend. Muestra el despliegue automático activado y la espera por CI desactivada; no identifica el commit de una publicación concreta.
+
+**Figura 112**  
+_Servicios de producción y configuración de variables del backend_
+
+<p align="center">
+  <img src="assets/chapter-5/backend/railway-servicios-variables.png" width="1000" alt="Railway: backend y MySQL Online, con valores de variables ocultos">
+</p>
+
+_Nota._ La captura muestra el backend y MySQL en estado Online. Los valores de las variables permanecen ocultos y no se transcriben en el informe.
+
+**Registro de publicación de GitHub Pages**
+
+GitHub registra [pages build and deployment, corrida 37563025123](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-LandingPage/actions/runs/37563025123) con resultado aprobado. La corrida está asociada a la rama gh-pages y al commit 0b2b0fff. Se presenta como evidencia de publicación de la landing y se distingue de sus corridas CI sobre main: no se afirma que estas hayan publicado automáticamente ese mismo commit.
+
+**Comprobación de disponibilidad pública**
+
+El 06/10/2026 se realizaron consultas de lectura a las siguientes URLs. Estas comprobaciones son independientes de las corridas CI del 07/10/2026.
+
+| Producto o servicio                            | URL consultada                                                                                       | Resultado |
+| ---------------------------------------------- | ---------------------------------------------------------------------------------------------------- | --------- |
+| Landing Page en GitHub Pages                   | [ArquiTech-LandingPage](https://upc-1asi0732-202620-9112-arquitech.github.io/ArquiTech-LandingPage/) | HTTP 200  |
+| Landing Page, publicación histórica de Netlify | [Landing Page](https://incredible-meringue-eb1ec4.netlify.app/)                                      | HTTP 200  |
+| Frontend Web                                   | [Aplicación web](https://precious-bavarois-d27735.netlify.app/)                                      | HTTP 200  |
+| Documentación del backend                      | [Swagger UI](https://arquitech-backend-production.up.railway.app/swagger-ui/index.html)              | HTTP 200  |
+| Contrato del backend                           | [OpenAPI](https://arquitech-backend-production.up.railway.app/v3/api-docs)                           | HTTP 200  |
+
+Las respuestas HTTP confirman accesibilidad en la fecha registrada. La identificación del commit publicado, el funcionamiento de los flujos autenticados y la dependencia entre CI y despliegue requieren sus evidencias específicas. La relación entre cada resultado, implementación y sección se conserva en el Anexo C.
 
 # Conclusiones
 
