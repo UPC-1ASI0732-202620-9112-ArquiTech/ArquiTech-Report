@@ -287,7 +287,7 @@ _Commits realizados durante la entrega AV1_
 
 <p align="justify">
 
-El curso contribuye al cumplimiento del siguiente Student Outcome ABET:
+El curso contribuye al cumplimiento del Student Outcome ABET:
 
 </p>
 
@@ -299,20 +299,133 @@ Criterio: _La capacidad de reconocer responsabilidades éticas y profesionales e
 
 </p>
 
+<p align="justify">
+
+En el siguiente cuadro se describe las acciones realizadas y enunciados de conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el logro del ABET – EAC - Student Outcome 4.
+
+</p>
+
 <table style="width:100%; table-layout:fixed; border-collapse:collapse;">
-  <colgroup><col style="width:18%;"><col style="width:60%;"><col style="width:22%;"></colgroup>
-  <thead><tr><th align="center" style="text-align:center !important;">Criterio específico</th><th align="center" style="text-align:center !important;">Acciones realizadas</th><th align="center" style="text-align:center !important;">Conclusiones</th></tr></thead>
+  <colgroup>
+    <col style="width:18%;">
+    <col style="width:60%;">
+    <col style="width:22%;">
+  </colgroup>
+  <thead>
+    <tr>
+      <th align="center" style="text-align:center !important;">Criterio específico</th>
+      <th align="center" style="text-align:center !important;">Acciones realizadas</th>
+      <th align="center" style="text-align:center !important;">Conclusiones</th>
+    </tr>
+  </thead>
   <tbody>
-    <tr>
-      <td valign="middle" style="text-align:justify; vertical-align:middle !important; padding:8px;"><strong>4.c.1 Reconoce responsabilidad ética y profesional en situaciones de ingeniería de software</strong></td>
-      <td style="text-align:justify; vertical-align:top; padding:8px;"><strong>Mendoza Moreano, Mariel Lucero</strong><br><strong>AV1:</strong> Participó en la elaboración de la descripción de la startup, perfiles de integrantes, antecedentes y problemática, Lean UX Process, User Personas, User Task Matrix, Web Applications Prototyping y Domain-Driven Software Architecture. Estas actividades permitieron identificar de manera responsable las necesidades de los usuarios, evitar diseñar funcionalidades basadas únicamente en supuestos y plantear una solución alineada con los problemas reales del dominio de construcción.<br><br><strong>Chacaliaza Minaya, Eduardo Fabian</strong><br><strong>AV1:</strong> Elaboró los segmentos objetivo, el análisis competitivo, las estrategias y tácticas frente a competidores, el Product Backlog, Landing Page UI Design y Mobile Applications UX/UI Design. Estas actividades implicaron documentar de manera transparente las fortalezas y limitaciones de ArquiTech frente a otras soluciones, priorizar requisitos de acuerdo con las necesidades de los usuarios y considerar criterios de claridad, accesibilidad y responsabilidad en el diseño de las interfaces.<br><br><strong>Quispe Barzola, Fabricio Fabian</strong><br><strong>AV1:</strong> Desarrolló el diseño, registro y análisis de entrevistas, User Stories, Software Object-Oriented Design, Database Design y Software Configuration Management. La realización de entrevistas permitió obtener información directamente de los segmentos objetivo y reducir decisiones basadas en suposiciones. Asimismo, la definición de requisitos, modelos de datos y prácticas de configuración contribuyó a una documentación responsable y trazable del sistema.<br><br><strong>Espino Rossi, Victor Manuel</strong><br><strong>AV1:</strong> Elaboró User Journey Mapping, Empathy Mapping, Impact Mapping, Mobile Applications Prototyping, Web Applications UX/UI Design y Product Implementation &amp; Deployment. Estas actividades permitieron representar de forma responsable las necesidades, frustraciones y experiencias de los usuarios, evitando que el diseño de la solución se centre únicamente en aspectos técnicos y considerando la experiencia de los distintos actores involucrados.<br><br><strong>Garcia Cerpa, Braden Raid</strong><br><strong>AV1:</strong> Elaboró As-is Scenario Mapping, Ubiquitous Language, To-Be Scenario Mapping, Style Guidelines, Information Architecture y Video About-the-Product. Estas actividades contribuyeron a mantener una comunicación clara y sin ambigüedades dentro del proyecto, así como a diseñar una experiencia comprensible y consistente para los usuarios, considerando principios de accesibilidad, claridad de información y comunicación responsable del producto.</td>
-      <td valign="middle" style="text-align:justify; vertical-align:middle !important; padding:8px;"><strong>AV1:</strong> Durante el desarrollo del primer avance, el equipo reconoció que la construcción de ArquiTech no debe limitarse a implementar funcionalidades, sino que requiere comprender las consecuencias de las decisiones tomadas durante el ciclo de vida del software. La investigación con usuarios, la definición responsable de requisitos, la documentación de decisiones y el diseño orientado a la accesibilidad permitieron reducir suposiciones y establecer una base ética para el desarrollo de la solución. El equipo concluye que la responsabilidad profesional implica mantener transparencia sobre las capacidades y limitaciones del producto, proteger la información gestionada y priorizar las necesidades reales de los usuarios.</td>
-    </tr>
-    <tr>
-      <td valign="middle" style="text-align:justify; vertical-align:middle !important; padding:8px;"><strong>4.c.2 Emite juicios informados considerando el impacto de las soluciones de ingeniería de software en contextos globales, económicos, ambientales y sociales</strong></td>
-      <td style="text-align:justify; vertical-align:top; padding:8px;"><strong>Mendoza Moreano, Mariel Lucero</strong><br><strong>AV1:</strong> Mediante el análisis de la problemática, Lean UX Process, User Personas y User Task Matrix, identificó cómo los procesos manuales utilizados actualmente pueden afectar la productividad y coordinación de las obras. Sus aportes permitieron considerar el impacto social de facilitar el trabajo de supervisores y personal administrativo, así como el impacto económico asociado a una mejor gestión del tiempo y de los recursos utilizados en los proyectos.<br><br><strong>Chacaliaza Minaya, Eduardo Fabian</strong><br><strong>AV1:</strong> A través del análisis de segmentos, competidores, estrategias competitivas y Product Backlog, evaluó el contexto económico en el que ArquiTech busca posicionarse. El análisis permitió reconocer la necesidad de ofrecer una solución accesible para pequeñas y medianas empresas constructoras, así como considerar el impacto económico de reducir errores de inventario, mejorar el seguimiento de proyectos y evitar el uso innecesario de recursos.<br><br><strong>Quispe Barzola, Fabricio Fabian</strong><br><strong>AV1:</strong> Mediante las entrevistas y el análisis de los datos obtenidos de los usuarios, identificó problemas relacionados con duplicidad de información, retrasos en reportes y dificultades de coordinación. Estos hallazgos permiten emitir juicios sobre el impacto social y económico de la solución, debido a que una gestión más eficiente puede reducir pérdidas de tiempo, errores administrativos y decisiones basadas en información desactualizada.<br><br><strong>Espino Rossi, Victor Manuel</strong><br><strong>AV1:</strong> Mediante User Journey Mapping, Empathy Mapping e Impact Mapping, analizó cómo la solución podría modificar la experiencia de los usuarios y generar cambios en la forma en que supervisores y contratantes acceden a la información. Estos artefactos permitieron considerar impactos sociales relacionados con la comunicación y transparencia entre los actores del proyecto, además de impactos económicos derivados de una toma de decisiones más oportuna.<br><br><strong>Garcia Cerpa, Braden Raid</strong><br><strong>AV1:</strong> A través del As-is Scenario Mapping y To-Be Scenario Mapping, comparó la situación actual con la experiencia propuesta mediante ArquiTech. Esta comparación permitió identificar posibles mejoras en la eficiencia operativa y en la reducción del uso de documentos físicos, considerando tanto el impacto económico como el ambiental asociado a la digitalización de procesos. Asimismo, las decisiones de Information Architecture y Style Guidelines contribuyeron a considerar el impacto social de ofrecer una plataforma comprensible y accesible para diferentes tipos de usuarios.</td>
-      <td valign="middle" style="text-align:justify; vertical-align:middle !important; padding:8px;"><strong>AV1:</strong> El equipo concluye que ArquiTech puede generar impactos positivos en diferentes dimensiones. En el contexto económico, puede contribuir a disminuir errores de inventario, duplicidad de compras y tiempo invertido en tareas administrativas. En el contexto social, puede mejorar la coordinación y transparencia entre supervisores, áreas administrativas y contratantes. Desde una perspectiva ambiental, la digitalización de registros y reportes puede reducir el uso de documentos físicos, aunque también deberá considerarse posteriormente el consumo de recursos tecnológicos asociado a la plataforma. En el contexto global, el equipo reconoce que una solución digital orientada al sector construcción debe considerar escalabilidad, protección de información, accesibilidad e internacionalización para poder adaptarse a distintos contextos y usuarios.</td>
-    </tr>
+  <tr>
+      <td valign="middle" style="text-align:justify; vertical-align:middle !important; padding:8px;">
+        <strong>4.c.1 Reconoce responsabilidad ética y profesional en situaciones de ingeniería de software</strong>
+      </td>
+      <td style="text-align:justify; vertical-align:top; padding:8px;">
+      <strong>Mendoza Moreano, Mariel Lucero</strong><br>
+        <strong>AV1:</strong> Participó en la elaboración de la descripción de la startup, perfiles de integrantes, antecedentes y problemática, Lean UX Process, User Personas, User Task Matrix, Web Applications Prototyping y Domain-Driven Software Architecture. Estas actividades permitieron identificar de manera responsable las necesidades de los usuarios, evitar diseñar funcionalidades basadas únicamente en supuestos y plantear una solución alineada con los problemas reales del dominio de construcción.
+
+<br><br>
+
+  <strong>Chacaliaza Minaya, Eduardo Fabian</strong><br>
+        <strong>AV1:</strong> Elaboró los segmentos objetivo, el análisis competitivo, las estrategias y tácticas frente a competidores, el Product Backlog, Landing Page UI Design y Mobile Applications UX/UI Design. Estas actividades implicaron documentar de manera transparente las fortalezas y limitaciones de ArquiTech frente a otras soluciones, priorizar requisitos de acuerdo con las necesidades de los usuarios y considerar criterios de claridad, accesibilidad y responsabilidad en el diseño de las interfaces.
+
+  <br><br>
+        <strong>TP:</strong> Durante el TP, implementó y corrigió flujos en Frontend Web y Mobile para asistencia y eliminación confirmada de proyectos, además de consolidar la Landing bilingüe y el acceso público al SaaS Agreement. Incorporó pruebas E2E, adecuaciones de accesibilidad para ejecutarlas y ajustes de despliegue en Cloudflare. Estas acciones evidencian responsabilidad ética y profesional al exigir confirmación antes de operaciones destructivas, validar recorridos reales, mantener consistencia entre aplicaciones y ofrecer información legal accesible. La trazabilidad de pruebas, enlaces públicos y despliegues permitió comunicar con precisión el comportamiento disponible.
+
+  <br><br>
+<strong>Quispe Barzola, Fabricio Fabian</strong><br>
+        <strong>AV1:</strong> Desarrolló el diseño, registro y análisis de entrevistas, User Stories, Software Object-Oriented Design, Database Design y Software Configuration Management. La realización de entrevistas permitió obtener información directamente de los segmentos objetivo y reducir decisiones basadas en suposiciones. Asimismo, la definición de requisitos, modelos de datos y prácticas de configuración contribuyó a una documentación responsable y trazable del sistema.
+
+  <br><br>
+        <strong>TP:</strong> Durante el TP, finalizó y alineó los contratos del Backend, reforzó reglas de autorización y dominio, mantuvo secretos fuera del código y agregó pruebas para validar el contrato full-stack. También implementó la base del Frontend Mobile, sus pruebas y los cuatro workflows de GitHub Actions, junto con el soporte de preview en Cloudflare y la documentación de CI/CD. Su responsabilidad profesional se reflejó en proteger datos y accesos, automatizar verificaciones trazables y documentar solamente capacidades respaldadas por código, configuraciones y ejecuciones reales, dejando explícitas las limitaciones no implementadas.
+
+  <br><br>
+
+  <strong>Espino Rossi, Victor Manuel</strong><br>
+        <strong>AV1:</strong> Elaboró User Journey Mapping, Empathy Mapping, Impact Mapping, Mobile Applications Prototyping, Web Applications UX/UI Design y Product Implementation &amp; Deployment. Estas actividades permitieron representar de forma responsable las necesidades, frustraciones y experiencias de los usuarios, evitando que el diseño de la solución se centre únicamente en aspectos técnicos y considerando la experiencia de los distintos actores involucrados.
+
+  <br><br>
+        <strong>TP:</strong> Durante el TP, documentó Product Verification &amp; Validation, pruebas de integración, escenarios BDD, evidencia E2E y las prácticas DevOps del Capítulo VII. Además, corrigió User Personas, Journey Mapping, Empathy Mapping, escenarios As-Is y To-Be, Impact Mapping, estructura e índice del Report. Este trabajo expresó responsabilidad profesional al vincular cada afirmación con pruebas o configuraciones verificables, distinguir implementación de evidencia y limitación, y mantener coherencia entre investigación, requisitos, artefactos de experiencia y producto. Así evitó presentar como concluida una capacidad que los repositorios no demostraban.
+
+  <br><br>
+
+  <strong>Garcia Cerpa, Braden Raid</strong><br>
+        <strong>AV1:</strong> Elaboró As-is Scenario Mapping, Ubiquitous Language, To-Be Scenario Mapping, Style Guidelines, Information Architecture y Video About-the-Product. Estas actividades contribuyeron a mantener una comunicación clara y sin ambigüedades dentro del proyecto, así como a diseñar una experiencia comprensible y consistente para los usuarios, considerando principios de accesibilidad, claridad de información y comunicación responsable del producto.
+
+  <br><br>
+        <strong>TP:</strong> Durante el TP, configuró Playwright y desarrolló pruebas funcionales para el uso de materiales y la regla de unicidad del serial de maquinaria, además de pruebas E2E Mobile para autenticación y creación de proyectos. Estas verificaciones demostraron responsabilidad ética y profesional al comprobar reglas críticas antes de exponerlas a usuarios, prevenir operaciones que afecten indebidamente el stock o la identificación de equipos y validar que el acceso y el registro de proyectos respondan al comportamiento esperado. Su aporte fortaleció la detección trazable de errores en flujos relevantes del dominio.
+
+</td>
+
+  <td valign="middle" style="text-align:justify; vertical-align:middle !important; padding:8px;">
+
+  <strong>AV1:</strong> Durante el desarrollo del primer avance, el equipo reconoció que la construcción de ArquiTech no debe limitarse a implementar funcionalidades, sino que requiere comprender las consecuencias de las decisiones tomadas durante el ciclo de vida del software. La investigación con usuarios, la definición responsable de requisitos, la documentación de decisiones y el diseño orientado a la accesibilidad permitieron reducir suposiciones y establecer una base ética para el desarrollo de la solución. El equipo concluye que la responsabilidad profesional implica mantener transparencia sobre las capacidades y limitaciones del producto, proteger la información gestionada y priorizar las necesidades reales de los usuarios.
+
+  <br><br>
+
+  <strong>TP:</strong> Durante el Trabajo Parcial, el equipo profundizó su responsabilidad profesional mediante pruebas automatizadas de reglas de dominio, integración y recorridos E2E; controles de autorización; protección de secretos; y confirmaciones para operaciones destructivas. Los workflows de CI aportaron verificaciones reproducibles y trazabilidad para Web, Backend, Mobile y Landing, mientras que los despliegues y previews se documentaron con evidencia verificable. El Report distinguió de forma explícita entre implementación, ejecución observada y limitaciones pendientes, como Playwright deshabilitado en CI, ausencia de staging aislado para Backend y falta de distribución automática del APK. El equipo concluye que actuar profesionalmente también exige no atribuir al producto capacidades que sus repositorios, pruebas o configuraciones no demuestran.
+
+  </td>
+</tr>
+
+<tr>
+      <td valign="middle" style="text-align:justify; vertical-align:middle !important; padding:8px;">
+        <strong>4.c.2 Emite juicios informados considerando el impacto de las soluciones de ingeniería de software en contextos globales, económicos, ambientales y sociales</strong>
+      </td>
+
+  <td style="text-align:justify; vertical-align:top; padding:8px;">
+
+  <strong>Mendoza Moreano, Mariel Lucero</strong><br>
+        <strong>AV1:</strong> Mediante el análisis de la problemática, Lean UX Process, User Personas y User Task Matrix, identificó cómo los procesos manuales utilizados actualmente pueden afectar la productividad y coordinación de las obras. Sus aportes permitieron considerar el impacto social de facilitar el trabajo de supervisores y personal administrativo, así como el impacto económico asociado a una mejor gestión del tiempo y de los recursos utilizados en los proyectos.
+
+  <br><br>
+
+  <strong>Chacaliaza Minaya, Eduardo Fabian</strong><br>
+        <strong>AV1:</strong> A través del análisis de segmentos, competidores, estrategias competitivas y Product Backlog, evaluó el contexto económico en el que ArquiTech busca posicionarse. El análisis permitió reconocer la necesidad de ofrecer una solución accesible para pequeñas y medianas empresas constructoras, así como considerar el impacto económico de reducir errores de inventario, mejorar el seguimiento de proyectos y evitar el uso innecesario de recursos.
+
+  <br><br>
+        <strong>TP:</strong> Durante el TP, la implementación de asistencia y seguimiento en Web y Mobile aportó al impacto social al facilitar que supervisores y contratantes dispongan de registros más transparentes sobre el personal y la obra. Las confirmaciones antes de eliminar proyectos y las pruebas de recorridos reducen el riesgo económico de pérdidas accidentales o errores operativos. La Landing y el SaaS Agreement bilingües amplían el alcance global de la información pública y permiten conocer las condiciones del servicio. Estas decisiones relacionaron funcionalidad, acceso legal y consistencia entre plataformas con consecuencias concretas para usuarios y organizaciones.
+
+  <br><br>
+
+  <strong>Quispe Barzola, Fabricio Fabian</strong><br>
+        <strong>AV1:</strong> Mediante las entrevistas y el análisis de los datos obtenidos de los usuarios, identificó problemas relacionados con duplicidad de información, retrasos en reportes y dificultades de coordinación. Estos hallazgos permiten emitir juicios sobre el impacto social y económico de la solución, debido a que una gestión más eficiente puede reducir pérdidas de tiempo, errores administrativos y decisiones basadas en información desactualizada.
+
+  <br><br>
+        <strong>TP:</strong> Durante el TP, las reglas de autorización, la protección de secretos y la validación del contrato API permitieron considerar el impacto social de resguardar accesos y datos utilizados por supervisores y contratantes. Los cuatro workflows de CI introdujeron verificaciones reproducibles para detectar errores antes de producción, con impacto económico al reducir correcciones tardías y despliegues defectuosos. La automatización homogénea entre tecnologías también aporta una práctica transferible a contextos globales de desarrollo. Al documentar límites reales de Railway, Playwright, Pages y Mobile, sustentó decisiones informadas sin convertir pendientes técnicos en beneficios inexistentes.
+
+  <br><br>
+
+  <strong>Espino Rossi, Victor Manuel</strong><br>
+        <strong>AV1:</strong> Mediante User Journey Mapping, Empathy Mapping e Impact Mapping, analizó cómo la solución podría modificar la experiencia de los usuarios y generar cambios en la forma en que supervisores y contratantes acceden a la información. Estos artefactos permitieron considerar impactos sociales relacionados con la comunicación y transparencia entre los actores del proyecto, además de impactos económicos derivados de una toma de decisiones más oportuna.
+
+  <br><br>
+        <strong>TP:</strong> Durante el TP, vinculó la verificación del producto, pruebas BDD, integración y evidencia E2E con la documentación de DevOps y con la corrección de artefactos de experiencia de usuario. Este enfoque permitió emitir juicios basados en resultados observables sobre el impacto social de la transparencia para supervisores y contratantes, y sobre el impacto económico de errores, reprocesos y decisiones con información inconsistente. Al mantener visibles las limitaciones de pruebas y despliegue y al alinear personas, journeys, escenarios e Impact Mapping con la evidencia, evitó conclusiones que excedieran el alcance real de la solución.
+
+  <br><br>
+
+  <strong>Garcia Cerpa, Braden Raid</strong><br>
+        <strong>AV1:</strong> A través del As-is Scenario Mapping y To-Be Scenario Mapping, comparó la situación actual con la experiencia propuesta mediante ArquiTech. Esta comparación permitió identificar posibles mejoras en la eficiencia operativa y en la reducción del uso de documentos físicos, considerando tanto el impacto económico como el ambiental asociado a la digitalización de procesos. Asimismo, las decisiones de Information Architecture y Style Guidelines contribuyeron a considerar el impacto social de ofrecer una plataforma comprensible y accesible para diferentes tipos de usuarios.
+
+  <br><br>
+        <strong>TP:</strong> Durante el TP, las pruebas sobre uso de materiales y seriales de maquinaria permitieron evaluar el impacto económico de impedir consumos sin stock suficiente y detectar identificadores que comprometan la trazabilidad de equipos. Las pruebas E2E de autenticación y creación de proyectos abordaron el impacto profesional y social de ofrecer acceso controlado y flujos previsibles para registrar obras. Al validar comportamientos críticos antes de su uso en proyectos reales, su trabajo ayudó a identificar fallos que podrían afectar recursos, continuidad operativa y confianza de supervisores y contratantes en la información registrada.
+
+  </td>
+
+  <td valign="middle" style="text-align:justify; vertical-align:middle !important; padding:8px;">
+
+  <strong>AV1:</strong> El equipo concluye que ArquiTech puede generar impactos positivos en diferentes dimensiones. En el contexto económico, puede contribuir a disminuir errores de inventario, duplicidad de compras y tiempo invertido en tareas administrativas. En el contexto social, puede mejorar la coordinación y transparencia entre supervisores, áreas administrativas y contratantes. Desde una perspectiva ambiental, la digitalización de registros y reportes puede reducir el uso de documentos físicos, aunque también deberá considerarse posteriormente el consumo de recursos tecnológicos asociado a la plataforma. En el contexto global, el equipo reconoce que una solución digital orientada al sector construcción debe considerar escalabilidad, protección de información, accesibilidad e internacionalización para poder adaptarse a distintos contextos y usuarios.
+
+  <br><br>
+
+  <strong>TP:</strong> Durante el Trabajo Parcial, el equipo emitió juicios más informados al relacionar las funcionalidades y su evidencia con impactos concretos. Las validaciones de inventario, maquinaria, asistencia y eliminación confirmada pueden reducir errores y reprocesos con consecuencias económicas, mientras que la autorización, la trazabilidad y la digitalización de registros favorecen la confianza y coordinación social entre supervisores y contratantes. Las pruebas automatizadas y CI ayudan a evitar ejecuciones y despliegues defectuosos, contribuyendo a un uso más responsable de recursos tecnológicos, sin asumir beneficios ambientales no medidos. El contenido bilingüe y el acceso al SaaS Agreement incorporan una perspectiva global y legal. El equipo mantuvo explícitas las limitaciones de staging, E2E y distribución móvil para que la evaluación de impactos permanezca respaldada por evidencia.
+
+  </td>
+</tr>
+
   </tbody>
 </table>
 
