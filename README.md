@@ -2540,152 +2540,70 @@ _Nota._ Elaboración propia.
 
 ### 2.3.5. As-is Scenario Mapping
 
-<p align="justify">
+### 2.3.5. As-is Scenario Mapping
 
-El As-is Scenario Mapping permite representar la experiencia actual de los User Persona antes de considerar las mejoras propuestas mediante ArquiTech. Para su elaboración se organizan las actividades de cada segmento en fases y se describen las acciones que realiza el usuario (Doing), los pensamientos que surgen durante el proceso (Thinking) y las emociones asociadas a cada momento (Feeling). A partir de este análisis también se identifican áreas positivas, áreas negativas y blank areas, entendidas como aspectos sobre los cuales todavía es necesario profundizar el conocimiento del usuario.
+La lectura del escenario actual parte de las entrevistas de 2.2 y ordena las actividades por fase. En el segmento Supervisor, la figura distingue Planificación Matutina, Supervisión en Campo, Gestión Operativa y Reporte y Cierre Diario. La fila Doing registra acciones como revisar cuadernos o Excel, confirmar asistencia, recorrer la obra, contar materiales y enviar resúmenes; Thinking muestra dudas sobre stock, ritmo de avance y completitud del reporte; Feeling identifica preocupación, presión y agotamiento.
 
-</p>
+Para elaborar y revisar estos mapas se propone preparar los hallazgos por segmento, generar ideas a partir de los registros, agruparlas en fases y ubicar cada observación en Doing/Thinking/Feeling. Este procedimiento es una pauta reproducible de revisión: el ZIP no permite acreditar que se realizó una sesión específica de lluvia de ideas. Las figuras de áreas positivas identifican prácticas que se deben conservar; las negativas señalan dificultades a reducir; las blank areas representan preguntas y datos faltantes que requieren investigación. El segundo segmento se analiza por separado para conservar su perspectiva de consulta y supervisión contractual.
 
-#### As-is Scenario Mapping del segmento #1: Supervisores de obra
-
-<p align="justify">
-
-Para el segmento de supervisores de obra, el escenario actual se organiza en cuatro fases: Planificación Matutina, Supervisión en Campo, Gestión Operativa y Reporte y Cierre Diario. Durante estas etapas, el supervisor consulta registros previos, coordina la asistencia del personal, recorre físicamente la obra, registra problemas, verifica materiales, asigna tareas y posteriormente consolida información para comunicar el estado de la jornada.
-
-</p>
-
-<p align="justify">
-
-El escenario evidencia una fuerte dependencia de mecanismos manuales y herramientas separadas. La planificación puede apoyarse en cuadernos, hojas de cálculo y comunicaciones por WhatsApp; la supervisión requiere recorridos físicos y anotaciones durante la jornada; la gestión de materiales depende de verificaciones realizadas directamente en almacén; y el cierre diario implica consolidar horas trabajadas, materiales utilizados y avances en reportes elaborados manualmente.
-
-</p>
+<ins>**As-Is Scenario Mapping del segmento #1: Supervisores de Obra**</ins>
 
 **Figura 18**  
-_As-is Scenario Mapping para segmento #1_
+_As-Is Scenario Mapping para segmento #1_
 
 <p align="center">
-  <img src="assets/chapter-2/As-is/OS_As-is_S1.jpg"
-       alt="As-is Scenario Mapping del supervisor de obra con las fases Planificación Matutina, Supervisión en Campo, Gestión Operativa y Reporte y Cierre Diario"
-       width="1000">
-</p>
-
-<p align="justify">
-
-Entre los aspectos favorables del proceso actual se encuentra el contacto directo con la obra, que permite al supervisor observar personalmente lo que ocurre y ajustar las actividades de acuerdo con las situaciones identificadas durante la jornada.
-
+  <img src="assets/chapter-2/As-is/OS_As-is_S1.jpg" alt="PB" width="1000">
 </p>
 
 **Figura 19**  
-_Áreas positivas del As-is Scenario Mapping para segmento #1_
+_Áreas positivas del As-Is Scenario Mapping para segmento #1_
 
 <p align="center">
-  <img src="assets/chapter-2/As-is/OS_As-is_S1_AP.jpg"
-       alt="Áreas positivas identificadas en el As-is Scenario Mapping del supervisor de obra"
-       width="1000">
-</p>
-
-<p align="justify">
-
-Las principales dificultades se relacionan con la falta de información suficientemente clara al inicio de la jornada, el tiempo requerido para contar materiales y coordinar personal de manera manual y la elaboración de reportes mediante papel u hojas de cálculo, actividades que pueden demandar tiempo adicional y aumentar la posibilidad de inconsistencias.
-
+  <img src="assets/chapter-2/As-is/OS_As-is_S1_AP.jpg" alt="PB" width="1000">
 </p>
 
 **Figura 20**  
-_Áreas negativas del As-is Scenario Mapping para segmento #1_
+_Áreas negativas del As-Is Scenario Mapping para segmento #1_
 
 <p align="center">
-  <img src="assets/chapter-2/As-is/OS_As-is_S1_AN.jpg"
-       alt="Áreas negativas identificadas en el As-is Scenario Mapping del supervisor de obra"
-       width="1000">
-</p>
-
-<p align="justify">
-
-Las blank areas identificadas muestran aspectos que requieren mayor comprensión, como la forma en que el supervisor prioriza tareas cuando ocurren retrasos inesperados, la frecuencia con la que contrasta físicamente el inventario con los registros disponibles y el procedimiento utilizado para resolver discrepancias relacionadas con las horas trabajadas reportadas por el personal.
-
+  <img src="assets/chapter-2/As-is/OS_As-is_S1_AN.jpg" alt="PB" width="1000">
 </p>
 
 **Figura 21**  
-_Blank areas del As-is Scenario Mapping para segmento #1_
+_Blank areas del As-Is Scenario Mapping para segmento \#1_
 
 <p align="center">
-  <img src="assets/chapter-2/As-is/OS_As-is_S1_BA.jpg"
-       alt="Blank areas identificadas en el As-is Scenario Mapping del supervisor de obra"
-       width="1000">
+  <img src="assets/chapter-2/As-is/OS_As-is_S1_BA.jpg" alt="PB" width="1000">
 </p>
 
-#### As-is Scenario Mapping del segmento #2: Contratantes de empresas privadas
-
-<p align="justify">
-
-Para el segmento de contratantes de empresas privadas, el escenario actual se divide en las fases Selección de Constructora, Seguimiento de Progreso, Verificación de Cumplimiento y Evaluación Final. El contratante busca alternativas, revisa antecedentes y solicita cotizaciones; posteriormente recibe actualizaciones sobre la ejecución, realiza visitas ocasionales, solicita documentación de cumplimiento y finalmente revisa los resultados de la obra.
-
-</p>
-
-<p align="justify">
-
-Este proceso depende en gran medida de información proporcionada por terceros y de canales independientes. Las recomendaciones, correos electrónicos, llamadas, mensajes y visitas presenciales son utilizados para conocer el estado del proyecto, mientras que la validación de permisos, normas y cumplimiento puede requerir documentos enviados por la constructora o la participación de inspectores externos.
-
-</p>
+<ins>**As-Is Scenario Mapping para Segmento \# 2: Contratantes de Empresas Privadas**</ins>
 
 **Figura 22**  
-_As-is Scenario Mapping para segmento #2_
+_As-Is Scenario Mapping para segmento #2_
 
 <p align="center">
-  <img src="assets/chapter-2/As-is/OS_As-is_S2.jpg"
-       alt="As-is Scenario Mapping del contratante con las fases Selección de Constructora, Seguimiento de Progreso, Verificación de Cumplimiento y Evaluación Final"
-       width="1000">
-</p>
-
-<p align="justify">
-
-Entre los aspectos positivos identificados se encuentran las visitas a la obra, que permiten comprobar personalmente el progreso, y el apoyo de especialistas externos para verificar determinados aspectos del cumplimiento del proyecto.
-
+  <img src="assets/chapter-2/As-is/OS_As-is_S2.jpg" alt="PB" width="1000">
 </p>
 
 **Figura 23**  
-_Áreas positivas del As-is Scenario Mapping para segmento #2_
+_Áreas positivas del As-Is Scenario Mapping para segmento #2_
 
 <p align="center">
-  <img src="assets/chapter-2/As-is/OS_As-is_S2_AP.jpg"
-       alt="Áreas positivas identificadas en el As-is Scenario Mapping del contratante"
-       width="1000">
-</p>
-
-<p align="justify">
-
-Las principales dificultades se presentan al seleccionar una constructora confiable, verificar manualmente licencias y normas, depender de terceros para obtener evidencia de cumplimiento y recibir reportes que pueden resultar poco frecuentes o insuficientemente detallados. Estas limitaciones reducen la visibilidad disponible durante la ejecución de la obra y dificultan su evaluación posterior.
-
+  <img src="assets/chapter-2/As-is/OS_As-is_S2_AP.jpg" alt="PB" width="1000">
 </p>
 
 **Figura 24**  
-_Áreas negativas del As-is Scenario Mapping para segmento #2_
+_Áreas negativas del As-Is Scenario Mapping para segmento #2_
 
 <p align="center">
-  <img src="assets/chapter-2/As-is/OS_As-is_S2_AN.jpg"
-       alt="Áreas negativas identificadas en el As-is Scenario Mapping del contratante"
-       width="1000">
-</p>
-
-<p align="justify">
-
-Las blank areas del segmento reflejan interrogantes que requieren mayor investigación, entre ellas el nivel de detalle que el contratante espera recibir en los reportes, los criterios utilizados para confiar en una empresa constructora más allá de las recomendaciones y la influencia que puede tener la tecnología en la decisión de contratar y realizar seguimiento a una obra.
-
+  <img src="assets/chapter-2/As-is/OS_As-is_S2_AN.jpg" alt="PB" width="1000">
 </p>
 
 **Figura 25**  
-_Blank areas del As-is Scenario Mapping para segmento #2_
+_Blank areas del As-Is Scenario Mapping para segmento #2_
 
 <p align="center">
-  <img src="assets/chapter-2/As-is/OS_As-is_S2_BA.jpg"
-       alt="Blank areas identificadas en el As-is Scenario Mapping del contratante"
-       width="1000">
-</p>
-
-<p align="justify">
-
-En conjunto, los dos escenarios muestran experiencias diferentes. El supervisor se encuentra involucrado directamente en la operación cotidiana de la obra y enfrenta dificultades relacionadas con coordinación, inventario, personal y consolidación de información. El contratante, en cambio, se encuentra principalmente en una posición de seguimiento y verificación, por lo que sus principales dificultades se relacionan con la disponibilidad, claridad y oportunidad de la información que recibe durante la ejecución del proyecto. Estos hallazgos sirven como punto de partida para contrastar posteriormente la situación actual con los escenarios To-Be.
-
+  <img src="assets/chapter-2/As-is/OS_As-is_S2_BA.jpg" alt="PB" width="1000">
 </p>
 
 ## 2.4. Ubiquitous Language
