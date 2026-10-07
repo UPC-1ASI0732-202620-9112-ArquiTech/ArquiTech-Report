@@ -2913,6 +2913,22 @@ _Product Backlog de ArquiTech_
 
 ## 3.4. Impact Mapping
 
+**Ampliación propuesta de objetivos SMART para revisión del equipo:** la figura original contiene un objetivo. Los siguientes objetivos adicionales se plantean para completar el diseño; sus valores no son resultados ni acuerdos ya aprobados.
+
+| ID    | Business Goal propuesto                                                                                                                                         | Actor e impacto esperado                                           | Entregable/HU                                       | Medida y comprobación                                                                                |
+| ----- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------ | --------------------------------------------------- | ---------------------------------------------------------------------------------------------------- |
+| BG-01 | Reducir 40% el tiempo/esfuerzo de generación y consulta de reportes en seis meses (meta original)                                                               | Supervisor consolida registros; contratante consulta oportunamente | Reportes semanales y selección de obra              | Tiempo mediano antes/después, frecuencia de uso y satisfacción                                       |
+| BG-02 | Lograr que al menos 80% de los supervisores del piloto registren entradas/usos el mismo día durante cuatro semanas                                              | Supervisor mantiene inventario actualizado                         | Registro e historial de movimientos; HU01/HU02/HU28 | Días con registro oportuno / días con movimiento × 100; comparar fecha del hecho y fecha de registro |
+| BG-03 | Lograr que al menos 80% de los contratantes del piloto consulten sus obras sin asistencia en una sesión de evaluación antes del cierre del siguiente incremento | Contratante encuentra y consulta su obra autónomamente             | Listado/consulta y permisos; HU33/HU40/HU27         | Participantes que completan tarea sin ayuda / participantes que intentan tarea × 100                 |
+
+BG-02 requiere instrumentar el dato de momento del registro si no está disponible; no debe calcularse sustituyéndolo por la fecha del movimiento. BG-03 requiere sesiones con usuarios; ningún porcentaje se presenta como observado. Las propuestas deben trasladarse al mapa editable y aprobarse junto con la priorización del backlog.
+
+**Requisito adicional confirmado (página física 18 del TP):** se exigen varios Business Goals SMART. La imagen actual muestra uno solo. La explicación y fórmula añadidas no cierran este faltante: el equipo debe definir otros objetivos, relacionarlos con actores/impactos/entregables/HU y actualizar la figura.
+
+El mapa plantea reducir en 40% el tiempo y esfuerzo de generación y consulta de reportes de obra durante los próximos seis meses. Es un objetivo específico y temporal; su medición requiere una línea base y comparación posterior, todavía no aportadas. Los actores son el supervisor y el contratante. Para el supervisor se esperan reportes más frecuentes, evidencia visual y selección correcta de obra; para el contratante, recepción y consulta oportuna de reportes. Los entregables del mapa incluyen formularios de reporte, carga de evidencias, filtro por obra, notificaciones y vista de reportes semanales. Son propuestas de alcance: no se acredita que todas estén implementadas. La cadena objetivo → actor → impacto → entregable → historia debe conservarse al priorizar 3.3 y al evidenciar implementación en 5.2.
+
+Para medir el objetivo se propone registrar el tiempo mediano de generación y consulta antes y después, calcular `(tiempo base - tiempo posterior) / tiempo base × 100`, y complementar con frecuencia de uso y satisfacción. El 40% es una meta, no un resultado del proyecto.
+
 _Impact Mapping de ArquiTech_
 
 <div align="center">
