@@ -2644,194 +2644,73 @@ Este vocabulario se utiliza de manera consistente en la especificación de requi
 
 ## 3.1. To-Be Scenario Mapping
 
-<p align="justify">
+El To-Be propone cómo cambiaría la experiencia con ArquiTech a partir de los problemas del As-Is de 2.3.5. Su revisión comienza con los hallazgos de cada segmento, continúa con propuestas de mejora y las organiza en fases y filas Doing/Thinking/Feeling. La comparación se centra en sustituir la consolidación dispersa por registros centralizados y facilitar la consulta del avance. Las áreas positivas representan beneficios esperados; las negativas, riesgos de adopción y conectividad; las blank areas, aspectos aún por validar. No se presentan estos beneficios como resultados medidos.
 
-El To-Be Scenario Mapping representa la experiencia futura que se propone para cada User Persona a partir de las oportunidades de mejora identificadas en los escenarios As-Is. Para su elaboración se mantienen las fases principales del proceso actual y se replantean las acciones (Doing), pensamientos (Thinking) y emociones (Feeling) del usuario considerando una experiencia apoyada por ArquiTech. Posteriormente, se identifican áreas positivas, áreas negativas y blank areas con el propósito de reconocer beneficios esperados, posibles limitaciones y aspectos que todavía requieren validación.
+| Dimensión        | As-Is                               | To-Be propuesto                               | Evidencia para validar                            |
+| ---------------- | ----------------------------------- | --------------------------------------------- | ------------------------------------------------- |
+| Materiales       | Conteos y registros separados       | Entradas, usos e historial por obra           | HU01/HU02/HU28 y pruebas de inventario en 6.1     |
+| Personal         | Coordinación y asistencia manual    | Personal y asistencia asociados a proyecto    | HU06/HU10 y suites de workforce                   |
+| Consulta de obra | Información consolidada con retraso | Acceso según rol y proyecto                   | HU22/HU27/HU33 y pruebas de autorización          |
+| Reportes         | Consolidación manual                | Reporte semanal a partir de datos registrados | Pruebas de weekly-report y experimento de tiempos |
 
-</p>
+<ins>_To-Be Scenario Mapping del segmento #1: Supervisores de obra_</ins>
 
-<p align="justify">
-
-El análisis To-Be se construye en contraste con los escenarios As-Is presentados previamente. Mientras el As-Is describe cómo los usuarios realizan actualmente sus actividades mediante registros manuales, herramientas independientes, comunicaciones dispersas y verificaciones presenciales, el To-Be plantea una experiencia futura en la que la información relacionada con la obra se encuentra más centralizada y accesible. Los escenarios representados en esta sección corresponden a una propuesta de experiencia futura y no constituyen, por sí mismos, evidencia de que todas las capacidades representadas se encuentren implementadas actualmente.
-
-</p>
-
-### To-Be Scenario Mapping del segmento #1: Supervisores de obra
-
-<p align="justify">
-
-Para el supervisor de obra se conservan las cuatro fases identificadas en el escenario As-Is: Planificación Matutina, Supervisión en Campo, Gestión Operativa y Reporte y Cierre Diario. El cambio principal consiste en trasladar parte de las actividades que anteriormente dependían de cuadernos, hojas de cálculo, mensajes y verificaciones manuales hacia una experiencia centralizada mediante ArquiTech.
-
-</p>
-
-<p align="justify">
-
-En la fase de Planificación Matutina, el escenario As-Is muestra que el supervisor revisa su cuaderno o archivos de Excel y se comunica con los trabajadores para confirmar la disponibilidad del personal. En el escenario To-Be, se propone que consulte desde ArquiTech las tareas planificadas y la asistencia registrada, permitiéndole iniciar la jornada con información organizada en un mismo entorno.
-
-</p>
-
-<p align="justify">
-
-Durante la Supervisión en Campo, el As-Is evidencia que el supervisor recorre físicamente la obra y registra problemas o retrasos mediante anotaciones independientes. En el To-Be, el recorrido continúa siendo parte de su actividad, pero se propone registrar avances y problemas durante la supervisión mediante ArquiTech. De esta manera, el cambio no consiste en eliminar la supervisión presencial, sino en facilitar el registro y organización de la información producida durante ella.
-
-</p>
-
-<p align="justify">
-
-En la Gestión Operativa, el escenario As-Is requiere verificar físicamente las cantidades disponibles en almacén y coordinar directamente la asignación de tareas. En el To-Be se plantea consultar información de inventario y actualizar el estado de las tareas desde la plataforma, reduciendo la dependencia de registros separados y facilitando el seguimiento de las actividades realizadas.
-
-</p>
-
-<p align="justify">
-
-Finalmente, durante el Reporte y Cierre Diario, el As-Is muestra la elaboración manual de reportes mediante papel o Excel y el envío posterior de un resumen. En el escenario To-Be se propone consolidar la información registrada durante la jornada para facilitar la elaboración y comunicación del reporte, disminuyendo el trabajo de recopilación manual al finalizar el día.
-
-</p>
-
-**Figura 26**  
-_To-Be Scenario Mapping del segmento #1: Supervisores de obra_
+_Figura 26_  
+To-Be Scenario Mapping del segmento #1
 
 <p align="center">
-  <img src="assets/chapter-3/To-be/OS_To-be_S1.jpg"
-       alt="To-Be Scenario Mapping del supervisor de obra con las fases Planificación Matutina, Supervisión en Campo, Gestión Operativa y Reporte y Cierre Diario"
-       width="1000">
+  <img src="assets/chapter-3/To-be/OS_To-be_S1.jpg" alt="PB" width="1000">
 </p>
 
-<p align="justify">
-
-Las áreas positivas identificadas reflejan los beneficios esperados del cambio respecto al As-Is. Entre ellos se encuentran disponer de información más clara al comenzar la jornada, registrar avances y problemas durante el trabajo en campo, consultar información de inventario y tareas de forma organizada y reducir el tiempo destinado a consolidar reportes.
-
-</p>
-
-**Figura 27**  
-_Áreas positivas del To-Be Scenario Mapping para segmento #1_
+_Figura 27_  
+Áreas positivas del To-Be Scenario Mapping para segmento #1
 
 <p align="center">
-  <img src="assets/chapter-3/To-be/OS_To-be_S1_AP.jpg"
-       alt="Áreas positivas identificadas en el To-Be Scenario Mapping del supervisor de obra"
-       width="1000">
+  <img src="assets/chapter-3/To-be/OS_To-be_S1_AP.jpg" alt="PB" width="1000">
 </p>
 
-<p align="justify">
-
-Como posible área negativa se identifica la dependencia de conectividad durante el trabajo en obra. A diferencia del As-Is, donde parte de los registros puede realizarse mediante medios físicos, una experiencia apoyada principalmente en una plataforma digital puede verse afectada cuando la conexión a Internet es limitada o inestable.
-
-</p>
-
-**Figura 28**  
-_Áreas negativas del To-Be Scenario Mapping para segmento #1_
+_Figura 28_  
+Áreas negativas del To-Be Scenario Mapping para segmento #1
 
 <p align="center">
-  <img src="assets/chapter-3/To-be/OS_To-be_S1_AN.jpg"
-       alt="Área negativa relacionada con posibles problemas de conectividad en el To-Be Scenario Mapping del supervisor de obra"
-       width="1000">
+  <img src="assets/chapter-3/To-be/OS_To-be_S1_AN.jpg" alt="PB" width="1000">
 </p>
 
-<p align="justify">
-
-Como blank area se identifica la necesidad de profundizar en la forma en que debería administrarse un inventario cuando los materiales se relacionan con varias obras. Este aspecto representa una situación que requiere mayor análisis antes de establecer una solución definitiva dentro de la experiencia propuesta.
-
-</p>
-
-**Figura 29**  
-_Blank areas del To-Be Scenario Mapping para segmento #1_
+_Figura 29_  
+Blank areas del To-Be Scenario Mapping para segmento #1
 
 <p align="center">
-  <img src="assets/chapter-3/To-be/OS_To-be_S1_BA.jpg"
-       alt="Blank area sobre la gestión de inventario entre varias obras en el To-Be Scenario Mapping del supervisor de obra"
-       width="1000">
+  <img src="assets/chapter-3/To-be/OS_To-be_S1_BA.jpg" alt="PB" width="1000">
 </p>
 
-### To-Be Scenario Mapping del segmento #2: Contratantes de empresas privadas
+<ins>_To-Be Scenario Mapping para Segmento #2: Contratantes de Empresas Privadas_</ins>
 
-<p align="justify">
-
-Para el contratante de empresa privada se mantienen las cuatro fases del escenario As-Is: Selección de Constructora, Seguimiento de Progreso, Verificación de Cumplimiento y Evaluación Final. El escenario To-Be busca reducir la dependencia de recomendaciones aisladas, comunicaciones posteriores, visitas presenciales y documentos distribuidos en diferentes medios, planteando una experiencia con mayor acceso y organización de la información del proyecto.
-
-</p>
-
-<p align="justify">
-
-Durante la Selección de Constructora, el As-Is muestra que el contratante busca alternativas mediante recomendaciones o Internet, solicita antecedentes y cotizaciones y compara diferentes opciones manualmente. En el To-Be se plantea que parte de esta información pueda consultarse de manera organizada mediante la plataforma, permitiendo disponer de antecedentes y datos que apoyen la comparación y la toma de decisiones.
-
-</p>
-
-<p align="justify">
-
-En el Seguimiento de Progreso, el As-Is depende principalmente de actualizaciones enviadas por WhatsApp, correo electrónico, llamadas y visitas ocasionales a la obra. En el To-Be se plantea que el contratante pueda consultar información actualizada del proyecto mediante ArquiTech, disminuyendo la necesidad de solicitar continuamente información o desplazarse a la obra únicamente para conocer su estado.
-
-</p>
-
-<p align="justify">
-
-En la Verificación de Cumplimiento, el As-Is requiere solicitar documentos por correo electrónico y, en determinadas situaciones, depender de terceros para comprobar aspectos de seguridad o cumplimiento. El To-Be propone organizar la documentación y los reportes relacionados con la obra en un mismo entorno, facilitando su consulta y reduciendo la dispersión de información.
-
-</p>
-
-<p align="justify">
-
-Durante la Evaluación Final, el As-Is se basa en revisar el informe proporcionado por la constructora y determinar posteriormente si se cumplieron los plazos y el presupuesto. En el escenario To-Be se plantea disponer de información consolidada a lo largo del proyecto, de modo que la evaluación final pueda realizarse con mayor trazabilidad sobre los datos registrados durante su ejecución.
-
-</p>
-
-**Figura 30**  
-_To-Be Scenario Mapping del segmento #2: Contratantes de empresas privadas_
+_Figura 30_  
+To-Be Scenario Mapping para segmento #2
 
 <p align="center">
-  <img src="assets/chapter-3/To-be/OS_To-be_S2.jpg"
-       alt="To-Be Scenario Mapping del contratante con las fases Selección de Constructora, Seguimiento de Progreso, Verificación de Cumplimiento y Evaluación Final"
-       width="1000">
+  <img src="assets/chapter-3/To-be/OS_To-be_S2.jpg" alt="PB" width="1000">
 </p>
 
-<p align="justify">
-
-Las áreas positivas del escenario To-Be se relacionan con una mayor disponibilidad de información para tomar decisiones, mayor visibilidad durante la ejecución del proyecto, facilidad para consultar documentación relacionada con el cumplimiento y una evaluación final sustentada en información consolidada. Frente al As-Is, estos cambios buscan reducir la dependencia de comunicaciones aisladas y de verificaciones realizadas únicamente después de solicitar información a terceros.
-
-</p>
-
-**Figura 31**  
-_Áreas positivas del To-Be Scenario Mapping para segmento #2_
+_Figura 31_  
+Áreas positivas del To-Be Scenario Mapping para segmento #2
 
 <p align="center">
-  <img src="assets/chapter-3/To-be/OS_To-be_S2_AP.jpg"
-       alt="Áreas positivas identificadas en el To-Be Scenario Mapping del contratante"
-       width="1000">
+  <img src="assets/chapter-3/To-be/OS_To-be_S2_AP.jpg" alt="PB" width="1000">
 </p>
 
-<p align="justify">
-
-Las áreas negativas muestran que la experiencia futura depende de la participación y calidad de la información registrada por los responsables de la obra. Si la empresa constructora no utiliza la plataforma o si los datos registrados son incompletos, el contratante podría continuar enfrentando dificultades para obtener una visión confiable del proyecto.
-
-</p>
-
-**Figura 32**  
-_Áreas negativas del To-Be Scenario Mapping para segmento #2_
+_Figura 32_  
+Áreas negativas del To-Be Scenario Mapping para segmento #2
 
 <p align="center">
-  <img src="assets/chapter-3/To-be/OS_To-be_S2_AN.jpg"
-       alt="Áreas negativas relacionadas con la adopción de ArquiTech y la calidad de los datos en el To-Be Scenario Mapping del contratante"
-       width="1000">
+  <img src="assets/chapter-3/To-be/OS_To-be_S2_AN.jpg" alt="PB" width="1000">
 </p>
 
-<p align="justify">
-
-Las blank areas identificadas se relacionan con el nivel de detalle que debería presentarse en las métricas de progreso y con la forma en que debe gestionarse la confidencialidad de los datos asociados a cada proyecto. Estos aspectos requieren mayor validación para determinar qué información resulta realmente útil para el contratante y qué mecanismos deben aplicarse para protegerla.
-
-</p>
-
-**Figura 33**  
-_Blank areas del To-Be Scenario Mapping para segmento #2_
+_Figura 33_  
+Blank areas del To-Be Scenario Mapping para segmento #2
 
 <p align="center">
-  <img src="assets/chapter-3/To-be/OS_To-be_S2_BA.jpg"
-       alt="Blank areas relacionadas con el detalle de las métricas y la confidencialidad de los datos en el To-Be Scenario Mapping del contratante"
-       width="1000">
-</p>
-
-<p align="justify">
-
-En comparación con los escenarios As-Is, los escenarios To-Be plantean una transición desde procesos apoyados en registros manuales, comunicaciones dispersas y verificaciones posteriores hacia una experiencia en la que la información de la obra pueda mantenerse más organizada y disponible. Para el supervisor, el principal cambio se concentra en el registro y seguimiento de la operación cotidiana; para el contratante, el cambio se orienta principalmente a mejorar la visibilidad, trazabilidad y acceso a información durante la ejecución del proyecto. Estas propuestas constituyen la base para la posterior especificación de requisitos mediante las User Stories y el Product Backlog.
-
+  <img src="assets/chapter-3/To-be/OS_To-be_S2_BA.jpg" alt="PB" width="1000">
 </p>
 
 ## 3.2. User Stories
