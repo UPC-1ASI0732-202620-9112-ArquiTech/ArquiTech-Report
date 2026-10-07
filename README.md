@@ -2439,6 +2439,8 @@ La información obtenida en este análisis mantiene relación directa con los re
 
 ### 2.3.1. User Personas
 
+Las personas representan los dos segmentos definidos en 1.3 y sintetizan el análisis de las seis entrevistas de 2.2. Juan Carlos Zegarra representa al supervisor que necesita coordinar recursos y consolidar registros; Verónica Delgado representa a la contratante que necesita visibilidad y confianza sobre su obra. Se relacionan con las dificultades de información dispersa, retrasos y trazabilidad descritas en 2.2.3. El análisis competitivo de 2.1 aporta contexto para priorizar una solución accesible para estos segmentos; las personas son modelos de diseño y no sustituyen la validación con usuarios reales.
+
 **Figura 14**  
 _User persona del segmento #1: Supervisor de Obra_
 
