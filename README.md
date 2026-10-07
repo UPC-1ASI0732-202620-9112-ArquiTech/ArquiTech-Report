@@ -2936,7 +2936,6 @@ _Impact Mapping de ArquiTech_
 ![Impact Mapping de ArquiTech](assets/chapter-3/impact-mapping/impact-map-final.png)
 
 </div>
-
 # Capítulo IV: Product Design
 
 ## 4.1. Style Guidelines
@@ -3432,6 +3431,8 @@ Asimismo, se mantiene coherencia con la identidad visual definida para el produc
 
 ### 4.3.1. Landing Page Wireframe
 
+Se presentan versiones desktop y mobile de la misma estructura informativa. La versión desktop aprovecha el ancho para organizar navegación y contenido; la móvil debe mantener el orden de lectura y acciones accesibles en menor espacio. Los wireframes expresan jerarquía y distribución; los mock-ups incorporan identidad visual de 4.1. La revisión del diseño debe comprobar legibilidad, contraste, consistencia y acceso a las acciones principales en ambas versiones. La implementación actual de idioma, navegación accesible y términos se verifica por código en 5.2.2; las imágenes de diseño por sí solas no prueban accesibilidad funcional.
+
 **Desktop Web Browser**
 
 <p align="center">
@@ -3445,6 +3446,8 @@ Asimismo, se mantiene coherencia con la identidad visual definida para el produc
 </p>
 
 ### 4.3.2. Landing Page Mock-up
+
+Se presentan versiones desktop y mobile de la misma estructura informativa. La versión desktop aprovecha el ancho para organizar navegación y contenido; la móvil debe mantener el orden de lectura y acciones accesibles en menor espacio. Los wireframes expresan jerarquía y distribución; los mock-ups incorporan identidad visual de 4.1. La revisión del diseño debe comprobar legibilidad, contraste, consistencia y acceso a las acciones principales en ambas versiones. La implementación actual de idioma, navegación accesible y términos se verifica por código en 5.2.2; las imágenes de diseño por sí solas no prueban accesibilidad funcional.
 
 **Desktop Web Browser**
 
@@ -3461,6 +3464,19 @@ Asimismo, se mantiene coherencia con la identidad visual definida para el produc
 ## 4.4. Mobile Applications UX/UI Design
 
 ### 4.4.1. Mobile Applications Wireframes
+
+| Pantalla  | Objetivo, información y criterio de interacción                                                                                                                              |
+| --------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Login     | Identificar al usuario y establecer sesión; mostrar validaciones y rechazar credenciales inválidas sin conceder acceso (HU23).                                               |
+| Projects  | Consultar y seleccionar una obra; conservar el proyecto seleccionado al navegar y limitar consultas según el rol (HU22/HU33/HU27).                                           |
+| Materials | Consultar stock y recursos de la obra; el supervisor administra entradas/usos y el contratante consulta; distinguir cantidad disponible de movimiento (HU01/HU02/HU28/HU40). |
+| Workers   | Consultar personal y, para el supervisor, registrar trabajadores; mostrar identificación y estado sin perder contexto de obra (HU06/HU10).                                   |
+| Incidents | Registrar/consultar incidencias y su estado; distinguir severidad y resolución y confirmar cambios del supervisor.                                                           |
+| Machinery | Consultar equipos de la obra y su estado; restringir acciones de escritura según rol y mostrar datos de identificación.                                                      |
+
+Los wireframes definen estructura y jerarquía; los mock-ups incorporan tipografía, color y espaciado del Design System. El estado de datos, errores y permisos se verifica en producto y pruebas: no se infiere solo por la apariencia de una figura.
+
+Las seis pantallas presentadas cubren Login, Projects, Materials, Workers, Incidents y Machinery. Login inicia el acceso; Projects permite seleccionar el contexto de obra; Materials organiza inventario; Workers presenta personal; Incidents permite consultar acontecimientos; Machinery organiza los equipos. La separación por proyecto mantiene el contexto al navegar entre recursos. Cada formulario debe mostrar validaciones y resultado de la operación, y cada listado debe contemplar búsqueda, estado vacío y errores. Los controles de escritura dependen del rol. Estas condiciones son criterios de revisión del diseño y deben comprobarse en el producto y las pruebas, no inferirse solamente de las figuras.
 
 **Figura 42**  
 _Mobile Wireframe Login_
@@ -3587,6 +3603,19 @@ Para acceder a las secciones de maquinarias e incidentes desde la aplicación m�
 </p>
 
 ### 4.4.3. Mobile Applications Mock-ups
+
+| Pantalla  | Objetivo, información y criterio de interacción                                                                                                                              |
+| --------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Login     | Identificar al usuario y establecer sesión; mostrar validaciones y rechazar credenciales inválidas sin conceder acceso (HU23).                                               |
+| Projects  | Consultar y seleccionar una obra; conservar el proyecto seleccionado al navegar y limitar consultas según el rol (HU22/HU33/HU27).                                           |
+| Materials | Consultar stock y recursos de la obra; el supervisor administra entradas/usos y el contratante consulta; distinguir cantidad disponible de movimiento (HU01/HU02/HU28/HU40). |
+| Workers   | Consultar personal y, para el supervisor, registrar trabajadores; mostrar identificación y estado sin perder contexto de obra (HU06/HU10).                                   |
+| Incidents | Registrar/consultar incidencias y su estado; distinguir severidad y resolución y confirmar cambios del supervisor.                                                           |
+| Machinery | Consultar equipos de la obra y su estado; restringir acciones de escritura según rol y mostrar datos de identificación.                                                      |
+
+Los wireframes definen estructura y jerarquía; los mock-ups incorporan tipografía, color y espaciado del Design System. El estado de datos, errores y permisos se verifica en producto y pruebas: no se infiere solo por la apariencia de una figura.
+
+Las seis pantallas presentadas cubren Login, Projects, Materials, Workers, Incidents y Machinery. Login inicia el acceso; Projects permite seleccionar el contexto de obra; Materials organiza inventario; Workers presenta personal; Incidents permite consultar acontecimientos; Machinery organiza los equipos. La separación por proyecto mantiene el contexto al navegar entre recursos. Cada formulario debe mostrar validaciones y resultado de la operación, y cada listado debe contemplar búsqueda, estado vacío y errores. Los controles de escritura dependen del rol. Estas condiciones son criterios de revisión del diseño y deben comprobarse en el producto y las pruebas, no inferirse solamente de las figuras.
 
 **Figura 50**  
 _Mobile Mock-up Login_
@@ -3806,6 +3835,19 @@ _Prototipo de Alta Fidelidad - Vistas Principales iOS_
 
 ### 4.6.1. Web Applications Wireframes
 
+| Pantalla  | Objetivo, información y criterio de interacción                                                                                                                              |
+| --------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Login     | Identificar al usuario y establecer sesión; mostrar validaciones y rechazar credenciales inválidas sin conceder acceso (HU23).                                               |
+| Projects  | Consultar y seleccionar una obra; conservar el proyecto seleccionado al navegar y limitar consultas según el rol (HU22/HU33/HU27).                                           |
+| Materials | Consultar stock y recursos de la obra; el supervisor administra entradas/usos y el contratante consulta; distinguir cantidad disponible de movimiento (HU01/HU02/HU28/HU40). |
+| Workers   | Consultar personal y, para el supervisor, registrar trabajadores; mostrar identificación y estado sin perder contexto de obra (HU06/HU10).                                   |
+| Incidents | Registrar/consultar incidencias y su estado; distinguir severidad y resolución y confirmar cambios del supervisor.                                                           |
+| Machinery | Consultar equipos de la obra y su estado; restringir acciones de escritura según rol y mostrar datos de identificación.                                                      |
+
+Los wireframes definen estructura y jerarquía; los mock-ups incorporan tipografía, color y espaciado del Design System. El estado de datos, errores y permisos se verifica en producto y pruebas: no se infiere solo por la apariencia de una figura.
+
+Las seis pantallas presentadas cubren Login, Projects, Materials, Workers, Incidents y Machinery. Login inicia el acceso; Projects permite seleccionar el contexto de obra; Materials organiza inventario; Workers presenta personal; Incidents permite consultar acontecimientos; Machinery organiza los equipos. La separación por proyecto mantiene el contexto al navegar entre recursos. Cada formulario debe mostrar validaciones y resultado de la operación, y cada listado debe contemplar búsqueda, estado vacío y errores. Los controles de escritura dependen del rol. Estas condiciones son criterios de revisión del diseño y deben comprobarse en el producto y las pruebas, no inferirse solamente de las figuras.
+
 **Figura 62**
 
 <p align="center">
@@ -3909,6 +3951,19 @@ Para acceder a las secciones de maquinarias e incidentes debes presionar aquello
 </p>
 
 ### 4.6.3. Web Applications Mock-ups
+
+| Pantalla  | Objetivo, información y criterio de interacción                                                                                                                              |
+| --------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Login     | Identificar al usuario y establecer sesión; mostrar validaciones y rechazar credenciales inválidas sin conceder acceso (HU23).                                               |
+| Projects  | Consultar y seleccionar una obra; conservar el proyecto seleccionado al navegar y limitar consultas según el rol (HU22/HU33/HU27).                                           |
+| Materials | Consultar stock y recursos de la obra; el supervisor administra entradas/usos y el contratante consulta; distinguir cantidad disponible de movimiento (HU01/HU02/HU28/HU40). |
+| Workers   | Consultar personal y, para el supervisor, registrar trabajadores; mostrar identificación y estado sin perder contexto de obra (HU06/HU10).                                   |
+| Incidents | Registrar/consultar incidencias y su estado; distinguir severidad y resolución y confirmar cambios del supervisor.                                                           |
+| Machinery | Consultar equipos de la obra y su estado; restringir acciones de escritura según rol y mostrar datos de identificación.                                                      |
+
+Los wireframes definen estructura y jerarquía; los mock-ups incorporan tipografía, color y espaciado del Design System. El estado de datos, errores y permisos se verifica en producto y pruebas: no se infiere solo por la apariencia de una figura.
+
+Las seis pantallas presentadas cubren Login, Projects, Materials, Workers, Incidents y Machinery. Login inicia el acceso; Projects permite seleccionar el contexto de obra; Materials organiza inventario; Workers presenta personal; Incidents permite consultar acontecimientos; Machinery organiza los equipos. La separación por proyecto mantiene el contexto al navegar entre recursos. Cada formulario debe mostrar validaciones y resultado de la operación, y cada listado debe contemplar búsqueda, estado vacío y errores. Los controles de escritura dependen del rol. Estas condiciones son criterios de revisión del diseño y deben comprobarse en el producto y las pruebas, no inferirse solamente de las figuras.
 
 **Figura 70**
 
@@ -4039,6 +4094,10 @@ _Nota._ Elaboración propia.
 
 ## 4.7. Web Applications Prototyping
 
+**Evidencia requerida por el TP (página física 21):** para cada aplicación incluir screenshot del video y enlace a Microsoft Stream donde se demuestre y explique el prototipo, cubriendo Desktop y Mobile Web Browser. El ZIP ya contiene la captura de la Figura 82 y un enlace SharePoint/Stream al video web; no se debe declararlos ausentes. Falta verificar el contenido, acceso y cobertura desktop/mobile del video, no inventar un enlace nuevo.
+
+El prototipo permite recorrer acceso, selección de proyecto y consulta de módulos antes de evaluar la implementación. Los criterios de interacción son visibilidad del estado, navegación consistente, conservación del contexto de obra y respuesta comprensible a acciones y errores. Las tareas de evaluación deben contemplar un supervisor y un contratante para comprobar permisos y facilidad de consulta. Un prototipo demuestra la intención de interacción; la evidencia del software ejecutado se presenta separadamente en 5.2.3 y 6.1.
+
 **Figura 82**  
 _Video of Web Applications Prototype of ArquiTech_
 
@@ -4050,7 +4109,11 @@ _Nota._ Elaboración propia. Link del video: [https://upcedupe-my.sharepoint.com
 
 ## 4.8. Domain-Driven Software Architecture
 
+Las figuras 83–85 conservan el diseño arquitectónico inicial del proyecto. Se mantienen para documentar las decisiones de diseño de esa etapa. La implementación disponible en los repositorios revisados presenta diferencias tecnológicas y de alcance, descritas en cada vista y contrastadas con las evidencias del capítulo V. Los servicios externos dibujados no se consideran integrados solo por aparecer en estas figuras.
+
 ### 4.8.1. Software Architecture Context Diagram
+
+La vista de contexto sitúa ArquiTech como plataforma de gestión operativa para empresas constructoras y representa la interacción de supervisores de obra y contratantes. El supervisor registra información de personal y materiales y genera reportes; el contratante consulta el avance de sus obras. El diseño inicial incluye Google Maps, Stripe, OneSignal, Firebase Storage y un sistema externo de control de acceso. Estas relaciones expresan integraciones previstas en el modelo; su implementación no quedó acreditada en los snapshots revisados. La autenticación y autorización observadas en el backend actual se realizan mediante Spring Security y JWT.
 
 **Figura 83**  
 _Software Architecture Context Diagram of ArquiTech_
@@ -4063,6 +4126,8 @@ _Nota._ Elaboración propia.
 
 ### 4.8.2. Software Architecture Container Diagrams
 
+La vista de contenedores descompone el diseño inicial en Landing Page, Web App, API REST y base de datos, y representa las solicitudes entre clientes, API y servicios externos. La figura plantea una API Node.js/NestJS y MySQL en AWS RDS. En la implementación revisada, la landing y el frontend utilizan Angular, existe un cliente móvil Flutter y la API utiliza Java/Spring Boot con persistencia MySQL mediante JPA. La presencia de MySQL en el código no acredita su despliegue en AWS RDS. Se conserva la figura como diseño inicial; la evidencia de los componentes implementados se documenta en 5.2.
+
 **Figura 84**  
 _Software Architecture Container Diagram of ArquiTech_
 
@@ -4073,6 +4138,8 @@ _Software Architecture Container Diagram of ArquiTech_
 _Nota._ Elaboración propia.
 
 ### 4.8.3. Software Architecture Components Diagrams
+
+La vista de componentes agrupa responsabilidades de registro y generación de reportes, notificaciones, visualización de reportes y compra o exportación, con relaciones hacia almacenamiento y servicios externos. La figura inicial incluye una base de datos MongoDB, mientras que el backend revisado emplea MySQL y repositorios JPA, con controladores REST y servicios de aplicación. Las notificaciones externas y la compra de reportes representadas en esta vista se mantienen como alcance de diseño sin evidencia de implementación en los snapshots consultados. Los contratos realmente expuestos se documentan en 5.2.7 y las pruebas de integración disponibles en 6.1.2.
 
 **Figura 85**  
 _Software Architecture Components Diagram of ArquiTech_
@@ -4093,7 +4160,7 @@ El diseño orientado a objetos de ArquiTech representa las principales entidades
 
 <p align="justify">
 
-El diseño describe las entidades JPA vigentes en el Backend y sus relaciones de persistencia. Los conceptos principales son los usuarios de la plataforma, proyectos, materiales, movimientos de inventario, maquinaria, trabajadores, asistencia, tareas e incidencias.
+El diseño busca representar de manera coherente las responsabilidades de cada entidad, sus atributos, operaciones y relaciones. Entre los principales conceptos considerados se encuentran los usuarios de la plataforma, proyectos, materiales, movimientos de inventario, maquinaria, trabajadores, asistencia, tareas, incidencias y reportes.
 
 </p>
 
@@ -4107,7 +4174,7 @@ El Class Diagram de ArquiTech representa la estructura estática del dominio de 
 
 <p align="justify">
 
-El modelo persistente se encuentra compuesto por las clases `User`, `Project`, `Material`, `MaterialMovement`, `Machinery`, `Worker`, `Attendance`, `Task` e `Incident`.
+El modelo se encuentra compuesto por las clases `User`, `Project`, `ProjectMember`, `Material`, `MaterialMovement`, `Machinery`, `Worker`, `Attendance`, `Task`, `Incident` y `Report`.
 
 </p>
 
@@ -4122,17 +4189,15 @@ _Class Diagram de ArquiTech_
 
 _Nota._ Elaboración propia.
 
-La Figura 86 se conserva como referencia del modelo anterior y permanece pendiente de actualización. La descripción textual y el Class Dictionary de esta sección documentan la estructura vigente del Backend.
-
 <p align="justify">
 
-La clase `User` representa a los usuarios que acceden a ArquiTech, principalmente supervisores de obra y contratantes. Cada `Project` mantiene referencias directas a un usuario Supervisor y a un usuario Contratante.
+La clase `User` representa a los usuarios que acceden a ArquiTech, principalmente supervisores de obra y contratantes de empresas privadas. Los usuarios pueden participar en diferentes proyectos, relación que se representa mediante la clase asociativa `ProjectMember`.
 
 </p>
 
 <p align="justify">
 
-La clase `Project` constituye la entidad central del modelo y representa una obra administrada mediante ArquiTech. Mantiene directamente sus datos generales y las referencias `supervisor` y `contractor`; a partir del proyecto se organizan los materiales, maquinaria, trabajadores, asistencias, tareas e incidencias.
+La clase `Project` constituye la entidad central del modelo y representa una obra administrada mediante ArquiTech. A partir de un proyecto se organizan los materiales, maquinaria, trabajadores, tareas, incidencias y reportes asociados.
 
 </p>
 
@@ -4162,7 +4227,7 @@ La gestión de personal se representa mediante `Worker`, que almacena la informa
 
 <p align="justify">
 
-El modelo `WeeklyReport` se genera en el Frontend Web mediante la consolidación de datos de `Project`, `Task`, `MaterialMovement`, `Material` e `Incident`. No corresponde a una entidad JPA persistente del Backend.
+Finalmente, `Report` representa los reportes generados a partir de la información registrada en el proyecto, permitiendo consolidar datos relacionados con avance, materiales, trabajadores, tareas e incidencias.
 
 </p>
 
@@ -4172,13 +4237,12 @@ Las principales relaciones del modelo son las siguientes:
 
 </p>
 
-- Un `User` puede supervisar múltiples `Project` y también puede estar asociado como contratante de múltiples proyectos.
-- Un `Project` referencia directamente a un `User` como `supervisor` y a otro `User` como `contractor`.
-- Un `Project` puede contener múltiples `Material`, `Machinery`, `Worker`, `Attendance`, `Task` e `Incident`.
+- Un `User` puede participar en múltiples `Project` y un `Project` puede contar con múltiples usuarios mediante `ProjectMember`.
+- Un `Project` puede contener múltiples `Material`, `Machinery`, `Worker`, `Task`, `Incident` y `Report`.
 - Un `Material` puede registrar múltiples `MaterialMovement`.
 - Un `Worker` puede tener múltiples registros de `Attendance`.
 - Un `Worker` puede tener múltiples `Task` asignadas.
-- Un `Project` puede registrar múltiples incidencias.
+- Un `Project` puede registrar múltiples incidencias y reportes.
 
 ### 4.9.2. Class Dictionary
 
@@ -4192,24 +4256,24 @@ El Class Dictionary complementa el Class Diagram mediante la descripción de las
 
 <p align="justify">
 
-Representa a los usuarios registrados en ArquiTech que participan como supervisores o contratantes de los proyectos.
+Representa a los usuarios registrados en ArquiTech que participan en el seguimiento o gestión de los proyectos.
 
 </p>
 
-| Atributo       | Tipo           | Descripción                                                |
-| -------------- | -------------- | ---------------------------------------------------------- |
-| id             | Long           | Identificador único del usuario.                           |
-| name           | String         | Nombre completo del usuario.                               |
-| email          | String         | Correo electrónico utilizado para acceder a la plataforma. |
-| password       | String         | Contraseña almacenada por el sistema.                      |
-| role           | Role           | Rol del usuario dentro de ArquiTech.                       |
-| profilePicture | String         | Referencia de la imagen de perfil.                         |
-| phone          | String         | Número telefónico del usuario.                             |
-| createdAt      | OffsetDateTime | Fecha y hora de creación de la cuenta.                     |
+| Atributo     | Tipo     | Descripción                                                    |
+| ------------ | -------- | -------------------------------------------------------------- |
+| userId       | int      | Identificador único del usuario.                               |
+| email        | string   | Correo electrónico utilizado para acceder a la plataforma.     |
+| passwordHash | string   | Representación cifrada de la contraseña del usuario.           |
+| fullName     | string   | Nombre completo del usuario.                                   |
+| role         | UserRole | Rol del usuario dentro de ArquiTech: Supervisor o Contratante. |
+| createdAt    | datetime | Fecha y hora de creación de la cuenta.                         |
 
-| Método                         | Retorno | Descripción                                    |
-| ------------------------------ | ------- | ---------------------------------------------- |
-| updateProfile(fullName, phone) | void    | Actualiza el nombre y el teléfono del usuario. |
+| Método                         | Retorno | Descripción                                      |
+| ------------------------------ | ------- | ------------------------------------------------ |
+| updateProfile(fullName, email) | void    | Actualiza la información personal del usuario.   |
+| changePassword(passwordHash)   | void    | Actualiza la contraseña almacenada del usuario.  |
+| hasRole(role)                  | bool    | Verifica si el usuario posee un determinado rol. |
 
 #### Clase `Project`
 
@@ -4219,21 +4283,43 @@ Representa una obra o proyecto de construcción gestionado mediante ArquiTech.
 
 </p>
 
-| Atributo   | Tipo          | Descripción                                                     |
-| ---------- | ------------- | --------------------------------------------------------------- |
-| id         | Long          | Identificador único del proyecto.                               |
-| name       | String        | Nombre del proyecto.                                            |
-| location   | String        | Ubicación de la obra.                                           |
-| startDate  | LocalDate     | Fecha de inicio del proyecto.                                   |
-| endDate    | LocalDate     | Fecha de finalización del proyecto.                             |
-| budget     | BigDecimal    | Presupuesto asignado al proyecto.                               |
-| status     | ProjectStatus | Estado actual del proyecto.                                     |
-| progress   | Integer       | Porcentaje de avance registrado.                                |
-| supervisor | User          | Usuario responsable de supervisar el proyecto.                  |
-| contractor | User          | Usuario contratante asociado al proyecto.                       |
-| imageUrl   | String        | Referencia de la imagen asociada al proyecto.                   |
-| createdAt  | Date          | Fecha y hora de creación heredada por auditoría.                |
-| updatedAt  | Date          | Fecha y hora de la última actualización heredada por auditoría. |
+| Atributo  | Tipo          | Descripción                                      |
+| --------- | ------------- | ------------------------------------------------ |
+| projectId | int           | Identificador único del proyecto.                |
+| name      | string        | Nombre del proyecto.                             |
+| startDate | date          | Fecha de inicio del proyecto.                    |
+| endDate   | date          | Fecha estimada de finalización.                  |
+| budget    | decimal       | Presupuesto asignado al proyecto.                |
+| status    | ProjectStatus | Estado actual del proyecto.                      |
+| progress  | decimal       | Porcentaje de avance registrado.                 |
+| createdAt | datetime      | Fecha de creación del proyecto en la plataforma. |
+
+| Método                                 | Retorno | Descripción                                   |
+| -------------------------------------- | ------- | --------------------------------------------- |
+| updateInformation(name, dates, budget) | void    | Actualiza los datos generales del proyecto.   |
+| updateStatus(status)                   | void    | Modifica el estado del proyecto.              |
+| updateProgress(progress)               | void    | Actualiza el porcentaje de avance.            |
+| isActive()                             | bool    | Determina si el proyecto se encuentra activo. |
+
+#### Clase `ProjectMember`
+
+<p align="justify">
+
+Representa la asociación entre un usuario y un proyecto.
+
+</p>
+
+| Atributo        | Tipo     | Descripción                                       |
+| --------------- | -------- | ------------------------------------------------- |
+| projectMemberId | int      | Identificador único de la asociación.             |
+| projectId       | int      | Identificador del proyecto relacionado.           |
+| userId          | int      | Identificador del usuario relacionado.            |
+| joinedAt        | datetime | Fecha en que el usuario fue asociado al proyecto. |
+
+| Método                             | Retorno | Descripción                                        |
+| ---------------------------------- | ------- | -------------------------------------------------- |
+| assignToProject(userId, projectId) | void    | Asocia un usuario con un proyecto.                 |
+| removeFromProject()                | void    | Elimina la asociación del usuario con el proyecto. |
 
 #### Clase `Material`
 
@@ -4243,31 +4329,22 @@ Representa un material disponible dentro del inventario de un proyecto.
 
 </p>
 
-| Atributo     | Tipo       | Descripción                                                     |
-| ------------ | ---------- | --------------------------------------------------------------- |
-| id           | Long       | Identificador único del material.                               |
-| projectId    | Long       | Identificador del proyecto al que pertenece.                    |
-| name         | String     | Nombre del material.                                            |
-| quantity     | BigDecimal | Cantidad acumulada registrada para el material.                 |
-| stock        | BigDecimal | Cantidad disponible actualmente.                                |
-| minimumStock | BigDecimal | Cantidad mínima definida para el material.                      |
-| unitPrice    | BigDecimal | Precio unitario del material.                                   |
-| unit         | String     | Unidad utilizada para medir el material.                        |
-| provider     | String     | Nombre del proveedor.                                           |
-| providerRuc  | String     | RUC del proveedor.                                              |
-| date         | String     | Fecha funcional conservada por compatibilidad de persistencia.  |
-| createdAt    | Date       | Fecha y hora de creación heredada por auditoría.                |
-| updatedAt    | Date       | Fecha y hora de la última actualización heredada por auditoría. |
+| Atributo     | Tipo     | Descripción                                 |
+| ------------ | -------- | ------------------------------------------- |
+| materialId   | int      | Identificador único del material.           |
+| projectId    | int      | Proyecto al que pertenece el material.      |
+| name         | string   | Nombre del material.                        |
+| unit         | string   | Unidad utilizada para medir el material.    |
+| currentStock | decimal  | Cantidad disponible actualmente.            |
+| minimumStock | decimal  | Cantidad mínima recomendada.                |
+| lastUpdated  | datetime | Fecha de la última actualización del stock. |
 
-| Método                    | Retorno    | Descripción                                        |
-| ------------------------- | ---------- | -------------------------------------------------- |
-| updateDetails(...)        | void       | Actualiza los datos descriptivos y comerciales.    |
-| getStock()                | BigDecimal | Devuelve el stock disponible.                      |
-| getMinimumStock()         | BigDecimal | Devuelve el stock mínimo configurado.              |
-| enter(amount, occurredOn) | void       | Registra una entrada y actualiza cantidad y stock. |
-| use(amount, occurredOn)   | void       | Registra un uso y reduce el stock disponible.      |
-
-Los campos obsoletos que permanecen en la entidad para conservar compatibilidad con bases desplegadas no forman parte del modelo funcional principal.
+| Método                      | Retorno | Descripción                                                     |
+| --------------------------- | ------- | --------------------------------------------------------------- |
+| registerEntry(quantity)     | void    | Incrementa el stock por una entrada de material.                |
+| registerUsage(quantity)     | void    | Reduce el stock por utilización del material.                   |
+| hasAvailableStock(quantity) | bool    | Verifica si existe cantidad suficiente para una salida.         |
+| isBelowMinimum()            | bool    | Indica si el stock se encuentra por debajo del mínimo definido. |
 
 #### Clase `MaterialMovement`
 
@@ -4277,16 +4354,20 @@ Representa una transacción de entrada o utilización de un material.
 
 </p>
 
-| Atributo     | Tipo           | Descripción                                           |
-| ------------ | -------------- | ----------------------------------------------------- |
-| id           | Long           | Identificador único del movimiento.                   |
-| material     | Material       | Material relacionado con el movimiento.               |
-| type         | MovementType   | Tipo de movimiento: `ENTRY` o `USAGE`.                |
-| quantity     | BigDecimal     | Cantidad involucrada.                                 |
-| supplier     | String         | Proveedor relacionado cuando se registra una entrada. |
-| registeredBy | User           | Usuario que registra el movimiento.                   |
-| occurredAt   | OffsetDateTime | Fecha y hora del movimiento.                          |
-| note         | String         | Nota opcional asociada al movimiento.                 |
+| Atributo           | Tipo         | Descripción                                           |
+| ------------------ | ------------ | ----------------------------------------------------- |
+| movementId         | int          | Identificador único del movimiento.                   |
+| materialId         | int          | Material relacionado con el movimiento.               |
+| registeredByUserId | int          | Usuario que registra el movimiento.                   |
+| type               | MovementType | Tipo de movimiento: Entry o Usage.                    |
+| quantity           | decimal      | Cantidad involucrada.                                 |
+| supplier           | string       | Proveedor relacionado cuando se registra una entrada. |
+| occurredAt         | datetime     | Fecha y hora del movimiento.                          |
+
+| Método                           | Retorno | Descripción                                    |
+| -------------------------------- | ------- | ---------------------------------------------- |
+| registerMovement(type, quantity) | void    | Registra un movimiento de material.            |
+| validateQuantity()               | bool    | Verifica que la cantidad ingresada sea válida. |
 
 #### Clase `Machinery`
 
@@ -4296,21 +4377,20 @@ Representa una maquinaria o equipo asignado a un proyecto.
 
 </p>
 
-| Atributo     | Tipo            | Descripción                                                     |
-| ------------ | --------------- | --------------------------------------------------------------- |
-| id           | Long            | Identificador único de la maquinaria.                           |
-| projectId    | Long            | Identificador del proyecto al que se encuentra asignada.        |
-| name         | String          | Nombre de la maquinaria.                                        |
-| serialNumber | String          | Número de serie; se persiste en la columna `license_plate`.     |
-| registeredAt | LocalDate       | Fecha de registro de la maquinaria.                             |
-| status       | MachineryStatus | Estado operativo de la maquinaria.                              |
-| description  | String          | Información complementaria de la maquinaria.                    |
-| createdAt    | Date            | Fecha y hora de creación heredada por auditoría.                |
-| updatedAt    | Date            | Fecha y hora de la última actualización heredada por auditoría. |
+| Atributo     | Tipo            | Descripción                                  |
+| ------------ | --------------- | -------------------------------------------- |
+| machineryId  | int             | Identificador único de la maquinaria.        |
+| projectId    | int             | Proyecto al que se encuentra asignada.       |
+| name         | string          | Nombre o tipo de maquinaria.                 |
+| serialNumber | string          | Número de serie o código identificador.      |
+| status       | MachineryStatus | Estado operativo de la maquinaria.           |
+| description  | string          | Información complementaria de la maquinaria. |
 
-| Método      | Retorno | Descripción                                        |
-| ----------- | ------- | -------------------------------------------------- |
-| update(...) | void    | Actualiza la información vigente de la maquinaria. |
+| Método                               | Retorno | Descripción                                        |
+| ------------------------------------ | ------- | -------------------------------------------------- |
+| updateInformation(name, description) | void    | Actualiza la información de la maquinaria.         |
+| updateStatus(status)                 | void    | Modifica su estado operativo.                      |
+| isOperational()                      | bool    | Comprueba si la maquinaria se encuentra operativa. |
 
 #### Clase `Worker`
 
@@ -4320,22 +4400,21 @@ Representa a un trabajador asignado a un proyecto de construcción.
 
 </p>
 
-| Atributo  | Tipo         | Descripción                                                     |
-| --------- | ------------ | --------------------------------------------------------------- |
-| id        | Long         | Identificador único del trabajador.                             |
-| fullName  | WorkerName   | Nombre completo del trabajador.                                 |
-| role      | WorkerRole   | Rol desempeñado dentro de la obra.                              |
-| hireDate  | LocalDate    | Fecha de contratación.                                          |
-| project   | Project      | Proyecto en el que participa.                                   |
-| specialty | String       | Especialidad del trabajador.                                    |
-| status    | WorkerStatus | Estado vigente del trabajador.                                  |
-| createdAt | Date         | Fecha y hora de creación heredada por auditoría.                |
-| updatedAt | Date         | Fecha y hora de la última actualización heredada por auditoría. |
+| Atributo  | Tipo   | Descripción                               |
+| --------- | ------ | ----------------------------------------- |
+| workerId  | int    | Identificador único del trabajador.       |
+| projectId | int    | Proyecto en el que participa.             |
+| fullName  | string | Nombre completo del trabajador.           |
+| role      | string | Rol desempeñado dentro de la obra.        |
+| specialty | string | Especialidad del trabajador.              |
+| hireDate  | date   | Fecha de incorporación.                   |
+| active    | bool   | Indica si continúa activo en el proyecto. |
 
-| Método      | Retorno      | Descripción                                      |
-| ----------- | ------------ | ------------------------------------------------ |
-| update(...) | void         | Actualiza la información vigente del trabajador. |
-| getStatus() | WorkerStatus | Devuelve el estado vigente del trabajador.       |
+| Método                                       | Retorno | Descripción                              |
+| -------------------------------------------- | ------- | ---------------------------------------- |
+| updateInformation(fullName, role, specialty) | void    | Actualiza la información del trabajador. |
+| deactivate()                                 | void    | Marca al trabajador como inactivo.       |
+| isActive()                                   | bool    | Indica si continúa asignado al proyecto. |
 
 #### Clase `Attendance`
 
@@ -4345,23 +4424,21 @@ Representa un registro diario de asistencia de un trabajador.
 
 </p>
 
-| Atributo       | Tipo             | Descripción                                                     |
-| -------------- | ---------------- | --------------------------------------------------------------- |
-| id             | Long             | Identificador único del registro.                               |
-| project        | Project          | Proyecto al que pertenece el registro.                          |
-| worker         | Worker           | Trabajador asociado.                                            |
-| attendanceDate | LocalDate        | Fecha correspondiente al registro.                              |
-| status         | AttendanceStatus | Estado: `PRESENT`, `ABSENT`, `LATE` o `EXCUSED`.                |
-| checkInAt      | OffsetDateTime   | Fecha y hora de ingreso registrada.                             |
-| checkOutAt     | OffsetDateTime   | Fecha y hora de salida registrada.                              |
-| notes          | String           | Observaciones del registro.                                     |
-| registeredBy   | User             | Usuario que registra la asistencia.                             |
-| createdAt      | Date             | Fecha y hora de creación heredada por auditoría.                |
-| updatedAt      | Date             | Fecha y hora de la última actualización heredada por auditoría. |
+| Atributo     | Tipo             | Descripción                          |
+| ------------ | ---------------- | ------------------------------------ |
+| attendanceId | int              | Identificador único del registro.    |
+| workerId     | int              | Trabajador asociado.                 |
+| date         | date             | Fecha correspondiente al registro.   |
+| checkInTime  | datetime         | Hora de ingreso registrada.          |
+| checkOutTime | datetime         | Hora de salida registrada.           |
+| status       | AttendanceStatus | Estado de asistencia del trabajador. |
 
-| Método      | Retorno | Descripción                                   |
-| ----------- | ------- | --------------------------------------------- |
-| update(...) | void    | Actualiza y valida el registro de asistencia. |
+| Método                               | Retorno | Descripción                          |
+| ------------------------------------ | ------- | ------------------------------------ |
+| recordCheckIn(time)                  | void    | Registra la hora de ingreso.         |
+| recordCheckOut(time)                 | void    | Registra la hora de salida.          |
+| correctAttendance(checkIn, checkOut) | void    | Corrige un registro de asistencia.   |
+| markAbsent()                         | void    | Registra la ausencia del trabajador. |
 
 #### Clase `Task`
 
@@ -4371,24 +4448,23 @@ Representa una actividad asignada a un trabajador dentro de un proyecto.
 
 </p>
 
-| Atributo    | Tipo           | Descripción                                                     |
-| ----------- | -------------- | --------------------------------------------------------------- |
-| id          | Long           | Identificador único de la tarea.                                |
-| project     | Project        | Proyecto al que pertenece.                                      |
-| worker      | Worker         | Trabajador asignado a la tarea.                                 |
-| title       | String         | Título de la tarea.                                             |
-| description | String         | Descripción detallada de la actividad.                          |
-| startDate   | LocalDate      | Fecha de inicio conservada por la entidad.                      |
-| dueDate     | LocalDate      | Fecha límite de la tarea.                                       |
-| status      | TaskStatus     | Estado de ejecución de la tarea.                                |
-| completedAt | OffsetDateTime | Fecha y hora de finalización, cuando corresponde.               |
-| createdAt   | Date           | Fecha y hora de creación heredada por auditoría.                |
-| updatedAt   | Date           | Fecha y hora de la última actualización heredada por auditoría. |
+| Atributo    | Tipo       | Descripción                            |
+| ----------- | ---------- | -------------------------------------- |
+| taskId      | int        | Identificador único de la tarea.       |
+| projectId   | int        | Proyecto al que pertenece.             |
+| workerId    | int        | Trabajador asignado a la tarea.        |
+| title       | string     | Nombre de la tarea.                    |
+| description | string     | Descripción detallada de la actividad. |
+| status      | TaskStatus | Estado de ejecución de la tarea.       |
+| dueDate     | datetime   | Fecha límite de la tarea.              |
+| createdAt   | datetime   | Fecha en que fue registrada.           |
 
-| Método      | Retorno | Descripción                                    |
-| ----------- | ------- | ---------------------------------------------- |
-| update(...) | void    | Actualiza y valida la información de la tarea. |
-| getTitle()  | String  | Devuelve el título vigente de la tarea.        |
+| Método                                         | Retorno | Descripción                                   |
+| ---------------------------------------------- | ------- | --------------------------------------------- |
+| assignWorker(workerId)                         | void    | Asigna la tarea a un trabajador.              |
+| updateStatus(status)                           | void    | Modifica el estado de la tarea.               |
+| updateInformation(title, description, dueDate) | void    | Modifica la información de la tarea.          |
+| isCompleted()                                  | bool    | Verifica si la tarea se encuentra finalizada. |
 
 #### Clase `Incident`
 
@@ -4398,28 +4474,48 @@ Representa una incidencia ocurrida durante el desarrollo de una obra.
 
 </p>
 
-| Atributo         | Tipo             | Descripción                                                     |
-| ---------------- | ---------------- | --------------------------------------------------------------- |
-| id               | Long             | Identificador único de la incidencia.                           |
-| date             | LocalDate        | Fecha funcional de la incidencia.                               |
-| type             | String           | Categoría de la incidencia.                                     |
-| severity         | IncidentSeverity | Nivel de severidad registrado.                                  |
-| status           | IncidentStatus   | Estado actual de la incidencia.                                 |
-| description      | String           | Descripción de lo sucedido.                                     |
-| projectId        | Long             | Identificador del proyecto relacionado.                         |
-| reportedByUserId | Long             | Identificador del usuario que registró la incidencia.           |
-| reportedAt       | OffsetDateTime   | Fecha y hora en que fue registrada.                             |
-| resolvedAt       | OffsetDateTime   | Fecha y hora de resolución, cuando corresponde.                 |
-| createdAt        | Date             | Fecha y hora de creación heredada por auditoría.                |
-| updatedAt        | Date             | Fecha y hora de la última actualización heredada por auditoría. |
+| Atributo         | Tipo             | Descripción                                     |
+| ---------------- | ---------------- | ----------------------------------------------- |
+| incidentId       | int              | Identificador único de la incidencia.           |
+| projectId        | int              | Proyecto relacionado.                           |
+| reportedByUserId | int              | Usuario que registró la incidencia.             |
+| type             | string           | Categoría de la incidencia.                     |
+| description      | string           | Descripción de lo sucedido.                     |
+| severity         | IncidentSeverity | Nivel de severidad registrado.                  |
+| status           | IncidentStatus   | Estado actual de la incidencia.                 |
+| reportedAt       | datetime         | Fecha y hora en que fue registrada.             |
+| resolvedAt       | datetime         | Fecha y hora de resolución, cuando corresponda. |
 
-| Método                 | Retorno        | Descripción                                         |
-| ---------------------- | -------------- | --------------------------------------------------- |
-| update(...)            | void           | Actualiza los datos y el estado de la incidencia.   |
-| getReportedAt()        | OffsetDateTime | Devuelve la fecha y hora efectiva del registro.     |
-| correctReportedAt(...) | void           | Corrige la fecha y hora reportada de la incidencia. |
+| Método                                         | Retorno | Descripción                                 |
+| ---------------------------------------------- | ------- | ------------------------------------------- |
+| updateInformation(type, description, severity) | void    | Actualiza la información registrada.        |
+| updateStatus(status)                           | void    | Cambia el estado de la incidencia.          |
+| resolve()                                      | void    | Marca la incidencia como resuelta.          |
+| isResolved()                                   | bool    | Comprueba si la incidencia fue solucionada. |
 
-El campo obsoleto conservado por compatibilidad con bases desplegadas no se presenta como parte principal del dominio vigente.
+#### Clase `Report`
+
+<p align="justify">
+
+Representa un reporte generado a partir de la información de un proyecto.
+
+</p>
+
+| Atributo          | Tipo       | Descripción                           |
+| ----------------- | ---------- | ------------------------------------- |
+| reportId          | int        | Identificador único del reporte.      |
+| projectId         | int        | Proyecto sobre el cual se genera.     |
+| generatedByUserId | int        | Usuario responsable de la generación. |
+| type              | ReportType | Tipo de reporte.                      |
+| generatedAt       | datetime   | Fecha y hora de generación.           |
+| filePath          | string     | Ubicación del archivo generado.       |
+| summary           | string     | Resumen general del reporte.          |
+
+| Método         | Retorno | Descripción                                          |
+| -------------- | ------- | ---------------------------------------------------- |
+| generate()     | Report  | Genera el reporte utilizando los datos del proyecto. |
+| export(format) | File    | Exporta el reporte en el formato indicado.           |
+| getSummary()   | string  | Retorna el resumen del reporte.                      |
 
 ---
 
@@ -4427,7 +4523,7 @@ El campo obsoleto conservado por compatibilidad con bases desplegadas no se pres
 
 <p align="justify">
 
-El Backend de ArquiTech utiliza un modelo relacional para persistir información estructurada y mantener la integridad entre usuarios, proyectos, materiales, movimientos, maquinaria, trabajadores, asistencias, tareas e incidencias.
+El diseño de base de datos de ArquiTech se plantea mediante un modelo relacional debido a la naturaleza estructurada de la información gestionada y a la necesidad de mantener relaciones consistentes entre proyectos, usuarios, trabajadores, materiales, tareas e incidencias.
 
 </p>
 
@@ -4447,7 +4543,7 @@ El Relational Database Diagram representa las tablas necesarias para persistir l
 
 <p align="justify">
 
-Las tablas principales vigentes son `users`, `projects`, `materials`, `material_movements`, `machineries`, `workers`, `attendance_records`, `tasks` e `incidents`.
+Las principales tablas consideradas son `users`, `projects`, `project_members`, `materials`, `material_movements`, `machineries`, `workers`, `attendances`, `tasks`, `incidents` y `reports`.
 
 </p>
 
@@ -4462,11 +4558,9 @@ _Relational Database Diagram de ArquiTech_
 
 _Nota._ Elaboración propia.
 
-La Figura 87 se conserva como referencia del modelo anterior y permanece pendiente de actualización. La descripción textual y la estructura de tablas presentadas a continuación documentan el esquema vigente del Backend.
-
 <p align="justify">
 
-La tabla `users` almacena la información de autenticación y perfil de los usuarios de ArquiTech. La tabla `projects` mantiene dos claves foráneas directas hacia `users`: `user_id` identifica al Supervisor y `contractor_id` identifica al Contratante.
+La tabla `users` almacena la información de autenticación y perfil de los usuarios de ArquiTech. La relación entre los usuarios y los proyectos se representa mediante `project_members`, permitiendo que múltiples usuarios puedan participar en un mismo proyecto y que un usuario pueda estar relacionado con diferentes proyectos.
 
 </p>
 
@@ -4490,7 +4584,7 @@ La tabla `users` almacena la información de autenticación y perfil de los usua
 
 <p align="justify">
 
-`workers` registra al personal involucrado en una obra. Los registros diarios de asistencia se almacenan en `attendance_records`, mientras que las actividades asignadas a los trabajadores se gestionan mediante `tasks`.
+`workers` registra al personal involucrado en una obra. Los registros diarios de asistencia se almacenan mediante `attendances`, mientras que las actividades asignadas a los trabajadores son gestionadas mediante `tasks`.
 
 </p>
 
@@ -4502,29 +4596,31 @@ La tabla `users` almacena la información de autenticación y perfil de los usua
 
 <p align="justify">
 
-`WeeklyReport` no dispone de una tabla propia porque se genera en el Frontend Web mediante la consolidación de información persistida en proyectos, tareas, movimientos de materiales, materiales e incidencias.
+Finalmente, `reports` almacena la información de los reportes generados para cada proyecto.
 
 </p>
 
 <p align="justify">
 
-Las principales relaciones del modelo son de tipo muchos a uno desde los recursos hacia sus proyectos, trabajadores, materiales o usuarios relacionados. Las referencias del Supervisor y del Contratante se almacenan directamente en cada proyecto.
+Las principales relaciones del modelo son de tipo uno a muchos y muchos a muchos. La relación muchos a muchos existente entre usuarios y proyectos se resuelve mediante la tabla intermedia `project_members`.
 
 </p>
 
-#### Estructura vigente de tablas
+#### Estructura propuesta de tablas
 
-| Tabla                | Campos principales                                                                                                                                                                          |
-| -------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `users`              | `id PK`, `name`, `email`, `password`, `role`, `profile_picture`, `phone`, `created_at`                                                                                                      |
-| `projects`           | `id PK`, `name`, `location`, `start_date`, `end_date`, `budget`, `status`, `progress`, `user_id FK` (Supervisor), `contractor_id FK` (Contratante), `image_url`, `created_at`, `updated_at` |
-| `materials`          | `id PK`, `project_id`, `name`, `quantity`, `stock`, `minimum_stock`, `unit_price`, `unit`, `provider`, `provider_ruc`, `date`, `created_at`, `updated_at`                                   |
-| `material_movements` | `id PK`, `material_id FK`, `type`, `quantity`, `supplier`, `registered_by_user_id FK`, `occurred_at`, `note`                                                                                |
-| `machineries`        | `id PK`, `project_id`, `name`, `license_plate`, `register_date`, `status`, `description`, `created_at`, `updated_at`; la combinación `project_id` + `license_plate` es única                |
-| `workers`            | `id PK`, `name`, `role`, `hired_date`, `project_id FK`, `specialty`, `status`, `created_at`, `updated_at`                                                                                   |
-| `attendance_records` | `id PK`, `project_id FK`, `worker_id FK`, `attendance_date`, `status`, `check_in_at`, `check_out_at`, `notes`, `registered_by_user_id FK`, `created_at`, `updated_at`                       |
-| `tasks`              | `id PK`, `id_project FK`, `id_worker FK`, `title`, `description`, `start_date`, `due_date`, `status`, `completed_at`, `created_at`, `updated_at`                                            |
-| `incidents`          | `id PK`, `date`, `incident_type`, `severity`, `status`, `description`, `project_id`, `reported_by_user_id`, `reported_at`, `resolved_at`, `created_at`, `updated_at`                        |
+| Tabla                | Campos principales                                                                                                                     |
+| -------------------- | -------------------------------------------------------------------------------------------------------------------------------------- |
+| `users`              | `user_id PK`, `email`, `password_hash`, `full_name`, `role`, `created_at`                                                              |
+| `projects`           | `project_id PK`, `name`, `start_date`, `end_date`, `budget`, `status`, `progress`, `created_at`                                        |
+| `project_members`    | `project_member_id PK`, `project_id FK`, `user_id FK`, `joined_at`                                                                     |
+| `materials`          | `material_id PK`, `project_id FK`, `name`, `unit`, `current_stock`, `minimum_stock`, `last_updated`                                    |
+| `material_movements` | `movement_id PK`, `material_id FK`, `registered_by_user_id FK`, `type`, `quantity`, `supplier`, `occurred_at`                          |
+| `machineries`        | `machinery_id PK`, `project_id FK`, `name`, `serial_number`, `status`, `description`                                                   |
+| `workers`            | `worker_id PK`, `project_id FK`, `full_name`, `role`, `specialty`, `hire_date`, `active`                                               |
+| `attendances`        | `attendance_id PK`, `worker_id FK`, `date`, `check_in_time`, `check_out_time`, `status`                                                |
+| `tasks`              | `task_id PK`, `project_id FK`, `worker_id FK`, `title`, `description`, `status`, `due_date`, `created_at`                              |
+| `incidents`          | `incident_id PK`, `project_id FK`, `reported_by_user_id FK`, `type`, `description`, `severity`, `status`, `reported_at`, `resolved_at` |
+| `reports`            | `report_id PK`, `project_id FK`, `generated_by_user_id FK`, `type`, `generated_at`, `file_path`, `summary`                             |
 
 # Capítulo V: Product Implementation
 
