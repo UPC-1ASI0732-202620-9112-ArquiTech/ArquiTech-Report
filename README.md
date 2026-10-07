@@ -2498,6 +2498,8 @@ La principal diferencia entre ambos User Personas radica en su nivel de particip
 
 ### 2.3.3. User Journey Mapping
 
+Los mapas organizan la experiencia de ambos segmentos desde la planificación y obtención de información hasta el seguimiento y consulta de resultados. En el supervisor se vinculan la coordinación diaria, la supervisión en campo y la consolidación de reportes; en el contratante, la solicitud de información y la evaluación del avance. Las dificultades sintetizadas en 2.2.3 —registros dispersos, actualización tardía y poca visibilidad— permiten identificar oportunidades de centralización. Esta lectura de extremo a extremo conecta las tareas de 2.3.2 con los escenarios actuales de 2.3.5 y los escenarios propuestos de 3.1.
+
 _User Journey Mapping del segmento #1: Supervisor de Obra_
 
 <p align="center">
