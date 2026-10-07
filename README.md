@@ -5172,7 +5172,7 @@ _Vista de la Aplicación Web en Producción (Módulo de Materiales)_
 
 <br>
 
-### 5.2.5. Implemented Native-Mobile Application Evidence
+### 5.2.4. Implemented Native-Mobile Application Evidence
 
 ArquiTech cuenta con una aplicación implementada en Flutter; la descripción anterior que la situaba exclusivamente en diseño y prototipado corresponde a una etapa previa. El [repositorio móvil](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendMobile) contiene el cliente, las configuraciones Android/iOS y los módulos de autenticación, proyectos, materiales, personal, asistencia, tareas, incidencias, maquinaria y reportes. La revisión adicional del 07/10/2026 identifica la versión **1.0.1+2**, en main, [commit 645b8324](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendMobile/commit/645b8324fd216d7e5998dedda463e576af7e20fb).
 
