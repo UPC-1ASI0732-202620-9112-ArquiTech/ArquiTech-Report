@@ -4792,7 +4792,7 @@ Esta sección define las herramientas, prácticas de control de versiones, conve
 
 <p align="justify">
 
-El equipo utiliza Git para el control de versiones y GitHub para alojar y revisar los cambios. Todos los componentes vigentes de ArquiTech se mantienen en la organización `UPC-1ASI0732-202620-9112-ArquiTech` y utilizan `main` como rama predeterminada.
+ArquiTech utiliza Git como sistema distribuido de control de versiones y GitHub como plataforma para alojar los repositorios, administrar ramas y revisar cambios mediante Pull Requests. Los repositorios del ciclo actual están centralizados en la organización [UPC-1ASI0732-202620-9112-ArquiTech](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech), con un repositorio independiente para la documentación y cada componente de la solución.
 
 </p>
 
@@ -4808,40 +4808,50 @@ Repositorios vigentes del producto:
 - **Frontend Mobile Application:** [ArquiTech-FrontendMobile](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendMobile)
 - **Backend / Web Services:** [Arquitech-Backend](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/Arquitech-Backend)
 
-#### Flujo de ramas
+#### GitFlow
 
 <p align="justify">
 
-La rama predeterminada de los repositorios vigentes es `main`. El trabajo se aísla en ramas temporales y se integra mediante Pull Requests después de su revisión y validación:
+El equipo aplica una estrategia GitFlow mínima basada en ramas de trabajo e integración mediante Pull Requests. Durante este ciclo se creó `develop` a partir de `main` en Backend, Frontend Web y Frontend Mobile. Esta estructura permite mantener separado el código estable de los cambios que se encuentran en proceso de desarrollo e integración.
 
 </p>
 
-- **`main`:** contiene la versión integrada y es la rama predeterminada de los cinco repositorios de la organización.
-- **`feature/*`:** nace desde `main`, aísla una funcionalidad y vuelve a `main` mediante Pull Request después de su revisión. Ejemplos: `feature/project-management`, `feature/material-inventory` y `feature/user-authentication`.
-- **`release/*`:** puede utilizarse desde `main` para estabilizar una versión sin incorporar nuevas funcionalidades; al finalizar se integra nuevamente en `main`. Ejemplo: `release/1.0.0`.
-- **`hotfix/*`:** nace desde `main` para corregir un defecto urgente y vuelve a `main` mediante Pull Request. Ejemplo: `hotfix/1.0.1`.
+- **`main`:** rama principal que contiene los cambios aprobados y considerados estables.
+- **`develop`:** rama de integración donde se incorporan funcionalidades, pruebas y correcciones antes de su promoción a `main`.
+- **`feature/*`:** ramas utilizadas para desarrollar funcionalidades o pruebas de manera aislada. Ejemplos reales incluyen `feature/backend-tests`, `feature/backend-completion` y `feature/functional-tests`.
+- **`fix/*`:** ramas utilizadas para implementar correcciones específicas. Un ejemplo real es `fix/fullstack-integration-alignment`.
 
 <p align="justify">
 
-Los nombres de ramas se escriben en inglés. Los nombres descriptivos de `feature/*` usan `kebab-case`, mientras que `release/*` y `hotfix/*` usan una versión válida.
+En el flujo aplicado, las ramas `feature/*` y `fix/*` se integran a `develop` mediante Pull Requests. Posteriormente, los cambios revisados y validados en `develop` pueden promoverse a `main` mediante un nuevo Pull Request. Los nombres de las ramas se redactan en inglés y emplean nombres descriptivos para mantener una convención uniforme entre los repositorios.
 
 </p>
+
+<pre><code>feature/* o fix/*
+        ↓
+   Pull Request
+        ↓
+      develop
+        ↓
+   Pull Request
+        ↓
+       main</code></pre>
 
 #### Semantic Versioning
 
 <p align="justify">
 
-Las versiones siguen [Semantic Versioning 2.0.0](https://semver.org/) con el formato `MAJOR.MINOR.PATCH`:
+El equipo adopta [Semantic Versioning 2.0.0](https://semver.org/) como convención para identificar versiones mediante el formato `MAJOR.MINOR.PATCH`.
 
 </p>
 
-- `MAJOR` cambia cuando se introducen modificaciones incompatibles.
-- `MINOR` cambia cuando se agregan funcionalidades compatibles.
-- `PATCH` cambia cuando se corrigen defectos de forma compatible.
+- **`MAJOR`:** aumenta cuando se introducen cambios incompatibles con versiones anteriores.
+- **`MINOR`:** aumenta cuando se incorporan nuevas funcionalidades compatibles.
+- **`PATCH`:** aumenta cuando se corrigen defectos de forma compatible.
 
 <p align="justify">
 
-Por ejemplo, `1.1.0` identifica una nueva funcionalidad compatible y `1.0.1` una corrección compatible. En `main`, cada release estable debe etiquetarse como `v<version>`, por ejemplo, `v1.0.0`.
+Las versiones estables pueden identificarse mediante etiquetas Git utilizando el formato `v<version>` una vez que hayan sido aprobadas para su publicación.
 
 </p>
 
@@ -4849,25 +4859,93 @@ Por ejemplo, `1.1.0` identifica una nueva funcionalidad compatible y `1.0.1` una
 
 <p align="justify">
 
-Los mensajes de commit se redactan en inglés y siguen [Conventional Commits](https://www.conventionalcommits.org/) con la estructura:
+El equipo adopta [Conventional Commits](https://www.conventionalcommits.org/) como convención para los mensajes de commit, redactados en inglés. El tipo identifica la intención del cambio, el alcance identifica el área afectada y la descripción resume brevemente la modificación realizada. Cuando se utiliza un alcance, el formato es el siguiente:
 
 </p>
 
-```text
-<type>(<scope>): <description>
-```
+<pre><code>&lt;type&gt;(&lt;scope&gt;): &lt;description&gt;</code></pre>
 
 <p align="justify">
 
-Se utilizan los tipos `feat`, `fix`, `docs`, `style`, `refactor`, `test` y `chore`. El `scope` identifica el área afectada y la descripción se escribe de forma breve, imperativa y sin punto final.
+Entre los tipos utilizados se consideran `feat`, `fix`, `test`, `docs`, `style`, `refactor` y `chore`. Los siguientes ejemplos representan el formato adoptado por el equipo:
 
 </p>
 
-```text
-feat(projects): add project creation form
+<pre><code>feat(projects): add project creation form
 fix(inventory): correct material stock calculation
-docs(report): update software configuration management
-```
+test(backend): add integration tests
+docs(report): update source code management section</code></pre>
+
+#### GitFlow Evidence
+
+<p align="justify">
+
+La evidencia disponible en GitHub muestra la existencia de las ramas `main`, `develop` y `feature/*`, así como los Pull Requests utilizados para integrar cambios hacia `develop` y posteriormente promoverlos hacia `main`. Las siguientes integraciones corresponden al flujo aplicado durante el desarrollo del proyecto.
+
+</p>
+
+| Repositorio | Rama origen → destino | Pull Request | Estado comprobado |
+|---|---|---|---|
+| Backend | `feature/backend-tests` → `develop` | [#3](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/Arquitech-Backend/pull/3) | Merged |
+| Frontend Web | `feature/functional-tests` → `develop` | [#1](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendWeb/pull/1) | Merged |
+| Frontend Mobile | `feature/functional-tests` → `develop` | [#3](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendMobile/pull/3) | Merged |
+| Backend | `develop` → `main` | [#4](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/Arquitech-Backend/pull/4) | Merged |
+| Frontend Web | `develop` → `main` | [#2](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendWeb/pull/2) | Merged |
+| Frontend Mobile | `develop` → `main` | [#4](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendMobile/pull/4) | Merged |
+
+<p align="justify">
+
+A continuación, se presentan las evidencias visuales de la estrategia GitFlow aplicada en los repositorios principales de ArquiTech. Las capturas muestran la estructura de ramas y los Pull Requests utilizados para integrar funcionalidades, pruebas y correcciones.
+
+</p>
+
+<br>
+
+_Ramas del repositorio Backend_
+
+<p align="center">
+  <img src="assets/chapter-5/scm/backend-branches.png" width="850" alt="Backend GitFlow Branches">
+</p>
+
+<p align="center"><em><b>Nota.</b> Elaboración propia (GitHub - Branches del Backend).</em></p>
+
+<br>
+
+_Pull Requests del Backend_
+
+<p align="center">
+  <img src="assets/chapter-5/scm/backend-pr.png" width="850" alt="Backend Pull Requests">
+</p>
+
+<p align="center"><em><b>Nota.</b> Elaboración propia (GitHub - Pull Requests del Backend).</em></p>
+
+<br>
+
+_Pull Requests del Frontend Web_
+
+<p align="center">
+  <img src="assets/chapter-5/scm/frontend-pr.png" width="850" alt="Frontend Web Pull Requests">
+</p>
+
+<p align="center"><em><b>Nota.</b> Elaboración propia (GitHub - Pull Requests del Frontend Web).</em></p>
+
+<br>
+
+_Pull Requests del Frontend Mobile_
+
+<p align="center">
+  <img src="assets/chapter-5/scm/mobile-pr.png" width="850" alt="Frontend Mobile Pull Requests">
+</p>
+
+<p align="center"><em><b>Nota.</b> Elaboración propia (GitHub - Pull Requests del Frontend Mobile).</em></p>
+
+<br>
+
+<p align="justify">
+
+Las evidencias anteriores demuestran que las funcionalidades y pruebas desarrolladas en ramas independientes fueron integradas mediante Pull Requests hacia `develop`. Asimismo, los Pull Requests entre `develop` y `main` evidencian la segunda etapa del flujo de integración adoptado por el equipo para mantener control y trazabilidad sobre los cambios realizados.
+
+</p>
 
 ### 5.1.3. Source Code Style Guide & Conventions
 
@@ -5269,10 +5347,32 @@ _Evidencia de la Landing Page pendiente de actualización manual_
 <div style="text-align: justify;">
 <p align="justify">
 
-Esta sección evidencia la implementación de la Frontend Web Application de ArquiTech, el entorno principal para supervisores y contratantes. A continuación, se presenta el software en ejecución en su entorno de producción, evidenciando las vistas principales con datos dinámicos y soporte i18n.
+Esta sección evidencia la implementación de la Frontend-Web Application de ArquiTech, desarrollada como el principal entorno de interacción para supervisores y contratistas. La aplicación se encuentra desplegada en un entorno de producción y consume los servicios REST proporcionados por el backend de la plataforma.
+
+La solución permite acceder a las principales funcionalidades del sistema, incluyendo la gestión de proyectos, materiales, trabajadores, asistencia, tareas, incidencias, maquinaria, reportes y perfil de usuario. Asimismo, la aplicación cuenta con soporte de internacionalización (i18n) y adapta las funcionalidades disponibles según el rol del usuario autenticado.
+
+A continuación, se presentan evidencias visuales de la aplicación web en ejecución, utilizando datos dinámicos obtenidos desde el backend desplegado.
 
 </p>
 </div>
+
+<br>
+
+_Vista de la Aplicación Web en Producción (Inicio de Sesión)_
+
+<p align="center">
+  <img src="assets/chapter-5/implemented/webapp-login.png" width="850" alt="Web App Login">
+</p>
+<p align="center"><em><b>Nota.</b> Elaboración propia (Software en ejecución).</em></p>
+
+<br>
+
+_Vista de la Aplicación Web en Producción (Módulo de Proyectos)_
+
+<p align="center">
+  <img src="assets/chapter-5/implemented/webapp-projects.png" width="850" alt="Web App Projects">
+</p>
+<p align="center"><em><b>Nota.</b> Elaboración propia (Software en ejecución).</em></p>
 
 <br>
 
@@ -5281,35 +5381,296 @@ _Vista de la Aplicación Web en Producción (Módulo de Materiales)_
 <p align="center">
   <img src="assets/chapter-5/implemented/webapp-execution.png" width="850" alt="Web App Implementada">
 </p>
-<p align="center"><em>*Nota.* Elaboración propia (Software en ejecución).</em></p>
+<p align="center"><em><b>Nota.</b> Elaboración propia (Software en ejecución).</em></p>
 
 <br>
 
-### 5.2.4. Implemented Native-Mobile Application Evidence
+### 5.2.4. Acuerdo de Servicio - SaaS
 
-ArquiTech cuenta con una aplicación implementada en Flutter; la descripción anterior que la situaba exclusivamente en diseño y prototipado corresponde a una etapa previa. El [repositorio móvil](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendMobile) contiene el cliente, las configuraciones Android/iOS y los módulos de autenticación, proyectos, materiales, personal, asistencia, tareas, incidencias, maquinaria y reportes. La revisión adicional del 07/10/2026 identifica la versión **1.0.1+2**, en main, [commit 645b8324](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendMobile/commit/645b8324fd216d7e5998dedda463e576af7e20fb).
+<p align="justify">
 
-La conexión a la API se define en [la configuración del cliente](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendMobile/blob/645b8324fd216d7e5998dedda463e576af7e20fb/lib/core/config/app_config.dart). La implementación distingue los permisos de supervisor y contratista, mantiene la sesión autenticada y organiza los recursos por proyecto. La existencia del código se complementa con la validación automatizada y la compilación Android descritas a continuación.
+ArquiTech se ofrece bajo un modelo Software as a Service (SaaS) orientado principalmente a pequeñas y medianas empresas del sector construcción. El presente acuerdo establece las condiciones generales de acceso y uso de la plataforma, así como los derechos, obligaciones y restricciones aplicables a los usuarios que interactúan con sus aplicaciones Web y Mobile.
 
-**Pruebas y compilación verificadas**
+El acuerdo aplica a los usuarios registrados en ArquiTech, principalmente Supervisores y Contratistas, y se encuentra publicado mediante la sección pública de Terms and Conditions de la plataforma. Su contenido busca proporcionar transparencia respecto al funcionamiento del servicio, tratamiento de información, responsabilidades de los usuarios y limitaciones propias de la solución.
 
-La [corrida CI 37580417368](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendMobile/actions/runs/37580417368), iniciada el **07/10/2026 a las 01:14:15, hora de Lima**, está asociada al commit 645b8324 y presenta resultado aprobado. El job «Analyze, test, and build Flutter» completó correctamente el análisis, las pruebas Flutter y la construcción del **APK debug Android**. El entorno configurado utiliza Ubuntu, Java 17 y Flutter 3.47.6. Sus etapas se documentan en 7.1.2.
+</p>
 
-El [documento de pruebas del repositorio](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendMobile/blob/645b8324fd216d7e5998dedda463e576af7e20fb/docs/mobile-testing.md) registra una ampliación de la suite a **93 pruebas aprobadas**, con casos unitarios, de contratos y de widgets. Esta cantidad corresponde al resultado declarado en ese documento; no se atribuye como cantidad de la corrida CI, cuyo resumen consultado acredita la aprobación de la etapa de pruebas.
+#### Parties and Purpose
 
-La captura de Playwright presentada en 6.1.4 muestra **3 pruebas aprobadas en 14,2 segundos**: autenticación, validación de fecha de fin de proyecto y apertura de la aplicación. El repositorio contiene los dos archivos de pruebas correspondientes y una configuración de navegador con perfil Pixel 7 y dirección local. Esta ejecución se documenta por separado de las pruebas Flutter y de la compilación del APK.
+<p align="justify">
 
-| Implementación o evidencia            | Estado comprobado                                                                                                | Sección donde se evidencia           |
-| ------------------------------------- | ---------------------------------------------------------------------------------------------------------------- | ------------------------------------ |
-| Cliente Flutter y módulos funcionales | Código disponible en main, commit 645b8324; versión 1.0.1+2                                                      | 5.2.5; versión registrada en Anexo B |
-| Pruebas del cliente                   | Etapa Flutter aprobada en CI; 93 casos declarados en el documento de pruebas del equipo                          | 6.1 y 6.1.1; corrida en 7.1.2        |
-| Flujos Playwright                     | Captura con 3/3 pruebas aprobadas, 14,2 s; archivos y configuración disponibles                                  | 6.1.4                                |
-| Compilación Android                   | Etapa «Build debug APK» aprobada en la corrida enlazada                                                          | 5.2.5 y 7.1.2                        |
-| APK distribuible                      | No se encontró un APK publicado en releases, archivos versionados o artefactos de Actions durante la consulta    | 7.2.2; publicación pendiente         |
-| Ejecución funcional Android           | Faltan capturas de la aplicación instalada, con dispositivo, versión y flujos identificados                      | 5.2.5; evidencia visual pendiente    |
-| Ejecución iOS                         | Configuración de plataforma presente; no se acredita compilación ni ejecución iOS con las evidencias consultadas | 5.2.5                                |
+ArquiTech proporciona una plataforma tecnológica orientada a apoyar la gestión de proyectos de construcción mediante funcionalidades relacionadas con proyectos, materiales, trabajadores, asistencia, tareas, incidencias, maquinaria y reportes. El uso de la plataforma se encuentra sujeto a las condiciones establecidas en el presente acuerdo.
 
-### 5.2.5. Implemented RESTful API and/or Serverless Backend Evidence
+</p>
+
+#### Definitions
+
+<p align="justify">
+
+Para efectos del presente acuerdo, se consideran los siguientes conceptos principales:
+
+</p>
+
+- **Usuario:** persona que accede a la plataforma mediante una cuenta registrada.
+- **Supervisor:** usuario con permisos para registrar, modificar y gestionar información asociada a los proyectos bajo su responsabilidad.
+- **Contratista:** usuario con permisos de consulta y acceso a la información autorizada de los proyectos asociados.
+- **Proyecto:** obra o iniciativa de construcción registrada dentro de la plataforma.
+- **Cuenta:** credenciales utilizadas para autenticar a un usuario en ArquiTech.
+- **Datos del cliente:** información registrada por los usuarios relacionada con proyectos, trabajadores, materiales, tareas, incidencias y demás elementos gestionados mediante la plataforma.
+
+#### User Accounts and Roles
+
+<p align="justify">
+
+El acceso a ArquiTech requiere una cuenta válida. Las funcionalidades disponibles dependen del rol asignado al usuario. Los Supervisores pueden realizar operaciones de gestión y actualización sobre los recursos autorizados, mientras que los Contratistas acceden principalmente a funcionalidades de consulta de acuerdo con los permisos definidos por la plataforma.
+
+Cada usuario es responsable de mantener la confidencialidad de sus credenciales y de evitar el acceso no autorizado a su cuenta.
+
+</p>
+
+#### User Rights
+
+<p align="justify">
+
+Los usuarios de ArquiTech tienen derecho a acceder a las funcionalidades incluidas en el servicio contratado, consultar la información correspondiente a sus proyectos autorizados, utilizar las funcionalidades disponibles según su rol y solicitar soporte ante incidencias relacionadas con el funcionamiento de la plataforma.
+
+Asimismo, los usuarios pueden ejercer los derechos que correspondan respecto al tratamiento de sus datos personales conforme a la normativa aplicable.
+
+</p>
+
+#### User Obligations
+
+<p align="justify">
+
+Los usuarios se comprometen a proporcionar información veraz y actualizada, utilizar la plataforma exclusivamente para fines relacionados con la gestión de sus proyectos de construcción, proteger sus credenciales de acceso y respetar las restricciones de seguridad y autorización establecidas en el sistema.
+
+También deberán cumplir con las condiciones correspondientes al modelo de suscripción vigente para mantener el acceso al servicio.
+
+</p>
+
+#### Restrictions
+
+<p align="justify">
+
+Queda prohibido compartir cuentas entre personas no autorizadas, intentar acceder a proyectos o información ajena, realizar acciones destinadas a vulnerar los mecanismos de seguridad, efectuar ingeniería inversa sobre los componentes del servicio, utilizar la plataforma para actividades ilícitas o introducir contenido que pueda afectar la operación o seguridad del sistema.
+
+</p>
+
+#### Subscription and Payments
+
+<p align="justify">
+
+ArquiTech contempla un modelo de suscripción orientado principalmente a pequeñas y medianas empresas constructoras. La plataforma considera un único plan de servicio que permite acceder a las funcionalidades disponibles de acuerdo con los roles definidos para los usuarios.
+
+Las condiciones económicas, renovación y cancelación del servicio serán comunicadas al cliente antes de la contratación o modificación de la suscripción.
+
+</p>
+
+#### Availability and Support
+
+<p align="justify">
+
+ArquiTech busca mantener sus servicios disponibles de manera continua; sin embargo, pueden producirse interrupciones temporales debido a actividades de mantenimiento, actualizaciones, problemas de infraestructura, conectividad o situaciones fuera del control del equipo responsable.
+
+Las incidencias relacionadas con el funcionamiento de la plataforma podrán ser reportadas mediante los canales de soporte habilitados por ArquiTech.
+
+</p>
+
+#### Data Protection
+
+<p align="justify">
+
+El tratamiento de datos personales realizado mediante ArquiTech se efectúa considerando los principios establecidos en la Ley N.° 29733, Ley de Protección de Datos Personales del Perú, y su normativa aplicable.
+
+Los usuarios podrán solicitar, cuando corresponda, el ejercicio de sus derechos de Acceso, Rectificación, Cancelación y Oposición (ARCO) respecto a sus datos personales mediante los canales de contacto establecidos por la plataforma.
+
+</p>
+
+#### Information Ownership
+
+<p align="justify">
+
+La información correspondiente a proyectos, trabajadores, materiales, tareas, incidencias y demás datos registrados por una empresa cliente continúa perteneciendo a dicha organización. ArquiTech utiliza esta información únicamente para proporcionar las funcionalidades ofrecidas por la plataforma y no contempla su comercialización a terceros como parte de su modelo de servicio.
+
+</p>
+
+#### Intellectual Property
+
+<p align="justify">
+
+El software, diseño, identidad visual, documentación y demás componentes propios de ArquiTech se encuentran asociados al proyecto y a sus responsables. El acceso al servicio no implica la transferencia de derechos de propiedad intelectual sobre la plataforma a los usuarios.
+
+</p>
+
+#### Limitation of Liability
+
+<p align="justify">
+
+ArquiTech funciona como una herramienta de apoyo para la gestión de información relacionada con proyectos de construcción. La plataforma no reemplaza las responsabilidades profesionales, técnicas, administrativas o legales correspondientes a los responsables de cada obra.
+
+Las decisiones tomadas a partir de la información registrada en el sistema continúan siendo responsabilidad de los usuarios y organizaciones involucradas.
+
+</p>
+
+#### Suspension and Termination
+
+<p align="justify">
+
+El acceso al servicio podrá ser suspendido ante incumplimientos graves de las condiciones establecidas, uso indebido de la plataforma, actividades que comprometan su seguridad o finalización de la relación de servicio.
+
+En caso de terminación, el tratamiento y conservación de la información se realizará conforme a las condiciones establecidas con el cliente y a la normativa aplicable.
+
+</p>
+
+#### Changes to the Agreement
+
+<p align="justify">
+
+ArquiTech podrá actualizar las condiciones del servicio cuando existan cambios funcionales, técnicos, normativos o comerciales que lo requieran. Las modificaciones relevantes deberán ser comunicadas a los usuarios mediante los canales disponibles en la plataforma antes de su aplicación cuando corresponda.
+
+</p>
+
+#### Applicable Law
+
+<p align="justify">
+
+El presente acuerdo se rige por la legislación vigente de la República del Perú. Cualquier controversia relacionada con el uso de la plataforma será tratada conforme a la normativa y jurisdicción aplicable.
+
+</p>
+
+#### Contact
+
+<p align="justify">
+
+Los usuarios podrán comunicarse con el equipo responsable de ArquiTech mediante el canal de contacto publicado en la Landing Page y en las aplicaciones de la plataforma para consultas relacionadas con el servicio, soporte técnico, privacidad o ejercicio de derechos sobre sus datos personales.
+
+</p>
+
+#### Ethical and Professional Responsibility
+
+<p align="justify">
+
+El diseño y operación de ArquiTech consideran principios de responsabilidad profesional y ética asociados a los códigos ACM, IEEE y CIP. La plataforma busca mantener transparencia respecto a sus capacidades y limitaciones, proteger la información de los usuarios, implementar mecanismos de autenticación y autorización y evitar presentar el software como sustituto de las responsabilidades profesionales propias de la gestión y supervisión de una obra.
+
+</p>
+
+#### Publication Evidence
+
+<p align="justify">
+
+El acuerdo SaaS de ArquiTech se encuentra disponible públicamente mediante la página de Terms and Conditions de la plataforma. Esta página está disponible en inglés por defecto y cuenta con una versión en español, permitiendo que los usuarios consulten las condiciones aplicables al uso del servicio.
+
+El acceso a los Terms and Conditions se encuentra disponible desde la Landing Page, la Frontend Web Application y la Native-Mobile Application, garantizando que los usuarios puedan consultar la información legal antes y durante el uso de ArquiTech.
+
+</p>
+
+<br>
+
+_Terms and Conditions Page - English Version_
+
+<p align="center">
+  <img src="assets/chapter-5/implemented/terms-and-conditions-en.png" width="850" alt="ArquiTech Terms and Conditions English Version">
+</p>
+
+<p align="center"><em><b>Nota.</b> Elaboración propia (Terms and Conditions de ArquiTech en inglés).</em></p>
+
+<br>
+
+_Terms and Conditions Page - Spanish Version_
+
+<p align="center">
+  <img src="assets/chapter-5/implemented/terms-and-conditions-es.png" width="850" alt="ArquiTech Terms and Conditions Spanish Version">
+</p>
+
+<p align="center"><em><b>Nota.</b> Elaboración propia (Terms and Conditions de ArquiTech en español).</em></p>
+
+<br>
+
+_Terms and Conditions Link in Landing Page Footer_
+
+<p align="center">
+  <img src="assets/chapter-5/implemented/landing-terms-footer.png" width="850" alt="Terms and Conditions Landing Page Footer">
+</p>
+
+<p align="center"><em><b>Nota.</b> Elaboración propia (Acceso a Terms and Conditions desde la Landing Page).</em></p>
+
+<br>
+
+_Terms and Conditions Access in Frontend Web Application_
+
+<p align="center">
+  <img src="assets/chapter-5/implemented/web-terms-access.png" width="850" alt="Terms and Conditions Frontend Web Application">
+</p>
+
+<p align="center"><em><b>Nota.</b> Elaboración propia (Acceso a Terms and Conditions desde la Frontend Web Application).</em></p>
+
+<br>
+
+_Terms and Conditions Access in Native-Mobile Application_
+
+<p align="center">
+  <img src="assets/chapter-5/implemented/mobile-terms-access.png" width="350" alt="Terms and Conditions Native-Mobile Application">
+</p>
+
+<p align="center"><em><b>Nota.</b> Elaboración propia (Acceso a Terms and Conditions desde la Native-Mobile Application).</em></p>
+
+<br>
+
+<p align="justify">
+
+Las evidencias anteriores demuestran que el acuerdo SaaS se encuentra publicado y accesible desde los principales puntos de interacción de ArquiTech, permitiendo que los usuarios consulten sus derechos, obligaciones, restricciones y condiciones de uso del servicio de manera transparente.
+
+</p>
+
+### 5.2.5. Implemented Native-Mobile Application Evidence
+
+<div style="text-align: justify;">
+<p align="justify">
+
+Esta sección evidencia la implementación de la Native-Mobile Application de ArquiTech, desarrollada con Flutter para dispositivos Android. La aplicación móvil permite a supervisores y contratistas acceder a las funcionalidades principales de la plataforma desde un entorno adaptado a dispositivos móviles.
+
+La solución se encuentra integrada con el backend desplegado de ArquiTech y permite realizar operaciones relacionadas con autenticación, consulta de proyectos y acceso a los diferentes módulos disponibles según el rol del usuario. Asimismo, se generó una versión APK en modo release y se distribuyó mediante Firebase App Distribution para facilitar su instalación y validación en dispositivos Android.
+
+</p>
+</div>
+
+<br>
+
+_Vista de la Aplicación Mobile en Ejecución (Inicio de Sesión)_
+
+<p align="center">
+  <img src="assets/chapter-5/implemented/mobile-login.jpg" width="350" alt="ArquiTech Mobile Login">
+</p>
+
+<p align="center"><em><b>Nota.</b> Elaboración propia (Native-Mobile Application de ArquiTech en ejecución).</em></p>
+
+<br>
+
+_Vista de la Aplicación Mobile en Ejecución (Módulo de Proyectos)_
+
+<p align="center">
+  <img src="assets/chapter-5/implemented/mobile-projects.jpg" width="350" alt="ArquiTech Mobile Projects">
+</p>
+
+<p align="center"><em><b>Nota.</b> Elaboración propia (Módulo de proyectos de la Native-Mobile Application).</em></p>
+
+<br>
+
+_Vista de la distribución de la Aplicación Mobile mediante Firebase App Distribution_
+
+<p align="center">
+  <img src="assets/chapter-5/implemented/mobile-firebase-distribution.jpg" width="350" alt="ArquiTech Firebase App Distribution">
+</p>
+
+<p align="center"><em><b>Nota.</b> Elaboración propia (Distribución del APK de ArquiTech mediante Firebase App Distribution).</em></p>
+
+<p align="justify">
+
+Las evidencias anteriores demuestran que la aplicación móvil de ArquiTech se encuentra implementada, integrada con los servicios backend de la plataforma y disponible para su instalación y validación en dispositivos Android mediante Firebase App Distribution.
+
+</p>
+
+### 5.2.6. Implemented RESTful API and/or Serverless Backend Evidence
 
 <div style="text-align: justify;">
 <p align="justify">
@@ -5421,7 +5782,7 @@ La documentación completa de los recursos expuestos por el servicio, así como 
 </p>
 </div>
 
-### 5.2.6. RESTful API documentation
+### 5.2.7. RESTful API documentation
 
 <div style="text-align: justify;"> <p align="justify">
 
@@ -5493,26 +5854,38 @@ Esquema de seguridad documentado
 
 La especificación declara un esquema de seguridad de tipo Bearer Token (JWT) aplicado a los recursos protegidos, lo cual se representa en Swagger UI mediante el indicador de candado presente en cada endpoint y el control Authorize disponible en la cabecera de la interfaz. Para ejecutar solicitudes sobre recursos protegidos es necesario obtener previamente un token válido mediante el endpoint POST /api/v1/authentication/sign-in y registrarlo en dicho control. Las solicitudes que no incluyen un token válido son rechazadas por el backend, comportamiento que se evidencia en la sección 5.2.5.
 
-</p> </div> <br> <div style="text-align: justify;"> <p align="justify">
+</p> </div> <div style="text-align: justify;"> <p align="justify">
 
 Esta documentación constituye el contrato de referencia para la integración entre la Frontend Web Application y el backend, y es el insumo utilizado en la Spike Story SP-01 – Analizar compatibilidad de contratos REST entre frontend y backend para contrastar los servicios consumidos por el cliente web con los endpoints efectivamente expuestos por el servicio.
 
 </p> </div>
 
-### 5.2.7. Team Collaboration Insights
+### 5.2.8. Team Collaboration Insights
 
 <div style="text-align: justify;">
-A continuación, se presentan las evidencias del trabajo colaborativo del equipo Foundex a nivel de código fuente. El registro de métricas y commits extraído de GitHub demuestra la participación técnica y activa de todos los integrantes durante el desarrollo e integración de la línea base del proyecto.
+
+A continuación, se presentan las evidencias del trabajo colaborativo realizado por el equipo ArquiTech a nivel de código fuente. Las métricas de contribución y el registro de commits obtenidos desde GitHub permiten evidenciar la participación técnica de los integrantes durante el desarrollo, integración y evolución de los diferentes componentes de la solución.
+
+Asimismo, estas métricas permiten observar la actividad asociada al control de versiones, incluyendo la incorporación de cambios, correcciones y mejoras realizadas durante los diferentes sprints del proyecto.
+
 </div>
 
-<br>
 
 _Evidencias de Commits y Contribuciones del Equipo en GitHub_
 
 <p align="center">
   <img src="assets/chapter-5/implemented/github-commits.png" width="850" alt="GitHub Team Commits Evidence">
 </p>
-<p align="center"><em>*Nota.* Elaboración propia (Registro de control de versiones).</em></p>
+
+<p align="center"><em><b>Nota.</b> Elaboración propia (GitHub Insights - Contributors).</em></p>
+
+<br>
+
+<div style="text-align: justify;">
+
+La evidencia anterior muestra la participación de los integrantes del equipo mediante commits y cambios realizados sobre el código fuente. Estas contribuciones reflejan el trabajo colaborativo desarrollado en los distintos repositorios de ArquiTech y permiten mantener trazabilidad sobre la evolución técnica del producto.
+
+</div>
 
 ## 5.3. Video About-the-Product
 
