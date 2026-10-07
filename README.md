@@ -329,44 +329,44 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 
 <br><br>
 
-  <strong>Chacaliaza Minaya, Eduardo Fabian</strong><br>
-        <strong>AV1:</strong> Elaboró los segmentos objetivo, el análisis competitivo, las estrategias y tácticas frente a competidores, el Product Backlog, Landing Page UI Design y Mobile Applications UX/UI Design. Estas actividades implicaron documentar de manera transparente las fortalezas y limitaciones de ArquiTech frente a otras soluciones, priorizar requisitos de acuerdo con las necesidades de los usuarios y considerar criterios de claridad, accesibilidad y responsabilidad en el diseño de las interfaces.
+<strong>Chacaliaza Minaya, Eduardo Fabian</strong><br>
+<strong>AV1:</strong> Elaboró los segmentos objetivo, el análisis competitivo, las estrategias y tácticas frente a competidores, el Product Backlog, Landing Page UI Design y Mobile Applications UX/UI Design. Estas actividades implicaron documentar de manera transparente las fortalezas y limitaciones de ArquiTech frente a otras soluciones, priorizar requisitos de acuerdo con las necesidades de los usuarios y considerar criterios de claridad, accesibilidad y responsabilidad en el diseño de las interfaces.
 
-  <br><br>
-        <strong>TP:</strong> Durante el TP, implementó y corrigió flujos en Frontend Web y Mobile para asistencia y eliminación confirmada de proyectos, además de consolidar la Landing bilingüe y el acceso público al SaaS Agreement. Incorporó pruebas E2E, adecuaciones de accesibilidad para ejecutarlas y ajustes de despliegue en Cloudflare. Estas acciones evidencian responsabilidad ética y profesional al exigir confirmación antes de operaciones destructivas, validar recorridos reales, mantener consistencia entre aplicaciones y ofrecer información legal accesible. La trazabilidad de pruebas, enlaces públicos y despliegues permitió comunicar con precisión el comportamiento disponible.
+<br><br>
+<strong>TP:</strong> Durante el TP, implementó y corrigió flujos en Frontend Web y Mobile para asistencia y eliminación confirmada de proyectos, además de consolidar la Landing bilingüe y el acceso público al SaaS Agreement. Incorporó pruebas E2E, adecuaciones de accesibilidad para ejecutarlas y ajustes de despliegue en Cloudflare. Estas acciones evidencian responsabilidad ética y profesional al exigir confirmación antes de operaciones destructivas, validar recorridos reales, mantener consistencia entre aplicaciones y ofrecer información legal accesible. La trazabilidad de pruebas, enlaces públicos y despliegues permitió comunicar con precisión el comportamiento disponible.
 
-  <br><br>
+<br><br>
 <strong>Quispe Barzola, Fabricio Fabian</strong><br>
-        <strong>AV1:</strong> Desarrolló el diseño, registro y análisis de entrevistas, User Stories, Software Object-Oriented Design, Database Design y Software Configuration Management. La realización de entrevistas permitió obtener información directamente de los segmentos objetivo y reducir decisiones basadas en suposiciones. Asimismo, la definición de requisitos, modelos de datos y prácticas de configuración contribuyó a una documentación responsable y trazable del sistema.
+<strong>AV1:</strong> Desarrolló el diseño, registro y análisis de entrevistas, User Stories, Software Object-Oriented Design, Database Design y Software Configuration Management. La realización de entrevistas permitió obtener información directamente de los segmentos objetivo y reducir decisiones basadas en suposiciones. Asimismo, la definición de requisitos, modelos de datos y prácticas de configuración contribuyó a una documentación responsable y trazable del sistema.
 
-  <br><br>
-        <strong>TP:</strong> Durante el TP, finalizó y alineó los contratos del Backend, reforzó reglas de autorización y dominio, mantuvo secretos fuera del código y agregó pruebas para validar el contrato full-stack. También implementó la base del Frontend Mobile, sus pruebas y los cuatro workflows de GitHub Actions, junto con el soporte de preview en Cloudflare y la documentación de CI/CD. Su responsabilidad profesional se reflejó en proteger datos y accesos, automatizar verificaciones trazables y documentar solamente capacidades respaldadas por código, configuraciones y ejecuciones reales, dejando explícitas las limitaciones no implementadas.
+<br><br>
+<strong>TP:</strong> Durante el TP, finalizó y alineó los contratos del Backend, reforzó reglas de autorización y dominio, mantuvo secretos fuera del código y agregó pruebas para validar el contrato full-stack. También implementó la base del Frontend Mobile, sus pruebas y los cuatro workflows de GitHub Actions, junto con el soporte de preview en Cloudflare y la documentación de CI/CD. Su responsabilidad profesional se reflejó en proteger datos y accesos, automatizar verificaciones trazables y documentar solamente capacidades respaldadas por código, configuraciones y ejecuciones reales, dejando explícitas las limitaciones no implementadas.
 
-  <br><br>
+<br><br>
 
-  <strong>Espino Rossi, Victor Manuel</strong><br>
-        <strong>AV1:</strong> Elaboró User Journey Mapping, Empathy Mapping, Impact Mapping, Mobile Applications Prototyping, Web Applications UX/UI Design y Product Implementation &amp; Deployment. Estas actividades permitieron representar de forma responsable las necesidades, frustraciones y experiencias de los usuarios, evitando que el diseño de la solución se centre únicamente en aspectos técnicos y considerando la experiencia de los distintos actores involucrados.
+<strong>Espino Rossi, Victor Manuel</strong><br>
+<strong>AV1:</strong> Elaboró User Journey Mapping, Empathy Mapping, Impact Mapping, Mobile Applications Prototyping, Web Applications UX/UI Design y Product Implementation &amp; Deployment. Estas actividades permitieron representar de forma responsable las necesidades, frustraciones y experiencias de los usuarios, evitando que el diseño de la solución se centre únicamente en aspectos técnicos y considerando la experiencia de los distintos actores involucrados.
 
-  <br><br>
-        <strong>TP:</strong> Durante el TP, documentó Product Verification &amp; Validation, pruebas de integración, escenarios BDD, evidencia E2E y las prácticas DevOps del Capítulo VII. Además, corrigió User Personas, Journey Mapping, Empathy Mapping, escenarios As-Is y To-Be, Impact Mapping, estructura e índice del Report. Este trabajo expresó responsabilidad profesional al vincular cada afirmación con pruebas o configuraciones verificables, distinguir implementación de evidencia y limitación, y mantener coherencia entre investigación, requisitos, artefactos de experiencia y producto. Así evitó presentar como concluida una capacidad que los repositorios no demostraban.
+<br><br>
+<strong>TP:</strong> Durante el TP, documentó Product Verification &amp; Validation, pruebas de integración, escenarios BDD, evidencia E2E y las prácticas DevOps del Capítulo VII. Además, corrigió User Personas, Journey Mapping, Empathy Mapping, escenarios As-Is y To-Be, Impact Mapping, estructura e índice del Report. Este trabajo expresó responsabilidad profesional al vincular cada afirmación con pruebas o configuraciones verificables, distinguir implementación de evidencia y limitación, y mantener coherencia entre investigación, requisitos, artefactos de experiencia y producto. Así evitó presentar como concluida una capacidad que los repositorios no demostraban.
 
-  <br><br>
+<br><br>
 
-  <strong>Garcia Cerpa, Braden Raid</strong><br>
-        <strong>AV1:</strong> Elaboró As-is Scenario Mapping, Ubiquitous Language, To-Be Scenario Mapping, Style Guidelines, Information Architecture y Video About-the-Product. Estas actividades contribuyeron a mantener una comunicación clara y sin ambigüedades dentro del proyecto, así como a diseñar una experiencia comprensible y consistente para los usuarios, considerando principios de accesibilidad, claridad de información y comunicación responsable del producto.
+<strong>Garcia Cerpa, Braden Raid</strong><br>
+<strong>AV1:</strong> Elaboró As-is Scenario Mapping, Ubiquitous Language, To-Be Scenario Mapping, Style Guidelines, Information Architecture y Video About-the-Product. Estas actividades contribuyeron a mantener una comunicación clara y sin ambigüedades dentro del proyecto, así como a diseñar una experiencia comprensible y consistente para los usuarios, considerando principios de accesibilidad, claridad de información y comunicación responsable del producto.
 
-  <br><br>
-        <strong>TP:</strong> Durante el TP, configuró Playwright y desarrolló pruebas funcionales para el uso de materiales y la regla de unicidad del serial de maquinaria, además de pruebas E2E Mobile para autenticación y creación de proyectos. Estas verificaciones demostraron responsabilidad ética y profesional al comprobar reglas críticas antes de exponerlas a usuarios, prevenir operaciones que afecten indebidamente el stock o la identificación de equipos y validar que el acceso y el registro de proyectos respondan al comportamiento esperado. Su aporte fortaleció la detección trazable de errores en flujos relevantes del dominio.
+<br><br>
+<strong>TP:</strong> Durante el TP, configuró Playwright y desarrolló pruebas funcionales para el uso de materiales y la regla de unicidad del serial de maquinaria, además de pruebas E2E Mobile para autenticación y creación de proyectos. Estas verificaciones demostraron responsabilidad ética y profesional al comprobar reglas críticas antes de exponerlas a usuarios, prevenir operaciones que afecten indebidamente el stock o la identificación de equipos y validar que el acceso y el registro de proyectos respondan al comportamiento esperado. Su aporte fortaleció la detección trazable de errores en flujos relevantes del dominio.
 
 </td>
 
   <td valign="middle" style="text-align:justify; vertical-align:middle !important; padding:8px;">
 
-  <strong>AV1:</strong> Durante el desarrollo del primer avance, el equipo reconoció que la construcción de ArquiTech no debe limitarse a implementar funcionalidades, sino que requiere comprender las consecuencias de las decisiones tomadas durante el ciclo de vida del software. La investigación con usuarios, la definición responsable de requisitos, la documentación de decisiones y el diseño orientado a la accesibilidad permitieron reducir suposiciones y establecer una base ética para el desarrollo de la solución. El equipo concluye que la responsabilidad profesional implica mantener transparencia sobre las capacidades y limitaciones del producto, proteger la información gestionada y priorizar las necesidades reales de los usuarios.
+<strong>AV1:</strong> Durante el desarrollo del primer avance, el equipo reconoció que la construcción de ArquiTech no debe limitarse a implementar funcionalidades, sino que requiere comprender las consecuencias de las decisiones tomadas durante el ciclo de vida del software. La investigación con usuarios, la definición responsable de requisitos, la documentación de decisiones y el diseño orientado a la accesibilidad permitieron reducir suposiciones y establecer una base ética para el desarrollo de la solución. El equipo concluye que la responsabilidad profesional implica mantener transparencia sobre las capacidades y limitaciones del producto, proteger la información gestionada y priorizar las necesidades reales de los usuarios.
 
-  <br><br>
+<br><br>
 
-  <strong>TP:</strong> Durante el Trabajo Parcial, el equipo profundizó su responsabilidad profesional mediante pruebas automatizadas de reglas de dominio, integración y recorridos E2E; controles de autorización; protección de secretos; y confirmaciones para operaciones destructivas. Los workflows de CI aportaron verificaciones reproducibles y trazabilidad para Web, Backend, Mobile y Landing, mientras que los despliegues y previews se documentaron con evidencia verificable. El Report distinguió de forma explícita entre implementación, ejecución observada y limitaciones pendientes, como Playwright deshabilitado en CI, ausencia de staging aislado para Backend y falta de distribución automática del APK. El equipo concluye que actuar profesionalmente también exige no atribuir al producto capacidades que sus repositorios, pruebas o configuraciones no demuestran.
+<strong>TP:</strong> Durante el Trabajo Parcial, el equipo profundizó su responsabilidad profesional mediante pruebas automatizadas de reglas de dominio, integración y recorridos E2E; controles de autorización; protección de secretos; y confirmaciones para operaciones destructivas. Los workflows de CI aportaron verificaciones reproducibles y trazabilidad para Web, Backend, Mobile y Landing, mientras que los despliegues y previews se documentaron con evidencia verificable. El Report distinguió de forma explícita entre implementación, ejecución observada y limitaciones pendientes, como Playwright deshabilitado en CI, ausencia de staging aislado para Backend y falta de distribución automática del APK. El equipo concluye que actuar profesionalmente también exige no atribuir al producto capacidades que sus repositorios, pruebas o configuraciones no demuestran.
 
   </td>
 </tr>
@@ -378,50 +378,50 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 
   <td style="text-align:justify; vertical-align:top; padding:8px;">
 
-  <strong>Mendoza Moreano, Mariel Lucero</strong><br>
-        <strong>AV1:</strong> Mediante el análisis de la problemática, Lean UX Process, User Personas y User Task Matrix, identificó cómo los procesos manuales utilizados actualmente pueden afectar la productividad y coordinación de las obras. Sus aportes permitieron considerar el impacto social de facilitar el trabajo de supervisores y personal administrativo, así como el impacto económico asociado a una mejor gestión del tiempo y de los recursos utilizados en los proyectos.
+<strong>Mendoza Moreano, Mariel Lucero</strong><br>
+<strong>AV1:</strong> Mediante el análisis de la problemática, Lean UX Process, User Personas y User Task Matrix, identificó cómo los procesos manuales utilizados actualmente pueden afectar la productividad y coordinación de las obras. Sus aportes permitieron considerar el impacto social de facilitar el trabajo de supervisores y personal administrativo, así como el impacto económico asociado a una mejor gestión del tiempo y de los recursos utilizados en los proyectos.
 
-  <br><br>
+<br><br>
 
-  <strong>Chacaliaza Minaya, Eduardo Fabian</strong><br>
-        <strong>AV1:</strong> A través del análisis de segmentos, competidores, estrategias competitivas y Product Backlog, evaluó el contexto económico en el que ArquiTech busca posicionarse. El análisis permitió reconocer la necesidad de ofrecer una solución accesible para pequeñas y medianas empresas constructoras, así como considerar el impacto económico de reducir errores de inventario, mejorar el seguimiento de proyectos y evitar el uso innecesario de recursos.
+<strong>Chacaliaza Minaya, Eduardo Fabian</strong><br>
+<strong>AV1:</strong> A través del análisis de segmentos, competidores, estrategias competitivas y Product Backlog, evaluó el contexto económico en el que ArquiTech busca posicionarse. El análisis permitió reconocer la necesidad de ofrecer una solución accesible para pequeñas y medianas empresas constructoras, así como considerar el impacto económico de reducir errores de inventario, mejorar el seguimiento de proyectos y evitar el uso innecesario de recursos.
 
-  <br><br>
-        <strong>TP:</strong> Durante el TP, la implementación de asistencia y seguimiento en Web y Mobile aportó al impacto social al facilitar que supervisores y contratantes dispongan de registros más transparentes sobre el personal y la obra. Las confirmaciones antes de eliminar proyectos y las pruebas de recorridos reducen el riesgo económico de pérdidas accidentales o errores operativos. La Landing y el SaaS Agreement bilingües amplían el alcance global de la información pública y permiten conocer las condiciones del servicio. Estas decisiones relacionaron funcionalidad, acceso legal y consistencia entre plataformas con consecuencias concretas para usuarios y organizaciones.
+<br><br>
+<strong>TP:</strong> Durante el TP, la implementación de asistencia y seguimiento en Web y Mobile aportó al impacto social al facilitar que supervisores y contratantes dispongan de registros más transparentes sobre el personal y la obra. Las confirmaciones antes de eliminar proyectos y las pruebas de recorridos reducen el riesgo económico de pérdidas accidentales o errores operativos. La Landing y el SaaS Agreement bilingües amplían el alcance global de la información pública y permiten conocer las condiciones del servicio. Estas decisiones relacionaron funcionalidad, acceso legal y consistencia entre plataformas con consecuencias concretas para usuarios y organizaciones.
 
-  <br><br>
+<br><br>
 
-  <strong>Quispe Barzola, Fabricio Fabian</strong><br>
-        <strong>AV1:</strong> Mediante las entrevistas y el análisis de los datos obtenidos de los usuarios, identificó problemas relacionados con duplicidad de información, retrasos en reportes y dificultades de coordinación. Estos hallazgos permiten emitir juicios sobre el impacto social y económico de la solución, debido a que una gestión más eficiente puede reducir pérdidas de tiempo, errores administrativos y decisiones basadas en información desactualizada.
+<strong>Quispe Barzola, Fabricio Fabian</strong><br>
+<strong>AV1:</strong> Mediante las entrevistas y el análisis de los datos obtenidos de los usuarios, identificó problemas relacionados con duplicidad de información, retrasos en reportes y dificultades de coordinación. Estos hallazgos permiten emitir juicios sobre el impacto social y económico de la solución, debido a que una gestión más eficiente puede reducir pérdidas de tiempo, errores administrativos y decisiones basadas en información desactualizada.
 
-  <br><br>
-        <strong>TP:</strong> Durante el TP, las reglas de autorización, la protección de secretos y la validación del contrato API permitieron considerar el impacto social de resguardar accesos y datos utilizados por supervisores y contratantes. Los cuatro workflows de CI introdujeron verificaciones reproducibles para detectar errores antes de producción, con impacto económico al reducir correcciones tardías y despliegues defectuosos. La automatización homogénea entre tecnologías también aporta una práctica transferible a contextos globales de desarrollo. Al documentar límites reales de Railway, Playwright, Pages y Mobile, sustentó decisiones informadas sin convertir pendientes técnicos en beneficios inexistentes.
+<br><br>
+<strong>TP:</strong> Durante el TP, las reglas de autorización, la protección de secretos y la validación del contrato API permitieron considerar el impacto social de resguardar accesos y datos utilizados por supervisores y contratantes. Los cuatro workflows de CI introdujeron verificaciones reproducibles para detectar errores antes de producción, con impacto económico al reducir correcciones tardías y despliegues defectuosos. La automatización homogénea entre tecnologías también aporta una práctica transferible a contextos globales de desarrollo. Al documentar límites reales de Railway, Playwright, Pages y Mobile, sustentó decisiones informadas sin convertir pendientes técnicos en beneficios inexistentes.
 
-  <br><br>
+<br><br>
 
-  <strong>Espino Rossi, Victor Manuel</strong><br>
-        <strong>AV1:</strong> Mediante User Journey Mapping, Empathy Mapping e Impact Mapping, analizó cómo la solución podría modificar la experiencia de los usuarios y generar cambios en la forma en que supervisores y contratantes acceden a la información. Estos artefactos permitieron considerar impactos sociales relacionados con la comunicación y transparencia entre los actores del proyecto, además de impactos económicos derivados de una toma de decisiones más oportuna.
+<strong>Espino Rossi, Victor Manuel</strong><br>
+<strong>AV1:</strong> Mediante User Journey Mapping, Empathy Mapping e Impact Mapping, analizó cómo la solución podría modificar la experiencia de los usuarios y generar cambios en la forma en que supervisores y contratantes acceden a la información. Estos artefactos permitieron considerar impactos sociales relacionados con la comunicación y transparencia entre los actores del proyecto, además de impactos económicos derivados de una toma de decisiones más oportuna.
 
-  <br><br>
-        <strong>TP:</strong> Durante el TP, vinculó la verificación del producto, pruebas BDD, integración y evidencia E2E con la documentación de DevOps y con la corrección de artefactos de experiencia de usuario. Este enfoque permitió emitir juicios basados en resultados observables sobre el impacto social de la transparencia para supervisores y contratantes, y sobre el impacto económico de errores, reprocesos y decisiones con información inconsistente. Al mantener visibles las limitaciones de pruebas y despliegue y al alinear personas, journeys, escenarios e Impact Mapping con la evidencia, evitó conclusiones que excedieran el alcance real de la solución.
+<br><br>
+<strong>TP:</strong> Durante el TP, vinculó la verificación del producto, pruebas BDD, integración y evidencia E2E con la documentación de DevOps y con la corrección de artefactos de experiencia de usuario. Este enfoque permitió emitir juicios basados en resultados observables sobre el impacto social de la transparencia para supervisores y contratantes, y sobre el impacto económico de errores, reprocesos y decisiones con información inconsistente. Al mantener visibles las limitaciones de pruebas y despliegue y al alinear personas, journeys, escenarios e Impact Mapping con la evidencia, evitó conclusiones que excedieran el alcance real de la solución.
 
-  <br><br>
+<br><br>
 
-  <strong>Garcia Cerpa, Braden Raid</strong><br>
-        <strong>AV1:</strong> A través del As-is Scenario Mapping y To-Be Scenario Mapping, comparó la situación actual con la experiencia propuesta mediante ArquiTech. Esta comparación permitió identificar posibles mejoras en la eficiencia operativa y en la reducción del uso de documentos físicos, considerando tanto el impacto económico como el ambiental asociado a la digitalización de procesos. Asimismo, las decisiones de Information Architecture y Style Guidelines contribuyeron a considerar el impacto social de ofrecer una plataforma comprensible y accesible para diferentes tipos de usuarios.
+<strong>Garcia Cerpa, Braden Raid</strong><br>
+<strong>AV1:</strong> A través del As-is Scenario Mapping y To-Be Scenario Mapping, comparó la situación actual con la experiencia propuesta mediante ArquiTech. Esta comparación permitió identificar posibles mejoras en la eficiencia operativa y en la reducción del uso de documentos físicos, considerando tanto el impacto económico como el ambiental asociado a la digitalización de procesos. Asimismo, las decisiones de Information Architecture y Style Guidelines contribuyeron a considerar el impacto social de ofrecer una plataforma comprensible y accesible para diferentes tipos de usuarios.
 
-  <br><br>
-        <strong>TP:</strong> Durante el TP, las pruebas sobre uso de materiales y seriales de maquinaria permitieron evaluar el impacto económico de impedir consumos sin stock suficiente y detectar identificadores que comprometan la trazabilidad de equipos. Las pruebas E2E de autenticación y creación de proyectos abordaron el impacto profesional y social de ofrecer acceso controlado y flujos previsibles para registrar obras. Al validar comportamientos críticos antes de su uso en proyectos reales, su trabajo ayudó a identificar fallos que podrían afectar recursos, continuidad operativa y confianza de supervisores y contratantes en la información registrada.
+<br><br>
+<strong>TP:</strong> Durante el TP, las pruebas sobre uso de materiales y seriales de maquinaria permitieron evaluar el impacto económico de impedir consumos sin stock suficiente y detectar identificadores que comprometan la trazabilidad de equipos. Las pruebas E2E de autenticación y creación de proyectos abordaron el impacto profesional y social de ofrecer acceso controlado y flujos previsibles para registrar obras. Al validar comportamientos críticos antes de su uso en proyectos reales, su trabajo ayudó a identificar fallos que podrían afectar recursos, continuidad operativa y confianza de supervisores y contratantes en la información registrada.
 
   </td>
 
   <td valign="middle" style="text-align:justify; vertical-align:middle !important; padding:8px;">
 
-  <strong>AV1:</strong> El equipo concluye que ArquiTech puede generar impactos positivos en diferentes dimensiones. En el contexto económico, puede contribuir a disminuir errores de inventario, duplicidad de compras y tiempo invertido en tareas administrativas. En el contexto social, puede mejorar la coordinación y transparencia entre supervisores, áreas administrativas y contratantes. Desde una perspectiva ambiental, la digitalización de registros y reportes puede reducir el uso de documentos físicos, aunque también deberá considerarse posteriormente el consumo de recursos tecnológicos asociado a la plataforma. En el contexto global, el equipo reconoce que una solución digital orientada al sector construcción debe considerar escalabilidad, protección de información, accesibilidad e internacionalización para poder adaptarse a distintos contextos y usuarios.
+<strong>AV1:</strong> El equipo concluye que ArquiTech puede generar impactos positivos en diferentes dimensiones. En el contexto económico, puede contribuir a disminuir errores de inventario, duplicidad de compras y tiempo invertido en tareas administrativas. En el contexto social, puede mejorar la coordinación y transparencia entre supervisores, áreas administrativas y contratantes. Desde una perspectiva ambiental, la digitalización de registros y reportes puede reducir el uso de documentos físicos, aunque también deberá considerarse posteriormente el consumo de recursos tecnológicos asociado a la plataforma. En el contexto global, el equipo reconoce que una solución digital orientada al sector construcción debe considerar escalabilidad, protección de información, accesibilidad e internacionalización para poder adaptarse a distintos contextos y usuarios.
 
-  <br><br>
+<br><br>
 
-  <strong>TP:</strong> Durante el Trabajo Parcial, el equipo emitió juicios más informados al relacionar las funcionalidades y su evidencia con impactos concretos. Las validaciones de inventario, maquinaria, asistencia y eliminación confirmada pueden reducir errores y reprocesos con consecuencias económicas, mientras que la autorización, la trazabilidad y la digitalización de registros favorecen la confianza y coordinación social entre supervisores y contratantes. Las pruebas automatizadas y CI ayudan a evitar ejecuciones y despliegues defectuosos, contribuyendo a un uso más responsable de recursos tecnológicos, sin asumir beneficios ambientales no medidos. El contenido bilingüe y el acceso al SaaS Agreement incorporan una perspectiva global y legal. El equipo mantuvo explícitas las limitaciones de staging, E2E y distribución móvil para que la evaluación de impactos permanezca respaldada por evidencia.
+<strong>TP:</strong> Durante el Trabajo Parcial, el equipo emitió juicios más informados al relacionar las funcionalidades y su evidencia con impactos concretos. Las validaciones de inventario, maquinaria, asistencia y eliminación confirmada pueden reducir errores y reprocesos con consecuencias económicas, mientras que la autorización, la trazabilidad y la digitalización de registros favorecen la confianza y coordinación social entre supervisores y contratantes. Las pruebas automatizadas y CI ayudan a evitar ejecuciones y despliegues defectuosos, contribuyendo a un uso más responsable de recursos tecnológicos, sin asumir beneficios ambientales no medidos. El contenido bilingüe y el acceso al SaaS Agreement incorporan una perspectiva global y legal. El equipo mantuvo explícitas las limitaciones de staging, E2E y distribución móvil para que la evaluación de impactos permanezca respaldada por evidencia.
 
   </td>
 </tr>
@@ -4884,14 +4884,14 @@ La evidencia disponible en GitHub muestra la existencia de las ramas `main`, `de
 
 </p>
 
-| Repositorio | Rama origen → destino | Pull Request | Estado comprobado |
-|---|---|---|---|
-| Backend | `feature/backend-tests` → `develop` | [#3](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/Arquitech-Backend/pull/3) | Merged |
-| Frontend Web | `feature/functional-tests` → `develop` | [#1](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendWeb/pull/1) | Merged |
-| Frontend Mobile | `feature/functional-tests` → `develop` | [#3](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendMobile/pull/3) | Merged |
-| Backend | `develop` → `main` | [#4](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/Arquitech-Backend/pull/4) | Merged |
-| Frontend Web | `develop` → `main` | [#2](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendWeb/pull/2) | Merged |
-| Frontend Mobile | `develop` → `main` | [#4](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendMobile/pull/4) | Merged |
+| Repositorio     | Rama origen → destino                  | Pull Request                                                                                | Estado comprobado |
+| --------------- | -------------------------------------- | ------------------------------------------------------------------------------------------- | ----------------- |
+| Backend         | `feature/backend-tests` → `develop`    | [#3](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/Arquitech-Backend/pull/3)        | Merged            |
+| Frontend Web    | `feature/functional-tests` → `develop` | [#1](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendWeb/pull/1)    | Merged            |
+| Frontend Mobile | `feature/functional-tests` → `develop` | [#3](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendMobile/pull/3) | Merged            |
+| Backend         | `develop` → `main`                     | [#4](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/Arquitech-Backend/pull/4)        | Merged            |
+| Frontend Web    | `develop` → `main`                     | [#2](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendWeb/pull/2)    | Merged            |
+| Frontend Mobile | `develop` → `main`                     | [#4](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendMobile/pull/4) | Merged            |
 
 <p align="justify">
 
@@ -5870,7 +5870,6 @@ Asimismo, estas métricas permiten observar la actividad asociada al control de 
 
 </div>
 
-
 _Evidencias de Commits y Contribuciones del Equipo en GitHub_
 
 <p align="center">
@@ -5976,6 +5975,33 @@ _Ejecución de las pruebas unitarias e integración en consola con resumen de co
 
 ### 6.1.1. Core Entities Unit Tests
 
+**Backend: pruebas unitarias con Mockito**
+
+La clase **MaterialCommandServiceImplTest** contiene **12 pruebas unitarias** del servicio de registro de uso de materiales. Está definida en [MaterialCommandServiceImpTest.java](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/Arquitech-Backend/blob/b02c33a19efedfdc1815ce40b0fcbc579c6bde0b/arquitech-back-end/src/test/java/com/acme/arquitech/platform/unit/materials/MaterialCommandServiceImpTest.java) y utiliza JUnit Jupiter y Mockito. Los repositorios y el servicio de acceso al proyecto se simulan para verificar las reglas de negocio y las interacciones esperadas, sin iniciar una base de datos ni una conexión al backend desplegado.
+
+**Versión documentada:** rama **develop**, [commit b02c33a1](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/Arquitech-Backend/commit/b02c33a19efedfdc1815ce40b0fcbc579c6bde0b). Estas pruebas todavía no están presentes en el main inspeccionado, commit 19980dee. La copia ejecutada corresponde al commit ef54b6c6 de feature/backend-tests, cuyo contenido completo es idéntico al integrado en develop b02c33a1; por ello, los resultados corresponden a esa versión del código y no a main.
+
+| ID     | Método de la prueba                                                                                                                                                                                                                                                                     | Comportamiento verificado                                                                                                                        | Trazabilidad                  |
+| ------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ | ----------------------------- |
+| UT-B01 | [usageLowerThanStockDecreasesStock](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/Arquitech-Backend/blob/b02c33a19efedfdc1815ce40b0fcbc579c6bde0b/arquitech-back-end/src/test/java/com/acme/arquitech/platform/unit/materials/MaterialCommandServiceImpTest.java#L73)           | De 40 unidades, el uso de 10 deja 30 y solicita el registro del movimiento.                                                                      | HU02, AC1                     |
+| UT-B02 | [usageEqualToStockLeavesStockAtZero](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/Arquitech-Backend/blob/b02c33a19efedfdc1815ce40b0fcbc579c6bde0b/arquitech-back-end/src/test/java/com/acme/arquitech/platform/unit/materials/MaterialCommandServiceImpTest.java#L84)          | El uso de las 40 unidades disponibles deja el stock en cero.                                                                                     | HU02, AC1                     |
+| UT-B03 | [usageGreaterThanStockThrowsException](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/Arquitech-Backend/blob/b02c33a19efedfdc1815ce40b0fcbc579c6bde0b/arquitech-back-end/src/test/java/com/acme/arquitech/platform/unit/materials/MaterialCommandServiceImpTest.java#L94)        | Un uso de 50 sobre un stock de 40 genera InsufficientStockException y conserva las existencias.                                                  | HU02, AC2                     |
+| UT-B04 | [usageGreaterThanStockDoesNotSaveMovement](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/Arquitech-Backend/blob/b02c33a19efedfdc1815ce40b0fcbc579c6bde0b/arquitech-back-end/src/test/java/com/acme/arquitech/platform/unit/materials/MaterialCommandServiceImpTest.java#L105)   | La salida rechazada por stock insuficiente no solicita guardar un movimiento.                                                                    | HU02, AC2                     |
+| UT-B05 | [usageOfZeroIsRejected](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/Arquitech-Backend/blob/b02c33a19efedfdc1815ce40b0fcbc579c6bde0b/arquitech-back-end/src/test/java/com/acme/arquitech/platform/unit/materials/MaterialCommandServiceImpTest.java#L116)                      | La cantidad cero genera InvalidMaterialDataException y no registra movimiento.                                                                   | HU02: validación de cantidad  |
+| UT-B06 | [negativeUsageIsRejected](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/Arquitech-Backend/blob/b02c33a19efedfdc1815ce40b0fcbc579c6bde0b/arquitech-back-end/src/test/java/com/acme/arquitech/platform/unit/materials/MaterialCommandServiceImpTest.java#L127)                    | La cantidad −5 genera InvalidMaterialDataException y no registra movimiento.                                                                     | HU02: validación de cantidad  |
+| UT-B07 | [usageOfUnknownMaterialThrowsNotFound](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/Arquitech-Backend/blob/b02c33a19efedfdc1815ce40b0fcbc579c6bde0b/arquitech-back-end/src/test/java/com/acme/arquitech/platform/unit/materials/MaterialCommandServiceImpTest.java#L138)       | Un material inexistente genera MaterialNotFoundException y no registra movimiento.                                                               | HU02: existencia del material |
+| UT-B08 | [usageJustAboveStockIsRejected](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/Arquitech-Backend/blob/b02c33a19efedfdc1815ce40b0fcbc579c6bde0b/arquitech-back-end/src/test/java/com/acme/arquitech/platform/unit/materials/MaterialCommandServiceImpTest.java#L149)              | La cantidad 40,0001 se rechaza ante un stock de 40, sin alterar las existencias.                                                                 | HU02, AC2                     |
+| UT-B09 | [decimalUsageIsSubtractedCorrectly](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/Arquitech-Backend/blob/b02c33a19efedfdc1815ce40b0fcbc579c6bde0b/arquitech-back-end/src/test/java/com/acme/arquitech/platform/unit/materials/MaterialCommandServiceImpTest.java#L160)          | El uso de 0,25 sobre un stock de 10,5 deja exactamente 10,25.                                                                                    | HU02, AC1                     |
+| UT-B10 | [secondUsageIsRejectedWhenStockIsNotEnough](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/Arquitech-Backend/blob/b02c33a19efedfdc1815ce40b0fcbc579c6bde0b/arquitech-back-end/src/test/java/com/acme/arquitech/platform/unit/materials/MaterialCommandServiceImpTest.java#L172)  | Tras consumir 30 de 40 quedan 10; un segundo uso de 20 se rechaza y conserva las 10 unidades.                                                    | HU02, AC1/AC2                 |
+| UT-B11 | [usageIsDeniedWithoutProjectAccess](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/Arquitech-Backend/blob/b02c33a19efedfdc1815ce40b0fcbc579c6bde0b/arquitech-back-end/src/test/java/com/acme/arquitech/platform/unit/materials/MaterialCommandServiceImpTest.java#L185)          | Sin permiso de escritura en el proyecto, se genera AccessDeniedException antes de cargar el material para modificación; no se guarda movimiento. | HU02; HU27: autorización      |
+| UT-B12 | [accessIsNotCheckedWhenMaterialDoesNotExist](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/Arquitech-Backend/blob/b02c33a19efedfdc1815ce40b0fcbc579c6bde0b/arquitech-back-end/src/test/java/com/acme/arquitech/platform/unit/materials/MaterialCommandServiceImpTest.java#L199) | Si el material no existe, se genera MaterialNotFoundException sin consultar el permiso de escritura del proyecto.                                | HU02: control de existencia   |
+
+**Resultado de ejecución.** El 07/10/2026 se ejecutaron los 12 casos en una copia local aislada: **12 aprobados, 0 fallos, 0 errores y 0 omitidos**. El reporte de la clase registra una duración de **0,601 segundos**. Esta suite formó parte de una corrida seleccionada de 18 pruebas del backend, que terminó con **BUILD SUCCESS**; las otras seis se documentan en 6.1.2.
+
+El entorno de esa corrida utilizó Java 21 con compilación para Java 17, Maven 3.9.9 y Mockito 5.17.0. Los resultados unitarios corresponden al servicio probado mediante simulaciones; no se presentan como validación HTTP, BDD o ejecución en producción.
+
+**Frontend Web: pruebas unitarias con Jasmine**
+
 <div style="text-align: justify;">
 <p align="justify">
 
@@ -6067,6 +6093,35 @@ _Reporte de cobertura de código (Istanbul)_
 | projectDeletionRollsBackEveryChildWhenOneStepFails               | Rollback ante fallo de una parte de la eliminación              |
 
 Estos son tests de integración de contexto Spring/MockMvc; no acreditan BDD ni ejecución contra producción. Las pruebas Jasmine siguientes conservan su evidencia histórica y no se suman a esta suite.
+
+**Backend: integración de stock, eliminación de trabajadores y seriales**
+
+Se incorporan **6 pruebas adicionales**, distribuidas en tres clases: [MaterialStockIntegrationTest](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/Arquitech-Backend/blob/b02c33a19efedfdc1815ce40b0fcbc579c6bde0b/arquitech-back-end/src/test/java/com/acme/arquitech/platform/integration/MaterialStockIntegrationTest.java), [WorkerDeletionIntegrationTest](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/Arquitech-Backend/blob/b02c33a19efedfdc1815ce40b0fcbc579c6bde0b/arquitech-back-end/src/test/java/com/acme/arquitech/platform/integration/WorkerDeletionIntegrationTest.java) y [MachinerySerialIntegrationTest](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/Arquitech-Backend/blob/b02c33a19efedfdc1815ce40b0fcbc579c6bde0b/arquitech-back-end/src/test/java/com/acme/arquitech/platform/integration/MachinerySerialIntegrationTest.java). Cada clase contiene dos casos. Utilizan JUnit Jupiter, el contexto Spring Boot, MockMvc y una base H2 en memoria, con usuarios y recursos de prueba creados para cada caso.
+
+**Versión documentada:** rama **develop**, [commit b02c33a1](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/Arquitech-Backend/commit/b02c33a19efedfdc1815ce40b0fcbc579c6bde0b). La ejecución local seleccionada utilizó el commit ef54b6c6 de feature/backend-tests, con contenido completo idéntico a develop b02c33a1. Estas seis pruebas no se atribuyen a la ejecución anterior sobre main, ni a una corrida de GitHub Actions.
+
+| ID     | Clase y método                                                                                                                                                                                                                                                                                                  | Comportamiento verificado                                                                                                                    | Trazabilidad                              |
+| ------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------- |
+| IT-B01 | MaterialStockIntegrationTest: [usageWithinStockDecreasesStock](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/Arquitech-Backend/blob/b02c33a19efedfdc1815ce40b0fcbc579c6bde0b/arquitech-back-end/src/test/java/com/acme/arquitech/platform/integration/MaterialStockIntegrationTest.java#L45)            | Un uso de 10 sobre un stock de 40 retorna HTTP 201; la consulta posterior confirma stock 30.                                                 | HU02, AC1                                 |
+| IT-B02 | MaterialStockIntegrationTest: [usageAboveStockIsRejected](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/Arquitech-Backend/blob/b02c33a19efedfdc1815ce40b0fcbc579c6bde0b/arquitech-back-end/src/test/java/com/acme/arquitech/platform/integration/MaterialStockIntegrationTest.java#L62)                 | Un uso de 50 sobre un stock de 40 retorna HTTP 400, INSUFFICIENT_STOCK; la consulta posterior confirma stock 40.                             | HU02, AC2                                 |
+| IT-B03 | WorkerDeletionIntegrationTest: [workerWithTasksCannotBeDeleted](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/Arquitech-Backend/blob/b02c33a19efedfdc1815ce40b0fcbc579c6bde0b/arquitech-back-end/src/test/java/com/acme/arquitech/platform/integration/WorkerDeletionIntegrationTest.java#L44)          | La eliminación de un trabajador con tareas retorna HTTP 409, WORKER_HAS_TASKS; la consulta posterior confirma que el trabajador se conserva. | HU49: eliminación; HU07: tareas asociadas |
+| IT-B04 | WorkerDeletionIntegrationTest: [workerWithoutTasksCanBeDeleted](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/Arquitech-Backend/blob/b02c33a19efedfdc1815ce40b0fcbc579c6bde0b/arquitech-back-end/src/test/java/com/acme/arquitech/platform/integration/WorkerDeletionIntegrationTest.java#L60)          | La eliminación de un trabajador sin tareas retorna HTTP 204; la consulta posterior retorna HTTP 404.                                         | HU49: eliminación de trabajador           |
+| IT-B05 | MachinerySerialIntegrationTest: [repeatedSerialInSameProjectIsRejected](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/Arquitech-Backend/blob/b02c33a19efedfdc1815ce40b0fcbc579c6bde0b/arquitech-back-end/src/test/java/com/acme/arquitech/platform/integration/MachinerySerialIntegrationTest.java#L45) | El segundo registro del serial EXC-001 en el mismo proyecto retorna HTTP 409, DUPLICATED_SERIAL_NUMBER.                                      | HU05, AC2: datos inválidos                |
+| IT-B06 | MachinerySerialIntegrationTest: [sameSerialInDifferentProjectIsAllowed](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/Arquitech-Backend/blob/b02c33a19efedfdc1815ce40b0fcbc579c6bde0b/arquitech-back-end/src/test/java/com/acme/arquitech/platform/integration/MachinerySerialIntegrationTest.java#L56) | El serial EXC-001 puede registrarse en dos proyectos diferentes; ambos registros retornan HTTP 201.                                          | HU05, AC1: registro por proyecto          |
+
+**Resultado de ejecución del 07/10/2026**
+
+| Suite                          | Casos ejecutados | Fallos | Errores | Omitidos | Duración de la suite |
+| ------------------------------ | ---------------- | ------ | ------- | -------- | -------------------- |
+| MaterialStockIntegrationTest   | 2/2 aprobados    | 0      | 0       | 0        | 0,647 s              |
+| WorkerDeletionIntegrationTest  | 2/2 aprobados    | 0      | 0       | 0        | 0,603 s              |
+| MachinerySerialIntegrationTest | 2/2 aprobados    | 0      | 0       | 0        | 12,084 s             |
+
+Las seis pruebas de integración finalizaron aprobadas. Junto a las 12 unitarias Mockito de 6.1.1, la corrida seleccionada terminó con **18 pruebas ejecutadas, 0 fallos, 0 errores y 0 omitidas; BUILD SUCCESS**. El tiempo total de Maven fue de **24,193 segundos**, y la ejecución finalizó a las **02:26:35, hora de Lima**. Las duraciones de la tabla corresponden a cada suite y se distinguen del tiempo total de preparación y ejecución de Maven.
+
+La autenticación y las solicitudes de estas pruebas se procesan en el contexto local de Spring mediante MockMvc; la persistencia corresponde a H2 en memoria. Los resultados acreditan las reglas del backend en ese entorno de pruebas y no una ejecución contra producción. Las siete pruebas ApiIntegrationTests ya documentadas conservan su corrida independiente del 06/10/2026, en main 9b801ca2; no se presentan como parte de esta corrida de 18 casos.
+
+**Frontend Web: pruebas de integración con Jasmine**
 
 <div style="text-align: justify;">
 <p align="justify">
@@ -6191,6 +6246,7 @@ _Código de los escenarios del supervisor y resultado de tres pruebas Playwright
 _Nota._ Captura de la ejecución de las pruebas con Playwright. La terminal muestra `3 passed (14.2s)`: tres pruebas aprobadas en 14,2 segundos.
 
 **Alcance de la evidencia:** Playwright interactúa con una aplicación en un navegador. La ubicación del comando en el repositorio móvil y el nombre `mobile-flows.spec.ts` no acreditan por sí solos ejecución nativa Flutter en Android/iOS. La captura no muestra URL objetivo, framework del cliente, configuración de navegador/dispositivo, uso de mocks o backend real, ni commit probado. Estos datos, junto con la fecha y el reporte exportado de la corrida, deben agregarse para completar su trazabilidad. La aserción final del escenario de proyecto comprueba navegación y disponibilidad de un control; la captura no demuestra por sí sola persistencia del proyecto en la base de datos.
+
 #### Pruebas de sistema de la Frontend Web Application
 
 <div style="text-align: justify;">
@@ -6201,10 +6257,10 @@ Para la Frontend Web Application se implementaron dos pruebas de sistema con Pla
 </p>
 </div>
 
-| ID      | Archivo                | Escenario                                                                     | Pasos principales                                                                                                                                                       | Resultado esperado                                                                                                        | Historia        |
-| ------- | ---------------------- | ----------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------- | --------------- |
-| E2E-W01 | `tests/test-1.spec.ts` | El supervisor no puede registrar una salida de material mayor al stock         | Inicia sesión como supervisor, entra a *Torre Residencial Norte*, registra una salida de 50 varillas de *Fierro corrugado 3/8"* (stock 40) y luego corrige la cantidad a 10 | Se muestra "The quantity exceeds the available stock (40)."; con 10 unidades se registra la salida y el stock baja a 30    | HU02 AC2 · TS03 |
-| E2E-W02 | `tests/test-2.spec.ts` | El supervisor no puede registrar maquinaria con una placa repetida en la obra | Inicia sesión, entra a *Maquinaria*, intenta registrar una máquina con la placa `MIX123` (ya existente) y luego corrige la placa a `MIX999`                              | Se muestra "A machine with that plate already exists on this site."; con `MIX999` la máquina se registra y aparece en la tabla | HU05 AC2        |
+| ID      | Archivo                | Escenario                                                                     | Pasos principales                                                                                                                                                           | Resultado esperado                                                                                                             | Historia        |
+| ------- | ---------------------- | ----------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------ | --------------- |
+| E2E-W01 | `tests/test-1.spec.ts` | El supervisor no puede registrar una salida de material mayor al stock        | Inicia sesión como supervisor, entra a _Torre Residencial Norte_, registra una salida de 50 varillas de _Fierro corrugado 3/8"_ (stock 40) y luego corrige la cantidad a 10 | Se muestra "The quantity exceeds the available stock (40)."; con 10 unidades se registra la salida y el stock baja a 30        | HU02 AC2 · TS03 |
+| E2E-W02 | `tests/test-2.spec.ts` | El supervisor no puede registrar maquinaria con una placa repetida en la obra | Inicia sesión, entra a _Maquinaria_, intenta registrar una máquina con la placa `MIX123` (ya existente) y luego corrige la placa a `MIX999`                                 | Se muestra "A machine with that plate already exists on this site."; con `MIX999` la máquina se registra y aparece en la tabla | HU05 AC2        |
 
 **Figura 111**  
 _Prueba E2E-W01 en Visual Studio Code con la extensión de Playwright_
@@ -6236,11 +6292,11 @@ _Reporte HTML de Playwright de las pruebas de sistema web_
 
 <br>
 
-| Repository                                            | Branch                     | Commit Id | Commit Message                                              | Commit Message Body | Committed on (Date) |
-| ----------------------------------------------------- | -------------------------- | --------- | ----------------------------------------------------------- | ------------------- | ------------------- |
-| UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendWeb | feature/functional-tests | 4603d38   | feat: add Playwright test setup                             | —                   | 03/10/2026          |
-| UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendWeb | feature/functional-tests | da26185   | feat: add functional test for material usage stock rule     | —                   | 03/10/2026          |
-| UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendWeb | feature/functional-tests | 128c0d8   | feat: add functional test for machinery serial number rule  | —                   | 03/10/2026          |
+| Repository                                               | Branch                   | Commit Id | Commit Message                                             | Commit Message Body | Committed on (Date) |
+| -------------------------------------------------------- | ------------------------ | --------- | ---------------------------------------------------------- | ------------------- | ------------------- |
+| UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendWeb | feature/functional-tests | 4603d38   | feat: add Playwright test setup                            | —                   | 03/10/2026          |
+| UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendWeb | feature/functional-tests | da26185   | feat: add functional test for material usage stock rule    | —                   | 03/10/2026          |
+| UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendWeb | feature/functional-tests | 128c0d8   | feat: add functional test for machinery serial number rule | —                   | 03/10/2026          |
 
 <br>
 # Capítulo VII: DevOps Practices
@@ -6363,6 +6419,7 @@ También se concluye que la trazabilidad y la transparencia técnica constituyen
 En relación con el impacto de la solución, la centralización y digitalización de los registros puede contribuir a mejorar la coordinación entre supervisores y contratantes y reducir errores administrativos, reprocesos y pérdida de información. Las validaciones de stock, permisos, asistencia y eliminación de proyectos también pueden disminuir riesgos operativos y económicos. Sin embargo, estos beneficios deben considerarse resultados esperados mientras no sean cuantificados mediante experimentos. Del mismo modo, cualquier posible beneficio ambiental asociado a una menor dependencia de documentación física deberá contrastarse con el uso de infraestructura tecnológica y no asumirse sin medición.
 Finalmente, ArquiTech cuenta con una base funcional y técnica que permite avanzar hacia una etapa de experimentación más rigurosa. Los siguientes incrementos deberán enfocarse en contrastar las Hypothesis Statements con usuarios reales, establecer métricas asociadas a los criterios de éxito y evaluar si la solución genera los cambios de comportamiento planteados en el Lean UX Process.
 Recomendaciones
+
 - Diseñar y ejecutar experimentos que permitan contrastar las Hypothesis Statements con métricas cuantitativas y cualitativas, evitando considerar validadas las hipótesis únicamente por la existencia de funcionalidades o pruebas técnicas.
 - Priorizar la medición de reducción de errores, tiempo requerido para registrar y consultar información, nivel de adopción de las funcionalidades y percepción de confianza y transparencia por parte de supervisores y contratantes.
 - Implementar un entorno aislado de pruebas para los escenarios E2E, de manera que puedan ejecutarse de forma automatizada sin utilizar datos compartidos del Backend productivo.
