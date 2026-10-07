@@ -5698,97 +5698,83 @@ Este capítulo documenta la integración, entrega y despliegue de ArquiTech a pa
 
 ## 7.1. Continuous Integration
 
-La integración continua se implementa mediante GitHub Actions en los repositorios del backend, frontend y landing. Las corridas consultadas el 07/10/2026 muestran resultados aprobados; sus ramas, eventos y commits se identifican en 7.1.2.
+La integración continua se implementa mediante GitHub Actions en los repositorios del Backend, Frontend Web, Frontend Mobile y Landing Page. Los cuatro workflows se activan ante `push` a `main` y `pull_request` dirigido a `main`, operan con el permiso `contents: read` y ejecutan verificaciones reproducibles antes de aceptar o después de integrar un cambio. Las corridas verificadas el 07/10/2026 muestran resultados aprobados para los jobs principales de los cuatro productos.
 
 ### 7.1.1. Tools and Practices
 
-GitHub Actions ejecuta la preparación del entorno, la instalación de dependencias, las pruebas y la construcción del producto. Las configuraciones revisadas se activan ante cambios en la rama principal y ante solicitudes de integración dirigidas a esa rama. Así, la verificación puede realizarse antes de aceptar una contribución y repetirse después de incorporarla.
+GitHub Actions obtiene el código, prepara las versiones de Node.js, Java o Flutter declaradas por cada repositorio, instala las dependencias y ejecuta las verificaciones antes del build. Node.js utiliza caché de npm, Java utiliza caché de Maven y Flutter habilita su propia caché. El Backend ejecuta Maven Wrapper desde `arquitech-back-end`; los proyectos web usan `npm ci`; y el Frontend Mobile usa `flutter pub get` antes del análisis, las pruebas y la compilación del APK de depuración.
 
-| Producto     | Entorno de ejecución | Proceso documentado                                                        | Resultado disponible                                                      |
-| ------------ | -------------------- | -------------------------------------------------------------------------- | ------------------------------------------------------------------------- |
-| Backend      | Ubuntu y Java 17     | Preparación del proyecto y validación del ciclo de construcción con Maven  | Job «Test and package» aprobado en main y en una solicitud de integración |
-| Frontend Web | Ubuntu y Node.js 20  | Instalación reproducible de dependencias, pruebas y construcción           | Job «Test and build» aprobado en una solicitud dirigida a main            |
-| Landing Page | Ubuntu y Node.js 20  | Instalación de dependencias, pruebas en Chrome sin interfaz y construcción | Job «Test and build» aprobado en main y en una solicitud de integración   |
+| Producto        | Job principal                         | Herramientas y práctica aplicada                                                                 |
+| --------------- | ------------------------------------- | ------------------------------------------------------------------------------------------------- |
+| Backend         | `Test and package`                    | Ubuntu, Temurin 17, caché Maven y Maven Wrapper para ejecutar una verificación limpia.            |
+| Frontend Web    | `Test and build`                      | Ubuntu, Node.js 20, caché npm, instalación reproducible, pruebas y build.                          |
+| Frontend Mobile | `Analyze, test, and build Flutter`    | Ubuntu, Temurin 17 y Flutter 3.47.6 para análisis estático, pruebas y build de un APK de depuración. |
+| Landing Page    | `Test and build`                      | Ubuntu, Node.js 20, caché npm, pruebas en ChromeHeadless y build.                                 |
 
-Las dependencias se preparan a partir de las versiones registradas por cada proyecto y se utiliza caché para reutilizar descargas. En el backend, la validación se realiza dentro del módulo de la aplicación; en frontend y landing, la secuencia conserva las pruebas antes de la construcción.
-
-Los resultados del capítulo VI mantienen su alcance: 6.1.2 presenta siete pruebas de integración del backend; 6.1.3 presenta dos escenarios BDD de HU02 con Cucumber; 6.1.4 presenta tres pruebas Playwright en navegador desde el repositorio móvil. Estos resultados no se suman automáticamente a las cantidades de una corrida de CI, ni permiten afirmar que Playwright o la aplicación nativa Flutter estén incluidos en los pipelines examinados.
+El workflow móvil declara además el job `Playwright E2E (disabled - requires isolated test backend)` con la condición `if: ${{ false }}`; GitHub lo registra como `SKIPPED`. Por tanto, Playwright no forma parte de la ejecución automática actual. Los escenarios existentes utilizan cuentas fijas y modifican datos compartidos del Backend productivo en Railway; su automatización segura requiere un Backend de pruebas aislado y datos deterministas. Esta limitación no constituye un fallo del job Flutter, cuyo análisis, pruebas y build finalizaron satisfactoriamente.
 
 ### 7.1.2. Build & Test Suite Pipeline Components
 
-Los componentes observados permiten relacionar el evento que inicia la verificación con los resultados de cada etapa.
+Los componentes versionados en `.github/workflows/ci.yml` representan cuatro pipelines de CI ejecutables. La tabla diferencia la preparación, la verificación y el build; este último demuestra que el producto puede construirse en un runner limpio, pero no equivale por sí mismo a un deployment.
 
-| Componente             | Backend                                          | Frontend Web                                     | Landing Page                                     |
-| ---------------------- | ------------------------------------------------ | ------------------------------------------------ | ------------------------------------------------ |
-| Inicio                 | Push a main o pull request dirigido a main       | Push a main o pull request dirigido a main       | Push a main o pull request dirigido a main       |
-| Obtención del proyecto | Recuperación de la versión asociada a la corrida | Recuperación de la versión asociada a la corrida | Recuperación de la versión asociada a la corrida |
-| Entorno                | Java 17 y Maven                                  | Node.js 20 y dependencias npm                    | Node.js 20 y dependencias npm                    |
-| Verificación           | Validación Maven de pruebas y construcción       | Suite automatizada del frontend                  | Suite de pruebas en Chrome sin interfaz          |
-| Construcción           | Empaquetado del backend dentro de la validación  | Construcción de la aplicación web                | Construcción del sitio de presentación           |
-| Resultado              | Job «Test and package» aprobado                  | Job «Test and build» aprobado                    | Job «Test and build» aprobado                    |
+| Producto        | Trigger                     | Entorno                         | Instalación / preparación                                      | Verificación / tests                                                              | Build                        | Resultado | Evidencia |
+| --------------- | --------------------------- | ------------------------------- | ------------------------------------------------------------- | --------------------------------------------------------------------------------- | ---------------------------- | --------- | --------- |
+| Frontend Web    | `push` y `pull_request` a `main` | `ubuntu-latest`, Node.js 20 | `checkout` y `npm ci` con caché npm                           | `npm run test:ci`                                                                 | `npm run build`              | SUCCESS   | [PR #3](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendWeb/pull/3), [CI del PR](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendWeb/actions/runs/37579110367) y [CI sobre `main`](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendWeb/actions/runs/37579481119) |
+| Backend         | `push` y `pull_request` a `main` | `ubuntu-latest`, Temurin 17 | `checkout`, caché Maven y `chmod +x ./mvnw` en `arquitech-back-end` | `./mvnw clean verify`, que ejecuta pruebas y verificación del paquete              | Incluido en `clean verify`   | SUCCESS   | [PR #5](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/Arquitech-Backend/pull/5), [CI del PR](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/Arquitech-Backend/actions/runs/37577420741) y [CI sobre `main`](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/Arquitech-Backend/actions/runs/37578056023) |
+| Frontend Mobile | `push` y `pull_request` a `main` | `ubuntu-latest`, Flutter 3.47.6 y Temurin 17 | `checkout`, setup de Java y Flutter, y `flutter pub get` | `flutter analyze` y `flutter test`; Playwright permanece deshabilitado y `SKIPPED` | `flutter build apk --debug`  | SUCCESS   | [PR #5](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendMobile/pull/5), [CI del PR](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendMobile/actions/runs/37577424404) y [CI sobre `main`](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendMobile/actions/runs/37578152804) |
+| Landing Page    | `push` y `pull_request` a `main` | `ubuntu-latest`, Node.js 20 | `checkout` y `npm ci` con caché npm                           | `npm test -- --watch=false --browsers=ChromeHeadless`                              | `npm run build`              | SUCCESS   | [PR #1](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-LandingPage/pull/1), [CI del PR](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-LandingPage/actions/runs/37577423687) y [CI sobre `main`](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-LandingPage/actions/runs/37578050850) |
 
-**Registro de corridas verificadas**
+En el Frontend Web, el commit inicial de CI fue [`851a4bb`](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendWeb/commit/851a4bb01254c822f4b5620196ef36c7b5841e53) y el commit [`33198ba`](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendWeb/commit/33198ba118d13583ed4b312587c20ec277ae5dce) añadió únicamente la configuración `"previews": {}` en `wrangler.jsonc`. Para este último commit finalizaron satisfactoriamente tanto el job `Test and build` como el check `Workers Builds: arquitech-frontendweb`. Después del merge, el commit [`ef847113`](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendWeb/commit/ef8471131bac9e345e524dba1bd461519e779d92) volvió a activar GitHub Actions por el `push` a `main` y el job `Test and build` concluyó con éxito.
 
-Las fechas y horas de la tabla se expresan en horario de Lima. El commit corresponde al identificado por GitHub en cada corrida. Las versiones de CI de esta tabla complementan las versiones de código previamente registradas en el Anexo B.
+Los merges verificados de los otros productos corresponden a [`19980dee`](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/Arquitech-Backend/commit/19980dee0f4945aa76bd1744529d954e7fc7fc68) para Backend, [`3ceed28a`](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendMobile/commit/3ceed28af4bd426dbd97f6e23e42977ae25c8770) para Frontend Mobile y [`844f69d4`](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-LandingPage/commit/844f69d40779e3dfa49805f2710cc79a215855c9) para Landing Page. En cada caso, el evento `push` generado por el merge volvió a ejecutar el workflow sobre `main` con resultado exitoso.
 
-| Repositorio           | Evento       | Rama asociada     | Commit   | Fecha y hora, Lima  | Resultado y enlace                                                                                               |
-| --------------------- | ------------ | ----------------- | -------- | ------------------- | ---------------------------------------------------------------------------------------------------------------- |
-| Arquitech-Backend     | Push         | main              | 19980dee | 07/10/2026 00:47:19 | [Aprobada](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/Arquitech-Backend/actions/runs/37578056023)     |
-| Arquitech-Backend     | Pull request | feature/devops-ci | c7498786 | 07/10/2026 00:39:45 | [Aprobada](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/Arquitech-Backend/actions/runs/37577420741)     |
-| ArquiTech-FrontendWeb | Pull request | feature/devops-ci | 851a4bb0 | 07/10/2026 00:39:44 | [Aprobada](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendWeb/actions/runs/37577419115) |
-| ArquiTech-LandingPage | Push         | main              | 844f69d4 | 07/10/2026 00:47:15 | [Aprobada](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-LandingPage/actions/runs/37578050850) |
-| ArquiTech-LandingPage | Pull request | feature/devops-ci | 0905f726 | 07/10/2026 00:39:47 | [Aprobada](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-LandingPage/actions/runs/37577423687) |
-
-En las corridas más recientes consultadas se observaron aprobados los pasos de preparación, pruebas y construcción. La corrida del frontend corresponde a una solicitud de integración: su resultado no se presenta como una ejecución sobre main. El backend y la landing sí cuentan con corridas aprobadas iniciadas por push a main.
-
-La aprobación de una corrida evidencia la ejecución del pipeline correspondiente. La obligatoriedad de sus verificaciones antes de aceptar un cambio depende de las reglas de protección del repositorio; esa configuración no se acredita únicamente con el resultado exitoso de un job.
+El build móvil valida que el APK de depuración puede compilarse automáticamente. El workflow no utiliza `actions/upload-artifact` ni otro paso equivalente; por ello, el APK no se publica como artifact persistente de GitHub Actions y esta validación no constituye Continuous Deployment hacia una tienda.
 
 ## 7.2. Continuous Delivery
 
-La entrega continua comprende preparar y validar una versión antes de promoverla a producción. Las construcciones aprobadas en CI aportan una parte de este proceso; el entorno de validación y la decisión de promoción deben corresponder a la misma versión.
+La entrega continua comprende preparar y validar una versión candidata antes de promoverla a la rama de producción. Su alcance difiere por producto: el Frontend Web dispone de un preview aislado asociado al Pull Request, mientras que Backend, Frontend Mobile y Landing Page cuentan con validación automática sin un entorno de staging independiente verificado.
 
 ### 7.2.1. Tools and Practices
 
-ArquiTech dispone de publicaciones web en GitHub Pages y Netlify, y de un backend alojado en Railway. Para la validación previa a producción se plantea un entorno de vista previa del frontend y un entorno de pruebas del backend, con configuración y datos separados de producción.
+GitHub centraliza las solicitudes de integración y GitHub Actions valida las versiones candidatas de los cuatro productos. Cloudflare Workers Builds complementa el proceso del Frontend Web mediante un Preview Deployment aislado para la rama del Pull Request. Railway se encuentra conectado a `main` para el Backend, aunque la configuración documentada no acredita un staging separado. El build móvil termina en un APK de depuración no publicado como artifact, y el workflow CI de la Landing Page termina después de sus pruebas y construcción.
 
-Las evidencias disponibles muestran CI aprobada y configuración de servicios de producción. No se ha documentado una URL de preview o staging asociada a una versión concreta ni la generación automática de un entorno de pruebas por cada solicitud de integración. Por ello, esa parte de la entrega continua se mantiene como proceso previsto.
+La publicación existente de la Landing Page en GitHub Pages se documenta como evidencia separada. No forma parte de `.github/workflows/ci.yml` ni permite atribuir al nuevo workflow CI el deployment automático del merge que incorporó dicho archivo.
 
 ### 7.2.2. Stages Deployment Pipeline Components
 
-| Etapa                      | Propósito y salida                                                  | Evidencia disponible                                                     | Estado documental                                  |
-| -------------------------- | ------------------------------------------------------------------- | ------------------------------------------------------------------------ | -------------------------------------------------- |
-| Integración y construcción | Obtener una versión con pruebas y construcción aprobadas            | Corridas enlazadas en 7.1.2                                              | Acreditado para las corridas registradas           |
-| Preview del frontend       | Presentar el cambio en una URL aislada para revisar sus flujos      | No se dispone de una URL identificada como preview                       | Pendiente de evidencia                             |
-| Staging del backend        | Validar la API con configuración y datos de pruebas                 | Las capturas de Railway muestran producción                              | Pendiente de evidencia de staging                  |
-| Validación del incremento  | Comprobar los criterios de aceptación sobre la versión candidata    | Pruebas documentadas en 6.1; falta vincularlas con un entorno de staging | Evidencia parcial                                  |
-| Promoción                  | Publicar la versión validada y registrar su relación con producción | Configuración de origen del backend y despliegue de Pages                | Falta correlacionar versión validada y publicación |
+Los stages documentados a continuación corresponden a ejecuciones y configuraciones verificadas; no representan una propuesta futura ni convierten los alcances pendientes en capacidades implementadas.
 
-Las capturas de producción no se utilizan como evidencia de staging. La trazabilidad de la entrega debe identificar la versión candidata, el entorno de validación, los resultados y la versión promovida, conservando la separación de datos entre pruebas y producción.
+| Producto        | Stages implementados y evidencia | Estado | Limitación conservada |
+| --------------- | -------------------------------- | ------ | --------------------- |
+| Frontend Web    | El Pull Request activa dos comprobaciones independientes: **GitHub Actions:** `npm ci` → `npm run test:ci` → `npm run build` → SUCCESS; y **Cloudflare Workers Builds:** build → Preview Deployment aislado → SUCCESS. Después de la revisión del cambio se realiza el merge a `main`. El commit [`33198ba`](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendWeb/commit/33198ba118d13583ed4b312587c20ec277ae5dce) obtuvo [CI exitoso](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendWeb/actions/runs/37579110367) y [Workers Build exitoso](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendWeb/runs/112654763477). Cloudflare registró el preview [`4db70589-arquitech-frontendweb.echacaliazaminaya.workers.dev`](https://4db70589-arquitech-frontendweb.echacaliazaminaya.workers.dev) en el [PR #3](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendWeb/pull/3). | Implementado | GitHub Actions y Cloudflare Workers Builds son procesos disparados por el mismo Pull Request; no existe una dependencia secuencial entre ambos. El preview es un entorno temporal y no se presenta como producción. |
+| Backend         | Source → Pull Request → `./mvnw clean verify` en GitHub Actions → merge a `main` → nueva verificación. La [corrida del PR](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/Arquitech-Backend/actions/runs/37577420741) y la [corrida sobre `main`](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/Arquitech-Backend/actions/runs/37578056023) finalizaron correctamente. | Implementado parcialmente | No existe un entorno de staging o Railway Preview verificado, ni una base de datos de staging documentada. Railway auto deploy pertenece al despliegue de producción y se describe en 7.3. |
+| Frontend Mobile | Source → Pull Request → `flutter analyze` → `flutter test` → `flutter build apk --debug`. El merge `3ceed28a` produjo una [corrida exitosa sobre `main`](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendMobile/actions/runs/37578152804). | Implementado parcialmente | No se publica un artifact persistente, no existe deployment a una tienda y Playwright permanece deshabilitado por requerir un Backend aislado y datos deterministas. |
+| Landing Page    | Source → Pull Request → pruebas en ChromeHeadless → build. El merge `844f69d4` produjo una [corrida CI exitosa sobre `main`](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-LandingPage/actions/runs/37578050850). | Implementado parcialmente | El workflow `ci.yml` no contiene un stage de deployment. La publicación verificada en GitHub Pages se registra por separado en 7.3 y no se atribuye a este workflow. |
+
+En consecuencia, el Frontend Web es el único producto con un stage de preview aislado verificado antes del merge. Para el Backend no se utiliza la producción de Railway como sustituto de staging; para Mobile no se confunde el build del APK con su distribución; y para la Landing Page no se confunde el resultado del build con la publicación existente en GitHub Pages.
 
 ## 7.3. Continuous Deployment
 
-El despliegue continuo automatiza la publicación a partir de cambios aceptados. La documentación distingue la configuración que habilita esa automatización del registro que demuestra la publicación de un commit específico.
+El despliegue continuo automatiza la publicación a partir de cambios aceptados. Actualmente se dispone de despliegue automatizado verificable para el Frontend Web mediante Cloudflare Workers Builds y de auto deploy configurado para el Backend en Railway. La publicación de la Landing Page en GitHub Pages tiene evidencia propia, pero no está enlazada al nuevo workflow CI; el Frontend Mobile no dispone de Continuous Deployment hacia una tienda.
 
 ### 7.3.1. Tools and Practices
 
-La captura de configuración de Railway muestra que el servicio del backend está conectado a GitHub, utiliza el directorio raíz del módulo del backend y tiene main como rama de producción. La opción de despliegue automático ante cambios en GitHub aparece activada.
+Cloudflare Workers Builds está conectado al repositorio del Frontend Web y procesa tanto la rama del Pull Request como `main`. En el preview verificado, Cloudflare ejecutó el build y generó una URL aislada. Después del merge `ef847113`, el check `Workers Builds: arquitech-frontendweb` volvió a concluir satisfactoriamente y publicó la versión de producción en Cloudflare Workers.
 
-En la misma captura, la opción **Wait for CI** aparece desactivada. Por tanto, la configuración fotografiada no demuestra que Railway espere la aprobación de GitHub Actions antes de desplegar. Las corridas CI aprobadas de 7.1 aportan verificación del proyecto, pero no acreditan por sí solas una dependencia obligatoria entre CI y el despliegue.
+La captura de configuración de Railway muestra que el servicio del Backend está conectado a GitHub, utiliza el directorio raíz del módulo, tiene `main` como production branch y mantiene el despliegue automático activado. En la misma captura, **Wait for CI** aparece desactivado. Por tanto, Railway puede iniciar un deployment por cambios en `main` sin esperar obligatoriamente la conclusión satisfactoria de GitHub Actions; no se documenta una dependencia `GitHub Actions success → Railway deploy` que la configuración no garantiza.
 
-La landing cuenta además con un registro exitoso de construcción y despliegue mediante GitHub Pages. Para el frontend alojado en Netlify se dispone de la URL publicada; no se documenta con esa URL el evento de automatización ni el commit del release.
+La Landing Page cuenta con un registro exitoso de `pages build and deployment` asociado a `gh-pages`. Esta evidencia se mantiene separada del workflow `ci.yml`, cuyo alcance es exclusivamente tests y build. El workflow móvil, por su parte, no publica el APK ni contiene integración con Google Play u otro servicio de distribución.
 
 ### 7.3.2. Production Deployment Pipeline Components
 
-| Componente                              | Evidencia observada                                                                | Alcance                                                                               |
-| --------------------------------------- | ---------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------- |
-| Origen del backend                      | Repositorio GitHub conectado y directorio del módulo configurado en Railway        | Identifica el origen de construcción del servicio                                     |
-| Rama de producción                      | Main seleccionada en Railway                                                       | Identifica la rama vinculada a producción en la captura                               |
-| Automatización del backend              | Despliegue automático activado; Wait for CI desactivado                            | Acredita la configuración fotografiada, sin acreditar una condición obligatoria de CI |
-| Servicios y variables                   | Backend y MySQL en estado Online, con variables sensibles ocultas                  | Evidencia configuración y estado al momento de la captura                             |
-| Publicación de la landing               | Corrida «pages build and deployment» aprobada                                      | Acredita el despliegue registrado en GitHub Pages                                     |
-| Frontend en Netlify                     | URL pública consultada                                                             | Acredita disponibilidad HTTP en la fecha de consulta                                  |
-| Correspondencia entre versión y release | Falta registro que vincule el commit validado con el release de Netlify o Railway  | Pendiente de trazabilidad completa                                                    |
-| Recuperación                            | No se dispone de una ejecución documentada de recuperación de una versión anterior | Pendiente de evidencia                                                                |
+| Producto        | Pipeline de producción o alcance actual | Evidencia | Limitación |
+| --------------- | --------------------------------------- | --------- | ---------- |
+| Frontend Web    | El mismo merge/push a `main` activa de forma independiente dos procesos: **GitHub Actions CI:** `npm ci` → `npm run test:ci` → `npm run build` → SUCCESS; y **Cloudflare Workers Builds:** Cloudflare build → `npm run build` → `npx wrangler deploy` → producción → SUCCESS. | El merge [`ef847113`](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendWeb/commit/ef8471131bac9e345e524dba1bd461519e779d92) obtuvo [CI exitoso](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendWeb/actions/runs/37579481119) y [Workers Build exitoso](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendWeb/runs/112656056986). La aplicación se encuentra publicada en [`arquitech-frontendweb.echacaliazaminaya.workers.dev`](https://arquitech-frontendweb.echacaliazaminaya.workers.dev). | GitHub Actions y Cloudflare Workers Builds fueron exitosos para el mismo commit, pero no existe una dependencia secuencial entre ambos; tampoco se extiende esta evidencia a una política general de rollback. |
+| Backend         | Cambio en `main` del repositorio conectado → Railway auto deploy. | La configuración de Railway identifica `main` como production branch y muestra el auto deploy activado; las Figuras 111 y 112 conservan esta evidencia. | **Wait for CI está desactivado**: Railway no espera obligatoriamente a que GitHub Actions finalice correctamente antes de desplegar. No se acredita un staging separado. |
+| Landing Page    | Publicación existente mediante `pages build and deployment` desde `gh-pages`. | [Corrida 37563025123](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-LandingPage/actions/runs/37563025123), asociada al commit [`0b2b0fff`](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-LandingPage/commit/0b2b0fff). | No existe evidencia de que el workflow CI añadido recientemente despliegue en GitHub Pages ni de que el merge `844f69d4` haya sido publicado por ese workflow. |
+| Frontend Mobile | El pipeline termina en la validación y compilación mediante `flutter build apk --debug`. | [Corrida 37578152804](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendMobile/actions/runs/37578152804). | Continuous Deployment no implementado: no se publica el APK como artifact persistente ni se despliega a una tienda. |
+
+No se dispone de una ejecución documentada de rollback para ninguno de los deployments descritos; por ello, no se presenta una estrategia de recuperación como si hubiera sido ejecutada.
 
 **Figura 111**  
 _Origen, rama y configuración de despliegue del backend en Railway_
@@ -5811,20 +5797,6 @@ _Nota._ La captura muestra el backend y MySQL en estado Online. Los valores de l
 **Registro de publicación de GitHub Pages**
 
 GitHub registra [pages build and deployment, corrida 37563025123](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-LandingPage/actions/runs/37563025123) con resultado aprobado. La corrida está asociada a la rama gh-pages y al commit 0b2b0fff. Se presenta como evidencia de publicación de la landing y se distingue de sus corridas CI sobre main: no se afirma que estas hayan publicado automáticamente ese mismo commit.
-
-**Comprobación de disponibilidad pública**
-
-El 06/10/2026 se realizaron consultas de lectura a las siguientes URLs. Estas comprobaciones son independientes de las corridas CI del 07/10/2026.
-
-| Producto o servicio                            | URL consultada                                                                                       | Resultado |
-| ---------------------------------------------- | ---------------------------------------------------------------------------------------------------- | --------- |
-| Landing Page en GitHub Pages                   | [ArquiTech-LandingPage](https://upc-1asi0732-202620-9112-arquitech.github.io/ArquiTech-LandingPage/) | HTTP 200  |
-| Landing Page, publicación histórica de Netlify | [Landing Page](https://incredible-meringue-eb1ec4.netlify.app/)                                      | HTTP 200  |
-| Frontend Web                                   | [Aplicación web](https://precious-bavarois-d27735.netlify.app/)                                      | HTTP 200  |
-| Documentación del backend                      | [Swagger UI](https://arquitech-backend-production.up.railway.app/swagger-ui/index.html)              | HTTP 200  |
-| Contrato del backend                           | [OpenAPI](https://arquitech-backend-production.up.railway.app/v3/api-docs)                           | HTTP 200  |
-
-Las respuestas HTTP confirman accesibilidad en la fecha registrada. La identificación del commit publicado, el funcionamiento de los flujos autenticados y la dependencia entre CI y despliegue requieren sus evidencias específicas. La relación entre cada resultado, implementación y sección se conserva en el Anexo C.
 
 # Conclusiones
 
