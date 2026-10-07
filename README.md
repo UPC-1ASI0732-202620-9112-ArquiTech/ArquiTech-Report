@@ -973,13 +973,7 @@ _Nota._ Elaboración propia en Miro a partir de los Lean UX Problem Statements, 
 
 <p align="justify">
 
-Para garantizar que nuestra solución tecnológica responda de manera efectiva a las necesidades presentes en la gestión de proyectos de construcción, se han identificado dos segmentos clave que participan directamente en el desarrollo, supervisión y seguimiento de las obras.
-
-</p>
-
-<p align="justify">
-
-A continuación, se describen los perfiles estratégicos asociados al dominio del problema de ArquiTech, considerando sus características demográficas, geográficas y psicográficas, así como los principales problemas, intereses y necesidades vinculados con la gestión de proyectos de construcción.
+ArquiTech se orienta inicialmente a dos segmentos relacionados directamente con la gestión y el seguimiento de proyectos de construcción: los supervisores de obra y los contratantes de empresas privadas. La delimitación de ambos segmentos parte de las características del dominio descritas en la problemática y se complementa con información estadística oficial relacionada con el sector construcción, el mercado laboral y el tejido empresarial peruano.
 
 </p>
 
@@ -987,67 +981,84 @@ A continuación, se describen los perfiles estratégicos asociados al dominio de
 
 <p align="justify">
 
-Este segmento está conformado por los profesionales o responsables encargados de supervisar y coordinar las actividades realizadas durante la ejecución de una obra. Entre sus principales responsabilidades se encuentran el control del personal, el registro de asistencia de los trabajadores, la gestión de materiales, el seguimiento del avance de la construcción y la comunicación con las áreas administrativas.
+El primer segmento está conformado por profesionales y responsables que participan en la supervisión y coordinación cotidiana de proyectos de construcción. Entre sus funciones se encuentran el seguimiento de las actividades ejecutadas en obra, la coordinación del personal, el control de materiales y maquinaria, el registro y revisión de información operativa, la gestión de incidencias y la comunicación del avance del proyecto.
 
 </p>
 
-**Aspectos demográficos:**
+**Aspectos demográficos y profesionales:**
 
-- **Sexo:** Masculino y femenino.
-- **Rango de edad:** 28 años a más.
-- **Nivel socioeconómico:** Principalmente clase media.
-- **Ocupación:** Supervisores de obra, residentes de obra, jefes de obra, asistentes de obra y profesionales relacionados con la supervisión y gestión de proyectos de construcción.
+- **Sexo:** El segmento no se restringe por sexo. Como referencia del contexto laboral del sector construcción peruano, en 2022 los hombres representaron el 96,4 % de la población ocupada del sector y las mujeres el 3,6 % (Ministerio de Trabajo y Promoción del Empleo [MTPE], 2024).
 
-**Aspectos geográficos:**
+- **Edad:** ArquiTech se orienta a personas adultas que desempeñan responsabilidades relacionadas con la gestión o supervisión de obras. Como referencia sectorial, el 69,6 % de la población ocupada en construcción tenía 30 años o más en 2022 (MTPE, 2024).
 
-- **Nacionalidad:** Peruana.
-- **Zona geográfica:** Principalmente zonas urbanas de Lima Metropolitana y otros sectores con presencia de proyectos de construcción.
+- **Ocupación:** Supervisores de obra, residentes de obra, jefes de obra, asistentes de obra y otros profesionales o técnicos vinculados con la supervisión, coordinación y control de proyectos de construcción.
 
-**Aspectos psicográficos:**
+- **Ubicación geográfica:** El alcance inicial de ArquiTech se concentra en Lima Metropolitana.
 
-- **Dolor principal:** Dificultad para mantener actualizada y centralizada la información relacionada con la asistencia del personal, el inventario de materiales y el avance de la obra, debido al uso de diferentes medios como registros físicos, hojas de cálculo, documentos y aplicaciones de mensajería.
+<p align="justify">
 
-- **Intereses:** Mejorar el control de las actividades realizadas en obra, reducir errores en el registro de información, optimizar el uso de materiales y facilitar la comunicación entre el personal de campo y las áreas administrativas.
+En relación con el perfil ocupacional, el 6,6 % de la población ocupada del sector construcción pertenecía en 2022 al grupo de profesionales y técnicos, categoría que en el reporte incluye también gerentes, administradores y funcionarios (MTPE, 2024). Este dato permite identificar dentro del sector la presencia de perfiles vinculados con responsabilidades profesionales, técnicas y administrativas relacionadas con la gestión de las obras.
 
-- **Actitudes:** Buscan soluciones prácticas, ágiles y fáciles de utilizar que puedan incorporarse a sus actividades diarias sin requerir conocimientos técnicos avanzados.
+</p>
 
-- **Necesidades clave:** Contar con información centralizada sobre trabajadores, materiales y avances de obra, generar reportes de manera más eficiente y disponer de alertas que permitan identificar oportunamente ausencias de trabajadores o problemas relacionados con el abastecimiento de materiales.
+<p align="justify">
+
+La relevancia del sector en el ámbito geográfico seleccionado también se observa en información reciente del mercado laboral. Durante el trimestre abril-mayo-junio de 2026, la población ocupada en la actividad de construcción en Lima Metropolitana aumentó 6,1 % respecto al mismo periodo del año anterior, incremento equivalente a aproximadamente 24 500 personas (Instituto Nacional de Estadística e Informática [INEI], 2026). Esta variación evidencia la presencia y actividad del sector construcción dentro del mercado laboral de Lima Metropolitana.
+
+</p>
+
+**Principales necesidades vinculadas con el dominio:**
+
+- Mantener organizada y actualizada la información operativa de cada proyecto.
+- Controlar trabajadores, asistencia, tareas, materiales y maquinaria asociados a una obra.
+- Consultar el estado de los recursos y registrar sus cambios de manera ordenada.
+- Gestionar incidencias ocurridas durante la ejecución del proyecto.
+- Reducir la dispersión de información entre documentos físicos, hojas de cálculo y diferentes canales de comunicación.
+- Disponer de información consolidada que facilite el seguimiento y la elaboración de reportes.
 
 ### Segmento objetivo #2: Contratantes de empresas privadas
 
 <p align="justify">
 
-Este segmento está conformado por personas, empresarios, administradores, propietarios de inmuebles o representantes de organizaciones privadas que contratan empresas constructoras para desarrollar proyectos como locales comerciales, oficinas, viviendas, remodelaciones u otras obras de infraestructura.
+El segundo segmento está conformado por personas que representan a organizaciones privadas o actúan como responsables de la contratación y seguimiento de proyectos de construcción. Dentro de este segmento pueden encontrarse empresarios, administradores, propietarios de inmuebles, representantes de empresas u otros responsables con capacidad de decisión sobre obras como locales comerciales, oficinas, viviendas, remodelaciones y otros proyectos de infraestructura privada.
+
+</p>
+
+**Aspectos demográficos y profesionales:**
+
+- **Sexo:** El segmento no presenta una restricción por sexo.
+
+- **Edad:** Está conformado por personas adultas con capacidad de decisión, contratación o seguimiento de proyectos dentro de una organización privada.
+
+- **Ocupación:** Empresarios, administradores, propietarios de inmuebles, representantes de empresas privadas y otros responsables de contratar o supervisar externamente proyectos de construcción.
+
+- **Ubicación geográfica:** El alcance inicial se concentra en Lima Metropolitana debido a la alta concentración de actividad empresarial existente en esta región.
+
+<p align="justify">
+
+La presencia de organizaciones privadas en Lima constituye un sustento relevante para este segmento. En 2024 se registraron 2 331 173 Mipyme formales en el Perú y Lima concentró el 43,8 % de ellas, constituyéndose como la región con la mayor participación de Mipyme formales del país (Ministerio de la Producción [PRODUCE], 2025).
 
 </p>
 
 <p align="justify">
 
-Los integrantes de este segmento necesitan conocer el estado de los proyectos contratados y verificar que la empresa constructora cumpla con los plazos, recursos y condiciones establecidas durante la ejecución de la obra.
+Dentro del sector construcción se registraron 82 559 Mipyme formales en 2024, equivalentes al 3,5 % del total de Mipyme formales del país (PRODUCE, 2025). Asimismo, las ventas de las Mipyme pertenecientes al sector construcción alcanzaron aproximadamente S/ 21 032 millones durante ese año y representaron el 5,4 % de las ventas totales de las Mipyme formales (PRODUCE, 2025). Estos datos evidencian la presencia de un tejido empresarial vinculado con actividades de construcción y respaldan la consideración de responsables empresariales y personas con capacidad de contratación y seguimiento de obras como uno de los segmentos iniciales de ArquiTech.
 
 </p>
 
-**Aspectos demográficos:**
+**Principales necesidades vinculadas con el dominio:**
 
-- **Sexo:** Masculino y femenino.
-- **Rango de edad:** 30 años a más.
-- **Nivel socioeconómico:** Principalmente clase media y media-alta.
-- **Ocupación:** Empresarios, administradores, propietarios de inmuebles, representantes de empresas privadas o responsables de la contratación y seguimiento de proyectos de construcción.
+- Conocer el estado y progreso de los proyectos contratados.
+- Consultar información relevante sobre materiales, trabajadores, tareas, maquinaria e incidencias.
+- Acceder a información organizada que facilite el seguimiento de una obra sin depender únicamente de comunicaciones aisladas.
+- Contar con mayor trazabilidad sobre los registros asociados al proyecto.
+- Disponer de reportes comprensibles que apoyen el seguimiento y la toma de decisiones.
 
-**Aspectos geográficos:**
+<p align="justify">
 
-- **Nacionalidad:** Peruana.
-- **Zona geográfica:** Principalmente zonas urbanas de Lima Metropolitana y otros sectores donde se desarrollan proyectos privados de construcción.
+En conjunto, la información estadística permite contextualizar los dos segmentos seleccionados dentro de la actividad laboral y empresarial relacionada con la construcción. Los datos empleados proceden de fuentes institucionales del Ministerio de Trabajo y Promoción del Empleo, el Instituto Nacional de Estadística e Informática y el Ministerio de la Producción, mientras que las necesidades particulares de los segmentos serán profundizadas posteriormente mediante el proceso de Requirements Elicitation & Analysis.
 
-**Aspectos psicográficos:**
-
-- **Dolor principal:** Dificultad para obtener visibilidad constante y actualizada sobre el avance real de la obra, especialmente cuando la información se encuentra fragmentada o depende de reportes proporcionados posteriormente por la empresa constructora.
-
-- **Intereses:** Cumplimiento de los plazos establecidos, transparencia en el uso de materiales y recursos, seguimiento del avance del proyecto y reducción de riesgos económicos asociados a retrasos o errores.
-
-- **Actitudes:** Valoran la transparencia, la información clara y actualizada, y las herramientas que les permitan realizar seguimiento de sus proyectos sin depender constantemente de solicitudes de información a la constructora.
-
-- **Necesidades clave:** Visualizar el progreso de la obra, consultar información relacionada con materiales y personal, verificar el cumplimiento de los plazos establecidos y disponer de reportes comprensibles que faciliten la toma de decisiones.
+</p>
 
 </div>
 
@@ -2097,25 +2108,8 @@ Los distritos de residencia serán incorporados al análisis estadístico una ve
 
 </p>
 
-Figura 10  
+**Figura 10**  
 _Características objetivas predominantes en supervisores de obra_
-
-<!-- DATOS PARA LA GRÁFICA:
-
-Rol de supervisor/a de obra: 100 %
-Uso de laptop: 100 %
-Uso de smartphone: 100 %
-Uso de WhatsApp: 100 %
-Uso de correo electrónico: 100 %
-Uso de Google Chrome: 100 %
-55 años o más: 66.7 %
-Género femenino: 66.7 %
-Casados/as: 66.7 %
-Con responsabilidades familiares: 66.7 %
-Más de 20 años de experiencia: 66.7 %
-Preferencia principal por laptop: 66.7 %
-
--->
 
 <p align="center">
   <img src="assets/chapter-2/analysis/supervisores-caracteristicas-objetivas.png"
@@ -2195,26 +2189,8 @@ Finalmente, el 100 % presenta frustraciones relacionadas con información que no
 
 </p>
 
-Figura 11  
+**Figura 11**  
 _Características subjetivas predominantes en supervisores de obra_
-
-<!-- DATOS PARA LA GRÁFICA:
-
-Valora información actualizada: 100 %
-Busca centralización de la información: 100 %
-Prioriza comunicación y coordinación: 100 %
-Prefiere herramientas simples y confiables: 100 %
-Orientación al control y resolución de problemas: 100 %
-Información desactualizada como frustración: 100 %
-SENCICO como referente: 100 %
-Uso/influencia de herramientas Microsoft: 100 %
-Organización y control como habilidades relevantes: 66.7 %
-Resolución o prevención de problemas: 66.7 %
-CAPECO como referente: 66.7 %
-Autodesk como herramienta o referente: 66.7 %
-Retrasos/problemas de materiales: 66.7 %
-
--->
 
 <p align="center">
   <img src="assets/chapter-2/analysis/supervisores-caracteristicas-subjetivas.png"
@@ -2290,25 +2266,8 @@ El 100 % utiliza WhatsApp y correo electrónico como canales de comunicación re
 
 </p>
 
-Figura 12  
+**Figura 12**  
 _Características objetivas predominantes en contratantes de empresas privadas_
-
-<!-- DATOS PARA LA GRÁFICA:
-
-Residencia en Lima Metropolitana: 100 %
-Funciones administrativas o gerenciales: 100 %
-Experiencia previa contratando proyectos: 100 %
-Uso de laptop: 100 %
-Uso de smartphone: 100 %
-Uso de WhatsApp: 100 %
-Uso de correo electrónico: 100 %
-Laptop para revisión documental: 100 %
-Género femenino: 66.7 %
-Menores de 30 años: 66.7 %
-Con responsabilidades familiares: 66.7 %
-Google Chrome como navegador: 66.7 %
-
--->
 
 <p align="center">
   <img src="assets/chapter-2/analysis/contratantes-caracteristicas-objetivas.png"
@@ -2394,25 +2353,8 @@ Como principal frustración, el 100 % menciona situaciones relacionadas con info
 
 </p>
 
-Figura 13  
+**Figura 13**  
 _Características subjetivas predominantes en contratantes de empresas privadas_
-
-<!-- DATOS PARA LA GRÁFICA:
-
-Valora la transparencia: 100 %
-Necesita información actualizada: 100 %
-Busca comunicación proactiva: 100 %
-Orientación a reducción de riesgos: 100 %
-Valoración positiva del seguimiento digital: 100 %
-Negociación como habilidad relevante: 100 %
-Organización/planificación/control financiero: 100 %
-Referencias externas influyen en decisiones: 100 %
-Valora evidencia y trazabilidad: 100 %
-Cumplimiento de plazos como prioridad: 100 %
-Busca reducir incertidumbre: 100 %
-Información tardía o incompleta como frustración: 100 %
-
--->
 
 <p align="center">
   <img src="assets/chapter-2/analysis/contratantes-caracteristicas-subjetivas.png"
@@ -2500,17 +2442,40 @@ _Nota._ Elaboración propia.
 
 ### 2.3.2. User Task Matrix
 
-| Área                               | Tarea                                                              | Juan Carlos Zegarra |             | Verónica Delgado    |             |
-| :--------------------------------- | :----------------------------------------------------------------- | ------------------- | ----------- | ------------------- | ----------- |
-|                                    |                                                                    | Frecuencia          | Importancia | Frecuencia          | Importancia |
-| Supervisión de Avances             | Monitorear el avance de la obra en tiempo real                     | Diaria              | Alta        | \-                  | \-          |
-| Supervisión de Avances             | Revisar reportes semanales detallados con métricas personalizadas  | \-                  | \-          | Semanal             | Alta        |
-| Gestión de Materiales y Personal   | Verificar el uso de materiales y evitar desperdicio                | Diaria              | Alta        | \-                  | \-          |
-| Gestión de Materiales y Personal   | Supervisar la asistencia de obreros y detectar ausencias           | \-                  | \-          | Diaria              | Alta        |
-| Cumplimiento de Normas y Licencias | Validar que las licencias estén en orden y vigentes                | Mensual             | Media       | \-                  | \-          |
-| Cumplimiento de Normas y Licencias | Recibir alertas sobre vencimientos de licencias                    | \-                  | \-          | Según vencimientos  | Alta        |
-| Comunicación y Reportes            | Compartir avances con stakeholders (ej. cliente, equipo legal)     | Semanal             | Alta        | \-                  | \-          |
-| Comunicación y Reportes            | Recibir notificaciones de problemas críticos (ej. bajo inventario) | \-                  | \-          | Inmediata (alertas) | Alta        |
+<p align="justify">
+
+La User Task Matrix presenta las principales tareas realizadas por los User Persona correspondientes a los dos segmentos objetivo de ArquiTech: Juan Carlos Zegarra, representante de los supervisores de obra, y Verónica Delgado, representante de los contratantes de empresas privadas. Para cada tarea se identifica la frecuencia con la que es realizada y su nivel de importancia. Las tareas descritas corresponden a actividades propias de los usuarios y pueden realizarse independientemente de la existencia de ArquiTech.
+
+</p>
+
+| Tarea                                                                  | Juan Carlos Zegarra |             | Verónica Delgado   |             |
+| :--------------------------------------------------------------------- | ------------------- | ----------- | ------------------ | ----------- |
+|                                                                        | Frecuencia          | Importancia | Frecuencia         | Importancia |
+| Supervisar el avance de la obra                                        | Diaria              | Alta        | \-                 | \-          |
+| Revisar reportes sobre el avance y estado del proyecto                 | \-                  | \-          | Semanal            | Alta        |
+| Verificar el uso de materiales y controlar posibles desperdicios       | Diaria              | Alta        | \-                 | \-          |
+| Supervisar la asistencia del personal de obra y detectar ausencias     | Diaria              | Alta        | \-                 | \-          |
+| Verificar que las licencias y permisos se encuentren vigentes          | \-                  | \-          | Según vencimientos | Alta        |
+| Comunicar los avances de la obra a clientes y responsables del proyecto| Semanal             | Alta        | \-                 | \-          |
+| Revisar problemas críticos que puedan afectar la ejecución de la obra  | \-                  | \-          | Inmediata          | Alta        |
+
+<p align="justify">
+
+En el caso de Juan Carlos Zegarra, las tareas de mayor frecuencia e importancia se encuentran relacionadas con el control operativo de la obra. La supervisión del avance, la verificación del uso de materiales y el control de la asistencia del personal se realizan diariamente y presentan una importancia alta. Asimismo, la comunicación periódica de avances permite mantener informados a los responsables vinculados con la ejecución del proyecto.
+
+</p>
+
+<p align="justify">
+
+Por su parte, Verónica Delgado concentra sus actividades en el seguimiento y la verificación del proyecto. La revisión de reportes se realiza semanalmente, mientras que la comprobación de licencias y permisos depende de sus fechas de vigencia. Asimismo, la revisión de problemas críticos requiere atención inmediata debido al impacto que estos pueden generar sobre el cumplimiento de la obra.
+
+</p>
+
+<p align="justify">
+
+La principal diferencia entre ambos User Personas radica en su nivel de participación en la ejecución del proyecto. El supervisor interviene de manera directa y frecuente en las actividades operativas de la obra, mientras que el contratante realiza principalmente tareas de seguimiento, comprobación y evaluación de la información recibida. Como coincidencia, ambos requieren conocer el estado de la obra y detectar situaciones que puedan afectar su desarrollo para poder tomar decisiones oportunas.
+
+</p>
 
 ### 2.3.3. User Journey Mapping
 
@@ -2552,147 +2517,382 @@ _Nota._ Elaboración propia.
 
 ### 2.3.5. As-is Scenario Mapping
 
-<ins>**As-Is Scenario Mapping del segmento #1: Supervisores de Obra**</ins>
+<p align="justify">
+
+El As-is Scenario Mapping permite representar la experiencia actual de los User Persona antes de considerar las mejoras propuestas mediante ArquiTech. Para su elaboración se organizan las actividades de cada segmento en fases y se describen las acciones que realiza el usuario (Doing), los pensamientos que surgen durante el proceso (Thinking) y las emociones asociadas a cada momento (Feeling). A partir de este análisis también se identifican áreas positivas, áreas negativas y blank areas, entendidas como aspectos sobre los cuales todavía es necesario profundizar el conocimiento del usuario.
+
+</p>
+
+#### As-is Scenario Mapping del segmento #1: Supervisores de obra
+
+<p align="justify">
+
+Para el segmento de supervisores de obra, el escenario actual se organiza en cuatro fases: Planificación Matutina, Supervisión en Campo, Gestión Operativa y Reporte y Cierre Diario. Durante estas etapas, el supervisor consulta registros previos, coordina la asistencia del personal, recorre físicamente la obra, registra problemas, verifica materiales, asigna tareas y posteriormente consolida información para comunicar el estado de la jornada.
+
+</p>
+
+<p align="justify">
+
+El escenario evidencia una fuerte dependencia de mecanismos manuales y herramientas separadas. La planificación puede apoyarse en cuadernos, hojas de cálculo y comunicaciones por WhatsApp; la supervisión requiere recorridos físicos y anotaciones durante la jornada; la gestión de materiales depende de verificaciones realizadas directamente en almacén; y el cierre diario implica consolidar horas trabajadas, materiales utilizados y avances en reportes elaborados manualmente.
+
+</p>
 
 **Figura 18**  
-_As-Is Scenario Mapping para segmento #1_
+_As-is Scenario Mapping para segmento #1_
 
 <p align="center">
-  <img src="assets/chapter-2/As-is/OS_As-is_S1.jpg" alt="PB" width="1000">
+  <img src="assets/chapter-2/As-is/OS_As-is_S1.jpg"
+       alt="As-is Scenario Mapping del supervisor de obra con las fases Planificación Matutina, Supervisión en Campo, Gestión Operativa y Reporte y Cierre Diario"
+       width="1000">
+</p>
+
+<p align="justify">
+
+Entre los aspectos favorables del proceso actual se encuentra el contacto directo con la obra, que permite al supervisor observar personalmente lo que ocurre y ajustar las actividades de acuerdo con las situaciones identificadas durante la jornada.
+
 </p>
 
 **Figura 19**  
-_Áreas positivas del As-Is Scenario Mapping para segmento #1_
+_Áreas positivas del As-is Scenario Mapping para segmento #1_
 
 <p align="center">
-  <img src="assets/chapter-2/As-is/OS_As-is_S1_AP.jpg" alt="PB" width="1000">
+  <img src="assets/chapter-2/As-is/OS_As-is_S1_AP.jpg"
+       alt="Áreas positivas identificadas en el As-is Scenario Mapping del supervisor de obra"
+       width="1000">
+</p>
+
+<p align="justify">
+
+Las principales dificultades se relacionan con la falta de información suficientemente clara al inicio de la jornada, el tiempo requerido para contar materiales y coordinar personal de manera manual y la elaboración de reportes mediante papel u hojas de cálculo, actividades que pueden demandar tiempo adicional y aumentar la posibilidad de inconsistencias.
+
 </p>
 
 **Figura 20**  
-_Áreas negativas del As-Is Scenario Mapping para segmento #1_
+_Áreas negativas del As-is Scenario Mapping para segmento #1_
 
 <p align="center">
-  <img src="assets/chapter-2/As-is/OS_As-is_S1_AN.jpg" alt="PB" width="1000">
+  <img src="assets/chapter-2/As-is/OS_As-is_S1_AN.jpg"
+       alt="Áreas negativas identificadas en el As-is Scenario Mapping del supervisor de obra"
+       width="1000">
+</p>
+
+<p align="justify">
+
+Las blank areas identificadas muestran aspectos que requieren mayor comprensión, como la forma en que el supervisor prioriza tareas cuando ocurren retrasos inesperados, la frecuencia con la que contrasta físicamente el inventario con los registros disponibles y el procedimiento utilizado para resolver discrepancias relacionadas con las horas trabajadas reportadas por el personal.
+
 </p>
 
 **Figura 21**  
-_Blank areas del As-Is Scenario Mapping para segmento \#1_
+_Blank areas del As-is Scenario Mapping para segmento #1_
 
 <p align="center">
-  <img src="assets/chapter-2/As-is/OS_As-is_S1_BA.jpg" alt="PB" width="1000">
+  <img src="assets/chapter-2/As-is/OS_As-is_S1_BA.jpg"
+       alt="Blank areas identificadas en el As-is Scenario Mapping del supervisor de obra"
+       width="1000">
 </p>
 
-<ins>**As-Is Scenario Mapping para Segmento \# 2: Contratantes de Empresas Privadas**</ins>
+
+#### As-is Scenario Mapping del segmento #2: Contratantes de empresas privadas
+
+<p align="justify">
+
+Para el segmento de contratantes de empresas privadas, el escenario actual se divide en las fases Selección de Constructora, Seguimiento de Progreso, Verificación de Cumplimiento y Evaluación Final. El contratante busca alternativas, revisa antecedentes y solicita cotizaciones; posteriormente recibe actualizaciones sobre la ejecución, realiza visitas ocasionales, solicita documentación de cumplimiento y finalmente revisa los resultados de la obra.
+
+</p>
+
+<p align="justify">
+
+Este proceso depende en gran medida de información proporcionada por terceros y de canales independientes. Las recomendaciones, correos electrónicos, llamadas, mensajes y visitas presenciales son utilizados para conocer el estado del proyecto, mientras que la validación de permisos, normas y cumplimiento puede requerir documentos enviados por la constructora o la participación de inspectores externos.
+
+</p>
 
 **Figura 22**  
-_As-Is Scenario Mapping para segmento #2_
+_As-is Scenario Mapping para segmento #2_
 
 <p align="center">
-  <img src="assets/chapter-2/As-is/OS_As-is_S2.jpg" alt="PB" width="1000">
+  <img src="assets/chapter-2/As-is/OS_As-is_S2.jpg"
+       alt="As-is Scenario Mapping del contratante con las fases Selección de Constructora, Seguimiento de Progreso, Verificación de Cumplimiento y Evaluación Final"
+       width="1000">
+</p>
+
+<p align="justify">
+
+Entre los aspectos positivos identificados se encuentran las visitas a la obra, que permiten comprobar personalmente el progreso, y el apoyo de especialistas externos para verificar determinados aspectos del cumplimiento del proyecto.
+
 </p>
 
 **Figura 23**  
-_Áreas positivas del As-Is Scenario Mapping para segmento #2_
+_Áreas positivas del As-is Scenario Mapping para segmento #2_
 
 <p align="center">
-  <img src="assets/chapter-2/As-is/OS_As-is_S2_AP.jpg" alt="PB" width="1000">
+  <img src="assets/chapter-2/As-is/OS_As-is_S2_AP.jpg"
+       alt="Áreas positivas identificadas en el As-is Scenario Mapping del contratante"
+       width="1000">
+</p>
+
+<p align="justify">
+
+Las principales dificultades se presentan al seleccionar una constructora confiable, verificar manualmente licencias y normas, depender de terceros para obtener evidencia de cumplimiento y recibir reportes que pueden resultar poco frecuentes o insuficientemente detallados. Estas limitaciones reducen la visibilidad disponible durante la ejecución de la obra y dificultan su evaluación posterior.
+
 </p>
 
 **Figura 24**  
-_Áreas negativas del As-Is Scenario Mapping para segmento #2_
+_Áreas negativas del As-is Scenario Mapping para segmento #2_
 
 <p align="center">
-  <img src="assets/chapter-2/As-is/OS_As-is_S2_AN.jpg" alt="PB" width="1000">
+  <img src="assets/chapter-2/As-is/OS_As-is_S2_AN.jpg"
+       alt="Áreas negativas identificadas en el As-is Scenario Mapping del contratante"
+       width="1000">
+</p>
+
+<p align="justify">
+
+Las blank areas del segmento reflejan interrogantes que requieren mayor investigación, entre ellas el nivel de detalle que el contratante espera recibir en los reportes, los criterios utilizados para confiar en una empresa constructora más allá de las recomendaciones y la influencia que puede tener la tecnología en la decisión de contratar y realizar seguimiento a una obra.
+
 </p>
 
 **Figura 25**  
-_Blank areas del As-Is Scenario Mapping para segmento #2_
+_Blank areas del As-is Scenario Mapping para segmento #2_
 
 <p align="center">
-  <img src="assets/chapter-2/As-is/OS_As-is_S2_BA.jpg" alt="PB" width="1000">
+  <img src="assets/chapter-2/As-is/OS_As-is_S2_BA.jpg"
+       alt="Blank areas identificadas en el As-is Scenario Mapping del contratante"
+       width="1000">
+</p>
+
+<p align="justify">
+
+En conjunto, los dos escenarios muestran experiencias diferentes. El supervisor se encuentra involucrado directamente en la operación cotidiana de la obra y enfrenta dificultades relacionadas con coordinación, inventario, personal y consolidación de información. El contratante, en cambio, se encuentra principalmente en una posición de seguimiento y verificación, por lo que sus principales dificultades se relacionan con la disponibilidad, claridad y oportunidad de la información que recibe durante la ejecución del proyecto. Estos hallazgos sirven como punto de partida para contrastar posteriormente la situación actual con los escenarios To-Be.
+
 </p>
 
 ## 2.4. Ubiquitous Language
 
-| Término (Inglés)    | Término (Español)                   | Definición                                                                                                                                 |
-| :------------------ | :---------------------------------- | :----------------------------------------------------------------------------------------------------------------------------------------- |
-| Construction Site   | Obra de construcción                | Lugar físico donde se ejecuta un proyecto de construcción, gestionado por supervisores y equipos operativos.                               |
-| Supervisor          | Supervisor                          | Persona responsable de coordinar y controlar las actividades diarias en la obra, incluyendo personal, materiales y cumplimiento de plazos. |
-| Contractor          | Contratante                         | Empresa o persona que encarga una obra y espera su ejecución conforme a los estándares, plazos y regulaciones establecidos.                |
-| Resource            | Recurso                             | Elemento necesario para el desarrollo de la obra, como materiales de construcción, maquinaria o personal.                                  |
-| Attendance          | Asistencia                          | Registro diario de la presencia del personal obrero o técnico en la obra.                                                                  |
-| Offline Mode        | Modo sin conexión                   | Funcionalidad que permite usar la aplicación sin {acceso a internet, sincronizando los datos al reconectarse.                              |
-| Progress Report     | Reporte de avance                   | Documento o visualización que resume el estado actual del proyecto, incluyendo tareas realizadas, tiempos y uso de recursos.               |
-| Workforce           | Mano de obra / Personal             | Grupo de trabajadores (obreros y técnicos) que participan activamente en la ejecución de la obra.                                          |
-| Material Entry      | Registro de materiales              | Acción de añadir nuevos materiales o equipos al inventario dentro del sistema.                                                             |
-| Stock Update        | Actualización de stock              | Modificación de las cantidades de materiales disponibles, ya sea por consumo o nueva adquisición.                                          |
-| Construction Budget | Presupuesto de obra                 | Estimación financiera que define los costos proyectados del proyecto, incluyendo materiales, personal y otros gastos.                      |
-| Work Order          | Orden de trabajo                    | Documento o instrucción digital que detalla tareas a realizar por el personal en obra.                                                     |
-| Company Profile     | Perfil de la empresa                | Información registrada sobre la empresa constructora: nombre, contacto, tipo de proyectos, etc.                                            |
-| Onboarding          | Introducción / Capacitación inicial | Proceso mediante el cual nuevos usuarios aprenden a usar la plataforma por medio de videos y tutoriales guiados.                           |
+<p align="justify">
+
+El Ubiquitous Language de ArquiTech reúne los principales términos utilizados dentro del dominio de gestión y seguimiento de proyectos de construcción. Estos conceptos permiten mantener un vocabulario común entre los integrantes del equipo y los stakeholders, reduciendo ambigüedades entre los requisitos, el diseño y las funcionalidades del producto. Los términos definidos corresponden al dominio de negocio de ArquiTech y se utilizan de manera consistente en las User Stories y en los procesos soportados por la solución.
+
+</p>
+
+| Término (Inglés) | Término (Español) | Definición |
+| :---------------- | :----------------- | :--------- |
+| Project | Proyecto | Obra o proyecto de construcción gestionado en ArquiTech. Contiene información como nombre, ubicación, fechas, presupuesto, estado, progreso y los responsables asociados. |
+| Supervisor | Supervisor de obra | Usuario responsable de administrar una obra y coordinar sus recursos y actividades. Gestiona proyectos, materiales, trabajadores, asistencia, tareas, maquinaria e incidencias dentro de los proyectos bajo su supervisión. |
+| Contractor | Contratante | Usuario asociado a un proyecto que realiza seguimiento de la obra y consulta la información disponible sobre su ejecución, sin administrar los recursos operativos del proyecto. |
+| Project Progress | Avance del proyecto | Porcentaje que representa el nivel de progreso registrado para un proyecto de construcción, comprendido entre 0 % y 100 %. |
+| Worker | Trabajador | Persona que forma parte del personal de una obra y se encuentra asociada a un proyecto para realizar actividades durante su ejecución. |
+| Attendance | Asistencia | Registro correspondiente a la presencia de un trabajador en una jornada determinada. Puede indicar estados como presente, ausente, tardanza o justificado e incluir horas de entrada y salida cuando corresponda. |
+| Task | Tarea | Actividad de trabajo asociada a un proyecto y asignada a un trabajador, con información como título, descripción, fecha límite y estado de ejecución. |
+| Material | Material | Recurso físico utilizado durante la ejecución de una obra y cuyo inventario se controla dentro de un proyecto. |
+| Material Entry | Entrada de material | Recepción de una cantidad de material en la obra. Incrementa la cantidad acumulada recibida y el stock disponible del material. |
+| Material Usage | Uso de material | Consumo de una cantidad de material durante la ejecución de la obra. Reduce el stock disponible y no puede superar la cantidad existente. |
+| Material Movement | Movimiento de material | Registro de una entrada o uso de material que permite mantener la trazabilidad de las variaciones producidas en el inventario de una obra. |
+| Stock | Stock disponible | Cantidad de un material que se encuentra disponible para ser utilizada dentro de un proyecto después de considerar sus entradas y usos registrados. |
+| Minimum Stock | Stock mínimo | Cantidad mínima definida para un material que sirve como referencia para identificar cuándo su disponibilidad se encuentra en un nivel bajo. |
+| Machinery | Maquinaria | Equipo o maquinaria utilizada dentro de un proyecto de construcción y registrada para controlar su identificación, estado y disponibilidad. |
+| Serial Number | Número de serie | Identificador asociado a una maquinaria que permite distinguirla dentro de un proyecto. |
+| Incident | Incidencia | Situación, problema o evento ocurrido durante la ejecución de una obra que requiere ser registrado y seguido de acuerdo con su tipo, severidad y estado. |
+| Weekly Report | Reporte semanal | Consolidación de información correspondiente a una semana de ejecución del proyecto, considerando registros como tareas, movimientos de materiales e incidencias para facilitar el seguimiento de la obra. |
+
+<p align="justify">
+
+Este vocabulario se utiliza de manera consistente en la especificación de requisitos de ArquiTech. En particular, conceptos como Project, Material, Material Movement, Worker, Attendance, Task, Machinery, Incident y Weekly Report representan elementos centrales del dominio y permiten mantener coherencia entre el análisis del problema, las User Stories y las funcionalidades implementadas.
+
+</p>
 
 # Capítulo III: Requirements Specification
 
 ## 3.1. To-Be Scenario Mapping
 
-<ins>_To-Be Scenario Mapping del segmento #1: Supervisores de obra_</ins>
+<p align="justify">
 
-_Figura 26_  
-To-Be Scenario Mapping del segmento #1
+El To-Be Scenario Mapping representa la experiencia futura que se propone para cada User Persona a partir de las oportunidades de mejora identificadas en los escenarios As-Is. Para su elaboración se mantienen las fases principales del proceso actual y se replantean las acciones (Doing), pensamientos (Thinking) y emociones (Feeling) del usuario considerando una experiencia apoyada por ArquiTech. Posteriormente, se identifican áreas positivas, áreas negativas y blank areas con el propósito de reconocer beneficios esperados, posibles limitaciones y aspectos que todavía requieren validación.
 
-<p align="center">
-  <img src="assets/chapter-3/To-be/OS_To-be_S1.jpg" alt="PB" width="1000">
 </p>
 
-_Figura 27_  
-Áreas positivas del To-Be Scenario Mapping para segmento #1
+<p align="justify">
 
-<p align="center">
-  <img src="assets/chapter-3/To-be/OS_To-be_S1_AP.jpg" alt="PB" width="1000">
+El análisis To-Be se construye en contraste con los escenarios As-Is presentados previamente. Mientras el As-Is describe cómo los usuarios realizan actualmente sus actividades mediante registros manuales, herramientas independientes, comunicaciones dispersas y verificaciones presenciales, el To-Be plantea una experiencia futura en la que la información relacionada con la obra se encuentra más centralizada y accesible. Los escenarios representados en esta sección corresponden a una propuesta de experiencia futura y no constituyen, por sí mismos, evidencia de que todas las capacidades representadas se encuentren implementadas actualmente.
+
 </p>
 
-_Figura 28_  
-Áreas negativas del To-Be Scenario Mapping para segmento #1
+### To-Be Scenario Mapping del segmento #1: Supervisores de obra
 
-<p align="center">
-  <img src="assets/chapter-3/To-be/OS_To-be_S1_AN.jpg" alt="PB" width="1000">
+<p align="justify">
+
+Para el supervisor de obra se conservan las cuatro fases identificadas en el escenario As-Is: Planificación Matutina, Supervisión en Campo, Gestión Operativa y Reporte y Cierre Diario. El cambio principal consiste en trasladar parte de las actividades que anteriormente dependían de cuadernos, hojas de cálculo, mensajes y verificaciones manuales hacia una experiencia centralizada mediante ArquiTech.
+
 </p>
 
-_Figura 29_  
-Blank areas del To-Be Scenario Mapping para segmento #1
+<p align="justify">
 
-<p align="center">
-  <img src="assets/chapter-3/To-be/OS_To-be_S1_BA.jpg" alt="PB" width="1000">
+En la fase de Planificación Matutina, el escenario As-Is muestra que el supervisor revisa su cuaderno o archivos de Excel y se comunica con los trabajadores para confirmar la disponibilidad del personal. En el escenario To-Be, se propone que consulte desde ArquiTech las tareas planificadas y la asistencia registrada, permitiéndole iniciar la jornada con información organizada en un mismo entorno.
+
 </p>
 
-<ins>_To-Be Scenario Mapping para Segmento #2: Contratantes de Empresas Privadas_</ins>
+<p align="justify">
 
-_Figura 30_  
-To-Be Scenario Mapping para segmento #2
+Durante la Supervisión en Campo, el As-Is evidencia que el supervisor recorre físicamente la obra y registra problemas o retrasos mediante anotaciones independientes. En el To-Be, el recorrido continúa siendo parte de su actividad, pero se propone registrar avances y problemas durante la supervisión mediante ArquiTech. De esta manera, el cambio no consiste en eliminar la supervisión presencial, sino en facilitar el registro y organización de la información producida durante ella.
 
-<p align="center">
-  <img src="assets/chapter-3/To-be/OS_To-be_S2.jpg" alt="PB" width="1000">
 </p>
 
-_Figura 31_  
-Áreas positivas del To-Be Scenario Mapping para segmento #2
+<p align="justify">
 
-<p align="center">
-  <img src="assets/chapter-3/To-be/OS_To-be_S2_AP.jpg" alt="PB" width="1000">
+En la Gestión Operativa, el escenario As-Is requiere verificar físicamente las cantidades disponibles en almacén y coordinar directamente la asignación de tareas. En el To-Be se plantea consultar información de inventario y actualizar el estado de las tareas desde la plataforma, reduciendo la dependencia de registros separados y facilitando el seguimiento de las actividades realizadas.
+
 </p>
 
-_Figura 32_  
-Áreas negativas del To-Be Scenario Mapping para segmento #2
+<p align="justify">
 
-<p align="center">
-  <img src="assets/chapter-3/To-be/OS_To-be_S2_AN.jpg" alt="PB" width="1000">
+Finalmente, durante el Reporte y Cierre Diario, el As-Is muestra la elaboración manual de reportes mediante papel o Excel y el envío posterior de un resumen. En el escenario To-Be se propone consolidar la información registrada durante la jornada para facilitar la elaboración y comunicación del reporte, disminuyendo el trabajo de recopilación manual al finalizar el día.
+
 </p>
 
-_Figura 33_  
-Blank areas del To-Be Scenario Mapping para segmento #2
+**Figura 26**  
+_To-Be Scenario Mapping del segmento #1: Supervisores de obra_
 
 <p align="center">
-  <img src="assets/chapter-3/To-be/OS_To-be_S2_BA.jpg" alt="PB" width="1000">
+  <img src="assets/chapter-3/To-be/OS_To-be_S1.jpg"
+       alt="To-Be Scenario Mapping del supervisor de obra con las fases Planificación Matutina, Supervisión en Campo, Gestión Operativa y Reporte y Cierre Diario"
+       width="1000">
+</p>
+
+<p align="justify">
+
+Las áreas positivas identificadas reflejan los beneficios esperados del cambio respecto al As-Is. Entre ellos se encuentran disponer de información más clara al comenzar la jornada, registrar avances y problemas durante el trabajo en campo, consultar información de inventario y tareas de forma organizada y reducir el tiempo destinado a consolidar reportes.
+
+</p>
+
+**Figura 27**  
+_Áreas positivas del To-Be Scenario Mapping para segmento #1_
+
+<p align="center">
+  <img src="assets/chapter-3/To-be/OS_To-be_S1_AP.jpg"
+       alt="Áreas positivas identificadas en el To-Be Scenario Mapping del supervisor de obra"
+       width="1000">
+</p>
+
+<p align="justify">
+
+Como posible área negativa se identifica la dependencia de conectividad durante el trabajo en obra. A diferencia del As-Is, donde parte de los registros puede realizarse mediante medios físicos, una experiencia apoyada principalmente en una plataforma digital puede verse afectada cuando la conexión a Internet es limitada o inestable.
+
+</p>
+
+**Figura 28**  
+_Áreas negativas del To-Be Scenario Mapping para segmento #1_
+
+<p align="center">
+  <img src="assets/chapter-3/To-be/OS_To-be_S1_AN.jpg"
+       alt="Área negativa relacionada con posibles problemas de conectividad en el To-Be Scenario Mapping del supervisor de obra"
+       width="1000">
+</p>
+
+<p align="justify">
+
+Como blank area se identifica la necesidad de profundizar en la forma en que debería administrarse un inventario cuando los materiales se relacionan con varias obras. Este aspecto representa una situación que requiere mayor análisis antes de establecer una solución definitiva dentro de la experiencia propuesta.
+
+</p>
+
+**Figura 29**  
+_Blank areas del To-Be Scenario Mapping para segmento #1_
+
+<p align="center">
+  <img src="assets/chapter-3/To-be/OS_To-be_S1_BA.jpg"
+       alt="Blank area sobre la gestión de inventario entre varias obras en el To-Be Scenario Mapping del supervisor de obra"
+       width="1000">
+</p>
+
+
+### To-Be Scenario Mapping del segmento #2: Contratantes de empresas privadas
+
+<p align="justify">
+
+Para el contratante de empresa privada se mantienen las cuatro fases del escenario As-Is: Selección de Constructora, Seguimiento de Progreso, Verificación de Cumplimiento y Evaluación Final. El escenario To-Be busca reducir la dependencia de recomendaciones aisladas, comunicaciones posteriores, visitas presenciales y documentos distribuidos en diferentes medios, planteando una experiencia con mayor acceso y organización de la información del proyecto.
+
+</p>
+
+<p align="justify">
+
+Durante la Selección de Constructora, el As-Is muestra que el contratante busca alternativas mediante recomendaciones o Internet, solicita antecedentes y cotizaciones y compara diferentes opciones manualmente. En el To-Be se plantea que parte de esta información pueda consultarse de manera organizada mediante la plataforma, permitiendo disponer de antecedentes y datos que apoyen la comparación y la toma de decisiones.
+
+</p>
+
+<p align="justify">
+
+En el Seguimiento de Progreso, el As-Is depende principalmente de actualizaciones enviadas por WhatsApp, correo electrónico, llamadas y visitas ocasionales a la obra. En el To-Be se plantea que el contratante pueda consultar información actualizada del proyecto mediante ArquiTech, disminuyendo la necesidad de solicitar continuamente información o desplazarse a la obra únicamente para conocer su estado.
+
+</p>
+
+<p align="justify">
+
+En la Verificación de Cumplimiento, el As-Is requiere solicitar documentos por correo electrónico y, en determinadas situaciones, depender de terceros para comprobar aspectos de seguridad o cumplimiento. El To-Be propone organizar la documentación y los reportes relacionados con la obra en un mismo entorno, facilitando su consulta y reduciendo la dispersión de información.
+
+</p>
+
+<p align="justify">
+
+Durante la Evaluación Final, el As-Is se basa en revisar el informe proporcionado por la constructora y determinar posteriormente si se cumplieron los plazos y el presupuesto. En el escenario To-Be se plantea disponer de información consolidada a lo largo del proyecto, de modo que la evaluación final pueda realizarse con mayor trazabilidad sobre los datos registrados durante su ejecución.
+
+</p>
+
+**Figura 30**  
+_To-Be Scenario Mapping del segmento #2: Contratantes de empresas privadas_
+
+<p align="center">
+  <img src="assets/chapter-3/To-be/OS_To-be_S2.jpg"
+       alt="To-Be Scenario Mapping del contratante con las fases Selección de Constructora, Seguimiento de Progreso, Verificación de Cumplimiento y Evaluación Final"
+       width="1000">
+</p>
+
+<p align="justify">
+
+Las áreas positivas del escenario To-Be se relacionan con una mayor disponibilidad de información para tomar decisiones, mayor visibilidad durante la ejecución del proyecto, facilidad para consultar documentación relacionada con el cumplimiento y una evaluación final sustentada en información consolidada. Frente al As-Is, estos cambios buscan reducir la dependencia de comunicaciones aisladas y de verificaciones realizadas únicamente después de solicitar información a terceros.
+
+</p>
+
+**Figura 31**  
+_Áreas positivas del To-Be Scenario Mapping para segmento #2_
+
+<p align="center">
+  <img src="assets/chapter-3/To-be/OS_To-be_S2_AP.jpg"
+       alt="Áreas positivas identificadas en el To-Be Scenario Mapping del contratante"
+       width="1000">
+</p>
+
+<p align="justify">
+
+Las áreas negativas muestran que la experiencia futura depende de la participación y calidad de la información registrada por los responsables de la obra. Si la empresa constructora no utiliza la plataforma o si los datos registrados son incompletos, el contratante podría continuar enfrentando dificultades para obtener una visión confiable del proyecto.
+
+</p>
+
+**Figura 32**  
+_Áreas negativas del To-Be Scenario Mapping para segmento #2_
+
+<p align="center">
+  <img src="assets/chapter-3/To-be/OS_To-be_S2_AN.jpg"
+       alt="Áreas negativas relacionadas con la adopción de ArquiTech y la calidad de los datos en el To-Be Scenario Mapping del contratante"
+       width="1000">
+</p>
+
+<p align="justify">
+
+Las blank areas identificadas se relacionan con el nivel de detalle que debería presentarse en las métricas de progreso y con la forma en que debe gestionarse la confidencialidad de los datos asociados a cada proyecto. Estos aspectos requieren mayor validación para determinar qué información resulta realmente útil para el contratante y qué mecanismos deben aplicarse para protegerla.
+
+</p>
+
+**Figura 33**  
+_Blank areas del To-Be Scenario Mapping para segmento #2_
+
+<p align="center">
+  <img src="assets/chapter-3/To-be/OS_To-be_S2_BA.jpg"
+       alt="Blank areas relacionadas con el detalle de las métricas y la confidencialidad de los datos en el To-Be Scenario Mapping del contratante"
+       width="1000">
+</p>
+
+<p align="justify">
+
+En comparación con los escenarios As-Is, los escenarios To-Be plantean una transición desde procesos apoyados en registros manuales, comunicaciones dispersas y verificaciones posteriores hacia una experiencia en la que la información de la obra pueda mantenerse más organizada y disponible. Para el supervisor, el principal cambio se concentra en el registro y seguimiento de la operación cotidiana; para el contratante, el cambio se orienta principalmente a mejorar la visibilidad, trazabilidad y acceso a información durante la ejecución del proyecto. Estas propuestas constituyen la base para la posterior especificación de requisitos mediante las User Stories y el Product Backlog.
+
 </p>
 
 ## 3.2. User Stories
@@ -2730,7 +2930,7 @@ Los Acceptance Criteria se expresan mediante la estructura Given-When-Then (Dado
 | HU41     | Contratante        | Alta     | EP01 | Consultar maquinaria de una obra                                   | Como contratante, deseo consultar la maquinaria asociada a una obra para conocer los recursos utilizados en el proyecto.                                                                                                | AC1: Dado que el contratante tiene acceso al proyecto, cuando consulta la maquinaria, entonces el sistema devuelve los recursos de maquinaria asociados.<br><br>AC2: Dado que no existe maquinaria registrada, cuando se realiza la consulta, entonces el sistema devuelve un resultado vacío.                                                                                                                                                                                             |
 | HU47     | Supervisor de obra | Alta     | EP01 | Eliminar material                                                  | Como supervisor de obra, deseo eliminar un material que ya no debe formar parte del registro para mantener actualizado el inventario.                                                                                   | AC1: Dado que el material existe y puede eliminarse, cuando el supervisor solicita su eliminación, entonces el sistema elimina el material registrado.<br><br>AC2: Dado que el material no existe, cuando se solicita su eliminación, entonces el sistema rechaza la operación y no modifica el inventario.                                                                                                                                                                                |
 | HU48     | Supervisor de obra | Alta     | EP01 | Eliminar maquinaria                                                | Como supervisor de obra, deseo eliminar una maquinaria que ya no debe permanecer registrada para mantener actualizados los recursos de la obra.                                                                         | AC1: Dado que la maquinaria existe, cuando el supervisor solicita su eliminación, entonces el sistema elimina el registro correspondiente.<br><br>AC2: Dado que la maquinaria no existe, cuando se solicita su eliminación, entonces el sistema informa que el recurso no se encuentra disponible y no realiza modificaciones.                                                                                                                                                             |
-| EP02     | —                  | Alta     | —    | Gestión de trabajadores y tareas                                   | Agrupa las funcionalidades relacionadas con trabajadores y las actividades asignadas durante la ejecución de los proyectos.                                                                                             | —                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| EP02     | —                  | Alta     | —    | Gestión de trabajadores, asistencia y tareas                       | Agrupa las funcionalidades relacionadas con trabajadores, el registro y consulta de asistencia y las actividades asignadas durante la ejecución de los proyectos.                                                       | —                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
 | HU06     | Supervisor de obra | Alta     | EP02 | Registrar trabajadores                                             | Como supervisor de obra, deseo registrar trabajadores para mantener actualizada la información del personal asociado a las obras.                                                                                       | AC1: Dado que existe un proyecto válido, cuando el supervisor registra un trabajador con información válida, entonces el sistema almacena al trabajador asociado al proyecto.<br><br>AC2: Dado que la información del trabajador es inválida o incompleta, cuando se solicita su registro, entonces el sistema rechaza la operación y no crea el trabajador.                                                                                                                               |
 | HU07     | Supervisor de obra | Alta     | EP02 | Asignar tareas a trabajadores                                      | Como supervisor de obra, deseo asignar tareas a los trabajadores para organizar las actividades necesarias durante la ejecución de la obra.                                                                             | AC1: Dado que el trabajador está registrado, cuando el supervisor crea una tarea válida asociada al trabajador, entonces el sistema registra la tarea y su asignación.<br><br>AC2: Dado que el trabajador no existe o la información de la tarea es inválida, cuando se intenta realizar la asignación, entonces el sistema rechaza la operación.                                                                                                                                          |
 | HU08     | Supervisor de obra | Alta     | EP02 | Consultar tareas                                                   | Como supervisor de obra, deseo consultar las tareas registradas para conocer sus responsables, fechas y estado de ejecución.                                                                                            | AC1: Dado que existen tareas registradas, cuando el supervisor consulta las tareas, entonces el sistema devuelve la información correspondiente a cada actividad.<br><br>AC2: Dado que no existen tareas asociadas, cuando se realiza la consulta, entonces el sistema devuelve un resultado vacío.                                                                                                                                                                                        |
@@ -2741,15 +2941,22 @@ Los Acceptance Criteria se expresan mediante la estructura Given-When-Then (Dado
 | HU49     | Supervisor de obra | Alta     | EP02 | Eliminar trabajador                                                | Como supervisor de obra, deseo eliminar el registro de un trabajador que ya no corresponde a la obra para mantener actualizado el personal del proyecto.                                                                | AC1: Dado que el trabajador existe y puede eliminarse, cuando el supervisor solicita su eliminación, entonces el sistema elimina el registro correspondiente.<br><br>AC2: Dado que el trabajador no existe, cuando se solicita su eliminación, entonces el sistema rechaza la operación y conserva los datos existentes.                                                                                                                                                                   |
 | HU50     | Supervisor de obra | Alta     | EP02 | Eliminar tarea                                                     | Como supervisor de obra, deseo eliminar una tarea que ya no corresponde al plan de trabajo para mantener actualizadas las actividades de la obra.                                                                       | AC1: Dado que la tarea existe, cuando el supervisor solicita su eliminación, entonces el sistema elimina la tarea registrada.<br><br>AC2: Dado que la tarea no existe, cuando se solicita su eliminación, entonces el sistema no modifica las tareas existentes.                                                                                                                                                                                                                           |
 | HU53     | Supervisor de obra | Alta     | EP02 | Actualizar tarea                                                   | Como supervisor de obra, deseo actualizar la información y estado de una tarea para reflejar correctamente el avance de las actividades.                                                                                | AC1: Dado que la tarea existe, cuando el supervisor proporciona información válida actualizada, entonces el sistema modifica los datos y estado de la tarea.<br><br>AC2: Dado que la tarea no existe o los nuevos datos son inválidos, cuando se solicita la actualización, entonces el sistema rechaza la operación y conserva la información anterior.                                                                                                                                   |
-| EP03     | —                  | Alta     | —    | Gestión de proyectos                                               | Agrupa las funcionalidades necesarias para registrar y consultar proyectos de construcción y sus responsables.                                                                                                          | —                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| HU54     | Supervisor de obra | Alta     | EP02 | Registrar asistencia de trabajadores                              | Como supervisor de obra, deseo registrar la asistencia de los trabajadores para mantener evidencia de su presencia durante las jornadas de trabajo.                                                                    | AC1: Dado que el trabajador pertenece al proyecto y la información de asistencia es válida, cuando el supervisor registra su asistencia para una fecha determinada, entonces el sistema almacena el registro asociado al trabajador y al proyecto.<br><br>AC2: Dado que ya existe un registro de asistencia para el mismo trabajador y fecha, cuando el supervisor intenta registrar una segunda asistencia, entonces el sistema rechaza la operación y conserva el registro existente.<br><br>AC3: Dado que el estado de asistencia es ausente o justificado, cuando se registra la asistencia, entonces el sistema no permite asociar horas de entrada o salida. |
+| HU55     | Supervisor de obra | Alta     | EP02 | Consultar asistencia de trabajadores                              | Como supervisor de obra, deseo consultar la asistencia registrada en una obra para realizar seguimiento de la presencia del personal durante la ejecución del proyecto.                                                 | AC1: Dado que existen registros de asistencia asociados al proyecto, cuando el supervisor consulta la asistencia, entonces el sistema presenta los registros correspondientes al proyecto al que tiene acceso.<br><br>AC2: Dado que se especifica una fecha para la consulta, cuando el supervisor solicita los registros, entonces el sistema devuelve únicamente las asistencias correspondientes a dicha fecha.<br><br>AC3: Dado que no existen registros para el criterio solicitado, cuando se realiza la consulta, entonces el sistema devuelve un resultado vacío sin modificar información. |
+| HU56     | Contratante        | Alta     | EP02 | Consultar asistencia de una obra                                  | Como contratante, deseo consultar la asistencia registrada en una obra para conocer la presencia del personal asociado al proyecto.                                                                                     | AC1: Dado que el contratante se encuentra asociado al proyecto, cuando consulta los registros de asistencia, entonces el sistema presenta la información de asistencia correspondiente a esa obra.<br><br>AC2: Dado que el contratante intenta consultar la asistencia de un proyecto al que no tiene acceso, cuando realiza la solicitud, entonces el sistema rechaza el acceso a la información.<br><br>AC3: Dado que no existen registros para el criterio solicitado, cuando se realiza la consulta, entonces el sistema devuelve un resultado vacío. |
+| HU57     | Supervisor de obra | Alta     | EP02 | Actualizar registro de asistencia                                 | Como supervisor de obra, deseo corregir un registro de asistencia para mantener actualizada la información de presencia y horario de los trabajadores.                                                                  | AC1: Dado que el registro de asistencia existe y pertenece a un proyecto administrado por el supervisor, cuando proporciona información válida actualizada, entonces el sistema modifica el registro correspondiente.<br><br>AC2: Dado que la modificación produciría más de un registro para el mismo trabajador y fecha, cuando se intenta actualizar la asistencia, entonces el sistema rechaza la operación.<br><br>AC3: Dado que se registra una hora de salida, cuando se actualiza la asistencia, entonces debe existir una hora de entrada y la salida no puede ser anterior a ella. |
+| HU58     | Supervisor de obra | Alta     | EP02 | Eliminar registro de asistencia                                   | Como supervisor de obra, deseo eliminar un registro de asistencia incorrecto para mantener consistente la información del personal de la obra.                                                                          | AC1: Dado que el registro existe y pertenece a un proyecto administrado por el supervisor, cuando solicita su eliminación, entonces el sistema elimina el registro correspondiente.<br><br>AC2: Dado que el registro no existe o el supervisor no posee autorización sobre el proyecto, cuando se solicita la eliminación, entonces el sistema rechaza la operación sin modificar otros registros.                                                                                                                                                  |
+| EP03     | —                  | Alta     | —    | Gestión de proyectos                                               | Agrupa las funcionalidades necesarias para registrar, consultar y eliminar proyectos de construcción y gestionar sus responsables.                                                                                      | —                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
 | HU09     | Supervisor de obra | Alta     | EP03 | Registrar proyecto de construcción                                 | Como supervisor de obra, deseo registrar un proyecto para gestionar la información correspondiente a una nueva obra.                                                                                                    | AC1: Dado que los responsables y la información del proyecto son válidos, cuando el supervisor registra el proyecto, entonces el sistema almacena la nueva obra con sus datos correspondientes.<br><br>AC2: Dado que la información obligatoria es inválida o incompleta, cuando se intenta registrar el proyecto, entonces el sistema rechaza la operación y no crea el proyecto.                                                                                                         |
 | HU22     | Supervisor de obra | Alta     | EP03 | Consultar proyectos bajo supervisión                               | Como supervisor de obra, deseo consultar los proyectos asociados a mi gestión para realizar seguimiento de las obras bajo mi responsabilidad.                                                                           | AC1: Dado que existen proyectos asociados al supervisor, cuando este consulta sus proyectos, entonces el sistema devuelve las obras correspondientes.<br><br>AC2: Dado que no existen proyectos asociados, cuando el supervisor realiza la consulta, entonces el sistema informa que no existen proyectos registrados para dicho usuario.                                                                                                                                                  |
 | HU33     | Contratante        | Alta     | EP03 | Consultar proyectos contratados                                    | Como contratante, deseo consultar los proyectos asociados a mi participación para realizar seguimiento de las obras contratadas.                                                                                        | AC1: Dado que existen proyectos asociados al contratante, cuando este consulta sus proyectos, entonces el sistema devuelve las obras correspondientes.<br><br>AC2: Dado que no existen proyectos asociados, cuando se realiza la consulta, entonces el sistema devuelve un resultado sin proyectos disponibles.                                                                                                                                                                            |
-| EP04     | —                  | Media    | —    | Landing Page y comunicación                                        | Agrupa las historias relacionadas con la presentación pública de ArquiTech, sus características, propuesta de valor y canales de comunicación.                                                                          | —                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| HU59     | Supervisor de obra | Alta     | EP03 | Eliminar proyecto de construcción                                 | Como supervisor de obra, deseo eliminar un proyecto bajo mi responsabilidad para retirar una obra que ya no debe permanecer registrada junto con su información dependiente.                                             | AC1: Dado que el proyecto existe y pertenece al supervisor autenticado, cuando solicita su eliminación, entonces el sistema elimina el proyecto y los registros dependientes asociados a dicha obra.<br><br>AC2: Dado que el proyecto pertenece a otro usuario o el solicitante no posee permisos de escritura, cuando intenta eliminarlo, entonces el sistema rechaza la operación.<br><br>AC3: Dado que ocurre un error durante la eliminación de los registros dependientes, cuando no puede completarse la operación, entonces el sistema conserva la consistencia de la información y no realiza una eliminación parcial del proyecto. |
+| EP04     | —                  | Media    | —    | Landing Page y comunicación                                        | Agrupa las historias relacionadas con la presentación pública de ArquiTech, su propuesta de valor, canales de comunicación y acceso a información legal del servicio.                                                    | —                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
 | HU11     | Visitante          | Media    | EP04 | Conocer ArquiTech                                                  | Como visitante, deseo conocer la propuesta de ArquiTech para comprender el propósito de la solución y los problemas que busca resolver.                                                                                 | AC1: Dado que el visitante accede al contenido público de ArquiTech, cuando consulta la información de la solución, entonces el sistema presenta el propósito y la propuesta de valor de ArquiTech.<br><br>AC2: Dado que el visitante desea conocer el alcance de la solución, cuando consulta la información del producto, entonces el sistema presenta los principales problemas que aborda y los segmentos de usuario a los que está dirigido.                                          |
 | HU12     | Visitante          | Media    | EP04 | Consultar medios de contacto                                       | Como visitante, deseo conocer los medios de contacto de ArquiTech para disponer de canales mediante los cuales comunicarme con el equipo responsable.                                                                   | AC1: Dado que el visitante desea contactar a ArquiTech, cuando consulta la información de contacto, entonces el sistema presenta los canales de comunicación disponibles.<br><br>AC2: Dado que existen medios de contacto registrados, cuando el visitante consulta dicha información, entonces el sistema presenta los datos necesarios para utilizar cada canal disponible.                                                                                                              |
 | HU13     | Visitante          | Media    | EP04 | Explorar características y beneficios                              | Como visitante, deseo conocer las principales características y beneficios de ArquiTech para evaluar si la solución responde a mis necesidades.                                                                         | AC1: Dado que el visitante desea conocer las capacidades de ArquiTech, cuando consulta la información del producto, entonces el sistema presenta sus principales características funcionales.<br><br>AC2: Dado que el visitante desea evaluar la propuesta de valor, cuando consulta los beneficios de ArquiTech, entonces el sistema presenta los beneficios asociados con la gestión y seguimiento de obras de construcción.                                                             |
 | HU34     | Visitante          | Media    | EP04 | Acceder a la plataforma desde la Landing Page                      | Como visitante, deseo acceder a la plataforma de ArquiTech desde el sitio público para comenzar a utilizar el producto digital.                                                                                         | AC1: Dado que el visitante decide utilizar ArquiTech, cuando solicita acceder a la plataforma, entonces el sistema lo dirige al punto de acceso de la aplicación web.<br><br>AC2: Dado que el visitante accede al producto digital, cuando se completa la navegación desde el sitio público, entonces la aplicación web queda disponible para continuar con el proceso de autenticación.                                                                                                   |
+| HU60     | Visitante          | Media    | EP04 | Consultar Términos y Condiciones                                  | Como visitante, deseo consultar los Términos y Condiciones de ArquiTech para conocer las condiciones aplicables al uso del servicio antes de utilizar el producto.                                                       | AC1: Dado que el visitante desea conocer las condiciones aplicables al servicio, cuando consulta los Términos y Condiciones, entonces el producto presenta la versión vigente de dicha información.<br><br>AC2: Dado que los Términos y Condiciones constituyen información pública del servicio, cuando una persona desea consultarlos, entonces puede acceder a su contenido sin requerir una sesión autenticada.                                                                                                                                           |
 | EP05     | —                  | Media    | —    | Perfil, preferencias y accesibilidad                               | Agrupa las funcionalidades relacionadas con información personal, preferencias de visualización, accesibilidad e idioma del producto.                                                                                   | —                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
 | HU16     | Usuario registrado | Media    | EP05 | Actualizar información del perfil                                  | Como usuario registrado, deseo actualizar la información de mi perfil para mantener mis datos personales configurados de acuerdo con mis preferencias.                                                                  | AC1: Dado que el usuario posee información de perfil disponible, cuando proporciona nuevos datos válidos, entonces el sistema conserva la información actualizada.<br><br>AC2: Dado que el usuario vuelve a utilizar el producto desde el mismo entorno, cuando consulta su configuración de perfil, entonces el sistema recupera la información previamente conservada.                                                                                                                   |
 | HU19     | Usuario registrado | Media    | EP05 | Configurar preferencias de accesibilidad                           | Como usuario registrado, deseo configurar preferencias de accesibilidad para adaptar la experiencia de uso a mis necesidades.                                                                                           | AC1: Dado que el usuario requiere una configuración visual diferente, cuando modifica una preferencia de accesibilidad disponible, entonces el sistema aplica la configuración seleccionada.<br><br>AC2: Dado que una preferencia ha sido configurada, cuando el usuario continúa utilizando el producto, entonces el sistema mantiene la configuración aplicable al entorno actual.                                                                                                       |
@@ -2820,44 +3027,51 @@ En esta sección se presenta el Product Backlog de ArquiTech, conformado por las
 | 2       | HU13          | Explorar características y beneficios            | Como visitante, deseo conocer las principales características y beneficios de ArquiTech para evaluar si la solución responde a mis necesidades.               | 1            |
 | 3       | HU12          | Consultar medios de contacto                     | Como visitante, deseo conocer los medios de contacto de ArquiTech para disponer de canales mediante los cuales comunicarme con el equipo responsable.         | 1            |
 | 4       | HU34          | Acceder a la plataforma desde la Landing Page    | Como visitante, deseo acceder a la plataforma de ArquiTech desde el sitio público para comenzar a utilizar el producto digital.                               | 1            |
-| 5       | HU09          | Registrar proyecto de construcción               | Como supervisor de obra, deseo registrar un proyecto para gestionar la información correspondiente a una nueva obra.                                          | 3            |
-| 6       | HU22          | Consultar proyectos bajo supervisión             | Como supervisor de obra, deseo consultar los proyectos asociados a mi gestión para realizar seguimiento de las obras bajo mi responsabilidad.                 | 2            |
-| 7       | HU28          | Consultar materiales                             | Como supervisor de obra, deseo consultar los materiales registrados en una obra para conocer su disponibilidad e información asociada.                        | 2            |
-| 8       | HU01          | Registrar entrada de materiales                  | Como supervisor de obra, deseo registrar la entrada de materiales para mantener actualizado el inventario de una obra.                                        | 2            |
-| 9       | HU02          | Registrar uso o salida de materiales             | Como supervisor de obra, deseo registrar los materiales utilizados en una obra para mantener actualizado el stock disponible.                                 | 2            |
-| 10      | HU04          | Consultar historial de movimientos de materiales | Como supervisor de obra, deseo consultar las entradas y salidas de materiales para realizar seguimiento de los movimientos del inventario.                    | 5            |
-| 11      | HU10          | Consultar trabajadores de una obra               | Como supervisor de obra, deseo consultar los trabajadores asociados a una obra para conocer el personal participante en el proyecto.                          | 3            |
-| 12      | HU06          | Registrar trabajadores                           | Como supervisor de obra, deseo registrar trabajadores para mantener actualizada la información del personal asociado a las obras.                             | 3            |
-| 13      | HU07          | Asignar tareas a trabajadores                    | Como supervisor de obra, deseo asignar tareas a los trabajadores para organizar las actividades necesarias durante la ejecución de la obra.                   | 3            |
-| 14      | HU08          | Consultar tareas                                 | Como supervisor de obra, deseo consultar las tareas registradas para conocer sus responsables, fechas y estado de ejecución.                                  | 2            |
-| 15      | HU30          | Consultar maquinaria                             | Como supervisor de obra, deseo consultar la maquinaria registrada en una obra para conocer los recursos disponibles y su estado.                              | 2            |
-| 16      | HU05          | Registrar maquinaria                             | Como supervisor de obra, deseo registrar maquinaria asociada a una obra para mantener control sobre los recursos utilizados en el proyecto.                   | 2            |
-| 17      | HU35          | Registrar incidencia                             | Como supervisor de obra, deseo registrar una incidencia ocurrida durante la ejecución del proyecto para mantener evidencia de los problemas de la obra.       | 3            |
-| 18      | HU37          | Consultar incidencias                            | Como supervisor de obra, deseo consultar las incidencias registradas para realizar seguimiento de los problemas ocurridos en una obra.                        | 2            |
-| 19      | HU33          | Consultar proyectos contratados                  | Como contratante, deseo consultar los proyectos asociados a mi participación para realizar seguimiento de las obras contratadas.                              | 2            |
-| 20      | HU40          | Consultar materiales de una obra                 | Como contratante, deseo consultar los materiales asociados a una obra para conocer los recursos registrados en el proyecto.                                   | 2            |
-| 21      | HU41          | Consultar maquinaria de una obra                 | Como contratante, deseo consultar la maquinaria asociada a una obra para conocer los recursos utilizados en el proyecto.                                      | 2            |
-| 22      | HU42          | Consultar trabajadores de una obra               | Como contratante, deseo consultar los trabajadores asociados a una obra para conocer el personal registrado en el proyecto.                                   | 2            |
-| 23      | HU43          | Consultar tareas de una obra                     | Como contratante, deseo consultar las tareas asociadas a una obra para conocer las actividades registradas y su estado.                                       | 2            |
-| 24      | HU39          | Consultar incidencias de una obra                | Como contratante, deseo consultar las incidencias de una obra para conocer los problemas registrados durante la ejecución del proyecto.                       | 2            |
-| 25      | HU20          | Consultar reporte semanal de una obra            | Como contratante, deseo consultar un reporte semanal de una obra para conocer los principales acontecimientos y avances registrados durante la semana.        | 5            |
-| 26      | HU52          | Descargar reporte semanal                        | Como contratante, deseo descargar el reporte semanal de una obra para conservar una copia de la información consolidada del proyecto.                         | 3            |
-| 27      | HU29          | Actualizar información de materiales             | Como supervisor de obra, deseo actualizar la información de un material para mantener correctos los datos del inventario.                                     | 3            |
-| 28      | HU31          | Actualizar información de maquinaria             | Como supervisor de obra, deseo actualizar la información de una maquinaria para mantener vigente su información operativa.                                    | 3            |
-| 29      | HU32          | Actualizar información de trabajadores           | Como supervisor de obra, deseo actualizar la información de un trabajador para mantener correctos los datos del personal.                                     | 3            |
-| 30      | HU53          | Actualizar tarea                                 | Como supervisor de obra, deseo actualizar la información y estado de una tarea para reflejar correctamente el avance de las actividades.                      | 3            |
-| 31      | HU36          | Actualizar incidencia                            | Como supervisor de obra, deseo actualizar una incidencia para mantener vigente su información, severidad y estado.                                            | 3            |
-| 32      | HU47          | Eliminar material                                | Como supervisor de obra, deseo eliminar un material que ya no debe formar parte del registro para mantener actualizado el inventario.                         | 2            |
-| 33      | HU48          | Eliminar maquinaria                              | Como supervisor de obra, deseo eliminar una maquinaria que ya no debe permanecer registrada para mantener actualizados los recursos de la obra.               | 2            |
-| 34      | HU49          | Eliminar trabajador                              | Como supervisor de obra, deseo eliminar el registro de un trabajador que ya no corresponde a la obra para mantener actualizado el personal del proyecto.      | 2            |
-| 35      | HU50          | Eliminar tarea                                   | Como supervisor de obra, deseo eliminar una tarea que ya no corresponde al plan de trabajo para mantener actualizadas las actividades de la obra.             | 2            |
-| 36      | HU51          | Eliminar incidencia                              | Como supervisor de obra, deseo eliminar una incidencia registrada incorrectamente para mantener consistente la información del proyecto.                      | 2            |
-| 37      | HU23          | Iniciar sesión de forma segura                   | Como usuario registrado, deseo iniciar sesión de forma segura para acceder a las funcionalidades correspondientes a mi cuenta.                                | 3            |
-| 38      | HU27          | Acceder a funcionalidades según el rol           | Como usuario registrado, deseo acceder únicamente a las funcionalidades autorizadas para mi rol para utilizar ArquiTech de acuerdo con mis responsabilidades. | 5            |
-| 39      | HU44          | Cerrar sesión                                    | Como usuario registrado, deseo cerrar mi sesión para finalizar de forma segura el acceso a mi cuenta.                                                         | 1            |
-| 40      | HU16          | Actualizar información del perfil                | Como usuario registrado, deseo actualizar la información de mi perfil para mantener mis datos personales configurados de acuerdo con mis preferencias.        | 2            |
-| 41      | HU19          | Configurar preferencias de accesibilidad         | Como usuario registrado, deseo configurar preferencias de accesibilidad para adaptar la experiencia de uso a mis necesidades.                                 | 2            |
-| 42      | HU46          | Cambiar idioma del producto                      | Como usuario registrado, deseo cambiar el idioma disponible para comprender el contenido de ArquiTech en el idioma de mi preferencia.                         | 2            |
+| 5       | HU60          | Consultar Términos y Condiciones                 | Como visitante, deseo consultar los Términos y Condiciones de ArquiTech para conocer las condiciones aplicables al uso del servicio antes de utilizar el producto. | 1            |
+| 6       | HU09          | Registrar proyecto de construcción               | Como supervisor de obra, deseo registrar un proyecto para gestionar la información correspondiente a una nueva obra.                                          | 3            |
+| 7       | HU22          | Consultar proyectos bajo supervisión             | Como supervisor de obra, deseo consultar los proyectos asociados a mi gestión para realizar seguimiento de las obras bajo mi responsabilidad.                 | 2            |
+| 8       | HU33          | Consultar proyectos contratados                  | Como contratante, deseo consultar los proyectos asociados a mi participación para realizar seguimiento de las obras contratadas.                              | 2            |
+| 9       | HU59          | Eliminar proyecto de construcción                | Como supervisor de obra, deseo eliminar un proyecto bajo mi responsabilidad para retirar una obra que ya no debe permanecer registrada junto con su información dependiente. | 5            |
+| 10      | HU28          | Consultar materiales                             | Como supervisor de obra, deseo consultar los materiales registrados en una obra para conocer su disponibilidad e información asociada.                        | 2            |
+| 11      | HU01          | Registrar entrada de materiales                  | Como supervisor de obra, deseo registrar la entrada de materiales para mantener actualizado el inventario de una obra.                                        | 2            |
+| 12      | HU02          | Registrar uso o salida de materiales             | Como supervisor de obra, deseo registrar los materiales utilizados en una obra para mantener actualizado el stock disponible.                                 | 2            |
+| 13      | HU04          | Consultar historial de movimientos de materiales | Como supervisor de obra, deseo consultar las entradas y salidas de materiales para realizar seguimiento de los movimientos del inventario.                    | 5            |
+| 14      | HU10          | Consultar trabajadores de una obra               | Como supervisor de obra, deseo consultar los trabajadores asociados a una obra para conocer el personal participante en el proyecto.                          | 3            |
+| 15      | HU06          | Registrar trabajadores                           | Como supervisor de obra, deseo registrar trabajadores para mantener actualizada la información del personal asociado a las obras.                             | 3            |
+| 16      | HU07          | Asignar tareas a trabajadores                    | Como supervisor de obra, deseo asignar tareas a los trabajadores para organizar las actividades necesarias durante la ejecución de la obra.                   | 3            |
+| 17      | HU08          | Consultar tareas                                 | Como supervisor de obra, deseo consultar las tareas registradas para conocer sus responsables, fechas y estado de ejecución.                                  | 2            |
+| 18      | HU54          | Registrar asistencia de trabajadores            | Como supervisor de obra, deseo registrar la asistencia de los trabajadores para mantener evidencia de su presencia durante las jornadas de trabajo.           | 3            |
+| 19      | HU55          | Consultar asistencia de trabajadores            | Como supervisor de obra, deseo consultar la asistencia registrada en una obra para realizar seguimiento de la presencia del personal durante la ejecución del proyecto. | 2            |
+| 20      | HU57          | Actualizar registro de asistencia                | Como supervisor de obra, deseo corregir un registro de asistencia para mantener actualizada la información de presencia y horario de los trabajadores.         | 3            |
+| 21      | HU58          | Eliminar registro de asistencia                  | Como supervisor de obra, deseo eliminar un registro de asistencia incorrecto para mantener consistente la información del personal de la obra.                 | 2            |
+| 22      | HU30          | Consultar maquinaria                             | Como supervisor de obra, deseo consultar la maquinaria registrada en una obra para conocer los recursos disponibles y su estado.                              | 2            |
+| 23      | HU05          | Registrar maquinaria                             | Como supervisor de obra, deseo registrar maquinaria asociada a una obra para mantener control sobre los recursos utilizados en el proyecto.                   | 2            |
+| 24      | HU35          | Registrar incidencia                             | Como supervisor de obra, deseo registrar una incidencia ocurrida durante la ejecución del proyecto para mantener evidencia de los problemas de la obra.       | 3            |
+| 25      | HU37          | Consultar incidencias                            | Como supervisor de obra, deseo consultar las incidencias registradas para realizar seguimiento de los problemas ocurridos en una obra.                        | 2            |
+| 26      | HU40          | Consultar materiales de una obra                 | Como contratante, deseo consultar los materiales asociados a una obra para conocer los recursos registrados en el proyecto.                                   | 2            |
+| 27      | HU41          | Consultar maquinaria de una obra                 | Como contratante, deseo consultar la maquinaria asociada a una obra para conocer los recursos utilizados en el proyecto.                                      | 2            |
+| 28      | HU42          | Consultar trabajadores de una obra               | Como contratante, deseo consultar los trabajadores asociados a una obra para conocer el personal registrado en el proyecto.                                   | 2            |
+| 29      | HU43          | Consultar tareas de una obra                     | Como contratante, deseo consultar las tareas asociadas a una obra para conocer las actividades registradas y su estado.                                       | 2            |
+| 30      | HU56          | Consultar asistencia de una obra                 | Como contratante, deseo consultar la asistencia registrada en una obra para conocer la presencia del personal asociado al proyecto.                            | 2            |
+| 31      | HU39          | Consultar incidencias de una obra                | Como contratante, deseo consultar las incidencias de una obra para conocer los problemas registrados durante la ejecución del proyecto.                       | 2            |
+| 32      | HU20          | Consultar reporte semanal de una obra            | Como contratante, deseo consultar un reporte semanal de una obra para conocer los principales acontecimientos y avances registrados durante la semana.        | 5            |
+| 33      | HU52          | Descargar reporte semanal                        | Como contratante, deseo descargar el reporte semanal de una obra para conservar una copia de la información consolidada del proyecto.                         | 3            |
+| 34      | HU29          | Actualizar información de materiales             | Como supervisor de obra, deseo actualizar la información de un material para mantener correctos los datos del inventario.                                     | 3            |
+| 35      | HU31          | Actualizar información de maquinaria             | Como supervisor de obra, deseo actualizar la información de una maquinaria para mantener vigente su información operativa.                                    | 3            |
+| 36      | HU32          | Actualizar información de trabajadores           | Como supervisor de obra, deseo actualizar la información de un trabajador para mantener correctos los datos del personal.                                     | 3            |
+| 37      | HU53          | Actualizar tarea                                 | Como supervisor de obra, deseo actualizar la información y estado de una tarea para reflejar correctamente el avance de las actividades.                      | 3            |
+| 38      | HU36          | Actualizar incidencia                            | Como supervisor de obra, deseo actualizar una incidencia para mantener vigente su información, severidad y estado.                                            | 3            |
+| 39      | HU47          | Eliminar material                                | Como supervisor de obra, deseo eliminar un material que ya no debe formar parte del registro para mantener actualizado el inventario.                         | 2            |
+| 40      | HU48          | Eliminar maquinaria                              | Como supervisor de obra, deseo eliminar una maquinaria que ya no debe permanecer registrada para mantener actualizados los recursos de la obra.               | 2            |
+| 41      | HU49          | Eliminar trabajador                              | Como supervisor de obra, deseo eliminar el registro de un trabajador que ya no corresponde a la obra para mantener actualizado el personal del proyecto.      | 2            |
+| 42      | HU50          | Eliminar tarea                                   | Como supervisor de obra, deseo eliminar una tarea que ya no corresponde al plan de trabajo para mantener actualizadas las actividades de la obra.             | 2            |
+| 43      | HU51          | Eliminar incidencia                              | Como supervisor de obra, deseo eliminar una incidencia registrada incorrectamente para mantener consistente la información del proyecto.                      | 2            |
+| 44      | HU23          | Iniciar sesión de forma segura                   | Como usuario registrado, deseo iniciar sesión de forma segura para acceder a las funcionalidades correspondientes a mi cuenta.                                | 3            |
+| 45      | HU27          | Acceder a funcionalidades según el rol           | Como usuario registrado, deseo acceder únicamente a las funcionalidades autorizadas para mi rol para utilizar ArquiTech de acuerdo con mis responsabilidades. | 5            |
+| 46      | HU44          | Cerrar sesión                                    | Como usuario registrado, deseo cerrar mi sesión para finalizar de forma segura el acceso a mi cuenta.                                                         | 1            |
+| 47      | HU16          | Actualizar información del perfil                | Como usuario registrado, deseo actualizar la información de mi perfil para mantener mis datos personales configurados de acuerdo con mis preferencias.        | 2            |
+| 48      | HU19          | Configurar preferencias de accesibilidad         | Como usuario registrado, deseo configurar preferencias de accesibilidad para adaptar la experiencia de uso a mis necesidades.                                 | 2            |
+| 49      | HU46          | Cambiar idioma del producto                      | Como usuario registrado, deseo cambiar el idioma disponible para comprender el contenido de ArquiTech en el idioma de mi preferencia.                         | 2            |
 
 <p align="justify">
 
@@ -4045,7 +4259,7 @@ El diseño orientado a objetos de ArquiTech representa las principales entidades
 
 <p align="justify">
 
-El diseño busca representar de manera coherente las responsabilidades de cada entidad, sus atributos, operaciones y relaciones. Entre los principales conceptos considerados se encuentran los usuarios de la plataforma, proyectos, materiales, movimientos de inventario, maquinaria, trabajadores, asistencia, tareas, incidencias y reportes.
+El diseño describe las entidades JPA vigentes en el Backend y sus relaciones de persistencia. Los conceptos principales son los usuarios de la plataforma, proyectos, materiales, movimientos de inventario, maquinaria, trabajadores, asistencia, tareas e incidencias.
 
 </p>
 
@@ -4059,7 +4273,7 @@ El Class Diagram de ArquiTech representa la estructura estática del dominio de 
 
 <p align="justify">
 
-El modelo se encuentra compuesto por las clases `User`, `Project`, `ProjectMember`, `Material`, `MaterialMovement`, `Machinery`, `Worker`, `Attendance`, `Task`, `Incident` y `Report`.
+El modelo persistente se encuentra compuesto por las clases `User`, `Project`, `Material`, `MaterialMovement`, `Machinery`, `Worker`, `Attendance`, `Task` e `Incident`.
 
 </p>
 
@@ -4074,15 +4288,17 @@ _Class Diagram de ArquiTech_
 
 _Nota._ Elaboración propia.
 
+La Figura 86 se conserva como referencia del modelo anterior y permanece pendiente de actualización. La descripción textual y el Class Dictionary de esta sección documentan la estructura vigente del Backend.
+
 <p align="justify">
 
-La clase `User` representa a los usuarios que acceden a ArquiTech, principalmente supervisores de obra y contratantes de empresas privadas. Los usuarios pueden participar en diferentes proyectos, relación que se representa mediante la clase asociativa `ProjectMember`.
+La clase `User` representa a los usuarios que acceden a ArquiTech, principalmente supervisores de obra y contratantes. Cada `Project` mantiene referencias directas a un usuario Supervisor y a un usuario Contratante.
 
 </p>
 
 <p align="justify">
 
-La clase `Project` constituye la entidad central del modelo y representa una obra administrada mediante ArquiTech. A partir de un proyecto se organizan los materiales, maquinaria, trabajadores, tareas, incidencias y reportes asociados.
+La clase `Project` constituye la entidad central del modelo y representa una obra administrada mediante ArquiTech. Mantiene directamente sus datos generales y las referencias `supervisor` y `contractor`; a partir del proyecto se organizan los materiales, maquinaria, trabajadores, asistencias, tareas e incidencias.
 
 </p>
 
@@ -4112,7 +4328,7 @@ La gestión de personal se representa mediante `Worker`, que almacena la informa
 
 <p align="justify">
 
-Finalmente, `Report` representa los reportes generados a partir de la información registrada en el proyecto, permitiendo consolidar datos relacionados con avance, materiales, trabajadores, tareas e incidencias.
+El modelo `WeeklyReport` se genera en el Frontend Web mediante la consolidación de datos de `Project`, `Task`, `MaterialMovement`, `Material` e `Incident`. No corresponde a una entidad JPA persistente del Backend.
 
 </p>
 
@@ -4122,12 +4338,13 @@ Las principales relaciones del modelo son las siguientes:
 
 </p>
 
-- Un `User` puede participar en múltiples `Project` y un `Project` puede contar con múltiples usuarios mediante `ProjectMember`.
-- Un `Project` puede contener múltiples `Material`, `Machinery`, `Worker`, `Task`, `Incident` y `Report`.
+- Un `User` puede supervisar múltiples `Project` y también puede estar asociado como contratante de múltiples proyectos.
+- Un `Project` referencia directamente a un `User` como `supervisor` y a otro `User` como `contractor`.
+- Un `Project` puede contener múltiples `Material`, `Machinery`, `Worker`, `Attendance`, `Task` e `Incident`.
 - Un `Material` puede registrar múltiples `MaterialMovement`.
 - Un `Worker` puede tener múltiples registros de `Attendance`.
 - Un `Worker` puede tener múltiples `Task` asignadas.
-- Un `Project` puede registrar múltiples incidencias y reportes.
+- Un `Project` puede registrar múltiples incidencias.
 
 ### 4.9.2. Class Dictionary
 
@@ -4141,24 +4358,24 @@ El Class Dictionary complementa el Class Diagram mediante la descripción de las
 
 <p align="justify">
 
-Representa a los usuarios registrados en ArquiTech que participan en el seguimiento o gestión de los proyectos.
+Representa a los usuarios registrados en ArquiTech que participan como supervisores o contratantes de los proyectos.
 
 </p>
 
-| Atributo     | Tipo     | Descripción                                                    |
-| ------------ | -------- | -------------------------------------------------------------- |
-| userId       | int      | Identificador único del usuario.                               |
-| email        | string   | Correo electrónico utilizado para acceder a la plataforma.     |
-| passwordHash | string   | Representación cifrada de la contraseña del usuario.           |
-| fullName     | string   | Nombre completo del usuario.                                   |
-| role         | UserRole | Rol del usuario dentro de ArquiTech: Supervisor o Contratante. |
-| createdAt    | datetime | Fecha y hora de creación de la cuenta.                         |
+| Atributo       | Tipo       | Descripción                                                |
+| -------------- | ---------- | ---------------------------------------------------------- |
+| id             | Long       | Identificador único del usuario.                           |
+| name           | String     | Nombre completo del usuario.                               |
+| email          | String     | Correo electrónico utilizado para acceder a la plataforma. |
+| password       | String     | Contraseña almacenada por el sistema.                      |
+| role           | Role       | Rol del usuario dentro de ArquiTech.                       |
+| profilePicture | String     | Referencia de la imagen de perfil.                         |
+| phone          | String     | Número telefónico del usuario.                             |
+| createdAt      | OffsetDateTime | Fecha y hora de creación de la cuenta.                 |
 
 | Método                         | Retorno | Descripción                                      |
 | ------------------------------ | ------- | ------------------------------------------------ |
-| updateProfile(fullName, email) | void    | Actualiza la información personal del usuario.   |
-| changePassword(passwordHash)   | void    | Actualiza la contraseña almacenada del usuario.  |
-| hasRole(role)                  | bool    | Verifica si el usuario posee un determinado rol. |
+| updateProfile(fullName, phone) | void    | Actualiza el nombre y el teléfono del usuario.   |
 
 #### Clase `Project`
 
@@ -4168,43 +4385,21 @@ Representa una obra o proyecto de construcción gestionado mediante ArquiTech.
 
 </p>
 
-| Atributo  | Tipo          | Descripción                                      |
-| --------- | ------------- | ------------------------------------------------ |
-| projectId | int           | Identificador único del proyecto.                |
-| name      | string        | Nombre del proyecto.                             |
-| startDate | date          | Fecha de inicio del proyecto.                    |
-| endDate   | date          | Fecha estimada de finalización.                  |
-| budget    | decimal       | Presupuesto asignado al proyecto.                |
-| status    | ProjectStatus | Estado actual del proyecto.                      |
-| progress  | decimal       | Porcentaje de avance registrado.                 |
-| createdAt | datetime      | Fecha de creación del proyecto en la plataforma. |
-
-| Método                                 | Retorno | Descripción                                   |
-| -------------------------------------- | ------- | --------------------------------------------- |
-| updateInformation(name, dates, budget) | void    | Actualiza los datos generales del proyecto.   |
-| updateStatus(status)                   | void    | Modifica el estado del proyecto.              |
-| updateProgress(progress)               | void    | Actualiza el porcentaje de avance.            |
-| isActive()                             | bool    | Determina si el proyecto se encuentra activo. |
-
-#### Clase `ProjectMember`
-
-<p align="justify">
-
-Representa la asociación entre un usuario y un proyecto.
-
-</p>
-
-| Atributo        | Tipo     | Descripción                                       |
-| --------------- | -------- | ------------------------------------------------- |
-| projectMemberId | int      | Identificador único de la asociación.             |
-| projectId       | int      | Identificador del proyecto relacionado.           |
-| userId          | int      | Identificador del usuario relacionado.            |
-| joinedAt        | datetime | Fecha en que el usuario fue asociado al proyecto. |
-
-| Método                             | Retorno | Descripción                                        |
-| ---------------------------------- | ------- | -------------------------------------------------- |
-| assignToProject(userId, projectId) | void    | Asocia un usuario con un proyecto.                 |
-| removeFromProject()                | void    | Elimina la asociación del usuario con el proyecto. |
+| Atributo  | Tipo          | Descripción                                                   |
+| --------- | ------------- | ------------------------------------------------------------- |
+| id        | Long          | Identificador único del proyecto.                             |
+| name      | String        | Nombre del proyecto.                                          |
+| location  | String        | Ubicación de la obra.                                         |
+| startDate | LocalDate     | Fecha de inicio del proyecto.                                 |
+| endDate   | LocalDate     | Fecha de finalización del proyecto.                           |
+| budget    | BigDecimal    | Presupuesto asignado al proyecto.                             |
+| status    | ProjectStatus | Estado actual del proyecto.                                   |
+| progress  | Integer       | Porcentaje de avance registrado.                              |
+| supervisor | User          | Usuario responsable de supervisar el proyecto.                |
+| contractor | User          | Usuario contratante asociado al proyecto.                     |
+| imageUrl  | String        | Referencia de la imagen asociada al proyecto.                 |
+| createdAt | Date          | Fecha y hora de creación heredada por auditoría.              |
+| updatedAt | Date          | Fecha y hora de la última actualización heredada por auditoría. |
 
 #### Clase `Material`
 
@@ -4214,22 +4409,31 @@ Representa un material disponible dentro del inventario de un proyecto.
 
 </p>
 
-| Atributo     | Tipo     | Descripción                                 |
-| ------------ | -------- | ------------------------------------------- |
-| materialId   | int      | Identificador único del material.           |
-| projectId    | int      | Proyecto al que pertenece el material.      |
-| name         | string   | Nombre del material.                        |
-| unit         | string   | Unidad utilizada para medir el material.    |
-| currentStock | decimal  | Cantidad disponible actualmente.            |
-| minimumStock | decimal  | Cantidad mínima recomendada.                |
-| lastUpdated  | datetime | Fecha de la última actualización del stock. |
+| Atributo    | Tipo       | Descripción                                                   |
+| ----------- | ---------- | ------------------------------------------------------------- |
+| id          | Long       | Identificador único del material.                             |
+| projectId   | Long       | Identificador del proyecto al que pertenece.                  |
+| name        | String     | Nombre del material.                                          |
+| quantity    | BigDecimal | Cantidad acumulada registrada para el material.               |
+| stock       | BigDecimal | Cantidad disponible actualmente.                              |
+| minimumStock | BigDecimal | Cantidad mínima definida para el material.                    |
+| unitPrice   | BigDecimal | Precio unitario del material.                                 |
+| unit        | String     | Unidad utilizada para medir el material.                      |
+| provider    | String     | Nombre del proveedor.                                         |
+| providerRuc | String     | RUC del proveedor.                                            |
+| date        | String     | Fecha funcional conservada por compatibilidad de persistencia. |
+| createdAt   | Date       | Fecha y hora de creación heredada por auditoría.              |
+| updatedAt   | Date       | Fecha y hora de la última actualización heredada por auditoría. |
 
-| Método                      | Retorno | Descripción                                                     |
-| --------------------------- | ------- | --------------------------------------------------------------- |
-| registerEntry(quantity)     | void    | Incrementa el stock por una entrada de material.                |
-| registerUsage(quantity)     | void    | Reduce el stock por utilización del material.                   |
-| hasAvailableStock(quantity) | bool    | Verifica si existe cantidad suficiente para una salida.         |
-| isBelowMinimum()            | bool    | Indica si el stock se encuentra por debajo del mínimo definido. |
+| Método                          | Retorno    | Descripción                                           |
+| ------------------------------- | ---------- | ----------------------------------------------------- |
+| updateDetails(...)              | void       | Actualiza los datos descriptivos y comerciales.       |
+| getStock()                      | BigDecimal | Devuelve el stock disponible.                         |
+| getMinimumStock()               | BigDecimal | Devuelve el stock mínimo configurado.                 |
+| enter(amount, occurredOn)       | void       | Registra una entrada y actualiza cantidad y stock.    |
+| use(amount, occurredOn)         | void       | Registra un uso y reduce el stock disponible.         |
+
+Los campos obsoletos que permanecen en la entidad para conservar compatibilidad con bases desplegadas no forman parte del modelo funcional principal.
 
 #### Clase `MaterialMovement`
 
@@ -4239,20 +4443,16 @@ Representa una transacción de entrada o utilización de un material.
 
 </p>
 
-| Atributo           | Tipo         | Descripción                                           |
-| ------------------ | ------------ | ----------------------------------------------------- |
-| movementId         | int          | Identificador único del movimiento.                   |
-| materialId         | int          | Material relacionado con el movimiento.               |
-| registeredByUserId | int          | Usuario que registra el movimiento.                   |
-| type               | MovementType | Tipo de movimiento: Entry o Usage.                    |
-| quantity           | decimal      | Cantidad involucrada.                                 |
-| supplier           | string       | Proveedor relacionado cuando se registra una entrada. |
-| occurredAt         | datetime     | Fecha y hora del movimiento.                          |
-
-| Método                           | Retorno | Descripción                                    |
-| -------------------------------- | ------- | ---------------------------------------------- |
-| registerMovement(type, quantity) | void    | Registra un movimiento de material.            |
-| validateQuantity()               | bool    | Verifica que la cantidad ingresada sea válida. |
+| Atributo    | Tipo           | Descripción                                                    |
+| ----------- | -------------- | -------------------------------------------------------------- |
+| id          | Long           | Identificador único del movimiento.                            |
+| material    | Material       | Material relacionado con el movimiento.                        |
+| type        | MovementType   | Tipo de movimiento: `ENTRY` o `USAGE`.                         |
+| quantity    | BigDecimal     | Cantidad involucrada.                                          |
+| supplier    | String         | Proveedor relacionado cuando se registra una entrada.          |
+| registeredBy | User           | Usuario que registra el movimiento.                            |
+| occurredAt  | OffsetDateTime | Fecha y hora del movimiento.                                   |
+| note        | String         | Nota opcional asociada al movimiento.                          |
 
 #### Clase `Machinery`
 
@@ -4262,20 +4462,21 @@ Representa una maquinaria o equipo asignado a un proyecto.
 
 </p>
 
-| Atributo     | Tipo            | Descripción                                  |
-| ------------ | --------------- | -------------------------------------------- |
-| machineryId  | int             | Identificador único de la maquinaria.        |
-| projectId    | int             | Proyecto al que se encuentra asignada.       |
-| name         | string          | Nombre o tipo de maquinaria.                 |
-| serialNumber | string          | Número de serie o código identificador.      |
-| status       | MachineryStatus | Estado operativo de la maquinaria.           |
-| description  | string          | Información complementaria de la maquinaria. |
+| Atributo     | Tipo            | Descripción                                                   |
+| ------------ | --------------- | ------------------------------------------------------------- |
+| id           | Long            | Identificador único de la maquinaria.                         |
+| projectId    | Long            | Identificador del proyecto al que se encuentra asignada.      |
+| name         | String          | Nombre de la maquinaria.                                      |
+| serialNumber | String          | Número de serie; se persiste en la columna `license_plate`.   |
+| registeredAt | LocalDate       | Fecha de registro de la maquinaria.                           |
+| status       | MachineryStatus | Estado operativo de la maquinaria.                            |
+| description  | String          | Información complementaria de la maquinaria.                  |
+| createdAt    | Date            | Fecha y hora de creación heredada por auditoría.              |
+| updatedAt    | Date            | Fecha y hora de la última actualización heredada por auditoría. |
 
-| Método                               | Retorno | Descripción                                        |
-| ------------------------------------ | ------- | -------------------------------------------------- |
-| updateInformation(name, description) | void    | Actualiza la información de la maquinaria.         |
-| updateStatus(status)                 | void    | Modifica su estado operativo.                      |
-| isOperational()                      | bool    | Comprueba si la maquinaria se encuentra operativa. |
+| Método      | Retorno | Descripción                                         |
+| ----------- | ------- | --------------------------------------------------- |
+| update(...) | void    | Actualiza la información vigente de la maquinaria.  |
 
 #### Clase `Worker`
 
@@ -4285,21 +4486,22 @@ Representa a un trabajador asignado a un proyecto de construcción.
 
 </p>
 
-| Atributo  | Tipo   | Descripción                               |
-| --------- | ------ | ----------------------------------------- |
-| workerId  | int    | Identificador único del trabajador.       |
-| projectId | int    | Proyecto en el que participa.             |
-| fullName  | string | Nombre completo del trabajador.           |
-| role      | string | Rol desempeñado dentro de la obra.        |
-| specialty | string | Especialidad del trabajador.              |
-| hireDate  | date   | Fecha de incorporación.                   |
-| active    | bool   | Indica si continúa activo en el proyecto. |
+| Atributo  | Tipo         | Descripción                                                   |
+| --------- | ------------ | ------------------------------------------------------------- |
+| id        | Long         | Identificador único del trabajador.                           |
+| fullName  | WorkerName   | Nombre completo del trabajador.                               |
+| role      | WorkerRole   | Rol desempeñado dentro de la obra.                            |
+| hireDate  | LocalDate    | Fecha de contratación.                                        |
+| project   | Project      | Proyecto en el que participa.                                 |
+| specialty | String       | Especialidad del trabajador.                                  |
+| status    | WorkerStatus | Estado vigente del trabajador.                                |
+| createdAt | Date         | Fecha y hora de creación heredada por auditoría.              |
+| updatedAt | Date         | Fecha y hora de la última actualización heredada por auditoría. |
 
-| Método                                       | Retorno | Descripción                              |
-| -------------------------------------------- | ------- | ---------------------------------------- |
-| updateInformation(fullName, role, specialty) | void    | Actualiza la información del trabajador. |
-| deactivate()                                 | void    | Marca al trabajador como inactivo.       |
-| isActive()                                   | bool    | Indica si continúa asignado al proyecto. |
+| Método      | Retorno      | Descripción                                      |
+| ----------- | ------------ | ------------------------------------------------ |
+| update(...) | void         | Actualiza la información vigente del trabajador. |
+| getStatus() | WorkerStatus | Devuelve el estado vigente del trabajador.       |
 
 #### Clase `Attendance`
 
@@ -4309,21 +4511,23 @@ Representa un registro diario de asistencia de un trabajador.
 
 </p>
 
-| Atributo     | Tipo             | Descripción                          |
-| ------------ | ---------------- | ------------------------------------ |
-| attendanceId | int              | Identificador único del registro.    |
-| workerId     | int              | Trabajador asociado.                 |
-| date         | date             | Fecha correspondiente al registro.   |
-| checkInTime  | datetime         | Hora de ingreso registrada.          |
-| checkOutTime | datetime         | Hora de salida registrada.           |
-| status       | AttendanceStatus | Estado de asistencia del trabajador. |
+| Atributo      | Tipo             | Descripción                                                   |
+| ------------- | ---------------- | ------------------------------------------------------------- |
+| id            | Long             | Identificador único del registro.                             |
+| project       | Project          | Proyecto al que pertenece el registro.                        |
+| worker        | Worker           | Trabajador asociado.                                          |
+| attendanceDate | LocalDate        | Fecha correspondiente al registro.                            |
+| status        | AttendanceStatus | Estado: `PRESENT`, `ABSENT`, `LATE` o `EXCUSED`.              |
+| checkInAt     | OffsetDateTime   | Fecha y hora de ingreso registrada.                           |
+| checkOutAt    | OffsetDateTime   | Fecha y hora de salida registrada.                            |
+| notes         | String           | Observaciones del registro.                                   |
+| registeredBy  | User             | Usuario que registra la asistencia.                           |
+| createdAt     | Date             | Fecha y hora de creación heredada por auditoría.              |
+| updatedAt     | Date             | Fecha y hora de la última actualización heredada por auditoría. |
 
-| Método                               | Retorno | Descripción                          |
-| ------------------------------------ | ------- | ------------------------------------ |
-| recordCheckIn(time)                  | void    | Registra la hora de ingreso.         |
-| recordCheckOut(time)                 | void    | Registra la hora de salida.          |
-| correctAttendance(checkIn, checkOut) | void    | Corrige un registro de asistencia.   |
-| markAbsent()                         | void    | Registra la ausencia del trabajador. |
+| Método      | Retorno | Descripción                                      |
+| ----------- | ------- | ------------------------------------------------ |
+| update(...) | void    | Actualiza y valida el registro de asistencia.    |
 
 #### Clase `Task`
 
@@ -4333,23 +4537,24 @@ Representa una actividad asignada a un trabajador dentro de un proyecto.
 
 </p>
 
-| Atributo    | Tipo       | Descripción                            |
-| ----------- | ---------- | -------------------------------------- |
-| taskId      | int        | Identificador único de la tarea.       |
-| projectId   | int        | Proyecto al que pertenece.             |
-| workerId    | int        | Trabajador asignado a la tarea.        |
-| title       | string     | Nombre de la tarea.                    |
-| description | string     | Descripción detallada de la actividad. |
-| status      | TaskStatus | Estado de ejecución de la tarea.       |
-| dueDate     | datetime   | Fecha límite de la tarea.              |
-| createdAt   | datetime   | Fecha en que fue registrada.           |
+| Atributo    | Tipo           | Descripción                                                   |
+| ----------- | -------------- | ------------------------------------------------------------- |
+| id          | Long           | Identificador único de la tarea.                              |
+| project     | Project        | Proyecto al que pertenece.                                    |
+| worker      | Worker         | Trabajador asignado a la tarea.                               |
+| title       | String         | Título de la tarea.                                           |
+| description | String         | Descripción detallada de la actividad.                        |
+| startDate   | LocalDate      | Fecha de inicio conservada por la entidad.                    |
+| dueDate     | LocalDate      | Fecha límite de la tarea.                                     |
+| status      | TaskStatus     | Estado de ejecución de la tarea.                              |
+| completedAt | OffsetDateTime | Fecha y hora de finalización, cuando corresponde.             |
+| createdAt   | Date           | Fecha y hora de creación heredada por auditoría.              |
+| updatedAt   | Date           | Fecha y hora de la última actualización heredada por auditoría. |
 
-| Método                                         | Retorno | Descripción                                   |
-| ---------------------------------------------- | ------- | --------------------------------------------- |
-| assignWorker(workerId)                         | void    | Asigna la tarea a un trabajador.              |
-| updateStatus(status)                           | void    | Modifica el estado de la tarea.               |
-| updateInformation(title, description, dueDate) | void    | Modifica la información de la tarea.          |
-| isCompleted()                                  | bool    | Verifica si la tarea se encuentra finalizada. |
+| Método      | Retorno | Descripción                                   |
+| ----------- | ------- | --------------------------------------------- |
+| update(...) | void    | Actualiza y valida la información de la tarea. |
+| getTitle()  | String  | Devuelve el título vigente de la tarea.        |
 
 #### Clase `Incident`
 
@@ -4359,48 +4564,28 @@ Representa una incidencia ocurrida durante el desarrollo de una obra.
 
 </p>
 
-| Atributo         | Tipo             | Descripción                                     |
-| ---------------- | ---------------- | ----------------------------------------------- |
-| incidentId       | int              | Identificador único de la incidencia.           |
-| projectId        | int              | Proyecto relacionado.                           |
-| reportedByUserId | int              | Usuario que registró la incidencia.             |
-| type             | string           | Categoría de la incidencia.                     |
-| description      | string           | Descripción de lo sucedido.                     |
-| severity         | IncidentSeverity | Nivel de severidad registrado.                  |
-| status           | IncidentStatus   | Estado actual de la incidencia.                 |
-| reportedAt       | datetime         | Fecha y hora en que fue registrada.             |
-| resolvedAt       | datetime         | Fecha y hora de resolución, cuando corresponda. |
+| Atributo         | Tipo             | Descripción                                                   |
+| ---------------- | ---------------- | ------------------------------------------------------------- |
+| id               | Long             | Identificador único de la incidencia.                         |
+| date             | LocalDate        | Fecha funcional de la incidencia.                             |
+| type             | String           | Categoría de la incidencia.                                   |
+| severity         | IncidentSeverity | Nivel de severidad registrado.                                |
+| status           | IncidentStatus   | Estado actual de la incidencia.                               |
+| description      | String           | Descripción de lo sucedido.                                   |
+| projectId        | Long             | Identificador del proyecto relacionado.                       |
+| reportedByUserId | Long             | Identificador del usuario que registró la incidencia.         |
+| reportedAt       | OffsetDateTime   | Fecha y hora en que fue registrada.                           |
+| resolvedAt       | OffsetDateTime   | Fecha y hora de resolución, cuando corresponde.               |
+| createdAt        | Date             | Fecha y hora de creación heredada por auditoría.              |
+| updatedAt        | Date             | Fecha y hora de la última actualización heredada por auditoría. |
 
-| Método                                         | Retorno | Descripción                                 |
-| ---------------------------------------------- | ------- | ------------------------------------------- |
-| updateInformation(type, description, severity) | void    | Actualiza la información registrada.        |
-| updateStatus(status)                           | void    | Cambia el estado de la incidencia.          |
-| resolve()                                      | void    | Marca la incidencia como resuelta.          |
-| isResolved()                                   | bool    | Comprueba si la incidencia fue solucionada. |
+| Método                 | Retorno        | Descripción                                             |
+| ---------------------- | -------------- | ------------------------------------------------------- |
+| update(...)            | void           | Actualiza los datos y el estado de la incidencia.       |
+| getReportedAt()        | OffsetDateTime | Devuelve la fecha y hora efectiva del registro.         |
+| correctReportedAt(...) | void           | Corrige la fecha y hora reportada de la incidencia.     |
 
-#### Clase `Report`
-
-<p align="justify">
-
-Representa un reporte generado a partir de la información de un proyecto.
-
-</p>
-
-| Atributo          | Tipo       | Descripción                           |
-| ----------------- | ---------- | ------------------------------------- |
-| reportId          | int        | Identificador único del reporte.      |
-| projectId         | int        | Proyecto sobre el cual se genera.     |
-| generatedByUserId | int        | Usuario responsable de la generación. |
-| type              | ReportType | Tipo de reporte.                      |
-| generatedAt       | datetime   | Fecha y hora de generación.           |
-| filePath          | string     | Ubicación del archivo generado.       |
-| summary           | string     | Resumen general del reporte.          |
-
-| Método         | Retorno | Descripción                                          |
-| -------------- | ------- | ---------------------------------------------------- |
-| generate()     | Report  | Genera el reporte utilizando los datos del proyecto. |
-| export(format) | File    | Exporta el reporte en el formato indicado.           |
-| getSummary()   | string  | Retorna el resumen del reporte.                      |
+El campo obsoleto conservado por compatibilidad con bases desplegadas no se presenta como parte principal del dominio vigente.
 
 ---
 
@@ -4408,7 +4593,7 @@ Representa un reporte generado a partir de la información de un proyecto.
 
 <p align="justify">
 
-El diseño de base de datos de ArquiTech se plantea mediante un modelo relacional debido a la naturaleza estructurada de la información gestionada y a la necesidad de mantener relaciones consistentes entre proyectos, usuarios, trabajadores, materiales, tareas e incidencias.
+El Backend de ArquiTech utiliza un modelo relacional para persistir información estructurada y mantener la integridad entre usuarios, proyectos, materiales, movimientos, maquinaria, trabajadores, asistencias, tareas e incidencias.
 
 </p>
 
@@ -4428,7 +4613,7 @@ El Relational Database Diagram representa las tablas necesarias para persistir l
 
 <p align="justify">
 
-Las principales tablas consideradas son `users`, `projects`, `project_members`, `materials`, `material_movements`, `machineries`, `workers`, `attendances`, `tasks`, `incidents` y `reports`.
+Las tablas principales vigentes son `users`, `projects`, `materials`, `material_movements`, `machineries`, `workers`, `attendance_records`, `tasks` e `incidents`.
 
 </p>
 
@@ -4443,9 +4628,11 @@ _Relational Database Diagram de ArquiTech_
 
 _Nota._ Elaboración propia.
 
+La Figura 87 se conserva como referencia del modelo anterior y permanece pendiente de actualización. La descripción textual y la estructura de tablas presentadas a continuación documentan el esquema vigente del Backend.
+
 <p align="justify">
 
-La tabla `users` almacena la información de autenticación y perfil de los usuarios de ArquiTech. La relación entre los usuarios y los proyectos se representa mediante `project_members`, permitiendo que múltiples usuarios puedan participar en un mismo proyecto y que un usuario pueda estar relacionado con diferentes proyectos.
+La tabla `users` almacena la información de autenticación y perfil de los usuarios de ArquiTech. La tabla `projects` mantiene dos claves foráneas directas hacia `users`: `user_id` identifica al Supervisor y `contractor_id` identifica al Contratante.
 
 </p>
 
@@ -4469,7 +4656,7 @@ La tabla `users` almacena la información de autenticación y perfil de los usua
 
 <p align="justify">
 
-`workers` registra al personal involucrado en una obra. Los registros diarios de asistencia se almacenan mediante `attendances`, mientras que las actividades asignadas a los trabajadores son gestionadas mediante `tasks`.
+`workers` registra al personal involucrado en una obra. Los registros diarios de asistencia se almacenan en `attendance_records`, mientras que las actividades asignadas a los trabajadores se gestionan mediante `tasks`.
 
 </p>
 
@@ -4481,31 +4668,29 @@ La tabla `users` almacena la información de autenticación y perfil de los usua
 
 <p align="justify">
 
-Finalmente, `reports` almacena la información de los reportes generados para cada proyecto.
+`WeeklyReport` no dispone de una tabla propia porque se genera en el Frontend Web mediante la consolidación de información persistida en proyectos, tareas, movimientos de materiales, materiales e incidencias.
 
 </p>
 
 <p align="justify">
 
-Las principales relaciones del modelo son de tipo uno a muchos y muchos a muchos. La relación muchos a muchos existente entre usuarios y proyectos se resuelve mediante la tabla intermedia `project_members`.
+Las principales relaciones del modelo son de tipo muchos a uno desde los recursos hacia sus proyectos, trabajadores, materiales o usuarios relacionados. Las referencias del Supervisor y del Contratante se almacenan directamente en cada proyecto.
 
 </p>
 
-#### Estructura propuesta de tablas
+#### Estructura vigente de tablas
 
-| Tabla                | Campos principales                                                                                                                     |
-| -------------------- | -------------------------------------------------------------------------------------------------------------------------------------- |
-| `users`              | `user_id PK`, `email`, `password_hash`, `full_name`, `role`, `created_at`                                                              |
-| `projects`           | `project_id PK`, `name`, `start_date`, `end_date`, `budget`, `status`, `progress`, `created_at`                                        |
-| `project_members`    | `project_member_id PK`, `project_id FK`, `user_id FK`, `joined_at`                                                                     |
-| `materials`          | `material_id PK`, `project_id FK`, `name`, `unit`, `current_stock`, `minimum_stock`, `last_updated`                                    |
-| `material_movements` | `movement_id PK`, `material_id FK`, `registered_by_user_id FK`, `type`, `quantity`, `supplier`, `occurred_at`                          |
-| `machineries`        | `machinery_id PK`, `project_id FK`, `name`, `serial_number`, `status`, `description`                                                   |
-| `workers`            | `worker_id PK`, `project_id FK`, `full_name`, `role`, `specialty`, `hire_date`, `active`                                               |
-| `attendances`        | `attendance_id PK`, `worker_id FK`, `date`, `check_in_time`, `check_out_time`, `status`                                                |
-| `tasks`              | `task_id PK`, `project_id FK`, `worker_id FK`, `title`, `description`, `status`, `due_date`, `created_at`                              |
-| `incidents`          | `incident_id PK`, `project_id FK`, `reported_by_user_id FK`, `type`, `description`, `severity`, `status`, `reported_at`, `resolved_at` |
-| `reports`            | `report_id PK`, `project_id FK`, `generated_by_user_id FK`, `type`, `generated_at`, `file_path`, `summary`                             |
+| Tabla                | Campos principales                                                                                                                                                                               |
+| -------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| `users`              | `id PK`, `name`, `email`, `password`, `role`, `profile_picture`, `phone`, `created_at`                                                                                                           |
+| `projects`           | `id PK`, `name`, `location`, `start_date`, `end_date`, `budget`, `status`, `progress`, `user_id FK` (Supervisor), `contractor_id FK` (Contratante), `image_url`, `created_at`, `updated_at`        |
+| `materials`          | `id PK`, `project_id`, `name`, `quantity`, `stock`, `minimum_stock`, `unit_price`, `unit`, `provider`, `provider_ruc`, `date`, `created_at`, `updated_at`                                          |
+| `material_movements` | `id PK`, `material_id FK`, `type`, `quantity`, `supplier`, `registered_by_user_id FK`, `occurred_at`, `note`                                                                                       |
+| `machineries`        | `id PK`, `project_id`, `name`, `license_plate`, `register_date`, `status`, `description`, `created_at`, `updated_at`; la combinación `project_id` + `license_plate` es única                       |
+| `workers`            | `id PK`, `name`, `role`, `hired_date`, `project_id FK`, `specialty`, `status`, `created_at`, `updated_at`                                                                                           |
+| `attendance_records` | `id PK`, `project_id FK`, `worker_id FK`, `attendance_date`, `status`, `check_in_at`, `check_out_at`, `notes`, `registered_by_user_id FK`, `created_at`, `updated_at`                              |
+| `tasks`              | `id PK`, `id_project FK`, `id_worker FK`, `title`, `description`, `start_date`, `due_date`, `status`, `completed_at`, `created_at`, `updated_at`                                                    |
+| `incidents`          | `id PK`, `date`, `incident_type`, `severity`, `status`, `description`, `project_id`, `reported_by_user_id`, `reported_at`, `resolved_at`, `created_at`, `updated_at`                                |
 
 # Capítulo V: Product Implementation
 
@@ -4513,7 +4698,7 @@ Las principales relaciones del modelo son de tipo uno a muchos y muchos a muchos
 
 <p align="justify">
 
-Esta sección define las herramientas, prácticas de control de versiones, convenciones de código y procesos de despliegue utilizados para mantener de forma trazable los productos de ArquiTech. La implementación técnica se reutiliza de los repositorios de `osFoundex`, mientras que el informe del curso actual se administra en un repositorio independiente de la organización del curso.
+Esta sección define las herramientas, prácticas de control de versiones, convenciones de código y procesos de despliegue utilizados para mantener de forma trazable los productos de ArquiTech. El Project Report, la Landing Page, el Frontend Web, el Frontend Mobile y el Backend se administran en repositorios de la organización `UPC-1ASI0732-202620-9112-ArquiTech`.
 
 </p>
 
@@ -4532,11 +4717,13 @@ Esta sección define las herramientas, prácticas de control de versiones, conve
 
 - **[WebStorm](https://www.jetbrains.com/webstorm/):** entorno de desarrollo para la Landing Page y el Frontend Web Application basados en Angular y TypeScript.
 - **[IntelliJ IDEA](https://www.jetbrains.com/idea/):** entorno de desarrollo para el Backend y los Web Services implementados con Java y Spring Boot.
-- **[Angular](https://angular.dev/):** framework basado en componentes. El Frontend Web Application reutilizado emplea Angular 19.2; la Landing Page ubicada en la rama `develop` emplea Angular 20.
+- **[Angular](https://angular.dev/):** framework basado en componentes. El repositorio `ArquiTech-FrontendWeb` emplea Angular 19.2 y `ArquiTech-LandingPage` emplea Angular 20 en sus ramas `main`.
 - **[TypeScript](https://www.typescriptlang.org/):** lenguaje utilizado por las aplicaciones Angular. El Frontend Web Application emplea TypeScript 5.7 y la Landing Page emplea TypeScript 5.8.
-- **[Angular Material](https://material.angular.dev/):** biblioteca de componentes de interfaz utilizada por el Frontend Web Application, en su línea de versión 19.2.
+- **[Angular CDK](https://material.angular.dev/cdk/categories):** conjunto de utilidades de comportamiento, accesibilidad y overlays utilizado por el Frontend Web Application en su línea de versión 19.2.
+- **[Lucide](https://lucide.dev/):** biblioteca de iconos integrada en el Frontend Web Application mediante `lucide-angular`.
 - **[npm](https://www.npmjs.com/):** gestor de dependencias y ejecutor de scripts para los proyectos Angular.
-- **[Java](https://www.oracle.com/java/technologies/downloads/#java17):** lenguaje del Backend; el proyecto de la rama `develop` está configurado para Java 17.
+- **[Flutter](https://flutter.dev/) y [Dart](https://dart.dev/):** tecnologías utilizadas por `ArquiTech-FrontendMobile`; el proyecto declara Dart 3.13.5 y dependencias de Flutter para la aplicación móvil.
+- **[Java](https://www.oracle.com/java/technologies/downloads/#java17):** lenguaje del Backend; el proyecto de la rama `main` está configurado para Java 17.
 - **[Spring Boot](https://spring.io/projects/spring-boot):** framework del Backend, configurado en la versión 3.5.0 con Spring Web, Spring Data JPA, Spring Validation y Spring Security.
 - **[Apache Maven](https://maven.apache.org/):** herramienta de construcción y gestión de dependencias del Backend.
 - **[MySQL](https://www.mysql.com/):** sistema gestor de base de datos relacional utilizado por el Backend mediante MySQL Connector/J y Spring Data JPA.
@@ -4546,13 +4733,15 @@ Esta sección define las herramientas, prácticas de control de versiones, conve
 - **[Jasmine](https://jasmine.github.io/):** framework de pruebas unitarias declarado en los proyectos Angular.
 - **[Karma](https://karma-runner.github.io/):** test runner configurado por Angular para ejecutar las pruebas de Jasmine en un navegador.
 - **[Spring Boot Test](https://docs.spring.io/spring-boot/reference/testing/index.html):** dependencia de pruebas del Backend para pruebas unitarias y de integración del contexto Spring.
-- **[Playwright](https://playwright.dev/):** framework de pruebas end-to-end utilizado para las pruebas de sistema de la Frontend Web Application, ejecutadas en Chromium desde la terminal y desde la extensión Playwright Test for VS Code.
+- **[Mockito](https://site.mockito.org/):** framework utilizado por las pruebas del Backend para crear y controlar colaboradores simulados dentro de las pruebas de integración.
+- **[Playwright](https://playwright.dev/):** framework de pruebas end-to-end configurado en `ArquiTech-FrontendMobile`, con escenarios para autenticación, proyectos, asistencia, materiales, tareas y permisos.
+- **[Flutter Test](https://docs.flutter.dev/testing/overview):** framework de pruebas incluido en el SDK de Flutter y utilizado por el Frontend Mobile.
 
 #### Software Deployment
 
-- **[Netlify](https://www.netlify.com/):** plataforma usada en el proyecto reutilizado para publicar la Landing Page y el Frontend Web Application como sitios estáticos.
-- **[GitHub Pages](https://pages.github.com/):** alternativa documentada y activa para publicar la Landing Page desde GitHub.
-- **[Railway](https://railway.com/):** plataforma documentada para desplegar el Backend Spring Boot y su conexión con MySQL mediante configuración externa.
+- **[GitHub Actions](https://github.com/features/actions):** plataforma de automatización utilizada para ejecutar procesos asociados con integración continua y con la publicación de la Landing Page.
+- **[GitHub Pages](https://pages.github.com/):** plataforma activa para publicar la Landing Page desde el repositorio de la organización.
+- **[Railway](https://railway.com/):** plataforma utilizada para desplegar el Backend Spring Boot y conectarlo con MySQL mediante configuración externa.
 
 #### Software Documentation
 
@@ -4564,35 +4753,34 @@ Esta sección define las herramientas, prácticas de control de versiones, conve
 
 <p align="justify">
 
-El equipo utiliza Git para el control de versiones y GitHub para alojar y revisar los cambios. El Project Report del curso actual no debe confundirse con el informe reutilizado: el documento vigente se mantiene en la organización `UPC-1ASI0732-202620-9112-ArquiTech`, mientras que la base técnica procede de `osFoundex`.
+El equipo utiliza Git para el control de versiones y GitHub para alojar y revisar los cambios. Todos los componentes vigentes de ArquiTech se mantienen en la organización `UPC-1ASI0732-202620-9112-ArquiTech` y utilizan `main` como rama predeterminada.
 
 </p>
 
 <p align="justify">
 
-Repositorios administrados o utilizados como referencia:
+Repositorios vigentes del producto:
 
 </p>
 
-- **Project Report actual:** [ArquiTech-Report](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-Report)
-- **Project Report reutilizado:** [ArquiTech_ProjectReport](https://github.com/osFoundex/ArquiTech_ProjectReport)
-- **Landing Page reutilizada:** [ArquiTech_LandingPage](https://github.com/osFoundex/ArquiTech_LandingPage)
-- **Frontend Web Application reutilizado:** [ArquiTech_FrontendWebApp](https://github.com/osFoundex/ArquiTech_FrontendWebApp)
-- **Backend / Web Services reutilizado:** [Arquitech_BackendWebApp](https://github.com/osFoundex/Arquitech_BackendWebApp)
+- **Project Report:** [ArquiTech-Report](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-Report)
+- **Landing Page:** [ArquiTech-LandingPage](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-LandingPage)
+- **Frontend Web Application:** [ArquiTech-FrontendWeb](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendWeb)
+- **Frontend Mobile Application:** [ArquiTech-FrontendMobile](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendMobile)
+- **Backend / Web Services:** [Arquitech-Backend](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/Arquitech-Backend)
 
-#### GitFlow
+#### Flujo de ramas
 
 <p align="justify">
 
-El flujo de trabajo se basa en GitFlow. Las ramas persistentes y temporales cumplen los siguientes propósitos:
+La rama predeterminada de los repositorios vigentes es `main`. El trabajo se aísla en ramas temporales y se integra mediante Pull Requests después de su revisión y validación:
 
 </p>
 
-- **`main`:** contiene versiones estables y aptas para producción. Los releases se identifican con etiquetas de versión.
-- **`develop`:** integra el trabajo aprobado y representa el estado de la siguiente versión. Las ramas `main` y `develop` existen en los repositorios reutilizados de Landing Page, Frontend y Backend.
-- **`feature/*`:** nace desde `develop`, aísla una funcionalidad y vuelve a `develop` mediante Pull Request después de su revisión. Ejemplos: `feature/project-management`, `feature/material-inventory` y `feature/user-authentication`.
-- **`release/*`:** nace desde `develop` para estabilizar una versión sin incorporar nuevas funcionalidades; al finalizar se integra en `main` y `develop`. Ejemplo: `release/1.0.0`.
-- **`hotfix/*`:** nace desde `main` para corregir un defecto urgente de producción; luego se integra en `main` y `develop`. Ejemplo: `hotfix/1.0.1`.
+- **`main`:** contiene la versión integrada y es la rama predeterminada de los cinco repositorios de la organización.
+- **`feature/*`:** nace desde `main`, aísla una funcionalidad y vuelve a `main` mediante Pull Request después de su revisión. Ejemplos: `feature/project-management`, `feature/material-inventory` y `feature/user-authentication`.
+- **`release/*`:** puede utilizarse desde `main` para estabilizar una versión sin incorporar nuevas funcionalidades; al finalizar se integra nuevamente en `main`. Ejemplo: `release/1.0.0`.
+- **`hotfix/*`:** nace desde `main` para corregir un defecto urgente y vuelve a `main` mediante Pull Request. Ejemplo: `hotfix/1.0.1`.
 
 <p align="justify">
 
@@ -4743,30 +4931,31 @@ Antes de desplegar, los cambios deben superar la revisión, la construcción y l
 
 <p align="justify">
 
-La Landing Page reutilizada se encuentra en [ArquiTech_LandingPage](https://github.com/osFoundex/ArquiTech_LandingPage). Su rama `develop` contiene un proyecto Angular 20 administrado con npm; por ello, su instalación y construcción se realizan con los scripts declarados en `package.json`:
+La Landing Page se encuentra en [ArquiTech-LandingPage](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-LandingPage). Su rama `main` contiene un proyecto Angular 20 administrado con npm; su instalación, prueba y construcción se realizan con los scripts declarados en `package.json`:
 
 </p>
 
 ```bash
-git clone https://github.com/osFoundex/ArquiTech_LandingPage.git
-cd ArquiTech_LandingPage
-git checkout develop
+git clone https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-LandingPage.git
+cd ArquiTech-LandingPage
+git checkout main
 npm install
+npm test -- --watch=false
 npm run build
+npm run build:pages
 ```
 
 <p align="justify">
 
-El resultado optimizado se genera dentro de `dist/` según la configuración de Angular. El proyecto reutilizado documenta dos publicaciones que se mantienen accesibles:
+El resultado optimizado se genera en `dist/landingatt3/browser`. El script `build:pages` configura la ruta base de GitHub Pages y el proceso posterior materializa las rutas legales estáticas. La publicación activa es:
 
 </p>
 
-- **GitHub Pages:** [https://osfoundex.github.io/ArquiTech_LandingPage/](https://osfoundex.github.io/ArquiTech_LandingPage/)
-- **Netlify:** [https://incredible-meringue-eb1ec4.netlify.app/](https://incredible-meringue-eb1ec4.netlify.app/)
+- **GitHub Pages:** [https://upc-1asi0732-202620-9112-arquitech.github.io/ArquiTech-LandingPage/](https://upc-1asi0732-202620-9112-arquitech.github.io/ArquiTech-LandingPage/)
 
 <p align="justify">
 
-Para GitHub Pages se publica el contenido construido en la fuente configurada en el repositorio. En Netlify se vincula el repositorio, se define `npm run build` como Build command y se selecciona como Publish directory la carpeta de salida generada dentro de `dist/`.
+GitHub Actions ejecuta el proceso asociado con GitHub Pages y publica el contenido de la Landing Page en el entorno `github-pages`.
 
 </p>
 
@@ -4774,16 +4963,16 @@ Para GitHub Pages se publica el contenido construido en la fuente configurada en
 
 <p align="justify">
 
-El Frontend reutilizado se encuentra en [ArquiTech_FrontendWebApp](https://github.com/osFoundex/ArquiTech_FrontendWebApp). La rama `develop` declara Angular 19.2, TypeScript 5.7, Angular Material 19.2 y los scripts `build` y `test`:
+El Frontend Web se encuentra en [ArquiTech-FrontendWeb](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendWeb). La rama `main` declara Angular 19.2, TypeScript 5.7, Angular CDK 19.2, `lucide-angular` y los scripts `build`, `test` y `test:ci`:
 
 </p>
 
 ```bash
-git clone https://github.com/osFoundex/ArquiTech_FrontendWebApp.git
-cd ArquiTech_FrontendWebApp
-git checkout develop
+git clone https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendWeb.git
+cd ArquiTech-FrontendWeb
+git checkout main
 npm install
-npm test -- --watch=false
+npm run test:ci
 npm run build
 ```
 
@@ -4799,7 +4988,31 @@ npx ng build --configuration production
 
 <p align="justify">
 
-La salida se genera en `dist/arquitech`, tal como establece `angular.json`. En Netlify se configura `npm run build` como Build command y `dist/arquitech/browser` como Publish directory para el builder de aplicación de Angular. El despliegue reutilizado se encuentra en [https://precious-bavarois-d27735.netlify.app/](https://precious-bavarois-d27735.netlify.app/).
+La salida se genera en `dist/arquitech`, tal como establece `angular.json`; para un hosting estático basado en el builder de aplicación de Angular, el contenido publicable se encuentra en `dist/arquitech/browser`. La configuración de producción del Frontend Web consume el Backend desplegado en Railway.
+
+</p>
+
+#### Frontend Mobile Application
+
+<p align="justify">
+
+El Frontend Mobile se encuentra en [ArquiTech-FrontendMobile](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendMobile). Su rama `main` contiene una aplicación Flutter que requiere Dart 3.13.5. El repositorio incluye pruebas con Flutter Test y una suite end-to-end separada basada en Playwright.
+
+</p>
+
+```bash
+git clone https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendMobile.git
+cd ArquiTech-FrontendMobile
+git checkout main
+flutter pub get
+flutter analyze
+flutter test
+flutter build apk --debug
+```
+
+<p align="justify">
+
+La aplicación móvil obtiene la URL del servicio desde su configuración y utiliza el Backend publicado en Railway para el entorno de producción. La generación mostrada produce un APK de validación sin publicar credenciales ni secretos dentro del repositorio.
 
 </p>
 
@@ -4807,7 +5020,7 @@ La salida se genera en `dist/arquitech`, tal como establece `angular.json`. En N
 
 <p align="justify">
 
-El Backend reutilizado se encuentra en [Arquitech_BackendWebApp](https://github.com/osFoundex/Arquitech_BackendWebApp). El módulo Maven está ubicado en `arquitech-back-end` y su rama `develop` incluye Maven Wrapper, Java 17, Spring Boot 3.5.0, MySQL Connector/J, Spring Security y `springdoc-openapi`.
+El Backend se encuentra en [Arquitech-Backend](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/Arquitech-Backend). El módulo Maven está ubicado en `arquitech-back-end` y su rama `main` incluye Maven Wrapper, Java 17, Spring Boot 3.5.0, MySQL Connector/J, Spring Security, Spring Boot Test, Mockito y `springdoc-openapi`.
 
 </p>
 
@@ -4818,8 +5031,9 @@ En Linux o macOS:
 </p>
 
 ```bash
-git clone https://github.com/osFoundex/Arquitech_BackendWebApp.git
-cd Arquitech_BackendWebApp/arquitech-back-end
+git clone https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/Arquitech-Backend.git
+cd Arquitech-Backend/arquitech-back-end
+git checkout main
 ./mvnw test
 ./mvnw clean package
 ```
@@ -4831,10 +5045,11 @@ En Windows:
 </p>
 
 ```powershell
-git clone https://github.com/osFoundex/Arquitech_BackendWebApp.git
-cd Arquitech_BackendWebApp\arquitech-back-end
-mvnw.cmd test
-mvnw.cmd clean package
+git clone https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/Arquitech-Backend.git
+cd Arquitech-Backend\arquitech-back-end
+git checkout main
+.\mvnw.cmd test
+.\mvnw.cmd clean package
 ```
 
 <p align="justify">
@@ -4857,7 +5072,7 @@ PROD_DB_PASSWORD
 
 <p align="justify">
 
-Estas variables se asignan a las propiedades de datasource de Spring Boot en la configuración del entorno de Railway. Cualquier clave JWT, token u otro secreto también debe mantenerse exclusivamente en el gestor de variables de la plataforma. `springdoc-openapi` genera la especificación OpenAPI y Swagger UI permite consultar y probar los endpoints una vez desplegado el servicio. Las URLs históricas de Railway y Swagger documentadas por el proyecto reutilizado no se consignan como enlaces activos porque actualmente no responden con la interfaz de la API.
+Estas variables se asignan a las propiedades de datasource de Spring Boot en la configuración del entorno de Railway. `JWT_SECRET`, `JWT_EXPIRATION_DAYS`, `CORS_ALLOWED_ORIGINS`, `PORT`, `SHOW_SQL` y `DDL_AUTO` también se gestionan mediante variables de entorno según la configuración del repositorio. `springdoc-openapi` genera la especificación OpenAPI y Swagger UI permite consultar y probar los endpoints una vez desplegado el servicio. El Backend de producción utilizado por los clientes se encuentra en `https://arquitech-backend-production.up.railway.app`.
 
 </p>
 
@@ -4868,15 +5083,13 @@ Development
 ↓
 feature/*
 ↓
-develop
-↓
-Testing and Verification
-↓
-release/*
+Pull Request: Testing and Verification
 ↓
 main
 ↓
-Production Deployment
+GitHub Actions / Build Verification
+↓
+GitHub Pages or Railway Deployment
 ```
 
 ## 5.2. Product Implementation & Deployment
@@ -4956,12 +5169,37 @@ Al cierre del periodo reportado, cuatro User Stories se encuentran en estado Don
 </p>
 </div>
 
+<br>
+
+**Sprint #2 — Sprint Goal**
+
+<div style="text-align: justify;">
+<p align="justify">
+
+Completar los principales flujos pendientes de gestión de obra en ArquiTech, incorporando el registro y seguimiento de asistencia y la eliminación segura de proyectos en Backend, Frontend Web y Frontend Mobile, además de consolidar la aplicación móvil y actualizar la experiencia pública presentada mediante la Landing Page.
+
+</p>
+</div>
+
+<br>
+
+**Development Evidence — Sprint #2**
+
+| Repository                | Branch | Commit                                                                      | Message                                                              | Date       |
+| :------------------------ | :----- | :-------------------------------------------------------------------------- | :------------------------------------------------------------------- | :--------- |
+| Arquitech-Backend         | main   | [`9b801ca`](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/Arquitech-Backend/commit/9b801ca) | feat: add worker attendance and transactional project deletion       | 2026-10-04 |
+| ArquiTech-FrontendWeb     | main   | [`bee0551`](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendWeb/commit/bee0551) | feat: add attendance and confirmed project deletion                  | 2026-10-04 |
+| ArquiTech-FrontendMobile  | main   | [`1245ee7`](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendMobile/commit/1245ee7) | feat: add attendance and confirmed project deletion                  | 2026-10-04 |
+| ArquiTech-FrontendMobile  | main   | [`74a1a33`](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendMobile/commit/74a1a33) | feat(mobile): complete project management and local reporting        | 2026-10-04 |
+| ArquiTech-LandingPage     | main   | [`347b506`](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-LandingPage/commit/347b506) | feat: redesign ArquiTech landing and complete bilingual content      | 2026-10-07 |
+| ArquiTech-LandingPage     | main   | [`c53a016`](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-LandingPage/commit/c53a016) | feat: finalize subscription plans, English default and landing cleanup | 2026-10-07 |
+
 ### 5.2.2. Implemented Landing Page Evidence
 
 <div style="text-align: justify;">
 <p align="justify">
 
-En esta sección se evidencian los avances correspondientes a la implementación de la Landing Page de ArquiTech. La página fue estructurada y desarrollada utilizando el framework Angular (TypeScript, HTML5 y CSS3) como línea base del producto, y ha sido configurada en su respectivo repositorio para el control de versiones y despliegue continuo.
+La Landing Page vigente de ArquiTech se implementa con Angular 20 y TypeScript en el repositorio [ArquiTech-LandingPage](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-LandingPage). Utiliza `ngx-translate` para ofrecer contenido en español e inglés y presenta la propuesta de valor, los beneficios, la explicación del producto, los planes disponibles, el equipo Foundex, preguntas frecuentes, la Política de Privacidad y los Términos y Condiciones.
 
 </p>
 </div>
@@ -4971,19 +5209,19 @@ En esta sección se evidencian los avances correspondientes a la implementación
 <div style="text-align: justify;">
 <p align="justify">
 
-A continuación, se presenta la evidencia visual del software en ejecución, demostrando la integración de la propuesta de diseño y la identidad visual de ArquiTech en el entorno de producción.
+La ruta de evidencia visual se conserva temporalmente para mantener la estructura del informe. La captura correspondiente a la implementación vigente será sustituida manualmente; por ello, la imagen actual no se presenta como evidencia actualizada del repositorio.
 
 </p>
 </div>
 
 <br>
 
-_Vista de la Landing Page implementada (Sección Inicio)_
+_Evidencia de la Landing Page pendiente de actualización manual_
 
 <p align="center">
   <img src="assets/chapter-5/implemented/landing-page-execution.png" width="850" alt="Landing Page Implementada">
 </p>
-<p align="center"><em>*Nota.* Elaboración propia (Software en ejecución).</em></p>
+<p align="center"><em>*Nota.* La captura se conserva temporalmente y será reemplazada por evidencia de la Landing Page vigente.</em></p>
 
 <br>
 
@@ -5130,11 +5368,11 @@ La documentación completa de los recursos expuestos por el servicio, así como 
 
 <div style="text-align: justify;"> <p align="justify">
 
-La documentación de la API REST de ArquiTech se genera de forma automática mediante springdoc-openapi, la cual analiza los controladores REST del backend y produce una especificación conforme al estándar OpenAPI 3.1 (OAS 3.1). Esta especificación se expone en formato JSON y, adicionalmente, mediante la interfaz interactiva Swagger UI, que permite consultar los recursos disponibles, sus métodos, parámetros, esquemas de request y response, y ejecutar solicitudes de prueba contra el servicio desplegado.
+La documentación de la API REST de ArquiTech se genera automáticamente mediante `springdoc-openapi`, que analiza los controladores REST del Backend y produce la especificación OpenAPI. Esta especificación se expone en formato JSON y mediante Swagger UI, donde pueden consultarse los recursos, métodos, parámetros y esquemas de request y response, además de ejecutar solicitudes de prueba contra el servicio desplegado.
 
 </p> </div> <div style="text-align: justify;"> <p align="justify">
 
-El uso de documentación generada automáticamente garantiza que la especificación publicada corresponda siempre a los contratos vigentes del backend, evitando la desactualización propia de la documentación redactada de forma manual. Esto responde a la Technical Story TS39 – Documentar la API REST mediante OpenAPI, cuyos criterios de aceptación establecen que la documentación debe describir los recursos expuestos y reflejar el contrato vigente ante cualquier modificación.
+La especificación se obtiene de los contratos vigentes del Backend durante la ejecución. Esto responde a la Technical Story TS39 – Documentar la API REST mediante OpenAPI, cuyos criterios de aceptación establecen que la documentación debe describir los recursos expuestos y reflejar el contrato vigente ante cualquier modificación. Las capturas conservadas en esta sección corresponden al contrato anterior y permanecen pendientes de sustitución manual por evidencias de Swagger que incluyan Attendance y la eliminación de proyectos.
 
 </p> </div> <br>
 
@@ -5145,39 +5383,52 @@ Swagger UI (interfaz interactiva) https://arquitech-backend-production.up.railwa
 Especificación OpenAPI (JSON) https://arquitech-backend-production.up.railway.app/v3/api-docs
 <br> <div style="text-align: justify;"> <p align="justify">
 
-La especificación publicada corresponde a la aplicación arquitech-back-end, versión 0.0.1-SNAPSHOT, bajo licencia Apache 2.0. El servidor declarado en la especificación es la URL de producción generada por la plataforma de despliegue, de modo que las solicitudes ejecutadas desde Swagger UI se dirigen al servicio real en ejecución y no a un entorno simulado.
+La especificación publicada corresponde a la aplicación `arquitech-back-end`, versión `0.0.1-SNAPSHOT`. Las solicitudes ejecutadas desde la instancia desplegada de Swagger UI se dirigen al servicio real en ejecución y no a un entorno simulado.
 
 </p> </div> <br>
 
-Vista general de la documentación OpenAPI en Swagger UI
+Vista general de Swagger UI pendiente de actualización manual
 
-<p align="center"> <img src="assets/chapter-5/api-documentation/swagger-overview.png" width="900" alt="Swagger UI - Vista general"> </p> <p align="center"><em>*Nota.* Elaboración propia (Documentación OpenAPI generada por springdoc).</em></p> <br>
+<p align="center"> <img src="assets/chapter-5/api-documentation/swagger-overview.png" width="900" alt="Swagger UI - Vista general"> </p> <p align="center"><em>*Nota.* Captura del contrato anterior, pendiente de reemplazo por la documentación Swagger vigente.</em></p> <br>
 
 Recursos expuestos por la API
 
 <div style="text-align: justify;"> <p align="justify">
 
-La API expone 35 endpoints organizados en ocho agrupaciones funcionales, alineadas con los Bounded Contexts definidos en la arquitectura del producto (sección 4.8):
+La API expone 37 operaciones REST distribuidas en nueve controladores, alineados con los Bounded Contexts definidos en la arquitectura del producto (sección 4.8):
 
 </p> </div>
-Agrupación	Endpoints	Descripción
-Authentication	2	Registro de usuarios e inicio de sesión con emisión de token JWT
-Projects	3	Registro y consulta de proyectos de construcción, incluida la consulta por supervisor responsable
-Materials	8	Registro, consulta, actualización y uso de materiales, historial de movimientos y alertas de inventario bajo
-Workers	4	Registro, consulta, actualización y eliminación de trabajadores
-Tasks	4	Creación, consulta, actualización y eliminación de tareas asignadas
-Machinery	5	Registro, consulta, actualización y eliminación de maquinaria
-Incidents	7	Gestión de incidencias, consulta por proyecto y descarga de reporte en formato PDF
-Users	2	Consulta de información de usuarios
+| Controlador    | Operaciones REST | Descripción                                                                  |
+| :------------- | :--------------- | :--------------------------------------------------------------------------- |
+| Authentication | 2                | Registro de usuarios e inicio de sesión con emisión de token JWT.            |
+| Users          | 2                | Consulta general e individual de usuarios.                                   |
+| Projects       | 4                | Registro, consulta y eliminación autorizada de proyectos.                    |
+| Attendance     | 4                | Consulta, registro, actualización y eliminación de asistencia.               |
+| Materials      | 7                | Gestión de materiales, entradas, usos e historial de movimientos.            |
+| Machinery      | 5                | Registro, consulta, actualización y eliminación de maquinaria.               |
+| Workers        | 5                | Registro, consulta, actualización y eliminación de trabajadores.             |
+| Tasks          | 4                | Creación, consulta, actualización y eliminación de tareas asignadas.         |
+| Incidents      | 4                | Registro, consulta por proyecto, actualización y eliminación de incidencias. |
+| **Total**      | **37**           | **37 operaciones REST expuestas por nueve controladores.**                   |
+
+Las operaciones incorporadas para completar los flujos de asistencia y eliminación de proyectos son:
+
+- `DELETE /api/v1/projects/{id}`
+- `GET /api/v1/attendance`
+- `POST /api/v1/attendance`
+- `PUT /api/v1/attendance/{id}`
+- `DELETE /api/v1/attendance/{id}`
+
+`DELETE /api/v1/projects/{id}` requiere un Supervisor autorizado sobre el proyecto. La eliminación es transaccional: el Backend elimina los registros dependientes y revierte la operación completa si no puede finalizarla de manera consistente. `GET /api/v1/attendance` permite consultar los registros al Supervisor y al Contratante asociado con el proyecto; las operaciones `POST`, `PUT` y `DELETE` de Attendance corresponden exclusivamente al Supervisor autorizado.
 <br>
 
-Endpoints de Materials, Machinery, Authentication y Tasks
+Captura de endpoints pendiente de actualización manual
 
-<p align="center"> <img src="assets/chapter-5/api-documentation/swagger-endpoints-1.png" width="900" alt="Swagger UI - Endpoints parte 1"> </p> <p align="center"><em>*Nota.* Elaboración propia (Documentación OpenAPI generada por springdoc).</em></p> <br>
+<p align="center"> <img src="assets/chapter-5/api-documentation/swagger-endpoints-1.png" width="900" alt="Swagger UI - Endpoints parte 1"> </p> <p align="center"><em>*Nota.* Captura del contrato anterior, pendiente de reemplazo por evidencia que incluya Attendance y DELETE Project.</em></p> <br>
 
-Endpoints de Incidents, Workers, Projects y Users
+Captura complementaria de endpoints pendiente de actualización manual
 
-<p align="center"> <img src="assets/chapter-5/api-documentation/swagger-endpoints-2.png" width="900" alt="Swagger UI - Endpoints parte 2"> </p> <p align="center"><em>*Nota.* Elaboración propia (Documentación OpenAPI generada por springdoc).</em></p> <br>
+<p align="center"> <img src="assets/chapter-5/api-documentation/swagger-endpoints-2.png" width="900" alt="Swagger UI - Endpoints parte 2"> </p> <p align="center"><em>*Nota.* Captura del contrato anterior, pendiente de reemplazo por evidencia que incluya Attendance y DELETE Project.</em></p> <br>
 
 Esquema de seguridad documentado
 
@@ -5210,18 +5461,39 @@ _Evidencias de Commits y Contribuciones del Equipo en GitHub_
 
 <p align="justify">
 
-En esta sección, presentamos el Video About the Product, diseñado para captar la atención de los visitantes de nuestro Landing Page y los usuarios de nuestras aplicaciones, ofreciendo una visión clara y atractiva del modelo de negocio y las características principales de nuestra solución de software, Arquitech. Este video tiene como objetivo principal comunicar cómo nuestra plataforma facilita procesos clave como la creación de usuarios de manera eficiente y segura. Dirigido tanto a potenciales clientes interesados en conocer las capacidades de nuestro producto como a usuarios que desean realizar tareas relacionadas con la gestión de usuarios, el video adopta un tono profesional, innovador y accesible, alineado con la identidad de nuestra plataforma. A través de una demostración dinámica de las funcionalidades, el video resalta la facilidad de uso y la integración con una base de datos. Además, incluye un testimonio positivo de un usuario participante en las entrevistas de validación, reforzando la credibilidad y el valor de nuestra solución. Este contenido busca inspirar confianza y motivar a los espectadores a explorar y adoptar nuestra plataforma para optimizar sus procesos.
+El Video About-the-Product de ArquiTech presenta de forma breve y promocional la propuesta de valor de la solución para la gestión y seguimiento de proyectos de construcción. El contenido está dirigido principalmente a supervisores de obra y contratantes de empresas privadas, los dos segmentos objetivo identificados para el producto, así como a visitantes de la Landing Page que desean conocer las principales capacidades de ArquiTech.
+
+</p>
+
+<p align="justify">
+
+El video parte de la problemática asociada con la dispersión de información durante la ejecución de una obra y muestra cómo ArquiTech permite organizar la información de cada proyecto en un mismo entorno. La demostración presenta los principales flujos del producto, incluyendo la consulta de proyectos, gestión de materiales, trabajadores y asistencia, seguimiento de tareas, registro de maquinaria e incidencias y consulta de información para el seguimiento de la obra.
+
+</p>
+
+<p align="justify">
+
+La demostración distingue también los dos perfiles de uso del producto. El Supervisor de obra administra los recursos y registros asociados a los proyectos bajo su responsabilidad, mientras que el Contratante accede a la información de las obras en las que se encuentra asociado para realizar seguimiento a su ejecución. Asimismo, se muestran escenas de interacción con las aplicaciones actuales de ArquiTech, priorizando los flujos relacionados con las necesidades principales de ambos segmentos.
+
+</p>
+
+<p align="justify">
+
+Como parte del contenido se incorporan testimonios obtenidos durante las entrevistas de validación. Se incluye al menos una opinión correspondiente al segmento de Supervisores de obra y una opinión correspondiente al segmento de Contratantes de empresas privadas, con el propósito de complementar la demostración del producto con la percepción de usuarios pertenecientes a los segmentos objetivo.
 
 </p>
 
 **Figura 88**  
-_Video About-the-product_
+_Video About-the-Product de ArquiTech_
 
 <p align="center">
-  <img src="assets/chapter-5/About-the-product/abouttheproduct.jpg" alt="PB" width="1000">
+  <img src="assets/chapter-5/About-the-product/abouttheproduct.jpg"
+       alt="Captura del Video About-the-Product actual de ArquiTech"
+       width="1000">
 </p>
 
-[https://www.youtube.com/watch?v=k3Z0771Au1Y](https://www.youtube.com/watch?v=k3Z0771Au1Y)
+<p align="center"><em>*Nota.* Elaboración propia.</em></p>
+
 
 # Capítulo VI: Product Verification & Validation
 
@@ -5588,7 +5860,13 @@ Como resultado general del AV1, ArquiTech cuenta con una base de investigación,
 - Validar con usuarios la facilidad de uso, claridad de la información, accesibilidad y trazabilidad de los registros antes de ampliar el alcance funcional del producto.
 - Mantener actualizado el Product Backlog utilizando los resultados obtenidos en futuras validaciones y experimentos, repriorizando las historias cuando la evidencia obtenida demuestre nuevas necesidades o cambios en las assumptions inicialmente planteadas.
 
-# Bibliografia
+# Bibliografía
+
+Instituto Nacional de Estadística e Informática. (2026, 15 de julio). *Informe de Empleo N.° 7: Trimestre abril-mayo-junio 2026*. Gobierno del Perú.
+
+Ministerio de la Producción. (2025). *Las Mipyme en cifras 2024*. Oficina General de Evaluación de Impacto y Estudios Económicos.
+
+Ministerio de Trabajo y Promoción del Empleo. (2024, 1 de julio). *Reporte del mercado laboral: Sector construcción*. Gobierno del Perú.
 
 # Anexos
 
