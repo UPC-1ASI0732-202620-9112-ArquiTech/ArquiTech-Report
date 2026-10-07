@@ -5172,11 +5172,29 @@ _Vista de la Aplicación Web en Producción (Módulo de Materiales)_
 
 <br>
 
-### 5.2.4. Implemented Native-Mobile Application Evidence
+### 5.2.5. Implemented Native-Mobile Application Evidence
 
-<div style="text-align: justify;">
-Para el presente hito del proyecto (línea base o <em>As-Is Software Project</em>), la aplicación móvil nativa de ArquiTech se encuentra en fase de diseño y prototipado de alta fidelidad (evidenciado en la sección 4.5). Su desarrollo e implementación a nivel de código fuente (Frontend Mobile) está planificado para los próximos sprints del ciclo, por lo que actualmente no se cuenta con un ejecutable en entornos de producción.
-</div>
+ArquiTech cuenta con una aplicación implementada en Flutter; la descripción anterior que la situaba exclusivamente en diseño y prototipado corresponde a una etapa previa. El [repositorio móvil](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendMobile) contiene el cliente, las configuraciones Android/iOS y los módulos de autenticación, proyectos, materiales, personal, asistencia, tareas, incidencias, maquinaria y reportes. La revisión adicional del 07/10/2026 identifica la versión **1.0.1+2**, en main, [commit 645b8324](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendMobile/commit/645b8324fd216d7e5998dedda463e576af7e20fb).
+
+La conexión a la API se define en [la configuración del cliente](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendMobile/blob/645b8324fd216d7e5998dedda463e576af7e20fb/lib/core/config/app_config.dart). La implementación distingue los permisos de supervisor y contratista, mantiene la sesión autenticada y organiza los recursos por proyecto. La existencia del código se complementa con la validación automatizada y la compilación Android descritas a continuación.
+
+**Pruebas y compilación verificadas**
+
+La [corrida CI 37580417368](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendMobile/actions/runs/37580417368), iniciada el **07/10/2026 a las 01:14:15, hora de Lima**, está asociada al commit 645b8324 y presenta resultado aprobado. El job «Analyze, test, and build Flutter» completó correctamente el análisis, las pruebas Flutter y la construcción del **APK debug Android**. El entorno configurado utiliza Ubuntu, Java 17 y Flutter 3.47.6. Sus etapas se documentan en 7.1.2.
+
+El [documento de pruebas del repositorio](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendMobile/blob/645b8324fd216d7e5998dedda463e576af7e20fb/docs/mobile-testing.md) registra una ampliación de la suite a **93 pruebas aprobadas**, con casos unitarios, de contratos y de widgets. Esta cantidad corresponde al resultado declarado en ese documento; no se atribuye como cantidad de la corrida CI, cuyo resumen consultado acredita la aprobación de la etapa de pruebas.
+
+La captura de Playwright presentada en 6.1.4 muestra **3 pruebas aprobadas en 14,2 segundos**: autenticación, validación de fecha de fin de proyecto y apertura de la aplicación. El repositorio contiene los dos archivos de pruebas correspondientes y una configuración de navegador con perfil Pixel 7 y dirección local. Esta ejecución se documenta por separado de las pruebas Flutter y de la compilación del APK.
+
+| Implementación o evidencia            | Estado comprobado                                                                                                | Sección donde se evidencia           |
+| ------------------------------------- | ---------------------------------------------------------------------------------------------------------------- | ------------------------------------ |
+| Cliente Flutter y módulos funcionales | Código disponible en main, commit 645b8324; versión 1.0.1+2                                                      | 5.2.5; versión registrada en Anexo B |
+| Pruebas del cliente                   | Etapa Flutter aprobada en CI; 93 casos declarados en el documento de pruebas del equipo                          | 6.1 y 6.1.1; corrida en 7.1.2        |
+| Flujos Playwright                     | Captura con 3/3 pruebas aprobadas, 14,2 s; archivos y configuración disponibles                                  | 6.1.4                                |
+| Compilación Android                   | Etapa «Build debug APK» aprobada en la corrida enlazada                                                          | 5.2.5 y 7.1.2                        |
+| APK distribuible                      | No se encontró un APK publicado en releases, archivos versionados o artefactos de Actions durante la consulta    | 7.2.2; publicación pendiente         |
+| Ejecución funcional Android           | Faltan capturas de la aplicación instalada, con dispositivo, versión y flujos identificados                      | 5.2.5; evidencia visual pendiente    |
+| Ejecución iOS                         | Configuración de plataforma presente; no se acredita compilación ni ejecución iOS con las evidencias consultadas | 5.2.5                                |
 
 ### 5.2.5. Implemented RESTful API and/or Serverless Backend Evidence
 
