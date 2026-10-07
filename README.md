@@ -5428,25 +5428,28 @@ _Video About-the-Product de ArquiTech_
 
 ## 6.1. Testing Suites & Validation
 
+**Alcance de las evidencias:** las cifras unitarias y de integración del frontend en el ZIP son históricas y no fueron reejecutadas. Se documenta una corrida del backend con siete tests en 6.1.2. Las capturas Cucumber aportadas por el equipo acreditan dos escenarios BDD aprobados para HU02 en 6.1.3. La captura Playwright muestra tres pruebas aprobadas desde el repositorio móvil en 6.1.4 y sustituye las evidencias de sistema anteriores identificadas como móvil. Las suites se presentan por separado, sin atribuir estos resultados a una ejecución nativa Flutter ni sumar escenarios repetidos entre evidencias. Para cada corrida registrar repositorio, commit, entorno, fecha, cantidad de casos y resultado.
+
 <div style="text-align: justify;">
 <p align="justify">
 
-En esta sección se documentan las pruebas automatizadas de la Frontend Web Application de ArquiTech. Las pruebas se organizan en tres niveles: pruebas unitarias sobre las entidades de dominio y utilidades compartidas, pruebas de integración entre servicios, guards e interceptor HTTP, y pruebas de sistema (end-to-end) que recorren la aplicación en un navegador real como lo haría un supervisor de obra. Cada caso se relaciona con las User Stories (HU) y Technical Stories (TS) del Product Backlog.
+En esta sección se documentan las pruebas automatizadas de ArquiTech, distinguiendo las evidencias del frontend, backend y la ejecución Playwright desde el repositorio móvil. Las pruebas se organizan en tres niveles: pruebas unitarias sobre las entidades de dominio y utilidades compartidas, pruebas de integración entre servicios, guards e interceptor HTTP, y pruebas de sistema (end-to-end) que recorren la aplicación en un navegador real como lo haría un supervisor de obra. Cada caso se relaciona con las User Stories (HU) y Technical Stories (TS) del Product Backlog.
 
 </p>
 </div>
 
-| Nivel                   | Herramienta                       | Suites | Casos | Resultado        | Duración |
-| ----------------------- | --------------------------------- | ------ | ----- | ---------------- | -------- |
-| Unitarias e integración | Jasmine + Karma (Chrome Headless) | 8      | 26    | 26 / 26 exitosos | ≈ 2.8 s  |
-| Sistema (E2E)           | Playwright (Chromium)             | 2      | 2     | 2 / 2 exitosos   | ≈ 4.3 s  |
+| Nivel                              | Herramienta                       | Suites          | Casos | Resultado        | Duración         |
+| ---------------------------------- | --------------------------------- | --------------- | ----- | ---------------- | ---------------- |
+| Unitarias e integración            | Jasmine + Karma (Chrome Headless) | 8               | 26    | 26 / 26 exitosos | ≈ 2.8 s          |
+| Sistema (E2E), captura actualizada | Playwright (navegador)            | 2 archivos      | 3     | 3 / 3 exitosos   | 14,2 s           |
+| BDD, capturas aportadas            | Cucumber JVM 7.20.1               | 1 funcionalidad | 2     | 2 / 2 exitosos   | 5,29 s (reporte) |
 
 <br>
 
 <div style="text-align: justify;">
 <p align="justify">
 
-Las pruebas unitarias y de integración se ejecutan con `npm run test:ci` (o `ng test --watch=false --browsers=ChromeHeadlessCI --code-coverage` para obtener la cobertura). Las pruebas de sistema se ejecutan con `npx playwright test`, que levanta automáticamente la aplicación con `npm start` en `http://localhost:4200`, o desde la extensión Playwright Test for VS Code.
+Las pruebas unitarias y de integración se ejecutan con `npm run test:ci` (o `ng test --watch=false --browsers=ChromeHeadlessCI --code-coverage` para obtener la cobertura). La captura actualizada de sistema muestra `npx playwright test` ejecutado desde la carpeta `playwright` del repositorio móvil. El arranque de la aplicación, la URL y el dispositivo configurado deben verificarse en `playwright.config.*`; estos datos no aparecen en la captura.
 
 </p>
 </div>
@@ -5551,6 +5554,20 @@ _Reporte de cobertura de código (Istanbul)_
 
 ### 6.1.2. Core Integration Tests
 
+**Backend: resultado reproducido en esta revisión.** El 06/10/2026 se ejecutó `mvnw.cmd test` sobre main (`9b801ca2`) con base H2 de test: **7 tests, 0 fallos, 0 errores, 0 omitidos; BUILD SUCCESS**. La suite tardó 20.61 s y Maven 01:14 min. Los siete métodos ejecutados y sus comportamientos verificados se detallan en la tabla siguiente.
+
+| Método de ApiIntegrationTests                                    | Comportamiento verificado                                       |
+| ---------------------------------------------------------------- | --------------------------------------------------------------- |
+| authenticationUsersAndOpenApiExposeTheFinalContract              | Contrato de autenticación, usuarios y OpenAPI                   |
+| projectScopingAndRoleAuthorizationAreServerSide                  | Restricción por obra y autorización en servidor                 |
+| decimalMaterialsAndProjectScopedMachineryAreConsistent           | Materiales decimales y maquinaria por proyecto                  |
+| workforceTasksAndIncidentsEnforceDomainRules                     | Reglas de personal, tareas e incidencias                        |
+| attendanceCrudValidationAndAuthorization                         | Asistencia, validación y permisos                               |
+| projectDeletionRemovesOnlyItsChildrenAndRequiresOwningSupervisor | Eliminación limitada a recursos del proyecto y supervisor dueño |
+| projectDeletionRollsBackEveryChildWhenOneStepFails               | Rollback ante fallo de una parte de la eliminación              |
+
+Estos son tests de integración de contexto Spring/MockMvc; no acreditan BDD ni ejecución contra producción. Las pruebas Jasmine siguientes conservan su evidencia histórica y no se suman a esta suite.
+
 <div style="text-align: justify;">
 <p align="justify">
 
@@ -5617,90 +5634,63 @@ _Prueba de integración del servicio de reporte semanal_
 
 ### 6.1.3. Core Behavior-Driven Development
 
-<!-- PENDIENTE: el enunciado pide escenarios BDD con Cucumber, SpecFlow o similar (archivos .feature en Gherkin). El frontend todavía no los tiene. -->
+Las pruebas de comportamiento presentadas corresponden a la funcionalidad **Register material usage**, relacionada con **HU02: Registrar uso o salida de materiales**. Las capturas muestran la ejecución de dos escenarios con Cucumber JVM: registro de una cantidad dentro del stock disponible y rechazo de una cantidad que supera ese stock. Ambos escenarios aparecen aprobados.
+
+El contexto inicial establece que un supervisor tiene un proyecto con un material cuyo stock es de 40 unidades. Cada escenario verifica la respuesta del sistema y el stock resultante para comprobar los criterios de aceptación de HU02.
+
+| Escenario                        | Contexto inicial                     | Acción                                                | Resultado comprobado en la captura                                             | Trazabilidad                                                                 | Estado   |
+| -------------------------------- | ------------------------------------ | ----------------------------------------------------- | ------------------------------------------------------------------------------ | ---------------------------------------------------------------------------- | -------- |
+| Uso dentro del stock disponible  | Material con 40 unidades disponibles | El supervisor registra el uso de 10 unidades          | Respuesta HTTP 201 y stock final de 30 unidades                                | HU02, AC1: descontar una cantidad válida y registrar la salida               | Aprobado |
+| Uso superior al stock disponible | Material con 40 unidades disponibles | El supervisor intenta registrar el uso de 50 unidades | Respuesta HTTP 400, error INSUFFICIENT_STOCK y stock conservado en 40 unidades | HU02, AC2: rechazar una salida superior al stock y conservar las existencias | Aprobado |
+
+#### Resultado de ejecución
+
+El reporte Cucumber muestra **2 escenarios ejecutados, 2 aprobados y 100 % de éxito**, con una duración de **5,29 segundos**. El entorno indicado es Windows 11, OpenJDK 17.0.20.1+1 y Cucumber JVM 7.20.1.
+
+La captura del IDE confirma los mismos nombres de escenarios, muestra **2 tests aprobados de 2** y finalización con código de salida 0. En esa vista se observa un tiempo total de **6,688 segundos** y Spring Boot 3.5.0. Se documentan las duraciones de cada vista por separado; no se suman los casos porque ambas evidencias presentan los mismos dos escenarios.
+
+**Figura 108**  
+_Reporte Cucumber de los escenarios de registro de uso de materiales_
+
+<p align="center">
+  <img src="assets/chapter-6/testing/bdd-material-usage-report.jpeg" width="1000" alt="Reporte Cucumber: dos escenarios aprobados para uso de materiales, 100 por ciento de éxito y duración de 5,29 segundos">
+</p>
+
+_Nota._ El reporte muestra aprobación del registro de 10 unidades y del rechazo de un consumo de 50 unidades sobre un stock inicial de 40.
+
+**Figura 109**  
+_Ejecución de los dos escenarios Cucumber desde el IDE_
+
+<p align="center">
+  <img src="assets/chapter-6/testing/bdd-material-usage-execution.jpeg" width="850" alt="IDE: dos escenarios Cucumber aprobados y proceso finalizado con código de salida 0">
+</p>
+
+_Nota._ La vista de ejecución confirma los dos escenarios aprobados y la finalización correcta del proceso.
+
+Estas capturas acreditan la ejecución BDD de los dos escenarios de HU02 mostrados. La cobertura se limita a esos comportamientos: no se atribuyen resultados BDD de autenticación ni de otras historias. Para completar la identificación de la corrida quedan por registrar el repositorio, la rama, el commit probado, la fecha y hora efectivas y la configuración de datos utilizada. Las imágenes no demuestran una ejecución de CI remota ni pruebas contra producción.
 
 ### 6.1.4. Core System Tests
 
-<div style="text-align: justify;">
-<p align="justify">
-Las pruebas de sistema se implementaron con Playwright y recorren la aplicación completa en Chromium, desde el inicio de sesión hasta la verificación del resultado en pantalla. Cubren los flujos principales del rol Supervisor (autenticación, gestión de personal y asistencia, flujo de materiales, asignación y cierre de tareas, creación de proyectos) y la restricción de permisos del rol Contratista. Las pruebas se ejecutaron desde Visual Studio Code con la extensión Playwright Test for VS Code y desde la terminal con `npx playwright test`.
+Las pruebas de sistema documentadas en este apartado se actualizan con la captura aportada por el equipo. La terminal muestra la ejecución de `npx playwright test` desde `ArquiTech-FrontendMobile/playwright`, con **3 pruebas aprobadas, un worker y una duración total de 14,2 segundos**. Esta evidencia sustituye la tabla y las capturas anteriores atribuidas al móvil; sus resultados no se suman a los casos previos.
 
-</p>
-</div>
+El archivo `mobile-flows.spec.ts` contiene dos escenarios del supervisor. El archivo `smoke.spec.ts` aporta una tercera prueba de apertura. Los dos escenarios visibles comprueban el comportamiento ante datos incorrectos o incompletos y, después, la continuación del flujo con los datos corregidos.
 
-| ID     | Archivo                          | Escenario                                                    | Pasos principales                                                                                                                                                                                        | Resultado esperado                                                                                                                 | Historia |
-| ------ | -------------------------------- | ------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- | -------- |
-| E2E-01 | `auth-login-supervisor.spec.ts`  | Inicio de sesión del supervisor                              | Abre la aplicación, verifica el logo de ArquiTech, ingresa correo y contraseña del supervisor y confirma con Enter                                                                                       | Redirige a `/#/projects` tras un login exitoso                                                                                     | HU23     |
-| E2E-02 | `projects-create.spec.ts`        | Creación de un nuevo proyecto                                | Inicia sesión, abre "Nuevo proyecto", completa nombre, ubicación, contratista, fecha de fin, presupuesto y progreso, y guarda                                                                            | El proyecto queda creado y visible en `/#/projects`                                                                                | HU01     |
-| E2E-03 | `attendance-register.spec.ts`    | Registro de personal y asistencia                            | Inicia sesión, crea un trabajador (cargo, especialidad, fecha de contratación) y luego registra su asistencia como "Presente" con una nota                                                               | La asistencia aparece en `/#/projects/:id/attendance` con el trabajador, el estado "Presente" y la nota                            | HU06     |
-| E2E-04 | `materials-flow.spec.ts`         | Flujo completo de un material (alta, entrada y uso de stock) | Inicia sesión, crea el material "Cemento E2E Playwright" (unidad, stock mínimo, precio, proveedor, RUC), registra una entrada de 10 bolsas y luego un uso de 5 bolsas                                    | El stock disponible pasa de 20 a 30 (entrada) y de 30 a 25 (uso); el historial muestra ambos movimientos con sus deltas (+10 / -5) | HU02     |
-| E2E-05 | `tasks-complete.spec.ts`         | Asignación y cierre de una tarea                             | Inicia sesión, busca al trabajador creado, le asigna una tarea (título, descripción, fecha límite) y luego la marca como completada desde la pestaña Tareas                                              | La tarea cambia a estado "Completada" y el botón "Completar" deja de estar disponible para ese registro                            | HU08     |
-| E2E-06 | `permissions-contractor.spec.ts` | Restricción de permisos del rol Contratista                  | Inicia sesión como contratista, abre un proyecto y verifica la ausencia de controles de edición (crear/editar/eliminar proyecto, material, personal, tareas; asignar tarea; generar PDF) y cierra sesión | Ninguno de los botones de escritura/edición está presente para el rol Contratista (count = 0 en cada caso)                         | HU27     |
-
-<br>
-
-**Figura 108**  
-_Prueba E2E-01: inicio de sesión del supervisor_
-
-<p align="center">
-  <img src="assets/chapter-6/testing/e2e-auth-login-spec.jpg" width="750" alt="auth-login-supervisor.spec.ts">
-</p>
-<p align="center"><em>*Nota.* Elaboración propia (Código fuente de la prueba, Frontend Web Application).</em></p>
-<br>
-
-**Figura 109**  
-_Construcción de la prueba E2E-01 con el grabador (Codegen/Inspector) de Playwright_
-
-<p align="center">
-  <img src="assets/chapter-6/testing/e2e-auth-login-codegen.jpg" width="850" alt="Playwright Inspector - Codegen">
-</p>
-<p align="center"><em>*Nota.* Elaboración propia (Grabación interactiva con Playwright Inspector).</em></p>
-<br>
+| ID      | Archivo                | Escenario y comportamiento comprobado                                                                                                                                                                                      | Resultado visible | Trazabilidad                                           |
+| ------- | ---------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------- | ------------------------------------------------------ |
+| E2E-M01 | `mobile-flows.spec.ts` | Contraseña incorrecta: se muestra el mensaje de rechazo y se conserva la ruta de login. Al introducir una contraseña válida, la prueba espera la ruta de proyectos y el botón «Nuevo proyecto».                            | Aprobada; 4,4 s   | HU23: autenticación                                    |
+| E2E-M02 | `mobile-flows.spec.ts` | Proyecto sin fecha de fin: se muestra «Fecha de fin: Este campo es obligatorio» y permanece disponible el formulario. Tras completar la fecha y enviar, la prueba espera la ruta de proyectos y el botón «Nuevo proyecto». | Aprobada; 8,3 s   | HU09: registro de proyecto                             |
+| E2E-M03 | `smoke.spec.ts`        | «ArquiTech abre correctamente», según el nombre registrado en la terminal. El cuerpo de esta prueba no se muestra en la captura.                                                                                           | Aprobada; 1,1 s   | Prueba básica de apertura; sin HU específica atribuida |
 
 **Figura 110**  
-_Prueba E2E-02: creación de un nuevo proyecto_
+_Código de los escenarios del supervisor y resultado de tres pruebas Playwright aprobadas_
 
 <p align="center">
-  <img src="assets/chapter-6/testing/e2e-projects-create-spec.jpg" width="750" alt="projects-create.spec.ts">
+  <img src="assets/chapter-6/testing/mobile-playwright-3-passed.jpeg" width="900" alt="Playwright: dos escenarios mobile-flows y una prueba smoke; tres pruebas aprobadas en 14,2 segundos">
 </p>
-<p align="center"><em>*Nota.* Elaboración propia (Código fuente de la prueba, Frontend Web Application).</em></p>
-<br>
 
-**Figura 111**  
-_Prueba E2E-03: registro de personal y asistencia_
+_Nota._ Captura de la ejecución de las pruebas con Playwright. La terminal muestra `3 passed (14.2s)`: tres pruebas aprobadas en 14,2 segundos.
 
-<p align="center">
-  <img src="assets/chapter-6/testing/e2e-attendance-register-spec.jpg" width="750" alt="attendance-register.spec.ts">
-</p>
-<p align="center"><em>*Nota.* Elaboración propia (Código fuente de la prueba, Frontend Web Application).</em></p>
-<br>
-
-**Figura 112**  
-_Prueba E2E-04: flujo completo de un material (alta, entrada y uso de stock)_
-
-<p align="center">
-  <img src="assets/chapter-6/testing/e2e-materials-flow-spec.jpg" width="750" alt="materials-flow.spec.ts">
-</p>
-<p align="center"><em>*Nota.* Elaboración propia (Código fuente de la prueba, Frontend Web Application).</em></p>
-<br>
-
-**Figura 113**  
-_Prueba E2E-05: asignación y cierre de una tarea_
-
-<p align="center">
-  <img src="assets/chapter-6/testing/e2e-tasks-complete-spec.jpg" width="750" alt="tasks-complete.spec.ts">
-</p>
-<p align="center"><em>*Nota.* Elaboración propia (Código fuente de la prueba, Frontend Web Application).</em></p>
-<br>
-
-**Figura 114**  
-_Prueba E2E-06: restricción de permisos del rol Contratista_
-
-<p align="center">
-  <img src="assets/chapter-6/testing/e2e-permissions-contractor-spec.jpg" width="750" alt="permissions-contractor.spec.ts">
-</p>
-<p align="center"><em>*Nota.* Elaboración propia (Código fuente de la prueba, Frontend Web Application).</em></p>
-<br>
+**Alcance de la evidencia:** Playwright interactúa con una aplicación en un navegador. La ubicación del comando en el repositorio móvil y el nombre `mobile-flows.spec.ts` no acreditan por sí solos ejecución nativa Flutter en Android/iOS. La captura no muestra URL objetivo, framework del cliente, configuración de navegador/dispositivo, uso de mocks o backend real, ni commit probado. Estos datos, junto con la fecha y el reporte exportado de la corrida, deben agregarse para completar su trazabilidad. La aserción final del escenario de proyecto comprueba navegación y disponibilidad de un control; la captura no demuestra por sí sola persistencia del proyecto en la base de datos.
 
 # Capítulo VII: DevOps Practices
 
