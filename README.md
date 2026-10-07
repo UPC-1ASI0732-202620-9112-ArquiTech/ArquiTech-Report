@@ -2518,6 +2518,8 @@ _Nota._ Elaboración propia.
 
 ### 2.3.4. Empathy Mapping
 
+Los mapas agrupan lo que cada segmento dice, hace, piensa y siente para relacionar comportamientos observables con necesidades. Su sustento documental es el registro y análisis de entrevistas de 2.2: el supervisor busca datos confiables y menor esfuerzo administrativo; el contratante busca transparencia y comunicación oportuna. La separación entre acciones y percepciones evita interpretar una expectativa como una función ya implementada. Las necesidades resultantes se contrastan con User Personas y User Journey Mapping antes de traducirse en requisitos de 3.2.
+
 **Figura 16**
 _Empathy Mapping del segmento #1: Supervisor de Obra_
 
