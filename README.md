@@ -6191,7 +6191,58 @@ _Código de los escenarios del supervisor y resultado de tres pruebas Playwright
 _Nota._ Captura de la ejecución de las pruebas con Playwright. La terminal muestra `3 passed (14.2s)`: tres pruebas aprobadas en 14,2 segundos.
 
 **Alcance de la evidencia:** Playwright interactúa con una aplicación en un navegador. La ubicación del comando en el repositorio móvil y el nombre `mobile-flows.spec.ts` no acreditan por sí solos ejecución nativa Flutter en Android/iOS. La captura no muestra URL objetivo, framework del cliente, configuración de navegador/dispositivo, uso de mocks o backend real, ni commit probado. Estos datos, junto con la fecha y el reporte exportado de la corrida, deben agregarse para completar su trazabilidad. La aserción final del escenario de proyecto comprueba navegación y disponibilidad de un control; la captura no demuestra por sí sola persistencia del proyecto en la base de datos.
+#### Pruebas de sistema de la Frontend Web Application
 
+<div style="text-align: justify;">
+<p align="justify">
+
+Para la Frontend Web Application se implementaron dos pruebas de sistema con Playwright, ejecutadas en Chromium sobre `http://localhost:4200` con el entorno de desarrollo de Angular (API simulada en el navegador y usuarios de demostración). Ambas validan el segundo criterio de aceptación (AC2) de User Stories de registro: la aplicación bloquea un dato inválido, muestra el mensaje correspondiente y luego acepta el dato corregido. Las pruebas se construyeron con la grabadora de la extensión Playwright Test for VS Code y se depuraron manualmente para usar localizadores por rol y aserciones explícitas. Se ejecutan con `npx playwright test`, que levanta la aplicación con `npm start`, o desde el panel Testing de Visual Studio Code.
+
+</p>
+</div>
+
+| ID      | Archivo                | Escenario                                                                     | Pasos principales                                                                                                                                                       | Resultado esperado                                                                                                        | Historia        |
+| ------- | ---------------------- | ----------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------- | --------------- |
+| E2E-W01 | `tests/test-1.spec.ts` | El supervisor no puede registrar una salida de material mayor al stock         | Inicia sesión como supervisor, entra a *Torre Residencial Norte*, registra una salida de 50 varillas de *Fierro corrugado 3/8"* (stock 40) y luego corrige la cantidad a 10 | Se muestra "The quantity exceeds the available stock (40)."; con 10 unidades se registra la salida y el stock baja a 30    | HU02 AC2 · TS03 |
+| E2E-W02 | `tests/test-2.spec.ts` | El supervisor no puede registrar maquinaria con una placa repetida en la obra | Inicia sesión, entra a *Maquinaria*, intenta registrar una máquina con la placa `MIX123` (ya existente) y luego corrige la placa a `MIX999`                              | Se muestra "A machine with that plate already exists on this site."; con `MIX999` la máquina se registra y aparece en la tabla | HU05 AC2        |
+
+**Figura 111**  
+_Prueba E2E-W01 en Visual Studio Code con la extensión de Playwright_
+
+<p align="center">
+  <img src="assets/chapter-6/testing/e2e-vscode-test-1.jpg" width="900" alt="test-1.spec.ts en Visual Studio Code: salida de material mayor al stock">
+</p>
+<p align="center"><em>Nota.</em> Elaboración propia (código de la prueba y resultado en el panel Testing).</p>
+
+<br>
+
+**Figura 112**  
+_Prueba E2E-W02 en Visual Studio Code con la extensión de Playwright_
+
+<p align="center">
+  <img src="assets/chapter-6/testing/e2e-vscode-test-2.jpg" width="900" alt="test-2.spec.ts en Visual Studio Code: maquinaria con placa repetida">
+</p>
+<p align="center"><em>Nota.</em> Elaboración propia (código de la prueba y resultado en el panel Testing).</p>
+
+<br>
+
+**Figura 113**  
+_Reporte HTML de Playwright de las pruebas de sistema web_
+
+<p align="center">
+  <img src="assets/chapter-6/testing/e2e-reporte.jpg" width="800" alt="Reporte HTML de Playwright: 2 pruebas aprobadas en Chromium">
+</p>
+<p align="center"><em>Nota.</em> Elaboración propia (reporte generado por Playwright: 2 pruebas aprobadas, 0 fallidas).</p>
+
+<br>
+
+| Repository                                            | Branch                     | Commit Id | Commit Message                                              | Commit Message Body | Committed on (Date) |
+| ----------------------------------------------------- | -------------------------- | --------- | ----------------------------------------------------------- | ------------------- | ------------------- |
+| UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendWeb | feature/functional-tests | 4603d38   | feat: add Playwright test setup                             | —                   | 03/10/2026          |
+| UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendWeb | feature/functional-tests | da26185   | feat: add functional test for material usage stock rule     | —                   | 03/10/2026          |
+| UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendWeb | feature/functional-tests | 128c0d8   | feat: add functional test for machinery serial number rule  | —                   | 03/10/2026          |
+
+<br>
 # Capítulo VII: DevOps Practices
 
 Este capítulo documenta la integración, entrega y despliegue de ArquiTech a partir de las configuraciones y resultados disponibles. La integración continua verifica los cambios; la entrega continua prepara una versión validada para su publicación; el despliegue continuo automatiza su puesta en producción. La evidencia permite distinguir las corridas de pruebas, la configuración de las plataformas y la publicación de una versión concreta.
@@ -6276,7 +6327,7 @@ La Landing Page cuenta con un registro exitoso de `pages build and deployment` a
 
 No se dispone de una ejecución documentada de rollback para ninguno de los deployments descritos; por ello, no se presenta una estrategia de recuperación como si hubiera sido ejecutada.
 
-**Figura 111**  
+**Figura 114**  
 _Origen, rama y configuración de despliegue del backend en Railway_
 
 <p align="center">
@@ -6285,7 +6336,7 @@ _Origen, rama y configuración de despliegue del backend en Railway_
 
 _Nota._ Captura de configuración incluida en las evidencias del backend. Muestra el despliegue automático activado y la espera por CI desactivada; no identifica el commit de una publicación concreta.
 
-**Figura 112**  
+**Figura 115**  
 _Servicios de producción y configuración de variables del backend_
 
 <p align="center">
