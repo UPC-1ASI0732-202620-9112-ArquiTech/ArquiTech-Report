@@ -397,6 +397,9 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 <br><br>
 <strong>TP:</strong> Durante el TP, configuró Playwright y desarrolló pruebas funcionales para el uso de materiales y la regla de unicidad del serial de maquinaria, además de pruebas E2E Mobile para autenticación y creación de proyectos. Estas verificaciones demostraron responsabilidad ética y profesional al comprobar reglas críticas antes de exponerlas a usuarios, prevenir operaciones que afecten indebidamente el stock o la identificación de equipos y validar que el acceso y el registro de proyectos respondan al comportamiento esperado. Su aporte fortaleció la detección trazable de errores en flujos relevantes del dominio.
 
+<br><br>
+<strong>AV2:</strong> Durante el AV2, elaboró la planificación de experimentos del Capítulo VIII (As-Is Summary, Raw Material, Experiment-Ready Questions, Question Backlog y Experiment Cards), así como las Hypotheses y las Domain Business Metrics. Actuó con responsabilidad profesional al diferenciar las metas propuestas de los resultados observados, acompañar cada hipótesis con su hipótesis nula, exigir datos ficticios y consentimiento de los participantes, y limitar las Experiment Cards a métricas definidas previamente para evitar decisiones basadas en métricas de vanidad.
+
 </td>
 
   <td valign="middle" style="text-align:justify; vertical-align:middle !important; padding:8px;">
@@ -451,6 +454,9 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 
 <br><br>
 <strong>TP:</strong> Durante el TP, las pruebas sobre uso de materiales y seriales de maquinaria permitieron evaluar el impacto económico de impedir consumos sin stock suficiente y detectar identificadores que comprometan la trazabilidad de equipos. Las pruebas E2E de autenticación y creación de proyectos abordaron el impacto profesional y social de ofrecer acceso controlado y flujos previsibles para registrar obras. Al validar comportamientos críticos antes de su uso en proyectos reales, su trabajo ayudó a identificar fallos que podrían afectar recursos, continuidad operativa y confianza de supervisores y contratantes en la información registrada.
+
+<br><br>
+<strong>AV2:</strong> Durante el AV2, priorizó el Question Backlog con criterios de confianza, riesgo, impacto e interés, y definió para cada hipótesis una métrica de negocio y otra financiera. Esto le permitió emitir juicios sobre el impacto económico de ArquiTech para las pymes constructoras, como horas administrativas, reprocesos y costo de adquisición de clientes, y sobre su impacto social, al priorizar la transparencia y autonomía del contratante y una adopción accesible para usuarios con distinta experiencia digital.
 
   </td>
 
