@@ -1,0 +1,48 @@
+ARQUITECH - REGISTRO DE REVISION DE SEGURIDAD
+Fecha: 2026-11-09
+Los valores de configuracion sensibles se clasificaron sin transcribirlos.
+
+AUDITORIA DE DEPENDENCIAS NPM
+
+Frontend Web
+Comando: npm audit --omit=dev --audit-level=low
+Versiones efectivas relevantes: Angular 19.2.25; DOMPurify 3.4.16 (transitiva de jsPDF 4.2.1).
+Resultado: codigo de salida 1; 8 vulnerabilidades (3 moderadas, 4 altas, 1 critica).
+Familias reportadas: Angular common/compiler/core/platform/router/forms y DOMPurify.
+Avisos relevantes: GHSA-48r7-hpm6-gfxm, GHSA-39pv-4j6c-2g6v, GHSA-jhpw-976m-542j, GHSA-p297-fm68-3q8c, GHSA-jfgx-762w-99vr, GHSA-58w9-8g37-x9v5, GHSA-jj27-h5hq-8x99, GHSA-hh8m-fm6v-7cvg, GHSA-cg2g-xh64-v4q7, GHSA-mrv2-3pqr-j5jr y GHSA-c6gr-qvv4-5v3f.
+Accion: no se ejecuto npm audit fix. La salida propone cambios que incluyen una migracion mayor de Angular para parte de los avisos.
+
+Landing Page
+Comando: npm audit --omit=dev --audit-level=low
+Versiones efectivas relevantes: Angular 20.0.0.
+Resultado: codigo de salida 1; 6 vulnerabilidades altas.
+Familias reportadas: Angular common/compiler/core/forms/platform-browser/router.
+Avisos relevantes: GHSA-58c5-g7wp-6w37, GHSA-48r7-hpm6-gfxm, GHSA-39pv-4j6c-2g6v, GHSA-p3vc-36g9-x9gr, GHSA-q6f4-qqrg-jv6x, GHSA-jhpw-976m-542j, GHSA-p297-fm68-3q8c, GHSA-jfgx-762w-99vr, GHSA-g93w-mfhg-p222, GHSA-jrmj-c5cx-3cw6, GHSA-v4hv-rgfq-gp49, GHSA-58w9-8g37-x9v5, GHSA-f3m7-gqxr-g87x, GHSA-jj27-h5hq-8x99 y GHSA-hh8m-fm6v-7cvg.
+Accion: no se ejecuto npm audit fix.
+
+INSPECCION ESTATICA DE CODIGO
+
+SQL Injection
+- Backend usa JpaRepository y seis consultas JPQL con parametros nombrados (:id, :projectId). No se hallaron JdbcTemplate, EntityManager, createQuery o consultas nativas construidas por concatenacion.
+- Resultado: no se confirmo SQL Injection en el alcance inspeccionado. Esto no sustituye pruebas SAST/DAST.
+
+XSS
+- Frontend Web y Landing: busqueda de [innerHTML], innerHTML, DomSanitizer, bypassSecurityTrust*, document.write, eval y new Function sin coincidencias en src/public.
+- Riesgo confirmado de dependencias: npm audit reporta avisos XSS en las versiones Angular instaladas y en DOMPurify transitivo de Web.
+- Resultado: no se confirmo un sink XSS propio en el codigo; las dependencias vulnerables requieren actualizacion y pruebas de regresion.
+
+Autenticacion, autorizacion y JWT
+- Backend: Spring Security stateless, rutas de autenticacion publicas, escritura restringida a SUPERVISOR, @PreAuthorize en servicios de comando, JWT firmado con secreto inyectado y contrasenas con BCrypt.
+- Backend: 111 coincidencias de anotaciones Bean Validation y @Valid; los controladores aplican @Valid. SignIn/SignUp redactan password en toString.
+- Frontend Web: el JWT se persiste en localStorage. Es una advertencia potencial: un XSS exitoso podria leerlo; no constituye por si solo una explotacion confirmada.
+- Frontend Mobile: el JWT se almacena con flutter_secure_storage y SharedPreferences queda reservado para preferencias no sensibles en el codigo inspeccionado.
+
+Secretos
+- No se hallaron archivos .env, PEM, JKS, P12, keystore o credenciales con nombres sensibles entre los archivos rastreados.
+- application.properties de produccion del Backend usa placeholders de entorno para URL, usuario, password y secreto JWT.
+- Los valores literales encontrados en src/test/resources son datos aislados de prueba; no se transcriben.
+- Limitacion: Gitleaks y detectores de entropia no estaban instalados; la busqueda por patrones no acredita ausencia absoluta de secretos.
+
+DEPENDENCIAS SIN AUDITORIA CONCLUYENTE
+- Backend: el pom no configura un escaner de CVE y OWASP Dependency-Check no estaba instalado; no se declara el arbol Maven como libre de vulnerabilidades.
+- Mobile: flutter analyze informo 32 paquetes con versiones mas recientes incompatibles con las restricciones, pero ese aviso no es una auditoria de CVE. No se asigna estado de seguridad satisfactorio.

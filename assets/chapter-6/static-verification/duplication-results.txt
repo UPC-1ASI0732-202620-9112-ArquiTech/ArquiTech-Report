@@ -1,0 +1,38 @@
+ARQUITECH - RESULTADOS DE DUPLICACION Y COMPLEJIDAD ESTRUCTURAL
+Fecha: 2026-11-09
+Herramienta de duplicacion: jscpd 4.0.5
+Parametros comunes: min-lines=5, min-tokens=50, reporter=console.
+
+DUPLICACION
+
+Backend
+Comando: npx --yes jscpd@4.0.5 arquitech-back-end/src/main/java --format java --min-lines 5 --min-tokens 50 --reporters console --ignore "**/target/**"
+Resultado: 141 archivos; 3142 lineas; 22 clones; 158 lineas duplicadas (5.03 %); 2030 tokens duplicados (4.66 %).
+Ejemplos: pares Create/Update de Worker, Task y Machinery; servicios de consulta de Task, Worker y Machinery; estructura repetida de controladores.
+
+Frontend Web
+Comando: npx --yes jscpd@4.0.5 src --format typescript,html,css --min-lines 5 --min-tokens 50 --reporters console --ignore "**/*.spec.ts,**/node_modules/**,**/dist/**"
+Resultado efectivo: 88 TypeScript y 23 CSS; 8082 lineas; 14 clones; 184 lineas duplicadas (2.28 % del total analizado).
+Detalle: TypeScript 184/5728 lineas (3.21 %); CSS 0/2354 (0 %).
+Ejemplos: formularios Task/Worker, listas Machinery/Worker y un bloque repetido dentro de icons.ts.
+Limitacion: el resumen de jscpd no incorporo archivos HTML, aunque fueron solicitados; no se asigna porcentaje a plantillas.
+
+Frontend Mobile
+Comando: npx --yes jscpd@4.0.5 lib --format dart --min-lines 5 --min-tokens 50 --reporters console --ignore "**/*.g.dart,**/*.freezed.dart,**/build/**"
+Resultado: 141 archivos; 8675 lineas; 27 clones; 344 lineas duplicadas (3.97 %); 3441 tokens duplicados (4.28 %).
+Ejemplos: controladores de Tasks, Workers, Machinery e Incidents; formularios de Materials; paginas de Machinery y Workers.
+
+Landing Page
+Comando: npx --yes jscpd@4.0.5 src --format typescript,html,css --min-lines 5 --min-tokens 50 --reporters console --ignore "**/*.spec.ts,**/node_modules/**,**/dist/**"
+Resultado efectivo: 9 TypeScript y 2 CSS; 1311 lineas; 0 clones y 0 lineas duplicadas con los umbrales utilizados.
+Limitacion: el resumen no incorporo HTML; cero clones no equivale a ausencia absoluta de duplicacion por debajo del umbral.
+
+COMPLEJIDAD ESTRUCTURAL COMPLEMENTARIA
+Metodo: conteo reproducible de ocurrencias de if, for, while, case, catch, switch, &&, || y operador condicional por archivo. Es un indicador de puntos de decision, no una medicion formal de complejidad ciclomatica y no asigna una calificacion de mantenibilidad.
+
+- Backend: Material.java, 14 puntos/88 LOC; Attendance.java, 12/58; ProjectAccessService.java, 10/53.
+- Frontend Web: mock-backend.interceptor.ts, 275 puntos/1060 LOC; attendance-form-dialog.component.ts, 35/91; incident-form-dialog.component.ts, 29/99.
+- Frontend Mobile: attendance_form.dart, 71 puntos/300 LOC; material_form_sheet.dart, 51/287; record_form.dart, 51/213. Se excluyeron archivos generados app_localizations*.dart.
+- Landing Page: language.ts, 16 puntos/43 LOC; app.ts, 9/47; icon.ts, 5/46.
+
+Interpretacion: los concentradores prioritarios para descomposicion son el mock backend web y los formularios de Attendance/Materials del cliente movil. Los porcentajes de jscpd son resultados del umbral declarado, no una evaluacion de SonarQube.

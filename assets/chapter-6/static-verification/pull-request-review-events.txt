@@ -1,0 +1,43 @@
+ARQUITECH - EVIDENCIA DE REVISION DE PULL REQUESTS
+Consulta: 2026-11-09 mediante GitHub; PR fusionados visibles en refs locales y API.
+
+CRITERIO
+Se buscaron comentarios de conversacion, comentarios inline y eventos de review. Un merge, un check de CI o un comentario de despliegue no se considero aprobacion humana.
+
+RESULTADO GLOBAL
+- 25 PR fusionados examinados.
+- 0 aprobaciones humanas verificables.
+- 0 comentarios tecnicos humanos verificables.
+- 25 eventos Copilot con estado COMMENTED y el mensaje de que la revision no pudo realizarse porque el solicitante alcanzo el limite de cuota.
+- Los comentarios Cloudflare de algunos PR Web registran previews/builds; no son revision de codigo.
+
+PR EXAMINADOS
+- Backend: #1, #2, #3 y #5.
+- Frontend Web: #1, #2, #3, #4, #5 y #6.
+- Frontend Mobile: #1, #2, #3, #4, #5 y #6.
+- Landing Page: #1, #2, #3, #4, #5, #6, #7, #8 y #9.
+
+MUESTRA TRAZABLE
+- Backend #2: https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/Arquitech-Backend/pull/2
+  Objetivo: alineacion de integracion full-stack. Fusionado. Sin revision humana; Copilot no pudo revisar por cuota.
+- Backend #3: https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/Arquitech-Backend/pull/3
+  Objetivo: integrar pruebas backend. Cuatro archivos de prueba segun la descripcion. Fusionado. Sin revision humana; Copilot no pudo revisar por cuota.
+- Frontend Web #1: https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendWeb/pull/1
+  Objetivo: integrar pruebas funcionales web. Fusionado. Sin revision humana; Copilot no pudo revisar por cuota.
+- Frontend Web #3: https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendWeb/pull/3
+  Objetivo: CI. El comentario Cloudflare evidencia un build inicial fallido y un preview posterior exitoso del commit 33198ba. No equivale a aprobacion.
+- Frontend Mobile #3: https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendMobile/pull/3
+  Objetivo: integrar pruebas funcionales moviles. Fusionado. Sin revision humana; Copilot no pudo revisar por cuota.
+- Landing Page #1: https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-LandingPage/pull/1
+  Objetivo: CI. Fusionado. Sin revision humana; Copilot no pudo revisar por cuota.
+
+REVISION TECNICA ASISTIDA
+La inspeccion realizada para este registro no es una aprobacion humana del PR. Sus acciones correctivas propuestas son:
+1. Bloquear el merge hasta contar con al menos una aprobacion humana y checks obligatorios.
+2. Corregir los 162 archivos Web fuera de Prettier en un cambio separado y revisable.
+3. Actualizar dependencias Angular/DOMPurify con pruebas de regresion, sin usar --force sin evaluar la migracion.
+4. Descomponer mock-backend.interceptor.ts y los formularios moviles con mayor concentracion de decisiones.
+5. Reducir clones entre DTO Create/Update y flujos repetidos de controladores/formularios.
+
+ESTADO
+Las acciones anteriores quedan pendientes: no se modificaron repositorios de aplicacion ni se presenta ningun hallazgo como corregido.

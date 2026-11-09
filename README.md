@@ -262,6 +262,11 @@ _Commits realizados durante la entrega AV1_
   - [6.1.2. Core Integration Tests](#612-core-integration-tests)
   - [6.1.3. Core Behavior-Driven Development](#613-core-behavior-driven-development)
   - [6.1.4. Core System Tests](#614-core-system-tests)
+- [6.2. Static testing & Verification](#62-static-testing--verification)
+  - [6.2.1. Static Code Analysis](#621-static-code-analysis)
+    - [6.2.1.1. Coding standard & Code conventions.](#6211-coding-standard--code-conventions)
+    - [6.2.1.2. Code Quality & Code Security.](#6212-code-quality--code-security)
+  - [6.2.2. Reviews](#622-reviews)
 
 ### [Capítulo VII: DevOps Practices](#capítulo-vii-devops-practices)
 
@@ -6299,6 +6304,164 @@ _Reporte HTML de Playwright de las pruebas de sistema web_
 | UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendWeb | feature/functional-tests | 128c0d8   | feat: add functional test for machinery serial number rule | —                   | 03/10/2026          |
 
 <br>
+
+## 6.2. Static testing & Verification
+
+<div style="text-align: justify;">
+<p align="justify">
+
+La verificación estática de ArquiTech se ejecutó el 09/11/2026 sobre las copias locales identificadas en la tabla siguiente. La línea base conserva el commit exacto de cada ejecución para que los resultados puedan reproducirse y evita atribuir a `main` comprobaciones realizadas sobre otra revisión. El análisis combinó configuraciones existentes, compiladores y analizadores propios de cada tecnología, medición de duplicación, auditoría de dependencias, búsqueda dirigida de patrones de seguridad e inspección de Pull Requests. Ninguna herramienta se ejecutó en modo de corrección y no se modificó el código de las aplicaciones.
+
+</p>
+</div>
+
+| Producto | Rama y commit inspeccionados | Referencia `main` disponible en la copia local | Relación de la línea base con `main` |
+| -------- | ---------------------------- | --------------------------------------------- | ----------------------------------- |
+| Backend | `feature/devops-ci` · `c7498786665bcd7c8a81d6e855b3172c5c3e15d4` | `19980dee` | El árbol de código no presenta diferencias frente a la rama inspeccionada; `main` añade el commit de fusión. |
+| Frontend Web | `feature/devops-ci` · `33198ba118d13583ed4b312587c20ec277ae5dce` | `2559851` | `main` contiene 11 commits adicionales; los resultados no se extrapolan a esos cambios. |
+| Frontend Mobile | `feature/devops-ci` · `43ad8b70f009f4df3f57f928dbfd20fa98d428b8` | `0c2c804` | `main` contiene 9 commits adicionales; los resultados no se extrapolan a esos cambios. |
+| Landing Page | `feature/devops-ci` · `0905f7269d34cbe562ce1f4df2b8a3c1a5802b82` | `b97ed0f` | `main` contiene 13 commits adicionales; los resultados no se extrapolan a esos cambios. |
+
+<div style="text-align: justify;">
+<p align="justify">
+
+Los registros de consola, alcances, exclusiones y limitaciones se conservan como evidencia técnica en [`static-analysis-execution.txt`](assets/chapter-6/static-verification/static-analysis-execution.txt), [`duplication-results.txt`](assets/chapter-6/static-verification/duplication-results.txt), [`security-review.txt`](assets/chapter-6/static-verification/security-review.txt) y [`pull-request-review-events.txt`](assets/chapter-6/static-verification/pull-request-review-events.txt). Estos archivos no contienen contraseñas, tokens ni valores privados de configuración.
+
+</p>
+</div>
+
+### 6.2.1. Static Code Analysis
+
+<div style="text-align: justify;">
+<p align="justify">
+
+El análisis se diseñó por tecnología y utilizó primero las herramientas declaradas por cada repositorio. Cuando no existía una regla automatizada, se registró como convención observada y no como cumplimiento garantizado. Las carpetas de dependencias, compilados, plataformas generadas y recursos binarios quedaron fuera de las mediciones; `jscpd` utilizó un umbral explícito de cinco líneas y cincuenta tokens para que sus porcentajes sean interpretables y reproducibles.
+
+</p>
+</div>
+
+| Repositorio | Herramienta y versión | Comando ejecutado | Alcance y exclusiones | Resultado verificable |
+| ----------- | --------------------- | ----------------- | --------------------- | --------------------- |
+| Backend | Maven 3.9.16, `javac` release 17 sobre JDK 21.0.13 | `mvn test` | 148 fuentes principales y suite disponible; excluye `.m2`, `target` y binarios | `BUILD SUCCESS`; 7 pruebas, 0 fallos, 0 errores y 0 omitidas. El `pom.xml` no configura Checkstyle, PMD, SpotBugs, Sonar ni Dependency-Check. |
+| Frontend Web | Prettier 3.9.9 | `npm exec -- prettier --check "src/**/*.{ts,html,css}" "public/i18n/*.json"` | `src` e internacionalización; excluye `node_modules` y `dist` | Código de salida 1: 162 archivos fuera del formato configurado. |
+| Frontend Web | TypeScript 5.7.3 | `npm exec -- tsc --noEmit -p tsconfig.app.json` | Fuentes incluidas por `tsconfig.app.json` | Código de salida 0, sin diagnósticos de tipado. |
+| Frontend Mobile | Flutter 3.47.6, Dart 3.13.5 y `flutter_lints` 6.0.0 | `flutter analyze` | `lib` y `test`; `analysis_options.yaml` excluye `build/**`, `android/**`, `ios/**` y `web/**` | `No issues found`, 47,0 s. La comprobación separada de `dart format` no concluyó y no se atribuye cumplimiento de formato. |
+| Landing Page | TypeScript 5.8.3 | `npm exec -- tsc --noEmit -p tsconfig.app.json` | Fuentes incluidas por `tsconfig.app.json`; excluye `node_modules` y `dist` | Código de salida 0, sin diagnósticos de tipado. No existe ESLint ni Prettier declarado. |
+| Cuatro aplicaciones | jscpd 4.0.5 | `npx --yes jscpd@4.0.5 ... --min-lines 5 --min-tokens 50 --reporters console` | Java en `src/main`, TypeScript/CSS en `src` y Dart en `lib`; excluye tests, generados, dependencias y compilados según repositorio | Se obtuvieron porcentajes de duplicación por línea; las plantillas HTML no aparecieron en el resumen y no reciben un porcentaje. |
+
+#### 6.2.1.1. Coding standard & Code conventions.
+
+<div style="text-align: justify;">
+<p align="justify">
+
+En el Backend se observan paquetes Java en minúsculas, clases e interfaces en `PascalCase`, métodos y atributos en `camelCase`, constantes en mayúsculas y sufijos coherentes como `Controller`, `ServiceImpl`, `Repository` y `Resource`. La organización separa dominio, aplicación, infraestructura e interfaces REST dentro de módulos funcionales. Java 17, records para comandos y recursos, inyección por constructor con Lombok y anotaciones de validación aportan tipado y separación de responsabilidades. Los comentarios Javadoc se concentran en contratos de infraestructura, mientras que el resto del código utiliza comentarios breves para decisiones no evidentes. La compilación confirma sintaxis y tipos, pero la ausencia de Checkstyle, PMD, SpotBugs o un formateador en Maven impide afirmar que la indentación y nomenclatura se controlen automáticamente.
+
+</p>
+<p align="justify">
+
+El Frontend Web organiza Angular por capacidades (`iam`, `projects`, `inventory`, `workforce`, `reports` y `shared`), emplea archivos en `kebab-case` con sufijos `.component`, `.service`, `.guard` e `.interceptor`, clases en `PascalCase` y miembros en `camelCase`. `.editorconfig` exige UTF-8, espacios de dos caracteres, línea final y eliminación de espacios finales; `.prettierrc.json` añade ancho de 120 caracteres, comillas simples y comas finales. TypeScript activa `strict`, `noImplicitOverride`, `noImplicitReturns`, `noFallthroughCasesInSwitch` y plantillas Angular estrictas. El compilador no produjo diagnósticos, pero Prettier rechazó 162 archivos, por lo que la convención está definida y su cumplimiento actual es parcial.
+
+</p>
+<p align="justify">
+
+El Frontend Mobile sigue las convenciones de Dart: archivos en `snake_case`, tipos y widgets en `UpperCamelCase`, miembros en `lowerCamelCase` y constantes con nombres descriptivos. La estructura por `features` separa `data`, `domain` y `presentation`, mientras `core` concentra red, almacenamiento y widgets reutilizables. `analysis_options.yaml` incluye `package:flutter_lints/flutter.yaml` sin desactivar reglas y el analizador finalizó sin incidencias. Sin embargo, la ejecución de `dart format --output=none --set-exit-if-changed lib test` no produjo un resultado concluyente dentro del tiempo de observación; por ello solo se acredita el cumplimiento del analizador, no el formato integral.
+
+</p>
+<p align="justify">
+
+La Landing Page aplica la nomenclatura Angular y TypeScript con archivos funcionales pequeños, clases en `PascalCase`, miembros en `camelCase` y separación entre componentes de producto, contenido legal, idioma e iconos. `tsconfig.json` activa modo estricto, control de retornos, caídas de `switch`, host bindings y plantillas estrictas; la comprobación TypeScript fue satisfactoria. No se encontraron `.editorconfig`, `.prettierrc` ni ESLint en la raíz inspeccionada, de modo que el formato y la consistencia visual dependen del criterio del equipo y no de una barrera automatizada.
+
+</p>
+</div>
+
+| Criterio | Backend | Frontend Web | Frontend Mobile | Landing Page |
+| -------- | ------- | ------------ | --------------- | ------------ |
+| Nombres y archivos | Convención Java observada; paquetes minúsculos y tipos `PascalCase` | `kebab-case` y sufijos Angular; tipos `PascalCase` | `snake_case` y `UpperCamelCase` conforme a Dart | Convención Angular observada |
+| Modularidad | Capas y módulos funcionales; controladores, servicios y repositorios separados | Capacidades funcionales y módulo `shared` | Organización por feature con `data/domain/presentation` | Componentes pequeños separados por responsabilidad |
+| Formato | Cuatro espacios observados, sin verificador configurado | Dos espacios y Prettier definido; 162 incumplimientos | Reglas de `flutter_lints`; formato no comprobado de forma concluyente | Sin formateador o linter declarado |
+| Tipado | Java 17 y validación Jakarta; compilación satisfactoria | TypeScript y plantillas estrictas; compilación satisfactoria | Dart sound typing y analyzer satisfactorio | TypeScript y plantillas estrictas; compilación satisfactoria |
+| Comentarios y documentación | Javadoc selectivo y comentarios de intención | TSDoc/comentarios en servicios y utilidades; no sustituyen el formato | Documentación breve en contratos y widgets complejos | Comentarios mínimos, proporcionales al tamaño |
+| Evaluación | Cumplimiento observado, no gobernado por SAST de estilo | Cumplimiento parcial | Cumplimiento del analyzer; formato pendiente | Tipado conforme; estilo no automatizado |
+
+#### 6.2.1.2. Code Quality & Code Security.
+
+<div style="text-align: justify;">
+<p align="justify">
+
+La calidad se evaluó con duplicación por tokens y líneas, tamaño de archivos y un conteo complementario de puntos de decisión. Este último cuenta ocurrencias de `if`, `for`, `while`, `case`, `catch`, `switch`, `&&`, `||` y operador condicional; sirve para localizar concentraciones de lógica, pero no se presenta como complejidad ciclomática formal ni como calificación de mantenibilidad de SonarQube. No se asignaron métricas que las herramientas disponibles no produjeron.
+
+</p>
+</div>
+
+| Producto | Archivos y líneas medidos por jscpd | Clones | Líneas duplicadas | Interpretación técnica |
+| -------- | ----------------------------------- | ------ | ----------------- | ---------------------- |
+| Backend | 141 Java · 3142 líneas | 22 | 158 · 5,03 % | La repetición se concentra en pares `Create/UpdateResource`, servicios de consulta y estructura de controladores. Parte es simetría de DTO, pero incrementa el costo de cambios transversales. |
+| Frontend Web | 88 TypeScript y 23 CSS · 8082 líneas | 14 | 184 · 2,28 % total; 3,21 % en TypeScript | Se repiten formularios y listas de inventario/fuerza laboral; CSS no presentó clones con el umbral. HTML quedó fuera del resumen efectivo. |
+| Frontend Mobile | 141 Dart · 8675 líneas | 27 | 344 · 3,97 % | Se repiten controladores, formularios y páginas CRUD entre trabajadores, tareas, maquinaria, incidentes y materiales. |
+| Landing Page | 9 TypeScript y 2 CSS · 1311 líneas | 0 | 0 · 0 % | No se detectaron clones con el umbral utilizado; HTML no quedó contabilizado y los fragmentos menores de cinco líneas no fueron evaluados. |
+
+| Prioridad | Archivo | Indicador observado | Riesgo de mantenibilidad |
+| --------- | ------- | ------------------- | ------------------------ |
+| Alta | Web `mock-backend.interceptor.ts` | 1060 LOC y 275 puntos de decisión aproximados | Concentra autenticación simulada, enrutamiento, validaciones y persistencia; conviene separar handlers por dominio. |
+| Alta | Mobile `attendance_form.dart` | 300 LOC y 71 puntos | Formulario con validación y estado concentrados; conviene extraer secciones y validadores. |
+| Media | Mobile `material_form_sheet.dart` | 287 LOC y 51 puntos | Comparte patrones con otros formularios y movimientos; admite componentes y mapeadores reutilizables. |
+| Media | Backend `Material.java` | 88 LOC y 14 puntos | Es el agregado con mayor concentración observada; requiere preservar invariantes mediante pruebas al refactorizar. |
+| Baja | Landing `language.ts` | 43 LOC y 16 puntos | La concentración es acotada por el tamaño; se recomienda mantener pruebas de selección y persistencia de idioma. |
+
+<div style="text-align: justify;">
+<p align="justify">
+
+La revisión de seguridad distinguió vulnerabilidades confirmadas por el gestor de dependencias, advertencias derivadas del diseño y búsquedas negativas que solo cubren patrones concretos. `npm audit` se ejecutó contra dependencias de producción, sin `audit fix`; en Backend y Mobile no existía un auditor de CVE configurado, por lo que no se declara que sus dependencias estén libres de vulnerabilidades.
+
+</p>
+</div>
+
+| Área | Evidencia inspeccionada | Resultado y clasificación | Acción correctiva |
+| ---- | ----------------------- | ------------------------- | ----------------- |
+| Dependencias Web | `npm audit --omit=dev --audit-level=low`; Angular 19.2.25 y DOMPurify 3.4.16 transitivo de jsPDF | **Confirmado:** 8 vulnerabilidades: 3 moderadas, 4 altas y 1 crítica; incluye avisos XSS, filtración/caché, XSRF y bypasses de DOMPurify. | Planificar actualización compatible de Angular, jsPDF/DOMPurify y pruebas de regresión; no aplicar `--force` sin evaluar la migración mayor. |
+| Dependencias Landing | Mismo comando; Angular 20.0.0 | **Confirmado:** 6 vulnerabilidades altas, incluidos avisos XSS, XSRF, DoS y caché. | Actualizar a una versión corregida dentro de una rama revisada y repetir auditoría/build/tests. |
+| SQL Injection | Seis `@Query` JPQL, repositorios Spring Data y búsqueda de `JdbcTemplate`, `EntityManager`, consultas nativas o concatenadas | **No confirmado en el alcance:** las consultas usan parámetros nombrados y no se encontraron APIs de SQL dinámico. La búsqueda no sustituye SAST/DAST. | Mantener consultas parametrizadas y añadir Dependency-Check/SAST al pipeline. |
+| XSS propio | Búsqueda de `[innerHTML]`, `innerHTML`, `DomSanitizer`, `bypassSecurityTrust*`, `document.write`, `eval` y `new Function` | **No se hallaron sinks propios** en Web o Landing. **Confirmado en dependencias:** npm reporta avisos XSS de Angular y DOMPurify. | Corregir dependencias y conservar plantillas sin bypass de sanitización. |
+| Autenticación y roles | Spring Security stateless, `@PreAuthorize`, restricciones por método HTTP, BCrypt, JWT firmado y 111 coincidencias de anotaciones Bean Validation y `@Valid` | **Control presente:** escritura reservada a `SUPERVISOR`, entradas REST validadas, secreto JWT inyectado y contraseñas redactadas en `toString`. | Incorporar pruebas negativas por rol y rotación documentada del secreto; revisar expiración según riesgo. |
+| JWT Web | `SessionService` persiste token y usuario en `localStorage` | **Advertencia potencial:** un XSS exitoso podría leer el token; no es una explotación confirmada. | Evaluar cookie `HttpOnly`, `Secure` y `SameSite` con protección CSRF, o reducir vida/alcance del token y endurecer CSP. |
+| Datos sensibles Mobile | `FlutterSecureStorageService` para JWT y `SharedPreferences` para preferencias | **Control presente:** el token se guarda en almacenamiento seguro y se elimina al cerrar sesión o recibir 401. | Validar configuración nativa de backup/keystore en builds de liberación y evitar logs de credenciales. |
+| Secretos rastreados | Nombres de archivos sensibles, claves de configuración y placeholders | **No se confirmaron secretos de producción:** no hay `.env`, PEM, JKS, P12 o keystore rastreados; Backend usa variables de entorno. Existen valores aislados de test no transcritos. | Añadir Gitleaks u otro detector de entropía; mantener los valores reales fuera de Git. |
+
+<div style="text-align: justify;">
+<p align="justify">
+
+SonarQube/SonarScanner, Checkmarx, Semgrep, Gitleaks, Checkstyle, PMD, SpotBugs, Trivy, OSV-Scanner y OWASP Dependency-Check no estaban instalados o configurados. En consecuencia, no se atribuyen porcentajes de cobertura SAST, deuda técnica, calificación de mantenibilidad ni estado satisfactorio de CVE para Maven o Flutter. `flutter analyze` informó además 32 paquetes con versiones más recientes incompatibles con las restricciones actuales; este dato indica mantenimiento pendiente, pero no equivale a una vulnerabilidad confirmada.
+
+</p>
+</div>
+
+### 6.2.2. Reviews
+
+<div style="text-align: justify;">
+<p align="justify">
+
+Se consultaron 25 Pull Requests fusionados: cuatro del Backend, seis del Frontend Web, seis del Frontend Mobile y nueve de la Landing Page. Para cada uno se inspeccionaron comentarios de conversación, comentarios sobre líneas y eventos de review. No se encontró ninguna aprobación humana ni observación técnica humana verificable. Los 25 PR contienen un evento `COMMENTED` de `copilot-pull-request-reviewer[bot]` que indica que la revisión no pudo ejecutarse porque quien la solicitó alcanzó su límite de cuota; este evento no es una aprobación. Los comentarios automáticos de Cloudflare presentes en algunos PR Web evidencian builds o previews, pero tampoco constituyen revisión de código.
+
+</p>
+</div>
+
+| Repositorio | PR y objetivo | Evidencia verificable | Observaciones de la revisión técnica asistida | Estado de resolución |
+| ----------- | ------------- | --------------------- | -------------------------------------------- | -------------------- |
+| Backend | [#2 · alineación full-stack](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/Arquitech-Backend/pull/2) | Fusionado en `a8bce9f`; [Copilot no pudo revisar por cuota](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/Arquitech-Backend/pull/2#pullrequestreview-5398484003) | El cambio integrado no posee comentario inline, solicitud de cambios o aprobación humana que permita vincular una corrección a un revisor. | Integrado; revisión humana pendiente. |
+| Backend | [#3 · integrar pruebas backend](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/Arquitech-Backend/pull/3) | Fusionado en `b02c33a`; cuatro archivos de pruebas declarados; [review automático no ejecutado](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/Arquitech-Backend/pull/3#pullrequestreview-5438008118) | Las pruebas aportan validación de stock, eliminación y seriales, pero el propio PR registró la ejecución como pendiente y no recibió revisión humana. | Integrado; ejecución posterior verificable disponible, aprobación humana pendiente. |
+| Frontend Web | [#1 · integrar pruebas funcionales](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendWeb/pull/1) | Fusionado en `d92b00e`; [Copilot no pudo revisar por cuota](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendWeb/pull/1#pullrequestreview-5438008407) | No hay observaciones humanas sobre localizadores, aserciones o aislamiento de datos. | Integrado; revisión humana pendiente. |
+| Frontend Web | [#3 · incorporar CI](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendWeb/pull/3) | Fusionado en `ef84711`; Cloudflare registró un build inicial fallido y un preview posterior exitoso; [Copilot no revisó](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendWeb/pull/3#pullrequestreview-5438105614) | La recuperación del build es evidencia automática de ejecución, no de observación y corrección derivadas de un revisor. | CI integrado; aprobación humana no acreditada. |
+| Frontend Mobile | [#3 · integrar pruebas funcionales](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendMobile/pull/3) | Fusionado en `26c134b`; [Copilot no pudo revisar por cuota](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendMobile/pull/3#pullrequestreview-5438008796) | No existen comentarios humanos que validen dispositivo, datos, backend objetivo o estabilidad de los flujos. | Integrado; revisión humana pendiente. |
+| Landing Page | [#1 · incorporar CI](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-LandingPage/pull/1) | Fusionado en `844f69d`; [Copilot no pudo revisar por cuota](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-LandingPage/pull/1#pullrequestreview-5438105867) | El merge y los checks no aportan evidencia de una evaluación humana del workflow. | Integrado; revisión humana pendiente. |
+
+<div style="text-align: justify;">
+<p align="justify">
+
+Ante la ausencia de code review humano verificable, se realizó una revisión técnica asistida sobre configuraciones, código, diffs y resultados de herramientas. Los hallazgos accionables son: corregir en un cambio separado los 162 archivos Web fuera de Prettier; actualizar Angular y DOMPurify con pruebas de regresión; descomponer el interceptor de mock Web y los formularios móviles con mayor concentración de decisiones; reducir clones entre DTO, controladores y flujos CRUD; e incorporar una política de rama que exija al menos una aprobación humana y checks obligatorios antes del merge. Estas acciones permanecen pendientes y no se presentan como correcciones ya implementadas.
+
+</p>
+</div>
+
 # Capítulo VII: DevOps Practices
 
 Este capítulo documenta la integración, entrega y despliegue de ArquiTech a partir de las configuraciones y resultados disponibles. La integración continua verifica los cambios; la entrega continua prepara una versión validada para su publicación; el despliegue continuo automatiza su puesta en producción. La evidencia permite distinguir las corridas de pruebas, la configuración de las plataformas y la publicación de una versión concreta.

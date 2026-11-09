@@ -1,0 +1,54 @@
+ARQUITECH - REGISTRO DE VERIFICACION ESTATICA
+Fecha local: 2026-11-09 (America/Lima)
+Modo: solo lectura sobre codigo fuente; no se aplicaron formateos ni correcciones.
+
+LINEA BASE INSPECCIONADA
+- Backend: feature/devops-ci, c7498786665bcd7c8a81d6e855b3172c5c3e15d4.
+  Referencia main local: 19980dee. El arbol de codigo no presenta diferencias frente a la rama inspeccionada.
+- Frontend Web: feature/devops-ci, 33198ba118d13583ed4b312587c20ec277ae5dce.
+  Referencia main local: 2559851. main contiene 11 commits adicionales.
+- Frontend Mobile: feature/devops-ci, 43ad8b70f009f4df3f57f928dbfd20fa98d428b8.
+  Referencia main local: 0c2c804. main contiene 9 commits adicionales.
+- Landing Page: feature/devops-ci, 0905f7269d34cbe562ce1f4df2b8a3c1a5802b82.
+  Referencia main local: b97ed0f. main contiene 13 commits adicionales.
+
+EJECUCIONES
+
+1. Backend
+Herramientas: OpenJDK Temurin 21.0.13; Maven 3.9.16; compilacion configurada para release 17.
+Comando: mvn test
+Alcance: pom.xml, 148 fuentes principales y la suite disponible en src/test.
+Exclusiones: target, .m2 y recursos binarios no se analizaron como codigo.
+Resultado: BUILD SUCCESS; 7 pruebas ejecutadas, 0 fallos, 0 errores, 0 omitidas; 28.611 s.
+Observacion: el pom.xml no configura Checkstyle, PMD, SpotBugs, JaCoCo, Sonar ni OWASP Dependency-Check.
+
+2. Frontend Web
+Herramientas: Node.js 24.19.0; npm 11.17.0; Prettier 3.9.9; TypeScript 5.7.3.
+Comando: npm exec -- prettier --check "src/**/*.{ts,html,css}" "public/i18n/*.json"
+Resultado: codigo de salida 1; 162 archivos no cumplen el formato de .prettierrc.json.
+Comando: npm exec -- tsc --noEmit -p tsconfig.app.json
+Resultado: codigo de salida 0; sin diagnosticos de tipado.
+Alcance: src y archivos de internacionalizacion indicados por el script format.
+Exclusiones: node_modules, dist y archivos generados.
+
+3. Frontend Mobile
+Herramientas: Flutter 3.47.6; Dart 3.13.5; flutter_lints 6.0.0.
+Comando: flutter analyze
+Resultado: No issues found; 47.0 s.
+Alcance: lib y test conforme a analysis_options.yaml.
+Exclusiones configuradas: build/**, android/**, ios/** y web/**.
+Comando adicional: dart format --output=none --set-exit-if-changed lib test
+Resultado: no concluyente; la ejecucion no produjo salida despues de 60 s y fue interrumpida. No se atribuye cumplimiento de formato.
+
+4. Landing Page
+Herramientas: Node.js 24.19.0; npm 11.17.0; TypeScript 5.8.3.
+Comando: npm exec -- tsc --noEmit -p tsconfig.app.json
+Resultado: codigo de salida 0; sin diagnosticos de tipado.
+Alcance: fuentes incluidas por tsconfig.app.json.
+Exclusiones: node_modules, dist y binarios.
+Observacion: package.json no declara ESLint ni Prettier y no existen .editorconfig o .prettierrc en la raiz inspeccionada.
+
+LIMITACIONES
+- SonarQube/SonarScanner, Checkmarx, Semgrep, Gitleaks, Checkstyle, PMD, SpotBugs, Trivy, OSV-Scanner y OWASP Dependency-Check no estaban instalados o configurados.
+- Las comprobaciones corresponden exactamente a los commits indicados; no se extrapolan a commits posteriores de main.
+- La ausencia de diagnosticos del compilador o del analizador no demuestra ausencia de vulnerabilidades.
