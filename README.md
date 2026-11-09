@@ -5552,6 +5552,58 @@ Afirmaciones sobre el producto o el problema realizadas por usuarios o por el pr
 | C05 | Se confía más en información que muestra responsables, fechas e historial de cambios (100 % de contratantes). | Usuarios (contratantes) | Positiva | 2.2.3 |
 | C06 | Centralizar la información de la obra en ArquiTech reduce errores, retrasos y pérdida de información. | Equipo (propuesta de valor) | Positiva | 1.2.2.2 |
 | C07 | ArquiTech es fácil de adoptar gracias a una interfaz intuitiva y recursos de capacitación breves. | Equipo (diferenciación) | Positiva | 2.1.2 |
+
+### 8.1.3. Experiment-Ready Questions
+
+<div style="text-align: justify;">
+<p align="justify">
+
+Una pregunta lista para experimentar es aquella que puede responderse mediante un trabajo específico en un período razonable. Se distinguen dos tipos: las preguntas impulsadas por creencias (Belief-led), que buscan comprobar o refutar una premisa previa del equipo, y las preguntas exploratorias (Exploratory), que buscan obtener conocimiento en áreas donde no existe una creencia previa.
+
+</p>
+<p align="justify">
+
+Antes de redactar las preguntas, el equipo aplicó la técnica de las Cinco W y una H (Who, What, Where, When, Why, How) sobre la materia prima de la sección 8.1.2 con dos fines: descubrir premisas ocultas en las ideas y assumptions, y generar preguntas exploratorias para los Knowledge Gaps.
+
+</p>
+</div>
+
+#### Aplicación de las Cinco W y una H
+
+| Pregunta guía | Aplicación a ArquiTech | Premisa oculta descubierta | Origen |
+| ------------- | ---------------------- | -------------------------- | ------ |
+| Who | ¿Quién registra realmente la información en obra? | Se asume que el propio supervisor registra todo, aunque podría delegar parte del registro. | A01, A02 |
+| What | ¿Qué información consulta primero un contratante? | Se asume que el avance general es lo más importante, sin evidencia de ello. | A04, K03 |
+| Where | ¿Dónde se registra la información, en campo o en oficina? | Se asume que el registro ocurre en campo y con conexión disponible. | A08, K02 |
+| When | ¿Cuándo se entera el contratante de una incidencia crítica? | Se asume que hoy se entera tarde, según las entrevistas, pero no se conoce cuánto tarda. | A07, C04 |
+| Why | ¿Por qué un usuario nuevo pediría ayuda en su primer uso? | Se asume que el problema es no saber por dónde empezar y no la cantidad de datos requeridos. | A09, C03 |
+| How | ¿Cómo decide una pyme constructora pagar por una herramienta digital? | Se asume que el valor operativo basta para justificar el pago, sin conocer el precio aceptable. | A10, K04 |
+
+#### Preguntas listas para experimentar
+
+| ID | Pregunta | Tipo | Materia prima | User Stories |
+| --- | -------- | ---- | ------------- | ------------ |
+| Q01 | ¿Un registro guiado de entradas y salidas con verificación de stock aumenta la proporción de operaciones correctas al primer intento y reduce el costo de corregir el inventario? | Belief-led | A01, I01, C02 | HU01, HU02, HU04, HU28 |
+| Q02 | ¿Una lista rápida de asistencia por obra reduce las omisiones y el tiempo administrativo de registrar una jornada? | Belief-led | A02, I02 | HU06, HU10, HU54, HU55 |
+| Q03 | ¿Un tablero que destaque las tareas prioritarias y vencidas permite identificar la tarea crítica en menos tiempo y con menor costo de coordinación? | Belief-led | A03, I03 | HU07, HU08, HU53 |
+| Q04 | ¿Un panel simplificado de seguimiento permite que el contratante conozca el estado de su obra sin solicitar ayuda al supervisor? | Belief-led | A04, I04, C04, K03 | HU20, HU33, HU39, HU40 |
+| Q05 | ¿Mostrar al responsable y la fecha en el historial de movimientos permite identificar el origen de un cambio en menos tiempo y reduce el costo de investigar discrepancias? | Belief-led | A05, I05, C05 | HU04, HU27 |
+| Q06 | ¿Generar de forma asistida el reporte semanal a partir de los registros reduce el tiempo y el costo de elaborarlo sin perder información requerida? | Belief-led | A06, I06, K01 | HU20, HU52 |
+| Q07 | ¿Las alertas de incidencias críticas permiten que los usuarios se enteren antes que con la revisión manual y con menor costo de seguimiento? | Belief-led | A07, I07, C04 | HU35, HU36, HU37, HU39 |
+| Q08 | ¿Guardar borradores sin conexión y sincronizarlos al recuperar la señal evita la pérdida y la doble digitación de registros de campo? | Belief-led | A08, I08 | Nueva HU requerida |
+| Q09 | ¿Una guía de primeros pasos según el rol permite que un usuario nuevo complete su primera tarea sin ayuda y reduce el costo de capacitación? | Belief-led | A09, I09, C03, C07 | HU19, HU22, HU23, HU46 |
+| Q10 | ¿Una Landing Page con beneficios y llamada a la acción por segmento aumenta las solicitudes de demostración calificadas y reduce el costo por prospecto? | Belief-led | A10, I10, C06 | HU11, HU12, HU13, HU34 |
+| Q11 | ¿En qué momentos de la jornada, desde qué dispositivo y con qué conectividad registran los supervisores la información de obra? | Exploratory | K02, A08 | — |
+| Q12 | ¿Qué precio mensual y qué funcionalidades consideran suficientes las pymes constructoras para pagar la suscripción de ArquiTech? | Exploratory | K04, A10 | — |
+
+<div style="text-align: justify;">
+<p align="justify">
+
+Los Knowledge Gaps K01, K03 y K05 no generan preguntas independientes. K01 (línea base de tiempo y costo) se cubre con la condición de control de cada experimento, K03 (información que consulta primero el contratante) se observa como evidencia secundaria de Q04, y K05 (falta de datos de uso) se atiende mediante el Web and Mobile Tracking Plan de la sección 8.2.8.
+
+</p>
+</div>
+
 # Conclusiones
 
 # Bibliografia
