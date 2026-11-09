@@ -6583,7 +6583,7 @@ El monitoreo continuo de ArquiTech se implementa como una verificación técnica
 </p>
 <p align="justify">
 
-La implementación está fusionada en la rama `main` del repositorio Backend, commit `b94e79c89e6e4b98f2ef4c339a71f9e842d7c504`. Sobre esta línea base se aplicó localmente la corrección del archivo compartido de resultados del workflow, sin commit, push ni despliegue. Las pruebas de código concluyeron satisfactoriamente y la consulta de solo lectura a GitHub permitió caracterizar la corrida fallida anterior; la ejecución remota de la versión corregida y el ciclo real de un Issue permanecen pendientes.
+El Backend dispone del endpoint de salud de Spring Boot Actuator desplegado en Railway y la versión corregida del monitoreo se ejecutó satisfactoriamente en GitHub Actions sobre la rama `main`, commit `d29eaa4`, mediante el evento manual `workflow_dispatch`. Esta evidencia remota complementa las pruebas locales de la lógica de monitoreo y confirma la comprobación integrada de los tres servicios públicos sin atribuirla a una ejecución programada.
 
 </p>
 </div>
@@ -6596,6 +6596,23 @@ La implementación está fusionada en la rama `main` del repositorio Backend, co
 Spring Boot Actuator 3.5.0 incorpora el endpoint `GET /actuator/health`. La configuración expone únicamente `health`, desactiva la página de descubrimiento y establece `show-details=never` y `show-components=never`; de este modo, la respuesta pública contiene el estado agregado sin nombres de componentes, configuración, credenciales ni detalles internos. Spring Security permite de forma anónima solo la ruta exacta `/actuator/health`; las reglas existentes para autenticación, roles y recursos de negocio permanecen sin cambios.
 
 </p>
+<p align="justify">
+
+La comprobación del endpoint desplegado `https://arquitech-backend-production-cfc2.up.railway.app/actuator/health` obtuvo HTTP 200 y la respuesta JSON `{"status":"UP"}`. La ruta se encuentra disponible públicamente para la verificación técnica y mantiene la exposición mínima definida para Actuator.
+
+</p>
+</div>
+
+**Figura 116**<br>
+_Verificación del endpoint de salud del Backend mediante Spring Boot Actuator._
+
+<p align="center">
+  <img src="assets/chapter-7/continuous-monitoring/figura-116-backend-actuator-health.jpg" width="1000" alt="Swagger muestra la respuesta HTTP 200 y el estado UP del endpoint Actuator del Backend desplegado en Railway">
+</p>
+
+_Nota._ Elaboración propia a partir de la comprobación del endpoint desplegado en Railway mediante Swagger. Se observa HTTP 200 y estado `UP`.
+
+<div style="text-align: justify;">
 <p align="justify">
 
 El workflow independiente `.github/workflows/continuous-monitoring.yml` utiliza GitHub Actions y Node.js 20. La lógica se implementó con APIs estándar de Node (`fetch`, `node:test` y servidor HTTP local), sin dependencias npm permanentes. El evento `schedule` se configura cada quince minutos y `workflow_dispatch` permite una ejecución manual. El monitor y la gestión del incidente comparten el archivo relativo `monitor-results.json`, resuelto en el workspace del job; esta ruta evita evaluar el contexto `runner` antes de que GitHub asigne un runner. La programación de GitHub Actions opera en UTC y puede experimentar demoras de plataforma, por lo que la frecuencia representa el intervalo solicitado y no un SLA de ejecución en tiempo real.
@@ -6614,7 +6631,7 @@ El workflow independiente `.github/workflows/continuous-monitoring.yml` utiliza 
 
 | Variable de repositorio | Valor predeterminado | Uso |
 | ----------------------- | --------------------- | --- |
-| `BACKEND_HEALTH_URL` | `https://arquitech-backend-production.up.railway.app/actuator/health` | Endpoint Actuator esperado después del despliegue del cambio. |
+| `BACKEND_HEALTH_URL` | `https://arquitech-backend-production.up.railway.app/actuator/health` | El YAML conserva este valor predeterminado; la variable de repositorio lo sustituye en ejecución por `https://arquitech-backend-production-cfc2.up.railway.app/actuator/health`, que corresponde al servicio activo verificado. |
 | `WEB_URL` | `https://arquitech-frontendweb.echacaliazaminaya.workers.dev/` | Disponibilidad pública del Frontend Web. |
 | `LANDING_URL` | `https://upc-1asi0732-202620-9112-arquitech.github.io/ArquiTech-LandingPage/` | Disponibilidad pública de la Landing Page. Puede dejarse vacía para omitirla. |
 | `MONITOR_TIMEOUT_MS` | `10000` | Tiempo máximo de cada solicitud, en milisegundos. |
@@ -6645,12 +6662,22 @@ El flujo implementado es `schedule/workflow_dispatch → pruebas de la lógica �
 | `actionlint 1.7.12 .github/workflows/continuous-monitoring.yml` | Código de salida 0; archivo válido | Validación de sintaxis, expresiones y contextos después de reemplazar `${{ runner.temp }}` por `monitor-results.json`; el binario temporal se verificó con el SHA-256 oficial. |
 | `node --test .github/scripts/monitor-endpoints.test.mjs` con Node.js 24.19.0 local | 5 aprobadas, 0 fallidas, 431,1631 ms | Servidores locales para respuesta saludable, HTTP 503, timeout, recuperación en el segundo intento y política de incidentes. |
 | `mvn test` con Maven 3.9.16, JDK 21.0.13 y compilación release 17 | Código de salida 0; 9 pruebas, 0 fallos, 0 errores y 0 omitidas | Siete pruebas de integración y dos pruebas de exposición y respuesta mínima de Actuator; tiempo agregado de las suites Surefire: 19,180 s. |
+| [GitHub Actions, ejecución 42637273053](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/Arquitech-Backend/actions/runs/42637273053) | `Success`; rama `main`, commit `d29eaa4`, evento `workflow_dispatch`; job `Check public availability` aprobado | Backend HTTP 200 en 159 ms; Frontend Web HTTP 200 en 92 ms; Landing Page HTTP 200 en 138 ms; un intento por destino y acción de incidentes `noop`. |
 | Monitor local contra Web y Landing, un intento y timeout de 10000 ms | Web HTTP 200 en 637 ms; Landing HTTP 200 en 341 ms | Observación puntual de disponibilidad pública a las `2026-11-09T07:32:03.204Z`; no constituye histórico ni SLA. |
+
+**Figura 117**<br>
+_Ejecución satisfactoria del pipeline de monitoreo continuo de ArquiTech._
+
+<p align="center">
+  <img src="assets/chapter-7/continuous-monitoring/figura-117-continuous-monitoring-success.png" width="1000" alt="GitHub Actions muestra el job Check public availability aprobado para Backend, Frontend Web y Landing Page">
+</p>
+
+_Nota._ Elaboración propia a partir de GitHub Actions, ejecución 42637273053 del 09/11/2026. Se verificó la disponibilidad de Backend, Frontend Web y Landing Page.
 
 <div style="text-align: justify;">
 <p align="justify">
 
-El registro completo de comandos, resultados y alcance se conserva en [`verification-2026-11-09.txt`](assets/chapter-7/continuous-monitoring/verification-2026-11-09.txt). El endpoint Backend de producción : comportamiento se verificó localmente mediante MockMvc.
+El registro completo de comandos, resultados y alcance local se conserva en [`verification-2026-11-09.txt`](assets/chapter-7/continuous-monitoring/verification-2026-11-09.txt). La [ejecución oficial 42637273053](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/Arquitech-Backend/actions/runs/42637273053) complementa esa evidencia: finalizó satisfactoriamente y verificó el endpoint del Backend con HTTP 200 y estado `UP`, además de las respuestas correctas del Frontend Web y la Landing Page.
 
 </p>
 </div>
@@ -6666,6 +6693,11 @@ Un destino se considera disponible cuando responde dentro del timeout y satisfac
 <p align="justify">
 
 La política de deduplicación utiliza un único Issue abierto con el label `availability-incident` y el título `[Monitoring] ArquiTech availability incident`. Una nueva corrida fallida no crea otro Issue ni añade comentarios repetitivos mientras ese incidente permanezca abierto. El fallo técnico se mantiene visible mediante el estado fallido de cada corrida de Actions; la notificación de apertura solo ocurre al cambiar desde ausencia de incidente hacia incidente abierto.
+
+</p>
+<p align="justify">
+
+En la ejecución 42637273053, los tres servicios respondieron satisfactoriamente y no existía un incidente abierto; por ello, la política seleccionó la acción `noop` y no creó ni modificó Issues.
 
 </p>
 </div>
@@ -6687,7 +6719,7 @@ GitHub Issues funciona como registro persistente y mecanismo de notificación. E
 </p>
 <p align="justify">
 
-El workflow ya está presente en `main` y declara `workflow_dispatch`; la corrección de `monitor-results.json` debe integrarse en esa rama antes de solicitar una nueva corrida. Una validación remota controlada requiere autorización expresa y endpoints temporales accesibles desde GitHub: primero se configura una respuesta saludable de Backend con `status: UP` y un destino con fallo, luego se ejecuta dos veces para observar apertura y supresión, y finalmente se restablece el destino saludable para comprobar el comentario de recuperación y el cierre. Las variables deben volver a sus valores operativos antes de la siguiente ejecución programada. No se requieren webhooks ni credenciales externas.
+La ejecución manual 42637273053 confirmó que el paso de gestión de incidentes finaliza correctamente cuando corresponde la acción `noop`. Las transiciones `open`, `suppress` y `recover` permanecen cubiertas por las pruebas automatizadas locales, aunque todavía no cuentan con evidencia de un ciclo real de incidente remoto. No se requieren webhooks ni credenciales externas para el mecanismo implementado.
 
 </p>
 </div>
