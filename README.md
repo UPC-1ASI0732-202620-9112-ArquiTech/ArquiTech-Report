@@ -5459,6 +5459,99 @@ En consecuencia, el estado actual del producto deja abiertas cuatro áreas de in
 </p>
 </div>
 
+### 8.1.2. Raw Material: Assumptions, Knowledge Gaps, Ideas, Claims
+
+<div style="text-align: justify;">
+<p align="justify">
+
+La materia prima de las preguntas proviene de las Lean UX Assumptions y Hypothesis Statements (secciones 1.2.2.2 y 1.2.2.3), del análisis de entrevistas (sección 2.2.3), de la propuesta de valor comunicada en la Landing Page y en las estrategias frente a competidores (sección 2.1.2), y del As-Is Summary (sección 8.1.1). Cada elemento se registra con su fuente y con la premisa que se busca cuestionar, ya que el objetivo no es probar el elemento en sí mismo, sino la creencia que lo sustenta.
+
+</p>
+</div>
+
+#### Assumptions
+
+<div style="text-align: justify;">
+<p align="justify">
+
+Creencias previas sobre los usuarios, el producto o el negocio que todavía no cuentan con evidencia suficiente y que deben ser contrastadas mediante experimentación.
+
+</p>
+</div>
+
+| ID | Assumption | Fuente | Premisa a cuestionar |
+| --- | ---------- | ------ | -------------------- |
+| A01 | Los supervisores registrarán los movimientos de materiales con suficiente frecuencia y precisión si el flujo es sencillo. | 1.2.2.2 (prioridad crítica) | Un registro más guiado reduce los errores de inventario. |
+| A02 | Registrar la asistencia en ArquiTech requiere menos esfuerzo que el método actual del supervisor. | 1.2.2.3 (Hypothesis Statement 2) | La captura diaria simplificada reduce omisiones y tiempo administrativo. |
+| A03 | El supervisor necesita distinguir con rapidez qué tareas son críticas o están vencidas. | 1.2.2.2 (User Assumptions) | Destacar prioridades acelera las decisiones de coordinación. |
+| A04 | Los contratantes utilizarán directamente ArquiTech para el seguimiento de sus obras. | 1.2.2.2 (prioridad alta) | Un acceso directo reduce las solicitudes de información al supervisor. |
+| A05 | Identificar al responsable y la fecha de cada registro aumenta la confianza en la información. | 1.2.2.2 (prioridad alta) | La trazabilidad visible reduce el esfuerzo de verificar discrepancias. |
+| A06 | Consolidar la información para un reporte semanal consume un tiempo significativo del supervisor. | 1.2.2.3 (Hypothesis Statement 6) | Generar el reporte desde los registros existentes reduce tiempo y costo. |
+| A07 | Los usuarios se enteran tarde de las incidencias que afectan la obra. | 2.2.3 (contratantes) | Un aviso oportuno adelanta la detección frente a la revisión manual. |
+| A08 | La conectividad en obra puede interrumpirse durante el registro de información. | 1.2.2.2 (prioridad media) | Conservar los registros sin conexión evita pérdida y doble digitación. |
+| A09 | Un usuario nuevo puede aprender las tareas principales con una orientación breve. | 1.2.2.2 (prioridad media) | Una guía inicial reduce la ayuda necesaria en el primer uso. |
+| A10 | Las constructoras pagarán una suscripción si ArquiTech demuestra valor frente a su proceso actual. | 1.2.2.2 (prioridad crítica) | Un mensaje adaptado a cada segmento aumenta la captación de clientes potenciales. |
+
+#### Knowledge Gaps
+
+<div style="text-align: justify;">
+<p align="justify">
+
+Áreas en las que el equipo reconoce que no dispone de información ni de una creencia previa, y que suelen dar origen a preguntas exploratorias.
+
+</p>
+</div>
+
+| ID | Knowledge Gap | Fuente |
+| --- | ------------- | ------ |
+| K01 | No se conoce la línea base de tiempo y costo que hoy demanda registrar materiales y asistencia o elaborar un reporte semanal. | 8.1.1 |
+| K02 | No se sabe en qué momentos de la jornada, desde qué dispositivo y con qué conectividad registran los supervisores la información de obra. | 8.1.1 y 2.2.3 |
+| K03 | No se sabe qué información consulta primero un contratante ni con qué frecuencia ingresa a revisar su obra. | 8.1.1 |
+| K04 | No se sabe qué precio mensual y qué funcionalidades consideran suficientes las pymes constructoras para pagar la suscripción. | 1.2.2.2 |
+| K05 | No se cuenta con datos de uso real del producto; el monitoreo actual solo mide disponibilidad. | 7.4 |
+
+#### Ideas
+
+<div style="text-align: justify;">
+<p align="justify">
+
+Propuestas del equipo para resolver un problema o alcanzar un objetivo. Siguiendo el enfoque XDPD, no se experimenta con la idea en sí misma sino con la premisa que la sustenta.
+
+</p>
+</div>
+
+| ID | Idea | Premisa subyacente |
+| --- | ---- | ------------------ |
+| I01 | Registro guiado de entradas y salidas de materiales con verificación de stock. | Los errores de inventario se deben a un flujo poco guiado. |
+| I02 | Lista rápida de asistencia por obra. | El esfuerzo de registro provoca omisiones. |
+| I03 | Tablero de tareas que destaque prioridades y vencimientos. | El supervisor pierde tiempo ubicando lo urgente. |
+| I04 | Panel simplificado de seguimiento para contratantes. | El contratante pregunta al supervisor porque no encuentra la información por sí mismo. |
+| I05 | Historial de movimientos con responsable y fecha visibles. | Las discrepancias toman tiempo porque no se sabe quién hizo qué ni cuándo. |
+| I06 | Generación asistida del reporte semanal a partir de los registros. | El costo del reporte está en recopilar información de varias fuentes. |
+| I07 | Alertas de incidencias críticas. | Las incidencias se conocen tarde porque dependen de la revisión manual. |
+| I08 | Borradores sin conexión con sincronización posterior. | La falta de señal provoca pérdida o doble digitación de registros. |
+| I09 | Guía de primeros pasos según el rol. | El primer uso requiere ayuda porque el usuario no sabe por dónde empezar. |
+| I10 | Landing Page con beneficios y llamada a la acción por segmento. | Un mensaje genérico no convence ni al supervisor ni al contratante. |
+
+#### Claims
+
+<div style="text-align: justify;">
+<p align="justify">
+
+Afirmaciones sobre el producto o el problema realizadas por usuarios o por el propio equipo. Las afirmaciones positivas deben comprobarse antes de usarse como argumento de venta; las negativas deben contrastarse con evidencia.
+
+</p>
+</div>
+
+| ID | Claim | Emisor | Tipo | Fuente |
+| --- | ----- | ------ | ---- | ------ |
+| C01 | Disponer de información actualizada de la obra es fundamental (100 % de supervisores entrevistados). | Usuarios (supervisores) | Positiva | 2.2.3 |
+| C02 | La información está dispersa entre registros físicos, hojas de cálculo, mensajería y documentos (100 % de supervisores). | Usuarios (supervisores) | Negativa | 2.2.3 |
+| C03 | Una herramienta compleja o lenta se convertiría en una barrera de adopción (100 % de supervisores). | Usuarios (supervisores) | Negativa | 2.2.3 |
+| C04 | Los problemas de la obra se comunican tarde o de forma incompleta (100 % de contratantes). | Usuarios (contratantes) | Negativa | 2.2.3 |
+| C05 | Se confía más en información que muestra responsables, fechas e historial de cambios (100 % de contratantes). | Usuarios (contratantes) | Positiva | 2.2.3 |
+| C06 | Centralizar la información de la obra en ArquiTech reduce errores, retrasos y pérdida de información. | Equipo (propuesta de valor) | Positiva | 1.2.2.2 |
+| C07 | ArquiTech es fácil de adoptar gracias a una interfaz intuitiva y recursos de capacitación breves. | Equipo (diferenciación) | Positiva | 2.1.2 |
 # Conclusiones
 
 # Bibliografia
