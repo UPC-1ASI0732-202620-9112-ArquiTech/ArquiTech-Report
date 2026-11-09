@@ -5604,6 +5604,180 @@ Los Knowledge Gaps K01, K03 y K05 no generan preguntas independientes. K01 (lín
 </p>
 </div>
 
+### 8.1.5. Experiment Cards
+
+<div style="text-align: justify;">
+<p align="justify">
+
+Cada pregunta Belief-led del Question Backlog se documenta en una Experiment Card. El lado frontal sigue la plantilla del curso: el supuesto que sirve como punto de partida, la pregunta de negocio (Question), la razón por la que importa al negocio (Why), la forma más simple de validarla (What, entendida como la Simplest Useful Thing), la hipótesis, las métricas y las metas. Toda hipótesis incluye un indicador de negocio y otro financiero. El lado posterior detalla la configuración del experimento: las medidas (Measures), las condiciones (Conditions) y la escala (Scale).
+
+</p>
+<p align="justify">
+
+Las métricas citadas en las tarjetas corresponden exclusivamente a las definidas en Domain Business Metrics (sección 8.2.2). El detalle de medidas, condiciones, cálculo de escala y método se desarrolla en las secciones 8.2.3 a 8.2.6. Los costos se calculan con una tarifa horaria de referencia que se aplica por igual a la condición de control y a la experimental, y los experimentos se ejecutan con datos ficticios y consentimiento de los participantes. Las tarjetas se presentan en el orden de prioridad del Question Backlog; el archivo de trabajo en Excel se incluye en el archivo .zip complementario de la entrega.
+
+</p>
+</div>
+
+#### EC04 · Panel simplificado de seguimiento (prioridad 1)
+
+| Campo | Contenido |
+| ----- | --------- |
+| **Supuesto** | Los contratantes pueden acceder a la información de sus proyectos según su rol. |
+| **Question** | Q04. ¿Un panel simplificado de seguimiento permite que el contratante conozca el estado de su obra sin solicitar ayuda al supervisor? |
+| **Why** | La autonomía de consulta eleva la utilidad percibida del SaaS por parte del segmento que paga la suscripción y reduce el costo de responder solicitudes de estado. |
+| **What** | Prueba comparativa: ocho contratantes realizan tareas de consulta equivalentes en la interfaz actual y en un prototipo de panel simplificado, sobre obras de prueba. |
+| **Hypothesis** | H04. Si incorporamos un panel simplificado de seguimiento para contratantes, esperamos que al menos el 80 % consulte correctamente el estado de su obra sin ayuda en menos de tres minutos y que el costo de atención a consultas disminuya al menos 20 %. |
+| **Métricas** | M04 (negocio) y F01 (financiera). |
+| **Metas** | M04 ≥ 80 %; F01 ≥ 20 % de ahorro frente a la interfaz actual. |
+| **Reverso · Measures** | Principal: M04 y F01. Secundarias: solicitudes de ayuda durante la tarea y primer elemento consultado por el contratante (Knowledge Gap K03). |
+| **Reverso · Conditions** | Control: interfaz actual de consulta. Experimental: prototipo de panel simplificado. |
+| **Reverso · Scale** | 8 contratantes, ambas versiones por participante con orden contrabalanceado (valor preliminar; ver 8.2.5). |
+| **User Stories** | HU20, HU33, HU39, HU40 |
+
+#### EC10 · Landing Page personalizada para demostraciones (prioridad 2)
+
+| Campo | Contenido |
+| ----- | --------- |
+| **Supuesto** | ArquiTech cuenta con una Landing Page que presenta sus beneficios y orienta a los visitantes hacia acciones de contacto o acceso. |
+| **Question** | Q10. ¿Una Landing Page con beneficios y llamada a la acción por segmento aumenta las solicitudes de demostración calificadas y reduce el costo por prospecto? |
+| **Why** | Obtener más demostraciones calificadas con la misma inversión comercial permite construir una cartera de clientes de suscripción con un menor costo de adquisición. |
+| **What** | Test A/B entre la Landing Page actual y una variante con beneficios y llamada a la acción según el rol del visitante (supervisor o contratante), con tráfico dividido y el mismo presupuesto de adquisición por grupo. |
+| **Hypothesis** | H10. Si personalizamos la presentación de beneficios y la solicitud de demostración de ArquiTech según el perfil del visitante, esperamos aumentar al menos 20 % la tasa de solicitudes calificadas de demostración y reducir al menos 15 % el costo por prospecto calificado frente a la página actual. |
+| **Métricas** | M11 (negocio) y F03 (financiera). |
+| **Metas** | M11 ≥ 20 % de incremento relativo; F03 ≥ 15 % de reducción. |
+| **Reverso · Measures** | Principal: M11 y F03. Secundarias: tasa de clics en la llamada a la acción y proporción de solicitudes que cumplen los criterios de cliente potencial. |
+| **Reverso · Conditions** | Control: Landing Page actual (A). Experimental: variante por segmento (B). Cada visitante ve una sola variante. |
+| **Reverso · Scale** | Al menos 200 visitas únicas por variante, si el tráfico lo permite (valor preliminar; ver 8.2.5). |
+| **User Stories** | HU11, HU12, HU13, HU34 |
+
+#### EC06 · Generación asistida de reportes (prioridad 3)
+
+| Campo | Contenido |
+| ----- | --------- |
+| **Supuesto** | ArquiTech reúne registros de proyectos, materiales, asistencia, tareas e incidencias y permite consultar el reporte semanal. |
+| **Question** | Q06. ¿Generar de forma asistida el reporte semanal a partir de los registros reduce el tiempo y el costo de elaborarlo sin perder información requerida? |
+| **Why** | Reducir el esfuerzo de elaborar reportes justifica el uso recurrente de ArquiTech y mejora la eficiencia operativa de las empresas constructoras. |
+| **What** | Prueba comparativa: ocho supervisores elaboran reportes de complejidad equivalente, uno con el procedimiento manual y otro con un prototipo de generación asistida, alternando el orden. |
+| **Hypothesis** | H06. Si incorporamos la generación asistida de reportes semanales a partir de los registros de ArquiTech, esperamos reducir al menos 40 % el tiempo mediano de elaboración y al menos 30 % el costo total por reporte frente al procedimiento manual, sin perder información requerida. |
+| **Métricas** | M06 (negocio), M07 (control de completitud) y F02 (financiera). |
+| **Metas** | M06 ≥ 40 % de reducción; M07 ≥ 90 %; F02 ≥ 30 % de ahorro. |
+| **Reverso · Measures** | Principal: M06 y F02. Restricción: M07, ya que un reporte más rápido pero incompleto no se acepta como éxito. |
+| **Reverso · Conditions** | Control: consolidación manual de la información. Experimental: prototipo de generación asistida. |
+| **Reverso · Scale** | 8 supervisores, un reporte por condición y por participante, con orden contrabalanceado (valor preliminar; ver 8.2.5). |
+| **User Stories** | HU20, HU52 (la generación asistida requiere una nueva HU) |
+
+#### EC07 · Alertas de incidencias críticas (prioridad 4)
+
+| Campo | Contenido |
+| ----- | --------- |
+| **Supuesto** | ArquiTech permite registrar y consultar incidencias por proyecto, y algunas de ellas requieren atención prioritaria. |
+| **Question** | Q07. ¿Las alertas de incidencias críticas permiten que los usuarios se enteren antes que con la revisión manual y con menor costo de seguimiento? |
+| **Why** | Reducir el monitoreo manual y los retrasos de comunicación disminuye las horas dedicadas a revisar estados y mejora la coordinación entre supervisor y contratante. |
+| **What** | Piloto controlado de dos semanas con incidencias simuladas en dos condiciones: revisión periódica de la plataforma y avisos prioritarios. |
+| **Hypothesis** | H07. Si incorporamos alertas prioritarias para incidencias críticas, esperamos que al menos el 75 % de los usuarios detecte una incidencia simulada en un máximo de diez minutos y que el costo operativo de seguimiento disminuya al menos 15 %. |
+| **Métricas** | M08 (negocio) y F01 (financiera). |
+| **Metas** | M08 ≥ 75 %; F01 ≥ 15 % de ahorro. |
+| **Reverso · Measures** | Principal: M08 y F01. Secundarias: hora del evento, hora de detección y tiempo dedicado al monitoreo. |
+| **Reverso · Conditions** | Control: revisión periódica sin alertas. Experimental: alertas prioritarias de incidencias críticas. |
+| **Reverso · Scale** | 12 participantes durante dos semanas (valor preliminar; ver 8.2.5). |
+| **User Stories** | HU35, HU36, HU37, HU39 (las alertas requieren una nueva HU) |
+
+#### EC01 · Registro guiado de materiales (prioridad 6)
+
+| Campo | Contenido |
+| ----- | --------- |
+| **Supuesto** | ArquiTech contempla el registro de entradas, usos y consulta de materiales por proyecto, y el stock es relevante para el supervisor. |
+| **Question** | Q01. ¿Un registro guiado de entradas y salidas con verificación de stock aumenta la proporción de operaciones correctas al primer intento y reduce el costo de corregir el inventario? |
+| **Why** | Menos errores protegen la confiabilidad del stock y reducen las horas administrativas de corrección, lo que aumenta el valor de ArquiTech para las constructoras. |
+| **What** | Prueba comparativa: ocho supervisores realizan seis operaciones equivalentes con el flujo actual y con un prototipo de registro guiado, con orden contrabalanceado y datos ficticios. |
+| **Hypothesis** | H01. Si añadimos un registro guiado de entradas y salidas con verificación de stock, esperamos que al menos el 80 % de las operaciones se complete correctamente al primer intento y que el costo medio de corrección del inventario disminuya al menos 20 % frente al flujo actual. |
+| **Métricas** | M01 (negocio) y F01 (financiera). |
+| **Metas** | M01 ≥ 80 %; F01 ≥ 20 % de ahorro. |
+| **Reverso · Measures** | Principal: M01 y F01. Secundarias: errores por tipo de operación y minutos de corrección. |
+| **Reverso · Conditions** | Control: flujo actual de registro. Experimental: prototipo de registro guiado. |
+| **Reverso · Scale** | 8 supervisores × 6 operaciones por versión (valor preliminar; ver 8.2.5). |
+| **User Stories** | HU01, HU02, HU04, HU28 |
+#### EC05 · Historial verificable de movimientos (prioridad 7)
+
+| Campo | Contenido |
+| ----- | --------- |
+| **Supuesto** | La gestión de materiales registra movimientos asociados a un proyecto y el historial sirve para verificar discrepancias. |
+| **Question** | Q05. ¿Mostrar al responsable y la fecha en el historial de movimientos permite identificar el origen de un cambio en menos tiempo y reduce el costo de investigar discrepancias? |
+| **Why** | Identificar qué ocurrió y quién lo registró reduce la investigación manual y refuerza la confianza en la información administrada. |
+| **What** | Prueba comparativa: ocho usuarios analizan cinco discrepancias ficticias con la vista actual y con un historial enriquecido. |
+| **Hypothesis** | H05. Si incorporamos en el historial de materiales la identidad del responsable y la fecha de cada movimiento, esperamos que al menos el 80 % de los usuarios identifique correctamente el origen de un cambio en menos de dos minutos y que el costo de investigar discrepancias disminuya al menos 20 %. |
+| **Métricas** | M05 (negocio) y F01 (financiera). |
+| **Metas** | M05 ≥ 80 %; F01 ≥ 20 % de ahorro. |
+| **Reverso · Measures** | Principal: M05 y F01. Secundaria: solicitudes de soporte durante la tarea. |
+| **Reverso · Conditions** | Control: vista actual del historial. Experimental: historial enriquecido con responsable y fecha. |
+| **Reverso · Scale** | 8 usuarios × 5 discrepancias por versión (valor preliminar; ver 8.2.5). |
+| **User Stories** | HU04, HU27 |
+
+#### EC02 · Registro rápido de asistencia (prioridad 8)
+
+| Campo | Contenido |
+| ----- | --------- |
+| **Supuesto** | La plataforma incluye trabajadores y asistencia por proyecto, y el supervisor necesita controlar la presencia del personal. |
+| **Question** | Q02. ¿Una lista rápida de asistencia por obra reduce las omisiones y el tiempo administrativo de registrar una jornada? |
+| **Why** | Registros completos respaldan el control del personal y evitan revisiones repetidas; menos tiempo de digitación reduce el costo operativo del cliente. |
+| **What** | Prueba comparativa: ocho supervisores registran la asistencia de una lista ficticia de 12 trabajadores con el formulario actual y con un prototipo de lista rápida, alternando el orden. |
+| **Hypothesis** | H02. Si incorporamos un registro rápido de asistencia por proyecto, esperamos que al menos el 90 % de los registros se complete sin omisiones y que el costo administrativo por jornada registrada disminuya al menos 20 % respecto al flujo actual. |
+| **Métricas** | M02 (negocio) y F01 (financiera). |
+| **Metas** | M02 ≥ 90 %; F01 ≥ 20 % de ahorro. |
+| **Reverso · Measures** | Principal: M02 y F01. Secundarias: datos omitidos por tipo y minutos efectivos de registro. |
+| **Reverso · Conditions** | Control: formulario actual de asistencia. Experimental: prototipo de lista rápida. |
+| **Reverso · Scale** | 8 supervisores × 1 jornada de 12 trabajadores por versión (valor preliminar; ver 8.2.5). |
+| **User Stories** | HU06, HU10, HU54, HU55 |
+
+#### EC08 · Borradores sin conexión y sincronización (prioridad 9)
+
+| Campo | Contenido |
+| ----- | --------- |
+| **Supuesto** | Los supervisores realizan tareas en campo, donde la conexión a Internet puede interrumpirse durante el registro de información. |
+| **Question** | Q08. ¿Guardar borradores sin conexión y sincronizarlos al recuperar la señal evita la pérdida y la doble digitación de registros de campo? |
+| **Why** | Evitar la pérdida o repetición de información reduce horas administrativas y hace el producto más útil en obras con conectividad inestable. |
+| **What** | Prueba con prototipo e interrupciones de red simuladas: ocho supervisores generan cinco registros sin conexión y vuelven a conectarse. Se ejecuta después de responder Q11. |
+| **Hypothesis** | H08. Si incorporamos borradores sin conexión y sincronización posterior, esperamos que al menos el 90 % de los registros se sincronice sin pérdida ni duplicados dentro de los cinco minutos posteriores a recuperar la conexión y que el costo de reprocesar registros disminuya al menos 20 %. |
+| **Métricas** | M09 (negocio) y F01 (financiera). |
+| **Metas** | M09 ≥ 90 %; F01 ≥ 20 % de ahorro. |
+| **Reverso · Measures** | Principal: M09 y F01. Secundarias: registros duplicados y registros reingresados manualmente. |
+| **Reverso · Conditions** | Control: aplicación actual sin modo sin conexión. Experimental: prototipo con borradores y sincronización. |
+| **Reverso · Scale** | 8 supervisores × 5 registros por versión (valor preliminar; ver 8.2.5). |
+| **User Stories** | Requiere una nueva HU de guardado sin conexión y sincronización. |
+
+#### EC03 · Tablero de tareas prioritarias (prioridad 11)
+
+| Campo | Contenido |
+| ----- | --------- |
+| **Supuesto** | ArquiTech permite registrar, consultar y actualizar tareas vinculadas a una obra. |
+| **Question** | Q03. ¿Un tablero que destaque las tareas prioritarias y vencidas permite identificar la tarea crítica en menos tiempo y con menor costo de coordinación? |
+| **Why** | Detectar las prioridades en menos tiempo evita consultas repetidas y libera tiempo de supervisión, lo que reduce los costos de coordinación. |
+| **What** | Prueba comparativa: ocho supervisores resuelven cinco casos de identificación de tareas críticas en el listado actual y en un tablero con prioridades y vencimientos destacados. |
+| **Hypothesis** | H03. Si incorporamos un tablero que destaque las tareas prioritarias y vencidas, esperamos que al menos el 80 % de los supervisores identifique la tarea crítica correctamente en menos de dos minutos y que el costo de coordinación por caso disminuya al menos 15 %. |
+| **Métricas** | M03 (negocio) y F01 (financiera). |
+| **Metas** | M03 ≥ 80 %; F01 ≥ 15 % de ahorro. |
+| **Reverso · Measures** | Principal: M03 y F01. Secundarias: decisiones correctas y consultas adicionales realizadas. |
+| **Reverso · Conditions** | Control: listado actual de tareas. Experimental: tablero de tareas prioritarias. |
+| **Reverso · Scale** | 8 supervisores × 5 casos por versión (valor preliminar; ver 8.2.5). |
+| **User Stories** | HU07, HU08, HU53 |
+
+#### EC09 · Guía de primeros pasos por rol (prioridad 12)
+
+| Campo | Contenido |
+| ----- | --------- |
+| **Supuesto** | ArquiTech cuenta con autenticación y diferentes roles, y un usuario nuevo debe conocer los módulos que corresponden a su función. |
+| **Question** | Q09. ¿Una guía de primeros pasos según el rol permite que un usuario nuevo complete su primera tarea sin ayuda y reduce el costo de capacitación? |
+| **Why** | Si el primer uso es autónomo, el equipo dedica menos horas a soporte y se facilita la incorporación de nuevos clientes de la suscripción. |
+| **What** | Test A/B: doce usuarios nuevos se asignan aleatoriamente al flujo actual o al flujo con guía y realizan la misma tarea inicial de proyecto y materiales. |
+| **Hypothesis** | H09. Si incorporamos una guía interactiva de primeros pasos según el rol, esperamos que al menos el 80 % de los nuevos supervisores complete su primera tarea correctamente sin ayuda en menos de diez minutos y que el costo de capacitación inicial disminuya al menos 20 %. |
+| **Métricas** | M10 (negocio) y F01 (financiera). |
+| **Metas** | M10 ≥ 80 %; F01 ≥ 20 % de ahorro. |
+| **Reverso · Measures** | Principal: M10 y F01. Secundarias: tiempo hasta completar la tarea y minutos de apoyo brindados. |
+| **Reverso · Conditions** | Control: flujo actual sin guía. Experimental: flujo con guía de primeros pasos. |
+| **Reverso · Scale** | 12 usuarios nuevos, 6 por condición; cada participante usa una sola versión (valor preliminar; ver 8.2.5). |
+| **User Stories** | HU19, HU22, HU23, HU46 (relación indirecta) |
+
 # Conclusiones
 
 # Bibliografia
