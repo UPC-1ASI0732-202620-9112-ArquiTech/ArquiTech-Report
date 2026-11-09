@@ -5893,6 +5893,68 @@ Cada hipótesis se redacta con la estructura "Creemos que [creencia]; la evidenc
 | **Hypothesis (H1)** | Creemos que adaptar los beneficios y la llamada a la acción al perfil del visitante aumenta la captación de clientes potenciales; la evidencia se reflejará en un incremento relativo de al menos 20 % en la tasa de solicitudes de demostración calificadas (M11) y en una reducción de al menos 15 % en el costo por prospecto calificado (F03), bajo un Test A/B con tráfico dividido y el mismo presupuesto de adquisición por variante. |
 | **Null hypothesis (H0)** | La variante por segmento no aumenta la tasa de solicitudes calificadas ni reduce el costo por prospecto; cualquier diferencia frente a la página actual se debe al azar. |
 
+### 8.2.2. Domain Business Metrics
+
+<div style="text-align: justify;">
+<p align="justify">
+
+Esta sección define el catálogo de métricas del dominio de negocio de ArquiTech con el que se evalúan todos los experimentos. Su propósito es que cada hipótesis se vincule con un objetivo de negocio mediante métricas concretas, medibles y definidas de antemano, y evitar decisiones basadas en métricas de vanidad, como visitas totales, descargas o cantidad de registros creados, que pueden crecer sin que el producto genere valor.
+
+</p>
+<p align="justify">
+
+Cada métrica se describe con su fórmula de cálculo, la técnica de recolección y la meta deseada. Las Experiment Cards de la sección 8.1.5 solo hacen referencia a métricas de este catálogo; no se permiten métricas ad hoc. Las métricas de negocio (M) miden el cambio de comportamiento o de desempeño esperado, y las métricas financieras (F) traducen ese cambio en costo o ahorro, de modo que cada hipótesis cuenta con un indicador de cada tipo.
+
+</p>
+</div>
+
+#### Objetivos de negocio
+
+| Objetivo | Descripción | Métricas asociadas |
+| -------- | ----------- | ------------------ |
+| OB1. Eficiencia operativa del supervisor | Reducir el esfuerzo, los errores y el reprocesamiento al registrar información de obra. | M01, M02, M03, M06, M07, M09, F01, F02 |
+| OB2. Autonomía y confianza del contratante | Permitir que el contratante conozca el estado de su obra y confíe en la información sin depender del supervisor. | M04, M05, M08, F01 |
+| OB3. Adopción del producto | Lograr que los usuarios nuevos realicen sus tareas sin capacitación extensa. | M10, F01 |
+| OB4. Captación de clientes | Aumentar los clientes potenciales calificados con un costo de adquisición menor. | M11, F03 |
+
+#### Métricas de negocio
+
+| ID | Métrica | Fórmula | Técnica de recolección | Meta | Usada en |
+| --- | ------- | ------- | ---------------------- | ---- | -------- |
+| M01 | Tasa de operaciones de inventario correctas al primer intento | Operaciones de entrada o salida registradas correctamente al primer intento / total de operaciones × 100 | Registro de eventos del prototipo y verificación del stock final contra los datos de prueba | ≥ 80 % | EC01 |
+| M02 | Tasa de registros de asistencia completos | Registros de asistencia sin trabajadores ni estados omitidos / registros intentados × 100 | Comparación del registro realizado con la lista de trabajadores de prueba | ≥ 90 % | EC02 |
+| M03 | Tasa de identificación oportuna de la tarea crítica | Supervisores que identifican correctamente la tarea crítica en ≤ 2 min / supervisores evaluados × 100 | Cronometraje y hoja de observación del moderador | ≥ 80 % | EC03 |
+| M04 | Tasa de consultas autónomas del contratante | Contratantes que localizan el estado y los reportes de su obra sin ayuda en ≤ 3 min / participantes × 100 | Cronometraje, registro de solicitudes de ayuda y hoja de observación | ≥ 80 % | EC04 |
+| M05 | Tasa de identificación oportuna del origen de un cambio | Usuarios que identifican correctamente el responsable y la fecha de un movimiento en ≤ 2 min / usuarios evaluados × 100 | Cronometraje y verificación de respuestas contra las discrepancias de prueba | ≥ 80 % | EC05 |
+| M06 | Reducción del tiempo mediano de elaboración del reporte | (Mediana de minutos con el procedimiento manual − mediana de minutos con el prototipo) / mediana de minutos con el procedimiento manual × 100 | Cronometraje de cada sesión de elaboración | ≥ 40 % | EC06 |
+| M07 | Tasa de reportes completos | Reportes que contienen todos los campos obligatorios / reportes elaborados × 100 | Lista de verificación de campos obligatorios del reporte semanal | ≥ 90 % | EC06 |
+| M08 | Tasa de detección oportuna de incidencias críticas | Incidencias simuladas detectadas en ≤ 10 min desde su registro / incidencias simuladas notificadas × 100 | Registro de la hora del evento y de la hora de detección en el piloto | ≥ 75 % | EC07 |
+| M09 | Tasa de sincronización íntegra | Registros sincronizados completos y sin duplicados en ≤ 5 min tras recuperar la conexión / registros generados sin conexión × 100 | Registro de eventos de sincronización y comparación con los registros generados | ≥ 90 % | EC08 |
+| M10 | Tasa de primera tarea autónoma | Usuarios nuevos que completan su primera tarea sin ayuda en ≤ 10 min / participantes × 100 | Cronometraje y registro de solicitudes de ayuda del moderador | ≥ 80 % | EC09 |
+| M11 | Incremento relativo de la tasa de demostraciones calificadas | (Tasa de la variante B − tasa de la variante A) / tasa de la variante A × 100, donde tasa = solicitudes que cumplen los criterios de cliente potencial / visitas únicas × 100 | Analítica web de la Landing Page definida en la sección 8.2.8 y revisión de las solicitudes recibidas | ≥ 20 % | EC10 |
+
+#### Métricas financieras
+
+| ID | Métrica | Fórmula | Técnica de recolección | Meta | Usada en |
+| --- | ------- | ------- | ---------------------- | ---- | -------- |
+| F01 | Ahorro de costo operativo por caso | (Costo por caso en control − costo por caso en la condición experimental) / costo por caso en control × 100, donde costo por caso (S/) = minutos invertidos × tarifa horaria de referencia / 60 | Minutos medidos en cada sesión, multiplicados por la tarifa horaria de referencia | Según la tarjeta: ≥ 15 % (EC03, EC07) o ≥ 20 % (EC01, EC02, EC04, EC05, EC08, EC09) | EC01, EC02, EC03, EC04, EC05, EC07, EC08, EC09 |
+| F02 | Ahorro de costo total por reporte | (Costo del reporte manual − costo del reporte asistido) / costo del reporte manual × 100, donde costo del reporte (S/) = horas de elaboración × tarifa horaria de referencia + costos directos de preparación y validación | Cronometraje de la elaboración y registro de los costos directos de cada reporte | ≥ 30 % | EC06 |
+| F03 | Reducción del costo por prospecto calificado | (Costo por prospecto en A − costo por prospecto en B) / costo por prospecto en A × 100, donde costo por prospecto (S/) = gasto de campaña atribuible a la variante / prospectos calificados de la variante | Registro del gasto de adquisición por variante y de las solicitudes calificadas | ≥ 15 % | EC10 |
+
+#### Parámetro de cálculo
+
+| Parámetro | Definición | Regla de uso |
+| --------- | ---------- | ------------ |
+| Tarifa horaria de referencia (S/ por hora) | Costo por hora del rol que realiza la tarea (supervisor de obra o personal de apoyo), fijado por el equipo antes de ejecutar los experimentos a partir de una remuneración de referencia del mercado. | Se aplica el mismo valor en la condición de control y en la experimental. Por ello, el ahorro porcentual de F01 y F02 depende de la diferencia de tiempo y no del valor elegido para la tarifa. |
+
+<div style="text-align: justify;">
+<p align="justify">
+
+Las metas de este catálogo son umbrales de aceptación propuestos para comprobar las hipótesis y no valores obtenidos. Una hipótesis se considera aceptada solo cuando su métrica de negocio y su métrica financiera alcanzan la meta con el nivel de certeza definido en la sección 8.2.5; si cualquiera de las dos no la alcanza, se mantiene la hipótesis nula.
+
+</p>
+</div>
+
 # Conclusiones
 
 # Bibliografia
