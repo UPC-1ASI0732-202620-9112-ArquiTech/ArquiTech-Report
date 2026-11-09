@@ -305,7 +305,7 @@ _Commits realizados durante la entrega AV1_
 - [8.3. Experimentation](#83-experimentation)
   - [8.3.1. To-Be User Stories](#831-to-be-user-stories)
   - [8.3.2. To-Be Product Backlog](#832-to-be-product-backlog)
-  
+
 ### [Conclusion](#conclusiones)
 
 ### [Bibliografía](#bibliografia)
@@ -6960,6 +6960,64 @@ Antes de redactar las preguntas, el equipo aplicó la técnica de las Cinco W y 
 <p align="justify">
 
 Los Knowledge Gaps K01, K03 y K05 no generan preguntas independientes. K01 (línea base de tiempo y costo) se cubre con la condición de control de cada experimento, K03 (información que consulta primero el contratante) se observa como evidencia secundaria de Q04, y K05 (falta de datos de uso) se atiende mediante el Web and Mobile Tracking Plan de la sección 8.2.8.
+
+</p>
+</div>
+
+### 8.1.4. Question Backlog
+
+<div style="text-align: justify;">
+<p align="justify">
+
+El Question Backlog de ArquiTech es una lista priorizada de preguntas de investigación y no de funcionalidades. Cada pregunta registra su motivación (Why), que justifica el esfuerzo de experimentar, y se puntúa con cuatro criterios en una escala de 1 a 5.
+
+</p>
+</div>
+
+| Criterio | Qué evalúa | 1 | 5 |
+| -------- | ---------- | --- | --- |
+| Confianza (C) | Qué tan seguros estamos hoy de conocer la respuesta. | No tenemos ninguna evidencia. | Tenemos evidencia cuantitativa sólida. |
+| Riesgo (R) | Qué tan grave sería para el negocio que nuestra creencia fuera incorrecta. | Consecuencias menores. | Compromete la propuesta de valor o los ingresos. |
+| Impacto (I) | Cuánto cambiarían las decisiones de producto al obtener la respuesta. | No cambiaría ninguna decisión. | Redefine prioridades del Product Backlog. |
+| Interés (Int) | Cuánto interesa la respuesta al equipo, a los usuarios y a los stakeholders. | Bajo interés. | Interés compartido y alto. |
+
+<div style="text-align: justify;">
+<p align="justify">
+
+Como una menor confianza implica una mayor necesidad de experimentar, la confianza se invierte en el cálculo: Prioridad = (6 − C) + R + I + Int, con un máximo de 20 puntos. En caso de empate se prioriza la pregunta con mayor Riesgo y, si el empate persiste, la de mayor Impacto. Ninguna pregunta recibe una confianza de 4 o 5 porque, hasta ahora, solo se cuenta con evidencia cualitativa de seis entrevistas y con ninguna medición de uso.
+
+</p>
+</div>
+
+| Prioridad | ID | Pregunta (resumen) | Why (motivación) | C | R | I | Int | Puntaje | Decisión |
+| :-------: | --- | ------------------ | ---------------- | :-: | :-: | :-: | :-: | :-----: | -------- |
+| 1 | Q04 | Panel simplificado para que el contratante se informe sin ayuda | La transparencia es el principal valor para el contratante; si no consulta la plataforma, el segmento que paga no percibe valor. | 2 | 5 | 5 | 5 | 19 | Experiment Card EC04 |
+| 2 | Q10 | Landing Page con mensaje por segmento | Sin captación eficiente de clientes no existen ingresos por suscripción. | 2 | 5 | 4 | 4 | 17 | Experiment Card EC10 |
+| 3 | Q06 | Generación asistida del reporte semanal | El reporte es la tarea más costosa de consolidar y la principal fuente de información para el contratante. | 2 | 4 | 5 | 4 | 17 | Experiment Card EC06 |
+| 4 | Q07 | Alertas de incidencias críticas | Los contratantes reportan que los problemas se comunican tarde, lo que genera retrasos y pérdida de confianza. | 2 | 4 | 4 | 5 | 17 | Experiment Card EC07 |
+| 5 | Q12 | Precio y funcionalidades que justifican la suscripción | Define si el modelo de ingresos es viable para las pymes constructoras. | 2 | 5 | 4 | 3 | 16 | Investigación exploratoria mediante To-Be Validation Interviews |
+| 6 | Q01 | Registro guiado de materiales | Los errores de inventario generan reprocesos y desconfianza en el stock, que es la información operativa más consultada. | 3 | 4 | 5 | 4 | 16 | Experiment Card EC01 |
+| 7 | Q05 | Historial con responsable y fecha | La confianza en la información depende de poder verificar su origen. | 2 | 4 | 4 | 4 | 16 | Experiment Card EC05 |
+| 8 | Q02 | Lista rápida de asistencia | El registro diario de asistencia es frecuente y su omisión afecta el control del personal. | 3 | 4 | 4 | 4 | 15 | Experiment Card EC02 |
+| 9 | Q08 | Borradores sin conexión | La pérdida de registros en campo obliga a digitar dos veces y desactualiza la información. | 1 | 3 | 4 | 3 | 15 | Experiment Card EC08 |
+| 10 | Q11 | Momento, dispositivo y conectividad del registro | Su respuesta determina si el modo sin conexión es realmente necesario. | 1 | 3 | 3 | 3 | 14 | Investigación exploratoria mediante To-Be Validation Interviews |
+| 11 | Q03 | Tablero de tareas prioritarias | Ubicar con rapidez lo urgente reduce consultas repetidas entre el equipo de obra. | 3 | 3 | 3 | 3 | 12 | Experiment Card EC03 |
+| 12 | Q09 | Guía de primeros pasos por rol | Un primer uso autónomo reduce el costo de incorporar nuevos clientes. | 3 | 3 | 3 | 3 | 12 | Experiment Card EC09 |
+
+<div style="text-align: justify;">
+<p align="justify">
+
+Las diez preguntas Belief-led generan una Experiment Card cada una (sección 8.1.5). Las preguntas exploratorias Q11 y Q12 no parten de una creencia que pueda contrastarse mediante una comparación entre condiciones; por ello, el método más simple y útil para responderlas son entrevistas de validación con supervisores y contratantes, que se incorporan a las To-Be Validation Interviews.
+
+</p>
+</div>
+
+#### Estructura del backlog: broad y deep
+
+<div style="text-align: justify;">
+<p align="justify">
+
+El backlog actual es amplio (broad): cubre las diez capacidades del As-Is Summary con una pregunta por capacidad, de modo que los experimentos abarcan la totalidad de las funcionalidades que forman parte del alcance del To-Be Software Platform. Sobre esa base, el backlog se profundiza (deep) en dos casos. Q11 se responde antes de ejecutar EC08, porque si los supervisores registran la información principalmente con conexión, el experimento de borradores sin conexión perdería prioridad. Para Q04, la pregunta mejor puntuada, se registran preguntas de seguimiento que se priorizarán con los resultados de EC04: ¿qué indicador consulta primero el contratante?, ¿con qué frecuencia necesita revisarlo? y ¿el panel reduce los mensajes enviados al supervisor por canales externos?
 
 </p>
 </div>
