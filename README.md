@@ -279,6 +279,11 @@ _Commits realizados durante la entrega AV1_
 - [7.3 Continuous Deployment](#73-continuous-deployment)
   - [7.3.1. Tools and Practices](#731-tools-and-practices)
   - [7.3.2. Production Deployment Pipeline Components](#732-production-deployment-pipeline-components)
+- [7.4. Continuous Monitoring](#74-continuous-monitoring)
+  - [7.4.1. Tools and Practices](#741-tools-and-practices)
+  - [7.4.2. Monitoring Pipeline Components](#742-monitoring-pipeline-components)
+  - [7.4.3. Alerting Pipeline Components](#743-alerting-pipeline-components)
+  - [7.4.4. Notification Pipeline Components](#744-notification-pipeline-components)
 
 ### [Conclusion](#conclusiones)
 
@@ -6567,6 +6572,129 @@ _Nota._ La captura muestra el backend y MySQL en estado Online. Los valores de l
 **Registro de publicación de GitHub Pages**
 
 GitHub registra [pages build and deployment, corrida 37563025123](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-LandingPage/actions/runs/37563025123) con resultado aprobado. La corrida está asociada a la rama gh-pages y al commit 0b2b0fff. Se presenta como evidencia de publicación de la landing y se distingue de sus corridas CI sobre main: no se afirma que estas hayan publicado automáticamente ese mismo commit.
+
+## 7.4. Continuous Monitoring
+
+<div style="text-align: justify;">
+<p align="justify">
+
+El monitoreo continuo de ArquiTech se implementa como una verificación técnica de disponibilidad separada del workflow de integración existente. El mecanismo comprueba el estado agregado del Backend y la respuesta HTTP de las aplicaciones públicas Web y Landing, registra código HTTP, latencia e intentos, y aplica una política de incidentes mediante GitHub Issues. Este alcance se limita a disponibilidad técnica: las alertas de stock, materiales e incidencias de obra pertenecen al dominio funcional y no se utilizan como indicadores de operación de la infraestructura.
+
+</p>
+<p align="justify">
+
+La implementación se encuentra en la copia local del repositorio Backend sobre la línea base `feature/devops-ci`, commit `c7498786665bcd7c8a81d6e855b3172c5c3e15d4`, sin commit, push ni despliegue. Las pruebas locales concluyeron satisfactoriamente; por tanto, se documentan como resultados de implementación verificados y no como evidencia de una ejecución programada en GitHub o de una alerta recibida por el equipo.
+
+</p>
+</div>
+
+### 7.4.1. Tools and Practices
+
+<div style="text-align: justify;">
+<p align="justify">
+
+Spring Boot Actuator 3.5.0 incorpora el endpoint `GET /actuator/health`. La configuración expone únicamente `health`, desactiva la página de descubrimiento y establece `show-details=never` y `show-components=never`; de este modo, la respuesta pública contiene el estado agregado sin nombres de componentes, configuración, credenciales ni detalles internos. Spring Security permite de forma anónima solo la ruta exacta `/actuator/health`; las reglas existentes para autenticación, roles y recursos de negocio permanecen sin cambios.
+
+</p>
+<p align="justify">
+
+El workflow independiente `.github/workflows/continuous-monitoring.yml` utiliza GitHub Actions y Node.js 20. La lógica se implementó con APIs estándar de Node (`fetch`, `node:test` y servidor HTTP local), sin dependencias npm permanentes. El evento `schedule` se configura cada quince minutos y `workflow_dispatch` permite una ejecución manual. La programación de GitHub Actions opera en UTC y puede experimentar demoras de plataforma, por lo que la frecuencia representa el intervalo solicitado y no un SLA de ejecución en tiempo real.
+
+</p>
+</div>
+
+| Herramienta o práctica | Implementación | Propósito y control aplicado |
+| ---------------------- | -------------- | ---------------------------- |
+| Spring Boot Actuator 3.5.0 | Dependencia `spring-boot-starter-actuator` y `GET /actuator/health` | Verifica el estado agregado del Backend sin publicar componentes ni detalles. |
+| Spring Security | Matcher público exacto para `/actuator/health` | Permite la consulta técnica sin ampliar el acceso a endpoints de negocio o a otros endpoints Actuator. |
+| GitHub Actions | Workflow `continuous-monitoring.yml`, separado de `ci.yml` | Ejecuta comprobaciones programadas o manuales sin reemplazar el pipeline de construcción. |
+| Node.js 20 | `monitor-endpoints.mjs` | Realiza solicitudes con timeout, registra HTTP, latencia, errores e intentos y genera JSON y Job Summary. |
+| `node:test` | `monitor-endpoints.test.mjs` | Comprueba éxito, error HTTP, timeout, reintento con recuperación y transiciones de incidentes mediante servidores locales. |
+| GitHub Issues | Label `availability-incident` y título estable | Mantiene un registro auditable del incidente, evita duplicados y documenta la recuperación. |
+
+| Variable de repositorio | Valor predeterminado | Uso |
+| ----------------------- | --------------------- | --- |
+| `BACKEND_HEALTH_URL` | `https://arquitech-backend-production.up.railway.app/actuator/health` | Endpoint Actuator esperado después del despliegue del cambio. |
+| `WEB_URL` | `https://arquitech-frontendweb.echacaliazaminaya.workers.dev/` | Disponibilidad pública del Frontend Web. |
+| `LANDING_URL` | `https://upc-1asi0732-202620-9112-arquitech.github.io/ArquiTech-LandingPage/` | Disponibilidad pública de la Landing Page. Puede dejarse vacía para omitirla. |
+| `MONITOR_TIMEOUT_MS` | `10000` | Tiempo máximo de cada solicitud, en milisegundos. |
+| `MONITOR_MAX_ATTEMPTS` | `3` | Número total de intentos antes de declarar un fallo. |
+| `MONITOR_RETRY_DELAY_MS` | `5000` | Espera entre intentos, en milisegundos. |
+
+### 7.4.2. Monitoring Pipeline Components
+
+<div style="text-align: justify;">
+<p align="justify">
+
+El flujo implementado es `schedule/workflow_dispatch → pruebas de la lógica → comprobación de endpoints → resultado JSON y Job Summary → evaluación del incidente`. Antes de contactar los servicios públicos, el workflow ejecuta las pruebas del monitor y de su máquina de estados. A continuación procesa los destinos configurados de manera secuencial. Para el Backend exige un código HTTP entre 200 y 399 y el contenido JSON `status: UP`; para Web y Landing exige un código entre 200 y 399. Cada intento conserva la latencia medida, el código HTTP, el error o timeout y el resultado de la validación de contenido.
+
+</p>
+</div>
+
+| Componente | Entrada | Procesamiento | Salida verificable |
+| ---------- | ------- | ------------- | ------------------ |
+| Disparador | Cron `*/15 * * * *` o ejecución manual | Inicia un único job; `concurrency` evita solapamientos del monitor | Corrida identificable en GitHub Actions. |
+| Pruebas previas | Scripts locales del monitor | Ejecuta `node --test .github/scripts/monitor-endpoints.test.mjs` | La comprobación de endpoints solo continúa si la lógica supera sus pruebas. |
+| Comprobación Backend | URL de `/actuator/health` | GET con timeout, reintentos, validación HTTP y `status: UP` | Estado, HTTP, latencia, cantidad de intentos y error, si corresponde. |
+| Comprobación Web/Landing | URL pública configurable | GET con redirect habilitado, timeout y reintentos | Estado, HTTP, latencia, cantidad de intentos y error, si corresponde. |
+| Registro | Resultados de todos los destinos | Escribe `monitor-results.json`, consola y tabla en `GITHUB_STEP_SUMMARY` | Evidencia por corrida sin incluir credenciales ni valores de configuración privados. |
+| Resultado del job | Resultado agregado | Continúa hasta gestionar el incidente y finalmente devuelve error si algún destino agotó sus intentos | Corrida satisfactoria o fallida con notificación procesada previamente. |
+
+| Verificación realizada el 09/11/2026 | Resultado | Alcance |
+| ------------------------------------- | --------- | ------- |
+| `node --test .github/scripts/monitor-endpoints.test.mjs` con Node.js 24.19.0 local | 5 aprobadas, 0 fallidas, 312,2592 ms | Respuesta saludable, HTTP 503, timeout, recuperación en el segundo intento y política de incidentes. |
+| `mvn test` con Maven 3.9.16 y compilación release 17 | `BUILD SUCCESS`; 9 pruebas, 0 fallos, 0 errores y 0 omitidas; 28,541 s | Siete pruebas existentes y dos pruebas nuevas de exposición y respuesta mínima de Actuator. |
+| Monitor local contra Web y Landing, un intento y timeout de 10000 ms | Web HTTP 200 en 637 ms; Landing HTTP 200 en 341 ms | Observación puntual de disponibilidad pública a las `2026-11-09T07:32:03.204Z`; no constituye histórico ni SLA. |
+
+<div style="text-align: justify;">
+<p align="justify">
+
+El registro completo de comandos, resultados y alcance se conserva en [`verification-2026-11-09.txt`](assets/chapter-7/continuous-monitoring/verification-2026-11-09.txt). El endpoint Backend de producción no se incluyó en la comprobación HTTP externa porque la dependencia y configuración Actuator aún no han sido desplegadas; su comportamiento se verificó localmente mediante MockMvc.
+
+</p>
+</div>
+
+### 7.4.3. Alerting Pipeline Components
+
+<div style="text-align: justify;">
+<p align="justify">
+
+Un destino se considera disponible cuando responde dentro del timeout y satisface su condición HTTP y, en el caso del Backend, el estado lógico `UP`. Una respuesta 4xx/5xx, un timeout, un error de red, un JSON inválido o un estado distinto de `UP` consume un intento. El valor predeterminado realiza tres intentos con cinco segundos de espera; únicamente el agotamiento de los tres intentos declara indisponibilidad. La recuperación dentro de la misma corrida se registra como éxito junto con el historial de intentos anteriores.
+
+</p>
+<p align="justify">
+
+La política de deduplicación utiliza un único Issue abierto con el label `availability-incident` y el título `[Monitoring] ArquiTech availability incident`. Una nueva corrida fallida no crea otro Issue ni añade comentarios repetitivos mientras ese incidente permanezca abierto. El fallo técnico se mantiene visible mediante el estado fallido de cada corrida de Actions; la notificación de apertura solo ocurre al cambiar desde ausencia de incidente hacia incidente abierto.
+
+</p>
+</div>
+
+| Resultado actual | Incidente abierto | Acción de la política | Efecto |
+| ---------------- | ------------------ | --------------------- | ------ |
+| Fallo | No | `open` | Crea un Issue con evidencia JSON y enlace a la corrida. |
+| Fallo | Sí | `suppress` | Conserva el Issue existente y suprime la notificación duplicada. |
+| Éxito | Sí | `recover` | Añade comentario de recuperación con evidencia y cierra el Issue. |
+| Éxito | No | `noop` | No crea ni modifica Issues. |
+
+### 7.4.4. Notification Pipeline Components
+
+<div style="text-align: justify;">
+<p align="justify">
+
+GitHub Issues funciona como registro persistente y mecanismo de notificación. El workflow solicita `contents: read` para obtener los scripts y `issues: write` exclusivamente para crear el label, abrir el incidente, publicar la recuperación y cerrarlo. El Issue incluye la fecha, el enlace a la corrida y el resultado estructurado de los destinos; no incorpora secretos. Las notificaciones efectivas dependen de que GitHub Issues esté habilitado y de las preferencias de observación o suscripción de los integrantes del repositorio.
+
+</p>
+<p align="justify">
+
+Para activar la operación remota se requiere integrar los archivos en la rama predeterminada, desplegar primero el Backend con Actuator y confirmar que la política de la organización permita `issues: write` al `GITHUB_TOKEN`. Las variables de repositorio son opcionales mientras se utilicen los valores predeterminados; deben configurarse cuando cambien URLs, timeout, intentos o intervalo entre reintentos. No se requieren webhooks ni credenciales externas.
+
+</p>
+<p align="justify">
+
+La validación realizada no generó Issues ni comentarios remotos porque no se efectuó push ni ejecución de GitHub Actions. Tampoco se dispone todavía de histórico de disponibilidad, percentiles de latencia, retención propia, dashboard o SLA; la evidencia operativa inicial dependerá de las corridas de Actions una vez desplegado el endpoint. La aplicación Mobile no se incluye en disponibilidad HTTP porque no expone un servicio público equivalente; su observabilidad requeriría telemetría de aplicación o métricas de distribución con un alcance diferente.
+
+</p>
+</div>
 
 # Conclusiones
 

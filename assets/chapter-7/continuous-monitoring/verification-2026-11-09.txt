@@ -1,0 +1,43 @@
+ARQUITECH - CONTINUOUS MONITORING LOCAL VERIFICATION
+Date: 2026-11-09 (America/Lima)
+Backend baseline: feature/devops-ci, c7498786665bcd7c8a81d6e855b3172c5c3e15d4
+No deployment, push, production failure or GitHub Issue was generated.
+
+1. Monitoring and incident policy tests
+Command: node --test .github/scripts/monitor-endpoints.test.mjs
+Runtime: Node.js 24.19.0
+Final result: 5 passed, 0 failed, duration 312.2592 ms.
+Verified cases:
+- Actuator-like response HTTP 200 with {"status":"UP"}.
+- HTTP 503 after the configured number of attempts.
+- Request timeout against a local delayed server.
+- Recovery when the second attempt changes from HTTP 503 to HTTP 200.
+- Incident transitions: open, suppress duplicate, recover/close and no operation.
+
+2. Backend tests
+Command: mvn test
+Runtime: Maven 3.9.16; JDK 21.0.13 compiling with release 17; Spring Boot 3.5.0.
+Final result: BUILD SUCCESS in 28.541 s.
+Tests: 9 executed, 0 failures, 0 errors, 0 skipped.
+Breakdown:
+- ApiIntegrationTests: 7 passed.
+- HealthEndpointSecurityTests: 2 passed.
+Verified health behavior:
+- GET /actuator/health is public and returns HTTP 200 with aggregate status UP.
+- The response omits components and details.
+- The runtime WebEndpointsSupplier exposes only the health Actuator endpoint.
+Diagnostic note: an initial run failed one configuration assertion because test application.properties shadows the production file. The assertion was replaced with runtime endpoint inspection before the successful final run.
+
+3. Read-only public URL check
+Command: node .github/scripts/monitor-endpoints.mjs
+Configuration: Web and Landing only; one attempt; 10000 ms timeout.
+Checked at: 2026-11-09T07:32:03.204Z.
+Result:
+- Frontend Web: HTTP 200, 637 ms, 1 attempt.
+- Landing Page: HTTP 200, 341 ms, 1 attempt.
+
+4. Scope and limitations
+- The Backend production health URL was not checked because the Actuator change has not been deployed.
+- The GitHub Actions workflow has not been pushed or executed on GitHub.
+- No availability incident Issue, duplicate suppression event or recovery comment has occurred in the remote repository.
+- HTTP latency values are observations from one local execution, not an SLA or historical metric.
