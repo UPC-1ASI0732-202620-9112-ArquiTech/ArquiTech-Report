@@ -285,6 +285,27 @@ _Commits realizados durante la entrega AV1_
   - [7.4.3. Alerting Pipeline Components](#743-alerting-pipeline-components)
   - [7.4.4. Notification Pipeline Components](#744-notification-pipeline-components)
 
+### [Capítulo VIII: Experiment-Driven Development](#capítulo-viii-experiment-driven-development)
+
+- [8.1. Experiment Planning](#81-experiment-planning)
+  - [8.1.1. As-Is Summary](#811-as-is-summary)
+  - [8.1.2. Raw Material: Assumptions, Knowledge Gaps, Ideas, Claims](#812-raw-material-assumptions-knowledge-gaps-ideas-claims)
+  - [8.1.3. Experiment-Ready Questions](#813-experiment-ready-questions)
+  - [8.1.4. Question Backlog](#814-question-backlog)
+  - [8.1.5. Experiment Cards](#815-experiment-cards)
+- [8.2. Experiment Design](#82-experiment-design)
+  - [8.2.1. Hypotheses](#821-hypotheses)
+  - [8.2.2. Domain Business Metrics](#822-domain-business-metrics)
+  - [8.2.3. Measures](#823-measures)
+  - [8.2.4. Conditions](#824-conditions)
+  - [8.2.5. Scale Calculations and Decisions](#825-scale-calculations-and-decisions)
+  - [8.2.6. Methods Selection](#826-methods-selection)
+  - [8.2.7. Data Analytics: Goals, KPIs and Metrics Selection](#827-data-analytics-goals-kpis-and-metrics-selection)
+  - [8.2.8. Web and Mobile Tracking Plan](#828-web-and-mobile-tracking-plan)
+- [8.3. Experimentation](#83-experimentation)
+  - [8.3.1. To-Be User Stories](#831-to-be-user-stories)
+  - [8.3.2. To-Be Product Backlog](#832-to-be-product-backlog)
+  
 ### [Conclusion](#conclusiones)
 
 ### [Bibliografía](#bibliografia)
@@ -6725,26 +6746,7 @@ La ejecución manual 42637273053 confirmó que el paso de gestión de incidentes
 </div>
 
 
-### [Capítulo VIII: Experiment-Driven Development](#capítulo-viii-experiment-driven-development)
 
-- [8.1. Experiment Planning](#81-experiment-planning)
-  - [8.1.1. As-Is Summary](#811-as-is-summary)
-  - [8.1.2. Raw Material: Assumptions, Knowledge Gaps, Ideas, Claims](#812-raw-material-assumptions-knowledge-gaps-ideas-claims)
-  - [8.1.3. Experiment-Ready Questions](#813-experiment-ready-questions)
-  - [8.1.4. Question Backlog](#814-question-backlog)
-  - [8.1.5. Experiment Cards](#815-experiment-cards)
-- [8.2. Experiment Design](#82-experiment-design)
-  - [8.2.1. Hypotheses](#821-hypotheses)
-  - [8.2.2. Domain Business Metrics](#822-domain-business-metrics)
-  - [8.2.3. Measures](#823-measures)
-  - [8.2.4. Conditions](#824-conditions)
-  - [8.2.5. Scale Calculations and Decisions](#825-scale-calculations-and-decisions)
-  - [8.2.6. Methods Selection](#826-methods-selection)
-  - [8.2.7. Data Analytics: Goals, KPIs and Metrics Selection](#827-data-analytics-goals-kpis-and-metrics-selection)
-  - [8.2.8. Web and Mobile Tracking Plan](#828-web-and-mobile-tracking-plan)
-- [8.3. Experimentation](#83-experimentation)
-  - [8.3.1. To-Be User Stories](#831-to-be-user-stories)
-  - [8.3.2. To-Be Product Backlog](#832-to-be-product-backlog)
 
 # Capítulo VIII: Experiment-Driven Development
 
