@@ -5366,6 +5366,99 @@ _Video About-the-product_
 
 [https://www.youtube.com/watch?v=k3Z0771Au1Y](https://www.youtube.com/watch?v=k3Z0771Au1Y)
 
+
+### [Capítulo VIII: Experiment-Driven Development](#capítulo-viii-experiment-driven-development)
+
+- [8.1. Experiment Planning](#81-experiment-planning)
+  - [8.1.1. As-Is Summary](#811-as-is-summary)
+  - [8.1.2. Raw Material: Assumptions, Knowledge Gaps, Ideas, Claims](#812-raw-material-assumptions-knowledge-gaps-ideas-claims)
+  - [8.1.3. Experiment-Ready Questions](#813-experiment-ready-questions)
+  - [8.1.4. Question Backlog](#814-question-backlog)
+  - [8.1.5. Experiment Cards](#815-experiment-cards)
+- [8.2. Experiment Design](#82-experiment-design)
+  - [8.2.1. Hypotheses](#821-hypotheses)
+  - [8.2.2. Domain Business Metrics](#822-domain-business-metrics)
+  - [8.2.3. Measures](#823-measures)
+  - [8.2.4. Conditions](#824-conditions)
+  - [8.2.5. Scale Calculations and Decisions](#825-scale-calculations-and-decisions)
+  - [8.2.6. Methods Selection](#826-methods-selection)
+  - [8.2.7. Data Analytics: Goals, KPIs and Metrics Selection](#827-data-analytics-goals-kpis-and-metrics-selection)
+  - [8.2.8. Web and Mobile Tracking Plan](#828-web-and-mobile-tracking-plan)
+- [8.3. Experimentation](#83-experimentation)
+  - [8.3.1. To-Be User Stories](#831-to-be-user-stories)
+  - [8.3.2. To-Be Product Backlog](#832-to-be-product-backlog)
+
+# Capítulo VIII: Experiment-Driven Development
+
+<div style="text-align: justify;">
+<p align="justify">
+
+Este capítulo aplica el enfoque Experiment-Driven Product Development (XDPD) sobre la versión actual de ArquiTech. En lugar de partir de nuevas funcionalidades, el equipo parte de preguntas: reúne la materia prima disponible, descubre las premisas que la sustentan, la convierte en preguntas listas para experimentar, las prioriza y diseña experimentos que permitan responderlas con evidencia. El capítulo se organiza en las fases de planificación (Experiment Planning), diseño (Experiment Design) y experimentación (Experimentation).
+
+</p>
+<p align="justify">
+
+Las cifras que aparecen en este capítulo, como porcentajes, tiempos o ahorros, son metas propuestas para comprobar hipótesis. No constituyen resultados observados ni deben interpretarse como beneficios ya obtenidos por ArquiTech.
+
+</p>
+</div>
+
+## 8.1. Experiment Planning
+
+<div style="text-align: justify;">
+<p align="justify">
+
+En la fase de planificación se reúne la materia prima del producto (Assumptions, Knowledge Gaps, Ideas y Claims) para descubrir las premisas que la sustentan. A partir de ella se formulan preguntas listas para experimentar, se registra la motivación (Why) de cada una y se organiza un Question Backlog priorizado, del cual se derivan las Experiment Cards.
+
+</p>
+</div>
+
+### 8.1.1. As-Is Summary
+
+<div style="text-align: justify;">
+<p align="justify">
+
+El punto de partida de la experimentación es el As-Is Software Platform de ArquiTech documentado en los capítulos V, VI y VII. La plataforma está compuesta por una Landing Page bilingüe publicada en GitHub Pages, una Frontend Web Application desarrollada con Angular y desplegada en Cloudflare, una Native-Mobile Application desarrollada con Flutter y distribuida mediante Firebase App Distribution, y una RESTful API desarrollada con Spring Boot, desplegada en Railway y documentada con OpenAPI/Swagger. La plataforma atiende a dos roles: el supervisor de obra, que registra y actualiza la información, y el contratante, que la consulta en modo de lectura.
+
+</p>
+<p align="justify">
+
+A nivel de verificación, la plataforma cuenta con pruebas unitarias, de integración, Behavior-Driven Development y de sistema para Web y Mobile (sección 6.1), análisis estático y revisiones (sección 6.2), y pipelines de integración, entrega, despliegue y monitoreo continuo de disponibilidad (capítulo VII). Estas prácticas permiten afirmar que las funcionalidades operan según lo especificado, pero no permiten afirmar que generan el valor esperado para los usuarios o para el negocio. Esa brecha es el objeto de este capítulo.
+
+</p>
+<p align="justify">
+
+Siguiendo el enfoque XDPD, este resumen no propone soluciones. Su objetivo es identificar, para cada capacidad del producto, qué existe actualmente y qué aspectos todavía no se conocen, a fin de generar preguntas en las siguientes secciones.
+
+</p>
+</div>
+
+| Capacidad | Estado actual (As-Is) | User Stories | Lo que todavía no sabemos |
+| --------- | --------------------- | ------------ | ------------------------- |
+| Materiales e inventario | Registro de entradas y usos de materiales con validación de stock, consulta de materiales e historial de movimientos por proyecto. | HU01, HU02, HU04, HU28 | Si el flujo actual evita errores de registro y cuánto cuesta corregir un movimiento equivocado. |
+| Trabajadores y asistencia | Registro y consulta de trabajadores y registro de asistencia por proyecto. | HU06, HU10, HU54, HU55 | Si registrar la asistencia de una jornada requiere menos esfuerzo que el método actual y si se producen omisiones. |
+| Tareas | Creación, asignación, consulta y actualización de tareas vinculadas a una obra. | HU07, HU08, HU53 | Si el supervisor identifica con rapidez las tareas críticas o vencidas. |
+| Seguimiento del contratante | Consulta de proyectos, materiales, trabajadores, tareas e incidencias según el rol, sin permisos de escritura. | HU33, HU39, HU40, HU42, HU43 | Si el contratante conoce el estado de su obra sin solicitar información adicional al supervisor. |
+| Trazabilidad | Historial de movimientos con fecha y control de acceso por rol. | HU04, HU27 | Si mostrar al responsable y la fecha de cada registro aumenta la confianza en la información. |
+| Reportes | Consulta y descarga del reporte semanal de una obra. | HU20, HU52 | Cuánto tiempo y costo ahorra frente a la consolidación manual de información. |
+| Incidencias | Registro, actualización y consulta de incidencias; no existen alertas automáticas. | HU35, HU36, HU37, HU39 | Si los usuarios se enteran a tiempo de las incidencias críticas sin revisar manualmente la plataforma. |
+| Conectividad | Las operaciones requieren conexión a Internet; no existe un modo sin conexión. | — | En qué momentos y con qué frecuencia se pierde la conexión durante el trabajo en campo. |
+| Adopción | Inicio de sesión, acceso por rol, cambio de idioma y preferencias de accesibilidad; no existe una guía de primeros pasos. | HU19, HU22, HU23, HU46 | Si un usuario nuevo completa su primera tarea sin ayuda. |
+| Captación | Landing Page bilingüe con beneficios, plan de suscripción, acceso a la plataforma y Términos y Condiciones. | HU11, HU12, HU13, HU34, HU60 | Qué mensaje convierte mejor a cada segmento y qué disposición a pagar existe. |
+
+<div style="text-align: justify;">
+<p align="justify">
+
+Las entrevistas del capítulo II aportan evidencia cualitativa a favor de las necesidades que ArquiTech atiende: el 100 % de los supervisores entrevistados considera fundamental disponer de información actualizada y centralizada, y el 100 % de los contratantes valora la transparencia y la comunicación oportuna de problemas. Sin embargo, la plataforma todavía no registra datos de uso que permitan comprobar si sus funcionalidades reducen esfuerzo, tiempo o costo; el monitoreo implementado (sección 7.4) mide la disponibilidad de los servicios, no el comportamiento de los usuarios.
+
+</p>
+<p align="justify">
+
+En consecuencia, el estado actual del producto deja abiertas cuatro áreas de incertidumbre que orientan la generación de preguntas: la eficiencia operativa de los registros del supervisor, la autonomía y confianza del contratante al consultar información, la facilidad de adopción del producto y la capacidad de la Landing Page para captar clientes dispuestos a pagar la suscripción.
+
+</p>
+</div>
+
 # Conclusiones
 
 # Bibliografia
