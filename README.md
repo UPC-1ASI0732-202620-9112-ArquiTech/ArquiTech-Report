@@ -2603,7 +2603,7 @@ Las personas representan los dos segmentos definidos en 1.3 y sintetizan el aná
 _User persona del segmento #1: Supervisor de Obra_
 
 <p align="center">
-  <img src="assets/chapter-2/User Persona/Juan Carlos Zegarra.png" alt="PB" width="1000" align="center">
+  <img src="assets/chapter-2/User Persona/Juan Carlos Zegarra.png" alt="Juan Carlos Zegarra" width="1000" align="center">
 </p>
 
 _Nota._ Elaboración propia.
@@ -2612,7 +2612,7 @@ _Nota._ Elaboración propia.
 _User persona del segmento #2: Contratista de Empresas privadas_
 
 <p align="center">
-  <img src="assets/chapter-2/User Persona/VERONICA DELGADO.png" alt="PB" width="1000">
+  <img src="assets/chapter-2/User Persona/VERONICA DELGADO.png" alt="VERONICA DELGADO" width="1000">
 </p>
 
 _Nota._ Elaboración propia.
@@ -2710,28 +2710,28 @@ Para elaborar y revisar estos mapas se propone preparar los hallazgos por segmen
 _As-Is Scenario Mapping para segmento #1_
 
 <p align="center">
-  <img src="assets/chapter-2/As-is/OS_As-is_S1.jpg" alt="PB" width="1000">
+  <img src="assets/chapter-2/As-is/OS_As-is_S1.jpg" alt="OS_As-is_S1" width="1000">
 </p>
 
 **Figura 19**  
 _Áreas positivas del As-Is Scenario Mapping para segmento #1_
 
 <p align="center">
-  <img src="assets/chapter-2/As-is/OS_As-is_S1_AP.jpg" alt="PB" width="1000">
+  <img src="assets/chapter-2/As-is/OS_As-is_S1_AP.jpg" alt="OS_As-is_S1_AP" width="1000">
 </p>
 
 **Figura 20**  
 _Áreas negativas del As-Is Scenario Mapping para segmento #1_
 
 <p align="center">
-  <img src="assets/chapter-2/As-is/OS_As-is_S1_AN.jpg" alt="PB" width="1000">
+  <img src="assets/chapter-2/As-is/OS_As-is_S1_AN.jpg" alt="OS_As-is_S1_AN" width="1000">
 </p>
 
 **Figura 21**  
 _Blank areas del As-Is Scenario Mapping para segmento \#1_
 
 <p align="center">
-  <img src="assets/chapter-2/As-is/OS_As-is_S1_BA.jpg" alt="PB" width="1000">
+  <img src="assets/chapter-2/As-is/OS_As-is_S1_BA.jpg" alt="OS_As-is_S1_BA" width="1000">
 </p>
 
 <ins>**As-Is Scenario Mapping para Segmento \# 2: Contratantes de Empresas Privadas**</ins>
@@ -2740,28 +2740,28 @@ _Blank areas del As-Is Scenario Mapping para segmento \#1_
 _As-Is Scenario Mapping para segmento #2_
 
 <p align="center">
-  <img src="assets/chapter-2/As-is/OS_As-is_S2.jpg" alt="PB" width="1000">
+  <img src="assets/chapter-2/As-is/OS_As-is_S2.jpg" alt="OS_As-is_S2" width="1000">
 </p>
 
 **Figura 23**  
 _Áreas positivas del As-Is Scenario Mapping para segmento #2_
 
 <p align="center">
-  <img src="assets/chapter-2/As-is/OS_As-is_S2_AP.jpg" alt="PB" width="1000">
+  <img src="assets/chapter-2/As-is/OS_As-is_S2_AP.jpg" alt="OS_As-is_S2_AP" width="1000">
 </p>
 
 **Figura 24**  
 _Áreas negativas del As-Is Scenario Mapping para segmento #2_
 
 <p align="center">
-  <img src="assets/chapter-2/As-is/OS_As-is_S2_AN.jpg" alt="PB" width="1000">
+  <img src="assets/chapter-2/As-is/OS_As-is_S2_AN.jpg" alt="OS_As-is_S2_AN" width="1000">
 </p>
 
 **Figura 25**  
 _Blank areas del As-Is Scenario Mapping para segmento #2_
 
 <p align="center">
-  <img src="assets/chapter-2/As-is/OS_As-is_S2_BA.jpg" alt="PB" width="1000">
+  <img src="assets/chapter-2/As-is/OS_As-is_S2_BA.jpg" alt="OS_As-is_S2_BA" width="1000">
 </p>
 
 ## 2.4. Ubiquitous Language
@@ -2817,28 +2817,28 @@ _Figura 26_
 To-Be Scenario Mapping del segmento #1
 
 <p align="center">
-  <img src="assets/chapter-3/To-be/OS_To-be_S1.jpg" alt="PB" width="1000">
+  <img src="assets/chapter-3/To-be/OS_To-be_S1.jpg" alt="OS_To-be_S1" width="1000">
 </p>
 
 _Figura 27_  
 Áreas positivas del To-Be Scenario Mapping para segmento #1
 
 <p align="center">
-  <img src="assets/chapter-3/To-be/OS_To-be_S1_AP.jpg" alt="PB" width="1000">
+  <img src="assets/chapter-3/To-be/OS_To-be_S1_AP.jpg" alt="OS_To-be_S1_AP" width="1000">
 </p>
 
 _Figura 28_  
 Áreas negativas del To-Be Scenario Mapping para segmento #1
 
 <p align="center">
-  <img src="assets/chapter-3/To-be/OS_To-be_S1_AN.jpg" alt="PB" width="1000">
+  <img src="assets/chapter-3/To-be/OS_To-be_S1_AN.jpg" alt="OS_To-be_S1_AN" width="1000">
 </p>
 
 _Figura 29_  
 Blank areas del To-Be Scenario Mapping para segmento #1
 
 <p align="center">
-  <img src="assets/chapter-3/To-be/OS_To-be_S1_BA.jpg" alt="PB" width="1000">
+  <img src="assets/chapter-3/To-be/OS_To-be_S1_BA.jpg" alt="OS_To-be_S1_BA" width="1000">
 </p>
 
 <ins>_To-Be Scenario Mapping para Segmento #2: Contratantes de Empresas Privadas_</ins>
@@ -2847,28 +2847,28 @@ _Figura 30_
 To-Be Scenario Mapping para segmento #2
 
 <p align="center">
-  <img src="assets/chapter-3/To-be/OS_To-be_S2.jpg" alt="PB" width="1000">
+  <img src="assets/chapter-3/To-be/OS_To-be_S2.jpg" alt="OS_To-be_S2" width="1000">
 </p>
 
 _Figura 31_  
 Áreas positivas del To-Be Scenario Mapping para segmento #2
 
 <p align="center">
-  <img src="assets/chapter-3/To-be/OS_To-be_S2_AP.jpg" alt="PB" width="1000">
+  <img src="assets/chapter-3/To-be/OS_To-be_S2_AP.jpg" alt="OS_To-be_S2_AP" width="1000">
 </p>
 
 _Figura 32_  
 Áreas negativas del To-Be Scenario Mapping para segmento #2
 
 <p align="center">
-  <img src="assets/chapter-3/To-be/OS_To-be_S2_AN.jpg" alt="PB" width="1000">
+  <img src="assets/chapter-3/To-be/OS_To-be_S2_AN.jpg" alt="OS_To-be_S2_AN" width="1000">
 </p>
 
 _Figura 33_  
 Blank areas del To-Be Scenario Mapping para segmento #2
 
 <p align="center">
-  <img src="assets/chapter-3/To-be/OS_To-be_S2_BA.jpg" alt="PB" width="1000">
+  <img src="assets/chapter-3/To-be/OS_To-be_S2_BA.jpg" alt="OS_To-be_S2_BA" width="1000">
 </p>
 
 ## 3.2. User Stories
@@ -3116,7 +3116,7 @@ Se presentará el diseño conceptual para la landing page como para la aplicaci�
 _Logo_
 
 <p align="center">
-  <img src="assets/chapter-4/Style-Guidelines/A-logo.png" alt="PB" width="1000">
+  <img src="assets/chapter-4/Style-Guidelines/A-logo.png" alt="A-logo" width="1000">
 </p>
 
 - Identidad:
@@ -3160,7 +3160,7 @@ La tipografía de Arquitech cumple un importante rol en la expresión de la iden
 _Tipografía de logo y títulos_
 
 <p align="center">
-  <img src="assets/chapter-4/Style-Guidelines/font-demo1.png" alt="PB" width="1000">
+  <img src="assets/chapter-4/Style-Guidelines/font-demo1.png" alt="font-demo1" width="1000">
 </p>
 
 - Tipografía de Texto Regular:  
@@ -3170,7 +3170,7 @@ _Tipografía de logo y títulos_
 _Tipografía de texto regular_
 
 <p align="center">
-  <img src="assets/chapter-4/Style-Guidelines/futura-font.png" alt="PB" width="1000">
+  <img src="assets/chapter-4/Style-Guidelines/futura-font.png" alt="futura-font" width="1000">
 </p>
 
 <ins> **Colores** </ins>  
@@ -3182,7 +3182,7 @@ _Nota_. Elaboración propia.
 _Paleta de colores de ArquiTech_
 
 <p align="center">
-  <img src="assets/chapter-4/Style-Guidelines/color-pallete.png" alt="PB" width="1000">
+  <img src="assets/chapter-4/Style-Guidelines/color-pallete.png" alt="color-pallete" width="1000">
 </p>
 
 <ins>**Espaciado**</ins>
@@ -3225,19 +3225,19 @@ Monitor pequeño: 1296x1781px
 **Figura 39**
 
 <p align="center">
-  <img src="assets/chapter-4/Style-Guidelines/web-responsive.png" alt="PB" width="1000">
+  <img src="assets/chapter-4/Style-Guidelines/web-responsive.png" alt="web-responsive" width="1000">
 </p>
 
 **Figura 40**
 
 <p align="center">
-  <img src="assets/chapter-4/Style-Guidelines/web-responsive2.png" alt="PB" width="1000">
+  <img src="assets/chapter-4/Style-Guidelines/web-responsive2.png" alt="web-responsive2" width="1000">
 </p>
 
 **Figura 41**
 
 <p align="center">
-  <img src="assets/chapter-4/Style-Guidelines/web-responsive3.png" alt="PB" width="1000">
+  <img src="assets/chapter-4/Style-Guidelines/web-responsive3.png" alt="web-responsive3" width="1000">
 </p>
  
 ### 4.1.3. Mobile Style Guidelines
@@ -3592,13 +3592,13 @@ Se presentan versiones desktop y mobile de la misma estructura informativa. La v
 **Desktop Web Browser**
 
 <p align="center">
-  <img src="assets/chapter-4/landing-page/Wireframe-Landing-Desktop.png" alt="PB" width="500">
+  <img src="assets/chapter-4/landing-page/Wireframe-Landing-Desktop.png" alt="Wireframe-Landing-Desktop" width="500">
 </p>
 
 **Mobile Web Browser**
 
 <p align="center">
-  <img src="assets/chapter-4/landing-page/Wireframe-Landing-Mobile.png" alt="PB" width="500">
+  <img src="assets/chapter-4/landing-page/Wireframe-Landing-Mobile.png" alt="Wireframe-Landing-Mobile" width="500">
 </p>
 
 ### 4.3.2. Landing Page Mock-up
@@ -3608,13 +3608,13 @@ Se presentan versiones desktop y mobile de la misma estructura informativa. La v
 **Desktop Web Browser**
 
 <p align="center">
-  <img src="assets/chapter-4/landing-page/MockUp-Landing-Desktop.png" alt="PB" width="500">
+  <img src="assets/chapter-4/landing-page/MockUp-Landing-Desktop.png" alt="MockUp-Landing-Desktop" width="500">
 </p>
 
 **Mobile Web Browser**
 
 <p align="center">
-  <img src="assets/chapter-4/landing-page/MockUp-Landing-Mobile.png" alt="PB" width="500">
+  <img src="assets/chapter-4/landing-page/MockUp-Landing-Mobile.png" alt="MockUp-Landing-Mobile" width="500">
 </p>
 
 ## 4.4. Mobile Applications UX/UI Design
@@ -4007,7 +4007,7 @@ Las seis pantallas presentadas cubren Login, Projects, Materials, Workers, Incid
 **Figura 62**
 
 <p align="center">
-  <img src="assets/chapter-4/Web Applications/Wireframe - Login.png" alt="PB" width="500">
+  <img src="assets/chapter-4/Web Applications/Wireframe - Login.png" alt="Wireframe - Login" width="500">
 <br>*Nota.* Elaboración propia. 
 </p>
 <br>
@@ -4015,7 +4015,7 @@ Las seis pantallas presentadas cubren Login, Projects, Materials, Workers, Incid
 **Figura 63**
 
 <p align="center">
-  <img src="assets/chapter-4/Web Applications/Wireframe - Projects.png" alt="PB" width="500">
+  <img src="assets/chapter-4/Web Applications/Wireframe - Projects.png" alt="Wireframe - Projects" width="500">
 <br>*Nota.* Elaboración propia. 
 </p>
 <br>
@@ -4023,7 +4023,7 @@ Las seis pantallas presentadas cubren Login, Projects, Materials, Workers, Incid
 **Figura 64**
 
 <p align="center">
-  <img src="assets/chapter-4/Web Applications/Wireframe - Materials.png" alt="PB" width="500">
+  <img src="assets/chapter-4/Web Applications/Wireframe - Materials.png" alt="Wireframe - Materials" width="500">
 <br>*Nota.* Elaboración propia. 
 </p>
 <br>
@@ -4031,7 +4031,7 @@ Las seis pantallas presentadas cubren Login, Projects, Materials, Workers, Incid
 **Figura 65**
 
 <p align="center">
-  <img src="assets/chapter-4/Web Applications/Wireframe - Workers.png" alt="PB" width="500">
+  <img src="assets/chapter-4/Web Applications/Wireframe - Workers.png" alt="Wireframe - Workers" width="500">
 <br>*Nota.* Elaboración propia.  
 </p>
 <br>
@@ -4039,7 +4039,7 @@ Las seis pantallas presentadas cubren Login, Projects, Materials, Workers, Incid
 **Figura 66**
 
 <p align="center">
-  <img src="assets/chapter-4/Web Applications/Wireframe - Incidents.png" alt="PB" width="500">
+  <img src="assets/chapter-4/Web Applications/Wireframe - Incidents.png" alt="Wireframe - Incidents" width="500">
 <br>*Nota.* Elaboración propia.  
 </p>
 <br>
@@ -4047,7 +4047,7 @@ Las seis pantallas presentadas cubren Login, Projects, Materials, Workers, Incid
 **Figura 67**
 
 <p align="center">
-  <img src="assets/chapter-4/Web Applications/Wireframe - Machinery.png" alt="PB" width="500">
+  <img src="assets/chapter-4/Web Applications/Wireframe - Machinery.png" alt="Wireframe - Machinery" width="500">
 <br>*Nota.* Elaboración propia.  
 </p>
 <br>
@@ -4070,7 +4070,7 @@ Como usuario, quiero poder ver la lista de proyectos que posee mi empresa con su
 **Figura 68**
 
 <p align="center">
-  <img src="assets/chapter-4/Web Applications/wire1.png" alt="PB" width="500">
+  <img src="assets/chapter-4/Web Applications/wire1.png" alt="wire1" width="500">
 <br>*Nota.* Elaboración propia.  
 </p>
 <br>
@@ -4096,7 +4096,7 @@ Como usuario quiero tener detallado las maquinarias que se usan por cada proyect
 **Figura 69**
 
 <p align="center">
-  <img src="assets/chapter-4/Web Applications/wireflow2.png" alt="PB" width="500">
+  <img src="assets/chapter-4/Web Applications/wireflow2.png" alt="wireflow2" width="500">
 <br>*Nota.* Elaboración propia.  
 </p>
 <br>
@@ -4124,7 +4124,7 @@ Las seis pantallas presentadas cubren Login, Projects, Materials, Workers, Incid
 **Figura 70**
 
 <p align="center">
-  <img src="assets/chapter-4/Web Applications/Mockup - Login.png" alt="PB" width="500">
+  <img src="assets/chapter-4/Web Applications/Mockup - Login.png" alt="Mockup - Login" width="500">
 	
 <br>*Nota.* Elaboración propia. 
 </p>
@@ -4133,7 +4133,7 @@ Las seis pantallas presentadas cubren Login, Projects, Materials, Workers, Incid
 **Figura 71**
 
 <p align="center">
-  <img src="assets/chapter-4/Web Applications/Mockup - Projects.png" alt="PB" width="500">
+  <img src="assets/chapter-4/Web Applications/Mockup - Projects.png" alt="Mockup - Projects" width="500">
 	
 <br>*Nota.* Elaboración propia. 
 </p>
@@ -4142,7 +4142,7 @@ Las seis pantallas presentadas cubren Login, Projects, Materials, Workers, Incid
 **Figura 72**
 
 <p align="center">
-  <img src="assets/chapter-4/Web Applications/Mockup - Materials.png" alt="PB" width="500">
+  <img src="assets/chapter-4/Web Applications/Mockup - Materials.png" alt="Mockup - Materials" width="500">
 	
 <br>*Nota.* Elaboración propia. 
 </p>
@@ -4151,7 +4151,7 @@ Las seis pantallas presentadas cubren Login, Projects, Materials, Workers, Incid
 **Figura 73**
 
 <p align="center">
-  <img src="assets/chapter-4/Web Applications/Mockup - Workers.png" alt="PB" width="500">
+  <img src="assets/chapter-4/Web Applications/Mockup - Workers.png" alt="Mockup - Workers" width="500">
 	
 <br>*Nota.* Elaboración propia. 
 </p>
@@ -4160,7 +4160,7 @@ Las seis pantallas presentadas cubren Login, Projects, Materials, Workers, Incid
 **Figura 74**
 
 <p align="center">
-  <img src="assets/chapter-4/Web Applications/Mockup - Incidents.png" alt="PB" width="500">
+  <img src="assets/chapter-4/Web Applications/Mockup - Incidents.png" alt="Mockup - Incidents" width="500">
 	
 <br>*Nota.* Elaboración propia. 
 </p>
@@ -4168,7 +4168,7 @@ Las seis pantallas presentadas cubren Login, Projects, Materials, Workers, Incid
 **Figura 75**
 
 <p align="center">
-  <img src="assets/chapter-4/Web Applications/Mockup - Machinery.png" alt="PB" width="500">
+  <img src="assets/chapter-4/Web Applications/Mockup - Machinery.png" alt="Mockup - Machinery" width="500">
 	
 <br>*Nota.* Elaboración propia. 
 </p>
@@ -4184,7 +4184,7 @@ Las seis pantallas presentadas cubren Login, Projects, Materials, Workers, Incid
 _User flow 1_
 
 <p align="center">
-  <img src="assets/chapter-4/Web Applications/userflow1.png" alt="PB" width="500">
+  <img src="assets/chapter-4/Web Applications/userflow1.png" alt="userflow1" width="500">
 	
 <br>*Nota.* Elaboración propia. 
 </p>
@@ -4196,7 +4196,7 @@ _User flow 1_
 _User flow 2_
 
 <p align="center">
-<img src="assets/chapter-4/Web Applications/userflow2.png" alt="PB" width="500">
+<img src="assets/chapter-4/Web Applications/userflow2.png" alt="userflow2" width="500">
 	
 <br>*Nota.* Elaboración propia.
 
@@ -4207,7 +4207,7 @@ _User flow 2_
 _User flow 3_
 
 <p align="center">
-<img src="assets/chapter-4/Web Applications/userflow3.png" alt="PB" width="500">
+<img src="assets/chapter-4/Web Applications/userflow3.png" alt="userflow3" width="500">
 
 <br>_Nota._ Elaboración propia.
 
@@ -4220,7 +4220,7 @@ _User flow 3_
 _User flow 4_
 
 <p align="center">
-<img src="assets/chapter-4/Web Applications/userflow4.png" alt="PB" width="500">
+<img src="assets/chapter-4/Web Applications/userflow4.png" alt="userflow4" width="500">
 
 <br>_Nota._ Elaboración propia.
 
@@ -4231,7 +4231,7 @@ _User flow 4_
 _User flow 5_
 
 <p align="center">
-<img src="assets/chapter-4/Web Applications/userflow5.png" alt="PB" width="500">
+<img src="assets/chapter-4/Web Applications/userflow5.png" alt="userflow5" width="500">
 </p>
 
 _Nota._ Elaboración propia.
@@ -4243,7 +4243,7 @@ _Nota._ Elaboración propia.
 _User flow 6_
 
 <p align="center">
-<img src="assets/chapter-4/Web Applications/userflow6.png" alt="PB" width="500">
+<img src="assets/chapter-4/Web Applications/userflow6.png" alt="userflow6" width="500">
 </p>
 
 _Nota._ Elaboración propia.
@@ -4256,7 +4256,7 @@ El prototipo permite recorrer acceso, selección de proyecto y consulta de módu
 _Video of Web Applications Prototype of ArquiTech_
 
 <p align="center">
-  <img src="assets/chapter-4/Web Applications/wwb-prototyping.jpeg" alt="PB" width="500">
+  <img src="assets/chapter-4/Web Applications/wwb-prototyping.jpeg" alt="wwb-prototyping" width="500">
 </p>
 
 _Nota._ Elaboración propia. Link del video: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20231a418_upc_edu_pe/IQAZBSS8VPO-Sr1Da7xkzDxSAWar5iNcGeT-RkKH8l7VM8s?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=YXHzf3](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20231a418_upc_edu_pe/IQAZBSS8VPO-Sr1Da7xkzDxSAWar5iNcGeT-RkKH8l7VM8s?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=YXHzf3)
@@ -4273,7 +4273,7 @@ La vista de contexto sitúa ArquiTech como plataforma de gestión operativa para
 _Software Architecture Context Diagram of ArquiTech_
 
 <p align="center">
-  <img src="assets/chapter-4/Domain-Driven/Arquitech_DiagramaContexto.png" alt="PB" width="1000">
+  <img src="assets/chapter-4/Domain-Driven/Arquitech_DiagramaContexto.png" alt="Arquitech_DiagramaContexto" width="1000">
 </p>
 
 _Nota._ Elaboración propia.
@@ -4286,7 +4286,7 @@ La vista de contenedores descompone el diseño inicial en Landing Page, Web App,
 _Software Architecture Container Diagram of ArquiTech_
 
 <p align="center">
-  <img src="assets/chapter-4/Domain-Driven/Arquitech_DiagramaContenedor.png" alt="PB" width="700">
+  <img src="assets/chapter-4/Domain-Driven/Arquitech_DiagramaContenedor.png" alt="Arquitech_DiagramaContenedor" width="700">
 </p>
 
 _Nota._ Elaboración propia.
@@ -4299,7 +4299,7 @@ La vista de componentes agrupa responsabilidades de registro y generación de re
 _Software Architecture Components Diagram of ArquiTech_
 
 <p align="center">
-  <img src="assets/chapter-4/Domain-Driven/ArquiTech_DiagramaComponentes.png" alt="PB" width="700">
+  <img src="assets/chapter-4/Domain-Driven/ArquiTech_DiagramaComponentes.png" alt="ArquiTech_DiagramaComponentes" width="700">
 </p>
 
 _Nota._ Elaboración propia.
@@ -5234,7 +5234,7 @@ PROD_DB_PASSWORD
 
 <p align="justify">
 
-Estas variables se asignan a las propiedades de datasource de Spring Boot en la configuración del entorno de Railway. `JWT_SECRET`, `JWT_EXPIRATION_DAYS`, `CORS_ALLOWED_ORIGINS`, `PORT`, `SHOW_SQL` y `DDL_AUTO` también se gestionan mediante variables de entorno según la configuración del repositorio. `springdoc-openapi` genera la especificación OpenAPI y Swagger UI permite consultar y probar los endpoints una vez desplegado el servicio. El Backend de producción utilizado por los clientes se encuentra en `https://arquitech-backend-production.up.railway.app`.
+Estas variables se asignan a las propiedades de datasource de Spring Boot en la configuración del entorno de Railway. `JWT_SECRET`, `JWT_EXPIRATION_DAYS`, `CORS_ALLOWED_ORIGINS`, `PORT`, `SHOW_SQL` y `DDL_AUTO` también se gestionan mediante variables de entorno según la configuración del repositorio. `springdoc-openapi` genera la especificación OpenAPI y Swagger UI permite consultar y probar los endpoints una vez desplegado el servicio. El Backend de producción utilizado por los clientes se encuentra en `https://arquitech-backend-production-cfc2.up.railway.app`.
 
 </p>
 
@@ -5736,7 +5736,7 @@ En esta sección se evidencia la implementación y el despliegue de la Backend W
 | Directorio raíz del módulo | `arquitech-back-end`                                   |
 | Plataforma                 | Railway                                                |
 | Base de datos              | MySQL (servicio administrado en el mismo proyecto)     |
-| URL del servicio           | `https://arquitech-backend-production.up.railway.app`  |
+| URL del servicio           | `https://arquitech-backend-production-cfc2.up.railway.app`  |
 
 <br>
 
@@ -5842,8 +5842,8 @@ La especificación se obtiene de los contratos vigentes del Backend durante la e
 Endpoints de acceso a la documentación
 
 Recurso URL
-Swagger UI (interfaz interactiva) https://arquitech-backend-production.up.railway.app/swagger-ui/index.html
-Especificación OpenAPI (JSON) https://arquitech-backend-production.up.railway.app/v3/api-docs
+Swagger UI (interfaz interactiva) https://arquitech-backend-production-cfc2.up.railway.app/swagger-ui/index.html
+Especificación OpenAPI (JSON) https://arquitech-backend-production-cfc2.up.railway.app/v3/api-docs
 <br> <div style="text-align: justify;"> <p align="justify">
 
 La especificación publicada corresponde a la aplicación `arquitech-back-end`, versión `0.0.1-SNAPSHOT`. Las solicitudes ejecutadas desde la instancia desplegada de Swagger UI se dirigen al servicio real en ejecución y no a un entorno simulado.
