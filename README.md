@@ -7507,6 +7507,79 @@ Los tamaños propuestos en las Experiment Cards constituyen la escala inicial de
 Las condiciones definidas permiten atribuir las diferencias observadas a la intervención con mayor claridad, aunque no eliminan por completo sesgos de selección, aprendizaje o contexto. Las conclusiones sobre el efecto de ArquiTech corresponden a las observaciones obtenidas durante la experimentación, no a la formulación previa de las condiciones.
 
 
+### 8.2.5. Scale Calculations and Decisions
+
+El dimensionamiento de los experimentos se establece a partir de las unidades de análisis definidas en 8.2.3 y de las condiciones de comparación descritas en 8.2.4. La escala de las Experiment Cards de 8.1.5 corresponde a una evaluación piloto de factibilidad, comprensión de los flujos y estimación inicial de sus efectos. La cantidad de tareas o registros recopilados no equivale al número de participantes independientes y, por tanto, no incrementa de manera automática la potencia estadística.
+
+#### Criterios para el cálculo de escala
+
+1. **Unidad de análisis.** Las métricas de autonomía M03, M04, M05 y M10 se calculan por participante; M01 por operación; M02 por jornada; M07 por reporte; M08 por incidencia simulada; y M09 por registro generado sin conexión. M06 compara medianas de tiempo y M11 compara tasas de conversión por visita única. En las pruebas con tareas repetidas, las observaciones se agrupan por participante para el análisis de variabilidad.
+2. **Nivel de confianza y potencia.** Se toma como referencia un intervalo de confianza del 95 % y un nivel de significancia bilateral de 0,05 para contrastes inferenciales. Una potencia objetivo del 80 % se utiliza como criterio para calcular el tamaño de muestra de una prueba confirmatoria, no como una propiedad que se atribuya a los pilotos.
+3. **Redondeo de los criterios de éxito.** En las métricas expresadas como proporciones, la cantidad mínima de éxitos de la condición experimental se calcula mediante la regla x mínimo = techo(n × meta), donde n representa el número de unidades evaluables y la meta se expresa entre 0 y 1. Las tasas de ahorro F01, F02 y F03 se contrastan por separado con su condición de control.
+4. **Interpretación del piloto.** Alcanzar un umbral en una muestra pequeña constituye evidencia descriptiva inicial; no demuestra, por sí solo, una mejora generalizable ni el rechazo de la hipótesis nula. Las decisiones distinguen el cumplimiento observado de las metas y la incertidumbre que introduce la escala de evaluación.
+
+#### Cálculo por experimento
+
+| Experimento | Escala y unidad de análisis | Cálculo del umbral de negocio en la condición B | Criterio financiero o complementario |
+| ----------- | --------------------------- | ------------------------------------------------ | ------------------------------------ |
+| EC04 - Panel de seguimiento | 8 contratantes, con una consulta de referencia por condición y participante. | M04: techo(8 × 0,80) = 7 participantes; 7/8 representa 87,5 %. | F01: ahorro del costo de atención por consulta ≥ 20 %. |
+| EC10 - Landing Page por segmento | Referencia inicial de 200 visitas únicas en A y 200 en B; grupos independientes. | M11: tasa de B al menos 1,20 veces la tasa de A; el número de prospectos necesario depende de la conversión de control. | F03: costo por prospecto calificado de B ≤ 0,85 veces el de A. |
+| EC06 - Reporte asistido | 8 supervisores; 8 reportes en A y 8 en B, uno por persona y condición. | M06: mediana del tiempo en B ≤ 0,60 veces la mediana en A. M07: techo(8 × 0,90) = 8 reportes completos en B. | F02: ahorro del costo total por reporte ≥ 30 %. La completitud M07 opera como restricción de calidad. |
+| EC07 - Alertas de incidencias | 12 participantes durante dos semanas; la unidad de M08 es cada incidencia simulada evaluable. | M08: techo(NB × 0,75) incidencias detectadas en ≤ 10 minutos, donde NB es el total de incidencias simuladas en B. Si NB = 12, corresponden 9 detecciones oportunas. | F01: ahorro del costo de seguimiento por incidencia ≥ 15 %. Las incidencias de una misma persona se agrupan en el análisis. |
+| EC01 - Registro de materiales | 8 supervisores × 6 operaciones por versión: 48 operaciones en A y 48 en B. | M01: techo(48 × 0,80) = 39 operaciones correctas al primer intento en B; 39/48 representa 81,25 %. | F01: ahorro del costo de corrección por caso comparable ≥ 20 %. Las seis operaciones de una persona no se tratan como seis usuarios. |
+| EC05 - Historial de movimientos | 8 usuarios × 5 discrepancias por versión; identificación de referencia por participante para M05. | M05: techo(8 × 0,80) = 7 usuarios que identifican correctamente el origen del cambio en ≤ 2 minutos. | F01: ahorro del costo de investigación por discrepancia ≥ 20 %. Los casos adicionales aportan evidencia complementaria. |
+| EC02 - Registro de asistencia | 8 supervisores × 1 jornada de 12 trabajadores por versión: 8 jornadas en A y 8 en B. | M02: techo(8 × 0,90) = 8 jornadas completas en B. Los 12 trabajadores no se cuentan como 12 jornadas independientes. | F01: ahorro del costo de registro y corrección por jornada ≥ 20 %. |
+| EC08 - Registros sin conexión | 8 supervisores × 5 registros en cada versión; 40 registros generados en B. | M09: techo(40 × 0,90) = 36 registros íntegros, sin duplicados y sincronizados en ≤ 5 minutos. | F01: ahorro del costo de reproceso ≥ 20 %. M09 corresponde al prototipo B; A sirve como referencia de recuperación manual. |
+| EC03 - Tareas prioritarias | 8 supervisores × 5 casos por versión; una identificación de referencia por participante para M03. | M03: techo(8 × 0,80) = 7 supervisores que identifican la tarea crítica correcta en ≤ 2 minutos. | F01: ahorro del costo de coordinación por caso ≥ 15 %. Los casos adicionales permiten describir errores y tiempos. |
+| EC09 - Guía de primeros pasos | 12 usuarios nuevos divididos en dos grupos independientes de 6; cada usuario utiliza una versión. | M10: techo(6 × 0,80) = 5 usuarios autónomos en B; 5/6 representa 83,33 %. | F01: ahorro del costo de capacitación por usuario ≥ 20 % frente a A. |
+
+#### Precisión de las proporciones y tamaño de muestra
+
+Para una proporción, el tamaño de muestra de referencia con selección independiente se aproxima mediante la siguiente expresión, donde Z representa el cuantil normal para el nivel de confianza elegido, p la proporción esperada y e el margen de error absoluto:
+
+$$
+n \approx \frac{Z_{1-\alpha/2}^{2}\,p(1-p)}{e^{2}}
+$$
+
+Con un 95 % de confianza (Z = 1,96), una proporción conservadora de p = 0,50 y un margen de error de ± 5 puntos porcentuales, se obtiene n = 384,16, redondeado a 385 observaciones independientes. Esta referencia describe la precisión de una proporción bajo supuestos de muestreo probabilístico; no es el tamaño requerido para todos los experimentos de ArquiTech ni sustituye un cálculo de potencia para comparar dos condiciones.
+
+La incertidumbre de los pilotos se ilustra mediante intervalos de Wilson al 95 %. Con 7 éxitos entre 8 participantes, la proporción observada sería 87,5 %, pero el intervalo aproximado abarcaría de 52,9 % a 97,8 %. Incluso con 8 éxitos entre 8 participantes, el límite inferior sería aproximadamente 67,6 %. Estos son ejemplos matemáticos de precisión muestral, no resultados de usuarios de ArquiTech. Las proporciones calculadas sobre movimientos, incidencias o registros repetidos requieren respetar la agrupación por participante; tratar todas esas observaciones como independientes produciría intervalos artificialmente estrechos.
+
+#### Dimensionamiento de la comparación de conversión EC10
+
+La hipótesis H10 plantea un incremento relativo de al menos 20 % en la tasa de solicitudes calificadas. Para dos proporciones de grupos independientes del mismo tamaño, la aproximación normal del tamaño de muestra por variante es:
+
+$$
+n \approx
+\frac{
+\left[
+Z_{1-\alpha/2}\sqrt{2\bar p(1-\bar p)}
++
+Z_{1-\beta}\sqrt{p_A(1-p_A)+p_B(1-p_B)}
+\right]^2
+}{
+(p_B-p_A)^2
+},
+\qquad
+\bar p=\frac{p_A+p_B}{2}
+$$
+
+Como escenario de cálculo, se considera una conversión de control del 5 % (pA = 0,05) y una mejora relativa del 20 % (pB = 0,06). Con significancia bilateral de 0,05 y potencia del 80 %, el resultado aproximado es de 8 158 visitas únicas por variante, bajo los supuestos de independencia y asignación equilibrada. Este escenario numérico ilustra cómo influye la baja frecuencia de conversión en el tamaño necesario; no representa la tasa observada de la Landing Page de ArquiTech. Por esta razón, las 200 visitas por variante indicadas inicialmente en EC10 son una escala de exploración de instrumentación y conversión, no una muestra suficiente para confirmar estadísticamente una diferencia de 5 % frente a 6 %.
+
+El tamaño confirmatorio de EC10 se recalcula a partir de una línea base real, la diferencia mínima de interés, el tráfico disponible y la posible pérdida de observaciones válidas. Para las pruebas de tareas, los efectos y la dispersión de tiempos o costos se estiman primero con el piloto, dado que no se dispone de una desviación estándar de diferencias emparejadas que permita justificar una potencia específica. Los valores de la tabla anterior se conservan como escala de diseño y no se presentan como muestras estadísticamente suficientes para confirmar todas las hipótesis.
+
+#### Criterios de análisis y decisiones
+
+1. **Cumplimiento descriptivo.** Una Experiment Card obtiene un resultado piloto favorable cuando su métrica de negocio y su métrica financiera alcanzan simultáneamente las metas de 8.2.2. En EC06 también se exige alcanzar la completitud M07. El cumplimiento se informa con numeradores, denominadores, diferencias absolutas o relativas y costos de referencia, según corresponda.
+2. **Incertidumbre estadística.** En las proporciones por participante se informa el intervalo de Wilson al 95 %. En las comparaciones emparejadas de tiempos y costos se calculan diferencias por participante y se resumen su dirección y magnitud; cualquier intervalo re-muestreado conserva al participante como unidad. En EC09 y EC10, las proporciones de grupos independientes pueden contrastarse con una prueba exacta de Fisher cuando los conteos son pequeños. Ningún valor p aislado reemplaza las metas de efecto práctico.
+3. **Evidencia favorable inicial.** Cuando las metas se cumplen en el piloto pero los intervalos siguen siendo amplios, la decisión es conservar la alternativa como candidata a una evaluación de mayor escala. No se afirma validación estadística ni aceptación definitiva de H1.
+4. **Evidencia desfavorable.** Cuando la intervención no alcanza una o más metas con datos comparables y suficientes para describir el piloto, se revisan el flujo, el costo y los errores observados. No alcanzar la meta no equivale, por sí solo, a demostrar que H0 es verdadera.
+5. **Resultado inconcluso.** Una línea base de costo igual a cero, ausencia de datos de una condición, fallos de instrumentación o una cantidad insuficiente de observaciones válidas impide evaluar de forma fiable el criterio correspondiente. La decisión se registra como inconclusa, sin imputar resultados ni convertir valores faltantes en éxitos o fracasos.
+6. **Trazabilidad de la decisión.** Cada experimento conserva por separado la meta predefinida, el cálculo realizado, el tamaño de muestra efectivamente observado, las exclusiones justificadas y la decisión derivada. Los resultados experimentales se diferencian de las pruebas técnicas del producto y de las metas declaradas en las tarjetas.
+
+La escala piloto propuesta permite identificar dificultades operativas, obtener primeras estimaciones de desempeño y orientar decisiones de diseño. La confirmación de mejoras generalizables requiere una muestra dimensionada para la variabilidad y el efecto que se desea detectar, además de condiciones de comparación reproducibles.
+
+
 # Conclusiones
 
 ## Conclusiones y recomendaciones
