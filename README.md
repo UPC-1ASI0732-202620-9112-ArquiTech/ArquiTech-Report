@@ -5778,6 +5778,121 @@ Las métricas citadas en las tarjetas corresponden exclusivamente a las definida
 | **Reverso · Scale** | 12 usuarios nuevos, 6 por condición; cada participante usa una sola versión (valor preliminar; ver 8.2.5). |
 | **User Stories** | HU19, HU22, HU23, HU46 (relación indirecta) |
 
+## 8.2. Experiment Design
+
+<div style="text-align: justify;">
+<p align="justify">
+
+En la fase de diseño, cada pregunta priorizada se convierte en un experimento estructurado capaz de generar una respuesta útil y confiable, que sirva como base para tomar decisiones sobre el producto. El diseño parte de las hipótesis y de las métricas de negocio, y continúa con la definición de medidas, condiciones, escala y método.
+
+</p>
+</div>
+
+### 8.2.1. Hypotheses
+
+<div style="text-align: justify;">
+<p align="justify">
+
+Una hipótesis es una declaración de creencia que responde de forma tentativa a una pregunta Belief-led. En XDPD la hipótesis no se valida ni se da por verdadera: se comprueba, y solo se acepta si la evidencia alcanza el nivel de certeza definido en el cálculo de escala. Por ello, cada hipótesis de ArquiTech cumple tres requisitos: es falsable, porque un resultado por debajo de la meta la refuta; es comprobable, porque puede ejecutarse con los recursos y el tiempo del proyecto; y es medible, porque declara las métricas de la sección 8.2.2 con las que se evaluará.
+
+</p>
+<p align="justify">
+
+Cada hipótesis se redacta con la estructura "Creemos que [creencia]; la evidencia se reflejará en [medidas], bajo [condiciones]" y se acompaña de una hipótesis nula (H0), que afirma que el cambio no produce el efecto esperado o que cualquier diferencia observada se debe al azar. Mientras no exista evidencia del experimento, se asume que la hipótesis nula es verdadera. Las preguntas exploratorias Q11 y Q12 no requieren hipótesis porque no parten de una creencia previa.
+
+</p>
+</div>
+
+#### H01 · Registro guiado de materiales
+
+| Elemento | Contenido |
+| -------- | --------- |
+| **Question** | Q01. ¿Un registro guiado de entradas y salidas con verificación de stock aumenta la proporción de operaciones correctas al primer intento y reduce el costo de corregir el inventario? |
+| **Belief** | Los errores de inventario se originan en un flujo de registro poco guiado, no en el descuido del supervisor. |
+| **Hypothesis (H1)** | Creemos que un registro guiado con verificación de stock reduce los errores de inventario; la evidencia se reflejará en que al menos el 80 % de las operaciones se complete correctamente al primer intento (M01) y en un ahorro de al menos 20 % en el costo de corrección (F01), bajo la comparación del prototipo guiado frente al flujo actual con supervisores y datos ficticios. |
+| **Null hypothesis (H0)** | El registro guiado no aumenta la proporción de operaciones correctas al primer intento ni reduce el costo de corrección; cualquier diferencia frente al flujo actual se debe al azar. |
+
+#### H02 · Registro rápido de asistencia
+
+| Elemento | Contenido |
+| -------- | --------- |
+| **Question** | Q02. ¿Una lista rápida de asistencia por obra reduce las omisiones y el tiempo administrativo de registrar una jornada? |
+| **Belief** | Las omisiones en la asistencia ocurren porque registrar a cada trabajador por separado demanda demasiado esfuerzo. |
+| **Hypothesis (H1)** | Creemos que una lista rápida de asistencia reduce las omisiones y el esfuerzo de registro; la evidencia se reflejará en que al menos el 90 % de los registros se complete sin omisiones (M02) y en un ahorro de al menos 20 % en el costo por jornada registrada (F01), bajo la comparación del prototipo de lista rápida frente al formulario actual. |
+| **Null hypothesis (H0)** | La lista rápida no reduce las omisiones ni el costo por jornada registrada; cualquier diferencia frente al formulario actual se debe al azar. |
+
+#### H03 · Tablero de tareas prioritarias
+
+| Elemento | Contenido |
+| -------- | --------- |
+| **Question** | Q03. ¿Un tablero que destaque las tareas prioritarias y vencidas permite identificar la tarea crítica en menos tiempo y con menor costo de coordinación? |
+| **Belief** | El supervisor pierde tiempo ubicando las tareas urgentes porque el listado actual no las diferencia. |
+| **Hypothesis (H1)** | Creemos que destacar las tareas prioritarias y vencidas acelera su identificación; la evidencia se reflejará en que al menos el 80 % de los supervisores identifique la tarea crítica en dos minutos o menos (M03) y en un ahorro de al menos 15 % en el costo de coordinación por caso (F01), bajo la comparación del tablero frente al listado actual. |
+| **Null hypothesis (H0)** | El tablero no mejora la identificación de tareas críticas ni reduce el costo de coordinación; cualquier diferencia frente al listado actual se debe al azar. |
+
+#### H04 · Panel simplificado de seguimiento
+
+| Elemento | Contenido |
+| -------- | --------- |
+| **Question** | Q04. ¿Un panel simplificado de seguimiento permite que el contratante conozca el estado de su obra sin solicitar ayuda al supervisor? |
+| **Belief** | El contratante recurre al supervisor porque no encuentra por sí mismo la información relevante de su obra. |
+| **Hypothesis (H1)** | Creemos que un panel simplificado permite al contratante informarse de forma autónoma; la evidencia se reflejará en que al menos el 80 % consulte correctamente el estado de su obra sin ayuda en tres minutos o menos (M04) y en un ahorro de al menos 20 % en el costo de atención por consulta (F01), bajo la comparación del panel frente a la interfaz actual con contratantes y obras de prueba. |
+| **Null hypothesis (H0)** | El panel simplificado no aumenta las consultas autónomas ni reduce el costo de atención; cualquier diferencia frente a la interfaz actual se debe al azar. |
+
+#### H05 · Historial verificable de movimientos
+
+| Elemento | Contenido |
+| -------- | --------- |
+| **Question** | Q05. ¿Mostrar al responsable y la fecha en el historial de movimientos permite identificar el origen de un cambio en menos tiempo y reduce el costo de investigar discrepancias? |
+| **Belief** | Investigar una discrepancia toma tiempo porque el historial no muestra quién registró el movimiento ni cuándo lo hizo. |
+| **Hypothesis (H1)** | Creemos que un historial con responsable y fecha visibles facilita la verificación de la información; la evidencia se reflejará en que al menos el 80 % de los usuarios identifique el origen de un cambio en dos minutos o menos (M05) y en un ahorro de al menos 20 % en el costo de investigar una discrepancia (F01), bajo la comparación del historial enriquecido frente a la vista actual. |
+| **Null hypothesis (H0)** | Mostrar al responsable y la fecha no mejora la identificación del origen de un cambio ni reduce el costo de investigación; cualquier diferencia se debe al azar. |
+
+#### H06 · Generación asistida de reportes
+
+| Elemento | Contenido |
+| -------- | --------- |
+| **Question** | Q06. ¿Generar de forma asistida el reporte semanal a partir de los registros reduce el tiempo y el costo de elaborarlo sin perder información requerida? |
+| **Belief** | El costo del reporte semanal se concentra en recopilar y consolidar información de varias fuentes, no en analizarla. |
+| **Hypothesis (H1)** | Creemos que generar el reporte a partir de los registros existentes reduce el esfuerzo de elaborarlo; la evidencia se reflejará en una reducción de al menos 40 % en el tiempo mediano de elaboración (M06), en un ahorro de al menos 30 % en el costo total por reporte (F02) y en al menos 90 % de reportes completos (M07), bajo la comparación del prototipo asistido frente a la consolidación manual. |
+| **Null hypothesis (H0)** | La generación asistida no reduce el tiempo ni el costo de elaborar el reporte, o lo hace a costa de su completitud; cualquier diferencia se debe al azar. |
+
+#### H07 · Alertas de incidencias críticas
+
+| Elemento | Contenido |
+| -------- | --------- |
+| **Question** | Q07. ¿Las alertas de incidencias críticas permiten que los usuarios se enteren antes que con la revisión manual y con menor costo de seguimiento? |
+| **Belief** | Las incidencias críticas se conocen tarde porque su detección depende de que el usuario revise la plataforma. |
+| **Hypothesis (H1)** | Creemos que las alertas prioritarias adelantan la detección de incidencias críticas; la evidencia se reflejará en que al menos el 75 % de las incidencias simuladas se detecte en diez minutos o menos (M08) y en un ahorro de al menos 15 % en el costo de seguimiento por incidencia (F01), bajo la comparación de las alertas frente a la revisión periódica durante un piloto de dos semanas. |
+| **Null hypothesis (H0)** | Las alertas no adelantan la detección de incidencias críticas ni reducen el costo de seguimiento; cualquier diferencia frente a la revisión periódica se debe al azar. |
+
+#### H08 · Borradores sin conexión y sincronización
+
+| Elemento | Contenido |
+| -------- | --------- |
+| **Question** | Q08. ¿Guardar borradores sin conexión y sincronizarlos al recuperar la señal evita la pérdida y la doble digitación de registros de campo? |
+| **Belief** | Las interrupciones de conectividad en obra provocan pérdida de registros y obligan a digitarlos nuevamente. |
+| **Hypothesis (H1)** | Creemos que conservar los registros sin conexión y sincronizarlos después evita la pérdida de información; la evidencia se reflejará en que al menos el 90 % de los registros se sincronice completo y sin duplicados en cinco minutos o menos tras recuperar la conexión (M09) y en un ahorro de al menos 20 % en el costo de reprocesamiento (F01), bajo interrupciones de red simuladas en el prototipo frente a la aplicación actual. |
+| **Null hypothesis (H0)** | El modo sin conexión no reduce la pérdida ni el reprocesamiento de registros; cualquier diferencia frente a la aplicación actual se debe al azar. |
+
+#### H09 · Guía de primeros pasos por rol
+
+| Elemento | Contenido |
+| -------- | --------- |
+| **Question** | Q09. ¿Una guía de primeros pasos según el rol permite que un usuario nuevo complete su primera tarea sin ayuda y reduce el costo de capacitación? |
+| **Belief** | Un usuario nuevo pide ayuda porque no sabe por dónde empezar, no porque las tareas sean complejas. |
+| **Hypothesis (H1)** | Creemos que una guía de primeros pasos según el rol permite un primer uso autónomo; la evidencia se reflejará en que al menos el 80 % de los nuevos usuarios complete su primera tarea sin ayuda en diez minutos o menos (M10) y en un ahorro de al menos 20 % en el costo de capacitación por usuario (F01), bajo la asignación aleatoria de usuarios nuevos al flujo con guía o al flujo actual. |
+| **Null hypothesis (H0)** | La guía de primeros pasos no aumenta la proporción de usuarios que completan su primera tarea sin ayuda ni reduce el costo de capacitación; cualquier diferencia se debe al azar. |
+
+#### H10 · Landing Page personalizada para demostraciones
+
+| Elemento | Contenido |
+| -------- | --------- |
+| **Question** | Q10. ¿Una Landing Page con beneficios y llamada a la acción por segmento aumenta las solicitudes de demostración calificadas y reduce el costo por prospecto? |
+| **Belief** | Un mensaje genérico no convence a supervisores ni a contratantes porque cada segmento valora beneficios distintos. |
+| **Hypothesis (H1)** | Creemos que adaptar los beneficios y la llamada a la acción al perfil del visitante aumenta la captación de clientes potenciales; la evidencia se reflejará en un incremento relativo de al menos 20 % en la tasa de solicitudes de demostración calificadas (M11) y en una reducción de al menos 15 % en el costo por prospecto calificado (F03), bajo un Test A/B con tráfico dividido y el mismo presupuesto de adquisición por variante. |
+| **Null hypothesis (H0)** | La variante por segmento no aumenta la tasa de solicitudes calificadas ni reduce el costo por prospecto; cualquier diferencia frente a la página actual se debe al azar. |
+
 # Conclusiones
 
 # Bibliografia
