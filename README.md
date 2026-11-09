@@ -98,6 +98,42 @@ _Commits realizados durante la entrega AV1_
 
 </p>
 
+## Entrega Nº2: TB1
+
+<p align="justify">
+
+Durante la entrega TB1, comprendida entre el 18/09/2026 y el 07/10/2026, el equipo actualizó el Project Report para reflejar la implementación real de ArquiTech y corregir los artefactos presentados en el AV1. Las actividades incluyeron la corrección de User Personas, User Journey Mapping, Empathy Mapping, As-is y To-Be Scenario Mapping e Impact Mapping con trazabilidad hacia las entrevistas; la actualización de User Stories, Product Backlog, Class Diagram y Database Design según el Backend implementado; la incorporación del Acuerdo de Servicio - SaaS y de las evidencias de implementación del Capítulo V; la documentación de las pruebas unitarias, de integración, BDD y de sistema del Capítulo VI; y la elaboración del Capítulo VII DevOps Practices, junto con la actualización del Student Outcome y de las conclusiones.
+
+</p>
+
+<p align="justify">
+
+Los aportes se registraron mediante ramas de trabajo y su integración a la rama principal del repositorio. En las analíticas de GitHub, los integrantes se identifican por su usuario: Vmer140 (Espino Rossi, Victor Manuel), BrooklynKarmis (Quispe Barzola, Fabricio Fabian), educmz (Chacaliaza Minaya, Eduardo Fabian) y BradenGarcia (Garcia Cerpa, Braden Raid). Las siguientes evidencias muestran las contribuciones y el historial de commits realizados durante la preparación de la entrega TB1, y guardan correspondencia con las versiones 2.0 a 2.6 del Registro de Versiones del Informe.
+
+</p>
+
+**Figura 3**  
+_Analíticas de colaboración durante la entrega TB1_
+
+<p align="center">
+
+  <img src="assets/project-report-collaboration-insights/tb1-contributors.png" alt="Analíticas de colaboración durante TB1" width="850">
+
+</p>
+
+**Figura 4**  
+_Commits realizados durante la entrega TB1_
+
+<p align="center">
+
+  <img src="assets/project-report-collaboration-insights/tb1-commits-1.png" alt="Commits realizados durante TB1 - Parte 1" width="850">
+
+<br><br>
+
+  <img src="assets/project-report-collaboration-insights/tb1-commits-2.png" alt="Commits realizados durante TB1 - Parte 2" width="850">
+
+</p>
+
 <div style="page-break-before: always;"></div>
 
 # Contenido
