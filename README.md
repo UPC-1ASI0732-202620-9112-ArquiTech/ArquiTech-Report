@@ -6583,7 +6583,7 @@ El monitoreo continuo de ArquiTech se implementa como una verificación técnica
 </p>
 <p align="justify">
 
-La implementación se encuentra en la copia local del repositorio Backend sobre la línea base `feature/devops-ci`, commit `c7498786665bcd7c8a81d6e855b3172c5c3e15d4`, sin commit, push ni despliegue. Las pruebas locales concluyeron satisfactoriamente; por tanto, se documentan como resultados de implementación verificados y no como evidencia de una ejecución programada en GitHub o de una alerta recibida por el equipo.
+La implementación está fusionada en la rama `main` del repositorio Backend, commit `b94e79c89e6e4b98f2ef4c339a71f9e842d7c504`. Sobre esta línea base se aplicó localmente la corrección del archivo compartido de resultados del workflow, sin commit, push ni despliegue. Las pruebas de código concluyeron satisfactoriamente y la consulta de solo lectura a GitHub permitió caracterizar la corrida fallida anterior; la ejecución remota de la versión corregida y el ciclo real de un Issue permanecen pendientes.
 
 </p>
 </div>
@@ -6598,7 +6598,7 @@ Spring Boot Actuator 3.5.0 incorpora el endpoint `GET /actuator/health`. La conf
 </p>
 <p align="justify">
 
-El workflow independiente `.github/workflows/continuous-monitoring.yml` utiliza GitHub Actions y Node.js 20. La lógica se implementó con APIs estándar de Node (`fetch`, `node:test` y servidor HTTP local), sin dependencias npm permanentes. El evento `schedule` se configura cada quince minutos y `workflow_dispatch` permite una ejecución manual. La programación de GitHub Actions opera en UTC y puede experimentar demoras de plataforma, por lo que la frecuencia representa el intervalo solicitado y no un SLA de ejecución en tiempo real.
+El workflow independiente `.github/workflows/continuous-monitoring.yml` utiliza GitHub Actions y Node.js 20. La lógica se implementó con APIs estándar de Node (`fetch`, `node:test` y servidor HTTP local), sin dependencias npm permanentes. El evento `schedule` se configura cada quince minutos y `workflow_dispatch` permite una ejecución manual. El monitor y la gestión del incidente comparten el archivo relativo `monitor-results.json`, resuelto en el workspace del job; esta ruta evita evaluar el contexto `runner` antes de que GitHub asigne un runner. La programación de GitHub Actions opera en UTC y puede experimentar demoras de plataforma, por lo que la frecuencia representa el intervalo solicitado y no un SLA de ejecución en tiempo real.
 
 </p>
 </div>
@@ -6607,7 +6607,7 @@ El workflow independiente `.github/workflows/continuous-monitoring.yml` utiliza 
 | ---------------------- | -------------- | ---------------------------- |
 | Spring Boot Actuator 3.5.0 | Dependencia `spring-boot-starter-actuator` y `GET /actuator/health` | Verifica el estado agregado del Backend sin publicar componentes ni detalles. |
 | Spring Security | Matcher público exacto para `/actuator/health` | Permite la consulta técnica sin ampliar el acceso a endpoints de negocio o a otros endpoints Actuator. |
-| GitHub Actions | Workflow `continuous-monitoring.yml`, separado de `ci.yml` | Ejecuta comprobaciones programadas o manuales sin reemplazar el pipeline de construcción. |
+| GitHub Actions | Workflow `continuous-monitoring.yml`, separado de `ci.yml`, con resultado compartido en `monitor-results.json` | Ejecuta comprobaciones programadas o manuales sin reemplazar el pipeline de construcción ni depender de un contexto no disponible en el `env` del job. |
 | Node.js 20 | `monitor-endpoints.mjs` | Realiza solicitudes con timeout, registra HTTP, latencia, errores e intentos y genera JSON y Job Summary. |
 | `node:test` | `monitor-endpoints.test.mjs` | Comprueba éxito, error HTTP, timeout, reintento con recuperación y transiciones de incidentes mediante servidores locales. |
 | GitHub Issues | Label `availability-incident` y título estable | Mantiene un registro auditable del incidente, evita duplicados y documenta la recuperación. |
@@ -6637,19 +6637,20 @@ El flujo implementado es `schedule/workflow_dispatch → pruebas de la lógica �
 | Pruebas previas | Scripts locales del monitor | Ejecuta `node --test .github/scripts/monitor-endpoints.test.mjs` | La comprobación de endpoints solo continúa si la lógica supera sus pruebas. |
 | Comprobación Backend | URL de `/actuator/health` | GET con timeout, reintentos, validación HTTP y `status: UP` | Estado, HTTP, latencia, cantidad de intentos y error, si corresponde. |
 | Comprobación Web/Landing | URL pública configurable | GET con redirect habilitado, timeout y reintentos | Estado, HTTP, latencia, cantidad de intentos y error, si corresponde. |
-| Registro | Resultados de todos los destinos | Escribe `monitor-results.json`, consola y tabla en `GITHUB_STEP_SUMMARY` | Evidencia por corrida sin incluir credenciales ni valores de configuración privados. |
+| Registro | Resultados de todos los destinos | Escribe `monitor-results.json` en el workspace, además de la consola y la tabla en `GITHUB_STEP_SUMMARY` | Evidencia compartida con el paso de incidentes sin incluir credenciales ni valores de configuración privados. |
 | Resultado del job | Resultado agregado | Continúa hasta gestionar el incidente y finalmente devuelve error si algún destino agotó sus intentos | Corrida satisfactoria o fallida con notificación procesada previamente. |
 
 | Verificación realizada el 09/11/2026 | Resultado | Alcance |
 | ------------------------------------- | --------- | ------- |
-| `node --test .github/scripts/monitor-endpoints.test.mjs` con Node.js 24.19.0 local | 5 aprobadas, 0 fallidas, 312,2592 ms | Respuesta saludable, HTTP 503, timeout, recuperación en el segundo intento y política de incidentes. |
-| `mvn test` con Maven 3.9.16 y compilación release 17 | `BUILD SUCCESS`; 9 pruebas, 0 fallos, 0 errores y 0 omitidas; 28,541 s | Siete pruebas existentes y dos pruebas nuevas de exposición y respuesta mínima de Actuator. |
+| `actionlint 1.7.12 .github/workflows/continuous-monitoring.yml` | Código de salida 0; archivo válido | Validación de sintaxis, expresiones y contextos después de reemplazar `${{ runner.temp }}` por `monitor-results.json`; el binario temporal se verificó con el SHA-256 oficial. |
+| `node --test .github/scripts/monitor-endpoints.test.mjs` con Node.js 24.19.0 local | 5 aprobadas, 0 fallidas, 431,1631 ms | Servidores locales para respuesta saludable, HTTP 503, timeout, recuperación en el segundo intento y política de incidentes. |
+| `mvn test` con Maven 3.9.16, JDK 21.0.13 y compilación release 17 | Código de salida 0; 9 pruebas, 0 fallos, 0 errores y 0 omitidas | Siete pruebas de integración y dos pruebas de exposición y respuesta mínima de Actuator; tiempo agregado de las suites Surefire: 19,180 s. |
 | Monitor local contra Web y Landing, un intento y timeout de 10000 ms | Web HTTP 200 en 637 ms; Landing HTTP 200 en 341 ms | Observación puntual de disponibilidad pública a las `2026-11-09T07:32:03.204Z`; no constituye histórico ni SLA. |
 
 <div style="text-align: justify;">
 <p align="justify">
 
-El registro completo de comandos, resultados y alcance se conserva en [`verification-2026-11-09.txt`](assets/chapter-7/continuous-monitoring/verification-2026-11-09.txt). El endpoint Backend de producción no se incluyó en la comprobación HTTP externa porque la dependencia y configuración Actuator aún no han sido desplegadas; su comportamiento se verificó localmente mediante MockMvc.
+El registro completo de comandos, resultados y alcance se conserva en [`verification-2026-11-09.txt`](assets/chapter-7/continuous-monitoring/verification-2026-11-09.txt). El endpoint Backend de producción : comportamiento se verificó localmente mediante MockMvc.
 
 </p>
 </div>
@@ -6686,12 +6687,7 @@ GitHub Issues funciona como registro persistente y mecanismo de notificación. E
 </p>
 <p align="justify">
 
-Para activar la operación remota se requiere integrar los archivos en la rama predeterminada, desplegar primero el Backend con Actuator y confirmar que la política de la organización permita `issues: write` al `GITHUB_TOKEN`. Las variables de repositorio son opcionales mientras se utilicen los valores predeterminados; deben configurarse cuando cambien URLs, timeout, intentos o intervalo entre reintentos. No se requieren webhooks ni credenciales externas.
-
-</p>
-<p align="justify">
-
-La validación realizada no generó Issues ni comentarios remotos porque no se efectuó push ni ejecución de GitHub Actions. Tampoco se dispone todavía de histórico de disponibilidad, percentiles de latencia, retención propia, dashboard o SLA; la evidencia operativa inicial dependerá de las corridas de Actions una vez desplegado el endpoint. La aplicación Mobile no se incluye en disponibilidad HTTP porque no expone un servicio público equivalente; su observabilidad requeriría telemetría de aplicación o métricas de distribución con un alcance diferente.
+El workflow ya está presente en `main` y declara `workflow_dispatch`; la corrección de `monitor-results.json` debe integrarse en esa rama antes de solicitar una nueva corrida. Una validación remota controlada requiere autorización expresa y endpoints temporales accesibles desde GitHub: primero se configura una respuesta saludable de Backend con `status: UP` y un destino con fallo, luego se ejecuta dos veces para observar apertura y supresión, y finalmente se restablece el destino saludable para comprobar el comentario de recuperación y el cierre. Las variables deben volver a sus valores operativos antes de la siguiente ejecución programada. No se requieren webhooks ni credenciales externas.
 
 </p>
 </div>

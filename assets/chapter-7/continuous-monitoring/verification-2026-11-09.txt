@@ -1,43 +1,68 @@
 ARQUITECH - CONTINUOUS MONITORING LOCAL VERIFICATION
 Date: 2026-11-09 (America/Lima)
-Backend baseline: feature/devops-ci, c7498786665bcd7c8a81d6e855b3172c5c3e15d4
-No deployment, push, production failure or GitHub Issue was generated.
+Backend baseline: main, b94e79c89e6e4b98f2ef4c339a71f9e842d7c504
+Local workflow correction: uncommitted and unpushed.
+No deployment, production failure or GitHub Issue was generated.
 
-1. Monitoring and incident policy tests
+1. Workflow validation
+Changed paths:
+- Job env MONITOR_RESULT_FILE: monitor-results.json
+- GitHub Script env RESULT_FILE: monitor-results.json
+Targeted check: no runner.temp reference remains in continuous-monitoring.yml.
+Tool: actionlint 1.7.12, downloaded temporarily from the official GitHub release.
+Archive SHA-256 expected: 6e7241b51e6817ea6a047693d8e6fed13b31819c9a0dd6c5a726e1592d22f6e9
+Archive SHA-256 actual:   6e7241b51e6817ea6a047693d8e6fed13b31819c9a0dd6c5a726e1592d22f6e9
+Command: actionlint.exe .github/workflows/continuous-monitoring.yml
+Final result: exit code 0; no syntax, expression or context findings.
+
+2. Monitoring and incident policy tests
 Command: node --test .github/scripts/monitor-endpoints.test.mjs
 Runtime: Node.js 24.19.0
-Final result: 5 passed, 0 failed, duration 312.2592 ms.
+Final result: 5 passed, 0 failed, duration 431.1631 ms.
 Verified cases:
 - Actuator-like response HTTP 200 with {"status":"UP"}.
 - HTTP 503 after the configured number of attempts.
 - Request timeout against a local delayed server.
 - Recovery when the second attempt changes from HTTP 503 to HTTP 200.
 - Incident transitions: open, suppress duplicate, recover/close and no operation.
+- All HTTP cases used local simulated servers; no production service was stopped or degraded.
 
-2. Backend tests
+3. Backend tests
 Command: mvn test
 Runtime: Maven 3.9.16; JDK 21.0.13 compiling with release 17; Spring Boot 3.5.0.
-Final result: BUILD SUCCESS in 28.541 s.
+Final result: exit code 0.
 Tests: 9 executed, 0 failures, 0 errors, 0 skipped.
 Breakdown:
-- ApiIntegrationTests: 7 passed.
-- HealthEndpointSecurityTests: 2 passed.
+- ApiIntegrationTests: 7 passed in 17.565 s.
+- HealthEndpointSecurityTests: 2 passed in 1.615 s.
+- Aggregate Surefire suite time: 19.180 s.
 Verified health behavior:
 - GET /actuator/health is public and returns HTTP 200 with aggregate status UP.
 - The response omits components and details.
 - The runtime WebEndpointsSupplier exposes only the health Actuator endpoint.
-Diagnostic note: an initial run failed one configuration assertion because test application.properties shadows the production file. The assertion was replaced with runtime endpoint inspection before the successful final run.
+Diagnostic note: the expected IllegalStateException log belongs to an ApiIntegrationTests error-handling scenario; Surefire recorded no test error or failure.
 
-3. Read-only public URL check
+4. Read-only GitHub Actions verification
+Source: GitHub Actions REST data queried without mutations.
+Run: https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/Arquitech-Backend/actions/runs/42581700585
+Head: main, b94e79c89e6e4b98f2ef4c339a71f9e842d7c504
+Event: push
+Created and updated: 2026-11-09T07:49:02Z
+Result: failure; jobs total_count = 0.
+Interpretation: the previously merged workflow was rejected before any job ran. This is evidence of the pre-correction state, not a remote run of the corrected file.
+
+5. Earlier read-only public URL check
 Command: node .github/scripts/monitor-endpoints.mjs
 Configuration: Web and Landing only; one attempt; 10000 ms timeout.
 Checked at: 2026-11-09T07:32:03.204Z.
 Result:
 - Frontend Web: HTTP 200, 637 ms, 1 attempt.
 - Landing Page: HTTP 200, 341 ms, 1 attempt.
+This earlier check is kept separate from the local simulated-server tests.
 
-4. Scope and limitations
-- The Backend production health URL was not checked because the Actuator change has not been deployed.
-- The GitHub Actions workflow has not been pushed or executed on GitHub.
-- No availability incident Issue, duplicate suppression event or recovery comment has occurred in the remote repository.
+6. Scope and limitations
+- The Backend production health URL was not checked. Actuator on Railway is pending deployment confirmation; this is not a code test failure.
+- The correction has not been committed, pushed or executed through workflow_dispatch.
+- No availability incident Issue, duplicate suppression event or recovery comment was generated in the remote repository.
+- A controlled remote incident lifecycle requires explicit authorization, externally reachable non-production test endpoints and restoration of repository variables before scheduled monitoring resumes.
 - HTTP latency values are observations from one local execution, not an SLA or historical metric.
