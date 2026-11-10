@@ -7876,7 +7876,7 @@ Se mantuvieron separadas las pruebas Playwright de acciones predefinidas, los re
 | **Mobile** | Flutter, Android emulado, Spring Boot y MySQL aislados en loopback | [PR Mobile #8](https://github.com/educmz/ArquiTech-FrontendMobile/pull/8), [CI](https://github.com/educmz/ArquiTech-FrontendMobile/blob/59cd61e2f90d2243f31765ad3ee3cfa345c66579/.github/workflows/ci.yml), [informe EC08](https://github.com/educmz/ArquiTech-FrontendMobile/blob/59cd61e2f90d2243f31765ad3ee3cfa345c66579/docs/ec08-mobile-evaluation.md) | La prueba integral de reconexión fue **local** en Android, no una sesión con supervisores. |
 | **Landing** | Angular, Chrome Headless, validadores de navegación y agentes | [PR Landing #11](https://github.com/educmz/ArquiTech-LandingPage/pull/11), [CI aprobado](https://github.com/educmz/ArquiTech-LandingPage/actions/runs/42824541195), [informe EC10](https://github.com/educmz/ArquiTech-LandingPage/blob/8777313bcee6252629360f075697ac05b27b134b/docs/ec10/README.md) | Las 400 visitas históricas de CI, las pruebas locales iniciales y la regresión corregida se contabilizan como conjuntos independientes. |
 
-**Delimitación de responsabilidades:** esta actualización cubre los Sprint Backlogs To-Be y la evidencia implementada de Landing, Frontend Web y Mobile (8.3.3.1–8.3.3.4). Los componentes de servicio RESTful To-Be (8.3.3.5) y los analíticos de colaboración del equipo (8.3.3.6) deben integrarse con la evidencia específica que corresponde a sus responsables; no se atribuyen resultados ni actividades que no consten en los repositorios.
+**Alcance y fuentes:** 8.3.3.1–8.3.3.4 documentan backlog y evidencias Web, Mobile y Landing; 8.3.3.5 reúne contratos REST y verificaciones disponibles del Backend; y 8.3.3.6 presenta commits y contribuciones comprobables. Las capturas se almacenan en `assets/chapter-8/`, separando la evidencia de `main` de los PR experimentales. Las imágenes no prueban reuniones, estimaciones, revisiones por pares ni despliegues que no consten en los registros.
 
 #### 8.3.3.1. To-Be Sprint Backlogs
 
@@ -7889,6 +7889,28 @@ Las historias y prioridades se toman de [8.3.1](#831-to-be-user-stories) y [8.3.
 | **Landing Page:** probar una solicitud de demostración personalizada por perfil y su continuidad de navegación | TB-HU10; EC10 | Implementar asignación A/B y segmentación; ejecutar verificaciones; corregir tres defectos de navegación; repetir regresión y publicar resultados | [Componente EC10](https://github.com/educmz/ArquiTech-LandingPage/blob/8777313bcee6252629360f075697ac05b27b134b/src/app/ec10-landing.ts); [corrección](https://github.com/educmz/ArquiTech-LandingPage/commit/cd872735fdcd246a472aaf21d44fae995552e428); [regresión](https://github.com/educmz/ArquiTech-LandingPage/tree/8777313bcee6252629360f075697ac05b27b134b/docs/ec10/evidence/retest) |
 
 **Trazabilidad de trabajo y cierre:** en el frente Web constan **132/132 recorridos técnicos aprobados y 132/132 recorridos autónomos ejecutados (100 correctos; 32 incorrectos)**; en Mobile, **100/100 pruebas Flutter** y **40/40 borradores B** sincronizados; en Landing, después de la corrección, **422/422 verificaciones**. Estos estados describen entregables y pruebas, **no certifican un Sprint Review formal**. Para completar la parte administrativa del Sprint Backlog del formato del curso se debe adjuntar la captura de tablero con Sprint, responsables, estimaciones horarias y estados reales cuando los integrantes la documenten. La prioridad de los diez elementos en 8.3.2 no equivale por sí misma a una asignación a un Sprint.
+
+##### Evidencia visual del To-Be Product Backlog
+
+Las figuras 118 y 119 muestran dos posiciones de desplazamiento del mismo tablero [ArquiTech - Product Backlog](https://trello.com/b/jDELnGdF/arquitech-product-backlog) en Trello. Se observan las **diez tarjetas To-Be** de la lista «To-Be Product Backlog - AV2» y, en paralelo, las columnas Sprint Backlog, To Do, Doing y Done con historias HU originales. Por ello, las capturas avalan la **organización del Product Backlog To-Be**, pero no demuestran que todas esas historias se hayan incluido en un Sprint formal o que se hayan asignado horas y responsables.
+
+**Figura 118**  
+_Vista superior del tablero Trello con diez historias To-Be y columnas operativas._
+
+<p align="center">
+  <img src="assets/chapter-8/8.3.3.1-To-Be-Product-Backlog-Trello.png" width="950" alt="Vista superior del tablero Trello con diez historias To-Be y columnas operativas.">
+</p>
+
+_Nota._ Trello, ArquiTech - Product Backlog: primeras tarjetas de To-Be Product Backlog - AV2 y listas Sprint Backlog, To Do, Doing y Done; no certifica por sí sola el Sprint Planning.
+
+**Figura 119**  
+_Vista inferior de las historias To-Be en Trello._
+
+<p align="center">
+  <img src="assets/chapter-8/8.3.3.1-To-Be-Product-Backlog-Trello-Parte2.png" width="950" alt="Vista inferior de las historias To-Be en Trello.">
+</p>
+
+_Nota._ Trello, segundo desplazamiento de la lista de diez historias To-Be; complementa la figura anterior, sin revelar estimaciones ni responsabilidades de Sprint.
 
 #### 8.3.3.2. Implemented To-Be Landing Page Evidence
 
@@ -7954,6 +7976,162 @@ Fuente: [informe EC08](https://github.com/educmz/ArquiTech-FrontendMobile/blob/5
 
 
 **Capturas y conciliación:** [40 borradores B conservados](https://github.com/educmz/ArquiTech-FrontendMobile/blob/59cd61e2f90d2243f31765ad3ee3cfa345c66579/docs/evidence/ec08/screenshots/b-offline-after.png), [sincronización B confirmada](https://github.com/educmz/ArquiTech-FrontendMobile/blob/59cd61e2f90d2243f31765ad3ee3cfa345c66579/docs/evidence/ec08/screenshots/b-reconnected-after-sync.png), [formulario A tras el reinicio](https://github.com/educmz/ArquiTech-FrontendMobile/blob/59cd61e2f90d2243f31765ad3ee3cfa345c66579/docs/evidence/ec08/screenshots/a-reopened-blank.png), [datos del Backend aislado](https://github.com/educmz/ArquiTech-FrontendMobile/blob/59cd61e2f90d2243f31765ad3ee3cfa345c66579/docs/evidence/ec08/backend/backend-final-summary.json) y [CSV de conciliación](https://github.com/educmz/ArquiTech-FrontendMobile/blob/59cd61e2f90d2243f31765ad3ee3cfa345c66579/docs/evidence/ec08/reconciliation/b-reconciliation.csv).
+
+#### 8.3.3.5. Implemented To-Be RESTful API and/or Serverless Backend Evidence
+
+El [Backend de ArquiTech](https://github.com/educmz/Arquitech-Backend) expone una API REST en **Java 17 y Spring Boot 3.5.0**, documentada mediante Swagger/OpenAPI y respaldada por MySQL en los entornos utilizados. Su [README técnico](https://github.com/educmz/Arquitech-Backend/blob/main/arquitech-back-end/README.md) describe autenticación con JWT, autorización por rol y recursos de proyectos, materiales, movimientos, trabajadores, tareas e incidencias. Las capturas corresponden al Backend existente y a sus pruebas; **no se atribuye la totalidad de los endpoints a una implementación To-Be nueva**. La prueba de integración de EC08 enlaza la aplicación Mobile con un Backend y base de datos aislados.
+
+##### Trazabilidad de servicios con los experimentos
+
+| Historias y experimentos | Recurso REST disponible | Evidencia de integración o contrato |
+| --- | --- | --- |
+| **TB-HU01 / EC01 – Registro de materiales** | `POST /api/v1/materials/{id}/entry` y `POST /api/v1/materials/{id}/use` | Swagger documenta las operaciones para registrar entradas y consumos; las figuras 125 y 126 muestran sus parámetros, cuerpo JSON y respuesta esperada 201. |
+| **TB-HU05 / EC05 – Historial** | `GET /api/v1/materials/project/{projectId}/history` | La figura 127 expone el contrato de lectura del historial y sus campos de auditoría (responsable y fecha). |
+| **TB-HU08 / EC08 – Sincronización Mobile** | Escritura de usos de materiales y consulta de movimientos posteriores | El [informe de EC08](https://github.com/educmz/ArquiTech-FrontendMobile/blob/59cd61e2f90d2243f31765ad3ee3cfa345c66579/docs/ec08-mobile-evaluation.md) y la [conciliación de registros](https://github.com/educmz/ArquiTech-FrontendMobile/blob/59cd61e2f90d2243f31765ad3ee3cfa345c66579/docs/evidence/ec08/reconciliation/b-reconciliation.csv) acreditan **40/40 borradores B** sincronizados íntegros, sin duplicados, contra una API y MySQL locales. |
+
+##### Pruebas automatizadas y pipeline de integración
+
+Las figuras 120–123 permiten inspeccionar el [historial de GitHub Actions del Backend](https://github.com/educmz/Arquitech-Backend/actions). Se distinguen ejecuciones exitosas y fallidas del monitoreo continuo, y una ejecución específica de **CI #5** en `main` (commit `d29eaa4`). En esa ejecución, **Test and package** concluyó con **Success** en 41 segundos. El paso **Verify** utilizó `./mvnw clean verify` y demoró 28 segundos. El resumen de Maven informa **nueve pruebas, cero fallos, cero errores, cero omitidas** y `BUILD SUCCESS`, además del empaquetado JAR. Este resultado prueba el commit del Backend evaluado por CI; no significa que los PR de Web, Mobile o Landing se hayan integrado a `main`.
+
+**Figura 120**  
+_Ejecuciones de CI y monitoreo continuo del Backend en GitHub Actions._
+
+<p align="center">
+  <img src="assets/chapter-8/8.3.3.5-Backend-Actions-General.png" width="950" alt="Ejecuciones de CI y monitoreo continuo del Backend en GitHub Actions.">
+</p>
+
+_Nota._ Historial de GitHub Actions con ejecuciones satisfactorias y otras fallidas. No se interpreta como un historial sin fallos.
+
+**Figura 121**  
+_Resumen del pipeline CI #5 del Backend aprobado._
+
+<p align="center">
+  <img src="assets/chapter-8/8.3.3.5-Backend-CI-Exitoso.png" width="950" alt="Resumen del pipeline CI #5 del Backend aprobado.">
+</p>
+
+_Nota._ GitHub Actions, CI #5 en main, commit d29eaa4, job Test and package con estado Success y duración total de 41 segundos.
+
+**Figura 122**  
+_Desglose de los pasos del job Test and package._
+
+<p align="center">
+  <img src="assets/chapter-8/8.3.3.5-Backend-Pruebas-CI.png" width="950" alt="Desglose de los pasos del job Test and package.">
+</p>
+
+_Nota._ GitHub Actions, workflow CI #5: paso Verify completado satisfactoriamente en 28 segundos. El recuento de pruebas figura en la siguiente captura.
+
+**Figura 123**  
+_Resultados de Maven: nueve pruebas aprobadas y compilación satisfactoria._
+
+<p align="center">
+  <img src="assets/chapter-8/8.3.3.5-Backend-Maven-Resultados.png" width="950" alt="Resultados de Maven: nueve pruebas aprobadas y compilación satisfactoria.">
+</p>
+
+_Nota._ Salida Maven de ./mvnw clean verify: Tests run 9, Failures 0, Errors 0, Skipped 0 y BUILD SUCCESS; generación de JAR.
+
+##### Documentación Swagger de la API
+
+El Backend se inició localmente en `localhost:8080` y su Swagger UI presentó **ArquiTech REST API** con **OpenAPI 3.1**. Las figuras 124–127 registran la documentación disponible y los tres contratos REST más relacionados con EC01, EC05 y EC08. Los bloques `Example Value` y los códigos de respuesta de Swagger representan **esquemas y resultados definidos en el contrato**; estas capturas no muestran una invocación real de `Try it out`. Los intercambios y resultados de persistencia se sustentan de forma independiente en el informe y los registros de EC08.
+
+**Figura 124**  
+_Documentación Swagger de ArquiTech REST API en ejecución local._
+
+<p align="center">
+  <img src="assets/chapter-8/8.3.3.5-Backend-Swagger-Endpoints.png" width="950" alt="Documentación Swagger de ArquiTech REST API en ejecución local.">
+</p>
+
+_Nota._ Swagger UI en localhost:8080 con OpenAPI 3.1 y endpoints Workers y Tasks; muestra contratos, no ejecución HTTP de estos endpoints.
+
+**Figura 125**  
+_Contrato REST para registrar una entrada de materiales._
+
+<p align="center">
+  <img src="assets/chapter-8/8.3.3.5-Backend-Swagger-Entrada.png" width="950" alt="Contrato REST para registrar una entrada de materiales.">
+</p>
+
+_Nota._ Swagger POST /api/v1/materials/{id}/entry con parámetro, cuerpo JSON y respuesta 201 documentada, no respuesta real de Try it out.
+
+**Figura 126**  
+_Contrato REST para registrar un uso de materiales._
+
+<p align="center">
+  <img src="assets/chapter-8/8.3.3.5-Backend-Swagger-Uso.png" width="950" alt="Contrato REST para registrar un uso de materiales.">
+</p>
+
+_Nota._ Swagger POST /api/v1/materials/{id}/use; cuerpo JSON y respuesta 201 documentada, sin ejecución HTTP en la captura.
+
+**Figura 127**  
+_Contrato REST para consultar el historial de movimientos por proyecto._
+
+<p align="center">
+  <img src="assets/chapter-8/8.3.3.5-Backend-Swagger-Historial.png" width="950" alt="Contrato REST para consultar el historial de movimientos por proyecto.">
+</p>
+
+_Nota._ Swagger GET /api/v1/materials/project/{projectId}/history; ejemplo de respuesta con autor, fecha, tipo, material y cantidad.
+
+#### 8.3.3.6. Team Collaboration Insights
+
+Para describir las contribuciones se utilizaron dos fuentes complementarias: los gráficos **Insights → Contributors** de GitHub sobre la rama principal y el historial versionado de los **pull requests experimentales**. Los registros permiten atribuir commits y archivos cambiados a las cuentas visibles; **no permiten inferir horas de trabajo, acuerdos de reuniones, code reviews realizados o toda la actividad de los integrantes**.
+
+##### Distribución de commits en Frontend Web
+
+La figura 128 muestra el gráfico de contribuciones de Frontend Web con el filtro **Last 3 months** y tipo **Commits**. En esa vista, GitHub presenta a **educmz con 5 commits, BradenGarcia con 3, BrooklynKarmis con 2 y Vmer140 con 2**. La propia interfaz aclara que las contribuciones por semana corresponden a **`main`, excluyendo commits de fusión**. No debe compararse este conteo directamente con los PR sin fusionar.
+
+**Figura 128**  
+_Distribución de las contribuciones del repositorio Frontend Web._
+
+<p align="center">
+  <img src="assets/chapter-8/8.3.3.6-Web-Team-Contributors.png" width="950" alt="Distribución de las contribuciones del repositorio Frontend Web.">
+</p>
+
+_Nota._ GitHub Insights Contributors para main durante tres meses, sin merge commits: educmz 5, BradenGarcia 3, BrooklynKarmis 2 y Vmer140 2.
+
+##### Cambios experimentales y documentación académica
+
+| Repositorio / PR | Evidencia capturada | Alcance |
+| --- | --- | --- |
+| [Frontend Web #8](https://github.com/educmz/ArquiTech-FrontendWeb/pull/8) | **39 commits**, **75 archivos modificados**, `experiment/ab-evaluation`, **Draft**. | Desarrollo y pruebas EC01–EC07 y EC09. |
+| [Frontend Mobile #8](https://github.com/educmz/ArquiTech-FrontendMobile/pull/8) | **12 commits**, **38 archivos modificados**, rama experimental, **Draft**. | EC08: almacenamiento, recuperación y comprobaciones. Incluye algunos checks fallidos intermedios, además de resultados posteriores. |
+| [Landing Page #11](https://github.com/educmz/ArquiTech-LandingPage/pull/11) | **9 commits**, **123 archivos modificados**, rama experimental, **Draft**. | EC10: variantes, pruebas, defectos y correcciones. |
+| [Informe #34](https://github.com/educmz/ArquiTech-Report/pull/34) | **4 commits** y **1 archivo modificado** en la captura, rama `experiments/ab-evidence-2026-11-09`, **Draft**. | Documentación de 8.3.3 y 8.4.1. Tras incorporar imágenes, el número del PR se incrementó: la figura conserva el estado histórico. |
+
+**Figura 129**  
+_Historial de cambios del pull request experimental Frontend Web #8._
+
+<p align="center">
+  <img src="assets/chapter-8/8.3.3.6-Web-Experimental-Commits.png" width="950" alt="Historial de cambios del pull request experimental Frontend Web #8.">
+</p>
+
+_Nota._ PR Web #8: 39 commits, 75 archivos modificados, rama experiment/ab-evaluation y estado Draft.
+
+**Figura 130**  
+_Historial de implementación y pruebas del pull request Mobile #8._
+
+<p align="center">
+  <img src="assets/chapter-8/8.3.3.6-Mobile-Experimental-Commits.png" width="950" alt="Historial de implementación y pruebas del pull request Mobile #8.">
+</p>
+
+_Nota._ PR Mobile #8: 12 commits, 38 archivos modificados y estado Draft; se observan fallos de comprobación en commits intermedios.
+
+**Figura 131**  
+_Historial de cambios y corrección del pull request Landing #11._
+
+<p align="center">
+  <img src="assets/chapter-8/8.3.3.6-Landing-Experimental-Commits.png" width="950" alt="Historial de cambios y corrección del pull request Landing #11.">
+</p>
+
+_Nota._ PR Landing #11: 9 commits, 123 archivos modificados, rama experimental y estado Draft.
+
+**Figura 132**  
+_Historial de la documentación del capítulo VIII en el informe._
+
+<p align="center">
+  <img src="assets/chapter-8/8.3.3.6-Report-Experimental-Commits.png" width="950" alt="Historial de la documentación del capítulo VIII en el informe.">
+</p>
+
+_Nota._ PR Report #34: cuatro commits y un archivo modificado en el momento de la captura; el número aumentó al subir las imágenes.
+
+**Interpretación:** los PR registran cambios versionados y contribuciones visibles, mientras la gráfica de Contributors documenta parte del historial de `main`. En conjunto muestran trabajo y seguimiento técnico, **pero no acreditan una revisión formal por otros integrantes ni el cierre de todos los sprints**. Si el equipo dispone de actas, revisiones, responsables y estimaciones de Sprint, deben anexarse a la evidencia correspondiente sin inventar actividades no documentadas.
 
 #### Resultados consolidados como insumo para 8.4.1
 
