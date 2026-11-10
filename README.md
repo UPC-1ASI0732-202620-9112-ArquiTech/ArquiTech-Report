@@ -353,6 +353,9 @@ _Commits realizados durante la entrega TB1_
 - [8.4. Experiment Aftermath & Analysis](#84-experiment-aftermath--analysis)
   - [8.4.1. Analysis and Interpretation of Results](#841-analysis-and-interpretation-of-results)
   - [8.4.2. Re-scored and Re-prioritized Question Backlog](#842-re-scored-and-re-prioritized-question-backlog)
+- [8.5. Continuous Learning](#85-continuous-learning)
+  - [8.5.1. Shareback Session Artifacts: Learning Workflow](#851-shareback-session-artifacts-learning-workflow)
+
 
 ### [Conclusion](#conclusiones)
 
@@ -8367,6 +8370,89 @@ Q04 y Q14 empatan con 19 puntos y el mismo Riesgo; Q04 se mantiene primera por s
 <p align="justify">
 
 Con esta revisión el backlog pasa de una estructura principalmente amplia (broad) a una más profunda (deep): tres de las preguntas nuevas profundizan en los defectos observados en EC05, EC07 y EC10, y se ubican antes de repetir los experimentos que les dieron origen. Las prioridades resultantes alimentan el aprendizaje continuo documentado en la sección 8.5.
+
+</p>
+</div>
+
+## 8.5. Continuous Learning
+
+<div style="text-align: justify;">
+<p align="justify">
+
+El aprendizaje continuo de ArquiTech consiste en cerrar cada ciclo de experimentación con una decisión explícita y en convertir lo aprendido en nuevas preguntas para la siguiente iteración. Para ello, los resultados interpretados en la sección 8.4.1 y el backlog re-priorizado en la sección 8.4.2 se compartieron con todo el equipo en una sesión de Shareback, en la que se revisaron los hallazgos, se acordaron las decisiones por experimento y se definieron los responsables de la siguiente iteración.
+
+</p>
+</div>
+
+### 8.5.1. Shareback Session Artifacts: Learning Workflow
+
+#### Learning Workflow
+
+<div style="text-align: justify;">
+<p align="justify">
+
+El Learning Workflow describe cómo fluye el conocimiento en el ciclo Experiment-Driven de ArquiTech. Cada etapa produce un artefacto del informe que sirve como insumo de la siguiente, y la última etapa vuelve a alimentar el Question Backlog, con lo que el ciclo se reinicia.
+
+</p>
+</div>
+
+| Etapa | Pregunta que responde | Artefacto | Sección | Resultado en el AV2 |
+| ----- | --------------------- | --------- | ------- | ------------------- |
+| 1. Preguntar | ¿Qué no sabemos del producto o del negocio? | Raw Material, Experiment-Ready Questions y Question Backlog | 8.1.2 a 8.1.4 | 12 preguntas priorizadas: 10 Belief-led y 2 exploratorias. |
+| 2. Diseñar | ¿Cómo lo vamos a comprobar? | Experiment Cards, Hypotheses, Domain Business Metrics, Measures, Conditions, Scale y Methods | 8.1.5 y 8.2 | 10 experimentos (EC01–EC10) con hipótesis H01–H10 y métricas M01–M11 y F01–F03. |
+| 3. Experimentar | ¿Qué ocurrió al ejecutar las variantes A y B? | Evidencia de ejecución en Web, Mobile y Landing Page | 8.3.3 | Evidencia técnica de los diez experimentos (recorridos Web, lote Android de EC08 y verificaciones de la Landing Page). |
+| 4. Analizar | ¿Qué podemos concluir y qué no? | Analysis and Interpretation of Results | 8.4.1 | Ninguna hipótesis se acepta ni se rechaza; se identificaron defectos en EC05, EC06 y EC07 y la necesidad de medir con personas y costos. |
+| 5. Repriorizar | ¿Qué preguntamos ahora? | Re-scored and Re-prioritized Question Backlog | 8.4.2 | 15 preguntas re-puntuadas, 3 de ellas nuevas (Q13, Q14 y Q15). |
+| 6. Compartir y decidir | ¿Qué hacemos con lo aprendido? | Shareback Session | 8.5.1 | Decisiones por experimento y responsables de la siguiente iteración. |
+| 7. Volver a preguntar | ¿Qué entra a la siguiente iteración? | Question Backlog actualizado | 8.4.2 → 8.1.4 | Q04, Q14, Q05, Q07 y Q10 encabezan la siguiente iteración. |
+
+#### Registro de la sesión de Shareback
+
+| Elemento | Detalle |
+| -------- | ------- |
+| Fecha | 10/11/2026 |
+| Hora de inicio | 18:05 |
+| Duración | Aproximadamente 1 hora y 30 minutos |
+| Medio | Google Meet (sesión virtual) |
+| Participantes | Chacaliaza Minaya, Eduardo Fabian; Quispe Barzola, Fabricio Fabian; Espino Rossi, Victor Manuel; Garcia Cerpa, Braden Raid |
+| Objetivo | Compartir los resultados de los experimentos EC01–EC10, revisar el backlog re-priorizado y acordar las decisiones de la siguiente iteración. |
+| Insumos revisados | Sección 8.4.1 integrada mediante el [Pull Request #34](https://github.com/educmz/ArquiTech-Report/pull/34) y sección 8.4.2 con el Question Backlog re-puntuado. |
+| Agenda | 1) Resultados por experimento y limitaciones de la evidencia. 2) Nuevas prioridades del Question Backlog. 3) Decisiones por experimento. 4) Responsables de la siguiente iteración. |
+
+**Figura 133**  
+_Sesión de Shareback del equipo ArquiTech en Google Meet_
+
+<p align="center">
+
+  <img src="assets/chapter-8/8.5.1-Shareback-Session-Meet.jpg" alt="Sesión de Shareback del equipo ArquiTech en Google Meet" width="850">
+
+</p>
+
+#### Aprendizajes y decisiones por experimento
+
+| Experimento | Qué aprendimos | Decisión acordada | Próxima pregunta |
+| ----------- | -------------- | ----------------- | ---------------- |
+| EC04 · Panel de seguimiento | Las consultas se completaron, pero sin medir la ayuda no es posible evaluar la autonomía del contratante. | Repetir con contratantes y registro independiente de las solicitudes de ayuda. | Q04 |
+| EC07 · Alertas de incidencias | La variante B detectó menos incidencias porque la vista solo se actualizaba al recargar. | Implementar la actualización sin recarga antes de repetir el experimento. | Q14 → Q07 |
+| EC05 · Historial de movimientos | Los usuarios confundieron la entrada más reciente con el último uso de un material. | Diferenciar visualmente entradas y usos y repetir con la serie completa de discrepancias. | Q13 → Q05 |
+| EC10 · Landing Page por segmento | Los eventos locales de contacto no demuestran solicitudes recibidas ni calificadas. | Registrar las solicitudes recibidas y su calificación por variante antes del Test A/B comercial. | Q15 → Q10 |
+| EC06 · Reporte asistido | B produjo más reportes correctos y completos, pero el flujo manual no se respetó en todos los intentos. | Separar los flujos manual y asistido y repetir con supervisores para medir M06 y F02. | Q06 |
+| EC08 · Borradores sin conexión | La sincronización fue íntegra en el lote técnico, pero falta conocer el contexto real de conectividad. | Responder Q11 mediante entrevistas antes de repetir con supervisores. | Q11 → Q08 |
+| EC01, EC02, EC03, EC09 | A y B obtuvieron resultados técnicos equivalentes y no se midió el efecto en personas ni el costo. | Mantener las funcionalidades verificadas y repetir después de las preguntas de mayor prioridad. | Q01, Q02, Q03, Q09 |
+
+#### Acuerdos y responsables de la siguiente iteración
+
+| Acuerdo | Responsable |
+| ------- | ----------- |
+| Corregir EC05 y EC07 y repetir EC04, EC05, EC06 y EC07 con la unidad de análisis y la escala definidas en 8.2.5. | Chacaliaza Minaya, Eduardo Fabian |
+| Instrumentar la recepción y calificación de solicitudes de la Landing Page y los eventos necesarios para M01–M11 en el pipeline de experimentación. | Quispe Barzola, Fabricio Fabian |
+| Incorporar Q11 y Q12 a las entrevistas de validación con supervisores y contratantes. | Espino Rossi, Victor Manuel |
+| Actualizar el Question Backlog con los nuevos resultados y documentar el siguiente ciclo de aprendizaje. | Garcia Cerpa, Braden Raid |
+
+<div style="text-align: justify;">
+<p align="justify">
+
+La sesión permitió que todo el equipo compartiera una misma interpretación de los resultados: la plataforma demostró capacidades técnicas verificables, pero todavía no existe evidencia suficiente para afirmar cambios en el comportamiento de los usuarios ni en los costos. Por ello, la siguiente iteración prioriza corregir los defectos detectados, medir con personas y registrar costos, de modo que las nuevas ejecuciones puedan aceptar o refutar las hipótesis conforme a sus metas.
 
 </p>
 </div>
