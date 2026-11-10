@@ -7949,6 +7949,14 @@ También se corrigió la actualización reactiva al cambiar de experimento o pro
 
 **Separación de evidencia:** los resultados **132/132** de guiones técnicos y **100/132** de recorridos autónomos expuestos a continuación pertenecen a la evaluación anterior de A y B en rutas separadas. Las diez nuevas comprobaciones de integración **no se agregan** a esa muestra ni prueban los KPI de efectividad. Persisten las limitaciones ya documentadas para EC07 y las demás hipótesis.
 
+##### Refinamiento: control global y traducciones ES/EN
+
+En una revisión posterior se sustituyeron los selectores A/B individuales por **un interruptor único en el navbar superior**: desactivado por defecto mantiene los módulos originales; activado despliega las mejoras de los ocho experimentos integrados. La preferencia se conserva al navegar o recargar la aplicación. El cambio de idioma ES/EN se realiza mediante el selector ya existente y actualiza tanto el control como los campos, textos y estados de los módulos To-Be.
+
+La [regresión de interfaz del interruptor](https://github.com/educmz/ArquiTech-FrontendWeb/actions/runs/42874800373) terminó con **11/11 comprobaciones Playwright aprobadas**, incluidos los ocho experimentos, ambos idiomas, persistencia y recarga de materiales. El [CI de Angular y compilación](https://github.com/educmz/ArquiTech-FrontendWeb/actions/runs/42874809458) también aprobó. El código permanece en el [PR #8 de Frontend Web](https://github.com/educmz/ArquiTech-FrontendWeb/pull/8), sin fusión a `main`.
+
+La revisión no sustituye la evaluación A/B previa y sus 132 casos; añade validación funcional de la interfaz integrada, no resultados sobre participantes reales ni nuevos KPI comerciales.
+
 ##### Resultados Web: EC01–EC07 y EC09
 
 La batería técnica de Playwright aprobó **132/132 recorridos predefinidos en ocho suites**. En una fase independiente se ejecutaron **132/132 asignaciones de navegación autónoma**, de las cuales **100 tuvieron todos sus objetivos correctos y 32 completaron el recorrido con al menos un objetivo incorrecto**. De los 132, el piloto aportó 16 correctos y la cohorte posterior 84 correctos de 116 ejecutados. Los nueve recorridos suplementarios se registraron por separado y no forman parte de los 132. Un verificador independiente contrastó los resultados con estados de ensayo y descargas cuando correspondía.
