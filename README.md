@@ -7864,6 +7864,43 @@ El refinamiento del backlog distingue tres tipos de evidencia para cada historia
 El tablero operativo y esta matriz documentan el mismo conjunto de diez incrementos de producto. La primera vista permite gestionar las tarjetas de trabajo; la segunda preserva en el informe la relación verificable entre necesidad del usuario, intervención, prioridad y criterio de evaluación.
 
 
+### 8.3.3. Ejecución de las pruebas A/B y trazabilidad de evidencias
+
+Para comprobar el funcionamiento de las condiciones de control (A) y de tratamiento (B) se realizaron ejecuciones automatizadas sobre ArquiTech en un entorno aislado. Las pruebas Web utilizaron Chromium, Playwright, cuentas de demostración y los servicios mock del frontend. Cada recorrido produjo registros asociados al experimento, la condición y el perfil operativo configurado. El propósito de esta etapa fue verificar el comportamiento implementado, preservar las evidencias técnicas y delimitar qué indicadores quedan pendientes de evaluación.
+
+#### Evidencias de ejecución
+
+| Experimento | Comprobación automatizada | Resultado observado |
+| --- | --- | --- |
+| EC01 | Inventario y validación de cantidad/stock | 8/8 recorridos A y 8/8 B aprobados |
+| EC02 | Registro de asistencia en jornada de ensayo | 8/8 A y 8/8 B aprobados |
+| EC03 | Visualización de tareas y prioridad | 8/8 A y 8/8 B aprobados |
+| EC04 | Estado, avance y reporte de obra | 8/8 A y 8/8 B aprobados |
+| EC05 | Historial de materiales con autor y fecha | 8/8 A y 8/8 B aprobados |
+| EC06 | Disponibilidad y revisión de reporte semanal | 8/8 A y 8/8 B aprobados |
+| EC07 | Consulta de incidencias y bandeja priorizada | 12/12 A y 12/12 B aprobados |
+| EC08 | Persistencia de borradores, aislamiento y recuperación controlada | Pruebas Flutter, análisis y compilación APK aprobados; falta medir sincronización tras reconexión |
+| EC09 | Acceso al módulo inicial y guía por rol | 6/6 A y 6/6 B aprobados |
+| EC10 | Exposición a las variantes Landing A/B y eventos de navegación | 200/200 visitas automatizadas en A y 200/200 en B; dos suites aprobadas |
+
+En conjunto, la batería Web aprobó **132 de 132 recorridos técnicos** distribuidos en ocho suites, mientras que EC10 completó **400 visitas automatizadas**. Las visitas se ejecutaron en sesiones aisladas con asignación de variante de ensayo. Las verificaciones corresponden a acciones efectivamente realizadas por herramientas automatizadas; no se contabilizan como entrevistas o participación de usuarios humanos.
+
+La evidencia se conserva en los siguientes artefactos de GitHub Actions:
+
+- [Web: ejecución y artefactos del job aprobado](https://github.com/educmz/ArquiTech-FrontendWeb/actions/runs/42756612966/artifacts/13735444685), commit `d734fa67`.
+- [Landing EC10: ejecución y artefactos aprobados](https://github.com/educmz/ArquiTech-FrontendWeb/actions/runs/42757279970/artifacts/13736537034), commit del runner `84362bd4`.
+- [Mobile EC08: análisis, pruebas unitarias y compilación APK aprobados](https://github.com/educmz/ArquiTech-FrontendMobile/actions/runs/42756103823), commit `d0be8f8b`.
+- [Consolidación técnica con alcance y limitaciones](https://github.com/educmz/ArquiTech-FrontendWeb/blob/experiment/ab-evaluation/experiments/results/2026-11-09-ab-execution-report.md).
+
+El workflow de la primera ejecución conjunta aparece con estado global fallido por un error en el arranque del job Landing; el job Web sí terminó correctamente. Posteriormente se corrigió el comando de inicio y el job Landing se ejecutó satisfactoriamente en una segunda corrida. Las evidencias se atribuyen a los jobs y commits efectivamente ejecutados, sin ocultar el fallo inicial.
+
+#### Interpretación frente a las hipótesis
+
+La aprobación de los recorridos demuestra que las rutas, componentes y acciones seleccionadas funcionaron en el entorno de ensayo. **No constituye por sí sola aceptación de las hipótesis H1 ni cumplimiento de M01–M11 y F01–F03**. En particular, las pruebas Web actuales emplean secuencias predefinidas de Playwright; el tiempo medido corresponde a navegación automatizada y algunos recorridos A y B verifican acciones distintas, por lo que no permite concluir ahorros operativos ni mejoras de tiempo humano.
+
+Para EC07 todavía no se ha ejecutado un piloto temporal de detección y notificación; para EC08 faltan la reconexión y la verificación integral contra un backend aislado para calcular M09; y en EC10 no se registraron solicitudes comerciales enviadas ni gasto atribuible de campaña para M11 y F03. Los criterios restantes que dependen de decisiones, ayuda o duración de uso deben medirse bajo un protocolo comparable antes de formular una decisión de aceptación o rechazo. Los resultados actuales se conservan como **evidencia técnica de ejecución y preparación experimental**, con las hipótesis de negocio todavía pendientes de contraste suficiente.
+
+
 # Conclusiones
 
 ## Conclusiones y recomendaciones
