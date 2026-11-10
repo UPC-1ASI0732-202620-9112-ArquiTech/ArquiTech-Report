@@ -349,6 +349,9 @@ _Commits realizados durante la entrega TB1_
 - [8.3. Experimentation](#83-experimentation)
   - [8.3.1. To-Be User Stories](#831-to-be-user-stories)
   - [8.3.2. To-Be Product Backlog](#832-to-be-product-backlog)
+  - [8.3.3. Pipeline-supported, Experiment-Driven To-Be Software Platform Lifecycle](#833-pipeline-supported-experiment-driven-to-be-software-platform-lifecycle)
+- [8.4. Experiment Aftermath & Analysis](#84-experiment-aftermath--analysis)
+  - [8.4.1. Analysis and Interpretation of Results](#841-analysis-and-interpretation-of-results)
 
 ### [Conclusion](#conclusiones)
 
@@ -7864,6 +7867,439 @@ El refinamiento del backlog distingue tres tipos de evidencia para cada historia
 El tablero operativo y esta matriz documentan el mismo conjunto de diez incrementos de producto. La primera vista permite gestionar las tarjetas de trabajo; la segunda preserva en el informe la relación verificable entre necesidad del usuario, intervención, prioridad y criterio de evaluación.
 
 
+### 8.3.3. Pipeline-supported, Experiment-Driven To-Be Software Platform Lifecycle
+
+El ciclo de vida de la plataforma To-Be se documenta mediante la trazabilidad **pregunta (8.1) → historia To-Be (8.3.1) → Product Backlog (8.3.2) → trabajo de implementación → verificación A/B → registros y evidencias → revisión**. Las variantes se desarrollaron y verificaron inicialmente en ramas experimentales; sus PR de Web #8, Mobile #8 y Landing #11 se fusionaron después en `main`, al igual que el Backend #8 para EC08. La fusión de código no acredita por sí misma el despliegue efectivo de cada servicio ni valida las hipótesis de negocio. Las evidencias de las versiones anteriores se conservan separadas de los cambios y comprobaciones posteriores.
+
+Se mantuvieron separadas las pruebas Playwright de acciones predefinidas, los recorridos autónomos dirigidos por un agente que seleccionó acciones según la interfaz, las comprobaciones Flutter/Android y los casos funcionales de Landing. Las ejecuciones automáticas utilizaron datos de ensayo, **no participantes humanos**. Los errores, reintentos y límites del entorno forman parte del registro original.
+
+| Producto | Cambios, pruebas y entorno | Relación con pipeline y publicación | Alcance comprobado |
+| --- | --- | --- | --- |
+| **Web** | Angular local, mock, Playwright Chromium y agente de navegación | [PR Web #8](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendWeb/pull/8), [workflow `ab-browser.yml`](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendWeb/blob/bad486e279e59d7af30dc80d1388a5e1b3d11ae9/.github/workflows/ab-browser.yml), [informe](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendWeb/blob/bad486e279e59d7af30dc80d1388a5e1b3d11ae9/experiments/results/2026-11-10-ab-local-execution-report.md) | La batería técnica registra 132 recorridos; los otros 132 recorridos autónomos se ejecutaron **localmente**, se verificaron por separado y sus artefactos se publicaron después. |
+| **Mobile** | Flutter, Android emulado, Spring Boot y MySQL aislados en loopback | [PR Mobile #8](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendMobile/pull/8), [CI](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendMobile/blob/59cd61e2f90d2243f31765ad3ee3cfa345c66579/.github/workflows/ci.yml), [informe EC08](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendMobile/blob/59cd61e2f90d2243f31765ad3ee3cfa345c66579/docs/ec08-mobile-evaluation.md) | La prueba integral de reconexión fue **local** en Android, no una sesión con supervisores. |
+| **Landing** | Angular, Chrome Headless, validadores de navegación y agentes | [PR Landing #11](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-LandingPage/pull/11), [CI aprobado](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-LandingPage/actions/runs/42824541195), [informe EC10](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-LandingPage/blob/8777313bcee6252629360f075697ac05b27b134b/docs/ec10/README.md) | Las 400 visitas históricas de CI, las pruebas locales iniciales y la regresión corregida se contabilizan como conjuntos independientes. |
+
+**Alcance y fuentes:** 8.3.3.1–8.3.3.4 documentan backlog y evidencias Web, Mobile y Landing; 8.3.3.5 reúne contratos REST y verificaciones disponibles del Backend; y 8.3.3.6 presenta commits y contribuciones comprobables. Las capturas se almacenan en `assets/chapter-8/`, separando la evidencia de `main` de los PR experimentales. Las imágenes no prueban reuniones, estimaciones, revisiones por pares ni despliegues que no consten en los registros.
+
+#### 8.3.3.1. To-Be Sprint Backlogs
+
+Las historias y prioridades se toman de [8.3.1](#831-to-be-user-stories) y [8.3.2](#832-to-be-product-backlog) y del [tablero To-Be Product Backlog de ArquiTech](https://trello.com/b/jDELnGdF/arquitech-product-backlog). El siguiente desglose presenta el **trabajo técnico ejecutado** por tres frentes de producto, su finalidad y verificación. Los identificadores de las historias son los ya documentados; no se crean story points, horas, actas de Sprint Planning ni asignaciones de personas sin respaldo documental.
+
+| Frente To-Be y Sprint Goal técnico documentado | Historias y experimentos | Work-items de implementación y pruebas | Evidencia del estado |
+| --- | --- | --- | --- |
+| **Frontend Web:** comprobar en condiciones A/B registros, consultas, seguimiento y tareas de los perfiles operativos | TB-HU01, TB-HU02, TB-HU03, TB-HU04, TB-HU05, TB-HU06, TB-HU07, TB-HU09; EC01–EC07 y EC09 | Incorporar condiciones experimentales y datos de ensayo; ejecutar batería técnica; ejecutar y verificar objetivos autónomos; conservar evidencia | [Componente de variantes](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendWeb/blob/bad486e279e59d7af30dc80d1388a5e1b3d11ae9/src/app/experiments/experiment-workbench.component.ts); [132 recorridos autónomos](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendWeb/blob/bad486e279e59d7af30dc80d1388a5e1b3d11ae9/experiments/results/agent-runs/autonomous-cohort-20261110/outcomes.csv); [índice de evidencia](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendWeb/blob/bad486e279e59d7af30dc80d1388a5e1b3d11ae9/experiments/results/evidence-review/README.md) |
+| **Native Mobile:** comprobar que los movimientos no se pierden cuando falta conectividad y que se sincronizan íntegros | TB-HU08; EC08 | Desarrollar almacén de borradores; introducir acceso de supervisores; probar persistencia y reinicio; verificar la API aislada y conciliar identificadores | [Almacén Flutter](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendMobile/blob/59cd61e2f90d2243f31765ad3ee3cfa345c66579/lib/features/materials/data/ec08_draft_store.dart); [prueba de integridad](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendMobile/blob/59cd61e2f90d2243f31765ad3ee3cfa345c66579/test/materials/ec08_draft_store_test.dart); [conciliación](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendMobile/blob/59cd61e2f90d2243f31765ad3ee3cfa345c66579/docs/evidence/ec08/reconciliation/b-reconciliation.csv) |
+| **Landing Page:** probar una solicitud de demostración personalizada por perfil y su continuidad de navegación | TB-HU10; EC10 | Implementar asignación A/B y segmentación; ejecutar verificaciones; corregir tres defectos de navegación; repetir regresión y publicar resultados | [Componente EC10](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-LandingPage/blob/8777313bcee6252629360f075697ac05b27b134b/src/app/ec10-landing.ts); [corrección](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-LandingPage/commit/cd872735fdcd246a472aaf21d44fae995552e428); [regresión](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-LandingPage/tree/8777313bcee6252629360f075697ac05b27b134b/docs/ec10/evidence/retest) |
+
+**Trazabilidad de trabajo y cierre:** en el frente Web constan **132/132 recorridos técnicos aprobados y 132/132 recorridos autónomos ejecutados (100 correctos; 32 incorrectos)**; en Mobile, **100/100 pruebas Flutter** y **40/40 borradores B** sincronizados; en Landing, después de la corrección, **422/422 verificaciones**. Estos estados describen entregables y pruebas, **no certifican un Sprint Review formal**. Para completar la parte administrativa del Sprint Backlog del formato del curso se debe adjuntar la captura de tablero con Sprint, responsables, estimaciones horarias y estados reales cuando los integrantes la documenten. La prioridad de los diez elementos en 8.3.2 no equivale por sí misma a una asignación a un Sprint.
+
+**Comprobación del tablero Trello (10/11/2026):** se observaron diez tarjetas en `To-Be Product Backlog - AV2` y siete tarjetas de historias anteriores en `Sprint Backlog`; las listas `To Do`, `Doing` y `Done` contenían dos, una y cuatro tarjetas, respectivamente. Las diez historias To-Be no figuran asignadas a un Sprint con responsables ni horas registradas. Por ello, el desglose anterior se presenta como **trazabilidad del trabajo técnico ejecutado**, sin sustituir un Sprint Backlog administrativo que requeriría esos registros.
+
+##### Evidencia visual del To-Be Product Backlog
+
+Las figuras 118 y 119 muestran dos posiciones de desplazamiento del mismo tablero [ArquiTech - Product Backlog](https://trello.com/b/jDELnGdF/arquitech-product-backlog) en Trello. Se observan las **diez tarjetas To-Be** de la lista «To-Be Product Backlog - AV2» y, en paralelo, las columnas Sprint Backlog, To Do, Doing y Done con historias HU originales. Por ello, las capturas avalan la **organización del Product Backlog To-Be**, pero no demuestran que todas esas historias se hayan incluido en un Sprint formal o que se hayan asignado horas y responsables.
+
+**Figura 118**  
+_Vista superior del tablero Trello con diez historias To-Be y columnas operativas._
+
+<p align="center">
+  <img src="assets/chapter-8/8.3.3.1-To-Be-Product-Backlog-Trello.png" width="950" alt="Vista superior del tablero Trello con diez historias To-Be y columnas operativas.">
+</p>
+
+_Nota._ Trello, ArquiTech - Product Backlog: primeras tarjetas de To-Be Product Backlog - AV2 y listas Sprint Backlog, To Do, Doing y Done; no certifica por sí sola el Sprint Planning.
+
+**Figura 119**  
+_Vista inferior de las historias To-Be en Trello._
+
+<p align="center">
+  <img src="assets/chapter-8/8.3.3.1-To-Be-Product-Backlog-Trello-Parte2.png" width="950" alt="Vista inferior de las historias To-Be en Trello.">
+</p>
+
+_Nota._ Trello, segundo desplazamiento de la lista de diez historias To-Be; complementa la figura anterior, sin revelar estimaciones ni responsabilidades de Sprint.
+
+#### 8.3.3.2. Implemented To-Be Landing Page Evidence
+
+La historia [TB-HU10](https://trello.com/c/LGcpuxSF) se materializó en la ruta `/experiment/ec10`. La condición **A** presenta el mecanismo general de contacto; **B** cambia mensajes y formulario conforme al rol de supervisor o contratante, registra `view`, `segment_selected` y `mailto_intent`, y conserva la asignación experimental. Se desarrollaron pruebas de enlace, validación, segmento, persistencia y regresión de la portada pública.
+
+**Arquitectura de evidencia:** [implementación del componente](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-LandingPage/blob/8777313bcee6252629360f075697ac05b27b134b/src/app/ec10-landing.ts), [plantilla](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-LandingPage/blob/8777313bcee6252629360f075697ac05b27b134b/src/app/ec10-landing.html), [test Angular](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-LandingPage/blob/8777313bcee6252629360f075697ac05b27b134b/src/app/ec10-landing.spec.ts), [CSV inicial](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-LandingPage/blob/8777313bcee6252629360f075697ac05b27b134b/docs/ec10/evidence/functional.csv), [CSV de regresión](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-LandingPage/blob/8777313bcee6252629360f075697ac05b27b134b/docs/ec10/evidence/retest/functional.csv), [resultados autónomos](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-LandingPage/blob/8777313bcee6252629360f075697ac05b27b134b/docs/ec10/evidence/retest/outcomes.csv), [capturas y trazas](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-LandingPage/tree/8777313bcee6252629360f075697ac05b27b134b/docs/ec10/evidence/retest), [110 huellas SHA-256](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-LandingPage/blob/8777313bcee6252629360f075697ac05b27b134b/docs/ec10/SHA256SUMS). También se conserva el [CI aprobado](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-LandingPage/actions/runs/42824541195).
+
+##### Ajuste posterior: variante B con Landing Page completa
+
+Con posterioridad a la evaluación de EC10 resumida debajo, se revisó el tratamiento B para **conservar todas las secciones originales de la Landing Page** en ambas condiciones, limitando las diferencias a la presentación y beneficios según el rol, las llamadas a la acción y el formulario de demostración integrado después del plan. La variante A y la ruta pública `/` mantienen su estructura existente. El cambio puede inspeccionarse en el [PR #11](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-LandingPage/pull/11), [plantilla compartida](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-LandingPage/blob/07a8ac5f2b276b66da8867e642dabe1b26d0f081/src/app/landing.html) y [componente EC10](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-LandingPage/blob/07a8ac5f2b276b66da8867e642dabe1b26d0f081/src/app/ec10-landing.html).
+
+**Separación de versiones:** el [PR Landing #11](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-LandingPage/pull/11) ya está fusionado en `main`. Los **418/421** y **422/422** registros descritos a continuación corresponden exclusivamente a la versión **anterior**, en la cual B tenía un formato reducido. **No se reasignan esos resultados al nuevo diseño**. La revisión cuenta con [pruebas Angular y compilación en CI](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-LandingPage/actions/runs/42858232537); su [regresión completa de navegador](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-LandingPage/actions/workflows/ec10-full-landing.yml) se ejecuta como conjunto nuevo con artefactos separados. M11/F03 requieren todavía contactos comerciales recibidos y calificados, visitas únicas y costos.
+
+##### Resultados Landing Page: EC10
+
+En la primera evaluación de EC10 se obtuvieron **418 verificaciones correctas de 421** y se detectaron tres salidas no deseadas de la ruta experimental: dos CTA de A hacia la portada pública y el enlace compartido de planes en B. Tras corregir la navegación, una ejecución posterior aprobó **422/422 verificaciones** (**416 de navegador y seis Angular**), incluidos los tres casos antes fallidos, **200 comprobaciones de asignación persistente por variante**, cuatro recorridos autónomos de contacto, validaciones funcionales y regresión de la portada pública. La compilación y el CI del PR aprobaron. Se conservaron por separado los fallos iniciales y las **400 sesiones históricas** de exposición forzada de GitHub Actions; ninguna de estas últimas se agregó a los totales nuevos.
+
+El ensayo confirmó navegación, presentación de beneficios según rol, persistencia de asignación, validación del formulario y eventos locales de intención de contacto. El navegador bloqueó la apertura del cliente de correo: **ningún evento `mailto_intent` acredita por sí mismo una solicitud enviada, recibida o calificada**. No se calcularon M11 ni F03, pues faltan visitas comerciales únicas atribuibles, solicitudes efectivamente recibidas y calificadas, y gasto de adquisición verificable por variante y periodo.
+
+Fuente: [informe EC10](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-LandingPage/blob/8777313bcee6252629360f075697ac05b27b134b/docs/ec10/README.md), [PR #11 Landing](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-LandingPage/pull/11), [evidencias posteriores a la corrección](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-LandingPage/tree/8777313bcee6252629360f075697ac05b27b134b/docs/ec10/evidence/retest), [110 huellas SHA-256](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-LandingPage/blob/8777313bcee6252629360f075697ac05b27b134b/docs/ec10/SHA256SUMS) y [CI aprobado](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-LandingPage/actions/runs/42824541195).
+
+
+**Muestras visuales:** [formulario segmentado B](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-LandingPage/blob/8777313bcee6252629360f075697ac05b27b134b/docs/ec10/evidence/retest/FUNC-B06.png) y [continuidad de navegación B](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-LandingPage/blob/8777313bcee6252629360f075697ac05b27b134b/docs/ec10/evidence/retest/FUNC-B07.png). Los cuatro recorridos autónomos de contacto verificaron interacciones locales; `mailto_intent` no certifica que se haya enviado o recibido un correo y no constituye una conversión comercial para M11 o F03.
+
+#### 8.3.3.3. Implemented To-Be Frontend-Web Application Evidence
+
+La implementación Web reúne TB-HU01, TB-HU02, TB-HU03, TB-HU04, TB-HU05, TB-HU06, TB-HU07 y TB-HU09 mediante [componente experimental](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendWeb/blob/bad486e279e59d7af30dc80d1388a5e1b3d11ae9/src/app/experiments/experiment-workbench.component.ts), [vistas](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendWeb/blob/bad486e279e59d7af30dc80d1388a5e1b3d11ae9/src/app/experiments/experiment-workbench.component.html) y [rutas](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendWeb/blob/bad486e279e59d7af30dc80d1388a5e1b3d11ae9/src/app/app.routes.ts). Los ocho experimentos utilizaron perfiles sintéticos y mock local, con variantes A/B diferenciadas. Se verificaron operaciones y estados del inventario, asistencia, fechas y prioridades, consulta de obras, historial, elaboración de reportes, incidencias y primera tarea.
+
+La batería técnica se fundamenta en [`ab-smoke.spec.ts`](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendWeb/blob/bad486e279e59d7af30dc80d1388a5e1b3d11ae9/tests/experiments/ab-smoke.spec.ts); la cohorte autónoma usa [plan de asignaciones](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendWeb/blob/bad486e279e59d7af30dc80d1388a5e1b3d11ae9/experiments/participants/plan.json), [runbook](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendWeb/blob/bad486e279e59d7af30dc80d1388a5e1b3d11ae9/experiments/CODEX_AGENT_RUNBOOK.md), [verificador](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendWeb/blob/bad486e279e59d7af30dc80d1388a5e1b3d11ae9/experiments/results/agent-runs/autonomous-cohort-20261110/verify.mjs) y [CSV de casos](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendWeb/blob/bad486e279e59d7af30dc80d1388a5e1b3d11ae9/experiments/results/agent-runs/autonomous-cohort-20261110/cases.csv). Los resultados de las pruebas automáticas y los dictámenes de objetivos autónomos son **dos fuentes distintas**, no una muestra combinada de usuarios.
+
+##### Integración posterior de las mejoras To-Be en Frontend Web
+
+Tras la ejecución de la batería Web descrita debajo, se revisó la implementación para incorporar las mejoras **dentro de las pantallas habituales**, manteniendo sus tablas, filtros, formularios, navegación y controles existentes. En el [PR #8 de Frontend Web](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendWeb/pull/8) quedan integrados **EC01** en Materiales, **EC05** en Movimientos, **EC02** en Asistencia, **EC03** en Tareas, **EC07** en Incidentes, **EC06** en Reporte semanal, **EC04** en el seguimiento del contratante y **EC09** en Proyectos. Un panel de comparación permite revisar A (pantalla original) o B (mejora incluida en el mismo módulo); la selección es manual, por lo que **no constituye una nueva asignación aleatoria de participantes**.
+
+También se corrigió la actualización reactiva al cambiar de experimento o proyecto: las solicitudes anteriores se cancelan y los materiales de EC01 vuelven a cargarse al navegar desde el resumen. La [validación específica de la integración](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendWeb/actions/runs/42869239208) aprobó **10/10 comprobaciones Playwright**, correspondientes a los ocho módulos y dos casos de recarga/validación de materiales. En el mismo commit aprobaron el [CI unitario y la compilación](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendWeb/actions/runs/42869248589) y la [suite de compatibilidad A/B](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendWeb/actions/runs/42869239072).
+
+**Separación de evidencia:** los resultados **132/132** de guiones técnicos y **100/132** de recorridos autónomos expuestos a continuación pertenecen a la evaluación anterior de A y B en rutas separadas. Las diez nuevas comprobaciones de integración **no se agregan** a esa muestra ni prueban los KPI de efectividad. Persisten las limitaciones ya documentadas para EC07 y las demás hipótesis.
+
+##### Refinamiento: control global y traducciones ES/EN
+
+En una revisión posterior se sustituyeron los selectores A/B individuales por **un interruptor único en el navbar superior**: desactivado por defecto mantiene los módulos originales; activado despliega las mejoras de los ocho experimentos integrados. La preferencia se conserva al navegar o recargar la aplicación. El cambio de idioma ES/EN se realiza mediante el selector ya existente y actualiza tanto el control como los campos, textos y estados de los módulos To-Be.
+
+La [regresión de interfaz del interruptor](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendWeb/actions/runs/42874800373) terminó con **11/11 comprobaciones Playwright aprobadas**, incluidos los ocho experimentos, ambos idiomas, persistencia y recarga de materiales. El [CI de Angular y compilación](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendWeb/actions/runs/42874809458) también aprobó. El [PR #8 de Frontend Web](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendWeb/pull/8) se fusionó posteriormente en `main`; las 11 comprobaciones citadas corresponden al refinamiento de interfaz, no a una nueva medición experimental con participantes.
+
+La revisión no sustituye la evaluación A/B previa y sus 132 casos; añade validación funcional de la interfaz integrada, no resultados sobre participantes reales ni nuevos KPI comerciales.
+
+##### Resultados Web: EC01–EC07 y EC09
+
+La batería técnica de Playwright aprobó **132/132 recorridos predefinidos en ocho suites**. En una fase independiente se ejecutaron **132/132 asignaciones de navegación autónoma**, de las cuales **100 tuvieron todos sus objetivos correctos y 32 completaron el recorrido con al menos un objetivo incorrecto**. De los 132, el piloto aportó 16 correctos y la cohorte posterior 84 correctos de 116 ejecutados. Los nueve recorridos suplementarios se registraron por separado y no forman parte de los 132. Un verificador independiente contrastó los resultados con estados de ensayo y descargas cuando correspondía.
+
+La siguiente tabla agrega piloto y cohorte autónoma. «Correcto» significa que el verificador aprobó **todos** los objetivos del recorrido; no equivale a una muestra de usuarios ni a aceptación de la hipótesis.
+
+| Experimento | A: correctos/ejecutados | B: correctos/ejecutados | Hallazgo técnico |
+| --- | ---: | ---: | --- |
+| EC01 · Inventario | 8/8 | 8/8 | Seis movimientos por asignación en la cohorte; stock comprobado. |
+| EC02 · Asistencia | 8/8 | 8/8 | Jornada y nómina verificadas. |
+| EC03 · Priorización | 8/8 | 8/8 | Identificación de tarea crítica. |
+| EC04 · Consulta de obra | 8/8 | 8/8 | Estado, avance y reporte consultados; no se midió ayuda independiente. |
+| EC05 · Historial | 1/8 | 4/8 | Fallos al confundir una entrada reciente con el último uso solicitado. |
+| EC06 · Reporte semanal | 3/8 | 8/8 | Cinco recorridos A usaron el consolidado, invalidando el método manual. |
+| EC07 · Incidencias | 7/12 | 1/12 | En la cohorte hubo dos periodos por recorrido; el mock necesitaba recarga. |
+| EC09 · Primera tarea | 6/6 | 6/6 | Objetivos comprobados; ayuda independiente no medida. |
+| **Total Web** | **49/66** | **51/66** | **100/132 correctos; 32/132 incorrectos.** |
+
+En EC05 el caso de referencia pudo responderse correctamente aunque varios recorridos completos fallaran al identificar el uso más reciente de distintos materiales. En EC06 la corrección exigía respetar el método de elaboración asignado, no solo abrir un PDF. En EC07, la detección se verificó en periodos acelerados con la aplicación abierta; **A registró 12/22 detecciones oportunas y B 3/22**, pero las reglas de recarga del mock impiden equiparar esa observación con notificaciones asíncronas durante un piloto operativo. En cuatro pares Web cambió el modelo usado entre condiciones y otros cuatro pares presentaron diferencias horarias de estado inicial; el agente podía observar el tratamiento. Por ello no se atribuyen ventajas causales a diferencias de tiempos ni a los recuentos.
+
+Fuente: [informe Web de las tres fases](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendWeb/blob/bad486e279e59d7af30dc80d1388a5e1b3d11ae9/experiments/results/2026-11-10-ab-local-execution-report.md), [PR #8](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendWeb/pull/8), [índice de verificación](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendWeb/blob/bad486e279e59d7af30dc80d1388a5e1b3d11ae9/experiments/results/evidence-review/README.md) y [paquetes publicados](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendWeb/releases/tag/evidence/web-ab-2026-11-10). El índice identifica **1.338 archivos canónicos publicados** y **4.314 archivos adicionales conservados solo en el equipo de ejecución**, pendientes de respaldo externo; el inventario distingue ambos destinos.
+
+
+**Criterios para inspeccionar los artefactos:** el [inventario](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendWeb/blob/bad486e279e59d7af30dc80d1388a5e1b3d11ae9/experiments/results/evidence-review/inventory.csv) vincula rutas, tamaños y SHA-256; el [índice](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendWeb/blob/bad486e279e59d7af30dc80d1388a5e1b3d11ae9/experiments/results/evidence-review/README.md) explica la reproducción y los [paquetes canónicos publicados](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendWeb/releases/tag/evidence/web-ab-2026-11-10). El registro identifica 1.338 archivos canónicos publicados y otros 4.314 que permanecen solo en la máquina de ejecución y requieren respaldo privado. En ningún caso los 32 recorridos incorrectos fueron excluidos del total.
+
+#### 8.3.3.4. Implemented To-Be Native-Mobile Application Evidence
+
+La historia [TB-HU08](https://trello.com/c/yTAFk7To) aporta una pantalla experimental para guardar borradores de movimientos de materiales sin conexión. En **A**, el formulario habitual envía directamente a la API y depende de un reingreso cuando la aplicación se reinicia sin red; en **B**, el almacén `SharedPreferences` conserva el identificador, proyecto, material, tipo, cantidad, proveedor, fecha y estado para una posterior sincronización manual contra API de ensayo. Una respuesta incierta deja la operación a revisión en lugar de reenviarla sin comprobar el historial.
+
+Las fuentes de implementación son el [almacén](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendMobile/blob/59cd61e2f90d2243f31765ad3ee3cfa345c66579/lib/features/materials/data/ec08_draft_store.dart), la [pantalla de borradores](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendMobile/blob/59cd61e2f90d2243f31765ad3ee3cfa345c66579/lib/features/materials/presentation/pages/ec08_drafts_page.dart), la [prueba Flutter](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendMobile/blob/59cd61e2f90d2243f31765ad3ee3cfa345c66579/test/materials/ec08_draft_store_test.dart), el [informe del ensayo](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendMobile/blob/59cd61e2f90d2243f31765ad3ee3cfa345c66579/docs/ec08-mobile-evaluation.md) y el [manifiesto de 27 archivos](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendMobile/blob/59cd61e2f90d2243f31765ad3ee3cfa345c66579/docs/evidence/ec08/SHA256SUMS.txt).
+
+##### Resultados Mobile: EC08
+
+En la versión utilizada para el ensayo técnico Android, la suite de Flutter aprobó **100/100 pruebas**, incluidas siete específicas de EC08, y el análisis estático terminó sin incidencias. Se usó un emulador Android y una API con base de datos aislada en loopback. En la **condición A**, los 40 intentos de registro durante el corte de red devolvieron el error esperado y no llegaron al backend; tras reiniciar, se confirmó el reingreso manual de **un** movimiento. En la **condición B**, 40 borradores persistieron durante el corte y el reinicio, y **40/40** se sincronizaron íntegros, sin duplicados, con la cola vacía. El lote se verificó **50,7 segundos** después de iniciarse la restauración de conectividad.
+
+**Evolución posterior de EC08:** el [PR Mobile #8](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendMobile/pull/8), fusionado en `main`, introdujo selección de material por nombre y unidad, catálogo local por usuario y proyecto y sincronización por `clientRequestId`. El cliente consulta `GET /api/v1/materials/offline-sync-capabilities` y solo habilita el envío cuando el Backend anuncia soporte idempotente; `POST /api/v1/materials/{id}/offline-movements` permite reintentos sin duplicar movimientos. La [validación Flutter posterior](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendMobile/actions/runs/42891825693) aprobó **105/105 pruebas**, análisis estático y compilación APK; el [CI del último commit del PR](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendMobile/actions/runs/42909661533) también concluyó satisfactoriamente. Estos controles son distintos del ensayo Android histórico de 40 borradores. La publicación compatible en Railway y una nueva conciliación integral con esa versión deben verificarse antes de afirmar funcionamiento extremo a extremo en producción.
+
+El **M09 técnico del lote B fue 40/40 = 100 %**, por encima de la meta predefinida del 90 % y dentro del máximo de cinco minutos. Este dato describe un lote automatizado en el entorno Android de ensayo, no el M09 definitivo del estudio con participantes. **Quedan pendientes** la evidencia de Q11, las ocho sesiones con supervisores y orden contrabalanceado (cinco intentos por condición y participante), y los minutos de reingreso o reparación requeridos para F01.
+
+Fuente: [informe EC08](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendMobile/blob/59cd61e2f90d2243f31765ad3ee3cfa345c66579/docs/ec08-mobile-evaluation.md), [PR #8 Mobile](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendMobile/pull/8) e [índice de evidencias con manifiesto SHA-256](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendMobile/tree/59cd61e2f90d2243f31765ad3ee3cfa345c66579/docs/evidence/ec08).
+
+
+**Capturas y conciliación:** [40 borradores B conservados](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendMobile/blob/59cd61e2f90d2243f31765ad3ee3cfa345c66579/docs/evidence/ec08/screenshots/b-offline-after.png), [sincronización B confirmada](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendMobile/blob/59cd61e2f90d2243f31765ad3ee3cfa345c66579/docs/evidence/ec08/screenshots/b-reconnected-after-sync.png), [formulario A tras el reinicio](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendMobile/blob/59cd61e2f90d2243f31765ad3ee3cfa345c66579/docs/evidence/ec08/screenshots/a-reopened-blank.png), [datos del Backend aislado](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendMobile/blob/59cd61e2f90d2243f31765ad3ee3cfa345c66579/docs/evidence/ec08/backend/backend-final-summary.json) y [CSV de conciliación](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendMobile/blob/59cd61e2f90d2243f31765ad3ee3cfa345c66579/docs/evidence/ec08/reconciliation/b-reconciliation.csv).
+
+#### 8.3.3.5. Implemented To-Be RESTful API and/or Serverless Backend Evidence
+
+El [Backend de ArquiTech](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/Arquitech-Backend) expone una API REST en **Java 17 y Spring Boot 3.5.0**, documentada mediante Swagger/OpenAPI y respaldada por MySQL en los entornos utilizados. Su [README técnico](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/Arquitech-Backend/blob/main/arquitech-back-end/README.md) describe autenticación con JWT, autorización por rol y recursos de proyectos, materiales, movimientos, trabajadores, tareas e incidencias. Las capturas corresponden al Backend existente y a sus pruebas; **no se atribuye la totalidad de los endpoints a una implementación To-Be nueva**. La prueba de integración de EC08 enlaza la aplicación Mobile con un Backend y base de datos aislados.
+
+##### Trazabilidad de servicios con los experimentos
+
+| Historias y experimentos | Recurso REST disponible | Evidencia de integración o contrato |
+| --- | --- | --- |
+| **TB-HU01 / EC01 – Registro de materiales** | `POST /api/v1/materials/{id}/entry` y `POST /api/v1/materials/{id}/use` | Swagger documenta las operaciones para registrar entradas y consumos; las figuras 125 y 126 muestran sus parámetros, cuerpo JSON y respuesta esperada 201. |
+| **TB-HU05 / EC05 – Historial** | `GET /api/v1/materials/project/{projectId}/history` | La figura 127 expone el contrato de lectura del historial y sus campos de auditoría (responsable y fecha). |
+| **TB-HU08 / EC08 – Sincronización Mobile, ensayo previo** | Escritura de usos de materiales y consulta de movimientos posteriores | El [informe de EC08](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendMobile/blob/59cd61e2f90d2243f31765ad3ee3cfa345c66579/docs/ec08-mobile-evaluation.md) y la [conciliación de registros](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendMobile/blob/59cd61e2f90d2243f31765ad3ee3cfa345c66579/docs/evidence/ec08/reconciliation/b-reconciliation.csv) acreditan **40/40 borradores B** sincronizados íntegros, sin duplicados, contra una API y MySQL locales. |
+
+**Contrato posterior de EC08:** el [Backend PR #8](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/Arquitech-Backend/pull/8), fusionado en `main`, incorporó `GET /api/v1/materials/offline-sync-capabilities` y `POST /api/v1/materials/{id}/offline-movements`. El identificador `clientRequestId` permite reconocer un movimiento repetido (HTTP 200), registrar uno nuevo (201) y rechazar el reuso conflictivo (409), con control transaccional del inventario. El cambio incluye una migración SQL que debe revisarse antes de su uso en la base de datos del despliegue.
+
+##### Pruebas automatizadas y pipeline de integración
+
+Las figuras 120–123 permiten inspeccionar el [historial de GitHub Actions del Backend](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/Arquitech-Backend/actions). Se distinguen ejecuciones exitosas y fallidas del monitoreo continuo, y una ejecución específica de **CI #5** en `main` (commit `d29eaa4`). En esa ejecución, **Test and package** concluyó con **Success** en 41 segundos. El paso **Verify** utilizó `./mvnw clean verify` y demoró 28 segundos. El resumen de Maven informa **nueve pruebas, cero fallos, cero errores, cero omitidas** y `BUILD SUCCESS`, además del empaquetado JAR. Este resultado corresponde al commit histórico del Backend que aparece en las capturas, **no** a la revisión posterior EC08. En una ejecución posterior [Backend CI](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/Arquitech-Backend/actions/runs/42895215056) aprobó `mvn clean verify` con **10/10 pruebas**, incluidas operaciones idempotentes, entradas, usos y permisos. Los PR de Web, Mobile y Landing ya fueron fusionados en `main`; la publicación efectiva del backend actualizado en Railway se valida independientemente.
+
+**Figura 120**  
+_Ejecuciones de CI y monitoreo continuo del Backend en GitHub Actions._
+
+<p align="center">
+  <img src="assets/chapter-8/8.3.3.5-Backend-Actions-General.png" width="950" alt="Ejecuciones de CI y monitoreo continuo del Backend en GitHub Actions.">
+</p>
+
+_Nota._ Historial de GitHub Actions con ejecuciones satisfactorias y otras fallidas. No se interpreta como un historial sin fallos.
+
+**Figura 121**  
+_Resumen del pipeline CI #5 del Backend aprobado._
+
+<p align="center">
+  <img src="assets/chapter-8/8.3.3.5-Backend-CI-Exitoso.png" width="950" alt="Resumen del pipeline CI #5 del Backend aprobado.">
+</p>
+
+_Nota._ GitHub Actions, CI #5 en main, commit d29eaa4, job Test and package con estado Success y duración total de 41 segundos.
+
+**Figura 122**  
+_Desglose de los pasos del job Test and package._
+
+<p align="center">
+  <img src="assets/chapter-8/8.3.3.5-Backend-Pruebas-CI.png" width="950" alt="Desglose de los pasos del job Test and package.">
+</p>
+
+_Nota._ GitHub Actions, workflow CI #5: paso Verify completado satisfactoriamente en 28 segundos. El recuento de pruebas figura en la siguiente captura.
+
+**Figura 123**  
+_Resultados de Maven: nueve pruebas aprobadas y compilación satisfactoria._
+
+<p align="center">
+  <img src="assets/chapter-8/8.3.3.5-Backend-Maven-Resultados.png" width="950" alt="Resultados de Maven: nueve pruebas aprobadas y compilación satisfactoria.">
+</p>
+
+_Nota._ Salida Maven de ./mvnw clean verify: Tests run 9, Failures 0, Errors 0, Skipped 0 y BUILD SUCCESS; generación de JAR.
+
+##### Documentación Swagger de la API
+
+El Backend se inició localmente en `localhost:8080` y su Swagger UI presentó **ArquiTech REST API** con **OpenAPI 3.1**. Las figuras 124–127 registran la documentación disponible y los tres contratos REST más relacionados con EC01, EC05 y EC08. Los bloques `Example Value` y los códigos de respuesta de Swagger representan **esquemas y resultados definidos en el contrato**; estas capturas no muestran una invocación real de `Try it out`. Los intercambios y resultados de persistencia se sustentan de forma independiente en el informe y los registros de EC08.
+
+**Figura 124**  
+_Documentación Swagger de ArquiTech REST API en ejecución local._
+
+<p align="center">
+  <img src="assets/chapter-8/8.3.3.5-Backend-Swagger-Endpoints.png" width="950" alt="Documentación Swagger de ArquiTech REST API en ejecución local.">
+</p>
+
+_Nota._ Swagger UI en localhost:8080 con OpenAPI 3.1 y endpoints Workers y Tasks; muestra contratos, no ejecución HTTP de estos endpoints.
+
+**Figura 125**  
+_Contrato REST para registrar una entrada de materiales._
+
+<p align="center">
+  <img src="assets/chapter-8/8.3.3.5-Backend-Swagger-Entrada.png" width="950" alt="Contrato REST para registrar una entrada de materiales.">
+</p>
+
+_Nota._ Swagger POST /api/v1/materials/{id}/entry con parámetro, cuerpo JSON y respuesta 201 documentada, no respuesta real de Try it out.
+
+**Figura 126**  
+_Contrato REST para registrar un uso de materiales._
+
+<p align="center">
+  <img src="assets/chapter-8/8.3.3.5-Backend-Swagger-Uso.png" width="950" alt="Contrato REST para registrar un uso de materiales.">
+</p>
+
+_Nota._ Swagger POST /api/v1/materials/{id}/use; cuerpo JSON y respuesta 201 documentada, sin ejecución HTTP en la captura.
+
+**Figura 127**  
+_Contrato REST para consultar el historial de movimientos por proyecto._
+
+<p align="center">
+  <img src="assets/chapter-8/8.3.3.5-Backend-Swagger-Historial.png" width="950" alt="Contrato REST para consultar el historial de movimientos por proyecto.">
+</p>
+
+_Nota._ Swagger GET /api/v1/materials/project/{projectId}/history; ejemplo de respuesta con autor, fecha, tipo, material y cantidad.
+
+#### 8.3.3.6. Team Collaboration Insights
+
+Para describir las contribuciones se utilizaron dos fuentes complementarias: los gráficos **Insights → Contributors** de GitHub sobre la rama principal y el historial versionado de los **pull requests experimentales**. Los registros permiten atribuir commits y archivos cambiados a las cuentas visibles; **no permiten inferir horas de trabajo, acuerdos de reuniones, code reviews realizados o toda la actividad de los integrantes**.
+
+##### Distribución de commits en Frontend Web
+
+La figura 128 muestra el gráfico de contribuciones de Frontend Web con el filtro **Last 3 months** y tipo **Commits**. En esa vista, GitHub presenta a **educmz con 5 commits, BradenGarcia con 3, BrooklynKarmis con 2 y Vmer140 con 2**. La propia interfaz aclara que las contribuciones por semana corresponden a **`main`, excluyendo commits de fusión**. No debe compararse este conteo directamente con los cambios de los PR que se fusionaron después de la captura.
+
+**Figura 128**  
+_Distribución de las contribuciones del repositorio Frontend Web._
+
+<p align="center">
+  <img src="assets/chapter-8/8.3.3.6-Web-Team-Contributors.png" width="950" alt="Distribución de las contribuciones del repositorio Frontend Web.">
+</p>
+
+_Nota._ GitHub Insights Contributors para main durante tres meses, sin merge commits: educmz 5, BradenGarcia 3, BrooklynKarmis 2 y Vmer140 2.
+
+##### Cambios experimentales y documentación académica
+
+| Repositorio / PR | Evidencia capturada (histórica) | Alcance |
+| --- | --- | --- |
+| [Frontend Web #8](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendWeb/pull/8) | **39 commits**, **75 archivos modificados**, `experiment/ab-evaluation`, **Draft**. | Desarrollo y pruebas EC01–EC07 y EC09. |
+| [Frontend Mobile #8](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendMobile/pull/8) | **12 commits**, **38 archivos modificados**, rama experimental, **Draft**. | EC08: almacenamiento, recuperación y comprobaciones. Incluye algunos checks fallidos intermedios, además de resultados posteriores. |
+| [Landing Page #11](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-LandingPage/pull/11) | **9 commits**, **123 archivos modificados**, rama experimental, **Draft**. | EC10: variantes, pruebas, defectos y correcciones. |
+| [Informe #34](https://github.com/educmz/ArquiTech-Report/pull/34) | **4 commits** y **1 archivo modificado** en la captura, rama `experiments/ab-evidence-2026-11-09`, **Draft**. | Documentación de 8.3.3 y 8.4.1. Tras incorporar imágenes, el número del PR se incrementó: la figura conserva el estado histórico. |
+
+**Figura 129**  
+_Historial de cambios del pull request experimental Frontend Web #8._
+
+<p align="center">
+  <img src="assets/chapter-8/8.3.3.6-Web-Experimental-Commits.png" width="950" alt="Historial de cambios del pull request experimental Frontend Web #8.">
+</p>
+
+_Nota._ PR Web #8: 39 commits, 75 archivos modificados, rama experiment/ab-evaluation y estado Draft.
+
+**Figura 130**  
+_Historial de implementación y pruebas del pull request Mobile #8._
+
+<p align="center">
+  <img src="assets/chapter-8/8.3.3.6-Mobile-Experimental-Commits.png" width="950" alt="Historial de implementación y pruebas del pull request Mobile #8.">
+</p>
+
+_Nota._ PR Mobile #8: 12 commits, 38 archivos modificados y estado Draft; se observan fallos de comprobación en commits intermedios.
+
+**Figura 131**  
+_Historial de cambios y corrección del pull request Landing #11._
+
+<p align="center">
+  <img src="assets/chapter-8/8.3.3.6-Landing-Experimental-Commits.png" width="950" alt="Historial de cambios y corrección del pull request Landing #11.">
+</p>
+
+_Nota._ PR Landing #11: 9 commits, 123 archivos modificados, rama experimental y estado Draft.
+
+**Figura 132**  
+_Historial de la documentación del capítulo VIII en el informe._
+
+<p align="center">
+  <img src="assets/chapter-8/8.3.3.6-Report-Experimental-Commits.png" width="950" alt="Historial de la documentación del capítulo VIII en el informe.">
+</p>
+
+_Nota._ PR Report #34: cuatro commits y un archivo modificado en el momento de la captura; el número aumentó al subir las imágenes.
+
+**Estado posterior a las capturas:** GitHub confirma que [Web #8](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendWeb/pull/8), [Mobile #8](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendMobile/pull/8), [Landing #11](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-LandingPage/pull/11) y [Backend #8](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/Arquitech-Backend/pull/8) están **fusionados en `main`**. Las cifras de commits, archivos y estados `Draft` de las figuras 129–132 son instantáneas históricas y se conservan sin corregirlas retroactivamente.
+
+**Interpretación:** los PR registran cambios versionados y contribuciones visibles, mientras la gráfica de Contributors documenta parte del historial de `main`. En conjunto muestran trabajo y seguimiento técnico, **pero no acreditan una revisión formal por otros integrantes ni el cierre de todos los sprints**. Si el equipo dispone de actas, revisiones, responsables y estimaciones de Sprint, deben anexarse a la evidencia correspondiente sin inventar actividades no documentadas.
+
+#### Resultados consolidados como insumo para 8.4.1
+
+Esta matriz conserva los valores observados y los indicadores pendientes con la definición de 8.2.2 y el procedimiento de 8.2.3. Su interpretación como contraste de hipótesis y la decisión de priorización posterior corresponden a **8.4.1** y **8.4.2**. Los resultados técnicos de un agente o emulador no se presentan como desempeño de participantes humanos.
+
+##### Matriz de indicadores M01–M11 y F01–F03
+
+Las fórmulas, denominadores y metas de aceptación proceden del catálogo **8.2.2** y del protocolo **8.2.3**. Los valores de laboratorio de Web provienen solo de la cohorte posterior de 116 recorridos, **sin agregar el piloto ni los suplementos**. Se expresan como evidencia técnica parcial y no sustituyen el contraste de hipótesis con las unidades de observación previstas.
+
+| Indicador | Dato sustentado en la ejecución | Estado respecto al estudio |
+| --- | --- | --- |
+| **M01 · Inventario** | Web: **42/42 operaciones A** y **42/42 B** correctas al primer envío observable. | Observación técnica de operaciones; falta desempeño operativo con participantes. |
+| **M02 · Asistencia** | Web: **7/7 jornadas A** y **7/7 B** sin trabajadores ni estados omitidos. | Observación técnica; falta contraste de sesiones. |
+| **M03 · Tarea crítica** | Web: **7/7 casos de referencia A** y **7/7 B** correctos dentro de 120 s. | No corresponde a siete supervisores distintos ni a tiempo humano. |
+| **M04 · Consultas autónomas** | EC04 completó sus recorridos Web, pero no se midieron independientemente las solicitudes de ayuda. | **Sin estimación válida** para autonomía sin ayuda. |
+| **M05 · Historial** | Web: **7/7 casos de referencia A** y **7/7 B** con fecha y responsable correctos dentro de 120 s. Los recorridos completos de la cohorte fueron **0/7 A** y **3/7 B**. | Las respuestas del caso de referencia no validan la serie de discrepancias ni el resultado con usuarios. |
+| **M06 · Tiempo de reporte** | Solo **dos pares válidos** de EC06 con el mismo modelo: medianas descriptivas de **26,999 s A** y **6,831 s B**. | **Sin estimación operativa** de reducción del tiempo mediano de elaboración. |
+| **M07 · Reportes completos** | Campos obligatorios presentes en **2/2 reportes A** y **7/7 B** elaborados conforme al método asignado. | Denominador técnico condicionado a informes válidos; no representa el conjunto de sesiones. |
+| **M08 · Detección crítica** | EC07: **12/22 detecciones A** y **3/22 B** dentro de 600 s en periodos acelerados. | **Sin estimación del piloto operativo** de alertas; mock con recarga, sin seguimiento temporal representativo. |
+| **M09 · Sincronización** | Android EC08 B: **40/40 = 100 %**, completos y sin duplicados, verificados a los **50,7 s** desde el inicio de la reconexión. | **Meta técnica del lote alcanzada**; estudio con supervisores y Q11 pendientes. |
+| **M10 · Primera tarea autónoma** | EC09 completó recorridos con objetivos correctos, sin medición independiente de la ayuda. | **Sin estimación válida** para usuarios nuevos sin ayuda. |
+| **M11 · Demostraciones calificadas** | EC10 verificó exposición y acciones locales de contacto, pero no solicitudes comerciales calificadas recibidas. | **Sin estimación** de incremento relativo de conversión. |
+| **F01 · Costo operativo por caso** | No se obtuvieron minutos de trabajo y reproceso de participantes ni tarifa aplicable a casos comparables. | **Sin estimación** para EC01–EC05, EC07–EC09. |
+| **F02 · Costo por reporte** | No se midieron costos directos y tiempo operativo comparable de elaboración y validación. | **Sin estimación** para EC06. |
+| **F03 · Costo por prospecto** | Sin gasto atribuible por variante ni prospectos calificados recibidos. | **Sin estimación** para EC10. |
+
+Los cocientes de Web y el M09 de Android permiten comprobar condiciones técnicas concretas, pero **no constituyen una aceptación conjunta de las métricas de negocio y financieras de H01–H10**. Las tasas observadas con agentes, datos de ensayo y un emulador no se extrapolan a personas. Las diferencias de tiempos Web incluyen decisiones del agente y esperas; EC06 no aporta una base operativa suficiente, y EC07 requiere medición longitudinal bajo condiciones de detección representativas.
+
+##### Trazabilidad y decisión de cierre
+
+- **Web:** el [informe](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendWeb/blob/bad486e279e59d7af30dc80d1388a5e1b3d11ae9/experiments/results/2026-11-10-ab-local-execution-report.md) detalla las corridas técnica, piloto y cohorte, las condiciones y los dictámenes; el [inventario](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendWeb/blob/bad486e279e59d7af30dc80d1388a5e1b3d11ae9/experiments/results/evidence-review/inventory.csv) relaciona cada evidencia con huella y ubicación. No eliminar el respaldo local hasta conservar una copia independiente.
+- **Mobile:** el [informe](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendMobile/blob/59cd61e2f90d2243f31765ad3ee3cfa345c66579/docs/ec08-mobile-evaluation.md) y el [manifiesto](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendMobile/blob/59cd61e2f90d2243f31765ad3ee3cfa345c66579/docs/evidence/ec08/SHA256SUMS.txt) respaldan la integridad de los 40 borradores y su conciliación con API aislada.
+- **Landing:** el [informe](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-LandingPage/blob/8777313bcee6252629360f075697ac05b27b134b/docs/ec10/README.md) conserva las corridas antes y después de la corrección, sus CSV, eventos, trazas y el manifiesto de integridad.
+
+Para concluir el estudio conforme a 8.2 se requiere completar las mediciones con la unidad muestral prevista y las condiciones comparables, registrar ayuda/tiempos/reproceso y los costos F01–F02, ejecutar Q11 y las sesiones contrabalanceadas de EC08, observar EC07 en periodos representativos y obtener visitas comerciales y prospectos calificados con gasto atribuible para M11/F03. Hasta entonces, los resultados se clasifican como **ejecución y verificación técnica documentada**, sin inferencias estadísticas ni aceptación de hipótesis que los datos disponibles no sustentan.
+
+## 8.4. Experiment Aftermath & Analysis
+
+### 8.4.1. Analysis and Interpretation of Results
+
+La interpretación de EC01–EC10 contrasta las observaciones de la ejecución descrita en **8.3.3** con las hipótesis de **8.2.1**, las fórmulas y metas de **8.2.2**, las unidades de análisis de **8.2.3**, las condiciones de comparación de **8.2.4** y la escala definida en **8.2.5**. El análisis no sustituye indicadores de negocio por números de pruebas técnicas. Cada hipótesis H01–H10 exige cumplir sus metas de negocio y las financieras pertinentes; la ejecución de una variante por sí sola no demuestra su efecto sobre participantes o clientes.
+
+#### 8.4.1.1. Fuentes, unidades y procedimiento de análisis
+
+| Evidencia | Resultado de ejecución | Unidad y alcance válido |
+| --- | --- | --- |
+| **Web: pruebas predefinidas** | 8/8 suites y **132/132 recorridos Playwright aprobados**. | Comprobaciones técnicas programadas, no navegación autónoma de usuarios. |
+| **Web: piloto de navegación autónoma** | **16/16 recorridos correctos** (una condición A y una B por experimento Web). | Objetivos interpretados por un agente; protocolo y puntos de partida distintos de la cohorte posterior. |
+| **Web: cohorte autónoma posterior** | **116/116 ejecutados; 84 correctos y 32 incorrectos**. | Verificación independiente de objetivos por recorrido; perfiles sintéticos. |
+| **Web: cobertura acumulada** | **132/132 asignaciones ejecutadas; 100 correctas y 32 incorrectas**. | Conteos conjuntos de piloto y cohorte; **nueve recorridos suplementarios** se mantienen aparte. |
+| **Mobile: EC08** | **100/100 pruebas Flutter** y 40 intentos Android por condición en la versión del ensayo; **40/40 borradores B sincronizados**. Revisión posterior: **105/105 pruebas Flutter**. | Los 40 movimientos corresponden a la versión previa en emulador y backend aislado; los 105 tests corresponden al refinamiento posterior, sin reatribuir el ensayo. |
+| **Landing: EC10** | Primera ejecución **418/421**; después de corregir tres defectos, **422/422** verificaciones correctas. | Verificaciones técnicas de asignación, formularios y navegación; no visitantes comerciales. |
+
+Las fuentes primarias son el [informe de las tres fases Web](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendWeb/blob/bad486e279e59d7af30dc80d1388a5e1b3d11ae9/experiments/results/2026-11-10-ab-local-execution-report.md), el [resumen de 116 recorridos](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendWeb/blob/bad486e279e59d7af30dc80d1388a5e1b3d11ae9/experiments/results/agent-runs/autonomous-cohort-20261110/summary.json), las [métricas de laboratorio](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendWeb/blob/bad486e279e59d7af30dc80d1388a5e1b3d11ae9/experiments/results/agent-runs/autonomous-cohort-20261110/metrics.json), el [informe de Android EC08](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendMobile/blob/59cd61e2f90d2243f31765ad3ee3cfa345c66579/docs/ec08-mobile-evaluation.md) y el [informe inicial y corregido EC10](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-LandingPage/blob/8777313bcee6252629360f075697ac05b27b134b/docs/ec10/README.md). Para contrastar cada registro se conservan [casos Web](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendWeb/blob/bad486e279e59d7af30dc80d1388a5e1b3d11ae9/experiments/results/agent-runs/autonomous-cohort-20261110/cases.csv), [conciliación Mobile](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendMobile/blob/59cd61e2f90d2243f31765ad3ee3cfa345c66579/docs/evidence/ec08/reconciliation/b-reconciliation.csv) y [resultados de la regresión EC10](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-LandingPage/blob/8777313bcee6252629360f075697ac05b27b134b/docs/ec10/evidence/retest/functional.csv).
+
+Los cambios posteriores fusionados a `main` se registran por separado: Mobile incorpora sincronización idempotente y Backend agrega los endpoints de compatibilidad y registro con **10/10 pruebas**. No se ha establecido en este apartado una nueva medición de M09 con la implementación final en Railway, por lo que se mantiene la base experimental histórica.
+
+En Web, **correcto** significa que todos los objetivos del recorrido se cumplieron; un recorrido ejecutado con alguna respuesta errónea se registra como incorrecto. Los indicadores de laboratorio de Web proceden **solo de la cohorte de 116**, excluyendo piloto y suplementos. Las 400 sesiones históricas de GitHub Actions para EC10 verificaron exposición forzada y se auditan por separado de las 422 verificaciones posteriores a la corrección. En ningún caso las asignaciones de un agente, los registros de una API, los contextos de navegador o las capturas representan participantes humanos independientes.
+
+#### 8.4.1.2. Comparación descriptiva de los resultados Web
+
+La cohorte posterior tuvo **41/58 recorridos correctos en A** y **43/58 en B**. Al sumar el piloto se obtuvieron **49/66 en A** y **51/66 en B**, es decir **100/132 = 75,76 %** de recorridos con todos los objetivos correctos y **32/132 = 24,24 %** con algún error. La diferencia acumulada de dos recorridos a favor de B es descriptiva, combina tareas heterogéneas y **no constituye un efecto general de tratamiento**.
+
+| Experimento | A correctos / ejecutados | B correctos / ejecutados | Hallazgo sobre el recorrido completo |
+| --- | ---: | ---: | --- |
+| EC01 · Registro de materiales | 8/8 | 8/8 | Corrección equivalente; stock y movimientos comprobados. |
+| EC02 · Asistencia | 8/8 | 8/8 | Ambas versiones completaron la jornada de prueba. |
+| EC03 · Tareas prioritarias | 8/8 | 8/8 | Ambas identificaron la tarea crítica. |
+| EC04 · Panel de obra | 8/8 | 8/8 | Se localizaron estado, avance y reporte; la ayuda no fue medida. |
+| EC05 · Historial | 1/8 | 4/8 | Respuestas incorrectas al confundir entrada reciente con último uso. |
+| EC06 · Reporte semanal | 3/8 | 8/8 | Cinco recorridos A de la cohorte utilizaron el consolidado en vez del procedimiento manual asignado. |
+| EC07 · Incidencias | 7/12 | 1/12 | Detección frágil de B bajo el mock con recarga. |
+| EC09 · Primera tarea | 6/6 | 6/6 | Tarea realizada en ambas condiciones, sin medición independiente de ayuda. |
+| **Total** | **49/66** | **51/66** | **100 correctos, 32 incorrectos.** |
+
+En **cuatro pares** Web hubo cambio de modelo del agente entre variantes y en **otros cuatro** se detectaron diferencias horarias de los datos iniciales del mock; el agente también reconocía la variante. Los tiempos totales mezclan ejecución, decisión y esperas del controlador. Por ello los recuentos anteriores sirven para identificar errores y cobertura técnica, pero no permiten aplicar inferencia causal ni intervalos estadísticos como si fueran datos de supervisores. [Auditoría original de condiciones y trazas](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendWeb/blob/bad486e279e59d7af30dc80d1388a5e1b3d11ae9/experiments/results/agent-runs/autonomous-cohort-20261110/audit.json).
+
+#### 8.4.1.3. Contraste por hipótesis y medidas predefinidas
+
+| Hipótesis y experimento | Metas predefinidas | Resultados observados e interpretación | Dictamen sustentado |
+| --- | --- | --- | --- |
+| **H01 / EC01 – Inventario** | M01 ≥ 80 % y F01 ≥ 20 %. | En la cohorte **42/42 operaciones A y 42/42 B** correctas al primer envío observado. No hay costo de corrección. | **No concluyente**: funciona técnicamente, sin ventaja observada de B ni F01. |
+| **H02 / EC02 – Asistencia** | M02 ≥ 90 % y F01 ≥ 20 %. | **7/7 jornadas completas A y 7/7 B** con lista ficticia; no se midió costo por jornada. | **No concluyente**: completitud técnica equivalente; F01 ausente. |
+| **H03 / EC03 – Prioridad** | M03 ≥ 80 % en ≤ 2 min y F01 ≥ 15 %. | **7/7 casos de referencia A y 7/7 B** correctos antes de 120 s por agente. No corresponden a siete supervisores. | **No concluyente**: falta efecto en personas y costo de coordinación. |
+| **H04 / EC04 – Consulta de obra** | M04 ≥ 80 % sin ayuda en ≤ 3 min y F01 ≥ 20 %. | Se completaron las consultas de estado y reporte, pero la ayuda no tuvo una medición independiente. | **M04 y F01 no estimados**; H04 no concluyente. |
+| **H05 / EC05 – Historial** | M05 ≥ 80 % en ≤ 2 min y F01 ≥ 20 %. | Caso de referencia **7/7 A y 7/7 B**, pero los recorridos múltiples de la cohorte fueron **0/7 A y 3/7 B**: confusión entre entrada reciente y uso reciente. | **No concluyente**, con fallos de exactitud que requieren corrección; F01 no medido. |
+| **H06 / EC06 – Reportes** | M06 reducción ≥ 40 %; M07 ≥ 90 %; F02 ≥ 30 %. | La cohorte tuvo **2/7 reportes A** y **7/7 B** correctos según el método asignado; en los válidos, los campos estuvieron completos (**2/2 A y 7/7 B**). Dos pares correctos y del mismo modelo registraron medianas **26,999 s A y 6,831 s B**, correspondientes al agente, no a elaboración humana. | **No concluyente**: M07 de laboratorio favorable en B, pero sin M06 operativo ni F02. |
+| **H07 / EC07 – Incidencias** | M08 ≥ 75 % detectadas en 10 min; F01 ≥ 15 %. | En periodos acelerados se verificaron **12/22 detecciones A** y **3/22 B**. La cohorte tuvo **6/11 recorridos A** y **0/11 B** correctos. El mock necesitaba recargar para leer nuevas incidencias. | **Resultado técnico desfavorable para B**, pero sin M08 operativo ni F01. H07 no concluyente. |
+| **H08 / EC08 – Sin conexión** | M09 ≥ 90 % en ≤ 5 min y F01 ≥ 20 %. | En Android B sincronizó **40/40 borradores completos y sin duplicados**; verificación del lote a los **50,7 s** de iniciar restauración. En A, 40 intentos sin red fallaron; tras reiniciar se confirmó el reingreso de una operación. | **M09 técnico B = 100 % en ese lote**. No se acepta H08: Q11, supervisores y F01 pendientes. |
+| **H09 / EC09 – Primer uso** | M10 ≥ 80 % sin ayuda en ≤ 10 min y F01 ≥ 20 %. | La cohorte completó **5/5 tareas A y 5/5 B**, pero la ayuda no fue observada independientemente y los perfiles no son nuevos usuarios reales. | **M10 y F01 no estimados**; H09 no concluyente. |
+| **H10 / EC10 – Captación** | M11 incremento relativo ≥ 20 %; F03 reducción ≥ 15 %. | Las pruebas pasaron de **418/421** inicialmente a **422/422** tras corregir tres rutas. Los eventos locales de intención de correo no prueban solicitudes recibidas, calificadas ni gasto por variante. | **Corrección funcional aprobada**, sin estimación de M11/F03 ni prueba de H10. |
+
+**Nota de versión EC10:** los valores 418/421 y 422/422 pertenecen a las pruebas de la **variante B de formato reducido**, anteriores a la revisión que conserva la Landing completa. Los resultados del nuevo diseño se recogen por separado, sin agregarlos a la cohorte histórica ni modificar M11/F03.
+
+El caso de referencia favorable de EC05 no anula los errores detectados al buscar cinco materiales; en EC06 la completitud entre reportes válidos no equivale a la tasa de todos los intentos ni permite estimar ahorro por tiempo de agente. En EC07, la ausencia de entrega asíncrona y los periodos comprimidos impiden equiparar los recuentos de laboratorio con el piloto longitudinal de dos semanas. En EC08, la prueba de integridad del lote es verificable, pero una operación reingresada manualmente en A no basta para estimar el costo de reprocesar 40 registros. En EC10, la asignación de visitantes sintéticos no acredita visitas comerciales ni conversiones calificadas; el navegador bloqueó la apertura del cliente de correo y no hubo solicitudes recibidas.
+
+#### 8.4.1.4. Matriz de medición, incertidumbre y decisión
+
+| Indicador | Evidencia disponible | Qué falta para concluir conforme al diseño |
+| --- | --- | --- |
+| **M01, M02, M03, M05** | Cocientes técnicos en casos de la cohorte; EC05 además presenta errores en tareas múltiples. | Ejecución con unidades humanas previstas, intentos y tiempos del guion, respuestas completas y comprobación por participante. |
+| **M04, M10** | Objetivos técnicos cumplidos, sin registro independiente de ayuda. | Tareas moderadas con participantes y medición externa de solicitudes de ayuda. |
+| **M06** | Dos pares de tiempos de reportes correctos, cronometrados por agente. | Ocho sesiones previstas, tiempo de elaboración manual y asistida realmente comparable, con orden contrabalanceado. |
+| **M07** | Campos verificados en **2/2 A** y **7/7 B** reportes válidos por método. | Denominadores completos del ensayo operativo y verificación de todos los reportes, también los intentos incorrectos. |
+| **M08** | **12/22 A** y **3/22 B** detecciones del ensayo acelerado. | Incidencias nuevas, ventanas temporales representativas, estado actualizado sin recargas artificiales y seguimiento durante el piloto. |
+| **M09** | **40/40 B** en un lote técnico Android; meta técnica alcanzada. | Investigación Q11 y ocho supervisores con cinco intentos por condición en orden contrabalanceado, según EC08. |
+| **M11** | Exposición y eventos locales de la Landing Page. | Visitas únicas atribuibles y solicitudes de demostración realmente recibidas y calificadas por variante. |
+| **F01** | **Sin estimación** de costo operativo por caso. | Minutos observados de ejecución, ayuda, reingreso y correcciones; tarifa horaria uniforme por rol. |
+| **F02** | **Sin estimación** de costo de reporte. | Horas operativas, tarifa y costos directos de preparación y validación en A y B. |
+| **F03** | **Sin estimación** de costo por prospecto. | Gasto de adquisición atribuible y prospectos calificados por condición y periodo. |
+
+**Decisión sobre H01–H10:** ninguna hipótesis dispone a la vez de evidencia suficiente de su criterio de negocio y de su criterio financiero bajo la unidad de análisis y escala predefinidas. Por tanto, **no se rechazan sus hipótesis nulas ni se afirma aceptación de las alternativas**. Este dictamen no borra las capacidades demostradas, los defectos encontrados o las correcciones técnicas: distingue **éxito de verificación** de **evidencia confirmatoria de cambio de comportamiento y costo**.
+
+Las preguntas exploratorias **Q11 y Q12** no se convierten en hipótesis con resultados inventados. Q11 sigue requiriendo evidencia sobre conectividad/contexto antes de completar EC08; no se identificó en los informes consultados un resultado exploratorio documentado que cierre Q12. La repriorización formal del Question Backlog corresponde a **8.4.2**, fuera del alcance de esta subsección.
+
+#### 8.4.1.5. Amenazas a la validez e implicaciones
+
+| Riesgo observado | Consecuencia metodológica y decisión técnica |
+| --- | --- |
+| **Perfiles sintéticos y emulador** | No tratar 132 recorridos, 400 asignaciones ni 40 borradores como usuarios independientes; no calcular intervalos de confianza de participación humana sobre estos datos. |
+| **Cambio de modelo, horario del mock y exposición de variante en Web** | Separar acciones y esperas; repetir escenarios en condiciones equivalentes antes de estimar ventajas temporales A/B. |
+| **Incumplimiento del procedimiento manual en EC06** | Verificar el método asignado en cada reporte; no considerar correcta una entrega manual que abrió el consolidado. |
+| **Lectura del mock solo después de recarga en EC07** | Implementar/medir actualización observable mientras la interfaz permanece abierta y repetir en periodos representativos. |
+| **Un solo operador y cortes no equivalentes en EC08** | Conservar la conclusión de integridad del lote, pero ejecutar el protocolo contrabalanceado y registrar reproceso. |
+| **Evento local de correo en EC10 sin recepción verificada** | No estimar tasas comerciales hasta vincular variante, visita única, solicitud recibida, calificación y gasto. |
+| **Respaldo parcial de archivos Web** | Mantener el índice de evidencias: **1.338 archivos canónicos publicados** y **4.314 adicionales solo locales**, que necesitan copia privada independiente. |
+
+La evidencia fundamenta las siguientes **acciones de aprendizaje técnico**: aclarar en EC05 la distinción entre tipos de movimientos, separar rígidamente los flujos manual y asistido en EC06, instrumentar la detección de incidencias sin recarga en EC07, concluir Q11 y medir el reproceso en EC08, e instrumentar contactos recibidos y calificados en EC10. Cada cambio deberá conservar la línea base y repetir pruebas equivalentes antes de atribuirle una mejora.
+
+Los artefactos se recuperan desde el [índice e inventario Web](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendWeb/blob/bad486e279e59d7af30dc80d1388a5e1b3d11ae9/experiments/results/evidence-review/README.md), el [manifiesto EC08](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendMobile/blob/59cd61e2f90d2243f31765ad3ee3cfa345c66579/docs/evidence/ec08/SHA256SUMS.txt), el [manifiesto EC10](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-LandingPage/blob/8777313bcee6252629360f075697ac05b27b134b/docs/ec10/SHA256SUMS) y el [CI de la corrección Landing](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-LandingPage/actions/runs/42824541195). La integridad de los archivos refuerza la trazabilidad de lo probado, sin reemplazar métricas operativas ausentes.
+
+**Conclusión de la interpretación:** los diez experimentos aportaron evidencia técnica reproducible y permitieron identificar diferencias observables, errores de navegación y restricciones de instrumentación. EC08 demostró integridad de sincronización en un lote aislado y EC10 corrigió tres defectos de continuidad. EC05–EC07 exponen aspectos críticos por mejorar. El conjunto aún **no permite aceptar ni refutar confirmatoriamente H01–H10** conforme a sus metas conjuntas, porque faltan pruebas con las unidades previstas, algunas variables de resultado y los costos. La modificación y priorización formal de las preguntas corresponde a 8.4.2 y el aprendizaje continuo a 8.5.
+
+
+
 # Conclusiones
 
 ## Conclusiones y recomendaciones
@@ -7876,7 +8312,7 @@ El proceso de Product Verification & Validation fortaleció la evidencia técnic
 La implementación de Continuous Integration mediante GitHub Actions permitió automatizar la instalación de dependencias, ejecución de pruebas y construcción de los productos ante Pull Requests y cambios incorporados en main. El Frontend Web cuenta además con previews aislados mediante Cloudflare y despliegue de producción desde la rama principal. El Backend mantiene despliegue automático mediante Railway, aunque su configuración actual no obliga a esperar la finalización satisfactoria del CI. En Mobile, el pipeline valida el análisis, las pruebas y la construcción del APK, pero todavía no realiza una distribución automatizada hacia una tienda. Estas diferencias permiten identificar con precisión el nivel de madurez alcanzado por cada producto.
 También se concluye que la trazabilidad y la transparencia técnica constituyen elementos importantes para la calidad del proyecto. La revisión de los repositorios y del informe permitió corregir afirmaciones que no correspondían con las configuraciones realmente disponibles, diferenciar entre validación, build y deployment, y documentar de manera explícita las limitaciones existentes. Esto reduce el riesgo de presentar como implementadas capacidades que todavía requieren trabajo adicional y facilita que las decisiones posteriores se basen en evidencia verificable.
 En relación con el impacto de la solución, la centralización y digitalización de los registros puede contribuir a mejorar la coordinación entre supervisores y contratantes y reducir errores administrativos, reprocesos y pérdida de información. Las validaciones de stock, permisos, asistencia y eliminación de proyectos también pueden disminuir riesgos operativos y económicos. Sin embargo, estos beneficios deben considerarse resultados esperados mientras no sean cuantificados mediante experimentos. Del mismo modo, cualquier posible beneficio ambiental asociado a una menor dependencia de documentación física deberá contrastarse con el uso de infraestructura tecnológica y no asumirse sin medición.
-Finalmente, ArquiTech cuenta con una base funcional y técnica que permite avanzar hacia una etapa de experimentación más rigurosa. Los siguientes incrementos deberán enfocarse en contrastar las Hypothesis Statements con usuarios reales, establecer métricas asociadas a los criterios de éxito y evaluar si la solución genera los cambios de comportamiento planteados en el Lean UX Process.
+Finalmente, ArquiTech cuenta con una base funcional y con una primera evaluación técnica A/B trazable: Web completó 132 recorridos autónomos (100 correctos y 32 incorrectos), EC08 verificó la sincronización íntegra de 40 borradores sin duplicados en Android con un backend aislado y EC10 aprobó 422 verificaciones posteriores a la corrección de tres defectos de navegación. Estos resultados acreditan funcionalidades e incidencias observadas, pero no reemplazan la validación de las hipótesis con las unidades de medición previstas. Los siguientes incrementos deben resolver Q11, completar las sesiones con participantes y el seguimiento operativo de incidencias, y obtener evidencia comparable para los indicadores todavía pendientes, especialmente M04, M06, M08, M10, M11 y F01–F03.
 Recomendaciones
 
 - Diseñar y ejecutar experimentos que permitan contrastar las Hypothesis Statements con métricas cuantitativas y cualitativas, evitando considerar validadas las hipótesis únicamente por la existencia de funcionalidades o pruebas técnicas.
