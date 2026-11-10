@@ -352,6 +352,7 @@ _Commits realizados durante la entrega TB1_
   - [8.3.3. Pipeline-supported, Experiment-Driven To-Be Software Platform Lifecycle](#833-pipeline-supported-experiment-driven-to-be-software-platform-lifecycle)
 - [8.4. Experiment Aftermath & Analysis](#84-experiment-aftermath--analysis)
   - [8.4.1. Analysis and Interpretation of Results](#841-analysis-and-interpretation-of-results)
+  - [8.4.2. Re-scored and Re-prioritized Question Backlog](#842-re-scored-and-re-prioritized-question-backlog)
 
 ### [Conclusion](#conclusiones)
 
@@ -8298,7 +8299,77 @@ Los artefactos se recuperan desde el [índice e inventario Web](https://github.c
 
 **Conclusión de la interpretación:** los diez experimentos aportaron evidencia técnica reproducible y permitieron identificar diferencias observables, errores de navegación y restricciones de instrumentación. EC08 demostró integridad de sincronización en un lote aislado y EC10 corrigió tres defectos de continuidad. EC05–EC07 exponen aspectos críticos por mejorar. El conjunto aún **no permite aceptar ni refutar confirmatoriamente H01–H10** conforme a sus metas conjuntas, porque faltan pruebas con las unidades previstas, algunas variables de resultado y los costos. La modificación y priorización formal de las preguntas corresponde a 8.4.2 y el aprendizaje continuo a 8.5.
 
+### 8.4.2. Re-scored and Re-prioritized Question Backlog
 
+<div style="text-align: justify;">
+<p align="justify">
+
+Esta sección vuelve a puntuar el Question Backlog de la sección 8.1.4 con la evidencia interpretada en la sección 8.4.1. Se mantienen los mismos criterios (Confianza, Riesgo, Impacto e Interés), la misma fórmula, Prioridad = (6 − C) + R + I + Int, y la misma regla de desempate: mayor Riesgo y, si persiste, mayor Impacto.
+
+</p>
+<p align="justify">
+
+Como la sección 8.4.1 concluye que ninguna hipótesis cuenta a la vez con evidencia suficiente de su métrica de negocio y de su métrica financiera, la confianza solo aumenta un punto cuando los experimentos aportaron evidencia técnica consistente, y ninguna pregunta supera una confianza de 3. Los cambios en Riesgo e Impacto reflejan los defectos detectados durante la ejecución, y las preguntas nuevas surgen de las acciones de aprendizaje técnico identificadas para EC05, EC07 y EC10.
+
+</p>
+</div>
+
+#### Preguntas nuevas
+
+| ID | Pregunta | Tipo | Origen | Relación |
+| --- | -------- | ---- | ------ | -------- |
+| Q13 | ¿Diferenciar visualmente las entradas y los usos en el historial de movimientos elimina la confusión entre la entrada más reciente y el último uso de un material? | Belief-led | EC05: recorridos múltiples con 0/7 aciertos en A y 3/7 en B por confusión entre entrada reciente y uso reciente. | Pregunta deep de Q05 |
+| Q14 | ¿Actualizar la lista de incidencias sin recargar la vista permite que los usuarios detecten las incidencias críticas dentro de diez minutos? | Belief-led | EC07: 12/22 detecciones en A y 3/22 en B; el mock solo mostraba nuevas incidencias tras recargar. | Pregunta deep de Q07 |
+| Q15 | ¿Qué proporción de los contactos enviados desde la Landing Page llega efectivamente al equipo y cumple los criterios de cliente potencial? | Exploratory | EC10: los eventos locales de intención de contacto no prueban solicitudes recibidas ni calificadas. | Pregunta deep de Q10 |
+
+#### Question Backlog re-puntuado
+
+| Prioridad nueva | Prioridad anterior | ID | Pregunta (resumen) | C | R | I | Int | Puntaje (antes → ahora) | Motivo del cambio según 8.4.1 |
+| :-------------: | :----------------: | --- | ------------------ | :-: | :-: | :-: | :-: | :---------------------: | ----------------------------- |
+| 1 | 1 | Q04 | Panel simplificado para que el contratante se informe sin ayuda | 2 | 5 | 5 | 5 | 19 → 19 | Las consultas se completaron, pero la ayuda no se midió de forma independiente; M04 y F01 siguen sin estimación. |
+| 2 | Nueva | Q14 | Actualización de incidencias sin recargar la vista | 1 | 5 | 4 | 5 | — → 19 | Sin esta corrección, EC07 no puede volver a ejecutarse en condiciones válidas. |
+| 3 | 7 | Q05 | Historial con responsable y fecha | 2 | 5 | 5 | 4 | 16 → 18 | Los errores de exactitud en búsquedas múltiples aumentan el riesgo y el impacto sobre la confianza en la información. |
+| 4 | 4 | Q07 | Alertas de incidencias críticas | 2 | 5 | 4 | 5 | 17 → 18 | El resultado técnico fue desfavorable para B; el riesgo de que las alertas empeoren la detección sube a 5. |
+| 5 | 2 | Q10 | Landing Page con mensaje por segmento | 2 | 5 | 4 | 4 | 17 → 17 | Se corrigieron tres defectos de continuidad (422/422), pero no existen visitas ni solicitudes comerciales; M11 y F03 sin estimación. |
+| 6 | Nueva | Q13 | Diferenciación visual entre entradas y usos del historial | 1 | 4 | 4 | 4 | — → 17 | Corrige la causa de los errores observados en EC05 antes de repetir el experimento. |
+| 7 | 5 | Q12 | Precio y funcionalidades que justifican la suscripción | 2 | 5 | 4 | 3 | 16 → 16 | No se registró un resultado exploratorio que la responda. |
+| 8 | 3 | Q06 | Generación asistida del reporte semanal | 3 | 4 | 5 | 4 | 17 → 16 | B obtuvo 7/7 reportes correctos y completos frente a 2/7 en A; la confianza sube a 3, aunque M06 y F02 no se midieron con personas. |
+| 9 | Nueva | Q15 | Contactos recibidos y calificados desde la Landing Page | 1 | 4 | 4 | 3 | — → 16 | Es requisito para medir M11 y F03 en un nuevo Test A/B. |
+| 10 | 10 | Q11 | Momento, dispositivo y conectividad del registro | 1 | 3 | 3 | 4 | 14 → 15 | Sigue sin respuesta y es condición previa para repetir EC08 con supervisores; aumenta el interés. |
+| 11 | 6 | Q01 | Registro guiado de materiales | 3 | 4 | 4 | 3 | 16 → 14 | A y B lograron 42/42 operaciones correctas; no se observó ventaja de B y baja su impacto e interés. |
+| 12 | 8 | Q02 | Lista rápida de asistencia | 3 | 4 | 3 | 3 | 15 → 13 | A y B completaron 7/7 jornadas; el efecto diferencial esperado es menor. |
+| 13 | 9 | Q08 | Borradores sin conexión | 3 | 3 | 4 | 3 | 15 → 13 | B sincronizó 40/40 borradores sin pérdida ni duplicados; la viabilidad técnica eleva la confianza a 3. |
+| 14 | 11 | Q03 | Tablero de tareas prioritarias | 3 | 3 | 3 | 3 | 12 → 12 | A y B identificaron la tarea crítica en 7/7 casos; sin cambios. |
+| 15 | 12 | Q09 | Guía de primeros pasos por rol | 3 | 3 | 3 | 3 | 12 → 12 | La ayuda no se midió de forma independiente; sin cambios. |
+
+<div style="text-align: justify;">
+<p align="justify">
+
+Q04 y Q14 empatan con 19 puntos y el mismo Riesgo; Q04 se mantiene primera por su mayor Impacto. Q05 y Q07 empatan con 18 puntos y el mismo Riesgo; Q05 queda antes por su mayor Impacto. Q10 queda antes que Q13 por su mayor Riesgo. Entre las preguntas con 16 puntos, Q12 queda primera por su mayor Riesgo y Q06 antes que Q15 por su mayor Impacto. Q02 queda antes que Q08 por su mayor Riesgo, y Q03 y Q09 mantienen su orden porque coinciden en todos los criterios.
+
+</p>
+</div>
+
+#### Decisiones para la siguiente iteración
+
+| Pregunta | Decisión |
+| -------- | -------- |
+| Q04 | Repetir EC04 con contratantes y registro independiente de las solicitudes de ayuda por parte del moderador. Las preguntas de seguimiento definidas en 8.1.4 se priorizarán cuando exista una medición válida de M04. |
+| Q14 → Q07 | Implementar la actualización de incidencias sin recarga y, después, repetir EC07 en periodos representativos. |
+| Q13 → Q05 | Diferenciar entradas y usos en el historial y repetir EC05 con la serie completa de discrepancias. |
+| Q15 → Q10 | Registrar las solicitudes recibidas y su calificación por variante antes de ejecutar el Test A/B comercial de EC10. |
+| Q12 y Q11 | Responder mediante entrevistas de validación con supervisores y contratantes; Q11 se resuelve antes de repetir EC08. |
+| Q06 | Separar los flujos manual y asistido y repetir EC06 con supervisores para medir M06 y F02. |
+| Q01, Q02, Q08 | Mantener las funcionalidades verificadas y repetir los experimentos con supervisores solo después de las preguntas de mayor prioridad. |
+| Q03, Q09 | Posponer hasta la siguiente revisión del backlog. |
+
+<div style="text-align: justify;">
+<p align="justify">
+
+Con esta revisión el backlog pasa de una estructura principalmente amplia (broad) a una más profunda (deep): tres de las preguntas nuevas profundizan en los defectos observados en EC05, EC07 y EC10, y se ubican antes de repetir los experimentos que les dieron origen. Las prioridades resultantes alimentan el aprendizaje continuo documentado en la sección 8.5.
+
+</p>
+</div>
 
 # Conclusiones
 
