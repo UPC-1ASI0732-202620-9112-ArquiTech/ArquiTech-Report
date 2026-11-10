@@ -7691,6 +7691,138 @@ Para las medidas por participante se informan conteos, porcentajes e intervalos 
 La presentación de resultados distingue los valores del control, los valores experimentales, el cambio calculado y la meta predefinida. Un KPI que cumple el umbral en un piloto pequeño no se presenta como validación estadística definitiva. Las decisiones se clasifican conforme a los criterios de cumplimiento, incertidumbre y suficiencia de evidencia establecidos en 8.2.5. El análisis prioriza cambios observables vinculados a los cuatro objetivos de negocio y no atribuye resultados a funcionalidades que solo se encuentran definidas como prototipos o condiciones experimentales.
 
 
+## 8.3. Experimentation
+
+### 8.3.1. To-Be User Stories
+
+Las To-Be User Stories de ArquiTech representan incrementos de producto vinculados con las diez preguntas experimentales de tipo Belief-led del Question Backlog (8.1.4). Su formulación parte de las necesidades de supervisores, contratantes y visitantes identificadas en el Capítulo III y de las intervenciones evaluadas en las Experiment Cards (8.1.5). Se preservan las historias de usuario del apartado 3.2 y se utiliza el identificador TB-HU para distinguir las propuestas de evolución del producto de las funcionalidades previamente especificadas.
+
+Cada historia expresa un beneficio observable para el usuario, se asocia a una hipótesis y dispone de criterios de aceptación verificables mediante escenarios Dado-Cuando-Entonces. La prioridad conserva el orden del Question Backlog inicial y no implica que los experimentos hayan demostrado la eficacia de las mejoras. Las métricas de aceptación experimental se mantienen en 8.2.2 a 8.2.7 y son distintas de la comprobación funcional de cada historia.
+
+#### Trazabilidad de las To-Be User Stories
+
+| Prioridad en 8.1.4 | To-Be Story | Título | Epic | Experimento | Historias relacionadas de 3.2 | Indicadores |
+| ----------------- | ----------- | ------ | ---- | ----------- | ----------------------------- | ----------- |
+| 1 | TB-HU04 | Panel resumido para contratantes | EP03 | EC04 - Q04 | HU20, HU33, HU39, HU40 | M04, F01 |
+| 2 | TB-HU10 | Solicitud de demostración por segmento | EP04 | EC10 - Q10 | HU11, HU12, HU13, HU34 | M11, F03 |
+| 3 | TB-HU06 | Elaboración asistida de reportes semanales | EP06 | EC06 - Q06 | HU20, HU52 | M06, M07, F02 |
+| 4 | TB-HU07 | Avisos prioritarios de incidencias críticas | EP06 | EC07 - Q07 | HU35, HU36, HU37, HU39 | M08, F01 |
+| 6 | TB-HU01 | Registro guiado de movimientos de materiales | EP01 | EC01 - Q01 | HU01, HU02, HU04, HU28 | M01, F01 |
+| 7 | TB-HU05 | Historial de movimientos con responsable y fecha | EP01 | EC05 - Q05 | HU04, HU27 | M05, F01 |
+| 8 | TB-HU02 | Registro rápido de asistencia por jornada | EP02 | EC02 - Q02 | HU06, HU10, HU54, HU55 | M02, F01 |
+| 9 | TB-HU08 | Guardado de borradores y sincronización | EP08 | EC08 - Q08 | HU01, HU02, HU54, HU53 | M09, F01 |
+| 11 | TB-HU03 | Identificación de tareas prioritarias | EP02 | EC03 - Q03 | HU07, HU08, HU53 | M03, F01 |
+| 12 | TB-HU09 | Guía de primeros pasos según el rol | EP07 | EC09 - Q09 | HU19, HU22, HU23, HU46 | M10, F01 |
+
+Las prioridades 5 y 10 corresponden a las preguntas exploratorias Q12 y Q11, respectivamente. Estas preguntas se abordan mediante investigación y no originan una historia de implementación equivalente a las diez intervenciones. En particular, la evaluación del guardado sin conexión se relaciona con los hallazgos de Q11, tal como se define en EC08.
+
+#### TB-HU04 - Panel resumido para contratantes
+
+Como contratante, deseo consultar en un panel el estado, avance, incidencias y reportes de mis obras para conocer su situación sin solicitar asistencia al supervisor.
+
+Criterios de aceptación:
+
+1. Dado que el contratante inicia sesión y tiene acceso a una obra, cuando abre su panel de seguimiento, entonces el sistema presenta el estado del proyecto y los accesos a sus incidencias y reportes semanales.
+2. Dado que una obra tiene reportes e incidencias registrados, cuando el contratante selecciona una sección del panel, entonces accede a la información correspondiente a esa misma obra sin cambiar de contexto.
+3. Dado que el usuario no está vinculado a un proyecto, cuando intenta consultar su panel mediante un enlace directo, entonces el sistema impide el acceso a la información de ese proyecto.
+
+#### TB-HU10 - Solicitud de demostración por segmento
+
+Como visitante de la Landing Page, deseo consultar beneficios relevantes para mi perfil y solicitar una demostración para evaluar si ArquiTech responde a mis necesidades de gestión o seguimiento de obras.
+
+Criterios de aceptación:
+
+1. Dado que el visitante identifica su interés como supervisor o contratante, cuando explora la variante de Landing Page por segmento, entonces visualiza beneficios y una llamada a la acción relacionados con ese perfil.
+2. Dado que el visitante completa la solicitud de demostración con un medio de contacto válido, su relación con una actividad de construcción y el interés en gestionar o consultar una obra, cuando envía el formulario, entonces el sistema registra la solicitud y muestra una confirmación.
+3. Dado que la solicitud carece de información de contacto válida o de los datos necesarios para determinar su calificación, cuando se procesa, entonces no se contabiliza como prospecto calificado en el experimento. Las condiciones de calificación se aplican de forma idéntica a ambas variantes A y B.
+
+#### TB-HU06 - Elaboración asistida de reportes semanales
+
+Como supervisor de obra, deseo generar un borrador de reporte semanal a partir de los registros existentes del proyecto para reducir el tiempo de recopilación y presentar información completa al contratante.
+
+Criterios de aceptación:
+
+1. Dado que el supervisor administra un proyecto con tareas, movimientos de materiales e incidencias registrados durante la semana seleccionada, cuando solicita generar el reporte asistido, entonces el sistema consolida los datos de ese proyecto y periodo en un borrador identificable.
+2. Dado que el borrador contiene los campos obligatorios definidos para el reporte semanal, cuando el supervisor lo revisa, entonces puede verificar los valores consolidados antes de confirmar su versión final.
+3. Dado que falta información obligatoria, cuando el supervisor intenta finalizar el reporte, entonces el sistema identifica los campos incompletos y evita presentarlo como un reporte completo.
+
+#### TB-HU07 - Avisos prioritarios de incidencias críticas
+
+Como usuario autorizado de una obra, deseo recibir avisos visibles sobre incidencias críticas para identificarlas oportunamente y realizar el seguimiento correspondiente.
+
+Criterios de aceptación:
+
+1. Dado que se registra una incidencia de severidad crítica en una obra, cuando el usuario autorizado consulta la plataforma, entonces se presenta un aviso prioritario asociado con la incidencia y el proyecto.
+2. Dado que el usuario selecciona el aviso, cuando accede a su detalle, entonces visualiza la información y el estado de la incidencia dentro del proyecto correspondiente.
+3. Dado que el usuario no cuenta con acceso a la obra de origen, cuando consulta sus avisos, entonces no se expone información de esa incidencia.
+
+#### TB-HU01 - Registro guiado de movimientos de materiales
+
+Como supervisor de obra, deseo registrar entradas y usos de materiales mediante un flujo guiado para evitar errores de cantidad y mantener el stock consistente desde el primer intento.
+
+Criterios de aceptación:
+
+1. Dado que el supervisor selecciona un material de una obra autorizada, cuando inicia una entrada o un uso, entonces el sistema presenta el stock disponible y solicita los datos necesarios para el movimiento.
+2. Dado que la cantidad ingresada es válida y, en el caso de uso, no supera el stock disponible, cuando el supervisor confirma el movimiento, entonces el sistema registra una sola operación y actualiza el stock conforme a la regla del inventario.
+3. Dado que la cantidad es inválida o excede el stock disponible en una salida, cuando el supervisor intenta confirmar la operación, entonces el sistema informa el problema y mantiene el inventario sin cambios.
+
+#### TB-HU05 - Historial de movimientos con responsable y fecha
+
+Como supervisor de obra, deseo identificar al responsable y la fecha de cada movimiento de materiales para verificar el origen de cambios en el inventario y resolver discrepancias.
+
+Criterios de aceptación:
+
+1. Dado que un movimiento contiene información de autoría y fecha de registro, cuando el supervisor consulta el historial del material, entonces visualiza el responsable, la fecha y los datos del movimiento asociados a la obra.
+2. Dado que existen varios movimientos de un mismo material, cuando el supervisor revisa el historial, entonces puede distinguir cada operación y localizar su procedencia sin confundir las entradas con los usos.
+3. Dado que un movimiento histórico no dispone de información de autoría, cuando se presenta en el historial, entonces el sistema indica la ausencia del dato sin atribuirlo a un usuario no verificado.
+
+#### TB-HU02 - Registro rápido de asistencia por jornada
+
+Como supervisor de obra, deseo registrar en una sola lista la asistencia de los trabajadores de una jornada para evitar omisiones y disminuir el tiempo de registro administrativo.
+
+Criterios de aceptación:
+
+1. Dado que el supervisor selecciona una obra y una fecha de jornada, cuando accede al registro rápido, entonces visualiza a los trabajadores asociados y puede asignarles un estado de asistencia desde la misma lista.
+2. Dado que cada trabajador de la lista tiene un estado válido, cuando el supervisor confirma la jornada, entonces el sistema registra la asistencia sin duplicar combinaciones de trabajador y fecha.
+3. Dado que uno o más trabajadores no tienen un estado definido, cuando se intenta confirmar la jornada como completa, entonces el sistema identifica las omisiones y evita clasificar el registro como completo.
+
+#### TB-HU08 - Guardado de borradores y sincronización
+
+Como supervisor de obra, deseo conservar temporalmente registros de trabajo cuando se interrumpe la conectividad para recuperarlos y sincronizarlos sin pérdida de información ni duplicaciones.
+
+Criterios de aceptación:
+
+1. Dado que la conexión se interrumpe durante el registro de información, cuando el supervisor guarda un borrador en el prototipo habilitado para trabajar sin conexión, entonces el dispositivo conserva los datos del registro y los identifica como no sincronizados.
+2. Dado que existen borradores sin sincronizar, cuando se restablece la conexión, entonces el sistema procesa el envío y muestra si cada registro fue sincronizado correctamente o requiere atención.
+3. Dado que un registro ya fue sincronizado, cuando el dispositivo reintenta el envío por una interrupción o un error de respuesta, entonces el sistema evita crear una copia duplicada del mismo registro.
+
+#### TB-HU03 - Identificación de tareas prioritarias
+
+Como supervisor de obra, deseo visualizar las tareas vencidas y las próximas a vencer con una jerarquía clara para identificar la actividad que requiere atención primero.
+
+Criterios de aceptación:
+
+1. Dado que existen tareas con distintas fechas de vencimiento y estados, cuando el supervisor abre el tablero de una obra, entonces el sistema destaca las tareas vencidas que siguen abiertas y diferencia las próximas a vencer.
+2. Dado que el supervisor selecciona una tarea destacada, cuando accede a su detalle, entonces visualiza su fecha límite, responsable y estado para verificar la prioridad de atención.
+3. Dado que una tarea se marca como completada, cuando el tablero se actualiza, entonces deja de presentarse como tarea vencida sin resolver.
+
+#### TB-HU09 - Guía de primeros pasos según el rol
+
+Como usuario que accede por primera vez a ArquiTech, deseo recibir una guía adaptada a las funciones de mi rol para completar mi primera tarea correctamente sin depender de asistencia externa.
+
+Criterios de aceptación:
+
+1. Dado que un usuario autenticado accede por primera vez al producto, cuando inicia el recorrido guiado, entonces el sistema presenta pasos correspondientes a las funciones autorizadas para su rol.
+2. Dado que el usuario sigue la guía hasta la tarea inicial, cuando completa correctamente sus acciones, entonces el sistema reconoce la finalización y permite continuar con el uso normal de la plataforma.
+3. Dado que el usuario omite o termina el recorrido, cuando vuelve a utilizar el producto, entonces puede acceder a sus funcionalidades autorizadas sin que la guía impida realizar sus tareas.
+
+#### Correspondencia con la experimentación y el Product Backlog
+
+Las diez historias constituyen el conjunto de incrementos To-Be asociado con las intervenciones de EC01 a EC10. Su orden de prioridad procede del Question Backlog de 8.1.4, mientras que las métricas M01–M11 y F01–F03 determinan los resultados que se contrastan en cada experimento. Los criterios de aceptación de las historias verifican el comportamiento de la funcionalidad; la comparación de control y tratamiento, el tamaño de muestra y la decisión experimental se rigen por 8.2.3 a 8.2.7.
+
+La correspondencia con las historias del Capítulo III permite reutilizar capacidades existentes, como autenticación, gestión de materiales, asistencia, consulta de proyectos, incidencias y reportes, sin confundirlas con los cambios de interfaz o comportamiento propuestos. La organización de estos incrementos para su ejecución se presenta en 8.3.2. To-Be Product Backlog. El cumplimiento de los criterios funcionales no implica, por sí solo, que la hipótesis experimental esté validada.
+
+
 # Conclusiones
 
 ## Conclusiones y recomendaciones
