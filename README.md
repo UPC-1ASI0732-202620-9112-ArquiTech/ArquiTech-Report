@@ -7990,6 +7990,101 @@ Los cocientes de Web y el M09 de Android permiten comprobar condiciones técnica
 
 Para concluir el estudio conforme a 8.2 se requiere completar las mediciones con la unidad muestral prevista y las condiciones comparables, registrar ayuda/tiempos/reproceso y los costos F01–F02, ejecutar Q11 y las sesiones contrabalanceadas de EC08, observar EC07 en periodos representativos y obtener visitas comerciales y prospectos calificados con gasto atribuible para M11/F03. Hasta entonces, los resultados se clasifican como **ejecución y verificación técnica documentada**, sin inferencias estadísticas ni aceptación de hipótesis que los datos disponibles no sustentan.
 
+## 8.4. Experiment Aftermath & Analysis
+
+### 8.4.1. Analysis and Interpretation of Results
+
+La interpretación de EC01–EC10 contrasta las observaciones de la ejecución descrita en **8.3.3** con las hipótesis de **8.2.1**, las fórmulas y metas de **8.2.2**, las unidades de análisis de **8.2.3**, las condiciones de comparación de **8.2.4** y la escala definida en **8.2.5**. El análisis no sustituye indicadores de negocio por números de pruebas técnicas. Cada hipótesis H01–H10 exige cumplir sus metas de negocio y las financieras pertinentes; la ejecución de una variante por sí sola no demuestra su efecto sobre participantes o clientes.
+
+#### 8.4.1.1. Fuentes, unidades y procedimiento de análisis
+
+| Evidencia | Resultado de ejecución | Unidad y alcance válido |
+| --- | --- | --- |
+| **Web: pruebas predefinidas** | 8/8 suites y **132/132 recorridos Playwright aprobados**. | Comprobaciones técnicas programadas, no navegación autónoma de usuarios. |
+| **Web: piloto de navegación autónoma** | **16/16 recorridos correctos** (una condición A y una B por experimento Web). | Objetivos interpretados por un agente; protocolo y puntos de partida distintos de la cohorte posterior. |
+| **Web: cohorte autónoma posterior** | **116/116 ejecutados; 84 correctos y 32 incorrectos**. | Verificación independiente de objetivos por recorrido; perfiles sintéticos. |
+| **Web: cobertura acumulada** | **132/132 asignaciones ejecutadas; 100 correctas y 32 incorrectas**. | Conteos conjuntos de piloto y cohorte; **nueve recorridos suplementarios** se mantienen aparte. |
+| **Mobile: EC08** | **100/100 pruebas Flutter**, 40 intentos Android por condición y **40/40 borradores B sincronizados**. | Pruebas de software y un lote técnico en emulador y backend aislado. |
+| **Landing: EC10** | Primera ejecución **418/421**; después de corregir tres defectos, **422/422** verificaciones correctas. | Verificaciones técnicas de asignación, formularios y navegación; no visitantes comerciales. |
+
+Las fuentes primarias son el [informe de las tres fases Web](https://github.com/educmz/ArquiTech-FrontendWeb/blob/bad486e279e59d7af30dc80d1388a5e1b3d11ae9/experiments/results/2026-11-10-ab-local-execution-report.md), el [resumen de 116 recorridos](https://github.com/educmz/ArquiTech-FrontendWeb/blob/bad486e279e59d7af30dc80d1388a5e1b3d11ae9/experiments/results/agent-runs/autonomous-cohort-20261110/summary.json), las [métricas de laboratorio](https://github.com/educmz/ArquiTech-FrontendWeb/blob/bad486e279e59d7af30dc80d1388a5e1b3d11ae9/experiments/results/agent-runs/autonomous-cohort-20261110/metrics.json), el [informe de Android EC08](https://github.com/educmz/ArquiTech-FrontendMobile/blob/59cd61e2f90d2243f31765ad3ee3cfa345c66579/docs/ec08-mobile-evaluation.md) y el [informe inicial y corregido EC10](https://github.com/educmz/ArquiTech-LandingPage/blob/8777313bcee6252629360f075697ac05b27b134b/docs/ec10/README.md). Para contrastar cada registro se conservan [casos Web](https://github.com/educmz/ArquiTech-FrontendWeb/blob/bad486e279e59d7af30dc80d1388a5e1b3d11ae9/experiments/results/agent-runs/autonomous-cohort-20261110/cases.csv), [conciliación Mobile](https://github.com/educmz/ArquiTech-FrontendMobile/blob/59cd61e2f90d2243f31765ad3ee3cfa345c66579/docs/evidence/ec08/reconciliation/b-reconciliation.csv) y [resultados de la regresión EC10](https://github.com/educmz/ArquiTech-LandingPage/blob/8777313bcee6252629360f075697ac05b27b134b/docs/ec10/evidence/retest/functional.csv).
+
+En Web, **correcto** significa que todos los objetivos del recorrido se cumplieron; un recorrido ejecutado con alguna respuesta errónea se registra como incorrecto. Los indicadores de laboratorio de Web proceden **solo de la cohorte de 116**, excluyendo piloto y suplementos. Las 400 sesiones históricas de GitHub Actions para EC10 verificaron exposición forzada y se auditan por separado de las 422 verificaciones posteriores a la corrección. En ningún caso las asignaciones de un agente, los registros de una API, los contextos de navegador o las capturas representan participantes humanos independientes.
+
+#### 8.4.1.2. Comparación descriptiva de los resultados Web
+
+La cohorte posterior tuvo **41/58 recorridos correctos en A** y **43/58 en B**. Al sumar el piloto se obtuvieron **49/66 en A** y **51/66 en B**, es decir **100/132 = 75,76 %** de recorridos con todos los objetivos correctos y **32/132 = 24,24 %** con algún error. La diferencia acumulada de dos recorridos a favor de B es descriptiva, combina tareas heterogéneas y **no constituye un efecto general de tratamiento**.
+
+| Experimento | A correctos / ejecutados | B correctos / ejecutados | Hallazgo sobre el recorrido completo |
+| --- | ---: | ---: | --- |
+| EC01 · Registro de materiales | 8/8 | 8/8 | Corrección equivalente; stock y movimientos comprobados. |
+| EC02 · Asistencia | 8/8 | 8/8 | Ambas versiones completaron la jornada de prueba. |
+| EC03 · Tareas prioritarias | 8/8 | 8/8 | Ambas identificaron la tarea crítica. |
+| EC04 · Panel de obra | 8/8 | 8/8 | Se localizaron estado, avance y reporte; la ayuda no fue medida. |
+| EC05 · Historial | 1/8 | 4/8 | Respuestas incorrectas al confundir entrada reciente con último uso. |
+| EC06 · Reporte semanal | 3/8 | 8/8 | Cinco recorridos A de la cohorte utilizaron el consolidado en vez del procedimiento manual asignado. |
+| EC07 · Incidencias | 7/12 | 1/12 | Detección frágil de B bajo el mock con recarga. |
+| EC09 · Primera tarea | 6/6 | 6/6 | Tarea realizada en ambas condiciones, sin medición independiente de ayuda. |
+| **Total** | **49/66** | **51/66** | **100 correctos, 32 incorrectos.** |
+
+En **cuatro pares** Web hubo cambio de modelo del agente entre variantes y en **otros cuatro** se detectaron diferencias horarias de los datos iniciales del mock; el agente también reconocía la variante. Los tiempos totales mezclan ejecución, decisión y esperas del controlador. Por ello los recuentos anteriores sirven para identificar errores y cobertura técnica, pero no permiten aplicar inferencia causal ni intervalos estadísticos como si fueran datos de supervisores. [Auditoría original de condiciones y trazas](https://github.com/educmz/ArquiTech-FrontendWeb/blob/bad486e279e59d7af30dc80d1388a5e1b3d11ae9/experiments/results/agent-runs/autonomous-cohort-20261110/audit.json).
+
+#### 8.4.1.3. Contraste por hipótesis y medidas predefinidas
+
+| Hipótesis y experimento | Metas predefinidas | Resultados observados e interpretación | Dictamen sustentado |
+| --- | --- | --- | --- |
+| **H01 / EC01 – Inventario** | M01 ≥ 80 % y F01 ≥ 20 %. | En la cohorte **42/42 operaciones A y 42/42 B** correctas al primer envío observado. No hay costo de corrección. | **No concluyente**: funciona técnicamente, sin ventaja observada de B ni F01. |
+| **H02 / EC02 – Asistencia** | M02 ≥ 90 % y F01 ≥ 20 %. | **7/7 jornadas completas A y 7/7 B** con lista ficticia; no se midió costo por jornada. | **No concluyente**: completitud técnica equivalente; F01 ausente. |
+| **H03 / EC03 – Prioridad** | M03 ≥ 80 % en ≤ 2 min y F01 ≥ 15 %. | **7/7 casos de referencia A y 7/7 B** correctos antes de 120 s por agente. No corresponden a siete supervisores. | **No concluyente**: falta efecto en personas y costo de coordinación. |
+| **H04 / EC04 – Consulta de obra** | M04 ≥ 80 % sin ayuda en ≤ 3 min y F01 ≥ 20 %. | Se completaron las consultas de estado y reporte, pero la ayuda no tuvo una medición independiente. | **M04 y F01 no estimados**; H04 no concluyente. |
+| **H05 / EC05 – Historial** | M05 ≥ 80 % en ≤ 2 min y F01 ≥ 20 %. | Caso de referencia **7/7 A y 7/7 B**, pero los recorridos múltiples de la cohorte fueron **0/7 A y 3/7 B**: confusión entre entrada reciente y uso reciente. | **No concluyente**, con fallos de exactitud que requieren corrección; F01 no medido. |
+| **H06 / EC06 – Reportes** | M06 reducción ≥ 40 %; M07 ≥ 90 %; F02 ≥ 30 %. | La cohorte tuvo **2/7 reportes A** y **7/7 B** correctos según el método asignado; en los válidos, los campos estuvieron completos (**2/2 A y 7/7 B**). Dos pares correctos y del mismo modelo registraron medianas **26,999 s A y 6,831 s B**, correspondientes al agente, no a elaboración humana. | **No concluyente**: M07 de laboratorio favorable en B, pero sin M06 operativo ni F02. |
+| **H07 / EC07 – Incidencias** | M08 ≥ 75 % detectadas en 10 min; F01 ≥ 15 %. | En periodos acelerados se verificaron **12/22 detecciones A** y **3/22 B**. La cohorte tuvo **6/11 recorridos A** y **0/11 B** correctos. El mock necesitaba recargar para leer nuevas incidencias. | **Resultado técnico desfavorable para B**, pero sin M08 operativo ni F01. H07 no concluyente. |
+| **H08 / EC08 – Sin conexión** | M09 ≥ 90 % en ≤ 5 min y F01 ≥ 20 %. | En Android B sincronizó **40/40 borradores completos y sin duplicados**; verificación del lote a los **50,7 s** de iniciar restauración. En A, 40 intentos sin red fallaron; tras reiniciar se confirmó el reingreso de una operación. | **M09 técnico B = 100 % en ese lote**. No se acepta H08: Q11, supervisores y F01 pendientes. |
+| **H09 / EC09 – Primer uso** | M10 ≥ 80 % sin ayuda en ≤ 10 min y F01 ≥ 20 %. | La cohorte completó **5/5 tareas A y 5/5 B**, pero la ayuda no fue observada independientemente y los perfiles no son nuevos usuarios reales. | **M10 y F01 no estimados**; H09 no concluyente. |
+| **H10 / EC10 – Captación** | M11 incremento relativo ≥ 20 %; F03 reducción ≥ 15 %. | Las pruebas pasaron de **418/421** inicialmente a **422/422** tras corregir tres rutas. Los eventos locales de intención de correo no prueban solicitudes recibidas, calificadas ni gasto por variante. | **Corrección funcional aprobada**, sin estimación de M11/F03 ni prueba de H10. |
+
+El caso de referencia favorable de EC05 no anula los errores detectados al buscar cinco materiales; en EC06 la completitud entre reportes válidos no equivale a la tasa de todos los intentos ni permite estimar ahorro por tiempo de agente. En EC07, la ausencia de entrega asíncrona y los periodos comprimidos impiden equiparar los recuentos de laboratorio con el piloto longitudinal de dos semanas. En EC08, la prueba de integridad del lote es verificable, pero una operación reingresada manualmente en A no basta para estimar el costo de reprocesar 40 registros. En EC10, la asignación de visitantes sintéticos no acredita visitas comerciales ni conversiones calificadas; el navegador bloqueó la apertura del cliente de correo y no hubo solicitudes recibidas.
+
+#### 8.4.1.4. Matriz de medición, incertidumbre y decisión
+
+| Indicador | Evidencia disponible | Qué falta para concluir conforme al diseño |
+| --- | --- | --- |
+| **M01, M02, M03, M05** | Cocientes técnicos en casos de la cohorte; EC05 además presenta errores en tareas múltiples. | Ejecución con unidades humanas previstas, intentos y tiempos del guion, respuestas completas y comprobación por participante. |
+| **M04, M10** | Objetivos técnicos cumplidos, sin registro independiente de ayuda. | Tareas moderadas con participantes y medición externa de solicitudes de ayuda. |
+| **M06** | Dos pares de tiempos de reportes correctos, cronometrados por agente. | Ocho sesiones previstas, tiempo de elaboración manual y asistida realmente comparable, con orden contrabalanceado. |
+| **M07** | Campos verificados en **2/2 A** y **7/7 B** reportes válidos por método. | Denominadores completos del ensayo operativo y verificación de todos los reportes, también los intentos incorrectos. |
+| **M08** | **12/22 A** y **3/22 B** detecciones del ensayo acelerado. | Incidencias nuevas, ventanas temporales representativas, estado actualizado sin recargas artificiales y seguimiento durante el piloto. |
+| **M09** | **40/40 B** en un lote técnico Android; meta técnica alcanzada. | Investigación Q11 y ocho supervisores con cinco intentos por condición en orden contrabalanceado, según EC08. |
+| **M11** | Exposición y eventos locales de la Landing Page. | Visitas únicas atribuibles y solicitudes de demostración realmente recibidas y calificadas por variante. |
+| **F01** | **Sin estimación** de costo operativo por caso. | Minutos observados de ejecución, ayuda, reingreso y correcciones; tarifa horaria uniforme por rol. |
+| **F02** | **Sin estimación** de costo de reporte. | Horas operativas, tarifa y costos directos de preparación y validación en A y B. |
+| **F03** | **Sin estimación** de costo por prospecto. | Gasto de adquisición atribuible y prospectos calificados por condición y periodo. |
+
+**Decisión sobre H01–H10:** ninguna hipótesis dispone a la vez de evidencia suficiente de su criterio de negocio y de su criterio financiero bajo la unidad de análisis y escala predefinidas. Por tanto, **no se rechazan sus hipótesis nulas ni se afirma aceptación de las alternativas**. Este dictamen no borra las capacidades demostradas, los defectos encontrados o las correcciones técnicas: distingue **éxito de verificación** de **evidencia confirmatoria de cambio de comportamiento y costo**.
+
+Las preguntas exploratorias **Q11 y Q12** no se convierten en hipótesis con resultados inventados. Q11 sigue requiriendo evidencia sobre conectividad/contexto antes de completar EC08; no se identificó en los informes consultados un resultado exploratorio documentado que cierre Q12. La repriorización formal del Question Backlog corresponde a **8.4.2**, fuera del alcance de esta subsección.
+
+#### 8.4.1.5. Amenazas a la validez e implicaciones
+
+| Riesgo observado | Consecuencia metodológica y decisión técnica |
+| --- | --- |
+| **Perfiles sintéticos y emulador** | No tratar 132 recorridos, 400 asignaciones ni 40 borradores como usuarios independientes; no calcular intervalos de confianza de participación humana sobre estos datos. |
+| **Cambio de modelo, horario del mock y exposición de variante en Web** | Separar acciones y esperas; repetir escenarios en condiciones equivalentes antes de estimar ventajas temporales A/B. |
+| **Incumplimiento del procedimiento manual en EC06** | Verificar el método asignado en cada reporte; no considerar correcta una entrega manual que abrió el consolidado. |
+| **Lectura del mock solo después de recarga en EC07** | Implementar/medir actualización observable mientras la interfaz permanece abierta y repetir en periodos representativos. |
+| **Un solo operador y cortes no equivalentes en EC08** | Conservar la conclusión de integridad del lote, pero ejecutar el protocolo contrabalanceado y registrar reproceso. |
+| **Evento local de correo en EC10 sin recepción verificada** | No estimar tasas comerciales hasta vincular variante, visita única, solicitud recibida, calificación y gasto. |
+| **Respaldo parcial de archivos Web** | Mantener el índice de evidencias: **1.338 archivos canónicos publicados** y **4.314 adicionales solo locales**, que necesitan copia privada independiente. |
+
+La evidencia fundamenta las siguientes **acciones de aprendizaje técnico**: aclarar en EC05 la distinción entre tipos de movimientos, separar rígidamente los flujos manual y asistido en EC06, instrumentar la detección de incidencias sin recarga en EC07, concluir Q11 y medir el reproceso en EC08, e instrumentar contactos recibidos y calificados en EC10. Cada cambio deberá conservar la línea base y repetir pruebas equivalentes antes de atribuirle una mejora.
+
+Los artefactos se recuperan desde el [índice e inventario Web](https://github.com/educmz/ArquiTech-FrontendWeb/blob/bad486e279e59d7af30dc80d1388a5e1b3d11ae9/experiments/results/evidence-review/README.md), el [manifiesto EC08](https://github.com/educmz/ArquiTech-FrontendMobile/blob/59cd61e2f90d2243f31765ad3ee3cfa345c66579/docs/evidence/ec08/SHA256SUMS.txt), el [manifiesto EC10](https://github.com/educmz/ArquiTech-LandingPage/blob/8777313bcee6252629360f075697ac05b27b134b/docs/ec10/SHA256SUMS) y el [CI de la corrección Landing](https://github.com/educmz/ArquiTech-LandingPage/actions/runs/42824541195). La integridad de los archivos refuerza la trazabilidad de lo probado, sin reemplazar métricas operativas ausentes.
+
+**Conclusión de la interpretación:** los diez experimentos aportaron evidencia técnica reproducible y permitieron identificar diferencias observables, errores de navegación y restricciones de instrumentación. EC08 demostró integridad de sincronización en un lote aislado y EC10 corrigió tres defectos de continuidad. EC05–EC07 exponen aspectos críticos por mejorar. El conjunto aún **no permite aceptar ni refutar confirmatoriamente H01–H10** conforme a sus metas conjuntas, porque faltan pruebas con las unidades previstas, algunas variables de resultado y los costos. La modificación y priorización formal de las preguntas corresponde a 8.4.2 y el aprendizaje continuo a 8.5.
+
+
+
 # Conclusiones
 
 ## Conclusiones y recomendaciones
