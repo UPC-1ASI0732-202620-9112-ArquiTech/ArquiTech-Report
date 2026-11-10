@@ -7621,6 +7621,76 @@ La selección de métodos de ArquiTech combina experimentos comparativos de tare
 La elección de métodos mantiene correspondencia entre la pregunta experimental, la intervención, las medidas y la unidad de análisis. El Web and Mobile Tracking Plan de 8.2.8 especifica los eventos y mecanismos de instrumentación relacionados con las plataformas, mientras que la fase de experimentación registra la aplicación de estos diseños y sus resultados. La definición metodológica no se interpreta como evidencia de ejecución.
 
 
+### 8.2.7. Data Analytics: Goals, KPIs and Metrics Selection
+
+El análisis de datos de ArquiTech vincula los objetivos de negocio establecidos en 8.2.2 con los experimentos de 8.1.5 y los métodos descritos en 8.2.6. La selección de indicadores se centra en cambios verificables de exactitud, autonomía, tiempo, completitud y costo; el número de visitas, clics o registros generados se utiliza como contexto y no como evidencia suficiente de valor para el usuario. Las métricas y sus umbrales corresponden al catálogo M01–M11 y F01–F03, sin incorporar indicadores de éxito adicionales ni presentar metas como resultados observados.
+
+#### Objetivos de analítica y KPIs de negocio
+
+| Objetivo de negocio | Pregunta analítica | KPIs seleccionados | Experimentos vinculados | Decisión que permite sustentar |
+| ------------------- | ------------------ | ------------------ | ----------------------- | ------------------------------ |
+| OB1 - Eficiencia operativa del supervisor | ¿Los nuevos flujos reducen errores, tiempos de trabajo y reprocesamiento sin perder calidad de información? | M01, M02, M03, M06, M07, M09, F01 y F02. | EC01, EC02, EC03, EC06 y EC08. | Priorizar o revisar el registro guiado, la asistencia rápida, las prioridades, los reportes asistidos y la recuperación de registros sin conexión. |
+| OB2 - Autonomía y confianza del contratante | ¿El usuario identifica información importante sin asistencia y detecta oportunamente las incidencias, con menor esfuerzo de seguimiento? | M04, M05, M08 y F01. | EC04, EC05 y EC07. | Evaluar el panel simplificado, la trazabilidad de materiales y los avisos de incidencias críticas. |
+| OB3 - Adopción del producto | ¿Un usuario nuevo puede completar su primera actividad correctamente y sin apoyo, con menor costo de incorporación? | M10 y F01. | EC09. | Mantener, ajustar o descartar la guía de primeros pasos según su efecto en autonomía y capacitación. |
+| OB4 - Captación de clientes | ¿La Landing Page por segmento genera más solicitudes de demostración calificadas con un menor costo por prospecto? | M11 y F03. | EC10. | Evaluar si el mensaje diferenciado justifica su adopción y el gasto de adquisición asociado. |
+
+La unidad de decisión es la Experiment Card. Para cada intervención se examina conjuntamente al menos una medida de desempeño del producto y su medida financiera. En EC06, M07 funciona además como restricción de calidad: una reducción de tiempo o costo no constituye un resultado favorable cuando disminuye la completitud del reporte por debajo de la meta predefinida.
+
+#### Selección y jerarquía de indicadores por experimento
+
+| Experimento | Objetivo | KPI de negocio | KPI financiero | Criterio de evaluación de la tarjeta |
+| ----------- | -------- | -------------- | -------------- | ------------------------------------ |
+| EC04 - Panel de seguimiento | OB2 | M04 - Consultas autónomas del contratante. | F01 - Ahorro del costo de atención por consulta. | M04 ≥ 80 % y F01 ≥ 20 %. |
+| EC10 - Landing Page por segmento | OB4 | M11 - Incremento relativo de la tasa de demostraciones calificadas. | F03 - Reducción del costo por prospecto calificado. | M11 ≥ 20 % de incremento relativo y F03 ≥ 15 % de reducción. |
+| EC06 - Reporte asistido | OB1 | M06 - Reducción del tiempo mediano de elaboración; M07 - Completitud del reporte como indicador de control. | F02 - Ahorro del costo total por reporte. | M06 ≥ 40 %, M07 ≥ 90 % y F02 ≥ 30 %. |
+| EC07 - Alertas críticas | OB2 | M08 - Detección oportuna de incidencias críticas simuladas. | F01 - Ahorro del costo de seguimiento por incidencia. | M08 ≥ 75 % y F01 ≥ 15 %. |
+| EC01 - Materiales guiados | OB1 | M01 - Operaciones de inventario correctas al primer intento. | F01 - Ahorro del costo de corrección por caso. | M01 ≥ 80 % y F01 ≥ 20 %. |
+| EC05 - Historial verificable | OB2 | M05 - Identificación oportuna del responsable y la fecha de un movimiento. | F01 - Ahorro del costo de investigación de discrepancias. | M05 ≥ 80 % y F01 ≥ 20 %. |
+| EC02 - Asistencia rápida | OB1 | M02 - Jornadas de asistencia completas. | F01 - Ahorro del costo administrativo por jornada. | M02 ≥ 90 % y F01 ≥ 20 %. |
+| EC08 - Sin conexión | OB1 | M09 - Registros sincronizados íntegros dentro del plazo definido. | F01 - Ahorro del costo de reproceso. | M09 ≥ 90 % y F01 ≥ 20 %. |
+| EC03 - Tareas prioritarias | OB1 | M03 - Identificación oportuna de la tarea crítica. | F01 - Ahorro del costo de coordinación. | M03 ≥ 80 % y F01 ≥ 15 %. |
+| EC09 - Onboarding por rol | OB3 | M10 - Primera tarea completada correctamente sin ayuda. | F01 - Ahorro del costo de capacitación. | M10 ≥ 80 % y F01 ≥ 20 %. |
+
+Los KPIs de negocio muestran si la interacción produce el comportamiento esperado; los financieros permiten estimar si el cambio disminuye el esfuerzo económico asociado. La jerarquía evita interpretar una mejora de uso como éxito suficiente cuando el costo empeora o cuando se incumple una condición de calidad. Los indicadores secundarios de 8.2.3, como intentos, solicitudes de ayuda, errores y clics en la llamada a la acción, se conservan para explicar las variaciones de los KPIs, pero no sustituyen las metas de la tabla.
+
+#### Modelo de datos para el análisis
+
+El conjunto analítico distingue las observaciones de tareas, los resultados de casos repetidos y los datos de conversión. La estructura se relaciona mediante un identificador de experimento, la condición A o B y el periodo de observación, manteniendo la unidad pertinente para cada indicador.
+
+| Conjunto de datos | Contenido analítico | Granularidad | KPIs relacionados |
+| ----------------- | ------------------- | ------------ | ----------------- |
+| Participantes y sesiones | Identificador seudonimizado, rol, plataforma, condición, sesión, orden de exposición y tarea. | Una sesión por participante y condición; las tareas se relacionan con esa sesión. | M03, M04, M05, M06, M10 y costos asociados. |
+| Operaciones y tareas | Resultado esperado y observado, corrección al primer intento, omisiones, duración, ayuda recibida y minutos de reproceso. | Una operación, jornada, caso, discrepancia o reporte, según el experimento. | M01, M02, M03, M05, M06, M07, F01 y F02. |
+| Incidencias y sincronización | Identificadores de eventos simulados o registros generados, hora de ocurrencia, detección o reconexión, integridad y duplicados. | Una incidencia o un registro generado sin conexión, vinculado al participante. | M08, M09 y F01. |
+| Visitas y prospectos | Identificador de visita única, variante, periodo de exposición y solicitud de demostración calificada. | Una visita única por variante; las solicitudes se vinculan al visitante correspondiente cuando sea posible. | M11. |
+| Costos de experimentación | Minutos de trabajo, tarifa horaria de referencia por rol, costos directos del reporte y gasto de adquisición por variante. | Un caso o reporte para F01/F02; una variante y periodo para F03. | F01, F02 y F03. |
+
+Las mediciones de sesiones se obtienen mediante cronometraje, verificación contra respuestas esperadas y hojas de observación, complementadas con eventos de la aplicación cuando estén disponibles. La medición de EC10 requiere identificar visitas únicas, atribuir solicitudes calificadas a una variante y registrar los gastos de adquisición por periodo. El detalle de eventos, propiedades y mecanismos técnicos de Web y Mobile corresponde al Web and Mobile Tracking Plan de 8.2.8; esta sección define la estructura analítica con independencia de la tecnología utilizada para instrumentarla.
+
+#### Preparación y calidad de los datos
+
+1. **Identificación y vinculación.** Las sesiones y los casos repetidos se relacionan mediante el identificador seudonimizado del participante. Una persona con varias operaciones no se contabiliza como varios participantes; en EC10, las visitas repetidas identificables no incrementan el conteo de visitantes únicos de una misma variante.
+2. **Normalización de unidades.** Las duraciones se expresan en segundos para el registro bruto y en minutos para las métricas de tiempo y costo. Los importes se expresan en soles (S/) y los porcentajes conservan la fórmula del indicador correspondiente en 8.2.2.
+3. **Validación de resultados.** Los movimientos, reportes, discrepancias, asistencias y tareas se contrastan con datos patrón; las incidencias se verifican mediante marcas de tiempo y los registros sin conexión mediante integridad y ausencia de duplicados. Los campos de resultado incorrecto, ayuda o reproceso conservan su significado en ambas condiciones.
+4. **Integridad y datos faltantes.** Los registros incompletos se diferencian de intentos fallidos válidos. Una caída del entorno, pérdida de instrumentación o imposibilidad de atribuir una visita a su variante se documenta como incidencia de calidad de datos. Las exclusiones siguen las mismas reglas para A y B y se informan junto al total de observaciones disponibles.
+5. **Cálculos no definidos.** Si el denominador de una tasa es cero, no se informa un porcentaje. Si el costo de control es cero, el ahorro porcentual de F01 o F02 no es calculable; si no se generan prospectos calificados en una variante, el costo por prospecto de esa variante no puede calcularse con la fórmula de F03. Estos casos se describen sin asignarles un valor artificial.
+6. **Confidencialidad.** Los escenarios de evaluación utilizan datos de obra ficticios. Los resultados agregados no incluyen nombres de participantes, información comercial identificable ni credenciales de acceso.
+
+#### Agregación, visualización e interpretación
+
+| Vista analítica | Contenido | Uso en la evaluación |
+| --------------- | --------- | -------------------- |
+| Resumen por objetivo | OB1–OB4, Experiment Cards vinculadas, KPIs de negocio y financieros, metas y estado de evaluación. | Relacionar las decisiones de producto con el objetivo de negocio que persigue cada intervención. |
+| Comparación A/B por experimento | Resultado por condición, denominadores, tasa o tiempo de referencia, variación y costo correspondiente. | Comprobar el efecto descriptivo de la intervención manteniendo separadas las condiciones. |
+| Calidad de las tareas | Aciertos, omisiones, solicitudes de ayuda, intentos y reportes incompletos, desglosados por tarea y rol cuando corresponda. | Identificar las causas de una mejora o deterioro y evitar que el indicador agregado oculte errores recurrentes. |
+| Evolución temporal | Secuencia de sesiones, periodos de detección de incidencias y visitas o solicitudes de la Landing Page por periodo. | Detectar variaciones de contexto y diferenciar cambios asociados con la exposición de fluctuaciones temporales. |
+| Incertidumbre y decisión | Tamaño de muestra válido, intervalo o dispersión apropiada, criterios de éxito cumplidos y limitaciones. | Distinguir un resultado piloto favorable de una conclusión confirmatoria, según 8.2.5. |
+
+Para las medidas por participante se informan conteos, porcentajes e intervalos de Wilson al 95 %, de acuerdo con 8.2.5. Los tiempos y costos en diseños intra-sujeto se comparan preservando el vínculo entre las dos condiciones de cada persona. La mediana de elaboración de reportes se conserva como medida principal de M06 y la completitud M07 se evalúa por separado. En EC07 y EC08, la agrupación de eventos por participante impide tratar incidencias o registros repetidos como observaciones humanas independientes. En EC09 y EC10 se mantienen separados los grupos, y las conversiones se analizan con las tasas y costos correspondientes a cada variante.
+
+La presentación de resultados distingue los valores del control, los valores experimentales, el cambio calculado y la meta predefinida. Un KPI que cumple el umbral en un piloto pequeño no se presenta como validación estadística definitiva. Las decisiones se clasifican conforme a los criterios de cumplimiento, incertidumbre y suficiencia de evidencia establecidos en 8.2.5. El análisis prioriza cambios observables vinculados a los cuatro objetivos de negocio y no atribuye resultados a funcionalidades que solo se encuentran definidas como prototipos o condiciones experimentales.
+
+
 # Conclusiones
 
 ## Conclusiones y recomendaciones
