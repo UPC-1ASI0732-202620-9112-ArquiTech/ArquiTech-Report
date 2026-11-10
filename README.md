@@ -7823,6 +7823,47 @@ Las diez historias constituyen el conjunto de incrementos To-Be asociado con las
 La correspondencia con las historias del Capítulo III permite reutilizar capacidades existentes, como autenticación, gestión de materiales, asistencia, consulta de proyectos, incidencias y reportes, sin confundirlas con los cambios de interfaz o comportamiento propuestos. La organización de estos incrementos para su ejecución se presenta en 8.3.2. To-Be Product Backlog. El cumplimiento de los criterios funcionales no implica, por sí solo, que la hipótesis experimental esté validada.
 
 
+### 8.3.2. To-Be Product Backlog
+
+El To-Be Product Backlog de ArquiTech reúne las diez historias de evolución descritas en 8.3.1 y las vincula con los experimentos definidos en 8.1.5. Su finalidad es ordenar las intervenciones de acuerdo con las preguntas de mayor prioridad, mantener la trazabilidad de las decisiones y distinguir el trabajo de validación experimental de la incorporación definitiva de funcionalidades al producto. Las historias originales del Product Backlog del Capítulo III permanecen como referencia funcional y no se sustituyen por estas propuestas.
+
+El backlog se encuentra representado en el tablero [ArquiTech - Product Backlog](https://trello.com/b/jDELnGdF/arquitech-product-backlog), dentro de la lista To-Be Product Backlog - AV2. Cada tarjeta contiene la historia de usuario, sus criterios de aceptación, la Experiment Card correspondiente, las métricas de evaluación y las historias relacionadas del Capítulo III. Las tarjetas se mantienen separadas del flujo de trabajo de las historias originales para no atribuirles implementación o validación experimental.
+
+#### Product Backlog To-Be priorizado
+
+| Prioridad de la pregunta | ID de historia | Incremento To-Be | Epic | Experimento | Indicadores de validación | Tarjeta de Trello |
+| ----------------------- | ------------- | ---------------- | ---- | ----------- | ------------------------ | ---------------- |
+| 1 | TB-HU04 | Panel resumido para contratantes | EP03 | EC04 - Q04 | M04 ≥ 80 %; F01 ≥ 20 % | [TB-HU04](https://trello.com/c/76U7AV7t) |
+| 2 | TB-HU10 | Solicitud de demostración por segmento | EP04 | EC10 - Q10 | M11 ≥ 20 % de incremento relativo; F03 ≥ 15 % de reducción | [TB-HU10](https://trello.com/c/LGcpuxSF) |
+| 3 | TB-HU06 | Elaboración asistida de reportes semanales | EP06 | EC06 - Q06 | M06 ≥ 40 %; M07 ≥ 90 %; F02 ≥ 30 % | [TB-HU06](https://trello.com/c/JehTVGjp) |
+| 4 | TB-HU07 | Avisos prioritarios de incidencias críticas | EP06 | EC07 - Q07 | M08 ≥ 75 %; F01 ≥ 15 % | [TB-HU07](https://trello.com/c/VB2Oz4yN) |
+| 6 | TB-HU01 | Registro guiado de movimientos de materiales | EP01 | EC01 - Q01 | M01 ≥ 80 %; F01 ≥ 20 % | [TB-HU01](https://trello.com/c/pSPNJFwb) |
+| 7 | TB-HU05 | Historial de movimientos con responsable y fecha | EP01 | EC05 - Q05 | M05 ≥ 80 %; F01 ≥ 20 % | [TB-HU05](https://trello.com/c/6ugUmvyV) |
+| 8 | TB-HU02 | Registro rápido de asistencia por jornada | EP02 | EC02 - Q02 | M02 ≥ 90 %; F01 ≥ 20 % | [TB-HU02](https://trello.com/c/W0xsR6ZD) |
+| 9 | TB-HU08 | Guardado de borradores y sincronización | EP08 | EC08 - Q08 | M09 ≥ 90 %; F01 ≥ 20 % | [TB-HU08](https://trello.com/c/yTAFk7To) |
+| 11 | TB-HU03 | Identificación de tareas prioritarias | EP02 | EC03 - Q03 | M03 ≥ 80 %; F01 ≥ 15 % | [TB-HU03](https://trello.com/c/9ztDxsC3) |
+| 12 | TB-HU09 | Guía de primeros pasos según el rol | EP07 | EC09 - Q09 | M10 ≥ 80 %; F01 ≥ 20 % | [TB-HU09](https://trello.com/c/4oSKVGNu) |
+
+Las posiciones 5 y 10 del Question Backlog corresponden a las investigaciones exploratorias Q12 y Q11, respectivamente. No se les asigna una historia de desarrollo To-Be porque su objetivo es resolver incertidumbres antes de decidir cambios funcionales. La secuencia de las diez historias conserva la prioridad relativa registrada en 8.1.4 y no representa un calendario de implementación.
+
+#### Criterios de priorización y refinamiento
+
+1. **Valor y riesgo de negocio.** La prioridad inicial procede de las Experiment Cards y su relación con OB1–OB4. La autonomía del contratante, la captación de prospectos calificados, la elaboración de reportes y la detección de incidencias se encuentran entre las primeras intervenciones por el impacto esperado y la incertidumbre asociada.
+2. **Trazabilidad del incremento.** Cada elemento contiene un identificador TB-HU, la Epic correspondiente, una pregunta y un experimento, además de sus KPIs de negocio y financieros. Los criterios funcionales de aceptación se encuentran en 8.3.1 y no reemplazan los umbrales de evaluación de las hipótesis.
+3. **Dependencias de producto.** El panel de contratante depende de las consultas y permisos de proyectos y reportes existentes. La generación asistida utiliza registros de obra; los avisos prioritarios dependen del registro y severidad de incidencias. El historial verificable requiere conservar información de autoría y fecha; la guía por rol debe respetar el control de acceso del producto.
+4. **Dependencias de investigación.** La evaluación de TB-HU08 se vincula con la pregunta exploratoria Q11 sobre conectividad y contexto de uso. Para TB-HU10 se utiliza un criterio uniforme de prospecto calificado y se preserva la asignación A/B por visitante. La evidencia experimental se recoge en las condiciones y escalas especificadas en 8.2.4 y 8.2.5.
+5. **Estimación del esfuerzo.** La prioridad por valor se distingue de la estimación de implementación. El esfuerzo de cada historia se dimensiona mediante refinamiento técnico del equipo, considerando interfaz, servicios, persistencia, pruebas e integración, antes de seleccionarla para un Sprint Backlog. No se atribuyen puntos de historia ni fechas de entrega sin una estimación sustentada.
+6. **Evolución por evidencia.** La incorporación, modificación o descarte de una intervención se apoya en el cumplimiento conjunto de sus métricas de negocio y financieras, la calidad de la evidencia y las limitaciones de tamaño de muestra. Un prototipo funcional no constituye por sí mismo una hipótesis validada.
+
+#### Organización y seguimiento en Trello
+
+La lista To-Be Product Backlog - AV2 contiene las diez tarjetas ordenadas según la prioridad anterior. La lista original Product Backlog y las columnas Sprint Backlog, To Do, Doing y Done conservan las historias y estados del trabajo previamente registrado por el equipo. Esta separación permite consultar la evolución propuesta sin alterar el historial operativo existente.
+
+El refinamiento del backlog distingue tres tipos de evidencia para cada historia: la definición funcional expresada por los criterios de aceptación, la medición del resultado de negocio y costo expresada por los KPIs, y la evidencia técnica necesaria para integrar el incremento. La transición desde el To-Be Product Backlog hacia un Sprint Backlog corresponde a una decisión de planificación sustentada por capacidad del equipo, dependencias y resultados experimentales, no al orden numérico por sí solo.
+
+El tablero operativo y esta matriz documentan el mismo conjunto de diez incrementos de producto. La primera vista permite gestionar las tarjetas de trabajo; la segunda preserva en el informe la relación verificable entre necesidad del usuario, intervención, prioridad y criterio de evaluación.
+
+
 # Conclusiones
 
 ## Conclusiones y recomendaciones
