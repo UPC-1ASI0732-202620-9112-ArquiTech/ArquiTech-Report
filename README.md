@@ -36,23 +36,22 @@ Quispe Barzola, Fabricio Fabian - U202320442
 
 <div style="page-break-before: always;"></div>
 
-
 # Registro de Versiones del Informe
 
-| Versión |   Fecha    | Autor                             | Descripción de modificación                                                                                                                                                                                                                                                                                                                        |
-| :-----: | :--------: | :-------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-|   1.0   | 14/09/2026 | Mendoza Moreano, Mariel Lucero    | <span style="display:block; text-align:justify;">Elaboración de las secciones 1.1.1 Descripción de la Startup, 1.1.2 Perfiles de integrantes del equipo, 1.2.1 Antecedentes y problemática, 1.2.2 Lean UX Process, 2.3.1 User Personas, 2.3.2 User Task Matrix, 4.7 Web Applications Prototyping y 4.8 Domain-Driven Software Architecture.</span> |
-|   1.1   | 14/09/2026 | Chacaliaza Minaya, Eduardo Fabian | <span style="display:block; text-align:justify;">Elaboración de las secciones 1.3 Segmentos objetivo, 2.1.1 Análisis competitivo, 2.1.2 Estrategias y tácticas frente a competidores, 3.3 Product Backlog, 4.3 Landing Page UI Design y 4.4 Mobile Applications UX/UI Design.</span>                                                               |
-|   1.2   | 14/09/2026 | Quispe Barzola, Fabricio Fabian   | <span style="display:block; text-align:justify;">Elaboración de las secciones 2.2.1 Diseño de entrevistas, 2.2.2 Registro de entrevistas, 2.2.3 Análisis de entrevistas, 3.2 User Stories, 4.9 Software Object-Oriented Design, 4.10 Database Design y 5.1 Software Configuration Management.</span>                                               |
-|   1.3   | 14/09/2026 | Espino Rossi, Victor Manuel       | <span style="display:block; text-align:justify;">Elaboración de las secciones 2.3.3 User Journey Mapping, 2.3.4 Empathy Mapping, 3.4 Impact Mapping, 4.5 Mobile Applications Prototyping, 4.6 Web Applications UX/UI Design y 5.2 Product Implementation & Deployment.</span>                                                                      |
-|   1.4   | 14/09/2026 | Garcia Cerpa, Braden Raid         | <span style="display:block; text-align:justify;">Elaboración de las secciones 2.3.5 As-is Scenario Mapping, 2.4 Ubiquitous Language, 3.1 To-Be Scenario Mapping, 4.1 Style Guidelines, 4.2 Information Architecture y 5.3 Video About-the-Product.</span>                                                                                          |
-|   2.0   | 05/10/2026 | Espino Rossi, Victor Manuel       | <span style="display:block; text-align:justify;">Incorporación de la estructura y evidencias iniciales del Capítulo VI (6.1.1 Core Entities Unit Tests, 6.1.2 Core Integration Tests y 6.1.4 Core System Tests con Playwright) y de la estructura del Capítulo VII DevOps Practices (7.1 a 7.3).</span> |
-|   2.1   | 06/10/2026 | Espino Rossi, Victor Manuel       | <span style="display:block; text-align:justify;">Corrección de las secciones 2.3.1 User Personas, 2.3.3 User Journey Mapping, 2.3.4 Empathy Mapping, 2.3.5 As-is Scenario Mapping, 3.1 To-Be Scenario Mapping y 3.4 Impact Mapping, vinculándolas con los hallazgos de las entrevistas, y actualización de la numeración del índice.</span> |
+| Versión |   Fecha    | Autor                             | Descripción de modificación                                                                                                                                                                                                                                                                                                                                                       |
+| :-----: | :--------: | :-------------------------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|   1.0   | 14/09/2026 | Mendoza Moreano, Mariel Lucero    | <span style="display:block; text-align:justify;">Elaboración de las secciones 1.1.1 Descripción de la Startup, 1.1.2 Perfiles de integrantes del equipo, 1.2.1 Antecedentes y problemática, 1.2.2 Lean UX Process, 2.3.1 User Personas, 2.3.2 User Task Matrix, 4.7 Web Applications Prototyping y 4.8 Domain-Driven Software Architecture.</span>                                |
+|   1.1   | 14/09/2026 | Chacaliaza Minaya, Eduardo Fabian | <span style="display:block; text-align:justify;">Elaboración de las secciones 1.3 Segmentos objetivo, 2.1.1 Análisis competitivo, 2.1.2 Estrategias y tácticas frente a competidores, 3.3 Product Backlog, 4.3 Landing Page UI Design y 4.4 Mobile Applications UX/UI Design.</span>                                                                                              |
+|   1.2   | 14/09/2026 | Quispe Barzola, Fabricio Fabian   | <span style="display:block; text-align:justify;">Elaboración de las secciones 2.2.1 Diseño de entrevistas, 2.2.2 Registro de entrevistas, 2.2.3 Análisis de entrevistas, 3.2 User Stories, 4.9 Software Object-Oriented Design, 4.10 Database Design y 5.1 Software Configuration Management.</span>                                                                              |
+|   1.3   | 14/09/2026 | Espino Rossi, Victor Manuel       | <span style="display:block; text-align:justify;">Elaboración de las secciones 2.3.3 User Journey Mapping, 2.3.4 Empathy Mapping, 3.4 Impact Mapping, 4.5 Mobile Applications Prototyping, 4.6 Web Applications UX/UI Design y 5.2 Product Implementation & Deployment.</span>                                                                                                     |
+|   1.4   | 14/09/2026 | Garcia Cerpa, Braden Raid         | <span style="display:block; text-align:justify;">Elaboración de las secciones 2.3.5 As-is Scenario Mapping, 2.4 Ubiquitous Language, 3.1 To-Be Scenario Mapping, 4.1 Style Guidelines, 4.2 Information Architecture y 5.3 Video About-the-Product.</span>                                                                                                                         |
+|   2.0   | 05/10/2026 | Espino Rossi, Victor Manuel       | <span style="display:block; text-align:justify;">Incorporación de la estructura y evidencias iniciales del Capítulo VI (6.1.1 Core Entities Unit Tests, 6.1.2 Core Integration Tests y 6.1.4 Core System Tests con Playwright) y de la estructura del Capítulo VII DevOps Practices (7.1 a 7.3).</span>                                                                           |
+|   2.1   | 06/10/2026 | Espino Rossi, Victor Manuel       | <span style="display:block; text-align:justify;">Corrección de las secciones 2.3.1 User Personas, 2.3.3 User Journey Mapping, 2.3.4 Empathy Mapping, 2.3.5 As-is Scenario Mapping, 3.1 To-Be Scenario Mapping y 3.4 Impact Mapping, vinculándolas con los hallazgos de las entrevistas, y actualización de la numeración del índice.</span>                                       |
 |   2.2   | 06/10/2026 | Quispe Barzola, Fabricio Fabian   | <span style="display:block; text-align:justify;">Actualización de las secciones 1.3, 2.3.2, 2.4, 3.2 User Stories, 3.3 Product Backlog, 4.9 Software Object-Oriented Design, 4.10 Database Design, 5.1 Software Configuration Management, 5.2.1 Sprint Backlogs, 5.2.6 RESTful API documentation y 5.3 Video About-the-Product para alinearlas con la implementación real.</span> |
-|   2.3   | 07/10/2026 | Chacaliaza Minaya, Eduardo Fabian | <span style="display:block; text-align:justify;">Elaboración de la sección 5.2.4 Acuerdo de Servicio - SaaS y actualización de 5.1.2 Source Code Management, 5.2.3 Implemented Frontend-Web Application Evidence, 5.2.5 Implemented Native-Mobile Application Evidence y 5.2.8 Team Collaboration Insights.</span> |
-|   2.4   | 07/10/2026 | Espino Rossi, Victor Manuel       | <span style="display:block; text-align:justify;">Incorporación de evidencias de pruebas unitarias e integración del Backend (6.1.1 y 6.1.2) y de escenarios Cucumber (6.1.3); documentación de 7.1 a 7.3 y actualización de 4.8 Domain-Driven Software Architecture y 5.2.5 Implemented Native-Mobile Application Evidence.</span> |
-|   2.5   | 07/10/2026 | Quispe Barzola, Fabricio Fabian   | <span style="display:block; text-align:justify;">Documentación de evidencias y límites de los pipelines de CI/CD en el Capítulo VII, actualización de la sección Student Outcome correspondiente al TB1 y de Conclusiones y recomendaciones.</span> |
-|   2.6   | 07/10/2026 | Garcia Cerpa, Braden Raid         | <span style="display:block; text-align:justify;">Elaboración de las pruebas de sistema de la Frontend Web Application en la sección 6.1.4 Core System Tests (E2E-W01 y E2E-W02), con evidencias de ejecución y commits de testing.</span> |
+|   2.3   | 07/10/2026 | Chacaliaza Minaya, Eduardo Fabian | <span style="display:block; text-align:justify;">Elaboración de la sección 5.2.4 Acuerdo de Servicio - SaaS y actualización de 5.1.2 Source Code Management, 5.2.3 Implemented Frontend-Web Application Evidence, 5.2.5 Implemented Native-Mobile Application Evidence y 5.2.8 Team Collaboration Insights.</span>                                                                |
+|   2.4   | 07/10/2026 | Espino Rossi, Victor Manuel       | <span style="display:block; text-align:justify;">Incorporación de evidencias de pruebas unitarias e integración del Backend (6.1.1 y 6.1.2) y de escenarios Cucumber (6.1.3); documentación de 7.1 a 7.3 y actualización de 4.8 Domain-Driven Software Architecture y 5.2.5 Implemented Native-Mobile Application Evidence.</span>                                                |
+|   2.5   | 07/10/2026 | Quispe Barzola, Fabricio Fabian   | <span style="display:block; text-align:justify;">Documentación de evidencias y límites de los pipelines de CI/CD en el Capítulo VII, actualización de la sección Student Outcome correspondiente al TB1 y de Conclusiones y recomendaciones.</span>                                                                                                                               |
+|   2.6   | 07/10/2026 | Garcia Cerpa, Braden Raid         | <span style="display:block; text-align:justify;">Elaboración de las pruebas de sistema de la Frontend Web Application en la sección 6.1.4 Core System Tests (E2E-W01 y E2E-W02), con evidencias de ejecución y commits de testing.</span>                                                                                                                                         |
 
 # Project Report Collaboration Insights
 
@@ -311,8 +310,20 @@ _Commits realizados durante la entrega TB1_
     - [6.2.1.1. Coding standard & Code conventions.](#6211-coding-standard--code-conventions)
     - [6.2.1.2. Code Quality & Code Security.](#6212-code-quality--code-security)
   - [6.2.2. Reviews](#622-reviews)
-  - [6.3. Validation Interviews](#63-validation-interviews)
+
+- [6.3. Validation Interviews](#63-validation-interviews)
   - [6.3.1. Diseño de Entrevistas](#631-diseño-de-entrevistas)
+- [6.4. Auditoría de Experiencias de Usuario](#64-auditoría-de-experiencias-de-usuario)
+  - [6.4.1. Auditoría realizada](#641-auditoría-realizada)
+    - [6.4.1.1. Información del grupo auditado](#6411-información-del-grupo-auditado)
+    - [6.4.1.2. Cronograma de auditoría realizada](#6412-cronograma-de-auditoría-realizada)
+    - [6.4.1.3. Contenido de auditoría realizada](#6413-contenido-de-auditoría-realizada)
+    - [6.4.1.4. Resumen de modificaciones para subsanar hallazgos](#6414-resumen-de-modificaciones-para-subsanar-hallazgos)
+  - [6.4.2. Auditoría recibida](#642-auditoría-recibida)
+    - [6.4.2.1. Información del grupo auditor](#6421-información-del-grupo-auditor)
+    - [6.4.2.2. Cronograma de auditoría recibida](#6422-cronograma-de-auditoría-recibida)
+    - [6.4.2.3. Contenido de auditoría recibida](#6423-contenido-de-auditoría-recibida)
+    - [6.4.2.4. Resumen de modificaciones para subsanar hallazgos](#6424-resumen-de-modificaciones-para-subsanar-hallazgos)
 
 ### [Capítulo VII: DevOps Practices](#capítulo-vii-devops-practices)
 
@@ -357,7 +368,6 @@ _Commits realizados durante la entrega TB1_
   - [8.4.2. Re-scored and Re-prioritized Question Backlog](#842-re-scored-and-re-prioritized-question-backlog)
 - [8.5. Continuous Learning](#85-continuous-learning)
   - [8.5.1. Shareback Session Artifacts: Learning Workflow](#851-shareback-session-artifacts-learning-workflow)
-
 
 ### [Conclusion](#conclusiones)
 
@@ -5774,14 +5784,14 @@ En esta sección se evidencia la implementación y el despliegue de la Backend W
 
 **Configuración del despliegue**
 
-| Elemento                   | Valor                                                  |
-| :------------------------- | :----------------------------------------------------- |
-| Repositorio                | `UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-Backend` |
-| Rama desplegada            | `main`                                                 |
-| Directorio raíz del módulo | `arquitech-back-end`                                   |
-| Plataforma                 | Railway                                                |
-| Base de datos              | MySQL (servicio administrado en el mismo proyecto)     |
-| URL del servicio           | `https://arquitech-backend-production-cfc2.up.railway.app`  |
+| Elemento                   | Valor                                                      |
+| :------------------------- | :--------------------------------------------------------- |
+| Repositorio                | `UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-Backend`     |
+| Rama desplegada            | `main`                                                     |
+| Directorio raíz del módulo | `arquitech-back-end`                                       |
+| Plataforma                 | Railway                                                    |
+| Base de datos              | MySQL (servicio administrado en el mismo proyecto)         |
+| URL del servicio           | `https://arquitech-backend-production-cfc2.up.railway.app` |
 
 <br>
 
@@ -6400,12 +6410,12 @@ La verificación estática de ArquiTech se ejecutó el 09/11/2026 sobre las copi
 </p>
 </div>
 
-| Producto | Rama y commit inspeccionados | Referencia `main` disponible en la copia local |
-| -------- | ---------------------------- | --------------------------------------------- |
-| Backend | `feature/devops-ci` · `c7498786665bcd7c8a81d6e855b3172c5c3e15d4` | `19980dee` |
-| Frontend Web | `feature/devops-ci` · `33198ba118d13583ed4b312587c20ec277ae5dce` | `2559851` |
-| Frontend Mobile | `feature/devops-ci` · `43ad8b70f009f4df3f57f928dbfd20fa98d428b8` | `0c2c804` |
-| Landing Page | `feature/devops-ci` · `0905f7269d34cbe562ce1f4df2b8a3c1a5802b82` | `b97ed0f` |
+| Producto        | Rama y commit inspeccionados                                     | Referencia `main` disponible en la copia local |
+| --------------- | ---------------------------------------------------------------- | ---------------------------------------------- |
+| Backend         | `feature/devops-ci` · `c7498786665bcd7c8a81d6e855b3172c5c3e15d4` | `19980dee`                                     |
+| Frontend Web    | `feature/devops-ci` · `33198ba118d13583ed4b312587c20ec277ae5dce` | `2559851`                                      |
+| Frontend Mobile | `feature/devops-ci` · `43ad8b70f009f4df3f57f928dbfd20fa98d428b8` | `0c2c804`                                      |
+| Landing Page    | `feature/devops-ci` · `0905f7269d34cbe562ce1f4df2b8a3c1a5802b82` | `b97ed0f`                                      |
 
 <div style="text-align: justify;">
 <p align="justify">
@@ -6425,14 +6435,14 @@ El análisis se diseñó por tecnología y utilizó primero las herramientas dec
 </p>
 </div>
 
-| Repositorio | Herramienta y versión | Comando ejecutado | Alcance y exclusiones | Resultado verificable |
-| ----------- | --------------------- | ----------------- | --------------------- | --------------------- |
-| Backend | Maven 3.9.16, `javac` release 17 sobre JDK 21.0.13 | `mvn test` | 148 fuentes principales y suite disponible; excluye `.m2`, `target` y binarios | `BUILD SUCCESS`; 7 pruebas, 0 fallos, 0 errores y 0 omitidas. |
-| Frontend Web | Prettier 3.9.9 | `npm exec -- prettier --check "src/**/*.{ts,html,css}" "public/i18n/*.json"` | `src` e internacionalización; excluye `node_modules` y `dist` | Código de salida 1: 162 archivos fuera del formato configurado. |
-| Frontend Web | TypeScript 5.7.3 | `npm exec -- tsc --noEmit -p tsconfig.app.json` | Fuentes incluidas por `tsconfig.app.json` | Código de salida 0, sin diagnósticos de tipado. |
-| Frontend Mobile | Flutter 3.47.6, Dart 3.13.5 y `flutter_lints` 6.0.0 | `flutter analyze` | `lib` y `test`; `analysis_options.yaml` excluye `build/**`, `android/**`, `ios/**` y `web/**` | `No issues found`, 47,0 s. La comprobación separada de `dart format` no concluyó y no se atribuye cumplimiento de formato. |
-| Landing Page | TypeScript 5.8.3 | `npm exec -- tsc --noEmit -p tsconfig.app.json` | Fuentes incluidas por `tsconfig.app.json`; excluye `node_modules` y `dist` | Código de salida 0, sin diagnósticos de tipado. |
-| Cuatro aplicaciones | jscpd 4.0.5 | `npx --yes jscpd@4.0.5 ... --min-lines 5 --min-tokens 50 --reporters console` | Java en `src/main`, TypeScript/CSS en `src` y Dart en `lib`; excluye tests, generados, dependencias y compilados según repositorio | Se obtuvieron porcentajes de duplicación por línea; las plantillas HTML no aparecieron en el resumen y no reciben un porcentaje. |
+| Repositorio         | Herramienta y versión                               | Comando ejecutado                                                             | Alcance y exclusiones                                                                                                              | Resultado verificable                                                                                                            |
+| ------------------- | --------------------------------------------------- | ----------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------- |
+| Backend             | Maven 3.9.16, `javac` release 17 sobre JDK 21.0.13  | `mvn test`                                                                    | 148 fuentes principales y suite disponible; excluye `.m2`, `target` y binarios                                                     | `BUILD SUCCESS`; 7 pruebas, 0 fallos, 0 errores y 0 omitidas.                                                                    |
+| Frontend Web        | Prettier 3.9.9                                      | `npm exec -- prettier --check "src/**/*.{ts,html,css}" "public/i18n/*.json"`  | `src` e internacionalización; excluye `node_modules` y `dist`                                                                      | Código de salida 1: 162 archivos fuera del formato configurado.                                                                  |
+| Frontend Web        | TypeScript 5.7.3                                    | `npm exec -- tsc --noEmit -p tsconfig.app.json`                               | Fuentes incluidas por `tsconfig.app.json`                                                                                          | Código de salida 0, sin diagnósticos de tipado.                                                                                  |
+| Frontend Mobile     | Flutter 3.47.6, Dart 3.13.5 y `flutter_lints` 6.0.0 | `flutter analyze`                                                             | `lib` y `test`; `analysis_options.yaml` excluye `build/**`, `android/**`, `ios/**` y `web/**`                                      | `No issues found`, 47,0 s. La comprobación separada de `dart format` no concluyó y no se atribuye cumplimiento de formato.       |
+| Landing Page        | TypeScript 5.8.3                                    | `npm exec -- tsc --noEmit -p tsconfig.app.json`                               | Fuentes incluidas por `tsconfig.app.json`; excluye `node_modules` y `dist`                                                         | Código de salida 0, sin diagnósticos de tipado.                                                                                  |
+| Cuatro aplicaciones | jscpd 4.0.5                                         | `npx --yes jscpd@4.0.5 ... --min-lines 5 --min-tokens 50 --reporters console` | Java en `src/main`, TypeScript/CSS en `src` y Dart en `lib`; excluye tests, generados, dependencias y compilados según repositorio | Se obtuvieron porcentajes de duplicación por línea; las plantillas HTML no aparecieron en el resumen y no reciben un porcentaje. |
 
 #### 6.2.1.1. Coding standard & Code conventions.
 
@@ -6459,14 +6469,14 @@ La Landing Page aplica la nomenclatura Angular y TypeScript con archivos funcion
 </p>
 </div>
 
-| Criterio | Backend | Frontend Web | Frontend Mobile | Landing Page |
-| -------- | ------- | ------------ | --------------- | ------------ |
-| Nombres y archivos | Convención Java observada; paquetes minúsculos y tipos `PascalCase` | `kebab-case` y sufijos Angular; tipos `PascalCase` | `snake_case` y `UpperCamelCase` conforme a Dart | Convención Angular observada |
-| Modularidad | Capas y módulos funcionales; controladores, servicios y repositorios separados | Capacidades funcionales y módulo `shared` | Organización por feature con `data/domain/presentation` | Componentes pequeños separados por responsabilidad |
-| Formato | Indentación consistente observada en las fuentes | Dos espacios y Prettier configurado; 162 archivos requieren ajuste | Reglas de estilo incluidas mediante `flutter_lints` | Consistencia observada en archivos de alcance acotado |
-| Tipado | Java 17 y validación Jakarta; compilación satisfactoria | TypeScript y plantillas estrictas; compilación satisfactoria | Dart sound typing y analyzer satisfactorio | TypeScript y plantillas estrictas; compilación satisfactoria |
-| Comentarios y documentación | Javadoc selectivo y comentarios de intención | TSDoc/comentarios en servicios y utilidades; no sustituyen el formato | Documentación breve en contratos y widgets complejos | Comentarios mínimos, proporcionales al tamaño |
-| Evaluación | Compilación y organización modular satisfactorias | Tipado estricto satisfactorio y ajuste de formato identificado | Analyzer satisfactorio | Tipado estricto y compilación satisfactorios |
+| Criterio                    | Backend                                                                        | Frontend Web                                                          | Frontend Mobile                                         | Landing Page                                                 |
+| --------------------------- | ------------------------------------------------------------------------------ | --------------------------------------------------------------------- | ------------------------------------------------------- | ------------------------------------------------------------ |
+| Nombres y archivos          | Convención Java observada; paquetes minúsculos y tipos `PascalCase`            | `kebab-case` y sufijos Angular; tipos `PascalCase`                    | `snake_case` y `UpperCamelCase` conforme a Dart         | Convención Angular observada                                 |
+| Modularidad                 | Capas y módulos funcionales; controladores, servicios y repositorios separados | Capacidades funcionales y módulo `shared`                             | Organización por feature con `data/domain/presentation` | Componentes pequeños separados por responsabilidad           |
+| Formato                     | Indentación consistente observada en las fuentes                               | Dos espacios y Prettier configurado; 162 archivos requieren ajuste    | Reglas de estilo incluidas mediante `flutter_lints`     | Consistencia observada en archivos de alcance acotado        |
+| Tipado                      | Java 17 y validación Jakarta; compilación satisfactoria                        | TypeScript y plantillas estrictas; compilación satisfactoria          | Dart sound typing y analyzer satisfactorio              | TypeScript y plantillas estrictas; compilación satisfactoria |
+| Comentarios y documentación | Javadoc selectivo y comentarios de intención                                   | TSDoc/comentarios en servicios y utilidades; no sustituyen el formato | Documentación breve en contratos y widgets complejos    | Comentarios mínimos, proporcionales al tamaño                |
+| Evaluación                  | Compilación y organización modular satisfactorias                              | Tipado estricto satisfactorio y ajuste de formato identificado        | Analyzer satisfactorio                                  | Tipado estricto y compilación satisfactorios                 |
 
 #### 6.2.1.2. Code Quality & Code Security.
 
@@ -6478,20 +6488,20 @@ La evaluación de calidad combinó duplicación por tokens y líneas, tamaño de
 </p>
 </div>
 
-| Producto | Archivos y líneas medidos por jscpd | Clones | Líneas duplicadas | Interpretación técnica |
-| -------- | ----------------------------------- | ------ | ----------------- | ---------------------- |
-| Backend | 141 Java · 3142 líneas | 22 | 158 · 5,03 % | La repetición se concentra en pares `Create/UpdateResource`, servicios de consulta y estructura de controladores. Parte es simetría de DTO, pero incrementa el costo de cambios transversales. |
-| Frontend Web | 88 TypeScript y 23 CSS · 8082 líneas | 14 | 184 · 2,28 % total; 3,21 % en TypeScript | Se repiten formularios y listas de inventario/fuerza laboral; CSS no presentó clones con el umbral. HTML quedó fuera del resumen efectivo. |
-| Frontend Mobile | 141 Dart · 8675 líneas | 27 | 344 · 3,97 % | Se repiten controladores, formularios y páginas CRUD entre trabajadores, tareas, maquinaria, incidentes y materiales. |
-| Landing Page | 9 TypeScript y 2 CSS · 1311 líneas | 0 | 0 · 0 % | No se detectaron clones con el umbral utilizado; HTML no quedó contabilizado y los fragmentos menores de cinco líneas no fueron evaluados. |
+| Producto        | Archivos y líneas medidos por jscpd  | Clones | Líneas duplicadas                        | Interpretación técnica                                                                                                                                                                         |
+| --------------- | ------------------------------------ | ------ | ---------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Backend         | 141 Java · 3142 líneas               | 22     | 158 · 5,03 %                             | La repetición se concentra en pares `Create/UpdateResource`, servicios de consulta y estructura de controladores. Parte es simetría de DTO, pero incrementa el costo de cambios transversales. |
+| Frontend Web    | 88 TypeScript y 23 CSS · 8082 líneas | 14     | 184 · 2,28 % total; 3,21 % en TypeScript | Se repiten formularios y listas de inventario/fuerza laboral; CSS no presentó clones con el umbral. HTML quedó fuera del resumen efectivo.                                                     |
+| Frontend Mobile | 141 Dart · 8675 líneas               | 27     | 344 · 3,97 %                             | Se repiten controladores, formularios y páginas CRUD entre trabajadores, tareas, maquinaria, incidentes y materiales.                                                                          |
+| Landing Page    | 9 TypeScript y 2 CSS · 1311 líneas   | 0      | 0 · 0 %                                  | No se detectaron clones con el umbral utilizado; HTML no quedó contabilizado y los fragmentos menores de cinco líneas no fueron evaluados.                                                     |
 
-| Prioridad | Archivo | Indicador observado | Riesgo de mantenibilidad |
-| --------- | ------- | ------------------- | ------------------------ |
-| Alta | Web `mock-backend.interceptor.ts` | 1060 LOC y 275 puntos de decisión aproximados | Concentra autenticación simulada, enrutamiento, validaciones y persistencia; conviene separar handlers por dominio. |
-| Alta | Mobile `attendance_form.dart` | 300 LOC y 71 puntos | Formulario con validación y estado concentrados; conviene extraer secciones y validadores. |
-| Media | Mobile `material_form_sheet.dart` | 287 LOC y 51 puntos | Comparte patrones con otros formularios y movimientos; admite componentes y mapeadores reutilizables. |
-| Media | Backend `Material.java` | 88 LOC y 14 puntos | Es el agregado con mayor concentración observada; requiere preservar invariantes mediante pruebas al refactorizar. |
-| Baja | Landing `language.ts` | 43 LOC y 16 puntos | La concentración es acotada por el tamaño; se recomienda mantener pruebas de selección y persistencia de idioma. |
+| Prioridad | Archivo                           | Indicador observado                           | Riesgo de mantenibilidad                                                                                            |
+| --------- | --------------------------------- | --------------------------------------------- | ------------------------------------------------------------------------------------------------------------------- |
+| Alta      | Web `mock-backend.interceptor.ts` | 1060 LOC y 275 puntos de decisión aproximados | Concentra autenticación simulada, enrutamiento, validaciones y persistencia; conviene separar handlers por dominio. |
+| Alta      | Mobile `attendance_form.dart`     | 300 LOC y 71 puntos                           | Formulario con validación y estado concentrados; conviene extraer secciones y validadores.                          |
+| Media     | Mobile `material_form_sheet.dart` | 287 LOC y 51 puntos                           | Comparte patrones con otros formularios y movimientos; admite componentes y mapeadores reutilizables.               |
+| Media     | Backend `Material.java`           | 88 LOC y 14 puntos                            | Es el agregado con mayor concentración observada; requiere preservar invariantes mediante pruebas al refactorizar.  |
+| Baja      | Landing `language.ts`             | 43 LOC y 16 puntos                            | La concentración es acotada por el tamaño; se recomienda mantener pruebas de selección y persistencia de idioma.    |
 
 <div style="text-align: justify;">
 <p align="justify">
@@ -6501,16 +6511,16 @@ La revisión de seguridad verificó el uso de consultas JPQL parametrizadas, val
 </p>
 </div>
 
-| Área | Evidencia inspeccionada | Resultado y clasificación | Acción correctiva |
-| ---- | ----------------------- | ------------------------- | ----------------- |
-| Dependencias Web | `npm audit --omit=dev --audit-level=low`; Angular 19.2.25 y DOMPurify 3.4.16 transitivo de jsPDF | **Confirmado:** 8 vulnerabilidades: 3 moderadas, 4 altas y 1 crítica; incluye avisos XSS, filtración/caché, XSRF y bypasses de DOMPurify. | Planificar actualización compatible de Angular, jsPDF/DOMPurify y pruebas de regresión; no aplicar `--force` sin evaluar la migración mayor. |
-| Dependencias Landing | Mismo comando; Angular 20.0.0 | **Confirmado:** 6 vulnerabilidades altas, incluidos avisos XSS, XSRF, DoS y caché. | Actualizar a una versión corregida dentro de una rama revisada y repetir auditoría/build/tests. |
-| SQL Injection | Seis `@Query` JPQL, repositorios Spring Data y búsqueda de `JdbcTemplate`, `EntityManager`, consultas nativas o concatenadas | **Control verificado:** las consultas usan parámetros nombrados y no se encontraron APIs de SQL dinámico en el alcance inspeccionado. | Mantener consultas parametrizadas e incorporar SAST al pipeline. |
-| XSS propio | Búsqueda de `[innerHTML]`, `innerHTML`, `DomSanitizer`, `bypassSecurityTrust*`, `document.write`, `eval` y `new Function` | **Control observado:** no se hallaron sinks propios en Web o Landing. **Hallazgo en dependencias:** npm reporta avisos XSS de Angular y DOMPurify. | Corregir dependencias y conservar plantillas sin bypass de sanitización. |
-| Autenticación y roles | Spring Security stateless, `@PreAuthorize`, restricciones por método HTTP, BCrypt, JWT firmado y 111 coincidencias de anotaciones Bean Validation y `@Valid` | **Control presente:** escritura reservada a `SUPERVISOR`, entradas REST validadas, secreto JWT inyectado y contraseñas redactadas en `toString`. | Incorporar pruebas negativas por rol y rotación documentada del secreto; revisar expiración según riesgo. |
-| JWT Web | `SessionService` persiste token y usuario en `localStorage` | **Advertencia potencial:** un XSS exitoso podría leer el token; no es una explotación confirmada. | Evaluar cookie `HttpOnly`, `Secure` y `SameSite` con protección CSRF, o reducir vida/alcance del token y endurecer CSP. |
-| Datos sensibles Mobile | `FlutterSecureStorageService` para JWT y `SharedPreferences` para preferencias | **Control presente:** el token se guarda en almacenamiento seguro y se elimina al cerrar sesión o recibir 401. | Validar configuración nativa de backup/keystore en builds de liberación y evitar logs de credenciales. |
-| Secretos rastreados | Nombres de archivos sensibles, claves de configuración y placeholders | **Control observado:** Backend obtiene las credenciales y el secreto JWT mediante variables de entorno; no se encontraron `.env`, PEM, JKS, P12 o keystore rastreados. Los valores aislados de test no se transcriben. | Mantener los valores reales fuera de Git y añadir detección automatizada de secretos. |
+| Área                   | Evidencia inspeccionada                                                                                                                                      | Resultado y clasificación                                                                                                                                                                                              | Acción correctiva                                                                                                                            |
+| ---------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
+| Dependencias Web       | `npm audit --omit=dev --audit-level=low`; Angular 19.2.25 y DOMPurify 3.4.16 transitivo de jsPDF                                                             | **Confirmado:** 8 vulnerabilidades: 3 moderadas, 4 altas y 1 crítica; incluye avisos XSS, filtración/caché, XSRF y bypasses de DOMPurify.                                                                              | Planificar actualización compatible de Angular, jsPDF/DOMPurify y pruebas de regresión; no aplicar `--force` sin evaluar la migración mayor. |
+| Dependencias Landing   | Mismo comando; Angular 20.0.0                                                                                                                                | **Confirmado:** 6 vulnerabilidades altas, incluidos avisos XSS, XSRF, DoS y caché.                                                                                                                                     | Actualizar a una versión corregida dentro de una rama revisada y repetir auditoría/build/tests.                                              |
+| SQL Injection          | Seis `@Query` JPQL, repositorios Spring Data y búsqueda de `JdbcTemplate`, `EntityManager`, consultas nativas o concatenadas                                 | **Control verificado:** las consultas usan parámetros nombrados y no se encontraron APIs de SQL dinámico en el alcance inspeccionado.                                                                                  | Mantener consultas parametrizadas e incorporar SAST al pipeline.                                                                             |
+| XSS propio             | Búsqueda de `[innerHTML]`, `innerHTML`, `DomSanitizer`, `bypassSecurityTrust*`, `document.write`, `eval` y `new Function`                                    | **Control observado:** no se hallaron sinks propios en Web o Landing. **Hallazgo en dependencias:** npm reporta avisos XSS de Angular y DOMPurify.                                                                     | Corregir dependencias y conservar plantillas sin bypass de sanitización.                                                                     |
+| Autenticación y roles  | Spring Security stateless, `@PreAuthorize`, restricciones por método HTTP, BCrypt, JWT firmado y 111 coincidencias de anotaciones Bean Validation y `@Valid` | **Control presente:** escritura reservada a `SUPERVISOR`, entradas REST validadas, secreto JWT inyectado y contraseñas redactadas en `toString`.                                                                       | Incorporar pruebas negativas por rol y rotación documentada del secreto; revisar expiración según riesgo.                                    |
+| JWT Web                | `SessionService` persiste token y usuario en `localStorage`                                                                                                  | **Advertencia potencial:** un XSS exitoso podría leer el token; no es una explotación confirmada.                                                                                                                      | Evaluar cookie `HttpOnly`, `Secure` y `SameSite` con protección CSRF, o reducir vida/alcance del token y endurecer CSP.                      |
+| Datos sensibles Mobile | `FlutterSecureStorageService` para JWT y `SharedPreferences` para preferencias                                                                               | **Control presente:** el token se guarda en almacenamiento seguro y se elimina al cerrar sesión o recibir 401.                                                                                                         | Validar configuración nativa de backup/keystore en builds de liberación y evitar logs de credenciales.                                       |
+| Secretos rastreados    | Nombres de archivos sensibles, claves de configuración y placeholders                                                                                        | **Control observado:** Backend obtiene las credenciales y el secreto JWT mediante variables de entorno; no se encontraron `.env`, PEM, JKS, P12 o keystore rastreados. Los valores aislados de test no se transcriben. | Mantener los valores reales fuera de Git y añadir detección automatizada de secretos.                                                        |
 
 <div style="text-align: justify;">
 <p align="justify">
@@ -6530,14 +6540,14 @@ Se consultaron 25 Pull Requests fusionados: cuatro del Backend, seis del Fronten
 </p>
 </div>
 
-| Repositorio | PR y objetivo | Evidencia verificable | Resultado técnico observado |
-| ----------- | ------------- | --------------------- | --------------------------- |
-| Backend | [#2 · alineación full-stack](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/Arquitech-Backend/pull/2) | Merge `a8bce9f` | Los cambios de alineación entre componentes quedaron integrados en la rama de destino. |
-| Backend | [#3 · integrar pruebas backend](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/Arquitech-Backend/pull/3) | Merge `b02c33a`; cuatro archivos de pruebas declarados | Se incorporaron pruebas de stock de materiales, eliminación de trabajadores y seriales de maquinaria; la descripción del PR registró su ejecución como pendiente. |
-| Frontend Web | [#1 · integrar pruebas funcionales](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendWeb/pull/1) | Merge `d92b00e` | Los cambios correspondientes a las pruebas funcionales Web quedaron integrados. |
-| Frontend Web | [#3 · incorporar CI](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendWeb/pull/3) | Merge `ef84711`; comentario automático de Cloudflare | El workflow de CI quedó integrado; tras un build inicial fallido, Cloudflare registró un preview exitoso para el commit `33198ba`. |
-| Frontend Mobile | [#3 · integrar pruebas funcionales](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendMobile/pull/3) | Merge `26c134b` | Los cambios correspondientes a las pruebas funcionales Mobile quedaron integrados, sin atribuirles un resultado de ejecución no documentado en el PR. |
-| Landing Page | [#1 · incorporar CI](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-LandingPage/pull/1) | Merge `844f69d` | El workflow de integración continua quedó incorporado al repositorio. |
+| Repositorio     | PR y objetivo                                                                                                              | Evidencia verificable                                  | Resultado técnico observado                                                                                                                                       |
+| --------------- | -------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Backend         | [#2 · alineación full-stack](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/Arquitech-Backend/pull/2)               | Merge `a8bce9f`                                        | Los cambios de alineación entre componentes quedaron integrados en la rama de destino.                                                                            |
+| Backend         | [#3 · integrar pruebas backend](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/Arquitech-Backend/pull/3)            | Merge `b02c33a`; cuatro archivos de pruebas declarados | Se incorporaron pruebas de stock de materiales, eliminación de trabajadores y seriales de maquinaria; la descripción del PR registró su ejecución como pendiente. |
+| Frontend Web    | [#1 · integrar pruebas funcionales](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendWeb/pull/1)    | Merge `d92b00e`                                        | Los cambios correspondientes a las pruebas funcionales Web quedaron integrados.                                                                                   |
+| Frontend Web    | [#3 · incorporar CI](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendWeb/pull/3)                   | Merge `ef84711`; comentario automático de Cloudflare   | El workflow de CI quedó integrado; tras un build inicial fallido, Cloudflare registró un preview exitoso para el commit `33198ba`.                                |
+| Frontend Mobile | [#3 · integrar pruebas funcionales](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendMobile/pull/3) | Merge `26c134b`                                        | Los cambios correspondientes a las pruebas funcionales Mobile quedaron integrados, sin atribuirles un resultado de ejecución no documentado en el PR.             |
+| Landing Page    | [#1 · incorporar CI](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-LandingPage/pull/1)                   | Merge `844f69d`                                        | El workflow de integración continua quedó incorporado al repositorio.                                                                                             |
 
 <div style="text-align: justify;">
 <p align="justify">
@@ -6565,35 +6575,35 @@ Cada sesión combina tres momentos: una conversación breve de contexto, la ejec
 
 #### Organización de las sesiones
 
-| Aspecto | Definición |
-| --- | --- |
-| **Participantes** | De 3 a 5 por segmento objetivo, distintos a los entrevistados en Needfinding cuando sea posible. |
+| Aspecto                    | Definición                                                                                                                                                                                                                                              |
+| -------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Participantes**          | De 3 a 5 por segmento objetivo, distintos a los entrevistados en Needfinding cuando sea posible.                                                                                                                                                        |
 | **Criterios de selección** | Supervisores, residentes, jefes o asistentes de obra con experiencia en obras en Lima Metropolitana (segmento 1). Empresarios, administradores, propietarios o representantes de empresas privadas que hayan contratado al menos una obra (segmento 2). |
-| **Modalidad** | Presencial o virtual (Microsoft Teams o Google Meet) con pantalla compartida. |
-| **Duración estimada** | De 30 a 40 minutos por participante. |
-| **Registro** | Grabación en video con consentimiento previo, para subirla a Microsoft Stream e indicar en la sección 6.3.2 el inicio y la duración de cada entrevista. |
-| **Roles del equipo** | Un entrevistador conduce la sesión y lee los escenarios; un observador toma notas, mide los tiempos y registra los errores de cada tarea. |
-| **Entorno** | Versiones desplegadas: Landing Page en GitHub Pages, Frontend Web Application en Cloudflare Workers y APK distribuido mediante Firebase App Distribution, conectados al Backend en Railway. |
-| **Datos de prueba** | Cuentas demo de Supervisor y Contratante con una obra precargada (materiales, trabajadores, tareas, asistencia e incidentes), para que el participante no tenga que crear todo desde cero. Los datos se restablecen antes de cada sesión. |
+| **Modalidad**              | Presencial o virtual (Microsoft Teams o Google Meet) con pantalla compartida.                                                                                                                                                                           |
+| **Duración estimada**      | De 30 a 40 minutos por participante.                                                                                                                                                                                                                    |
+| **Registro**               | Grabación en video con consentimiento previo, para subirla a Microsoft Stream e indicar en la sección 6.3.2 el inicio y la duración de cada entrevista.                                                                                                 |
+| **Roles del equipo**       | Un entrevistador conduce la sesión y lee los escenarios; un observador toma notas, mide los tiempos y registra los errores de cada tarea.                                                                                                               |
+| **Entorno**                | Versiones desplegadas: Landing Page en GitHub Pages, Frontend Web Application en Cloudflare Workers y APK distribuido mediante Firebase App Distribution, conectados al Backend en Railway.                                                             |
+| **Datos de prueba**        | Cuentas demo de Supervisor y Contratante con una obra precargada (materiales, trabajadores, tareas, asistencia e incidentes), para que el participante no tenga que crear todo desde cero. Los datos se restablecen antes de cada sesión.               |
 
 #### Elementos a incluir en la sesión de validación
 
-| Producto | Segmento 1: Supervisores de obra | Segmento 2: Contratantes de empresas privadas |
-| --- | --- | --- |
-| **Landing Page** | Comprensión de la propuesta de valor, beneficios para el supervisor, plan de servicio y acceso a la aplicación. | Comprensión de la propuesta de valor, visibilidad que ofrece al contratante, plan de servicio y datos de contacto. |
-| **Frontend Web Application** | Gestión de materiales, trabajadores, asistencia, tareas, incidentes y reporte semanal. | Consulta de obras, avance, maquinaria, consumo de materiales, incidentes y reporte semanal en modo solo lectura. |
-| **Aplicación móvil** | Consulta de materiales, trabajadores e incidentes desde el celular. | Consulta del estado de las obras y de la maquinaria desde el celular. |
+| Producto                     | Segmento 1: Supervisores de obra                                                                                | Segmento 2: Contratantes de empresas privadas                                                                      |
+| ---------------------------- | --------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------ |
+| **Landing Page**             | Comprensión de la propuesta de valor, beneficios para el supervisor, plan de servicio y acceso a la aplicación. | Comprensión de la propuesta de valor, visibilidad que ofrece al contratante, plan de servicio y datos de contacto. |
+| **Frontend Web Application** | Gestión de materiales, trabajadores, asistencia, tareas, incidentes y reporte semanal.                          | Consulta de obras, avance, maquinaria, consumo de materiales, incidentes y reporte semanal en modo solo lectura.   |
+| **Aplicación móvil**         | Consulta de materiales, trabajadores e incidentes desde el celular.                                             | Consulta del estado de las obras y de la maquinaria desde el celular.                                              |
 
 #### User flows que forman parte de la validación
 
-| Segmento | User flow | Producto | Hypothesis Statement relacionado |
-| --- | --- | --- | --- |
-| Supervisores de obra | Gestionar y controlar materiales de construcción (Figuras 56 y 76) | Web y móvil | HS1 Gestión de materiales e inventario |
-| Supervisores de obra | Controlar la asistencia y roles de los trabajadores (Figuras 57 y 77) | Web y móvil | HS2 Gestión de trabajadores, HS3 Seguimiento de actividades |
-| Supervisores de obra | Reportar y consultar incidencias en obra (Figuras 58 y 78) | Web y móvil | HS7 Alertas sobre eventos relevantes |
-| Contratantes | Visualizar el estado y progreso de las obras contratadas (Figuras 59 y 79) | Web y móvil | HS4 Consulta del estado de la obra |
-| Contratantes | Visualizar el uso y estado de la maquinaria asignada (Figuras 60 y 80) | Web y móvil | HS4 Consulta del estado de la obra |
-| Contratantes | Ver el consumo de materiales y los reportes de avance (Figura 81) | Web | HS5 Trazabilidad, HS6 Generación de reportes |
+| Segmento             | User flow                                                                  | Producto    | Hypothesis Statement relacionado                            |
+| -------------------- | -------------------------------------------------------------------------- | ----------- | ----------------------------------------------------------- |
+| Supervisores de obra | Gestionar y controlar materiales de construcción (Figuras 56 y 76)         | Web y móvil | HS1 Gestión de materiales e inventario                      |
+| Supervisores de obra | Controlar la asistencia y roles de los trabajadores (Figuras 57 y 77)      | Web y móvil | HS2 Gestión de trabajadores, HS3 Seguimiento de actividades |
+| Supervisores de obra | Reportar y consultar incidencias en obra (Figuras 58 y 78)                 | Web y móvil | HS7 Alertas sobre eventos relevantes                        |
+| Contratantes         | Visualizar el estado y progreso de las obras contratadas (Figuras 59 y 79) | Web y móvil | HS4 Consulta del estado de la obra                          |
+| Contratantes         | Visualizar el uso y estado de la maquinaria asignada (Figuras 60 y 80)     | Web y móvil | HS4 Consulta del estado de la obra                          |
+| Contratantes         | Ver el consumo de materiales y los reportes de avance (Figura 81)          | Web         | HS5 Trazabilidad, HS6 Generación de reportes                |
 
 #### Indicadores registrados por tarea
 
@@ -6630,32 +6640,32 @@ El entrevistador se presenta, explica que la sesión forma parte de un trabajo a
 
 **Landing Page**
 
-| # | Escenario que se lee al participante | Qué se observa |
-| --- | --- | --- |
-| L1 | "Observe esta página durante unos segundos. Sin seguir navegando, cuénteme qué ofrece ArquiTech y para quién está pensado." | Comprensión de la propuesta de valor en el primer vistazo. |
-| L2 | "Usted supervisa una obra y quiere saber cómo ArquiTech le ayudaría con el control de materiales y personal. Busque esa información." | Facilidad para encontrar los beneficios para el supervisor. |
-| L3 | "Ahora quiere saber cuánto cuesta el servicio y cómo contactar a ArquiTech." | Ubicación del plan de servicio y de los datos de contacto. |
-| L4 | "Decide probar la plataforma. Ingrese a la aplicación desde esta página." | Identificación del acceso a la aplicación web. |
+| #   | Escenario que se lee al participante                                                                                                  | Qué se observa                                              |
+| --- | ------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------- |
+| L1  | "Observe esta página durante unos segundos. Sin seguir navegando, cuénteme qué ofrece ArquiTech y para quién está pensado."           | Comprensión de la propuesta de valor en el primer vistazo.  |
+| L2  | "Usted supervisa una obra y quiere saber cómo ArquiTech le ayudaría con el control de materiales y personal. Busque esa información." | Facilidad para encontrar los beneficios para el supervisor. |
+| L3  | "Ahora quiere saber cuánto cuesta el servicio y cómo contactar a ArquiTech."                                                          | Ubicación del plan de servicio y de los datos de contacto.  |
+| L4  | "Decide probar la plataforma. Ingrese a la aplicación desde esta página."                                                             | Identificación del acceso a la aplicación web.              |
 
 **Frontend Web Application**
 
-| # | Escenario que se lee al participante | User flow |
-| --- | --- | --- |
-| W1 | "Inicie sesión con la cuenta de supervisor que le entregamos y entre a la obra asignada." | Acceso y selección de proyecto |
-| W2 | "Llegó una compra de 200 bolsas de cemento. Registre el material en el inventario de la obra." | UF1: Materiales |
-| W3 | "Hoy se usaron 30 varillas de fierro corrugado. Registre esa salida e identifique qué materiales están por debajo del stock mínimo." | UF1: Materiales |
-| W4 | "Registre la asistencia de hoy de los trabajadores y revise quién llegó tarde ayer." | UF2: Trabajadores y asistencia |
-| W5 | "Asigne a un trabajador la tarea 'Encofrado de columnas del piso 4' con fecha límite el viernes, y luego marque como completada una tarea pendiente." | UF2: Trabajadores y tareas |
-| W6 | "Se malogró la mezcladora y la obra está parada. Registre la incidencia con la severidad que considere adecuada." | UF3: Incidencias |
-| W7 | "Su jefe le pide el resumen de la semana. Obtenga el reporte semanal y descárguelo en PDF." | Reporte semanal |
+| #   | Escenario que se lee al participante                                                                                                                  | User flow                      |
+| --- | ----------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------ |
+| W1  | "Inicie sesión con la cuenta de supervisor que le entregamos y entre a la obra asignada."                                                             | Acceso y selección de proyecto |
+| W2  | "Llegó una compra de 200 bolsas de cemento. Registre el material en el inventario de la obra."                                                        | UF1: Materiales                |
+| W3  | "Hoy se usaron 30 varillas de fierro corrugado. Registre esa salida e identifique qué materiales están por debajo del stock mínimo."                  | UF1: Materiales                |
+| W4  | "Registre la asistencia de hoy de los trabajadores y revise quién llegó tarde ayer."                                                                  | UF2: Trabajadores y asistencia |
+| W5  | "Asigne a un trabajador la tarea 'Encofrado de columnas del piso 4' con fecha límite el viernes, y luego marque como completada una tarea pendiente." | UF2: Trabajadores y tareas     |
+| W6  | "Se malogró la mezcladora y la obra está parada. Registre la incidencia con la severidad que considere adecuada."                                     | UF3: Incidencias               |
+| W7  | "Su jefe le pide el resumen de la semana. Obtenga el reporte semanal y descárguelo en PDF."                                                           | Reporte semanal                |
 
 **Aplicación móvil**
 
-| # | Escenario que se lee al participante | User flow |
-| --- | --- | --- |
-| M1 | "Está en la obra, sin laptop. Revise desde el celular cuánto stock queda de arena gruesa." | UF1: Materiales (móvil) |
-| M2 | "Desde el celular, consulte qué rol tiene cada trabajador y su asistencia de hoy." | UF2: Trabajadores (móvil) |
-| M3 | "Consulte desde el celular si hay incidencias pendientes y cuál es la más grave." | UF3: Incidencias (móvil) |
+| #   | Escenario que se lee al participante                                                       | User flow                 |
+| --- | ------------------------------------------------------------------------------------------ | ------------------------- |
+| M1  | "Está en la obra, sin laptop. Revise desde el celular cuánto stock queda de arena gruesa." | UF1: Materiales (móvil)   |
+| M2  | "Desde el celular, consulte qué rol tiene cada trabajador y su asistencia de hoy."         | UF2: Trabajadores (móvil) |
+| M3  | "Consulte desde el celular si hay incidencias pendientes y cuál es la más grave."          | UF3: Incidencias (móvil)  |
 
 **Preguntas de cierre**
 
@@ -6671,30 +6681,30 @@ El entrevistador se presenta, explica que la sesión forma parte de un trabajo a
 
 **Landing Page**
 
-| # | Escenario que se lee al participante | Qué se observa |
-| --- | --- | --- |
-| L1 | "Observe esta página durante unos segundos. Sin seguir navegando, cuénteme qué ofrece ArquiTech y qué ganaría usted como contratante." | Comprensión de la propuesta de valor para el contratante. |
-| L2 | "Busque qué información de su obra podría consultar si la constructora usa ArquiTech." | Facilidad para encontrar los beneficios de visibilidad. |
-| L3 | "Busque el plan de servicio y la forma de contactar a ArquiTech." | Ubicación del plan y de los datos de contacto. |
-| L4 | "Ingrese a la aplicación desde esta página." | Identificación del acceso a la aplicación web. |
+| #   | Escenario que se lee al participante                                                                                                   | Qué se observa                                            |
+| --- | -------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------- |
+| L1  | "Observe esta página durante unos segundos. Sin seguir navegando, cuénteme qué ofrece ArquiTech y qué ganaría usted como contratante." | Comprensión de la propuesta de valor para el contratante. |
+| L2  | "Busque qué información de su obra podría consultar si la constructora usa ArquiTech."                                                 | Facilidad para encontrar los beneficios de visibilidad.   |
+| L3  | "Busque el plan de servicio y la forma de contactar a ArquiTech."                                                                      | Ubicación del plan y de los datos de contacto.            |
+| L4  | "Ingrese a la aplicación desde esta página."                                                                                           | Identificación del acceso a la aplicación web.            |
 
 **Frontend Web Application**
 
-| # | Escenario que se lee al participante | User flow |
-| --- | --- | --- |
-| W1 | "Inicie sesión con la cuenta de contratante que le entregamos y diga cuál es el avance y el estado de su obra." | UF4: Estado y progreso de la obra |
-| W2 | "Quiere saber qué maquinaria tiene asignada la obra y si alguna está en mantenimiento." | UF5: Maquinaria |
-| W3 | "Revise cuánto cemento se ha usado en la obra y si algún material está por agotarse." | UF6: Consumo de materiales |
-| W4 | "Averigüe si hay incidencias pendientes que puedan retrasar la obra." | UF4: Estado de la obra |
-| W5 | "Revise el reporte de esta semana y descárguelo en PDF para compartirlo con su socio." | UF6: Reportes de avance |
-| W6 | "Intente registrar un material nuevo en la obra." | Permisos de solo lectura |
+| #   | Escenario que se lee al participante                                                                            | User flow                         |
+| --- | --------------------------------------------------------------------------------------------------------------- | --------------------------------- |
+| W1  | "Inicie sesión con la cuenta de contratante que le entregamos y diga cuál es el avance y el estado de su obra." | UF4: Estado y progreso de la obra |
+| W2  | "Quiere saber qué maquinaria tiene asignada la obra y si alguna está en mantenimiento."                         | UF5: Maquinaria                   |
+| W3  | "Revise cuánto cemento se ha usado en la obra y si algún material está por agotarse."                           | UF6: Consumo de materiales        |
+| W4  | "Averigüe si hay incidencias pendientes que puedan retrasar la obra."                                           | UF4: Estado de la obra            |
+| W5  | "Revise el reporte de esta semana y descárguelo en PDF para compartirlo con su socio."                          | UF6: Reportes de avance           |
+| W6  | "Intente registrar un material nuevo en la obra."                                                               | Permisos de solo lectura          |
 
 **Aplicación móvil**
 
-| # | Escenario que se lee al participante | User flow |
-| --- | --- | --- |
-| M1 | "Desde el celular, revise el estado y el avance de sus obras contratadas." | UF4: Estado y progreso (móvil) |
-| M2 | "Desde el celular, consulte la maquinaria de la obra y su estado operativo." | UF5: Maquinaria (móvil) |
+| #   | Escenario que se lee al participante                                         | User flow                      |
+| --- | ---------------------------------------------------------------------------- | ------------------------------ |
+| M1  | "Desde el celular, revise el estado y el avance de sus obras contratadas."   | UF4: Estado y progreso (móvil) |
+| M2  | "Desde el celular, consulte la maquinaria de la obra y su estado operativo." | UF5: Maquinaria (móvil)        |
 
 **Preguntas de cierre**
 
@@ -6716,67 +6726,484 @@ El entrevistador agradece la participación, pregunta si hay algún comentario a
 
 ## 6.4. Auditoría de Experiencias de Usuario
 
-### 6.4.2. Auditoría recibida
+### 6.4.1. Auditoría realizada
 
-#### 6.4.2.1. Información del grupo auditor
+#### 6.4.1.1. Información del grupo auditado
 
-<p align="justify">
+La auditoría realizada evalúa la Landing Page y la aplicación web de **SEMS (Smart Energy Management System)**, producto de la startup **Energix**.
 
-La auditoría de experiencia de usuario de ArquiTech fue realizada por el Grupo 4 del curso Diseño de Experimentos de Ingeniería de Software (NRC 9112), correspondiente a la startup Energix y a su producto SEMS. El grupo auditor evaluó el Landing Page y la Frontend Web Application de ArquiTech según los criterios de Usability, Inclusive Design e Information Architecture, en el formato UX Heuristics & Principles Evaluation del Anexo D.
+| Dato           | Información                                                                                                                                |
+| :------------- | :----------------------------------------------------------------------------------------------------------------------------------------- |
+| Grupo auditado | Grupo 4 — Energix                                                                                                                          |
+| Producto       | SEMS (Smart Energy Management System)                                                                                                      |
+| Integrantes    | Alexis Encalada Salazar, Nestor Alonso Rojas Tello, Winnie Lisbeth Merino Ordinola, Jean Fabio Noriega Collado y Elias Daniel Ramos Cerdan |
+| Carrera        | Ingeniería de Software                                                                                                                     |
+| Curso          | Diseño de Experimentos de Ingeniería de Software                                                                                           |
+| NRC            | 9112                                                                                                                                       |
+| Profesor       | Lennin Percy Cenas Vasquez                                                                                                                 |
+| Grupo auditor  | Foundex                                                                                                                                    |
+| Landing Page   | <https://sems-diseno-de-experimentos.github.io/SEMS-Landing-Page/>                                                                         |
+| Aplicación web | <https://sems-web-application-fyld.vercel.app/login>                                                                                       |
 
-</p>
+#### 6.4.1.2. Cronograma de auditoría realizada
 
-| Aspecto | Detalle |
-| --- | --- |
-| **Grupo** | Grupo 4 |
-| **Startup** | Energix |
-| **Producto** | SEMS |
-| **Curso y NRC** | Diseño de Experimentos de Ingeniería de Software, NRC 9112 |
+La revisión de SEMS se realizó el **10 de noviembre de 2026**.
 
-**Integrantes del grupo auditor**
+| Fecha      | Actividad                                                    | Alcance o evidencia                                                                                                                                    |
+| :--------- | :----------------------------------------------------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 10/11/2026 | Identificación del producto y sus componentes                | Landing Page y aplicación web de SEMS. Cuenta de demostración utilizada para el testeo: `demo@energix.pe` / `demo1234`.                                |
+| 10/11/2026 | Revisión de las tareas del usuario                           | Acceso y verificación de cuenta; registro de locales y dispositivos; gestión de alertas, preferencias, suscripciones y medios de pago.                 |
+| 10/11/2026 | Revisión de accesibilidad y adaptación a distintas pantallas | Estructura de los diálogos, etiquetas de formularios e interruptores, manejo del teclado y presentación de formularios largos.                         |
+| 10/11/2026 | Registro y clasificación de hallazgos                        | Documentación de 16 problemas de usabilidad, diseño inclusivo y arquitectura de información, con su severidad, recomendación y figura correspondiente. |
 
-| Código | Apellidos y Nombres |
-| --- | --- |
-| U20211G491 | Encalada Salazar, Alexis |
-| U202317099 | Rojas Tello, Nestor Alonso |
-| U20231E504 | Merino Ordinola, Winnie Lisbeth |
-| U202310342 | Noriega Collado, Jean Fabio |
-| U20201A277 | Ramos Cerdan, Elias Daniel |
-
-#### 6.4.2.2. Cronograma de auditoría recibida
-
-<p align="justify">
-
-La siguiente tabla resume las actividades de la auditoría recibida, desde la entrega de accesos al grupo auditor hasta la recepción del informe y la planificación de las correcciones.
-
-</p>
-
-| Actividad | Fecha | Hora | Modalidad | Responsable |
-| --- | --- | --- | --- | --- |
-| Coordinación de la auditoría y entrega de accesos (enlaces del Landing Page y de la Frontend Web Application, cuentas demo de Supervisor y Contratante) | [completar] | [completar] | Virtual | Foundex |
-| Sesión de evaluación del Landing Page y la Frontend Web Application | 10/11/2026 | [completar] | [completar] | Grupo 4 (Energix) |
-| Entrega del informe de auditoría | [completar] | [completar] | Virtual | Grupo 4 (Energix) |
-| Revisión de hallazgos y planificación de correcciones | [completar] | [completar] | Virtual | Foundex |
-
-#### 6.4.2.3. Contenido de auditoría recibida
-
-<p align="justify">
-
-A continuación se presenta el informe de auditoría entregado por el Grupo 4 (Energix), en el formato del Anexo D.
-
-</p>
+#### 6.4.1.3. Contenido de auditoría realizada
 
 **UX Heuristics & Principles Evaluation**  
 Usability – Inclusive Design – Information Architecture
 
-| | |
-| --- | --- |
-| **CARRERA** | Ingeniería de Software |
-| **CURSO** | Diseño de Experimentos de Ingeniería de Software |
-| **NRC** | 9112 |
-| **PROFESORES** | Lennin Percy Cenas Vasquez |
-| **AUDITOR** | Grupo 4 – Energix (producto SEMS) |
-| **CLIENTE(S)** | Foundex (ArquiTech): Eduardo Chacaliaza, Victor Espino, Braden Garcia, Mariel Mendoza y Fabricio Quispe |
+La evaluación identificó **16 hallazgos**: **5 de severidad 3** (problemas mayores) y **11 de severidad 2** (problemas menores). Las recomendaciones siguientes corresponden a SEMS, producto de Energix.
+
+##### Site o App a evaluar
+
+**SEMS** (startup Energix): Landing Page y Frontend Web Application.
+
+- Landing Page: <https://sems-diseno-de-experimentos.github.io/SEMS-Landing-Page/>.
+- Frontend Web Application: <https://sems-web-application-fyld.vercel.app/login>.
+
+Para el testeo se utilizó la cuenta **`demo@energix.pe`**, con contraseña **`demo1234`**.
+
+##### Tareas a evaluar
+
+El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas:
+
+1. Conocer la propuesta de SEMS en el Landing Page y acceder a la aplicación.
+2. Registrarse, iniciar sesión y verificar la cuenta.
+3. Registrar locales y configurar sus opciones.
+4. Registrar, editar y eliminar dispositivos.
+5. Consultar el tipo, la ubicación y el perfil de consumo de los dispositivos.
+6. Resolver alertas, crear umbrales y configurar las notificaciones.
+7. Consultar la suscripción y administrar medios de pago de prueba.
+8. Revisar la confirmación del pago al volver de la pasarela.
+9. Actualizar el segmento y las preferencias de la cuenta.
+10. Vincular un medidor mediante su código QR.
+11. Utilizar los formularios y diálogos con teclado y en pantallas pequeñas.
+
+No están incluidas en esta evaluación las siguientes tareas:
+
+1. Uso de la aplicación móvil nativa.
+2. Comprobación de mediciones físicas de los medidores.
+3. Realización de cobros con tarjetas reales.
+4. Revisión del funcionamiento interno del backend.
+
+##### Escala de severidad
+
+Los problemas se clasifican según la siguiente escala de severidad.
+
+| Nivel | Descripción                                                                                                                                                                                     |
+| ----- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1     | Problema superficial: puede ser fácilmente superado por el usuario u ocurre con muy poca frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo.                    |
+| 2     | Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja resolverlo de cara al siguiente release. |
+| 3     | Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlos. Es importante que sean corregidos y se les debe asignar una prioridad alta.                                 |
+| 4     | Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento.                               |
+
+##### Tabla resumen
+
+|  #  | Problema                                                                         | Escala de severidad | Heurística/Principio violada(o)                                                         |
+| :-: | :------------------------------------------------------------------------------- | :-----------------: | :-------------------------------------------------------------------------------------- |
+|  1  | El guardado y la eliminación de dispositivos no muestran el motivo del fallo     |          3          | Usability – Visibilidad del estado del sistema                                          |
+|  2  | Los fallos al resolver alertas o guardar sus preferencias quedan sin explicación |          3          | Usability – Visibilidad del estado del sistema                                          |
+|  3  | La pantalla confirma un pago a partir del parámetro de la URL                    |          3          | Usability – Prevención de errores                                                       |
+|  4  | Los interruptores no tienen nombre accesible y omiten el texto recibido          |          3          | Inclusive Design – Proporciona experiencias comparables                                 |
+|  5  | Los diálogos no gestionan el foco del teclado ni su nombre accesible             |          3          | Inclusive Design – Proporciona experiencias comparables                                 |
+|  6  | El formulario largo de dispositivo no limita su altura en pantallas pequeñas     |          2          | Inclusive Design – Considera la situación                                               |
+|  7  | El acceso y el registro presentan el mismo error para causas diferentes          |          2          | Usability – Ayuda a los usuarios a reconocer, diagnosticar y recuperarse de los errores |
+|  8  | La eliminación de tarjetas no solicita confirmación                              |          2          | Usability – Control y libertad del usuario                                              |
+|  9  | La verificación fallida no ofrece solicitar otro enlace                          |          2          | Usability – Ayuda y documentación                                                       |
+| 10  | Las tarjetas muestran el código interno del tipo de dispositivo                  |          2          | Usability – Coincidencia entre el sistema y el mundo real                               |
+| 11  | Los perfiles de consumo permanecen en español al cambiar a inglés                |          2          | Usability – Consistencia y estándares                                                   |
+| 12  | La ubicación y el perfil se guardan solo en el navegador sin advertirlo          |          2          | Usability – Visibilidad del estado del sistema                                          |
+| 13  | El cambio de segmento se guarda desde otra tarjeta                               |          2          | Usability – Consistencia y estándares                                                   |
+| 14  | El enlace Acerca de Energix lleva a la sección del problema                      |          2          | Information Architecture – Is it findable?                                              |
+| 15  | El lector QR no permite reintentar desde su estado de error                      |          2          | Usability – Ayuda a los usuarios a reconocer, diagnosticar y recuperarse de los errores |
+| 16  | Los formularios no identifican visualmente todos los campos obligatorios         |          2          | Usability – Prevención de errores                                                       |
+
+##### Descripción de problemas
+
+###### PROBLEMA #1: El guardado y la eliminación de dispositivos no muestran el motivo del fallo
+
+**Severidad:** 3  
+**Heurística violada:** Usability – Visibilidad del estado del sistema
+
+**Problema:**
+
+Las operaciones de crear, editar y eliminar dispositivos solo definen qué ocurre cuando tienen éxito. La vista no presenta el error de estas operaciones: el formulario puede permanecer abierto después de pulsar Guardar, o el dispositivo puede seguir en la lista tras confirmar su eliminación, sin explicar si hubo un problema de conexión, validación o permisos. El mensaje de error de carga inicial no cubre estos fallos de guardado.
+
+**Figura 114**  
+_Formulario de dispositivo después de un intento de guardado fallido, sin explicación visible_
+
+<p align="center">
+  <img src="assets/chapter-6/auditoria-realizada/01-dispositivo-error-sin-mensaje.png" width="900" alt="Formulario de dispositivo después de un intento de guardado fallido, sin explicación visible">
+</p>
+
+**Recomendación:**
+
+Mostrar un mensaje junto al formulario o la tarjeta, conservar los datos ingresados y ofrecer Reintentar. Diferenciar los errores de validación de los fallos de conexión y anunciar el resultado a las tecnologías de asistencia.
+
+###### PROBLEMA #2: Los fallos al resolver alertas o guardar sus preferencias quedan sin explicación
+
+**Severidad:** 3  
+**Heurística violada:** Usability – Visibilidad del estado del sistema
+
+**Problema:**
+
+En Alertas, las acciones de marcar una alerta como resuelta, crear un umbral y cambiar una preferencia de notificación no muestran un error propio si la petición falla. La persona puede repetir la acción sin saber si se guardó o pensar que desactivó un aviso cuando el cambio no se confirmó.
+
+**Figura 115**  
+_Preferencia de notificación que no se guarda y no presenta un mensaje de error_
+
+<p align="center">
+  <img src="assets/chapter-6/auditoria-realizada/02-alertas-error-preferencia.png" width="900" alt="Preferencia de notificación que no se guarda y no presenta un mensaje de error">
+</p>
+
+**Recomendación:**
+
+Incorporar mensajes de éxito y error por acción. Mantener el estado anterior si falla el guardado, bloquear envíos duplicados mientras se procesa y permitir reintentar sin salir de la pantalla.
+
+###### PROBLEMA #3: La pantalla confirma un pago a partir del parámetro de la URL
+
+**Severidad:** 3  
+**Heurística violada:** Usability – Prevención de errores
+
+**Problema:**
+
+La vista de Suscripción muestra «¡Pago realizado! Tu comprobante llegará por correo.» al encontrar paid=1 en la dirección. Ese mensaje no espera una confirmación del estado del pago desde el servidor. Por ello, la interfaz puede anunciar un pago exitoso sin haberlo comprobado.
+
+**Figura 116**  
+_Mensaje de pago realizado al abrir la ruta con paid=1 sin completar una compra_
+
+<p align="center">
+  <img src="assets/chapter-6/auditoria-realizada/03-pago-confirmado-por-url.png" width="900" alt="Mensaje de pago realizado al abrir la ruta con paid=1 sin completar una compra">
+</p>
+
+**Recomendación:**
+
+Mostrar «Estamos verificando tu pago» al regresar de la pasarela. Consultar el estado de la operación al servidor y anunciar el éxito únicamente cuando este confirme el pago. Si no se puede comprobar, ofrecer revisar el estado.
+
+###### PROBLEMA #4: Los interruptores no tienen nombre accesible y omiten el texto recibido
+
+**Severidad:** 3  
+**Heurística violada:** Inclusive Design – Proporciona experiencias comparables
+
+**Problema:**
+
+Los interruptores comunican si están activados o desactivados, pero no tienen un nombre accesible ni muestran el texto que se les asigna desde el formulario. En Notificaciones, el nombre del canal está en un elemento separado sin asociación con el botón. En Nuevo local no se muestra la etiqueta «Los domingos no cuentan como hora punta». El estado queda visible sin una etiqueta que explique con claridad qué se cambia.
+
+**Figura 117**  
+_Interruptor de exclusión de domingos sin su etiqueta en el formulario de local_
+
+<p align="center">
+  <img src="assets/chapter-6/auditoria-realizada/04-interruptor-sin-etiqueta.png" width="900" alt="Interruptor de exclusión de domingos sin su etiqueta en el formulario de local">
+</p>
+
+**Recomendación:**
+
+Asignar a cada interruptor un nombre mediante aria-label o aria-labelledby y mostrar su etiqueta. Mostrar la etiqueta junto al control y asociarla con este. Comprobar que el nombre y el estado se anuncien juntos.
+
+###### PROBLEMA #5: Los diálogos no gestionan el foco del teclado ni su nombre accesible
+
+**Severidad:** 3  
+**Heurística violada:** Inclusive Design – Proporciona experiencias comparables
+
+**Problema:**
+
+Los diálogos no relacionan su título con el nombre accesible, no llevan el foco al contenido al abrirse, no contienen el recorrido de Tab ni devuelven el foco al control de origen al cerrarse. Se contempla el cierre con Escape. Esto deja sin implementar la orientación y el recorrido necesarios para completar los formularios con teclado o lector de pantalla.
+
+**Figura 118**  
+_Recorrido de teclado del formulario de dispositivo con foco fuera del diálogo_
+
+<p align="center">
+  <img src="assets/chapter-6/auditoria-realizada/05-dialogo-foco-teclado.png" width="900" alt="Recorrido de teclado del formulario de dispositivo con foco fuera del diálogo">
+</p>
+
+**Recomendación:**
+
+Asociar el título con aria-labelledby, llevar el foco al primer control útil, contener Tab y Shift+Tab dentro del diálogo y devolver el foco al botón de origen al cerrar. Mantener el cierre con Escape.
+
+###### PROBLEMA #6: El formulario largo de dispositivo no limita su altura en pantallas pequeñas
+
+**Severidad:** 2  
+**Heurística violada:** Inclusive Design – Considera la situación
+
+**Problema:**
+
+El diálogo se centra en una capa fija, pero UiModal no define altura máxima ni desplazamiento vertical para su contenido. Agregar dispositivo contiene numerosos campos. Esta combinación presenta un riesgo de que el inicio o los botones del formulario queden fuera del área visible en un celular o con zoom.
+
+**Figura 119**  
+_Comprobación de alcance de los controles de Agregar dispositivo en vista móvil_
+
+<p align="center">
+  <img src="assets/chapter-6/auditoria-realizada/06-dialogo-dispositivo-movil.png" width="900" alt="Comprobación de alcance de los controles de Agregar dispositivo en vista móvil">
+</p>
+
+**Recomendación:**
+
+Limitar el contenido a la altura disponible y habilitar desplazamiento vertical dentro del diálogo. Mantener accesibles el título, el cierre y las acciones principales, incluso al abrir el teclado del celular.
+
+###### PROBLEMA #7: El acceso y el registro presentan el mismo error para causas diferentes
+
+**Severidad:** 2  
+**Heurística violada:** Usability – Ayuda a los usuarios a reconocer, diagnosticar y recuperarse de los errores
+
+**Problema:**
+
+Login muestra «Verifica tus credenciales» para cualquier excepción, incluida una falta de conexión. Registro responde «No se pudo crear la cuenta. Intenta nuevamente.» sin orientar sobre la causa ni el siguiente paso. Una persona puede cambiar una contraseña correcta o repetir un registro que no podrá completarse hasta que se restablezca el servicio.
+
+**Figura 120**  
+_Error de conexión presentado como un problema de credenciales en el inicio de sesión_
+
+<p align="center">
+  <img src="assets/chapter-6/auditoria-realizada/07-login-error-generico.png" width="900" alt="Error de conexión presentado como un problema de credenciales en el inicio de sesión">
+</p>
+
+**Recomendación:**
+
+Diferenciar problemas de conexión y disponibilidad de los errores de validación. Mantener una respuesta de autenticación que no revele si un correo existe, pero ofrecer instrucciones útiles y una opción de reintento cuando falla la red.
+
+###### PROBLEMA #8: La eliminación de tarjetas no solicita confirmación
+
+**Severidad:** 2  
+**Heurística violada:** Usability – Control y libertad del usuario
+
+**Problema:**
+
+En Métodos de pago, el botón de papelera llama directamente a la eliminación de la tarjeta. No se presenta una confirmación con sus últimos dígitos ni una opción para deshacer. Un clic accidental puede obligar a volver a registrar el medio de pago. La mutación tampoco presenta un mensaje específico si la eliminación falla.
+
+**Figura 121**  
+_Eliminación directa de un medio de pago desde su botón de papelera_
+
+<p align="center">
+  <img src="assets/chapter-6/auditoria-realizada/08-tarjeta-sin-confirmacion.png" width="900" alt="Eliminación directa de un medio de pago desde su botón de papelera">
+</p>
+
+**Recomendación:**
+
+Pedir confirmación antes de retirar la tarjeta e identificarla por marca y últimos cuatro dígitos. Explicar el efecto sobre pagos futuros y mostrar el resultado de la operación, incluidos los errores.
+
+###### PROBLEMA #9: La verificación fallida no ofrece solicitar otro enlace
+
+**Severidad:** 2  
+**Heurística violada:** Usability – Ayuda y documentación
+
+**Problema:**
+
+La pantalla de verificación utiliza el mismo estado de error cuando falta el enlace válido o la petición falla. En ese estado no ofrece un control para reenviar el correo de verificación. La persona no puede resolver desde esa pantalla la necesidad de un nuevo enlace.
+
+**Figura 122**  
+_Estado de error de verificación sin acción para reenviar el enlace_
+
+<p align="center">
+  <img src="assets/chapter-6/auditoria-realizada/09-verificacion-sin-reenvio.png" width="900" alt="Estado de error de verificación sin acción para reenviar el enlace">
+</p>
+
+**Recomendación:**
+
+Ofrecer «Solicitar otro correo de verificación» y una explicación en lenguaje sencillo. Separar los problemas de conexión de los enlaces vencidos y conservar una salida hacia el inicio de sesión.
+
+###### PROBLEMA #10: Las tarjetas muestran el código interno del tipo de dispositivo
+
+**Severidad:** 2  
+**Heurística violada:** Usability – Coincidencia entre el sistema y el mundo real
+
+**Problema:**
+
+El formulario traduce los tipos de equipo, por ejemplo COLD_ROOM como «Cámara de frío», pero la tarjeta muestra directamente el código del tipo. Tras registrar el equipo, la persona puede ver COLD_ROOM o DISPLAY_FRIDGE en lugar del nombre que eligió. La misma entidad usa dos vocabularios distintos en el formulario y en su tarjeta.
+
+**Figura 123**  
+_Tarjeta de dispositivo con un tipo interno como COLD_ROOM o DISPLAY_FRIDGE_
+
+<p align="center">
+  <img src="assets/chapter-6/auditoria-realizada/10-dispositivo-tipo-interno.png" width="900" alt="Tarjeta de dispositivo con un tipo interno como COLD_ROOM o DISPLAY_FRIDGE">
+</p>
+
+**Recomendación:**
+
+Compartir el mismo diccionario de etiquetas entre formulario, tarjetas, filtros y reportes. Conservar los códigos únicamente en el intercambio con el backend.
+
+###### PROBLEMA #11: Los perfiles de consumo permanecen en español al cambiar a inglés
+
+**Severidad:** 2  
+**Heurística violada:** Usability – Consistencia y estándares
+
+**Problema:**
+
+Los nombres de los perfiles de consumo están definidos solo en español. El selector del formulario y la tarjeta los muestran sin traducir, incluso cuando las etiquetas de alrededor están en inglés. Se produce una mezcla de idiomas en una misma tarea.
+
+**Figura 124**  
+_Formulario en inglés con perfiles como Cámara de frío o Sin perfil en español_
+
+<p align="center">
+  <img src="assets/chapter-6/auditoria-realizada/11-perfiles-sin-traducir.png" width="900" alt="Formulario en inglés con perfiles como Cámara de frío o Sin perfil en español">
+</p>
+
+**Recomendación:**
+
+Definir una clave de traducción por perfil y resolver su etiqueta según el idioma activo. Reutilizar esas traducciones en el selector y en la tarjeta del dispositivo.
+
+###### PROBLEMA #12: La ubicación y el perfil se guardan solo en el navegador sin advertirlo
+
+**Severidad:** 2  
+**Heurística violada:** Usability – Visibilidad del estado del sistema
+
+**Problema:**
+
+Ubicación y Perfil de consumo aparecen en el mismo formulario que los datos enviados al servidor, pero se guardan por separado en localStorage. La interfaz no explica esa diferencia. Al entrar desde otro navegador, los valores pueden faltar aunque el dispositivo siga registrado, lo que parece una pérdida de datos para quien completó el formulario.
+
+**Figura 125**  
+_Comparación de un mismo dispositivo con y sin sus datos locales en dos navegadores_
+
+<p align="center">
+  <img src="assets/chapter-6/auditoria-realizada/12-datos-dispositivo-locales.png" width="900" alt="Comparación de un mismo dispositivo con y sin sus datos locales en dos navegadores">
+</p>
+
+**Recomendación:**
+
+Guardar esos campos en el servidor junto al dispositivo o identificarlos expresamente como preferencias locales. Diferenciar su confirmación de guardado y avisar de que no se sincronizan entre equipos mientras exista esa limitación.
+
+###### PROBLEMA #13: El cambio de segmento se guarda desde otra tarjeta
+
+**Severidad:** 2  
+**Heurística violada:** Usability – Consistencia y estándares
+
+**Problema:**
+
+En Configuración, el segmento se selecciona en una tarjeta independiente que indica «Recuerda guardar los cambios arriba». El botón Guardar cambios pertenece visualmente a Datos de la cuenta. Idioma y tema, en cambio, se aplican al pulsarlos. La persona debe recordar qué preferencias se guardan inmediatamente y cuáles requieren volver a otra tarjeta.
+
+**Figura 126**  
+_Selección de segmento separada del botón que confirma su guardado_
+
+<p align="center">
+  <img src="assets/chapter-6/auditoria-realizada/13-segmento-guardado-separado.png" width="900" alt="Selección de segmento separada del botón que confirma su guardado">
+</p>
+
+**Recomendación:**
+
+Colocar una acción de guardado junto al segmento o unificar el formulario con una barra de acciones común y un indicador de cambios pendientes. Avisar antes de abandonar la pantalla si quedan cambios sin guardar.
+
+###### PROBLEMA #14: El enlace Acerca de Energix lleva a la sección del problema
+
+**Severidad:** 2  
+**Heurística violada:** Information Architecture – Is it findable?
+
+**Problema:**
+
+El enlace del pie de página rotulado About Energix, o su traducción al español, apunta a #problem. Su destino explica el problema energético en lugar de presentar a la empresa o al equipo. La etiqueta promete un contenido diferente del que la persona encuentra.
+
+**Figura 127**  
+_Destino del enlace Acerca de Energix en la sección del problema energético_
+
+<p align="center">
+  <img src="assets/chapter-6/auditoria-realizada/14-acerca-energix-destino.png" width="900" alt="Destino del enlace Acerca de Energix en la sección del problema energético">
+</p>
+
+**Recomendación:**
+
+Crear una sección sobre Energix y enlazarla desde el pie, o cambiar la etiqueta para describir el contenido de destino. Mantener coherencia entre nombre del enlace, encabezado y contenido.
+
+###### PROBLEMA #15: El lector QR no permite reintentar desde su estado de error
+
+**Severidad:** 2  
+**Heurística violada:** Usability – Ayuda a los usuarios a reconocer, diagnosticar y recuperarse de los errores
+
+**Problema:**
+
+Cuando falla el inicio de la cámara, el lector QR muestra «No se pudo acceder a la cámara. Revisa los permisos.». No ofrece Reintentar ni instrucciones para recuperar el permiso desde ese mismo estado. La persona debe deducir que necesita cambiar los permisos y cerrar y volver a abrir el lector.
+
+**Figura 128**  
+_Lector QR con permiso de cámara denegado y sin acción de reintento_
+
+<p align="center">
+  <img src="assets/chapter-6/auditoria-realizada/15-qr-permiso-denegado.png" width="900" alt="Lector QR con permiso de cámara denegado y sin acción de reintento">
+</p>
+
+**Recomendación:**
+
+Añadir Reintentar y una indicación breve para habilitar la cámara. Ofrecer como alternativa la introducción manual del identificador y conservarla visible cuando no haya cámara disponible.
+
+###### PROBLEMA #16: Los formularios no identifican visualmente todos los campos obligatorios
+
+**Severidad:** 2  
+**Heurística violada:** Usability – Prevención de errores
+
+**Problema:**
+
+En Nuevo local y Agregar dispositivo, varios campos son obligatorios, pero sus etiquetas no incorporan una marca o leyenda que lo indique. Algunos campos sí se anuncian como opcionales, como Zona, mientras otros opcionales, como Ubicación, no lo indican. La persona descubre parte de los requisitos recién al intentar guardar.
+
+**Figura 129**  
+_Campos obligatorios y opcionales sin una identificación visual uniforme_
+
+<p align="center">
+  <img src="assets/chapter-6/auditoria-realizada/16-formulario-campos-obligatorios.png" width="900" alt="Campos obligatorios y opcionales sin una identificación visual uniforme">
+</p>
+
+**Recomendación:**
+
+Usar un criterio uniforme: marcar los obligatorios con una leyenda explicada o indicar todos los opcionales. Mostrar ayudas de formato antes del envío y asociar los errores a cada control.
+
+#### 6.4.1.4. Resumen de modificaciones para subsanar hallazgos
+
+A partir de los hallazgos se definieron las siguientes modificaciones para SEMS. Su implementación está pendiente.
+
+| Hallazgo(s) | Modificación propuesta                                                         | Prioridad | Estado        | Evidencia de cierre requerida                                                 |
+| :---------- | :----------------------------------------------------------------------------- | :-------- | :------------ | :---------------------------------------------------------------------------- |
+| 1–2         | Mostrar errores y confirmaciones por cada operación de dispositivos y alertas  | Alta      | Pendiente     | Capturas del fallo y del reintento exitoso, con referencia al cambio          |
+| 3           | Confirmar el estado del pago con el servidor antes de anunciar éxito           | Alta      | Pendiente     | Resultado de pago pendiente, confirmado y no confirmado en entorno de pruebas |
+| 4–5         | Identificar interruptores y completar nombre y gestión de foco de los diálogos | Alta      | Pendiente     | Árbol de accesibilidad y registro del recorrido con teclado                   |
+| 6           | Ajustar altura y desplazamiento del formulario móvil si se confirma el recorte | Media     | Por verificar | Captura a 390 × 844 px y comprobación de acceso a todos los controles         |
+| 7 y 9       | Orientar la recuperación ante fallos de acceso, registro y verificación        | Media     | Pendiente     | Mensajes por tipo de error y opción de solicitar otro enlace                  |
+| 8           | Confirmar la eliminación de medios de pago y comunicar su resultado            | Media     | Pendiente     | Confirmación antes de retirar una tarjeta de prueba y resultado posterior     |
+| 10–11       | Unificar etiquetas de tipos y traducir perfiles de consumo                     | Media     | Pendiente     | Formulario y tarjeta coherentes en español e inglés                           |
+| 12          | Sincronizar los datos adicionales del dispositivo o advertir que son locales   | Media     | Pendiente     | Comparación entre navegadores o aviso explícito de almacenamiento local       |
+| 13          | Acercar el guardado al selector de segmento y avisar de cambios pendientes     | Media     | Pendiente     | Cambio de segmento y confirmación de persistencia                             |
+| 14          | Corregir el destino o la etiqueta del enlace sobre Energix                     | Media     | Pendiente     | Enlace y sección de destino con contenido coherente                           |
+| 15          | Incorporar recuperación ante permisos de cámara denegados                      | Media     | Pendiente     | Estado de error con reintento y alternativa manual                            |
+| 16          | Identificar de forma uniforme los campos obligatorios y opcionales             | Media     | Pendiente     | Formulario antes de enviar y validación de campos                             |
+
+### 6.4.2. Auditoría recibida
+
+#### 6.4.2.1. Información del grupo auditor
+
+La auditoría fue realizada por el **Grupo 4 – Energix**, responsable del producto SEMS, al equipo **Foundex**, creador de **ArquiTech**. Se evaluaron su Landing Page y su aplicación web, considerando los perfiles Supervisor de obra y Contratante.
+
+| Dato           | Información                                                                        |
+| :------------- | :--------------------------------------------------------------------------------- |
+| Grupo auditado | Foundex                                                                            |
+| Producto       | ArquiTech                                                                          |
+| Integrantes    | Eduardo Chacaliaza, Victor Espino, Braden Garcia, Mariel Mendoza y Fabricio Quispe |
+| Carrera        | Ingeniería de Software                                                             |
+| Curso          | Diseño de Experimentos de Ingeniería de Software                                   |
+| NRC            | 9112                                                                               |
+| Profesor       | Lennin Percy Cenas Vasquez                                                         |
+| Grupo auditor  | Grupo 4 – Energix (producto SEMS)                                                  |
+| Landing Page   | <https://upc-1asi0732-202620-9112-arquitech.github.io/ArquiTech-LandingPage/>      |
+| Aplicación web | <https://arquitech-frontendweb.echacaliazaminaya.workers.dev/>                     |
+
+#### 6.4.2.2. Cronograma de auditoría recibida
+
+La evaluación se realizó el **10 de noviembre de 2026**. El siguiente cuadro organiza las actividades descritas en el documento de auditoría; la fuente no registra horas de inicio, fin ni duración por actividad.
+
+| Fecha      | Actividad                                             | Alcance o evidencia                                                                                                                                                                                  |
+| :--------- | :---------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 10/11/2026 | Identificación de versiones y preparación del entorno | Frontend Web `57615f5`, Landing Page `57e98cf` y Backend `d587220`. Compilación local del Frontend Web y del Landing Page desde `main`, porque los despliegues correspondían a una versión anterior. |
+| 10/11/2026 | Recorrido de tareas y variantes                       | Uso de datos demo con los perfiles Supervisor de obra y Contratante. Revisión de la vista original, la vista mejorada EC01–EC09 y las variantes A y B del Landing Page EC10.                         |
+| 10/11/2026 | Revisión en escritorio y celular                      | Navegador de escritorio a 1366 × 800 px y vista móvil a 390 × 844 px.                                                                                                                                |
+| 10/11/2026 | Registro y clasificación de hallazgos                 | Documentación de 26 problemas según usabilidad, diseño inclusivo y arquitectura de información, acompañados por 23 capturas y recomendaciones.                                                       |
+
+#### 6.4.2.3. Contenido de auditoría recibida
+
+**UX Heuristics & Principles Evaluation**  
+Usability – Inclusive Design – Information Architecture
+
+La evaluación identificó **26 hallazgos**: **5 de severidad 3** (problemas mayores), **17 de severidad 2** (problemas menores) y **4 de severidad 1** (problemas superficiales). No se registraron hallazgos de severidad 4. Las recomendaciones siguientes corresponden al producto auditado, ArquiTech.
 
 ##### Site o App a evaluar
 
@@ -6815,43 +7242,43 @@ No están incluidas en esta versión de la evaluación las siguientes tareas:
 
 Los errores serán puntuados tomando en cuenta la siguiente escala de severidad:
 
-| Nivel | Descripción |
-| --- | --- |
-| 1 | Problema superficial: puede ser fácilmente superado por el usuario u ocurre con muy poca frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo. |
-| 2 | Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja resolverlo de cara al siguiente release. |
-| 3 | Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlos. Es importante que sean corregidos y se les debe asignar una prioridad alta. |
-| 4 | Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento. |
+| Nivel | Descripción                                                                                                                                                                                     |
+| ----- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1     | Problema superficial: puede ser fácilmente superado por el usuario u ocurre con muy poca frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo.                    |
+| 2     | Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja resolverlo de cara al siguiente release. |
+| 3     | Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlos. Es importante que sean corregidos y se les debe asignar una prioridad alta.                                 |
+| 4     | Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento.                               |
 
 ##### Tabla resumen
 
-| # | Problema | Escala de severidad | Heurística/Principio violada(o) |
-| --- | --- | :---: | --- |
-| 1 | Las acciones "de ensayo" de la vista mejorada modifican el inventario y la asistencia reales | 3 | Usability: Prevención de errores |
-| 2 | La variante B del Landing Page mezcla textos en español e inglés | 3 | Usability: Consistencia y estándares |
-| 3 | La pantalla de Asistencia aparece vacía al entrar por un filtro de fecha aplicado por defecto | 3 | Usability: Visibilidad del estado del sistema |
-| 4 | En celular las tablas ocultan columnas y el menú de acciones fuera de la pantalla | 3 | Inclusive Design: Considera la situación |
-| 5 | La recuperación de contraseña remite a soporte, pero no indica ningún medio de contacto | 3 | Usability: Ayuda y documentación |
-| 6 | La interfaz muestra términos internos del experimento ("Laboratorio experimental", "EC06 · Variante B", "EC10 / Variante B") | 2 | Usability: Coincidencia entre el sistema y el mundo real |
-| 7 | Algunos paneles muestran valores técnicos sin traducir ("MATERIAL_SHORTAGE", "ACTIVE") | 2 | Usability: Coincidencia entre el sistema y el mundo real |
-| 8 | Los paneles de la vista mejorada repiten la información de la página y desplazan el contenido principal | 2 | Usability: Estética y diseño minimalista |
-| 9 | El panel y la tabla de un mismo módulo muestran estados, términos y formatos distintos | 2 | Usability: Consistencia y estándares |
-| 10 | El registro rápido de asistencia obliga a elegir el estado de cada trabajador uno por uno | 2 | Usability: Flexibilidad y eficiencia de uso |
-| 11 | La guía "Primeros pasos" lleva al primer proyecto de la lista sin indicar cuál | 2 | Usability: Visibilidad del estado del sistema |
-| 12 | En celular, el botón de vista empuja el menú de usuario fuera de la pantalla | 2 | Inclusive Design: Proporciona experiencias comparables |
-| 13 | La solicitud de demostración depende de que el visitante tenga configurada una aplicación de correo | 2 | Inclusive Design: Considera la situación |
-| 14 | El Landing Page se muestra en inglés por defecto para un público peruano | 2 | Usability: Coincidencia entre el sistema y el mundo real |
-| 15 | El botón que lleva a la aplicación dice solo "ArquiTech" | 2 | Information Architecture: Is it findable? |
-| 16 | La sección "Nosotros" del Landing Page se desborda horizontalmente en celular | 2 | Inclusive Design: Proporciona experiencias comparables |
-| 17 | Los campos obligatorios no se distinguen hasta intentar guardar | 2 | Usability: Prevención de errores |
-| 18 | La unidad de medida de un material es un campo de texto libre | 2 | Usability: Prevención de errores |
-| 19 | Algunos placeholders parecen datos ya ingresados | 2 | Usability: Visibilidad del estado del sistema |
-| 20 | Las columnas "Cantidad", "Stock" y "Fecha" del inventario no explican qué muestran | 2 | Information Architecture: Is it understandable? |
-| 21 | El Landing Page muestra el texto provisional "Espacio para el video del equipo" | 2 | Usability: Estética y diseño minimalista |
-| 22 | Los íconos de redes sociales llevan a las páginas de inicio genéricas de cada red | 2 | Information Architecture: Is it credible? |
-| 23 | Plurales sin resolver y términos distintos para el mismo concepto | 1 | Usability: Consistencia y estándares |
-| 24 | El botón de confirmar de los diálogos es verde y el resto de acciones principales es naranja | 1 | Usability: Consistencia y estándares |
-| 25 | Sin un proyecto seleccionado, los módulos del menú se ven atenuados y la explicación queda al pie | 1 | Information Architecture: Is it findable? |
-| 26 | La pestaña inactiva de Materiales tiene contraste insuficiente | 1 | Inclusive Design: Proporciona experiencias comparables |
+| #   | Problema                                                                                                                     | Escala de severidad | Heurística/Principio violada(o)                          |
+| --- | ---------------------------------------------------------------------------------------------------------------------------- | :-----------------: | -------------------------------------------------------- |
+| 1   | Las acciones "de ensayo" de la vista mejorada modifican el inventario y la asistencia reales                                 |          3          | Usability: Prevención de errores                         |
+| 2   | La variante B del Landing Page mezcla textos en español e inglés                                                             |          3          | Usability: Consistencia y estándares                     |
+| 3   | La pantalla de Asistencia aparece vacía al entrar por un filtro de fecha aplicado por defecto                                |          3          | Usability: Visibilidad del estado del sistema            |
+| 4   | En celular las tablas ocultan columnas y el menú de acciones fuera de la pantalla                                            |          3          | Inclusive Design: Considera la situación                 |
+| 5   | La recuperación de contraseña remite a soporte, pero no indica ningún medio de contacto                                      |          3          | Usability: Ayuda y documentación                         |
+| 6   | La interfaz muestra términos internos del experimento ("Laboratorio experimental", "EC06 · Variante B", "EC10 / Variante B") |          2          | Usability: Coincidencia entre el sistema y el mundo real |
+| 7   | Algunos paneles muestran valores técnicos sin traducir ("MATERIAL_SHORTAGE", "ACTIVE")                                       |          2          | Usability: Coincidencia entre el sistema y el mundo real |
+| 8   | Los paneles de la vista mejorada repiten la información de la página y desplazan el contenido principal                      |          2          | Usability: Estética y diseño minimalista                 |
+| 9   | El panel y la tabla de un mismo módulo muestran estados, términos y formatos distintos                                       |          2          | Usability: Consistencia y estándares                     |
+| 10  | El registro rápido de asistencia obliga a elegir el estado de cada trabajador uno por uno                                    |          2          | Usability: Flexibilidad y eficiencia de uso              |
+| 11  | La guía "Primeros pasos" lleva al primer proyecto de la lista sin indicar cuál                                               |          2          | Usability: Visibilidad del estado del sistema            |
+| 12  | En celular, el botón de vista empuja el menú de usuario fuera de la pantalla                                                 |          2          | Inclusive Design: Proporciona experiencias comparables   |
+| 13  | La solicitud de demostración depende de que el visitante tenga configurada una aplicación de correo                          |          2          | Inclusive Design: Considera la situación                 |
+| 14  | El Landing Page se muestra en inglés por defecto para un público peruano                                                     |          2          | Usability: Coincidencia entre el sistema y el mundo real |
+| 15  | El botón que lleva a la aplicación dice solo "ArquiTech"                                                                     |          2          | Information Architecture: Is it findable?                |
+| 16  | La sección "Nosotros" del Landing Page se desborda horizontalmente en celular                                                |          2          | Inclusive Design: Proporciona experiencias comparables   |
+| 17  | Los campos obligatorios no se distinguen hasta intentar guardar                                                              |          2          | Usability: Prevención de errores                         |
+| 18  | La unidad de medida de un material es un campo de texto libre                                                                |          2          | Usability: Prevención de errores                         |
+| 19  | Algunos placeholders parecen datos ya ingresados                                                                             |          2          | Usability: Visibilidad del estado del sistema            |
+| 20  | Las columnas "Cantidad", "Stock" y "Fecha" del inventario no explican qué muestran                                           |          2          | Information Architecture: Is it understandable?          |
+| 21  | El Landing Page muestra el texto provisional "Espacio para el video del equipo"                                              |          2          | Usability: Estética y diseño minimalista                 |
+| 22  | Los íconos de redes sociales llevan a las páginas de inicio genéricas de cada red                                            |          2          | Information Architecture: Is it credible?                |
+| 23  | Plurales sin resolver y términos distintos para el mismo concepto                                                            |          1          | Usability: Consistencia y estándares                     |
+| 24  | El botón de confirmar de los diálogos es verde y el resto de acciones principales es naranja                                 |          1          | Usability: Consistencia y estándares                     |
+| 25  | Sin un proyecto seleccionado, los módulos del menú se ven atenuados y la explicación queda al pie                            |          1          | Information Architecture: Is it findable?                |
+| 26  | La pestaña inactiva de Materiales tiene contraste insuficiente                                                               |          1          | Inclusive Design: Proporciona experiencias comparables   |
 
 ##### Descripción de problemas
 
@@ -6864,14 +7291,12 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad:
 
 En la vista mejorada, el registro guiado de materiales tiene el botón "Confirmar movimiento en datos de ensayo", el registro rápido de asistencia tiene "Guardar asistencia de ensayo" y la guía de Proyectos invita a "Registrar un material en entorno de ensayo". Estos textos hacen creer al usuario que trabaja en un entorno de prueba, pero las acciones se guardan en los datos reales de la obra: al confirmar un uso de 1 kg de cemento aparece el mensaje "Movimiento de ensayo registrado. Se actualizará el stock." y el stock del inventario baja de 450 kg a 449 kg. Además, los registros se guardan con notas internas como "EC01 - escenario controlado" y "EC02 - jornada de ensayo", que luego aparecen en el historial de la obra. Un supervisor podría "probar" la función y alterar sin querer el inventario o la asistencia.
 
-**Figura 1**  
+**Figura 130**  
 _Movimiento "de ensayo" que descuenta el stock real del inventario_
 
 <p align="center">
-  <img src="assets/chapter-6/01-ensayo-modifica-datos.png" width="900" alt="Panel de vista mejorada con el mensaje Movimiento de ensayo registrado y la tabla de inventario con el stock de Cemento reducido a 449">
+  <img src="assets/chapter-6/auditoria-recibida/01-ensayo-modifica-datos.png" width="900" alt="Panel de vista mejorada con el mensaje Movimiento de ensayo registrado y la tabla de inventario con el stock de Cemento reducido a 449">
 </p>
-
-_Nota._ Elaboración propia.
 
 **Recomendación:**
 
@@ -6886,14 +7311,12 @@ Quitar la palabra "ensayo" de los botones y mensajes si la acción guarda datos 
 
 La variante B del experimento EC10 tiene sus textos nuevos escritos directamente en español ("Menos tiempo registrando, más tiempo supervisando.", "Soy supervisor", "Solicitar demostración"), pero el resto del Landing Page sigue el idioma activo, que por defecto es inglés. El resultado es una misma pantalla con el menú, la tarjeta "From the site to the office" y las secciones "Our proposal" o "Benefits" en inglés, junto a titulares y botones en español. El selector de idioma no corrige el problema, porque los textos de la variante B no están traducidos.
 
-**Figura 2**  
+**Figura 131**  
 _Variante B del Landing Page con titulares en español y el resto en inglés_
 
 <p align="center">
-  <img src="assets/chapter-6/02-ec10-idiomas-mezclados.png" width="900" alt="Hero de la variante B con el titular en español, el menú en inglés y la etiqueta ARQUITECH - EC10 / VARIANTE B">
+  <img src="assets/chapter-6/auditoria-recibida/02-ec10-idiomas-mezclados.png" width="900" alt="Hero de la variante B con el titular en español, el menú en inglés y la etiqueta ARQUITECH - EC10 / VARIANTE B">
 </p>
-
-_Nota._ Elaboración propia.
 
 **Recomendación:**
 
@@ -6908,14 +7331,12 @@ Pasar los textos de la variante B a los archivos de traducción (`i18n`) con su 
 
 Al ingresar a Asistencia, la lista se filtra automáticamente por la fecha de hoy (desde y hasta) y el botón "Filtrar" muestra un contador "2". Si todavía no se ha registrado asistencia en el día, la pantalla muestra "No hay resultados para tu búsqueda. Prueba con otras palabras o limpia los filtros", aunque el usuario no escribió ninguna búsqueda. El supervisor puede pensar que la obra no tiene registros de asistencia, cuando el historial existe y solo está oculto por un filtro que él no aplicó. El problema se mantiene en la vista mejorada, donde el mensaje aparece debajo del panel de registro rápido.
 
-**Figura 3**  
+**Figura 132**  
 _Pantalla de Asistencia vacía con dos filtros activos por defecto_
 
 <p align="center">
-  <img src="assets/chapter-6/03-asistencia-sin-resultados.png" width="900" alt="Pantalla Asistencia con el botón Filtrar marcando 2 filtros y el mensaje No hay resultados para tu búsqueda">
+  <img src="assets/chapter-6/auditoria-recibida/03-asistencia-sin-resultados.png" width="900" alt="Pantalla Asistencia con el botón Filtrar marcando 2 filtros y el mensaje No hay resultados para tu búsqueda">
 </p>
-
-_Nota._ Elaboración propia.
 
 **Recomendación:**
 
@@ -6930,14 +7351,12 @@ Mostrar el filtro activo sobre la lista (por ejemplo, un chip "Hoy" con opción 
 
 El supervisor de obra trabaja principalmente en campo, desde el celular. En la vista móvil, las tablas (Materiales, Tareas, Trabajadores, Incidentes) conservan todas sus columnas dentro de una tarjeta con desplazamiento horizontal. En Materiales, la tabla mide 908 px dentro de una pantalla de 390 px: solo se ven Material, Cantidad y Stock, y el precio, la unidad, el proveedor y el menú de acciones (⋮), que sirve para editar o registrar movimientos, quedan fuera de la pantalla sin ninguna indicación de que se puede deslizar.
 
-**Figura 4**  
+**Figura 133**  
 _Tabla de Materiales en vista móvil con columnas recortadas_
 
 <p align="center">
-  <img src="assets/chapter-6/04-materiales-movil.png" width="320" alt="Vista móvil de Materiales donde la tabla muestra solo tres columnas y la cuarta aparece cortada en el borde derecho">
+  <img src="assets/chapter-6/auditoria-recibida/04-materiales-movil.png" width="320" alt="Vista móvil de Materiales donde la tabla muestra solo tres columnas y la cuarta aparece cortada en el borde derecho">
 </p>
-
-_Nota._ Elaboración propia.
 
 **Recomendación:**
 
@@ -6952,14 +7371,12 @@ En pantallas angostas, mostrar cada registro como una tarjeta (nombre, stock con
 
 Al hacer clic en "¿Olvidaste tu contraseña?", la aplicación muestra: "Por seguridad, el restablecimiento lo realiza el equipo de soporte de ArquiTech. Escríbenos desde el correo registrado en tu cuenta". No indica a qué correo escribir, y el texto "¿Necesitas ayuda? Contacta a soporte" no es un enlace. Un usuario que olvidó su contraseña no tiene forma de recuperar el acceso desde la aplicación; el correo de contacto (contacto@arquitech.com) solo aparece en el pie del Landing Page.
 
-**Figura 5**  
+**Figura 134**  
 _Mensaje de recuperación de contraseña sin medio de contacto_
 
 <p align="center">
-  <img src="assets/chapter-6/05-recuperar-contrasena.png" width="700" alt="Pantalla de inicio de sesión con el mensaje de recuperación de contraseña y el texto Contacta a soporte sin enlace">
+  <img src="assets/chapter-6/auditoria-recibida/05-recuperar-contrasena.png" width="700" alt="Pantalla de inicio de sesión con el mensaje de recuperación de contraseña y el texto Contacta a soporte sin enlace">
 </p>
-
-_Nota._ Elaboración propia.
 
 **Recomendación:**
 
@@ -6972,16 +7389,14 @@ Incluir el correo de soporte como enlace `mailto:` con el asunto ya escrito ("Re
 
 **Problema:**
 
-Varias pantallas muestran al usuario el vocabulario interno del equipo. La página de mejoras se titula "Laboratorio experimental" y cada tarjeta lleva un código como "EC06 · Variante B" o "EC01 · Variante B". En el Landing Page, la variante B muestra sobre el titular la etiqueta "ARQUITECH - EC10 / VARIANTE B" (Figura 2), y el formulario de demostración termina con "Prototipo experimental. No guarda correos en un servidor ni confirma conversiones comerciales" (Figura 14). Para un supervisor o un posible cliente estos términos no tienen significado y transmiten que el producto no está terminado.
+Varias pantallas muestran al usuario el vocabulario interno del equipo. La página de mejoras se titula "Laboratorio experimental" y cada tarjeta lleva un código como "EC06 · Variante B" o "EC01 · Variante B". En el Landing Page, la variante B muestra sobre el titular la etiqueta "ARQUITECH - EC10 / VARIANTE B" (Figura 131), y el formulario de demostración termina con "Prototipo experimental. No guarda correos en un servidor ni confirma conversiones comerciales" (Figura 143). Para un supervisor o un posible cliente estos términos no tienen significado y transmiten que el producto no está terminado.
 
-**Figura 6**  
+**Figura 135**  
 _Página "Laboratorio experimental" con los códigos de cada experimento_
 
 <p align="center">
-  <img src="assets/chapter-6/06-laboratorio-experimental.png" width="900" alt="Página Laboratorio experimental con tarjetas rotuladas EC06 · Variante B, EC07 · Variante B y otras">
+  <img src="assets/chapter-6/auditoria-recibida/06-laboratorio-experimental.png" width="900" alt="Página Laboratorio experimental con tarjetas rotuladas EC06 · Variante B, EC07 · Variante B y otras">
 </p>
-
-_Nota._ Elaboración propia.
 
 **Recomendación:**
 
@@ -6996,23 +7411,19 @@ Reservar los códigos de experimento para el registro interno de métricas y mos
 
 Los paneles de la vista mejorada muestran algunos valores tal como los envía el Backend. En "Alertas priorizadas de obra" el tipo de incidente aparece como "MATERIAL_SHORTAGE", mientras que la tabla de abajo dice "Falta de material", y el contador dice "1 alertas críticas". En el "Reporte asistido" del supervisor y en el panel del contratante el estado de la obra aparece como "ACTIVE", aunque el resto de la aplicación usa "Activo". El reporte asistido también resume los movimientos como "Entradas y usos: 1 y 3", un formato difícil de leer.
 
-**Figura 7**  
+**Figura 136**  
 _Alerta crítica con el tipo de incidente "MATERIAL_SHORTAGE"_
 
 <p align="center">
-  <img src="assets/chapter-6/07-alertas-valor-tecnico.png" width="900" alt="Panel Alertas priorizadas de obra con el texto 1 alertas críticas y la alerta MATERIAL_SHORTAGE">
+  <img src="assets/chapter-6/auditoria-recibida/07-alertas-valor-tecnico.png" width="900" alt="Panel Alertas priorizadas de obra con el texto 1 alertas críticas y la alerta MATERIAL_SHORTAGE">
 </p>
 
-_Nota._ Elaboración propia.
-
-**Figura 8**  
+**Figura 137**  
 _Reporte asistido con el estado "ACTIVE" y el resumen "Entradas y usos: 1 y 3"_
 
 <p align="center">
-  <img src="assets/chapter-6/08-reporte-asistido.png" width="900" alt="Panel Reporte asistido con la lista de datos del proyecto, Estado ACTIVE y el botón Generar PDF con datos consolidados">
+  <img src="assets/chapter-6/auditoria-recibida/08-reporte-asistido.png" width="900" alt="Panel Reporte asistido con la lista de datos del proyecto, Estado ACTIVE y el botón Generar PDF con datos consolidados">
 </p>
-
-_Nota._ Elaboración propia.
 
 **Recomendación:**
 
@@ -7027,14 +7438,12 @@ Reutilizar en los paneles las mismas traducciones de estados y tipos que ya usan
 
 Cada panel de la vista mejorada se inserta encima del contenido del módulo y en varios casos repite lo que ya está en la página. En Movimientos de materiales, el "Historial con trazabilidad" muestra los mismos movimientos que la tabla de abajo, por lo que el usuario ve dos veces el historial completo. En Tareas, el panel vuelve a listar las cinco tareas de la tabla. En el Reporte semanal del contratante, el panel repite avance, tareas e incidencias y ofrece un botón "Abrir reporte semanal" estando ya en esa página; en el del supervisor conviven "Descargar PDF" y "Generar PDF con datos consolidados" sin explicar la diferencia. En Materiales, el registro guiado duplica los botones "Registrar entrada" y "Registrar salida". Como consecuencia, en una pantalla de 1366 × 800 px la tabla principal de Materiales o de Movimientos empieza por debajo del primer pantallazo.
 
-**Figura 9**  
+**Figura 138**  
 _Movimientos de materiales con el historial mostrado dos veces_
 
 <p align="center">
-  <img src="assets/chapter-6/09-historial-duplicado.png" width="700" alt="Página Movimientos de materiales con el panel Historial con trazabilidad y, debajo, la tabla de movimientos con los mismos registros">
+  <img src="assets/chapter-6/auditoria-recibida/09-historial-duplicado.png" width="700" alt="Página Movimientos de materiales con el panel Historial con trazabilidad y, debajo, la tabla de movimientos con los mismos registros">
 </p>
-
-_Nota._ Elaboración propia.
 
 **Recomendación:**
 
@@ -7049,14 +7458,12 @@ Integrar cada mejora en el componente que ya existe en lugar de agregar un bloqu
 
 Cuando el panel y la tabla muestran los mismos datos, no coinciden. En Tareas, "Vaciado de losa del piso 7" figura como "Pendiente" en el panel y como "En progreso" en la tabla, y la etiqueta de vencida aparece como "VENCIDA" en el panel y "Vencida" en la tabla. En Movimientos, el panel usa "Uso" y "Entrada de material" mientras que la tabla usa "Salida" y "Entrada". Las fechas también cambian de formato: el panel muestra "10/11/2026 09:00" y la tabla "10 Nov 2026, 09:00", y las cantidades aparecen como "1000 unidad" en el panel y "+1,000 unidad" en la tabla.
 
-**Figura 10**  
+**Figura 139**  
 _Misma tarea con estado "Pendiente" en el panel y "En progreso" en la tabla_
 
 <p align="center">
-  <img src="assets/chapter-6/10-tareas-panel-tabla.png" width="900" alt="Página Tareas con el panel Tareas vencidas y próximas a vencer y la tabla de tareas debajo, con estados distintos para Vaciado de losa del piso 7">
+  <img src="assets/chapter-6/auditoria-recibida/10-tareas-panel-tabla.png" width="900" alt="Página Tareas con el panel Tareas vencidas y próximas a vencer y la tabla de tareas debajo, con estados distintos para Vaciado de losa del piso 7">
 </p>
-
-_Nota._ Elaboración propia.
 
 **Recomendación:**
 
@@ -7071,14 +7478,12 @@ Usar en los paneles los mismos componentes de etiqueta de estado, los mismos té
 
 El panel "Registro rápido por jornada" lista a los 12 trabajadores de la obra, cada uno con un desplegable "Seleccionar", y el botón "Guardar asistencia de ensayo" se mantiene deshabilitado hasta que se elige el estado de todos. No hay opción para marcar a todos como presentes y luego cambiar solo las excepciones, ni para guardar los que ya se completaron. En una obra real con decenas de trabajadores, el registro "rápido" exige tantas selecciones como personas.
 
-**Figura 11**  
+**Figura 140**  
 _Registro rápido con un desplegable por trabajador y el botón de guardar deshabilitado_
 
 <p align="center">
-  <img src="assets/chapter-6/11-asistencia-rapida.png" width="700" alt="Panel Registro rápido por jornada con doce trabajadores y un desplegable Seleccionar para cada uno">
+  <img src="assets/chapter-6/auditoria-recibida/11-asistencia-rapida.png" width="700" alt="Panel Registro rápido por jornada con doce trabajadores y un desplegable Seleccionar para cada uno">
 </p>
-
-_Nota._ Elaboración propia.
 
 **Recomendación:**
 
@@ -7093,14 +7498,12 @@ Agregar la acción "Marcar todos como presentes" y dejar como presente el valor 
 
 En la pantalla de Proyectos, la vista mejorada muestra la guía "Primeros pasos para supervisor" con botones "Explorar" para revisar tareas, registrar un material y revisar alertas. Esos botones abren el módulo del primer proyecto que aparece en la tabla, pero la guía no dice qué proyecto es. Si el usuario ordena, filtra o cambia de página, el destino cambia sin aviso, y puede terminar registrando un material en una obra distinta de la que pensaba.
 
-**Figura 12**  
+**Figura 141**  
 _Guía "Primeros pasos" en la lista de proyectos, sin indicar la obra de destino_
 
 <p align="center">
-  <img src="assets/chapter-6/12-guia-primeros-pasos.png" width="900" alt="Pantalla Proyectos con la guía Primeros pasos para supervisor y tres botones Explorar">
+  <img src="assets/chapter-6/auditoria-recibida/12-guia-primeros-pasos.png" width="900" alt="Pantalla Proyectos con la guía Primeros pasos para supervisor y tres botones Explorar">
 </p>
-
-_Nota._ Elaboración propia.
 
 **Recomendación:**
 
@@ -7115,14 +7518,12 @@ Mostrar la guía dentro de un proyecto ya seleccionado o pedir que el usuario el
 
 El nuevo botón "Vista original / Vista mejorada" ocupa espacio en la barra superior. En una pantalla de 390 px de ancho, el avatar que abre el menú de usuario (perfil y cierre de sesión) queda cortado en el borde derecho y la página entera se puede desplazar hacia los lados: mide 412 px con la vista original y 421 px con la vista mejorada. En la vista mejorada, además, el botón "Confirmar movimiento en datos de ensayo" se sale de su tarjeta.
 
-**Figura 13**  
+**Figura 142**  
 _Barra superior en celular con el avatar cortado en el borde derecho_
 
 <p align="center">
-  <img src="assets/chapter-6/13-movil-vista-mejorada.png" width="320" alt="Vista móvil de Materiales con el botón Vista mejorada en la barra superior y el avatar del usuario cortado a la derecha">
+  <img src="assets/chapter-6/auditoria-recibida/13-movil-vista-mejorada.png" width="320" alt="Vista móvil de Materiales con el botón Vista mejorada en la barra superior y el avatar del usuario cortado a la derecha">
 </p>
-
-_Nota._ Elaboración propia.
 
 **Recomendación:**
 
@@ -7137,14 +7538,12 @@ En pantallas angostas, mostrar el selector de vista solo con su ícono o moverlo
 
 En la variante B, el formulario "Solicitar demostración" pide la organización y el correo, pero el botón "Preparar solicitud de demostración" no envía nada: abre un correo prellenado en la aplicación de correo del dispositivo. Muchas personas usan el correo desde el navegador (Gmail u Outlook web) y no tienen una aplicación de correo configurada; en ese caso el clic no produce ningún resultado visible. El formulario no avisa antes de esta dependencia y la nota al pie habla de "prototipo experimental".
 
-**Figura 14**  
+**Figura 143**  
 _Formulario de solicitud de demostración de la variante B_
 
 <p align="center">
-  <img src="assets/chapter-6/14-ec10-solicitud-demo.png" width="900" alt="Formulario Solicitar demostración con los campos Organización y Correo de contacto y la nota Prototipo experimental">
+  <img src="assets/chapter-6/auditoria-recibida/14-ec10-solicitud-demo.png" width="900" alt="Formulario Solicitar demostración con los campos Organización y Correo de contacto y la nota Prototipo experimental">
 </p>
-
-_Nota._ Elaboración propia.
 
 **Recomendación:**
 
@@ -7159,14 +7558,12 @@ Enviar la solicitud a un servicio propio o de formularios y confirmar en pantall
 
 El segmento objetivo son supervisores de obra y contratantes de empresas en Lima, pero el Landing Page carga siempre en inglés ("Your site, organized. Your decisions, clear."), aunque el navegador esté configurado en español. El visitante tiene que encontrar el selector de idioma para leer la propuesta en su idioma. La aplicación web, en cambio, sí respeta el idioma del navegador, por lo que el paso del Landing Page a la aplicación se siente inconsistente.
 
-**Figura 15**  
+**Figura 144**  
 _Landing Page cargado en inglés con el navegador configurado en español_
 
 <p align="center">
-  <img src="assets/chapter-6/15-landing-idioma-cta.png" width="900" alt="Hero del Landing Page en inglés con el selector de idioma EN y el botón ArquiTech en la esquina superior derecha">
+  <img src="assets/chapter-6/auditoria-recibida/15-landing-idioma-cta.png" width="900" alt="Hero del Landing Page en inglés con el selector de idioma EN y el botón ArquiTech en la esquina superior derecha">
 </p>
-
-_Nota._ Elaboración propia.
 
 **Recomendación:**
 
@@ -7179,7 +7576,7 @@ Usar el español como idioma por defecto, o detectar el idioma del navegador en 
 
 **Problema:**
 
-En el encabezado del Landing Page (Figura 15), el botón que lleva a la aplicación web tiene como texto solo "ArquiTech →", igual que el logo de al lado. Un visitante no sabe si ese botón inicia sesión, abre una demo o vuelve al inicio de la página, y un usuario que ya tiene cuenta no encuentra una opción explícita de "Iniciar sesión".
+En el encabezado del Landing Page (Figura 144), el botón que lleva a la aplicación web tiene como texto solo "ArquiTech →", igual que el logo de al lado. Un visitante no sabe si ese botón inicia sesión, abre una demo o vuelve al inicio de la página, y un usuario que ya tiene cuenta no encuentra una opción explícita de "Iniciar sesión".
 
 **Recomendación:**
 
@@ -7194,14 +7591,12 @@ Cambiar el texto a la acción que realiza, por ejemplo "Iniciar sesión" o "Ingr
 
 En un ancho de 390 px, el bloque del video del equipo y la tarjeta de Misión y Visión miden más que la pantalla (522 px). Toda la página puede desplazarse hacia los lados y los textos de Misión y Visión quedan cortados en el borde derecho. Ocurre tanto en la versión pública como en las dos variantes del experimento EC10.
 
-**Figura 16**  
+**Figura 145**  
 _Sección Nosotros en vista móvil con el texto cortado a la derecha_
 
 <p align="center">
-  <img src="assets/chapter-6/16-landing-movil-desborde.png" width="320" alt="Vista móvil del Landing Page donde los textos de Mission y Vision se cortan en el borde derecho">
+  <img src="assets/chapter-6/auditoria-recibida/16-landing-movil-desborde.png" width="320" alt="Vista móvil del Landing Page donde los textos de Mission y Vision se cortan en el borde derecho">
 </p>
-
-_Nota._ Elaboración propia.
 
 **Recomendación:**
 
@@ -7216,27 +7611,23 @@ Apilar el video y la tarjeta en una sola columna con `width: 100%` y `min-width:
 
 En los formularios de registro, como "Registrar material" o "Registrar proyecto", ningún campo indica si es obligatorio u opcional. El usuario lo descubre al presionar el botón de guardar, cuando aparecen varios mensajes "Este campo es obligatorio" a la vez (en Registrar material: Material, Unidad de medida, Proveedor y RUC del proveedor).
 
-**Figura 17**  
+**Figura 146**  
 _Formulario Registrar material antes de enviar, sin marcas de campos obligatorios_
 
 <p align="center">
-  <img src="assets/chapter-6/17-registrar-material.png" width="900" alt="Diálogo Registrar material con todos los campos sin indicación de obligatorio">
+  <img src="assets/chapter-6/auditoria-recibida/17-registrar-material.png" width="900" alt="Diálogo Registrar material con todos los campos sin indicación de obligatorio">
 </p>
 
-_Nota._ Elaboración propia.
-
-**Figura 18**  
+**Figura 147**  
 _El mismo formulario después de intentar guardarlo vacío_
 
 <p align="center">
-  <img src="assets/chapter-6/18-registrar-material-errores.png" width="900" alt="Diálogo Registrar material con cuatro campos marcados en rojo con el mensaje Este campo es obligatorio">
+  <img src="assets/chapter-6/auditoria-recibida/18-registrar-material-errores.png" width="900" alt="Diálogo Registrar material con cuatro campos marcados en rojo con el mensaje Este campo es obligatorio">
 </p>
-
-_Nota._ Elaboración propia.
 
 **Recomendación:**
 
-Marcar los campos obligatorios con un asterisco y una leyenda "* Campo obligatorio", o marcar como "(opcional)" los que no lo son, como ya se hace en "Nota (opcional)" al registrar una salida.
+Marcar los campos obligatorios con un asterisco y una leyenda "\* Campo obligatorio", o marcar como "(opcional)" los que no lo son, como ya se hace en "Nota (opcional)" al registrar una salida.
 
 ###### PROBLEMA #18: La unidad de medida de un material es un campo de texto libre
 
@@ -7245,7 +7636,7 @@ Marcar los campos obligatorios con un asterisco y una leyenda "* Campo obligator
 
 **Problema:**
 
-En "Registrar material" (Figura 17), la unidad de medida se escribe a mano, sin opciones ni ejemplo. Esto permite registrar el mismo material con unidades escritas de formas distintas ("kg", "Kg", "kilos"; "unidad", "und") y dificulta comparar cantidades y leer los reportes. En el inventario evaluado ya conviven abreviaturas y palabras completas: "kg", "m³", "varilla", "unidad" y "litro".
+En "Registrar material" (Figura 146), la unidad de medida se escribe a mano, sin opciones ni ejemplo. Esto permite registrar el mismo material con unidades escritas de formas distintas ("kg", "Kg", "kilos"; "unidad", "und") y dificulta comparar cantidades y leer los reportes. En el inventario evaluado ya conviven abreviaturas y palabras completas: "kg", "m³", "varilla", "unidad" y "litro".
 
 **Recomendación:**
 
@@ -7258,7 +7649,7 @@ Reemplazar el campo por una lista desplegable con las unidades más usadas en ob
 
 **Problema:**
 
-El campo de contraseña del inicio de sesión muestra "••••••••" como placeholder (Figura 5), por lo que parece que ya tiene una contraseña guardada. En "Registrar material" (Figura 17), el placeholder del RUC del proveedor es "20100124567", un RUC completo de 11 dígitos con un color muy parecido al de un valor ingresado. En ambos casos el usuario puede creer que el campo ya está lleno.
+El campo de contraseña del inicio de sesión muestra "••••••••" como placeholder (Figura 134), por lo que parece que ya tiene una contraseña guardada. En "Registrar material" (Figura 146), el placeholder del RUC del proveedor es "20100124567", un RUC completo de 11 dígitos con un color muy parecido al de un valor ingresado. En ambos casos el usuario puede creer que el campo ya está lleno.
 
 **Recomendación:**
 
@@ -7273,14 +7664,12 @@ Dejar vacío el placeholder de la contraseña y, para el RUC, usar una indicaci�
 
 La tabla de Materiales muestra dos columnas numéricas, "Cantidad" y "Stock" (por ejemplo, Cemento: 500 y 450), sin explicar que "Cantidad" es el total ingresado y "Stock" lo disponible. "Cantidad" se muestra en negrita, por lo que destaca más que el stock disponible, que es el dato que el supervisor necesita para decidir si debe reabastecer. La columna "Fecha" tampoco aclara a qué se refiere: el cemento ingresó el 01 Oct 2026, pero la tabla muestra 10 Nov 2026, la fecha de su último movimiento.
 
-**Figura 19**  
+**Figura 148**  
 _Tabla de inventario con las columnas Cantidad, Stock y Fecha_
 
 <p align="center">
-  <img src="assets/chapter-6/19-materiales-cantidad-stock.png" width="900" alt="Tabla de materiales con Cantidad en negrita y Stock en texto normal">
+  <img src="assets/chapter-6/auditoria-recibida/19-materiales-cantidad-stock.png" width="900" alt="Tabla de materiales con Cantidad en negrita y Stock en texto normal">
 </p>
-
-_Nota._ Elaboración propia.
 
 **Recomendación:**
 
@@ -7295,14 +7684,12 @@ Renombrar las columnas como "Ingresado", "Disponible" y "Último movimiento" (o 
 
 En la sección "Nosotros", junto a la Misión y la Visión, aparece un bloque oscuro con un ícono de reproducción y el texto "Space for the team video" ("Espacio para el video del equipo" en español). El ícono parece un botón, pero no reproduce nada, y el bloque ocupa más de la mitad del ancho de la sección. Transmite la idea de que el sitio no está terminado.
 
-**Figura 20**  
+**Figura 149**  
 _Bloque provisional del video del equipo en la sección Nosotros_
 
 <p align="center">
-  <img src="assets/chapter-6/20-landing-video.png" width="900" alt="Sección About us con un recuadro oscuro que dice Space for the team video">
+  <img src="assets/chapter-6/auditoria-recibida/20-landing-video.png" width="900" alt="Sección About us con un recuadro oscuro que dice Space for the team video">
 </p>
-
-_Nota._ Elaboración propia.
 
 **Recomendación:**
 
@@ -7317,14 +7704,12 @@ Incrustar el video About-the-Team cuando esté publicado o, mientras tanto, ocul
 
 En el pie del Landing Page, los íconos de Facebook, Instagram y X enlazan a `https://www.facebook.com/`, `https://www.instagram.com/` y `https://x.com/`, no a perfiles de ArquiTech. Un posible cliente que quiera conocer más de la empresa termina en la página de inicio de la red social, lo que le resta credibilidad al producto. Además, el ícono de X todavía es el pájaro de Twitter.
 
-**Figura 21**  
+**Figura 150**  
 _Pie del Landing Page con los íconos de redes sociales_
 
 <p align="center">
-  <img src="assets/chapter-6/21-landing-redes.png" width="900" alt="Pie del Landing Page con datos de contacto e íconos de Facebook, Instagram y Twitter">
+  <img src="assets/chapter-6/auditoria-recibida/21-landing-redes.png" width="900" alt="Pie del Landing Page con datos de contacto e íconos de Facebook, Instagram y Twitter">
 </p>
-
-_Nota._ Elaboración propia.
 
 **Recomendación:**
 
@@ -7339,14 +7724,12 @@ Enlazar los perfiles reales de ArquiTech o retirar los íconos de las redes en l
 
 En el Reporte semanal aparecen textos como "1 entradas · 3 salidas" y "1 material(es) por debajo del stock mínimo", y en las alertas "1 alertas críticas", que no adaptan el plural a la cantidad. Además, el menú y el módulo se llaman "Incidentes", pero el reporte usa "Incidencias registradas" y "2 sin resolver en la obra", y dentro de la misma tabla del reporte vuelve a aparecer "Tipo de incidente".
 
-**Figura 22**  
+**Figura 151**  
 _Reporte semanal con plurales sin resolver y el término "Incidencias"_
 
 <p align="center">
-  <img src="assets/chapter-6/22-reporte-plurales.png" width="900" alt="Reporte semanal con los textos 1 entradas · 3 salidas, 1 material(es) e Incidencias registradas">
+  <img src="assets/chapter-6/auditoria-recibida/22-reporte-plurales.png" width="900" alt="Reporte semanal con los textos 1 entradas · 3 salidas, 1 material(es) e Incidencias registradas">
 </p>
-
-_Nota._ Elaboración propia.
 
 **Recomendación:**
 
@@ -7359,7 +7742,7 @@ Usar la pluralización de ngx-translate (formato ICU) para mostrar "1 entrada" y
 
 **Problema:**
 
-En toda la aplicación la acción principal se muestra con un botón naranja rojizo ("Añadir material", "Nuevo proyecto", "Iniciar sesión" y los botones de la vista mejorada). En los diálogos de registro, en cambio, el botón de confirmar es verde (Figura 17). Ese verde no se usa en ningún otro botón de acción, así que la misma jerarquía de acción se ve distinta según la pantalla.
+En toda la aplicación la acción principal se muestra con un botón naranja rojizo ("Añadir material", "Nuevo proyecto", "Iniciar sesión" y los botones de la vista mejorada). En los diálogos de registro, en cambio, el botón de confirmar es verde (Figura 146). Ese verde no se usa en ningún otro botón de acción, así que la misma jerarquía de acción se ve distinta según la pantalla.
 
 **Recomendación:**
 
@@ -7374,14 +7757,12 @@ Usar el mismo estilo de botón primario en las páginas y en los diálogos, y re
 
 Al iniciar sesión, la barra lateral muestra Materiales, Trabajadores, Asistencia y los demás módulos en gris, sin poder abrirlos. La explicación ("Selecciona un proyecto para ver sus módulos") aparece en letra pequeña al pie del menú, lejos de los elementos deshabilitados, y la forma de entrar a un proyecto es el enlace "Ver detalles". Un usuario nuevo puede pensar que no tiene permisos para esos módulos.
 
-**Figura 23**  
+**Figura 152**  
 _Lista de proyectos con los módulos del menú atenuados_
 
 <p align="center">
-  <img src="assets/chapter-6/23-proyectos-menu-atenuado.png" width="900" alt="Pantalla Proyectos con los módulos del menú lateral en gris y el texto Selecciona un proyecto para ver sus módulos al pie">
+  <img src="assets/chapter-6/auditoria-recibida/23-proyectos-menu-atenuado.png" width="900" alt="Pantalla Proyectos con los módulos del menú lateral en gris y el texto Selecciona un proyecto para ver sus módulos al pie">
 </p>
-
-_Nota._ Elaboración propia.
 
 **Recomendación:**
 
@@ -7394,7 +7775,7 @@ Ubicar el mensaje justo debajo de "Proyectos", en el lugar de los módulos, o mo
 
 **Problema:**
 
-En Materiales, la pestaña que no está seleccionada ("Movimientos" cuando se está en Inventario, e "Inventario" cuando se está en Movimientos) usa texto gris #746f6a sobre fondo #f1ede8, con una relación de contraste de 4,26:1. Es menor que el mínimo de 4,5:1 que exige WCAG 2.1 AA para texto de ese tamaño (13 px), por lo que puede leerse con dificultad en pantallas con mucho brillo, como en obra, o por personas con baja visión (Figura 19).
+En Materiales, la pestaña que no está seleccionada ("Movimientos" cuando se está en Inventario, e "Inventario" cuando se está en Movimientos) usa texto gris #746f6a sobre fondo #f1ede8, con una relación de contraste de 4,26:1. Es menor que el mínimo de 4,5:1 que exige WCAG 2.1 AA para texto de ese tamaño (13 px), por lo que puede leerse con dificultad en pantallas con mucho brillo, como en obra, o por personas con baja visión (Figura 148).
 
 **Recomendación:**
 
@@ -7408,34 +7789,34 @@ La siguiente tabla resume, para cada hallazgo de la auditoría recibida, la modi
 
 </p>
 
-| # | Hallazgo | Severidad | Modificación para subsanarlo | Estado |
-| --- | --- | :---: | --- | --- |
-| 1 | Las acciones "de ensayo" de la vista mejorada modifican el inventario y la asistencia reales | 3 | Cambiar los textos "de ensayo" por la acción real ("Confirmar uso de material", "Guardar asistencia del día") y quitar las notas automáticas EC01 y EC02 de los registros. | Pendiente |
-| 2 | La variante B del Landing Page mezcla textos en español e inglés | 3 | Pasar los textos de la variante B a los archivos `i18n` en español e inglés y abrir la ruta del experimento en español. | Pendiente |
-| 3 | La pantalla de Asistencia aparece vacía al entrar por un filtro de fecha aplicado por defecto | 3 | Mostrar el filtro "Hoy" como chip removible y un estado vacío propio con accesos a "Registrar asistencia" y "Ver días anteriores". | Pendiente |
-| 4 | En celular las tablas ocultan columnas y el menú de acciones fuera de la pantalla | 3 | Mostrar tarjetas en lugar de tablas en pantallas angostas, con stock, unidad y menú de acciones visibles. | Pendiente |
-| 5 | La recuperación de contraseña remite a soporte, pero no indica ningún medio de contacto | 3 | Agregar el correo de soporte como enlace `mailto:` en el mensaje de recuperación y en "Contacta a soporte". | Pendiente |
-| 6 | La interfaz muestra términos internos del experimento ("Laboratorio experimental", "EC06 · Variante B", "EC10 / Variante B") | 2 | Reemplazar los códigos EC y "Laboratorio experimental" por nombres funcionales y mantener los códigos solo en el tracking. | Pendiente |
-| 7 | Algunos paneles muestran valores técnicos sin traducir ("MATERIAL_SHORTAGE", "ACTIVE") | 2 | Traducir en los paneles los tipos y estados ("Falta de material", "Activo") y redactar el resumen de movimientos con plurales correctos. | Pendiente |
-| 8 | Los paneles de la vista mejorada repiten la información de la página y desplazan el contenido principal | 2 | Integrar las mejoras en los componentes existentes o mostrar los paneles plegados, y dejar un solo botón de PDF en el reporte. | Pendiente |
-| 9 | El panel y la tabla de un mismo módulo muestran estados, términos y formatos distintos | 2 | Reutilizar en los paneles las mismas etiquetas de estado, los términos Entrada/Salida y los formatos de fecha y cantidad de las tablas. | Pendiente |
-| 10 | El registro rápido de asistencia obliga a elegir el estado de cada trabajador uno por uno | 2 | Agregar la acción "Marcar todos como presentes" y usar Presente como valor inicial de cada trabajador. | Pendiente |
-| 11 | La guía "Primeros pasos" lleva al primer proyecto de la lista sin indicar cuál | 2 | Mostrar la guía dentro de un proyecto seleccionado o indicar el nombre de la obra de destino antes de "Explorar". | Pendiente |
-| 12 | En celular, el botón de vista empuja el menú de usuario fuera de la pantalla | 2 | En pantallas angostas, mostrar el selector de vista solo con su ícono o moverlo al menú de usuario. | Pendiente |
-| 13 | La solicitud de demostración depende de que el visitante tenga configurada una aplicación de correo | 2 | Enviar la solicitud de demostración a un servicio de formularios y confirmar la recepción en pantalla. | Pendiente |
-| 14 | El Landing Page se muestra en inglés por defecto para un público peruano | 2 | Usar el español como idioma por defecto del Landing Page y recordar la elección del usuario. | Pendiente |
-| 15 | El botón que lleva a la aplicación dice solo "ArquiTech" | 2 | Cambiar el texto del botón a "Iniciar sesión" en el encabezado y en el menú móvil. | Pendiente |
-| 16 | La sección "Nosotros" del Landing Page se desborda horizontalmente en celular | 2 | Apilar el video y la tarjeta de Misión y Visión en una sola columna y verificar que no haya desplazamiento horizontal entre 360 y 414 px. | Pendiente |
-| 17 | Los campos obligatorios no se distinguen hasta intentar guardar | 2 | Marcar los campos obligatorios con asterisco y leyenda, o indicar "(opcional)" en los que no lo son. | Pendiente |
-| 18 | La unidad de medida de un material es un campo de texto libre | 2 | Reemplazar el campo de unidad por una lista desplegable con las unidades más usadas en obra y la opción "Otra". | Pendiente |
-| 19 | Algunos placeholders parecen datos ya ingresados | 2 | Quitar el placeholder de la contraseña y cambiar el del RUC por "11 dígitos". | Pendiente |
-| 20 | Las columnas "Cantidad", "Stock" y "Fecha" del inventario no explican qué muestran | 2 | Renombrar las columnas como "Ingresado", "Disponible" y "Último movimiento" y destacar el stock disponible. | Pendiente |
-| 21 | El Landing Page muestra el texto provisional "Espacio para el video del equipo" | 2 | Incrustar el video About-the-Team u ocultar el bloque hasta tenerlo. | Pendiente |
-| 22 | Los íconos de redes sociales llevan a las páginas de inicio genéricas de cada red | 2 | Enlazar los perfiles reales de ArquiTech o retirar los íconos sin perfil, y actualizar el ícono de X. | Pendiente |
-| 23 | Plurales sin resolver y términos distintos para el mismo concepto | 1 | Usar pluralización ICU en ngx-translate y unificar el término "Incidentes" en toda la aplicación. | Pendiente |
-| 24 | El botón de confirmar de los diálogos es verde y el resto de acciones principales es naranja | 1 | Usar el mismo estilo de botón primario en las páginas y en los diálogos. | Pendiente |
-| 25 | Sin un proyecto seleccionado, los módulos del menú se ven atenuados y la explicación queda al pie | 1 | Mover el mensaje junto a "Proyectos" y renombrar "Ver detalles" como "Abrir proyecto". | Pendiente |
-| 26 | La pestaña inactiva de Materiales tiene contraste insuficiente | 1 | Oscurecer el texto de las pestañas inactivas hasta alcanzar al menos 4,5:1 de contraste. | Pendiente |
+| #   | Hallazgo                                                                                                                     | Severidad | Modificación para subsanarlo                                                                                                                                               | Estado    |
+| --- | ---------------------------------------------------------------------------------------------------------------------------- | :-------: | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------- |
+| 1   | Las acciones "de ensayo" de la vista mejorada modifican el inventario y la asistencia reales                                 |     3     | Cambiar los textos "de ensayo" por la acción real ("Confirmar uso de material", "Guardar asistencia del día") y quitar las notas automáticas EC01 y EC02 de los registros. | Pendiente |
+| 2   | La variante B del Landing Page mezcla textos en español e inglés                                                             |     3     | Pasar los textos de la variante B a los archivos `i18n` en español e inglés y abrir la ruta del experimento en español.                                                    | Pendiente |
+| 3   | La pantalla de Asistencia aparece vacía al entrar por un filtro de fecha aplicado por defecto                                |     3     | Mostrar el filtro "Hoy" como chip removible y un estado vacío propio con accesos a "Registrar asistencia" y "Ver días anteriores".                                         | Pendiente |
+| 4   | En celular las tablas ocultan columnas y el menú de acciones fuera de la pantalla                                            |     3     | Mostrar tarjetas en lugar de tablas en pantallas angostas, con stock, unidad y menú de acciones visibles.                                                                  | Pendiente |
+| 5   | La recuperación de contraseña remite a soporte, pero no indica ningún medio de contacto                                      |     3     | Agregar el correo de soporte como enlace `mailto:` en el mensaje de recuperación y en "Contacta a soporte".                                                                | Pendiente |
+| 6   | La interfaz muestra términos internos del experimento ("Laboratorio experimental", "EC06 · Variante B", "EC10 / Variante B") |     2     | Reemplazar los códigos EC y "Laboratorio experimental" por nombres funcionales y mantener los códigos solo en el tracking.                                                 | Pendiente |
+| 7   | Algunos paneles muestran valores técnicos sin traducir ("MATERIAL_SHORTAGE", "ACTIVE")                                       |     2     | Traducir en los paneles los tipos y estados ("Falta de material", "Activo") y redactar el resumen de movimientos con plurales correctos.                                   | Pendiente |
+| 8   | Los paneles de la vista mejorada repiten la información de la página y desplazan el contenido principal                      |     2     | Integrar las mejoras en los componentes existentes o mostrar los paneles plegados, y dejar un solo botón de PDF en el reporte.                                             | Pendiente |
+| 9   | El panel y la tabla de un mismo módulo muestran estados, términos y formatos distintos                                       |     2     | Reutilizar en los paneles las mismas etiquetas de estado, los términos Entrada/Salida y los formatos de fecha y cantidad de las tablas.                                    | Pendiente |
+| 10  | El registro rápido de asistencia obliga a elegir el estado de cada trabajador uno por uno                                    |     2     | Agregar la acción "Marcar todos como presentes" y usar Presente como valor inicial de cada trabajador.                                                                     | Pendiente |
+| 11  | La guía "Primeros pasos" lleva al primer proyecto de la lista sin indicar cuál                                               |     2     | Mostrar la guía dentro de un proyecto seleccionado o indicar el nombre de la obra de destino antes de "Explorar".                                                          | Pendiente |
+| 12  | En celular, el botón de vista empuja el menú de usuario fuera de la pantalla                                                 |     2     | En pantallas angostas, mostrar el selector de vista solo con su ícono o moverlo al menú de usuario.                                                                        | Pendiente |
+| 13  | La solicitud de demostración depende de que el visitante tenga configurada una aplicación de correo                          |     2     | Enviar la solicitud de demostración a un servicio de formularios y confirmar la recepción en pantalla.                                                                     | Pendiente |
+| 14  | El Landing Page se muestra en inglés por defecto para un público peruano                                                     |     2     | Usar el español como idioma por defecto del Landing Page y recordar la elección del usuario.                                                                               | Pendiente |
+| 15  | El botón que lleva a la aplicación dice solo "ArquiTech"                                                                     |     2     | Cambiar el texto del botón a "Iniciar sesión" en el encabezado y en el menú móvil.                                                                                         | Pendiente |
+| 16  | La sección "Nosotros" del Landing Page se desborda horizontalmente en celular                                                |     2     | Apilar el video y la tarjeta de Misión y Visión en una sola columna y verificar que no haya desplazamiento horizontal entre 360 y 414 px.                                  | Pendiente |
+| 17  | Los campos obligatorios no se distinguen hasta intentar guardar                                                              |     2     | Marcar los campos obligatorios con asterisco y leyenda, o indicar "(opcional)" en los que no lo son.                                                                       | Pendiente |
+| 18  | La unidad de medida de un material es un campo de texto libre                                                                |     2     | Reemplazar el campo de unidad por una lista desplegable con las unidades más usadas en obra y la opción "Otra".                                                            | Pendiente |
+| 19  | Algunos placeholders parecen datos ya ingresados                                                                             |     2     | Quitar el placeholder de la contraseña y cambiar el del RUC por "11 dígitos".                                                                                              | Pendiente |
+| 20  | Las columnas "Cantidad", "Stock" y "Fecha" del inventario no explican qué muestran                                           |     2     | Renombrar las columnas como "Ingresado", "Disponible" y "Último movimiento" y destacar el stock disponible.                                                                | Pendiente |
+| 21  | El Landing Page muestra el texto provisional "Espacio para el video del equipo"                                              |     2     | Incrustar el video About-the-Team u ocultar el bloque hasta tenerlo.                                                                                                       | Pendiente |
+| 22  | Los íconos de redes sociales llevan a las páginas de inicio genéricas de cada red                                            |     2     | Enlazar los perfiles reales de ArquiTech o retirar los íconos sin perfil, y actualizar el ícono de X.                                                                      | Pendiente |
+| 23  | Plurales sin resolver y términos distintos para el mismo concepto                                                            |     1     | Usar pluralización ICU en ngx-translate y unificar el término "Incidentes" en toda la aplicación.                                                                          | Pendiente |
+| 24  | El botón de confirmar de los diálogos es verde y el resto de acciones principales es naranja                                 |     1     | Usar el mismo estilo de botón primario en las páginas y en los diálogos.                                                                                                   | Pendiente |
+| 25  | Sin un proyecto seleccionado, los módulos del menú se ven atenuados y la explicación queda al pie                            |     1     | Mover el mensaje junto a "Proyectos" y renombrar "Ver detalles" como "Abrir proyecto".                                                                                     | Pendiente |
+| 26  | La pestaña inactiva de Materiales tiene contraste insuficiente                                                               |     1     | Oscurecer el texto de las pestañas inactivas hasta alcanzar al menos 4,5:1 de contraste.                                                                                   | Pendiente |
 
 # Capítulo VII: DevOps Practices
 
@@ -7590,23 +7971,23 @@ El workflow independiente `.github/workflows/continuous-monitoring.yml` utiliza 
 </p>
 </div>
 
-| Herramienta o práctica | Implementación | Propósito y control aplicado |
-| ---------------------- | -------------- | ---------------------------- |
-| Spring Boot Actuator 3.5.0 | Dependencia `spring-boot-starter-actuator` y `GET /actuator/health` | Verifica el estado agregado del Backend sin publicar componentes ni detalles. |
-| Spring Security | Matcher público exacto para `/actuator/health` | Permite la consulta técnica sin ampliar el acceso a endpoints de negocio o a otros endpoints Actuator. |
-| GitHub Actions | Workflow `continuous-monitoring.yml`, separado de `ci.yml`, con resultado compartido en `monitor-results.json` | Ejecuta comprobaciones programadas o manuales sin reemplazar el pipeline de construcción ni depender de un contexto no disponible en el `env` del job. |
-| Node.js 20 | `monitor-endpoints.mjs` | Realiza solicitudes con timeout, registra HTTP, latencia, errores e intentos y genera JSON y Job Summary. |
-| `node:test` | `monitor-endpoints.test.mjs` | Comprueba éxito, error HTTP, timeout, reintento con recuperación y transiciones de incidentes mediante servidores locales. |
-| GitHub Issues | Label `availability-incident` y título estable | Mantiene un registro auditable del incidente, evita duplicados y documenta la recuperación. |
+| Herramienta o práctica     | Implementación                                                                                                 | Propósito y control aplicado                                                                                                                           |
+| -------------------------- | -------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Spring Boot Actuator 3.5.0 | Dependencia `spring-boot-starter-actuator` y `GET /actuator/health`                                            | Verifica el estado agregado del Backend sin publicar componentes ni detalles.                                                                          |
+| Spring Security            | Matcher público exacto para `/actuator/health`                                                                 | Permite la consulta técnica sin ampliar el acceso a endpoints de negocio o a otros endpoints Actuator.                                                 |
+| GitHub Actions             | Workflow `continuous-monitoring.yml`, separado de `ci.yml`, con resultado compartido en `monitor-results.json` | Ejecuta comprobaciones programadas o manuales sin reemplazar el pipeline de construcción ni depender de un contexto no disponible en el `env` del job. |
+| Node.js 20                 | `monitor-endpoints.mjs`                                                                                        | Realiza solicitudes con timeout, registra HTTP, latencia, errores e intentos y genera JSON y Job Summary.                                              |
+| `node:test`                | `monitor-endpoints.test.mjs`                                                                                   | Comprueba éxito, error HTTP, timeout, reintento con recuperación y transiciones de incidentes mediante servidores locales.                             |
+| GitHub Issues              | Label `availability-incident` y título estable                                                                 | Mantiene un registro auditable del incidente, evita duplicados y documenta la recuperación.                                                            |
 
-| Variable de repositorio | Valor predeterminado | Uso |
-| ----------------------- | --------------------- | --- |
-| `BACKEND_HEALTH_URL` | `https://arquitech-backend-production.up.railway.app/actuator/health` | El YAML conserva este valor predeterminado; la variable de repositorio lo sustituye en ejecución por `https://arquitech-backend-production-cfc2.up.railway.app/actuator/health`, que corresponde al servicio activo verificado. |
-| `WEB_URL` | `https://arquitech-frontendweb.echacaliazaminaya.workers.dev/` | Disponibilidad pública del Frontend Web. |
-| `LANDING_URL` | `https://upc-1asi0732-202620-9112-arquitech.github.io/ArquiTech-LandingPage/` | Disponibilidad pública de la Landing Page. Puede dejarse vacía para omitirla. |
-| `MONITOR_TIMEOUT_MS` | `10000` | Tiempo máximo de cada solicitud, en milisegundos. |
-| `MONITOR_MAX_ATTEMPTS` | `3` | Número total de intentos antes de declarar un fallo. |
-| `MONITOR_RETRY_DELAY_MS` | `5000` | Espera entre intentos, en milisegundos. |
+| Variable de repositorio  | Valor predeterminado                                                          | Uso                                                                                                                                                                                                                             |
+| ------------------------ | ----------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `BACKEND_HEALTH_URL`     | `https://arquitech-backend-production.up.railway.app/actuator/health`         | El YAML conserva este valor predeterminado; la variable de repositorio lo sustituye en ejecución por `https://arquitech-backend-production-cfc2.up.railway.app/actuator/health`, que corresponde al servicio activo verificado. |
+| `WEB_URL`                | `https://arquitech-frontendweb.echacaliazaminaya.workers.dev/`                | Disponibilidad pública del Frontend Web.                                                                                                                                                                                        |
+| `LANDING_URL`            | `https://upc-1asi0732-202620-9112-arquitech.github.io/ArquiTech-LandingPage/` | Disponibilidad pública de la Landing Page. Puede dejarse vacía para omitirla.                                                                                                                                                   |
+| `MONITOR_TIMEOUT_MS`     | `10000`                                                                       | Tiempo máximo de cada solicitud, en milisegundos.                                                                                                                                                                               |
+| `MONITOR_MAX_ATTEMPTS`   | `3`                                                                           | Número total de intentos antes de declarar un fallo.                                                                                                                                                                            |
+| `MONITOR_RETRY_DELAY_MS` | `5000`                                                                        | Espera entre intentos, en milisegundos.                                                                                                                                                                                         |
 
 ### 7.4.2. Monitoring Pipeline Components
 
@@ -7618,22 +7999,22 @@ El flujo implementado es `schedule/workflow_dispatch → pruebas de la lógica �
 </p>
 </div>
 
-| Componente | Entrada | Procesamiento | Salida verificable |
-| ---------- | ------- | ------------- | ------------------ |
-| Disparador | Cron `*/15 * * * *` o ejecución manual | Inicia un único job; `concurrency` evita solapamientos del monitor | Corrida identificable en GitHub Actions. |
-| Pruebas previas | Scripts locales del monitor | Ejecuta `node --test .github/scripts/monitor-endpoints.test.mjs` | La comprobación de endpoints solo continúa si la lógica supera sus pruebas. |
-| Comprobación Backend | URL de `/actuator/health` | GET con timeout, reintentos, validación HTTP y `status: UP` | Estado, HTTP, latencia, cantidad de intentos y error, si corresponde. |
-| Comprobación Web/Landing | URL pública configurable | GET con redirect habilitado, timeout y reintentos | Estado, HTTP, latencia, cantidad de intentos y error, si corresponde. |
-| Registro | Resultados de todos los destinos | Escribe `monitor-results.json` en el workspace, además de la consola y la tabla en `GITHUB_STEP_SUMMARY` | Evidencia compartida con el paso de incidentes sin incluir credenciales ni valores de configuración privados. |
-| Resultado del job | Resultado agregado | Continúa hasta gestionar el incidente y finalmente devuelve error si algún destino agotó sus intentos | Corrida satisfactoria o fallida con notificación procesada previamente. |
+| Componente               | Entrada                                | Procesamiento                                                                                            | Salida verificable                                                                                            |
+| ------------------------ | -------------------------------------- | -------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------- |
+| Disparador               | Cron `*/15 * * * *` o ejecución manual | Inicia un único job; `concurrency` evita solapamientos del monitor                                       | Corrida identificable en GitHub Actions.                                                                      |
+| Pruebas previas          | Scripts locales del monitor            | Ejecuta `node --test .github/scripts/monitor-endpoints.test.mjs`                                         | La comprobación de endpoints solo continúa si la lógica supera sus pruebas.                                   |
+| Comprobación Backend     | URL de `/actuator/health`              | GET con timeout, reintentos, validación HTTP y `status: UP`                                              | Estado, HTTP, latencia, cantidad de intentos y error, si corresponde.                                         |
+| Comprobación Web/Landing | URL pública configurable               | GET con redirect habilitado, timeout y reintentos                                                        | Estado, HTTP, latencia, cantidad de intentos y error, si corresponde.                                         |
+| Registro                 | Resultados de todos los destinos       | Escribe `monitor-results.json` en el workspace, además de la consola y la tabla en `GITHUB_STEP_SUMMARY` | Evidencia compartida con el paso de incidentes sin incluir credenciales ni valores de configuración privados. |
+| Resultado del job        | Resultado agregado                     | Continúa hasta gestionar el incidente y finalmente devuelve error si algún destino agotó sus intentos    | Corrida satisfactoria o fallida con notificación procesada previamente.                                       |
 
-| Verificación realizada el 09/11/2026 | Resultado | Alcance |
-| ------------------------------------- | --------- | ------- |
-| `actionlint 1.7.12 .github/workflows/continuous-monitoring.yml` | Código de salida 0; archivo válido | Validación de sintaxis, expresiones y contextos después de reemplazar `${{ runner.temp }}` por `monitor-results.json`; el binario temporal se verificó con el SHA-256 oficial. |
-| `node --test .github/scripts/monitor-endpoints.test.mjs` con Node.js 24.19.0 local | 5 aprobadas, 0 fallidas, 431,1631 ms | Servidores locales para respuesta saludable, HTTP 503, timeout, recuperación en el segundo intento y política de incidentes. |
-| `mvn test` con Maven 3.9.16, JDK 21.0.13 y compilación release 17 | Código de salida 0; 9 pruebas, 0 fallos, 0 errores y 0 omitidas | Siete pruebas de integración y dos pruebas de exposición y respuesta mínima de Actuator; tiempo agregado de las suites Surefire: 19,180 s. |
-| [GitHub Actions, ejecución 42637273053](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/Arquitech-Backend/actions/runs/42637273053) | `Success`; rama `main`, commit `d29eaa4`, evento `workflow_dispatch`; job `Check public availability` aprobado | Backend HTTP 200 en 159 ms; Frontend Web HTTP 200 en 92 ms; Landing Page HTTP 200 en 138 ms; un intento por destino y acción de incidentes `noop`. |
-| Monitor local contra Web y Landing, un intento y timeout de 10000 ms | Web HTTP 200 en 637 ms; Landing HTTP 200 en 341 ms | Observación puntual de disponibilidad pública a las `2026-11-09T07:32:03.204Z`; no constituye histórico ni SLA. |
+| Verificación realizada el 09/11/2026                                                                                                      | Resultado                                                                                                      | Alcance                                                                                                                                                                        |
+| ----------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| `actionlint 1.7.12 .github/workflows/continuous-monitoring.yml`                                                                           | Código de salida 0; archivo válido                                                                             | Validación de sintaxis, expresiones y contextos después de reemplazar `${{ runner.temp }}` por `monitor-results.json`; el binario temporal se verificó con el SHA-256 oficial. |
+| `node --test .github/scripts/monitor-endpoints.test.mjs` con Node.js 24.19.0 local                                                        | 5 aprobadas, 0 fallidas, 431,1631 ms                                                                           | Servidores locales para respuesta saludable, HTTP 503, timeout, recuperación en el segundo intento y política de incidentes.                                                   |
+| `mvn test` con Maven 3.9.16, JDK 21.0.13 y compilación release 17                                                                         | Código de salida 0; 9 pruebas, 0 fallos, 0 errores y 0 omitidas                                                | Siete pruebas de integración y dos pruebas de exposición y respuesta mínima de Actuator; tiempo agregado de las suites Surefire: 19,180 s.                                     |
+| [GitHub Actions, ejecución 42637273053](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/Arquitech-Backend/actions/runs/42637273053) | `Success`; rama `main`, commit `d29eaa4`, evento `workflow_dispatch`; job `Check public availability` aprobado | Backend HTTP 200 en 159 ms; Frontend Web HTTP 200 en 92 ms; Landing Page HTTP 200 en 138 ms; un intento por destino y acción de incidentes `noop`.                             |
+| Monitor local contra Web y Landing, un intento y timeout de 10000 ms                                                                      | Web HTTP 200 en 637 ms; Landing HTTP 200 en 341 ms                                                             | Observación puntual de disponibilidad pública a las `2026-11-09T07:32:03.204Z`; no constituye histórico ni SLA.                                                                |
 
 **Figura 117**<br>
 _Ejecución satisfactoria del pipeline de monitoreo continuo de ArquiTech._
@@ -7672,12 +8053,12 @@ En la ejecución 42637273053, los tres servicios respondieron satisfactoriamente
 </p>
 </div>
 
-| Resultado actual | Incidente abierto | Acción de la política | Efecto |
-| ---------------- | ------------------ | --------------------- | ------ |
-| Fallo | No | `open` | Crea un Issue con evidencia JSON y enlace a la corrida. |
-| Fallo | Sí | `suppress` | Conserva el Issue existente y suprime la notificación duplicada. |
-| Éxito | Sí | `recover` | Añade comentario de recuperación con evidencia y cierra el Issue. |
-| Éxito | No | `noop` | No crea ni modifica Issues. |
+| Resultado actual | Incidente abierto | Acción de la política | Efecto                                                            |
+| ---------------- | ----------------- | --------------------- | ----------------------------------------------------------------- |
+| Fallo            | No                | `open`                | Crea un Issue con evidencia JSON y enlace a la corrida.           |
+| Fallo            | Sí                | `suppress`            | Conserva el Issue existente y suprime la notificación duplicada.  |
+| Éxito            | Sí                | `recover`             | Añade comentario de recuperación con evidencia y cierra el Issue. |
+| Éxito            | No                | `noop`                | No crea ni modifica Issues.                                       |
 
 ### 7.4.4. Notification Pipeline Components
 
@@ -7693,9 +8074,6 @@ La ejecución manual 42637273053 confirmó que el paso de gestión de incidentes
 
 </p>
 </div>
-
-
-
 
 # Capítulo VIII: Experiment-Driven Development
 
@@ -7742,18 +8120,18 @@ Siguiendo el enfoque XDPD, este resumen no propone soluciones. Su objetivo es id
 </p>
 </div>
 
-| Capacidad | Estado actual (As-Is) | User Stories | Lo que todavía no sabemos |
-| --------- | --------------------- | ------------ | ------------------------- |
-| Materiales e inventario | Registro de entradas y usos de materiales con validación de stock, consulta de materiales e historial de movimientos por proyecto. | HU01, HU02, HU04, HU28 | Si el flujo actual evita errores de registro y cuánto cuesta corregir un movimiento equivocado. |
-| Trabajadores y asistencia | Registro y consulta de trabajadores y registro de asistencia por proyecto. | HU06, HU10, HU54, HU55 | Si registrar la asistencia de una jornada requiere menos esfuerzo que el método actual y si se producen omisiones. |
-| Tareas | Creación, asignación, consulta y actualización de tareas vinculadas a una obra. | HU07, HU08, HU53 | Si el supervisor identifica con rapidez las tareas críticas o vencidas. |
-| Seguimiento del contratante | Consulta de proyectos, materiales, trabajadores, tareas e incidencias según el rol, sin permisos de escritura. | HU33, HU39, HU40, HU42, HU43 | Si el contratante conoce el estado de su obra sin solicitar información adicional al supervisor. |
-| Trazabilidad | Historial de movimientos con fecha y control de acceso por rol. | HU04, HU27 | Si mostrar al responsable y la fecha de cada registro aumenta la confianza en la información. |
-| Reportes | Consulta y descarga del reporte semanal de una obra. | HU20, HU52 | Cuánto tiempo y costo ahorra frente a la consolidación manual de información. |
-| Incidencias | Registro, actualización y consulta de incidencias; no existen alertas automáticas. | HU35, HU36, HU37, HU39 | Si los usuarios se enteran a tiempo de las incidencias críticas sin revisar manualmente la plataforma. |
-| Conectividad | Las operaciones requieren conexión a Internet; no existe un modo sin conexión. | — | En qué momentos y con qué frecuencia se pierde la conexión durante el trabajo en campo. |
-| Adopción | Inicio de sesión, acceso por rol, cambio de idioma y preferencias de accesibilidad; no existe una guía de primeros pasos. | HU19, HU22, HU23, HU46 | Si un usuario nuevo completa su primera tarea sin ayuda. |
-| Captación | Landing Page bilingüe con beneficios, plan de suscripción, acceso a la plataforma y Términos y Condiciones. | HU11, HU12, HU13, HU34, HU60 | Qué mensaje convierte mejor a cada segmento y qué disposición a pagar existe. |
+| Capacidad                   | Estado actual (As-Is)                                                                                                              | User Stories                 | Lo que todavía no sabemos                                                                                          |
+| --------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- | ---------------------------- | ------------------------------------------------------------------------------------------------------------------ |
+| Materiales e inventario     | Registro de entradas y usos de materiales con validación de stock, consulta de materiales e historial de movimientos por proyecto. | HU01, HU02, HU04, HU28       | Si el flujo actual evita errores de registro y cuánto cuesta corregir un movimiento equivocado.                    |
+| Trabajadores y asistencia   | Registro y consulta de trabajadores y registro de asistencia por proyecto.                                                         | HU06, HU10, HU54, HU55       | Si registrar la asistencia de una jornada requiere menos esfuerzo que el método actual y si se producen omisiones. |
+| Tareas                      | Creación, asignación, consulta y actualización de tareas vinculadas a una obra.                                                    | HU07, HU08, HU53             | Si el supervisor identifica con rapidez las tareas críticas o vencidas.                                            |
+| Seguimiento del contratante | Consulta de proyectos, materiales, trabajadores, tareas e incidencias según el rol, sin permisos de escritura.                     | HU33, HU39, HU40, HU42, HU43 | Si el contratante conoce el estado de su obra sin solicitar información adicional al supervisor.                   |
+| Trazabilidad                | Historial de movimientos con fecha y control de acceso por rol.                                                                    | HU04, HU27                   | Si mostrar al responsable y la fecha de cada registro aumenta la confianza en la información.                      |
+| Reportes                    | Consulta y descarga del reporte semanal de una obra.                                                                               | HU20, HU52                   | Cuánto tiempo y costo ahorra frente a la consolidación manual de información.                                      |
+| Incidencias                 | Registro, actualización y consulta de incidencias; no existen alertas automáticas.                                                 | HU35, HU36, HU37, HU39       | Si los usuarios se enteran a tiempo de las incidencias críticas sin revisar manualmente la plataforma.             |
+| Conectividad                | Las operaciones requieren conexión a Internet; no existe un modo sin conexión.                                                     | —                            | En qué momentos y con qué frecuencia se pierde la conexión durante el trabajo en campo.                            |
+| Adopción                    | Inicio de sesión, acceso por rol, cambio de idioma y preferencias de accesibilidad; no existe una guía de primeros pasos.          | HU19, HU22, HU23, HU46       | Si un usuario nuevo completa su primera tarea sin ayuda.                                                           |
+| Captación                   | Landing Page bilingüe con beneficios, plan de suscripción, acceso a la plataforma y Términos y Condiciones.                        | HU11, HU12, HU13, HU34, HU60 | Qué mensaje convierte mejor a cada segmento y qué disposición a pagar existe.                                      |
 
 <div style="text-align: justify;">
 <p align="justify">
@@ -7788,18 +8166,18 @@ Creencias previas sobre los usuarios, el producto o el negocio que todavía no c
 </p>
 </div>
 
-| ID | Assumption | Fuente | Premisa a cuestionar |
-| --- | ---------- | ------ | -------------------- |
-| A01 | Los supervisores registrarán los movimientos de materiales con suficiente frecuencia y precisión si el flujo es sencillo. | 1.2.2.2 (prioridad crítica) | Un registro más guiado reduce los errores de inventario. |
-| A02 | Registrar la asistencia en ArquiTech requiere menos esfuerzo que el método actual del supervisor. | 1.2.2.3 (Hypothesis Statement 2) | La captura diaria simplificada reduce omisiones y tiempo administrativo. |
-| A03 | El supervisor necesita distinguir con rapidez qué tareas son críticas o están vencidas. | 1.2.2.2 (User Assumptions) | Destacar prioridades acelera las decisiones de coordinación. |
-| A04 | Los contratantes utilizarán directamente ArquiTech para el seguimiento de sus obras. | 1.2.2.2 (prioridad alta) | Un acceso directo reduce las solicitudes de información al supervisor. |
-| A05 | Identificar al responsable y la fecha de cada registro aumenta la confianza en la información. | 1.2.2.2 (prioridad alta) | La trazabilidad visible reduce el esfuerzo de verificar discrepancias. |
-| A06 | Consolidar la información para un reporte semanal consume un tiempo significativo del supervisor. | 1.2.2.3 (Hypothesis Statement 6) | Generar el reporte desde los registros existentes reduce tiempo y costo. |
-| A07 | Los usuarios se enteran tarde de las incidencias que afectan la obra. | 2.2.3 (contratantes) | Un aviso oportuno adelanta la detección frente a la revisión manual. |
-| A08 | La conectividad en obra puede interrumpirse durante el registro de información. | 1.2.2.2 (prioridad media) | Conservar los registros sin conexión evita pérdida y doble digitación. |
-| A09 | Un usuario nuevo puede aprender las tareas principales con una orientación breve. | 1.2.2.2 (prioridad media) | Una guía inicial reduce la ayuda necesaria en el primer uso. |
-| A10 | Las constructoras pagarán una suscripción si ArquiTech demuestra valor frente a su proceso actual. | 1.2.2.2 (prioridad crítica) | Un mensaje adaptado a cada segmento aumenta la captación de clientes potenciales. |
+| ID  | Assumption                                                                                                                | Fuente                           | Premisa a cuestionar                                                              |
+| --- | ------------------------------------------------------------------------------------------------------------------------- | -------------------------------- | --------------------------------------------------------------------------------- |
+| A01 | Los supervisores registrarán los movimientos de materiales con suficiente frecuencia y precisión si el flujo es sencillo. | 1.2.2.2 (prioridad crítica)      | Un registro más guiado reduce los errores de inventario.                          |
+| A02 | Registrar la asistencia en ArquiTech requiere menos esfuerzo que el método actual del supervisor.                         | 1.2.2.3 (Hypothesis Statement 2) | La captura diaria simplificada reduce omisiones y tiempo administrativo.          |
+| A03 | El supervisor necesita distinguir con rapidez qué tareas son críticas o están vencidas.                                   | 1.2.2.2 (User Assumptions)       | Destacar prioridades acelera las decisiones de coordinación.                      |
+| A04 | Los contratantes utilizarán directamente ArquiTech para el seguimiento de sus obras.                                      | 1.2.2.2 (prioridad alta)         | Un acceso directo reduce las solicitudes de información al supervisor.            |
+| A05 | Identificar al responsable y la fecha de cada registro aumenta la confianza en la información.                            | 1.2.2.2 (prioridad alta)         | La trazabilidad visible reduce el esfuerzo de verificar discrepancias.            |
+| A06 | Consolidar la información para un reporte semanal consume un tiempo significativo del supervisor.                         | 1.2.2.3 (Hypothesis Statement 6) | Generar el reporte desde los registros existentes reduce tiempo y costo.          |
+| A07 | Los usuarios se enteran tarde de las incidencias que afectan la obra.                                                     | 2.2.3 (contratantes)             | Un aviso oportuno adelanta la detección frente a la revisión manual.              |
+| A08 | La conectividad en obra puede interrumpirse durante el registro de información.                                           | 1.2.2.2 (prioridad media)        | Conservar los registros sin conexión evita pérdida y doble digitación.            |
+| A09 | Un usuario nuevo puede aprender las tareas principales con una orientación breve.                                         | 1.2.2.2 (prioridad media)        | Una guía inicial reduce la ayuda necesaria en el primer uso.                      |
+| A10 | Las constructoras pagarán una suscripción si ArquiTech demuestra valor frente a su proceso actual.                        | 1.2.2.2 (prioridad crítica)      | Un mensaje adaptado a cada segmento aumenta la captación de clientes potenciales. |
 
 #### Knowledge Gaps
 
@@ -7811,13 +8189,13 @@ Creencias previas sobre los usuarios, el producto o el negocio que todavía no c
 </p>
 </div>
 
-| ID | Knowledge Gap | Fuente |
-| --- | ------------- | ------ |
-| K01 | No se conoce la línea base de tiempo y costo que hoy demanda registrar materiales y asistencia o elaborar un reporte semanal. | 8.1.1 |
+| ID  | Knowledge Gap                                                                                                                             | Fuente        |
+| --- | ----------------------------------------------------------------------------------------------------------------------------------------- | ------------- |
+| K01 | No se conoce la línea base de tiempo y costo que hoy demanda registrar materiales y asistencia o elaborar un reporte semanal.             | 8.1.1         |
 | K02 | No se sabe en qué momentos de la jornada, desde qué dispositivo y con qué conectividad registran los supervisores la información de obra. | 8.1.1 y 2.2.3 |
-| K03 | No se sabe qué información consulta primero un contratante ni con qué frecuencia ingresa a revisar su obra. | 8.1.1 |
-| K04 | No se sabe qué precio mensual y qué funcionalidades consideran suficientes las pymes constructoras para pagar la suscripción. | 1.2.2.2 |
-| K05 | No se cuenta con datos de uso real del producto; el monitoreo actual solo mide disponibilidad. | 7.4 |
+| K03 | No se sabe qué información consulta primero un contratante ni con qué frecuencia ingresa a revisar su obra.                               | 8.1.1         |
+| K04 | No se sabe qué precio mensual y qué funcionalidades consideran suficientes las pymes constructoras para pagar la suscripción.             | 1.2.2.2       |
+| K05 | No se cuenta con datos de uso real del producto; el monitoreo actual solo mide disponibilidad.                                            | 7.4           |
 
 #### Ideas
 
@@ -7829,18 +8207,18 @@ Propuestas del equipo para resolver un problema o alcanzar un objetivo. Siguiend
 </p>
 </div>
 
-| ID | Idea | Premisa subyacente |
-| --- | ---- | ------------------ |
-| I01 | Registro guiado de entradas y salidas de materiales con verificación de stock. | Los errores de inventario se deben a un flujo poco guiado. |
-| I02 | Lista rápida de asistencia por obra. | El esfuerzo de registro provoca omisiones. |
-| I03 | Tablero de tareas que destaque prioridades y vencimientos. | El supervisor pierde tiempo ubicando lo urgente. |
-| I04 | Panel simplificado de seguimiento para contratantes. | El contratante pregunta al supervisor porque no encuentra la información por sí mismo. |
-| I05 | Historial de movimientos con responsable y fecha visibles. | Las discrepancias toman tiempo porque no se sabe quién hizo qué ni cuándo. |
-| I06 | Generación asistida del reporte semanal a partir de los registros. | El costo del reporte está en recopilar información de varias fuentes. |
-| I07 | Alertas de incidencias críticas. | Las incidencias se conocen tarde porque dependen de la revisión manual. |
-| I08 | Borradores sin conexión con sincronización posterior. | La falta de señal provoca pérdida o doble digitación de registros. |
-| I09 | Guía de primeros pasos según el rol. | El primer uso requiere ayuda porque el usuario no sabe por dónde empezar. |
-| I10 | Landing Page con beneficios y llamada a la acción por segmento. | Un mensaje genérico no convence ni al supervisor ni al contratante. |
+| ID  | Idea                                                                           | Premisa subyacente                                                                     |
+| --- | ------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------- |
+| I01 | Registro guiado de entradas y salidas de materiales con verificación de stock. | Los errores de inventario se deben a un flujo poco guiado.                             |
+| I02 | Lista rápida de asistencia por obra.                                           | El esfuerzo de registro provoca omisiones.                                             |
+| I03 | Tablero de tareas que destaque prioridades y vencimientos.                     | El supervisor pierde tiempo ubicando lo urgente.                                       |
+| I04 | Panel simplificado de seguimiento para contratantes.                           | El contratante pregunta al supervisor porque no encuentra la información por sí mismo. |
+| I05 | Historial de movimientos con responsable y fecha visibles.                     | Las discrepancias toman tiempo porque no se sabe quién hizo qué ni cuándo.             |
+| I06 | Generación asistida del reporte semanal a partir de los registros.             | El costo del reporte está en recopilar información de varias fuentes.                  |
+| I07 | Alertas de incidencias críticas.                                               | Las incidencias se conocen tarde porque dependen de la revisión manual.                |
+| I08 | Borradores sin conexión con sincronización posterior.                          | La falta de señal provoca pérdida o doble digitación de registros.                     |
+| I09 | Guía de primeros pasos según el rol.                                           | El primer uso requiere ayuda porque el usuario no sabe por dónde empezar.              |
+| I10 | Landing Page con beneficios y llamada a la acción por segmento.                | Un mensaje genérico no convence ni al supervisor ni al contratante.                    |
 
 #### Claims
 
@@ -7852,15 +8230,15 @@ Afirmaciones sobre el producto o el problema realizadas por usuarios o por el pr
 </p>
 </div>
 
-| ID | Claim | Emisor | Tipo | Fuente |
-| --- | ----- | ------ | ---- | ------ |
-| C01 | Disponer de información actualizada de la obra es fundamental (100 % de supervisores entrevistados). | Usuarios (supervisores) | Positiva | 2.2.3 |
-| C02 | La información está dispersa entre registros físicos, hojas de cálculo, mensajería y documentos (100 % de supervisores). | Usuarios (supervisores) | Negativa | 2.2.3 |
-| C03 | Una herramienta compleja o lenta se convertiría en una barrera de adopción (100 % de supervisores). | Usuarios (supervisores) | Negativa | 2.2.3 |
-| C04 | Los problemas de la obra se comunican tarde o de forma incompleta (100 % de contratantes). | Usuarios (contratantes) | Negativa | 2.2.3 |
-| C05 | Se confía más en información que muestra responsables, fechas e historial de cambios (100 % de contratantes). | Usuarios (contratantes) | Positiva | 2.2.3 |
-| C06 | Centralizar la información de la obra en ArquiTech reduce errores, retrasos y pérdida de información. | Equipo (propuesta de valor) | Positiva | 1.2.2.2 |
-| C07 | ArquiTech es fácil de adoptar gracias a una interfaz intuitiva y recursos de capacitación breves. | Equipo (diferenciación) | Positiva | 2.1.2 |
+| ID  | Claim                                                                                                                    | Emisor                      | Tipo     | Fuente  |
+| --- | ------------------------------------------------------------------------------------------------------------------------ | --------------------------- | -------- | ------- |
+| C01 | Disponer de información actualizada de la obra es fundamental (100 % de supervisores entrevistados).                     | Usuarios (supervisores)     | Positiva | 2.2.3   |
+| C02 | La información está dispersa entre registros físicos, hojas de cálculo, mensajería y documentos (100 % de supervisores). | Usuarios (supervisores)     | Negativa | 2.2.3   |
+| C03 | Una herramienta compleja o lenta se convertiría en una barrera de adopción (100 % de supervisores).                      | Usuarios (supervisores)     | Negativa | 2.2.3   |
+| C04 | Los problemas de la obra se comunican tarde o de forma incompleta (100 % de contratantes).                               | Usuarios (contratantes)     | Negativa | 2.2.3   |
+| C05 | Se confía más en información que muestra responsables, fechas e historial de cambios (100 % de contratantes).            | Usuarios (contratantes)     | Positiva | 2.2.3   |
+| C06 | Centralizar la información de la obra en ArquiTech reduce errores, retrasos y pérdida de información.                    | Equipo (propuesta de valor) | Positiva | 1.2.2.2 |
+| C07 | ArquiTech es fácil de adoptar gracias a una interfaz intuitiva y recursos de capacitación breves.                        | Equipo (diferenciación)     | Positiva | 2.1.2   |
 
 ### 8.1.3. Experiment-Ready Questions
 
@@ -7879,31 +8257,31 @@ Antes de redactar las preguntas, el equipo aplicó la técnica de las Cinco W y 
 
 #### Aplicación de las Cinco W y una H
 
-| Pregunta guía | Aplicación a ArquiTech | Premisa oculta descubierta | Origen |
-| ------------- | ---------------------- | -------------------------- | ------ |
-| Who | ¿Quién registra realmente la información en obra? | Se asume que el propio supervisor registra todo, aunque podría delegar parte del registro. | A01, A02 |
-| What | ¿Qué información consulta primero un contratante? | Se asume que el avance general es lo más importante, sin evidencia de ello. | A04, K03 |
-| Where | ¿Dónde se registra la información, en campo o en oficina? | Se asume que el registro ocurre en campo y con conexión disponible. | A08, K02 |
-| When | ¿Cuándo se entera el contratante de una incidencia crítica? | Se asume que hoy se entera tarde, según las entrevistas, pero no se conoce cuánto tarda. | A07, C04 |
-| Why | ¿Por qué un usuario nuevo pediría ayuda en su primer uso? | Se asume que el problema es no saber por dónde empezar y no la cantidad de datos requeridos. | A09, C03 |
-| How | ¿Cómo decide una pyme constructora pagar por una herramienta digital? | Se asume que el valor operativo basta para justificar el pago, sin conocer el precio aceptable. | A10, K04 |
+| Pregunta guía | Aplicación a ArquiTech                                                | Premisa oculta descubierta                                                                      | Origen   |
+| ------------- | --------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- | -------- |
+| Who           | ¿Quién registra realmente la información en obra?                     | Se asume que el propio supervisor registra todo, aunque podría delegar parte del registro.      | A01, A02 |
+| What          | ¿Qué información consulta primero un contratante?                     | Se asume que el avance general es lo más importante, sin evidencia de ello.                     | A04, K03 |
+| Where         | ¿Dónde se registra la información, en campo o en oficina?             | Se asume que el registro ocurre en campo y con conexión disponible.                             | A08, K02 |
+| When          | ¿Cuándo se entera el contratante de una incidencia crítica?           | Se asume que hoy se entera tarde, según las entrevistas, pero no se conoce cuánto tarda.        | A07, C04 |
+| Why           | ¿Por qué un usuario nuevo pediría ayuda en su primer uso?             | Se asume que el problema es no saber por dónde empezar y no la cantidad de datos requeridos.    | A09, C03 |
+| How           | ¿Cómo decide una pyme constructora pagar por una herramienta digital? | Se asume que el valor operativo basta para justificar el pago, sin conocer el precio aceptable. | A10, K04 |
 
 #### Preguntas listas para experimentar
 
-| ID | Pregunta | Tipo | Materia prima | User Stories |
-| --- | -------- | ---- | ------------- | ------------ |
-| Q01 | ¿Un registro guiado de entradas y salidas con verificación de stock aumenta la proporción de operaciones correctas al primer intento y reduce el costo de corregir el inventario? | Belief-led | A01, I01, C02 | HU01, HU02, HU04, HU28 |
-| Q02 | ¿Una lista rápida de asistencia por obra reduce las omisiones y el tiempo administrativo de registrar una jornada? | Belief-led | A02, I02 | HU06, HU10, HU54, HU55 |
-| Q03 | ¿Un tablero que destaque las tareas prioritarias y vencidas permite identificar la tarea crítica en menos tiempo y con menor costo de coordinación? | Belief-led | A03, I03 | HU07, HU08, HU53 |
-| Q04 | ¿Un panel simplificado de seguimiento permite que el contratante conozca el estado de su obra sin solicitar ayuda al supervisor? | Belief-led | A04, I04, C04, K03 | HU20, HU33, HU39, HU40 |
-| Q05 | ¿Mostrar al responsable y la fecha en el historial de movimientos permite identificar el origen de un cambio en menos tiempo y reduce el costo de investigar discrepancias? | Belief-led | A05, I05, C05 | HU04, HU27 |
-| Q06 | ¿Generar de forma asistida el reporte semanal a partir de los registros reduce el tiempo y el costo de elaborarlo sin perder información requerida? | Belief-led | A06, I06, K01 | HU20, HU52 |
-| Q07 | ¿Las alertas de incidencias críticas permiten que los usuarios se enteren antes que con la revisión manual y con menor costo de seguimiento? | Belief-led | A07, I07, C04 | HU35, HU36, HU37, HU39 |
-| Q08 | ¿Guardar borradores sin conexión y sincronizarlos al recuperar la señal evita la pérdida y la doble digitación de registros de campo? | Belief-led | A08, I08 | Nueva HU requerida |
-| Q09 | ¿Una guía de primeros pasos según el rol permite que un usuario nuevo complete su primera tarea sin ayuda y reduce el costo de capacitación? | Belief-led | A09, I09, C03, C07 | HU19, HU22, HU23, HU46 |
-| Q10 | ¿Una Landing Page con beneficios y llamada a la acción por segmento aumenta las solicitudes de demostración calificadas y reduce el costo por prospecto? | Belief-led | A10, I10, C06 | HU11, HU12, HU13, HU34 |
-| Q11 | ¿En qué momentos de la jornada, desde qué dispositivo y con qué conectividad registran los supervisores la información de obra? | Exploratory | K02, A08 | — |
-| Q12 | ¿Qué precio mensual y qué funcionalidades consideran suficientes las pymes constructoras para pagar la suscripción de ArquiTech? | Exploratory | K04, A10 | — |
+| ID  | Pregunta                                                                                                                                                                          | Tipo        | Materia prima      | User Stories           |
+| --- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------- | ------------------ | ---------------------- |
+| Q01 | ¿Un registro guiado de entradas y salidas con verificación de stock aumenta la proporción de operaciones correctas al primer intento y reduce el costo de corregir el inventario? | Belief-led  | A01, I01, C02      | HU01, HU02, HU04, HU28 |
+| Q02 | ¿Una lista rápida de asistencia por obra reduce las omisiones y el tiempo administrativo de registrar una jornada?                                                                | Belief-led  | A02, I02           | HU06, HU10, HU54, HU55 |
+| Q03 | ¿Un tablero que destaque las tareas prioritarias y vencidas permite identificar la tarea crítica en menos tiempo y con menor costo de coordinación?                               | Belief-led  | A03, I03           | HU07, HU08, HU53       |
+| Q04 | ¿Un panel simplificado de seguimiento permite que el contratante conozca el estado de su obra sin solicitar ayuda al supervisor?                                                  | Belief-led  | A04, I04, C04, K03 | HU20, HU33, HU39, HU40 |
+| Q05 | ¿Mostrar al responsable y la fecha en el historial de movimientos permite identificar el origen de un cambio en menos tiempo y reduce el costo de investigar discrepancias?       | Belief-led  | A05, I05, C05      | HU04, HU27             |
+| Q06 | ¿Generar de forma asistida el reporte semanal a partir de los registros reduce el tiempo y el costo de elaborarlo sin perder información requerida?                               | Belief-led  | A06, I06, K01      | HU20, HU52             |
+| Q07 | ¿Las alertas de incidencias críticas permiten que los usuarios se enteren antes que con la revisión manual y con menor costo de seguimiento?                                      | Belief-led  | A07, I07, C04      | HU35, HU36, HU37, HU39 |
+| Q08 | ¿Guardar borradores sin conexión y sincronizarlos al recuperar la señal evita la pérdida y la doble digitación de registros de campo?                                             | Belief-led  | A08, I08           | Nueva HU requerida     |
+| Q09 | ¿Una guía de primeros pasos según el rol permite que un usuario nuevo complete su primera tarea sin ayuda y reduce el costo de capacitación?                                      | Belief-led  | A09, I09, C03, C07 | HU19, HU22, HU23, HU46 |
+| Q10 | ¿Una Landing Page con beneficios y llamada a la acción por segmento aumenta las solicitudes de demostración calificadas y reduce el costo por prospecto?                          | Belief-led  | A10, I10, C06      | HU11, HU12, HU13, HU34 |
+| Q11 | ¿En qué momentos de la jornada, desde qué dispositivo y con qué conectividad registran los supervisores la información de obra?                                                   | Exploratory | K02, A08           | —                      |
+| Q12 | ¿Qué precio mensual y qué funcionalidades consideran suficientes las pymes constructoras para pagar la suscripción de ArquiTech?                                                  | Exploratory | K04, A10           | —                      |
 
 <div style="text-align: justify;">
 <p align="justify">
@@ -7923,12 +8301,12 @@ El Question Backlog de ArquiTech es una lista priorizada de preguntas de investi
 </p>
 </div>
 
-| Criterio | Qué evalúa | 1 | 5 |
-| -------- | ---------- | --- | --- |
-| Confianza (C) | Qué tan seguros estamos hoy de conocer la respuesta. | No tenemos ninguna evidencia. | Tenemos evidencia cuantitativa sólida. |
-| Riesgo (R) | Qué tan grave sería para el negocio que nuestra creencia fuera incorrecta. | Consecuencias menores. | Compromete la propuesta de valor o los ingresos. |
-| Impacto (I) | Cuánto cambiarían las decisiones de producto al obtener la respuesta. | No cambiaría ninguna decisión. | Redefine prioridades del Product Backlog. |
-| Interés (Int) | Cuánto interesa la respuesta al equipo, a los usuarios y a los stakeholders. | Bajo interés. | Interés compartido y alto. |
+| Criterio      | Qué evalúa                                                                   | 1                              | 5                                                |
+| ------------- | ---------------------------------------------------------------------------- | ------------------------------ | ------------------------------------------------ |
+| Confianza (C) | Qué tan seguros estamos hoy de conocer la respuesta.                         | No tenemos ninguna evidencia.  | Tenemos evidencia cuantitativa sólida.           |
+| Riesgo (R)    | Qué tan grave sería para el negocio que nuestra creencia fuera incorrecta.   | Consecuencias menores.         | Compromete la propuesta de valor o los ingresos. |
+| Impacto (I)   | Cuánto cambiarían las decisiones de producto al obtener la respuesta.        | No cambiaría ninguna decisión. | Redefine prioridades del Product Backlog.        |
+| Interés (Int) | Cuánto interesa la respuesta al equipo, a los usuarios y a los stakeholders. | Bajo interés.                  | Interés compartido y alto.                       |
 
 <div style="text-align: justify;">
 <p align="justify">
@@ -7938,20 +8316,20 @@ Como una menor confianza implica una mayor necesidad de experimentar, la confian
 </p>
 </div>
 
-| Prioridad | ID | Pregunta (resumen) | Why (motivación) | C | R | I | Int | Puntaje | Decisión |
-| :-------: | --- | ------------------ | ---------------- | :-: | :-: | :-: | :-: | :-----: | -------- |
-| 1 | Q04 | Panel simplificado para que el contratante se informe sin ayuda | La transparencia es el principal valor para el contratante; si no consulta la plataforma, el segmento que paga no percibe valor. | 2 | 5 | 5 | 5 | 19 | Experiment Card EC04 |
-| 2 | Q10 | Landing Page con mensaje por segmento | Sin captación eficiente de clientes no existen ingresos por suscripción. | 2 | 5 | 4 | 4 | 17 | Experiment Card EC10 |
-| 3 | Q06 | Generación asistida del reporte semanal | El reporte es la tarea más costosa de consolidar y la principal fuente de información para el contratante. | 2 | 4 | 5 | 4 | 17 | Experiment Card EC06 |
-| 4 | Q07 | Alertas de incidencias críticas | Los contratantes reportan que los problemas se comunican tarde, lo que genera retrasos y pérdida de confianza. | 2 | 4 | 4 | 5 | 17 | Experiment Card EC07 |
-| 5 | Q12 | Precio y funcionalidades que justifican la suscripción | Define si el modelo de ingresos es viable para las pymes constructoras. | 2 | 5 | 4 | 3 | 16 | Investigación exploratoria mediante To-Be Validation Interviews |
-| 6 | Q01 | Registro guiado de materiales | Los errores de inventario generan reprocesos y desconfianza en el stock, que es la información operativa más consultada. | 3 | 4 | 5 | 4 | 16 | Experiment Card EC01 |
-| 7 | Q05 | Historial con responsable y fecha | La confianza en la información depende de poder verificar su origen. | 2 | 4 | 4 | 4 | 16 | Experiment Card EC05 |
-| 8 | Q02 | Lista rápida de asistencia | El registro diario de asistencia es frecuente y su omisión afecta el control del personal. | 3 | 4 | 4 | 4 | 15 | Experiment Card EC02 |
-| 9 | Q08 | Borradores sin conexión | La pérdida de registros en campo obliga a digitar dos veces y desactualiza la información. | 1 | 3 | 4 | 3 | 15 | Experiment Card EC08 |
-| 10 | Q11 | Momento, dispositivo y conectividad del registro | Su respuesta determina si el modo sin conexión es realmente necesario. | 1 | 3 | 3 | 3 | 14 | Investigación exploratoria mediante To-Be Validation Interviews |
-| 11 | Q03 | Tablero de tareas prioritarias | Ubicar con rapidez lo urgente reduce consultas repetidas entre el equipo de obra. | 3 | 3 | 3 | 3 | 12 | Experiment Card EC03 |
-| 12 | Q09 | Guía de primeros pasos por rol | Un primer uso autónomo reduce el costo de incorporar nuevos clientes. | 3 | 3 | 3 | 3 | 12 | Experiment Card EC09 |
+| Prioridad | ID  | Pregunta (resumen)                                              | Why (motivación)                                                                                                                 |  C  |  R  |  I  | Int | Puntaje | Decisión                                                        |
+| :-------: | --- | --------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------- | :-: | :-: | :-: | :-: | :-----: | --------------------------------------------------------------- |
+|     1     | Q04 | Panel simplificado para que el contratante se informe sin ayuda | La transparencia es el principal valor para el contratante; si no consulta la plataforma, el segmento que paga no percibe valor. |  2  |  5  |  5  |  5  |   19    | Experiment Card EC04                                            |
+|     2     | Q10 | Landing Page con mensaje por segmento                           | Sin captación eficiente de clientes no existen ingresos por suscripción.                                                         |  2  |  5  |  4  |  4  |   17    | Experiment Card EC10                                            |
+|     3     | Q06 | Generación asistida del reporte semanal                         | El reporte es la tarea más costosa de consolidar y la principal fuente de información para el contratante.                       |  2  |  4  |  5  |  4  |   17    | Experiment Card EC06                                            |
+|     4     | Q07 | Alertas de incidencias críticas                                 | Los contratantes reportan que los problemas se comunican tarde, lo que genera retrasos y pérdida de confianza.                   |  2  |  4  |  4  |  5  |   17    | Experiment Card EC07                                            |
+|     5     | Q12 | Precio y funcionalidades que justifican la suscripción          | Define si el modelo de ingresos es viable para las pymes constructoras.                                                          |  2  |  5  |  4  |  3  |   16    | Investigación exploratoria mediante To-Be Validation Interviews |
+|     6     | Q01 | Registro guiado de materiales                                   | Los errores de inventario generan reprocesos y desconfianza en el stock, que es la información operativa más consultada.         |  3  |  4  |  5  |  4  |   16    | Experiment Card EC01                                            |
+|     7     | Q05 | Historial con responsable y fecha                               | La confianza en la información depende de poder verificar su origen.                                                             |  2  |  4  |  4  |  4  |   16    | Experiment Card EC05                                            |
+|     8     | Q02 | Lista rápida de asistencia                                      | El registro diario de asistencia es frecuente y su omisión afecta el control del personal.                                       |  3  |  4  |  4  |  4  |   15    | Experiment Card EC02                                            |
+|     9     | Q08 | Borradores sin conexión                                         | La pérdida de registros en campo obliga a digitar dos veces y desactualiza la información.                                       |  1  |  3  |  4  |  3  |   15    | Experiment Card EC08                                            |
+|    10     | Q11 | Momento, dispositivo y conectividad del registro                | Su respuesta determina si el modo sin conexión es realmente necesario.                                                           |  1  |  3  |  3  |  3  |   14    | Investigación exploratoria mediante To-Be Validation Interviews |
+|    11     | Q03 | Tablero de tareas prioritarias                                  | Ubicar con rapidez lo urgente reduce consultas repetidas entre el equipo de obra.                                                |  3  |  3  |  3  |  3  |   12    | Experiment Card EC03                                            |
+|    12     | Q09 | Guía de primeros pasos por rol                                  | Un primer uso autónomo reduce el costo de incorporar nuevos clientes.                                                            |  3  |  3  |  3  |  3  |   12    | Experiment Card EC09                                            |
 
 <div style="text-align: justify;">
 <p align="justify">
@@ -7988,162 +8366,163 @@ Las métricas citadas en las tarjetas corresponden exclusivamente a las definida
 
 #### EC04 · Panel simplificado de seguimiento (prioridad 1)
 
-| Campo | Contenido |
-| ----- | --------- |
-| **Supuesto** | Los contratantes pueden acceder a la información de sus proyectos según su rol. |
-| **Question** | Q04. ¿Un panel simplificado de seguimiento permite que el contratante conozca el estado de su obra sin solicitar ayuda al supervisor? |
-| **Why** | La autonomía de consulta eleva la utilidad percibida del SaaS por parte del segmento que paga la suscripción y reduce el costo de responder solicitudes de estado. |
-| **What** | Prueba comparativa: ocho contratantes realizan tareas de consulta equivalentes en la interfaz actual y en un prototipo de panel simplificado, sobre obras de prueba. |
-| **Hypothesis** | H04. Si incorporamos un panel simplificado de seguimiento para contratantes, esperamos que al menos el 80 % consulte correctamente el estado de su obra sin ayuda en menos de tres minutos y que el costo de atención a consultas disminuya al menos 20 %. |
-| **Métricas** | M04 (negocio) y F01 (financiera). |
-| **Metas** | M04 ≥ 80 %; F01 ≥ 20 % de ahorro frente a la interfaz actual. |
-| **Reverso · Measures** | Principal: M04 y F01. Secundarias: solicitudes de ayuda durante la tarea y primer elemento consultado por el contratante (Knowledge Gap K03). |
-| **Reverso · Conditions** | Control: interfaz actual de consulta. Experimental: prototipo de panel simplificado. |
-| **Reverso · Scale** | 8 contratantes, ambas versiones por participante con orden contrabalanceado (valor preliminar; ver 8.2.5). |
-| **User Stories** | HU20, HU33, HU39, HU40 |
+| Campo                    | Contenido                                                                                                                                                                                                                                                  |
+| ------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Supuesto**             | Los contratantes pueden acceder a la información de sus proyectos según su rol.                                                                                                                                                                            |
+| **Question**             | Q04. ¿Un panel simplificado de seguimiento permite que el contratante conozca el estado de su obra sin solicitar ayuda al supervisor?                                                                                                                      |
+| **Why**                  | La autonomía de consulta eleva la utilidad percibida del SaaS por parte del segmento que paga la suscripción y reduce el costo de responder solicitudes de estado.                                                                                         |
+| **What**                 | Prueba comparativa: ocho contratantes realizan tareas de consulta equivalentes en la interfaz actual y en un prototipo de panel simplificado, sobre obras de prueba.                                                                                       |
+| **Hypothesis**           | H04. Si incorporamos un panel simplificado de seguimiento para contratantes, esperamos que al menos el 80 % consulte correctamente el estado de su obra sin ayuda en menos de tres minutos y que el costo de atención a consultas disminuya al menos 20 %. |
+| **Métricas**             | M04 (negocio) y F01 (financiera).                                                                                                                                                                                                                          |
+| **Metas**                | M04 ≥ 80 %; F01 ≥ 20 % de ahorro frente a la interfaz actual.                                                                                                                                                                                              |
+| **Reverso · Measures**   | Principal: M04 y F01. Secundarias: solicitudes de ayuda durante la tarea y primer elemento consultado por el contratante (Knowledge Gap K03).                                                                                                              |
+| **Reverso · Conditions** | Control: interfaz actual de consulta. Experimental: prototipo de panel simplificado.                                                                                                                                                                       |
+| **Reverso · Scale**      | 8 contratantes, ambas versiones por participante con orden contrabalanceado (valor preliminar; ver 8.2.5).                                                                                                                                                 |
+| **User Stories**         | HU20, HU33, HU39, HU40                                                                                                                                                                                                                                     |
 
 #### EC10 · Landing Page personalizada para demostraciones (prioridad 2)
 
-| Campo | Contenido |
-| ----- | --------- |
-| **Supuesto** | ArquiTech cuenta con una Landing Page que presenta sus beneficios y orienta a los visitantes hacia acciones de contacto o acceso. |
-| **Question** | Q10. ¿Una Landing Page con beneficios y llamada a la acción por segmento aumenta las solicitudes de demostración calificadas y reduce el costo por prospecto? |
-| **Why** | Obtener más demostraciones calificadas con la misma inversión comercial permite construir una cartera de clientes de suscripción con un menor costo de adquisición. |
-| **What** | Test A/B entre la Landing Page actual y una variante con beneficios y llamada a la acción según el rol del visitante (supervisor o contratante), con tráfico dividido y el mismo presupuesto de adquisición por grupo. |
-| **Hypothesis** | H10. Si personalizamos la presentación de beneficios y la solicitud de demostración de ArquiTech según el perfil del visitante, esperamos aumentar al menos 20 % la tasa de solicitudes calificadas de demostración y reducir al menos 15 % el costo por prospecto calificado frente a la página actual. |
-| **Métricas** | M11 (negocio) y F03 (financiera). |
-| **Metas** | M11 ≥ 20 % de incremento relativo; F03 ≥ 15 % de reducción. |
-| **Reverso · Measures** | Principal: M11 y F03. Secundarias: tasa de clics en la llamada a la acción y proporción de solicitudes que cumplen los criterios de cliente potencial. |
-| **Reverso · Conditions** | Control: Landing Page actual (A). Experimental: variante por segmento (B). Cada visitante ve una sola variante. |
-| **Reverso · Scale** | Al menos 200 visitas únicas por variante, si el tráfico lo permite (valor preliminar; ver 8.2.5). |
-| **User Stories** | HU11, HU12, HU13, HU34 |
+| Campo                    | Contenido                                                                                                                                                                                                                                                                                                |
+| ------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Supuesto**             | ArquiTech cuenta con una Landing Page que presenta sus beneficios y orienta a los visitantes hacia acciones de contacto o acceso.                                                                                                                                                                        |
+| **Question**             | Q10. ¿Una Landing Page con beneficios y llamada a la acción por segmento aumenta las solicitudes de demostración calificadas y reduce el costo por prospecto?                                                                                                                                            |
+| **Why**                  | Obtener más demostraciones calificadas con la misma inversión comercial permite construir una cartera de clientes de suscripción con un menor costo de adquisición.                                                                                                                                      |
+| **What**                 | Test A/B entre la Landing Page actual y una variante con beneficios y llamada a la acción según el rol del visitante (supervisor o contratante), con tráfico dividido y el mismo presupuesto de adquisición por grupo.                                                                                   |
+| **Hypothesis**           | H10. Si personalizamos la presentación de beneficios y la solicitud de demostración de ArquiTech según el perfil del visitante, esperamos aumentar al menos 20 % la tasa de solicitudes calificadas de demostración y reducir al menos 15 % el costo por prospecto calificado frente a la página actual. |
+| **Métricas**             | M11 (negocio) y F03 (financiera).                                                                                                                                                                                                                                                                        |
+| **Metas**                | M11 ≥ 20 % de incremento relativo; F03 ≥ 15 % de reducción.                                                                                                                                                                                                                                              |
+| **Reverso · Measures**   | Principal: M11 y F03. Secundarias: tasa de clics en la llamada a la acción y proporción de solicitudes que cumplen los criterios de cliente potencial.                                                                                                                                                   |
+| **Reverso · Conditions** | Control: Landing Page actual (A). Experimental: variante por segmento (B). Cada visitante ve una sola variante.                                                                                                                                                                                          |
+| **Reverso · Scale**      | Al menos 200 visitas únicas por variante, si el tráfico lo permite (valor preliminar; ver 8.2.5).                                                                                                                                                                                                        |
+| **User Stories**         | HU11, HU12, HU13, HU34                                                                                                                                                                                                                                                                                   |
 
 #### EC06 · Generación asistida de reportes (prioridad 3)
 
-| Campo | Contenido |
-| ----- | --------- |
-| **Supuesto** | ArquiTech reúne registros de proyectos, materiales, asistencia, tareas e incidencias y permite consultar el reporte semanal. |
-| **Question** | Q06. ¿Generar de forma asistida el reporte semanal a partir de los registros reduce el tiempo y el costo de elaborarlo sin perder información requerida? |
-| **Why** | Reducir el esfuerzo de elaborar reportes justifica el uso recurrente de ArquiTech y mejora la eficiencia operativa de las empresas constructoras. |
-| **What** | Prueba comparativa: ocho supervisores elaboran reportes de complejidad equivalente, uno con el procedimiento manual y otro con un prototipo de generación asistida, alternando el orden. |
-| **Hypothesis** | H06. Si incorporamos la generación asistida de reportes semanales a partir de los registros de ArquiTech, esperamos reducir al menos 40 % el tiempo mediano de elaboración y al menos 30 % el costo total por reporte frente al procedimiento manual, sin perder información requerida. |
-| **Métricas** | M06 (negocio), M07 (control de completitud) y F02 (financiera). |
-| **Metas** | M06 ≥ 40 % de reducción; M07 ≥ 90 %; F02 ≥ 30 % de ahorro. |
-| **Reverso · Measures** | Principal: M06 y F02. Restricción: M07, ya que un reporte más rápido pero incompleto no se acepta como éxito. |
-| **Reverso · Conditions** | Control: consolidación manual de la información. Experimental: prototipo de generación asistida. |
-| **Reverso · Scale** | 8 supervisores, un reporte por condición y por participante, con orden contrabalanceado (valor preliminar; ver 8.2.5). |
-| **User Stories** | HU20, HU52 (la generación asistida requiere una nueva HU) |
+| Campo                    | Contenido                                                                                                                                                                                                                                                                               |
+| ------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Supuesto**             | ArquiTech reúne registros de proyectos, materiales, asistencia, tareas e incidencias y permite consultar el reporte semanal.                                                                                                                                                            |
+| **Question**             | Q06. ¿Generar de forma asistida el reporte semanal a partir de los registros reduce el tiempo y el costo de elaborarlo sin perder información requerida?                                                                                                                                |
+| **Why**                  | Reducir el esfuerzo de elaborar reportes justifica el uso recurrente de ArquiTech y mejora la eficiencia operativa de las empresas constructoras.                                                                                                                                       |
+| **What**                 | Prueba comparativa: ocho supervisores elaboran reportes de complejidad equivalente, uno con el procedimiento manual y otro con un prototipo de generación asistida, alternando el orden.                                                                                                |
+| **Hypothesis**           | H06. Si incorporamos la generación asistida de reportes semanales a partir de los registros de ArquiTech, esperamos reducir al menos 40 % el tiempo mediano de elaboración y al menos 30 % el costo total por reporte frente al procedimiento manual, sin perder información requerida. |
+| **Métricas**             | M06 (negocio), M07 (control de completitud) y F02 (financiera).                                                                                                                                                                                                                         |
+| **Metas**                | M06 ≥ 40 % de reducción; M07 ≥ 90 %; F02 ≥ 30 % de ahorro.                                                                                                                                                                                                                              |
+| **Reverso · Measures**   | Principal: M06 y F02. Restricción: M07, ya que un reporte más rápido pero incompleto no se acepta como éxito.                                                                                                                                                                           |
+| **Reverso · Conditions** | Control: consolidación manual de la información. Experimental: prototipo de generación asistida.                                                                                                                                                                                        |
+| **Reverso · Scale**      | 8 supervisores, un reporte por condición y por participante, con orden contrabalanceado (valor preliminar; ver 8.2.5).                                                                                                                                                                  |
+| **User Stories**         | HU20, HU52 (la generación asistida requiere una nueva HU)                                                                                                                                                                                                                               |
 
 #### EC07 · Alertas de incidencias críticas (prioridad 4)
 
-| Campo | Contenido |
-| ----- | --------- |
-| **Supuesto** | ArquiTech permite registrar y consultar incidencias por proyecto, y algunas de ellas requieren atención prioritaria. |
-| **Question** | Q07. ¿Las alertas de incidencias críticas permiten que los usuarios se enteren antes que con la revisión manual y con menor costo de seguimiento? |
-| **Why** | Reducir el monitoreo manual y los retrasos de comunicación disminuye las horas dedicadas a revisar estados y mejora la coordinación entre supervisor y contratante. |
-| **What** | Piloto controlado de dos semanas con incidencias simuladas en dos condiciones: revisión periódica de la plataforma y avisos prioritarios. |
-| **Hypothesis** | H07. Si incorporamos alertas prioritarias para incidencias críticas, esperamos que al menos el 75 % de los usuarios detecte una incidencia simulada en un máximo de diez minutos y que el costo operativo de seguimiento disminuya al menos 15 %. |
-| **Métricas** | M08 (negocio) y F01 (financiera). |
-| **Metas** | M08 ≥ 75 %; F01 ≥ 15 % de ahorro. |
-| **Reverso · Measures** | Principal: M08 y F01. Secundarias: hora del evento, hora de detección y tiempo dedicado al monitoreo. |
-| **Reverso · Conditions** | Control: revisión periódica sin alertas. Experimental: alertas prioritarias de incidencias críticas. |
-| **Reverso · Scale** | 12 participantes durante dos semanas (valor preliminar; ver 8.2.5). |
-| **User Stories** | HU35, HU36, HU37, HU39 (las alertas requieren una nueva HU) |
+| Campo                    | Contenido                                                                                                                                                                                                                                         |
+| ------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Supuesto**             | ArquiTech permite registrar y consultar incidencias por proyecto, y algunas de ellas requieren atención prioritaria.                                                                                                                              |
+| **Question**             | Q07. ¿Las alertas de incidencias críticas permiten que los usuarios se enteren antes que con la revisión manual y con menor costo de seguimiento?                                                                                                 |
+| **Why**                  | Reducir el monitoreo manual y los retrasos de comunicación disminuye las horas dedicadas a revisar estados y mejora la coordinación entre supervisor y contratante.                                                                               |
+| **What**                 | Piloto controlado de dos semanas con incidencias simuladas en dos condiciones: revisión periódica de la plataforma y avisos prioritarios.                                                                                                         |
+| **Hypothesis**           | H07. Si incorporamos alertas prioritarias para incidencias críticas, esperamos que al menos el 75 % de los usuarios detecte una incidencia simulada en un máximo de diez minutos y que el costo operativo de seguimiento disminuya al menos 15 %. |
+| **Métricas**             | M08 (negocio) y F01 (financiera).                                                                                                                                                                                                                 |
+| **Metas**                | M08 ≥ 75 %; F01 ≥ 15 % de ahorro.                                                                                                                                                                                                                 |
+| **Reverso · Measures**   | Principal: M08 y F01. Secundarias: hora del evento, hora de detección y tiempo dedicado al monitoreo.                                                                                                                                             |
+| **Reverso · Conditions** | Control: revisión periódica sin alertas. Experimental: alertas prioritarias de incidencias críticas.                                                                                                                                              |
+| **Reverso · Scale**      | 12 participantes durante dos semanas (valor preliminar; ver 8.2.5).                                                                                                                                                                               |
+| **User Stories**         | HU35, HU36, HU37, HU39 (las alertas requieren una nueva HU)                                                                                                                                                                                       |
 
 #### EC01 · Registro guiado de materiales (prioridad 6)
 
-| Campo | Contenido |
-| ----- | --------- |
-| **Supuesto** | ArquiTech contempla el registro de entradas, usos y consulta de materiales por proyecto, y el stock es relevante para el supervisor. |
-| **Question** | Q01. ¿Un registro guiado de entradas y salidas con verificación de stock aumenta la proporción de operaciones correctas al primer intento y reduce el costo de corregir el inventario? |
-| **Why** | Menos errores protegen la confiabilidad del stock y reducen las horas administrativas de corrección, lo que aumenta el valor de ArquiTech para las constructoras. |
-| **What** | Prueba comparativa: ocho supervisores realizan seis operaciones equivalentes con el flujo actual y con un prototipo de registro guiado, con orden contrabalanceado y datos ficticios. |
-| **Hypothesis** | H01. Si añadimos un registro guiado de entradas y salidas con verificación de stock, esperamos que al menos el 80 % de las operaciones se complete correctamente al primer intento y que el costo medio de corrección del inventario disminuya al menos 20 % frente al flujo actual. |
-| **Métricas** | M01 (negocio) y F01 (financiera). |
-| **Metas** | M01 ≥ 80 %; F01 ≥ 20 % de ahorro. |
-| **Reverso · Measures** | Principal: M01 y F01. Secundarias: errores por tipo de operación y minutos de corrección. |
-| **Reverso · Conditions** | Control: flujo actual de registro. Experimental: prototipo de registro guiado. |
-| **Reverso · Scale** | 8 supervisores × 6 operaciones por versión (valor preliminar; ver 8.2.5). |
-| **User Stories** | HU01, HU02, HU04, HU28 |
+| Campo                    | Contenido                                                                                                                                                                                                                                                                            |
+| ------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Supuesto**             | ArquiTech contempla el registro de entradas, usos y consulta de materiales por proyecto, y el stock es relevante para el supervisor.                                                                                                                                                 |
+| **Question**             | Q01. ¿Un registro guiado de entradas y salidas con verificación de stock aumenta la proporción de operaciones correctas al primer intento y reduce el costo de corregir el inventario?                                                                                               |
+| **Why**                  | Menos errores protegen la confiabilidad del stock y reducen las horas administrativas de corrección, lo que aumenta el valor de ArquiTech para las constructoras.                                                                                                                    |
+| **What**                 | Prueba comparativa: ocho supervisores realizan seis operaciones equivalentes con el flujo actual y con un prototipo de registro guiado, con orden contrabalanceado y datos ficticios.                                                                                                |
+| **Hypothesis**           | H01. Si añadimos un registro guiado de entradas y salidas con verificación de stock, esperamos que al menos el 80 % de las operaciones se complete correctamente al primer intento y que el costo medio de corrección del inventario disminuya al menos 20 % frente al flujo actual. |
+| **Métricas**             | M01 (negocio) y F01 (financiera).                                                                                                                                                                                                                                                    |
+| **Metas**                | M01 ≥ 80 %; F01 ≥ 20 % de ahorro.                                                                                                                                                                                                                                                    |
+| **Reverso · Measures**   | Principal: M01 y F01. Secundarias: errores por tipo de operación y minutos de corrección.                                                                                                                                                                                            |
+| **Reverso · Conditions** | Control: flujo actual de registro. Experimental: prototipo de registro guiado.                                                                                                                                                                                                       |
+| **Reverso · Scale**      | 8 supervisores × 6 operaciones por versión (valor preliminar; ver 8.2.5).                                                                                                                                                                                                            |
+| **User Stories**         | HU01, HU02, HU04, HU28                                                                                                                                                                                                                                                               |
+
 #### EC05 · Historial verificable de movimientos (prioridad 7)
 
-| Campo | Contenido |
-| ----- | --------- |
-| **Supuesto** | La gestión de materiales registra movimientos asociados a un proyecto y el historial sirve para verificar discrepancias. |
-| **Question** | Q05. ¿Mostrar al responsable y la fecha en el historial de movimientos permite identificar el origen de un cambio en menos tiempo y reduce el costo de investigar discrepancias? |
-| **Why** | Identificar qué ocurrió y quién lo registró reduce la investigación manual y refuerza la confianza en la información administrada. |
-| **What** | Prueba comparativa: ocho usuarios analizan cinco discrepancias ficticias con la vista actual y con un historial enriquecido. |
-| **Hypothesis** | H05. Si incorporamos en el historial de materiales la identidad del responsable y la fecha de cada movimiento, esperamos que al menos el 80 % de los usuarios identifique correctamente el origen de un cambio en menos de dos minutos y que el costo de investigar discrepancias disminuya al menos 20 %. |
-| **Métricas** | M05 (negocio) y F01 (financiera). |
-| **Metas** | M05 ≥ 80 %; F01 ≥ 20 % de ahorro. |
-| **Reverso · Measures** | Principal: M05 y F01. Secundaria: solicitudes de soporte durante la tarea. |
-| **Reverso · Conditions** | Control: vista actual del historial. Experimental: historial enriquecido con responsable y fecha. |
-| **Reverso · Scale** | 8 usuarios × 5 discrepancias por versión (valor preliminar; ver 8.2.5). |
-| **User Stories** | HU04, HU27 |
+| Campo                    | Contenido                                                                                                                                                                                                                                                                                                  |
+| ------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Supuesto**             | La gestión de materiales registra movimientos asociados a un proyecto y el historial sirve para verificar discrepancias.                                                                                                                                                                                   |
+| **Question**             | Q05. ¿Mostrar al responsable y la fecha en el historial de movimientos permite identificar el origen de un cambio en menos tiempo y reduce el costo de investigar discrepancias?                                                                                                                           |
+| **Why**                  | Identificar qué ocurrió y quién lo registró reduce la investigación manual y refuerza la confianza en la información administrada.                                                                                                                                                                         |
+| **What**                 | Prueba comparativa: ocho usuarios analizan cinco discrepancias ficticias con la vista actual y con un historial enriquecido.                                                                                                                                                                               |
+| **Hypothesis**           | H05. Si incorporamos en el historial de materiales la identidad del responsable y la fecha de cada movimiento, esperamos que al menos el 80 % de los usuarios identifique correctamente el origen de un cambio en menos de dos minutos y que el costo de investigar discrepancias disminuya al menos 20 %. |
+| **Métricas**             | M05 (negocio) y F01 (financiera).                                                                                                                                                                                                                                                                          |
+| **Metas**                | M05 ≥ 80 %; F01 ≥ 20 % de ahorro.                                                                                                                                                                                                                                                                          |
+| **Reverso · Measures**   | Principal: M05 y F01. Secundaria: solicitudes de soporte durante la tarea.                                                                                                                                                                                                                                 |
+| **Reverso · Conditions** | Control: vista actual del historial. Experimental: historial enriquecido con responsable y fecha.                                                                                                                                                                                                          |
+| **Reverso · Scale**      | 8 usuarios × 5 discrepancias por versión (valor preliminar; ver 8.2.5).                                                                                                                                                                                                                                    |
+| **User Stories**         | HU04, HU27                                                                                                                                                                                                                                                                                                 |
 
 #### EC02 · Registro rápido de asistencia (prioridad 8)
 
-| Campo | Contenido |
-| ----- | --------- |
-| **Supuesto** | La plataforma incluye trabajadores y asistencia por proyecto, y el supervisor necesita controlar la presencia del personal. |
-| **Question** | Q02. ¿Una lista rápida de asistencia por obra reduce las omisiones y el tiempo administrativo de registrar una jornada? |
-| **Why** | Registros completos respaldan el control del personal y evitan revisiones repetidas; menos tiempo de digitación reduce el costo operativo del cliente. |
-| **What** | Prueba comparativa: ocho supervisores registran la asistencia de una lista ficticia de 12 trabajadores con el formulario actual y con un prototipo de lista rápida, alternando el orden. |
-| **Hypothesis** | H02. Si incorporamos un registro rápido de asistencia por proyecto, esperamos que al menos el 90 % de los registros se complete sin omisiones y que el costo administrativo por jornada registrada disminuya al menos 20 % respecto al flujo actual. |
-| **Métricas** | M02 (negocio) y F01 (financiera). |
-| **Metas** | M02 ≥ 90 %; F01 ≥ 20 % de ahorro. |
-| **Reverso · Measures** | Principal: M02 y F01. Secundarias: datos omitidos por tipo y minutos efectivos de registro. |
-| **Reverso · Conditions** | Control: formulario actual de asistencia. Experimental: prototipo de lista rápida. |
-| **Reverso · Scale** | 8 supervisores × 1 jornada de 12 trabajadores por versión (valor preliminar; ver 8.2.5). |
-| **User Stories** | HU06, HU10, HU54, HU55 |
+| Campo                    | Contenido                                                                                                                                                                                                                                            |
+| ------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Supuesto**             | La plataforma incluye trabajadores y asistencia por proyecto, y el supervisor necesita controlar la presencia del personal.                                                                                                                          |
+| **Question**             | Q02. ¿Una lista rápida de asistencia por obra reduce las omisiones y el tiempo administrativo de registrar una jornada?                                                                                                                              |
+| **Why**                  | Registros completos respaldan el control del personal y evitan revisiones repetidas; menos tiempo de digitación reduce el costo operativo del cliente.                                                                                               |
+| **What**                 | Prueba comparativa: ocho supervisores registran la asistencia de una lista ficticia de 12 trabajadores con el formulario actual y con un prototipo de lista rápida, alternando el orden.                                                             |
+| **Hypothesis**           | H02. Si incorporamos un registro rápido de asistencia por proyecto, esperamos que al menos el 90 % de los registros se complete sin omisiones y que el costo administrativo por jornada registrada disminuya al menos 20 % respecto al flujo actual. |
+| **Métricas**             | M02 (negocio) y F01 (financiera).                                                                                                                                                                                                                    |
+| **Metas**                | M02 ≥ 90 %; F01 ≥ 20 % de ahorro.                                                                                                                                                                                                                    |
+| **Reverso · Measures**   | Principal: M02 y F01. Secundarias: datos omitidos por tipo y minutos efectivos de registro.                                                                                                                                                          |
+| **Reverso · Conditions** | Control: formulario actual de asistencia. Experimental: prototipo de lista rápida.                                                                                                                                                                   |
+| **Reverso · Scale**      | 8 supervisores × 1 jornada de 12 trabajadores por versión (valor preliminar; ver 8.2.5).                                                                                                                                                             |
+| **User Stories**         | HU06, HU10, HU54, HU55                                                                                                                                                                                                                               |
 
 #### EC08 · Borradores sin conexión y sincronización (prioridad 9)
 
-| Campo | Contenido |
-| ----- | --------- |
-| **Supuesto** | Los supervisores realizan tareas en campo, donde la conexión a Internet puede interrumpirse durante el registro de información. |
-| **Question** | Q08. ¿Guardar borradores sin conexión y sincronizarlos al recuperar la señal evita la pérdida y la doble digitación de registros de campo? |
-| **Why** | Evitar la pérdida o repetición de información reduce horas administrativas y hace el producto más útil en obras con conectividad inestable. |
-| **What** | Prueba con prototipo e interrupciones de red simuladas: ocho supervisores generan cinco registros sin conexión y vuelven a conectarse. Se ejecuta después de responder Q11. |
-| **Hypothesis** | H08. Si incorporamos borradores sin conexión y sincronización posterior, esperamos que al menos el 90 % de los registros se sincronice sin pérdida ni duplicados dentro de los cinco minutos posteriores a recuperar la conexión y que el costo de reprocesar registros disminuya al menos 20 %. |
-| **Métricas** | M09 (negocio) y F01 (financiera). |
-| **Metas** | M09 ≥ 90 %; F01 ≥ 20 % de ahorro. |
-| **Reverso · Measures** | Principal: M09 y F01. Secundarias: registros duplicados y registros reingresados manualmente. |
-| **Reverso · Conditions** | Control: aplicación actual sin modo sin conexión. Experimental: prototipo con borradores y sincronización. |
-| **Reverso · Scale** | 8 supervisores × 5 registros por versión (valor preliminar; ver 8.2.5). |
-| **User Stories** | Requiere una nueva HU de guardado sin conexión y sincronización. |
+| Campo                    | Contenido                                                                                                                                                                                                                                                                                        |
+| ------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Supuesto**             | Los supervisores realizan tareas en campo, donde la conexión a Internet puede interrumpirse durante el registro de información.                                                                                                                                                                  |
+| **Question**             | Q08. ¿Guardar borradores sin conexión y sincronizarlos al recuperar la señal evita la pérdida y la doble digitación de registros de campo?                                                                                                                                                       |
+| **Why**                  | Evitar la pérdida o repetición de información reduce horas administrativas y hace el producto más útil en obras con conectividad inestable.                                                                                                                                                      |
+| **What**                 | Prueba con prototipo e interrupciones de red simuladas: ocho supervisores generan cinco registros sin conexión y vuelven a conectarse. Se ejecuta después de responder Q11.                                                                                                                      |
+| **Hypothesis**           | H08. Si incorporamos borradores sin conexión y sincronización posterior, esperamos que al menos el 90 % de los registros se sincronice sin pérdida ni duplicados dentro de los cinco minutos posteriores a recuperar la conexión y que el costo de reprocesar registros disminuya al menos 20 %. |
+| **Métricas**             | M09 (negocio) y F01 (financiera).                                                                                                                                                                                                                                                                |
+| **Metas**                | M09 ≥ 90 %; F01 ≥ 20 % de ahorro.                                                                                                                                                                                                                                                                |
+| **Reverso · Measures**   | Principal: M09 y F01. Secundarias: registros duplicados y registros reingresados manualmente.                                                                                                                                                                                                    |
+| **Reverso · Conditions** | Control: aplicación actual sin modo sin conexión. Experimental: prototipo con borradores y sincronización.                                                                                                                                                                                       |
+| **Reverso · Scale**      | 8 supervisores × 5 registros por versión (valor preliminar; ver 8.2.5).                                                                                                                                                                                                                          |
+| **User Stories**         | Requiere una nueva HU de guardado sin conexión y sincronización.                                                                                                                                                                                                                                 |
 
 #### EC03 · Tablero de tareas prioritarias (prioridad 11)
 
-| Campo | Contenido |
-| ----- | --------- |
-| **Supuesto** | ArquiTech permite registrar, consultar y actualizar tareas vinculadas a una obra. |
-| **Question** | Q03. ¿Un tablero que destaque las tareas prioritarias y vencidas permite identificar la tarea crítica en menos tiempo y con menor costo de coordinación? |
-| **Why** | Detectar las prioridades en menos tiempo evita consultas repetidas y libera tiempo de supervisión, lo que reduce los costos de coordinación. |
-| **What** | Prueba comparativa: ocho supervisores resuelven cinco casos de identificación de tareas críticas en el listado actual y en un tablero con prioridades y vencimientos destacados. |
-| **Hypothesis** | H03. Si incorporamos un tablero que destaque las tareas prioritarias y vencidas, esperamos que al menos el 80 % de los supervisores identifique la tarea crítica correctamente en menos de dos minutos y que el costo de coordinación por caso disminuya al menos 15 %. |
-| **Métricas** | M03 (negocio) y F01 (financiera). |
-| **Metas** | M03 ≥ 80 %; F01 ≥ 15 % de ahorro. |
-| **Reverso · Measures** | Principal: M03 y F01. Secundarias: decisiones correctas y consultas adicionales realizadas. |
-| **Reverso · Conditions** | Control: listado actual de tareas. Experimental: tablero de tareas prioritarias. |
-| **Reverso · Scale** | 8 supervisores × 5 casos por versión (valor preliminar; ver 8.2.5). |
-| **User Stories** | HU07, HU08, HU53 |
+| Campo                    | Contenido                                                                                                                                                                                                                                                               |
+| ------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Supuesto**             | ArquiTech permite registrar, consultar y actualizar tareas vinculadas a una obra.                                                                                                                                                                                       |
+| **Question**             | Q03. ¿Un tablero que destaque las tareas prioritarias y vencidas permite identificar la tarea crítica en menos tiempo y con menor costo de coordinación?                                                                                                                |
+| **Why**                  | Detectar las prioridades en menos tiempo evita consultas repetidas y libera tiempo de supervisión, lo que reduce los costos de coordinación.                                                                                                                            |
+| **What**                 | Prueba comparativa: ocho supervisores resuelven cinco casos de identificación de tareas críticas en el listado actual y en un tablero con prioridades y vencimientos destacados.                                                                                        |
+| **Hypothesis**           | H03. Si incorporamos un tablero que destaque las tareas prioritarias y vencidas, esperamos que al menos el 80 % de los supervisores identifique la tarea crítica correctamente en menos de dos minutos y que el costo de coordinación por caso disminuya al menos 15 %. |
+| **Métricas**             | M03 (negocio) y F01 (financiera).                                                                                                                                                                                                                                       |
+| **Metas**                | M03 ≥ 80 %; F01 ≥ 15 % de ahorro.                                                                                                                                                                                                                                       |
+| **Reverso · Measures**   | Principal: M03 y F01. Secundarias: decisiones correctas y consultas adicionales realizadas.                                                                                                                                                                             |
+| **Reverso · Conditions** | Control: listado actual de tareas. Experimental: tablero de tareas prioritarias.                                                                                                                                                                                        |
+| **Reverso · Scale**      | 8 supervisores × 5 casos por versión (valor preliminar; ver 8.2.5).                                                                                                                                                                                                     |
+| **User Stories**         | HU07, HU08, HU53                                                                                                                                                                                                                                                        |
 
 #### EC09 · Guía de primeros pasos por rol (prioridad 12)
 
-| Campo | Contenido |
-| ----- | --------- |
-| **Supuesto** | ArquiTech cuenta con autenticación y diferentes roles, y un usuario nuevo debe conocer los módulos que corresponden a su función. |
-| **Question** | Q09. ¿Una guía de primeros pasos según el rol permite que un usuario nuevo complete su primera tarea sin ayuda y reduce el costo de capacitación? |
-| **Why** | Si el primer uso es autónomo, el equipo dedica menos horas a soporte y se facilita la incorporación de nuevos clientes de la suscripción. |
-| **What** | Test A/B: doce usuarios nuevos se asignan aleatoriamente al flujo actual o al flujo con guía y realizan la misma tarea inicial de proyecto y materiales. |
-| **Hypothesis** | H09. Si incorporamos una guía interactiva de primeros pasos según el rol, esperamos que al menos el 80 % de los nuevos supervisores complete su primera tarea correctamente sin ayuda en menos de diez minutos y que el costo de capacitación inicial disminuya al menos 20 %. |
-| **Métricas** | M10 (negocio) y F01 (financiera). |
-| **Metas** | M10 ≥ 80 %; F01 ≥ 20 % de ahorro. |
-| **Reverso · Measures** | Principal: M10 y F01. Secundarias: tiempo hasta completar la tarea y minutos de apoyo brindados. |
-| **Reverso · Conditions** | Control: flujo actual sin guía. Experimental: flujo con guía de primeros pasos. |
-| **Reverso · Scale** | 12 usuarios nuevos, 6 por condición; cada participante usa una sola versión (valor preliminar; ver 8.2.5). |
-| **User Stories** | HU19, HU22, HU23, HU46 (relación indirecta) |
+| Campo                    | Contenido                                                                                                                                                                                                                                                                      |
+| ------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Supuesto**             | ArquiTech cuenta con autenticación y diferentes roles, y un usuario nuevo debe conocer los módulos que corresponden a su función.                                                                                                                                              |
+| **Question**             | Q09. ¿Una guía de primeros pasos según el rol permite que un usuario nuevo complete su primera tarea sin ayuda y reduce el costo de capacitación?                                                                                                                              |
+| **Why**                  | Si el primer uso es autónomo, el equipo dedica menos horas a soporte y se facilita la incorporación de nuevos clientes de la suscripción.                                                                                                                                      |
+| **What**                 | Test A/B: doce usuarios nuevos se asignan aleatoriamente al flujo actual o al flujo con guía y realizan la misma tarea inicial de proyecto y materiales.                                                                                                                       |
+| **Hypothesis**           | H09. Si incorporamos una guía interactiva de primeros pasos según el rol, esperamos que al menos el 80 % de los nuevos supervisores complete su primera tarea correctamente sin ayuda en menos de diez minutos y que el costo de capacitación inicial disminuya al menos 20 %. |
+| **Métricas**             | M10 (negocio) y F01 (financiera).                                                                                                                                                                                                                                              |
+| **Metas**                | M10 ≥ 80 %; F01 ≥ 20 % de ahorro.                                                                                                                                                                                                                                              |
+| **Reverso · Measures**   | Principal: M10 y F01. Secundarias: tiempo hasta completar la tarea y minutos de apoyo brindados.                                                                                                                                                                               |
+| **Reverso · Conditions** | Control: flujo actual sin guía. Experimental: flujo con guía de primeros pasos.                                                                                                                                                                                                |
+| **Reverso · Scale**      | 12 usuarios nuevos, 6 por condición; cada participante usa una sola versión (valor preliminar; ver 8.2.5).                                                                                                                                                                     |
+| **User Stories**         | HU19, HU22, HU23, HU46 (relación indirecta)                                                                                                                                                                                                                                    |
 
 ## 8.2. Experiment Design
 
@@ -8172,93 +8551,93 @@ Cada hipótesis se redacta con la estructura "Creemos que [creencia]; la evidenc
 
 #### H01 · Registro guiado de materiales
 
-| Elemento | Contenido |
-| -------- | --------- |
-| **Question** | Q01. ¿Un registro guiado de entradas y salidas con verificación de stock aumenta la proporción de operaciones correctas al primer intento y reduce el costo de corregir el inventario? |
-| **Belief** | Los errores de inventario se originan en un flujo de registro poco guiado, no en el descuido del supervisor. |
-| **Hypothesis (H1)** | Creemos que un registro guiado con verificación de stock reduce los errores de inventario; la evidencia se reflejará en que al menos el 80 % de las operaciones se complete correctamente al primer intento (M01) y en un ahorro de al menos 20 % en el costo de corrección (F01), bajo la comparación del prototipo guiado frente al flujo actual con supervisores y datos ficticios. |
-| **Null hypothesis (H0)** | El registro guiado no aumenta la proporción de operaciones correctas al primer intento ni reduce el costo de corrección; cualquier diferencia frente al flujo actual se debe al azar. |
+| Elemento                 | Contenido                                                                                                                                                                                                                                                                                                                                                                              |
+| ------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Question**             | Q01. ¿Un registro guiado de entradas y salidas con verificación de stock aumenta la proporción de operaciones correctas al primer intento y reduce el costo de corregir el inventario?                                                                                                                                                                                                 |
+| **Belief**               | Los errores de inventario se originan en un flujo de registro poco guiado, no en el descuido del supervisor.                                                                                                                                                                                                                                                                           |
+| **Hypothesis (H1)**      | Creemos que un registro guiado con verificación de stock reduce los errores de inventario; la evidencia se reflejará en que al menos el 80 % de las operaciones se complete correctamente al primer intento (M01) y en un ahorro de al menos 20 % en el costo de corrección (F01), bajo la comparación del prototipo guiado frente al flujo actual con supervisores y datos ficticios. |
+| **Null hypothesis (H0)** | El registro guiado no aumenta la proporción de operaciones correctas al primer intento ni reduce el costo de corrección; cualquier diferencia frente al flujo actual se debe al azar.                                                                                                                                                                                                  |
 
 #### H02 · Registro rápido de asistencia
 
-| Elemento | Contenido |
-| -------- | --------- |
-| **Question** | Q02. ¿Una lista rápida de asistencia por obra reduce las omisiones y el tiempo administrativo de registrar una jornada? |
-| **Belief** | Las omisiones en la asistencia ocurren porque registrar a cada trabajador por separado demanda demasiado esfuerzo. |
-| **Hypothesis (H1)** | Creemos que una lista rápida de asistencia reduce las omisiones y el esfuerzo de registro; la evidencia se reflejará en que al menos el 90 % de los registros se complete sin omisiones (M02) y en un ahorro de al menos 20 % en el costo por jornada registrada (F01), bajo la comparación del prototipo de lista rápida frente al formulario actual. |
-| **Null hypothesis (H0)** | La lista rápida no reduce las omisiones ni el costo por jornada registrada; cualquier diferencia frente al formulario actual se debe al azar. |
+| Elemento                 | Contenido                                                                                                                                                                                                                                                                                                                                              |
+| ------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Question**             | Q02. ¿Una lista rápida de asistencia por obra reduce las omisiones y el tiempo administrativo de registrar una jornada?                                                                                                                                                                                                                                |
+| **Belief**               | Las omisiones en la asistencia ocurren porque registrar a cada trabajador por separado demanda demasiado esfuerzo.                                                                                                                                                                                                                                     |
+| **Hypothesis (H1)**      | Creemos que una lista rápida de asistencia reduce las omisiones y el esfuerzo de registro; la evidencia se reflejará en que al menos el 90 % de los registros se complete sin omisiones (M02) y en un ahorro de al menos 20 % en el costo por jornada registrada (F01), bajo la comparación del prototipo de lista rápida frente al formulario actual. |
+| **Null hypothesis (H0)** | La lista rápida no reduce las omisiones ni el costo por jornada registrada; cualquier diferencia frente al formulario actual se debe al azar.                                                                                                                                                                                                          |
 
 #### H03 · Tablero de tareas prioritarias
 
-| Elemento | Contenido |
-| -------- | --------- |
-| **Question** | Q03. ¿Un tablero que destaque las tareas prioritarias y vencidas permite identificar la tarea crítica en menos tiempo y con menor costo de coordinación? |
-| **Belief** | El supervisor pierde tiempo ubicando las tareas urgentes porque el listado actual no las diferencia. |
-| **Hypothesis (H1)** | Creemos que destacar las tareas prioritarias y vencidas acelera su identificación; la evidencia se reflejará en que al menos el 80 % de los supervisores identifique la tarea crítica en dos minutos o menos (M03) y en un ahorro de al menos 15 % en el costo de coordinación por caso (F01), bajo la comparación del tablero frente al listado actual. |
-| **Null hypothesis (H0)** | El tablero no mejora la identificación de tareas críticas ni reduce el costo de coordinación; cualquier diferencia frente al listado actual se debe al azar. |
+| Elemento                 | Contenido                                                                                                                                                                                                                                                                                                                                                |
+| ------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Question**             | Q03. ¿Un tablero que destaque las tareas prioritarias y vencidas permite identificar la tarea crítica en menos tiempo y con menor costo de coordinación?                                                                                                                                                                                                 |
+| **Belief**               | El supervisor pierde tiempo ubicando las tareas urgentes porque el listado actual no las diferencia.                                                                                                                                                                                                                                                     |
+| **Hypothesis (H1)**      | Creemos que destacar las tareas prioritarias y vencidas acelera su identificación; la evidencia se reflejará en que al menos el 80 % de los supervisores identifique la tarea crítica en dos minutos o menos (M03) y en un ahorro de al menos 15 % en el costo de coordinación por caso (F01), bajo la comparación del tablero frente al listado actual. |
+| **Null hypothesis (H0)** | El tablero no mejora la identificación de tareas críticas ni reduce el costo de coordinación; cualquier diferencia frente al listado actual se debe al azar.                                                                                                                                                                                             |
 
 #### H04 · Panel simplificado de seguimiento
 
-| Elemento | Contenido |
-| -------- | --------- |
-| **Question** | Q04. ¿Un panel simplificado de seguimiento permite que el contratante conozca el estado de su obra sin solicitar ayuda al supervisor? |
-| **Belief** | El contratante recurre al supervisor porque no encuentra por sí mismo la información relevante de su obra. |
-| **Hypothesis (H1)** | Creemos que un panel simplificado permite al contratante informarse de forma autónoma; la evidencia se reflejará en que al menos el 80 % consulte correctamente el estado de su obra sin ayuda en tres minutos o menos (M04) y en un ahorro de al menos 20 % en el costo de atención por consulta (F01), bajo la comparación del panel frente a la interfaz actual con contratantes y obras de prueba. |
-| **Null hypothesis (H0)** | El panel simplificado no aumenta las consultas autónomas ni reduce el costo de atención; cualquier diferencia frente a la interfaz actual se debe al azar. |
+| Elemento                 | Contenido                                                                                                                                                                                                                                                                                                                                                                                              |
+| ------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Question**             | Q04. ¿Un panel simplificado de seguimiento permite que el contratante conozca el estado de su obra sin solicitar ayuda al supervisor?                                                                                                                                                                                                                                                                  |
+| **Belief**               | El contratante recurre al supervisor porque no encuentra por sí mismo la información relevante de su obra.                                                                                                                                                                                                                                                                                             |
+| **Hypothesis (H1)**      | Creemos que un panel simplificado permite al contratante informarse de forma autónoma; la evidencia se reflejará en que al menos el 80 % consulte correctamente el estado de su obra sin ayuda en tres minutos o menos (M04) y en un ahorro de al menos 20 % en el costo de atención por consulta (F01), bajo la comparación del panel frente a la interfaz actual con contratantes y obras de prueba. |
+| **Null hypothesis (H0)** | El panel simplificado no aumenta las consultas autónomas ni reduce el costo de atención; cualquier diferencia frente a la interfaz actual se debe al azar.                                                                                                                                                                                                                                             |
 
 #### H05 · Historial verificable de movimientos
 
-| Elemento | Contenido |
-| -------- | --------- |
-| **Question** | Q05. ¿Mostrar al responsable y la fecha en el historial de movimientos permite identificar el origen de un cambio en menos tiempo y reduce el costo de investigar discrepancias? |
-| **Belief** | Investigar una discrepancia toma tiempo porque el historial no muestra quién registró el movimiento ni cuándo lo hizo. |
-| **Hypothesis (H1)** | Creemos que un historial con responsable y fecha visibles facilita la verificación de la información; la evidencia se reflejará en que al menos el 80 % de los usuarios identifique el origen de un cambio en dos minutos o menos (M05) y en un ahorro de al menos 20 % en el costo de investigar una discrepancia (F01), bajo la comparación del historial enriquecido frente a la vista actual. |
-| **Null hypothesis (H0)** | Mostrar al responsable y la fecha no mejora la identificación del origen de un cambio ni reduce el costo de investigación; cualquier diferencia se debe al azar. |
+| Elemento                 | Contenido                                                                                                                                                                                                                                                                                                                                                                                         |
+| ------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Question**             | Q05. ¿Mostrar al responsable y la fecha en el historial de movimientos permite identificar el origen de un cambio en menos tiempo y reduce el costo de investigar discrepancias?                                                                                                                                                                                                                  |
+| **Belief**               | Investigar una discrepancia toma tiempo porque el historial no muestra quién registró el movimiento ni cuándo lo hizo.                                                                                                                                                                                                                                                                            |
+| **Hypothesis (H1)**      | Creemos que un historial con responsable y fecha visibles facilita la verificación de la información; la evidencia se reflejará en que al menos el 80 % de los usuarios identifique el origen de un cambio en dos minutos o menos (M05) y en un ahorro de al menos 20 % en el costo de investigar una discrepancia (F01), bajo la comparación del historial enriquecido frente a la vista actual. |
+| **Null hypothesis (H0)** | Mostrar al responsable y la fecha no mejora la identificación del origen de un cambio ni reduce el costo de investigación; cualquier diferencia se debe al azar.                                                                                                                                                                                                                                  |
 
 #### H06 · Generación asistida de reportes
 
-| Elemento | Contenido |
-| -------- | --------- |
-| **Question** | Q06. ¿Generar de forma asistida el reporte semanal a partir de los registros reduce el tiempo y el costo de elaborarlo sin perder información requerida? |
-| **Belief** | El costo del reporte semanal se concentra en recopilar y consolidar información de varias fuentes, no en analizarla. |
-| **Hypothesis (H1)** | Creemos que generar el reporte a partir de los registros existentes reduce el esfuerzo de elaborarlo; la evidencia se reflejará en una reducción de al menos 40 % en el tiempo mediano de elaboración (M06), en un ahorro de al menos 30 % en el costo total por reporte (F02) y en al menos 90 % de reportes completos (M07), bajo la comparación del prototipo asistido frente a la consolidación manual. |
-| **Null hypothesis (H0)** | La generación asistida no reduce el tiempo ni el costo de elaborar el reporte, o lo hace a costa de su completitud; cualquier diferencia se debe al azar. |
+| Elemento                 | Contenido                                                                                                                                                                                                                                                                                                                                                                                                   |
+| ------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Question**             | Q06. ¿Generar de forma asistida el reporte semanal a partir de los registros reduce el tiempo y el costo de elaborarlo sin perder información requerida?                                                                                                                                                                                                                                                    |
+| **Belief**               | El costo del reporte semanal se concentra en recopilar y consolidar información de varias fuentes, no en analizarla.                                                                                                                                                                                                                                                                                        |
+| **Hypothesis (H1)**      | Creemos que generar el reporte a partir de los registros existentes reduce el esfuerzo de elaborarlo; la evidencia se reflejará en una reducción de al menos 40 % en el tiempo mediano de elaboración (M06), en un ahorro de al menos 30 % en el costo total por reporte (F02) y en al menos 90 % de reportes completos (M07), bajo la comparación del prototipo asistido frente a la consolidación manual. |
+| **Null hypothesis (H0)** | La generación asistida no reduce el tiempo ni el costo de elaborar el reporte, o lo hace a costa de su completitud; cualquier diferencia se debe al azar.                                                                                                                                                                                                                                                   |
 
 #### H07 · Alertas de incidencias críticas
 
-| Elemento | Contenido |
-| -------- | --------- |
-| **Question** | Q07. ¿Las alertas de incidencias críticas permiten que los usuarios se enteren antes que con la revisión manual y con menor costo de seguimiento? |
-| **Belief** | Las incidencias críticas se conocen tarde porque su detección depende de que el usuario revise la plataforma. |
-| **Hypothesis (H1)** | Creemos que las alertas prioritarias adelantan la detección de incidencias críticas; la evidencia se reflejará en que al menos el 75 % de las incidencias simuladas se detecte en diez minutos o menos (M08) y en un ahorro de al menos 15 % en el costo de seguimiento por incidencia (F01), bajo la comparación de las alertas frente a la revisión periódica durante un piloto de dos semanas. |
-| **Null hypothesis (H0)** | Las alertas no adelantan la detección de incidencias críticas ni reducen el costo de seguimiento; cualquier diferencia frente a la revisión periódica se debe al azar. |
+| Elemento                 | Contenido                                                                                                                                                                                                                                                                                                                                                                                         |
+| ------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Question**             | Q07. ¿Las alertas de incidencias críticas permiten que los usuarios se enteren antes que con la revisión manual y con menor costo de seguimiento?                                                                                                                                                                                                                                                 |
+| **Belief**               | Las incidencias críticas se conocen tarde porque su detección depende de que el usuario revise la plataforma.                                                                                                                                                                                                                                                                                     |
+| **Hypothesis (H1)**      | Creemos que las alertas prioritarias adelantan la detección de incidencias críticas; la evidencia se reflejará en que al menos el 75 % de las incidencias simuladas se detecte en diez minutos o menos (M08) y en un ahorro de al menos 15 % en el costo de seguimiento por incidencia (F01), bajo la comparación de las alertas frente a la revisión periódica durante un piloto de dos semanas. |
+| **Null hypothesis (H0)** | Las alertas no adelantan la detección de incidencias críticas ni reducen el costo de seguimiento; cualquier diferencia frente a la revisión periódica se debe al azar.                                                                                                                                                                                                                            |
 
 #### H08 · Borradores sin conexión y sincronización
 
-| Elemento | Contenido |
-| -------- | --------- |
-| **Question** | Q08. ¿Guardar borradores sin conexión y sincronizarlos al recuperar la señal evita la pérdida y la doble digitación de registros de campo? |
-| **Belief** | Las interrupciones de conectividad en obra provocan pérdida de registros y obligan a digitarlos nuevamente. |
-| **Hypothesis (H1)** | Creemos que conservar los registros sin conexión y sincronizarlos después evita la pérdida de información; la evidencia se reflejará en que al menos el 90 % de los registros se sincronice completo y sin duplicados en cinco minutos o menos tras recuperar la conexión (M09) y en un ahorro de al menos 20 % en el costo de reprocesamiento (F01), bajo interrupciones de red simuladas en el prototipo frente a la aplicación actual. |
-| **Null hypothesis (H0)** | El modo sin conexión no reduce la pérdida ni el reprocesamiento de registros; cualquier diferencia frente a la aplicación actual se debe al azar. |
+| Elemento                 | Contenido                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| ------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Question**             | Q08. ¿Guardar borradores sin conexión y sincronizarlos al recuperar la señal evita la pérdida y la doble digitación de registros de campo?                                                                                                                                                                                                                                                                                                |
+| **Belief**               | Las interrupciones de conectividad en obra provocan pérdida de registros y obligan a digitarlos nuevamente.                                                                                                                                                                                                                                                                                                                               |
+| **Hypothesis (H1)**      | Creemos que conservar los registros sin conexión y sincronizarlos después evita la pérdida de información; la evidencia se reflejará en que al menos el 90 % de los registros se sincronice completo y sin duplicados en cinco minutos o menos tras recuperar la conexión (M09) y en un ahorro de al menos 20 % en el costo de reprocesamiento (F01), bajo interrupciones de red simuladas en el prototipo frente a la aplicación actual. |
+| **Null hypothesis (H0)** | El modo sin conexión no reduce la pérdida ni el reprocesamiento de registros; cualquier diferencia frente a la aplicación actual se debe al azar.                                                                                                                                                                                                                                                                                         |
 
 #### H09 · Guía de primeros pasos por rol
 
-| Elemento | Contenido |
-| -------- | --------- |
-| **Question** | Q09. ¿Una guía de primeros pasos según el rol permite que un usuario nuevo complete su primera tarea sin ayuda y reduce el costo de capacitación? |
-| **Belief** | Un usuario nuevo pide ayuda porque no sabe por dónde empezar, no porque las tareas sean complejas. |
-| **Hypothesis (H1)** | Creemos que una guía de primeros pasos según el rol permite un primer uso autónomo; la evidencia se reflejará en que al menos el 80 % de los nuevos usuarios complete su primera tarea sin ayuda en diez minutos o menos (M10) y en un ahorro de al menos 20 % en el costo de capacitación por usuario (F01), bajo la asignación aleatoria de usuarios nuevos al flujo con guía o al flujo actual. |
-| **Null hypothesis (H0)** | La guía de primeros pasos no aumenta la proporción de usuarios que completan su primera tarea sin ayuda ni reduce el costo de capacitación; cualquier diferencia se debe al azar. |
+| Elemento                 | Contenido                                                                                                                                                                                                                                                                                                                                                                                          |
+| ------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Question**             | Q09. ¿Una guía de primeros pasos según el rol permite que un usuario nuevo complete su primera tarea sin ayuda y reduce el costo de capacitación?                                                                                                                                                                                                                                                  |
+| **Belief**               | Un usuario nuevo pide ayuda porque no sabe por dónde empezar, no porque las tareas sean complejas.                                                                                                                                                                                                                                                                                                 |
+| **Hypothesis (H1)**      | Creemos que una guía de primeros pasos según el rol permite un primer uso autónomo; la evidencia se reflejará en que al menos el 80 % de los nuevos usuarios complete su primera tarea sin ayuda en diez minutos o menos (M10) y en un ahorro de al menos 20 % en el costo de capacitación por usuario (F01), bajo la asignación aleatoria de usuarios nuevos al flujo con guía o al flujo actual. |
+| **Null hypothesis (H0)** | La guía de primeros pasos no aumenta la proporción de usuarios que completan su primera tarea sin ayuda ni reduce el costo de capacitación; cualquier diferencia se debe al azar.                                                                                                                                                                                                                  |
 
 #### H10 · Landing Page personalizada para demostraciones
 
-| Elemento | Contenido |
-| -------- | --------- |
-| **Question** | Q10. ¿Una Landing Page con beneficios y llamada a la acción por segmento aumenta las solicitudes de demostración calificadas y reduce el costo por prospecto? |
-| **Belief** | Un mensaje genérico no convence a supervisores ni a contratantes porque cada segmento valora beneficios distintos. |
-| **Hypothesis (H1)** | Creemos que adaptar los beneficios y la llamada a la acción al perfil del visitante aumenta la captación de clientes potenciales; la evidencia se reflejará en un incremento relativo de al menos 20 % en la tasa de solicitudes de demostración calificadas (M11) y en una reducción de al menos 15 % en el costo por prospecto calificado (F03), bajo un Test A/B con tráfico dividido y el mismo presupuesto de adquisición por variante. |
-| **Null hypothesis (H0)** | La variante por segmento no aumenta la tasa de solicitudes calificadas ni reduce el costo por prospecto; cualquier diferencia frente a la página actual se debe al azar. |
+| Elemento                 | Contenido                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| ------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Question**             | Q10. ¿Una Landing Page con beneficios y llamada a la acción por segmento aumenta las solicitudes de demostración calificadas y reduce el costo por prospecto?                                                                                                                                                                                                                                                                                |
+| **Belief**               | Un mensaje genérico no convence a supervisores ni a contratantes porque cada segmento valora beneficios distintos.                                                                                                                                                                                                                                                                                                                           |
+| **Hypothesis (H1)**      | Creemos que adaptar los beneficios y la llamada a la acción al perfil del visitante aumenta la captación de clientes potenciales; la evidencia se reflejará en un incremento relativo de al menos 20 % en la tasa de solicitudes de demostración calificadas (M11) y en una reducción de al menos 15 % en el costo por prospecto calificado (F03), bajo un Test A/B con tráfico dividido y el mismo presupuesto de adquisición por variante. |
+| **Null hypothesis (H0)** | La variante por segmento no aumenta la tasa de solicitudes calificadas ni reduce el costo por prospecto; cualquier diferencia frente a la página actual se debe al azar.                                                                                                                                                                                                                                                                     |
 
 ### 8.2.2. Domain Business Metrics
 
@@ -8277,41 +8656,41 @@ Cada métrica se describe con su fórmula de cálculo, la técnica de recolecci�
 
 #### Objetivos de negocio
 
-| Objetivo | Descripción | Métricas asociadas |
-| -------- | ----------- | ------------------ |
-| OB1. Eficiencia operativa del supervisor | Reducir el esfuerzo, los errores y el reprocesamiento al registrar información de obra. | M01, M02, M03, M06, M07, M09, F01, F02 |
-| OB2. Autonomía y confianza del contratante | Permitir que el contratante conozca el estado de su obra y confíe en la información sin depender del supervisor. | M04, M05, M08, F01 |
-| OB3. Adopción del producto | Lograr que los usuarios nuevos realicen sus tareas sin capacitación extensa. | M10, F01 |
-| OB4. Captación de clientes | Aumentar los clientes potenciales calificados con un costo de adquisición menor. | M11, F03 |
+| Objetivo                                   | Descripción                                                                                                      | Métricas asociadas                     |
+| ------------------------------------------ | ---------------------------------------------------------------------------------------------------------------- | -------------------------------------- |
+| OB1. Eficiencia operativa del supervisor   | Reducir el esfuerzo, los errores y el reprocesamiento al registrar información de obra.                          | M01, M02, M03, M06, M07, M09, F01, F02 |
+| OB2. Autonomía y confianza del contratante | Permitir que el contratante conozca el estado de su obra y confíe en la información sin depender del supervisor. | M04, M05, M08, F01                     |
+| OB3. Adopción del producto                 | Lograr que los usuarios nuevos realicen sus tareas sin capacitación extensa.                                     | M10, F01                               |
+| OB4. Captación de clientes                 | Aumentar los clientes potenciales calificados con un costo de adquisición menor.                                 | M11, F03                               |
 
 #### Métricas de negocio
 
-| ID | Métrica | Fórmula | Técnica de recolección | Meta | Usada en |
-| --- | ------- | ------- | ---------------------- | ---- | -------- |
-| M01 | Tasa de operaciones de inventario correctas al primer intento | Operaciones de entrada o salida registradas correctamente al primer intento / total de operaciones × 100 | Registro de eventos del prototipo y verificación del stock final contra los datos de prueba | ≥ 80 % | EC01 |
-| M02 | Tasa de registros de asistencia completos | Registros de asistencia sin trabajadores ni estados omitidos / registros intentados × 100 | Comparación del registro realizado con la lista de trabajadores de prueba | ≥ 90 % | EC02 |
-| M03 | Tasa de identificación oportuna de la tarea crítica | Supervisores que identifican correctamente la tarea crítica en ≤ 2 min / supervisores evaluados × 100 | Cronometraje y hoja de observación del moderador | ≥ 80 % | EC03 |
-| M04 | Tasa de consultas autónomas del contratante | Contratantes que localizan el estado y los reportes de su obra sin ayuda en ≤ 3 min / participantes × 100 | Cronometraje, registro de solicitudes de ayuda y hoja de observación | ≥ 80 % | EC04 |
-| M05 | Tasa de identificación oportuna del origen de un cambio | Usuarios que identifican correctamente el responsable y la fecha de un movimiento en ≤ 2 min / usuarios evaluados × 100 | Cronometraje y verificación de respuestas contra las discrepancias de prueba | ≥ 80 % | EC05 |
-| M06 | Reducción del tiempo mediano de elaboración del reporte | (Mediana de minutos con el procedimiento manual − mediana de minutos con el prototipo) / mediana de minutos con el procedimiento manual × 100 | Cronometraje de cada sesión de elaboración | ≥ 40 % | EC06 |
-| M07 | Tasa de reportes completos | Reportes que contienen todos los campos obligatorios / reportes elaborados × 100 | Lista de verificación de campos obligatorios del reporte semanal | ≥ 90 % | EC06 |
-| M08 | Tasa de detección oportuna de incidencias críticas | Incidencias simuladas detectadas en ≤ 10 min desde su registro / incidencias simuladas notificadas × 100 | Registro de la hora del evento y de la hora de detección en el piloto | ≥ 75 % | EC07 |
-| M09 | Tasa de sincronización íntegra | Registros sincronizados completos y sin duplicados en ≤ 5 min tras recuperar la conexión / registros generados sin conexión × 100 | Registro de eventos de sincronización y comparación con los registros generados | ≥ 90 % | EC08 |
-| M10 | Tasa de primera tarea autónoma | Usuarios nuevos que completan su primera tarea sin ayuda en ≤ 10 min / participantes × 100 | Cronometraje y registro de solicitudes de ayuda del moderador | ≥ 80 % | EC09 |
-| M11 | Incremento relativo de la tasa de demostraciones calificadas | (Tasa de la variante B − tasa de la variante A) / tasa de la variante A × 100, donde tasa = solicitudes que cumplen los criterios de cliente potencial / visitas únicas × 100 | Analítica web de la Landing Page definida en la sección 8.2.8 y revisión de las solicitudes recibidas | ≥ 20 % | EC10 |
+| ID  | Métrica                                                       | Fórmula                                                                                                                                                                       | Técnica de recolección                                                                                | Meta   | Usada en |
+| --- | ------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- | ------ | -------- |
+| M01 | Tasa de operaciones de inventario correctas al primer intento | Operaciones de entrada o salida registradas correctamente al primer intento / total de operaciones × 100                                                                      | Registro de eventos del prototipo y verificación del stock final contra los datos de prueba           | ≥ 80 % | EC01     |
+| M02 | Tasa de registros de asistencia completos                     | Registros de asistencia sin trabajadores ni estados omitidos / registros intentados × 100                                                                                     | Comparación del registro realizado con la lista de trabajadores de prueba                             | ≥ 90 % | EC02     |
+| M03 | Tasa de identificación oportuna de la tarea crítica           | Supervisores que identifican correctamente la tarea crítica en ≤ 2 min / supervisores evaluados × 100                                                                         | Cronometraje y hoja de observación del moderador                                                      | ≥ 80 % | EC03     |
+| M04 | Tasa de consultas autónomas del contratante                   | Contratantes que localizan el estado y los reportes de su obra sin ayuda en ≤ 3 min / participantes × 100                                                                     | Cronometraje, registro de solicitudes de ayuda y hoja de observación                                  | ≥ 80 % | EC04     |
+| M05 | Tasa de identificación oportuna del origen de un cambio       | Usuarios que identifican correctamente el responsable y la fecha de un movimiento en ≤ 2 min / usuarios evaluados × 100                                                       | Cronometraje y verificación de respuestas contra las discrepancias de prueba                          | ≥ 80 % | EC05     |
+| M06 | Reducción del tiempo mediano de elaboración del reporte       | (Mediana de minutos con el procedimiento manual − mediana de minutos con el prototipo) / mediana de minutos con el procedimiento manual × 100                                 | Cronometraje de cada sesión de elaboración                                                            | ≥ 40 % | EC06     |
+| M07 | Tasa de reportes completos                                    | Reportes que contienen todos los campos obligatorios / reportes elaborados × 100                                                                                              | Lista de verificación de campos obligatorios del reporte semanal                                      | ≥ 90 % | EC06     |
+| M08 | Tasa de detección oportuna de incidencias críticas            | Incidencias simuladas detectadas en ≤ 10 min desde su registro / incidencias simuladas notificadas × 100                                                                      | Registro de la hora del evento y de la hora de detección en el piloto                                 | ≥ 75 % | EC07     |
+| M09 | Tasa de sincronización íntegra                                | Registros sincronizados completos y sin duplicados en ≤ 5 min tras recuperar la conexión / registros generados sin conexión × 100                                             | Registro de eventos de sincronización y comparación con los registros generados                       | ≥ 90 % | EC08     |
+| M10 | Tasa de primera tarea autónoma                                | Usuarios nuevos que completan su primera tarea sin ayuda en ≤ 10 min / participantes × 100                                                                                    | Cronometraje y registro de solicitudes de ayuda del moderador                                         | ≥ 80 % | EC09     |
+| M11 | Incremento relativo de la tasa de demostraciones calificadas  | (Tasa de la variante B − tasa de la variante A) / tasa de la variante A × 100, donde tasa = solicitudes que cumplen los criterios de cliente potencial / visitas únicas × 100 | Analítica web de la Landing Page definida en la sección 8.2.8 y revisión de las solicitudes recibidas | ≥ 20 % | EC10     |
 
 #### Métricas financieras
 
-| ID | Métrica | Fórmula | Técnica de recolección | Meta | Usada en |
-| --- | ------- | ------- | ---------------------- | ---- | -------- |
-| F01 | Ahorro de costo operativo por caso | (Costo por caso en control − costo por caso en la condición experimental) / costo por caso en control × 100, donde costo por caso (S/) = minutos invertidos × tarifa horaria de referencia / 60 | Minutos medidos en cada sesión, multiplicados por la tarifa horaria de referencia | Según la tarjeta: ≥ 15 % (EC03, EC07) o ≥ 20 % (EC01, EC02, EC04, EC05, EC08, EC09) | EC01, EC02, EC03, EC04, EC05, EC07, EC08, EC09 |
-| F02 | Ahorro de costo total por reporte | (Costo del reporte manual − costo del reporte asistido) / costo del reporte manual × 100, donde costo del reporte (S/) = horas de elaboración × tarifa horaria de referencia + costos directos de preparación y validación | Cronometraje de la elaboración y registro de los costos directos de cada reporte | ≥ 30 % | EC06 |
-| F03 | Reducción del costo por prospecto calificado | (Costo por prospecto en A − costo por prospecto en B) / costo por prospecto en A × 100, donde costo por prospecto (S/) = gasto de campaña atribuible a la variante / prospectos calificados de la variante | Registro del gasto de adquisición por variante y de las solicitudes calificadas | ≥ 15 % | EC10 |
+| ID  | Métrica                                      | Fórmula                                                                                                                                                                                                                    | Técnica de recolección                                                            | Meta                                                                                | Usada en                                       |
+| --- | -------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------- | ---------------------------------------------- |
+| F01 | Ahorro de costo operativo por caso           | (Costo por caso en control − costo por caso en la condición experimental) / costo por caso en control × 100, donde costo por caso (S/) = minutos invertidos × tarifa horaria de referencia / 60                            | Minutos medidos en cada sesión, multiplicados por la tarifa horaria de referencia | Según la tarjeta: ≥ 15 % (EC03, EC07) o ≥ 20 % (EC01, EC02, EC04, EC05, EC08, EC09) | EC01, EC02, EC03, EC04, EC05, EC07, EC08, EC09 |
+| F02 | Ahorro de costo total por reporte            | (Costo del reporte manual − costo del reporte asistido) / costo del reporte manual × 100, donde costo del reporte (S/) = horas de elaboración × tarifa horaria de referencia + costos directos de preparación y validación | Cronometraje de la elaboración y registro de los costos directos de cada reporte  | ≥ 30 %                                                                              | EC06                                           |
+| F03 | Reducción del costo por prospecto calificado | (Costo por prospecto en A − costo por prospecto en B) / costo por prospecto en A × 100, donde costo por prospecto (S/) = gasto de campaña atribuible a la variante / prospectos calificados de la variante                 | Registro del gasto de adquisición por variante y de las solicitudes calificadas   | ≥ 15 %                                                                              | EC10                                           |
 
 #### Parámetro de cálculo
 
-| Parámetro | Definición | Regla de uso |
-| --------- | ---------- | ------------ |
+| Parámetro                                  | Definición                                                                                                                                                                                            | Regla de uso                                                                                                                                                                                    |
+| ------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Tarifa horaria de referencia (S/ por hora) | Costo por hora del rol que realiza la tarea (supervisor de obra o personal de apoyo), fijado por el equipo antes de ejecutar los experimentos a partir de una remuneración de referencia del mercado. | Se aplica el mismo valor en la condición de control y en la experimental. Por ello, el ahorro porcentual de F01 y F02 depende de la diferencia de tiempo y no del valor elegido para la tarifa. |
 
 <div style="text-align: justify;">
@@ -8337,18 +8716,18 @@ Esta sección operacionaliza las métricas de negocio M01–M11 y financieras F0
 
 #### Matriz de medidas por experimento
 
-| Experiment Card | Medición del resultado de negocio | Medición financiera | Datos secundarios para interpretar el resultado |
-| --------------- | --------------------------------- | ------------------- | ----------------------------------------------- |
-| EC04 - Panel de contratante | M04: registrar si cada contratante identifica correctamente estado y reportes de su obra sin ayuda en ≤ 3 min. Éxito: ≥ 80 % de participantes. | F01: cronometrar el tiempo de respuesta o apoyo de un supervisor ante consultas de estado y comparar costo por consulta equivalente. Meta: ≥ 20 % de ahorro. | Tiempo total, solicitudes de ayuda y primer elemento consultado (K03). |
-| EC10 - Landing por segmento | M11: registrar visitas únicas de cada variante y solicitudes que cumplen criterios de prospecto calificado definidos antes de exponer el sitio. Comparar tasas de conversión. Meta: incremento relativo ≥ 20 %. | F03: registrar gasto publicitario atribuible y número de prospectos calificados por variante; comparar costo por prospecto. Meta: reducción ≥ 15 %. | Clics de CTA, formularios enviados, criterio de calificación y variante vista. |
-| EC06 - Reporte asistido | M06: medir los minutos de preparación de un reporte comparable y comparar medianas entre condiciones (reducción ≥ 40 %). M07: comprobar campos obligatorios por reporte mediante lista de verificación (completitud ≥ 90 %). | F02: sumar costo del tiempo de elaboración y validación, más costos directos de preparación, y comparar costo total por reporte. Meta: ahorro ≥ 30 %. | Campos omitidos, correcciones y minutos de revisión. |
-| EC07 - Alertas críticas | M08: anotar instante de registro e instante en que se detecta cada incidencia simulada; considerar detección válida en ≤ 10 min. Meta: ≥ 75 %. | F01: medir minutos dedicados a revisar, identificar y confirmar incidencias; comparar costo de seguimiento por caso. Meta: ahorro ≥ 15 %. | Incidencias no detectadas, falsas alarmas y consultas manuales. |
-| EC01 - Materiales guiados | M01: para cada entrada o salida, comparar movimiento y stock final con el patrón y verificar que sea correcto al primer intento. Meta: ≥ 80 % de operaciones. | F01: registrar minutos necesarios para investigar y corregir errores de inventario, con un costo por operación o caso comparable. Meta: ahorro ≥ 20 %. | Tipo de error, número de intentos y duración de la corrección. |
-| EC05 - Historial verificable | M05: por usuario, verificar que identifica responsable y fecha de una discrepancia de referencia correctamente en ≤ 2 min. Meta: ≥ 80 % de usuarios. | F01: cronometrar la investigación de una discrepancia equivalente hasta alcanzar una respuesta correcta y calcular costo por caso. Meta: ahorro ≥ 20 %. | Consultas de ayuda, equivocaciones y desempeño en casos adicionales. |
-| EC02 - Asistencia rápida | M02: comparar cada jornada registrada con una nómina patrón y verificar que ningún trabajador o estado haya sido omitido. Meta: ≥ 90 % de jornadas completas. | F01: medir tiempo de registro y corrección por jornada equivalente, calculando costo administrativo. Meta: ahorro ≥ 20 %. | Omisiones por tipo, correcciones y minutos por jornada. |
-| EC08 - Sin conexión | M09: contar registros generados offline que llegan completos, sin duplicación, en ≤ 5 min desde recuperar conexión. Meta: ≥ 90 %. | F01: cronometrar minutos de reingreso o reparación de registros perdidos y comparar costo de reproceso. Meta: ahorro ≥ 20 %. | Duplicados, pérdida de datos, retrasos y reingresos manuales. El ensayo requiere resolver primero Q11. |
-| EC03 - Tareas prioritarias | M03: por supervisor, verificar la identificación correcta de una tarea crítica de referencia en ≤ 2 min, aplicando la misma regla de prioridad a ambas condiciones. Meta: ≥ 80 %. | F01: cronometrar localización y decisión de la tarea crítica; comparar costo de coordinación por caso. Meta: ahorro ≥ 15 %. | Aciertos, consultas adicionales y tiempo en otros casos. |
-| EC09 - Onboarding por rol | M10: por usuario nuevo, comprobar finalización correcta de la primera tarea sin apoyo en ≤ 10 min. Meta: ≥ 80 %. | F01: medir minutos de apoyo o capacitación prestados durante la primera tarea y comparar costo por usuario. Meta: ahorro ≥ 20 %. | Pasos no comprendidos, solicitudes de ayuda y tiempo hasta completar. |
+| Experiment Card              | Medición del resultado de negocio                                                                                                                                                                                            | Medición financiera                                                                                                                                          | Datos secundarios para interpretar el resultado                                                        |
+| ---------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------ |
+| EC04 - Panel de contratante  | M04: registrar si cada contratante identifica correctamente estado y reportes de su obra sin ayuda en ≤ 3 min. Éxito: ≥ 80 % de participantes.                                                                               | F01: cronometrar el tiempo de respuesta o apoyo de un supervisor ante consultas de estado y comparar costo por consulta equivalente. Meta: ≥ 20 % de ahorro. | Tiempo total, solicitudes de ayuda y primer elemento consultado (K03).                                 |
+| EC10 - Landing por segmento  | M11: registrar visitas únicas de cada variante y solicitudes que cumplen criterios de prospecto calificado definidos antes de exponer el sitio. Comparar tasas de conversión. Meta: incremento relativo ≥ 20 %.              | F03: registrar gasto publicitario atribuible y número de prospectos calificados por variante; comparar costo por prospecto. Meta: reducción ≥ 15 %.          | Clics de CTA, formularios enviados, criterio de calificación y variante vista.                         |
+| EC06 - Reporte asistido      | M06: medir los minutos de preparación de un reporte comparable y comparar medianas entre condiciones (reducción ≥ 40 %). M07: comprobar campos obligatorios por reporte mediante lista de verificación (completitud ≥ 90 %). | F02: sumar costo del tiempo de elaboración y validación, más costos directos de preparación, y comparar costo total por reporte. Meta: ahorro ≥ 30 %.        | Campos omitidos, correcciones y minutos de revisión.                                                   |
+| EC07 - Alertas críticas      | M08: anotar instante de registro e instante en que se detecta cada incidencia simulada; considerar detección válida en ≤ 10 min. Meta: ≥ 75 %.                                                                               | F01: medir minutos dedicados a revisar, identificar y confirmar incidencias; comparar costo de seguimiento por caso. Meta: ahorro ≥ 15 %.                    | Incidencias no detectadas, falsas alarmas y consultas manuales.                                        |
+| EC01 - Materiales guiados    | M01: para cada entrada o salida, comparar movimiento y stock final con el patrón y verificar que sea correcto al primer intento. Meta: ≥ 80 % de operaciones.                                                                | F01: registrar minutos necesarios para investigar y corregir errores de inventario, con un costo por operación o caso comparable. Meta: ahorro ≥ 20 %.       | Tipo de error, número de intentos y duración de la corrección.                                         |
+| EC05 - Historial verificable | M05: por usuario, verificar que identifica responsable y fecha de una discrepancia de referencia correctamente en ≤ 2 min. Meta: ≥ 80 % de usuarios.                                                                         | F01: cronometrar la investigación de una discrepancia equivalente hasta alcanzar una respuesta correcta y calcular costo por caso. Meta: ahorro ≥ 20 %.      | Consultas de ayuda, equivocaciones y desempeño en casos adicionales.                                   |
+| EC02 - Asistencia rápida     | M02: comparar cada jornada registrada con una nómina patrón y verificar que ningún trabajador o estado haya sido omitido. Meta: ≥ 90 % de jornadas completas.                                                                | F01: medir tiempo de registro y corrección por jornada equivalente, calculando costo administrativo. Meta: ahorro ≥ 20 %.                                    | Omisiones por tipo, correcciones y minutos por jornada.                                                |
+| EC08 - Sin conexión          | M09: contar registros generados offline que llegan completos, sin duplicación, en ≤ 5 min desde recuperar conexión. Meta: ≥ 90 %.                                                                                            | F01: cronometrar minutos de reingreso o reparación de registros perdidos y comparar costo de reproceso. Meta: ahorro ≥ 20 %.                                 | Duplicados, pérdida de datos, retrasos y reingresos manuales. El ensayo requiere resolver primero Q11. |
+| EC03 - Tareas prioritarias   | M03: por supervisor, verificar la identificación correcta de una tarea crítica de referencia en ≤ 2 min, aplicando la misma regla de prioridad a ambas condiciones. Meta: ≥ 80 %.                                            | F01: cronometrar localización y decisión de la tarea crítica; comparar costo de coordinación por caso. Meta: ahorro ≥ 15 %.                                  | Aciertos, consultas adicionales y tiempo en otros casos.                                               |
+| EC09 - Onboarding por rol    | M10: por usuario nuevo, comprobar finalización correcta de la primera tarea sin apoyo en ≤ 10 min. Meta: ≥ 80 %.                                                                                                             | F01: medir minutos de apoyo o capacitación prestados durante la primera tarea y comparar costo por usuario. Meta: ahorro ≥ 20 %.                             | Pasos no comprendidos, solicitudes de ayuda y tiempo hasta completar.                                  |
 
 #### Registro, unidades y trazabilidad de la evidencia
 
@@ -8360,37 +8739,36 @@ Los denominadores siguen las definiciones de 8.2.2: participantes para M03, M04,
 
 La comparabilidad de los resultados se sustenta en tareas de dificultad equivalente, criterios de corrección previamente definidos y una misma regla de medición para las condiciones de control y experimental. En los diseños donde una persona utiliza ambas alternativas se contempla el contrabalanceo del orden de exposición; en las comparaciones entre grupos se conserva la asignación de una sola variante por participante. Las variantes implementadas mediante prototipos constituyen condiciones de experimentación y no se equiparan a funcionalidades validadas en producción. Las metas descritas representan umbrales de evaluación predefinidos; su cumplimiento se determina exclusivamente a partir de los datos obtenidos durante la ejecución de los experimentos.
 
-
 ### 8.2.4. Conditions
 
 Las condiciones de experimentación de ArquiTech se organizan en dos alternativas: la condición A representa el procedimiento o la interfaz de referencia, mientras que la condición B incorpora la intervención cuya contribución se evalúa. Ambas se comparan mediante las medidas establecidas en 8.2.3, de acuerdo con las hipótesis de 8.2.1 y las Experiment Cards de 8.1.5. Esta definición corresponde al diseño de los ensayos; no constituye evidencia de que las variantes propuestas se encuentren desplegadas ni de que las pruebas se hayan ejecutado.
 
 #### Condiciones de control y experimentales
 
-| Experimento | Condición A: control | Condición B: experimental | Elementos equivalentes para la comparación |
-| ----------- | -------------------- | ------------------------- | ------------------------------------------ |
-| EC04 - Panel de seguimiento del contratante | Consulta del estado de obra y reportes desde la interfaz actual de ArquiTech, sin un panel de seguimiento simplificado. | Prototipo de panel que presenta de forma directa el estado, los avances y los reportes del proyecto para el rol contratante. | Obras ficticias con información equivalente, permisos del contratante, objetivos de consulta, dispositivo y criterios de respuesta correcta. |
-| EC10 - Landing Page por segmento | Landing Page actual, con presentación general de beneficios y llamada a la acción existente. | Variante que diferencia beneficios y llamada a la acción para supervisores y contratantes, orientada a solicitar una demostración. | Mismo periodo de evaluación, fuentes de tráfico comparables, presupuesto de adquisición equivalente por variante y criterio uniforme de prospecto calificado. Cada visitante queda expuesto a una sola alternativa. |
-| EC06 - Reporte semanal asistido | Elaboración manual del reporte semanal mediante recopilación y consolidación de registros de obra. | Prototipo que genera de forma asistida el reporte semanal a partir de información previamente registrada en ArquiTech. | Conjuntos de datos de complejidad equivalente, periodo semanal, campos obligatorios, formato de salida y regla de verificación de completitud. |
-| EC07 - Alertas de incidencias críticas | Identificación de incidencias mediante revisión periódica de la plataforma, sin avisos prioritarios durante el ensayo. | Presentación de avisos prioritarios de incidencias críticas para facilitar su detección oportuna. | Incidencias simuladas con severidad y cantidad equivalentes, acceso al mismo proyecto ficticio y criterios uniformes para registrar el momento de detección. |
-| EC01 - Registro guiado de materiales | Flujo actual de registro de entradas y usos de materiales de ArquiTech. | Prototipo de registro guiado que destaca la cantidad, el stock disponible y la validación previa a confirmar un movimiento. | Materiales ficticios, stock inicial, cantidades a ingresar o consumir, restricciones de negocio y resultado esperado de cada operación. |
-| EC05 - Historial verificable de movimientos | Consulta de movimientos desde la vista actual del historial de materiales. | Prototipo de historial enriquecido con responsable y fecha visibles para cada movimiento. | Discrepancias ficticias de dificultad equivalente, historial de referencia y respuestas correctas predeterminadas para responsable y fecha. |
-| EC02 - Registro rápido de asistencia | Registro de asistencia desde el formulario actual de ArquiTech. | Prototipo de lista rápida para registrar los estados de asistencia del personal de una obra en una sola vista. | Nóminas ficticias de doce trabajadores, estados esperados, jornada, reglas de registro y criterio de completitud. |
-| EC08 - Borradores sin conexión | Aplicación actual sin almacenamiento de borradores offline ni sincronización posterior; ante una interrupción se observa la recuperación manual de registros. | Prototipo que conserva borradores localmente durante la desconexión y los sincroniza al restablecer la conectividad. | Cinco intentos de registro por versión, datos ficticios equivalentes, mismo dispositivo y patrón de interrupción y restauración de red. |
-| EC03 - Tablero de tareas prioritarias | Localización de tareas críticas desde el listado actual de tareas del proyecto. | Prototipo de tablero que destaca prioridad, vencimiento y estado de las tareas para facilitar la identificación de la más urgente. | Cinco casos equivalentes por versión, mismos criterios para determinar prioridad, volumen de tareas y respuestas correctas. |
-| EC09 - Guía de primeros pasos por rol | Primer ingreso a ArquiTech sin una guía interactiva de orientación. | Primer ingreso con una guía de pasos adaptada al rol para completar una tarea inicial del proyecto y sus materiales. | Usuarios sin experiencia previa con el flujo evaluado, tarea inicial equivalente, permisos de rol, entorno de acceso y criterios de finalización autónoma. |
+| Experimento                                 | Condición A: control                                                                                                                                          | Condición B: experimental                                                                                                          | Elementos equivalentes para la comparación                                                                                                                                                                          |
+| ------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| EC04 - Panel de seguimiento del contratante | Consulta del estado de obra y reportes desde la interfaz actual de ArquiTech, sin un panel de seguimiento simplificado.                                       | Prototipo de panel que presenta de forma directa el estado, los avances y los reportes del proyecto para el rol contratante.       | Obras ficticias con información equivalente, permisos del contratante, objetivos de consulta, dispositivo y criterios de respuesta correcta.                                                                        |
+| EC10 - Landing Page por segmento            | Landing Page actual, con presentación general de beneficios y llamada a la acción existente.                                                                  | Variante que diferencia beneficios y llamada a la acción para supervisores y contratantes, orientada a solicitar una demostración. | Mismo periodo de evaluación, fuentes de tráfico comparables, presupuesto de adquisición equivalente por variante y criterio uniforme de prospecto calificado. Cada visitante queda expuesto a una sola alternativa. |
+| EC06 - Reporte semanal asistido             | Elaboración manual del reporte semanal mediante recopilación y consolidación de registros de obra.                                                            | Prototipo que genera de forma asistida el reporte semanal a partir de información previamente registrada en ArquiTech.             | Conjuntos de datos de complejidad equivalente, periodo semanal, campos obligatorios, formato de salida y regla de verificación de completitud.                                                                      |
+| EC07 - Alertas de incidencias críticas      | Identificación de incidencias mediante revisión periódica de la plataforma, sin avisos prioritarios durante el ensayo.                                        | Presentación de avisos prioritarios de incidencias críticas para facilitar su detección oportuna.                                  | Incidencias simuladas con severidad y cantidad equivalentes, acceso al mismo proyecto ficticio y criterios uniformes para registrar el momento de detección.                                                        |
+| EC01 - Registro guiado de materiales        | Flujo actual de registro de entradas y usos de materiales de ArquiTech.                                                                                       | Prototipo de registro guiado que destaca la cantidad, el stock disponible y la validación previa a confirmar un movimiento.        | Materiales ficticios, stock inicial, cantidades a ingresar o consumir, restricciones de negocio y resultado esperado de cada operación.                                                                             |
+| EC05 - Historial verificable de movimientos | Consulta de movimientos desde la vista actual del historial de materiales.                                                                                    | Prototipo de historial enriquecido con responsable y fecha visibles para cada movimiento.                                          | Discrepancias ficticias de dificultad equivalente, historial de referencia y respuestas correctas predeterminadas para responsable y fecha.                                                                         |
+| EC02 - Registro rápido de asistencia        | Registro de asistencia desde el formulario actual de ArquiTech.                                                                                               | Prototipo de lista rápida para registrar los estados de asistencia del personal de una obra en una sola vista.                     | Nóminas ficticias de doce trabajadores, estados esperados, jornada, reglas de registro y criterio de completitud.                                                                                                   |
+| EC08 - Borradores sin conexión              | Aplicación actual sin almacenamiento de borradores offline ni sincronización posterior; ante una interrupción se observa la recuperación manual de registros. | Prototipo que conserva borradores localmente durante la desconexión y los sincroniza al restablecer la conectividad.               | Cinco intentos de registro por versión, datos ficticios equivalentes, mismo dispositivo y patrón de interrupción y restauración de red.                                                                             |
+| EC03 - Tablero de tareas prioritarias       | Localización de tareas críticas desde el listado actual de tareas del proyecto.                                                                               | Prototipo de tablero que destaca prioridad, vencimiento y estado de las tareas para facilitar la identificación de la más urgente. | Cinco casos equivalentes por versión, mismos criterios para determinar prioridad, volumen de tareas y respuestas correctas.                                                                                         |
+| EC09 - Guía de primeros pasos por rol       | Primer ingreso a ArquiTech sin una guía interactiva de orientación.                                                                                           | Primer ingreso con una guía de pasos adaptada al rol para completar una tarea inicial del proyecto y sus materiales.               | Usuarios sin experiencia previa con el flujo evaluado, tarea inicial equivalente, permisos de rol, entorno de acceso y criterios de finalización autónoma.                                                          |
 
 #### Asignación y secuencia de exposición
 
 Los diseños se diferencian según la posibilidad de repetir tareas sin alterar su interpretación. En las comparaciones dentro de un mismo participante, los escenarios se construyen con información equivalente pero no idéntica, para reducir el efecto de memorizar respuestas.
 
-| Diseño | Experimentos | Condición de asignación |
-| ------ | ------------ | ----------------------- |
-| Comparación intra-sujeto con orden contrabalanceado | EC01, EC02, EC03, EC04, EC05 y EC06 | Cada participante utiliza A y B. La mitad inicia por A y la otra mitad por B. Se emplean casos de dificultad equivalente y se asocian las observaciones al mismo identificador de participante. |
-| Comparación intra-sujeto con desconexión simulada | EC08 | Los participantes afrontan intentos de registro equivalentes en A y B, alternando el orden. El indicador M09 mide la sincronización íntegra del prototipo B; A proporciona la referencia del esfuerzo de recuperación y reproceso para F01, sin atribuirle una capacidad de sincronización que no posee. |
-| Piloto con exposición alternada | EC07 | Durante las dos semanas planteadas en la Experiment Card, los participantes se distribuyen entre secuencias A-B y B-A. En cada periodo se presentan incidencias simuladas diferentes pero comparables, evitando reutilizar eventos ya conocidos. La unidad de análisis de M08 es la incidencia simulada, sin tratar las observaciones repetidas de una misma persona como independientes. |
-| Comparación entre grupos independientes | EC09 | La asignación aleatoria distribuye a los usuarios nuevos entre A y B. Cada participante completa una única versión para evitar que la experiencia con el primer recorrido facilite artificialmente el segundo. |
-| Test A/B de tráfico web | EC10 | Cada visitante único se asigna a A o B y mantiene la misma variante en visitas posteriores identificables. La evaluación de conversiones distingue visitas de solicitudes calificadas y utiliza el gasto atribuible a cada variante. |
+| Diseño                                              | Experimentos                        | Condición de asignación                                                                                                                                                                                                                                                                                                                                                                   |
+| --------------------------------------------------- | ----------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Comparación intra-sujeto con orden contrabalanceado | EC01, EC02, EC03, EC04, EC05 y EC06 | Cada participante utiliza A y B. La mitad inicia por A y la otra mitad por B. Se emplean casos de dificultad equivalente y se asocian las observaciones al mismo identificador de participante.                                                                                                                                                                                           |
+| Comparación intra-sujeto con desconexión simulada   | EC08                                | Los participantes afrontan intentos de registro equivalentes en A y B, alternando el orden. El indicador M09 mide la sincronización íntegra del prototipo B; A proporciona la referencia del esfuerzo de recuperación y reproceso para F01, sin atribuirle una capacidad de sincronización que no posee.                                                                                  |
+| Piloto con exposición alternada                     | EC07                                | Durante las dos semanas planteadas en la Experiment Card, los participantes se distribuyen entre secuencias A-B y B-A. En cada periodo se presentan incidencias simuladas diferentes pero comparables, evitando reutilizar eventos ya conocidos. La unidad de análisis de M08 es la incidencia simulada, sin tratar las observaciones repetidas de una misma persona como independientes. |
+| Comparación entre grupos independientes             | EC09                                | La asignación aleatoria distribuye a los usuarios nuevos entre A y B. Cada participante completa una única versión para evitar que la experiencia con el primer recorrido facilite artificialmente el segundo.                                                                                                                                                                            |
+| Test A/B de tráfico web                             | EC10                                | Cada visitante único se asigna a A o B y mantiene la misma variante en visitas posteriores identificables. La evaluación de conversiones distingue visitas de solicitudes calificadas y utiliza el gasto atribuible a cada variante.                                                                                                                                                      |
 
 Los tamaños propuestos en las Experiment Cards constituyen la escala inicial del diseño: ocho participantes para los ensayos de tareas EC01–EC06 y EC08; doce participantes para EC07 y EC09; y una referencia de al menos doscientas visitas únicas por variante en EC10, condicionada al tráfico disponible. La suficiencia de estas cantidades y las decisiones estadísticas se examinan en 8.2.5; por ello, el número de tareas, registros o incidencias no se confunde con el número de participantes independientes.
 
@@ -8405,7 +8783,6 @@ Los tamaños propuestos en las Experiment Cards constituyen la escala inicial de
 
 Las condiciones definidas permiten atribuir las diferencias observadas a la intervención con mayor claridad, aunque no eliminan por completo sesgos de selección, aprendizaje o contexto. Las conclusiones sobre el efecto de ArquiTech corresponden a las observaciones obtenidas durante la experimentación, no a la formulación previa de las condiciones.
 
-
 ### 8.2.5. Scale Calculations and Decisions
 
 El dimensionamiento de los experimentos se establece a partir de las unidades de análisis definidas en 8.2.3 y de las condiciones de comparación descritas en 8.2.4. La escala de las Experiment Cards de 8.1.5 corresponde a una evaluación piloto de factibilidad, comprensión de los flujos y estimación inicial de sus efectos. La cantidad de tareas o registros recopilados no equivale al número de participantes independientes y, por tanto, no incrementa de manera automática la potencia estadística.
@@ -8419,18 +8796,18 @@ El dimensionamiento de los experimentos se establece a partir de las unidades de
 
 #### Cálculo por experimento
 
-| Experimento | Escala y unidad de análisis | Cálculo del umbral de negocio en la condición B | Criterio financiero o complementario |
-| ----------- | --------------------------- | ------------------------------------------------ | ------------------------------------ |
-| EC04 - Panel de seguimiento | 8 contratantes, con una consulta de referencia por condición y participante. | M04: techo(8 × 0,80) = 7 participantes; 7/8 representa 87,5 %. | F01: ahorro del costo de atención por consulta ≥ 20 %. |
-| EC10 - Landing Page por segmento | Referencia inicial de 200 visitas únicas en A y 200 en B; grupos independientes. | M11: tasa de B al menos 1,20 veces la tasa de A; el número de prospectos necesario depende de la conversión de control. | F03: costo por prospecto calificado de B ≤ 0,85 veces el de A. |
-| EC06 - Reporte asistido | 8 supervisores; 8 reportes en A y 8 en B, uno por persona y condición. | M06: mediana del tiempo en B ≤ 0,60 veces la mediana en A. M07: techo(8 × 0,90) = 8 reportes completos en B. | F02: ahorro del costo total por reporte ≥ 30 %. La completitud M07 opera como restricción de calidad. |
-| EC07 - Alertas de incidencias | 12 participantes durante dos semanas; la unidad de M08 es cada incidencia simulada evaluable. | M08: techo(NB × 0,75) incidencias detectadas en ≤ 10 minutos, donde NB es el total de incidencias simuladas en B. Si NB = 12, corresponden 9 detecciones oportunas. | F01: ahorro del costo de seguimiento por incidencia ≥ 15 %. Las incidencias de una misma persona se agrupan en el análisis. |
-| EC01 - Registro de materiales | 8 supervisores × 6 operaciones por versión: 48 operaciones en A y 48 en B. | M01: techo(48 × 0,80) = 39 operaciones correctas al primer intento en B; 39/48 representa 81,25 %. | F01: ahorro del costo de corrección por caso comparable ≥ 20 %. Las seis operaciones de una persona no se tratan como seis usuarios. |
-| EC05 - Historial de movimientos | 8 usuarios × 5 discrepancias por versión; identificación de referencia por participante para M05. | M05: techo(8 × 0,80) = 7 usuarios que identifican correctamente el origen del cambio en ≤ 2 minutos. | F01: ahorro del costo de investigación por discrepancia ≥ 20 %. Los casos adicionales aportan evidencia complementaria. |
-| EC02 - Registro de asistencia | 8 supervisores × 1 jornada de 12 trabajadores por versión: 8 jornadas en A y 8 en B. | M02: techo(8 × 0,90) = 8 jornadas completas en B. Los 12 trabajadores no se cuentan como 12 jornadas independientes. | F01: ahorro del costo de registro y corrección por jornada ≥ 20 %. |
-| EC08 - Registros sin conexión | 8 supervisores × 5 registros en cada versión; 40 registros generados en B. | M09: techo(40 × 0,90) = 36 registros íntegros, sin duplicados y sincronizados en ≤ 5 minutos. | F01: ahorro del costo de reproceso ≥ 20 %. M09 corresponde al prototipo B; A sirve como referencia de recuperación manual. |
-| EC03 - Tareas prioritarias | 8 supervisores × 5 casos por versión; una identificación de referencia por participante para M03. | M03: techo(8 × 0,80) = 7 supervisores que identifican la tarea crítica correcta en ≤ 2 minutos. | F01: ahorro del costo de coordinación por caso ≥ 15 %. Los casos adicionales permiten describir errores y tiempos. |
-| EC09 - Guía de primeros pasos | 12 usuarios nuevos divididos en dos grupos independientes de 6; cada usuario utiliza una versión. | M10: techo(6 × 0,80) = 5 usuarios autónomos en B; 5/6 representa 83,33 %. | F01: ahorro del costo de capacitación por usuario ≥ 20 % frente a A. |
+| Experimento                      | Escala y unidad de análisis                                                                       | Cálculo del umbral de negocio en la condición B                                                                                                                     | Criterio financiero o complementario                                                                                                 |
+| -------------------------------- | ------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------ |
+| EC04 - Panel de seguimiento      | 8 contratantes, con una consulta de referencia por condición y participante.                      | M04: techo(8 × 0,80) = 7 participantes; 7/8 representa 87,5 %.                                                                                                      | F01: ahorro del costo de atención por consulta ≥ 20 %.                                                                               |
+| EC10 - Landing Page por segmento | Referencia inicial de 200 visitas únicas en A y 200 en B; grupos independientes.                  | M11: tasa de B al menos 1,20 veces la tasa de A; el número de prospectos necesario depende de la conversión de control.                                             | F03: costo por prospecto calificado de B ≤ 0,85 veces el de A.                                                                       |
+| EC06 - Reporte asistido          | 8 supervisores; 8 reportes en A y 8 en B, uno por persona y condición.                            | M06: mediana del tiempo en B ≤ 0,60 veces la mediana en A. M07: techo(8 × 0,90) = 8 reportes completos en B.                                                        | F02: ahorro del costo total por reporte ≥ 30 %. La completitud M07 opera como restricción de calidad.                                |
+| EC07 - Alertas de incidencias    | 12 participantes durante dos semanas; la unidad de M08 es cada incidencia simulada evaluable.     | M08: techo(NB × 0,75) incidencias detectadas en ≤ 10 minutos, donde NB es el total de incidencias simuladas en B. Si NB = 12, corresponden 9 detecciones oportunas. | F01: ahorro del costo de seguimiento por incidencia ≥ 15 %. Las incidencias de una misma persona se agrupan en el análisis.          |
+| EC01 - Registro de materiales    | 8 supervisores × 6 operaciones por versión: 48 operaciones en A y 48 en B.                        | M01: techo(48 × 0,80) = 39 operaciones correctas al primer intento en B; 39/48 representa 81,25 %.                                                                  | F01: ahorro del costo de corrección por caso comparable ≥ 20 %. Las seis operaciones de una persona no se tratan como seis usuarios. |
+| EC05 - Historial de movimientos  | 8 usuarios × 5 discrepancias por versión; identificación de referencia por participante para M05. | M05: techo(8 × 0,80) = 7 usuarios que identifican correctamente el origen del cambio en ≤ 2 minutos.                                                                | F01: ahorro del costo de investigación por discrepancia ≥ 20 %. Los casos adicionales aportan evidencia complementaria.              |
+| EC02 - Registro de asistencia    | 8 supervisores × 1 jornada de 12 trabajadores por versión: 8 jornadas en A y 8 en B.              | M02: techo(8 × 0,90) = 8 jornadas completas en B. Los 12 trabajadores no se cuentan como 12 jornadas independientes.                                                | F01: ahorro del costo de registro y corrección por jornada ≥ 20 %.                                                                   |
+| EC08 - Registros sin conexión    | 8 supervisores × 5 registros en cada versión; 40 registros generados en B.                        | M09: techo(40 × 0,90) = 36 registros íntegros, sin duplicados y sincronizados en ≤ 5 minutos.                                                                       | F01: ahorro del costo de reproceso ≥ 20 %. M09 corresponde al prototipo B; A sirve como referencia de recuperación manual.           |
+| EC03 - Tareas prioritarias       | 8 supervisores × 5 casos por versión; una identificación de referencia por participante para M03. | M03: techo(8 × 0,80) = 7 supervisores que identifican la tarea crítica correcta en ≤ 2 minutos.                                                                     | F01: ahorro del costo de coordinación por caso ≥ 15 %. Los casos adicionales permiten describir errores y tiempos.                   |
+| EC09 - Guía de primeros pasos    | 12 usuarios nuevos divididos en dos grupos independientes de 6; cada usuario utiliza una versión. | M10: techo(6 × 0,80) = 5 usuarios autónomos en B; 5/6 representa 83,33 %.                                                                                           | F01: ahorro del costo de capacitación por usuario ≥ 20 % frente a A.                                                                 |
 
 #### Precisión de las proporciones y tamaño de muestra
 
@@ -8478,25 +8855,24 @@ El tamaño confirmatorio de EC10 se recalcula a partir de una línea base real, 
 
 La escala piloto propuesta permite identificar dificultades operativas, obtener primeras estimaciones de desempeño y orientar decisiones de diseño. La confirmación de mejoras generalizables requiere una muestra dimensionada para la variabilidad y el efecto que se desea detectar, además de condiciones de comparación reproducibles.
 
-
 ### 8.2.6. Methods Selection
 
 La selección de métodos de ArquiTech combina experimentos comparativos de tareas, simulaciones controladas y una prueba A/B de conversión. Cada método responde a la naturaleza de la pregunta formulada en 8.1.3 y a las condiciones definidas en 8.2.4. El enfoque principal es cuantitativo, mediante los indicadores M01–M11 y F01–F03 establecidos en 8.2.2; la observación estructurada aporta evidencia complementaria sobre errores, solicitudes de ayuda y dificultades de interacción. Los diseños descritos corresponden a la fase experimental y no constituyen resultados de pruebas ya ejecutadas.
 
 #### Métodos seleccionados por experimento
 
-| Experimento | Método | Procedimiento de evaluación | Justificación de la selección | Instrumentos y evidencias |
-| ----------- | ------ | --------------------------- | ----------------------------- | ------------------------ |
-| EC04 - Panel de seguimiento del contratante | Prueba de tareas moderada y comparativa, con diseño intra-sujeto y orden contrabalanceado. | Ocho contratantes consultan el estado y los reportes de obras ficticias en la interfaz actual (A) y en un prototipo de panel simplificado (B), con casos equivalentes. Se registra si encuentran la información correcta sin ayuda en tres minutos o menos. | Permite observar directamente la autonomía del contratante sin depender de opiniones declaradas y comparar el costo de las consultas de apoyo. | Guion de tareas, cronómetro, lista de respuestas esperadas, hoja de observación y registro del tiempo de apoyo. Métricas M04 y F01. |
-| EC10 - Landing Page por segmento | Experimento A/B de conversión con visitantes únicos asignados a una variante. | El tráfico elegible se distribuye entre la Landing Page actual (A) y la versión con mensajes por segmento (B). Se registran visitas únicas, solicitudes de demostración calificadas y gasto atribuible por variante, manteniendo la exposición consistente para cada visitante. | Evalúa un comportamiento verificable de adquisición y permite comparar la tasa de conversión y el costo por prospecto bajo condiciones comerciales equivalentes. | Registro de variante y visita seudonimizada, eventos de llamada a la acción, solicitudes calificadas y registro de inversión. Métricas M11 y F03. |
-| EC06 - Generación asistida de reportes | Prueba comparativa de elaboración de reportes, con diseño intra-sujeto y orden contrabalanceado. | Ocho supervisores elaboran un reporte semanal mediante consolidación manual (A) y otro mediante el prototipo asistido (B), usando periodos y datos de complejidad equivalente. Se mide el tiempo, se verifican los campos obligatorios y se calcula el costo total por reporte. | La observación de una entrega concreta permite comparar eficiencia sin considerar válido un ahorro obtenido a costa de información incompleta. | Datos de obra ficticios, plantilla de reporte, cronómetro, lista de verificación de campos y registro de costos. Métricas M06, M07 y F02. |
-| EC07 - Alertas de incidencias críticas | Piloto controlado con incidencias simuladas y exposición alternada a dos condiciones. | Durante dos semanas se presentan incidencias ficticias comparables. La condición A utiliza revisión periódica y la condición B incorpora avisos prioritarios. Se registra la hora del evento, el reconocimiento de la incidencia y los minutos dedicados al seguimiento, alternando la secuencia de exposición. | Permite medir detección oportuna y esfuerzo de supervisión sin generar emergencias reales ni depender exclusivamente del recuerdo del participante. | Bitácora de incidencias simuladas, marcas de tiempo, registros de detección y hoja de actividad del participante. Métricas M08 y F01. |
-| EC01 - Registro guiado de materiales | Prueba de tareas moderada con comparación intra-sujeto y datos controlados. | Ocho supervisores realizan seis entradas o usos de materiales por condición, primero en A o B según una secuencia contrabalanceada. Cada operación se contrasta con el movimiento y el stock esperados; también se registra el esfuerzo de corrección. | Las operaciones de inventario tienen un resultado objetivo que permite identificar errores al primer intento y cuantificar el reproceso. | Guion de operaciones, inventario inicial ficticio, movimientos esperados, registro de intentos, cronómetro y hoja de errores. Métricas M01 y F01. |
-| EC05 - Historial verificable de movimientos | Prueba de búsqueda y verificación de información con comparación intra-sujeto. | Ocho usuarios resuelven cinco discrepancias por versión. El control muestra el historial actual y el prototipo incorpora responsable y fecha visibles. La evaluación principal toma una tarea de referencia por usuario y verifica respuesta correcta y tiempo empleado. | Contrasta la facilidad para localizar la procedencia de un movimiento mediante respuestas verificables y el costo de investigar discrepancias. | Historiales de prueba, ficha de discrepancias y respuestas esperadas, cronómetro y registro de consultas de ayuda. Métricas M05 y F01. |
-| EC02 - Registro rápido de asistencia | Prueba de tareas moderada con comparación intra-sujeto. | Ocho supervisores registran una jornada ficticia de doce trabajadores en el formulario actual (A) y en una lista rápida (B). Los datos registrados se comparan con una nómina patrón y se cronometra el trabajo administrativo. | La completitud se comprueba contra datos conocidos y permite medir el efecto del diseño de entrada sobre omisiones y esfuerzo. | Nómina patrón, estados esperados, cronómetro, comparación de registros y ficha de correcciones. Métricas M02 y F01. |
-| EC08 - Borradores sin conexión | Simulación técnica controlada de pérdida y recuperación de conectividad, con tareas de usuario. | Ocho supervisores realizan cinco intentos de registro por condición bajo interrupciones equivalentes. En A se observa la recuperación manual; en B se evalúa el guardado local y la sincronización después de restablecer la red. El éxito de sincronización M09 se determina únicamente para B. | Aísla el efecto de la recuperación de conectividad y permite comprobar integridad, duplicación y costo de reproceso con datos reproducibles. | Dispositivo y entorno de ensayo, perfil de desconexión, identificadores de registros, marcas de reconexión, comparación de datos y cronómetro. Métricas M09 y F01. |
-| EC03 - Tablero de tareas prioritarias | Prueba de identificación de tareas con comparación intra-sujeto. | Ocho supervisores resuelven cinco casos de prioridad por versión, alternando A y B. La métrica principal comprueba una identificación de referencia por usuario en dos minutos o menos; los casos restantes aportan información sobre errores y tiempo de búsqueda. | Permite comprobar si la jerarquía visual facilita reconocer una tarea crítica con una regla de prioridad establecida. | Conjunto ficticio de tareas, regla de prioridad, respuestas esperadas, cronómetro y ficha de consultas adicionales. Métricas M03 y F01. |
-| EC09 - Guía de primeros pasos por rol | Prueba A/B de incorporación inicial, aleatorizada entre grupos independientes. | Doce usuarios sin experiencia previa se distribuyen en dos grupos de seis. El grupo A realiza su primera tarea sin guía y el grupo B utiliza el recorrido guiado. Cada participante accede a una sola condición y se registra la autonomía, el tiempo y el apoyo requerido. | Evita que el aprendizaje de una primera versión contamine la evaluación de la otra y mide el primer uso efectivo del producto. | Guion de tarea inicial, hoja de asignación, cronómetro, verificación de finalización y registro de asistencia. Métricas M10 y F01. |
+| Experimento                                 | Método                                                                                           | Procedimiento de evaluación                                                                                                                                                                                                                                                                                     | Justificación de la selección                                                                                                                                    | Instrumentos y evidencias                                                                                                                                          |
+| ------------------------------------------- | ------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| EC04 - Panel de seguimiento del contratante | Prueba de tareas moderada y comparativa, con diseño intra-sujeto y orden contrabalanceado.       | Ocho contratantes consultan el estado y los reportes de obras ficticias en la interfaz actual (A) y en un prototipo de panel simplificado (B), con casos equivalentes. Se registra si encuentran la información correcta sin ayuda en tres minutos o menos.                                                     | Permite observar directamente la autonomía del contratante sin depender de opiniones declaradas y comparar el costo de las consultas de apoyo.                   | Guion de tareas, cronómetro, lista de respuestas esperadas, hoja de observación y registro del tiempo de apoyo. Métricas M04 y F01.                                |
+| EC10 - Landing Page por segmento            | Experimento A/B de conversión con visitantes únicos asignados a una variante.                    | El tráfico elegible se distribuye entre la Landing Page actual (A) y la versión con mensajes por segmento (B). Se registran visitas únicas, solicitudes de demostración calificadas y gasto atribuible por variante, manteniendo la exposición consistente para cada visitante.                                 | Evalúa un comportamiento verificable de adquisición y permite comparar la tasa de conversión y el costo por prospecto bajo condiciones comerciales equivalentes. | Registro de variante y visita seudonimizada, eventos de llamada a la acción, solicitudes calificadas y registro de inversión. Métricas M11 y F03.                  |
+| EC06 - Generación asistida de reportes      | Prueba comparativa de elaboración de reportes, con diseño intra-sujeto y orden contrabalanceado. | Ocho supervisores elaboran un reporte semanal mediante consolidación manual (A) y otro mediante el prototipo asistido (B), usando periodos y datos de complejidad equivalente. Se mide el tiempo, se verifican los campos obligatorios y se calcula el costo total por reporte.                                 | La observación de una entrega concreta permite comparar eficiencia sin considerar válido un ahorro obtenido a costa de información incompleta.                   | Datos de obra ficticios, plantilla de reporte, cronómetro, lista de verificación de campos y registro de costos. Métricas M06, M07 y F02.                          |
+| EC07 - Alertas de incidencias críticas      | Piloto controlado con incidencias simuladas y exposición alternada a dos condiciones.            | Durante dos semanas se presentan incidencias ficticias comparables. La condición A utiliza revisión periódica y la condición B incorpora avisos prioritarios. Se registra la hora del evento, el reconocimiento de la incidencia y los minutos dedicados al seguimiento, alternando la secuencia de exposición. | Permite medir detección oportuna y esfuerzo de supervisión sin generar emergencias reales ni depender exclusivamente del recuerdo del participante.              | Bitácora de incidencias simuladas, marcas de tiempo, registros de detección y hoja de actividad del participante. Métricas M08 y F01.                              |
+| EC01 - Registro guiado de materiales        | Prueba de tareas moderada con comparación intra-sujeto y datos controlados.                      | Ocho supervisores realizan seis entradas o usos de materiales por condición, primero en A o B según una secuencia contrabalanceada. Cada operación se contrasta con el movimiento y el stock esperados; también se registra el esfuerzo de corrección.                                                          | Las operaciones de inventario tienen un resultado objetivo que permite identificar errores al primer intento y cuantificar el reproceso.                         | Guion de operaciones, inventario inicial ficticio, movimientos esperados, registro de intentos, cronómetro y hoja de errores. Métricas M01 y F01.                  |
+| EC05 - Historial verificable de movimientos | Prueba de búsqueda y verificación de información con comparación intra-sujeto.                   | Ocho usuarios resuelven cinco discrepancias por versión. El control muestra el historial actual y el prototipo incorpora responsable y fecha visibles. La evaluación principal toma una tarea de referencia por usuario y verifica respuesta correcta y tiempo empleado.                                        | Contrasta la facilidad para localizar la procedencia de un movimiento mediante respuestas verificables y el costo de investigar discrepancias.                   | Historiales de prueba, ficha de discrepancias y respuestas esperadas, cronómetro y registro de consultas de ayuda. Métricas M05 y F01.                             |
+| EC02 - Registro rápido de asistencia        | Prueba de tareas moderada con comparación intra-sujeto.                                          | Ocho supervisores registran una jornada ficticia de doce trabajadores en el formulario actual (A) y en una lista rápida (B). Los datos registrados se comparan con una nómina patrón y se cronometra el trabajo administrativo.                                                                                 | La completitud se comprueba contra datos conocidos y permite medir el efecto del diseño de entrada sobre omisiones y esfuerzo.                                   | Nómina patrón, estados esperados, cronómetro, comparación de registros y ficha de correcciones. Métricas M02 y F01.                                                |
+| EC08 - Borradores sin conexión              | Simulación técnica controlada de pérdida y recuperación de conectividad, con tareas de usuario.  | Ocho supervisores realizan cinco intentos de registro por condición bajo interrupciones equivalentes. En A se observa la recuperación manual; en B se evalúa el guardado local y la sincronización después de restablecer la red. El éxito de sincronización M09 se determina únicamente para B.                | Aísla el efecto de la recuperación de conectividad y permite comprobar integridad, duplicación y costo de reproceso con datos reproducibles.                     | Dispositivo y entorno de ensayo, perfil de desconexión, identificadores de registros, marcas de reconexión, comparación de datos y cronómetro. Métricas M09 y F01. |
+| EC03 - Tablero de tareas prioritarias       | Prueba de identificación de tareas con comparación intra-sujeto.                                 | Ocho supervisores resuelven cinco casos de prioridad por versión, alternando A y B. La métrica principal comprueba una identificación de referencia por usuario en dos minutos o menos; los casos restantes aportan información sobre errores y tiempo de búsqueda.                                             | Permite comprobar si la jerarquía visual facilita reconocer una tarea crítica con una regla de prioridad establecida.                                            | Conjunto ficticio de tareas, regla de prioridad, respuestas esperadas, cronómetro y ficha de consultas adicionales. Métricas M03 y F01.                            |
+| EC09 - Guía de primeros pasos por rol       | Prueba A/B de incorporación inicial, aleatorizada entre grupos independientes.                   | Doce usuarios sin experiencia previa se distribuyen en dos grupos de seis. El grupo A realiza su primera tarea sin guía y el grupo B utiliza el recorrido guiado. Cada participante accede a una sola condición y se registra la autonomía, el tiempo y el apoyo requerido.                                     | Evita que el aprendizaje de una primera versión contamine la evaluación de la otra y mide el primer uso efectivo del producto.                                   | Guion de tarea inicial, hoja de asignación, cronómetro, verificación de finalización y registro de asistencia. Métricas M10 y F01.                                 |
 
 #### Procedimiento metodológico común
 
@@ -8509,16 +8885,15 @@ La selección de métodos de ArquiTech combina experimentos comparativos de tare
 
 #### Técnicas de análisis y criterios de elección
 
-| Tipo de evidencia | Técnica seleccionada | Aplicación e interpretación |
-| ----------------- | ------------------- | -------------------------- |
-| Proporciones de éxito | Conteos, porcentajes y, para medidas por participante, intervalos de Wilson al 95 %. | M01–M05, M07–M10, respetando el denominador específico de cada indicador. Los intervalos de proporciones basadas en casos repetidos requieren considerar la dependencia entre observaciones de una misma persona. |
-| Tiempos y costos emparejados | Diferencia por participante y comparación descriptiva de medianas, duración y costo de referencia. | EC01–EC06 y EC08. Para M06 se compara la mediana del tiempo de reporte por condición; para F01 y F02 se conserva la fórmula financiera definida en 8.2.2. |
-| Incidencias repetidas | Comparación de tiempos de detección y proporción de incidencias oportunas, agrupadas por participante y periodo. | EC07. Las incidencias ficticias repetidas no se consideran sujetos independientes y se registra el efecto del orden de exposición. |
-| Grupos independientes | Tasas por condición, diferencias absolutas y relativas; contraste exacto de Fisher cuando los conteos pequeños lo justifiquen. | EC09 y EC10. En EC10 se informa además el costo por prospecto calificado; la escala inicial de tráfico corresponde a exploración y no a una prueba confirmatoria con potencia demostrada. |
-| Evidencia cualitativa complementaria | Observación estructurada y categorización de errores, solicitudes de ayuda y dificultades de navegación. | Todos los ensayos de uso. Las observaciones permiten explicar patrones cuantitativos, sin sustituir los criterios de éxito predefinidos. |
+| Tipo de evidencia                    | Técnica seleccionada                                                                                                           | Aplicación e interpretación                                                                                                                                                                                       |
+| ------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Proporciones de éxito                | Conteos, porcentajes y, para medidas por participante, intervalos de Wilson al 95 %.                                           | M01–M05, M07–M10, respetando el denominador específico de cada indicador. Los intervalos de proporciones basadas en casos repetidos requieren considerar la dependencia entre observaciones de una misma persona. |
+| Tiempos y costos emparejados         | Diferencia por participante y comparación descriptiva de medianas, duración y costo de referencia.                             | EC01–EC06 y EC08. Para M06 se compara la mediana del tiempo de reporte por condición; para F01 y F02 se conserva la fórmula financiera definida en 8.2.2.                                                         |
+| Incidencias repetidas                | Comparación de tiempos de detección y proporción de incidencias oportunas, agrupadas por participante y periodo.               | EC07. Las incidencias ficticias repetidas no se consideran sujetos independientes y se registra el efecto del orden de exposición.                                                                                |
+| Grupos independientes                | Tasas por condición, diferencias absolutas y relativas; contraste exacto de Fisher cuando los conteos pequeños lo justifiquen. | EC09 y EC10. En EC10 se informa además el costo por prospecto calificado; la escala inicial de tráfico corresponde a exploración y no a una prueba confirmatoria con potencia demostrada.                         |
+| Evidencia cualitativa complementaria | Observación estructurada y categorización de errores, solicitudes de ayuda y dificultades de navegación.                       | Todos los ensayos de uso. Las observaciones permiten explicar patrones cuantitativos, sin sustituir los criterios de éxito predefinidos.                                                                          |
 
 La elección de métodos mantiene correspondencia entre la pregunta experimental, la intervención, las medidas y la unidad de análisis. El Web and Mobile Tracking Plan de 8.2.8 especifica los eventos y mecanismos de instrumentación relacionados con las plataformas, mientras que la fase de experimentación registra la aplicación de estos diseños y sus resultados. La definición metodológica no se interpreta como evidencia de ejecución.
-
 
 ### 8.2.7. Data Analytics: Goals, KPIs and Metrics Selection
 
@@ -8526,29 +8901,29 @@ El análisis de datos de ArquiTech vincula los objetivos de negocio establecidos
 
 #### Objetivos de analítica y KPIs de negocio
 
-| Objetivo de negocio | Pregunta analítica | KPIs seleccionados | Experimentos vinculados | Decisión que permite sustentar |
-| ------------------- | ------------------ | ------------------ | ----------------------- | ------------------------------ |
-| OB1 - Eficiencia operativa del supervisor | ¿Los nuevos flujos reducen errores, tiempos de trabajo y reprocesamiento sin perder calidad de información? | M01, M02, M03, M06, M07, M09, F01 y F02. | EC01, EC02, EC03, EC06 y EC08. | Priorizar o revisar el registro guiado, la asistencia rápida, las prioridades, los reportes asistidos y la recuperación de registros sin conexión. |
-| OB2 - Autonomía y confianza del contratante | ¿El usuario identifica información importante sin asistencia y detecta oportunamente las incidencias, con menor esfuerzo de seguimiento? | M04, M05, M08 y F01. | EC04, EC05 y EC07. | Evaluar el panel simplificado, la trazabilidad de materiales y los avisos de incidencias críticas. |
-| OB3 - Adopción del producto | ¿Un usuario nuevo puede completar su primera actividad correctamente y sin apoyo, con menor costo de incorporación? | M10 y F01. | EC09. | Mantener, ajustar o descartar la guía de primeros pasos según su efecto en autonomía y capacitación. |
-| OB4 - Captación de clientes | ¿La Landing Page por segmento genera más solicitudes de demostración calificadas con un menor costo por prospecto? | M11 y F03. | EC10. | Evaluar si el mensaje diferenciado justifica su adopción y el gasto de adquisición asociado. |
+| Objetivo de negocio                         | Pregunta analítica                                                                                                                       | KPIs seleccionados                       | Experimentos vinculados        | Decisión que permite sustentar                                                                                                                     |
+| ------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------- | ------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------- |
+| OB1 - Eficiencia operativa del supervisor   | ¿Los nuevos flujos reducen errores, tiempos de trabajo y reprocesamiento sin perder calidad de información?                              | M01, M02, M03, M06, M07, M09, F01 y F02. | EC01, EC02, EC03, EC06 y EC08. | Priorizar o revisar el registro guiado, la asistencia rápida, las prioridades, los reportes asistidos y la recuperación de registros sin conexión. |
+| OB2 - Autonomía y confianza del contratante | ¿El usuario identifica información importante sin asistencia y detecta oportunamente las incidencias, con menor esfuerzo de seguimiento? | M04, M05, M08 y F01.                     | EC04, EC05 y EC07.             | Evaluar el panel simplificado, la trazabilidad de materiales y los avisos de incidencias críticas.                                                 |
+| OB3 - Adopción del producto                 | ¿Un usuario nuevo puede completar su primera actividad correctamente y sin apoyo, con menor costo de incorporación?                      | M10 y F01.                               | EC09.                          | Mantener, ajustar o descartar la guía de primeros pasos según su efecto en autonomía y capacitación.                                               |
+| OB4 - Captación de clientes                 | ¿La Landing Page por segmento genera más solicitudes de demostración calificadas con un menor costo por prospecto?                       | M11 y F03.                               | EC10.                          | Evaluar si el mensaje diferenciado justifica su adopción y el gasto de adquisición asociado.                                                       |
 
 La unidad de decisión es la Experiment Card. Para cada intervención se examina conjuntamente al menos una medida de desempeño del producto y su medida financiera. En EC06, M07 funciona además como restricción de calidad: una reducción de tiempo o costo no constituye un resultado favorable cuando disminuye la completitud del reporte por debajo de la meta predefinida.
 
 #### Selección y jerarquía de indicadores por experimento
 
-| Experimento | Objetivo | KPI de negocio | KPI financiero | Criterio de evaluación de la tarjeta |
-| ----------- | -------- | -------------- | -------------- | ------------------------------------ |
-| EC04 - Panel de seguimiento | OB2 | M04 - Consultas autónomas del contratante. | F01 - Ahorro del costo de atención por consulta. | M04 ≥ 80 % y F01 ≥ 20 %. |
-| EC10 - Landing Page por segmento | OB4 | M11 - Incremento relativo de la tasa de demostraciones calificadas. | F03 - Reducción del costo por prospecto calificado. | M11 ≥ 20 % de incremento relativo y F03 ≥ 15 % de reducción. |
-| EC06 - Reporte asistido | OB1 | M06 - Reducción del tiempo mediano de elaboración; M07 - Completitud del reporte como indicador de control. | F02 - Ahorro del costo total por reporte. | M06 ≥ 40 %, M07 ≥ 90 % y F02 ≥ 30 %. |
-| EC07 - Alertas críticas | OB2 | M08 - Detección oportuna de incidencias críticas simuladas. | F01 - Ahorro del costo de seguimiento por incidencia. | M08 ≥ 75 % y F01 ≥ 15 %. |
-| EC01 - Materiales guiados | OB1 | M01 - Operaciones de inventario correctas al primer intento. | F01 - Ahorro del costo de corrección por caso. | M01 ≥ 80 % y F01 ≥ 20 %. |
-| EC05 - Historial verificable | OB2 | M05 - Identificación oportuna del responsable y la fecha de un movimiento. | F01 - Ahorro del costo de investigación de discrepancias. | M05 ≥ 80 % y F01 ≥ 20 %. |
-| EC02 - Asistencia rápida | OB1 | M02 - Jornadas de asistencia completas. | F01 - Ahorro del costo administrativo por jornada. | M02 ≥ 90 % y F01 ≥ 20 %. |
-| EC08 - Sin conexión | OB1 | M09 - Registros sincronizados íntegros dentro del plazo definido. | F01 - Ahorro del costo de reproceso. | M09 ≥ 90 % y F01 ≥ 20 %. |
-| EC03 - Tareas prioritarias | OB1 | M03 - Identificación oportuna de la tarea crítica. | F01 - Ahorro del costo de coordinación. | M03 ≥ 80 % y F01 ≥ 15 %. |
-| EC09 - Onboarding por rol | OB3 | M10 - Primera tarea completada correctamente sin ayuda. | F01 - Ahorro del costo de capacitación. | M10 ≥ 80 % y F01 ≥ 20 %. |
+| Experimento                      | Objetivo | KPI de negocio                                                                                              | KPI financiero                                            | Criterio de evaluación de la tarjeta                         |
+| -------------------------------- | -------- | ----------------------------------------------------------------------------------------------------------- | --------------------------------------------------------- | ------------------------------------------------------------ |
+| EC04 - Panel de seguimiento      | OB2      | M04 - Consultas autónomas del contratante.                                                                  | F01 - Ahorro del costo de atención por consulta.          | M04 ≥ 80 % y F01 ≥ 20 %.                                     |
+| EC10 - Landing Page por segmento | OB4      | M11 - Incremento relativo de la tasa de demostraciones calificadas.                                         | F03 - Reducción del costo por prospecto calificado.       | M11 ≥ 20 % de incremento relativo y F03 ≥ 15 % de reducción. |
+| EC06 - Reporte asistido          | OB1      | M06 - Reducción del tiempo mediano de elaboración; M07 - Completitud del reporte como indicador de control. | F02 - Ahorro del costo total por reporte.                 | M06 ≥ 40 %, M07 ≥ 90 % y F02 ≥ 30 %.                         |
+| EC07 - Alertas críticas          | OB2      | M08 - Detección oportuna de incidencias críticas simuladas.                                                 | F01 - Ahorro del costo de seguimiento por incidencia.     | M08 ≥ 75 % y F01 ≥ 15 %.                                     |
+| EC01 - Materiales guiados        | OB1      | M01 - Operaciones de inventario correctas al primer intento.                                                | F01 - Ahorro del costo de corrección por caso.            | M01 ≥ 80 % y F01 ≥ 20 %.                                     |
+| EC05 - Historial verificable     | OB2      | M05 - Identificación oportuna del responsable y la fecha de un movimiento.                                  | F01 - Ahorro del costo de investigación de discrepancias. | M05 ≥ 80 % y F01 ≥ 20 %.                                     |
+| EC02 - Asistencia rápida         | OB1      | M02 - Jornadas de asistencia completas.                                                                     | F01 - Ahorro del costo administrativo por jornada.        | M02 ≥ 90 % y F01 ≥ 20 %.                                     |
+| EC08 - Sin conexión              | OB1      | M09 - Registros sincronizados íntegros dentro del plazo definido.                                           | F01 - Ahorro del costo de reproceso.                      | M09 ≥ 90 % y F01 ≥ 20 %.                                     |
+| EC03 - Tareas prioritarias       | OB1      | M03 - Identificación oportuna de la tarea crítica.                                                          | F01 - Ahorro del costo de coordinación.                   | M03 ≥ 80 % y F01 ≥ 15 %.                                     |
+| EC09 - Onboarding por rol        | OB3      | M10 - Primera tarea completada correctamente sin ayuda.                                                     | F01 - Ahorro del costo de capacitación.                   | M10 ≥ 80 % y F01 ≥ 20 %.                                     |
 
 Los KPIs de negocio muestran si la interacción produce el comportamiento esperado; los financieros permiten estimar si el cambio disminuye el esfuerzo económico asociado. La jerarquía evita interpretar una mejora de uso como éxito suficiente cuando el costo empeora o cuando se incumple una condición de calidad. Los indicadores secundarios de 8.2.3, como intentos, solicitudes de ayuda, errores y clics en la llamada a la acción, se conservan para explicar las variaciones de los KPIs, pero no sustituyen las metas de la tabla.
 
@@ -8556,13 +8931,13 @@ Los KPIs de negocio muestran si la interacción produce el comportamiento espera
 
 El conjunto analítico distingue las observaciones de tareas, los resultados de casos repetidos y los datos de conversión. La estructura se relaciona mediante un identificador de experimento, la condición A o B y el periodo de observación, manteniendo la unidad pertinente para cada indicador.
 
-| Conjunto de datos | Contenido analítico | Granularidad | KPIs relacionados |
-| ----------------- | ------------------- | ------------ | ----------------- |
-| Participantes y sesiones | Identificador seudonimizado, rol, plataforma, condición, sesión, orden de exposición y tarea. | Una sesión por participante y condición; las tareas se relacionan con esa sesión. | M03, M04, M05, M06, M10 y costos asociados. |
-| Operaciones y tareas | Resultado esperado y observado, corrección al primer intento, omisiones, duración, ayuda recibida y minutos de reproceso. | Una operación, jornada, caso, discrepancia o reporte, según el experimento. | M01, M02, M03, M05, M06, M07, F01 y F02. |
-| Incidencias y sincronización | Identificadores de eventos simulados o registros generados, hora de ocurrencia, detección o reconexión, integridad y duplicados. | Una incidencia o un registro generado sin conexión, vinculado al participante. | M08, M09 y F01. |
-| Visitas y prospectos | Identificador de visita única, variante, periodo de exposición y solicitud de demostración calificada. | Una visita única por variante; las solicitudes se vinculan al visitante correspondiente cuando sea posible. | M11. |
-| Costos de experimentación | Minutos de trabajo, tarifa horaria de referencia por rol, costos directos del reporte y gasto de adquisición por variante. | Un caso o reporte para F01/F02; una variante y periodo para F03. | F01, F02 y F03. |
+| Conjunto de datos            | Contenido analítico                                                                                                              | Granularidad                                                                                                | KPIs relacionados                           |
+| ---------------------------- | -------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------- | ------------------------------------------- |
+| Participantes y sesiones     | Identificador seudonimizado, rol, plataforma, condición, sesión, orden de exposición y tarea.                                    | Una sesión por participante y condición; las tareas se relacionan con esa sesión.                           | M03, M04, M05, M06, M10 y costos asociados. |
+| Operaciones y tareas         | Resultado esperado y observado, corrección al primer intento, omisiones, duración, ayuda recibida y minutos de reproceso.        | Una operación, jornada, caso, discrepancia o reporte, según el experimento.                                 | M01, M02, M03, M05, M06, M07, F01 y F02.    |
+| Incidencias y sincronización | Identificadores de eventos simulados o registros generados, hora de ocurrencia, detección o reconexión, integridad y duplicados. | Una incidencia o un registro generado sin conexión, vinculado al participante.                              | M08, M09 y F01.                             |
+| Visitas y prospectos         | Identificador de visita única, variante, periodo de exposición y solicitud de demostración calificada.                           | Una visita única por variante; las solicitudes se vinculan al visitante correspondiente cuando sea posible. | M11.                                        |
+| Costos de experimentación    | Minutos de trabajo, tarifa horaria de referencia por rol, costos directos del reporte y gasto de adquisición por variante.       | Un caso o reporte para F01/F02; una variante y periodo para F03.                                            | F01, F02 y F03.                             |
 
 Las mediciones de sesiones se obtienen mediante cronometraje, verificación contra respuestas esperadas y hojas de observación, complementadas con eventos de la aplicación cuando estén disponibles. La medición de EC10 requiere identificar visitas únicas, atribuir solicitudes calificadas a una variante y registrar los gastos de adquisición por periodo. El detalle de eventos, propiedades y mecanismos técnicos de Web y Mobile corresponde al Web and Mobile Tracking Plan de 8.2.8; esta sección define la estructura analítica con independencia de la tecnología utilizada para instrumentarla.
 
@@ -8577,18 +8952,17 @@ Las mediciones de sesiones se obtienen mediante cronometraje, verificación cont
 
 #### Agregación, visualización e interpretación
 
-| Vista analítica | Contenido | Uso en la evaluación |
-| --------------- | --------- | -------------------- |
-| Resumen por objetivo | OB1–OB4, Experiment Cards vinculadas, KPIs de negocio y financieros, metas y estado de evaluación. | Relacionar las decisiones de producto con el objetivo de negocio que persigue cada intervención. |
-| Comparación A/B por experimento | Resultado por condición, denominadores, tasa o tiempo de referencia, variación y costo correspondiente. | Comprobar el efecto descriptivo de la intervención manteniendo separadas las condiciones. |
-| Calidad de las tareas | Aciertos, omisiones, solicitudes de ayuda, intentos y reportes incompletos, desglosados por tarea y rol cuando corresponda. | Identificar las causas de una mejora o deterioro y evitar que el indicador agregado oculte errores recurrentes. |
-| Evolución temporal | Secuencia de sesiones, periodos de detección de incidencias y visitas o solicitudes de la Landing Page por periodo. | Detectar variaciones de contexto y diferenciar cambios asociados con la exposición de fluctuaciones temporales. |
-| Incertidumbre y decisión | Tamaño de muestra válido, intervalo o dispersión apropiada, criterios de éxito cumplidos y limitaciones. | Distinguir un resultado piloto favorable de una conclusión confirmatoria, según 8.2.5. |
+| Vista analítica                 | Contenido                                                                                                                   | Uso en la evaluación                                                                                            |
+| ------------------------------- | --------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------- |
+| Resumen por objetivo            | OB1–OB4, Experiment Cards vinculadas, KPIs de negocio y financieros, metas y estado de evaluación.                          | Relacionar las decisiones de producto con el objetivo de negocio que persigue cada intervención.                |
+| Comparación A/B por experimento | Resultado por condición, denominadores, tasa o tiempo de referencia, variación y costo correspondiente.                     | Comprobar el efecto descriptivo de la intervención manteniendo separadas las condiciones.                       |
+| Calidad de las tareas           | Aciertos, omisiones, solicitudes de ayuda, intentos y reportes incompletos, desglosados por tarea y rol cuando corresponda. | Identificar las causas de una mejora o deterioro y evitar que el indicador agregado oculte errores recurrentes. |
+| Evolución temporal              | Secuencia de sesiones, periodos de detección de incidencias y visitas o solicitudes de la Landing Page por periodo.         | Detectar variaciones de contexto y diferenciar cambios asociados con la exposición de fluctuaciones temporales. |
+| Incertidumbre y decisión        | Tamaño de muestra válido, intervalo o dispersión apropiada, criterios de éxito cumplidos y limitaciones.                    | Distinguir un resultado piloto favorable de una conclusión confirmatoria, según 8.2.5.                          |
 
 Para las medidas por participante se informan conteos, porcentajes e intervalos de Wilson al 95 %, de acuerdo con 8.2.5. Los tiempos y costos en diseños intra-sujeto se comparan preservando el vínculo entre las dos condiciones de cada persona. La mediana de elaboración de reportes se conserva como medida principal de M06 y la completitud M07 se evalúa por separado. En EC07 y EC08, la agrupación de eventos por participante impide tratar incidencias o registros repetidos como observaciones humanas independientes. En EC09 y EC10 se mantienen separados los grupos, y las conversiones se analizan con las tasas y costos correspondientes a cada variante.
 
 La presentación de resultados distingue los valores del control, los valores experimentales, el cambio calculado y la meta predefinida. Un KPI que cumple el umbral en un piloto pequeño no se presenta como validación estadística definitiva. Las decisiones se clasifican conforme a los criterios de cumplimiento, incertidumbre y suficiencia de evidencia establecidos en 8.2.5. El análisis prioriza cambios observables vinculados a los cuatro objetivos de negocio y no atribuye resultados a funcionalidades que solo se encuentran definidas como prototipos o condiciones experimentales.
-
 
 ### 8.2.8. Web and Mobile Tracking Plan
 
@@ -8613,11 +8987,11 @@ La arquitectura de seguimiento se implementó de forma nativa y desacoplada en l
 
 </p>
 
-| Plataforma | Módulos implementados | Mecanismo de inyección y destinos (`Sink`) | Activación por defecto |
-| ---------- | --------------------- | ------------------------------------------ | ---------------------- |
-| Web (Angular 19 / TypeScript) | [`experiment-event.model.ts`](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendWeb/blob/be091d5ee22c5825cf8df5451ab2af5f5373b030/src/app/experiments/tracking/experiment-event.model.ts), [`experiment-tracking.service.ts`](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendWeb/blob/be091d5ee22c5825cf8df5451ab2af5f5373b030/src/app/experiments/tracking/experiment-tracking.service.ts) y [`experiment-tracking.service.spec.ts`](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendWeb/blob/be091d5ee22c5825cf8df5451ab2af5f5373b030/src/app/experiments/tracking/experiment-tracking.service.spec.ts) | Servicio `@Injectable({ providedIn: 'root' })` configurable mediante el token `EXPERIMENT_TRACKING_OPTIONS`, con `NoopExperimentEventSink`, `InMemoryExperimentEventSink` (exportable a JSONL con `toJsonLines()`) y `ConsoleDebugExperimentEventSink`. | Desactivado en producción (`environment.production === true`); habilitado únicamente en desarrollo con API simulada (`useMockApi: true`) o en pruebas automatizadas. |
-| Mobile (Flutter / Dart) | [`experiment_event.dart`](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendMobile/blob/5d2614e56c78d48b25b24691e76254cfe6ad5140/lib/core/experiments/experiment_event.dart), [`experiment_tracker.dart`](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendMobile/blob/5d2614e56c78d48b25b24691e76254cfe6ad5140/lib/core/experiments/experiment_tracker.dart), [`experiment_tracking_provider.dart`](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendMobile/blob/5d2614e56c78d48b25b24691e76254cfe6ad5140/lib/core/experiments/experiment_tracking_provider.dart) y [`experiment_tracker_test.dart`](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendMobile/blob/5d2614e56c78d48b25b24691e76254cfe6ad5140/test/core/experiments/experiment_tracker_test.dart) | Proveedor de Riverpod (`experimentTrackerProvider`) desacoplado de widgets, con `NoopExperimentEventSink`, `InMemoryExperimentEventSink` (exportable a JSONL con `toJsonLines()`) y `DebugPrintExperimentEventSink`. | Desactivado por defecto (`kExperimentTrackingEnabledByDefine = false`); habilitable en compilación con `--dart-define=EXPERIMENT_TRACKING_ENABLED=true` o mediante overrides de `ProviderScope` en pruebas. |
-| Landing Page (Angular 20) | [`ec10-landing.ts`](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-LandingPage/blob/main/src/app/ec10-landing.ts) y [`ec10-landing.spec.ts`](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-LandingPage/blob/main/src/app/ec10-landing.spec.ts) | Seguimiento local preexistente en ruta experimental `/ec10` mediante `sessionStorage` (`arquitech-ec10-events`) y asignación en `localStorage` (`arquitech-ec10-visitor-id`, `arquitech-ec10-assignment`). | Confinado exclusivamente a la ruta experimental de evaluación A/B sin analítica persistente remota. |
+| Plataforma                    | Módulos implementados                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      | Mecanismo de inyección y destinos (`Sink`)                                                                                                                                                                                                              | Activación por defecto                                                                                                                                                                                      |
+| ----------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Web (Angular 19 / TypeScript) | [`experiment-event.model.ts`](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendWeb/blob/be091d5ee22c5825cf8df5451ab2af5f5373b030/src/app/experiments/tracking/experiment-event.model.ts), [`experiment-tracking.service.ts`](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendWeb/blob/be091d5ee22c5825cf8df5451ab2af5f5373b030/src/app/experiments/tracking/experiment-tracking.service.ts) y [`experiment-tracking.service.spec.ts`](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendWeb/blob/be091d5ee22c5825cf8df5451ab2af5f5373b030/src/app/experiments/tracking/experiment-tracking.service.spec.ts)                                                                                                                                                                           | Servicio `@Injectable({ providedIn: 'root' })` configurable mediante el token `EXPERIMENT_TRACKING_OPTIONS`, con `NoopExperimentEventSink`, `InMemoryExperimentEventSink` (exportable a JSONL con `toJsonLines()`) y `ConsoleDebugExperimentEventSink`. | Desactivado en producción (`environment.production === true`); habilitado únicamente en desarrollo con API simulada (`useMockApi: true`) o en pruebas automatizadas.                                        |
+| Mobile (Flutter / Dart)       | [`experiment_event.dart`](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendMobile/blob/5d2614e56c78d48b25b24691e76254cfe6ad5140/lib/core/experiments/experiment_event.dart), [`experiment_tracker.dart`](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendMobile/blob/5d2614e56c78d48b25b24691e76254cfe6ad5140/lib/core/experiments/experiment_tracker.dart), [`experiment_tracking_provider.dart`](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendMobile/blob/5d2614e56c78d48b25b24691e76254cfe6ad5140/lib/core/experiments/experiment_tracking_provider.dart) y [`experiment_tracker_test.dart`](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendMobile/blob/5d2614e56c78d48b25b24691e76254cfe6ad5140/test/core/experiments/experiment_tracker_test.dart) | Proveedor de Riverpod (`experimentTrackerProvider`) desacoplado de widgets, con `NoopExperimentEventSink`, `InMemoryExperimentEventSink` (exportable a JSONL con `toJsonLines()`) y `DebugPrintExperimentEventSink`.                                    | Desactivado por defecto (`kExperimentTrackingEnabledByDefine = false`); habilitable en compilación con `--dart-define=EXPERIMENT_TRACKING_ENABLED=true` o mediante overrides de `ProviderScope` en pruebas. |
+| Landing Page (Angular 20)     | [`ec10-landing.ts`](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-LandingPage/blob/main/src/app/ec10-landing.ts) y [`ec10-landing.spec.ts`](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-LandingPage/blob/main/src/app/ec10-landing.spec.ts)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          | Seguimiento local preexistente en ruta experimental `/ec10` mediante `sessionStorage` (`arquitech-ec10-events`) y asignación en `localStorage` (`arquitech-ec10-visitor-id`, `arquitech-ec10-assignment`).                                              | Confinado exclusivamente a la ruta experimental de evaluación A/B sin analítica persistente remota.                                                                                                         |
 
 #### 3. Esquema compartido de eventos
 
@@ -8627,22 +9001,22 @@ Tanto TypeScript (`ExperimentEvent` y `validateExperimentEvent`) como Dart (`Exp
 
 </p>
 
-| Campo | Tipo / regla de validación | Obligatoriedad | Propósito dentro del plan |
-| ----- | -------------------------- | -------------- | ------------------------- |
-| `schema_version` | Literal `"1.0"` | Obligatorio | Garantiza compatibilidad estructural entre los registros JSON/JSONL de Web y Mobile. |
-| `event_name` | Catálogo cerrado de 7 eventos (`material_operation_started`, `material_operation_completed`, `material_operation_failed`, `project_consultation_started`, `project_consultation_loaded`, `project_consultation_failed`, `project_report_opened`) | Obligatorio | Identifica de manera inequívoca el hito técnico ocurrido dentro del flujo instrumentado. |
-| `experiment_id` | Catálogo cerrado `EC01`–`EC10` (`EC01` o `EC04` en los eventos activos del contrato compartido) | Obligatorio | Vincula el evento con la Experiment Card evaluada. |
-| `question_id` | Catálogo cerrado `Q01`–`Q10` coherente con `experiment_id` (`Q01` para `EC01`, `Q04` para `EC04`) | Obligatorio | Mantiene la trazabilidad con la pregunta del Question Backlog. |
-| `metric_ids` | Arreglo inmutable de IDs oficiales (`["M01", "F01"]` en `EC01`; `["M04", "F01"]` en `EC04`) | Obligatorio | Declara las métricas de negocio y financieras relacionadas, sin implicar que el evento calcule por sí solo el KPI completo. |
-| `platform` | `"web"` \| `"mobile"` \| `"landing"` | Obligatorio | Distingue la superficie tecnológica donde se originó la interacción. |
-| `condition` | `"A"` \| `"B"` \| `"unknown"` | Obligatorio | Identifica la condición experimental asociada al flujo real ejecutado por el usuario. |
-| `timestamp` | Cadena ISO 8601 en UTC terminada en `Z` | Obligatorio | Registra el instante cronológico del evento en tiempo universal coordinado. |
-| `session_id` | Token opaco temporal en memoria (`sess-<hex>`), no persistente ni personal | Obligatorio | Agrupa intentos técnicos dentro de una misma instancia de ejecución en memoria. |
-| `attempt_id` | Token opaco único por intento (`att-<hex>`) | Obligatorio | Correlaciona el evento de inicio (`*_started`) con su único desenlace técnico (`completed`, `loaded` o `failed`). |
-| `outcome` | `"started"` \| `"completed"` \| `"loaded"` \| `"opened"` \| `"validation_failed"` \| `"api_failed"` | Obligatorio | Clasifica el estado técnico alcanzado sin atribuir corrección semántica de negocio. |
-| `duration_ms` | Número finito entero `>= 0` medido con reloj monotónico | Obligatorio en desenlaces (`completed`, `loaded`, `failed`) y opcional en `opened` | Cuantifica la latencia o duración técnica transcurrida desde el inicio del intento correlacionado por `attempt_id`. |
-| `operation_type` | `"ENTRY"` \| `"USAGE"` | Obligatorio en eventos `EC01`; prohibido en `EC04` | Diferencia entradas de inventario y salidas por uso en el registro de materiales. |
-| `error_category` | `"validation"` \| `"insufficient_stock"` \| `"network"` \| `"unauthorized"` \| `"conflict"` \| `"not_found"` \| `"api_error"` \| `"unknown"` | Obligatorio en eventos `*_failed`; prohibido en los demás | Codifica la causa técnica del rechazo sin exponer mensajes libres del servidor ni datos del formulario. |
+| Campo            | Tipo / regla de validación                                                                                                                                                                                                                       | Obligatoriedad                                                                     | Propósito dentro del plan                                                                                                   |
+| ---------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
+| `schema_version` | Literal `"1.0"`                                                                                                                                                                                                                                  | Obligatorio                                                                        | Garantiza compatibilidad estructural entre los registros JSON/JSONL de Web y Mobile.                                        |
+| `event_name`     | Catálogo cerrado de 7 eventos (`material_operation_started`, `material_operation_completed`, `material_operation_failed`, `project_consultation_started`, `project_consultation_loaded`, `project_consultation_failed`, `project_report_opened`) | Obligatorio                                                                        | Identifica de manera inequívoca el hito técnico ocurrido dentro del flujo instrumentado.                                    |
+| `experiment_id`  | Catálogo cerrado `EC01`–`EC10` (`EC01` o `EC04` en los eventos activos del contrato compartido)                                                                                                                                                  | Obligatorio                                                                        | Vincula el evento con la Experiment Card evaluada.                                                                          |
+| `question_id`    | Catálogo cerrado `Q01`–`Q10` coherente con `experiment_id` (`Q01` para `EC01`, `Q04` para `EC04`)                                                                                                                                                | Obligatorio                                                                        | Mantiene la trazabilidad con la pregunta del Question Backlog.                                                              |
+| `metric_ids`     | Arreglo inmutable de IDs oficiales (`["M01", "F01"]` en `EC01`; `["M04", "F01"]` en `EC04`)                                                                                                                                                      | Obligatorio                                                                        | Declara las métricas de negocio y financieras relacionadas, sin implicar que el evento calcule por sí solo el KPI completo. |
+| `platform`       | `"web"` \| `"mobile"` \| `"landing"`                                                                                                                                                                                                             | Obligatorio                                                                        | Distingue la superficie tecnológica donde se originó la interacción.                                                        |
+| `condition`      | `"A"` \| `"B"` \| `"unknown"`                                                                                                                                                                                                                    | Obligatorio                                                                        | Identifica la condición experimental asociada al flujo real ejecutado por el usuario.                                       |
+| `timestamp`      | Cadena ISO 8601 en UTC terminada en `Z`                                                                                                                                                                                                          | Obligatorio                                                                        | Registra el instante cronológico del evento en tiempo universal coordinado.                                                 |
+| `session_id`     | Token opaco temporal en memoria (`sess-<hex>`), no persistente ni personal                                                                                                                                                                       | Obligatorio                                                                        | Agrupa intentos técnicos dentro de una misma instancia de ejecución en memoria.                                             |
+| `attempt_id`     | Token opaco único por intento (`att-<hex>`)                                                                                                                                                                                                      | Obligatorio                                                                        | Correlaciona el evento de inicio (`*_started`) con su único desenlace técnico (`completed`, `loaded` o `failed`).           |
+| `outcome`        | `"started"` \| `"completed"` \| `"loaded"` \| `"opened"` \| `"validation_failed"` \| `"api_failed"`                                                                                                                                              | Obligatorio                                                                        | Clasifica el estado técnico alcanzado sin atribuir corrección semántica de negocio.                                         |
+| `duration_ms`    | Número finito entero `>= 0` medido con reloj monotónico                                                                                                                                                                                          | Obligatorio en desenlaces (`completed`, `loaded`, `failed`) y opcional en `opened` | Cuantifica la latencia o duración técnica transcurrida desde el inicio del intento correlacionado por `attempt_id`.         |
+| `operation_type` | `"ENTRY"` \| `"USAGE"`                                                                                                                                                                                                                           | Obligatorio en eventos `EC01`; prohibido en `EC04`                                 | Diferencia entradas de inventario y salidas por uso en el registro de materiales.                                           |
+| `error_category` | `"validation"` \| `"insufficient_stock"` \| `"network"` \| `"unauthorized"` \| `"conflict"` \| `"not_found"` \| `"api_error"` \| `"unknown"`                                                                                                     | Obligatorio en eventos `*_failed`; prohibido en los demás                          | Codifica la causa técnica del rechazo sin exponer mensajes libres del servidor ni datos del formulario.                     |
 
 #### 4. Matriz de cobertura EC01–EC10
 
@@ -8652,18 +9026,18 @@ La siguiente matriz sintetiza el estado real de seguimiento para los diez experi
 
 </p>
 
-| EC | Pregunta | Métricas | Plataforma | Condición | Eventos | Fuente automática/manual | Estado real | Limitación |
-| -- | -------- | -------- | ---------- | --------- | ------- | ------------------------ | ----------- | ---------- |
-| `EC01` | `Q01` | `M01`, `F01` | Web y Mobile | `A` (Web y Mobile) / `B` (Workbench Web) | `material_operation_started`, `material_operation_completed`, `material_operation_failed` | Automática (intentos, validaciones, respuesta de API y `duration_ms`) + Manual (contraste contra el movimiento patrón y cronometraje de corrección) | Implementado y verificado con pruebas unitarias en Web y Mobile | El éxito HTTP (`material_operation_completed`) no demuestra que el material ni la cantidad coincidan con la instrucción experimental (`M01`), ni mide los minutos humanos de corrección (`F01`). Mobile solo implementa la condición `A`. |
-| `EC02` | `Q02` | `M02`, `F01` | Web y Mobile | `A` (formulario actual) / `B` (lista rápida en Workbench Web) | Sin eventos dedicados en el bus `ExperimentTrackingService`; ejecución observable en Workbench Web (`saveAttendance()`) y pruebas de flujo | Manual (comparación de la jornada registrada contra la nómina patrón de 12 trabajadores y cronometraje de la sesión) | Flujo A/B disponible en Web y flujo `A` en Mobile; medición experimental manual | No se emiten eventos automáticos de omisión por trabajador; la completitud de la nómina (`M02`) y el tiempo administrativo (`F01`) requieren contraste con la lista patrón. |
-| `EC03` | `Q03` | `M03`, `F01` | Web y Mobile | `A` (listado de tareas) / `B` (tablero priorizado en Workbench Web) | Sin eventos dedicados de telemetría; ordenamiento de prioridad verificable en `orderedTasks` del Workbench Web | Manual (cronometraje y hoja de observación del moderador sobre identificación de la tarea crítica en `<= 2 min`) | Flujo A/B disponible en Web y flujo `A` en Mobile; medición experimental manual | Un clic o render del listado no prueba que el supervisor haya identificado la tarea crítica correcta (`M03`) ni mide el esfuerzo de coordinación (`F01`). |
-| `EC04` | `Q04` | `M04`, `F01` | Web y Mobile | `A` (vistas actuales en Web y Mobile) / `B` (panel simplificado `EC04` en Workbench Web) | `project_consultation_started`, `project_consultation_loaded`, `project_consultation_failed`, `project_report_opened` | Automática (inicio de consulta, disponibilidad o fallo de datos y apertura del reporte) + Manual (respuesta correcta del contratante sin ayuda en `<= 3 min` y tiempo de soporte del supervisor) | Implementado y verificado con pruebas unitarias en Web y Mobile | `project_consultation_loaded` y `project_report_opened` acreditan disponibilidad técnica y navegación, pero no prueban que el contratante comprendió el estado correcto ni que actuó sin solicitar ayuda (`M04`, `F01`). Mobile solo cuenta con la condición `A`. |
-| `EC05` | `Q05` | `M05`, `F01` | Web y Mobile | `A` (historial actual) / `B` (historial con responsable y fecha en Workbench Web) | Sin eventos dedicados en el bus de telemetría; vista enriquecida implementada en `ExperimentWorkbenchComponent` (`EC05`) | Manual (verificación de responsable y fecha identificados frente a las discrepancias de prueba en `<= 2 min` y cronometraje) | Flujo A/B disponible en Web y flujo `A` en Mobile; medición experimental manual | La carga del historial no indica cuál discrepancia analizó el participante ni si identificó correctamente el origen del cambio (`M05`, `F01`). |
-| `EC06` | `Q06` | `M06`, `M07`, `F02` | Web y Mobile | `A` (consolidación manual) / `B` (reporte semanal asistido y exportación PDF en Workbench Web) | Sin eventos dedicados en el bus de telemetría; generación y descarga implementadas en `WeeklyReportService` y `downloadReport()` | Manual (cronometraje de elaboración manual frente a asistida, lista de verificación de 9 campos obligatorios y registro de costos directos) | Flujo A/B disponible en Web y reporte semanal en Mobile; medición experimental manual | La descarga del PDF no mide el tiempo del procedimiento manual de control (`M06`), no audita semánticamente la completitud (`M07`) ni captura costos directos de validación (`F02`). |
-| `EC07` | `Q07` | `M08`, `F01` | Web y Mobile | `A` (revisión periódica) / `B` (alertas prioritarias en Workbench Web `selectAlert()`) | Sin eventos dedicados en el bus de telemetría; filtro de alertas críticas altas implementado en Workbench Web (`EC07`) | Manual y bitácora del piloto (marca temporal de inserción de la incidencia simulada, hora de detección en `<= 10 min` y minutos de monitoreo) | Flujo A/B disponible en Web y vista de alertas en Mobile; medición experimental manual | El reconocimiento visual de una alerta simulada y el tiempo dedicado al monitoreo periódico durante dos semanas requieren bitácora del piloto (`M08`, `F01`). |
-| `EC08` | `Q08` | `M09`, `F01` | Mobile | `A` (flujo estándar sin cola offline) / `B` (cola local `Ec08DraftStore` y sincronización idempotente en `Ec08DraftsPage`) | Estados locales de cola (`pending`, `review`), `clientRequestId` criptográfico y reconciliación de sincronización en `arquitech.ec08.drafts.<projectId>` | Automática local (conteo de borradores persistidos, enviados e idempotencia ante `OFFLINE_REQUEST_CONFLICT`) + Manual (cronometraje de reconexión `<= 5 min` y minutos de reproceso en `A`) | Implementado y conservado en `origin/main` y en la rama integrada `feat/experiment-tracking-8-2-8` (`5d2614e56c78d48b25b24691e76254cfe6ad5140`) con pruebas de contrato e idempotencia | La sincronización es local y controlada por capacidades del servidor; el backend productivo en Railway permanece protegido frente a escrituras de prueba de borradores offline. |
-| `EC09` | `Q09` | `M10`, `F01` | Web | `A` (ingreso inicial sin guía) / `B` (guía interactiva por rol en Workbench Web `EC09`) | Persistencia local de pasos completados en `localStorage` (`arquitech.ec09.<userId>.<projectId>`) mediante `toggleGuideStep()` | Automática local (pasos marcados de la guía) + Manual (cronometraje de primera tarea en `<= 10 min`, verificación de autonomía y minutos de capacitación) | Flujo A/B disponible en Web; medición experimental manual complementada con estado local | Marcar casillas de la guía (`completedGuideSteps`) no demuestra que el usuario nuevo completó la tarea real sin ayuda ni cuantifica las horas de soporte del instructor (`M10`, `F01`). |
-| `EC10` | `Q10` | `M11`, `F03` | Landing Page | `A` (Landing actual) / `B` (variante personalizada por segmento supervisor/contratante) | `view`, `segment_selected`, `mailto_intent` en `sessionStorage` (`arquitech-ec10-events`) | Automática local en navegador (`FunnelEvent` por sesión) + Manual/Comercial (recepción efectiva del correo, calificación del prospecto y gasto de campaña por variante) | Implementado en `ArquiTech-LandingPage` (`origin/main` en `src/app/ec10-landing.ts` y `ec10-landing.spec.ts`) | `sessionStorage` es local al navegador de cada visitante y `mailto_intent` solo abre el cliente de correo: no prueba el envío efectivo, la recepción del mensaje ni la condición de prospecto calificado (`M11`, `F03`). |
+| EC     | Pregunta | Métricas            | Plataforma   | Condición                                                                                                                  | Eventos                                                                                                                                                  | Fuente automática/manual                                                                                                                                                                         | Estado real                                                                                                                                                                            | Limitación                                                                                                                                                                                                                                                        |
+| ------ | -------- | ------------------- | ------------ | -------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `EC01` | `Q01`    | `M01`, `F01`        | Web y Mobile | `A` (Web y Mobile) / `B` (Workbench Web)                                                                                   | `material_operation_started`, `material_operation_completed`, `material_operation_failed`                                                                | Automática (intentos, validaciones, respuesta de API y `duration_ms`) + Manual (contraste contra el movimiento patrón y cronometraje de corrección)                                              | Implementado y verificado con pruebas unitarias en Web y Mobile                                                                                                                        | El éxito HTTP (`material_operation_completed`) no demuestra que el material ni la cantidad coincidan con la instrucción experimental (`M01`), ni mide los minutos humanos de corrección (`F01`). Mobile solo implementa la condición `A`.                         |
+| `EC02` | `Q02`    | `M02`, `F01`        | Web y Mobile | `A` (formulario actual) / `B` (lista rápida en Workbench Web)                                                              | Sin eventos dedicados en el bus `ExperimentTrackingService`; ejecución observable en Workbench Web (`saveAttendance()`) y pruebas de flujo               | Manual (comparación de la jornada registrada contra la nómina patrón de 12 trabajadores y cronometraje de la sesión)                                                                             | Flujo A/B disponible en Web y flujo `A` en Mobile; medición experimental manual                                                                                                        | No se emiten eventos automáticos de omisión por trabajador; la completitud de la nómina (`M02`) y el tiempo administrativo (`F01`) requieren contraste con la lista patrón.                                                                                       |
+| `EC03` | `Q03`    | `M03`, `F01`        | Web y Mobile | `A` (listado de tareas) / `B` (tablero priorizado en Workbench Web)                                                        | Sin eventos dedicados de telemetría; ordenamiento de prioridad verificable en `orderedTasks` del Workbench Web                                           | Manual (cronometraje y hoja de observación del moderador sobre identificación de la tarea crítica en `<= 2 min`)                                                                                 | Flujo A/B disponible en Web y flujo `A` en Mobile; medición experimental manual                                                                                                        | Un clic o render del listado no prueba que el supervisor haya identificado la tarea crítica correcta (`M03`) ni mide el esfuerzo de coordinación (`F01`).                                                                                                         |
+| `EC04` | `Q04`    | `M04`, `F01`        | Web y Mobile | `A` (vistas actuales en Web y Mobile) / `B` (panel simplificado `EC04` en Workbench Web)                                   | `project_consultation_started`, `project_consultation_loaded`, `project_consultation_failed`, `project_report_opened`                                    | Automática (inicio de consulta, disponibilidad o fallo de datos y apertura del reporte) + Manual (respuesta correcta del contratante sin ayuda en `<= 3 min` y tiempo de soporte del supervisor) | Implementado y verificado con pruebas unitarias en Web y Mobile                                                                                                                        | `project_consultation_loaded` y `project_report_opened` acreditan disponibilidad técnica y navegación, pero no prueban que el contratante comprendió el estado correcto ni que actuó sin solicitar ayuda (`M04`, `F01`). Mobile solo cuenta con la condición `A`. |
+| `EC05` | `Q05`    | `M05`, `F01`        | Web y Mobile | `A` (historial actual) / `B` (historial con responsable y fecha en Workbench Web)                                          | Sin eventos dedicados en el bus de telemetría; vista enriquecida implementada en `ExperimentWorkbenchComponent` (`EC05`)                                 | Manual (verificación de responsable y fecha identificados frente a las discrepancias de prueba en `<= 2 min` y cronometraje)                                                                     | Flujo A/B disponible en Web y flujo `A` en Mobile; medición experimental manual                                                                                                        | La carga del historial no indica cuál discrepancia analizó el participante ni si identificó correctamente el origen del cambio (`M05`, `F01`).                                                                                                                    |
+| `EC06` | `Q06`    | `M06`, `M07`, `F02` | Web y Mobile | `A` (consolidación manual) / `B` (reporte semanal asistido y exportación PDF en Workbench Web)                             | Sin eventos dedicados en el bus de telemetría; generación y descarga implementadas en `WeeklyReportService` y `downloadReport()`                         | Manual (cronometraje de elaboración manual frente a asistida, lista de verificación de 9 campos obligatorios y registro de costos directos)                                                      | Flujo A/B disponible en Web y reporte semanal en Mobile; medición experimental manual                                                                                                  | La descarga del PDF no mide el tiempo del procedimiento manual de control (`M06`), no audita semánticamente la completitud (`M07`) ni captura costos directos de validación (`F02`).                                                                              |
+| `EC07` | `Q07`    | `M08`, `F01`        | Web y Mobile | `A` (revisión periódica) / `B` (alertas prioritarias en Workbench Web `selectAlert()`)                                     | Sin eventos dedicados en el bus de telemetría; filtro de alertas críticas altas implementado en Workbench Web (`EC07`)                                   | Manual y bitácora del piloto (marca temporal de inserción de la incidencia simulada, hora de detección en `<= 10 min` y minutos de monitoreo)                                                    | Flujo A/B disponible en Web y vista de alertas en Mobile; medición experimental manual                                                                                                 | El reconocimiento visual de una alerta simulada y el tiempo dedicado al monitoreo periódico durante dos semanas requieren bitácora del piloto (`M08`, `F01`).                                                                                                     |
+| `EC08` | `Q08`    | `M09`, `F01`        | Mobile       | `A` (flujo estándar sin cola offline) / `B` (cola local `Ec08DraftStore` y sincronización idempotente en `Ec08DraftsPage`) | Estados locales de cola (`pending`, `review`), `clientRequestId` criptográfico y reconciliación de sincronización en `arquitech.ec08.drafts.<projectId>` | Automática local (conteo de borradores persistidos, enviados e idempotencia ante `OFFLINE_REQUEST_CONFLICT`) + Manual (cronometraje de reconexión `<= 5 min` y minutos de reproceso en `A`)      | Implementado y conservado en `origin/main` y en la rama integrada `feat/experiment-tracking-8-2-8` (`5d2614e56c78d48b25b24691e76254cfe6ad5140`) con pruebas de contrato e idempotencia | La sincronización es local y controlada por capacidades del servidor; el backend productivo en Railway permanece protegido frente a escrituras de prueba de borradores offline.                                                                                   |
+| `EC09` | `Q09`    | `M10`, `F01`        | Web          | `A` (ingreso inicial sin guía) / `B` (guía interactiva por rol en Workbench Web `EC09`)                                    | Persistencia local de pasos completados en `localStorage` (`arquitech.ec09.<userId>.<projectId>`) mediante `toggleGuideStep()`                           | Automática local (pasos marcados de la guía) + Manual (cronometraje de primera tarea en `<= 10 min`, verificación de autonomía y minutos de capacitación)                                        | Flujo A/B disponible en Web; medición experimental manual complementada con estado local                                                                                               | Marcar casillas de la guía (`completedGuideSteps`) no demuestra que el usuario nuevo completó la tarea real sin ayuda ni cuantifica las horas de soporte del instructor (`M10`, `F01`).                                                                           |
+| `EC10` | `Q10`    | `M11`, `F03`        | Landing Page | `A` (Landing actual) / `B` (variante personalizada por segmento supervisor/contratante)                                    | `view`, `segment_selected`, `mailto_intent` en `sessionStorage` (`arquitech-ec10-events`)                                                                | Automática local en navegador (`FunnelEvent` por sesión) + Manual/Comercial (recepción efectiva del correo, calificación del prospecto y gasto de campaña por variante)                          | Implementado en `ArquiTech-LandingPage` (`origin/main` en `src/app/ec10-landing.ts` y `ec10-landing.spec.ts`)                                                                          | `sessionStorage` es local al navegador de cada visitante y `mailto_intent` solo abre el cliente de correo: no prueba el envío efectivo, la recepción del mensaje ni la condición de prospecto calificado (`M11`, `F03`).                                          |
 
 #### 5. Eventos Web y sus puntos de captura
 
@@ -8673,19 +9047,19 @@ En `ArquiTech-FrontendWeb`, la instrumentación se conectó directamente a los m
 
 </p>
 
-| Experimento y condición | Evento | Archivo y método real de captura | Disparador técnico | Propiedades específicas emitidas |
-| ----------------------- | ------ | -------------------------------- | ------------------ | -------------------------------- |
-| `EC01` · Condición `A` | `material_operation_started` | [`material-movement-dialog.component.ts`](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendWeb/blob/be091d5ee22c5825cf8df5451ab2af5f5373b030/src/app/inventory/components/material-movement-dialog/material-movement-dialog.component.ts) (`MaterialMovementDialogComponent.submit()`) | Clic del supervisor para enviar el formulario modal original de entrada o uso de material. | `condition: "A"`, `operation_type: "ENTRY" \| "USAGE"`, `outcome: "started"`, `attempt_id` |
-| `EC01` · Condición `A` | `material_operation_failed` | [`material-movement-dialog.component.ts`](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendWeb/blob/be091d5ee22c5825cf8df5451ab2af5f5373b030/src/app/inventory/components/material-movement-dialog/material-movement-dialog.component.ts) (`MaterialMovementDialogComponent.submit()`) | Formulario inválido al pulsar guardar (`form.invalid`, detectando exceso sobre stock mediante `hasError('insufficientStock')` de `maxStockValidator` dado que el botón submit permanece habilitado) o error HTTP en `materialService.registerEntry/registerUsage`. | `condition: "A"`, `operation_type`, `outcome: "validation_failed" \| "api_failed"`, `error_category: "insufficient_stock" \| "validation" \| ...`, `duration_ms` |
-| `EC01` · Condición `A` | `material_operation_completed` | [`material-movement-dialog.component.ts`](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendWeb/blob/be091d5ee22c5825cf8df5451ab2af5f5373b030/src/app/inventory/components/material-movement-dialog/material-movement-dialog.component.ts) (`MaterialMovementDialogComponent.submit()`) | Respuesta exitosa del observable de registro antes de cerrar el diálogo (`dialogRef.close(movement)`). | `condition: "A"`, `operation_type`, `outcome: "completed"`, `duration_ms` |
-| `EC01` · Condición `B` | `material_operation_started` | [`experiment-workbench.component.ts`](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendWeb/blob/be091d5ee22c5825cf8df5451ab2af5f5373b030/src/app/experiments/experiment-workbench.component.ts) (`ExperimentWorkbenchComponent.saveMovement()`) | Confirmación de movimiento dentro del Workbench guiado `EC01` cuando `canEdit()` está habilitado. | `condition: "B"`, `operation_type: "ENTRY" \| "USAGE"`, `outcome: "started"`, `attempt_id` |
-| `EC01` · Condición `B` | `material_operation_failed` | [`experiment-workbench.component.ts`](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendWeb/blob/be091d5ee22c5825cf8df5451ab2af5f5373b030/src/app/experiments/experiment-workbench.component.ts) (`ExperimentWorkbenchComponent.saveMovement()`) | Excepción HTTP al invocar `registerEntry` / `registerUsage` o guarda defensiva en `saveMovement()` ante `stockError()` (en el DOM de `B`, el botón `[data-testid="ec01-save"]` se deshabilita preventivamente con `[disabled]="!canEdit() \|\| !!stockError() \|\| busy()"`). | `condition: "B"`, `operation_type`, `outcome: "validation_failed" \| "api_failed"`, `error_category`, `duration_ms` |
-| `EC01` · Condición `B` | `material_operation_completed` | [`experiment-workbench.component.ts`](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendWeb/blob/be091d5ee22c5825cf8df5451ab2af5f5373b030/src/app/experiments/experiment-workbench.component.ts) (`ExperimentWorkbenchComponent.saveMovement()`) | Resolución satisfactoria de `firstValueFrom(...)` en el flujo guiado `EC01`. | `condition: "B"`, `operation_type`, `outcome: "completed"`, `duration_ms` |
-| `EC04` · Condición `A` | `project_consultation_started` | [`project-list.component.ts`](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendWeb/blob/be091d5ee22c5825cf8df5451ab2af5f5373b030/src/app/projects/pages/project-list/project-list.component.ts) (`open()`, `trackProjectSelection()`) y [`weekly-report.component.ts`](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendWeb/blob/be091d5ee22c5825cf8df5451ab2af5f5373b030/src/app/reports/pages/weekly-report/weekly-report.component.ts) (`load()`) | Selección de un proyecto desde el listado o inicio de consulta de reporte en la interfaz original. | `condition: "A"`, `outcome: "started"`, `attempt_id` |
-| `EC04` · Condición `A` | `project_consultation_loaded` / `project_consultation_failed` | [`weekly-report.component.ts`](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendWeb/blob/be091d5ee22c5825cf8df5451ab2af5f5373b030/src/app/reports/pages/weekly-report/weekly-report.component.ts) (`WeeklyReportComponent.load()`) | Suscripción a `reportService.generate(project, weekStart)`, deduplicada por clave `(projectId, weekStartIso)` frente a re-ejecuciones de `effect()`. | `condition: "A"`, `outcome: "loaded" \| "api_failed"`, `duration_ms`, `error_category` (si falla) |
-| `EC04` · Condición `A` | `project_report_opened` | [`sidebar.component.ts`](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendWeb/blob/be091d5ee22c5825cf8df5451ab2af5f5373b030/src/app/shared/presentation/layout/sidebar/sidebar.component.ts) (`selectModule('reports')` → `openProjectReportFromNavigation()`) y [`weekly-report.component.ts`](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendWeb/blob/be091d5ee22c5825cf8df5451ab2af5f5373b030/src/app/reports/pages/weekly-report/weekly-report.component.ts) (`download()` → `recordProjectReportOpened()`) | Acceso explícito al módulo de reportes desde la navegación lateral (emitido tras completarse la carga del intento activo) o descarga única del reporte semanal en condición `A`. | `condition: "A"`, `outcome: "opened"`, `duration_ms` |
-| `EC04` · Condición `B` | `project_consultation_started`, `project_consultation_loaded`, `project_consultation_failed` | [`experiment-workbench.component.ts`](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendWeb/blob/be091d5ee22c5825cf8df5451ab2af5f5373b030/src/app/experiments/experiment-workbench.component.ts) (`ExperimentWorkbenchComponent.refresh()`) | Inicio y resolución de la consulta cuando `experimentId() === 'EC04'` en la ruta del Workbench (o al refrescar manualmente), sin duplicarse cuando el panel está embebido pasivamente. | `condition: "B"`, `outcome: "started" \| "loaded" \| "api_failed"`, `duration_ms`, `error_category` (si falla) |
-| `EC04` · Condición `B` | `project_report_opened` | [`experiment-workbench.component.ts`](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendWeb/blob/be091d5ee22c5825cf8df5451ab2af5f5373b030/src/app/experiments/experiment-workbench.component.ts) (`openEc04Report()`) y [`experiment-workbench.component.html`](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendWeb/blob/be091d5ee22c5825cf8df5451ab2af5f5373b030/src/app/experiments/experiment-workbench.component.html) | Clic del usuario sobre el enlace `[data-testid="ec04-weekly-report-link"]` dentro del panel simplificado `EC04` (suprimiendo con `markConditionBReportNavigation()` una doble consulta `A` al abrir la vista de reporte). | `condition: "B"`, `outcome: "opened"`, `duration_ms`, correlacionado con el `attempt_id` activo |
+| Experimento y condición | Evento                                                                                       | Archivo y método real de captura                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                | Disparador técnico                                                                                                                                                                                                                                                            | Propiedades específicas emitidas                                                                                                                                 |
+| ----------------------- | -------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `EC01` · Condición `A`  | `material_operation_started`                                                                 | [`material-movement-dialog.component.ts`](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendWeb/blob/be091d5ee22c5825cf8df5451ab2af5f5373b030/src/app/inventory/components/material-movement-dialog/material-movement-dialog.component.ts) (`MaterialMovementDialogComponent.submit()`)                                                                                                                                                                                                                                                   | Clic del supervisor para enviar el formulario modal original de entrada o uso de material.                                                                                                                                                                                    | `condition: "A"`, `operation_type: "ENTRY" \| "USAGE"`, `outcome: "started"`, `attempt_id`                                                                       |
+| `EC01` · Condición `A`  | `material_operation_failed`                                                                  | [`material-movement-dialog.component.ts`](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendWeb/blob/be091d5ee22c5825cf8df5451ab2af5f5373b030/src/app/inventory/components/material-movement-dialog/material-movement-dialog.component.ts) (`MaterialMovementDialogComponent.submit()`)                                                                                                                                                                                                                                                   | Formulario inválido al pulsar guardar (`form.invalid`, detectando exceso sobre stock mediante `hasError('insufficientStock')` de `maxStockValidator` dado que el botón submit permanece habilitado) o error HTTP en `materialService.registerEntry/registerUsage`.            | `condition: "A"`, `operation_type`, `outcome: "validation_failed" \| "api_failed"`, `error_category: "insufficient_stock" \| "validation" \| ...`, `duration_ms` |
+| `EC01` · Condición `A`  | `material_operation_completed`                                                               | [`material-movement-dialog.component.ts`](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendWeb/blob/be091d5ee22c5825cf8df5451ab2af5f5373b030/src/app/inventory/components/material-movement-dialog/material-movement-dialog.component.ts) (`MaterialMovementDialogComponent.submit()`)                                                                                                                                                                                                                                                   | Respuesta exitosa del observable de registro antes de cerrar el diálogo (`dialogRef.close(movement)`).                                                                                                                                                                        | `condition: "A"`, `operation_type`, `outcome: "completed"`, `duration_ms`                                                                                        |
+| `EC01` · Condición `B`  | `material_operation_started`                                                                 | [`experiment-workbench.component.ts`](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendWeb/blob/be091d5ee22c5825cf8df5451ab2af5f5373b030/src/app/experiments/experiment-workbench.component.ts) (`ExperimentWorkbenchComponent.saveMovement()`)                                                                                                                                                                                                                                                                                          | Confirmación de movimiento dentro del Workbench guiado `EC01` cuando `canEdit()` está habilitado.                                                                                                                                                                             | `condition: "B"`, `operation_type: "ENTRY" \| "USAGE"`, `outcome: "started"`, `attempt_id`                                                                       |
+| `EC01` · Condición `B`  | `material_operation_failed`                                                                  | [`experiment-workbench.component.ts`](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendWeb/blob/be091d5ee22c5825cf8df5451ab2af5f5373b030/src/app/experiments/experiment-workbench.component.ts) (`ExperimentWorkbenchComponent.saveMovement()`)                                                                                                                                                                                                                                                                                          | Excepción HTTP al invocar `registerEntry` / `registerUsage` o guarda defensiva en `saveMovement()` ante `stockError()` (en el DOM de `B`, el botón `[data-testid="ec01-save"]` se deshabilita preventivamente con `[disabled]="!canEdit() \|\| !!stockError() \|\| busy()"`). | `condition: "B"`, `operation_type`, `outcome: "validation_failed" \| "api_failed"`, `error_category`, `duration_ms`                                              |
+| `EC01` · Condición `B`  | `material_operation_completed`                                                               | [`experiment-workbench.component.ts`](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendWeb/blob/be091d5ee22c5825cf8df5451ab2af5f5373b030/src/app/experiments/experiment-workbench.component.ts) (`ExperimentWorkbenchComponent.saveMovement()`)                                                                                                                                                                                                                                                                                          | Resolución satisfactoria de `firstValueFrom(...)` en el flujo guiado `EC01`.                                                                                                                                                                                                  | `condition: "B"`, `operation_type`, `outcome: "completed"`, `duration_ms`                                                                                        |
+| `EC04` · Condición `A`  | `project_consultation_started`                                                               | [`project-list.component.ts`](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendWeb/blob/be091d5ee22c5825cf8df5451ab2af5f5373b030/src/app/projects/pages/project-list/project-list.component.ts) (`open()`, `trackProjectSelection()`) y [`weekly-report.component.ts`](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendWeb/blob/be091d5ee22c5825cf8df5451ab2af5f5373b030/src/app/reports/pages/weekly-report/weekly-report.component.ts) (`load()`)                                                              | Selección de un proyecto desde el listado o inicio de consulta de reporte en la interfaz original.                                                                                                                                                                            | `condition: "A"`, `outcome: "started"`, `attempt_id`                                                                                                             |
+| `EC04` · Condición `A`  | `project_consultation_loaded` / `project_consultation_failed`                                | [`weekly-report.component.ts`](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendWeb/blob/be091d5ee22c5825cf8df5451ab2af5f5373b030/src/app/reports/pages/weekly-report/weekly-report.component.ts) (`WeeklyReportComponent.load()`)                                                                                                                                                                                                                                                                                                       | Suscripción a `reportService.generate(project, weekStart)`, deduplicada por clave `(projectId, weekStartIso)` frente a re-ejecuciones de `effect()`.                                                                                                                          | `condition: "A"`, `outcome: "loaded" \| "api_failed"`, `duration_ms`, `error_category` (si falla)                                                                |
+| `EC04` · Condición `A`  | `project_report_opened`                                                                      | [`sidebar.component.ts`](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendWeb/blob/be091d5ee22c5825cf8df5451ab2af5f5373b030/src/app/shared/presentation/layout/sidebar/sidebar.component.ts) (`selectModule('reports')` → `openProjectReportFromNavigation()`) y [`weekly-report.component.ts`](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendWeb/blob/be091d5ee22c5825cf8df5451ab2af5f5373b030/src/app/reports/pages/weekly-report/weekly-report.component.ts) (`download()` → `recordProjectReportOpened()`) | Acceso explícito al módulo de reportes desde la navegación lateral (emitido tras completarse la carga del intento activo) o descarga única del reporte semanal en condición `A`.                                                                                              | `condition: "A"`, `outcome: "opened"`, `duration_ms`                                                                                                             |
+| `EC04` · Condición `B`  | `project_consultation_started`, `project_consultation_loaded`, `project_consultation_failed` | [`experiment-workbench.component.ts`](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendWeb/blob/be091d5ee22c5825cf8df5451ab2af5f5373b030/src/app/experiments/experiment-workbench.component.ts) (`ExperimentWorkbenchComponent.refresh()`)                                                                                                                                                                                                                                                                                               | Inicio y resolución de la consulta cuando `experimentId() === 'EC04'` en la ruta del Workbench (o al refrescar manualmente), sin duplicarse cuando el panel está embebido pasivamente.                                                                                        | `condition: "B"`, `outcome: "started" \| "loaded" \| "api_failed"`, `duration_ms`, `error_category` (si falla)                                                   |
+| `EC04` · Condición `B`  | `project_report_opened`                                                                      | [`experiment-workbench.component.ts`](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendWeb/blob/be091d5ee22c5825cf8df5451ab2af5f5373b030/src/app/experiments/experiment-workbench.component.ts) (`openEc04Report()`) y [`experiment-workbench.component.html`](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendWeb/blob/be091d5ee22c5825cf8df5451ab2af5f5373b030/src/app/experiments/experiment-workbench.component.html)                                                                                        | Clic del usuario sobre el enlace `[data-testid="ec04-weekly-report-link"]` dentro del panel simplificado `EC04` (suprimiendo con `markConditionBReportNavigation()` una doble consulta `A` al abrir la vista de reporte).                                                     | `condition: "B"`, `outcome: "opened"`, `duration_ms`, correlacionado con el `attempt_id` activo                                                                  |
 
 #### 6. Eventos Mobile y sus puntos de captura
 
@@ -8695,14 +9069,14 @@ En `ArquiTech-FrontendMobile`, la aplicación implementa los flujos operativos d
 
 </p>
 
-| Experimento y condición | Evento | Archivo y punto de captura | Disparador técnico | Propiedades específicas emitidas |
-| ----------------------- | ------ | -------------------------- | ------------------ | -------------------------------- |
-| `EC01` · Condición `A` | `material_operation_started` | [`material_movement_sheet.dart`](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendMobile/blob/5d2614e56c78d48b25b24691e76254cfe6ad5140/lib/features/materials/presentation/widgets/material_movement_sheet.dart) (`_MaterialMovementSheetState._submit()`) | Pulsación del botón de confirmación en la hoja modal de entrada o uso de materiales. | `platform: "mobile"`, `condition: "A"`, `operation_type: "ENTRY" \| "USAGE"`, `outcome: "started"` |
-| `EC01` · Condición `A` | `material_operation_failed` | [`material_movement_sheet.dart`](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendMobile/blob/5d2614e56c78d48b25b24691e76254cfe6ad5140/lib/features/materials/presentation/widgets/material_movement_sheet.dart) (`_MaterialMovementSheetState._submit()`) | Rechazo de `_formKey.currentState?.validate()` (distinguiendo exceso de stock mediante `!widget.material.canUse(parsedAmount)`) o excepción capturada al invocar `controller.entry` / `controller.usage`. | `platform: "mobile"`, `condition: "A"`, `operation_type`, `outcome: "validation_failed" \| "api_failed"`, `error_category`, `duration_ms` |
-| `EC01` · Condición `A` | `material_operation_completed` | [`material_movement_sheet.dart`](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendMobile/blob/5d2614e56c78d48b25b24691e76254cfe6ad5140/lib/features/materials/presentation/widgets/material_movement_sheet.dart) (`_MaterialMovementSheetState._submit()`) | Finalización sin errores de `controller.entry(...)` o `controller.usage(...)` antes de `Navigator.of(context).pop(true)`. | `platform: "mobile"`, `condition: "A"`, `operation_type`, `outcome: "completed"`, `duration_ms` |
-| `EC04` · Condición `A` | `project_consultation_started` | [`projects_page.dart`](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendMobile/blob/5d2614e56c78d48b25b24691e76254cfe6ad5140/lib/features/projects/presentation/pages/projects_page.dart) (`ProjectCard.onTap`) y [`reports_page.dart`](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendMobile/blob/5d2614e56c78d48b25b24691e76254cfe6ad5140/lib/features/reports/presentation/pages/reports_page.dart) (`_trackConsultationForDate()`) | Selección de una obra en `ProjectsPage` o inicio de consulta de reporte semanal cuando no existe un intento pendiente. | `platform: "mobile"`, `condition: "A"`, `outcome: "started"` |
-| `EC04` · Condición `A` | `project_consultation_loaded` / `project_consultation_failed` | [`reports_page.dart`](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendMobile/blob/5d2614e56c78d48b25b24691e76254cfe6ad5140/lib/features/reports/presentation/pages/reports_page.dart) (`_ReportsPageState._trackConsultationForDate()`) | Resolución o fallo de `ref.read(weeklyReportProvider(targetDate).future)` iniciado desde `initState()`, cambio de semana o reintento explícito. | `platform: "mobile"`, `condition: "A"`, `outcome: "loaded" \| "api_failed"`, `duration_ms`, `error_category` (si falla) |
-| `EC04` · Condición `A` | `project_report_opened` | [`more_page.dart`](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendMobile/blob/5d2614e56c78d48b25b24691e76254cfe6ad5140/lib/features/profile/presentation/pages/more_page.dart) (`ListTile` de reportes → `openProjectReportFromNavigation()`) y [`reports_page.dart`](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendMobile/blob/5d2614e56c78d48b25b24691e76254cfe6ad5140/lib/features/reports/presentation/pages/reports_page.dart) (`printReport()` → `recordProjectReportOpened()`) | Navegación explícita hacia `/projects/:projectId/reports` desde el menú `MorePage` (emitido una vez cargados los datos del intento) o generación de vista PDF del reporte sin duplicar en el mismo intento. | `platform: "mobile"`, `condition: "A"`, `outcome: "opened"`, `duration_ms` |
+| Experimento y condición | Evento                                                        | Archivo y punto de captura                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               | Disparador técnico                                                                                                                                                                                          | Propiedades específicas emitidas                                                                                                          |
+| ----------------------- | ------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- |
+| `EC01` · Condición `A`  | `material_operation_started`                                  | [`material_movement_sheet.dart`](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendMobile/blob/5d2614e56c78d48b25b24691e76254cfe6ad5140/lib/features/materials/presentation/widgets/material_movement_sheet.dart) (`_MaterialMovementSheetState._submit()`)                                                                                                                                                                                                                                                        | Pulsación del botón de confirmación en la hoja modal de entrada o uso de materiales.                                                                                                                        | `platform: "mobile"`, `condition: "A"`, `operation_type: "ENTRY" \| "USAGE"`, `outcome: "started"`                                        |
+| `EC01` · Condición `A`  | `material_operation_failed`                                   | [`material_movement_sheet.dart`](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendMobile/blob/5d2614e56c78d48b25b24691e76254cfe6ad5140/lib/features/materials/presentation/widgets/material_movement_sheet.dart) (`_MaterialMovementSheetState._submit()`)                                                                                                                                                                                                                                                        | Rechazo de `_formKey.currentState?.validate()` (distinguiendo exceso de stock mediante `!widget.material.canUse(parsedAmount)`) o excepción capturada al invocar `controller.entry` / `controller.usage`.   | `platform: "mobile"`, `condition: "A"`, `operation_type`, `outcome: "validation_failed" \| "api_failed"`, `error_category`, `duration_ms` |
+| `EC01` · Condición `A`  | `material_operation_completed`                                | [`material_movement_sheet.dart`](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendMobile/blob/5d2614e56c78d48b25b24691e76254cfe6ad5140/lib/features/materials/presentation/widgets/material_movement_sheet.dart) (`_MaterialMovementSheetState._submit()`)                                                                                                                                                                                                                                                        | Finalización sin errores de `controller.entry(...)` o `controller.usage(...)` antes de `Navigator.of(context).pop(true)`.                                                                                   | `platform: "mobile"`, `condition: "A"`, `operation_type`, `outcome: "completed"`, `duration_ms`                                           |
+| `EC04` · Condición `A`  | `project_consultation_started`                                | [`projects_page.dart`](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendMobile/blob/5d2614e56c78d48b25b24691e76254cfe6ad5140/lib/features/projects/presentation/pages/projects_page.dart) (`ProjectCard.onTap`) y [`reports_page.dart`](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendMobile/blob/5d2614e56c78d48b25b24691e76254cfe6ad5140/lib/features/reports/presentation/pages/reports_page.dart) (`_trackConsultationForDate()`)                                                   | Selección de una obra en `ProjectsPage` o inicio de consulta de reporte semanal cuando no existe un intento pendiente.                                                                                      | `platform: "mobile"`, `condition: "A"`, `outcome: "started"`                                                                              |
+| `EC04` · Condición `A`  | `project_consultation_loaded` / `project_consultation_failed` | [`reports_page.dart`](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendMobile/blob/5d2614e56c78d48b25b24691e76254cfe6ad5140/lib/features/reports/presentation/pages/reports_page.dart) (`_ReportsPageState._trackConsultationForDate()`)                                                                                                                                                                                                                                                                          | Resolución o fallo de `ref.read(weeklyReportProvider(targetDate).future)` iniciado desde `initState()`, cambio de semana o reintento explícito.                                                             | `platform: "mobile"`, `condition: "A"`, `outcome: "loaded" \| "api_failed"`, `duration_ms`, `error_category` (si falla)                   |
+| `EC04` · Condición `A`  | `project_report_opened`                                       | [`more_page.dart`](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendMobile/blob/5d2614e56c78d48b25b24691e76254cfe6ad5140/lib/features/profile/presentation/pages/more_page.dart) (`ListTile` de reportes → `openProjectReportFromNavigation()`) y [`reports_page.dart`](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendMobile/blob/5d2614e56c78d48b25b24691e76254cfe6ad5140/lib/features/reports/presentation/pages/reports_page.dart) (`printReport()` → `recordProjectReportOpened()`) | Navegación explícita hacia `/projects/:projectId/reports` desde el menú `MorePage` (emitido una vez cargados los datos del intento) o generación de vista PDF del reporte sin duplicar en el mismo intento. | `platform: "mobile"`, `condition: "A"`, `outcome: "opened"`, `duration_ms`                                                                |
 
 #### 7. Integración existente con EC08 y EC10
 
@@ -8725,12 +9099,12 @@ El diseño experimental de ArquiTech distingue de manera estricta los hechos té
 
 </p>
 
-| Dimensión de la medida | Qué aporta la instrumentación automática | Qué requiere observación o verificación manual independiente |
-| ---------------------- | ---------------------------------------- | ------------------------------------------------------------ |
-| Exactitud frente al patrón (`M01`, `M02`, `M03`, `M04`, `M05`, `M07`) | Confirma si el intento de envío o carga fue aceptado por las validaciones del cliente y por la API (`outcome: "completed"` o `"loaded"`), y clasifica los rechazos técnicos (`error_category`). | El evaluador debe contrastar el estado final del inventario, la nómina de asistencia, la tarea señalada, el dato consultado del proyecto, el responsable del movimiento o los campos del reporte contra la hoja de respuestas esperadas del escenario ficticio. Un `200 OK` no implica `outcome_correct: true`. |
-| Autonomía del participante y solicitudes de ayuda (`M04`, `M10`) | Registra la secuencia temporal de inicio de consulta (`project_consultation_started`), carga (`project_consultation_loaded`) y acceso al reporte (`project_report_opened`). | El moderador registra en la hoja de observación si el participante solicitó ayuda verbal o procedimental (`help_requested`); cualquier intervención del moderador invalida la condición de autonomía aunque los eventos técnicos se hayan emitido sin errores. |
-| Minutos de reproceso, soporte y atención (`F01`, `F02`) | Proporciona la duración técnica en milisegundos (`duration_ms`) de cada intento individual de operación o carga de datos desde el reloj monotónico. | El tiempo total invertido en investigar un error, corregir inventario, responder consultas del contratante, capacitar a un usuario nuevo o consolidar manualmente un reporte (`rework_minutes`, `support_minutes`) se cronometra en la sesión moderada y se multiplica por la tarifa horaria de referencia uniforme en soles (`S/`). |
-| Calificación comercial y gasto de adquisición (`M11`, `F03`) | En la ruta experimental de `EC10`, registra localmente `view`, `segment_selected` y `mailto_intent` por sesión de navegador. | La contabilización de visitas únicas consolidadas entre dispositivos, la recepción real de solicitudes de demostración, la validación de criterios de cliente potencial calificado y la atribución del gasto publicitario por variante requieren revisión comercial y registros de campaña externos a `sessionStorage`. |
+| Dimensión de la medida                                                | Qué aporta la instrumentación automática                                                                                                                                                        | Qué requiere observación o verificación manual independiente                                                                                                                                                                                                                                                                         |
+| --------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Exactitud frente al patrón (`M01`, `M02`, `M03`, `M04`, `M05`, `M07`) | Confirma si el intento de envío o carga fue aceptado por las validaciones del cliente y por la API (`outcome: "completed"` o `"loaded"`), y clasifica los rechazos técnicos (`error_category`). | El evaluador debe contrastar el estado final del inventario, la nómina de asistencia, la tarea señalada, el dato consultado del proyecto, el responsable del movimiento o los campos del reporte contra la hoja de respuestas esperadas del escenario ficticio. Un `200 OK` no implica `outcome_correct: true`.                      |
+| Autonomía del participante y solicitudes de ayuda (`M04`, `M10`)      | Registra la secuencia temporal de inicio de consulta (`project_consultation_started`), carga (`project_consultation_loaded`) y acceso al reporte (`project_report_opened`).                     | El moderador registra en la hoja de observación si el participante solicitó ayuda verbal o procedimental (`help_requested`); cualquier intervención del moderador invalida la condición de autonomía aunque los eventos técnicos se hayan emitido sin errores.                                                                       |
+| Minutos de reproceso, soporte y atención (`F01`, `F02`)               | Proporciona la duración técnica en milisegundos (`duration_ms`) de cada intento individual de operación o carga de datos desde el reloj monotónico.                                             | El tiempo total invertido en investigar un error, corregir inventario, responder consultas del contratante, capacitar a un usuario nuevo o consolidar manualmente un reporte (`rework_minutes`, `support_minutes`) se cronometra en la sesión moderada y se multiplica por la tarifa horaria de referencia uniforme en soles (`S/`). |
+| Calificación comercial y gasto de adquisición (`M11`, `F03`)          | En la ruta experimental de `EC10`, registra localmente `view`, `segment_selected` y `mailto_intent` por sesión de navegador.                                                                    | La contabilización de visitas únicas consolidadas entre dispositivos, la recepción real de solicitudes de demostración, la validación de criterios de cliente potencial calificado y la atribución del gasto publicitario por variante requieren revisión comercial y registros de campaña externos a `sessionStorage`.              |
 
 #### 9. Condiciones A/B y trazabilidad de métricas
 
@@ -8767,13 +9141,13 @@ La implementación del plan de seguimiento se comprobó mediante suites automati
 
 </p>
 
-| Repositorio | Comando ejecutado | Archivo de prueba o script verificado | Resultado comprobado |
-| ----------- | ----------------- | ------------------------------------- | -------------------- |
-| `ArquiTech-FrontendWeb` | `npm run build` | Compilación de producción Angular 19 (`ng build`) | Compilación exitosa sin errores de tipos ni advertencias de presupuesto en los módulos instrumentados. |
-| `ArquiTech-FrontendWeb` | `npm run test:ci` | [`experiment-tracking.service.spec.ts`](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendWeb/blob/be091d5ee22c5825cf8df5451ab2af5f5373b030/src/app/experiments/tracking/experiment-tracking.service.spec.ts) junto con la suite unitaria de Karma/ChromeHeadlessCI | Ejecución satisfactoria de las 46 pruebas unitarias del contrato, destinos en memoria, aislamiento de errores e instrumentación real de `EC01` (`A`/`B`) y `EC04` (`A`/`B`). |
-| `ArquiTech-FrontendWeb` | `npm run experiments:validate` | [`experiments/scripts/validate-plan.mjs`](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendWeb/blob/be091d5ee22c5825cf8df5451ab2af5f5373b030/experiments/scripts/validate-plan.mjs) | Validación estructural de los 28 perfiles sintéticos y las 10 configuraciones experimentales (`recorded_results: 0`, sin confundir configuración sintética con resultados humanos). |
-| `ArquiTech-FrontendMobile` | `flutter analyze` | Análisis estático completo del proyecto Dart/Flutter sobre `origin/main` integrado | 0 problemas reportados (`No issues found!`). |
-| `ArquiTech-FrontendMobile` | `flutter test` | [`experiment_tracker_test.dart`](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendMobile/blob/5d2614e56c78d48b25b24691e76254cfe6ad5140/test/core/experiments/experiment_tracker_test.dart) junto con las suites de `EC08` y toda la suite móvil | Ejecución satisfactoria de las 114 pruebas unitarias y de widgets (incluyendo tracking `EC01`/`EC04`, persistencia e idempotencia de `EC08` y enlaces legales) sin llamadas a Railway. |
+| Repositorio                | Comando ejecutado              | Archivo de prueba o script verificado                                                                                                                                                                                                                                                     | Resultado comprobado                                                                                                                                                                   |
+| -------------------------- | ------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `ArquiTech-FrontendWeb`    | `npm run build`                | Compilación de producción Angular 19 (`ng build`)                                                                                                                                                                                                                                         | Compilación exitosa sin errores de tipos ni advertencias de presupuesto en los módulos instrumentados.                                                                                 |
+| `ArquiTech-FrontendWeb`    | `npm run test:ci`              | [`experiment-tracking.service.spec.ts`](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendWeb/blob/be091d5ee22c5825cf8df5451ab2af5f5373b030/src/app/experiments/tracking/experiment-tracking.service.spec.ts) junto con la suite unitaria de Karma/ChromeHeadlessCI | Ejecución satisfactoria de las 46 pruebas unitarias del contrato, destinos en memoria, aislamiento de errores e instrumentación real de `EC01` (`A`/`B`) y `EC04` (`A`/`B`).           |
+| `ArquiTech-FrontendWeb`    | `npm run experiments:validate` | [`experiments/scripts/validate-plan.mjs`](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendWeb/blob/be091d5ee22c5825cf8df5451ab2af5f5373b030/experiments/scripts/validate-plan.mjs)                                                                                | Validación estructural de los 28 perfiles sintéticos y las 10 configuraciones experimentales (`recorded_results: 0`, sin confundir configuración sintética con resultados humanos).    |
+| `ArquiTech-FrontendMobile` | `flutter analyze`              | Análisis estático completo del proyecto Dart/Flutter sobre `origin/main` integrado                                                                                                                                                                                                        | 0 problemas reportados (`No issues found!`).                                                                                                                                           |
+| `ArquiTech-FrontendMobile` | `flutter test`                 | [`experiment_tracker_test.dart`](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendMobile/blob/5d2614e56c78d48b25b24691e76254cfe6ad5140/test/core/experiments/experiment_tracker_test.dart) junto con las suites de `EC08` y toda la suite móvil                    | Ejecución satisfactoria de las 114 pruebas unitarias y de widgets (incluyendo tracking `EC01`/`EC04`, persistencia e idempotencia de `EC08` y enlaces legales) sin llamadas a Railway. |
 
 #### 12. Limitaciones de la implementación
 
@@ -8789,7 +9163,6 @@ La instrumentación implementada presenta limitaciones explícitas que deben con
 4. **Bloqueo preventivo en el DOM de `EC01` Condición `B`.** En el formulario original de materiales (`Condition A`, `MaterialMovementDialogComponent`), el botón de envío permanece activo y permite registrar rechazos de validación al clic (`validation_failed` con `insufficient_stock`). En cambio, en el Workbench guiado (`Condition B`, `ExperimentWorkbenchComponent`), la plantilla deshabilita preventivamente el botón de confirmación cuando `stockError()` está activo (`[disabled]="!canEdit() || !!stockError() || busy()"`), por lo que en interacción normal de navegador el bloqueo ocurre antes del clic y la validación dentro de `saveMovement()` actúa como guarda programática defensiva.
 5. **Almacenamiento local en `EC08` y `EC10`, y referencias por commit SHA.** Los artefactos de borradores sin conexión (`EC08`, integrados y preservados en la rama `feat/experiment-tracking-8-2-8` de Mobile sobre `origin/main`) y de la Landing Page personalizada (`EC10`, en `origin/main` de `ArquiTech-LandingPage`) operan sobre almacenamiento local (`SharedPreferences` y `sessionStorage`), por lo que la reconciliación de conversión comercial y los tiempos de reproceso humano siguen requiriendo registro externo durante la ejecución formal de los experimentos. Los enlaces a los módulos de tracking utilizan los SHA completos de los commits publicados en `ArquiTech-FrontendWeb` (`be091d5ee22c5825cf8df5451ab2af5f5373b030`) y `ArquiTech-FrontendMobile` (`5d2614e56c78d48b25b24691e76254cfe6ad5140`) para garantizar su resolución inmediata antes de fusionar los Pull Requests hacia `main`.
 
-
 ## 8.3. Experimentation
 
 ### 8.3.1. To-Be User Stories
@@ -8800,18 +9173,18 @@ Cada historia expresa un beneficio observable para el usuario, se asocia a una h
 
 #### Trazabilidad de las To-Be User Stories
 
-| Prioridad en 8.1.4 | To-Be Story | Título | Epic | Experimento | Historias relacionadas de 3.2 | Indicadores |
-| ----------------- | ----------- | ------ | ---- | ----------- | ----------------------------- | ----------- |
-| 1 | TB-HU04 | Panel resumido para contratantes | EP03 | EC04 - Q04 | HU20, HU33, HU39, HU40 | M04, F01 |
-| 2 | TB-HU10 | Solicitud de demostración por segmento | EP04 | EC10 - Q10 | HU11, HU12, HU13, HU34 | M11, F03 |
-| 3 | TB-HU06 | Elaboración asistida de reportes semanales | EP06 | EC06 - Q06 | HU20, HU52 | M06, M07, F02 |
-| 4 | TB-HU07 | Avisos prioritarios de incidencias críticas | EP06 | EC07 - Q07 | HU35, HU36, HU37, HU39 | M08, F01 |
-| 6 | TB-HU01 | Registro guiado de movimientos de materiales | EP01 | EC01 - Q01 | HU01, HU02, HU04, HU28 | M01, F01 |
-| 7 | TB-HU05 | Historial de movimientos con responsable y fecha | EP01 | EC05 - Q05 | HU04, HU27 | M05, F01 |
-| 8 | TB-HU02 | Registro rápido de asistencia por jornada | EP02 | EC02 - Q02 | HU06, HU10, HU54, HU55 | M02, F01 |
-| 9 | TB-HU08 | Guardado de borradores y sincronización | EP08 | EC08 - Q08 | HU01, HU02, HU54, HU53 | M09, F01 |
-| 11 | TB-HU03 | Identificación de tareas prioritarias | EP02 | EC03 - Q03 | HU07, HU08, HU53 | M03, F01 |
-| 12 | TB-HU09 | Guía de primeros pasos según el rol | EP07 | EC09 - Q09 | HU19, HU22, HU23, HU46 | M10, F01 |
+| Prioridad en 8.1.4 | To-Be Story | Título                                           | Epic | Experimento | Historias relacionadas de 3.2 | Indicadores   |
+| ------------------ | ----------- | ------------------------------------------------ | ---- | ----------- | ----------------------------- | ------------- |
+| 1                  | TB-HU04     | Panel resumido para contratantes                 | EP03 | EC04 - Q04  | HU20, HU33, HU39, HU40        | M04, F01      |
+| 2                  | TB-HU10     | Solicitud de demostración por segmento           | EP04 | EC10 - Q10  | HU11, HU12, HU13, HU34        | M11, F03      |
+| 3                  | TB-HU06     | Elaboración asistida de reportes semanales       | EP06 | EC06 - Q06  | HU20, HU52                    | M06, M07, F02 |
+| 4                  | TB-HU07     | Avisos prioritarios de incidencias críticas      | EP06 | EC07 - Q07  | HU35, HU36, HU37, HU39        | M08, F01      |
+| 6                  | TB-HU01     | Registro guiado de movimientos de materiales     | EP01 | EC01 - Q01  | HU01, HU02, HU04, HU28        | M01, F01      |
+| 7                  | TB-HU05     | Historial de movimientos con responsable y fecha | EP01 | EC05 - Q05  | HU04, HU27                    | M05, F01      |
+| 8                  | TB-HU02     | Registro rápido de asistencia por jornada        | EP02 | EC02 - Q02  | HU06, HU10, HU54, HU55        | M02, F01      |
+| 9                  | TB-HU08     | Guardado de borradores y sincronización          | EP08 | EC08 - Q08  | HU01, HU02, HU54, HU53        | M09, F01      |
+| 11                 | TB-HU03     | Identificación de tareas prioritarias            | EP02 | EC03 - Q03  | HU07, HU08, HU53              | M03, F01      |
+| 12                 | TB-HU09     | Guía de primeros pasos según el rol              | EP07 | EC09 - Q09  | HU19, HU22, HU23, HU46        | M10, F01      |
 
 Las prioridades 5 y 10 corresponden a las preguntas exploratorias Q12 y Q11, respectivamente. Estas preguntas se abordan mediante investigación y no originan una historia de implementación equivalente a las diez intervenciones. En particular, la evaluación del guardado sin conexión se relaciona con los hallazgos de Q11, tal como se define en EC08.
 
@@ -8921,7 +9294,6 @@ Las diez historias constituyen el conjunto de incrementos To-Be asociado con las
 
 La correspondencia con las historias del Capítulo III permite reutilizar capacidades existentes, como autenticación, gestión de materiales, asistencia, consulta de proyectos, incidencias y reportes, sin confundirlas con los cambios de interfaz o comportamiento propuestos. La organización de estos incrementos para su ejecución se presenta en 8.3.2. To-Be Product Backlog. El cumplimiento de los criterios funcionales no implica, por sí solo, que la hipótesis experimental esté validada.
 
-
 ### 8.3.2. To-Be Product Backlog
 
 El To-Be Product Backlog de ArquiTech reúne las diez historias de evolución descritas en 8.3.1 y las vincula con los experimentos definidos en 8.1.5. Su finalidad es ordenar las intervenciones de acuerdo con las preguntas de mayor prioridad, mantener la trazabilidad de las decisiones y distinguir el trabajo de validación experimental de la incorporación definitiva de funcionalidades al producto. Las historias originales del Product Backlog del Capítulo III permanecen como referencia funcional y no se sustituyen por estas propuestas.
@@ -8930,18 +9302,18 @@ El backlog se encuentra representado en el tablero [ArquiTech - Product Backlog]
 
 #### Product Backlog To-Be priorizado
 
-| Prioridad de la pregunta | ID de historia | Incremento To-Be | Epic | Experimento | Indicadores de validación | Tarjeta de Trello |
-| ----------------------- | ------------- | ---------------- | ---- | ----------- | ------------------------ | ---------------- |
-| 1 | TB-HU04 | Panel resumido para contratantes | EP03 | EC04 - Q04 | M04 ≥ 80 %; F01 ≥ 20 % | [TB-HU04](https://trello.com/c/76U7AV7t) |
-| 2 | TB-HU10 | Solicitud de demostración por segmento | EP04 | EC10 - Q10 | M11 ≥ 20 % de incremento relativo; F03 ≥ 15 % de reducción | [TB-HU10](https://trello.com/c/LGcpuxSF) |
-| 3 | TB-HU06 | Elaboración asistida de reportes semanales | EP06 | EC06 - Q06 | M06 ≥ 40 %; M07 ≥ 90 %; F02 ≥ 30 % | [TB-HU06](https://trello.com/c/JehTVGjp) |
-| 4 | TB-HU07 | Avisos prioritarios de incidencias críticas | EP06 | EC07 - Q07 | M08 ≥ 75 %; F01 ≥ 15 % | [TB-HU07](https://trello.com/c/VB2Oz4yN) |
-| 6 | TB-HU01 | Registro guiado de movimientos de materiales | EP01 | EC01 - Q01 | M01 ≥ 80 %; F01 ≥ 20 % | [TB-HU01](https://trello.com/c/pSPNJFwb) |
-| 7 | TB-HU05 | Historial de movimientos con responsable y fecha | EP01 | EC05 - Q05 | M05 ≥ 80 %; F01 ≥ 20 % | [TB-HU05](https://trello.com/c/6ugUmvyV) |
-| 8 | TB-HU02 | Registro rápido de asistencia por jornada | EP02 | EC02 - Q02 | M02 ≥ 90 %; F01 ≥ 20 % | [TB-HU02](https://trello.com/c/W0xsR6ZD) |
-| 9 | TB-HU08 | Guardado de borradores y sincronización | EP08 | EC08 - Q08 | M09 ≥ 90 %; F01 ≥ 20 % | [TB-HU08](https://trello.com/c/yTAFk7To) |
-| 11 | TB-HU03 | Identificación de tareas prioritarias | EP02 | EC03 - Q03 | M03 ≥ 80 %; F01 ≥ 15 % | [TB-HU03](https://trello.com/c/9ztDxsC3) |
-| 12 | TB-HU09 | Guía de primeros pasos según el rol | EP07 | EC09 - Q09 | M10 ≥ 80 %; F01 ≥ 20 % | [TB-HU09](https://trello.com/c/4oSKVGNu) |
+| Prioridad de la pregunta | ID de historia | Incremento To-Be                                 | Epic | Experimento | Indicadores de validación                                  | Tarjeta de Trello                        |
+| ------------------------ | -------------- | ------------------------------------------------ | ---- | ----------- | ---------------------------------------------------------- | ---------------------------------------- |
+| 1                        | TB-HU04        | Panel resumido para contratantes                 | EP03 | EC04 - Q04  | M04 ≥ 80 %; F01 ≥ 20 %                                     | [TB-HU04](https://trello.com/c/76U7AV7t) |
+| 2                        | TB-HU10        | Solicitud de demostración por segmento           | EP04 | EC10 - Q10  | M11 ≥ 20 % de incremento relativo; F03 ≥ 15 % de reducción | [TB-HU10](https://trello.com/c/LGcpuxSF) |
+| 3                        | TB-HU06        | Elaboración asistida de reportes semanales       | EP06 | EC06 - Q06  | M06 ≥ 40 %; M07 ≥ 90 %; F02 ≥ 30 %                         | [TB-HU06](https://trello.com/c/JehTVGjp) |
+| 4                        | TB-HU07        | Avisos prioritarios de incidencias críticas      | EP06 | EC07 - Q07  | M08 ≥ 75 %; F01 ≥ 15 %                                     | [TB-HU07](https://trello.com/c/VB2Oz4yN) |
+| 6                        | TB-HU01        | Registro guiado de movimientos de materiales     | EP01 | EC01 - Q01  | M01 ≥ 80 %; F01 ≥ 20 %                                     | [TB-HU01](https://trello.com/c/pSPNJFwb) |
+| 7                        | TB-HU05        | Historial de movimientos con responsable y fecha | EP01 | EC05 - Q05  | M05 ≥ 80 %; F01 ≥ 20 %                                     | [TB-HU05](https://trello.com/c/6ugUmvyV) |
+| 8                        | TB-HU02        | Registro rápido de asistencia por jornada        | EP02 | EC02 - Q02  | M02 ≥ 90 %; F01 ≥ 20 %                                     | [TB-HU02](https://trello.com/c/W0xsR6ZD) |
+| 9                        | TB-HU08        | Guardado de borradores y sincronización          | EP08 | EC08 - Q08  | M09 ≥ 90 %; F01 ≥ 20 %                                     | [TB-HU08](https://trello.com/c/yTAFk7To) |
+| 11                       | TB-HU03        | Identificación de tareas prioritarias            | EP02 | EC03 - Q03  | M03 ≥ 80 %; F01 ≥ 15 %                                     | [TB-HU03](https://trello.com/c/9ztDxsC3) |
+| 12                       | TB-HU09        | Guía de primeros pasos según el rol              | EP07 | EC09 - Q09  | M10 ≥ 80 %; F01 ≥ 20 %                                     | [TB-HU09](https://trello.com/c/4oSKVGNu) |
 
 Las posiciones 5 y 10 del Question Backlog corresponden a las investigaciones exploratorias Q12 y Q11, respectivamente. No se les asigna una historia de desarrollo To-Be porque su objetivo es resolver incertidumbres antes de decidir cambios funcionales. La secuencia de las diez historias conserva la prioridad relativa registrada en 8.1.4 y no representa un calendario de implementación.
 
@@ -8962,18 +9334,17 @@ El refinamiento del backlog distingue tres tipos de evidencia para cada historia
 
 El tablero operativo y esta matriz documentan el mismo conjunto de diez incrementos de producto. La primera vista permite gestionar las tarjetas de trabajo; la segunda preserva en el informe la relación verificable entre necesidad del usuario, intervención, prioridad y criterio de evaluación.
 
-
 ### 8.3.3. Pipeline-supported, Experiment-Driven To-Be Software Platform Lifecycle
 
 El ciclo de vida de la plataforma To-Be se documenta mediante la trazabilidad **pregunta (8.1) → historia To-Be (8.3.1) → Product Backlog (8.3.2) → trabajo de implementación → verificación A/B → registros y evidencias → revisión**. Las variantes se desarrollaron y verificaron inicialmente en ramas experimentales; sus PR de Web #8, Mobile #8 y Landing #11 se fusionaron después en `main`, al igual que el Backend #8 para EC08. La fusión de código no acredita por sí misma el despliegue efectivo de cada servicio ni valida las hipótesis de negocio. Las evidencias de las versiones anteriores se conservan separadas de los cambios y comprobaciones posteriores.
 
 En Web y Landing se emplearon **modelos de inteligencia artificial como apoyo para explorar las interfaces, seleccionar acciones y ejecutar recorridos funcionales**. Estas evaluaciones se diferenciaron de las pruebas Playwright de pasos predefinidos, las comprobaciones Flutter/Android y los casos funcionales de Landing. Los resultados se contrastaron con verificadores y registros técnicos. Las ejecuciones utilizaron datos de ensayo y **no sustituyen las sesiones con participantes humanos**. Los errores, reintentos y límites del entorno forman parte del registro original.
 
-| Producto | Cambios, pruebas y entorno | Relación con pipeline y publicación | Alcance comprobado |
-| --- | --- | --- | --- |
-| **Web** | Angular local, mock, Playwright Chromium y recorridos de navegación apoyados por modelos de inteligencia artificial | [PR Web #8](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendWeb/pull/8), [workflow `ab-browser.yml`](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendWeb/blob/bad486e279e59d7af30dc80d1388a5e1b3d11ae9/.github/workflows/ab-browser.yml), [informe](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendWeb/blob/bad486e279e59d7af30dc80d1388a5e1b3d11ae9/experiments/results/2026-11-10-ab-local-execution-report.md) | La batería técnica registra 132 recorridos; los otros 132 recorridos autónomos se ejecutaron **localmente**, se verificaron por separado y sus artefactos se publicaron después. |
-| **Mobile** | Flutter, Android emulado, Spring Boot y MySQL aislados en loopback | [PR Mobile #8](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendMobile/pull/8), [CI](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendMobile/blob/59cd61e2f90d2243f31765ad3ee3cfa345c66579/.github/workflows/ci.yml), [informe EC08](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendMobile/blob/59cd61e2f90d2243f31765ad3ee3cfa345c66579/docs/ec08-mobile-evaluation.md) | La prueba integral de reconexión fue **local** en Android, no una sesión con supervisores. |
-| **Landing** | Angular, Chrome Headless, validadores de navegación y recorridos funcionales apoyados por modelos de inteligencia artificial | [PR Landing #11](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-LandingPage/pull/11), [CI aprobado](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-LandingPage/actions/runs/42824541195), [informe EC10](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-LandingPage/blob/8777313bcee6252629360f075697ac05b27b134b/docs/ec10/README.md) | Las 400 visitas históricas de CI, las pruebas locales iniciales y la regresión corregida se contabilizan como conjuntos independientes. |
+| Producto    | Cambios, pruebas y entorno                                                                                                   | Relación con pipeline y publicación                                                                                                                                                                                                                                                                                                                                                                                                                                                        | Alcance comprobado                                                                                                                                                               |
+| ----------- | ---------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Web**     | Angular local, mock, Playwright Chromium y recorridos de navegación apoyados por modelos de inteligencia artificial          | [PR Web #8](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendWeb/pull/8), [workflow `ab-browser.yml`](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendWeb/blob/bad486e279e59d7af30dc80d1388a5e1b3d11ae9/.github/workflows/ab-browser.yml), [informe](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendWeb/blob/bad486e279e59d7af30dc80d1388a5e1b3d11ae9/experiments/results/2026-11-10-ab-local-execution-report.md) | La batería técnica registra 132 recorridos; los otros 132 recorridos autónomos se ejecutaron **localmente**, se verificaron por separado y sus artefactos se publicaron después. |
+| **Mobile**  | Flutter, Android emulado, Spring Boot y MySQL aislados en loopback                                                           | [PR Mobile #8](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendMobile/pull/8), [CI](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendMobile/blob/59cd61e2f90d2243f31765ad3ee3cfa345c66579/.github/workflows/ci.yml), [informe EC08](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendMobile/blob/59cd61e2f90d2243f31765ad3ee3cfa345c66579/docs/ec08-mobile-evaluation.md)                                            | La prueba integral de reconexión fue **local** en Android, no una sesión con supervisores.                                                                                       |
+| **Landing** | Angular, Chrome Headless, validadores de navegación y recorridos funcionales apoyados por modelos de inteligencia artificial | [PR Landing #11](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-LandingPage/pull/11), [CI aprobado](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-LandingPage/actions/runs/42824541195), [informe EC10](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-LandingPage/blob/8777313bcee6252629360f075697ac05b27b134b/docs/ec10/README.md)                                                                                                  | Las 400 visitas históricas de CI, las pruebas locales iniciales y la regresión corregida se contabilizan como conjuntos independientes.                                          |
 
 **Alcance y fuentes:** 8.3.3.1–8.3.3.4 documentan backlog y evidencias Web, Mobile y Landing; 8.3.3.5 reúne contratos REST y verificaciones disponibles del Backend; y 8.3.3.6 presenta commits y contribuciones comprobables. Las capturas se almacenan en `assets/chapter-8/`, separando la evidencia de `main` de los PR experimentales. Las imágenes no prueban reuniones, estimaciones, revisiones por pares ni despliegues que no consten en los registros.
 
@@ -8981,11 +9352,11 @@ En Web y Landing se emplearon **modelos de inteligencia artificial como apoyo pa
 
 Las historias y prioridades se toman de [8.3.1](#831-to-be-user-stories) y [8.3.2](#832-to-be-product-backlog) y del [tablero To-Be Product Backlog de ArquiTech](https://trello.com/b/jDELnGdF/arquitech-product-backlog). El siguiente desglose presenta el **trabajo técnico ejecutado** por tres frentes de producto, su finalidad y verificación. Los identificadores de las historias son los ya documentados; no se crean story points, horas, actas de Sprint Planning ni asignaciones de personas sin respaldo documental.
 
-| Frente To-Be y Sprint Goal técnico documentado | Historias y experimentos | Work-items de implementación y pruebas | Evidencia del estado |
-| --- | --- | --- | --- |
-| **Frontend Web:** comprobar en condiciones A/B registros, consultas, seguimiento y tareas de los perfiles operativos | TB-HU01, TB-HU02, TB-HU03, TB-HU04, TB-HU05, TB-HU06, TB-HU07, TB-HU09; EC01–EC07 y EC09 | Incorporar condiciones experimentales y datos de ensayo; ejecutar batería técnica; ejecutar recorridos de interfaz con apoyo de modelos de inteligencia artificial, verificar sus objetivos y conservar evidencia | [Componente de variantes](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendWeb/blob/bad486e279e59d7af30dc80d1388a5e1b3d11ae9/src/app/experiments/experiment-workbench.component.ts); [132 recorridos autónomos](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendWeb/blob/bad486e279e59d7af30dc80d1388a5e1b3d11ae9/experiments/results/agent-runs/autonomous-cohort-20261110/outcomes.csv); [índice de evidencia](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendWeb/blob/bad486e279e59d7af30dc80d1388a5e1b3d11ae9/experiments/results/evidence-review/README.md) |
-| **Native Mobile:** comprobar que los movimientos no se pierden cuando falta conectividad y que se sincronizan íntegros | TB-HU08; EC08 | Desarrollar almacén de borradores; introducir acceso de supervisores; probar persistencia y reinicio; verificar la API aislada y conciliar identificadores | [Almacén Flutter](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendMobile/blob/59cd61e2f90d2243f31765ad3ee3cfa345c66579/lib/features/materials/data/ec08_draft_store.dart); [prueba de integridad](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendMobile/blob/59cd61e2f90d2243f31765ad3ee3cfa345c66579/test/materials/ec08_draft_store_test.dart); [conciliación](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendMobile/blob/59cd61e2f90d2243f31765ad3ee3cfa345c66579/docs/evidence/ec08/reconciliation/b-reconciliation.csv) |
-| **Landing Page:** probar una solicitud de demostración personalizada por perfil y su continuidad de navegación | TB-HU10; EC10 | Implementar asignación A/B y segmentación; ejecutar verificaciones; corregir tres defectos de navegación; repetir regresión y publicar resultados | [Componente EC10](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-LandingPage/blob/8777313bcee6252629360f075697ac05b27b134b/src/app/ec10-landing.ts); [corrección](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-LandingPage/commit/cd872735fdcd246a472aaf21d44fae995552e428); [regresión](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-LandingPage/tree/8777313bcee6252629360f075697ac05b27b134b/docs/ec10/evidence/retest) |
+| Frente To-Be y Sprint Goal técnico documentado                                                                         | Historias y experimentos                                                                 | Work-items de implementación y pruebas                                                                                                                                                                            | Evidencia del estado                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+| ---------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Frontend Web:** comprobar en condiciones A/B registros, consultas, seguimiento y tareas de los perfiles operativos   | TB-HU01, TB-HU02, TB-HU03, TB-HU04, TB-HU05, TB-HU06, TB-HU07, TB-HU09; EC01–EC07 y EC09 | Incorporar condiciones experimentales y datos de ensayo; ejecutar batería técnica; ejecutar recorridos de interfaz con apoyo de modelos de inteligencia artificial, verificar sus objetivos y conservar evidencia | [Componente de variantes](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendWeb/blob/bad486e279e59d7af30dc80d1388a5e1b3d11ae9/src/app/experiments/experiment-workbench.component.ts); [132 recorridos autónomos](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendWeb/blob/bad486e279e59d7af30dc80d1388a5e1b3d11ae9/experiments/results/agent-runs/autonomous-cohort-20261110/outcomes.csv); [índice de evidencia](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendWeb/blob/bad486e279e59d7af30dc80d1388a5e1b3d11ae9/experiments/results/evidence-review/README.md) |
+| **Native Mobile:** comprobar que los movimientos no se pierden cuando falta conectividad y que se sincronizan íntegros | TB-HU08; EC08                                                                            | Desarrollar almacén de borradores; introducir acceso de supervisores; probar persistencia y reinicio; verificar la API aislada y conciliar identificadores                                                        | [Almacén Flutter](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendMobile/blob/59cd61e2f90d2243f31765ad3ee3cfa345c66579/lib/features/materials/data/ec08_draft_store.dart); [prueba de integridad](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendMobile/blob/59cd61e2f90d2243f31765ad3ee3cfa345c66579/test/materials/ec08_draft_store_test.dart); [conciliación](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendMobile/blob/59cd61e2f90d2243f31765ad3ee3cfa345c66579/docs/evidence/ec08/reconciliation/b-reconciliation.csv)                                   |
+| **Landing Page:** probar una solicitud de demostración personalizada por perfil y su continuidad de navegación         | TB-HU10; EC10                                                                            | Implementar asignación A/B y segmentación; ejecutar verificaciones; corregir tres defectos de navegación; repetir regresión y publicar resultados                                                                 | [Componente EC10](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-LandingPage/blob/8777313bcee6252629360f075697ac05b27b134b/src/app/ec10-landing.ts); [corrección](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-LandingPage/commit/cd872735fdcd246a472aaf21d44fae995552e428); [regresión](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-LandingPage/tree/8777313bcee6252629360f075697ac05b27b134b/docs/ec10/evidence/retest)                                                                                                                                                        |
 
 **Trazabilidad de trabajo y cierre:** en el frente Web constan **132/132 recorridos técnicos aprobados y 132/132 recorridos autónomos ejecutados (100 correctos; 32 incorrectos)**; en Mobile, **100/100 pruebas Flutter** y **40/40 borradores B** sincronizados; en Landing, después de la corrección, **422/422 verificaciones**. Estos estados describen entregables y pruebas, **no certifican un Sprint Review formal**. Para completar la parte administrativa del Sprint Backlog del formato del curso se debe adjuntar la captura de tablero con Sprint, responsables, estimaciones horarias y estados reales cuando los integrantes la documenten. La prioridad de los diez elementos en 8.3.2 no equivale por sí misma a una asignación a un Sprint.
 
@@ -9033,7 +9404,6 @@ El ensayo confirmó navegación, presentación de beneficios según rol, persist
 
 Fuente: [informe EC10](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-LandingPage/blob/8777313bcee6252629360f075697ac05b27b134b/docs/ec10/README.md), [PR #11 Landing](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-LandingPage/pull/11), [evidencias posteriores a la corrección](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-LandingPage/tree/8777313bcee6252629360f075697ac05b27b134b/docs/ec10/evidence/retest), [110 huellas SHA-256](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-LandingPage/blob/8777313bcee6252629360f075697ac05b27b134b/docs/ec10/SHA256SUMS) y [CI aprobado](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-LandingPage/actions/runs/42824541195).
 
-
 **Muestras visuales:** [formulario segmentado B](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-LandingPage/blob/8777313bcee6252629360f075697ac05b27b134b/docs/ec10/evidence/retest/FUNC-B06.png) y [continuidad de navegación B](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-LandingPage/blob/8777313bcee6252629360f075697ac05b27b134b/docs/ec10/evidence/retest/FUNC-B07.png). Los cuatro recorridos autónomos de contacto verificaron interacciones locales; `mailto_intent` no certifica que se haya enviado o recibido un correo y no constituye una conversión comercial para M11 o F03.
 
 #### 8.3.3.3. Implemented To-Be Frontend-Web Application Evidence
@@ -9064,22 +9434,21 @@ La batería técnica de Playwright aprobó **132/132 recorridos predefinidos en 
 
 La siguiente tabla agrega piloto y cohorte autónoma. «Correcto» significa que el verificador aprobó **todos** los objetivos del recorrido; no equivale a una muestra de usuarios ni a aceptación de la hipótesis.
 
-| Experimento | A: correctos/ejecutados | B: correctos/ejecutados | Hallazgo técnico |
-| --- | ---: | ---: | --- |
-| EC01 · Inventario | 8/8 | 8/8 | Seis movimientos por asignación en la cohorte; stock comprobado. |
-| EC02 · Asistencia | 8/8 | 8/8 | Jornada y nómina verificadas. |
-| EC03 · Priorización | 8/8 | 8/8 | Identificación de tarea crítica. |
-| EC04 · Consulta de obra | 8/8 | 8/8 | Estado, avance y reporte consultados; no se midió ayuda independiente. |
-| EC05 · Historial | 1/8 | 4/8 | Fallos al confundir una entrada reciente con el último uso solicitado. |
-| EC06 · Reporte semanal | 3/8 | 8/8 | Cinco recorridos A usaron el consolidado, invalidando el método manual. |
-| EC07 · Incidencias | 7/12 | 1/12 | En la cohorte hubo dos periodos por recorrido; el mock necesitaba recarga. |
-| EC09 · Primera tarea | 6/6 | 6/6 | Objetivos comprobados; ayuda independiente no medida. |
-| **Total Web** | **49/66** | **51/66** | **100/132 correctos; 32/132 incorrectos.** |
+| Experimento             | A: correctos/ejecutados | B: correctos/ejecutados | Hallazgo técnico                                                           |
+| ----------------------- | ----------------------: | ----------------------: | -------------------------------------------------------------------------- |
+| EC01 · Inventario       |                     8/8 |                     8/8 | Seis movimientos por asignación en la cohorte; stock comprobado.           |
+| EC02 · Asistencia       |                     8/8 |                     8/8 | Jornada y nómina verificadas.                                              |
+| EC03 · Priorización     |                     8/8 |                     8/8 | Identificación de tarea crítica.                                           |
+| EC04 · Consulta de obra |                     8/8 |                     8/8 | Estado, avance y reporte consultados; no se midió ayuda independiente.     |
+| EC05 · Historial        |                     1/8 |                     4/8 | Fallos al confundir una entrada reciente con el último uso solicitado.     |
+| EC06 · Reporte semanal  |                     3/8 |                     8/8 | Cinco recorridos A usaron el consolidado, invalidando el método manual.    |
+| EC07 · Incidencias      |                    7/12 |                    1/12 | En la cohorte hubo dos periodos por recorrido; el mock necesitaba recarga. |
+| EC09 · Primera tarea    |                     6/6 |                     6/6 | Objetivos comprobados; ayuda independiente no medida.                      |
+| **Total Web**           |               **49/66** |               **51/66** | **100/132 correctos; 32/132 incorrectos.**                                 |
 
 En EC05 el caso de referencia pudo responderse correctamente aunque varios recorridos completos fallaran al identificar el uso más reciente de distintos materiales. En EC06 la corrección exigía respetar el método de elaboración asignado, no solo abrir un PDF. En EC07, la detección se verificó en periodos acelerados con la aplicación abierta; **A registró 12/22 detecciones oportunas y B 3/22**, pero las reglas de recarga del mock impiden equiparar esa observación con notificaciones asíncronas durante un piloto operativo. En cuatro pares Web se utilizaron modelos de inteligencia artificial distintos entre condiciones y otros cuatro pares presentaron diferencias horarias de estado inicial; el sistema de navegación asistida podía identificar el tratamiento. Por ello no se atribuyen ventajas causales a diferencias de tiempos ni a los recuentos.
 
 Fuente: [informe Web de las tres fases](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendWeb/blob/bad486e279e59d7af30dc80d1388a5e1b3d11ae9/experiments/results/2026-11-10-ab-local-execution-report.md), [PR #8](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendWeb/pull/8), [índice de verificación](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendWeb/blob/bad486e279e59d7af30dc80d1388a5e1b3d11ae9/experiments/results/evidence-review/README.md) y [paquetes publicados](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendWeb/releases/tag/evidence/web-ab-2026-11-10). El índice identifica **1.338 archivos canónicos publicados** y **4.314 archivos adicionales conservados solo en el equipo de ejecución**, pendientes de respaldo externo; el inventario distingue ambos destinos.
-
 
 **Criterios para inspeccionar los artefactos:** el [inventario](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendWeb/blob/bad486e279e59d7af30dc80d1388a5e1b3d11ae9/experiments/results/evidence-review/inventory.csv) vincula rutas, tamaños y SHA-256; el [índice](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendWeb/blob/bad486e279e59d7af30dc80d1388a5e1b3d11ae9/experiments/results/evidence-review/README.md) explica la reproducción y los [paquetes canónicos publicados](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendWeb/releases/tag/evidence/web-ab-2026-11-10). El registro identifica 1.338 archivos canónicos publicados y otros 4.314 que permanecen solo en la máquina de ejecución y requieren respaldo privado. En ningún caso los 32 recorridos incorrectos fueron excluidos del total.
 
@@ -9099,7 +9468,6 @@ El **M09 técnico del lote B fue 40/40 = 100 %**, por encima de la meta predefin
 
 Fuente: [informe EC08](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendMobile/blob/59cd61e2f90d2243f31765ad3ee3cfa345c66579/docs/ec08-mobile-evaluation.md), [PR #8 Mobile](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendMobile/pull/8) e [índice de evidencias con manifiesto SHA-256](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendMobile/tree/59cd61e2f90d2243f31765ad3ee3cfa345c66579/docs/evidence/ec08).
 
-
 **Capturas y conciliación:** [40 borradores B conservados](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendMobile/blob/59cd61e2f90d2243f31765ad3ee3cfa345c66579/docs/evidence/ec08/screenshots/b-offline-after.png), [sincronización B confirmada](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendMobile/blob/59cd61e2f90d2243f31765ad3ee3cfa345c66579/docs/evidence/ec08/screenshots/b-reconnected-after-sync.png), [formulario A tras el reinicio](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendMobile/blob/59cd61e2f90d2243f31765ad3ee3cfa345c66579/docs/evidence/ec08/screenshots/a-reopened-blank.png), [datos del Backend aislado](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendMobile/blob/59cd61e2f90d2243f31765ad3ee3cfa345c66579/docs/evidence/ec08/backend/backend-final-summary.json) y [CSV de conciliación](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendMobile/blob/59cd61e2f90d2243f31765ad3ee3cfa345c66579/docs/evidence/ec08/reconciliation/b-reconciliation.csv).
 
 #### 8.3.3.5. Implemented To-Be RESTful API and/or Serverless Backend Evidence
@@ -9108,11 +9476,11 @@ El [Backend de ArquiTech](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/
 
 ##### Trazabilidad de servicios con los experimentos
 
-| Historias y experimentos | Recurso REST disponible | Evidencia de integración o contrato |
-| --- | --- | --- |
-| **TB-HU01 / EC01 – Registro de materiales** | `POST /api/v1/materials/{id}/entry` y `POST /api/v1/materials/{id}/use` | Swagger documenta las operaciones para registrar entradas y consumos; las figuras 125 y 126 muestran sus parámetros, cuerpo JSON y respuesta esperada 201. |
-| **TB-HU05 / EC05 – Historial** | `GET /api/v1/materials/project/{projectId}/history` | La figura 127 expone el contrato de lectura del historial y sus campos de auditoría (responsable y fecha). |
-| **TB-HU08 / EC08 – Sincronización Mobile, ensayo previo** | Escritura de usos de materiales y consulta de movimientos posteriores | El [informe de EC08](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendMobile/blob/59cd61e2f90d2243f31765ad3ee3cfa345c66579/docs/ec08-mobile-evaluation.md) y la [conciliación de registros](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendMobile/blob/59cd61e2f90d2243f31765ad3ee3cfa345c66579/docs/evidence/ec08/reconciliation/b-reconciliation.csv) acreditan **40/40 borradores B** sincronizados íntegros, sin duplicados, contra una API y MySQL locales. |
+| Historias y experimentos                                  | Recurso REST disponible                                                 | Evidencia de integración o contrato                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| --------------------------------------------------------- | ----------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **TB-HU01 / EC01 – Registro de materiales**               | `POST /api/v1/materials/{id}/entry` y `POST /api/v1/materials/{id}/use` | Swagger documenta las operaciones para registrar entradas y consumos; las figuras 125 y 126 muestran sus parámetros, cuerpo JSON y respuesta esperada 201.                                                                                                                                                                                                                                                                                                                                                       |
+| **TB-HU05 / EC05 – Historial**                            | `GET /api/v1/materials/project/{projectId}/history`                     | La figura 127 expone el contrato de lectura del historial y sus campos de auditoría (responsable y fecha).                                                                                                                                                                                                                                                                                                                                                                                                       |
+| **TB-HU08 / EC08 – Sincronización Mobile, ensayo previo** | Escritura de usos de materiales y consulta de movimientos posteriores   | El [informe de EC08](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendMobile/blob/59cd61e2f90d2243f31765ad3ee3cfa345c66579/docs/ec08-mobile-evaluation.md) y la [conciliación de registros](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendMobile/blob/59cd61e2f90d2243f31765ad3ee3cfa345c66579/docs/evidence/ec08/reconciliation/b-reconciliation.csv) acreditan **40/40 borradores B** sincronizados íntegros, sin duplicados, contra una API y MySQL locales. |
 
 **Contrato posterior de EC08:** el [Backend PR #8](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/Arquitech-Backend/pull/8), fusionado en `main`, incorporó `GET /api/v1/materials/offline-sync-capabilities` y `POST /api/v1/materials/{id}/offline-movements`. El identificador `clientRequestId` permite reconocer un movimiento repetido (HTTP 200), registrar uno nuevo (201) y rechazar el reuso conflictivo (409), con control transaccional del inventario. El cambio incluye una migración SQL que debe revisarse antes de su uso en la base de datos del despliegue.
 
@@ -9215,12 +9583,12 @@ _Nota._ GitHub Insights Contributors para main durante tres meses, sin merge com
 
 ##### Cambios experimentales y documentación académica
 
-| Repositorio / PR | Evidencia capturada (histórica) | Alcance |
-| --- | --- | --- |
-| [Frontend Web #8](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendWeb/pull/8) | **39 commits**, **75 archivos modificados**, `experiment/ab-evaluation`, **Draft**. | Desarrollo y pruebas EC01–EC07 y EC09. |
-| [Frontend Mobile #8](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendMobile/pull/8) | **12 commits**, **38 archivos modificados**, rama experimental, **Draft**. | EC08: almacenamiento, recuperación y comprobaciones. Incluye algunos checks fallidos intermedios, además de resultados posteriores. |
-| [Landing Page #11](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-LandingPage/pull/11) | **9 commits**, **123 archivos modificados**, rama experimental, **Draft**. | EC10: variantes, pruebas, defectos y correcciones. |
-| [Informe #34](https://github.com/educmz/ArquiTech-Report/pull/34) | **4 commits** y **1 archivo modificado** en la captura, rama `experiments/ab-evidence-2026-11-09`, **Draft**. | Documentación de 8.3.3 y 8.4.1. Tras incorporar imágenes, el número del PR se incrementó: la figura conserva el estado histórico. |
+| Repositorio / PR                                                                                            | Evidencia capturada (histórica)                                                                               | Alcance                                                                                                                             |
+| ----------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------- |
+| [Frontend Web #8](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendWeb/pull/8)       | **39 commits**, **75 archivos modificados**, `experiment/ab-evaluation`, **Draft**.                           | Desarrollo y pruebas EC01–EC07 y EC09.                                                                                              |
+| [Frontend Mobile #8](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendMobile/pull/8) | **12 commits**, **38 archivos modificados**, rama experimental, **Draft**.                                    | EC08: almacenamiento, recuperación y comprobaciones. Incluye algunos checks fallidos intermedios, además de resultados posteriores. |
+| [Landing Page #11](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-LandingPage/pull/11)     | **9 commits**, **123 archivos modificados**, rama experimental, **Draft**.                                    | EC10: variantes, pruebas, defectos y correcciones.                                                                                  |
+| [Informe #34](https://github.com/educmz/ArquiTech-Report/pull/34)                                           | **4 commits** y **1 archivo modificado** en la captura, rama `experiments/ab-evidence-2026-11-09`, **Draft**. | Documentación de 8.3.3 y 8.4.1. Tras incorporar imágenes, el número del PR se incrementó: la figura conserva el estado histórico.   |
 
 **Figura 129**  
 _Historial de cambios del pull request experimental Frontend Web #8._
@@ -9270,22 +9638,22 @@ Esta matriz conserva los valores observados y los indicadores pendientes con la 
 
 Las fórmulas, denominadores y metas de aceptación proceden del catálogo **8.2.2** y del protocolo **8.2.3**. Los valores de laboratorio de Web provienen solo de la cohorte posterior de 116 recorridos, **sin agregar el piloto ni los suplementos**. Se expresan como evidencia técnica parcial y no sustituyen el contraste de hipótesis con las unidades de observación previstas.
 
-| Indicador | Dato sustentado en la ejecución | Estado respecto al estudio |
-| --- | --- | --- |
-| **M01 · Inventario** | Web: **42/42 operaciones A** y **42/42 B** correctas al primer envío observable. | Observación técnica de operaciones; falta desempeño operativo con participantes. |
-| **M02 · Asistencia** | Web: **7/7 jornadas A** y **7/7 B** sin trabajadores ni estados omitidos. | Observación técnica; falta contraste de sesiones. |
-| **M03 · Tarea crítica** | Web: **7/7 casos de referencia A** y **7/7 B** correctos dentro de 120 s. | No corresponde a siete supervisores distintos ni a tiempo humano. |
-| **M04 · Consultas autónomas** | EC04 completó sus recorridos Web, pero no se midieron independientemente las solicitudes de ayuda. | **Sin estimación válida** para autonomía sin ayuda. |
-| **M05 · Historial** | Web: **7/7 casos de referencia A** y **7/7 B** con fecha y responsable correctos dentro de 120 s. Los recorridos completos de la cohorte fueron **0/7 A** y **3/7 B**. | Las respuestas del caso de referencia no validan la serie de discrepancias ni el resultado con usuarios. |
-| **M06 · Tiempo de reporte** | Solo **dos pares válidos** de EC06 con el mismo modelo: medianas descriptivas de **26,999 s A** y **6,831 s B**. | **Sin estimación operativa** de reducción del tiempo mediano de elaboración. |
-| **M07 · Reportes completos** | Campos obligatorios presentes en **2/2 reportes A** y **7/7 B** elaborados conforme al método asignado. | Denominador técnico condicionado a informes válidos; no representa el conjunto de sesiones. |
-| **M08 · Detección crítica** | EC07: **12/22 detecciones A** y **3/22 B** dentro de 600 s en periodos acelerados. | **Sin estimación del piloto operativo** de alertas; mock con recarga, sin seguimiento temporal representativo. |
-| **M09 · Sincronización** | Android EC08 B: **40/40 = 100 %**, completos y sin duplicados, verificados a los **50,7 s** desde el inicio de la reconexión. | **Meta técnica del lote alcanzada**; estudio con supervisores y Q11 pendientes. |
-| **M10 · Primera tarea autónoma** | EC09 completó recorridos con objetivos correctos, sin medición independiente de la ayuda. | **Sin estimación válida** para usuarios nuevos sin ayuda. |
-| **M11 · Demostraciones calificadas** | EC10 verificó exposición y acciones locales de contacto, pero no solicitudes comerciales calificadas recibidas. | **Sin estimación** de incremento relativo de conversión. |
-| **F01 · Costo operativo por caso** | No se obtuvieron minutos de trabajo y reproceso de participantes ni tarifa aplicable a casos comparables. | **Sin estimación** para EC01–EC05, EC07–EC09. |
-| **F02 · Costo por reporte** | No se midieron costos directos y tiempo operativo comparable de elaboración y validación. | **Sin estimación** para EC06. |
-| **F03 · Costo por prospecto** | Sin gasto atribuible por variante ni prospectos calificados recibidos. | **Sin estimación** para EC10. |
+| Indicador                            | Dato sustentado en la ejecución                                                                                                                                        | Estado respecto al estudio                                                                                     |
+| ------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------- |
+| **M01 · Inventario**                 | Web: **42/42 operaciones A** y **42/42 B** correctas al primer envío observable.                                                                                       | Observación técnica de operaciones; falta desempeño operativo con participantes.                               |
+| **M02 · Asistencia**                 | Web: **7/7 jornadas A** y **7/7 B** sin trabajadores ni estados omitidos.                                                                                              | Observación técnica; falta contraste de sesiones.                                                              |
+| **M03 · Tarea crítica**              | Web: **7/7 casos de referencia A** y **7/7 B** correctos dentro de 120 s.                                                                                              | No corresponde a siete supervisores distintos ni a tiempo humano.                                              |
+| **M04 · Consultas autónomas**        | EC04 completó sus recorridos Web, pero no se midieron independientemente las solicitudes de ayuda.                                                                     | **Sin estimación válida** para autonomía sin ayuda.                                                            |
+| **M05 · Historial**                  | Web: **7/7 casos de referencia A** y **7/7 B** con fecha y responsable correctos dentro de 120 s. Los recorridos completos de la cohorte fueron **0/7 A** y **3/7 B**. | Las respuestas del caso de referencia no validan la serie de discrepancias ni el resultado con usuarios.       |
+| **M06 · Tiempo de reporte**          | Solo **dos pares válidos** de EC06 con el mismo modelo: medianas descriptivas de **26,999 s A** y **6,831 s B**.                                                       | **Sin estimación operativa** de reducción del tiempo mediano de elaboración.                                   |
+| **M07 · Reportes completos**         | Campos obligatorios presentes en **2/2 reportes A** y **7/7 B** elaborados conforme al método asignado.                                                                | Denominador técnico condicionado a informes válidos; no representa el conjunto de sesiones.                    |
+| **M08 · Detección crítica**          | EC07: **12/22 detecciones A** y **3/22 B** dentro de 600 s en periodos acelerados.                                                                                     | **Sin estimación del piloto operativo** de alertas; mock con recarga, sin seguimiento temporal representativo. |
+| **M09 · Sincronización**             | Android EC08 B: **40/40 = 100 %**, completos y sin duplicados, verificados a los **50,7 s** desde el inicio de la reconexión.                                          | **Meta técnica del lote alcanzada**; estudio con supervisores y Q11 pendientes.                                |
+| **M10 · Primera tarea autónoma**     | EC09 completó recorridos con objetivos correctos, sin medición independiente de la ayuda.                                                                              | **Sin estimación válida** para usuarios nuevos sin ayuda.                                                      |
+| **M11 · Demostraciones calificadas** | EC10 verificó exposición y acciones locales de contacto, pero no solicitudes comerciales calificadas recibidas.                                                        | **Sin estimación** de incremento relativo de conversión.                                                       |
+| **F01 · Costo operativo por caso**   | No se obtuvieron minutos de trabajo y reproceso de participantes ni tarifa aplicable a casos comparables.                                                              | **Sin estimación** para EC01–EC05, EC07–EC09.                                                                  |
+| **F02 · Costo por reporte**          | No se midieron costos directos y tiempo operativo comparable de elaboración y validación.                                                                              | **Sin estimación** para EC06.                                                                                  |
+| **F03 · Costo por prospecto**        | Sin gasto atribuible por variante ni prospectos calificados recibidos.                                                                                                 | **Sin estimación** para EC10.                                                                                  |
 
 Los cocientes de Web y el M09 de Android permiten comprobar condiciones técnicas concretas, pero **no constituyen una aceptación conjunta de las métricas de negocio y financieras de H01–H10**. Las tasas observadas en recorridos asistidos por modelos de inteligencia artificial, con datos de ensayo y un emulador, no se extrapolan a personas. Las diferencias de tiempos Web incluyen decisiones del agente y esperas; EC06 no aporta una base operativa suficiente, y EC07 requiere medición longitudinal bajo condiciones de detección representativas.
 
@@ -9305,14 +9673,14 @@ La interpretación de EC01–EC10 contrasta las observaciones de la ejecución d
 
 #### 8.4.1.1. Fuentes, unidades y procedimiento de análisis
 
-| Evidencia | Resultado de ejecución | Unidad y alcance válido |
-| --- | --- | --- |
-| **Web: pruebas predefinidas** | 8/8 suites y **132/132 recorridos Playwright aprobados**. | Comprobaciones técnicas programadas, no navegación autónoma de usuarios. |
-| **Web: piloto de navegación autónoma** | **16/16 recorridos correctos** (una condición A y una B por experimento Web). | Objetivos interpretados mediante un modelo de inteligencia artificial; protocolo y puntos de partida distintos de la cohorte posterior. |
-| **Web: cohorte autónoma posterior** | **116/116 ejecutados; 84 correctos y 32 incorrectos**. | Verificación independiente de objetivos por recorrido; perfiles sintéticos. |
-| **Web: cobertura acumulada** | **132/132 asignaciones ejecutadas; 100 correctas y 32 incorrectas**. | Conteos conjuntos de piloto y cohorte; **nueve recorridos suplementarios** se mantienen aparte. |
-| **Mobile: EC08** | **100/100 pruebas Flutter** y 40 intentos Android por condición en la versión del ensayo; **40/40 borradores B sincronizados**. Revisión posterior: **105/105 pruebas Flutter**. | Los 40 movimientos corresponden a la versión previa en emulador y backend aislado; los 105 tests corresponden al refinamiento posterior, sin reatribuir el ensayo. |
-| **Landing: EC10** | Primera ejecución **418/421**; después de corregir tres defectos, **422/422** verificaciones correctas. | Verificaciones técnicas de asignación, formularios y navegación; no visitantes comerciales. |
+| Evidencia                              | Resultado de ejecución                                                                                                                                                           | Unidad y alcance válido                                                                                                                                            |
+| -------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Web: pruebas predefinidas**          | 8/8 suites y **132/132 recorridos Playwright aprobados**.                                                                                                                        | Comprobaciones técnicas programadas, no navegación autónoma de usuarios.                                                                                           |
+| **Web: piloto de navegación autónoma** | **16/16 recorridos correctos** (una condición A y una B por experimento Web).                                                                                                    | Objetivos interpretados mediante un modelo de inteligencia artificial; protocolo y puntos de partida distintos de la cohorte posterior.                            |
+| **Web: cohorte autónoma posterior**    | **116/116 ejecutados; 84 correctos y 32 incorrectos**.                                                                                                                           | Verificación independiente de objetivos por recorrido; perfiles sintéticos.                                                                                        |
+| **Web: cobertura acumulada**           | **132/132 asignaciones ejecutadas; 100 correctas y 32 incorrectas**.                                                                                                             | Conteos conjuntos de piloto y cohorte; **nueve recorridos suplementarios** se mantienen aparte.                                                                    |
+| **Mobile: EC08**                       | **100/100 pruebas Flutter** y 40 intentos Android por condición en la versión del ensayo; **40/40 borradores B sincronizados**. Revisión posterior: **105/105 pruebas Flutter**. | Los 40 movimientos corresponden a la versión previa en emulador y backend aislado; los 105 tests corresponden al refinamiento posterior, sin reatribuir el ensayo. |
+| **Landing: EC10**                      | Primera ejecución **418/421**; después de corregir tres defectos, **422/422** verificaciones correctas.                                                                          | Verificaciones técnicas de asignación, formularios y navegación; no visitantes comerciales.                                                                        |
 
 Las fuentes primarias son el [informe de las tres fases Web](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendWeb/blob/bad486e279e59d7af30dc80d1388a5e1b3d11ae9/experiments/results/2026-11-10-ab-local-execution-report.md), el [resumen de 116 recorridos](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendWeb/blob/bad486e279e59d7af30dc80d1388a5e1b3d11ae9/experiments/results/agent-runs/autonomous-cohort-20261110/summary.json), las [métricas de laboratorio](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendWeb/blob/bad486e279e59d7af30dc80d1388a5e1b3d11ae9/experiments/results/agent-runs/autonomous-cohort-20261110/metrics.json), el [informe de Android EC08](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendMobile/blob/59cd61e2f90d2243f31765ad3ee3cfa345c66579/docs/ec08-mobile-evaluation.md) y el [informe inicial y corregido EC10](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-LandingPage/blob/8777313bcee6252629360f075697ac05b27b134b/docs/ec10/README.md). Para contrastar cada registro se conservan [casos Web](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendWeb/blob/bad486e279e59d7af30dc80d1388a5e1b3d11ae9/experiments/results/agent-runs/autonomous-cohort-20261110/cases.csv), [conciliación Mobile](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendMobile/blob/59cd61e2f90d2243f31765ad3ee3cfa345c66579/docs/evidence/ec08/reconciliation/b-reconciliation.csv) y [resultados de la regresión EC10](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-LandingPage/blob/8777313bcee6252629360f075697ac05b27b134b/docs/ec10/evidence/retest/functional.csv).
 
@@ -9324,34 +9692,34 @@ En Web, **correcto** significa que todos los objetivos del recorrido se cumplier
 
 La cohorte posterior tuvo **41/58 recorridos correctos en A** y **43/58 en B**. Al sumar el piloto se obtuvieron **49/66 en A** y **51/66 en B**, es decir **100/132 = 75,76 %** de recorridos con todos los objetivos correctos y **32/132 = 24,24 %** con algún error. La diferencia acumulada de dos recorridos a favor de B es descriptiva, combina tareas heterogéneas y **no constituye un efecto general de tratamiento**.
 
-| Experimento | A correctos / ejecutados | B correctos / ejecutados | Hallazgo sobre el recorrido completo |
-| --- | ---: | ---: | --- |
-| EC01 · Registro de materiales | 8/8 | 8/8 | Corrección equivalente; stock y movimientos comprobados. |
-| EC02 · Asistencia | 8/8 | 8/8 | Ambas versiones completaron la jornada de prueba. |
-| EC03 · Tareas prioritarias | 8/8 | 8/8 | Ambas identificaron la tarea crítica. |
-| EC04 · Panel de obra | 8/8 | 8/8 | Se localizaron estado, avance y reporte; la ayuda no fue medida. |
-| EC05 · Historial | 1/8 | 4/8 | Respuestas incorrectas al confundir entrada reciente con último uso. |
-| EC06 · Reporte semanal | 3/8 | 8/8 | Cinco recorridos A de la cohorte utilizaron el consolidado en vez del procedimiento manual asignado. |
-| EC07 · Incidencias | 7/12 | 1/12 | Detección frágil de B bajo el mock con recarga. |
-| EC09 · Primera tarea | 6/6 | 6/6 | Tarea realizada en ambas condiciones, sin medición independiente de ayuda. |
-| **Total** | **49/66** | **51/66** | **100 correctos, 32 incorrectos.** |
+| Experimento                   | A correctos / ejecutados | B correctos / ejecutados | Hallazgo sobre el recorrido completo                                                                 |
+| ----------------------------- | -----------------------: | -----------------------: | ---------------------------------------------------------------------------------------------------- |
+| EC01 · Registro de materiales |                      8/8 |                      8/8 | Corrección equivalente; stock y movimientos comprobados.                                             |
+| EC02 · Asistencia             |                      8/8 |                      8/8 | Ambas versiones completaron la jornada de prueba.                                                    |
+| EC03 · Tareas prioritarias    |                      8/8 |                      8/8 | Ambas identificaron la tarea crítica.                                                                |
+| EC04 · Panel de obra          |                      8/8 |                      8/8 | Se localizaron estado, avance y reporte; la ayuda no fue medida.                                     |
+| EC05 · Historial              |                      1/8 |                      4/8 | Respuestas incorrectas al confundir entrada reciente con último uso.                                 |
+| EC06 · Reporte semanal        |                      3/8 |                      8/8 | Cinco recorridos A de la cohorte utilizaron el consolidado en vez del procedimiento manual asignado. |
+| EC07 · Incidencias            |                     7/12 |                     1/12 | Detección frágil de B bajo el mock con recarga.                                                      |
+| EC09 · Primera tarea          |                      6/6 |                      6/6 | Tarea realizada en ambas condiciones, sin medición independiente de ayuda.                           |
+| **Total**                     |                **49/66** |                **51/66** | **100 correctos, 32 incorrectos.**                                                                   |
 
 En **cuatro pares** Web se emplearon modelos de inteligencia artificial distintos entre variantes y en **otros cuatro** se detectaron diferencias horarias de los datos iniciales del mock; el sistema de navegación asistida también reconocía la variante. Los tiempos totales mezclan navegación, decisiones del modelo de inteligencia artificial y esperas del controlador. Por ello los recuentos anteriores sirven para identificar errores y cobertura técnica, pero no permiten aplicar inferencia causal ni intervalos estadísticos como si fueran datos de supervisores. [Auditoría original de condiciones y trazas](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendWeb/blob/bad486e279e59d7af30dc80d1388a5e1b3d11ae9/experiments/results/agent-runs/autonomous-cohort-20261110/audit.json).
 
 #### 8.4.1.3. Contraste por hipótesis y medidas predefinidas
 
-| Hipótesis y experimento | Metas predefinidas | Resultados observados e interpretación | Dictamen sustentado |
-| --- | --- | --- | --- |
-| **H01 / EC01 – Inventario** | M01 ≥ 80 % y F01 ≥ 20 %. | En la cohorte **42/42 operaciones A y 42/42 B** correctas al primer envío observado. No hay costo de corrección. | **No concluyente**: funciona técnicamente, sin ventaja observada de B ni F01. |
-| **H02 / EC02 – Asistencia** | M02 ≥ 90 % y F01 ≥ 20 %. | **7/7 jornadas completas A y 7/7 B** con lista ficticia; no se midió costo por jornada. | **No concluyente**: completitud técnica equivalente; F01 ausente. |
-| **H03 / EC03 – Prioridad** | M03 ≥ 80 % en ≤ 2 min y F01 ≥ 15 %. | **7/7 casos de referencia A y 7/7 B** correctos antes de 120 s durante recorridos asistidos por modelos de inteligencia artificial. No corresponden a siete supervisores. | **No concluyente**: falta efecto en personas y costo de coordinación. |
-| **H04 / EC04 – Consulta de obra** | M04 ≥ 80 % sin ayuda en ≤ 3 min y F01 ≥ 20 %. | Se completaron las consultas de estado y reporte, pero la ayuda no tuvo una medición independiente. | **M04 y F01 no estimados**; H04 no concluyente. |
-| **H05 / EC05 – Historial** | M05 ≥ 80 % en ≤ 2 min y F01 ≥ 20 %. | Caso de referencia **7/7 A y 7/7 B**, pero los recorridos múltiples de la cohorte fueron **0/7 A y 3/7 B**: confusión entre entrada reciente y uso reciente. | **No concluyente**, con fallos de exactitud que requieren corrección; F01 no medido. |
-| **H06 / EC06 – Reportes** | M06 reducción ≥ 40 %; M07 ≥ 90 %; F02 ≥ 30 %. | La cohorte tuvo **2/7 reportes A** y **7/7 B** correctos según el método asignado; en los válidos, los campos estuvieron completos (**2/2 A y 7/7 B**). Dos pares correctos y del mismo modelo registraron medianas **26,999 s A y 6,831 s B**, correspondientes a recorridos asistidos por IA, no a elaboración humana. | **No concluyente**: M07 de laboratorio favorable en B, pero sin M06 operativo ni F02. |
-| **H07 / EC07 – Incidencias** | M08 ≥ 75 % detectadas en 10 min; F01 ≥ 15 %. | En periodos acelerados se verificaron **12/22 detecciones A** y **3/22 B**. La cohorte tuvo **6/11 recorridos A** y **0/11 B** correctos. El mock necesitaba recargar para leer nuevas incidencias. | **Resultado técnico desfavorable para B**, pero sin M08 operativo ni F01. H07 no concluyente. |
-| **H08 / EC08 – Sin conexión** | M09 ≥ 90 % en ≤ 5 min y F01 ≥ 20 %. | En Android B sincronizó **40/40 borradores completos y sin duplicados**; verificación del lote a los **50,7 s** de iniciar restauración. En A, 40 intentos sin red fallaron; tras reiniciar se confirmó el reingreso de una operación. | **M09 técnico B = 100 % en ese lote**. No se acepta H08: Q11, supervisores y F01 pendientes. |
-| **H09 / EC09 – Primer uso** | M10 ≥ 80 % sin ayuda en ≤ 10 min y F01 ≥ 20 %. | La cohorte completó **5/5 tareas A y 5/5 B**, pero la ayuda no fue observada independientemente y los perfiles no son nuevos usuarios reales. | **M10 y F01 no estimados**; H09 no concluyente. |
-| **H10 / EC10 – Captación** | M11 incremento relativo ≥ 20 %; F03 reducción ≥ 15 %. | Las pruebas pasaron de **418/421** inicialmente a **422/422** tras corregir tres rutas. Los eventos locales de intención de correo no prueban solicitudes recibidas, calificadas ni gasto por variante. | **Corrección funcional aprobada**, sin estimación de M11/F03 ni prueba de H10. |
+| Hipótesis y experimento           | Metas predefinidas                                    | Resultados observados e interpretación                                                                                                                                                                                                                                                                                   | Dictamen sustentado                                                                           |
+| --------------------------------- | ----------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------- |
+| **H01 / EC01 – Inventario**       | M01 ≥ 80 % y F01 ≥ 20 %.                              | En la cohorte **42/42 operaciones A y 42/42 B** correctas al primer envío observado. No hay costo de corrección.                                                                                                                                                                                                         | **No concluyente**: funciona técnicamente, sin ventaja observada de B ni F01.                 |
+| **H02 / EC02 – Asistencia**       | M02 ≥ 90 % y F01 ≥ 20 %.                              | **7/7 jornadas completas A y 7/7 B** con lista ficticia; no se midió costo por jornada.                                                                                                                                                                                                                                  | **No concluyente**: completitud técnica equivalente; F01 ausente.                             |
+| **H03 / EC03 – Prioridad**        | M03 ≥ 80 % en ≤ 2 min y F01 ≥ 15 %.                   | **7/7 casos de referencia A y 7/7 B** correctos antes de 120 s durante recorridos asistidos por modelos de inteligencia artificial. No corresponden a siete supervisores.                                                                                                                                                | **No concluyente**: falta efecto en personas y costo de coordinación.                         |
+| **H04 / EC04 – Consulta de obra** | M04 ≥ 80 % sin ayuda en ≤ 3 min y F01 ≥ 20 %.         | Se completaron las consultas de estado y reporte, pero la ayuda no tuvo una medición independiente.                                                                                                                                                                                                                      | **M04 y F01 no estimados**; H04 no concluyente.                                               |
+| **H05 / EC05 – Historial**        | M05 ≥ 80 % en ≤ 2 min y F01 ≥ 20 %.                   | Caso de referencia **7/7 A y 7/7 B**, pero los recorridos múltiples de la cohorte fueron **0/7 A y 3/7 B**: confusión entre entrada reciente y uso reciente.                                                                                                                                                             | **No concluyente**, con fallos de exactitud que requieren corrección; F01 no medido.          |
+| **H06 / EC06 – Reportes**         | M06 reducción ≥ 40 %; M07 ≥ 90 %; F02 ≥ 30 %.         | La cohorte tuvo **2/7 reportes A** y **7/7 B** correctos según el método asignado; en los válidos, los campos estuvieron completos (**2/2 A y 7/7 B**). Dos pares correctos y del mismo modelo registraron medianas **26,999 s A y 6,831 s B**, correspondientes a recorridos asistidos por IA, no a elaboración humana. | **No concluyente**: M07 de laboratorio favorable en B, pero sin M06 operativo ni F02.         |
+| **H07 / EC07 – Incidencias**      | M08 ≥ 75 % detectadas en 10 min; F01 ≥ 15 %.          | En periodos acelerados se verificaron **12/22 detecciones A** y **3/22 B**. La cohorte tuvo **6/11 recorridos A** y **0/11 B** correctos. El mock necesitaba recargar para leer nuevas incidencias.                                                                                                                      | **Resultado técnico desfavorable para B**, pero sin M08 operativo ni F01. H07 no concluyente. |
+| **H08 / EC08 – Sin conexión**     | M09 ≥ 90 % en ≤ 5 min y F01 ≥ 20 %.                   | En Android B sincronizó **40/40 borradores completos y sin duplicados**; verificación del lote a los **50,7 s** de iniciar restauración. En A, 40 intentos sin red fallaron; tras reiniciar se confirmó el reingreso de una operación.                                                                                   | **M09 técnico B = 100 % en ese lote**. No se acepta H08: Q11, supervisores y F01 pendientes.  |
+| **H09 / EC09 – Primer uso**       | M10 ≥ 80 % sin ayuda en ≤ 10 min y F01 ≥ 20 %.        | La cohorte completó **5/5 tareas A y 5/5 B**, pero la ayuda no fue observada independientemente y los perfiles no son nuevos usuarios reales.                                                                                                                                                                            | **M10 y F01 no estimados**; H09 no concluyente.                                               |
+| **H10 / EC10 – Captación**        | M11 incremento relativo ≥ 20 %; F03 reducción ≥ 15 %. | Las pruebas pasaron de **418/421** inicialmente a **422/422** tras corregir tres rutas. Los eventos locales de intención de correo no prueban solicitudes recibidas, calificadas ni gasto por variante.                                                                                                                  | **Corrección funcional aprobada**, sin estimación de M11/F03 ni prueba de H10.                |
 
 **Nota de versión EC10:** los valores 418/421 y 422/422 pertenecen a las pruebas de la **variante B de formato reducido**, anteriores a la revisión que conserva la Landing completa. Los resultados del nuevo diseño se recogen por separado, sin agregarlos a la cohorte histórica ni modificar M11/F03.
 
@@ -9359,18 +9727,18 @@ El caso de referencia favorable de EC05 no anula los errores detectados al busca
 
 #### 8.4.1.4. Matriz de medición, incertidumbre y decisión
 
-| Indicador | Evidencia disponible | Qué falta para concluir conforme al diseño |
-| --- | --- | --- |
-| **M01, M02, M03, M05** | Cocientes técnicos en casos de la cohorte; EC05 además presenta errores en tareas múltiples. | Ejecución con unidades humanas previstas, intentos y tiempos del guion, respuestas completas y comprobación por participante. |
-| **M04, M10** | Objetivos técnicos cumplidos, sin registro independiente de ayuda. | Tareas moderadas con participantes y medición externa de solicitudes de ayuda. |
-| **M06** | Dos pares de tiempos de reportes correctos, registrados en recorridos asistidos por IA. | Ocho sesiones previstas, tiempo de elaboración manual y asistida realmente comparable, con orden contrabalanceado. |
-| **M07** | Campos verificados en **2/2 A** y **7/7 B** reportes válidos por método. | Denominadores completos del ensayo operativo y verificación de todos los reportes, también los intentos incorrectos. |
-| **M08** | **12/22 A** y **3/22 B** detecciones del ensayo acelerado. | Incidencias nuevas, ventanas temporales representativas, estado actualizado sin recargas artificiales y seguimiento durante el piloto. |
-| **M09** | **40/40 B** en un lote técnico Android; meta técnica alcanzada. | Investigación Q11 y ocho supervisores con cinco intentos por condición en orden contrabalanceado, según EC08. |
-| **M11** | Exposición y eventos locales de la Landing Page. | Visitas únicas atribuibles y solicitudes de demostración realmente recibidas y calificadas por variante. |
-| **F01** | **Sin estimación** de costo operativo por caso. | Minutos observados de ejecución, ayuda, reingreso y correcciones; tarifa horaria uniforme por rol. |
-| **F02** | **Sin estimación** de costo de reporte. | Horas operativas, tarifa y costos directos de preparación y validación en A y B. |
-| **F03** | **Sin estimación** de costo por prospecto. | Gasto de adquisición atribuible y prospectos calificados por condición y periodo. |
+| Indicador              | Evidencia disponible                                                                         | Qué falta para concluir conforme al diseño                                                                                             |
+| ---------------------- | -------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------- |
+| **M01, M02, M03, M05** | Cocientes técnicos en casos de la cohorte; EC05 además presenta errores en tareas múltiples. | Ejecución con unidades humanas previstas, intentos y tiempos del guion, respuestas completas y comprobación por participante.          |
+| **M04, M10**           | Objetivos técnicos cumplidos, sin registro independiente de ayuda.                           | Tareas moderadas con participantes y medición externa de solicitudes de ayuda.                                                         |
+| **M06**                | Dos pares de tiempos de reportes correctos, registrados en recorridos asistidos por IA.      | Ocho sesiones previstas, tiempo de elaboración manual y asistida realmente comparable, con orden contrabalanceado.                     |
+| **M07**                | Campos verificados en **2/2 A** y **7/7 B** reportes válidos por método.                     | Denominadores completos del ensayo operativo y verificación de todos los reportes, también los intentos incorrectos.                   |
+| **M08**                | **12/22 A** y **3/22 B** detecciones del ensayo acelerado.                                   | Incidencias nuevas, ventanas temporales representativas, estado actualizado sin recargas artificiales y seguimiento durante el piloto. |
+| **M09**                | **40/40 B** en un lote técnico Android; meta técnica alcanzada.                              | Investigación Q11 y ocho supervisores con cinco intentos por condición en orden contrabalanceado, según EC08.                          |
+| **M11**                | Exposición y eventos locales de la Landing Page.                                             | Visitas únicas atribuibles y solicitudes de demostración realmente recibidas y calificadas por variante.                               |
+| **F01**                | **Sin estimación** de costo operativo por caso.                                              | Minutos observados de ejecución, ayuda, reingreso y correcciones; tarifa horaria uniforme por rol.                                     |
+| **F02**                | **Sin estimación** de costo de reporte.                                                      | Horas operativas, tarifa y costos directos de preparación y validación en A y B.                                                       |
+| **F03**                | **Sin estimación** de costo por prospecto.                                                   | Gasto de adquisición atribuible y prospectos calificados por condición y periodo.                                                      |
 
 **Decisión sobre H01–H10:** ninguna hipótesis dispone a la vez de evidencia suficiente de su criterio de negocio y de su criterio financiero bajo la unidad de análisis y escala predefinidas. Por tanto, **no se rechazan sus hipótesis nulas ni se afirma aceptación de las alternativas**. Este dictamen no borra las capacidades demostradas, los defectos encontrados o las correcciones técnicas: distingue **éxito de verificación** de **evidencia confirmatoria de cambio de comportamiento y costo**.
 
@@ -9378,15 +9746,15 @@ Las preguntas exploratorias **Q11 y Q12** no se convierten en hipótesis con res
 
 #### 8.4.1.5. Amenazas a la validez e implicaciones
 
-| Riesgo observado | Consecuencia metodológica y decisión técnica |
-| --- | --- |
-| **Perfiles sintéticos y emulador** | No tratar 132 recorridos, 400 asignaciones ni 40 borradores como usuarios independientes; no calcular intervalos de confianza de participación humana sobre estos datos. |
-| **Cambio de modelo, horario del mock y exposición de variante en Web** | Separar acciones y esperas; repetir escenarios en condiciones equivalentes antes de estimar ventajas temporales A/B. |
-| **Incumplimiento del procedimiento manual en EC06** | Verificar el método asignado en cada reporte; no considerar correcta una entrega manual que abrió el consolidado. |
-| **Lectura del mock solo después de recarga en EC07** | Implementar/medir actualización observable mientras la interfaz permanece abierta y repetir en periodos representativos. |
-| **Un solo operador y cortes no equivalentes en EC08** | Conservar la conclusión de integridad del lote, pero ejecutar el protocolo contrabalanceado y registrar reproceso. |
-| **Evento local de correo en EC10 sin recepción verificada** | No estimar tasas comerciales hasta vincular variante, visita única, solicitud recibida, calificación y gasto. |
-| **Respaldo parcial de archivos Web** | Mantener el índice de evidencias: **1.338 archivos canónicos publicados** y **4.314 adicionales solo locales**, que necesitan copia privada independiente. |
+| Riesgo observado                                                       | Consecuencia metodológica y decisión técnica                                                                                                                             |
+| ---------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Perfiles sintéticos y emulador**                                     | No tratar 132 recorridos, 400 asignaciones ni 40 borradores como usuarios independientes; no calcular intervalos de confianza de participación humana sobre estos datos. |
+| **Cambio de modelo, horario del mock y exposición de variante en Web** | Separar acciones y esperas; repetir escenarios en condiciones equivalentes antes de estimar ventajas temporales A/B.                                                     |
+| **Incumplimiento del procedimiento manual en EC06**                    | Verificar el método asignado en cada reporte; no considerar correcta una entrega manual que abrió el consolidado.                                                        |
+| **Lectura del mock solo después de recarga en EC07**                   | Implementar/medir actualización observable mientras la interfaz permanece abierta y repetir en periodos representativos.                                                 |
+| **Un solo operador y cortes no equivalentes en EC08**                  | Conservar la conclusión de integridad del lote, pero ejecutar el protocolo contrabalanceado y registrar reproceso.                                                       |
+| **Evento local de correo en EC10 sin recepción verificada**            | No estimar tasas comerciales hasta vincular variante, visita única, solicitud recibida, calificación y gasto.                                                            |
+| **Respaldo parcial de archivos Web**                                   | Mantener el índice de evidencias: **1.338 archivos canónicos publicados** y **4.314 adicionales solo locales**, que necesitan copia privada independiente.               |
 
 La evidencia fundamenta las siguientes **acciones de aprendizaje técnico**: aclarar en EC05 la distinción entre tipos de movimientos, separar rígidamente los flujos manual y asistido en EC06, instrumentar la detección de incidencias sin recarga en EC07, concluir Q11 y medir el reproceso en EC08, e instrumentar contactos recibidos y calificados en EC10. Cada cambio deberá conservar la línea base y repetir pruebas equivalentes antes de atribuirle una mejora.
 
@@ -9411,31 +9779,31 @@ Como la sección 8.4.1 concluye que ninguna hipótesis cuenta a la vez con evide
 
 #### Preguntas nuevas
 
-| ID | Pregunta | Tipo | Origen | Relación |
-| --- | -------- | ---- | ------ | -------- |
-| Q13 | ¿Diferenciar visualmente las entradas y los usos en el historial de movimientos elimina la confusión entre la entrada más reciente y el último uso de un material? | Belief-led | EC05: recorridos múltiples con 0/7 aciertos en A y 3/7 en B por confusión entre entrada reciente y uso reciente. | Pregunta deep de Q05 |
-| Q14 | ¿Actualizar la lista de incidencias sin recargar la vista permite que los usuarios detecten las incidencias críticas dentro de diez minutos? | Belief-led | EC07: 12/22 detecciones en A y 3/22 en B; el mock solo mostraba nuevas incidencias tras recargar. | Pregunta deep de Q07 |
-| Q15 | ¿Qué proporción de los contactos enviados desde la Landing Page llega efectivamente al equipo y cumple los criterios de cliente potencial? | Exploratory | EC10: los eventos locales de intención de contacto no prueban solicitudes recibidas ni calificadas. | Pregunta deep de Q10 |
+| ID  | Pregunta                                                                                                                                                           | Tipo        | Origen                                                                                                           | Relación             |
+| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ----------- | ---------------------------------------------------------------------------------------------------------------- | -------------------- |
+| Q13 | ¿Diferenciar visualmente las entradas y los usos en el historial de movimientos elimina la confusión entre la entrada más reciente y el último uso de un material? | Belief-led  | EC05: recorridos múltiples con 0/7 aciertos en A y 3/7 en B por confusión entre entrada reciente y uso reciente. | Pregunta deep de Q05 |
+| Q14 | ¿Actualizar la lista de incidencias sin recargar la vista permite que los usuarios detecten las incidencias críticas dentro de diez minutos?                       | Belief-led  | EC07: 12/22 detecciones en A y 3/22 en B; el mock solo mostraba nuevas incidencias tras recargar.                | Pregunta deep de Q07 |
+| Q15 | ¿Qué proporción de los contactos enviados desde la Landing Page llega efectivamente al equipo y cumple los criterios de cliente potencial?                         | Exploratory | EC10: los eventos locales de intención de contacto no prueban solicitudes recibidas ni calificadas.              | Pregunta deep de Q10 |
 
 #### Question Backlog re-puntuado
 
-| Prioridad nueva | Prioridad anterior | ID | Pregunta (resumen) | C | R | I | Int | Puntaje (antes → ahora) | Motivo del cambio según 8.4.1 |
-| :-------------: | :----------------: | --- | ------------------ | :-: | :-: | :-: | :-: | :---------------------: | ----------------------------- |
-| 1 | 1 | Q04 | Panel simplificado para que el contratante se informe sin ayuda | 2 | 5 | 5 | 5 | 19 → 19 | Las consultas se completaron, pero la ayuda no se midió de forma independiente; M04 y F01 siguen sin estimación. |
-| 2 | Nueva | Q14 | Actualización de incidencias sin recargar la vista | 1 | 5 | 4 | 5 | — → 19 | Sin esta corrección, EC07 no puede volver a ejecutarse en condiciones válidas. |
-| 3 | 7 | Q05 | Historial con responsable y fecha | 2 | 5 | 5 | 4 | 16 → 18 | Los errores de exactitud en búsquedas múltiples aumentan el riesgo y el impacto sobre la confianza en la información. |
-| 4 | 4 | Q07 | Alertas de incidencias críticas | 2 | 5 | 4 | 5 | 17 → 18 | El resultado técnico fue desfavorable para B; el riesgo de que las alertas empeoren la detección sube a 5. |
-| 5 | 2 | Q10 | Landing Page con mensaje por segmento | 2 | 5 | 4 | 4 | 17 → 17 | Se corrigieron tres defectos de continuidad (422/422), pero no existen visitas ni solicitudes comerciales; M11 y F03 sin estimación. |
-| 6 | Nueva | Q13 | Diferenciación visual entre entradas y usos del historial | 1 | 4 | 4 | 4 | — → 17 | Corrige la causa de los errores observados en EC05 antes de repetir el experimento. |
-| 7 | 5 | Q12 | Precio y funcionalidades que justifican la suscripción | 2 | 5 | 4 | 3 | 16 → 16 | No se registró un resultado exploratorio que la responda. |
-| 8 | 3 | Q06 | Generación asistida del reporte semanal | 3 | 4 | 5 | 4 | 17 → 16 | B obtuvo 7/7 reportes correctos y completos frente a 2/7 en A; la confianza sube a 3, aunque M06 y F02 no se midieron con personas. |
-| 9 | Nueva | Q15 | Contactos recibidos y calificados desde la Landing Page | 1 | 4 | 4 | 3 | — → 16 | Es requisito para medir M11 y F03 en un nuevo Test A/B. |
-| 10 | 10 | Q11 | Momento, dispositivo y conectividad del registro | 1 | 3 | 3 | 4 | 14 → 15 | Sigue sin respuesta y es condición previa para repetir EC08 con supervisores; aumenta el interés. |
-| 11 | 6 | Q01 | Registro guiado de materiales | 3 | 4 | 4 | 3 | 16 → 14 | A y B lograron 42/42 operaciones correctas; no se observó ventaja de B y baja su impacto e interés. |
-| 12 | 8 | Q02 | Lista rápida de asistencia | 3 | 4 | 3 | 3 | 15 → 13 | A y B completaron 7/7 jornadas; el efecto diferencial esperado es menor. |
-| 13 | 9 | Q08 | Borradores sin conexión | 3 | 3 | 4 | 3 | 15 → 13 | B sincronizó 40/40 borradores sin pérdida ni duplicados; la viabilidad técnica eleva la confianza a 3. |
-| 14 | 11 | Q03 | Tablero de tareas prioritarias | 3 | 3 | 3 | 3 | 12 → 12 | A y B identificaron la tarea crítica en 7/7 casos; sin cambios. |
-| 15 | 12 | Q09 | Guía de primeros pasos por rol | 3 | 3 | 3 | 3 | 12 → 12 | La ayuda no se midió de forma independiente; sin cambios. |
+| Prioridad nueva | Prioridad anterior | ID  | Pregunta (resumen)                                              |  C  |  R  |  I  | Int | Puntaje (antes → ahora) | Motivo del cambio según 8.4.1                                                                                                        |
+| :-------------: | :----------------: | --- | --------------------------------------------------------------- | :-: | :-: | :-: | :-: | :---------------------: | ------------------------------------------------------------------------------------------------------------------------------------ |
+|        1        |         1          | Q04 | Panel simplificado para que el contratante se informe sin ayuda |  2  |  5  |  5  |  5  |         19 → 19         | Las consultas se completaron, pero la ayuda no se midió de forma independiente; M04 y F01 siguen sin estimación.                     |
+|        2        |       Nueva        | Q14 | Actualización de incidencias sin recargar la vista              |  1  |  5  |  4  |  5  |         — → 19          | Sin esta corrección, EC07 no puede volver a ejecutarse en condiciones válidas.                                                       |
+|        3        |         7          | Q05 | Historial con responsable y fecha                               |  2  |  5  |  5  |  4  |         16 → 18         | Los errores de exactitud en búsquedas múltiples aumentan el riesgo y el impacto sobre la confianza en la información.                |
+|        4        |         4          | Q07 | Alertas de incidencias críticas                                 |  2  |  5  |  4  |  5  |         17 → 18         | El resultado técnico fue desfavorable para B; el riesgo de que las alertas empeoren la detección sube a 5.                           |
+|        5        |         2          | Q10 | Landing Page con mensaje por segmento                           |  2  |  5  |  4  |  4  |         17 → 17         | Se corrigieron tres defectos de continuidad (422/422), pero no existen visitas ni solicitudes comerciales; M11 y F03 sin estimación. |
+|        6        |       Nueva        | Q13 | Diferenciación visual entre entradas y usos del historial       |  1  |  4  |  4  |  4  |         — → 17          | Corrige la causa de los errores observados en EC05 antes de repetir el experimento.                                                  |
+|        7        |         5          | Q12 | Precio y funcionalidades que justifican la suscripción          |  2  |  5  |  4  |  3  |         16 → 16         | No se registró un resultado exploratorio que la responda.                                                                            |
+|        8        |         3          | Q06 | Generación asistida del reporte semanal                         |  3  |  4  |  5  |  4  |         17 → 16         | B obtuvo 7/7 reportes correctos y completos frente a 2/7 en A; la confianza sube a 3, aunque M06 y F02 no se midieron con personas.  |
+|        9        |       Nueva        | Q15 | Contactos recibidos y calificados desde la Landing Page         |  1  |  4  |  4  |  3  |         — → 16          | Es requisito para medir M11 y F03 en un nuevo Test A/B.                                                                              |
+|       10        |         10         | Q11 | Momento, dispositivo y conectividad del registro                |  1  |  3  |  3  |  4  |         14 → 15         | Sigue sin respuesta y es condición previa para repetir EC08 con supervisores; aumenta el interés.                                    |
+|       11        |         6          | Q01 | Registro guiado de materiales                                   |  3  |  4  |  4  |  3  |         16 → 14         | A y B lograron 42/42 operaciones correctas; no se observó ventaja de B y baja su impacto e interés.                                  |
+|       12        |         8          | Q02 | Lista rápida de asistencia                                      |  3  |  4  |  3  |  3  |         15 → 13         | A y B completaron 7/7 jornadas; el efecto diferencial esperado es menor.                                                             |
+|       13        |         9          | Q08 | Borradores sin conexión                                         |  3  |  3  |  4  |  3  |         15 → 13         | B sincronizó 40/40 borradores sin pérdida ni duplicados; la viabilidad técnica eleva la confianza a 3.                               |
+|       14        |         11         | Q03 | Tablero de tareas prioritarias                                  |  3  |  3  |  3  |  3  |         12 → 12         | A y B identificaron la tarea crítica en 7/7 casos; sin cambios.                                                                      |
+|       15        |         12         | Q09 | Guía de primeros pasos por rol                                  |  3  |  3  |  3  |  3  |         12 → 12         | La ayuda no se midió de forma independiente; sin cambios.                                                                            |
 
 <div style="text-align: justify;">
 <p align="justify">
@@ -9447,16 +9815,16 @@ Q04 y Q14 empatan con 19 puntos y el mismo Riesgo; Q04 se mantiene primera por s
 
 #### Decisiones para la siguiente iteración
 
-| Pregunta | Decisión |
-| -------- | -------- |
-| Q04 | Repetir EC04 con contratantes y registro independiente de las solicitudes de ayuda por parte del moderador. Las preguntas de seguimiento definidas en 8.1.4 se priorizarán cuando exista una medición válida de M04. |
-| Q14 → Q07 | Implementar la actualización de incidencias sin recarga y, después, repetir EC07 en periodos representativos. |
-| Q13 → Q05 | Diferenciar entradas y usos en el historial y repetir EC05 con la serie completa de discrepancias. |
-| Q15 → Q10 | Registrar las solicitudes recibidas y su calificación por variante antes de ejecutar el Test A/B comercial de EC10. |
-| Q12 y Q11 | Responder mediante entrevistas de validación con supervisores y contratantes; Q11 se resuelve antes de repetir EC08. |
-| Q06 | Separar los flujos manual y asistido y repetir EC06 con supervisores para medir M06 y F02. |
-| Q01, Q02, Q08 | Mantener las funcionalidades verificadas y repetir los experimentos con supervisores solo después de las preguntas de mayor prioridad. |
-| Q03, Q09 | Posponer hasta la siguiente revisión del backlog. |
+| Pregunta      | Decisión                                                                                                                                                                                                             |
+| ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Q04           | Repetir EC04 con contratantes y registro independiente de las solicitudes de ayuda por parte del moderador. Las preguntas de seguimiento definidas en 8.1.4 se priorizarán cuando exista una medición válida de M04. |
+| Q14 → Q07     | Implementar la actualización de incidencias sin recarga y, después, repetir EC07 en periodos representativos.                                                                                                        |
+| Q13 → Q05     | Diferenciar entradas y usos en el historial y repetir EC05 con la serie completa de discrepancias.                                                                                                                   |
+| Q15 → Q10     | Registrar las solicitudes recibidas y su calificación por variante antes de ejecutar el Test A/B comercial de EC10.                                                                                                  |
+| Q12 y Q11     | Responder mediante entrevistas de validación con supervisores y contratantes; Q11 se resuelve antes de repetir EC08.                                                                                                 |
+| Q06           | Separar los flujos manual y asistido y repetir EC06 con supervisores para medir M06 y F02.                                                                                                                           |
+| Q01, Q02, Q08 | Mantener las funcionalidades verificadas y repetir los experimentos con supervisores solo después de las preguntas de mayor prioridad.                                                                               |
+| Q03, Q09      | Posponer hasta la siguiente revisión del backlog.                                                                                                                                                                    |
 
 <div style="text-align: justify;">
 <p align="justify">
@@ -9488,28 +9856,28 @@ El Learning Workflow describe cómo fluye el conocimiento en el ciclo Experiment
 </p>
 </div>
 
-| Etapa | Pregunta que responde | Artefacto | Sección | Resultado en el AV2 |
-| ----- | --------------------- | --------- | ------- | ------------------- |
-| 1. Preguntar | ¿Qué no sabemos del producto o del negocio? | Raw Material, Experiment-Ready Questions y Question Backlog | 8.1.2 a 8.1.4 | 12 preguntas priorizadas: 10 Belief-led y 2 exploratorias. |
-| 2. Diseñar | ¿Cómo lo vamos a comprobar? | Experiment Cards, Hypotheses, Domain Business Metrics, Measures, Conditions, Scale y Methods | 8.1.5 y 8.2 | 10 experimentos (EC01–EC10) con hipótesis H01–H10 y métricas M01–M11 y F01–F03. |
-| 3. Experimentar | ¿Qué ocurrió al ejecutar las variantes A y B? | Evidencia de ejecución en Web, Mobile y Landing Page | 8.3.3 | Evidencia técnica de los diez experimentos (recorridos Web, lote Android de EC08 y verificaciones de la Landing Page). |
-| 4. Analizar | ¿Qué podemos concluir y qué no? | Analysis and Interpretation of Results | 8.4.1 | Ninguna hipótesis se acepta ni se rechaza; se identificaron defectos en EC05, EC06 y EC07 y la necesidad de medir con personas y costos. |
-| 5. Repriorizar | ¿Qué preguntamos ahora? | Re-scored and Re-prioritized Question Backlog | 8.4.2 | 15 preguntas re-puntuadas, 3 de ellas nuevas (Q13, Q14 y Q15). |
-| 6. Compartir y decidir | ¿Qué hacemos con lo aprendido? | Shareback Session | 8.5.1 | Decisiones por experimento y responsables de la siguiente iteración. |
-| 7. Volver a preguntar | ¿Qué entra a la siguiente iteración? | Question Backlog actualizado | 8.4.2 → 8.1.4 | Q04, Q14, Q05, Q07 y Q10 encabezan la siguiente iteración. |
+| Etapa                  | Pregunta que responde                         | Artefacto                                                                                    | Sección       | Resultado en el AV2                                                                                                                      |
+| ---------------------- | --------------------------------------------- | -------------------------------------------------------------------------------------------- | ------------- | ---------------------------------------------------------------------------------------------------------------------------------------- |
+| 1. Preguntar           | ¿Qué no sabemos del producto o del negocio?   | Raw Material, Experiment-Ready Questions y Question Backlog                                  | 8.1.2 a 8.1.4 | 12 preguntas priorizadas: 10 Belief-led y 2 exploratorias.                                                                               |
+| 2. Diseñar             | ¿Cómo lo vamos a comprobar?                   | Experiment Cards, Hypotheses, Domain Business Metrics, Measures, Conditions, Scale y Methods | 8.1.5 y 8.2   | 10 experimentos (EC01–EC10) con hipótesis H01–H10 y métricas M01–M11 y F01–F03.                                                          |
+| 3. Experimentar        | ¿Qué ocurrió al ejecutar las variantes A y B? | Evidencia de ejecución en Web, Mobile y Landing Page                                         | 8.3.3         | Evidencia técnica de los diez experimentos (recorridos Web, lote Android de EC08 y verificaciones de la Landing Page).                   |
+| 4. Analizar            | ¿Qué podemos concluir y qué no?               | Analysis and Interpretation of Results                                                       | 8.4.1         | Ninguna hipótesis se acepta ni se rechaza; se identificaron defectos en EC05, EC06 y EC07 y la necesidad de medir con personas y costos. |
+| 5. Repriorizar         | ¿Qué preguntamos ahora?                       | Re-scored and Re-prioritized Question Backlog                                                | 8.4.2         | 15 preguntas re-puntuadas, 3 de ellas nuevas (Q13, Q14 y Q15).                                                                           |
+| 6. Compartir y decidir | ¿Qué hacemos con lo aprendido?                | Shareback Session                                                                            | 8.5.1         | Decisiones por experimento y responsables de la siguiente iteración.                                                                     |
+| 7. Volver a preguntar  | ¿Qué entra a la siguiente iteración?          | Question Backlog actualizado                                                                 | 8.4.2 → 8.1.4 | Q04, Q14, Q05, Q07 y Q10 encabezan la siguiente iteración.                                                                               |
 
 #### Registro de la sesión de Shareback
 
-| Elemento | Detalle |
-| -------- | ------- |
-| Fecha | 10/11/2026 |
-| Hora de inicio | 18:05 |
-| Duración | Aproximadamente 1 hora y 30 minutos |
-| Medio | Google Meet (sesión virtual) |
-| Participantes | Chacaliaza Minaya, Eduardo Fabian; Quispe Barzola, Fabricio Fabian; Espino Rossi, Victor Manuel; Garcia Cerpa, Braden Raid |
-| Objetivo | Compartir los resultados de los experimentos EC01–EC10, revisar el backlog re-priorizado y acordar las decisiones de la siguiente iteración. |
-| Insumos revisados | Sección 8.4.1 integrada mediante el [Pull Request #34](https://github.com/educmz/ArquiTech-Report/pull/34) y sección 8.4.2 con el Question Backlog re-puntuado. |
-| Agenda | 1) Resultados por experimento y limitaciones de la evidencia. 2) Nuevas prioridades del Question Backlog. 3) Decisiones por experimento. 4) Responsables de la siguiente iteración. |
+| Elemento          | Detalle                                                                                                                                                                             |
+| ----------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Fecha             | 10/11/2026                                                                                                                                                                          |
+| Hora de inicio    | 18:05                                                                                                                                                                               |
+| Duración          | Aproximadamente 1 hora y 30 minutos                                                                                                                                                 |
+| Medio             | Google Meet (sesión virtual)                                                                                                                                                        |
+| Participantes     | Chacaliaza Minaya, Eduardo Fabian; Quispe Barzola, Fabricio Fabian; Espino Rossi, Victor Manuel; Garcia Cerpa, Braden Raid                                                          |
+| Objetivo          | Compartir los resultados de los experimentos EC01–EC10, revisar el backlog re-priorizado y acordar las decisiones de la siguiente iteración.                                        |
+| Insumos revisados | Sección 8.4.1 integrada mediante el [Pull Request #34](https://github.com/educmz/ArquiTech-Report/pull/34) y sección 8.4.2 con el Question Backlog re-puntuado.                     |
+| Agenda            | 1) Resultados por experimento y limitaciones de la evidencia. 2) Nuevas prioridades del Question Backlog. 3) Decisiones por experimento. 4) Responsables de la siguiente iteración. |
 
 **Figura 133**  
 _Sesión de Shareback del equipo ArquiTech en Google Meet_
@@ -9522,24 +9890,24 @@ _Sesión de Shareback del equipo ArquiTech en Google Meet_
 
 #### Aprendizajes y decisiones por experimento
 
-| Experimento | Qué aprendimos | Decisión acordada | Próxima pregunta |
-| ----------- | -------------- | ----------------- | ---------------- |
-| EC04 · Panel de seguimiento | Las consultas se completaron, pero sin medir la ayuda no es posible evaluar la autonomía del contratante. | Repetir con contratantes y registro independiente de las solicitudes de ayuda. | Q04 |
-| EC07 · Alertas de incidencias | La variante B detectó menos incidencias porque la vista solo se actualizaba al recargar. | Implementar la actualización sin recarga antes de repetir el experimento. | Q14 → Q07 |
-| EC05 · Historial de movimientos | Los usuarios confundieron la entrada más reciente con el último uso de un material. | Diferenciar visualmente entradas y usos y repetir con la serie completa de discrepancias. | Q13 → Q05 |
-| EC10 · Landing Page por segmento | Los eventos locales de contacto no demuestran solicitudes recibidas ni calificadas. | Registrar las solicitudes recibidas y su calificación por variante antes del Test A/B comercial. | Q15 → Q10 |
-| EC06 · Reporte asistido | B produjo más reportes correctos y completos, pero el flujo manual no se respetó en todos los intentos. | Separar los flujos manual y asistido y repetir con supervisores para medir M06 y F02. | Q06 |
-| EC08 · Borradores sin conexión | La sincronización fue íntegra en el lote técnico, pero falta conocer el contexto real de conectividad. | Responder Q11 mediante entrevistas antes de repetir con supervisores. | Q11 → Q08 |
-| EC01, EC02, EC03, EC09 | A y B obtuvieron resultados técnicos equivalentes y no se midió el efecto en personas ni el costo. | Mantener las funcionalidades verificadas y repetir después de las preguntas de mayor prioridad. | Q01, Q02, Q03, Q09 |
+| Experimento                      | Qué aprendimos                                                                                            | Decisión acordada                                                                                | Próxima pregunta   |
+| -------------------------------- | --------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------ | ------------------ |
+| EC04 · Panel de seguimiento      | Las consultas se completaron, pero sin medir la ayuda no es posible evaluar la autonomía del contratante. | Repetir con contratantes y registro independiente de las solicitudes de ayuda.                   | Q04                |
+| EC07 · Alertas de incidencias    | La variante B detectó menos incidencias porque la vista solo se actualizaba al recargar.                  | Implementar la actualización sin recarga antes de repetir el experimento.                        | Q14 → Q07          |
+| EC05 · Historial de movimientos  | Los usuarios confundieron la entrada más reciente con el último uso de un material.                       | Diferenciar visualmente entradas y usos y repetir con la serie completa de discrepancias.        | Q13 → Q05          |
+| EC10 · Landing Page por segmento | Los eventos locales de contacto no demuestran solicitudes recibidas ni calificadas.                       | Registrar las solicitudes recibidas y su calificación por variante antes del Test A/B comercial. | Q15 → Q10          |
+| EC06 · Reporte asistido          | B produjo más reportes correctos y completos, pero el flujo manual no se respetó en todos los intentos.   | Separar los flujos manual y asistido y repetir con supervisores para medir M06 y F02.            | Q06                |
+| EC08 · Borradores sin conexión   | La sincronización fue íntegra en el lote técnico, pero falta conocer el contexto real de conectividad.    | Responder Q11 mediante entrevistas antes de repetir con supervisores.                            | Q11 → Q08          |
+| EC01, EC02, EC03, EC09           | A y B obtuvieron resultados técnicos equivalentes y no se midió el efecto en personas ni el costo.        | Mantener las funcionalidades verificadas y repetir después de las preguntas de mayor prioridad.  | Q01, Q02, Q03, Q09 |
 
 #### Acuerdos y responsables de la siguiente iteración
 
-| Acuerdo | Responsable |
-| ------- | ----------- |
-| Corregir EC05 y EC07 y repetir EC04, EC05, EC06 y EC07 con la unidad de análisis y la escala definidas en 8.2.5. | Chacaliaza Minaya, Eduardo Fabian |
-| Instrumentar la recepción y calificación de solicitudes de la Landing Page y los eventos necesarios para M01–M11 en el pipeline de experimentación. | Quispe Barzola, Fabricio Fabian |
-| Incorporar Q11 y Q12 a las entrevistas de validación con supervisores y contratantes. | Espino Rossi, Victor Manuel |
-| Actualizar el Question Backlog con los nuevos resultados y documentar el siguiente ciclo de aprendizaje. | Garcia Cerpa, Braden Raid |
+| Acuerdo                                                                                                                                             | Responsable                       |
+| --------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------- |
+| Corregir EC05 y EC07 y repetir EC04, EC05, EC06 y EC07 con la unidad de análisis y la escala definidas en 8.2.5.                                    | Chacaliaza Minaya, Eduardo Fabian |
+| Instrumentar la recepción y calificación de solicitudes de la Landing Page y los eventos necesarios para M01–M11 en el pipeline de experimentación. | Quispe Barzola, Fabricio Fabian   |
+| Incorporar Q11 y Q12 a las entrevistas de validación con supervisores y contratantes.                                                               | Espino Rossi, Victor Manuel       |
+| Actualizar el Question Backlog con los nuevos resultados y documentar el siguiente ciclo de aprendizaje.                                            | Garcia Cerpa, Braden Raid         |
 
 <div style="text-align: justify;">
 <p align="justify">
