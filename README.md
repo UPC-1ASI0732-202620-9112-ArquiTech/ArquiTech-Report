@@ -63,7 +63,7 @@ Quispe Barzola, Fabricio Fabian - U202320442
 |   3.8   | 11/11/2026 | Espino Rossi, Victor Manuel       | <span style="display:block; text-align:justify;">Elaboración de la sección 6.4 Auditoría de Experiencias de Usuario: auditoría realizada al producto SEMS (6.4.1) y auditoría recibida por ArquiTech (6.4.2), con sus resúmenes de modificaciones.</span> |
 |   3.9   | 11/11/2026 | Garcia Cerpa, Braden Raid         | <span style="display:block; text-align:justify;">Actualización del Registro de Versiones y del Student Outcome con la entrega AV2 e incorporación del Project Report Collaboration Insights de la entrega AV2.</span> |</span>                                                                                                                                       |
 |   3.10  | 11/11/2026 | Garcia Cerpa, Braden Raid         | <span style="display:block; text-align:justify;">Consolidación final del informe para la entrega AV2: numeración secuencial de las figuras y de sus referencias, incorporación de las etiquetas de figura faltantes, actualización de la tabla de contenido con Part I, Part II y las subsecciones 8.3.3.1–8.3.3.6 y 8.4.1.1–8.4.1.5, eliminación de un encabezado duplicado en 2.3.5 y actualización de las evidencias de 5.2.2 Implemented Landing Page Evidence y 5.2.7 RESTful API documentation con capturas de la Landing Page y de Swagger UI en producción.</span> |
-
+|   3.11  | 11/11/2026 | Garcia Cerpa, Braden Raid         | <span style="display:block; text-align:justify;">Actualización de la Bibliografía con las fuentes empleadas en los capítulos I, VI y VIII: Experiment-Driven Product Development, heurísticas de usabilidad, principios de diseño inclusivo y de arquitectura de información, WCAG 2.1 y métodos estadísticos de Wilson y Fisher.</span> |
 # Project Report Collaboration Insights
 
 <p align="justify">
@@ -10068,11 +10068,29 @@ Recomendaciones
 
 # Bibliografía
 
+Fisher, R. A. (1922). On the interpretation of χ² from contingency tables, and the calculation of P. _Journal of the Royal Statistical Society, 85_(1), 87–94. https://doi.org/10.2307/2340521
+
+Gothelf, J., & Seiden, J. (2021). _Lean UX: Creating great products with agile teams_ (3.ª ed.). O'Reilly Media.
+
 Instituto Nacional de Estadística e Informática. (2026, 15 de julio). _Informe de Empleo N.° 7: Trimestre abril-mayo-junio 2026_. Gobierno del Perú.
+
+Michue Francia, V. L. (2025). _Impacto de la gestión de proveedores en la calidad de proyectos de construcción_ [Trabajo de fin de máster, Universidad de Oviedo]. Repositorio Institucional de la Universidad de Oviedo. https://digibuo.uniovi.es/dspace/bitstream/handle/10651/80312/TFM_ValeriaLuceroMichueFrancia.pdf
 
 Ministerio de la Producción. (2025). _Las Mipyme en cifras 2024_. Oficina General de Evaluación de Impacto y Estudios Económicos.
 
 Ministerio de Trabajo y Promoción del Empleo. (2024, 1 de julio). _Reporte del mercado laboral: Sector construcción_. Gobierno del Perú.
+
+Nielsen, J. (2024). _10 usability heuristics for user interface design_. Nielsen Norman Group. https://www.nngroup.com/articles/ten-usability-heuristics/
+
+Rissen, P. (2019). _Experiment-driven product development: How to use a data-informed approach to learn, iterate, and succeed faster_. Apress. https://doi.org/10.1007/978-1-4842-5528-5
+
+Rosenfeld, L., Morville, P., & Arango, J. (2015). _Information architecture: For the web and beyond_ (4.ª ed.). O'Reilly Media.
+
+Swan, H., Pouncey, I., Pickering, H., & Watson, L. (2016). _Inclusive design principles_. https://inclusivedesignprinciples.info/
+
+Wilson, E. B. (1927). Probable inference, the law of succession, and statistical inference. _Journal of the American Statistical Association, 22_(158), 209–212. https://doi.org/10.1080/01621459.1927.10502953
+
+World Wide Web Consortium. (2018). _Web Content Accessibility Guidelines (WCAG) 2.1_. https://www.w3.org/TR/WCAG21/
 
 # Anexos
 
