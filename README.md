@@ -440,11 +440,17 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 <strong>TP:</strong> Durante el TP, implementó y corrigió flujos en Frontend Web y Mobile para asistencia y eliminación confirmada de proyectos, además de consolidar la Landing bilingüe y el acceso público al SaaS Agreement. Incorporó pruebas E2E, adecuaciones de accesibilidad para ejecutarlas y ajustes de despliegue en Cloudflare. Estas acciones evidencian responsabilidad ética y profesional al exigir confirmación antes de operaciones destructivas, validar recorridos reales, mantener consistencia entre aplicaciones y ofrecer información legal accesible. La trazabilidad de pruebas, enlaces públicos y despliegues permitió comunicar con precisión el comportamiento disponible.
 
 <br><br>
+<strong>AV2:</strong> Durante el AV2, diseñó las medidas, condiciones, cálculos de escala, métodos y KPIs de los experimentos (8.2.3 a 8.2.7), elaboró las To-Be User Stories y el To-Be Product Backlog con trazabilidad en Trello, y documentó la ejecución de EC01–EC10 en Web, Mobile y Landing Page junto con el análisis de resultados (8.3 y 8.4.1). Actuó con responsabilidad profesional al distinguir la evidencia técnica obtenida con agentes y emuladores de la evidencia con usuarios, declarar el apoyo de modelos de IA en la ejecución y no presentar como aceptadas hipótesis sin evidencia suficiente.
+
+<br><br>
 <strong>Quispe Barzola, Fabricio Fabian</strong><br>
 <strong>AV1:</strong> Desarrolló el diseño, registro y análisis de entrevistas, User Stories, Software Object-Oriented Design, Database Design y Software Configuration Management. La realización de entrevistas permitió obtener información directamente de los segmentos objetivo y reducir decisiones basadas en suposiciones. Asimismo, la definición de requisitos, modelos de datos y prácticas de configuración contribuyó a una documentación responsable y trazable del sistema.
 
 <br><br>
 <strong>TP:</strong> Durante el TP, finalizó y alineó los contratos del Backend, reforzó reglas de autorización y dominio, mantuvo secretos fuera del código y agregó pruebas para validar el contrato full-stack. También implementó la base del Frontend Mobile, sus pruebas y los cuatro workflows de GitHub Actions, junto con el soporte de preview en Cloudflare y la documentación de CI/CD. Su responsabilidad profesional se reflejó en proteger datos y accesos, automatizar verificaciones trazables y documentar solamente capacidades respaldadas por código, configuraciones y ejecuciones reales, dejando explícitas las limitaciones no implementadas.
+
+<br><br>
+<strong>AV2:</strong> Durante el AV2, ejecutó el análisis estático, la evaluación de seguridad y la revisión de Pull Requests (6.2), implementó el monitoreo continuo de disponibilidad con alertas y notificaciones mediante GitHub Actions e Issues (7.4) y elaboró el Web and Mobile Tracking Plan (8.2.8). Actuó con responsabilidad profesional al reportar con transparencia las limitaciones de la verificación, como la ausencia de aprobaciones humanas en los Pull Requests, y al diseñar un seguimiento sin proveedores externos de analítica que registra solo las señales necesarias.
 
 <br><br>
 
@@ -455,6 +461,9 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 <strong>TP:</strong> Durante el TP, documentó Product Verification &amp; Validation, pruebas de integración, escenarios BDD, evidencia E2E y las prácticas DevOps del Capítulo VII. Además, corrigió User Personas, Journey Mapping, Empathy Mapping, escenarios As-Is y To-Be, Impact Mapping, estructura e índice del Report. Este trabajo expresó responsabilidad profesional al vincular cada afirmación con pruebas o configuraciones verificables, distinguir implementación de evidencia y limitación, y mantener coherencia entre investigación, requisitos, artefactos de experiencia y producto. Así evitó presentar como concluida una capacidad que los repositorios no demostraban.
 
 <br><br>
+<strong>AV2:</strong> Durante el AV2, diseñó las entrevistas de validación con supervisores y contratantes (6.3) y elaboró la auditoría de experiencia de usuario realizada al producto SEMS de la startup Energix, así como el análisis de la auditoría recibida por ArquiTech con su resumen de modificaciones (6.4). Actuó con responsabilidad profesional al evaluar el trabajo de otro equipo con criterios objetivos y al registrar los hallazgos recibidos junto con su plan de corrección.
+
+<br><br>
 
 <strong>Garcia Cerpa, Braden Raid</strong><br>
 <strong>AV1:</strong> Elaboró As-is Scenario Mapping, Ubiquitous Language, To-Be Scenario Mapping, Style Guidelines, Information Architecture y Video About-the-Product. Estas actividades contribuyeron a mantener una comunicación clara y sin ambigüedades dentro del proyecto, así como a diseñar una experiencia comprensible y consistente para los usuarios, considerando principios de accesibilidad, claridad de información y comunicación responsable del producto.
@@ -463,7 +472,7 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 <strong>TP:</strong> Durante el TP, configuró Playwright y desarrolló pruebas funcionales para el uso de materiales y la regla de unicidad del serial de maquinaria, además de pruebas E2E Mobile para autenticación y creación de proyectos. Estas verificaciones demostraron responsabilidad ética y profesional al comprobar reglas críticas antes de exponerlas a usuarios, prevenir operaciones que afecten indebidamente el stock o la identificación de equipos y validar que el acceso y el registro de proyectos respondan al comportamiento esperado. Su aporte fortaleció la detección trazable de errores en flujos relevantes del dominio.
 
 <br><br>
-<strong>AV2:</strong> Durante el AV2, elaboró la planificación de experimentos del Capítulo VIII (As-Is Summary, Raw Material, Experiment-Ready Questions, Question Backlog y Experiment Cards), así como las Hypotheses y las Domain Business Metrics. Actuó con responsabilidad profesional al diferenciar las metas propuestas de los resultados observados, acompañar cada hipótesis con su hipótesis nula, exigir datos ficticios y consentimiento de los participantes, y limitar las Experiment Cards a métricas definidas previamente para evitar decisiones basadas en métricas de vanidad.
+<strong>AV2:</strong> Durante el AV2, elaboró la planificación de experimentos del Capítulo VIII (As-Is Summary, Raw Material, Experiment-Ready Questions, Question Backlog y Experiment Cards), así como las Hypotheses y las Domain Business Metrics; además, re-priorizó el Question Backlog con los resultados de los experimentos (8.4.2), documentó la sesión de Shareback y el Learning Workflow (8.5.1) y consolidó el Registro de Versiones, el Student Outcome y el Collaboration Insights del informe. Actuó con responsabilidad profesional al diferenciar las metas propuestas de los resultados observados, acompañar cada hipótesis con su hipótesis nula, exigir datos ficticios y consentimiento de los participantes, y limitar las Experiment Cards a métricas definidas previamente para evitar decisiones basadas en métricas de vanidad.
 
 </td>
 
@@ -474,6 +483,10 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 <br><br>
 
 <strong>TP:</strong> Durante el Trabajo Parcial, el equipo profundizó su responsabilidad profesional mediante pruebas automatizadas de reglas de dominio, integración y recorridos E2E; controles de autorización; protección de secretos; y confirmaciones para operaciones destructivas. Los workflows de CI aportaron verificaciones reproducibles y trazabilidad para Web, Backend, Mobile y Landing, mientras que los despliegues y previews se documentaron con evidencia verificable. El Report distinguió de forma explícita entre implementación, ejecución observada y limitaciones pendientes, como Playwright deshabilitado en CI, ausencia de staging aislado para Backend y falta de distribución automática del APK. El equipo concluye que actuar profesionalmente también exige no atribuir al producto capacidades que sus repositorios, pruebas o configuraciones no demuestran.
+
+<br><br>
+
+<strong>AV2:</strong> Durante el AV2, el equipo aplicó un ciclo de experimentación con responsabilidad profesional: definió hipótesis falsables acompañadas de su hipótesis nula, métricas predefinidas y ejecuciones trazables; distinguió con transparencia la evidencia técnica de la evidencia con usuarios; declaró el apoyo de herramientas de IA; y sometió el producto a análisis estático y auditorías de experiencia de usuario, reconociendo sus limitaciones en lugar de presentar resultados no sustentados.
 
   </td>
 </tr>
@@ -497,6 +510,9 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 <strong>TP:</strong> Durante el TP, la implementación de asistencia y seguimiento en Web y Mobile aportó al impacto social al facilitar que supervisores y contratantes dispongan de registros más transparentes sobre el personal y la obra. Las confirmaciones antes de eliminar proyectos y las pruebas de recorridos reducen el riesgo económico de pérdidas accidentales o errores operativos. La Landing y el SaaS Agreement bilingües amplían el alcance global de la información pública y permiten conocer las condiciones del servicio. Estas decisiones relacionaron funcionalidad, acceso legal y consistencia entre plataformas con consecuencias concretas para usuarios y organizaciones.
 
 <br><br>
+<strong>AV2:</strong> Durante el AV2, el análisis de resultados permitió emitir juicios sobre el impacto económico y social de las funcionalidades To-Be: identificó que las mejoras técnicas verificadas aún no demuestran ahorro de costos ni cambios de comportamiento, y priorizó repetir los experimentos con supervisores y contratantes antes de asumir beneficios para las pymes constructoras.
+
+<br><br>
 
 <strong>Quispe Barzola, Fabricio Fabian</strong><br>
 <strong>AV1:</strong> Mediante las entrevistas y el análisis de los datos obtenidos de los usuarios, identificó problemas relacionados con duplicidad de información, retrasos en reportes y dificultades de coordinación. Estos hallazgos permiten emitir juicios sobre el impacto social y económico de la solución, debido a que una gestión más eficiente puede reducir pérdidas de tiempo, errores administrativos y decisiones basadas en información desactualizada.
@@ -505,12 +521,18 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 <strong>TP:</strong> Durante el TP, las reglas de autorización, la protección de secretos y la validación del contrato API permitieron considerar el impacto social de resguardar accesos y datos utilizados por supervisores y contratantes. Los cuatro workflows de CI introdujeron verificaciones reproducibles para detectar errores antes de producción, con impacto económico al reducir correcciones tardías y despliegues defectuosos. La automatización homogénea entre tecnologías también aporta una práctica transferible a contextos globales de desarrollo. Al documentar límites reales de Railway, Playwright, Pages y Mobile, sustentó decisiones informadas sin convertir pendientes técnicos en beneficios inexistentes.
 
 <br><br>
+<strong>AV2:</strong> Durante el AV2, el análisis de seguridad y de dependencias y el monitoreo continuo permitieron evaluar el impacto de las vulnerabilidades y de la indisponibilidad del servicio sobre los usuarios que dependen de la información de la obra, mientras que el tracking plan sin servicios de terceros consideró la privacidad de los datos de los participantes.
+
+<br><br>
 
 <strong>Espino Rossi, Victor Manuel</strong><br>
 <strong>AV1:</strong> Mediante User Journey Mapping, Empathy Mapping e Impact Mapping, analizó cómo la solución podría modificar la experiencia de los usuarios y generar cambios en la forma en que supervisores y contratantes acceden a la información. Estos artefactos permitieron considerar impactos sociales relacionados con la comunicación y transparencia entre los actores del proyecto, además de impactos económicos derivados de una toma de decisiones más oportuna.
 
 <br><br>
 <strong>TP:</strong> Durante el TP, vinculó la verificación del producto, pruebas BDD, integración y evidencia E2E con la documentación de DevOps y con la corrección de artefactos de experiencia de usuario. Este enfoque permitió emitir juicios basados en resultados observables sobre el impacto social de la transparencia para supervisores y contratantes, y sobre el impacto económico de errores, reprocesos y decisiones con información inconsistente. Al mantener visibles las limitaciones de pruebas y despliegue y al alinear personas, journeys, escenarios e Impact Mapping con la evidencia, evitó conclusiones que excedieran el alcance real de la solución.
+
+<br><br>
+<strong>AV2:</strong> Durante el AV2, las entrevistas de validación y las auditorías de experiencia de usuario permitieron emitir juicios sobre la accesibilidad y facilidad de uso del producto para usuarios con distinta experiencia digital, priorizando los hallazgos de mayor severidad por su impacto en la adopción.
 
 <br><br>
 
@@ -532,6 +554,10 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 <br><br>
 
 <strong>TP:</strong> Durante el Trabajo Parcial, el equipo emitió juicios más informados al relacionar las funcionalidades y su evidencia con impactos concretos. Las validaciones de inventario, maquinaria, asistencia y eliminación confirmada pueden reducir errores y reprocesos con consecuencias económicas, mientras que la autorización, la trazabilidad y la digitalización de registros favorecen la confianza y coordinación social entre supervisores y contratantes. Las pruebas automatizadas y CI ayudan a evitar ejecuciones y despliegues defectuosos, contribuyendo a un uso más responsable de recursos tecnológicos, sin asumir beneficios ambientales no medidos. El contenido bilingüe y el acceso al SaaS Agreement incorporan una perspectiva global y legal. El equipo mantuvo explícitas las limitaciones de staging, E2E y distribución móvil para que la evaluación de impactos permanezca respaldada por evidencia.
+
+<br><br>
+
+<strong>AV2:</strong> Durante el AV2, el equipo emitió juicios informados al vincular cada experimento con métricas de negocio y financieras, lo que permitió evaluar el impacto económico esperado para las pymes constructoras, el impacto social de la transparencia hacia los contratantes y la importancia de la privacidad y la disponibilidad del servicio. Asimismo, reconoció que estos impactos solo podrán afirmarse cuando los experimentos se repitan con usuarios reales y se midan sus costos.
 
   </td>
 </tr>
