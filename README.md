@@ -311,7 +311,7 @@ _Commits realizados durante la entrega TB1_
     - [6.2.1.1. Coding standard & Code conventions.](#6211-coding-standard--code-conventions)
     - [6.2.1.2. Code Quality & Code Security.](#6212-code-quality--code-security)
   - [6.2.2. Reviews](#622-reviews)
-  - - [6.3. Validation Interviews](#63-validation-interviews)
+  - [6.3. Validation Interviews](#63-validation-interviews)
   - [6.3.1. Diseño de Entrevistas](#631-diseño-de-entrevistas)
 
 ### [Capítulo VII: DevOps Practices](#capítulo-vii-devops-practices)
