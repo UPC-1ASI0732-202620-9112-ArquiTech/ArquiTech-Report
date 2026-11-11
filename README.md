@@ -62,6 +62,7 @@ Quispe Barzola, Fabricio Fabian - U202320442
 |   3.7   | 10/11/2026 | Espino Rossi, Victor Manuel       | <span style="display:block; text-align:justify;">Elaboración de la sección 6.3 Validation Interviews (6.3.1 Diseño de Entrevistas).</span> |
 |   3.8   | 11/11/2026 | Espino Rossi, Victor Manuel       | <span style="display:block; text-align:justify;">Elaboración de la sección 6.4 Auditoría de Experiencias de Usuario: auditoría realizada al producto SEMS (6.4.1) y auditoría recibida por ArquiTech (6.4.2), con sus resúmenes de modificaciones.</span> |
 |   3.9   | 11/11/2026 | Garcia Cerpa, Braden Raid         | <span style="display:block; text-align:justify;">Actualización del Registro de Versiones y del Student Outcome con la entrega AV2 e incorporación del Project Report Collaboration Insights de la entrega AV2.</span> |</span>                                                                                                                                       |
+|   3.10  | 11/11/2026 | Garcia Cerpa, Braden Raid         | <span style="display:block; text-align:justify;">Consolidación final del informe para la entrega AV2: numeración secuencial de las figuras y de sus referencias, incorporación de las etiquetas de figura faltantes, actualización de la tabla de contenido con Part I, Part II y las subsecciones 8.3.3.1–8.3.3.6 y 8.4.1.1–8.4.1.5, eliminación de un encabezado duplicado en 2.3.5 y actualización de las evidencias de 5.2.2 Implemented Landing Page Evidence y 5.2.7 RESTful API documentation con capturas de la Landing Page y de Swagger UI en producción.</span> |
 
 # Project Report Collaboration Insights
 
@@ -413,15 +414,26 @@ _Commits realizados durante la entrega AV2_
   - [8.3.1. To-Be User Stories](#831-to-be-user-stories)
   - [8.3.2. To-Be Product Backlog](#832-to-be-product-backlog)
   - [8.3.3. Pipeline-supported, Experiment-Driven To-Be Software Platform Lifecycle](#833-pipeline-supported-experiment-driven-to-be-software-platform-lifecycle)
+    - [8.3.3.1. To-Be Sprint Backlogs](#8331-to-be-sprint-backlogs)
+    - [8.3.3.2. Implemented To-Be Landing Page Evidence](#8332-implemented-to-be-landing-page-evidence)
+    - [8.3.3.3. Implemented To-Be Frontend-Web Application Evidence](#8333-implemented-to-be-frontend-web-application-evidence)
+    - [8.3.3.4. Implemented To-Be Native-Mobile Application Evidence](#8334-implemented-to-be-native-mobile-application-evidence)
+    - [8.3.3.5. Implemented To-Be RESTful API and/or Serverless Backend Evidence](#8335-implemented-to-be-restful-api-andor-serverless-backend-evidence)
+    - [8.3.3.6. Team Collaboration Insights](#8336-team-collaboration-insights)
 - [8.4. Experiment Aftermath & Analysis](#84-experiment-aftermath--analysis)
   - [8.4.1. Analysis and Interpretation of Results](#841-analysis-and-interpretation-of-results)
+    - [8.4.1.1. Fuentes, unidades y procedimiento de análisis](#8411-fuentes-unidades-y-procedimiento-de-análisis)
+    - [8.4.1.2. Comparación descriptiva de los resultados Web](#8412-comparación-descriptiva-de-los-resultados-web)
+    - [8.4.1.3. Contraste por hipótesis y medidas predefinidas](#8413-contraste-por-hipótesis-y-medidas-predefinidas)
+    - [8.4.1.4. Matriz de medición, incertidumbre y decisión](#8414-matriz-de-medición-incertidumbre-y-decisión)
+    - [8.4.1.5. Amenazas a la validez e implicaciones](#8415-amenazas-a-la-validez-e-implicaciones)
   - [8.4.2. Re-scored and Re-prioritized Question Backlog](#842-re-scored-and-re-prioritized-question-backlog)
 - [8.5. Continuous Learning](#85-continuous-learning)
   - [8.5.1. Shareback Session Artifacts: Learning Workflow](#851-shareback-session-artifacts-learning-workflow)
 
 ### [Conclusion](#conclusiones)
 
-### [Bibliografía](#bibliografia)
+### [Bibliografía](#bibliografía-1)
 
 ### [Anexos](#anexos-1)
 
@@ -606,6 +618,8 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 </table>
 
 <div style="page-break-before: always;"></div>
+
+# Part I: As-Is Software Project
 
 # Capítulo I: Introducción
 
@@ -1259,7 +1273,7 @@ Finalmente, en **What's the least amount of work we need to do to learn the next
 
 </p>
 
-**Figura 3**  
+**Figura 7**  
 _Lean UX Canvas de ArquiTech._
 
 <p align="center">
@@ -1745,7 +1759,7 @@ Esta información servirá posteriormente como fuente para el análisis estadís
 - **Duración:** 07:24
 - **Video consolidado:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202320442_upc_edu_pe/IQDWnJj67oWOTaeKQVq4DaOPAXX9DFuqJ-kxtlCUQ-2Lsos?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=8BvJOp
 
-**Figura 4**  
+**Figura 8**  
 _Cuadro de video del entrevistado #1 del segmento Supervisores de obra._
 
 <p align="center">
@@ -1839,7 +1853,7 @@ Finalmente, considera que una solución digital también debería permitir compa
 - **Duración:** 05:42
 - **Video consolidado:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202320442_upc_edu_pe/IQDWnJj67oWOTaeKQVq4DaOPAXX9DFuqJ-kxtlCUQ-2Lsos?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=8BvJOp
 
-**Figura 5**  
+**Figura 9**  
 _Cuadro de video del entrevistado #2 del segmento Supervisores de obra._
 
 <p align="center">
@@ -1933,7 +1947,7 @@ Finalmente, considera importante que una plataforma permita realizar seguimiento
 - **Duración:** 06:30
 - **Video consolidado:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202320442_upc_edu_pe/IQDWnJj67oWOTaeKQVq4DaOPAXX9DFuqJ-kxtlCUQ-2Lsos?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=8BvJOp
 
-**Figura 6**  
+**Figura 10**  
 _Cuadro de video del entrevistado #3 del segmento Supervisores de obra._
 
 <p align="center">
@@ -2035,7 +2049,7 @@ Finalmente, considera que sería útil recibir alertas automáticas ante eventos
 - **Duración:** 06:22
 - **Video consolidado:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202320442_upc_edu_pe/IQDWnJj67oWOTaeKQVq4DaOPAXX9DFuqJ-kxtlCUQ-2Lsos?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=8BvJOp
 
-**Figura 7**  
+**Figura 11**  
 _Cuadro de video del entrevistado #1 del segmento Contratantes de empresas privadas._
 
 <p align="center">
@@ -2135,7 +2149,7 @@ Finalmente, considera que una empresa constructora que utilice herramientas digi
 - **Duración:** 06:24
 - **Video consolidado:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202320442_upc_edu_pe/IQDWnJj67oWOTaeKQVq4DaOPAXX9DFuqJ-kxtlCUQ-2Lsos?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=8BvJOp
 
-**Figura 8**  
+**Figura 12**  
 _Cuadro de video del entrevistado #2 del segmento Contratantes de empresas privadas._
 
 <p align="center">
@@ -2241,7 +2255,7 @@ Finalmente, considera que una plataforma de seguimiento podría influir positiva
 - **Duración:** 06:12
 - **Video consolidado:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202320442_upc_edu_pe/IQDWnJj67oWOTaeKQVq4DaOPAXX9DFuqJ-kxtlCUQ-2Lsos?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=8BvJOp
 
-**Figura 9**  
+**Figura 13**  
 _Cuadro de video del entrevistado #3 del segmento Contratantes de empresas privadas._
 
 <p align="center">
@@ -2414,7 +2428,7 @@ Los distritos de residencia serán incorporados al análisis estadístico una ve
 
 </p>
 
-**Figura 10**  
+**Figura 14**  
 _Características objetivas predominantes en supervisores de obra_
 
 <p align="center">
@@ -2495,7 +2509,7 @@ Finalmente, el 100 % presenta frustraciones relacionadas con información que no
 
 </p>
 
-**Figura 11**  
+**Figura 15**  
 _Características subjetivas predominantes en supervisores de obra_
 
 <p align="center">
@@ -2572,7 +2586,7 @@ El 100 % utiliza WhatsApp y correo electrónico como canales de comunicación re
 
 </p>
 
-**Figura 12**  
+**Figura 16**  
 _Características objetivas predominantes en contratantes de empresas privadas_
 
 <p align="center">
@@ -2659,7 +2673,7 @@ Como principal frustración, el 100 % menciona situaciones relacionadas con info
 
 </p>
 
-**Figura 13**  
+**Figura 17**  
 _Características subjetivas predominantes en contratantes de empresas privadas_
 
 <p align="center">
@@ -2730,7 +2744,7 @@ La información obtenida en este análisis mantiene relación directa con los re
 
 Las personas representan los dos segmentos definidos en 1.3 y sintetizan el análisis de las seis entrevistas de 2.2. Juan Carlos Zegarra representa al supervisor que necesita coordinar recursos y consolidar registros; Verónica Delgado representa a la contratante que necesita visibilidad y confianza sobre su obra. Se relacionan con las dificultades de información dispersa, retrasos y trazabilidad descritas en 2.2.3. El análisis competitivo de 2.1 aporta contexto para priorizar una solución accesible para estos segmentos; las personas son modelos de diseño y no sustituyen la validación con usuarios reales.
 
-**Figura 14**  
+**Figura 18**  
 _User persona del segmento #1: Supervisor de Obra_
 
 <p align="center">
@@ -2739,7 +2753,7 @@ _User persona del segmento #1: Supervisor de Obra_
 
 _Nota._ Elaboración propia.
 
-**Figura 15**  
+**Figura 19**  
 _User persona del segmento #2: Contratista de Empresas privadas_
 
 <p align="center">
@@ -2789,6 +2803,7 @@ La principal diferencia entre ambos User Personas radica en su nivel de particip
 
 Los mapas organizan la experiencia de ambos segmentos desde la planificación y obtención de información hasta el seguimiento y consulta de resultados. En el supervisor se vinculan la coordinación diaria, la supervisión en campo y la consolidación de reportes; en el contratante, la solicitud de información y la evaluación del avance. Las dificultades sintetizadas en 2.2.3 —registros dispersos, actualización tardía y poca visibilidad— permiten identificar oportunidades de centralización. Esta lectura de extremo a extremo conecta las tareas de 2.3.2 con los escenarios actuales de 2.3.5 y los escenarios propuestos de 3.1.
 
+**Figura 20**  
 _User Journey Mapping del segmento #1: Supervisor de Obra_
 
 <p align="center">
@@ -2797,6 +2812,7 @@ _User Journey Mapping del segmento #1: Supervisor de Obra_
 
 _Nota._ Elaboración propia.
 
+**Figura 21**  
 _User Journey Mapping del segmento #2: Contratista de Empresas privadas_
 
 <p align="center">
@@ -2809,7 +2825,7 @@ _Nota._ Elaboración propia.
 
 Los mapas agrupan lo que cada segmento dice, hace, piensa y siente para relacionar comportamientos observables con necesidades. Su sustento documental es el registro y análisis de entrevistas de 2.2: el supervisor busca datos confiables y menor esfuerzo administrativo; el contratante busca transparencia y comunicación oportuna. La separación entre acciones y percepciones evita interpretar una expectativa como una función ya implementada. Las necesidades resultantes se contrastan con User Personas y User Journey Mapping antes de traducirse en requisitos de 3.2.
 
-**Figura 16**
+**Figura 22**
 _Empathy Mapping del segmento #1: Supervisor de Obra_
 
 <p align="center">
@@ -2818,7 +2834,7 @@ _Empathy Mapping del segmento #1: Supervisor de Obra_
 
 _Nota._ Elaboración propia.
 
-**Figura 17**
+**Figura 23**
 _Empathy Mapping del segmento #2: Contratista de Empresas privadas_
 
 <p align="center">
@@ -2829,36 +2845,34 @@ _Nota._ Elaboración propia.
 
 ### 2.3.5. As-is Scenario Mapping
 
-### 2.3.5. As-is Scenario Mapping
-
 La lectura del escenario actual parte de las entrevistas de 2.2 y ordena las actividades por fase. En el segmento Supervisor, la figura distingue Planificación Matutina, Supervisión en Campo, Gestión Operativa y Reporte y Cierre Diario. La fila Doing registra acciones como revisar cuadernos o Excel, confirmar asistencia, recorrer la obra, contar materiales y enviar resúmenes; Thinking muestra dudas sobre stock, ritmo de avance y completitud del reporte; Feeling identifica preocupación, presión y agotamiento.
 
 Para elaborar y revisar estos mapas se propone preparar los hallazgos por segmento, generar ideas a partir de los registros, agruparlas en fases y ubicar cada observación en Doing/Thinking/Feeling. Este procedimiento es una pauta reproducible de revisión: el ZIP no permite acreditar que se realizó una sesión específica de lluvia de ideas. Las figuras de áreas positivas identifican prácticas que se deben conservar; las negativas señalan dificultades a reducir; las blank areas representan preguntas y datos faltantes que requieren investigación. El segundo segmento se analiza por separado para conservar su perspectiva de consulta y supervisión contractual.
 
 <ins>**As-Is Scenario Mapping del segmento #1: Supervisores de Obra**</ins>
 
-**Figura 18**  
+**Figura 24**  
 _As-Is Scenario Mapping para segmento #1_
 
 <p align="center">
   <img src="assets/chapter-2/As-is/OS_As-is_S1.jpg" alt="OS_As-is_S1" width="1000">
 </p>
 
-**Figura 19**  
+**Figura 25**  
 _Áreas positivas del As-Is Scenario Mapping para segmento #1_
 
 <p align="center">
   <img src="assets/chapter-2/As-is/OS_As-is_S1_AP.jpg" alt="OS_As-is_S1_AP" width="1000">
 </p>
 
-**Figura 20**  
+**Figura 26**  
 _Áreas negativas del As-Is Scenario Mapping para segmento #1_
 
 <p align="center">
   <img src="assets/chapter-2/As-is/OS_As-is_S1_AN.jpg" alt="OS_As-is_S1_AN" width="1000">
 </p>
 
-**Figura 21**  
+**Figura 27**  
 _Blank areas del As-Is Scenario Mapping para segmento \#1_
 
 <p align="center">
@@ -2867,28 +2881,28 @@ _Blank areas del As-Is Scenario Mapping para segmento \#1_
 
 <ins>**As-Is Scenario Mapping para Segmento \# 2: Contratantes de Empresas Privadas**</ins>
 
-**Figura 22**  
+**Figura 28**  
 _As-Is Scenario Mapping para segmento #2_
 
 <p align="center">
   <img src="assets/chapter-2/As-is/OS_As-is_S2.jpg" alt="OS_As-is_S2" width="1000">
 </p>
 
-**Figura 23**  
+**Figura 29**  
 _Áreas positivas del As-Is Scenario Mapping para segmento #2_
 
 <p align="center">
   <img src="assets/chapter-2/As-is/OS_As-is_S2_AP.jpg" alt="OS_As-is_S2_AP" width="1000">
 </p>
 
-**Figura 24**  
+**Figura 30**  
 _Áreas negativas del As-Is Scenario Mapping para segmento #2_
 
 <p align="center">
   <img src="assets/chapter-2/As-is/OS_As-is_S2_AN.jpg" alt="OS_As-is_S2_AN" width="1000">
 </p>
 
-**Figura 25**  
+**Figura 31**  
 _Blank areas del As-Is Scenario Mapping para segmento #2_
 
 <p align="center">
@@ -2944,29 +2958,29 @@ El To-Be propone cómo cambiaría la experiencia con ArquiTech a partir de los p
 
 <ins>_To-Be Scenario Mapping del segmento #1: Supervisores de obra_</ins>
 
-_Figura 26_  
-To-Be Scenario Mapping del segmento #1
+**Figura 32**  
+_To-Be Scenario Mapping del segmento #1_
 
 <p align="center">
   <img src="assets/chapter-3/To-be/OS_To-be_S1.jpg" alt="OS_To-be_S1" width="1000">
 </p>
 
-_Figura 27_  
-Áreas positivas del To-Be Scenario Mapping para segmento #1
+**Figura 33**  
+_Áreas positivas del To-Be Scenario Mapping para segmento #1_
 
 <p align="center">
   <img src="assets/chapter-3/To-be/OS_To-be_S1_AP.jpg" alt="OS_To-be_S1_AP" width="1000">
 </p>
 
-_Figura 28_  
-Áreas negativas del To-Be Scenario Mapping para segmento #1
+**Figura 34**  
+_Áreas negativas del To-Be Scenario Mapping para segmento #1_
 
 <p align="center">
   <img src="assets/chapter-3/To-be/OS_To-be_S1_AN.jpg" alt="OS_To-be_S1_AN" width="1000">
 </p>
 
-_Figura 29_  
-Blank areas del To-Be Scenario Mapping para segmento #1
+**Figura 35**  
+_Blank areas del To-Be Scenario Mapping para segmento #1_
 
 <p align="center">
   <img src="assets/chapter-3/To-be/OS_To-be_S1_BA.jpg" alt="OS_To-be_S1_BA" width="1000">
@@ -2974,29 +2988,29 @@ Blank areas del To-Be Scenario Mapping para segmento #1
 
 <ins>_To-Be Scenario Mapping para Segmento #2: Contratantes de Empresas Privadas_</ins>
 
-_Figura 30_  
-To-Be Scenario Mapping para segmento #2
+**Figura 36**  
+_To-Be Scenario Mapping para segmento #2_
 
 <p align="center">
   <img src="assets/chapter-3/To-be/OS_To-be_S2.jpg" alt="OS_To-be_S2" width="1000">
 </p>
 
-_Figura 31_  
-Áreas positivas del To-Be Scenario Mapping para segmento #2
+**Figura 37**  
+_Áreas positivas del To-Be Scenario Mapping para segmento #2_
 
 <p align="center">
   <img src="assets/chapter-3/To-be/OS_To-be_S2_AP.jpg" alt="OS_To-be_S2_AP" width="1000">
 </p>
 
-_Figura 32_  
-Áreas negativas del To-Be Scenario Mapping para segmento #2
+**Figura 38**  
+_Áreas negativas del To-Be Scenario Mapping para segmento #2_
 
 <p align="center">
   <img src="assets/chapter-3/To-be/OS_To-be_S2_AN.jpg" alt="OS_To-be_S2_AN" width="1000">
 </p>
 
-_Figura 33_  
-Blank areas del To-Be Scenario Mapping para segmento #2
+**Figura 39**  
+_Blank areas del To-Be Scenario Mapping para segmento #2_
 
 <p align="center">
   <img src="assets/chapter-3/To-be/OS_To-be_S2_BA.jpg" alt="OS_To-be_S2_BA" width="1000">
@@ -3186,7 +3200,7 @@ El Product Backlog se mantiene registrado en una herramienta de gestión de proy
 
 </p>
 
-**Figura 34**  
+**Figura 40**  
 _Product Backlog de ArquiTech_
 
 <p align="center">
@@ -3216,6 +3230,7 @@ El mapa plantea reducir en 40% el tiempo y esfuerzo de generación y consulta de
 
 Para medir el objetivo se propone registrar el tiempo mediano de generación y consulta antes y después, calcular `(tiempo base - tiempo posterior) / tiempo base × 100`, y complementar con frecuencia de uso y satisfacción. El 40% es una meta, no un resultado del proyecto.
 
+**Figura 41**  
 _Impact Mapping de ArquiTech_
 
 <div align="center">
@@ -3243,7 +3258,7 @@ Se presentará el diseño conceptual para la landing page como para la aplicaci�
 
 <ins> **Branding e ícono:** </ins>
 
-**Figura 35**  
+**Figura 42**  
 _Logo_
 
 <p align="center">
@@ -3287,7 +3302,7 @@ La tipografía de Arquitech cumple un importante rol en la expresión de la iden
 - Tipografía del Logo y Títulos:  
   El logo de Arquitech que se eligió comunica claridad con varios valores clave como el profesionalismo y técnica, por lo que se ha utilizado la tipografía Anton Regular que pertenece a la Anton Font Family. Esta tipografía transmite un aspecto fuerte y serio, lo cual es ideal para una empresa de construcción que busca mejorar los procesos de las obras. Además, las letras son altas y gruesas, lo que da buena visibilidad al nombre de la empresa en el logo y en los títulos. Cabe agregar, que tiene un aire moderno, pero sin dejar de ser profesional.
 
-**Figura 36**  
+**Figura 43**  
 _Tipografía de logo y títulos_
 
 <p align="center">
@@ -3297,7 +3312,7 @@ _Tipografía de logo y títulos_
 - Tipografía de Texto Regular:  
   Para el texto de la landing page y la aplicación se ha elegido la tipografía Futura que pertenece a Futura Font Family con el objetivo de que el usuario pueda obtener una cómoda y agradable lectura al visitar nuestras plataformas digitales. Además, esta tipografía representa modernidad, minimalismo, profesionalismo y seriedad. Aquello ayuda a la marca a representar tecnicismo, precisión y avances.
 
-**Figura 37**  
+**Figura 44**  
 _Tipografía de texto regular_
 
 <p align="center">
@@ -3309,7 +3324,7 @@ _Tipografía de texto regular_
 
 _Nota_. Elaboración propia.
 
-**Figura 38**  
+**Figura 45**  
 _Paleta de colores de ArquiTech_
 
 <p align="center">
@@ -3353,19 +3368,19 @@ La interfaz de Arquitech debe ser responsiva y se debe adaptar a diversos tamañ
 Medidas para Web Responsive:  
 Monitor pequeño: 1296x1781px
 
-**Figura 39**
+**Figura 46**
 
 <p align="center">
   <img src="assets/chapter-4/Style-Guidelines/web-responsive.png" alt="web-responsive" width="1000">
 </p>
 
-**Figura 40**
+**Figura 47**
 
 <p align="center">
   <img src="assets/chapter-4/Style-Guidelines/web-responsive2.png" alt="web-responsive2" width="1000">
 </p>
 
-**Figura 41**
+**Figura 48**
 
 <p align="center">
   <img src="assets/chapter-4/Style-Guidelines/web-responsive3.png" alt="web-responsive3" width="1000">
@@ -3720,13 +3735,15 @@ Asimismo, se mantiene coherencia con la identidad visual definida para el produc
 
 Se presentan versiones desktop y mobile de la misma estructura informativa. La versión desktop aprovecha el ancho para organizar navegación y contenido; la móvil debe mantener el orden de lectura y acciones accesibles en menor espacio. Los wireframes expresan jerarquía y distribución; los mock-ups incorporan identidad visual de 4.1. La revisión del diseño debe comprobar legibilidad, contraste, consistencia y acceso a las acciones principales en ambas versiones. La implementación actual de idioma, navegación accesible y términos se verifica por código en 5.2.2; las imágenes de diseño por sí solas no prueban accesibilidad funcional.
 
-**Desktop Web Browser**
+**Figura 49**  
+_Landing Page Wireframe - Desktop Web Browser_
 
 <p align="center">
   <img src="assets/chapter-4/landing-page/Wireframe-Landing-Desktop.png" alt="Wireframe-Landing-Desktop" width="500">
 </p>
 
-**Mobile Web Browser**
+**Figura 50**  
+_Landing Page Wireframe - Mobile Web Browser_
 
 <p align="center">
   <img src="assets/chapter-4/landing-page/Wireframe-Landing-Mobile.png" alt="Wireframe-Landing-Mobile" width="500">
@@ -3736,13 +3753,15 @@ Se presentan versiones desktop y mobile de la misma estructura informativa. La v
 
 Se presentan versiones desktop y mobile de la misma estructura informativa. La versión desktop aprovecha el ancho para organizar navegación y contenido; la móvil debe mantener el orden de lectura y acciones accesibles en menor espacio. Los wireframes expresan jerarquía y distribución; los mock-ups incorporan identidad visual de 4.1. La revisión del diseño debe comprobar legibilidad, contraste, consistencia y acceso a las acciones principales en ambas versiones. La implementación actual de idioma, navegación accesible y términos se verifica por código en 5.2.2; las imágenes de diseño por sí solas no prueban accesibilidad funcional.
 
-**Desktop Web Browser**
+**Figura 51**  
+_Landing Page Mock-up - Desktop Web Browser_
 
 <p align="center">
   <img src="assets/chapter-4/landing-page/MockUp-Landing-Desktop.png" alt="MockUp-Landing-Desktop" width="500">
 </p>
 
-**Mobile Web Browser**
+**Figura 52**  
+_Landing Page Mock-up - Mobile Web Browser_
 
 <p align="center">
   <img src="assets/chapter-4/landing-page/MockUp-Landing-Mobile.png" alt="MockUp-Landing-Mobile" width="500">
@@ -3765,7 +3784,7 @@ Los wireframes definen estructura y jerarquía; los mock-ups incorporan tipograf
 
 Las seis pantallas presentadas cubren Login, Projects, Materials, Workers, Incidents y Machinery. Login inicia el acceso; Projects permite seleccionar el contexto de obra; Materials organiza inventario; Workers presenta personal; Incidents permite consultar acontecimientos; Machinery organiza los equipos. La separación por proyecto mantiene el contexto al navegar entre recursos. Cada formulario debe mostrar validaciones y resultado de la operación, y cada listado debe contemplar búsqueda, estado vacío y errores. Los controles de escritura dependen del rol. Estas condiciones son criterios de revisión del diseño y deben comprobarse en el producto y las pruebas, no inferirse solamente de las figuras.
 
-**Figura 42**  
+**Figura 53**  
 _Mobile Wireframe Login_
 
 <p align="center">
@@ -3776,7 +3795,7 @@ _Mobile Wireframe Login_
 
 </p>
 
-**Figura 43**  
+**Figura 54**  
 _Mobile Wireframe Projects_
 
 <p align="center">
@@ -3787,7 +3806,7 @@ _Mobile Wireframe Projects_
 
 </p>
 
-**Figura 44**  
+**Figura 55**  
 _Mobile Wireframe Workers_
 
 <p align="center">
@@ -3798,7 +3817,7 @@ _Mobile Wireframe Workers_
 
 </p>
 
-**Figura 45**  
+**Figura 56**  
 _Mobile Wireframe Materials_
 
 <p align="center">
@@ -3809,7 +3828,7 @@ _Mobile Wireframe Materials_
 
 </p>
 
-**Figura 46**  
+**Figura 57**  
 _Mobile Wireframe Incidents_
 
 <p align="center">
@@ -3820,7 +3839,7 @@ _Mobile Wireframe Incidents_
 
 </p>
 
-**Figura 47**  
+**Figura 58**  
 _Mobile Wireframe Machinery_
 
 <p align="center">
@@ -3845,7 +3864,7 @@ Como usuario, quiero poder visualizar desde la aplicación móvil la lista de pr
 
 **Wireflow:**
 
-**Figura 48**
+**Figura 59**
 
 <p align="center">
 
@@ -3873,7 +3892,7 @@ Como usuario, quiero consultar desde la aplicación móvil las maquinarias utili
 
 **Wireflow:**
 
-**Figura 49**
+**Figura 60**
 
 <p align="center">
 
@@ -3904,7 +3923,7 @@ Los wireframes definen estructura y jerarquía; los mock-ups incorporan tipograf
 
 Las seis pantallas presentadas cubren Login, Projects, Materials, Workers, Incidents y Machinery. Login inicia el acceso; Projects permite seleccionar el contexto de obra; Materials organiza inventario; Workers presenta personal; Incidents permite consultar acontecimientos; Machinery organiza los equipos. La separación por proyecto mantiene el contexto al navegar entre recursos. Cada formulario debe mostrar validaciones y resultado de la operación, y cada listado debe contemplar búsqueda, estado vacío y errores. Los controles de escritura dependen del rol. Estas condiciones son criterios de revisión del diseño y deben comprobarse en el producto y las pruebas, no inferirse solamente de las figuras.
 
-**Figura 50**  
+**Figura 61**  
 _Mobile Mock-up Login_
 
 <p align="center">
@@ -3915,7 +3934,7 @@ _Mobile Mock-up Login_
 
 </p>
 
-**Figura 51**  
+**Figura 62**  
 _Mobile Mock-up Projects_
 
 <p align="center">
@@ -3926,7 +3945,7 @@ _Mobile Mock-up Projects_
 
 </p>
 
-**Figura 52**  
+**Figura 63**  
 _Mobile Mock-up Workers_
 
 <p align="center">
@@ -3937,7 +3956,7 @@ _Mobile Mock-up Workers_
 
 </p>
 
-**Figura 53**  
+**Figura 64**  
 _Mobile Mock-up Materials_
 
 <p align="center">
@@ -3948,7 +3967,7 @@ _Mobile Mock-up Materials_
 
 </p>
 
-**Figura 54**  
+**Figura 65**  
 _Mobile Mock-up Incidents_
 
 <p align="center">
@@ -3959,7 +3978,7 @@ _Mobile Mock-up Incidents_
 
 </p>
 
-**Figura 55**  
+**Figura 66**  
 _Mobile Mock-up Machinery_
 
 <p align="center">
@@ -3977,7 +3996,7 @@ _Mobile Mock-up Machinery_
 **User Goal 1:** Gestionar y controlar materiales de construcción  
 **Descripción:** El supervisor desea consultar y controlar desde la aplicación móvil la disponibilidad, stock y demás información de los materiales asociados a una obra para mantener un mejor control de los recursos utilizados durante el desarrollo del proyecto.
 
-**Figura 56**  
+**Figura 67**  
 _Mobile User Flow 1_
 
 <p align="center">
@@ -3991,7 +4010,7 @@ _Mobile User Flow 1_
 **User Goal 2:** Controlar la asistencia y roles de los trabajadores  
 **Descripción:** El supervisor necesita consultar y gestionar desde la aplicación móvil la información de los trabajadores asignados a la obra, incluyendo sus roles, asistencia, tareas y responsabilidades dentro del proyecto.
 
-**Figura 57**  
+**Figura 68**  
 _Mobile User Flow 2_
 
 <p align="center">
@@ -4005,7 +4024,7 @@ _Mobile User Flow 2_
 **User Goal 3:** Consultar incidencias en obra  
 **Descripción:** El supervisor desea consultar desde la aplicación móvil los incidentes registrados durante la ejecución de la obra para conocer su tipo, fecha, nivel de severidad y estado de resolución.
 
-**Figura 58**  
+**Figura 69**  
 _Mobile User Flow 3_
 
 <p align="center">
@@ -4021,7 +4040,7 @@ _Mobile User Flow 3_
 **User Goal 1:** Visualizar el estado y progreso de mis obras contratadas (solo lectura)  
 **Descripción:** El contratante necesita consultar desde la aplicación móvil las obras asociadas a su empresa, con acceso a información clara y actualizada sobre el estado general de cada proyecto.
 
-**Figura 59**  
+**Figura 70**  
 _Mobile User Flow 4_
 
 <p align="center">
@@ -4035,7 +4054,7 @@ _Mobile User Flow 4_
 **User Goal 2:** Visualizar el uso y estado de la maquinaria asignada a la obra  
 **Descripción:** El contratante desea consultar desde la aplicación móvil las maquinarias asociadas a sus obras para conocer los equipos disponibles, su identificación, fecha de registro y estado operativo.
 
-**Figura 60**  
+**Figura 71**  
 _Mobile User Flow 5_
 
 <p align="center">
@@ -4049,7 +4068,7 @@ _Mobile User Flow 5_
 **User Goal 3:** Ver detalles del consumo y disponibilidad de materiales (solo lectura)  
 **Descripción:** El contratante desea consultar desde la aplicación móvil la información de los materiales asociados a las obras para evaluar la cantidad registrada, el stock disponible, los proveedores y el uso de los recursos del proyecto.
 
-**Figura 61**  
+**Figura 72**  
 _Mobile User Flow 6_
 
 <p align="center">
@@ -4086,6 +4105,7 @@ El prototipo para el sistema operativo Android ha sido estructurado tomando como
 
 <br>
 
+**Figura 73**  
 _Prototipo de Alta Fidelidad - Vistas Principales Android_
 
 <p align="center">
@@ -4111,6 +4131,7 @@ El prototipo para iOS fue diseñado adaptando la interfaz a las <em>Human Interf
 
 <br>
 
+**Figura 74**  
 _Prototipo de Alta Fidelidad - Vistas Principales iOS_
 
 <p align="center">
@@ -4135,7 +4156,7 @@ Los wireframes definen estructura y jerarquía; los mock-ups incorporan tipograf
 
 Las seis pantallas presentadas cubren Login, Projects, Materials, Workers, Incidents y Machinery. Login inicia el acceso; Projects permite seleccionar el contexto de obra; Materials organiza inventario; Workers presenta personal; Incidents permite consultar acontecimientos; Machinery organiza los equipos. La separación por proyecto mantiene el contexto al navegar entre recursos. Cada formulario debe mostrar validaciones y resultado de la operación, y cada listado debe contemplar búsqueda, estado vacío y errores. Los controles de escritura dependen del rol. Estas condiciones son criterios de revisión del diseño y deben comprobarse en el producto y las pruebas, no inferirse solamente de las figuras.
 
-**Figura 62**
+**Figura 75**
 
 <p align="center">
   <img src="assets/chapter-4/Web Applications/Wireframe - Login.png" alt="Wireframe - Login" width="500">
@@ -4143,7 +4164,7 @@ Las seis pantallas presentadas cubren Login, Projects, Materials, Workers, Incid
 </p>
 <br>
 
-**Figura 63**
+**Figura 76**
 
 <p align="center">
   <img src="assets/chapter-4/Web Applications/Wireframe - Projects.png" alt="Wireframe - Projects" width="500">
@@ -4151,7 +4172,7 @@ Las seis pantallas presentadas cubren Login, Projects, Materials, Workers, Incid
 </p>
 <br>
 
-**Figura 64**
+**Figura 77**
 
 <p align="center">
   <img src="assets/chapter-4/Web Applications/Wireframe - Materials.png" alt="Wireframe - Materials" width="500">
@@ -4159,7 +4180,7 @@ Las seis pantallas presentadas cubren Login, Projects, Materials, Workers, Incid
 </p>
 <br>
 
-**Figura 65**
+**Figura 78**
 
 <p align="center">
   <img src="assets/chapter-4/Web Applications/Wireframe - Workers.png" alt="Wireframe - Workers" width="500">
@@ -4167,7 +4188,7 @@ Las seis pantallas presentadas cubren Login, Projects, Materials, Workers, Incid
 </p>
 <br>
 
-**Figura 66**
+**Figura 79**
 
 <p align="center">
   <img src="assets/chapter-4/Web Applications/Wireframe - Incidents.png" alt="Wireframe - Incidents" width="500">
@@ -4175,7 +4196,7 @@ Las seis pantallas presentadas cubren Login, Projects, Materials, Workers, Incid
 </p>
 <br>
 
-**Figura 67**
+**Figura 80**
 
 <p align="center">
   <img src="assets/chapter-4/Web Applications/Wireframe - Machinery.png" alt="Wireframe - Machinery" width="500">
@@ -4198,7 +4219,7 @@ Como usuario, quiero poder ver la lista de proyectos que posee mi empresa con su
 
 **Wire:**
 <br>
-**Figura 68**
+**Figura 81**
 
 <p align="center">
   <img src="assets/chapter-4/Web Applications/wire1.png" alt="wire1" width="500">
@@ -4224,7 +4245,7 @@ Como usuario quiero tener detallado las maquinarias que se usan por cada proyect
 </p>
 
 **Wireflow:** <br>
-**Figura 69**
+**Figura 82**
 
 <p align="center">
   <img src="assets/chapter-4/Web Applications/wireflow2.png" alt="wireflow2" width="500">
@@ -4252,7 +4273,7 @@ Los wireframes definen estructura y jerarquía; los mock-ups incorporan tipograf
 
 Las seis pantallas presentadas cubren Login, Projects, Materials, Workers, Incidents y Machinery. Login inicia el acceso; Projects permite seleccionar el contexto de obra; Materials organiza inventario; Workers presenta personal; Incidents permite consultar acontecimientos; Machinery organiza los equipos. La separación por proyecto mantiene el contexto al navegar entre recursos. Cada formulario debe mostrar validaciones y resultado de la operación, y cada listado debe contemplar búsqueda, estado vacío y errores. Los controles de escritura dependen del rol. Estas condiciones son criterios de revisión del diseño y deben comprobarse en el producto y las pruebas, no inferirse solamente de las figuras.
 
-**Figura 70**
+**Figura 83**
 
 <p align="center">
   <img src="assets/chapter-4/Web Applications/Mockup - Login.png" alt="Mockup - Login" width="500">
@@ -4261,7 +4282,7 @@ Las seis pantallas presentadas cubren Login, Projects, Materials, Workers, Incid
 </p>
 <br>
 
-**Figura 71**
+**Figura 84**
 
 <p align="center">
   <img src="assets/chapter-4/Web Applications/Mockup - Projects.png" alt="Mockup - Projects" width="500">
@@ -4270,7 +4291,7 @@ Las seis pantallas presentadas cubren Login, Projects, Materials, Workers, Incid
 </p>
 <br>
 
-**Figura 72**
+**Figura 85**
 
 <p align="center">
   <img src="assets/chapter-4/Web Applications/Mockup - Materials.png" alt="Mockup - Materials" width="500">
@@ -4279,7 +4300,7 @@ Las seis pantallas presentadas cubren Login, Projects, Materials, Workers, Incid
 </p>
 <br>
 
-**Figura 73**
+**Figura 86**
 
 <p align="center">
   <img src="assets/chapter-4/Web Applications/Mockup - Workers.png" alt="Mockup - Workers" width="500">
@@ -4288,7 +4309,7 @@ Las seis pantallas presentadas cubren Login, Projects, Materials, Workers, Incid
 </p>
 <br>
 
-**Figura 74**
+**Figura 87**
 
 <p align="center">
   <img src="assets/chapter-4/Web Applications/Mockup - Incidents.png" alt="Mockup - Incidents" width="500">
@@ -4296,7 +4317,7 @@ Las seis pantallas presentadas cubren Login, Projects, Materials, Workers, Incid
 <br>*Nota.* Elaboración propia. 
 </p>
 
-**Figura 75**
+**Figura 88**
 
 <p align="center">
   <img src="assets/chapter-4/Web Applications/Mockup - Machinery.png" alt="Mockup - Machinery" width="500">
@@ -4311,7 +4332,7 @@ Las seis pantallas presentadas cubren Login, Projects, Materials, Workers, Incid
 **User Goal 1:** Gestionar y controlar materiales de construcción  
 **Descripción:** El supervisor desea registrar el ingreso, uso y nivel de materiales en obra para evitar desperdicios y garantizar continuidad en las actividades.
 
-**Figura 76**  
+**Figura 89**  
 _User flow 1_
 
 <p align="center">
@@ -4323,7 +4344,7 @@ _User flow 1_
 **User Goal 2:** Controlar la asistencia y roles de los trabajadores  
 **Descripción:** El supervisor debe tener control total sobre el personal: quién está presente, qué tarea cumple y qué rol desempeña.
 
-**Figura 77**  
+**Figura 90**  
 _User flow 2_
 
 <p align="center">
@@ -4334,7 +4355,7 @@ _User flow 2_
 **User Goal 3:** Reportar incidencias en obra  
 **Descripción:** El supervisor reporta eventos importantes en campo (fallas de maquinaria, ausencias masivas, problemas logísticos).
 
-**Figura 78**  
+**Figura 91**  
 _User flow 3_
 
 <p align="center">
@@ -4347,7 +4368,7 @@ _User flow 3_
 **User Goal 1:** Visualizar el estado y progreso de mis obras contratadas (solo lectura)  
 **Descripción:** El contratante necesita consultar las obras activas donde ha contratado los servicios, con acceso a información clara y actualizada.
 
-**Figura 79**  
+**Figura 92**  
 _User flow 4_
 
 <p align="center">
@@ -4358,7 +4379,7 @@ _User flow 4_
 **User Goal 2:** Visualizar el uso y estado de la maquinaria asignada a la obra  
 **Descripción:** Permitir que el contratante consulte, en tiempo real y de forma clara, qué maquinarias están siendo utilizadas en sus obras, cuál es su estado operativo y cómo impactan en el avance del proyecto.
 
-**Figura 80**  
+**Figura 93**  
 _User flow 5_
 
 <p align="center">
@@ -4370,7 +4391,7 @@ _Nota._ Elaboración propia.
 **User Goal 3:** Ver detalles del consumo de materiales y reportes de avance (en modo solo lectura)  
 **Descripción:** El contratante desea evaluar cómo se están utilizando los recursos materiales y verificar si el avance reportado está alineado con lo esperado.
 
-**Figura 81**  
+**Figura 94**  
 _User flow 6_
 
 <p align="center">
@@ -4383,7 +4404,7 @@ _Nota._ Elaboración propia.
 
 El prototipo permite recorrer acceso, selección de proyecto y consulta de módulos antes de evaluar la implementación. Los criterios de interacción son visibilidad del estado, navegación consistente, conservación del contexto de obra y respuesta comprensible a acciones y errores. Las tareas de evaluación deben contemplar un supervisor y un contratante para comprobar permisos y facilidad de consulta. Un prototipo demuestra la intención de interacción; la evidencia del software ejecutado se presenta separadamente en 5.2.3 y 6.1.
 
-**Figura 82**  
+**Figura 95**  
 _Video of Web Applications Prototype of ArquiTech_
 
 <p align="center">
@@ -4394,13 +4415,13 @@ _Nota._ Elaboración propia. Link del video: [https://upcedupe-my.sharepoint.com
 
 ## 4.8. Domain-Driven Software Architecture
 
-Las figuras 83–85 conservan el diseño arquitectónico inicial del proyecto. Se mantienen para documentar las decisiones de diseño de esa etapa. La implementación disponible en los repositorios revisados presenta diferencias tecnológicas y de alcance, descritas en cada vista y contrastadas con las evidencias del capítulo V. Los servicios externos dibujados no se consideran integrados solo por aparecer en estas figuras.
+Las figuras 96–98 conservan el diseño arquitectónico inicial del proyecto. Se mantienen para documentar las decisiones de diseño de esa etapa. La implementación disponible en los repositorios revisados presenta diferencias tecnológicas y de alcance, descritas en cada vista y contrastadas con las evidencias del capítulo V. Los servicios externos dibujados no se consideran integrados solo por aparecer en estas figuras.
 
 ### 4.8.1. Software Architecture Context Diagram
 
 La vista de contexto sitúa ArquiTech como plataforma de gestión operativa para empresas constructoras y representa la interacción de supervisores de obra y contratantes. El supervisor registra información de personal y materiales y genera reportes; el contratante consulta el avance de sus obras. El diseño inicial incluye Google Maps, Stripe, OneSignal, Firebase Storage y un sistema externo de control de acceso. Estas relaciones expresan integraciones previstas en el modelo; su implementación no quedó acreditada en los snapshots revisados. La autenticación y autorización observadas en el backend actual se realizan mediante Spring Security y JWT.
 
-**Figura 83**  
+**Figura 96**  
 _Software Architecture Context Diagram of ArquiTech_
 
 <p align="center">
@@ -4413,7 +4434,7 @@ _Nota._ Elaboración propia.
 
 La vista de contenedores descompone el diseño inicial en Landing Page, Web App, API REST y base de datos, y representa las solicitudes entre clientes, API y servicios externos. La figura plantea una API Node.js/NestJS y MySQL en AWS RDS. En la implementación revisada, la landing y el frontend utilizan Angular, existe un cliente móvil Flutter y la API utiliza Java/Spring Boot con persistencia MySQL mediante JPA. La presencia de MySQL en el código no acredita su despliegue en AWS RDS. Se conserva la figura como diseño inicial; la evidencia de los componentes implementados se documenta en 5.2.
 
-**Figura 84**  
+**Figura 97**  
 _Software Architecture Container Diagram of ArquiTech_
 
 <p align="center">
@@ -4426,7 +4447,7 @@ _Nota._ Elaboración propia.
 
 La vista de componentes agrupa responsabilidades de registro y generación de reportes, notificaciones, visualización de reportes y compra o exportación, con relaciones hacia almacenamiento y servicios externos. La figura inicial incluye una base de datos MongoDB, mientras que el backend revisado emplea MySQL y repositorios JPA, con controladores REST y servicios de aplicación. Las notificaciones externas y la compra de reportes representadas en esta vista se mantienen como alcance de diseño sin evidencia de implementación en los snapshots consultados. Los contratos realmente expuestos se documentan en 5.2.7 y las pruebas de integración disponibles en 6.1.2.
 
-**Figura 85**  
+**Figura 98**  
 _Software Architecture Components Diagram of ArquiTech_
 
 <p align="center">
@@ -4463,7 +4484,7 @@ El modelo se encuentra compuesto por las clases `User`, `Project`, `ProjectMembe
 
 </p>
 
-**Figura 86**  
+**Figura 99**  
 _Class Diagram de ArquiTech_
 
 <p align="center">
@@ -4832,7 +4853,7 @@ Las principales tablas consideradas son `users`, `projects`, `project_members`, 
 
 </p>
 
-**Figura 87**  
+**Figura 100**  
 _Relational Database Diagram de ArquiTech_
 
 <p align="center">
@@ -5077,6 +5098,7 @@ A continuación, se presentan las evidencias visuales de la estrategia GitFlow a
 
 <br>
 
+**Figura 101**  
 _Ramas del repositorio Backend_
 
 <p align="center">
@@ -5087,6 +5109,7 @@ _Ramas del repositorio Backend_
 
 <br>
 
+**Figura 102**  
 _Pull Requests del Backend_
 
 <p align="center">
@@ -5097,6 +5120,7 @@ _Pull Requests del Backend_
 
 <br>
 
+**Figura 103**  
 _Pull Requests del Frontend Web_
 
 <p align="center">
@@ -5107,6 +5131,7 @@ _Pull Requests del Frontend Web_
 
 <br>
 
+**Figura 104**  
 _Pull Requests del Frontend Mobile_
 
 <p align="center">
@@ -5411,6 +5436,7 @@ Habilitar el flujo base de ArquiTech sobre los componentes reutilizados, permiti
 
 <br>
 
+**Figura 105**  
 _Vista del Sprint Backlog en Trello_
 
 <p align="center">
@@ -5502,19 +5528,20 @@ La Landing Page vigente de ArquiTech se implementa con Angular 20 y TypeScript e
 <div style="text-align: justify;">
 <p align="justify">
 
-La ruta de evidencia visual se conserva temporalmente para mantener la estructura del informe. La captura correspondiente a la implementación vigente será sustituida manualmente; por ello, la imagen actual no se presenta como evidencia actualizada del repositorio.
+La siguiente captura corresponde a la Landing Page publicada en [GitHub Pages](https://upc-1asi0732-202620-9112-arquitech.github.io/ArquiTech-LandingPage/), revisada el 11/11/2026. Muestra el encabezado con la navegación (Solution, Benefits, Product, Service plan y About us), el selector de idioma, el acceso a la aplicación web y la sección principal con la propuesta de valor del producto.
 
 </p>
 </div>
 
 <br>
 
-_Evidencia de la Landing Page pendiente de actualización manual_
+**Figura 106**  
+_Landing Page de ArquiTech publicada en GitHub Pages_
 
 <p align="center">
-  <img src="assets/chapter-5/implemented/landing-page-execution.png" width="850" alt="Landing Page Implementada">
+  <img src="assets/chapter-5/implemented/landing-page-execution.png" width="800" alt="Landing Page Implementada">
 </p>
-<p align="center"><em>*Nota.* La captura se conserva temporalmente y será reemplazada por evidencia de la Landing Page vigente.</em></p>
+<p align="center"><em>*Nota.* Elaboración propia (Landing Page en producción, 11/11/2026).</em></p>
 
 <br>
 
@@ -5534,6 +5561,7 @@ A continuación, se presentan evidencias visuales de la aplicación web en ejecu
 
 <br>
 
+**Figura 107**  
 _Vista de la Aplicación Web en Producción (Inicio de Sesión)_
 
 <p align="center">
@@ -5543,6 +5571,7 @@ _Vista de la Aplicación Web en Producción (Inicio de Sesión)_
 
 <br>
 
+**Figura 108**  
 _Vista de la Aplicación Web en Producción (Módulo de Proyectos)_
 
 <p align="center">
@@ -5552,6 +5581,7 @@ _Vista de la Aplicación Web en Producción (Módulo de Proyectos)_
 
 <br>
 
+**Figura 109**  
 _Vista de la Aplicación Web en Producción (Módulo de Materiales)_
 
 <p align="center">
@@ -5742,6 +5772,7 @@ El acceso a los Terms and Conditions se encuentra disponible desde la Landing Pa
 
 <br>
 
+**Figura 110**  
 _Terms and Conditions Page - English Version_
 
 <p align="center">
@@ -5752,6 +5783,7 @@ _Terms and Conditions Page - English Version_
 
 <br>
 
+**Figura 111**  
 _Terms and Conditions Page - Spanish Version_
 
 <p align="center">
@@ -5762,6 +5794,7 @@ _Terms and Conditions Page - Spanish Version_
 
 <br>
 
+**Figura 112**  
 _Terms and Conditions Link in Landing Page Footer_
 
 <p align="center">
@@ -5772,6 +5805,7 @@ _Terms and Conditions Link in Landing Page Footer_
 
 <br>
 
+**Figura 113**  
 _Terms and Conditions Access in Frontend Web Application_
 
 <p align="center">
@@ -5782,6 +5816,7 @@ _Terms and Conditions Access in Frontend Web Application_
 
 <br>
 
+**Figura 114**  
 _Terms and Conditions Access in Native-Mobile Application_
 
 <p align="center">
@@ -5812,6 +5847,7 @@ La solución se encuentra integrada con el backend desplegado de ArquiTech y per
 
 <br>
 
+**Figura 115**  
 _Vista de la Aplicación Mobile en Ejecución (Inicio de Sesión)_
 
 <p align="center">
@@ -5822,6 +5858,7 @@ _Vista de la Aplicación Mobile en Ejecución (Inicio de Sesión)_
 
 <br>
 
+**Figura 116**  
 _Vista de la Aplicación Mobile en Ejecución (Módulo de Proyectos)_
 
 <p align="center">
@@ -5832,6 +5869,7 @@ _Vista de la Aplicación Mobile en Ejecución (Módulo de Proyectos)_
 
 <br>
 
+**Figura 117**  
 _Vista de la distribución de la Aplicación Mobile mediante Firebase App Distribution_
 
 <p align="center">
@@ -5881,6 +5919,7 @@ La configuración sensible del servicio no se encuentra versionada en el reposit
 
 <br>
 
+**Figura 118**  
 _Servicios desplegados, conexión con la base de datos y variables de entorno configuradas_
 
 <p align="center">
@@ -5900,6 +5939,7 @@ En la figura anterior se observan los dos servicios que componen el despliegue �
 
 <br>
 
+**Figura 119**  
 _Configuración de origen del servicio y despliegue automático desde GitHub_
 
 <p align="center">
@@ -5966,30 +6006,33 @@ La documentación de la API REST de ArquiTech se genera automáticamente mediant
 
 </p> </div> <div style="text-align: justify;"> <p align="justify">
 
-La especificación se obtiene de los contratos vigentes del Backend durante la ejecución. Esto responde a la Technical Story TS39 – Documentar la API REST mediante OpenAPI, cuyos criterios de aceptación establecen que la documentación debe describir los recursos expuestos y reflejar el contrato vigente ante cualquier modificación. Las capturas conservadas en esta sección corresponden al contrato anterior y permanecen pendientes de sustitución manual por evidencias de Swagger que incluyan Attendance y la eliminación de proyectos.
+La especificación se obtiene de los contratos vigentes del Backend durante la ejecución. Esto responde a la Technical Story TS39 – Documentar la API REST mediante OpenAPI, cuyos criterios de aceptación establecen que la documentación debe describir los recursos expuestos y reflejar el contrato vigente ante cualquier modificación. Las capturas de esta sección se tomaron el 11/11/2026 sobre la instancia desplegada en Railway e incluyen los recursos de Attendance, la eliminación de proyectos y los movimientos de materiales sin conexión.
 
 </p> </div> <br>
 
-Endpoints de acceso a la documentación
+**Endpoints de acceso a la documentación**
 
-Recurso URL
-Swagger UI (interfaz interactiva) https://arquitech-backend-production-cfc2.up.railway.app/swagger-ui/index.html
-Especificación OpenAPI (JSON) https://arquitech-backend-production-cfc2.up.railway.app/v3/api-docs
+| Recurso | URL |
+| ------- | --- |
+| Swagger UI (interfaz interactiva) | https://arquitech-backend-production-cfc2.up.railway.app/swagger-ui/index.html |
+| Especificación OpenAPI (JSON) | https://arquitech-backend-production-cfc2.up.railway.app/v3/api-docs |
+
 <br> <div style="text-align: justify;"> <p align="justify">
 
 La especificación publicada corresponde a la aplicación `arquitech-back-end`, versión `0.0.1-SNAPSHOT`. Las solicitudes ejecutadas desde la instancia desplegada de Swagger UI se dirigen al servicio real en ejecución y no a un entorno simulado.
 
 </p> </div> <br>
 
-Vista general de Swagger UI pendiente de actualización manual
+**Figura 120**  
+_Vista general de Swagger UI de ArquiTech REST API_
 
-<p align="center"> <img src="assets/chapter-5/api-documentation/swagger-overview.png" width="900" alt="Swagger UI - Vista general"> </p> <p align="center"><em>*Nota.* Captura del contrato anterior, pendiente de reemplazo por la documentación Swagger vigente.</em></p> <br>
+<p align="center"> <img src="assets/chapter-5/api-documentation/swagger-overview.png" width="800" alt="Swagger UI - Vista general"> </p> <p align="center"><em>*Nota.* Elaboración propia (Swagger UI del Backend desplegado en Railway, 11/11/2026).</em></p> <br>
 
-Recursos expuestos por la API
+**Recursos expuestos por la API**
 
 <div style="text-align: justify;"> <p align="justify">
 
-La API expone 37 operaciones REST distribuidas en nueve controladores, alineados con los Bounded Contexts definidos en la arquitectura del producto (sección 4.8):
+La API expone 39 operaciones REST distribuidas en nueve controladores, alineados con los Bounded Contexts definidos en la arquitectura del producto (sección 4.8):
 
 </p> </div>
 | Controlador    | Operaciones REST | Descripción                                                                  |
@@ -5998,12 +6041,12 @@ La API expone 37 operaciones REST distribuidas en nueve controladores, alineados
 | Users          | 2                | Consulta general e individual de usuarios.                                   |
 | Projects       | 4                | Registro, consulta y eliminación autorizada de proyectos.                    |
 | Attendance     | 4                | Consulta, registro, actualización y eliminación de asistencia.               |
-| Materials      | 7                | Gestión de materiales, entradas, usos e historial de movimientos.            |
+| Materials      | 9                | Gestión de materiales, entradas, usos, historial y movimientos sin conexión. |
 | Machinery      | 5                | Registro, consulta, actualización y eliminación de maquinaria.               |
 | Workers        | 5                | Registro, consulta, actualización y eliminación de trabajadores.             |
 | Tasks          | 4                | Creación, consulta, actualización y eliminación de tareas asignadas.         |
 | Incidents      | 4                | Registro, consulta por proyecto, actualización y eliminación de incidencias. |
-| **Total**      | **37**           | **37 operaciones REST expuestas por nueve controladores.**                   |
+| **Total**      | **39**           | **39 operaciones REST; además, Spring Boot Actuator expone `GET /actuator/health`.** |
 
 Las operaciones incorporadas para completar los flujos de asistencia y eliminación de proyectos son:
 
@@ -6016,15 +6059,17 @@ Las operaciones incorporadas para completar los flujos de asistencia y eliminaci
 `DELETE /api/v1/projects/{id}` requiere un Supervisor autorizado sobre el proyecto. La eliminación es transaccional: el Backend elimina los registros dependientes y revierte la operación completa si no puede finalizarla de manera consistente. `GET /api/v1/attendance` permite consultar los registros al Supervisor y al Contratante asociado con el proyecto; las operaciones `POST`, `PUT` y `DELETE` de Attendance corresponden exclusivamente al Supervisor autorizado.
 <br>
 
-Captura de endpoints pendiente de actualización manual
+**Figura 121**  
+_Endpoints de Materials, Attendance y Projects en Swagger UI_
 
-<p align="center"> <img src="assets/chapter-5/api-documentation/swagger-endpoints-1.png" width="900" alt="Swagger UI - Endpoints parte 1"> </p> <p align="center"><em>*Nota.* Captura del contrato anterior, pendiente de reemplazo por evidencia que incluya Attendance y DELETE Project.</em></p> <br>
+<p align="center"> <img src="assets/chapter-5/api-documentation/swagger-endpoints-1.png" width="800" alt="Swagger UI - Endpoints parte 1"> </p> <p align="center"><em>*Nota.* Elaboración propia (Swagger UI del Backend desplegado en Railway, 11/11/2026).</em></p> <br>
 
-Captura complementaria de endpoints pendiente de actualización manual
+**Figura 122**  
+_Endpoints de Actuator, Workers, Tasks, Machinery, Incidents, Authentication y Users en Swagger UI_
 
-<p align="center"> <img src="assets/chapter-5/api-documentation/swagger-endpoints-2.png" width="900" alt="Swagger UI - Endpoints parte 2"> </p> <p align="center"><em>*Nota.* Captura del contrato anterior, pendiente de reemplazo por evidencia que incluya Attendance y DELETE Project.</em></p> <br>
+<p align="center"> <img src="assets/chapter-5/api-documentation/swagger-endpoints-2.png" width="800" alt="Swagger UI - Endpoints parte 2"> </p> <p align="center"><em>*Nota.* Elaboración propia (Swagger UI del Backend desplegado en Railway, 11/11/2026).</em></p> <br>
 
-Esquema de seguridad documentado
+**Esquema de seguridad documentado**
 
 <div style="text-align: justify;"> <p align="justify">
 
@@ -6046,6 +6091,7 @@ Asimismo, estas métricas permiten observar la actividad asociada al control de 
 
 </div>
 
+**Figura 123**  
 _Evidencias de Commits y Contribuciones del Equipo en GitHub_
 
 <p align="center">
@@ -6088,7 +6134,7 @@ Como parte del contenido se incorporan testimonios obtenidos durante las entrevi
 
 </p>
 
-**Figura 88**  
+**Figura 124**  
 _Video About-the-Product de ArquiTech_
 
 <p align="center">
@@ -6098,6 +6144,8 @@ _Video About-the-Product de ArquiTech_
 </p>
 
 <p align="center"><em>*Nota.* Elaboración propia.</em></p>
+
+# Part II: Verification, Validation & Pipeline
 
 # Capítulo VI: Product Verification & Validation
 
@@ -6129,7 +6177,7 @@ Las pruebas unitarias y de integración se ejecutan con `npm run test:ci` (o `ng
 </p>
 </div>
 
-**Figura 89**  
+**Figura 125**  
 _Reporte de Jasmine con los 26 casos ejecutados_
 
 <p align="center">
@@ -6139,7 +6187,7 @@ _Reporte de Jasmine con los 26 casos ejecutados_
 
 <br>
 
-**Figura 90**  
+**Figura 126**  
 _Ejecución de las pruebas unitarias e integración en consola con resumen de cobertura_
 
 <p align="center">
@@ -6206,7 +6254,7 @@ Las pruebas unitarias verifican las reglas de negocio que viven en las entidades
 
 <br>
 
-**Figura 91**  
+**Figura 127**  
 _Prueba unitaria de la entidad User_
 
 <p align="center">
@@ -6216,7 +6264,7 @@ _Prueba unitaria de la entidad User_
 
 <br>
 
-**Figura 92**  
+**Figura 128**  
 _Prueba unitaria de la entidad Material_
 
 <p align="center">
@@ -6226,7 +6274,7 @@ _Prueba unitaria de la entidad Material_
 
 <br>
 
-**Figura 93**  
+**Figura 129**  
 _Prueba unitaria de la entidad Task_
 
 <p align="center">
@@ -6244,7 +6292,7 @@ La cobertura obtenida es de 46.99 % en sentencias, 39.47 % en ramas, 51.56 % en 
 </p>
 </div>
 
-**Figura 94**  
+**Figura 130**  
 _Reporte de cobertura de código (Istanbul)_
 
 <p align="center">
@@ -6323,7 +6371,7 @@ Las pruebas de integración verifican que varias piezas de la aplicación funcio
 
 <br>
 
-**Figura 95**  
+**Figura 131**  
 _Prueba de integración del contrato REST (mockBackendInterceptor)_
 
 <p align="center">
@@ -6333,7 +6381,7 @@ _Prueba de integración del contrato REST (mockBackendInterceptor)_
 
 <br>
 
-**Figura 96**  
+**Figura 132**  
 _Resultado de la suite mockBackendInterceptor_
 
 <p align="center">
@@ -6343,7 +6391,7 @@ _Resultado de la suite mockBackendInterceptor_
 
 <br>
 
-**Figura 97**  
+**Figura 133**  
 _Prueba de integración de los guards de autenticación y rol_
 
 <p align="center">
@@ -6353,7 +6401,7 @@ _Prueba de integración de los guards de autenticación y rol_
 
 <br>
 
-**Figura 98**  
+**Figura 134**  
 _Prueba de integración del servicio de reporte semanal_
 
 <p align="center">
@@ -6380,7 +6428,7 @@ El reporte Cucumber muestra **2 escenarios ejecutados, 2 aprobados y 100 % de é
 
 La captura del IDE confirma los mismos nombres de escenarios, muestra **2 tests aprobados de 2** y finalización con código de salida 0. En esa vista se observa un tiempo total de **6,688 segundos** y Spring Boot 3.5.0. Se documentan las duraciones de cada vista por separado; no se suman los casos porque ambas evidencias presentan los mismos dos escenarios.
 
-**Figura 108**  
+**Figura 135**  
 _Reporte Cucumber de los escenarios de registro de uso de materiales_
 
 <p align="center">
@@ -6389,7 +6437,7 @@ _Reporte Cucumber de los escenarios de registro de uso de materiales_
 
 _Nota._ El reporte muestra aprobación del registro de 10 unidades y del rechazo de un consumo de 50 unidades sobre un stock inicial de 40.
 
-**Figura 109**  
+**Figura 136**  
 _Ejecución de los dos escenarios Cucumber desde el IDE_
 
 <p align="center">
@@ -6412,7 +6460,7 @@ El archivo `mobile-flows.spec.ts` contiene dos escenarios del supervisor. El arc
 | E2E-M02 | `mobile-flows.spec.ts` | Proyecto sin fecha de fin: se muestra «Fecha de fin: Este campo es obligatorio» y permanece disponible el formulario. Tras completar la fecha y enviar, la prueba espera la ruta de proyectos y el botón «Nuevo proyecto». | Aprobada; 8,3 s   | HU09: registro de proyecto                             |
 | E2E-M03 | `smoke.spec.ts`        | «ArquiTech abre correctamente», según el nombre registrado en la terminal. El cuerpo de esta prueba no se muestra en la captura.                                                                                           | Aprobada; 1,1 s   | Prueba básica de apertura; sin HU específica atribuida |
 
-**Figura 110**  
+**Figura 137**  
 _Código de los escenarios del supervisor y resultado de tres pruebas Playwright aprobadas_
 
 <p align="center">
@@ -6438,7 +6486,7 @@ Para la Frontend Web Application se implementaron dos pruebas de sistema con Pla
 | E2E-W01 | `tests/test-1.spec.ts` | El supervisor no puede registrar una salida de material mayor al stock        | Inicia sesión como supervisor, entra a _Torre Residencial Norte_, registra una salida de 50 varillas de _Fierro corrugado 3/8"_ (stock 40) y luego corrige la cantidad a 10 | Se muestra "The quantity exceeds the available stock (40)."; con 10 unidades se registra la salida y el stock baja a 30        | HU02 AC2 · TS03 |
 | E2E-W02 | `tests/test-2.spec.ts` | El supervisor no puede registrar maquinaria con una placa repetida en la obra | Inicia sesión, entra a _Maquinaria_, intenta registrar una máquina con la placa `MIX123` (ya existente) y luego corrige la placa a `MIX999`                                 | Se muestra "A machine with that plate already exists on this site."; con `MIX999` la máquina se registra y aparece en la tabla | HU05 AC2        |
 
-**Figura 111**  
+**Figura 138**  
 _Prueba E2E-W01 en Visual Studio Code con la extensión de Playwright_
 
 <p align="center">
@@ -6448,7 +6496,7 @@ _Prueba E2E-W01 en Visual Studio Code con la extensión de Playwright_
 
 <br>
 
-**Figura 112**  
+**Figura 139**  
 _Prueba E2E-W02 en Visual Studio Code con la extensión de Playwright_
 
 <p align="center">
@@ -6458,7 +6506,7 @@ _Prueba E2E-W02 en Visual Studio Code con la extensión de Playwright_
 
 <br>
 
-**Figura 113**  
+**Figura 140**  
 _Reporte HTML de Playwright de las pruebas de sistema web_
 
 <p align="center">
@@ -6674,12 +6722,12 @@ Cada sesión combina tres momentos: una conversación breve de contexto, la ejec
 
 | Segmento             | User flow                                                                  | Producto    | Hypothesis Statement relacionado                            |
 | -------------------- | -------------------------------------------------------------------------- | ----------- | ----------------------------------------------------------- |
-| Supervisores de obra | Gestionar y controlar materiales de construcción (Figuras 56 y 76)         | Web y móvil | HS1 Gestión de materiales e inventario                      |
-| Supervisores de obra | Controlar la asistencia y roles de los trabajadores (Figuras 57 y 77)      | Web y móvil | HS2 Gestión de trabajadores, HS3 Seguimiento de actividades |
-| Supervisores de obra | Reportar y consultar incidencias en obra (Figuras 58 y 78)                 | Web y móvil | HS7 Alertas sobre eventos relevantes                        |
-| Contratantes         | Visualizar el estado y progreso de las obras contratadas (Figuras 59 y 79) | Web y móvil | HS4 Consulta del estado de la obra                          |
-| Contratantes         | Visualizar el uso y estado de la maquinaria asignada (Figuras 60 y 80)     | Web y móvil | HS4 Consulta del estado de la obra                          |
-| Contratantes         | Ver el consumo de materiales y los reportes de avance (Figura 81)          | Web         | HS5 Trazabilidad, HS6 Generación de reportes                |
+| Supervisores de obra | Gestionar y controlar materiales de construcción (Figuras 67 y 89)         | Web y móvil | HS1 Gestión de materiales e inventario                      |
+| Supervisores de obra | Controlar la asistencia y roles de los trabajadores (Figuras 68 y 90)      | Web y móvil | HS2 Gestión de trabajadores, HS3 Seguimiento de actividades |
+| Supervisores de obra | Reportar y consultar incidencias en obra (Figuras 69 y 91)                 | Web y móvil | HS7 Alertas sobre eventos relevantes                        |
+| Contratantes         | Visualizar el estado y progreso de las obras contratadas (Figuras 70 y 92) | Web y móvil | HS4 Consulta del estado de la obra                          |
+| Contratantes         | Visualizar el uso y estado de la maquinaria asignada (Figuras 71 y 93)     | Web y móvil | HS4 Consulta del estado de la obra                          |
+| Contratantes         | Ver el consumo de materiales y los reportes de avance (Figura 94)          | Web         | HS5 Trazabilidad, HS6 Generación de reportes                |
 
 #### Indicadores registrados por tarea
 
@@ -6914,7 +6962,7 @@ Los problemas se clasifican según la siguiente escala de severidad.
 
 Las operaciones de crear, editar y eliminar dispositivos solo definen qué ocurre cuando tienen éxito. La vista no presenta el error de estas operaciones: el formulario puede permanecer abierto después de pulsar Guardar, o el dispositivo puede seguir en la lista tras confirmar su eliminación, sin explicar si hubo un problema de conexión, validación o permisos. El mensaje de error de carga inicial no cubre estos fallos de guardado.
 
-**Figura 114**  
+**Figura 141**  
 _Formulario de dispositivo después de un intento de guardado fallido, sin explicación visible_
 
 <p align="center">
@@ -6934,7 +6982,7 @@ Mostrar un mensaje junto al formulario o la tarjeta, conservar los datos ingresa
 
 En Alertas, las acciones de marcar una alerta como resuelta, crear un umbral y cambiar una preferencia de notificación no muestran un error propio si la petición falla. La persona puede repetir la acción sin saber si se guardó o pensar que desactivó un aviso cuando el cambio no se confirmó.
 
-**Figura 115**  
+**Figura 142**  
 _Preferencia de notificación que no se guarda y no presenta un mensaje de error_
 
 <p align="center">
@@ -6954,7 +7002,7 @@ Incorporar mensajes de éxito y error por acción. Mantener el estado anterior s
 
 La vista de Suscripción muestra «¡Pago realizado! Tu comprobante llegará por correo.» al encontrar paid=1 en la dirección. Ese mensaje no espera una confirmación del estado del pago desde el servidor. Por ello, la interfaz puede anunciar un pago exitoso sin haberlo comprobado.
 
-**Figura 116**  
+**Figura 143**  
 _Mensaje de pago realizado al abrir la ruta con paid=1 sin completar una compra_
 
 <p align="center">
@@ -6974,7 +7022,7 @@ Mostrar «Estamos verificando tu pago» al regresar de la pasarela. Consultar el
 
 Los interruptores comunican si están activados o desactivados, pero no tienen un nombre accesible ni muestran el texto que se les asigna desde el formulario. En Notificaciones, el nombre del canal está en un elemento separado sin asociación con el botón. En Nuevo local no se muestra la etiqueta «Los domingos no cuentan como hora punta». El estado queda visible sin una etiqueta que explique con claridad qué se cambia.
 
-**Figura 117**  
+**Figura 144**  
 _Interruptor de exclusión de domingos sin su etiqueta en el formulario de local_
 
 <p align="center">
@@ -6994,7 +7042,7 @@ Asignar a cada interruptor un nombre mediante aria-label o aria-labelledby y mos
 
 Los diálogos no relacionan su título con el nombre accesible, no llevan el foco al contenido al abrirse, no contienen el recorrido de Tab ni devuelven el foco al control de origen al cerrarse. Se contempla el cierre con Escape. Esto deja sin implementar la orientación y el recorrido necesarios para completar los formularios con teclado o lector de pantalla.
 
-**Figura 118**  
+**Figura 145**  
 _Recorrido de teclado del formulario de dispositivo con foco fuera del diálogo_
 
 <p align="center">
@@ -7014,7 +7062,7 @@ Asociar el título con aria-labelledby, llevar el foco al primer control útil, 
 
 El diálogo se centra en una capa fija, pero UiModal no define altura máxima ni desplazamiento vertical para su contenido. Agregar dispositivo contiene numerosos campos. Esta combinación presenta un riesgo de que el inicio o los botones del formulario queden fuera del área visible en un celular o con zoom.
 
-**Figura 119**  
+**Figura 146**  
 _Comprobación de alcance de los controles de Agregar dispositivo en vista móvil_
 
 <p align="center">
@@ -7034,7 +7082,7 @@ Limitar el contenido a la altura disponible y habilitar desplazamiento vertical 
 
 Login muestra «Verifica tus credenciales» para cualquier excepción, incluida una falta de conexión. Registro responde «No se pudo crear la cuenta. Intenta nuevamente.» sin orientar sobre la causa ni el siguiente paso. Una persona puede cambiar una contraseña correcta o repetir un registro que no podrá completarse hasta que se restablezca el servicio.
 
-**Figura 120**  
+**Figura 147**  
 _Error de conexión presentado como un problema de credenciales en el inicio de sesión_
 
 <p align="center">
@@ -7054,7 +7102,7 @@ Diferenciar problemas de conexión y disponibilidad de los errores de validació
 
 En Métodos de pago, el botón de papelera llama directamente a la eliminación de la tarjeta. No se presenta una confirmación con sus últimos dígitos ni una opción para deshacer. Un clic accidental puede obligar a volver a registrar el medio de pago. La mutación tampoco presenta un mensaje específico si la eliminación falla.
 
-**Figura 121**  
+**Figura 148**  
 _Eliminación directa de un medio de pago desde su botón de papelera_
 
 <p align="center">
@@ -7074,7 +7122,7 @@ Pedir confirmación antes de retirar la tarjeta e identificarla por marca y últ
 
 La pantalla de verificación utiliza el mismo estado de error cuando falta el enlace válido o la petición falla. En ese estado no ofrece un control para reenviar el correo de verificación. La persona no puede resolver desde esa pantalla la necesidad de un nuevo enlace.
 
-**Figura 122**  
+**Figura 149**  
 _Estado de error de verificación sin acción para reenviar el enlace_
 
 <p align="center">
@@ -7094,7 +7142,7 @@ Ofrecer «Solicitar otro correo de verificación» y una explicación en lenguaj
 
 El formulario traduce los tipos de equipo, por ejemplo COLD_ROOM como «Cámara de frío», pero la tarjeta muestra directamente el código del tipo. Tras registrar el equipo, la persona puede ver COLD_ROOM o DISPLAY_FRIDGE en lugar del nombre que eligió. La misma entidad usa dos vocabularios distintos en el formulario y en su tarjeta.
 
-**Figura 123**  
+**Figura 150**  
 _Tarjeta de dispositivo con un tipo interno como COLD_ROOM o DISPLAY_FRIDGE_
 
 <p align="center">
@@ -7114,7 +7162,7 @@ Compartir el mismo diccionario de etiquetas entre formulario, tarjetas, filtros 
 
 Los nombres de los perfiles de consumo están definidos solo en español. El selector del formulario y la tarjeta los muestran sin traducir, incluso cuando las etiquetas de alrededor están en inglés. Se produce una mezcla de idiomas en una misma tarea.
 
-**Figura 124**  
+**Figura 151**  
 _Formulario en inglés con perfiles como Cámara de frío o Sin perfil en español_
 
 <p align="center">
@@ -7134,7 +7182,7 @@ Definir una clave de traducción por perfil y resolver su etiqueta según el idi
 
 Ubicación y Perfil de consumo aparecen en el mismo formulario que los datos enviados al servidor, pero se guardan por separado en localStorage. La interfaz no explica esa diferencia. Al entrar desde otro navegador, los valores pueden faltar aunque el dispositivo siga registrado, lo que parece una pérdida de datos para quien completó el formulario.
 
-**Figura 125**  
+**Figura 152**  
 _Comparación de un mismo dispositivo con y sin sus datos locales en dos navegadores_
 
 <p align="center">
@@ -7154,7 +7202,7 @@ Guardar esos campos en el servidor junto al dispositivo o identificarlos expresa
 
 En Configuración, el segmento se selecciona en una tarjeta independiente que indica «Recuerda guardar los cambios arriba». El botón Guardar cambios pertenece visualmente a Datos de la cuenta. Idioma y tema, en cambio, se aplican al pulsarlos. La persona debe recordar qué preferencias se guardan inmediatamente y cuáles requieren volver a otra tarjeta.
 
-**Figura 126**  
+**Figura 153**  
 _Selección de segmento separada del botón que confirma su guardado_
 
 <p align="center">
@@ -7174,7 +7222,7 @@ Colocar una acción de guardado junto al segmento o unificar el formulario con u
 
 El enlace del pie de página rotulado About Energix, o su traducción al español, apunta a #problem. Su destino explica el problema energético en lugar de presentar a la empresa o al equipo. La etiqueta promete un contenido diferente del que la persona encuentra.
 
-**Figura 127**  
+**Figura 154**  
 _Destino del enlace Acerca de Energix en la sección del problema energético_
 
 <p align="center">
@@ -7194,7 +7242,7 @@ Crear una sección sobre Energix y enlazarla desde el pie, o cambiar la etiqueta
 
 Cuando falla el inicio de la cámara, el lector QR muestra «No se pudo acceder a la cámara. Revisa los permisos.». No ofrece Reintentar ni instrucciones para recuperar el permiso desde ese mismo estado. La persona debe deducir que necesita cambiar los permisos y cerrar y volver a abrir el lector.
 
-**Figura 128**  
+**Figura 155**  
 _Lector QR con permiso de cámara denegado y sin acción de reintento_
 
 <p align="center">
@@ -7214,7 +7262,7 @@ Añadir Reintentar y una indicación breve para habilitar la cámara. Ofrecer co
 
 En Nuevo local y Agregar dispositivo, varios campos son obligatorios, pero sus etiquetas no incorporan una marca o leyenda que lo indique. Algunos campos sí se anuncian como opcionales, como Zona, mientras otros opcionales, como Ubicación, no lo indican. La persona descubre parte de los requisitos recién al intentar guardar.
 
-**Figura 129**  
+**Figura 156**  
 _Campos obligatorios y opcionales sin una identificación visual uniforme_
 
 <p align="center">
@@ -7367,7 +7415,7 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad:
 
 En la vista mejorada, el registro guiado de materiales tiene el botón "Confirmar movimiento en datos de ensayo", el registro rápido de asistencia tiene "Guardar asistencia de ensayo" y la guía de Proyectos invita a "Registrar un material en entorno de ensayo". Estos textos hacen creer al usuario que trabaja en un entorno de prueba, pero las acciones se guardan en los datos reales de la obra: al confirmar un uso de 1 kg de cemento aparece el mensaje "Movimiento de ensayo registrado. Se actualizará el stock." y el stock del inventario baja de 450 kg a 449 kg. Además, los registros se guardan con notas internas como "EC01 - escenario controlado" y "EC02 - jornada de ensayo", que luego aparecen en el historial de la obra. Un supervisor podría "probar" la función y alterar sin querer el inventario o la asistencia.
 
-**Figura 130**  
+**Figura 157**  
 _Movimiento "de ensayo" que descuenta el stock real del inventario_
 
 <p align="center">
@@ -7387,7 +7435,7 @@ Quitar la palabra "ensayo" de los botones y mensajes si la acción guarda datos 
 
 La variante B del experimento EC10 tiene sus textos nuevos escritos directamente en español ("Menos tiempo registrando, más tiempo supervisando.", "Soy supervisor", "Solicitar demostración"), pero el resto del Landing Page sigue el idioma activo, que por defecto es inglés. El resultado es una misma pantalla con el menú, la tarjeta "From the site to the office" y las secciones "Our proposal" o "Benefits" en inglés, junto a titulares y botones en español. El selector de idioma no corrige el problema, porque los textos de la variante B no están traducidos.
 
-**Figura 131**  
+**Figura 158**  
 _Variante B del Landing Page con titulares en español y el resto en inglés_
 
 <p align="center">
@@ -7407,7 +7455,7 @@ Pasar los textos de la variante B a los archivos de traducción (`i18n`) con su 
 
 Al ingresar a Asistencia, la lista se filtra automáticamente por la fecha de hoy (desde y hasta) y el botón "Filtrar" muestra un contador "2". Si todavía no se ha registrado asistencia en el día, la pantalla muestra "No hay resultados para tu búsqueda. Prueba con otras palabras o limpia los filtros", aunque el usuario no escribió ninguna búsqueda. El supervisor puede pensar que la obra no tiene registros de asistencia, cuando el historial existe y solo está oculto por un filtro que él no aplicó. El problema se mantiene en la vista mejorada, donde el mensaje aparece debajo del panel de registro rápido.
 
-**Figura 132**  
+**Figura 159**  
 _Pantalla de Asistencia vacía con dos filtros activos por defecto_
 
 <p align="center">
@@ -7427,7 +7475,7 @@ Mostrar el filtro activo sobre la lista (por ejemplo, un chip "Hoy" con opción 
 
 El supervisor de obra trabaja principalmente en campo, desde el celular. En la vista móvil, las tablas (Materiales, Tareas, Trabajadores, Incidentes) conservan todas sus columnas dentro de una tarjeta con desplazamiento horizontal. En Materiales, la tabla mide 908 px dentro de una pantalla de 390 px: solo se ven Material, Cantidad y Stock, y el precio, la unidad, el proveedor y el menú de acciones (⋮), que sirve para editar o registrar movimientos, quedan fuera de la pantalla sin ninguna indicación de que se puede deslizar.
 
-**Figura 133**  
+**Figura 160**  
 _Tabla de Materiales en vista móvil con columnas recortadas_
 
 <p align="center">
@@ -7447,7 +7495,7 @@ En pantallas angostas, mostrar cada registro como una tarjeta (nombre, stock con
 
 Al hacer clic en "¿Olvidaste tu contraseña?", la aplicación muestra: "Por seguridad, el restablecimiento lo realiza el equipo de soporte de ArquiTech. Escríbenos desde el correo registrado en tu cuenta". No indica a qué correo escribir, y el texto "¿Necesitas ayuda? Contacta a soporte" no es un enlace. Un usuario que olvidó su contraseña no tiene forma de recuperar el acceso desde la aplicación; el correo de contacto (contacto@arquitech.com) solo aparece en el pie del Landing Page.
 
-**Figura 134**  
+**Figura 161**  
 _Mensaje de recuperación de contraseña sin medio de contacto_
 
 <p align="center">
@@ -7465,9 +7513,9 @@ Incluir el correo de soporte como enlace `mailto:` con el asunto ya escrito ("Re
 
 **Problema:**
 
-Varias pantallas muestran al usuario el vocabulario interno del equipo. La página de mejoras se titula "Laboratorio experimental" y cada tarjeta lleva un código como "EC06 · Variante B" o "EC01 · Variante B". En el Landing Page, la variante B muestra sobre el titular la etiqueta "ARQUITECH - EC10 / VARIANTE B" (Figura 131), y el formulario de demostración termina con "Prototipo experimental. No guarda correos en un servidor ni confirma conversiones comerciales" (Figura 143). Para un supervisor o un posible cliente estos términos no tienen significado y transmiten que el producto no está terminado.
+Varias pantallas muestran al usuario el vocabulario interno del equipo. La página de mejoras se titula "Laboratorio experimental" y cada tarjeta lleva un código como "EC06 · Variante B" o "EC01 · Variante B". En el Landing Page, la variante B muestra sobre el titular la etiqueta "ARQUITECH - EC10 / VARIANTE B" (Figura 158), y el formulario de demostración termina con "Prototipo experimental. No guarda correos en un servidor ni confirma conversiones comerciales" (Figura 170). Para un supervisor o un posible cliente estos términos no tienen significado y transmiten que el producto no está terminado.
 
-**Figura 135**  
+**Figura 162**  
 _Página "Laboratorio experimental" con los códigos de cada experimento_
 
 <p align="center">
@@ -7487,14 +7535,14 @@ Reservar los códigos de experimento para el registro interno de métricas y mos
 
 Los paneles de la vista mejorada muestran algunos valores tal como los envía el Backend. En "Alertas priorizadas de obra" el tipo de incidente aparece como "MATERIAL_SHORTAGE", mientras que la tabla de abajo dice "Falta de material", y el contador dice "1 alertas críticas". En el "Reporte asistido" del supervisor y en el panel del contratante el estado de la obra aparece como "ACTIVE", aunque el resto de la aplicación usa "Activo". El reporte asistido también resume los movimientos como "Entradas y usos: 1 y 3", un formato difícil de leer.
 
-**Figura 136**  
+**Figura 163**  
 _Alerta crítica con el tipo de incidente "MATERIAL_SHORTAGE"_
 
 <p align="center">
   <img src="assets/chapter-6/auditoria-recibida/07-alertas-valor-tecnico.png" width="900" alt="Panel Alertas priorizadas de obra con el texto 1 alertas críticas y la alerta MATERIAL_SHORTAGE">
 </p>
 
-**Figura 137**  
+**Figura 164**  
 _Reporte asistido con el estado "ACTIVE" y el resumen "Entradas y usos: 1 y 3"_
 
 <p align="center">
@@ -7514,7 +7562,7 @@ Reutilizar en los paneles las mismas traducciones de estados y tipos que ya usan
 
 Cada panel de la vista mejorada se inserta encima del contenido del módulo y en varios casos repite lo que ya está en la página. En Movimientos de materiales, el "Historial con trazabilidad" muestra los mismos movimientos que la tabla de abajo, por lo que el usuario ve dos veces el historial completo. En Tareas, el panel vuelve a listar las cinco tareas de la tabla. En el Reporte semanal del contratante, el panel repite avance, tareas e incidencias y ofrece un botón "Abrir reporte semanal" estando ya en esa página; en el del supervisor conviven "Descargar PDF" y "Generar PDF con datos consolidados" sin explicar la diferencia. En Materiales, el registro guiado duplica los botones "Registrar entrada" y "Registrar salida". Como consecuencia, en una pantalla de 1366 × 800 px la tabla principal de Materiales o de Movimientos empieza por debajo del primer pantallazo.
 
-**Figura 138**  
+**Figura 165**  
 _Movimientos de materiales con el historial mostrado dos veces_
 
 <p align="center">
@@ -7534,7 +7582,7 @@ Integrar cada mejora en el componente que ya existe en lugar de agregar un bloqu
 
 Cuando el panel y la tabla muestran los mismos datos, no coinciden. En Tareas, "Vaciado de losa del piso 7" figura como "Pendiente" en el panel y como "En progreso" en la tabla, y la etiqueta de vencida aparece como "VENCIDA" en el panel y "Vencida" en la tabla. En Movimientos, el panel usa "Uso" y "Entrada de material" mientras que la tabla usa "Salida" y "Entrada". Las fechas también cambian de formato: el panel muestra "10/11/2026 09:00" y la tabla "10 Nov 2026, 09:00", y las cantidades aparecen como "1000 unidad" en el panel y "+1,000 unidad" en la tabla.
 
-**Figura 139**  
+**Figura 166**  
 _Misma tarea con estado "Pendiente" en el panel y "En progreso" en la tabla_
 
 <p align="center">
@@ -7554,7 +7602,7 @@ Usar en los paneles los mismos componentes de etiqueta de estado, los mismos té
 
 El panel "Registro rápido por jornada" lista a los 12 trabajadores de la obra, cada uno con un desplegable "Seleccionar", y el botón "Guardar asistencia de ensayo" se mantiene deshabilitado hasta que se elige el estado de todos. No hay opción para marcar a todos como presentes y luego cambiar solo las excepciones, ni para guardar los que ya se completaron. En una obra real con decenas de trabajadores, el registro "rápido" exige tantas selecciones como personas.
 
-**Figura 140**  
+**Figura 167**  
 _Registro rápido con un desplegable por trabajador y el botón de guardar deshabilitado_
 
 <p align="center">
@@ -7574,7 +7622,7 @@ Agregar la acción "Marcar todos como presentes" y dejar como presente el valor 
 
 En la pantalla de Proyectos, la vista mejorada muestra la guía "Primeros pasos para supervisor" con botones "Explorar" para revisar tareas, registrar un material y revisar alertas. Esos botones abren el módulo del primer proyecto que aparece en la tabla, pero la guía no dice qué proyecto es. Si el usuario ordena, filtra o cambia de página, el destino cambia sin aviso, y puede terminar registrando un material en una obra distinta de la que pensaba.
 
-**Figura 141**  
+**Figura 168**  
 _Guía "Primeros pasos" en la lista de proyectos, sin indicar la obra de destino_
 
 <p align="center">
@@ -7594,7 +7642,7 @@ Mostrar la guía dentro de un proyecto ya seleccionado o pedir que el usuario el
 
 El nuevo botón "Vista original / Vista mejorada" ocupa espacio en la barra superior. En una pantalla de 390 px de ancho, el avatar que abre el menú de usuario (perfil y cierre de sesión) queda cortado en el borde derecho y la página entera se puede desplazar hacia los lados: mide 412 px con la vista original y 421 px con la vista mejorada. En la vista mejorada, además, el botón "Confirmar movimiento en datos de ensayo" se sale de su tarjeta.
 
-**Figura 142**  
+**Figura 169**  
 _Barra superior en celular con el avatar cortado en el borde derecho_
 
 <p align="center">
@@ -7614,7 +7662,7 @@ En pantallas angostas, mostrar el selector de vista solo con su ícono o moverlo
 
 En la variante B, el formulario "Solicitar demostración" pide la organización y el correo, pero el botón "Preparar solicitud de demostración" no envía nada: abre un correo prellenado en la aplicación de correo del dispositivo. Muchas personas usan el correo desde el navegador (Gmail u Outlook web) y no tienen una aplicación de correo configurada; en ese caso el clic no produce ningún resultado visible. El formulario no avisa antes de esta dependencia y la nota al pie habla de "prototipo experimental".
 
-**Figura 143**  
+**Figura 170**  
 _Formulario de solicitud de demostración de la variante B_
 
 <p align="center">
@@ -7634,7 +7682,7 @@ Enviar la solicitud a un servicio propio o de formularios y confirmar en pantall
 
 El segmento objetivo son supervisores de obra y contratantes de empresas en Lima, pero el Landing Page carga siempre en inglés ("Your site, organized. Your decisions, clear."), aunque el navegador esté configurado en español. El visitante tiene que encontrar el selector de idioma para leer la propuesta en su idioma. La aplicación web, en cambio, sí respeta el idioma del navegador, por lo que el paso del Landing Page a la aplicación se siente inconsistente.
 
-**Figura 144**  
+**Figura 171**  
 _Landing Page cargado en inglés con el navegador configurado en español_
 
 <p align="center">
@@ -7652,7 +7700,7 @@ Usar el español como idioma por defecto, o detectar el idioma del navegador en 
 
 **Problema:**
 
-En el encabezado del Landing Page (Figura 144), el botón que lleva a la aplicación web tiene como texto solo "ArquiTech →", igual que el logo de al lado. Un visitante no sabe si ese botón inicia sesión, abre una demo o vuelve al inicio de la página, y un usuario que ya tiene cuenta no encuentra una opción explícita de "Iniciar sesión".
+En el encabezado del Landing Page (Figura 171), el botón que lleva a la aplicación web tiene como texto solo "ArquiTech →", igual que el logo de al lado. Un visitante no sabe si ese botón inicia sesión, abre una demo o vuelve al inicio de la página, y un usuario que ya tiene cuenta no encuentra una opción explícita de "Iniciar sesión".
 
 **Recomendación:**
 
@@ -7667,7 +7715,7 @@ Cambiar el texto a la acción que realiza, por ejemplo "Iniciar sesión" o "Ingr
 
 En un ancho de 390 px, el bloque del video del equipo y la tarjeta de Misión y Visión miden más que la pantalla (522 px). Toda la página puede desplazarse hacia los lados y los textos de Misión y Visión quedan cortados en el borde derecho. Ocurre tanto en la versión pública como en las dos variantes del experimento EC10.
 
-**Figura 145**  
+**Figura 172**  
 _Sección Nosotros en vista móvil con el texto cortado a la derecha_
 
 <p align="center">
@@ -7687,14 +7735,14 @@ Apilar el video y la tarjeta en una sola columna con `width: 100%` y `min-width:
 
 En los formularios de registro, como "Registrar material" o "Registrar proyecto", ningún campo indica si es obligatorio u opcional. El usuario lo descubre al presionar el botón de guardar, cuando aparecen varios mensajes "Este campo es obligatorio" a la vez (en Registrar material: Material, Unidad de medida, Proveedor y RUC del proveedor).
 
-**Figura 146**  
+**Figura 173**  
 _Formulario Registrar material antes de enviar, sin marcas de campos obligatorios_
 
 <p align="center">
   <img src="assets/chapter-6/auditoria-recibida/17-registrar-material.png" width="900" alt="Diálogo Registrar material con todos los campos sin indicación de obligatorio">
 </p>
 
-**Figura 147**  
+**Figura 174**  
 _El mismo formulario después de intentar guardarlo vacío_
 
 <p align="center">
@@ -7712,7 +7760,7 @@ Marcar los campos obligatorios con un asterisco y una leyenda "\* Campo obligato
 
 **Problema:**
 
-En "Registrar material" (Figura 146), la unidad de medida se escribe a mano, sin opciones ni ejemplo. Esto permite registrar el mismo material con unidades escritas de formas distintas ("kg", "Kg", "kilos"; "unidad", "und") y dificulta comparar cantidades y leer los reportes. En el inventario evaluado ya conviven abreviaturas y palabras completas: "kg", "m³", "varilla", "unidad" y "litro".
+En "Registrar material" (Figura 173), la unidad de medida se escribe a mano, sin opciones ni ejemplo. Esto permite registrar el mismo material con unidades escritas de formas distintas ("kg", "Kg", "kilos"; "unidad", "und") y dificulta comparar cantidades y leer los reportes. En el inventario evaluado ya conviven abreviaturas y palabras completas: "kg", "m³", "varilla", "unidad" y "litro".
 
 **Recomendación:**
 
@@ -7725,7 +7773,7 @@ Reemplazar el campo por una lista desplegable con las unidades más usadas en ob
 
 **Problema:**
 
-El campo de contraseña del inicio de sesión muestra "••••••••" como placeholder (Figura 134), por lo que parece que ya tiene una contraseña guardada. En "Registrar material" (Figura 146), el placeholder del RUC del proveedor es "20100124567", un RUC completo de 11 dígitos con un color muy parecido al de un valor ingresado. En ambos casos el usuario puede creer que el campo ya está lleno.
+El campo de contraseña del inicio de sesión muestra "••••••••" como placeholder (Figura 161), por lo que parece que ya tiene una contraseña guardada. En "Registrar material" (Figura 173), el placeholder del RUC del proveedor es "20100124567", un RUC completo de 11 dígitos con un color muy parecido al de un valor ingresado. En ambos casos el usuario puede creer que el campo ya está lleno.
 
 **Recomendación:**
 
@@ -7740,7 +7788,7 @@ Dejar vacío el placeholder de la contraseña y, para el RUC, usar una indicaci�
 
 La tabla de Materiales muestra dos columnas numéricas, "Cantidad" y "Stock" (por ejemplo, Cemento: 500 y 450), sin explicar que "Cantidad" es el total ingresado y "Stock" lo disponible. "Cantidad" se muestra en negrita, por lo que destaca más que el stock disponible, que es el dato que el supervisor necesita para decidir si debe reabastecer. La columna "Fecha" tampoco aclara a qué se refiere: el cemento ingresó el 01 Oct 2026, pero la tabla muestra 10 Nov 2026, la fecha de su último movimiento.
 
-**Figura 148**  
+**Figura 175**  
 _Tabla de inventario con las columnas Cantidad, Stock y Fecha_
 
 <p align="center">
@@ -7760,7 +7808,7 @@ Renombrar las columnas como "Ingresado", "Disponible" y "Último movimiento" (o 
 
 En la sección "Nosotros", junto a la Misión y la Visión, aparece un bloque oscuro con un ícono de reproducción y el texto "Space for the team video" ("Espacio para el video del equipo" en español). El ícono parece un botón, pero no reproduce nada, y el bloque ocupa más de la mitad del ancho de la sección. Transmite la idea de que el sitio no está terminado.
 
-**Figura 149**  
+**Figura 176**  
 _Bloque provisional del video del equipo en la sección Nosotros_
 
 <p align="center">
@@ -7780,7 +7828,7 @@ Incrustar el video About-the-Team cuando esté publicado o, mientras tanto, ocul
 
 En el pie del Landing Page, los íconos de Facebook, Instagram y X enlazan a `https://www.facebook.com/`, `https://www.instagram.com/` y `https://x.com/`, no a perfiles de ArquiTech. Un posible cliente que quiera conocer más de la empresa termina en la página de inicio de la red social, lo que le resta credibilidad al producto. Además, el ícono de X todavía es el pájaro de Twitter.
 
-**Figura 150**  
+**Figura 177**  
 _Pie del Landing Page con los íconos de redes sociales_
 
 <p align="center">
@@ -7800,7 +7848,7 @@ Enlazar los perfiles reales de ArquiTech o retirar los íconos de las redes en l
 
 En el Reporte semanal aparecen textos como "1 entradas · 3 salidas" y "1 material(es) por debajo del stock mínimo", y en las alertas "1 alertas críticas", que no adaptan el plural a la cantidad. Además, el menú y el módulo se llaman "Incidentes", pero el reporte usa "Incidencias registradas" y "2 sin resolver en la obra", y dentro de la misma tabla del reporte vuelve a aparecer "Tipo de incidente".
 
-**Figura 151**  
+**Figura 178**  
 _Reporte semanal con plurales sin resolver y el término "Incidencias"_
 
 <p align="center">
@@ -7818,7 +7866,7 @@ Usar la pluralización de ngx-translate (formato ICU) para mostrar "1 entrada" y
 
 **Problema:**
 
-En toda la aplicación la acción principal se muestra con un botón naranja rojizo ("Añadir material", "Nuevo proyecto", "Iniciar sesión" y los botones de la vista mejorada). En los diálogos de registro, en cambio, el botón de confirmar es verde (Figura 146). Ese verde no se usa en ningún otro botón de acción, así que la misma jerarquía de acción se ve distinta según la pantalla.
+En toda la aplicación la acción principal se muestra con un botón naranja rojizo ("Añadir material", "Nuevo proyecto", "Iniciar sesión" y los botones de la vista mejorada). En los diálogos de registro, en cambio, el botón de confirmar es verde (Figura 173). Ese verde no se usa en ningún otro botón de acción, así que la misma jerarquía de acción se ve distinta según la pantalla.
 
 **Recomendación:**
 
@@ -7833,7 +7881,7 @@ Usar el mismo estilo de botón primario en las páginas y en los diálogos, y re
 
 Al iniciar sesión, la barra lateral muestra Materiales, Trabajadores, Asistencia y los demás módulos en gris, sin poder abrirlos. La explicación ("Selecciona un proyecto para ver sus módulos") aparece en letra pequeña al pie del menú, lejos de los elementos deshabilitados, y la forma de entrar a un proyecto es el enlace "Ver detalles". Un usuario nuevo puede pensar que no tiene permisos para esos módulos.
 
-**Figura 152**  
+**Figura 179**  
 _Lista de proyectos con los módulos del menú atenuados_
 
 <p align="center">
@@ -7851,7 +7899,7 @@ Ubicar el mensaje justo debajo de "Proyectos", en el lugar de los módulos, o mo
 
 **Problema:**
 
-En Materiales, la pestaña que no está seleccionada ("Movimientos" cuando se está en Inventario, e "Inventario" cuando se está en Movimientos) usa texto gris #746f6a sobre fondo #f1ede8, con una relación de contraste de 4,26:1. Es menor que el mínimo de 4,5:1 que exige WCAG 2.1 AA para texto de ese tamaño (13 px), por lo que puede leerse con dificultad en pantallas con mucho brillo, como en obra, o por personas con baja visión (Figura 148).
+En Materiales, la pestaña que no está seleccionada ("Movimientos" cuando se está en Inventario, e "Inventario" cuando se está en Movimientos) usa texto gris #746f6a sobre fondo #f1ede8, con una relación de contraste de 4,26:1. Es menor que el mínimo de 4,5:1 que exige WCAG 2.1 AA para texto de ese tamaño (13 px), por lo que puede leerse con dificultad en pantallas con mucho brillo, como en obra, o por personas con baja visión (Figura 175).
 
 **Recomendación:**
 
@@ -7972,13 +8020,13 @@ La Landing Page cuenta con un registro exitoso de `pages build and deployment` a
 | Producto        | Pipeline de producción o alcance actual                                                                                                                                                                                                                                       | Evidencia                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            | Limitación                                                                                                                                                                                                     |
 | --------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Frontend Web    | El mismo merge/push a `main` activa de forma independiente dos procesos: **GitHub Actions CI:** `npm ci` → `npm run test:ci` → `npm run build` → SUCCESS; y **Cloudflare Workers Builds:** Cloudflare build → `npm run build` → `npx wrangler deploy` → producción → SUCCESS. | El merge [`ef847113`](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendWeb/commit/ef8471131bac9e345e524dba1bd461519e779d92) obtuvo [CI exitoso](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendWeb/actions/runs/37579481119) y [Workers Build exitoso](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendWeb/runs/112656056986). La aplicación se encuentra publicada en [`arquitech-frontendweb.echacaliazaminaya.workers.dev`](https://arquitech-frontendweb.echacaliazaminaya.workers.dev). | GitHub Actions y Cloudflare Workers Builds fueron exitosos para el mismo commit, pero no existe una dependencia secuencial entre ambos; tampoco se extiende esta evidencia a una política general de rollback. |
-| Backend         | Cambio en `main` del repositorio conectado → Railway auto deploy.                                                                                                                                                                                                             | La configuración de Railway identifica `main` como production branch y muestra el auto deploy activado; las Figuras 111 y 112 conservan esta evidencia.                                                                                                                                                                                                                                                                                                                                                                                                              | **Wait for CI está desactivado**: Railway no espera obligatoriamente a que GitHub Actions finalice correctamente antes de desplegar. No se acredita un staging separado.                                       |
+| Backend         | Cambio en `main` del repositorio conectado → Railway auto deploy.                                                                                                                                                                                                             | La configuración de Railway identifica `main` como production branch y muestra el auto deploy activado; las Figuras 180 y 181 conservan esta evidencia.                                                                                                                                                                                                                                                                                                                                                                                                              | **Wait for CI está desactivado**: Railway no espera obligatoriamente a que GitHub Actions finalice correctamente antes de desplegar. No se acredita un staging separado.                                       |
 | Landing Page    | Publicación existente mediante `pages build and deployment` desde `gh-pages`.                                                                                                                                                                                                 | [Corrida 37563025123](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-LandingPage/actions/runs/37563025123), asociada al commit [`0b2b0fff`](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-LandingPage/commit/0b2b0fff).                                                                                                                                                                                                                                                                                                           | No existe evidencia de que el workflow CI añadido recientemente despliegue en GitHub Pages ni de que el merge `844f69d4` haya sido publicado por ese workflow.                                                 |
 | Frontend Mobile | El pipeline termina en la validación y compilación mediante `flutter build apk --debug`.                                                                                                                                                                                      | [Corrida 37578152804](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendMobile/actions/runs/37578152804).                                                                                                                                                                                                                                                                                                                                                                                                                                      | Continuous Deployment no implementado: no se publica el APK como artifact persistente ni se despliega a una tienda.                                                                                            |
 
 No se dispone de una ejecución documentada de rollback para ninguno de los deployments descritos; por ello, no se presenta una estrategia de recuperación como si hubiera sido ejecutada.
 
-**Figura 114**  
+**Figura 180**  
 _Origen, rama y configuración de despliegue del backend en Railway_
 
 <p align="center">
@@ -7987,7 +8035,7 @@ _Origen, rama y configuración de despliegue del backend en Railway_
 
 _Nota._ Captura de configuración incluida en las evidencias del backend. Muestra el despliegue automático activado y la espera por CI desactivada; no identifica el commit de una publicación concreta.
 
-**Figura 115**  
+**Figura 181**  
 _Servicios de producción y configuración de variables del backend_
 
 <p align="center">
@@ -8030,7 +8078,7 @@ La comprobación del endpoint desplegado `https://arquitech-backend-production-c
 </p>
 </div>
 
-**Figura 116**<br>
+**Figura 182**<br>
 _Verificación del endpoint de salud del Backend mediante Spring Boot Actuator._
 
 <p align="center">
@@ -8092,7 +8140,7 @@ El flujo implementado es `schedule/workflow_dispatch → pruebas de la lógica �
 | [GitHub Actions, ejecución 42637273053](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/Arquitech-Backend/actions/runs/42637273053) | `Success`; rama `main`, commit `d29eaa4`, evento `workflow_dispatch`; job `Check public availability` aprobado | Backend HTTP 200 en 159 ms; Frontend Web HTTP 200 en 92 ms; Landing Page HTTP 200 en 138 ms; un intento por destino y acción de incidentes `noop`.                             |
 | Monitor local contra Web y Landing, un intento y timeout de 10000 ms                                                                      | Web HTTP 200 en 637 ms; Landing HTTP 200 en 341 ms                                                             | Observación puntual de disponibilidad pública a las `2026-11-09T07:32:03.204Z`; no constituye histórico ni SLA.                                                                |
 
-**Figura 117**<br>
+**Figura 183**<br>
 _Ejecución satisfactoria del pipeline de monitoreo continuo de ArquiTech._
 
 <p align="center">
@@ -9440,9 +9488,9 @@ Las historias y prioridades se toman de [8.3.1](#831-to-be-user-stories) y [8.3.
 
 ##### Evidencia visual del To-Be Product Backlog
 
-Las figuras 118 y 119 muestran dos posiciones de desplazamiento del mismo tablero [ArquiTech - Product Backlog](https://trello.com/b/jDELnGdF/arquitech-product-backlog) en Trello. Se observan las **diez tarjetas To-Be** de la lista «To-Be Product Backlog - AV2» y, en paralelo, las columnas Sprint Backlog, To Do, Doing y Done con historias HU originales. Por ello, las capturas avalan la **organización del Product Backlog To-Be**, pero no demuestran que todas esas historias se hayan incluido en un Sprint formal o que se hayan asignado horas y responsables.
+Las figuras 184 y 185 muestran dos posiciones de desplazamiento del mismo tablero [ArquiTech - Product Backlog](https://trello.com/b/jDELnGdF/arquitech-product-backlog) en Trello. Se observan las **diez tarjetas To-Be** de la lista «To-Be Product Backlog - AV2» y, en paralelo, las columnas Sprint Backlog, To Do, Doing y Done con historias HU originales. Por ello, las capturas avalan la **organización del Product Backlog To-Be**, pero no demuestran que todas esas historias se hayan incluido en un Sprint formal o que se hayan asignado horas y responsables.
 
-**Figura 118**  
+**Figura 184**  
 _Vista superior del tablero Trello con diez historias To-Be y columnas operativas._
 
 <p align="center">
@@ -9451,7 +9499,7 @@ _Vista superior del tablero Trello con diez historias To-Be y columnas operativa
 
 _Nota._ Trello, ArquiTech - Product Backlog: primeras tarjetas de To-Be Product Backlog - AV2 y listas Sprint Backlog, To Do, Doing y Done; no certifica por sí sola el Sprint Planning.
 
-**Figura 119**  
+**Figura 185**  
 _Vista inferior de las historias To-Be en Trello._
 
 <p align="center">
@@ -9554,17 +9602,17 @@ El [Backend de ArquiTech](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/
 
 | Historias y experimentos                                  | Recurso REST disponible                                                 | Evidencia de integración o contrato                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 | --------------------------------------------------------- | ----------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **TB-HU01 / EC01 – Registro de materiales**               | `POST /api/v1/materials/{id}/entry` y `POST /api/v1/materials/{id}/use` | Swagger documenta las operaciones para registrar entradas y consumos; las figuras 125 y 126 muestran sus parámetros, cuerpo JSON y respuesta esperada 201.                                                                                                                                                                                                                                                                                                                                                       |
-| **TB-HU05 / EC05 – Historial**                            | `GET /api/v1/materials/project/{projectId}/history`                     | La figura 127 expone el contrato de lectura del historial y sus campos de auditoría (responsable y fecha).                                                                                                                                                                                                                                                                                                                                                                                                       |
+| **TB-HU01 / EC01 – Registro de materiales**               | `POST /api/v1/materials/{id}/entry` y `POST /api/v1/materials/{id}/use` | Swagger documenta las operaciones para registrar entradas y consumos; las figuras 191 y 192 muestran sus parámetros, cuerpo JSON y respuesta esperada 201.                                                                                                                                                                                                                                                                                                                                                       |
+| **TB-HU05 / EC05 – Historial**                            | `GET /api/v1/materials/project/{projectId}/history`                     | La figura 193 expone el contrato de lectura del historial y sus campos de auditoría (responsable y fecha).                                                                                                                                                                                                                                                                                                                                                                                                       |
 | **TB-HU08 / EC08 – Sincronización Mobile, ensayo previo** | Escritura de usos de materiales y consulta de movimientos posteriores   | El [informe de EC08](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendMobile/blob/59cd61e2f90d2243f31765ad3ee3cfa345c66579/docs/ec08-mobile-evaluation.md) y la [conciliación de registros](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendMobile/blob/59cd61e2f90d2243f31765ad3ee3cfa345c66579/docs/evidence/ec08/reconciliation/b-reconciliation.csv) acreditan **40/40 borradores B** sincronizados íntegros, sin duplicados, contra una API y MySQL locales. |
 
 **Contrato posterior de EC08:** el [Backend PR #8](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/Arquitech-Backend/pull/8), fusionado en `main`, incorporó `GET /api/v1/materials/offline-sync-capabilities` y `POST /api/v1/materials/{id}/offline-movements`. El identificador `clientRequestId` permite reconocer un movimiento repetido (HTTP 200), registrar uno nuevo (201) y rechazar el reuso conflictivo (409), con control transaccional del inventario. El cambio incluye una migración SQL que debe revisarse antes de su uso en la base de datos del despliegue.
 
 ##### Pruebas automatizadas y pipeline de integración
 
-Las figuras 120–123 permiten inspeccionar el [historial de GitHub Actions del Backend](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/Arquitech-Backend/actions). Se distinguen ejecuciones exitosas y fallidas del monitoreo continuo, y una ejecución específica de **CI #5** en `main` (commit `d29eaa4`). En esa ejecución, **Test and package** concluyó con **Success** en 41 segundos. El paso **Verify** utilizó `./mvnw clean verify` y demoró 28 segundos. El resumen de Maven informa **nueve pruebas, cero fallos, cero errores, cero omitidas** y `BUILD SUCCESS`, además del empaquetado JAR. Este resultado corresponde al commit histórico del Backend que aparece en las capturas, **no** a la revisión posterior EC08. En una ejecución posterior [Backend CI](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/Arquitech-Backend/actions/runs/42895215056) aprobó `mvn clean verify` con **10/10 pruebas**, incluidas operaciones idempotentes, entradas, usos y permisos. Los PR de Web, Mobile y Landing ya fueron fusionados en `main`; la publicación efectiva del backend actualizado en Railway se valida independientemente.
+Las figuras 186–189 permiten inspeccionar el [historial de GitHub Actions del Backend](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/Arquitech-Backend/actions). Se distinguen ejecuciones exitosas y fallidas del monitoreo continuo, y una ejecución específica de **CI #5** en `main` (commit `d29eaa4`). En esa ejecución, **Test and package** concluyó con **Success** en 41 segundos. El paso **Verify** utilizó `./mvnw clean verify` y demoró 28 segundos. El resumen de Maven informa **nueve pruebas, cero fallos, cero errores, cero omitidas** y `BUILD SUCCESS`, además del empaquetado JAR. Este resultado corresponde al commit histórico del Backend que aparece en las capturas, **no** a la revisión posterior EC08. En una ejecución posterior [Backend CI](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/Arquitech-Backend/actions/runs/42895215056) aprobó `mvn clean verify` con **10/10 pruebas**, incluidas operaciones idempotentes, entradas, usos y permisos. Los PR de Web, Mobile y Landing ya fueron fusionados en `main`; la publicación efectiva del backend actualizado en Railway se valida independientemente.
 
-**Figura 120**  
+**Figura 186**  
 _Ejecuciones de CI y monitoreo continuo del Backend en GitHub Actions._
 
 <p align="center">
@@ -9573,7 +9621,7 @@ _Ejecuciones de CI y monitoreo continuo del Backend en GitHub Actions._
 
 _Nota._ Historial de GitHub Actions con ejecuciones satisfactorias y otras fallidas. No se interpreta como un historial sin fallos.
 
-**Figura 121**  
+**Figura 187**  
 _Resumen del pipeline CI #5 del Backend aprobado._
 
 <p align="center">
@@ -9582,7 +9630,7 @@ _Resumen del pipeline CI #5 del Backend aprobado._
 
 _Nota._ GitHub Actions, CI #5 en main, commit d29eaa4, job Test and package con estado Success y duración total de 41 segundos.
 
-**Figura 122**  
+**Figura 188**  
 _Desglose de los pasos del job Test and package._
 
 <p align="center">
@@ -9591,7 +9639,7 @@ _Desglose de los pasos del job Test and package._
 
 _Nota._ GitHub Actions, workflow CI #5: paso Verify completado satisfactoriamente en 28 segundos. El recuento de pruebas figura en la siguiente captura.
 
-**Figura 123**  
+**Figura 189**  
 _Resultados de Maven: nueve pruebas aprobadas y compilación satisfactoria._
 
 <p align="center">
@@ -9602,9 +9650,9 @@ _Nota._ Salida Maven de ./mvnw clean verify: Tests run 9, Failures 0, Errors 0, 
 
 ##### Documentación Swagger de la API
 
-El Backend se inició localmente en `localhost:8080` y su Swagger UI presentó **ArquiTech REST API** con **OpenAPI 3.1**. Las figuras 124–127 registran la documentación disponible y los tres contratos REST más relacionados con EC01, EC05 y EC08. Los bloques `Example Value` y los códigos de respuesta de Swagger representan **esquemas y resultados definidos en el contrato**; estas capturas no muestran una invocación real de `Try it out`. Los intercambios y resultados de persistencia se sustentan de forma independiente en el informe y los registros de EC08.
+El Backend se inició localmente en `localhost:8080` y su Swagger UI presentó **ArquiTech REST API** con **OpenAPI 3.1**. Las figuras 190–193 registran la documentación disponible y los tres contratos REST más relacionados con EC01, EC05 y EC08. Los bloques `Example Value` y los códigos de respuesta de Swagger representan **esquemas y resultados definidos en el contrato**; estas capturas no muestran una invocación real de `Try it out`. Los intercambios y resultados de persistencia se sustentan de forma independiente en el informe y los registros de EC08.
 
-**Figura 124**  
+**Figura 190**  
 _Documentación Swagger de ArquiTech REST API en ejecución local._
 
 <p align="center">
@@ -9613,7 +9661,7 @@ _Documentación Swagger de ArquiTech REST API en ejecución local._
 
 _Nota._ Swagger UI en localhost:8080 con OpenAPI 3.1 y endpoints Workers y Tasks; muestra contratos, no ejecución HTTP de estos endpoints.
 
-**Figura 125**  
+**Figura 191**  
 _Contrato REST para registrar una entrada de materiales._
 
 <p align="center">
@@ -9622,7 +9670,7 @@ _Contrato REST para registrar una entrada de materiales._
 
 _Nota._ Swagger POST /api/v1/materials/{id}/entry con parámetro, cuerpo JSON y respuesta 201 documentada, no respuesta real de Try it out.
 
-**Figura 126**  
+**Figura 192**  
 _Contrato REST para registrar un uso de materiales._
 
 <p align="center">
@@ -9631,7 +9679,7 @@ _Contrato REST para registrar un uso de materiales._
 
 _Nota._ Swagger POST /api/v1/materials/{id}/use; cuerpo JSON y respuesta 201 documentada, sin ejecución HTTP en la captura.
 
-**Figura 127**  
+**Figura 193**  
 _Contrato REST para consultar el historial de movimientos por proyecto._
 
 <p align="center">
@@ -9646,9 +9694,9 @@ Para describir las contribuciones se utilizaron dos fuentes complementarias: los
 
 ##### Distribución de commits en Frontend Web
 
-La figura 128 muestra el gráfico de contribuciones de Frontend Web con el filtro **Last 3 months** y tipo **Commits**. En esa vista, GitHub presenta a **educmz con 5 commits, BradenGarcia con 3, BrooklynKarmis con 2 y Vmer140 con 2**. La propia interfaz aclara que las contribuciones por semana corresponden a **`main`, excluyendo commits de fusión**. No debe compararse este conteo directamente con los cambios de los PR que se fusionaron después de la captura.
+La figura 194 muestra el gráfico de contribuciones de Frontend Web con el filtro **Last 3 months** y tipo **Commits**. En esa vista, GitHub presenta a **educmz con 5 commits, BradenGarcia con 3, BrooklynKarmis con 2 y Vmer140 con 2**. La propia interfaz aclara que las contribuciones por semana corresponden a **`main`, excluyendo commits de fusión**. No debe compararse este conteo directamente con los cambios de los PR que se fusionaron después de la captura.
 
-**Figura 128**  
+**Figura 194**  
 _Distribución de las contribuciones del repositorio Frontend Web._
 
 <p align="center">
@@ -9666,7 +9714,7 @@ _Nota._ GitHub Insights Contributors para main durante tres meses, sin merge com
 | [Landing Page #11](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-LandingPage/pull/11)     | **9 commits**, **123 archivos modificados**, rama experimental, **Draft**.                                    | EC10: variantes, pruebas, defectos y correcciones.                                                                                  |
 | [Informe #34](https://github.com/educmz/ArquiTech-Report/pull/34)                                           | **4 commits** y **1 archivo modificado** en la captura, rama `experiments/ab-evidence-2026-11-09`, **Draft**. | Documentación de 8.3.3 y 8.4.1. Tras incorporar imágenes, el número del PR se incrementó: la figura conserva el estado histórico.   |
 
-**Figura 129**  
+**Figura 195**  
 _Historial de cambios del pull request experimental Frontend Web #8._
 
 <p align="center">
@@ -9675,7 +9723,7 @@ _Historial de cambios del pull request experimental Frontend Web #8._
 
 _Nota._ PR Web #8: 39 commits, 75 archivos modificados, rama experiment/ab-evaluation y estado Draft.
 
-**Figura 130**  
+**Figura 196**  
 _Historial de implementación y pruebas del pull request Mobile #8._
 
 <p align="center">
@@ -9684,7 +9732,7 @@ _Historial de implementación y pruebas del pull request Mobile #8._
 
 _Nota._ PR Mobile #8: 12 commits, 38 archivos modificados y estado Draft; se observan fallos de comprobación en commits intermedios.
 
-**Figura 131**  
+**Figura 197**  
 _Historial de cambios y corrección del pull request Landing #11._
 
 <p align="center">
@@ -9693,7 +9741,7 @@ _Historial de cambios y corrección del pull request Landing #11._
 
 _Nota._ PR Landing #11: 9 commits, 123 archivos modificados, rama experimental y estado Draft.
 
-**Figura 132**  
+**Figura 198**  
 _Historial de la documentación del capítulo VIII en el informe._
 
 <p align="center">
@@ -9702,7 +9750,7 @@ _Historial de la documentación del capítulo VIII en el informe._
 
 _Nota._ PR Report #34: cuatro commits y un archivo modificado en el momento de la captura; el número aumentó al subir las imágenes.
 
-**Estado posterior a las capturas:** GitHub confirma que [Web #8](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendWeb/pull/8), [Mobile #8](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendMobile/pull/8), [Landing #11](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-LandingPage/pull/11) y [Backend #8](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/Arquitech-Backend/pull/8) están **fusionados en `main`**. Las cifras de commits, archivos y estados `Draft` de las figuras 129–132 son instantáneas históricas y se conservan sin corregirlas retroactivamente.
+**Estado posterior a las capturas:** GitHub confirma que [Web #8](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendWeb/pull/8), [Mobile #8](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendMobile/pull/8), [Landing #11](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-LandingPage/pull/11) y [Backend #8](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/Arquitech-Backend/pull/8) están **fusionados en `main`**. Las cifras de commits, archivos y estados `Draft` de las figuras 195–198 son instantáneas históricas y se conservan sin corregirlas retroactivamente.
 
 **Interpretación:** los PR registran cambios versionados y contribuciones visibles, mientras la gráfica de Contributors documenta parte del historial de `main`. En conjunto muestran trabajo y seguimiento técnico, **pero no acreditan una revisión formal por otros integrantes ni el cierre de todos los sprints**. Si el equipo dispone de actas, revisiones, responsables y estimaciones de Sprint, deben anexarse a la evidencia correspondiente sin inventar actividades no documentadas.
 
@@ -9955,7 +10003,7 @@ El Learning Workflow describe cómo fluye el conocimiento en el ciclo Experiment
 | Insumos revisados | Sección 8.4.1 integrada mediante el [Pull Request #34](https://github.com/educmz/ArquiTech-Report/pull/34) y sección 8.4.2 con el Question Backlog re-puntuado.                     |
 | Agenda            | 1) Resultados por experimento y limitaciones de la evidencia. 2) Nuevas prioridades del Question Backlog. 3) Decisiones por experimento. 4) Responsables de la siguiente iteración. |
 
-**Figura 133**  
+**Figura 199**  
 _Sesión de Shareback del equipo ArquiTech en Google Meet_
 
 <p align="center">
