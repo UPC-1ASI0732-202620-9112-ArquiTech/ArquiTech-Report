@@ -64,6 +64,8 @@ Quispe Barzola, Fabricio Fabian - U202320442
 |   3.9   | 11/11/2026 | Garcia Cerpa, Braden Raid         | <span style="display:block; text-align:justify;">Actualización del Registro de Versiones y del Student Outcome con la entrega AV2 e incorporación del Project Report Collaboration Insights de la entrega AV2.</span> |</span>                                                                                                                                       |
 |   3.10  | 11/11/2026 | Garcia Cerpa, Braden Raid         | <span style="display:block; text-align:justify;">Consolidación final del informe para la entrega AV2: numeración secuencial de las figuras y de sus referencias, incorporación de las etiquetas de figura faltantes, actualización de la tabla de contenido con Part I, Part II y las subsecciones 8.3.3.1–8.3.3.6 y 8.4.1.1–8.4.1.5, eliminación de un encabezado duplicado en 2.3.5 y actualización de las evidencias de 5.2.2 Implemented Landing Page Evidence y 5.2.7 RESTful API documentation con capturas de la Landing Page y de Swagger UI en producción.</span> |
 |   3.11  | 11/11/2026 | Garcia Cerpa, Braden Raid         | <span style="display:block; text-align:justify;">Actualización de la Bibliografía con las fuentes empleadas en los capítulos I, VI y VIII: Experiment-Driven Product Development, heurísticas de usabilidad, principios de diseño inclusivo y de arquitectura de información, WCAG 2.1 y métodos estadísticos de Wilson y Fisher.</span> |
+|   3.12  | 11/11/2026 | Garcia Cerpa, Braden Raid         | <span style="display:block; text-align:justify;">Actualización de las Conclusiones y recomendaciones con los resultados del AV2: verificación estática, auditorías de experiencia de usuario, monitoreo continuo y Experiment-Driven Development, y corrección del formato de sus párrafos.</span> |
+
 # Project Report Collaboration Insights
 
 <p align="justify">
@@ -10045,26 +10047,82 @@ La sesión permitió que todo el equipo compartiera una misma interpretación de
 
 ## Conclusiones y recomendaciones
 
-A partir de la investigación, especificación, implementación y verificación desarrolladas para ArquiTech, se concluye que el Problem Statement mantiene correspondencia con las dificultades identificadas en los segmentos objetivo. Los supervisores requieren centralizar información relacionada con proyectos, materiales, trabajadores, asistencia, tareas, maquinaria e incidencias, mientras que los contratantes necesitan mayor visibilidad sobre el estado de sus obras y acceso oportuno a información que facilite el seguimiento y la toma de decisiones. Estos hallazgos respaldan la necesidad de una solución que reduzca la dependencia de registros dispersos y mejore la trazabilidad de la información.
-Las entrevistas realizadas aportaron evidencia a favor de assumptions relacionadas con la necesidad de información actualizada, centralización de registros, seguimiento del avance y mayor transparencia entre los actores involucrados en una obra. Asimismo, se identificó que la utilidad de la solución depende no solo de incorporar funcionalidades, sino también de mantener una experiencia clara, accesible y coherente con las actividades habituales de supervisores y contratantes. No obstante, las assumptions relacionadas con adopción recurrente, reducción efectiva del esfuerzo operativo y disposición de pago requieren todavía validaciones específicas mediante experimentos con usuarios.
-La evolución de los requisitos permitió mantener una relación más precisa entre las necesidades detectadas y las funcionalidades de ArquiTech. La actualización de User Stories, Product Backlog y artefactos To-Be incorporó procesos que actualmente forman parte del producto, como la gestión de asistencia, materiales, trabajadores, tareas, maquinaria, incidencias y eliminación controlada de proyectos. Esta alineación mejora la trazabilidad entre investigación, requisitos, diseño e implementación y reduce inconsistencias entre lo documentado y el comportamiento real de la plataforma.
-La implementación de la solución permitió consolidar componentes funcionales para Web, Mobile, Backend y Landing Page. La integración entre estos productos permitió comprobar contratos de la API, mecanismos de autenticación y autorización, restricciones según rol y reglas propias del dominio. Sin embargo, la existencia de una funcionalidad implementada no constituye por sí sola evidencia de que las Hypothesis Statements del Lean UX Process hayan alcanzado sus criterios de éxito; estas deberán contrastarse posteriormente con métricas y resultados obtenidos a partir del comportamiento real de los usuarios.
-El proceso de Product Verification & Validation fortaleció la evidencia técnica del producto mediante pruebas unitarias, de integración, BDD y de sistema. Estas verificaciones permitieron comprobar reglas relacionadas con autenticación, permisos, materiales, asistencia, maquinaria, proyectos y otros comportamientos relevantes. Los resultados obtenidos demuestran que determinadas funcionalidades responden a los requisitos definidos, pero no deben confundirse con validación de negocio: las pruebas automatizadas demuestran el comportamiento del software, mientras que la aceptación, utilidad y generación de valor deben comprobarse mediante experimentos y sesiones de validación con los segmentos objetivo.
-La implementación de Continuous Integration mediante GitHub Actions permitió automatizar la instalación de dependencias, ejecución de pruebas y construcción de los productos ante Pull Requests y cambios incorporados en main. El Frontend Web cuenta además con previews aislados mediante Cloudflare y despliegue de producción desde la rama principal. El Backend mantiene despliegue automático mediante Railway, aunque su configuración actual no obliga a esperar la finalización satisfactoria del CI. En Mobile, el pipeline valida el análisis, las pruebas y la construcción del APK, pero todavía no realiza una distribución automatizada hacia una tienda. Estas diferencias permiten identificar con precisión el nivel de madurez alcanzado por cada producto.
-También se concluye que la trazabilidad y la transparencia técnica constituyen elementos importantes para la calidad del proyecto. La revisión de los repositorios y del informe permitió corregir afirmaciones que no correspondían con las configuraciones realmente disponibles, diferenciar entre validación, build y deployment, y documentar de manera explícita las limitaciones existentes. Esto reduce el riesgo de presentar como implementadas capacidades que todavía requieren trabajo adicional y facilita que las decisiones posteriores se basen en evidencia verificable.
-En relación con el impacto de la solución, la centralización y digitalización de los registros puede contribuir a mejorar la coordinación entre supervisores y contratantes y reducir errores administrativos, reprocesos y pérdida de información. Las validaciones de stock, permisos, asistencia y eliminación de proyectos también pueden disminuir riesgos operativos y económicos. Sin embargo, estos beneficios deben considerarse resultados esperados mientras no sean cuantificados mediante experimentos. Del mismo modo, cualquier posible beneficio ambiental asociado a una menor dependencia de documentación física deberá contrastarse con el uso de infraestructura tecnológica y no asumirse sin medición.
-Finalmente, ArquiTech cuenta con una base funcional y con una primera evaluación técnica A/B trazable: Web completó 132 recorridos autónomos (100 correctos y 32 incorrectos), EC08 verificó la sincronización íntegra de 40 borradores sin duplicados en Android con un backend aislado y EC10 aprobó 422 verificaciones posteriores a la corrección de tres defectos de navegación. Estos resultados acreditan funcionalidades e incidencias observadas, pero no reemplazan la validación de las hipótesis con las unidades de medición previstas. Los siguientes incrementos deben resolver Q11, completar las sesiones con participantes y el seguimiento operativo de incidencias, y obtener evidencia comparable para los indicadores todavía pendientes, especialmente M04, M06, M08, M10, M11 y F01–F03.
-Recomendaciones
+<div style="text-align: justify;">
+<p align="justify">
 
-- Diseñar y ejecutar experimentos que permitan contrastar las Hypothesis Statements con métricas cuantitativas y cualitativas, evitando considerar validadas las hipótesis únicamente por la existencia de funcionalidades o pruebas técnicas.
-- Priorizar la medición de reducción de errores, tiempo requerido para registrar y consultar información, nivel de adopción de las funcionalidades y percepción de confianza y transparencia por parte de supervisores y contratantes.
+A partir de la investigación, especificación, implementación y verificación desarrolladas para ArquiTech, se concluye que el Problem Statement mantiene correspondencia con las dificultades identificadas en los segmentos objetivo. Los supervisores requieren centralizar información relacionada con proyectos, materiales, trabajadores, asistencia, tareas, maquinaria e incidencias, mientras que los contratantes necesitan mayor visibilidad sobre el estado de sus obras y acceso oportuno a información que facilite el seguimiento y la toma de decisiones. Estos hallazgos respaldan la necesidad de una solución que reduzca la dependencia de registros dispersos y mejore la trazabilidad de la información.
+
+</p>
+<p align="justify">
+
+Las entrevistas realizadas aportaron evidencia a favor de assumptions relacionadas con la necesidad de información actualizada, centralización de registros, seguimiento del avance y mayor transparencia entre los actores involucrados en una obra. Asimismo, se identificó que la utilidad de la solución depende no solo de incorporar funcionalidades, sino también de mantener una experiencia clara, accesible y coherente con las actividades habituales de supervisores y contratantes. No obstante, las assumptions relacionadas con adopción recurrente, reducción efectiva del esfuerzo operativo y disposición de pago requieren todavía validaciones específicas mediante experimentos con usuarios.
+
+</p>
+<p align="justify">
+
+La evolución de los requisitos permitió mantener una relación más precisa entre las necesidades detectadas y las funcionalidades de ArquiTech. La actualización de User Stories, Product Backlog y artefactos To-Be incorporó procesos que actualmente forman parte del producto, como la gestión de asistencia, materiales, trabajadores, tareas, maquinaria, incidencias y eliminación controlada de proyectos. Esta alineación mejora la trazabilidad entre investigación, requisitos, diseño e implementación y reduce inconsistencias entre lo documentado y el comportamiento real de la plataforma.
+
+</p>
+<p align="justify">
+
+La implementación de la solución permitió consolidar componentes funcionales para Web, Mobile, Backend y Landing Page. La integración entre estos productos permitió comprobar contratos de la API, mecanismos de autenticación y autorización, restricciones según rol y reglas propias del dominio. Sin embargo, la existencia de una funcionalidad implementada no constituye por sí sola evidencia de que las Hypothesis Statements del Lean UX Process hayan alcanzado sus criterios de éxito; estas deben contrastarse con métricas y resultados obtenidos a partir del comportamiento real de los usuarios.
+
+</p>
+<p align="justify">
+
+El proceso de Product Verification & Validation fortaleció la evidencia técnica del producto mediante pruebas unitarias, de integración, BDD y de sistema. Estas verificaciones permitieron comprobar reglas relacionadas con autenticación, permisos, materiales, asistencia, maquinaria, proyectos y otros comportamientos relevantes. Los resultados demuestran que determinadas funcionalidades responden a los requisitos definidos, pero no deben confundirse con validación de negocio: las pruebas automatizadas demuestran el comportamiento del software, mientras que la aceptación, utilidad y generación de valor deben comprobarse mediante experimentos y sesiones de validación con los segmentos objetivo.
+
+</p>
+<p align="justify">
+
+La verificación estática confirmó que los cuatro productos compilan y superan el análisis de tipos y las reglas configuradas: el Backend con Maven, el Frontend Web y la Landing Page con TypeScript en modo estricto, y el Frontend Mobile con `flutter analyze` sin incidencias. También permitió identificar aspectos por mejorar: 162 archivos del Frontend Web fuera del formato definido con Prettier, una duplicación de código de hasta 5,03 % concentrada en los flujos CRUD de Backend, Web y Mobile, y vulnerabilidades confirmadas en las dependencias de producción del Frontend Web (ocho, una de ellas crítica) y de la Landing Page (seis de severidad alta). Además, en los 25 Pull Requests revisados no se encontraron aprobaciones ni observaciones técnicas humanas verificables, lo que muestra que la integración de cambios todavía no incorpora una revisión por pares formal.
+
+</p>
+<p align="justify">
+
+La auditoría de experiencia de usuario recibida del Grupo 4 – Energix identificó 26 hallazgos en ArquiTech: cinco de severidad 3, diecisiete de severidad 2 y cuatro de severidad 1. Entre los más relevantes se encuentran la exposición de términos internos de los experimentos, la mezcla de idiomas en la variante B de la Landing Page, la presentación de tablas en pantallas móviles y la falta de orientación ante errores. Para cada hallazgo se definió una modificación y se priorizaron los de severidad 3 para el siguiente release. A su vez, la auditoría realizada a SEMS documentó 16 problemas de usabilidad, diseño inclusivo y arquitectura de información, lo que permitió aplicar los mismos criterios de evaluación sobre un producto externo. Por su parte, las entrevistas de validación quedaron diseñadas con escenarios basados en los user flows de ambos segmentos, y su ejecución constituye el siguiente paso para contrastar la experiencia con usuarios reales.
+
+</p>
+<p align="justify">
+
+La implementación de Continuous Integration mediante GitHub Actions permitió automatizar la instalación de dependencias, la ejecución de pruebas y la construcción de los productos ante Pull Requests y cambios incorporados en main. El Frontend Web cuenta además con previews aislados mediante Cloudflare y despliegue de producción desde la rama principal. El Backend mantiene despliegue automático mediante Railway, aunque su configuración actual no obliga a esperar la finalización satisfactoria del CI. En Mobile, el pipeline valida el análisis, las pruebas y la construcción del APK, pero todavía no realiza una distribución automatizada hacia una tienda. Como complemento, se incorporó un monitoreo continuo de disponibilidad que comprueba el endpoint de salud de Spring Boot Actuator del Backend y la respuesta de la aplicación Web y de la Landing Page, registra código HTTP, latencia e intentos, y aplica una política de incidentes mediante GitHub Issues. Su ejecución satisfactoria se verificó de forma manual, por lo que todavía debe acreditarse su ejecución programada.
+
+</p>
+<p align="justify">
+
+También se concluye que la trazabilidad y la transparencia técnica constituyen elementos importantes para la calidad del proyecto. La revisión de los repositorios y del informe permitió corregir afirmaciones que no correspondían con las configuraciones realmente disponibles, diferenciar entre validación, build y deployment, y documentar de manera explícita las limitaciones existentes. Esto reduce el riesgo de presentar como implementadas capacidades que todavía requieren trabajo adicional y facilita que las decisiones posteriores se basen en evidencia verificable.
+
+</p>
+<p align="justify">
+
+En relación con el impacto de la solución, la centralización y digitalización de los registros puede contribuir a mejorar la coordinación entre supervisores y contratantes y reducir errores administrativos, reprocesos y pérdida de información. Las validaciones de stock, permisos, asistencia y eliminación de proyectos también pueden disminuir riesgos operativos y económicos. Sin embargo, estos beneficios deben considerarse resultados esperados mientras no sean cuantificados mediante experimentos. Del mismo modo, cualquier posible beneficio ambiental asociado a una menor dependencia de documentación física deberá contrastarse con el uso de infraestructura tecnológica y no asumirse sin medición.
+
+</p>
+<p align="justify">
+
+La aplicación del enfoque Experiment-Driven Product Development permitió convertir las assumptions y knowledge gaps del producto en doce preguntas priorizadas, diez Experiment Cards con hipótesis falsables y un catálogo de métricas de negocio y financieras definido antes de experimentar, junto con un plan de tracking implementado en Web y Mobile. El re-scoring del Question Backlog y la Shareback Session coincidieron en que la plataforma demostró capacidades técnicas verificables, pero que todavía no existe evidencia suficiente para afirmar cambios en el comportamiento de los usuarios ni en los costos. Por ello, la siguiente iteración prioriza corregir los defectos observados en EC05, EC07 y EC10, medir con supervisores y contratantes y registrar costos.
+
+</p>
+<p align="justify">
+
+Finalmente, ArquiTech cuenta con una base funcional y con una primera evaluación técnica A/B trazable: Web completó 132 recorridos autónomos (100 correctos y 32 incorrectos), EC08 verificó la sincronización íntegra de 40 borradores sin duplicados en Android con un backend aislado y EC10 aprobó 422 verificaciones posteriores a la corrección de tres defectos de navegación. Estos resultados acreditan funcionalidades e incidencias observadas, pero no reemplazan la validación de las hipótesis con las unidades de medición previstas. Los siguientes incrementos deben resolver Q11, completar las sesiones con participantes y el seguimiento operativo de incidencias, y obtener evidencia comparable para los indicadores todavía pendientes, especialmente M04, M06, M08, M10, M11 y F01–F03.
+
+</p>
+</div>
+
+**Recomendaciones**
+
+- Repetir EC04, EC05, EC06 y EC07 con supervisores y contratantes, con la unidad de análisis y la escala definidas en 8.2.5, y registrar los costos necesarios para F01–F03 antes de aceptar o refutar H01–H10.
+- Ejecutar las entrevistas de validación diseñadas en 6.3.1 incorporando las preguntas exploratorias Q11 y Q12, y resolver Q11 antes de repetir EC08.
+- Instrumentar la recepción y calificación de las solicitudes de demostración de la Landing Page para medir M11 y F03 en el Test A/B comercial de EC10.
+- Implementar primero las modificaciones de severidad 3 de la auditoría recibida (6.4.2.4) y registrar el commit o Pull Request de cada corrección.
+- Actualizar las dependencias de producción del Frontend Web y de la Landing Page con vulnerabilidades confirmadas, aplicar el formato definido con Prettier y refactorizar los flujos CRUD con mayor duplicación.
+- Incorporar la revisión por pares obligatoria en los Pull Requests y protecciones sobre main, y condicionar el despliegue automático del Backend en Railway a la finalización satisfactoria del CI.
+- Acreditar la ejecución programada del monitoreo continuo y ampliar sus alertas y notificaciones a partir de la política de incidentes con GitHub Issues.
 - Implementar un entorno aislado de pruebas para los escenarios E2E, de manera que puedan ejecutarse de forma automatizada sin utilizar datos compartidos del Backend productivo.
-- Incrementar progresivamente la cobertura automatizada de los flujos críticos y mantener trazabilidad entre User Stories, criterios de aceptación y pruebas.
-- Evaluar la configuración de protecciones sobre main y la integración de los resultados de CI con los mecanismos de deployment para reducir el riesgo de publicar versiones que no hayan superado las verificaciones definidas.
 - Definir una estrategia de distribución para la aplicación Mobile que permita conservar versiones del APK y, posteriormente, evaluar un mecanismo controlado de publicación.
-- Continuar el desarrollo de prácticas de monitoring, alerting y notification para complementar los procesos de integración y despliegue con información sobre el comportamiento de los productos en ejecución.
-- Mantener sincronizados el Product Backlog, los artefactos de Requirements Specification, la documentación técnica y el estado real de los repositorios a medida que se obtengan nuevos resultados de validación.
-- Utilizar los resultados de los siguientes experimentos para repriorizar el Product Backlog y definir el Roadmap de ArquiTech basándose en evidencia sobre valor para los usuarios y viabilidad del modelo de negocio.
+- Mantener sincronizados el Product Backlog, el Question Backlog, la documentación técnica y el estado real de los repositorios a medida que se obtengan nuevos resultados de validación.
+- Utilizar los resultados de los siguientes experimentos para repriorizar el Product Backlog y definir el Roadmap de ArquiTech con base en evidencia sobre el valor para los usuarios y la viabilidad del modelo de negocio.
 
 # Bibliografía
 
