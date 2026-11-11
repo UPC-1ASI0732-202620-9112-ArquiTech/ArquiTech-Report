@@ -140,232 +140,400 @@ _Commits realizados durante la entrega TB1_
 # Contenido
 
 ## Tabla de contenido
-
-- [Part I: As-Is Software Project](#part-i-as-is-software-project)
-- [Part II: Verification, Validation & Pipeline](#part-ii-verification-validation--pipeline)
-
-### [Capítulo I: Introducción](#capítulo-i-introducción-1)
-
-- [1.1. Startup Profile](#11-startup-profile)
-  - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
-
-  - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
-
-- [1.2. Solution Profile](#12-solution-profile)
-  - [1.2.1. Antecedentes y problemática](#121-antecedentes-y-problemática)
-
-  - [1.2.2. Lean UX Process](#122-lean-ux-process)
-    - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
-
-    - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
-
-    - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
-
-    - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
-
-- [1.3. Segmentos objetivo](#13-segmentos-objetivo)
-
-### [Capítulo II: Requirements Elicitation & Analysis](#capítulo-ii-requirements-elicitation--analysis-1)
-
-- [2.1. Competidores](#21-competidores)
-  - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
-
-  - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
-
-- [2.2. Entrevistas](#22-entrevistas)
-  - [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
-
-  - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
-
-  - [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
-
-- [2.3. Needfinding](#23-needfinding)
-  - [2.3.1. User Personas](#231-user-personas)
-
-  - [2.3.2. User Task Matrix](#232-user-task-matrix)
-
-  - [2.3.3. User Journey Mapping](#233-user-journey-mapping)
-
-  - [2.3.4. Empathy Mapping](#234-empathy-mapping)
-
-  - [2.3.5. As-is Scenario Mapping](#235-as-is-scenario-mapping)
-
-- [2.4. Ubiquitous Language](#24-ubiquitous-language)
-
-### [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification-1)
-
-- [3.1. To-Be Scenario Mapping](#31-to-be-scenario-mapping)
-
-- [3.2. User Stories](#32-user-stories)
-
-- [3.3. Product Backlog](#33-product-backlog)
-
-- [3.4. Impact Mapping](#34-impact-mapping)
-
-### [Capítulo IV: Product Design](#capítulo-iv-product-design-1)
-
-- [4.1. Style Guidelines](#41-style-guidelines)
-  - [4.1.1. General Style Guidelines](#411-general-style-guidelines)
-
-  - [4.1.2. Web Style Guidelines](#412-web-style-guidelines)
-
-  - [4.1.3. Mobile Style Guidelines](#413-mobile-style-guidelines)
-    - [4.1.3.1. iOS Mobile Style Guidelines](#4131-ios-mobile-style-guidelines)
-
-    - [4.1.3.2. Android Mobile Style Guidelines](#4132-android-mobile-style-guidelines)
-
-- [4.2. Information Architecture](#42-information-architecture)
-  - [4.2.1. Organization Systems](#421-organization-systems)
-
-  - [4.2.2. Labeling Systems](#422-labeling-systems)
-
-  - [4.2.3. SEO Tags and Meta Tags](#423-seo-tags-and-meta-tags)
-
-  - [4.2.4. Searching Systems](#424-searching-systems)
-
-  - [4.2.5. Navigation Systems](#425-navigation-systems)
-
-- [4.3. Landing Page UI Design](#43-landing-page-ui-design)
-  - [4.3.1. Landing Page Wireframe](#431-landing-page-wireframe)
-
-  - [4.3.2. Landing Page Mock-up](#432-landing-page-mock-up)
-
-- [4.4. Mobile Applications UX/UI Design](#44-mobile-applications-uxui-design)
-  - [4.4.1. Mobile Applications Wireframes](#441-mobile-applications-wireframes)
-
-  - [4.4.2. Mobile Applications Wireflow Diagrams](#442-mobile-applications-wireflow-diagrams)
-
-  - [4.4.3. Mobile Applications Mock-ups](#443-mobile-applications-mock-ups)
-
-  - [4.4.4. Mobile Applications User Flow Diagrams](#444-mobile-applications-user-flow-diagrams)
-
-- [4.5. Mobile Applications Prototyping](#45-mobile-applications-prototyping)
-  - [4.5.1. Android Mobile Applications Prototyping](#451-android-mobile-applications-prototyping)
-
-  - [4.5.2. iOS Mobile Applications Prototyping](#452-ios-mobile-applications-prototyping)
-
-- [4.6. Web Applications UX/UI Design](#46-web-applications-uxui-design)
-  - [4.6.1. Web Applications Wireframes](#461-web-applications-wireframes)
-
-  - [4.6.2. Web Applications Wireflow Diagrams](#462-web-applications-wireflow-diagrams)
-
-  - [4.6.3. Web Applications Mock-ups](#463-web-applications-mock-ups)
-
-  - [4.6.4. Web Applications User Flow Diagrams](#464-web-applications-user-flow-diagrams)
-
-- [4.7. Web Applications Prototyping](#47-web-applications-prototyping)
-
-- [4.8. Domain-Driven Software Architecture](#48-domain-driven-software-architecture)
-  - [4.8.1. Software Architecture Context Diagram](#481-software-architecture-context-diagram)
-
-  - [4.8.2. Software Architecture Container Diagrams](#482-software-architecture-container-diagrams)
-
-  - [4.8.3. Software Architecture Components Diagrams](#483-software-architecture-components-diagrams)
-
-- [4.9. Software Object-Oriented Design](#49-software-object-oriented-design)
-  - [4.9.1. Class Diagrams](#491-class-diagrams)
-
-  - [4.9.2. Class Dictionary](#492-class-dictionary)
-
-- [4.10. Database Design](#410-database-design)
-  - [4.10.1. Relational/Non-Relational Database Diagram](#4101-relationalnon-relational-database-diagram)
-
-### [Capítulo V: Product Implementation](#capítulo-v-product-implementation-1)
-
-- [5.1. Software Configuration Management](#51-software-configuration-management)
-  - [5.1.1. Software Development Environment Configuration](#511-software-development-environment-configuration)
-
-  - [5.1.2. Source Code Management](#512-source-code-management)
-
-  - [5.1.3. Source Code Style Guide & Conventions](#513-source-code-style-guide--conventions)
-
-  - [5.1.4. Software Deployment Configuration](#514-software-deployment-configuration)
-
-- [5.2. Product Implementation & Deployment](#52-product-implementation--deployment)
-  - [5.2.1. Sprint Backlogs](#521-sprint-backlogs)
-
-  - [5.2.2. Implemented Landing Page Evidence](#522-implemented-landing-page-evidence)
-
-  - [5.2.3. Implemented Frontend-Web Application Evidence](#523-implemented-frontend-web-application-evidence)
-
-  - [5.2.4. Acuerdo de Servicio - SaaS](#524-acuerdo-de-servicio---saas)
-
-  - [5.2.5. Implemented Native-Mobile Application Evidence](#525-implemented-native-mobile-application-evidence)
-
-  - [5.2.6. Implemented RESTful API and/or Serverless Backend Evidence](#526-implemented-restful-api-andor-serverless-backend-evidence)
-
-  - [5.2.7. RESTful API documentation](#527-restful-api-documentation)
-
-  - [5.2.8. Team Collaboration Insights](#528-team-collaboration-insights)
-
-- [5.3. Video About-the-Product](#53-video-about-the-product)
-
-### [Capítulo VI: Product Verification & Validation](#capítulo-vi-product-verification--validation)
-
-- [6.1. Testing Suites & Validation](#61-testing-suites--validation)
-  - [6.1.1. Core Entities Unit Tests](#611-core-entities-unit-tests)
-  - [6.1.2. Core Integration Tests](#612-core-integration-tests)
-  - [6.1.3. Core Behavior-Driven Development](#613-core-behavior-driven-development)
-  - [6.1.4. Core System Tests](#614-core-system-tests)
-- [6.2. Static testing & Verification](#62-static-testing--verification)
-  - [6.2.1. Static Code Analysis](#621-static-code-analysis)
-    - [6.2.1.1. Coding standard & Code conventions.](#6211-coding-standard--code-conventions)
-    - [6.2.1.2. Code Quality & Code Security.](#6212-code-quality--code-security)
-  - [6.2.2. Reviews](#622-reviews)
+<!-- TOC:START -->
+- [Student Outcome](#student-outcome)
+- [Capítulo I: Introducción](#capítulo-i-introducción)
+  - [1.1. Startup Profile](#11-startup-profile)
+    - [1.1.1 Descripción de la Startup](#111-descripción-de-la-startup)
+    - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
+  - [1.2. Solution Profile](#12-solution-profile)
+    - [1.2.1. Antecedentes y problemática](#121-antecedentes-y-problemática)
+    - [1.2.2. Lean UX Process](#122-lean-ux-process)
+      - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
+      - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
+        - [Assumptions Worksheet](#assumptions-worksheet)
+        - [Business Assumptions](#business-assumptions)
+        - [User Assumptions](#user-assumptions)
+        - [Assumption Prioritization](#assumption-prioritization)
+      - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
+        - [Hypothesis Statement 1 — Gestión de materiales e inventario](#hypothesis-statement-1--gestión-de-materiales-e-inventario)
+        - [Hypothesis Statement 2 — Gestión de trabajadores](#hypothesis-statement-2--gestión-de-trabajadores)
+        - [Hypothesis Statement 3 — Seguimiento de actividades y avance](#hypothesis-statement-3--seguimiento-de-actividades-y-avance)
+        - [Hypothesis Statement 4 — Consulta del estado de la obra](#hypothesis-statement-4--consulta-del-estado-de-la-obra)
+        - [Hypothesis Statement 5 — Trazabilidad de la información](#hypothesis-statement-5--trazabilidad-de-la-información)
+        - [Hypothesis Statement 6 — Generación de reportes](#hypothesis-statement-6--generación-de-reportes)
+        - [Hypothesis Statement 7 — Alertas sobre eventos relevantes](#hypothesis-statement-7--alertas-sobre-eventos-relevantes)
+        - [Hypothesis Statement 8 — Uso en condiciones de conectividad limitada](#hypothesis-statement-8--uso-en-condiciones-de-conectividad-limitada)
+        - [Hypothesis Statement 9 — Facilidad de adopción](#hypothesis-statement-9--facilidad-de-adopción)
+      - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
+  - [1.3. Segmentos objetivo](#13-segmentos-objetivo)
+    - [Segmento objetivo #1: Supervisores de obra](#segmento-objetivo-1-supervisores-de-obra)
+    - [Segmento objetivo #2: Contratantes de empresas privadas](#segmento-objetivo-2-contratantes-de-empresas-privadas)
+- [Capítulo II: Requirements Elicitation & Analysis](#capítulo-ii-requirements-elicitation--analysis)
+  - [2.1. Competidores](#21-competidores)
+    - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
+    - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
+  - [2.2. Entrevistas](#22-entrevistas)
+    - [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
+      - [Segmento objetivo #1: Supervisores de obra](#segmento-objetivo-1-supervisores-de-obra-1)
+      - [Segmento objetivo #2: Contratantes de empresas privadas](#segmento-objetivo-2-contratantes-de-empresas-privadas-1)
+      - [Preguntas complementarias de caracterización para ambos segmentos](#preguntas-complementarias-de-caracterización-para-ambos-segmentos)
+    - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
+      - [Segmento objetivo #1: Supervisores de obra](#segmento-objetivo-1-supervisores-de-obra-2)
+        - [Entrevista #2](#entrevista-2)
+        - [Entrevista #3](#entrevista-3)
+      - [Segmento objetivo #2: Contratantes de empresas privadas](#segmento-objetivo-2-contratantes-de-empresas-privadas-2)
+        - [Entrevista #4](#entrevista-4)
+        - [Entrevista #5](#entrevista-5)
+        - [Entrevista #6](#entrevista-6)
+    - [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
+      - [Segmento objetivo #1: Supervisores de obra](#segmento-objetivo-1-supervisores-de-obra-3)
+        - [Características objetivas predominantes](#características-objetivas-predominantes)
+        - [Características subjetivas predominantes](#características-subjetivas-predominantes)
+      - [Segmento objetivo #2: Contratantes de empresas privadas](#segmento-objetivo-2-contratantes-de-empresas-privadas-3)
+        - [Características objetivas predominantes](#características-objetivas-predominantes-1)
+        - [Características subjetivas predominantes](#características-subjetivas-predominantes-1)
+      - [Síntesis del análisis](#síntesis-del-análisis)
+  - [2.3. Needfinding](#23-needfinding)
+    - [2.3.1. User Personas](#231-user-personas)
+    - [2.3.2. User Task Matrix](#232-user-task-matrix)
+    - [2.3.3. User Journey Mapping](#233-user-journey-mapping)
+    - [2.3.4. Empathy Mapping](#234-empathy-mapping)
+    - [2.3.5. As-is Scenario Mapping](#235-as-is-scenario-mapping)
+    - [2.3.5. As-is Scenario Mapping](#235-as-is-scenario-mapping-1)
+  - [2.4. Ubiquitous Language](#24-ubiquitous-language)
+- [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
+  - [3.1. To-Be Scenario Mapping](#31-to-be-scenario-mapping)
+  - [3.2. User Stories](#32-user-stories)
+  - [3.3. Product Backlog](#33-product-backlog)
+  - [3.4. Impact Mapping](#34-impact-mapping)
+- [Capítulo IV: Product Design](#capítulo-iv-product-design)
+  - [4.1. Style Guidelines](#41-style-guidelines)
+    - [4.1.1. General Style Guidelines](#411-general-style-guidelines)
+    - [4.1.2. Web Style Guidelines](#412-web-style-guidelines)
+    - [4.1.3. Mobile Style Guidelines](#413-mobile-style-guidelines)
+      - [4.1.3.1. iOS Mobile Style Guidelines](#4131-ios-mobile-style-guidelines)
+      - [4.1.3.2. Android Mobile Style Guidelines](#4132-android-mobile-style-guidelines)
+  - [4.2. Information Architecture](#42-information-architecture)
+    - [4.2.1. Organization Systems](#421-organization-systems)
+    - [4.2.2. Labeling Systems](#422-labeling-systems)
+    - [4.2.3. SEO Tags and Meta Tags](#423-seo-tags-and-meta-tags)
+    - [4.2.4. Searching Systems](#424-searching-systems)
+    - [4.2.5. Navigation Systems](#425-navigation-systems)
+  - [4.3. Landing Page UI Design](#43-landing-page-ui-design)
+    - [4.3.1. Landing Page Wireframe](#431-landing-page-wireframe)
+    - [4.3.2. Landing Page Mock-up](#432-landing-page-mock-up)
+  - [4.4. Mobile Applications UX/UI Design](#44-mobile-applications-uxui-design)
+    - [4.4.1. Mobile Applications Wireframes](#441-mobile-applications-wireframes)
+    - [4.4.2. Mobile Applications Wireflow Diagrams](#442-mobile-applications-wireflow-diagrams)
+    - [4.4.3. Mobile Applications Mock-ups](#443-mobile-applications-mock-ups)
+    - [4.4.4. Mobile Applications User Flow Diagrams](#444-mobile-applications-user-flow-diagrams)
+    - [4.5. Mobile Applications Prototyping](#45-mobile-applications-prototyping)
+      - [4.5.1. Android Mobile Applications Prototyping](#451-android-mobile-applications-prototyping)
+      - [4.5.2. iOS Mobile Applications Prototyping](#452-ios-mobile-applications-prototyping)
+  - [4.6. Web Applications UX/UI Design](#46-web-applications-uxui-design)
+    - [4.6.1. Web Applications Wireframes](#461-web-applications-wireframes)
+    - [4.6.2. Web Applications Wireflow Diagrams](#462-web-applications-wireflow-diagrams)
+    - [4.6.3. Web Applications Mock-ups](#463-web-applications-mock-ups)
+    - [4.6.4. Web Applications User Flow Diagrams](#464-web-applications-user-flow-diagrams)
+  - [4.7. Web Applications Prototyping](#47-web-applications-prototyping)
+  - [4.8. Domain-Driven Software Architecture](#48-domain-driven-software-architecture)
+    - [4.8.1. Software Architecture Context Diagram](#481-software-architecture-context-diagram)
+    - [4.8.2. Software Architecture Container Diagrams](#482-software-architecture-container-diagrams)
+    - [4.8.3. Software Architecture Components Diagrams](#483-software-architecture-components-diagrams)
+  - [4.9. Software Object-Oriented Design](#49-software-object-oriented-design)
+    - [4.9.1. Class Diagrams](#491-class-diagrams)
+    - [4.9.2. Class Dictionary](#492-class-dictionary)
+      - [Clase `User`](#clase-user)
+      - [Clase `Project`](#clase-project)
+      - [Clase `ProjectMember`](#clase-projectmember)
+      - [Clase `Material`](#clase-material)
+      - [Clase `MaterialMovement`](#clase-materialmovement)
+      - [Clase `Machinery`](#clase-machinery)
+      - [Clase `Worker`](#clase-worker)
+      - [Clase `Attendance`](#clase-attendance)
+      - [Clase `Task`](#clase-task)
+      - [Clase `Incident`](#clase-incident)
+      - [Clase `Report`](#clase-report)
+  - [4.10. Database Design](#410-database-design)
+    - [4.10.1. Relational/Non-Relational Database Diagram](#4101-relationalnon-relational-database-diagram)
+      - [Estructura propuesta de tablas](#estructura-propuesta-de-tablas)
+- [Capítulo V: Product Implementation](#capítulo-v-product-implementation)
+  - [5.1. Software Configuration Management](#51-software-configuration-management)
+    - [5.1.1. Software Development Environment Configuration](#511-software-development-environment-configuration)
+      - [Project Management y Requirements Management](#project-management-y-requirements-management)
+      - [Product UX/UI Design](#product-uxui-design)
+      - [Software Development](#software-development)
+      - [Software Testing](#software-testing)
+      - [Software Deployment](#software-deployment)
+      - [Software Documentation](#software-documentation)
+        - [Validacion reproducible del informe](#validacion-reproducible-del-informe)
+        - [Generacion reproducible de la tabla de contenido](#generacion-reproducible-de-la-tabla-de-contenido)
+    - [5.1.2. Source Code Management](#512-source-code-management)
+      - [GitFlow](#gitflow)
+      - [Semantic Versioning](#semantic-versioning)
+      - [Conventional Commits](#conventional-commits)
+      - [GitFlow Evidence](#gitflow-evidence)
+    - [5.1.3. Source Code Style Guide & Conventions](#513-source-code-style-guide--conventions)
+      - [Convenciones generales](#convenciones-generales)
+      - [HTML](#html)
+      - [CSS](#css)
+      - [TypeScript](#typescript)
+      - [Angular](#angular)
+      - [Java](#java)
+      - [Spring Boot](#spring-boot)
+      - [Gherkin](#gherkin)
+      - [Comentarios](#comentarios)
+    - [5.1.4. Software Deployment Configuration](#514-software-deployment-configuration)
+      - [Landing Page](#landing-page)
+      - [Frontend Web Application](#frontend-web-application)
+      - [Frontend Mobile Application](#frontend-mobile-application)
+      - [Backend / Web Services](#backend--web-services)
+      - [Flujo de promoción](#flujo-de-promoción)
+  - [5.2. Product Implementation & Deployment](#52-product-implementation--deployment)
+    - [5.2.1. Sprint Backlogs](#521-sprint-backlogs)
+    - [5.2.2. Implemented Landing Page Evidence](#522-implemented-landing-page-evidence)
+    - [5.2.3. Implemented Frontend-Web Application Evidence](#523-implemented-frontend-web-application-evidence)
+    - [5.2.4. Acuerdo de Servicio - SaaS](#524-acuerdo-de-servicio---saas)
+      - [Parties and Purpose](#parties-and-purpose)
+      - [Definitions](#definitions)
+      - [User Accounts and Roles](#user-accounts-and-roles)
+      - [User Rights](#user-rights)
+      - [User Obligations](#user-obligations)
+      - [Restrictions](#restrictions)
+      - [Subscription and Payments](#subscription-and-payments)
+      - [Availability and Support](#availability-and-support)
+      - [Data Protection](#data-protection)
+      - [Information Ownership](#information-ownership)
+      - [Intellectual Property](#intellectual-property)
+      - [Limitation of Liability](#limitation-of-liability)
+      - [Suspension and Termination](#suspension-and-termination)
+      - [Changes to the Agreement](#changes-to-the-agreement)
+      - [Applicable Law](#applicable-law)
+      - [Contact](#contact)
+      - [Ethical and Professional Responsibility](#ethical-and-professional-responsibility)
+      - [Publication Evidence](#publication-evidence)
+    - [5.2.5. Implemented Native-Mobile Application Evidence](#525-implemented-native-mobile-application-evidence)
+    - [5.2.6. Implemented RESTful API and/or Serverless Backend Evidence](#526-implemented-restful-api-andor-serverless-backend-evidence)
+    - [5.2.7. RESTful API documentation](#527-restful-api-documentation)
+    - [5.2.8. Team Collaboration Insights](#528-team-collaboration-insights)
+  - [5.3. Video About-the-Product](#53-video-about-the-product)
+- [Capítulo VI: Product Verification & Validation](#capítulo-vi-product-verification--validation)
+  - [6.1. Testing Suites & Validation](#61-testing-suites--validation)
+    - [6.1.1. Core Entities Unit Tests](#611-core-entities-unit-tests)
+    - [6.1.2. Core Integration Tests](#612-core-integration-tests)
+    - [6.1.3. Core Behavior-Driven Development](#613-core-behavior-driven-development)
+      - [Resultado de ejecución](#resultado-de-ejecución)
+    - [6.1.4. Core System Tests](#614-core-system-tests)
+      - [Pruebas de sistema de la Frontend Web Application](#pruebas-de-sistema-de-la-frontend-web-application)
+  - [6.2. Static testing & Verification](#62-static-testing--verification)
+    - [6.2.1. Static Code Analysis](#621-static-code-analysis)
+      - [6.2.1.1. Coding standard & Code conventions.](#6211-coding-standard--code-conventions)
+      - [6.2.1.2. Code Quality & Code Security.](#6212-code-quality--code-security)
+    - [6.2.2. Reviews](#622-reviews)
   - [6.3. Validation Interviews](#63-validation-interviews)
-  - [6.3.1. Diseño de Entrevistas](#631-diseño-de-entrevistas)
-
-### [Capítulo VII: DevOps Practices](#capítulo-vii-devops-practices)
-
-- [7.1. Continuous Integration](#71-continuous-integration)
-  - [7.1.1. Tools and Practices](#711-tools-and-practices)
-  - [7.1.2. Build & Test Suite Pipeline Components](#712-build--test-suite-pipeline-components)
-- [7.2. Continuous Delivery](#72-continuous-delivery)
-  - [7.2.1. Tools and Practices](#721-tools-and-practices)
-  - [7.2.2. Stages Deployment Pipeline Components](#722-stages-deployment-pipeline-components)
-- [7.3 Continuous Deployment](#73-continuous-deployment)
-  - [7.3.1. Tools and Practices](#731-tools-and-practices)
-  - [7.3.2. Production Deployment Pipeline Components](#732-production-deployment-pipeline-components)
-- [7.4. Continuous Monitoring](#74-continuous-monitoring)
-  - [7.4.1. Tools and Practices](#741-tools-and-practices)
-  - [7.4.2. Monitoring Pipeline Components](#742-monitoring-pipeline-components)
-  - [7.4.3. Alerting Pipeline Components](#743-alerting-pipeline-components)
-  - [7.4.4. Notification Pipeline Components](#744-notification-pipeline-components)
-
-### [Capítulo VIII: Experiment-Driven Development](#capítulo-viii-experiment-driven-development)
-
-- [8.1. Experiment Planning](#81-experiment-planning)
-  - [8.1.1. As-Is Summary](#811-as-is-summary)
-  - [8.1.2. Raw Material: Assumptions, Knowledge Gaps, Ideas, Claims](#812-raw-material-assumptions-knowledge-gaps-ideas-claims)
-  - [8.1.3. Experiment-Ready Questions](#813-experiment-ready-questions)
-  - [8.1.4. Question Backlog](#814-question-backlog)
-  - [8.1.5. Experiment Cards](#815-experiment-cards)
-- [8.2. Experiment Design](#82-experiment-design)
-  - [8.2.1. Hypotheses](#821-hypotheses)
-  - [8.2.2. Domain Business Metrics](#822-domain-business-metrics)
-  - [8.2.3. Measures](#823-measures)
-  - [8.2.4. Conditions](#824-conditions)
-  - [8.2.5. Scale Calculations and Decisions](#825-scale-calculations-and-decisions)
-  - [8.2.6. Methods Selection](#826-methods-selection)
-  - [8.2.7. Data Analytics: Goals, KPIs and Metrics Selection](#827-data-analytics-goals-kpis-and-metrics-selection)
-  - [8.2.8. Web and Mobile Tracking Plan](#828-web-and-mobile-tracking-plan)
-- [8.3. Experimentation](#83-experimentation)
-  - [8.3.1. To-Be User Stories](#831-to-be-user-stories)
-  - [8.3.2. To-Be Product Backlog](#832-to-be-product-backlog)
-  - [8.3.3. Pipeline-supported, Experiment-Driven To-Be Software Platform Lifecycle](#833-pipeline-supported-experiment-driven-to-be-software-platform-lifecycle)
-- [8.4. Experiment Aftermath & Analysis](#84-experiment-aftermath--analysis)
-  - [8.4.1. Analysis and Interpretation of Results](#841-analysis-and-interpretation-of-results)
-  - [8.4.2. Re-scored and Re-prioritized Question Backlog](#842-re-scored-and-re-prioritized-question-backlog)
-- [8.5. Continuous Learning](#85-continuous-learning)
-  - [8.5.1. Shareback Session Artifacts: Learning Workflow](#851-shareback-session-artifacts-learning-workflow)
-
-
-### [Conclusion](#conclusiones)
-
-### [Bibliografía](#bibliografia)
-
-### [Anexos](#anexos-1)
-
+    - [6.3.1. Diseño de Entrevistas](#631-diseño-de-entrevistas)
+      - [Organización de las sesiones](#organización-de-las-sesiones)
+      - [Elementos a incluir en la sesión de validación](#elementos-a-incluir-en-la-sesión-de-validación)
+      - [User flows que forman parte de la validación](#user-flows-que-forman-parte-de-la-validación)
+      - [Indicadores registrados por tarea](#indicadores-registrados-por-tarea)
+      - [Guion de la sesión](#guion-de-la-sesión)
+      - [Segmento objetivo #1: Supervisores de obra](#segmento-objetivo-1-supervisores-de-obra-4)
+      - [Segmento objetivo #2: Contratantes de empresas privadas](#segmento-objetivo-2-contratantes-de-empresas-privadas-4)
+  - [6.4. Auditoría de Experiencias de Usuario](#64-auditoría-de-experiencias-de-usuario)
+    - [6.4.2. Auditoría recibida](#642-auditoría-recibida)
+      - [6.4.2.1. Información del grupo auditor](#6421-información-del-grupo-auditor)
+      - [6.4.2.2. Cronograma de auditoría recibida](#6422-cronograma-de-auditoría-recibida)
+      - [6.4.2.3. Contenido de auditoría recibida](#6423-contenido-de-auditoría-recibida)
+        - [Site o App a evaluar](#site-o-app-a-evaluar)
+        - [Tareas a evaluar](#tareas-a-evaluar)
+        - [Escala de severidad](#escala-de-severidad)
+        - [Tabla resumen](#tabla-resumen)
+        - [Descripción de problemas](#descripción-de-problemas)
+          - [PROBLEMA #1: Las acciones "de ensayo" de la vista mejorada modifican el inventario y la asistencia reales](#problema-1-las-acciones-de-ensayo-de-la-vista-mejorada-modifican-el-inventario-y-la-asistencia-reales)
+          - [PROBLEMA #2: La variante B del Landing Page mezcla textos en español e inglés](#problema-2-la-variante-b-del-landing-page-mezcla-textos-en-español-e-inglés)
+          - [PROBLEMA #3: La pantalla de Asistencia aparece vacía al entrar por un filtro de fecha aplicado por defecto](#problema-3-la-pantalla-de-asistencia-aparece-vacía-al-entrar-por-un-filtro-de-fecha-aplicado-por-defecto)
+          - [PROBLEMA #4: En celular las tablas ocultan columnas y el menú de acciones fuera de la pantalla](#problema-4-en-celular-las-tablas-ocultan-columnas-y-el-menú-de-acciones-fuera-de-la-pantalla)
+          - [PROBLEMA #5: La recuperación de contraseña remite a soporte, pero no indica ningún medio de contacto](#problema-5-la-recuperación-de-contraseña-remite-a-soporte-pero-no-indica-ningún-medio-de-contacto)
+          - [PROBLEMA #6: La interfaz muestra términos internos del experimento](#problema-6-la-interfaz-muestra-términos-internos-del-experimento)
+          - [PROBLEMA #7: Algunos paneles muestran valores técnicos sin traducir](#problema-7-algunos-paneles-muestran-valores-técnicos-sin-traducir)
+          - [PROBLEMA #8: Los paneles de la vista mejorada repiten la información de la página y desplazan el contenido principal](#problema-8-los-paneles-de-la-vista-mejorada-repiten-la-información-de-la-página-y-desplazan-el-contenido-principal)
+          - [PROBLEMA #9: El panel y la tabla de un mismo módulo muestran estados, términos y formatos distintos](#problema-9-el-panel-y-la-tabla-de-un-mismo-módulo-muestran-estados-términos-y-formatos-distintos)
+          - [PROBLEMA #10: El registro rápido de asistencia obliga a elegir el estado de cada trabajador uno por uno](#problema-10-el-registro-rápido-de-asistencia-obliga-a-elegir-el-estado-de-cada-trabajador-uno-por-uno)
+          - [PROBLEMA #11: La guía "Primeros pasos" lleva al primer proyecto de la lista sin indicar cuál](#problema-11-la-guía-primeros-pasos-lleva-al-primer-proyecto-de-la-lista-sin-indicar-cuál)
+          - [PROBLEMA #12: En celular, el botón de vista empuja el menú de usuario fuera de la pantalla](#problema-12-en-celular-el-botón-de-vista-empuja-el-menú-de-usuario-fuera-de-la-pantalla)
+          - [PROBLEMA #13: La solicitud de demostración depende de que el visitante tenga configurada una aplicación de correo](#problema-13-la-solicitud-de-demostración-depende-de-que-el-visitante-tenga-configurada-una-aplicación-de-correo)
+          - [PROBLEMA #14: El Landing Page se muestra en inglés por defecto para un público peruano](#problema-14-el-landing-page-se-muestra-en-inglés-por-defecto-para-un-público-peruano)
+          - [PROBLEMA #15: El botón que lleva a la aplicación dice solo "ArquiTech"](#problema-15-el-botón-que-lleva-a-la-aplicación-dice-solo-arquitech)
+          - [PROBLEMA #16: La sección "Nosotros" del Landing Page se desborda horizontalmente en celular](#problema-16-la-sección-nosotros-del-landing-page-se-desborda-horizontalmente-en-celular)
+          - [PROBLEMA #17: Los campos obligatorios no se distinguen hasta intentar guardar](#problema-17-los-campos-obligatorios-no-se-distinguen-hasta-intentar-guardar)
+          - [PROBLEMA #18: La unidad de medida de un material es un campo de texto libre](#problema-18-la-unidad-de-medida-de-un-material-es-un-campo-de-texto-libre)
+          - [PROBLEMA #19: Algunos placeholders parecen datos ya ingresados](#problema-19-algunos-placeholders-parecen-datos-ya-ingresados)
+          - [PROBLEMA #20: Las columnas "Cantidad", "Stock" y "Fecha" del inventario no explican qué muestran](#problema-20-las-columnas-cantidad-stock-y-fecha-del-inventario-no-explican-qué-muestran)
+          - [PROBLEMA #21: El Landing Page muestra el texto provisional "Espacio para el video del equipo"](#problema-21-el-landing-page-muestra-el-texto-provisional-espacio-para-el-video-del-equipo)
+          - [PROBLEMA #22: Los íconos de redes sociales llevan a las páginas de inicio genéricas de cada red](#problema-22-los-íconos-de-redes-sociales-llevan-a-las-páginas-de-inicio-genéricas-de-cada-red)
+          - [PROBLEMA #23: Plurales sin resolver y términos distintos para el mismo concepto](#problema-23-plurales-sin-resolver-y-términos-distintos-para-el-mismo-concepto)
+          - [PROBLEMA #24: El botón de confirmar de los diálogos es verde y el resto de acciones principales es naranja](#problema-24-el-botón-de-confirmar-de-los-diálogos-es-verde-y-el-resto-de-acciones-principales-es-naranja)
+          - [PROBLEMA #25: Sin un proyecto seleccionado, los módulos del menú se ven atenuados y la explicación queda al pie](#problema-25-sin-un-proyecto-seleccionado-los-módulos-del-menú-se-ven-atenuados-y-la-explicación-queda-al-pie)
+          - [PROBLEMA #26: La pestaña inactiva de Materiales tiene contraste insuficiente](#problema-26-la-pestaña-inactiva-de-materiales-tiene-contraste-insuficiente)
+      - [6.4.2.4. Resumen de modificaciones para subsanar hallazgos](#6424-resumen-de-modificaciones-para-subsanar-hallazgos)
+- [Capítulo VII: DevOps Practices](#capítulo-vii-devops-practices)
+  - [7.1. Continuous Integration](#71-continuous-integration)
+    - [7.1.1. Tools and Practices](#711-tools-and-practices)
+    - [7.1.2. Build & Test Suite Pipeline Components](#712-build--test-suite-pipeline-components)
+  - [7.2. Continuous Delivery](#72-continuous-delivery)
+    - [7.2.1. Tools and Practices](#721-tools-and-practices)
+    - [7.2.2. Stages Deployment Pipeline Components](#722-stages-deployment-pipeline-components)
+  - [7.3. Continuous Deployment](#73-continuous-deployment)
+    - [7.3.1. Tools and Practices](#731-tools-and-practices)
+    - [7.3.2. Production Deployment Pipeline Components](#732-production-deployment-pipeline-components)
+  - [7.4. Continuous Monitoring](#74-continuous-monitoring)
+    - [7.4.1. Tools and Practices](#741-tools-and-practices)
+    - [7.4.2. Monitoring Pipeline Components](#742-monitoring-pipeline-components)
+    - [7.4.3. Alerting Pipeline Components](#743-alerting-pipeline-components)
+    - [7.4.4. Notification Pipeline Components](#744-notification-pipeline-components)
+- [Capítulo VIII: Experiment-Driven Development](#capítulo-viii-experiment-driven-development)
+  - [8.1. Experiment Planning](#81-experiment-planning)
+    - [8.1.1. As-Is Summary](#811-as-is-summary)
+    - [8.1.2. Raw Material: Assumptions, Knowledge Gaps, Ideas, Claims](#812-raw-material-assumptions-knowledge-gaps-ideas-claims)
+      - [Assumptions](#assumptions)
+      - [Knowledge Gaps](#knowledge-gaps)
+      - [Ideas](#ideas)
+      - [Claims](#claims)
+    - [8.1.3. Experiment-Ready Questions](#813-experiment-ready-questions)
+      - [Aplicación de las Cinco W y una H](#aplicación-de-las-cinco-w-y-una-h)
+      - [Preguntas listas para experimentar](#preguntas-listas-para-experimentar)
+    - [8.1.4. Question Backlog](#814-question-backlog)
+      - [Estructura del backlog: broad y deep](#estructura-del-backlog-broad-y-deep)
+    - [8.1.5. Experiment Cards](#815-experiment-cards)
+      - [EC04 · Panel simplificado de seguimiento (prioridad 1)](#ec04--panel-simplificado-de-seguimiento-prioridad-1)
+      - [EC10 · Landing Page personalizada para demostraciones (prioridad 2)](#ec10--landing-page-personalizada-para-demostraciones-prioridad-2)
+      - [EC06 · Generación asistida de reportes (prioridad 3)](#ec06--generación-asistida-de-reportes-prioridad-3)
+      - [EC07 · Alertas de incidencias críticas (prioridad 4)](#ec07--alertas-de-incidencias-críticas-prioridad-4)
+      - [EC01 · Registro guiado de materiales (prioridad 6)](#ec01--registro-guiado-de-materiales-prioridad-6)
+      - [EC05 · Historial verificable de movimientos (prioridad 7)](#ec05--historial-verificable-de-movimientos-prioridad-7)
+      - [EC02 · Registro rápido de asistencia (prioridad 8)](#ec02--registro-rápido-de-asistencia-prioridad-8)
+      - [EC08 · Borradores sin conexión y sincronización (prioridad 9)](#ec08--borradores-sin-conexión-y-sincronización-prioridad-9)
+      - [EC03 · Tablero de tareas prioritarias (prioridad 11)](#ec03--tablero-de-tareas-prioritarias-prioridad-11)
+      - [EC09 · Guía de primeros pasos por rol (prioridad 12)](#ec09--guía-de-primeros-pasos-por-rol-prioridad-12)
+  - [8.2. Experiment Design](#82-experiment-design)
+    - [8.2.1. Hypotheses](#821-hypotheses)
+      - [H01 · Registro guiado de materiales](#h01--registro-guiado-de-materiales)
+      - [H02 · Registro rápido de asistencia](#h02--registro-rápido-de-asistencia)
+      - [H03 · Tablero de tareas prioritarias](#h03--tablero-de-tareas-prioritarias)
+      - [H04 · Panel simplificado de seguimiento](#h04--panel-simplificado-de-seguimiento)
+      - [H05 · Historial verificable de movimientos](#h05--historial-verificable-de-movimientos)
+      - [H06 · Generación asistida de reportes](#h06--generación-asistida-de-reportes)
+      - [H07 · Alertas de incidencias críticas](#h07--alertas-de-incidencias-críticas)
+      - [H08 · Borradores sin conexión y sincronización](#h08--borradores-sin-conexión-y-sincronización)
+      - [H09 · Guía de primeros pasos por rol](#h09--guía-de-primeros-pasos-por-rol)
+      - [H10 · Landing Page personalizada para demostraciones](#h10--landing-page-personalizada-para-demostraciones)
+    - [8.2.2. Domain Business Metrics](#822-domain-business-metrics)
+      - [Objetivos de negocio](#objetivos-de-negocio)
+      - [Métricas de negocio](#métricas-de-negocio)
+      - [Métricas financieras](#métricas-financieras)
+      - [Parámetro de cálculo](#parámetro-de-cálculo)
+    - [8.2.3. Measures](#823-measures)
+      - [Protocolo común de medición](#protocolo-común-de-medición)
+      - [Matriz de medidas por experimento](#matriz-de-medidas-por-experimento)
+      - [Registro, unidades y trazabilidad de la evidencia](#registro-unidades-y-trazabilidad-de-la-evidencia)
+    - [8.2.4. Conditions](#824-conditions)
+      - [Condiciones de control y experimentales](#condiciones-de-control-y-experimentales)
+      - [Asignación y secuencia de exposición](#asignación-y-secuencia-de-exposición)
+      - [Control de variables y condiciones de validez](#control-de-variables-y-condiciones-de-validez)
+    - [8.2.5. Scale Calculations and Decisions](#825-scale-calculations-and-decisions)
+      - [Criterios para el cálculo de escala](#criterios-para-el-cálculo-de-escala)
+      - [Cálculo por experimento](#cálculo-por-experimento)
+      - [Precisión de las proporciones y tamaño de muestra](#precisión-de-las-proporciones-y-tamaño-de-muestra)
+      - [Dimensionamiento de la comparación de conversión EC10](#dimensionamiento-de-la-comparación-de-conversión-ec10)
+      - [Criterios de análisis y decisiones](#criterios-de-análisis-y-decisiones)
+    - [8.2.6. Methods Selection](#826-methods-selection)
+      - [Métodos seleccionados por experimento](#métodos-seleccionados-por-experimento)
+      - [Procedimiento metodológico común](#procedimiento-metodológico-común)
+      - [Técnicas de análisis y criterios de elección](#técnicas-de-análisis-y-criterios-de-elección)
+    - [8.2.7. Data Analytics: Goals, KPIs and Metrics Selection](#827-data-analytics-goals-kpis-and-metrics-selection)
+      - [Objetivos de analítica y KPIs de negocio](#objetivos-de-analítica-y-kpis-de-negocio)
+      - [Selección y jerarquía de indicadores por experimento](#selección-y-jerarquía-de-indicadores-por-experimento)
+      - [Modelo de datos para el análisis](#modelo-de-datos-para-el-análisis)
+      - [Preparación y calidad de los datos](#preparación-y-calidad-de-los-datos)
+      - [Agregación, visualización e interpretación](#agregación-visualización-e-interpretación)
+    - [8.2.8. Web and Mobile Tracking Plan](#828-web-and-mobile-tracking-plan)
+      - [1. Objetivo y alcance del tracking](#1-objetivo-y-alcance-del-tracking)
+      - [2. Arquitectura y herramientas implementadas](#2-arquitectura-y-herramientas-implementadas)
+      - [3. Esquema compartido de eventos](#3-esquema-compartido-de-eventos)
+      - [4. Matriz de cobertura EC01–EC10](#4-matriz-de-cobertura-ec01ec10)
+      - [5. Eventos Web y sus puntos de captura](#5-eventos-web-y-sus-puntos-de-captura)
+      - [6. Eventos Mobile y sus puntos de captura](#6-eventos-mobile-y-sus-puntos-de-captura)
+      - [7. Integración existente con EC08 y EC10](#7-integración-existente-con-ec08-y-ec10)
+      - [8. Recolección automática y medición manual](#8-recolección-automática-y-medición-manual)
+      - [9. Condiciones A/B y trazabilidad de métricas](#9-condiciones-ab-y-trazabilidad-de-métricas)
+      - [10. Privacidad, consentimiento y controles](#10-privacidad-consentimiento-y-controles)
+      - [11. Procedimientos de prueba y evidencias auténticas](#11-procedimientos-de-prueba-y-evidencias-auténticas)
+      - [12. Limitaciones de la implementación](#12-limitaciones-de-la-implementación)
+  - [8.3. Experimentation](#83-experimentation)
+    - [8.3.1. To-Be User Stories](#831-to-be-user-stories)
+      - [Trazabilidad de las To-Be User Stories](#trazabilidad-de-las-to-be-user-stories)
+      - [TB-HU04 - Panel resumido para contratantes](#tb-hu04---panel-resumido-para-contratantes)
+      - [TB-HU10 - Solicitud de demostración por segmento](#tb-hu10---solicitud-de-demostración-por-segmento)
+      - [TB-HU06 - Elaboración asistida de reportes semanales](#tb-hu06---elaboración-asistida-de-reportes-semanales)
+      - [TB-HU07 - Avisos prioritarios de incidencias críticas](#tb-hu07---avisos-prioritarios-de-incidencias-críticas)
+      - [TB-HU01 - Registro guiado de movimientos de materiales](#tb-hu01---registro-guiado-de-movimientos-de-materiales)
+      - [TB-HU05 - Historial de movimientos con responsable y fecha](#tb-hu05---historial-de-movimientos-con-responsable-y-fecha)
+      - [TB-HU02 - Registro rápido de asistencia por jornada](#tb-hu02---registro-rápido-de-asistencia-por-jornada)
+      - [TB-HU08 - Guardado de borradores y sincronización](#tb-hu08---guardado-de-borradores-y-sincronización)
+      - [TB-HU03 - Identificación de tareas prioritarias](#tb-hu03---identificación-de-tareas-prioritarias)
+      - [TB-HU09 - Guía de primeros pasos según el rol](#tb-hu09---guía-de-primeros-pasos-según-el-rol)
+      - [Correspondencia con la experimentación y el Product Backlog](#correspondencia-con-la-experimentación-y-el-product-backlog)
+    - [8.3.2. To-Be Product Backlog](#832-to-be-product-backlog)
+      - [Product Backlog To-Be priorizado](#product-backlog-to-be-priorizado)
+      - [Criterios de priorización y refinamiento](#criterios-de-priorización-y-refinamiento)
+      - [Organización y seguimiento en Trello](#organización-y-seguimiento-en-trello)
+    - [8.3.3. Pipeline-supported, Experiment-Driven To-Be Software Platform Lifecycle](#833-pipeline-supported-experiment-driven-to-be-software-platform-lifecycle)
+      - [8.3.3.1. To-Be Sprint Backlogs](#8331-to-be-sprint-backlogs)
+        - [Evidencia visual del To-Be Product Backlog](#evidencia-visual-del-to-be-product-backlog)
+      - [8.3.3.2. Implemented To-Be Landing Page Evidence](#8332-implemented-to-be-landing-page-evidence)
+        - [Ajuste posterior: variante B con Landing Page completa](#ajuste-posterior-variante-b-con-landing-page-completa)
+        - [Resultados Landing Page: EC10](#resultados-landing-page-ec10)
+      - [8.3.3.3. Implemented To-Be Frontend-Web Application Evidence](#8333-implemented-to-be-frontend-web-application-evidence)
+        - [Integración posterior de las mejoras To-Be en Frontend Web](#integración-posterior-de-las-mejoras-to-be-en-frontend-web)
+        - [Refinamiento: control global y traducciones ES/EN](#refinamiento-control-global-y-traducciones-esen)
+        - [Resultados Web: EC01–EC07 y EC09](#resultados-web-ec01ec07-y-ec09)
+      - [8.3.3.4. Implemented To-Be Native-Mobile Application Evidence](#8334-implemented-to-be-native-mobile-application-evidence)
+        - [Resultados Mobile: EC08](#resultados-mobile-ec08)
+      - [8.3.3.5. Implemented To-Be RESTful API and/or Serverless Backend Evidence](#8335-implemented-to-be-restful-api-andor-serverless-backend-evidence)
+        - [Trazabilidad de servicios con los experimentos](#trazabilidad-de-servicios-con-los-experimentos)
+        - [Pruebas automatizadas y pipeline de integración](#pruebas-automatizadas-y-pipeline-de-integración)
+        - [Documentación Swagger de la API](#documentación-swagger-de-la-api)
+      - [8.3.3.6. Team Collaboration Insights](#8336-team-collaboration-insights)
+        - [Distribución de commits en Frontend Web](#distribución-de-commits-en-frontend-web)
+        - [Cambios experimentales y documentación académica](#cambios-experimentales-y-documentación-académica)
+      - [Resultados consolidados como insumo para 8.4.1](#resultados-consolidados-como-insumo-para-841)
+        - [Matriz de indicadores M01–M11 y F01–F03](#matriz-de-indicadores-m01m11-y-f01f03)
+        - [Trazabilidad y decisión de cierre](#trazabilidad-y-decisión-de-cierre)
+  - [8.4. Experiment Aftermath & Analysis](#84-experiment-aftermath--analysis)
+    - [8.4.1. Analysis and Interpretation of Results](#841-analysis-and-interpretation-of-results)
+      - [8.4.1.1. Fuentes, unidades y procedimiento de análisis](#8411-fuentes-unidades-y-procedimiento-de-análisis)
+      - [8.4.1.2. Comparación descriptiva de los resultados Web](#8412-comparación-descriptiva-de-los-resultados-web)
+      - [8.4.1.3. Contraste por hipótesis y medidas predefinidas](#8413-contraste-por-hipótesis-y-medidas-predefinidas)
+      - [8.4.1.4. Matriz de medición, incertidumbre y decisión](#8414-matriz-de-medición-incertidumbre-y-decisión)
+      - [8.4.1.5. Amenazas a la validez e implicaciones](#8415-amenazas-a-la-validez-e-implicaciones)
+    - [8.4.2. Re-scored and Re-prioritized Question Backlog](#842-re-scored-and-re-prioritized-question-backlog)
+      - [Preguntas nuevas](#preguntas-nuevas)
+      - [Question Backlog re-puntuado](#question-backlog-re-puntuado)
+      - [Decisiones para la siguiente iteración](#decisiones-para-la-siguiente-iteración)
+  - [8.5. Continuous Learning](#85-continuous-learning)
+    - [8.5.1. Shareback Session Artifacts: Learning Workflow](#851-shareback-session-artifacts-learning-workflow)
+      - [Learning Workflow](#learning-workflow)
+      - [Registro de la sesión de Shareback](#registro-de-la-sesión-de-shareback)
+      - [Aprendizajes y decisiones por experimento](#aprendizajes-y-decisiones-por-experimento)
+      - [Acuerdos y responsables de la siguiente iteración](#acuerdos-y-responsables-de-la-siguiente-iteración)
+- [Conclusiones](#conclusiones)
+  - [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
+- [Bibliografía](#bibliografía)
+- [Anexos](#anexos)
+  - [Anexo A. Videos de Exposiciones](#anexo-a-videos-de-exposiciones)
+    - [AV1 - Avance 1](#av1---avance-1)
+<!-- TOC:END -->
 <div style="page-break-before: always;"></div>
 
 # Student Outcome
@@ -4811,11 +4979,14 @@ Las principales relaciones del modelo son de tipo uno a muchos y muchos a muchos
 | Tabla                | Campos principales                                                                                                                     |
 | -------------------- | -------------------------------------------------------------------------------------------------------------------------------------- |
 | `users`              | `user_id PK`, `email`, `password_hash`, `full_name`, `role`, `created_at`                                                              |
-| `projects`           | `project_id PK`, `name`, `start_date`, `end_date`, `budget`, `status`, `progress`, `created_at`                                        |
+| `projects`           | `project_id PK`, 
+ame`, `start_date`, `end_date`, `budget`, `status`, `progress`, `created_at`                                        |
 | `project_members`    | `project_member_id PK`, `project_id FK`, `user_id FK`, `joined_at`                                                                     |
-| `materials`          | `material_id PK`, `project_id FK`, `name`, `unit`, `current_stock`, `minimum_stock`, `last_updated`                                    |
+| `materials`          | `material_id PK`, `project_id FK`, 
+ame`, `unit`, `current_stock`, `minimum_stock`, `last_updated`                                    |
 | `material_movements` | `movement_id PK`, `material_id FK`, `registered_by_user_id FK`, `type`, `quantity`, `supplier`, `occurred_at`                          |
-| `machineries`        | `machinery_id PK`, `project_id FK`, `name`, `serial_number`, `status`, `description`                                                   |
+| `machineries`        | `machinery_id PK`, `project_id FK`, 
+ame`, `serial_number`, `status`, `description`                                                   |
 | `workers`            | `worker_id PK`, `project_id FK`, `full_name`, `role`, `specialty`, `hire_date`, `active`                                               |
 | `attendances`        | `attendance_id PK`, `worker_id FK`, `date`, `check_in_time`, `check_out_time`, `status`                                                |
 | `tasks`              | `task_id PK`, `project_id FK`, `worker_id FK`, `title`, `description`, `status`, `due_date`, `created_at`                              |
@@ -4893,6 +5064,30 @@ Las pruebas reproducibles del validador cubren un informe minimo valido y una re
 
 ```powershell
 powershell -ExecutionPolicy Bypass -File .\tools\test-validate-report.ps1
+```
+
+##### Generacion reproducible de la tabla de contenido
+
+La tabla de contenido se administra entre los marcadores `TOC:START` y `TOC:END`.
+Para regenerarla a partir de los encabezados Markdown del informe:
+
+```powershell
+powershell -NoProfile -ExecutionPolicy Bypass -File .\tools\generate-toc.ps1 -Mode Generate
+```
+
+Para comprobar que el bloque esta actualizado sin modificar archivos:
+
+```powershell
+powershell -NoProfile -ExecutionPolicy Bypass -File .\tools\generate-toc.ps1 -Mode Verify
+```
+
+El modo `Verify` retorna `0` cuando no hay diferencias, `1` cuando la tabla esta
+desactualizada y `2` ante errores de entrada o del bloque administrado. Las pruebas
+cubren encabezados normales, duplicados, acentos, anidamiento, bloques de codigo y
+contenido desactualizado:
+
+```powershell
+powershell -NoProfile -ExecutionPolicy Bypass -File .\tools\test-generate-toc.ps1
 ```
 
 ### 5.1.2. Source Code Management
@@ -5073,7 +5268,8 @@ Las convenciones se aplican a las tecnologías presentes en los repositorios reu
 #### HTML
 
 - Utilizar HTML5 y su declaración `<!DOCTYPE html>`.
-- Preferir etiquetas semánticas como `header`, `nav`, `main`, `section`, `article` y `footer`.
+- Preferir etiquetas semánticas como `header`, 
+av`, `main`, `section`, `article` y `footer`.
 - Escribir etiquetas y atributos en minúsculas, con valores entre comillas.
 - Incluir atributos de accesibilidad, como `alt` en imágenes y etiquetas asociadas a controles de formulario.
 - Evitar estilos inline cuando puedan mantenerse en los archivos de estilo del componente.
@@ -5202,7 +5398,9 @@ npm run build
 
 <p align="justify">
 
-`npm run build` ejecuta `ng build` y utiliza por defecto la configuración de producción. De forma explícita también puede ejecutarse:
+
+pm run build` ejecuta 
+g build` y utiliza por defecto la configuración de producción. De forma explícita también puede ejecutarse:
 
 </p>
 
@@ -5423,7 +5621,8 @@ Completar los principales flujos pendientes de gestión de obra en ArquiTech, in
 <div style="text-align: justify;">
 <p align="justify">
 
-La Landing Page vigente de ArquiTech se implementa con Angular 20 y TypeScript en el repositorio [ArquiTech-LandingPage](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-LandingPage). Utiliza `ngx-translate` para ofrecer contenido en español e inglés y presenta la propuesta de valor, los beneficios, la explicación del producto, los planes disponibles, el equipo Foundex, preguntas frecuentes, la Política de Privacidad y los Términos y Condiciones.
+La Landing Page vigente de ArquiTech se implementa con Angular 20 y TypeScript en el repositorio [ArquiTech-LandingPage](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-LandingPage). Utiliza 
+gx-translate` para ofrecer contenido en español e inglés y presenta la propuesta de valor, los beneficios, la explicación del producto, los planes disponibles, el equipo Foundex, preguntas frecuentes, la Política de Privacidad y los Términos y Condiciones.
 
 </p>
 </div>
@@ -6055,7 +6254,10 @@ En esta sección se documentan las pruebas automatizadas de ArquiTech, distingui
 <div style="text-align: justify;">
 <p align="justify">
 
-Las pruebas unitarias y de integración se ejecutan con `npm run test:ci` (o `ng test --watch=false --browsers=ChromeHeadlessCI --code-coverage` para obtener la cobertura). La captura actualizada de sistema muestra `npx playwright test` ejecutado desde la carpeta `playwright` del repositorio móvil. El arranque de la aplicación, la URL y el dispositivo configurado deben verificarse en `playwright.config.*`; estos datos no aparecen en la captura.
+Las pruebas unitarias y de integración se ejecutan con 
+pm run test:ci` (o 
+g test --watch=false --browsers=ChromeHeadlessCI --code-coverage` para obtener la cobertura). La captura actualizada de sistema muestra 
+px playwright test` ejecutado desde la carpeta `playwright` del repositorio móvil. El arranque de la aplicación, la URL y el dispositivo configurado deben verificarse en `playwright.config.*`; estos datos no aparecen en la captura.
 
 </p>
 </div>
@@ -6129,7 +6331,8 @@ Las pruebas unitarias verifican las reglas de negocio que viven en las entidades
 | UT-19 | `form validators` | RUC peruano                      | Acepta 11 dígitos con prefijo válido y rechaza formatos inválidos                               | HU01 AC2 · HU29           |
 | UT-20 | `form validators` | Rango de fechas                  | La fecha fin no puede ser anterior a la de inicio                                               | HU09 AC2                  |
 | UT-21 | `form validators` | Cantidad mayor al stock          | `maxStockValidator` rechaza cantidades que superan el stock disponible                          | HU02 AC2                  |
-| UT-22 | `form validators` | Fecha futura                     | `notFutureDateValidator` acepta hoy y rechaza mañana                                            | HU01 · HU05 · HU06 · HU35 |
+| UT-22 | `form validators` | Fecha futura                     | 
+otFutureDateValidator` acepta hoy y rechaza mañana                                            | HU01 · HU05 · HU06 · HU35 |
 | UT-23 | `TableState`      | Orden y paginación               | Ordena alfabéticamente y pagina de 5 en 5                                                       | HU10 · HU28 · HU37        |
 | UT-24 | `TableState`      | Búsqueda sin tildes              | Busca ignorando mayúsculas y tildes                                                             | HU10 · HU28 · HU37        |
 | UT-25 | `TableState`      | Filtros por categoría            | Aplica, cuenta y limpia filtros                                                                 | HU04 · HU37               |
@@ -6333,7 +6536,8 @@ Estas capturas acreditan la ejecución BDD de los dos escenarios de HU02 mostrad
 
 ### 6.1.4. Core System Tests
 
-Las pruebas de sistema documentadas en este apartado se actualizan con la captura aportada por el equipo. La terminal muestra la ejecución de `npx playwright test` desde `ArquiTech-FrontendMobile/playwright`, con **3 pruebas aprobadas, un worker y una duración total de 14,2 segundos**. Esta evidencia sustituye la tabla y las capturas anteriores atribuidas al móvil; sus resultados no se suman a los casos previos.
+Las pruebas de sistema documentadas en este apartado se actualizan con la captura aportada por el equipo. La terminal muestra la ejecución de 
+px playwright test` desde `ArquiTech-FrontendMobile/playwright`, con **3 pruebas aprobadas, un worker y una duración total de 14,2 segundos**. Esta evidencia sustituye la tabla y las capturas anteriores atribuidas al móvil; sus resultados no se suman a los casos previos.
 
 El archivo `mobile-flows.spec.ts` contiene dos escenarios del supervisor. El archivo `smoke.spec.ts` aporta una tercera prueba de apertura. Los dos escenarios visibles comprueban el comportamiento ante datos incorrectos o incompletos y, después, la continuación del flujo con los datos corregidos.
 
@@ -6359,7 +6563,9 @@ _Nota._ Captura de la ejecución de las pruebas con Playwright. La terminal mues
 <div style="text-align: justify;">
 <p align="justify">
 
-Para la Frontend Web Application se implementaron dos pruebas de sistema con Playwright, ejecutadas en Chromium sobre `http://localhost:4200` con el entorno de desarrollo de Angular (API simulada en el navegador y usuarios de demostración). Ambas validan el segundo criterio de aceptación (AC2) de User Stories de registro: la aplicación bloquea un dato inválido, muestra el mensaje correspondiente y luego acepta el dato corregido. Las pruebas se construyeron con la grabadora de la extensión Playwright Test for VS Code y se depuraron manualmente para usar localizadores por rol y aserciones explícitas. Se ejecutan con `npx playwright test`, que levanta la aplicación con `npm start`, o desde el panel Testing de Visual Studio Code.
+Para la Frontend Web Application se implementaron dos pruebas de sistema con Playwright, ejecutadas en Chromium sobre `http://localhost:4200` con el entorno de desarrollo de Angular (API simulada en el navegador y usuarios de demostración). Ambas validan el segundo criterio de aceptación (AC2) de User Stories de registro: la aplicación bloquea un dato inválido, muestra el mensaje correspondiente y luego acepta el dato corregido. Las pruebas se construyeron con la grabadora de la extensión Playwright Test for VS Code y se depuraron manualmente para usar localizadores por rol y aserciones explícitas. Se ejecutan con 
+px playwright test`, que levanta la aplicación con 
+pm start`, o desde el panel Testing de Visual Studio Code.
 
 </p>
 </div>
@@ -6445,11 +6651,17 @@ El análisis se diseñó por tecnología y utilizó primero las herramientas dec
 | Repositorio | Herramienta y versión | Comando ejecutado | Alcance y exclusiones | Resultado verificable |
 | ----------- | --------------------- | ----------------- | --------------------- | --------------------- |
 | Backend | Maven 3.9.16, `javac` release 17 sobre JDK 21.0.13 | `mvn test` | 148 fuentes principales y suite disponible; excluye `.m2`, `target` y binarios | `BUILD SUCCESS`; 7 pruebas, 0 fallos, 0 errores y 0 omitidas. |
-| Frontend Web | Prettier 3.9.9 | `npm exec -- prettier --check "src/**/*.{ts,html,css}" "public/i18n/*.json"` | `src` e internacionalización; excluye `node_modules` y `dist` | Código de salida 1: 162 archivos fuera del formato configurado. |
-| Frontend Web | TypeScript 5.7.3 | `npm exec -- tsc --noEmit -p tsconfig.app.json` | Fuentes incluidas por `tsconfig.app.json` | Código de salida 0, sin diagnósticos de tipado. |
+| Frontend Web | Prettier 3.9.9 | 
+pm exec -- prettier --check "src/**/*.{ts,html,css}" "public/i18n/*.json"` | `src` e internacionalización; excluye 
+ode_modules` y `dist` | Código de salida 1: 162 archivos fuera del formato configurado. |
+| Frontend Web | TypeScript 5.7.3 | 
+pm exec -- tsc --noEmit -p tsconfig.app.json` | Fuentes incluidas por `tsconfig.app.json` | Código de salida 0, sin diagnósticos de tipado. |
 | Frontend Mobile | Flutter 3.47.6, Dart 3.13.5 y `flutter_lints` 6.0.0 | `flutter analyze` | `lib` y `test`; `analysis_options.yaml` excluye `build/**`, `android/**`, `ios/**` y `web/**` | `No issues found`, 47,0 s. La comprobación separada de `dart format` no concluyó y no se atribuye cumplimiento de formato. |
-| Landing Page | TypeScript 5.8.3 | `npm exec -- tsc --noEmit -p tsconfig.app.json` | Fuentes incluidas por `tsconfig.app.json`; excluye `node_modules` y `dist` | Código de salida 0, sin diagnósticos de tipado. |
-| Cuatro aplicaciones | jscpd 4.0.5 | `npx --yes jscpd@4.0.5 ... --min-lines 5 --min-tokens 50 --reporters console` | Java en `src/main`, TypeScript/CSS en `src` y Dart en `lib`; excluye tests, generados, dependencias y compilados según repositorio | Se obtuvieron porcentajes de duplicación por línea; las plantillas HTML no aparecieron en el resumen y no reciben un porcentaje. |
+| Landing Page | TypeScript 5.8.3 | 
+pm exec -- tsc --noEmit -p tsconfig.app.json` | Fuentes incluidas por `tsconfig.app.json`; excluye 
+ode_modules` y `dist` | Código de salida 0, sin diagnósticos de tipado. |
+| Cuatro aplicaciones | jscpd 4.0.5 | 
+px --yes jscpd@4.0.5 ... --min-lines 5 --min-tokens 50 --reporters console` | Java en `src/main`, TypeScript/CSS en `src` y Dart en `lib`; excluye tests, generados, dependencias y compilados según repositorio | Se obtuvieron porcentajes de duplicación por línea; las plantillas HTML no aparecieron en el resumen y no reciben un porcentaje. |
 
 #### 6.2.1.1. Coding standard & Code conventions.
 
@@ -6461,7 +6673,10 @@ En el Backend se observan paquetes Java en minúsculas, clases e interfaces en `
 </p>
 <p align="justify">
 
-El Frontend Web organiza Angular por capacidades (`iam`, `projects`, `inventory`, `workforce`, `reports` y `shared`), emplea archivos en `kebab-case` con sufijos `.component`, `.service`, `.guard` e `.interceptor`, clases en `PascalCase` y miembros en `camelCase`. `.editorconfig` exige UTF-8, espacios de dos caracteres, línea final y eliminación de espacios finales; `.prettierrc.json` añade ancho de 120 caracteres, comillas simples y comas finales. TypeScript activa `strict`, `noImplicitOverride`, `noImplicitReturns`, `noFallthroughCasesInSwitch` y plantillas Angular estrictas. El compilador no produjo diagnósticos, pero Prettier rechazó 162 archivos, por lo que la convención está definida y su cumplimiento actual es parcial.
+El Frontend Web organiza Angular por capacidades (`iam`, `projects`, `inventory`, `workforce`, `reports` y `shared`), emplea archivos en `kebab-case` con sufijos `.component`, `.service`, `.guard` e `.interceptor`, clases en `PascalCase` y miembros en `camelCase`. `.editorconfig` exige UTF-8, espacios de dos caracteres, línea final y eliminación de espacios finales; `.prettierrc.json` añade ancho de 120 caracteres, comillas simples y comas finales. TypeScript activa `strict`, 
+oImplicitOverride`, 
+oImplicitReturns`, 
+oFallthroughCasesInSwitch` y plantillas Angular estrictas. El compilador no produjo diagnósticos, pero Prettier rechazó 162 archivos, por lo que la convención está definida y su cumplimiento actual es parcial.
 
 </p>
 <p align="justify">
@@ -6513,17 +6728,20 @@ La evaluación de calidad combinó duplicación por tokens y líneas, tamaño de
 <div style="text-align: justify;">
 <p align="justify">
 
-La revisión de seguridad verificó el uso de consultas JPQL parametrizadas, validación de entradas, autorización por roles, contraseñas protegidas con BCrypt, JWT firmado y almacenamiento seguro del token en Mobile. Complementariamente, `npm audit` examinó las dependencias de producción de Web y Landing sin aplicar `audit fix`, lo que permitió registrar vulnerabilidades vigentes y acciones de actualización sin alterar las versiones instaladas.
+La revisión de seguridad verificó el uso de consultas JPQL parametrizadas, validación de entradas, autorización por roles, contraseñas protegidas con BCrypt, JWT firmado y almacenamiento seguro del token en Mobile. Complementariamente, 
+pm audit` examinó las dependencias de producción de Web y Landing sin aplicar `audit fix`, lo que permitió registrar vulnerabilidades vigentes y acciones de actualización sin alterar las versiones instaladas.
 
 </p>
 </div>
 
 | Área | Evidencia inspeccionada | Resultado y clasificación | Acción correctiva |
 | ---- | ----------------------- | ------------------------- | ----------------- |
-| Dependencias Web | `npm audit --omit=dev --audit-level=low`; Angular 19.2.25 y DOMPurify 3.4.16 transitivo de jsPDF | **Confirmado:** 8 vulnerabilidades: 3 moderadas, 4 altas y 1 crítica; incluye avisos XSS, filtración/caché, XSRF y bypasses de DOMPurify. | Planificar actualización compatible de Angular, jsPDF/DOMPurify y pruebas de regresión; no aplicar `--force` sin evaluar la migración mayor. |
+| Dependencias Web | 
+pm audit --omit=dev --audit-level=low`; Angular 19.2.25 y DOMPurify 3.4.16 transitivo de jsPDF | **Confirmado:** 8 vulnerabilidades: 3 moderadas, 4 altas y 1 crítica; incluye avisos XSS, filtración/caché, XSRF y bypasses de DOMPurify. | Planificar actualización compatible de Angular, jsPDF/DOMPurify y pruebas de regresión; no aplicar `--force` sin evaluar la migración mayor. |
 | Dependencias Landing | Mismo comando; Angular 20.0.0 | **Confirmado:** 6 vulnerabilidades altas, incluidos avisos XSS, XSRF, DoS y caché. | Actualizar a una versión corregida dentro de una rama revisada y repetir auditoría/build/tests. |
 | SQL Injection | Seis `@Query` JPQL, repositorios Spring Data y búsqueda de `JdbcTemplate`, `EntityManager`, consultas nativas o concatenadas | **Control verificado:** las consultas usan parámetros nombrados y no se encontraron APIs de SQL dinámico en el alcance inspeccionado. | Mantener consultas parametrizadas e incorporar SAST al pipeline. |
-| XSS propio | Búsqueda de `[innerHTML]`, `innerHTML`, `DomSanitizer`, `bypassSecurityTrust*`, `document.write`, `eval` y `new Function` | **Control observado:** no se hallaron sinks propios en Web o Landing. **Hallazgo en dependencias:** npm reporta avisos XSS de Angular y DOMPurify. | Corregir dependencias y conservar plantillas sin bypass de sanitización. |
+| XSS propio | Búsqueda de `[innerHTML]`, `innerHTML`, `DomSanitizer`, `bypassSecurityTrust*`, `document.write`, `eval` y 
+ew Function` | **Control observado:** no se hallaron sinks propios en Web o Landing. **Hallazgo en dependencias:** npm reporta avisos XSS de Angular y DOMPurify. | Corregir dependencias y conservar plantillas sin bypass de sanitización. |
 | Autenticación y roles | Spring Security stateless, `@PreAuthorize`, restricciones por método HTTP, BCrypt, JWT firmado y 111 coincidencias de anotaciones Bean Validation y `@Valid` | **Control presente:** escritura reservada a `SUPERVISOR`, entradas REST validadas, secreto JWT inyectado y contraseñas redactadas en `toString`. | Incorporar pruebas negativas por rol y rotación documentada del secreto; revisar expiración según riesgo. |
 | JWT Web | `SessionService` persiste token y usuario en `localStorage` | **Advertencia potencial:** un XSS exitoso podría leer el token; no es una explotación confirmada. | Evaluar cookie `HttpOnly`, `Secure` y `SameSite` con protección CSRF, o reducir vida/alcance del token y endurecer CSP. |
 | Datos sensibles Mobile | `FlutterSecureStorageService` para JWT y `SharedPreferences` para preferencias | **Control presente:** el token se guarda en almacenamiento seguro y se elimina al cerrar sesión o recibir 401. | Validar configuración nativa de backup/keystore en builds de liberación y evitar logs de credenciales. |
@@ -7464,7 +7682,8 @@ La integración continua se implementa mediante GitHub Actions en los repositori
 
 ### 7.1.1. Tools and Practices
 
-GitHub Actions obtiene el código, prepara las versiones de Node.js, Java o Flutter declaradas por cada repositorio, instala las dependencias y ejecuta las verificaciones antes del build. Node.js utiliza caché de npm, Java utiliza caché de Maven y Flutter habilita su propia caché. El Backend ejecuta Maven Wrapper desde `arquitech-back-end`; los proyectos web usan `npm ci`; y el Frontend Mobile usa `flutter pub get` antes del análisis, las pruebas y la compilación del APK de depuración.
+GitHub Actions obtiene el código, prepara las versiones de Node.js, Java o Flutter declaradas por cada repositorio, instala las dependencias y ejecuta las verificaciones antes del build. Node.js utiliza caché de npm, Java utiliza caché de Maven y Flutter habilita su propia caché. El Backend ejecuta Maven Wrapper desde `arquitech-back-end`; los proyectos web usan 
+pm ci`; y el Frontend Mobile usa `flutter pub get` antes del análisis, las pruebas y la compilación del APK de depuración.
 
 | Producto        | Job principal                      | Herramientas y práctica aplicada                                                                     |
 | --------------- | ---------------------------------- | ---------------------------------------------------------------------------------------------------- |
@@ -7481,10 +7700,16 @@ Los componentes versionados en `.github/workflows/ci.yml` representan cuatro pip
 
 | Producto        | Trigger                          | Entorno                                      | Instalación / preparación                                           | Verificación / tests                                                               | Build                       | Resultado | Evidencia                                                                                                                                                                                                                                                                                                                                         |
 | --------------- | -------------------------------- | -------------------------------------------- | ------------------------------------------------------------------- | ---------------------------------------------------------------------------------- | --------------------------- | --------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Frontend Web    | `push` y `pull_request` a `main` | `ubuntu-latest`, Node.js 20                  | `checkout` y `npm ci` con caché npm                                 | `npm run test:ci`                                                                  | `npm run build`             | SUCCESS   | [PR #3](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendWeb/pull/3), [CI del PR](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendWeb/actions/runs/37579110367) y [CI sobre `main`](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendWeb/actions/runs/37579481119)          |
+| Frontend Web    | `push` y `pull_request` a `main` | `ubuntu-latest`, Node.js 20                  | `checkout` y 
+pm ci` con caché npm                                 | 
+pm run test:ci`                                                                  | 
+pm run build`             | SUCCESS   | [PR #3](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendWeb/pull/3), [CI del PR](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendWeb/actions/runs/37579110367) y [CI sobre `main`](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendWeb/actions/runs/37579481119)          |
 | Backend         | `push` y `pull_request` a `main` | `ubuntu-latest`, Temurin 17                  | `checkout`, caché Maven y `chmod +x ./mvnw` en `arquitech-back-end` | `./mvnw clean verify`, que ejecuta pruebas y verificación del paquete              | Incluido en `clean verify`  | SUCCESS   | [PR #5](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/Arquitech-Backend/pull/5), [CI del PR](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/Arquitech-Backend/actions/runs/37577420741) y [CI sobre `main`](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/Arquitech-Backend/actions/runs/37578056023)                      |
 | Frontend Mobile | `push` y `pull_request` a `main` | `ubuntu-latest`, Flutter 3.47.6 y Temurin 17 | `checkout`, setup de Java y Flutter, y `flutter pub get`            | `flutter analyze` y `flutter test`; Playwright permanece deshabilitado y `SKIPPED` | `flutter build apk --debug` | SUCCESS   | [PR #5](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendMobile/pull/5), [CI del PR](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendMobile/actions/runs/37577424404) y [CI sobre `main`](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendMobile/actions/runs/37578152804) |
-| Landing Page    | `push` y `pull_request` a `main` | `ubuntu-latest`, Node.js 20                  | `checkout` y `npm ci` con caché npm                                 | `npm test -- --watch=false --browsers=ChromeHeadless`                              | `npm run build`             | SUCCESS   | [PR #1](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-LandingPage/pull/1), [CI del PR](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-LandingPage/actions/runs/37577423687) y [CI sobre `main`](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-LandingPage/actions/runs/37578050850)          |
+| Landing Page    | `push` y `pull_request` a `main` | `ubuntu-latest`, Node.js 20                  | `checkout` y 
+pm ci` con caché npm                                 | 
+pm test -- --watch=false --browsers=ChromeHeadless`                              | 
+pm run build`             | SUCCESS   | [PR #1](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-LandingPage/pull/1), [CI del PR](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-LandingPage/actions/runs/37577423687) y [CI sobre `main`](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-LandingPage/actions/runs/37578050850)          |
 
 En el Frontend Web, el commit inicial de CI fue [`851a4bb`](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendWeb/commit/851a4bb01254c822f4b5620196ef36c7b5841e53) y el commit [`33198ba`](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendWeb/commit/33198ba118d13583ed4b312587c20ec277ae5dce) añadió únicamente la configuración `"previews": {}` en `wrangler.jsonc`. Para este último commit finalizaron satisfactoriamente tanto el job `Test and build` como el check `Workers Builds: arquitech-frontendweb`. Después del merge, el commit [`ef847113`](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendWeb/commit/ef8471131bac9e345e524dba1bd461519e779d92) volvió a activar GitHub Actions por el `push` a `main` y el job `Test and build` concluyó con éxito.
 
@@ -7508,7 +7733,10 @@ Los stages documentados a continuación corresponden a ejecuciones y configuraci
 
 | Producto        | Stages implementados y evidencia                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       | Estado                    | Limitación conservada                                                                                                                                                                                               |
 | --------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Frontend Web    | El Pull Request activa dos comprobaciones independientes: **GitHub Actions:** `npm ci` → `npm run test:ci` → `npm run build` → SUCCESS; y **Cloudflare Workers Builds:** build → Preview Deployment aislado → SUCCESS. Después de la revisión del cambio se realiza el merge a `main`. El commit [`33198ba`](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendWeb/commit/33198ba118d13583ed4b312587c20ec277ae5dce) obtuvo [CI exitoso](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendWeb/actions/runs/37579110367) y [Workers Build exitoso](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendWeb/runs/112654763477). Cloudflare registró el preview [`4db70589-arquitech-frontendweb.echacaliazaminaya.workers.dev`](https://4db70589-arquitech-frontendweb.echacaliazaminaya.workers.dev) en el [PR #3](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendWeb/pull/3). | Implementado              | GitHub Actions y Cloudflare Workers Builds son procesos disparados por el mismo Pull Request; no existe una dependencia secuencial entre ambos. El preview es un entorno temporal y no se presenta como producción. |
+| Frontend Web    | El Pull Request activa dos comprobaciones independientes: **GitHub Actions:** 
+pm ci` → 
+pm run test:ci` → 
+pm run build` → SUCCESS; y **Cloudflare Workers Builds:** build → Preview Deployment aislado → SUCCESS. Después de la revisión del cambio se realiza el merge a `main`. El commit [`33198ba`](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendWeb/commit/33198ba118d13583ed4b312587c20ec277ae5dce) obtuvo [CI exitoso](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendWeb/actions/runs/37579110367) y [Workers Build exitoso](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendWeb/runs/112654763477). Cloudflare registró el preview [`4db70589-arquitech-frontendweb.echacaliazaminaya.workers.dev`](https://4db70589-arquitech-frontendweb.echacaliazaminaya.workers.dev) en el [PR #3](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendWeb/pull/3). | Implementado              | GitHub Actions y Cloudflare Workers Builds son procesos disparados por el mismo Pull Request; no existe una dependencia secuencial entre ambos. El preview es un entorno temporal y no se presenta como producción. |
 | Backend         | Source → Pull Request → `./mvnw clean verify` en GitHub Actions → merge a `main` → nueva verificación. La [corrida del PR](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/Arquitech-Backend/actions/runs/37577420741) y la [corrida sobre `main`](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/Arquitech-Backend/actions/runs/37578056023) finalizaron correctamente.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  | Implementado parcialmente | No existe un entorno de staging o Railway Preview verificado, ni una base de datos de staging documentada. Railway auto deploy pertenece al despliegue de producción y se describe en 7.3.                          |
 | Frontend Mobile | Source → Pull Request → `flutter analyze` → `flutter test` → `flutter build apk --debug`. El merge `3ceed28a` produjo una [corrida exitosa sobre `main`](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendMobile/actions/runs/37578152804).                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     | Implementado parcialmente | No se publica un artifact persistente, no existe deployment a una tienda y Playwright permanece deshabilitado por requerir un Backend aislado y datos deterministas.                                                |
 | Landing Page    | Source → Pull Request → pruebas en ChromeHeadless → build. El merge `844f69d4` produjo una [corrida CI exitosa sobre `main`](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-LandingPage/actions/runs/37578050850).                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    | Implementado parcialmente | El workflow `ci.yml` no contiene un stage de deployment. La publicación verificada en GitHub Pages se registra por separado en 7.3 y no se atribuye a este workflow.                                                |
@@ -7531,7 +7759,12 @@ La Landing Page cuenta con un registro exitoso de `pages build and deployment` a
 
 | Producto        | Pipeline de producción o alcance actual                                                                                                                                                                                                                                       | Evidencia                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            | Limitación                                                                                                                                                                                                     |
 | --------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Frontend Web    | El mismo merge/push a `main` activa de forma independiente dos procesos: **GitHub Actions CI:** `npm ci` → `npm run test:ci` → `npm run build` → SUCCESS; y **Cloudflare Workers Builds:** Cloudflare build → `npm run build` → `npx wrangler deploy` → producción → SUCCESS. | El merge [`ef847113`](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendWeb/commit/ef8471131bac9e345e524dba1bd461519e779d92) obtuvo [CI exitoso](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendWeb/actions/runs/37579481119) y [Workers Build exitoso](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendWeb/runs/112656056986). La aplicación se encuentra publicada en [`arquitech-frontendweb.echacaliazaminaya.workers.dev`](https://arquitech-frontendweb.echacaliazaminaya.workers.dev). | GitHub Actions y Cloudflare Workers Builds fueron exitosos para el mismo commit, pero no existe una dependencia secuencial entre ambos; tampoco se extiende esta evidencia a una política general de rollback. |
+| Frontend Web    | El mismo merge/push a `main` activa de forma independiente dos procesos: **GitHub Actions CI:** 
+pm ci` → 
+pm run test:ci` → 
+pm run build` → SUCCESS; y **Cloudflare Workers Builds:** Cloudflare build → 
+pm run build` → 
+px wrangler deploy` → producción → SUCCESS. | El merge [`ef847113`](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendWeb/commit/ef8471131bac9e345e524dba1bd461519e779d92) obtuvo [CI exitoso](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendWeb/actions/runs/37579481119) y [Workers Build exitoso](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendWeb/runs/112656056986). La aplicación se encuentra publicada en [`arquitech-frontendweb.echacaliazaminaya.workers.dev`](https://arquitech-frontendweb.echacaliazaminaya.workers.dev). | GitHub Actions y Cloudflare Workers Builds fueron exitosos para el mismo commit, pero no existe una dependencia secuencial entre ambos; tampoco se extiende esta evidencia a una política general de rollback. |
 | Backend         | Cambio en `main` del repositorio conectado → Railway auto deploy.                                                                                                                                                                                                             | La configuración de Railway identifica `main` como production branch y muestra el auto deploy activado; las Figuras 111 y 112 conservan esta evidencia.                                                                                                                                                                                                                                                                                                                                                                                                              | **Wait for CI está desactivado**: Railway no espera obligatoriamente a que GitHub Actions finalice correctamente antes de desplegar. No se acredita un staging separado.                                       |
 | Landing Page    | Publicación existente mediante `pages build and deployment` desde `gh-pages`.                                                                                                                                                                                                 | [Corrida 37563025123](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-LandingPage/actions/runs/37563025123), asociada al commit [`0b2b0fff`](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-LandingPage/commit/0b2b0fff).                                                                                                                                                                                                                                                                                                           | No existe evidencia de que el workflow CI añadido recientemente despliegue en GitHub Pages ni de que el merge `844f69d4` haya sido publicado por ese workflow.                                                 |
 | Frontend Mobile | El pipeline termina en la validación y compilación mediante `flutter build apk --debug`.                                                                                                                                                                                      | [Corrida 37578152804](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendMobile/actions/runs/37578152804).                                                                                                                                                                                                                                                                                                                                                                                                                                      | Continuous Deployment no implementado: no se publica el APK como artifact persistente ni se despliega a una tienda.                                                                                            |
@@ -7602,7 +7835,8 @@ _Nota._ Elaboración propia a partir de la comprobación del endpoint desplegado
 <div style="text-align: justify;">
 <p align="justify">
 
-El workflow independiente `.github/workflows/continuous-monitoring.yml` utiliza GitHub Actions y Node.js 20. La lógica se implementó con APIs estándar de Node (`fetch`, `node:test` y servidor HTTP local), sin dependencias npm permanentes. El evento `schedule` se configura cada quince minutos y `workflow_dispatch` permite una ejecución manual. El monitor y la gestión del incidente comparten el archivo relativo `monitor-results.json`, resuelto en el workspace del job; esta ruta evita evaluar el contexto `runner` antes de que GitHub asigne un runner. La programación de GitHub Actions opera en UTC y puede experimentar demoras de plataforma, por lo que la frecuencia representa el intervalo solicitado y no un SLA de ejecución en tiempo real.
+El workflow independiente `.github/workflows/continuous-monitoring.yml` utiliza GitHub Actions y Node.js 20. La lógica se implementó con APIs estándar de Node (`fetch`, 
+ode:test` y servidor HTTP local), sin dependencias npm permanentes. El evento `schedule` se configura cada quince minutos y `workflow_dispatch` permite una ejecución manual. El monitor y la gestión del incidente comparten el archivo relativo `monitor-results.json`, resuelto en el workspace del job; esta ruta evita evaluar el contexto `runner` antes de que GitHub asigne un runner. La programación de GitHub Actions opera en UTC y puede experimentar demoras de plataforma, por lo que la frecuencia representa el intervalo solicitado y no un SLA de ejecución en tiempo real.
 
 </p>
 </div>
@@ -7613,7 +7847,8 @@ El workflow independiente `.github/workflows/continuous-monitoring.yml` utiliza 
 | Spring Security | Matcher público exacto para `/actuator/health` | Permite la consulta técnica sin ampliar el acceso a endpoints de negocio o a otros endpoints Actuator. |
 | GitHub Actions | Workflow `continuous-monitoring.yml`, separado de `ci.yml`, con resultado compartido en `monitor-results.json` | Ejecuta comprobaciones programadas o manuales sin reemplazar el pipeline de construcción ni depender de un contexto no disponible en el `env` del job. |
 | Node.js 20 | `monitor-endpoints.mjs` | Realiza solicitudes con timeout, registra HTTP, latencia, errores e intentos y genera JSON y Job Summary. |
-| `node:test` | `monitor-endpoints.test.mjs` | Comprueba éxito, error HTTP, timeout, reintento con recuperación y transiciones de incidentes mediante servidores locales. |
+| 
+ode:test` | `monitor-endpoints.test.mjs` | Comprueba éxito, error HTTP, timeout, reintento con recuperación y transiciones de incidentes mediante servidores locales. |
 | GitHub Issues | Label `availability-incident` y título estable | Mantiene un registro auditable del incidente, evita duplicados y documenta la recuperación. |
 
 | Variable de repositorio | Valor predeterminado | Uso |
@@ -7638,7 +7873,8 @@ El flujo implementado es `schedule/workflow_dispatch → pruebas de la lógica �
 | Componente | Entrada | Procesamiento | Salida verificable |
 | ---------- | ------- | ------------- | ------------------ |
 | Disparador | Cron `*/15 * * * *` o ejecución manual | Inicia un único job; `concurrency` evita solapamientos del monitor | Corrida identificable en GitHub Actions. |
-| Pruebas previas | Scripts locales del monitor | Ejecuta `node --test .github/scripts/monitor-endpoints.test.mjs` | La comprobación de endpoints solo continúa si la lógica supera sus pruebas. |
+| Pruebas previas | Scripts locales del monitor | Ejecuta 
+ode --test .github/scripts/monitor-endpoints.test.mjs` | La comprobación de endpoints solo continúa si la lógica supera sus pruebas. |
 | Comprobación Backend | URL de `/actuator/health` | GET con timeout, reintentos, validación HTTP y `status: UP` | Estado, HTTP, latencia, cantidad de intentos y error, si corresponde. |
 | Comprobación Web/Landing | URL pública configurable | GET con redirect habilitado, timeout y reintentos | Estado, HTTP, latencia, cantidad de intentos y error, si corresponde. |
 | Registro | Resultados de todos los destinos | Escribe `monitor-results.json` en el workspace, además de la consola y la tabla en `GITHUB_STEP_SUMMARY` | Evidencia compartida con el paso de incidentes sin incluir credenciales ni valores de configuración privados. |
@@ -7647,9 +7883,11 @@ El flujo implementado es `schedule/workflow_dispatch → pruebas de la lógica �
 | Verificación realizada el 09/11/2026 | Resultado | Alcance |
 | ------------------------------------- | --------- | ------- |
 | `actionlint 1.7.12 .github/workflows/continuous-monitoring.yml` | Código de salida 0; archivo válido | Validación de sintaxis, expresiones y contextos después de reemplazar `${{ runner.temp }}` por `monitor-results.json`; el binario temporal se verificó con el SHA-256 oficial. |
-| `node --test .github/scripts/monitor-endpoints.test.mjs` con Node.js 24.19.0 local | 5 aprobadas, 0 fallidas, 431,1631 ms | Servidores locales para respuesta saludable, HTTP 503, timeout, recuperación en el segundo intento y política de incidentes. |
+| 
+ode --test .github/scripts/monitor-endpoints.test.mjs` con Node.js 24.19.0 local | 5 aprobadas, 0 fallidas, 431,1631 ms | Servidores locales para respuesta saludable, HTTP 503, timeout, recuperación en el segundo intento y política de incidentes. |
 | `mvn test` con Maven 3.9.16, JDK 21.0.13 y compilación release 17 | Código de salida 0; 9 pruebas, 0 fallos, 0 errores y 0 omitidas | Siete pruebas de integración y dos pruebas de exposición y respuesta mínima de Actuator; tiempo agregado de las suites Surefire: 19,180 s. |
-| [GitHub Actions, ejecución 42637273053](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/Arquitech-Backend/actions/runs/42637273053) | `Success`; rama `main`, commit `d29eaa4`, evento `workflow_dispatch`; job `Check public availability` aprobado | Backend HTTP 200 en 159 ms; Frontend Web HTTP 200 en 92 ms; Landing Page HTTP 200 en 138 ms; un intento por destino y acción de incidentes `noop`. |
+| [GitHub Actions, ejecución 42637273053](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/Arquitech-Backend/actions/runs/42637273053) | `Success`; rama `main`, commit `d29eaa4`, evento `workflow_dispatch`; job `Check public availability` aprobado | Backend HTTP 200 en 159 ms; Frontend Web HTTP 200 en 92 ms; Landing Page HTTP 200 en 138 ms; un intento por destino y acción de incidentes 
+oop`. |
 | Monitor local contra Web y Landing, un intento y timeout de 10000 ms | Web HTTP 200 en 637 ms; Landing HTTP 200 en 341 ms | Observación puntual de disponibilidad pública a las `2026-11-09T07:32:03.204Z`; no constituye histórico ni SLA. |
 
 **Figura 117**<br>
@@ -7684,7 +7922,8 @@ La política de deduplicación utiliza un único Issue abierto con el label `ava
 </p>
 <p align="justify">
 
-En la ejecución 42637273053, los tres servicios respondieron satisfactoriamente y no existía un incidente abierto; por ello, la política seleccionó la acción `noop` y no creó ni modificó Issues.
+En la ejecución 42637273053, los tres servicios respondieron satisfactoriamente y no existía un incidente abierto; por ello, la política seleccionó la acción 
+oop` y no creó ni modificó Issues.
 
 </p>
 </div>
@@ -7694,7 +7933,8 @@ En la ejecución 42637273053, los tres servicios respondieron satisfactoriamente
 | Fallo | No | `open` | Crea un Issue con evidencia JSON y enlace a la corrida. |
 | Fallo | Sí | `suppress` | Conserva el Issue existente y suprime la notificación duplicada. |
 | Éxito | Sí | `recover` | Añade comentario de recuperación con evidencia y cierra el Issue. |
-| Éxito | No | `noop` | No crea ni modifica Issues. |
+| Éxito | No | 
+oop` | No crea ni modifica Issues. |
 
 ### 7.4.4. Notification Pipeline Components
 
@@ -7706,7 +7946,8 @@ GitHub Issues funciona como registro persistente y mecanismo de notificación. E
 </p>
 <p align="justify">
 
-La ejecución manual 42637273053 confirmó que el paso de gestión de incidentes finaliza correctamente cuando corresponde la acción `noop`. Las transiciones `open`, `suppress` y `recover` permanecen cubiertas por las pruebas automatizadas locales, aunque todavía no cuentan con evidencia de un ciclo real de incidente remoto. No se requieren webhooks ni credenciales externas para el mecanismo implementado.
+La ejecución manual 42637273053 confirmó que el paso de gestión de incidentes finaliza correctamente cuando corresponde la acción 
+oop`. Las transiciones `open`, `suppress` y `recover` permanecen cubiertas por las pruebas automatizadas locales, aunque todavía no cuentan con evidencia de un ciclo real de incidente remoto. No se requieren webhooks ni credenciales externas para el mecanismo implementado.
 
 </p>
 </div>
@@ -8770,7 +9011,10 @@ El contrato de seguimiento aplica controles de privacidad por diseño verificado
 
 </p>
 
-1. **Exclusión de identificadores personales y de negocio.** El validador (`validateExperimentEvent` en TypeScript y `ExperimentEvent.validateExperimentEventJson` en Dart) rechaza cualquier objeto que contenga claves prohibidas (`userId`, `user_id`, `projectId`, `project_id`, `materialId`, `material_id`, `workerId`, `name`, `fullName`, `supplier`, `email`, `password`, `jwt`, `token`, `authorization`, `body`, `payload`, `note`, `notes`, `description`, `errorMessage`, `company`, `budget`, `price`, `cost`, `outcome_correct` o `help_requested`), así como cualquier valor de texto con formato de correo electrónico o token JWT (`eyJ...`).
+1. **Exclusión de identificadores personales y de negocio.** El validador (`validateExperimentEvent` en TypeScript y `ExperimentEvent.validateExperimentEventJson` en Dart) rechaza cualquier objeto que contenga claves prohibidas (`userId`, `user_id`, `projectId`, `project_id`, `materialId`, `material_id`, `workerId`, 
+ame`, `fullName`, `supplier`, `email`, `password`, `jwt`, `token`, `authorization`, `body`, `payload`, 
+ote`, 
+otes`, `description`, `errorMessage`, `company`, `budget`, `price`, `cost`, `outcome_correct` o `help_requested`), así como cualquier valor de texto con formato de correo electrónico o token JWT (`eyJ...`).
 2. **Sesiones efímeras en memoria.** El identificador `session_id` (`sess-<hex>`) se genera aleatoriamente en memoria al instanciar el servicio y se descarta al cerrar la pestaña o la aplicación. No se almacenan identificadores de telemetría de personas en `localStorage` ni en `SharedPreferences`.
 3. **Desactivación por defecto en producción.** En Web, el seguimiento está deshabilitado cuando `environment.production` es `true`; en Mobile, permanece deshabilitado mientras no se compile explícitamente con `--dart-define=EXPERIMENT_TRACKING_ENABLED=true`.
 4. **Protección del entorno productivo.** El Workbench Web bloquea las escrituras cuando `useMockApi` es `false` (`readOnlyEnvironment = !environment.useMockApi`), y las pruebas de Mobile utilizan repositorios simulados en memoria sin ejecutar mutaciones contra el servicio productivo desplegado en Railway.
@@ -8780,15 +9024,20 @@ El contrato de seguimiento aplica controles de privacidad por diseño verificado
 
 <p align="justify">
 
-La implementación del plan de seguimiento se comprobó mediante suites automatizadas en ambos repositorios cliente, cubriendo los quince criterios de verificación técnica: validez del esquema `"1.0"`, correspondencia exacta de `EC`/`Q`/`metric_ids`, emisión por interacción real en componentes y widgets, correlación 1 a 1 entre inicio y desenlace por `attempt_id`, éxito de API, rechazo de validación (incluyendo `insufficient_stock`), error de API, ausencia de eventos duplicados ante llamadas repetidas, ausencia de emisiones durante renders o `build()`, asignación correcta de condición `A`/`B` independiente de `ExperimentModeService`, duración monotónica no negativa, rechazo de datos sensibles, comportamiento `no-op` cuando el seguimiento está desactivado, tolerancia a fallos cuando un `Sink` lanza excepciones y compatibilidad cruzada del formato JSON/JSONL entre Web y Mobile.
+La implementación del plan de seguimiento se comprobó mediante suites automatizadas en ambos repositorios cliente, cubriendo los quince criterios de verificación técnica: validez del esquema `"1.0"`, correspondencia exacta de `EC`/`Q`/`metric_ids`, emisión por interacción real en componentes y widgets, correlación 1 a 1 entre inicio y desenlace por `attempt_id`, éxito de API, rechazo de validación (incluyendo `insufficient_stock`), error de API, ausencia de eventos duplicados ante llamadas repetidas, ausencia de emisiones durante renders o `build()`, asignación correcta de condición `A`/`B` independiente de `ExperimentModeService`, duración monotónica no negativa, rechazo de datos sensibles, comportamiento 
+o-op` cuando el seguimiento está desactivado, tolerancia a fallos cuando un `Sink` lanza excepciones y compatibilidad cruzada del formato JSON/JSONL entre Web y Mobile.
 
 </p>
 
 | Repositorio | Comando ejecutado | Archivo de prueba o script verificado | Resultado comprobado |
 | ----------- | ----------------- | ------------------------------------- | -------------------- |
-| `ArquiTech-FrontendWeb` | `npm run build` | Compilación de producción Angular 19 (`ng build`) | Compilación exitosa sin errores de tipos ni advertencias de presupuesto en los módulos instrumentados. |
-| `ArquiTech-FrontendWeb` | `npm run test:ci` | [`experiment-tracking.service.spec.ts`](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendWeb/blob/be091d5ee22c5825cf8df5451ab2af5f5373b030/src/app/experiments/tracking/experiment-tracking.service.spec.ts) junto con la suite unitaria de Karma/ChromeHeadlessCI | Ejecución satisfactoria de las 46 pruebas unitarias del contrato, destinos en memoria, aislamiento de errores e instrumentación real de `EC01` (`A`/`B`) y `EC04` (`A`/`B`). |
-| `ArquiTech-FrontendWeb` | `npm run experiments:validate` | [`experiments/scripts/validate-plan.mjs`](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendWeb/blob/be091d5ee22c5825cf8df5451ab2af5f5373b030/experiments/scripts/validate-plan.mjs) | Validación estructural de los 28 perfiles sintéticos y las 10 configuraciones experimentales (`recorded_results: 0`, sin confundir configuración sintética con resultados humanos). |
+| `ArquiTech-FrontendWeb` | 
+pm run build` | Compilación de producción Angular 19 (
+g build`) | Compilación exitosa sin errores de tipos ni advertencias de presupuesto en los módulos instrumentados. |
+| `ArquiTech-FrontendWeb` | 
+pm run test:ci` | [`experiment-tracking.service.spec.ts`](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendWeb/blob/be091d5ee22c5825cf8df5451ab2af5f5373b030/src/app/experiments/tracking/experiment-tracking.service.spec.ts) junto con la suite unitaria de Karma/ChromeHeadlessCI | Ejecución satisfactoria de las 46 pruebas unitarias del contrato, destinos en memoria, aislamiento de errores e instrumentación real de `EC01` (`A`/`B`) y `EC04` (`A`/`B`). |
+| `ArquiTech-FrontendWeb` | 
+pm run experiments:validate` | [`experiments/scripts/validate-plan.mjs`](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendWeb/blob/be091d5ee22c5825cf8df5451ab2af5f5373b030/experiments/scripts/validate-plan.mjs) | Validación estructural de los 28 perfiles sintéticos y las 10 configuraciones experimentales (`recorded_results: 0`, sin confundir configuración sintética con resultados humanos). |
 | `ArquiTech-FrontendMobile` | `flutter analyze` | Análisis estático completo del proyecto Dart/Flutter sobre `origin/main` integrado | 0 problemas reportados (`No issues found!`). |
 | `ArquiTech-FrontendMobile` | `flutter test` | [`experiment_tracker_test.dart`](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendMobile/blob/5d2614e56c78d48b25b24691e76254cfe6ad5140/test/core/experiments/experiment_tracker_test.dart) junto con las suites de `EC08` y toda la suite móvil | Ejecución satisfactoria de las 114 pruebas unitarias y de widgets (incluyendo tracking `EC01`/`EC04`, persistencia e idempotencia de `EC08` y enlaces legales) sin llamadas a Railway. |
 
