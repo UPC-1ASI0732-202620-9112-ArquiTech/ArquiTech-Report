@@ -311,6 +311,8 @@ _Commits realizados durante la entrega TB1_
     - [6.2.1.1. Coding standard & Code conventions.](#6211-coding-standard--code-conventions)
     - [6.2.1.2. Code Quality & Code Security.](#6212-code-quality--code-security)
   - [6.2.2. Reviews](#622-reviews)
+  - - [6.3. Validation Interviews](#63-validation-interviews)
+  - [6.3.1. Diseño de Entrevistas](#631-diseño-de-entrevistas)
 
 ### [Capítulo VII: DevOps Practices](#capítulo-vii-devops-practices)
 
@@ -6544,6 +6546,173 @@ No se encontraron aprobaciones ni observaciones técnicas humanas verificables e
 
 </p>
 </div>
+
+## 6.3. Validation Interviews
+
+### 6.3.1. Diseño de Entrevistas
+
+<p align="justify">
+
+Las entrevistas de validación tienen como objetivo comprobar si los productos de ArquiTech permiten a los dos segmentos objetivo, supervisores de obra y contratantes de empresas privadas, realizar las tareas que dieron origen a la solución. En la etapa de Needfinding (sección 2.2) se exploraron los procesos actuales y los puntos de dolor. En esta etapa, en cambio, los participantes interactúan directamente con el Landing Page, la Frontend Web Application y la aplicación móvil, mientras el equipo observa si logran completar cada tarea, dónde se detienen y cómo perciben la utilidad y la confiabilidad de la información.
+
+</p>
+
+<p align="justify">
+
+Cada sesión combina tres momentos: una conversación breve de contexto, la ejecución de tareas guiadas por escenarios basados en los user flows definidos en las secciones 4.4.4 y 4.6.4, y preguntas de cierre sobre la experiencia. Durante las tareas se pide al participante que piense en voz alta (think-aloud) y el entrevistador evita explicar cómo completarlas, salvo que el participante quede bloqueado. Los resultados alimentan la evaluación según heurísticas de la sección 6.3.3 y permiten contrastar los Hypothesis Statements de la sección 1.2.2.3.
+
+</p>
+
+#### Organización de las sesiones
+
+| Aspecto | Definición |
+| --- | --- |
+| **Participantes** | De 3 a 5 por segmento objetivo, distintos a los entrevistados en Needfinding cuando sea posible. |
+| **Criterios de selección** | Supervisores, residentes, jefes o asistentes de obra con experiencia en obras en Lima Metropolitana (segmento 1). Empresarios, administradores, propietarios o representantes de empresas privadas que hayan contratado al menos una obra (segmento 2). |
+| **Modalidad** | Presencial o virtual (Microsoft Teams o Google Meet) con pantalla compartida. |
+| **Duración estimada** | De 30 a 40 minutos por participante. |
+| **Registro** | Grabación en video con consentimiento previo, para subirla a Microsoft Stream e indicar en la sección 6.3.2 el inicio y la duración de cada entrevista. |
+| **Roles del equipo** | Un entrevistador conduce la sesión y lee los escenarios; un observador toma notas, mide los tiempos y registra los errores de cada tarea. |
+| **Entorno** | Versiones desplegadas: Landing Page en GitHub Pages, Frontend Web Application en Cloudflare Workers y APK distribuido mediante Firebase App Distribution, conectados al Backend en Railway. |
+| **Datos de prueba** | Cuentas demo de Supervisor y Contratante con una obra precargada (materiales, trabajadores, tareas, asistencia e incidentes), para que el participante no tenga que crear todo desde cero. Los datos se restablecen antes de cada sesión. |
+
+#### Elementos a incluir en la sesión de validación
+
+| Producto | Segmento 1: Supervisores de obra | Segmento 2: Contratantes de empresas privadas |
+| --- | --- | --- |
+| **Landing Page** | Comprensión de la propuesta de valor, beneficios para el supervisor, plan de servicio y acceso a la aplicación. | Comprensión de la propuesta de valor, visibilidad que ofrece al contratante, plan de servicio y datos de contacto. |
+| **Frontend Web Application** | Gestión de materiales, trabajadores, asistencia, tareas, incidentes y reporte semanal. | Consulta de obras, avance, maquinaria, consumo de materiales, incidentes y reporte semanal en modo solo lectura. |
+| **Aplicación móvil** | Consulta de materiales, trabajadores e incidentes desde el celular. | Consulta del estado de las obras y de la maquinaria desde el celular. |
+
+#### User flows que forman parte de la validación
+
+| Segmento | User flow | Producto | Hypothesis Statement relacionado |
+| --- | --- | --- | --- |
+| Supervisores de obra | Gestionar y controlar materiales de construcción (Figuras 56 y 76) | Web y móvil | HS1 Gestión de materiales e inventario |
+| Supervisores de obra | Controlar la asistencia y roles de los trabajadores (Figuras 57 y 77) | Web y móvil | HS2 Gestión de trabajadores, HS3 Seguimiento de actividades |
+| Supervisores de obra | Reportar y consultar incidencias en obra (Figuras 58 y 78) | Web y móvil | HS7 Alertas sobre eventos relevantes |
+| Contratantes | Visualizar el estado y progreso de las obras contratadas (Figuras 59 y 79) | Web y móvil | HS4 Consulta del estado de la obra |
+| Contratantes | Visualizar el uso y estado de la maquinaria asignada (Figuras 60 y 80) | Web y móvil | HS4 Consulta del estado de la obra |
+| Contratantes | Ver el consumo de materiales y los reportes de avance (Figura 81) | Web | HS5 Trazabilidad, HS6 Generación de reportes |
+
+#### Indicadores registrados por tarea
+
+<p align="justify">
+
+Para cada tarea el observador registra los mismos indicadores, de modo que los resultados puedan compararse entre participantes y segmentos:
+
+</p>
+
+- **Resultado:** completada sin ayuda, completada con ayuda o no completada.
+- **Tiempo:** desde que se termina de leer el escenario hasta que el participante indica que terminó.
+- **Errores y dudas:** clics en opciones equivocadas, regresos, mensajes de error y preguntas al entrevistador.
+- **Facilidad percibida:** al terminar cada tarea, el participante califica de 1 (muy difícil) a 7 (muy fácil) qué tan fácil le resultó (Single Ease Question).
+- **Comentarios:** frases relevantes dichas durante el think-aloud.
+
+#### Guion de la sesión
+
+**Apertura (para ambos segmentos)**
+
+<p align="justify">
+
+El entrevistador se presenta, explica que la sesión forma parte de un trabajo académico de la UPC y que se evalúa el producto, no al participante. Luego solicita el consentimiento para grabar en video, pide que comparta su pantalla (en modalidad virtual) y le recuerda que puede expresar en voz alta lo que piensa, espera o le genera dudas mientras usa la aplicación.
+
+</p>
+
+- ¿Cuál es su nombre y apellido?
+- ¿Cuántos años tiene?
+- ¿En qué distrito reside?
+- ¿Cuál es su ocupación o cargo actual y cuántos años de experiencia tiene en el sector construcción o contratando obras?
+- ¿Qué herramientas utiliza actualmente para registrar o consultar la información de una obra?
+- ¿Qué dispositivo usa con más frecuencia para esas actividades: celular, laptop o tablet?
+
+#### Segmento objetivo #1: Supervisores de obra
+
+**Landing Page**
+
+| # | Escenario que se lee al participante | Qué se observa |
+| --- | --- | --- |
+| L1 | "Observe esta página durante unos segundos. Sin seguir navegando, cuénteme qué ofrece ArquiTech y para quién está pensado." | Comprensión de la propuesta de valor en el primer vistazo. |
+| L2 | "Usted supervisa una obra y quiere saber cómo ArquiTech le ayudaría con el control de materiales y personal. Busque esa información." | Facilidad para encontrar los beneficios para el supervisor. |
+| L3 | "Ahora quiere saber cuánto cuesta el servicio y cómo contactar a ArquiTech." | Ubicación del plan de servicio y de los datos de contacto. |
+| L4 | "Decide probar la plataforma. Ingrese a la aplicación desde esta página." | Identificación del acceso a la aplicación web. |
+
+**Frontend Web Application**
+
+| # | Escenario que se lee al participante | User flow |
+| --- | --- | --- |
+| W1 | "Inicie sesión con la cuenta de supervisor que le entregamos y entre a la obra asignada." | Acceso y selección de proyecto |
+| W2 | "Llegó una compra de 200 bolsas de cemento. Registre el material en el inventario de la obra." | UF1: Materiales |
+| W3 | "Hoy se usaron 30 varillas de fierro corrugado. Registre esa salida e identifique qué materiales están por debajo del stock mínimo." | UF1: Materiales |
+| W4 | "Registre la asistencia de hoy de los trabajadores y revise quién llegó tarde ayer." | UF2: Trabajadores y asistencia |
+| W5 | "Asigne a un trabajador la tarea 'Encofrado de columnas del piso 4' con fecha límite el viernes, y luego marque como completada una tarea pendiente." | UF2: Trabajadores y tareas |
+| W6 | "Se malogró la mezcladora y la obra está parada. Registre la incidencia con la severidad que considere adecuada." | UF3: Incidencias |
+| W7 | "Su jefe le pide el resumen de la semana. Obtenga el reporte semanal y descárguelo en PDF." | Reporte semanal |
+
+**Aplicación móvil**
+
+| # | Escenario que se lee al participante | User flow |
+| --- | --- | --- |
+| M1 | "Está en la obra, sin laptop. Revise desde el celular cuánto stock queda de arena gruesa." | UF1: Materiales (móvil) |
+| M2 | "Desde el celular, consulte qué rol tiene cada trabajador y su asistencia de hoy." | UF2: Trabajadores (móvil) |
+| M3 | "Consulte desde el celular si hay incidencias pendientes y cuál es la más grave." | UF3: Incidencias (móvil) |
+
+**Preguntas de cierre**
+
+- ¿Qué tarea le resultó más fácil y cuál más difícil? ¿Por qué?
+- ¿En qué momento se sintió perdido o no supo qué hacer?
+- Comparado con la forma en que registra hoy los materiales, la asistencia y las incidencias, ¿ArquiTech le ahorraría tiempo o esfuerzo? ¿En qué actividades?
+- ¿El reporte semanal contiene la información que normalmente le piden? ¿Qué le falta o le sobra?
+- ¿Usaría la aplicación móvil en la obra? ¿Qué le impediría hacerlo (conectividad, tamaño de pantalla, tiempo)?
+- ¿Qué cambiaría o agregaría para usar ArquiTech en su trabajo diario?
+- Del 1 al 10, ¿qué tan probable es que recomiende ArquiTech a otro supervisor?
+
+#### Segmento objetivo #2: Contratantes de empresas privadas
+
+**Landing Page**
+
+| # | Escenario que se lee al participante | Qué se observa |
+| --- | --- | --- |
+| L1 | "Observe esta página durante unos segundos. Sin seguir navegando, cuénteme qué ofrece ArquiTech y qué ganaría usted como contratante." | Comprensión de la propuesta de valor para el contratante. |
+| L2 | "Busque qué información de su obra podría consultar si la constructora usa ArquiTech." | Facilidad para encontrar los beneficios de visibilidad. |
+| L3 | "Busque el plan de servicio y la forma de contactar a ArquiTech." | Ubicación del plan y de los datos de contacto. |
+| L4 | "Ingrese a la aplicación desde esta página." | Identificación del acceso a la aplicación web. |
+
+**Frontend Web Application**
+
+| # | Escenario que se lee al participante | User flow |
+| --- | --- | --- |
+| W1 | "Inicie sesión con la cuenta de contratante que le entregamos y diga cuál es el avance y el estado de su obra." | UF4: Estado y progreso de la obra |
+| W2 | "Quiere saber qué maquinaria tiene asignada la obra y si alguna está en mantenimiento." | UF5: Maquinaria |
+| W3 | "Revise cuánto cemento se ha usado en la obra y si algún material está por agotarse." | UF6: Consumo de materiales |
+| W4 | "Averigüe si hay incidencias pendientes que puedan retrasar la obra." | UF4: Estado de la obra |
+| W5 | "Revise el reporte de esta semana y descárguelo en PDF para compartirlo con su socio." | UF6: Reportes de avance |
+| W6 | "Intente registrar un material nuevo en la obra." | Permisos de solo lectura |
+
+**Aplicación móvil**
+
+| # | Escenario que se lee al participante | User flow |
+| --- | --- | --- |
+| M1 | "Desde el celular, revise el estado y el avance de sus obras contratadas." | UF4: Estado y progreso (móvil) |
+| M2 | "Desde el celular, consulte la maquinaria de la obra y su estado operativo." | UF5: Maquinaria (móvil) |
+
+**Preguntas de cierre**
+
+- ¿La información que vio le permitiría conocer el estado real de su obra sin tener que llamar o escribir a la constructora? ¿Qué le faltó?
+- ¿Confía en la información mostrada? ¿Qué elementos le dan o le quitan confianza (fechas, responsables, historial)?
+- ¿Con qué frecuencia revisaría ArquiTech durante una obra?
+- ¿Le resultó claro que no podía modificar la información? ¿Le parece adecuado ese nivel de acceso?
+- ¿Que una constructora use ArquiTech influiría en su decisión de contratarla? ¿Por qué?
+- ¿Qué cambiaría o agregaría para que la plataforma le sea más útil?
+- Del 1 al 10, ¿qué tan probable es que recomiende ArquiTech a otro contratante?
+
+**Cierre (para ambos segmentos)**
+
+<p align="justify">
+
+El entrevistador agradece la participación, pregunta si hay algún comentario adicional sobre la experiencia y confirma que la grabación se usará solo con fines académicos. Después de cada sesión, el equipo consolida en una hoja de registro los indicadores de cada tarea y los comentarios del participante, que sirven como insumo para el resumen de la sección 6.3.2 y para la evaluación según heurísticas de la sección 6.3.3.
+
+</p>
 
 # Capítulo VII: DevOps Practices
 
