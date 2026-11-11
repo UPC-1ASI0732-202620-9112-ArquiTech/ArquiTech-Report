@@ -6714,6 +6714,729 @@ El entrevistador agradece la participación, pregunta si hay algún comentario a
 
 </p>
 
+## 6.4. Auditoría de Experiencias de Usuario
+
+### 6.4.2. Auditoría recibida
+
+#### 6.4.2.1. Información del grupo auditor
+
+<p align="justify">
+
+La auditoría de experiencia de usuario de ArquiTech fue realizada por el Grupo 4 del curso Diseño de Experimentos de Ingeniería de Software (NRC 9112), correspondiente a la startup Energix y a su producto SEMS. El grupo auditor evaluó el Landing Page y la Frontend Web Application de ArquiTech según los criterios de Usability, Inclusive Design e Information Architecture, en el formato UX Heuristics & Principles Evaluation del Anexo D.
+
+</p>
+
+| Aspecto | Detalle |
+| --- | --- |
+| **Grupo** | Grupo 4 |
+| **Startup** | Energix |
+| **Producto** | SEMS |
+| **Curso y NRC** | Diseño de Experimentos de Ingeniería de Software, NRC 9112 |
+
+**Integrantes del grupo auditor**
+
+| Código | Apellidos y Nombres |
+| --- | --- |
+| U20211G491 | Encalada Salazar, Alexis |
+| U202317099 | Rojas Tello, Nestor Alonso |
+| U20231E504 | Merino Ordinola, Winnie Lisbeth |
+| U202310342 | Noriega Collado, Jean Fabio |
+| U20201A277 | Ramos Cerdan, Elias Daniel |
+
+#### 6.4.2.2. Cronograma de auditoría recibida
+
+<p align="justify">
+
+La siguiente tabla resume las actividades de la auditoría recibida, desde la entrega de accesos al grupo auditor hasta la recepción del informe y la planificación de las correcciones.
+
+</p>
+
+| Actividad | Fecha | Hora | Modalidad | Responsable |
+| --- | --- | --- | --- | --- |
+| Coordinación de la auditoría y entrega de accesos (enlaces del Landing Page y de la Frontend Web Application, cuentas demo de Supervisor y Contratante) | [completar] | [completar] | Virtual | Foundex |
+| Sesión de evaluación del Landing Page y la Frontend Web Application | 10/11/2026 | [completar] | [completar] | Grupo 4 (Energix) |
+| Entrega del informe de auditoría | [completar] | [completar] | Virtual | Grupo 4 (Energix) |
+| Revisión de hallazgos y planificación de correcciones | [completar] | [completar] | Virtual | Foundex |
+
+#### 6.4.2.3. Contenido de auditoría recibida
+
+<p align="justify">
+
+A continuación se presenta el informe de auditoría entregado por el Grupo 4 (Energix), en el formato del Anexo D.
+
+</p>
+
+**UX Heuristics & Principles Evaluation**  
+Usability – Inclusive Design – Information Architecture
+
+| | |
+| --- | --- |
+| **CARRERA** | Ingeniería de Software |
+| **CURSO** | Diseño de Experimentos de Ingeniería de Software |
+| **NRC** | 9112 |
+| **PROFESORES** | Lennin Percy Cenas Vasquez |
+| **AUDITOR** | Grupo 4 – Energix (producto SEMS) |
+| **CLIENTE(S)** | Foundex (ArquiTech): Eduardo Chacaliaza, Victor Espino, Braden Garcia, Mariel Mendoza y Fabricio Quispe |
+
+##### Site o App a evaluar
+
+**ArquiTech** (startup Foundex): Landing Page y Frontend Web Application.
+
+- Landing Page: <https://upc-1asi0732-202620-9112-arquitech.github.io/ArquiTech-LandingPage/>
+- Frontend Web Application: <https://arquitech-frontendweb.echacaliazaminaya.workers.dev/>
+
+La evaluación se hizo el 10 Nov 2026 sobre la última versión publicada en los repositorios de la organización: Frontend Web `57615f5` (incluye el selector "Vista original / Vista mejorada" y los paneles de mejora EC01–EC09), Landing Page `57e98cf` (incluye la ruta experimental `/experiment/ec10` con las variantes A y B) y Backend `d587220`. Como al momento de la evaluación el Frontend Web y la Landing Page desplegados todavía correspondían a la versión anterior, ambos se compilaron desde su rama `main` y se recorrieron con los datos demo incluidos en el propio repositorio. Se usaron las cuentas Supervisor de obra y Contratante, en navegador de escritorio (1366 × 800 px) y en vista móvil (390 × 844 px), con la vista original y con la vista mejorada.
+
+##### Tareas a evaluar
+
+El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas:
+
+1. Conocer la propuesta en el Landing Page (versión pública y variantes A y B del experimento EC10) y llegar a la aplicación.
+2. Solicitar una demostración desde la variante B del Landing Page.
+3. Iniciar sesión y recuperar el acceso cuando se olvida la contraseña.
+4. Consultar la lista de proyectos y seguir la guía "Primeros pasos" (Supervisor).
+5. Registrar un material nuevo y registrar movimientos de inventario, en la vista original y con el registro guiado de la vista mejorada.
+6. Consultar el historial de movimientos de materiales.
+7. Consultar y registrar la asistencia del personal, incluido el registro rápido por jornada.
+8. Revisar tareas vencidas y próximas a vencer.
+9. Revisar las alertas críticas de incidencias.
+10. Revisar el reporte semanal como Supervisor y como Contratante.
+11. Usar el Landing Page y la aplicación desde un celular.
+
+No están incluidas en esta versión de la evaluación las siguientes tareas:
+
+1. Contenido del PDF del reporte semanal.
+2. Edición del perfil y ajustes de accesibilidad (tamaño de texto, alto contraste).
+3. Eliminación de proyectos y registro o edición de maquinaria.
+4. Funcionamiento offline y sincronización de movimientos (cambio de Backend sin interfaz en el Frontend Web).
+5. Aplicación móvil nativa.
+
+##### Escala de severidad
+
+Los errores serán puntuados tomando en cuenta la siguiente escala de severidad:
+
+| Nivel | Descripción |
+| --- | --- |
+| 1 | Problema superficial: puede ser fácilmente superado por el usuario u ocurre con muy poca frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo. |
+| 2 | Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja resolverlo de cara al siguiente release. |
+| 3 | Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlos. Es importante que sean corregidos y se les debe asignar una prioridad alta. |
+| 4 | Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento. |
+
+##### Tabla resumen
+
+| # | Problema | Escala de severidad | Heurística/Principio violada(o) |
+| --- | --- | :---: | --- |
+| 1 | Las acciones "de ensayo" de la vista mejorada modifican el inventario y la asistencia reales | 3 | Usability: Prevención de errores |
+| 2 | La variante B del Landing Page mezcla textos en español e inglés | 3 | Usability: Consistencia y estándares |
+| 3 | La pantalla de Asistencia aparece vacía al entrar por un filtro de fecha aplicado por defecto | 3 | Usability: Visibilidad del estado del sistema |
+| 4 | En celular las tablas ocultan columnas y el menú de acciones fuera de la pantalla | 3 | Inclusive Design: Considera la situación |
+| 5 | La recuperación de contraseña remite a soporte, pero no indica ningún medio de contacto | 3 | Usability: Ayuda y documentación |
+| 6 | La interfaz muestra términos internos del experimento ("Laboratorio experimental", "EC06 · Variante B", "EC10 / Variante B") | 2 | Usability: Coincidencia entre el sistema y el mundo real |
+| 7 | Algunos paneles muestran valores técnicos sin traducir ("MATERIAL_SHORTAGE", "ACTIVE") | 2 | Usability: Coincidencia entre el sistema y el mundo real |
+| 8 | Los paneles de la vista mejorada repiten la información de la página y desplazan el contenido principal | 2 | Usability: Estética y diseño minimalista |
+| 9 | El panel y la tabla de un mismo módulo muestran estados, términos y formatos distintos | 2 | Usability: Consistencia y estándares |
+| 10 | El registro rápido de asistencia obliga a elegir el estado de cada trabajador uno por uno | 2 | Usability: Flexibilidad y eficiencia de uso |
+| 11 | La guía "Primeros pasos" lleva al primer proyecto de la lista sin indicar cuál | 2 | Usability: Visibilidad del estado del sistema |
+| 12 | En celular, el botón de vista empuja el menú de usuario fuera de la pantalla | 2 | Inclusive Design: Proporciona experiencias comparables |
+| 13 | La solicitud de demostración depende de que el visitante tenga configurada una aplicación de correo | 2 | Inclusive Design: Considera la situación |
+| 14 | El Landing Page se muestra en inglés por defecto para un público peruano | 2 | Usability: Coincidencia entre el sistema y el mundo real |
+| 15 | El botón que lleva a la aplicación dice solo "ArquiTech" | 2 | Information Architecture: Is it findable? |
+| 16 | La sección "Nosotros" del Landing Page se desborda horizontalmente en celular | 2 | Inclusive Design: Proporciona experiencias comparables |
+| 17 | Los campos obligatorios no se distinguen hasta intentar guardar | 2 | Usability: Prevención de errores |
+| 18 | La unidad de medida de un material es un campo de texto libre | 2 | Usability: Prevención de errores |
+| 19 | Algunos placeholders parecen datos ya ingresados | 2 | Usability: Visibilidad del estado del sistema |
+| 20 | Las columnas "Cantidad", "Stock" y "Fecha" del inventario no explican qué muestran | 2 | Information Architecture: Is it understandable? |
+| 21 | El Landing Page muestra el texto provisional "Espacio para el video del equipo" | 2 | Usability: Estética y diseño minimalista |
+| 22 | Los íconos de redes sociales llevan a las páginas de inicio genéricas de cada red | 2 | Information Architecture: Is it credible? |
+| 23 | Plurales sin resolver y términos distintos para el mismo concepto | 1 | Usability: Consistencia y estándares |
+| 24 | El botón de confirmar de los diálogos es verde y el resto de acciones principales es naranja | 1 | Usability: Consistencia y estándares |
+| 25 | Sin un proyecto seleccionado, los módulos del menú se ven atenuados y la explicación queda al pie | 1 | Information Architecture: Is it findable? |
+| 26 | La pestaña inactiva de Materiales tiene contraste insuficiente | 1 | Inclusive Design: Proporciona experiencias comparables |
+
+##### Descripción de problemas
+
+###### PROBLEMA #1: Las acciones "de ensayo" de la vista mejorada modifican el inventario y la asistencia reales
+
+**Severidad:** 3  
+**Heurística violada:** Usability – Prevención de errores
+
+**Problema:**
+
+En la vista mejorada, el registro guiado de materiales tiene el botón "Confirmar movimiento en datos de ensayo", el registro rápido de asistencia tiene "Guardar asistencia de ensayo" y la guía de Proyectos invita a "Registrar un material en entorno de ensayo". Estos textos hacen creer al usuario que trabaja en un entorno de prueba, pero las acciones se guardan en los datos reales de la obra: al confirmar un uso de 1 kg de cemento aparece el mensaje "Movimiento de ensayo registrado. Se actualizará el stock." y el stock del inventario baja de 450 kg a 449 kg. Además, los registros se guardan con notas internas como "EC01 - escenario controlado" y "EC02 - jornada de ensayo", que luego aparecen en el historial de la obra. Un supervisor podría "probar" la función y alterar sin querer el inventario o la asistencia.
+
+**Figura 1**  
+_Movimiento "de ensayo" que descuenta el stock real del inventario_
+
+<p align="center">
+  <img src="assets/chapter-6/01-ensayo-modifica-datos.png" width="900" alt="Panel de vista mejorada con el mensaje Movimiento de ensayo registrado y la tabla de inventario con el stock de Cemento reducido a 449">
+</p>
+
+_Nota._ Elaboración propia.
+
+**Recomendación:**
+
+Quitar la palabra "ensayo" de los botones y mensajes si la acción guarda datos reales (por ejemplo, "Confirmar uso de material" o "Guardar asistencia del día") y dejar las notas automáticas vacías o con un texto útil para el usuario. Si se busca un modo de práctica, debe trabajar sobre datos separados y mostrarse claramente como tal.
+
+###### PROBLEMA #2: La variante B del Landing Page mezcla textos en español e inglés
+
+**Severidad:** 3  
+**Heurística violada:** Usability – Consistencia y estándares
+
+**Problema:**
+
+La variante B del experimento EC10 tiene sus textos nuevos escritos directamente en español ("Menos tiempo registrando, más tiempo supervisando.", "Soy supervisor", "Solicitar demostración"), pero el resto del Landing Page sigue el idioma activo, que por defecto es inglés. El resultado es una misma pantalla con el menú, la tarjeta "From the site to the office" y las secciones "Our proposal" o "Benefits" en inglés, junto a titulares y botones en español. El selector de idioma no corrige el problema, porque los textos de la variante B no están traducidos.
+
+**Figura 2**  
+_Variante B del Landing Page con titulares en español y el resto en inglés_
+
+<p align="center">
+  <img src="assets/chapter-6/02-ec10-idiomas-mezclados.png" width="900" alt="Hero de la variante B con el titular en español, el menú en inglés y la etiqueta ARQUITECH - EC10 / VARIANTE B">
+</p>
+
+_Nota._ Elaboración propia.
+
+**Recomendación:**
+
+Pasar los textos de la variante B a los archivos de traducción (`i18n`) con su versión en inglés y en español, y abrir la ruta del experimento en español, que es el idioma del público objetivo.
+
+###### PROBLEMA #3: La pantalla de Asistencia aparece vacía al entrar por un filtro de fecha aplicado por defecto
+
+**Severidad:** 3  
+**Heurística violada:** Usability – Visibilidad del estado del sistema
+
+**Problema:**
+
+Al ingresar a Asistencia, la lista se filtra automáticamente por la fecha de hoy (desde y hasta) y el botón "Filtrar" muestra un contador "2". Si todavía no se ha registrado asistencia en el día, la pantalla muestra "No hay resultados para tu búsqueda. Prueba con otras palabras o limpia los filtros", aunque el usuario no escribió ninguna búsqueda. El supervisor puede pensar que la obra no tiene registros de asistencia, cuando el historial existe y solo está oculto por un filtro que él no aplicó. El problema se mantiene en la vista mejorada, donde el mensaje aparece debajo del panel de registro rápido.
+
+**Figura 3**  
+_Pantalla de Asistencia vacía con dos filtros activos por defecto_
+
+<p align="center">
+  <img src="assets/chapter-6/03-asistencia-sin-resultados.png" width="900" alt="Pantalla Asistencia con el botón Filtrar marcando 2 filtros y el mensaje No hay resultados para tu búsqueda">
+</p>
+
+_Nota._ Elaboración propia.
+
+**Recomendación:**
+
+Mostrar el filtro activo sobre la lista (por ejemplo, un chip "Hoy" con opción de quitarlo) y usar un estado vacío propio de este caso: "Aún no se registra asistencia hoy", con botones para "Registrar asistencia" y "Ver días anteriores". Otra opción es abrir por defecto la última semana.
+
+###### PROBLEMA #4: En celular las tablas ocultan columnas y el menú de acciones fuera de la pantalla
+
+**Severidad:** 3  
+**Heurística violada:** Inclusive Design – Considera la situación
+
+**Problema:**
+
+El supervisor de obra trabaja principalmente en campo, desde el celular. En la vista móvil, las tablas (Materiales, Tareas, Trabajadores, Incidentes) conservan todas sus columnas dentro de una tarjeta con desplazamiento horizontal. En Materiales, la tabla mide 908 px dentro de una pantalla de 390 px: solo se ven Material, Cantidad y Stock, y el precio, la unidad, el proveedor y el menú de acciones (⋮), que sirve para editar o registrar movimientos, quedan fuera de la pantalla sin ninguna indicación de que se puede deslizar.
+
+**Figura 4**  
+_Tabla de Materiales en vista móvil con columnas recortadas_
+
+<p align="center">
+  <img src="assets/chapter-6/04-materiales-movil.png" width="320" alt="Vista móvil de Materiales donde la tabla muestra solo tres columnas y la cuarta aparece cortada en el borde derecho">
+</p>
+
+_Nota._ Elaboración propia.
+
+**Recomendación:**
+
+En pantallas angostas, mostrar cada registro como una tarjeta (nombre, stock con su alerta, unidad y botón de acciones visible) en lugar de una tabla. Si se mantiene la tabla, fijar la primera columna y la de acciones, y añadir un indicador de que hay más contenido a la derecha.
+
+###### PROBLEMA #5: La recuperación de contraseña remite a soporte, pero no indica ningún medio de contacto
+
+**Severidad:** 3  
+**Heurística violada:** Usability – Ayuda y documentación
+
+**Problema:**
+
+Al hacer clic en "¿Olvidaste tu contraseña?", la aplicación muestra: "Por seguridad, el restablecimiento lo realiza el equipo de soporte de ArquiTech. Escríbenos desde el correo registrado en tu cuenta". No indica a qué correo escribir, y el texto "¿Necesitas ayuda? Contacta a soporte" no es un enlace. Un usuario que olvidó su contraseña no tiene forma de recuperar el acceso desde la aplicación; el correo de contacto (contacto@arquitech.com) solo aparece en el pie del Landing Page.
+
+**Figura 5**  
+_Mensaje de recuperación de contraseña sin medio de contacto_
+
+<p align="center">
+  <img src="assets/chapter-6/05-recuperar-contrasena.png" width="700" alt="Pantalla de inicio de sesión con el mensaje de recuperación de contraseña y el texto Contacta a soporte sin enlace">
+</p>
+
+_Nota._ Elaboración propia.
+
+**Recomendación:**
+
+Incluir el correo de soporte como enlace `mailto:` con el asunto ya escrito ("Restablecer contraseña") y convertir "Contacta a soporte" en un enlace al mismo canal. A mediano plazo, implementar el restablecimiento por correo con un enlace temporal.
+
+###### PROBLEMA #6: La interfaz muestra términos internos del experimento
+
+**Severidad:** 2  
+**Heurística violada:** Usability – Coincidencia entre el sistema y el mundo real
+
+**Problema:**
+
+Varias pantallas muestran al usuario el vocabulario interno del equipo. La página de mejoras se titula "Laboratorio experimental" y cada tarjeta lleva un código como "EC06 · Variante B" o "EC01 · Variante B". En el Landing Page, la variante B muestra sobre el titular la etiqueta "ARQUITECH - EC10 / VARIANTE B" (Figura 2), y el formulario de demostración termina con "Prototipo experimental. No guarda correos en un servidor ni confirma conversiones comerciales" (Figura 14). Para un supervisor o un posible cliente estos términos no tienen significado y transmiten que el producto no está terminado.
+
+**Figura 6**  
+_Página "Laboratorio experimental" con los códigos de cada experimento_
+
+<p align="center">
+  <img src="assets/chapter-6/06-laboratorio-experimental.png" width="900" alt="Página Laboratorio experimental con tarjetas rotuladas EC06 · Variante B, EC07 · Variante B y otras">
+</p>
+
+_Nota._ Elaboración propia.
+
+**Recomendación:**
+
+Reservar los códigos de experimento para el registro interno de métricas y mostrar al usuario nombres funcionales, por ejemplo "Mejoras disponibles" en lugar de "Laboratorio experimental", sin códigos ni la palabra "variante".
+
+###### PROBLEMA #7: Algunos paneles muestran valores técnicos sin traducir
+
+**Severidad:** 2  
+**Heurística violada:** Usability – Coincidencia entre el sistema y el mundo real
+
+**Problema:**
+
+Los paneles de la vista mejorada muestran algunos valores tal como los envía el Backend. En "Alertas priorizadas de obra" el tipo de incidente aparece como "MATERIAL_SHORTAGE", mientras que la tabla de abajo dice "Falta de material", y el contador dice "1 alertas críticas". En el "Reporte asistido" del supervisor y en el panel del contratante el estado de la obra aparece como "ACTIVE", aunque el resto de la aplicación usa "Activo". El reporte asistido también resume los movimientos como "Entradas y usos: 1 y 3", un formato difícil de leer.
+
+**Figura 7**  
+_Alerta crítica con el tipo de incidente "MATERIAL_SHORTAGE"_
+
+<p align="center">
+  <img src="assets/chapter-6/07-alertas-valor-tecnico.png" width="900" alt="Panel Alertas priorizadas de obra con el texto 1 alertas críticas y la alerta MATERIAL_SHORTAGE">
+</p>
+
+_Nota._ Elaboración propia.
+
+**Figura 8**  
+_Reporte asistido con el estado "ACTIVE" y el resumen "Entradas y usos: 1 y 3"_
+
+<p align="center">
+  <img src="assets/chapter-6/08-reporte-asistido.png" width="900" alt="Panel Reporte asistido con la lista de datos del proyecto, Estado ACTIVE y el botón Generar PDF con datos consolidados">
+</p>
+
+_Nota._ Elaboración propia.
+
+**Recomendación:**
+
+Reutilizar en los paneles las mismas traducciones de estados y tipos que ya usan las tablas, resolver el plural del contador y redactar el resumen como "1 entrada y 3 salidas".
+
+###### PROBLEMA #8: Los paneles de la vista mejorada repiten la información de la página y desplazan el contenido principal
+
+**Severidad:** 2  
+**Heurística violada:** Usability – Estética y diseño minimalista
+
+**Problema:**
+
+Cada panel de la vista mejorada se inserta encima del contenido del módulo y en varios casos repite lo que ya está en la página. En Movimientos de materiales, el "Historial con trazabilidad" muestra los mismos movimientos que la tabla de abajo, por lo que el usuario ve dos veces el historial completo. En Tareas, el panel vuelve a listar las cinco tareas de la tabla. En el Reporte semanal del contratante, el panel repite avance, tareas e incidencias y ofrece un botón "Abrir reporte semanal" estando ya en esa página; en el del supervisor conviven "Descargar PDF" y "Generar PDF con datos consolidados" sin explicar la diferencia. En Materiales, el registro guiado duplica los botones "Registrar entrada" y "Registrar salida". Como consecuencia, en una pantalla de 1366 × 800 px la tabla principal de Materiales o de Movimientos empieza por debajo del primer pantallazo.
+
+**Figura 9**  
+_Movimientos de materiales con el historial mostrado dos veces_
+
+<p align="center">
+  <img src="assets/chapter-6/09-historial-duplicado.png" width="700" alt="Página Movimientos de materiales con el panel Historial con trazabilidad y, debajo, la tabla de movimientos con los mismos registros">
+</p>
+
+_Nota._ Elaboración propia.
+
+**Recomendación:**
+
+Integrar cada mejora en el componente que ya existe en lugar de agregar un bloque paralelo (por ejemplo, añadir la columna de responsable a la tabla de movimientos u ordenar la tabla de tareas por vencimiento), o mostrar el panel plegado por defecto. En el reporte, dejar un solo botón de descarga.
+
+###### PROBLEMA #9: El panel y la tabla de un mismo módulo muestran estados, términos y formatos distintos
+
+**Severidad:** 2  
+**Heurística violada:** Usability – Consistencia y estándares
+
+**Problema:**
+
+Cuando el panel y la tabla muestran los mismos datos, no coinciden. En Tareas, "Vaciado de losa del piso 7" figura como "Pendiente" en el panel y como "En progreso" en la tabla, y la etiqueta de vencida aparece como "VENCIDA" en el panel y "Vencida" en la tabla. En Movimientos, el panel usa "Uso" y "Entrada de material" mientras que la tabla usa "Salida" y "Entrada". Las fechas también cambian de formato: el panel muestra "10/11/2026 09:00" y la tabla "10 Nov 2026, 09:00", y las cantidades aparecen como "1000 unidad" en el panel y "+1,000 unidad" en la tabla.
+
+**Figura 10**  
+_Misma tarea con estado "Pendiente" en el panel y "En progreso" en la tabla_
+
+<p align="center">
+  <img src="assets/chapter-6/10-tareas-panel-tabla.png" width="900" alt="Página Tareas con el panel Tareas vencidas y próximas a vencer y la tabla de tareas debajo, con estados distintos para Vaciado de losa del piso 7">
+</p>
+
+_Nota._ Elaboración propia.
+
+**Recomendación:**
+
+Usar en los paneles los mismos componentes de etiqueta de estado, los mismos términos (Entrada/Salida) y el mismo formato de fecha y cantidad que en las tablas.
+
+###### PROBLEMA #10: El registro rápido de asistencia obliga a elegir el estado de cada trabajador uno por uno
+
+**Severidad:** 2  
+**Heurística violada:** Usability – Flexibilidad y eficiencia de uso
+
+**Problema:**
+
+El panel "Registro rápido por jornada" lista a los 12 trabajadores de la obra, cada uno con un desplegable "Seleccionar", y el botón "Guardar asistencia de ensayo" se mantiene deshabilitado hasta que se elige el estado de todos. No hay opción para marcar a todos como presentes y luego cambiar solo las excepciones, ni para guardar los que ya se completaron. En una obra real con decenas de trabajadores, el registro "rápido" exige tantas selecciones como personas.
+
+**Figura 11**  
+_Registro rápido con un desplegable por trabajador y el botón de guardar deshabilitado_
+
+<p align="center">
+  <img src="assets/chapter-6/11-asistencia-rapida.png" width="700" alt="Panel Registro rápido por jornada con doce trabajadores y un desplegable Seleccionar para cada uno">
+</p>
+
+_Nota._ Elaboración propia.
+
+**Recomendación:**
+
+Agregar la acción "Marcar todos como presentes" y dejar como presente el valor inicial de cada fila, de modo que el supervisor solo cambie las faltas y tardanzas. También conviene indicar cuántos trabajadores faltan por completar.
+
+###### PROBLEMA #11: La guía "Primeros pasos" lleva al primer proyecto de la lista sin indicar cuál
+
+**Severidad:** 2  
+**Heurística violada:** Usability – Visibilidad del estado del sistema
+
+**Problema:**
+
+En la pantalla de Proyectos, la vista mejorada muestra la guía "Primeros pasos para supervisor" con botones "Explorar" para revisar tareas, registrar un material y revisar alertas. Esos botones abren el módulo del primer proyecto que aparece en la tabla, pero la guía no dice qué proyecto es. Si el usuario ordena, filtra o cambia de página, el destino cambia sin aviso, y puede terminar registrando un material en una obra distinta de la que pensaba.
+
+**Figura 12**  
+_Guía "Primeros pasos" en la lista de proyectos, sin indicar la obra de destino_
+
+<p align="center">
+  <img src="assets/chapter-6/12-guia-primeros-pasos.png" width="900" alt="Pantalla Proyectos con la guía Primeros pasos para supervisor y tres botones Explorar">
+</p>
+
+_Nota._ Elaboración propia.
+
+**Recomendación:**
+
+Mostrar la guía dentro de un proyecto ya seleccionado o pedir que el usuario elija la obra antes de "Explorar", e indicar en la guía el nombre del proyecto sobre el que se va a trabajar.
+
+###### PROBLEMA #12: En celular, el botón de vista empuja el menú de usuario fuera de la pantalla
+
+**Severidad:** 2  
+**Heurística violada:** Inclusive Design – Proporciona experiencias comparables
+
+**Problema:**
+
+El nuevo botón "Vista original / Vista mejorada" ocupa espacio en la barra superior. En una pantalla de 390 px de ancho, el avatar que abre el menú de usuario (perfil y cierre de sesión) queda cortado en el borde derecho y la página entera se puede desplazar hacia los lados: mide 412 px con la vista original y 421 px con la vista mejorada. En la vista mejorada, además, el botón "Confirmar movimiento en datos de ensayo" se sale de su tarjeta.
+
+**Figura 13**  
+_Barra superior en celular con el avatar cortado en el borde derecho_
+
+<p align="center">
+  <img src="assets/chapter-6/13-movil-vista-mejorada.png" width="320" alt="Vista móvil de Materiales con el botón Vista mejorada en la barra superior y el avatar del usuario cortado a la derecha">
+</p>
+
+_Nota._ Elaboración propia.
+
+**Recomendación:**
+
+En pantallas angostas, mostrar el selector de vista solo con su ícono o moverlo al menú de usuario, y verificar que la barra superior no supere el ancho de la pantalla entre 360 y 414 px.
+
+###### PROBLEMA #13: La solicitud de demostración depende de que el visitante tenga configurada una aplicación de correo
+
+**Severidad:** 2  
+**Heurística violada:** Inclusive Design – Considera la situación
+
+**Problema:**
+
+En la variante B, el formulario "Solicitar demostración" pide la organización y el correo, pero el botón "Preparar solicitud de demostración" no envía nada: abre un correo prellenado en la aplicación de correo del dispositivo. Muchas personas usan el correo desde el navegador (Gmail u Outlook web) y no tienen una aplicación de correo configurada; en ese caso el clic no produce ningún resultado visible. El formulario no avisa antes de esta dependencia y la nota al pie habla de "prototipo experimental".
+
+**Figura 14**  
+_Formulario de solicitud de demostración de la variante B_
+
+<p align="center">
+  <img src="assets/chapter-6/14-ec10-solicitud-demo.png" width="900" alt="Formulario Solicitar demostración con los campos Organización y Correo de contacto y la nota Prototipo experimental">
+</p>
+
+_Nota._ Elaboración propia.
+
+**Recomendación:**
+
+Enviar la solicitud a un servicio propio o de formularios y confirmar en pantalla que se recibió. Si se mantiene el `mailto:`, indicarlo antes del botón y mostrar también el correo de destino para copiarlo.
+
+###### PROBLEMA #14: El Landing Page se muestra en inglés por defecto para un público peruano
+
+**Severidad:** 2  
+**Heurística violada:** Usability – Coincidencia entre el sistema y el mundo real
+
+**Problema:**
+
+El segmento objetivo son supervisores de obra y contratantes de empresas en Lima, pero el Landing Page carga siempre en inglés ("Your site, organized. Your decisions, clear."), aunque el navegador esté configurado en español. El visitante tiene que encontrar el selector de idioma para leer la propuesta en su idioma. La aplicación web, en cambio, sí respeta el idioma del navegador, por lo que el paso del Landing Page a la aplicación se siente inconsistente.
+
+**Figura 15**  
+_Landing Page cargado en inglés con el navegador configurado en español_
+
+<p align="center">
+  <img src="assets/chapter-6/15-landing-idioma-cta.png" width="900" alt="Hero del Landing Page en inglés con el selector de idioma EN y el botón ArquiTech en la esquina superior derecha">
+</p>
+
+_Nota._ Elaboración propia.
+
+**Recomendación:**
+
+Usar el español como idioma por defecto, o detectar el idioma del navegador en la primera visita y luego recordar la elección del usuario.
+
+###### PROBLEMA #15: El botón que lleva a la aplicación dice solo "ArquiTech"
+
+**Severidad:** 2  
+**Heurística violada:** Information Architecture – Is it findable?
+
+**Problema:**
+
+En el encabezado del Landing Page (Figura 15), el botón que lleva a la aplicación web tiene como texto solo "ArquiTech →", igual que el logo de al lado. Un visitante no sabe si ese botón inicia sesión, abre una demo o vuelve al inicio de la página, y un usuario que ya tiene cuenta no encuentra una opción explícita de "Iniciar sesión".
+
+**Recomendación:**
+
+Cambiar el texto a la acción que realiza, por ejemplo "Iniciar sesión" o "Ingresar a la plataforma", y mantener ese mismo texto en el menú móvil.
+
+###### PROBLEMA #16: La sección "Nosotros" del Landing Page se desborda horizontalmente en celular
+
+**Severidad:** 2  
+**Heurística violada:** Inclusive Design – Proporciona experiencias comparables
+
+**Problema:**
+
+En un ancho de 390 px, el bloque del video del equipo y la tarjeta de Misión y Visión miden más que la pantalla (522 px). Toda la página puede desplazarse hacia los lados y los textos de Misión y Visión quedan cortados en el borde derecho. Ocurre tanto en la versión pública como en las dos variantes del experimento EC10.
+
+**Figura 16**  
+_Sección Nosotros en vista móvil con el texto cortado a la derecha_
+
+<p align="center">
+  <img src="assets/chapter-6/16-landing-movil-desborde.png" width="320" alt="Vista móvil del Landing Page donde los textos de Mission y Vision se cortan en el borde derecho">
+</p>
+
+_Nota._ Elaboración propia.
+
+**Recomendación:**
+
+Apilar el video y la tarjeta en una sola columna con `width: 100%` y `min-width: 0` en los elementos del grid, y comprobar que la página no tenga desplazamiento horizontal entre 360 y 414 px.
+
+###### PROBLEMA #17: Los campos obligatorios no se distinguen hasta intentar guardar
+
+**Severidad:** 2  
+**Heurística violada:** Usability – Prevención de errores
+
+**Problema:**
+
+En los formularios de registro, como "Registrar material" o "Registrar proyecto", ningún campo indica si es obligatorio u opcional. El usuario lo descubre al presionar el botón de guardar, cuando aparecen varios mensajes "Este campo es obligatorio" a la vez (en Registrar material: Material, Unidad de medida, Proveedor y RUC del proveedor).
+
+**Figura 17**  
+_Formulario Registrar material antes de enviar, sin marcas de campos obligatorios_
+
+<p align="center">
+  <img src="assets/chapter-6/17-registrar-material.png" width="900" alt="Diálogo Registrar material con todos los campos sin indicación de obligatorio">
+</p>
+
+_Nota._ Elaboración propia.
+
+**Figura 18**  
+_El mismo formulario después de intentar guardarlo vacío_
+
+<p align="center">
+  <img src="assets/chapter-6/18-registrar-material-errores.png" width="900" alt="Diálogo Registrar material con cuatro campos marcados en rojo con el mensaje Este campo es obligatorio">
+</p>
+
+_Nota._ Elaboración propia.
+
+**Recomendación:**
+
+Marcar los campos obligatorios con un asterisco y una leyenda "* Campo obligatorio", o marcar como "(opcional)" los que no lo son, como ya se hace en "Nota (opcional)" al registrar una salida.
+
+###### PROBLEMA #18: La unidad de medida de un material es un campo de texto libre
+
+**Severidad:** 2  
+**Heurística violada:** Usability – Prevención de errores
+
+**Problema:**
+
+En "Registrar material" (Figura 17), la unidad de medida se escribe a mano, sin opciones ni ejemplo. Esto permite registrar el mismo material con unidades escritas de formas distintas ("kg", "Kg", "kilos"; "unidad", "und") y dificulta comparar cantidades y leer los reportes. En el inventario evaluado ya conviven abreviaturas y palabras completas: "kg", "m³", "varilla", "unidad" y "litro".
+
+**Recomendación:**
+
+Reemplazar el campo por una lista desplegable con las unidades más usadas en obra (kg, t, m, m², m³, unidad, bolsa, varilla, litro, galón), con la opción "Otra".
+
+###### PROBLEMA #19: Algunos placeholders parecen datos ya ingresados
+
+**Severidad:** 2  
+**Heurística violada:** Usability – Visibilidad del estado del sistema
+
+**Problema:**
+
+El campo de contraseña del inicio de sesión muestra "••••••••" como placeholder (Figura 5), por lo que parece que ya tiene una contraseña guardada. En "Registrar material" (Figura 17), el placeholder del RUC del proveedor es "20100124567", un RUC completo de 11 dígitos con un color muy parecido al de un valor ingresado. En ambos casos el usuario puede creer que el campo ya está lleno.
+
+**Recomendación:**
+
+Dejar vacío el placeholder de la contraseña y, para el RUC, usar una indicación como "11 dígitos" o mostrar el formato como texto de ayuda debajo del campo.
+
+###### PROBLEMA #20: Las columnas "Cantidad", "Stock" y "Fecha" del inventario no explican qué muestran
+
+**Severidad:** 2  
+**Heurística violada:** Information Architecture – Is it understandable?
+
+**Problema:**
+
+La tabla de Materiales muestra dos columnas numéricas, "Cantidad" y "Stock" (por ejemplo, Cemento: 500 y 450), sin explicar que "Cantidad" es el total ingresado y "Stock" lo disponible. "Cantidad" se muestra en negrita, por lo que destaca más que el stock disponible, que es el dato que el supervisor necesita para decidir si debe reabastecer. La columna "Fecha" tampoco aclara a qué se refiere: el cemento ingresó el 01 Oct 2026, pero la tabla muestra 10 Nov 2026, la fecha de su último movimiento.
+
+**Figura 19**  
+_Tabla de inventario con las columnas Cantidad, Stock y Fecha_
+
+<p align="center">
+  <img src="assets/chapter-6/19-materiales-cantidad-stock.png" width="900" alt="Tabla de materiales con Cantidad en negrita y Stock en texto normal">
+</p>
+
+_Nota._ Elaboración propia.
+
+**Recomendación:**
+
+Renombrar las columnas como "Ingresado", "Disponible" y "Último movimiento" (o añadir un tooltip a cada encabezado) y destacar la columna de stock disponible.
+
+###### PROBLEMA #21: El Landing Page muestra el texto provisional "Espacio para el video del equipo"
+
+**Severidad:** 2  
+**Heurística violada:** Usability – Estética y diseño minimalista
+
+**Problema:**
+
+En la sección "Nosotros", junto a la Misión y la Visión, aparece un bloque oscuro con un ícono de reproducción y el texto "Space for the team video" ("Espacio para el video del equipo" en español). El ícono parece un botón, pero no reproduce nada, y el bloque ocupa más de la mitad del ancho de la sección. Transmite la idea de que el sitio no está terminado.
+
+**Figura 20**  
+_Bloque provisional del video del equipo en la sección Nosotros_
+
+<p align="center">
+  <img src="assets/chapter-6/20-landing-video.png" width="900" alt="Sección About us con un recuadro oscuro que dice Space for the team video">
+</p>
+
+_Nota._ Elaboración propia.
+
+**Recomendación:**
+
+Incrustar el video About-the-Team cuando esté publicado o, mientras tanto, ocultar el bloque y dejar que la tarjeta de Misión y Visión ocupe todo el ancho.
+
+###### PROBLEMA #22: Los íconos de redes sociales llevan a las páginas de inicio genéricas de cada red
+
+**Severidad:** 2  
+**Heurística violada:** Information Architecture – Is it credible?
+
+**Problema:**
+
+En el pie del Landing Page, los íconos de Facebook, Instagram y X enlazan a `https://www.facebook.com/`, `https://www.instagram.com/` y `https://x.com/`, no a perfiles de ArquiTech. Un posible cliente que quiera conocer más de la empresa termina en la página de inicio de la red social, lo que le resta credibilidad al producto. Además, el ícono de X todavía es el pájaro de Twitter.
+
+**Figura 21**  
+_Pie del Landing Page con los íconos de redes sociales_
+
+<p align="center">
+  <img src="assets/chapter-6/21-landing-redes.png" width="900" alt="Pie del Landing Page con datos de contacto e íconos de Facebook, Instagram y Twitter">
+</p>
+
+_Nota._ Elaboración propia.
+
+**Recomendación:**
+
+Enlazar los perfiles reales de ArquiTech o retirar los íconos de las redes en las que todavía no hay perfil, y actualizar el ícono de X.
+
+###### PROBLEMA #23: Plurales sin resolver y términos distintos para el mismo concepto
+
+**Severidad:** 1  
+**Heurística violada:** Usability – Consistencia y estándares
+
+**Problema:**
+
+En el Reporte semanal aparecen textos como "1 entradas · 3 salidas" y "1 material(es) por debajo del stock mínimo", y en las alertas "1 alertas críticas", que no adaptan el plural a la cantidad. Además, el menú y el módulo se llaman "Incidentes", pero el reporte usa "Incidencias registradas" y "2 sin resolver en la obra", y dentro de la misma tabla del reporte vuelve a aparecer "Tipo de incidente".
+
+**Figura 22**  
+_Reporte semanal con plurales sin resolver y el término "Incidencias"_
+
+<p align="center">
+  <img src="assets/chapter-6/22-reporte-plurales.png" width="900" alt="Reporte semanal con los textos 1 entradas · 3 salidas, 1 material(es) e Incidencias registradas">
+</p>
+
+_Nota._ Elaboración propia.
+
+**Recomendación:**
+
+Usar la pluralización de ngx-translate (formato ICU) para mostrar "1 entrada" y "2 entradas", y elegir un solo término ("Incidentes" o "Incidencias") para toda la aplicación y el Landing Page.
+
+###### PROBLEMA #24: El botón de confirmar de los diálogos es verde y el resto de acciones principales es naranja
+
+**Severidad:** 1  
+**Heurística violada:** Usability – Consistencia y estándares
+
+**Problema:**
+
+En toda la aplicación la acción principal se muestra con un botón naranja rojizo ("Añadir material", "Nuevo proyecto", "Iniciar sesión" y los botones de la vista mejorada). En los diálogos de registro, en cambio, el botón de confirmar es verde (Figura 17). Ese verde no se usa en ningún otro botón de acción, así que la misma jerarquía de acción se ve distinta según la pantalla.
+
+**Recomendación:**
+
+Usar el mismo estilo de botón primario en las páginas y en los diálogos, y reservar el verde para estados de éxito (por ejemplo, la etiqueta "Activo" o los mensajes de confirmación).
+
+###### PROBLEMA #25: Sin un proyecto seleccionado, los módulos del menú se ven atenuados y la explicación queda al pie
+
+**Severidad:** 1  
+**Heurística violada:** Information Architecture – Is it findable?
+
+**Problema:**
+
+Al iniciar sesión, la barra lateral muestra Materiales, Trabajadores, Asistencia y los demás módulos en gris, sin poder abrirlos. La explicación ("Selecciona un proyecto para ver sus módulos") aparece en letra pequeña al pie del menú, lejos de los elementos deshabilitados, y la forma de entrar a un proyecto es el enlace "Ver detalles". Un usuario nuevo puede pensar que no tiene permisos para esos módulos.
+
+**Figura 23**  
+_Lista de proyectos con los módulos del menú atenuados_
+
+<p align="center">
+  <img src="assets/chapter-6/23-proyectos-menu-atenuado.png" width="900" alt="Pantalla Proyectos con los módulos del menú lateral en gris y el texto Selecciona un proyecto para ver sus módulos al pie">
+</p>
+
+_Nota._ Elaboración propia.
+
+**Recomendación:**
+
+Ubicar el mensaje justo debajo de "Proyectos", en el lugar de los módulos, o mostrar los módulos solo cuando haya un proyecto activo. También ayuda renombrar "Ver detalles" como "Abrir proyecto" y hacer que toda la fila sea clicable.
+
+###### PROBLEMA #26: La pestaña inactiva de Materiales tiene contraste insuficiente
+
+**Severidad:** 1  
+**Heurística violada:** Inclusive Design – Proporciona experiencias comparables
+
+**Problema:**
+
+En Materiales, la pestaña que no está seleccionada ("Movimientos" cuando se está en Inventario, e "Inventario" cuando se está en Movimientos) usa texto gris #746f6a sobre fondo #f1ede8, con una relación de contraste de 4,26:1. Es menor que el mínimo de 4,5:1 que exige WCAG 2.1 AA para texto de ese tamaño (13 px), por lo que puede leerse con dificultad en pantallas con mucho brillo, como en obra, o por personas con baja visión (Figura 19).
+
+**Recomendación:**
+
+Oscurecer el texto de las pestañas inactivas (por ejemplo, a #5f5a55) hasta alcanzar al menos 4,5:1 y volver a comprobarlo con una herramienta de contraste.
+
+#### 6.4.2.4. Resumen de modificaciones para subsanar hallazgos
+
+<p align="justify">
+
+La siguiente tabla resume, para cada hallazgo de la auditoría recibida, la modificación que el equipo de Foundex plantea para subsanarlo y su estado. Los hallazgos de severidad 3 se priorizan para el siguiente release y los de severidad 2 y 1 se atienden según la disponibilidad del equipo. Cuando cada modificación se integre, su estado pasa a "Corregido" junto con el enlace al commit o pull request correspondiente.
+
+</p>
+
+| # | Hallazgo | Severidad | Modificación para subsanarlo | Estado |
+| --- | --- | :---: | --- | --- |
+| 1 | Las acciones "de ensayo" de la vista mejorada modifican el inventario y la asistencia reales | 3 | Cambiar los textos "de ensayo" por la acción real ("Confirmar uso de material", "Guardar asistencia del día") y quitar las notas automáticas EC01 y EC02 de los registros. | Pendiente |
+| 2 | La variante B del Landing Page mezcla textos en español e inglés | 3 | Pasar los textos de la variante B a los archivos `i18n` en español e inglés y abrir la ruta del experimento en español. | Pendiente |
+| 3 | La pantalla de Asistencia aparece vacía al entrar por un filtro de fecha aplicado por defecto | 3 | Mostrar el filtro "Hoy" como chip removible y un estado vacío propio con accesos a "Registrar asistencia" y "Ver días anteriores". | Pendiente |
+| 4 | En celular las tablas ocultan columnas y el menú de acciones fuera de la pantalla | 3 | Mostrar tarjetas en lugar de tablas en pantallas angostas, con stock, unidad y menú de acciones visibles. | Pendiente |
+| 5 | La recuperación de contraseña remite a soporte, pero no indica ningún medio de contacto | 3 | Agregar el correo de soporte como enlace `mailto:` en el mensaje de recuperación y en "Contacta a soporte". | Pendiente |
+| 6 | La interfaz muestra términos internos del experimento ("Laboratorio experimental", "EC06 · Variante B", "EC10 / Variante B") | 2 | Reemplazar los códigos EC y "Laboratorio experimental" por nombres funcionales y mantener los códigos solo en el tracking. | Pendiente |
+| 7 | Algunos paneles muestran valores técnicos sin traducir ("MATERIAL_SHORTAGE", "ACTIVE") | 2 | Traducir en los paneles los tipos y estados ("Falta de material", "Activo") y redactar el resumen de movimientos con plurales correctos. | Pendiente |
+| 8 | Los paneles de la vista mejorada repiten la información de la página y desplazan el contenido principal | 2 | Integrar las mejoras en los componentes existentes o mostrar los paneles plegados, y dejar un solo botón de PDF en el reporte. | Pendiente |
+| 9 | El panel y la tabla de un mismo módulo muestran estados, términos y formatos distintos | 2 | Reutilizar en los paneles las mismas etiquetas de estado, los términos Entrada/Salida y los formatos de fecha y cantidad de las tablas. | Pendiente |
+| 10 | El registro rápido de asistencia obliga a elegir el estado de cada trabajador uno por uno | 2 | Agregar la acción "Marcar todos como presentes" y usar Presente como valor inicial de cada trabajador. | Pendiente |
+| 11 | La guía "Primeros pasos" lleva al primer proyecto de la lista sin indicar cuál | 2 | Mostrar la guía dentro de un proyecto seleccionado o indicar el nombre de la obra de destino antes de "Explorar". | Pendiente |
+| 12 | En celular, el botón de vista empuja el menú de usuario fuera de la pantalla | 2 | En pantallas angostas, mostrar el selector de vista solo con su ícono o moverlo al menú de usuario. | Pendiente |
+| 13 | La solicitud de demostración depende de que el visitante tenga configurada una aplicación de correo | 2 | Enviar la solicitud de demostración a un servicio de formularios y confirmar la recepción en pantalla. | Pendiente |
+| 14 | El Landing Page se muestra en inglés por defecto para un público peruano | 2 | Usar el español como idioma por defecto del Landing Page y recordar la elección del usuario. | Pendiente |
+| 15 | El botón que lleva a la aplicación dice solo "ArquiTech" | 2 | Cambiar el texto del botón a "Iniciar sesión" en el encabezado y en el menú móvil. | Pendiente |
+| 16 | La sección "Nosotros" del Landing Page se desborda horizontalmente en celular | 2 | Apilar el video y la tarjeta de Misión y Visión en una sola columna y verificar que no haya desplazamiento horizontal entre 360 y 414 px. | Pendiente |
+| 17 | Los campos obligatorios no se distinguen hasta intentar guardar | 2 | Marcar los campos obligatorios con asterisco y leyenda, o indicar "(opcional)" en los que no lo son. | Pendiente |
+| 18 | La unidad de medida de un material es un campo de texto libre | 2 | Reemplazar el campo de unidad por una lista desplegable con las unidades más usadas en obra y la opción "Otra". | Pendiente |
+| 19 | Algunos placeholders parecen datos ya ingresados | 2 | Quitar el placeholder de la contraseña y cambiar el del RUC por "11 dígitos". | Pendiente |
+| 20 | Las columnas "Cantidad", "Stock" y "Fecha" del inventario no explican qué muestran | 2 | Renombrar las columnas como "Ingresado", "Disponible" y "Último movimiento" y destacar el stock disponible. | Pendiente |
+| 21 | El Landing Page muestra el texto provisional "Espacio para el video del equipo" | 2 | Incrustar el video About-the-Team u ocultar el bloque hasta tenerlo. | Pendiente |
+| 22 | Los íconos de redes sociales llevan a las páginas de inicio genéricas de cada red | 2 | Enlazar los perfiles reales de ArquiTech o retirar los íconos sin perfil, y actualizar el ícono de X. | Pendiente |
+| 23 | Plurales sin resolver y términos distintos para el mismo concepto | 1 | Usar pluralización ICU en ngx-translate y unificar el término "Incidentes" en toda la aplicación. | Pendiente |
+| 24 | El botón de confirmar de los diálogos es verde y el resto de acciones principales es naranja | 1 | Usar el mismo estilo de botón primario en las páginas y en los diálogos. | Pendiente |
+| 25 | Sin un proyecto seleccionado, los módulos del menú se ven atenuados y la explicación queda al pie | 1 | Mover el mensaje junto a "Proyectos" y renombrar "Ver detalles" como "Abrir proyecto". | Pendiente |
+| 26 | La pestaña inactiva de Materiales tiene contraste insuficiente | 1 | Oscurecer el texto de las pestañas inactivas hasta alcanzar al menos 4,5:1 de contraste. | Pendiente |
+
 # Capítulo VII: DevOps Practices
 
 Este capítulo documenta la integración, entrega y despliegue de ArquiTech a partir de las configuraciones y resultados disponibles. La integración continua verifica los cambios; la entrega continua prepara una versión validada para su publicación; el despliegue continuo automatiza su puesta en producción. La evidencia permite distinguir las corridas de pruebas, la configuración de las plataformas y la publicación de una versión concreta.
