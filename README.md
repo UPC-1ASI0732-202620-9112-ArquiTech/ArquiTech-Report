@@ -143,6 +143,46 @@ _Commits realizados durante la entrega TB1_
 
 </p>
 
+## Entrega Nº3: AV2
+
+<p align="justify">
+
+Durante la entrega AV2, comprendida entre el 08/10/2026 y el 11/11/2026, el equipo actualizó el Project Report con la validación y la experimentación del producto. Las actividades incluyeron el análisis estático de código, la evaluación de seguridad y la revisión de Pull Requests (6.2); las To-Be Validation Interviews (6.3); las auditorías de experiencia de usuario realizadas y recibidas (6.4); el monitoreo continuo en producción (7.4); y la elaboración completa del Capítulo VIII Experiment-Driven Development, desde el As-Is Summary, las Experiment-Ready Questions, el Question Backlog y las Experiment Cards hasta el diseño de experimentos, el Web and Mobile Tracking Plan, la experimentación To-Be, el análisis de resultados, el Re-scored and Re-prioritized Question Backlog y la Shareback Session. También se actualizaron el Registro de Versiones y el Student Outcome.
+
+</p>
+
+<p align="justify">
+
+A partir de esta entrega, el equipo está conformado por cuatro integrantes. Los aportes se registraron mediante ramas de trabajo y su integración a la rama principal del repositorio. En las analíticas de GitHub, los integrantes se identifican por su usuario: Vmer140 (Espino Rossi, Victor Manuel), BrooklynKarmis (Quispe Barzola, Fabricio Fabian), educmz (Chacaliaza Minaya, Eduardo Fabian) y BradenGarcia (Garcia Cerpa, Braden Raid). Las siguientes evidencias muestran las contribuciones y el historial de commits realizados durante la preparación de la entrega AV2, y guardan correspondencia con las versiones 3.0 a 3.9 del Registro de Versiones del Informe.
+
+</p>
+
+**Figura 5**  
+_Analíticas de colaboración durante la entrega AV2_
+
+<p align="center">
+
+  <img src="assets/project-report-collaboration-insights/av2-contributors.png" alt="Analíticas de colaboración durante AV2" width="420">
+
+</p>
+
+**Figura 6**  
+_Commits realizados durante la entrega AV2_
+
+<p align="center">
+
+  <img src="assets/project-report-collaboration-insights/av2-commits-1.png" alt="Commits realizados durante AV2 - Parte 1" width="420">
+
+<br><br>
+
+  <img src="assets/project-report-collaboration-insights/av2-commits-2.png" alt="Commits realizados durante AV2 - Parte 2" width="420">
+
+<br><br>
+
+  <img src="assets/project-report-collaboration-insights/av2-commits-3.png" alt="Commits realizados durante AV2 - Parte 3" width="420">
+
+</p>
+
 <div style="page-break-before: always;"></div>
 
 # Contenido
