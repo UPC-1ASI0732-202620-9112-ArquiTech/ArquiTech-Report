@@ -53,6 +53,7 @@ Quispe Barzola, Fabricio Fabian - U202320442
 |   2.4   | 07/10/2026 | Espino Rossi, Victor Manuel       | <span style="display:block; text-align:justify;">Incorporación de evidencias de pruebas unitarias e integración del Backend (6.1.1 y 6.1.2) y de escenarios Cucumber (6.1.3); documentación de 7.1 a 7.3 y actualización de 4.8 Domain-Driven Software Architecture y 5.2.5 Implemented Native-Mobile Application Evidence.</span> |
 |   2.5   | 07/10/2026 | Quispe Barzola, Fabricio Fabian   | <span style="display:block; text-align:justify;">Documentación de evidencias y límites de los pipelines de CI/CD en el Capítulo VII, actualización de la sección Student Outcome correspondiente al TB1 y de Conclusiones y recomendaciones.</span> |
 |   2.6   | 07/10/2026 | Garcia Cerpa, Braden Raid         | <span style="display:block; text-align:justify;">Elaboración de las pruebas de sistema de la Frontend Web Application en la sección 6.1.4 Core System Tests (E2E-W01 y E2E-W02), con evidencias de ejecución y commits de testing.</span> |
+|   2.7   | 11/11/2026 | Copilot                           | <span style="display:block; text-align:justify;">Incorporación de un validador reproducible del informe para comprobar secciones obligatorias y referencias locales a evidencias.</span> |
 
 # Project Report Collaboration Insights
 
@@ -4877,6 +4878,22 @@ Esta sección define las herramientas, prácticas de control de versiones, conve
 - **[OpenAPI](https://www.openapis.org/) y [Swagger UI](https://swagger.io/tools/swagger-ui/):** documentación interactiva de la API generada por `springdoc-openapi` 2.8.8 en el Backend.
 - **[Markdown](https://www.markdownguide.org/) y [GitHub README](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes):** formato y medio utilizados para mantener el Project Report y la documentación técnica junto con su historial de versiones.
 - **[Git](https://git-scm.com/):** sistema distribuido de control de versiones utilizado durante todo el ciclo de vida del software.
+
+##### Validacion reproducible del informe
+
+El informe incluye un validador reproducible para detectar omisiones estructurales y referencias locales rotas antes de integrar cambios:
+
+```powershell
+powershell -ExecutionPolicy Bypass -File .\tools\validate-report.ps1
+```
+
+El script valida la presencia de las secciones principales de los capítulos II, V, VI, VII y VIII y comprueba que cada imagen o enlace relativo del `README.md` apunte a un archivo existente dentro del repositorio. Los enlaces externos, anclas internas y direcciones `mailto:` se excluyen de la comprobacion de rutas locales.
+
+Las pruebas reproducibles del validador cubren un informe minimo valido y una referencia inexistente:
+
+```powershell
+powershell -ExecutionPolicy Bypass -File .\tools\test-validate-report.ps1
+```
 
 ### 5.1.2. Source Code Management
 
