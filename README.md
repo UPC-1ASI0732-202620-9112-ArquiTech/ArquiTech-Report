@@ -12,7 +12,7 @@
 
 **Profesor**: Lennin Percy Cenas Vasquez
 
-**Informe deL Trabajo Final**
+**Informe del Trabajo Final**
 
 **Startup**: Foundex
 
@@ -26,11 +26,9 @@ Espino Rossi, Victor Manuel - U202411567
 
 Garcia Cerpa, Braden Raid - u202415618
 
-Mendoza Moreano, Mariel Lucero - u20231a418
-
 Quispe Barzola, Fabricio Fabian - U202320442
 
-**Septiembre, 2026**
+**Noviembre, 2026**
 
 </div>
 
@@ -66,6 +64,7 @@ Quispe Barzola, Fabricio Fabian - U202320442
 |   3.11  | 11/11/2026 | Garcia Cerpa, Braden Raid         | <span style="display:block; text-align:justify;">Actualización de la Bibliografía con las fuentes empleadas en los capítulos I, VI y VIII: Experiment-Driven Product Development, heurísticas de usabilidad, principios de diseño inclusivo y de arquitectura de información, WCAG 2.1 y métodos estadísticos de Wilson y Fisher.</span> |
 |   3.12  | 11/11/2026 | Garcia Cerpa, Braden Raid         | <span style="display:block; text-align:justify;">Actualización de las Conclusiones y recomendaciones con los resultados del AV2: verificación estática, auditorías de experiencia de usuario, monitoreo continuo y Experiment-Driven Development, y corrección del formato de sus párrafos.</span> |
 |   3.13  | 11/11/2026 | Chacaliaza Minaya, Eduardo Fabian | <span style="display:block; text-align:justify;">Incorporación de evidencias visuales en las secciones 8.3.3.2 Implemented To-Be Landing Page Evidence, 8.3.3.3 Implemented To-Be Frontend-Web Application Evidence y 8.3.3.4 Implemented To-Be Native-Mobile Application Evidence, con la actualización de la numeración de figuras y sus referencias.</span> |
+|   3.14  | 11/11/2026 | Garcia Cerpa, Braden Raid         | <span style="display:block; text-align:justify;">Ejecución y registro de la entrevista de validación con un supervisor de obra (6.3.2), evaluación según heurísticas de sus resultados (6.3.3) y formato aplicado en 6.3.1; actualización del índice, las Conclusiones y el Student Outcome, y corrección de la carátula.</span> |
 
 # Project Report Collaboration Insights
 
@@ -366,7 +365,8 @@ _Commits realizados durante la entrega AV2_
   - [6.2.2. Reviews](#622-reviews)
 
 - [6.3. Validation Interviews](#63-validation-interviews)
-  - [6.3.1. Diseño de Entrevistas](#631-diseño-de-entrevistas)
+  - [6.3.2. Registro de Entrevistas](#632-registro-de-entrevistas)
+  - [6.3.3. Evaluaciones según heurísticas](#633-evaluaciones-según-heurísticas)
 - [6.4. Auditoría de Experiencias de Usuario](#64-auditoría-de-experiencias-de-usuario)
   - [6.4.1. Auditoría realizada](#641-auditoría-realizada)
     - [6.4.1.1. Información del grupo auditado](#6411-información-del-grupo-auditado)
@@ -527,7 +527,7 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 <strong>TP:</strong> Durante el TP, configuró Playwright y desarrolló pruebas funcionales para el uso de materiales y la regla de unicidad del serial de maquinaria, además de pruebas E2E Mobile para autenticación y creación de proyectos. Estas verificaciones demostraron responsabilidad ética y profesional al comprobar reglas críticas antes de exponerlas a usuarios, prevenir operaciones que afecten indebidamente el stock o la identificación de equipos y validar que el acceso y el registro de proyectos respondan al comportamiento esperado. Su aporte fortaleció la detección trazable de errores en flujos relevantes del dominio.
 
 <br><br>
-<strong>AV2:</strong> Durante el AV2, elaboró la planificación de experimentos del Capítulo VIII (As-Is Summary, Raw Material, Experiment-Ready Questions, Question Backlog y Experiment Cards), así como las Hypotheses y las Domain Business Metrics; además, re-priorizó el Question Backlog con los resultados de los experimentos (8.4.2), documentó la sesión de Shareback y el Learning Workflow (8.5.1) y consolidó el Registro de Versiones, el Student Outcome y el Collaboration Insights del informe. Actuó con responsabilidad profesional al diferenciar las metas propuestas de los resultados observados, acompañar cada hipótesis con su hipótesis nula, exigir datos ficticios y consentimiento de los participantes, y limitar las Experiment Cards a métricas definidas previamente para evitar decisiones basadas en métricas de vanidad.
+<strong>AV2:</strong> Durante el AV2, elaboró la planificación de experimentos del Capítulo VIII (As-Is Summary, Raw Material, Experiment-Ready Questions, Question Backlog y Experiment Cards), así como las Hypotheses y las Domain Business Metrics; además, re-priorizó el Question Backlog con los resultados de los experimentos (8.4.2), documentó la sesión de Shareback y el Learning Workflow (8.5.1) consolidó el Registro de Versiones, el Student Outcome y el Collaboration Insights del informe, y realizó y analizó la entrevista de validación con un supervisor de obra (6.3.2 y 6.3.3). Actuó con responsabilidad profesional al diferenciar las metas propuestas de los resultados observados, acompañar cada hipótesis con su hipótesis nula, exigir datos ficticios y consentimiento de los participantes, y limitar las Experiment Cards a métricas definidas previamente para evitar decisiones basadas en métricas de vanidad.
 
 </td>
 
@@ -6851,6 +6851,159 @@ El entrevistador agradece la participación, pregunta si hay algún comentario a
 
 </p>
 
+#### Formato aplicado en la entrega AV2
+
+<p align="justify">
+
+Para la entrega AV2 se aplicó una versión reducida del diseño anterior, centrada en la Landing Page y la Frontend Web Application y en el segmento de supervisores de obra. La sesión mantuvo los tres momentos del guion (contexto, tareas con think-aloud y preguntas de cierre), pero se limitó a las tareas relacionadas con los Hypothesis Statements HS1, HS6 y HS7. La aplicación móvil no formó parte de la sesión porque su instalación requiere distribuir el APK al participante con anticipación.
+
+</p>
+
+| Aspecto          | Formato aplicado                                                                                                   |
+| ---------------- | ------------------------------------------------------------------------------------------------------------------ |
+| **Participante** | Un supervisor de obra                                                                                              |
+| **Modalidad**    | Virtual, mediante videollamada con transmisión de la pantalla del participante                                     |
+| **Duración**     | Prevista de 6 a 8 minutos; la sesión registrada duró 10:18                                                         |
+| **Productos**    | Landing Page y Frontend Web Application desplegadas                                                                |
+| **Cuenta**       | Cuenta demo de Supervisor sobre la obra "Auditoría UX – prueba"                                                    |
+| **Tareas**       | L1, L4, W1, W2, W6 y W7 del guion del segmento #1                                                                  |
+| **Indicadores**  | Resultado, tiempo, errores y dudas, facilidad percibida (Single Ease Question de 1 a 7) y comentarios              |
+| **Cierre**       | Tarea más difícil, ahorro de tiempo frente al método actual y probabilidad de recomendación de 1 a 10              |
+
+### 6.3.2. Registro de Entrevistas
+
+<p align="justify">
+
+En esta entrega se realizó una entrevista de validación con un supervisor de obra, conforme al formato aplicado descrito en la sección 6.3.1. La sesión se grabó con el consentimiento del participante, solicitado al inicio de la grabación. Los tiempos de cada tarea se obtuvieron del video, desde que el entrevistador terminó de leer el escenario hasta que el participante completó la acción.
+
+</p>
+
+**Video de la entrevista:** https://drive.google.com/drive/folders/1giAR_Rg9H8S-X68Kyvh4EhCrGsdpBhdv
+
+**Nombre del video:** `upc-pre-202620-1asi0732-9112-foundex-validation-interviews.mp4`
+
+**Formato:** `.mp4`
+
+**Duración total:** 10:18
+
+---
+
+#### Segmento objetivo #1: Supervisores de obra
+
+**Datos del entrevistado**
+
+- **Nombres y apellidos:** Oscar Vara
+- **Edad:** 26 años
+- **Distrito de residencia:** La Victoria
+- **Segmento objetivo:** Supervisor de obra
+- **Experiencia:** 4 años en el sector construcción
+- **Fecha de entrevista:** 11/11/26
+- **Entrevistador:** Garcia Cerpa, Braden Raid
+- **Timing de inicio:** 00:00
+- **Duración:** 10:18
+- **Video:** https://drive.google.com/drive/folders/1giAR_Rg9H8S-X68Kyvh4EhCrGsdpBhdv
+
+**Resumen de la entrevista**
+
+<p align="justify">
+
+Oscar Vara es un supervisor de obra de 26 años, residente en La Victoria, con cuatro años de experiencia en el sector construcción. Actualmente registra la información de la obra de forma manual y, de manera ocasional, en hojas de Excel, sin una herramienta que le facilite el trabajo.
+
+</p>
+
+<p align="justify">
+
+Al observar la Landing Page, cambió el idioma a español por iniciativa propia, porque la página cargó en inglés. A partir del titular "Tu obra organizada. Tus decisiones, claras." entendió que ArquiTech permite organizar la información de la obra, como los materiales y los trabajadores. Luego ingresó a la aplicación desde la propia página, sin ayuda.
+
+</p>
+
+<p align="justify">
+
+En la aplicación web registró la compra de 200 bolsas de cemento mediante la opción "Añadir material", completando la unidad de medida, la cantidad, el precio unitario, el stock mínimo, el proveedor y el RUC; la validación del RUC le mostró un mensaje de error que corrigió por sí mismo. Después registró la falla de la mezcladora como incidencia de severidad alta y estado pendiente, tras pedir que se le repitiera el escenario. Por último, generó el reporte semanal, reconoció en él la entrada de cemento registrada previamente y lo descargó en PDF. Calificó la facilidad de las tres tareas con 7 sobre 7 y destacó que los pasos y botones están a la vista.
+
+</p>
+
+<p align="justify">
+
+En el cierre indicó que no encontró dificultades, pero recomendó incorporar una guía rápida de uso, con imágenes, para usuarios con menos experiencia tecnológica, como los supervisores de mayor edad. Consideró que ArquiTech le ahorraría tiempo principalmente por el orden que aporta: reunir materiales, trabajadores, asistencia e incidencias en un solo lugar y generar el reporte semanal con un botón, información que considera crucial para sus colaboradores. Calificó con 10 sobre 10 la probabilidad de recomendar ArquiTech a otro supervisor.
+
+</p>
+
+**Resultados por tarea**
+
+| #   | Tarea                                           | Inicio en video | Resultado            | Tiempo aprox. | Facilidad (SEQ) | Observaciones                                                                                                                                                                   |
+| --- | ----------------------------------------------- | :-------------: | -------------------- | :-----------: | :-------------: | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| L1  | Explicar qué ofrece ArquiTech                   |      01:02      | Completada sin ayuda |     40 s      |        —        | Cambió la página a español antes de responder e identificó la gestión de materiales y trabajadores.                                                                            |
+| L4  | Ingresar a la aplicación desde la Landing Page  |      02:09      | Completada sin ayuda |      6 s      |        —        | Ubicó el botón de acceso de inmediato.                                                                                                                                         |
+| W1  | Iniciar sesión y entrar a la obra               |      02:15      | Completada sin ayuda |       —       |        —        | Inició sesión con la cuenta demo de Supervisor y seleccionó la obra "Auditoría UX – prueba".                                                                                   |
+| W2  | Registrar la compra de 200 bolsas de cemento    |      02:42      | Completada sin ayuda |  1 min 25 s   |        7        | Usó "Añadir material" y creó el material "cemento" en bolsas, aunque el inventario ya tenía "Cemento Portland" en kilogramos. Corrigió solo un error de validación del RUC.    |
+| W6  | Registrar la falla de la mezcladora             |      05:03      | Completada sin ayuda |     50 s      |        7        | Pidió repetir el escenario; eligió severidad alta y estado pendiente.                                                                                                          |
+| W7  | Descargar el reporte semanal en PDF             |      06:21      | Completada sin ayuda |     40 s      |        7        | Reconoció en el reporte la entrada de cemento registrada en W2. La calificación fue propuesta por el entrevistador y confirmada por el participante.                           |
+
+**Indicadores consolidados**
+
+| Indicador                               | Resultado                                  |
+| --------------------------------------- | ------------------------------------------ |
+| Tareas completadas sin ayuda            | 6 de 6                                     |
+| Facilidad promedio (SEQ, 1 a 7)         | 7,0                                        |
+| Errores durante las tareas              | 1 (validación del RUC, corregida por el participante) |
+| Solicitudes de ayuda                    | 1 (repetición del escenario W6)            |
+| Probabilidad de recomendación (1 a 10)  | 10                                         |
+
+#### Segmento objetivo #2: Contratantes de empresas privadas
+
+<p align="justify">
+
+En la entrega AV2 no se registraron entrevistas con contratantes. Su realización queda programada para la siguiente iteración, junto con las preguntas exploratorias Q11 y Q12 del Question Backlog.
+
+</p>
+
+#### Limitaciones de la sesión
+
+<p align="justify">
+
+Los resultados corresponden a un solo participante y a una sesión virtual sin la aplicación móvil, por lo que no pueden generalizarse al segmento ni bastan para aceptar los Hypothesis Statements. Además, el entrevistador intervino en dos momentos: confirmó la interpretación del participante sobre la Landing Page antes de pasar a la siguiente tarea y propuso la calificación de facilidad de W7, que el participante confirmó. Estas intervenciones pudieron influir en sus respuestas y se evitarán en las siguientes sesiones.
+
+</p>
+
+### 6.3.3. Evaluaciones según heurísticas
+
+<p align="justify">
+
+Las observaciones de la entrevista se evaluaron con las mismas heurísticas y la misma escala de severidad utilizadas en la sección 6.4: las heurísticas de usabilidad, los principios de diseño inclusivo y los criterios de arquitectura de información. Se incluyen tanto los problemas observados durante las tareas como los identificados mientras el participante exploró libremente la aplicación durante las preguntas de cierre.
+
+</p>
+
+**Hallazgos**
+
+| #   | Hallazgo                                                                                                                                                                                         | Evidencia en video               | Heurística/Principio violada(o)                                                                  | Severidad | Recomendación                                                                                                                                                                       |
+| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | -------------------------------- | ------------------------------------------------------------------------------------------------ | :-------: | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1   | La Landing Page cargó en inglés para un participante hispanohablante, que tuvo que cambiar el idioma antes de responder.                                                                         | 01:20                            | Usability – Coincidencia entre el sistema y el mundo real                                        |     2     | Mostrar la página en español por defecto o según el idioma del navegador.                                                                                                          |
+| 2   | Para registrar una compra, el participante creó un material nuevo ("cemento", en bolsas) en lugar de registrar una entrada, aunque el inventario ya tenía "Cemento Portland"; el formulario no advierte de materiales con nombres similares. | 03:08 a 04:13                    | Usability – Prevención de errores                                                                |     2     | Sugerir materiales existentes al escribir el nombre y destacar "Registrar entrada" para las compras de materiales ya registrados.                                                  |
+| 3   | El formato válido del RUC se informa recién al validar el campo, por lo que el participante tuvo que corregir el dato.                                                                           | 04:00                            | Usability – Prevención de errores                                                                |     1     | Indicar bajo el campo que el RUC tiene 11 dígitos y empieza con 10, 15, 17 o 20.                                                                                                    |
+| 4   | No existe una guía de primeros pasos; el participante la considera necesaria para supervisores con menos experiencia digital.                                                                    | 07:59 a 08:44                    | Usability – Ayuda y documentación; Inclusive Design – Considera la situación                     |     2     | Incorporar una guía rápida con imágenes en el primer ingreso, alineada con TB-HU09 y EC09.                                                                                          |
+| 5   | Al abrir Asistencia, la vista mostró "No hay resultados para tu búsqueda" por un filtro de fecha aplicado por defecto.                                                                           | 08:00 (exploración libre)        | Usability – Visibilidad del estado del sistema                                                   |     3     | Mostrar el filtro activo como chip removible y un estado vacío con acceso a "Registrar asistencia". Coincide con el hallazgo 3 de la auditoría recibida (sección 6.4.2.4).         |
+
+**Aspectos positivos observados**
+
+- **Visibilidad del estado del sistema:** los registros de material e incidencia aparecieron de inmediato en sus listas, y el reporte semanal reflejó la entrada de cemento registrada antes.
+- **Reconocimiento antes que recuerdo:** la barra lateral le permitió ubicar Materiales, Incidentes y Reporte semanal sin ayuda.
+- **Consistencia y estándares:** los formularios de material e incidencia siguen la misma estructura, y el participante resaltó que los pasos y los botones están a la vista.
+
+**Contraste con los Hypothesis Statements**
+
+| Hypothesis Statement                     | Evidencia de la sesión                                                                 | Lectura                                                                                                              |
+| ---------------------------------------- | -------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- |
+| HS1 Gestión de materiales e inventario   | Registró la compra de cemento sin ayuda, con facilidad 7.                              | Evidencia favorable sobre la facilidad de registro; el hallazgo 2 muestra el riesgo de duplicar materiales.           |
+| HS7 Alertas sobre eventos relevantes     | Registró la incidencia con severidad alta sin ayuda, con facilidad 7.                  | Evidencia favorable sobre el registro; la sesión no evaluó la recepción de alertas.                                  |
+| HS6 Generación de reportes               | Descargó el reporte semanal en unos 40 segundos y lo consideró claro y útil.           | Evidencia favorable; el participante percibe ahorro de tiempo por la centralización de la información.               |
+
+<p align="justify">
+
+En conjunto, la sesión aporta evidencia favorable sobre la facilidad de uso de los flujos de materiales, incidencias y reportes para un supervisor con experiencia digital, pero no permite aceptar los Hypothesis Statements, porque corresponde a un solo participante. Las prioridades derivadas son corregir los hallazgos 5 y 2, ampliar las entrevistas a más supervisores y a contratantes, y medir el comportamiento de supervisores con menor experiencia digital, a quienes el propio participante identificó como los más beneficiados por una guía de uso.
+
+</p>
+
 ## 6.4. Auditoría de Experiencias de Usuario
 
 ### 6.4.1. Auditoría realizada
@@ -10141,7 +10294,7 @@ La verificación estática confirmó que los cuatro productos compilan y superan
 </p>
 <p align="justify">
 
-La auditoría de experiencia de usuario recibida del Grupo 4 – Energix identificó 26 hallazgos en ArquiTech: cinco de severidad 3, diecisiete de severidad 2 y cuatro de severidad 1. Entre los más relevantes se encuentran la exposición de términos internos de los experimentos, la mezcla de idiomas en la variante B de la Landing Page, la presentación de tablas en pantallas móviles y la falta de orientación ante errores. Para cada hallazgo se definió una modificación y se priorizaron los de severidad 3 para el siguiente release. A su vez, la auditoría realizada a SEMS documentó 16 problemas de usabilidad, diseño inclusivo y arquitectura de información, lo que permitió aplicar los mismos criterios de evaluación sobre un producto externo. Por su parte, las entrevistas de validación quedaron diseñadas con escenarios basados en los user flows de ambos segmentos, y su ejecución constituye el siguiente paso para contrastar la experiencia con usuarios reales.
+La auditoría de experiencia de usuario recibida del Grupo 4 – Energix identificó 26 hallazgos en ArquiTech: cinco de severidad 3, diecisiete de severidad 2 y cuatro de severidad 1. Entre los más relevantes se encuentran la exposición de términos internos de los experimentos, la mezcla de idiomas en la variante B de la Landing Page, la presentación de tablas en pantallas móviles y la falta de orientación ante errores. Para cada hallazgo se definió una modificación y se priorizaron los de severidad 3 para el siguiente release. A su vez, la auditoría realizada a SEMS documentó 16 problemas de usabilidad, diseño inclusivo y arquitectura de información, lo que permitió aplicar los mismos criterios de evaluación sobre un producto externo. Por su parte, en la entrevista de validación con un supervisor de obra, el participante completó sin ayuda el registro de materiales, el registro de incidencias y la descarga del reporte semanal, calificó su facilidad con 7 sobre 7 y propuso incorporar una guía rápida de uso; al tratarse de una sola sesión, estos resultados deben ampliarse con más supervisores y con contratantes.
 
 </p>
 <p align="justify">
@@ -10174,7 +10327,7 @@ Finalmente, ArquiTech cuenta con una base funcional y con una primera evaluació
 **Recomendaciones**
 
 - Repetir EC04, EC05, EC06 y EC07 con supervisores y contratantes, con la unidad de análisis y la escala definidas en 8.2.5, y registrar los costos necesarios para F01–F03 antes de aceptar o refutar H01–H10.
-- Ejecutar las entrevistas de validación diseñadas en 6.3.1 incorporando las preguntas exploratorias Q11 y Q12, y resolver Q11 antes de repetir EC08.
+- Ampliar las entrevistas de validación a más supervisores y a contratantes, incorporando las preguntas exploratorias Q11 y Q12, y resolver Q11 antes de repetir EC08.
 - Instrumentar la recepción y calificación de las solicitudes de demostración de la Landing Page para medir M11 y F03 en el Test A/B comercial de EC10.
 - Implementar primero las modificaciones de severidad 3 de la auditoría recibida (6.4.2.4) y registrar el commit o Pull Request de cada corrección.
 - Actualizar las dependencias de producción del Frontend Web y de la Landing Page con vulnerabilidades confirmadas, aplicar el formato definido con Prettier y refactorizar los flujos CRUD con mayor duplicación.
