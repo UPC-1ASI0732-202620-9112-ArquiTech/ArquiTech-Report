@@ -6879,7 +6879,7 @@ En esta entrega se realizó una entrevista de validación con un supervisor de o
 
 </p>
 
-**Video de la entrevista:** https://drive.google.com/drive/folders/1giAR_Rg9H8S-X68Kyvh4EhCrGsdpBhdv
+**Video de la entrevista:** https://drive.google.com/file/d/1Qg2OuV3OmMVvNWO4hdnMolGTMw3hlUIq/view?usp=sharing
 
 **Nombre del video:** `upc-pre-202620-1asi0732-9112-foundex-validation-interviews.mp4`
 
@@ -6902,7 +6902,7 @@ En esta entrega se realizó una entrevista de validación con un supervisor de o
 - **Entrevistador:** Garcia Cerpa, Braden Raid
 - **Timing de inicio:** 00:00
 - **Duración:** 10:18
-- **Video:** https://drive.google.com/drive/folders/1giAR_Rg9H8S-X68Kyvh4EhCrGsdpBhdv
+- **Video:** https://drive.google.com/file/d/1Qg2OuV3OmMVvNWO4hdnMolGTMw3hlUIq/view?usp=sharing
 
 **Resumen de la entrevista**
 
