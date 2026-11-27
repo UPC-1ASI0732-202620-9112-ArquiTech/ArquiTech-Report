@@ -6535,7 +6535,7 @@ Se agregaron tres funcionalidades Cucumber al Backend en la rama `test/bdd-tobe-
 | [attendance.feature](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/Arquitech-Backend/blob/test/bdd-tobe-tb2/arquitech-back-end/src/test/resources/features/attendance.feature) | Todos los trabajadores presentes | 3 registros de asistencia para la fecha | TB-HU02 (EC02) |
 | [attendance.feature](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/Arquitech-Backend/blob/test/bdd-tobe-tb2/arquitech-back-end/src/test/resources/features/attendance.feature) | Segundo registro del mismo trabajador y fecha | HTTP 409 `DUPLICATE_ATTENDANCE` y 3 registros | TB-HU02 (EC02) |
 
-**Ejecución:** la suite completa (`./mvnw clean verify`, que incluye `CucumberTest`) se ejecuta en el workflow CI del Backend al abrir el Pull Request de la rama `test/bdd-tobe-tb2` hacia `main`. El resultado y el enlace a esa ejecución se registran aquí cuando termine.
+**Ejecución:** la suite completa del Backend (`./mvnw clean verify`, que incluye `CucumberTest` con los ocho escenarios de las cuatro funcionalidades) terminó correctamente en la CI. La [ejecución #8](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/Arquitech-Backend/actions/runs/46044285378) del [Pull Request #10](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/Arquitech-Backend/pull/10) se aprobó en 55 s, y la [ejecución #9](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/Arquitech-Backend/actions/runs/46044695678) sobre `main`, después del merge, se aprobó en 1 min 2 s. Si un escenario falla, Maven detiene la verificación, por lo que el estado aprobado acredita que los ocho escenarios pasaron.
 
 
 ### 6.1.4. Core System Tests
@@ -8194,7 +8194,7 @@ Oscurecer el texto de las pestañas inactivas (por ejemplo, a #5f5a55) hasta alc
 
 <p align="justify">
 
-La siguiente tabla resume, para cada hallazgo de la auditoría recibida, la modificación realizada por el equipo de Foundex, su estado y el commit que la contiene. En la entrega TB2 se corrigieron los 26 hallazgos, empezando por los cinco de severidad 3. Las correcciones se verificaron con las pruebas unitarias, de integración y de sistema de 6.1.1, 6.1.2 y 6.1.4, y se integraron mediante los Pull Requests de las ramas `fix/audit-findings-tb2` (Frontend Web y Landing Page) y `test/bdd-tobe-tb2` (Backend).
+La siguiente tabla resume, para cada hallazgo de la auditoría recibida, la modificación realizada por el equipo de Foundex, su estado y el commit que la contiene. En la entrega TB2 se corrigieron los 26 hallazgos, empezando por los cinco de severidad 3. Las correcciones se verificaron con las pruebas unitarias, de integración y de sistema de 6.1.1, 6.1.2 y 6.1.4, y se integraron mediante los Pull Requests [Frontend Web #11](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendWeb/pull/11), [Landing Page #13](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-LandingPage/pull/13) y [Backend #10](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/Arquitech-Backend/pull/10), los tres fusionados en `main` con la CI aprobada.
 
 </p>
 
