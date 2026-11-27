@@ -158,7 +158,7 @@ Durante la entrega AV2, comprendida entre el 08/10/2026 y el 11/11/2026, el equi
 
 <p align="justify">
 
-A partir de esta entrega, el equipo está conformado por cuatro integrantes. Los aportes se registraron mediante ramas de trabajo y su integración a la rama principal del repositorio. En las analíticas de GitHub, los integrantes se identifican por su usuario: Vmer140 (Espino Rossi, Victor Manuel), BrooklynKarmis (Quispe Barzola, Fabricio Fabian), educmz (Chacaliaza Minaya, Eduardo Fabian) y BradenGarcia (Garcia Cerpa, Braden Raid). Las siguientes evidencias muestran las contribuciones y el historial de commits realizados durante la preparación de la entrega AV2, y guardan correspondencia con las versiones 3.0 a 3.9 del Registro de Versiones del Informe.
+A partir de esta entrega, el equipo está conformado por cuatro integrantes. Los aportes se registraron mediante ramas de trabajo y su integración a la rama principal del repositorio. En las analíticas de GitHub, los integrantes se identifican por su usuario: Vmer140 (Espino Rossi, Victor Manuel), BrooklynKarmis (Quispe Barzola, Fabricio Fabian), educmz (Chacaliaza Minaya, Eduardo Fabian) y BradenGarcia (Garcia Cerpa, Braden Raid). Las siguientes evidencias muestran las contribuciones y el historial de commits realizados durante la preparación de la entrega AV2, y guardan correspondencia con las versiones 3.0 a 3.14 del Registro de Versiones del Informe.
 
 </p>
 
