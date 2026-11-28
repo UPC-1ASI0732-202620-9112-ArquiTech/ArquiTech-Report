@@ -6856,6 +6856,14 @@ Los cuatro CI posteriores a la integración finalizaron exitosamente. En el Back
 
 <p align="center"><em>Backend: Análisis de duplicación y revisión de exposición aprobados; auditoría OSV con dos avisos residuales, conservados sin excepciones. Fuente: GitHub Actions, rama main.</em></p>
 
+**Cierre TB2 de la remediación del Backend (28/11/2026).**
+
+La situación anterior corresponde al diagnóstico previo a la migración. Mediante el [PR 15](https://github.com/educmz/Arquitech-Backend/pull/15) se actualizó Spring Boot 3.5.16 a 4.0.10 y Springdoc 2.8.8 a 3.0.3; se retiraron las versiones forzadas de Tomcat y Jackson de la generación anterior, se adaptó MockMvc al módulo de pruebas de Spring Boot 4 y se incorporó el módulo transitorio de compatibilidad con Jackson 2. Las pruebas conservaron sus criterios de aceptación. El merge se realizó en el commit `c19eb3d`. En la rama main, tras integrar también la plantilla de revisión, el commit `9e6a468` superó la [auditoría OSV](https://github.com/educmz/Arquitech-Backend/actions/runs/46153145057) (22 paquetes identificados en el POM, sin hallazgos reportados) y la [integración continua](https://github.com/educmz/Arquitech-Backend/actions/runs/46153145034) (18 pruebas, cero fallos, errores u omisiones). Los dos avisos MVC anteriores dejaron de aparecer en el alcance de la auditoría; no se introdujeron excepciones para ocultarlos. Se conservaron las limitaciones de cobertura del escáner y queda como mejora futura retirar la compatibilidad transitoria con Jackson 2. Las pruebas de contrato REST no sustituyen una validación directa de los clientes contra el despliegue de producción.
+
+<p align="center"><img src="assets/chapter-6/static-verification/tb2-code-quality-security-backend-final.png" alt="Auditoría final de seguridad del Backend" width="850"></p>
+
+<p align="center"><em>Backend: controles de calidad y auditoría de dependencias aprobados en main tras la migración. Fuente: GitHub Actions, ejecución 46153145057.</em></p>
+
 ### 6.2.2. Reviews
 
 <div style="text-align: justify;">
@@ -6882,6 +6890,37 @@ No se encontraron aprobaciones ni observaciones técnicas humanas verificables e
 
 </p>
 </div>
+
+
+**Actualización TB2: formalización de las revisiones.**
+
+El equipo incorporó una plantilla de Pull Requests en los cuatro repositorios, con criterios de alcance, trazabilidad, pruebas, calidad, seguridad, evidencias y riesgos pendientes. Los autores registran únicamente verificaciones realizadas; el revisor evalúa los cambios y documenta observaciones o aprobación antes de la integración. El 28/11/2026 la cuenta `BrooklynKarmis`, distinta de la cuenta autora, registró cuatro revisiones con estado APPROVED y comentarios específicos. Los cambios de estos PR fueron exclusivamente documentales.
+
+| Producto | Pull Request | Revisión registrada | Merge | CI en main | Calidad y seguridad en main |
+| --- | --- | --- | --- | --- | --- |
+| Landing Page | [#16](https://github.com/educmz/ArquiTech-LandingPage/pull/16) | APPROVED, 08:44:03 PET | `0bd0fc1` | [Exitoso](https://github.com/educmz/ArquiTech-LandingPage/actions/runs/46153124461) | [Exitosa](https://github.com/educmz/ArquiTech-LandingPage/actions/runs/46153124420) |
+| Frontend Web | [#14](https://github.com/educmz/ArquiTech-FrontendWeb/pull/14) | APPROVED, 08:44:31 PET | `bdd4cd7` | [Exitoso](https://github.com/educmz/ArquiTech-FrontendWeb/actions/runs/46153117790) | [Exitosa](https://github.com/educmz/ArquiTech-FrontendWeb/actions/runs/46153117715) |
+| Frontend Mobile | [#12](https://github.com/educmz/ArquiTech-FrontendMobile/pull/12) | APPROVED, 08:44:57 PET | `e297ba2` | [Exitoso](https://github.com/educmz/ArquiTech-FrontendMobile/actions/runs/46153130875) | [Exitosa](https://github.com/educmz/ArquiTech-FrontendMobile/actions/runs/46153130856) |
+| Backend | [#14](https://github.com/educmz/Arquitech-Backend/pull/14) | APPROVED, 08:45:07 PET | `9e6a468` | [Exitoso](https://github.com/educmz/Arquitech-Backend/actions/runs/46153145034) | [Exitosa](https://github.com/educmz/Arquitech-Backend/actions/runs/46153145057) |
+
+El revisor del Backend dejó constancia de los dos avisos de seguridad existentes al momento de la revisión. Estos fueron abordados posteriormente en el PR 15, integrado antes del PR 14, con pruebas y auditoría exitosas. La aprobación de la plantilla no equivale a una aprobación independiente de la migración ni de todos los PR históricos. Los comentarios automáticos que informaron límites de cuota no se contabilizaron como aprobaciones. Las correcciones de formato y dependencias pendientes del AV2 fueron abordadas en la sección 6.2.1; se mantiene como recomendación futura la protección de ramas y la revisión sistemática de cambios funcionales.
+
+<p align="center"><img src="assets/chapter-6/static-verification/tb2-reviews-landing.png" alt="Revisión aprobada de Landing Page" width="850"></p>
+
+<p align="center"><em>Landing Page: revisión APPROVED y registro de integración del Pull Request. Fuente: GitHub.</em></p>
+
+<p align="center"><img src="assets/chapter-6/static-verification/tb2-reviews-web.png" alt="Revisión aprobada de Frontend Web" width="850"></p>
+
+<p align="center"><em>Frontend Web: revisión APPROVED y registro de integración del Pull Request. Fuente: GitHub.</em></p>
+
+<p align="center"><img src="assets/chapter-6/static-verification/tb2-reviews-mobile.png" alt="Revisión aprobada de Frontend Mobile" width="850"></p>
+
+<p align="center"><em>Frontend Mobile: revisión APPROVED y registro de integración del Pull Request. Fuente: GitHub.</em></p>
+
+<p align="center"><img src="assets/chapter-6/static-verification/tb2-reviews-backend.png" alt="Revisión aprobada de Backend" width="850"></p>
+
+<p align="center"><em>Backend: revisión APPROVED y registro de integración del Pull Request. Fuente: GitHub.</em></p>
+
 
 ## 6.3. Validation Interviews
 
