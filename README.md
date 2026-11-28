@@ -6707,7 +6707,7 @@ En el Backend se observan paquetes Java en minúsculas, clases e interfaces en `
 </p>
 <p align="justify">
 
-El Frontend Web organiza Angular por capacidades (`iam`, `projects`, `inventory`, `workforce`, `reports` y `shared`), emplea archivos en `kebab-case` con sufijos `.component`, `.service`, `.guard` e `.interceptor`, clases en `PascalCase` y miembros en `camelCase`. `.editorconfig` exige UTF-8, espacios de dos caracteres, línea final y eliminación de espacios finales; `.prettierrc.json` añade ancho de 120 caracteres, comillas simples y comas finales. TypeScript activa `strict`, `noImplicitOverride`, `noImplicitReturns`, `noFallthroughCasesInSwitch` y plantillas Angular estrictas. El compilador no produjo diagnósticos, pero Prettier rechazó 162 archivos, por lo que la convención está definida y su cumplimiento actual es parcial.
+El Frontend Web organiza Angular por capacidades (`iam`, `projects`, `inventory`, `workforce`, `reports` y `shared`), emplea archivos en `kebab-case` con sufijos `.component`, `.service`, `.guard` e `.interceptor`, clases en `PascalCase` y miembros en `camelCase`. `.editorconfig` exige UTF-8, espacios de dos caracteres, línea final y eliminación de espacios finales; `.prettierrc.json` añade ancho de 120 caracteres, comillas simples y comas finales. TypeScript activa `strict`, `noImplicitOverride`, `noImplicitReturns`, `noFallthroughCasesInSwitch` y plantillas Angular estrictas. El compilador no produjo diagnósticos, pero en la línea base del AV2 Prettier rechazó 162 archivos. En el TB2 se verificó nuevamente el alcance configurado y se corrigieron 31 archivos mediante Prettier.
 
 </p>
 <p align="justify">
@@ -6717,7 +6717,7 @@ El Frontend Mobile sigue las convenciones de Dart: archivos en `snake_case`, tip
 </p>
 <p align="justify">
 
-La Landing Page aplica la nomenclatura Angular y TypeScript con archivos funcionales pequeños, clases en `PascalCase`, miembros en `camelCase` y separación entre componentes de producto, contenido legal, idioma e iconos. `tsconfig.json` activa modo estricto, control de retornos, caídas de `switch`, host bindings y plantillas estrictas; la comprobación TypeScript fue satisfactoria. La línea base no declara una herramienta específica de formato, por lo que esta dimensión se valoró mediante la consistencia observada en los archivos.
+La Landing Page aplica la nomenclatura Angular y TypeScript con archivos funcionales pequeños, clases en `PascalCase`, miembros en `camelCase` y separación entre componentes de producto, contenido legal, idioma e iconos. `tsconfig.json` activa modo estricto, control de retornos, caídas de `switch`, host bindings y plantillas estrictas; la comprobación TypeScript fue satisfactoria. La línea base no declaraba una herramienta específica de formato. En el TB2 se incorporó Prettier y se corrigieron 15 archivos del alcance configurado.
 
 </p>
 </div>
@@ -6726,10 +6726,23 @@ La Landing Page aplica la nomenclatura Angular y TypeScript con archivos funcion
 | --------------------------- | ------------------------------------------------------------------------------ | --------------------------------------------------------------------- | ------------------------------------------------------- | ------------------------------------------------------------ |
 | Nombres y archivos          | Convención Java observada; paquetes minúsculos y tipos `PascalCase`            | `kebab-case` y sufijos Angular; tipos `PascalCase`                    | `snake_case` y `UpperCamelCase` conforme a Dart         | Convención Angular observada                                 |
 | Modularidad                 | Capas y módulos funcionales; controladores, servicios y repositorios separados | Capacidades funcionales y módulo `shared`                             | Organización por feature con `data/domain/presentation` | Componentes pequeños separados por responsabilidad           |
-| Formato                     | Indentación consistente observada en las fuentes                               | Dos espacios y Prettier configurado; 162 archivos requieren ajuste    | Reglas de estilo incluidas mediante `flutter_lints`     | Consistencia observada en archivos de alcance acotado        |
+| Formato                     | Indentación consistente observada en las fuentes                               | Dos espacios y Prettier; 31 archivos corregidos en TB2    | `flutter_lints` y `dart format`; 15 archivos formateados     | Prettier; 15 archivos corregidos en TB2        |
 | Tipado                      | Java 17 y validación Jakarta; compilación satisfactoria                        | TypeScript y plantillas estrictas; compilación satisfactoria          | Dart sound typing y analyzer satisfactorio              | TypeScript y plantillas estrictas; compilación satisfactoria |
 | Comentarios y documentación | Javadoc selectivo y comentarios de intención                                   | TSDoc/comentarios en servicios y utilidades; no sustituyen el formato | Documentación breve en contratos y widgets complejos    | Comentarios mínimos, proporcionales al tamaño                |
-| Evaluación                  | Compilación y organización modular satisfactorias                              | Tipado estricto satisfactorio y ajuste de formato identificado        | Analyzer satisfactorio                                  | Tipado estricto y compilación satisfactorios                 |
+| Evaluación                  | Checkstyle y Maven Verify aprobados en el PR del TB2                              | Formato, pruebas y compilación aprobados en el PR del TB2        | Analyzer, formato, pruebas y APK aprobados en el PR del TB2 | Formato, pruebas y compilación aprobados en el PR del TB2                 |
+
+**Actualización TB2: verificación automatizada de convenciones.**
+
+Se incorporaron controles permanentes en GitHub Actions mediante ramas `feature/tb2-coding-standards` y Pull Requests independientes. Los controles se ejecutan antes de las pruebas y la compilación. En total se formatearon 61 archivos (15 Landing Page, 31 Frontend Web y 15 Frontend Mobile). En Mobile se corrigió además la observación `curly_braces_in_flow_control_structures` en `ec08_draft_store.dart`, sin cambiar la condición ni el comportamiento de la validación de duplicados. El Backend incorporó Checkstyle 3.6.0 (plugin Maven) con reglas de nomenclatura de paquetes, tipos, métodos, miembros, variables y constantes, así como importaciones no utilizadas; no requirió correcciones de fuentes para superar ese conjunto de reglas. No se desactivaron las comprobaciones para obtener resultados favorables.
+
+| Producto | Control automatizado | Evidencia de ejecución exitosa previa al merge | Integración a main |
+| --- | --- | --- | --- |
+| Landing Page | Prettier 3.9.9; TypeScript, HTML, CSS y traducciones en `src/assets/i18n` | [CI 46099673668](https://github.com/educmz/ArquiTech-LandingPage/actions/runs/46099673668): formato, pruebas y build aprobados | [PR 14](https://github.com/educmz/ArquiTech-LandingPage/pull/14), `6e76268` |
+| Frontend Web | Prettier; TypeScript, HTML, CSS y traducciones | [CI 46099524115](https://github.com/educmz/ArquiTech-FrontendWeb/actions/runs/46099524115): formato, pruebas y build aprobados | [PR 12](https://github.com/educmz/ArquiTech-FrontendWeb/pull/12), `32afe60` |
+| Frontend Mobile | `flutter analyze` y `dart format --output=none --set-exit-if-changed lib test` | [CI 46099879975](https://github.com/educmz/ArquiTech-FrontendMobile/actions/runs/46099879975): análisis, formato, pruebas y APK aprobados | [PR 10](https://github.com/educmz/ArquiTech-FrontendMobile/pull/10), `f1143bd` |
+| Backend | Checkstyle y `./mvnw clean verify` | [CI 46098842124](https://github.com/educmz/Arquitech-Backend/actions/runs/46098842124): convenciones y verificación Maven aprobadas | [PR 11](https://github.com/educmz/Arquitech-Backend/pull/11), `0fec3b9` |
+
+Las cuatro integraciones a `main` fueron confirmadas por GitHub. Las ejecuciones correspondientes a los commits de integración están disponibles en [Landing Page](https://github.com/educmz/ArquiTech-LandingPage/actions/runs/46101549420), [Frontend Web](https://github.com/educmz/ArquiTech-FrontendWeb/actions/runs/46101561296), [Frontend Mobile](https://github.com/educmz/ArquiTech-FrontendMobile/actions/runs/46101566428) y [Backend](https://github.com/educmz/Arquitech-Backend/actions/runs/46101555691). Los resultados anteriores acreditan los controles configurados, no una certificación de todas las convenciones posibles. Las pruebas Playwright E2E del Mobile permanecen deshabilitadas en el workflow por requerir un backend aislado; no se contabilizan como pruebas aprobadas.
 
 #### 6.2.1.2. Code Quality & Code Security.
 
