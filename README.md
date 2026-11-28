@@ -6744,6 +6744,26 @@ Se incorporaron controles permanentes en GitHub Actions mediante ramas `feature/
 
 Las cuatro integraciones a `main` fueron confirmadas por GitHub. Las ejecuciones correspondientes a los commits de integración están disponibles en [Landing Page](https://github.com/educmz/ArquiTech-LandingPage/actions/runs/46101549420), [Frontend Web](https://github.com/educmz/ArquiTech-FrontendWeb/actions/runs/46101561296), [Frontend Mobile](https://github.com/educmz/ArquiTech-FrontendMobile/actions/runs/46101566428) y [Backend](https://github.com/educmz/Arquitech-Backend/actions/runs/46101555691). Los resultados anteriores acreditan los controles configurados, no una certificación de todas las convenciones posibles. Las pruebas Playwright E2E del Mobile permanecen deshabilitadas en el workflow por requerir un backend aislado; no se contabilizan como pruebas aprobadas.
 
+**Evidencias de verificación posteriores a la integración (TB2).**
+
+Las cuatro ejecuciones de CI en la rama `main` finalizaron satisfactoriamente el 27 de noviembre de 2026 (hora de Perú). En la Landing Page se aprobaron 14 pruebas y en el Frontend Web, 56. El Backend registró cero infracciones de Checkstyle y 10 pruebas Maven sin fallos ni errores. En Mobile, el análisis estático no reportó incidencias, la verificación de formato evaluó 181 archivos sin cambios pendientes, las pruebas Flutter habilitadas fueron exitosas y se generó el APK de depuración.
+
+<p align="center"><img src="assets/chapter-6/static-verification/tb2-coding-standard-landing.png" alt="CI de Landing Page: formato, pruebas y compilación aprobados" width="850"></p>
+
+<p align="center"><em>Verificación de convenciones de código de la Landing Page: Prettier, pruebas y compilación ejecutados satisfactoriamente en main. Fuente: GitHub Actions, CI 46101549420.</em></p>
+
+<p align="center"><img src="assets/chapter-6/static-verification/tb2-coding-standard-web.png" alt="CI del Frontend Web: formato, pruebas y compilación aprobados" width="850"></p>
+
+<p align="center"><em>Verificación de convenciones de código del Frontend Web: Prettier, pruebas y compilación ejecutados satisfactoriamente en main. Fuente: GitHub Actions, CI 46101561296.</em></p>
+
+<p align="center"><img src="assets/chapter-6/static-verification/tb2-coding-standard-mobile.png" alt="CI del Frontend Mobile: análisis, formato, pruebas y APK aprobados" width="850"></p>
+
+<p align="center"><em>Verificación de convenciones de código del Frontend Mobile: análisis estático, formato Dart, pruebas habilitadas y generación del APK ejecutados satisfactoriamente en main. Fuente: GitHub Actions, CI 46101566428.</em></p>
+
+<p align="center"><img src="assets/chapter-6/static-verification/tb2-coding-standard-backend.png" alt="CI del Backend: Checkstyle y Maven Verify aprobados" width="850"></p>
+
+<p align="center"><em>Verificación de convenciones de código del Backend: Checkstyle y Maven Verify ejecutados satisfactoriamente en main. Fuente: GitHub Actions, CI 46101555691.</em></p>
+
 #### 6.2.1.2. Code Quality & Code Security.
 
 <div style="text-align: justify;">
