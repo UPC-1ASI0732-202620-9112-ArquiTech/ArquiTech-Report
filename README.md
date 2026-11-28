@@ -6769,7 +6769,7 @@ Las cuatro ejecuciones de CI en la rama `main` finalizaron satisfactoriamente el
 <div style="text-align: justify;">
 <p align="justify">
 
-La evaluación de calidad combinó duplicación por tokens y líneas, tamaño de archivos y un conteo complementario de puntos de decisión. Estas métricas permitieron localizar patrones repetidos en los flujos CRUD y priorizar los archivos con mayor concentración de lógica para futuras tareas de refactorización. El conteo considera ocurrencias de `if`, `for`, `while`, `case`, `catch`, `switch`, `&&`, `||` y operador condicional; constituye una aproximación estructural y no equivale a una medición formal de complejidad ciclomática.
+En la línea base del AV2, la evaluación de calidad combinó duplicación por tokens y líneas, tamaño de archivos y un conteo complementario de puntos de decisión. Estas métricas permitieron localizar patrones repetidos en los flujos CRUD y priorizar los archivos con mayor concentración de lógica para futuras tareas de refactorización. El conteo considera ocurrencias de `if`, `for`, `while`, `case`, `catch`, `switch`, `&&`, `||` y operador condicional; constituye una aproximación estructural y no equivale a una medición formal de complejidad ciclomática.
 
 </p>
 </div>
@@ -6792,7 +6792,7 @@ La evaluación de calidad combinó duplicación por tokens y líneas, tamaño de
 <div style="text-align: justify;">
 <p align="justify">
 
-La revisión de seguridad verificó el uso de consultas JPQL parametrizadas, validación de entradas, autorización por roles, contraseñas protegidas con BCrypt, JWT firmado y almacenamiento seguro del token en Mobile. Complementariamente, `npm audit` examinó las dependencias de producción de Web y Landing sin aplicar `audit fix`, lo que permitió registrar vulnerabilidades vigentes y acciones de actualización sin alterar las versiones instaladas.
+En el AV2, la revisión de seguridad verificó el uso de consultas JPQL parametrizadas, validación de entradas, autorización por roles, contraseñas protegidas con BCrypt, JWT firmado y almacenamiento seguro del token en Mobile. Complementariamente, `npm audit` examinó las dependencias de producción de Web y Landing sin aplicar `audit fix`, lo que permitió registrar vulnerabilidades vigentes y acciones de actualización sin alterar las versiones instaladas.
 
 </p>
 </div>
@@ -6811,10 +6811,50 @@ La revisión de seguridad verificó el uso de consultas JPQL parametrizadas, val
 <div style="text-align: justify;">
 <p align="justify">
 
-El alcance no incluyó una calificación global de mantenibilidad ni una auditoría concluyente de CVE para Maven o Flutter. `flutter analyze` informó 32 paquetes con versiones más recientes incompatibles con las restricciones actuales; este resultado orienta el mantenimiento de dependencias, pero no equivale por sí mismo a una vulnerabilidad confirmada.
+El alcance del AV2 no incluyó una calificación global de mantenibilidad ni una auditoría concluyente de CVE para Maven o Flutter. `flutter analyze` informó 32 paquetes con versiones más recientes incompatibles con las restricciones actuales; este resultado orienta el mantenimiento de dependencias, pero no equivale por sí mismo a una vulnerabilidad confirmada.
 
 </p>
 </div>
+
+**Actualización TB2: análisis automatizado de calidad y seguridad.**
+
+Se incorporó el workflow `code-quality-security.yml` en los cuatro repositorios para ejecutar jscpd 4.0.5 (mínimo de cinco líneas y 50 tokens) y auditorías de dependencias con conservación de informes JSON como artefactos de GitHub Actions. El análisis de duplicación comprende TypeScript y CSS en Landing Page y Frontend Web, Dart en Frontend Mobile y Java en Backend; no incluye HTML. Los resultados de AV2 se conservan como referencia histórica, sin asumir que las variaciones de porcentaje equivalen a una mejora o deterioro causal, debido a cambios de alcance y tamaño del código.
+
+| Producto | Archivos | Líneas analizadas | Clones | Líneas duplicadas | Resultado de auditoría en main |
+| --- | ---: | ---: | ---: | --- | --- |
+| Landing Page | 17 | 1957 | 1 | 9 (0,46 %) | npm audit de producción: 0 hallazgos |
+| Frontend Web | 137 | 10889 | 27 | 317 (2,91 %) | npm audit de producción: 0 hallazgos |
+| Frontend Mobile | 148 | 10927 | 36 | 428 (3,92 %) | OSV: 100 paquetes del pubspec.lock, sin hallazgos |
+| Backend | 142 | 3237 | 22 | 158 (4,88 %) | OSV: 21 paquetes identificados a partir del pom.xml; dos avisos residuales |
+
+**Acciones correctivas y trazabilidad.**
+
+| Producto | Diagnóstico inicial TB2 | Corrección / resultado | Evidencia |
+| --- | --- | --- | --- |
+| Landing Page | 6 hallazgos altos de producción | Actualización compatible de Angular 20 y lockfile; 0 hallazgos de producción | [PR 15](https://github.com/educmz/ArquiTech-LandingPage/pull/15), [auditoría final](https://github.com/educmz/ArquiTech-LandingPage/actions/runs/46106197260), [CI](https://github.com/educmz/ArquiTech-LandingPage/actions/runs/46106197266) |
+| Frontend Web | 8 hallazgos: 1 bajo, 3 moderados y 4 altos | Actualización de DOMPurify y migración coordinada Angular 19 a 20, retirando la dependencia directa no utilizada platform-browser-dynamic; 0 hallazgos de producción | [PR 13](https://github.com/educmz/ArquiTech-FrontendWeb/pull/13), [migración y pruebas](https://github.com/educmz/ArquiTech-FrontendWeb/actions/runs/46108804206), [auditoría final](https://github.com/educmz/ArquiTech-FrontendWeb/actions/runs/46119481520), [CI](https://github.com/educmz/ArquiTech-FrontendWeb/actions/runs/46119481417) |
+| Frontend Mobile | Sin hallazgos en el lockfile analizado | Se mantuvieron las dependencias y se incorporó la auditoría OSV | [PR 11](https://github.com/educmz/ArquiTech-FrontendMobile/pull/11), [auditoría final](https://github.com/educmz/ArquiTech-FrontendMobile/actions/runs/46106205018), [CI](https://github.com/educmz/ArquiTech-FrontendMobile/actions/runs/46106204984) |
+| Backend | Avisos en dependencias Maven | Spring Boot 3.5.0 a 3.5.16; Jackson 2.21.7, Commons Lang 3.18.0, Log4j 2.25.5 y Tomcat 10.1.59; dos avisos de Spring Web MVC 6.2.19 permanecen | [PR 12](https://github.com/educmz/Arquitech-Backend/pull/12), [auditoría final](https://github.com/educmz/Arquitech-Backend/actions/runs/46140966788), [CI](https://github.com/educmz/Arquitech-Backend/actions/runs/46140966753) |
+
+Los cuatro CI posteriores a la integración finalizaron exitosamente. En el Backend, los avisos [GHSA-j9f9-w8pj-32f8](https://github.com/advisories/GHSA-j9f9-w8pj-32f8) y [GHSA-pc63-qcmh-9cmg](https://github.com/advisories/GHSA-pc63-qcmh-9cmg) permanecen abiertos. La revisión automatizada de exposición no encontró referencias directas a SSE/renderizado de fragmentos MVC ni a vistas o plantillas XSLT en las fuentes y configuraciones inspeccionadas; identificó nueve controladores REST. Este resultado limita la exposición observada, pero no demuestra ausencia de riesgo. Se integraron las mejoras parciales dejando el control OSV en estado de fallo y sin suprimir avisos. La acción pendiente es evaluar una migración coordinada a Spring Boot 4 y Spring Framework 7 con versiones corregidas, pruebas de regresión y verificación de exposición. Los resultados de npm se limitan a dependencias de producción; no certifican las dependencias de desarrollo. La revisión de Maven se limita a los paquetes identificados por el escáner a partir del POM, sin garantizar cobertura exhaustiva de transitivas. Las advertencias de obsolescencia del runtime Node.js de las acciones se mantienen como tarea de mantenimiento.
+
+**Evidencias de GitHub Actions posteriores a la integración.**
+
+<p align="center"><img src="assets/chapter-6/static-verification/tb2-code-quality-security-landing.png" alt="Verificación TB2 de calidad y seguridad: Landing Page" width="850"></p>
+
+<p align="center"><em>Landing Page: Análisis de duplicación y auditoría npm de producción aprobados. Fuente: GitHub Actions, rama main.</em></p>
+
+<p align="center"><img src="assets/chapter-6/static-verification/tb2-code-quality-security-web.png" alt="Verificación TB2 de calidad y seguridad: Frontend Web" width="850"></p>
+
+<p align="center"><em>Frontend Web: Análisis de duplicación y auditoría npm de producción aprobados tras la migración Angular. Fuente: GitHub Actions, rama main.</em></p>
+
+<p align="center"><img src="assets/chapter-6/static-verification/tb2-code-quality-security-mobile.png" alt="Verificación TB2 de calidad y seguridad: Frontend Mobile" width="850"></p>
+
+<p align="center"><em>Frontend Mobile: Análisis de duplicación y auditoría OSV del lockfile aprobados. Fuente: GitHub Actions, rama main.</em></p>
+
+<p align="center"><img src="assets/chapter-6/static-verification/tb2-code-quality-security-backend.png" alt="Verificación TB2 de calidad y seguridad: Backend" width="850"></p>
+
+<p align="center"><em>Backend: Análisis de duplicación y revisión de exposición aprobados; auditoría OSV con dos avisos residuales, conservados sin excepciones. Fuente: GitHub Actions, rama main.</em></p>
 
 ### 6.2.2. Reviews
 
