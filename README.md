@@ -8318,7 +8318,7 @@ Este capítulo documenta la integración, entrega y despliegue de ArquiTech a pa
 
 ## 7.1. Continuous Integration
 
-La integración continua se implementa mediante GitHub Actions en los repositorios del Backend, Frontend Web, Frontend Mobile y Landing Page. Los cuatro workflows se activan ante `push` a `main` y `pull_request` dirigido a `main`, operan con el permiso `contents: read` y ejecutan verificaciones reproducibles antes de aceptar o después de integrar un cambio. Las corridas verificadas el 07/10/2026 muestran resultados aprobados para los jobs principales de los cuatro productos.
+La integración continua se implementa mediante GitHub Actions en los repositorios del Backend, Frontend Web, Frontend Mobile y Landing Page. Los cuatro workflows se activan ante `push` a `main` y `pull_request` dirigido a `main` (Landing Page y Mobile también ante `push` a `experiment/ab-evaluation`), operan con el permiso `contents: read` y ejecutan verificaciones reproducibles antes de aceptar o después de integrar un cambio. Las corridas verificadas el 07/10/2026 constituyen la línea base; los resultados de TB2 del 28/11/2026 se presentan a continuación.
 
 ### 7.1.1. Tools and Practices
 
@@ -8332,6 +8332,10 @@ GitHub Actions obtiene el código, prepara las versiones de Node.js, Java o Flut
 | Landing Page    | `Test and build`                   | Ubuntu, Node.js 20, caché npm, pruebas en ChromeHeadless y build.                                    |
 
 El workflow móvil declara además el job `Playwright E2E (disabled - requires isolated test backend)` con la condición `if: ${{ false }}`; GitHub lo registra como `SKIPPED`. Por tanto, Playwright no forma parte de la ejecución automática actual. Los escenarios existentes utilizan cuentas fijas y modifican datos compartidos del Backend productivo en Railway; su automatización segura requiere un Backend de pruebas aislado y datos deterministas. Esta limitación no constituye un fallo del job Flutter, cuyo análisis, pruebas y build finalizaron satisfactoriamente.
+
+**Actualización TB2: selección de herramientas y controles.**
+
+GitHub Actions se mantiene por su integración directa con el control de versiones, los eventos de Pull Request y la trazabilidad de cada ejecución. Frente a un servidor Jenkins autogestionado, evita mantener un servidor de CI propio; frente a trasladar el código a otra plataforma de CI, conserva la revisión y los resultados en el repositorio existente. Esta decisión reduce tareas de administración, aunque mantiene la dependencia del servicio de runners y sus límites. Se utiliza npm con lockfile en Angular, Maven Wrapper en Java y Flutter con versión declarada para conservar herramientas compatibles con cada producto. Los controles de formato y convenciones se incorporaron al CI (Prettier, Dart format, Checkstyle), complementados por el workflow independiente de calidad y seguridad de la sección 6.2.1.2. Los resultados se revisan antes de integrar; no se presupone que exista una regla de protección de rama que impida técnicamente todo merge fallido.
 
 ### 7.1.2. Build & Test Suite Pipeline Components
 
@@ -8349,6 +8353,19 @@ En el Frontend Web, el commit inicial de CI fue [`851a4bb`](https://github.com/U
 Los merges verificados de los otros productos corresponden a [`19980dee`](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/Arquitech-Backend/commit/19980dee0f4945aa76bd1744529d954e7fc7fc68) para Backend, [`3ceed28a`](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-FrontendMobile/commit/3ceed28af4bd426dbd97f6e23e42977ae25c8770) para Frontend Mobile y [`844f69d4`](https://github.com/UPC-1ASI0732-202620-9112-ArquiTech/ArquiTech-LandingPage/commit/844f69d40779e3dfa49805f2710cc79a215855c9) para Landing Page. En cada caso, el evento `push` generado por el merge volvió a ejecutar el workflow sobre `main` con resultado exitoso.
 
 El build móvil valida que el APK de depuración puede compilarse automáticamente. El workflow no utiliza `actions/upload-artifact` ni otro paso equivalente; por ello, el APK no se publica como artifact persistente de GitHub Actions y esta validación no constituye Continuous Deployment hacia una tienda.
+
+**Actualización TB2: ejecución y trazabilidad de CI (28/11/2026).**
+
+| Producto | Configuración vigente | Verificaciones y compilación | Resultado de pruebas | Evidencia CI del PR |
+| --- | --- | --- | --- | --- |
+| Landing Page | [ci.yml](https://github.com/educmz/ArquiTech-LandingPage/blob/main/.github/workflows/ci.yml) | Node 20, npm ci, Prettier 3.9.9, ChromeHeadless, npm run build | 14/14 aprobadas | [PR 16: CI](https://github.com/educmz/ArquiTech-LandingPage/actions/runs/46148196964) |
+| Frontend Web | [ci.yml](https://github.com/educmz/ArquiTech-FrontendWeb/blob/main/.github/workflows/ci.yml) | Node 20, npm ci, Prettier local, npm run test:ci, npm run build | 56/56 aprobadas | [PR 14: CI](https://github.com/educmz/ArquiTech-FrontendWeb/actions/runs/46148199801) |
+| Frontend Mobile | [ci.yml](https://github.com/educmz/ArquiTech-FrontendMobile/blob/main/.github/workflows/ci.yml) | Java 17, Flutter 3.47.6, pub get, analyze, dart format, flutter test, build apk --debug | 114/114 aprobadas; Playwright omitido | [PR 12: CI](https://github.com/educmz/ArquiTech-FrontendMobile/actions/runs/46148210414) |
+| Backend | [ci.yml](https://github.com/educmz/Arquitech-Backend/blob/main/.github/workflows/ci.yml) | Temurin 17, Checkstyle 3.6.0, Maven Wrapper clean verify, Spring Boot 4.0.10 | 18/18 aprobadas; 0 fallos, errores u omisiones | [PR 15: CI](https://github.com/educmz/Arquitech-Backend/actions/runs/46152089922) |
+
+Los logs de estas cuatro ejecuciones registran 202 pruebas aprobadas en total y compilación satisfactoria de los cuatro productos. El Backend incluye dos pruebas de seguridad del endpoint de salud, ocho de integración API y ocho de Cucumber. La suma representa ejecuciones de pruebas automatizadas de suites diferentes, no participantes ni observaciones de los experimentos de negocio. La ejecución de Playwright Mobile permanece omitida porque requiere aislamiento de datos y entorno; no se suma al resultado. Las ramas experimentales de Landing y Mobile cuentan con disparador de CI, y los PR hacia main de los cuatro productos permiten verificar cambios antes de integrar, incluyendo los cambios vinculados al desarrollo experimental. Estos controles acreditan la aptitud técnica de las versiones evaluadas, no la confirmación de hipótesis de negocio.
+
+Como evidencia complementaria posterior a la integración, se conservan las cuatro capturas de CI en main del 27/11/2026 en la sección [6.2.1.1](#6211-coding-standard--code-conventions), junto con sus enlaces a las ejecuciones. Las cifras del 28/11 corresponden específicamente a los PR enlazados en esta actualización y no se atribuyen a las capturas anteriores. Los merges de TB2 y la auditoría posterior del Backend se documentan en las secciones 6.2.1.2 y 6.2.2. La publicación persistente de paquetes y el despliegue se evalúan por separado en 7.2 y 7.3.
 
 ## 7.2. Continuous Delivery
 
